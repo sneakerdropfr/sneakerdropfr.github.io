@@ -587,3 +587,19 @@ button { cursor: pointer; background: none; border: none; font: inherit; }
   margin-top: .6rem;
   align-self: flex-start;
 }
+
+.release-card__img-link {
+  display: block;
+  overflow: hidden;
+}
+.release-card__img-link:hover .release-card__img {
+  transform: scale(1.03);
+  transition: transform .3s ease;
+}
+.release-card__title-link {
+  color: inherit;
+  text-decoration: none;
+}
+.release-card__title-link:hover {
+  color: var(--color-accent);
+}
