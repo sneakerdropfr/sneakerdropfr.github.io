@@ -178,18 +178,19 @@
     function renderCard(r) {
       const date = formatDate(r.date);
       const price = r.price || 'Prix NC';
+      const articleUrl = `sorties/${r.id}.html`;
       const img = r.image_url
         ? `<img src="${r.image_url}" alt="${r.title}" class="release-card__img" loading="lazy" onerror="this.style.display='none'">`
         : `<div class="release-card__img release-card__img--placeholder"></div>`;
       const btn = r.buy_url
         ? `<a href="${r.buy_url}" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Acheter</a>`
-        : '';
+        : `<a href="${articleUrl}" class="btn btn--ghost btn--sm">Voir l'article</a>`;
       return `
         <article class="release-card">
-          ${img}
+          <a href="${articleUrl}" class="release-card__img-link">${img}</a>
           <div class="release-card__body">
             <span class="release-card__brand">${r.brand || ''}</span>
-            <h3 class="release-card__title">${r.title}</h3>
+            <h3 class="release-card__title"><a href="${articleUrl}" class="release-card__title-link">${r.title}</a></h3>
             <div class="release-card__meta">
               <span class="release-card__date">${date}</span>
               <span class="release-card__price">${price}</span>
