@@ -147,6 +147,78 @@
     </div>
   </section>
 
+  <!-- RELEASES -->
+  <section class="releases" id="releases">
+    <div class="container">
+      <h2 class="section__title">Prochaines sorties</h2>
+      <p class="section__sub">Mis à jour automatiquement dès qu'un nouveau drop est détecté.</p>
+      <div class="releases__grid" id="releases-grid">
+        <div class="releases__loading">Chargement des sorties...</div>
+      </div>
+      <div class="releases__empty" id="releases-empty" style="display:none">
+        <p>Aucune sortie détectée pour le moment. Reviens bientôt !</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+  (function() {
+    const RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now();
+    const grid = document.getElementById('releases-grid');
+    const empty = document.getElementById('releases-empty');
+
+    function formatDate(str) {
+      if (!str || str === 'TBD') return 'Date à confirmer';
+      try {
+        const d = new Date(str);
+        return d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+      } catch(e) { return str; }
+    }
+
+    function renderCard(r) {
+      const date = formatDate(r.date);
+      const price = r.price || 'Prix NC';
+      const img = r.image_url
+        ? `<img src="${r.image_url}" alt="${r.title}" class="release-card__img" loading="lazy" onerror="this.style.display='none'">`
+        : `<div class="release-card__img release-card__img--placeholder"></div>`;
+      const btn = r.buy_url
+        ? `<a href="${r.buy_url}" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Acheter</a>`
+        : '';
+      return `
+        <article class="release-card">
+          ${img}
+          <div class="release-card__body">
+            <span class="release-card__brand">${r.brand || ''}</span>
+            <h3 class="release-card__title">${r.title}</h3>
+            <div class="release-card__meta">
+              <span class="release-card__date">${date}</span>
+              <span class="release-card__price">${price}</span>
+            </div>
+            <span class="release-card__source">${r.source || ''}</span>
+            ${btn}
+          </div>
+        </article>`;
+    }
+
+    fetch(RELEASES_URL)
+      .then(r => r.json())
+      .then(data => {
+        // Filtre : exclure les entrées de test
+        const releases = data.filter(r => !r.id.startsWith('test-'));
+        if (!releases.length) {
+          grid.style.display = 'none';
+          empty.style.display = 'block';
+          return;
+        }
+        grid.innerHTML = releases.map(renderCard).join('');
+      })
+      .catch(() => {
+        grid.style.display = 'none';
+        empty.style.display = 'block';
+      });
+  })();
+  </script>
+
   <!-- CTA FINAL -->
   <section class="cta-section">
     <div class="container cta-section__inner">
