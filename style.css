@@ -622,3 +622,9 @@ button { cursor: pointer; background: none; border: none; font: inherit; }
 .feature-card--link:hover .feature-card__title {
   color: var(--color-accent);
 }
+
+/* Retailers */
+.article__retailers { margin: 1.5rem 0; }
+.article__retailers-label { font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; color: #888; margin-bottom: .5rem; }
+.article__retailers-list { display: flex; flex-wrap: wrap; gap: .5rem; }
+.retailer-tag { background: #1a1a1a; border: 1px solid #333; color: #ccc; font-size: .8rem; font-weight: 600; padding: .3rem .75rem; border-radius: 20px; }
