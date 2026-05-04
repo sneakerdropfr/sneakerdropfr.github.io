@@ -7,7 +7,6 @@
   <meta name="description" content="Alertes restocks, promos et sorties sneakers en temps réel sur Telegram. Nike, Jordan, Adidas, New Balance — ne ratez plus aucun drop." />
   <meta property="og:title" content="SneakerDrop FR — Restocks & Deals Sneakers" />
   <meta property="og:description" content="Alertes restocks, promos et sorties sneakers en temps réel sur Telegram." />
-  <meta property="og:image" content="https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-3-bin23-io7744-600-release-date.jpg" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://sneakerdropfr.com" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -57,38 +56,18 @@
       </div>
       <div class="hero__ticker">
         <div class="ticker__track">
-          <span>DROP — Nike Dunk Low Retro Clover le 1 mai</span>
-          <span>DROP — Jordan Herir 2.0 WMNS “Oh Sheila” le 1 mai</span>
-          <span>DROP — Jordan Luka 5 “Familia” le 1 mai</span>
-          <span>DROP — Jordan Tatum 4 “Black/Ice Blue” le 1 mai</span>
-          <span>DROP — Jordan Luka 5 “Luka Lifestyle” le 1 mai</span>
-          <span>DROP — Air Jordan 1 Low OG Banned le 2 mai</span>
-          <span>DROP — CLOT by Edison Chen x adidas Samba “Cloud White” le 2 mai</span>
-          <span>DROP — Air Jordan 4 Toro Bravo le 2 mai</span>
-          <span>DROP — Bluetile x Nike SB Dunk Low le 4 mai</span>
-          <span>DROP — Air Jordan 11 Low Mother's Day le 9 mai</span>
-          <span>DROP — Air Jordan 3 Brazil le 16 mai</span>
-          <span>DROP — Air Jordan 3 OG World's Best Dad le 16 mai</span>
-          <span>DROP — Travis Scott x Air Jordan 1 Low OG Pink Pack le 22 mai</span>
-          <span>DROP — Nigel Sylvester x Air Jordan 4 Brick After Brick le 22 mai</span>
-          <span>DROP — Air Jordan 12 Bloodline le 23 mai</span>
-          <span>DROP — Air Jordan 3 Bin23 le 13 juin</span>
-          <span>DROP — Nike Dunk Low Retro Clover le 1 mai</span>
-          <span>DROP — Jordan Herir 2.0 WMNS “Oh Sheila” le 1 mai</span>
-          <span>DROP — Jordan Luka 5 “Familia” le 1 mai</span>
-          <span>DROP — Jordan Tatum 4 “Black/Ice Blue” le 1 mai</span>
-          <span>DROP — Jordan Luka 5 “Luka Lifestyle” le 1 mai</span>
-          <span>DROP — Air Jordan 1 Low OG Banned le 2 mai</span>
-          <span>DROP — CLOT by Edison Chen x adidas Samba “Cloud White” le 2 mai</span>
-          <span>DROP — Air Jordan 4 Toro Bravo le 2 mai</span>
-          <span>DROP — Bluetile x Nike SB Dunk Low le 4 mai</span>
-          <span>DROP — Air Jordan 11 Low Mother's Day le 9 mai</span>
-          <span>DROP — Air Jordan 3 Brazil le 16 mai</span>
-          <span>DROP — Air Jordan 3 OG World's Best Dad le 16 mai</span>
-          <span>DROP — Travis Scott x Air Jordan 1 Low OG Pink Pack le 22 mai</span>
-          <span>DROP — Nigel Sylvester x Air Jordan 4 Brick After Brick le 22 mai</span>
-          <span>DROP — Air Jordan 12 Bloodline le 23 mai</span>
-          <span>DROP — Air Jordan 3 Bin23 le 13 juin</span>
+          <span>📅 DROP — Travis Scott x AJ1 Low Pink Pack le 22 mai</span>
+          <span>📅 DROP — Air Jordan 11 Low Mother's Day le 9 mai</span>
+          <span>📅 DROP — Air Jordan 3 Brazil le 16 mai</span>
+          <span>📅 DROP — Travis Scott x AJ1 Low Pink Pack le 22 mai</span>
+          <span>📅 DROP — Nigel Sylvester x AJ4 Brick After Brick le 22 mai</span>
+          <span>📅 DROP — Air Jordan 12 Bloodline le 23 mai</span>
+          <span>📅 DROP — Travis Scott x AJ1 Low Pink Pack le 22 mai</span>
+          <span>📅 DROP — Air Jordan 11 Low Mother's Day le 9 mai</span>
+          <span>📅 DROP — Air Jordan 3 Brazil le 16 mai</span>
+          <span>📅 DROP — Travis Scott x AJ1 Low Pink Pack le 22 mai</span>
+          <span>📅 DROP — Nigel Sylvester x AJ4 Brick After Brick le 22 mai</span>
+          <span>📅 DROP — Air Jordan 12 Bloodline le 23 mai</span>
         </div>
       </div>
     </div>
@@ -110,8 +89,8 @@
         <span class="stat__label">Monitoring actif</span>
       </div>
       <div class="stat">
-        <span class="stat__num" id="tg-count">...</span>
-        <span class="stat__label">Membres Telegram</span>
+        <span class="stat__num">100%</span>
+        <span class="stat__label">Gratuit</span>
       </div>
     </div>
   </section>
@@ -374,21 +353,10 @@
       <p class="footer__copy">Canal Telegram de veille sneakers — alertes restocks, promos et drops en temps réel.</p>
       <div class="footer__links">
         <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener">Telegram</a>
-        <a href="https://tiktok.com/@sneakerdropfr" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://tiktok.com/@SneakersDropsFR" target="_blank" rel="noopener">TikTok</a>
       </div>
     </div>
   </footer>
 
-
-  <script>
-    // Compteur abonnés Telegram
-    fetch('https://api.telegram.org/bot8262959075:AAEy29U94umgN4agANUvsbCS_9_wlbDb7d8/getChatMemberCount?chat_id=@sneakerdropfr')
-      .then(r => r.json())
-      .then(d => {
-        const el = document.getElementById('tg-count');
-        if (el && d.result) el.textContent = d.result.toLocaleString('fr-FR') + '+';
-      })
-      .catch(() => {});
-  </script>
 </body>
 </html>
