@@ -21,6 +21,21 @@
     gtag('js', new Date());
     gtag('config', 'G-XXXXXXXXXX');
   </script>
+
+  <style id="cookie-style">
+    #cookie-banner {
+      position: fixed; bottom: 1.5rem; left: 50%; transform: translateX(-50%);
+      background: #1a1a1a; border: 1px solid #333; border-radius: 12px;
+      padding: 1rem 1.5rem; display: flex; align-items: center; gap: 1.5rem;
+      max-width: 560px; width: calc(100% - 2rem); z-index: 9999;
+      box-shadow: 0 8px 32px rgba(0,0,0,.5); font-size: .85rem; color: #aaa;
+    }
+    #cookie-banner p { margin: 0; flex: 1; line-height: 1.5; }
+    #cookie-banner a { color: #E8FF00; }
+    #cookie-accept { background: #E8FF00; color: #111; border: none; border-radius: 8px;
+      padding: .5rem 1.25rem; font-weight: 700; font-size: .85rem; cursor: pointer; white-space: nowrap; }
+    #cookie-accept:hover { opacity: .85; }
+  </style>
 </head>
 <body>
 
@@ -370,5 +385,26 @@
     </div>
   </footer>
 
+
+  <div id="cookie-banner">
+    <p>Ce site utilise Google Analytics pour mesurer l'audience. <a href="privacy.html">En savoir plus</a>.</p>
+    <button id="cookie-accept">J'accepte</button>
+  </div>
+  <script>
+    (function() {
+      if (localStorage.getItem('cookie-ok')) {
+        document.getElementById('cookie-banner') && (document.getElementById('cookie-banner').style.display = 'none');
+        return;
+      }
+      document.addEventListener('DOMContentLoaded', function() {
+        var b = document.getElementById('cookie-banner');
+        var btn = document.getElementById('cookie-accept');
+        if (btn) btn.addEventListener('click', function() {
+          localStorage.setItem('cookie-ok', '1');
+          b.style.display = 'none';
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
