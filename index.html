@@ -258,8 +258,11 @@
       const img = r.image_url
         ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="release-card__img" loading="lazy" onerror="this.style.display=\'none\'">'
         : '<div class="release-card__img release-card__img--placeholder"></div>';
+      const isPast = r.date && r.date !== 'TBD' && new Date(r.date) <= new Date();
+      const btnLabel = isPast ? 'Acheter' : 'Voir sur BSTN';
+      const btnClass = isPast ? 'btn--primary' : 'btn--ghost';
       const btn = r.buy_url
-        ? '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Acheter</a>'
+        ? '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="btn ' + btnClass + ' btn--sm">' + btnLabel + '</a>'
         : '<a href="' + articleUrl + '" class="btn btn--ghost btn--sm">Voir l\'article</a>';
 
       let badge = '';
