@@ -12,7 +12,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700;900&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet" />
-
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TQQ3RSJJV"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -20,96 +19,53 @@
     gtag('js', new Date());
     gtag('config', 'G-1TQQ3RSJJV');
   </script>
-
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
       --green: #C8FF00;
       --pink: #FF2D6B;
       --black: #0a0a0a;
-      --dark: #111111;
+      --dark: #111;
       --card: #161616;
       --border: #222;
-      --text: #ffffff;
+      --text: #fff;
       --muted: #888;
       --font-display: 'Bebas Neue', sans-serif;
       --font-body: 'Barlow', sans-serif;
       --font-condensed: 'Barlow Condensed', sans-serif;
     }
     html { scroll-behavior: smooth; }
-    body { background: var(--black); color: var(--text); font-family: var(--font-body); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+    body { background: var(--black); color: var(--text); font-family: var(--font-body); -webkit-font-smoothing: antialiased; overflow-x: hidden; padding-bottom: 80px; }
     a { text-decoration: none; color: inherit; }
     img { max-width: 100%; display: block; }
     .container { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
 
     /* URGENCY BAR */
-    .urgency-bar {
-      background: var(--pink); color: #fff; text-align: center;
-      padding: .6rem 1rem; font-family: var(--font-condensed);
-      font-size: .95rem; font-weight: 700; letter-spacing: .08em;
-      text-transform: uppercase; animation: pulse-bar 2s ease-in-out infinite;
-    }
+    .urgency-bar { background: var(--pink); color: #fff; text-align: center; padding: .55rem 1rem; font-family: var(--font-condensed); font-size: .9rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; animation: pulse-bar 2s ease-in-out infinite; }
     @keyframes pulse-bar { 0%,100%{opacity:1} 50%{opacity:.85} }
 
     /* HEADER */
-    .header {
-      position: sticky; top: 0; z-index: 100;
-      background: rgba(10,10,10,.95); backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-    }
+    .header { position: sticky; top: 0; z-index: 100; background: rgba(10,10,10,.97); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
     .header__inner { display: flex; align-items: center; justify-content: space-between; height: 56px; gap: 1rem; }
     .logo { display: flex; align-items: center; gap: .5rem; font-family: var(--font-condensed); font-size: 1.2rem; font-weight: 900; letter-spacing: .05em; }
     .logo__icon { width: 32px; height: 32px; background: var(--green); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 1rem; }
     .logo__fr { color: var(--green); }
-    .header__cta {
-      background: var(--green); color: #111; font-family: var(--font-condensed);
-      font-weight: 900; font-size: .9rem; letter-spacing: .06em; text-transform: uppercase;
-      padding: .5rem 1.1rem; border-radius: 6px; white-space: nowrap; transition: opacity .15s;
-    }
-    .header__cta:hover { opacity: .85; }
+    .header__cta { background: var(--green); color: #111; font-family: var(--font-condensed); font-weight: 900; font-size: .9rem; letter-spacing: .06em; text-transform: uppercase; padding: .5rem 1.1rem; border-radius: 6px; white-space: nowrap; transition: box-shadow .15s; }
+    .header__cta:hover { box-shadow: 0 0 16px rgba(200,255,0,.4); }
 
     /* HERO */
-    .hero { padding: 3.5rem 0 0; text-align: center; position: relative; overflow: hidden; }
-    .hero::before {
-      content: ''; position: absolute; top: -50%; left: 50%; transform: translateX(-50%);
-      width: 600px; height: 600px;
-      background: radial-gradient(circle, rgba(200,255,0,.08) 0%, transparent 70%);
-      pointer-events: none;
-    }
-    .hero__eyebrow {
-      display: inline-flex; align-items: center; gap: .4rem;
-      background: rgba(200,255,0,.1); border: 1px solid rgba(200,255,0,.3);
-      color: var(--green); font-family: var(--font-condensed); font-size: .8rem;
-      font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
-      padding: .35rem .9rem; border-radius: 999px; margin-bottom: 1.25rem;
-    }
-    .hero__eyebrow::before {
-      content: ''; width: 6px; height: 6px; background: var(--green);
-      border-radius: 50%; animation: blink 1.2s ease-in-out infinite;
-    }
+    .hero { padding: 3rem 0 0; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; top: -50%; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; background: radial-gradient(circle, rgba(200,255,0,.08) 0%, transparent 70%); pointer-events: none; }
+    .hero__eyebrow { display: inline-flex; align-items: center; gap: .4rem; background: rgba(200,255,0,.1); border: 1px solid rgba(200,255,0,.3); color: var(--green); font-family: var(--font-condensed); font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: .35rem .9rem; border-radius: 999px; margin-bottom: 1.25rem; }
+    .hero__eyebrow::before { content: ''; width: 6px; height: 6px; background: var(--green); border-radius: 50%; animation: blink 1.2s ease-in-out infinite; }
     @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-    .hero__title {
-      font-family: var(--font-display); font-size: clamp(3rem, 10vw, 6rem);
-      line-height: .95; letter-spacing: .02em; text-transform: uppercase; margin-bottom: .75rem;
-    }
+    .hero__title { font-family: var(--font-display); font-size: clamp(3rem, 10vw, 6rem); line-height: .95; letter-spacing: .02em; text-transform: uppercase; margin-bottom: .75rem; }
     .hero__title span { color: var(--green); }
     .hero__sub { font-size: 1rem; color: var(--muted); max-width: 480px; margin: 0 auto 2rem; line-height: 1.6; }
     .hero__ctas { display: flex; align-items: center; justify-content: center; gap: .75rem; flex-wrap: wrap; padding-bottom: 2.5rem; }
-
-    .btn-primary {
-      background: var(--green); color: #111; font-family: var(--font-condensed);
-      font-weight: 900; font-size: 1rem; letter-spacing: .08em; text-transform: uppercase;
-      padding: .85rem 2rem; border-radius: 8px; border: none; cursor: pointer;
-      transition: transform .15s, opacity .15s; display: inline-flex; align-items: center; gap: .4rem;
-    }
-    .btn-primary:hover { transform: translateY(-2px); opacity: .9; }
-    .btn-secondary {
-      background: transparent; color: var(--text); font-family: var(--font-condensed);
-      font-weight: 700; font-size: 1rem; letter-spacing: .08em; text-transform: uppercase;
-      padding: .85rem 2rem; border-radius: 8px; border: 1px solid var(--border);
-      cursor: pointer; transition: border-color .15s, color .15s;
-      display: inline-flex; align-items: center; gap: .4rem;
-    }
+    .btn-primary { background: var(--green); color: #111; font-family: var(--font-condensed); font-weight: 900; font-size: 1rem; letter-spacing: .08em; text-transform: uppercase; padding: .85rem 2rem; border-radius: 8px; border: none; cursor: pointer; transition: transform .15s, box-shadow .15s; display: inline-flex; align-items: center; gap: .4rem; }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 24px rgba(200,255,0,.4); }
+    .btn-secondary { background: transparent; color: var(--text); font-family: var(--font-condensed); font-weight: 700; font-size: 1rem; letter-spacing: .08em; text-transform: uppercase; padding: .85rem 2rem; border-radius: 8px; border: 1px solid var(--border); cursor: pointer; transition: border-color .15s, color .15s; display: inline-flex; align-items: center; gap: .4rem; }
     .btn-secondary:hover { border-color: var(--green); color: var(--green); }
 
     /* TICKER */
@@ -117,9 +73,28 @@
     .ticker__track { display: flex; gap: 3rem; animation: ticker 40s linear infinite; white-space: nowrap; }
     .ticker__track span { font-family: var(--font-condensed); font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
     .ticker__track span strong { color: var(--green); }
+    .ticker__track span.sold { color: var(--pink); }
     @keyframes ticker { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
 
-    /* SECTION */
+    /* TOP PICK */
+    .top-pick { padding: 3rem 0 1.5rem; }
+    .top-pick__label { display: inline-flex; align-items: center; gap: .5rem; font-family: var(--font-condensed); font-size: .8rem; font-weight: 900; letter-spacing: .15em; text-transform: uppercase; color: var(--green); margin-bottom: 1rem; }
+    .top-pick__card { background: var(--card); border: 2px solid var(--green); border-radius: 16px; overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; box-shadow: 0 0 50px rgba(200,255,0,.15); position: relative; }
+    .top-pick__tag { position: absolute; top: 1rem; left: 1rem; background: var(--green); color: #111; font-family: var(--font-condensed); font-size: .75rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; padding: .3rem .8rem; border-radius: 4px; z-index: 2; }
+    .top-pick__img-wrap { background: #1a1a1a; aspect-ratio: 1; overflow: hidden; }
+    .top-pick__img { width: 100%; height: 100%; object-fit: contain; padding: 2rem; transition: transform .4s; }
+    .top-pick__card:hover .top-pick__img { transform: scale(1.06); }
+    .top-pick__body { padding: 2rem; display: flex; flex-direction: column; justify-content: center; gap: .9rem; }
+    .top-pick__brand { font-family: var(--font-condensed); font-size: .8rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; color: var(--green); }
+    .top-pick__title { font-family: var(--font-display); font-size: clamp(1.4rem, 3vw, 2rem); letter-spacing: .03em; text-transform: uppercase; line-height: 1; }
+    .top-pick__price { font-family: var(--font-display); font-size: 2.5rem; color: var(--green); }
+    .top-pick__date { font-family: var(--font-condensed); font-size: .9rem; color: var(--muted); font-weight: 600; }
+    .top-pick__alert { background: rgba(255,45,107,.12); border: 1px solid var(--pink); border-radius: 6px; padding: .5rem .75rem; font-family: var(--font-condensed); font-size: .85rem; font-weight: 700; color: var(--pink); letter-spacing: .04em; text-transform: uppercase; }
+    .btn-cop-big { display: block; background: var(--green); color: #111; font-family: var(--font-condensed); font-weight: 900; font-size: 1.1rem; letter-spacing: .08em; text-transform: uppercase; padding: 1rem; border-radius: 8px; text-align: center; transition: transform .15s, box-shadow .15s; }
+    .btn-cop-big:hover { transform: translateY(-2px); box-shadow: 0 0 28px rgba(200,255,0,.5); }
+
+    /* RELEASES */
+    .releases { padding: 2rem 0; }
     .section-header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
     .section-title { font-family: var(--font-display); font-size: clamp(1.8rem, 5vw, 2.8rem); letter-spacing: .03em; text-transform: uppercase; }
     .section-badge { background: var(--pink); color: #fff; font-family: var(--font-condensed); font-size: .75rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; padding: .25rem .7rem; border-radius: 4px; }
@@ -130,34 +105,36 @@
     .filter-btn:hover { border-color: var(--green); color: var(--green); }
     .filter-btn.active { background: var(--green); border-color: var(--green); color: #111; }
 
-    /* RELEASES */
-    .releases { padding: 3rem 0; }
-    .releases-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; }
+    /* GRID */
+    .releases-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
 
     /* CARD */
-    .drop-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; transition: border-color .2s, transform .2s; display: flex; flex-direction: column; }
-    .drop-card:hover { border-color: var(--green); transform: translateY(-3px); }
+    .drop-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; transition: border-color .2s, transform .2s, box-shadow .2s; display: flex; flex-direction: column; }
+    .drop-card:hover { border-color: var(--green); transform: translateY(-4px); box-shadow: 0 8px 30px rgba(200,255,0,.1); }
     .drop-card__img-wrap { position: relative; aspect-ratio: 1; background: #1a1a1a; overflow: hidden; }
     .drop-card__img { width: 100%; height: 100%; object-fit: contain; padding: 1rem; transition: transform .3s; }
-    .drop-card:hover .drop-card__img { transform: scale(1.05); }
+    .drop-card:hover .drop-card__img { transform: scale(1.08); }
     .drop-card__img-placeholder { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 3rem; }
-    .drop-card__badge { position: absolute; top: .75rem; left: .75rem; background: var(--pink); color: #fff; font-family: var(--font-condensed); font-size: .7rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; padding: .2rem .6rem; border-radius: 4px; }
-    .drop-card__body { padding: 1rem; display: flex; flex-direction: column; gap: .4rem; flex: 1; }
+    .drop-card__badge-top { position: absolute; top: .75rem; left: .75rem; font-family: var(--font-condensed); font-size: .7rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; padding: .2rem .6rem; border-radius: 4px; }
+    .drop-card__badge-bot { position: absolute; bottom: .75rem; left: .75rem; font-family: var(--font-condensed); font-size: .7rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; padding: .2rem .6rem; border-radius: 4px; background: var(--green); color: #111; }
+    .badge-week { background: var(--pink); color: #fff; }
+    .badge-hot { background: #FF6B00; color: #fff; }
+    .drop-card__body { padding: 1rem; display: flex; flex-direction: column; gap: .35rem; flex: 1; }
     .drop-card__brand { font-family: var(--font-condensed); font-size: .75rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--green); }
-    .drop-card__title { font-family: var(--font-condensed); font-size: 1.1rem; font-weight: 900; line-height: 1.2; text-transform: uppercase; letter-spacing: .03em; }
+    .drop-card__title { font-family: var(--font-condensed); font-size: 1rem; font-weight: 900; line-height: 1.2; text-transform: uppercase; letter-spacing: .03em; }
     .drop-card__meta { display: flex; align-items: center; justify-content: space-between; margin-top: .2rem; }
-    .drop-card__date { font-size: .8rem; color: var(--muted); font-family: var(--font-condensed); font-weight: 600; }
-    .drop-card__price { font-family: var(--font-condensed); font-size: 1.3rem; font-weight: 900; color: var(--green); }
-    .drop-card__stock { font-size: .75rem; color: var(--pink); font-family: var(--font-condensed); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+    .drop-card__date { font-size: .78rem; color: var(--muted); font-family: var(--font-condensed); font-weight: 600; }
+    .drop-card__price { font-family: var(--font-condensed); font-size: 1.3rem; font-weight: 900; color: var(--pink); }
+    .drop-card__stock { font-size: .72rem; color: var(--pink); font-family: var(--font-condensed); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
     .drop-card__cta { margin-top: auto; padding-top: .75rem; }
-    .btn-cop { display: block; width: 100%; background: var(--green); color: #111; font-family: var(--font-condensed); font-weight: 900; font-size: .95rem; letter-spacing: .08em; text-transform: uppercase; padding: .75rem 1rem; border-radius: 8px; border: none; cursor: pointer; text-align: center; transition: opacity .15s, transform .15s; }
-    .btn-cop:hover { opacity: .9; transform: translateY(-1px); }
+    .btn-cop { display: block; width: 100%; background: var(--green); color: #111; font-family: var(--font-condensed); font-weight: 900; font-size: .9rem; letter-spacing: .08em; text-transform: uppercase; padding: .7rem 1rem; border-radius: 8px; border: none; cursor: pointer; text-align: center; transition: box-shadow .15s, transform .15s; }
+    .btn-cop:hover { box-shadow: 0 0 18px rgba(200,255,0,.5); transform: translateY(-1px); }
     .btn-cop--ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
-    .btn-cop--ghost:hover { border-color: var(--green); color: var(--green); }
+    .btn-cop--ghost:hover { border-color: var(--green); color: var(--green); box-shadow: none; }
 
-    .releases-loading, .releases-empty { text-align: center; padding: 3rem 1rem; color: var(--muted); font-family: var(--font-condensed); font-size: 1rem; letter-spacing: .05em; }
+    .releases-loading, .releases-empty { text-align: center; padding: 3rem 1rem; color: var(--muted); font-family: var(--font-condensed); font-size: 1rem; }
 
-    /* TELEGRAM */
+    /* TELEGRAM SECTION */
     .tg-section { background: var(--dark); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 3.5rem 0; text-align: center; }
     .tg-section__inner { max-width: 560px; margin: 0 auto; }
     .tg-section__icon { font-size: 2.5rem; margin-bottom: 1rem; }
@@ -165,11 +142,22 @@
     .tg-section__title span { color: var(--green); }
     .tg-section__sub { color: var(--muted); font-size: .95rem; line-height: 1.6; margin-bottom: 1.5rem; }
     .tg-benefits { display: inline-flex; flex-direction: column; gap: .5rem; margin-bottom: 2rem; text-align: left; }
-    .tg-benefit { font-family: var(--font-condensed); font-size: .95rem; font-weight: 600; letter-spacing: .04em; }
+    .tg-benefit { font-family: var(--font-condensed); font-size: .95rem; font-weight: 600; }
     .tg-benefit span { color: var(--green); margin-right: .4rem; }
-    .btn-tg { display: inline-flex; align-items: center; gap: .5rem; background: var(--green); color: #111; font-family: var(--font-condensed); font-weight: 900; font-size: 1.1rem; letter-spacing: .08em; text-transform: uppercase; padding: 1rem 2.5rem; border-radius: 8px; transition: transform .15s, opacity .15s; }
-    .btn-tg:hover { transform: translateY(-2px); opacity: .9; }
-    .tg-members { margin-top: 1rem; font-size: .8rem; color: var(--muted); font-family: var(--font-condensed); letter-spacing: .05em; }
+    .btn-tg { display: inline-flex; align-items: center; gap: .5rem; background: var(--green); color: #111; font-family: var(--font-condensed); font-weight: 900; font-size: 1.1rem; letter-spacing: .08em; text-transform: uppercase; padding: 1rem 2.5rem; border-radius: 8px; transition: transform .15s, box-shadow .15s; }
+    .btn-tg:hover { transform: translateY(-2px); box-shadow: 0 0 28px rgba(200,255,0,.4); }
+    .tg-social-proof { margin-top: 1rem; font-size: .85rem; color: var(--green); font-family: var(--font-condensed); font-weight: 700; letter-spacing: .06em; }
+
+    /* FLOATING TELEGRAM BUTTON */
+    .float-tg { position: fixed; bottom: 90px; right: 20px; background: var(--green); color: #111; padding: .75rem 1.1rem; border-radius: 50px; font-family: var(--font-condensed); font-weight: 900; font-size: .9rem; letter-spacing: .06em; text-transform: uppercase; z-index: 999; box-shadow: 0 4px 20px rgba(200,255,0,.4); transition: transform .15s, box-shadow .15s; display: flex; align-items: center; gap: .4rem; }
+    .float-tg:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(200,255,0,.5); }
+
+    /* STICKY BAR */
+    .sticky-tg { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; background: rgba(10,10,10,.97); border-top: 1px solid var(--border); padding: .75rem 1.25rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; backdrop-filter: blur(12px); }
+    .sticky-tg__text { font-family: var(--font-condensed); font-size: .9rem; font-weight: 700; color: var(--text); }
+    .sticky-tg__text span { color: var(--green); }
+    .sticky-tg__btn { background: var(--green); color: #111; font-family: var(--font-condensed); font-weight: 900; font-size: .9rem; letter-spacing: .06em; text-transform: uppercase; padding: .55rem 1.25rem; border-radius: 6px; white-space: nowrap; transition: box-shadow .15s; }
+    .sticky-tg__btn:hover { box-shadow: 0 0 16px rgba(200,255,0,.4); }
 
     /* FOOTER */
     .footer { padding: 2rem 0; border-top: 1px solid var(--border); }
@@ -179,33 +167,26 @@
     .footer__link:hover { color: var(--green); }
     .footer__legal { font-size: .75rem; color: #444; width: 100%; text-align: center; padding-top: .75rem; border-top: 1px solid var(--border); margin-top: .75rem; }
     .footer__legal a { color: #444; }
-    .footer__legal a:hover { color: var(--muted); }
 
     /* COOKIE */
-    #cookie-banner {
-      position: fixed; bottom: 1.5rem; left: 50%; transform: translateX(-50%);
-      background: #1a1a1a; border: 1px solid #333; border-radius: 12px;
-      padding: 1rem 1.5rem; display: flex; align-items: center; gap: 1.5rem;
-      max-width: 520px; width: calc(100% - 2rem); z-index: 9999;
-      box-shadow: 0 8px 32px rgba(0,0,0,.6); font-size: .82rem; color: #aaa;
-    }
+    #cookie-banner { position: fixed; bottom: 5rem; left: 50%; transform: translateX(-50%); background: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 1rem 1.5rem; display: flex; align-items: center; gap: 1.5rem; max-width: 520px; width: calc(100% - 2rem); z-index: 9999; box-shadow: 0 8px 32px rgba(0,0,0,.6); font-size: .82rem; color: #aaa; }
     #cookie-banner p { margin: 0; flex: 1; line-height: 1.5; }
     #cookie-banner a { color: var(--green); }
     #cookie-accept { background: var(--green); color: #111; border: none; border-radius: 6px; padding: .5rem 1.1rem; font-weight: 900; font-size: .82rem; font-family: var(--font-condensed); letter-spacing: .06em; text-transform: uppercase; cursor: pointer; white-space: nowrap; }
 
     /* MOBILE */
-    @media (max-width: 600px) {
-      .hero { padding: 2.5rem 0 0; }
+    @media (max-width: 768px) {
+      .top-pick__card { grid-template-columns: 1fr; }
+      .top-pick__body { padding: 1.25rem; }
+      .releases-grid { grid-template-columns: 1fr 1fr; gap: .75rem; }
+      .drop-card__title { font-size: .9rem; }
+      .drop-card__body { padding: .75rem; }
       .hero__ctas { flex-direction: column; align-items: stretch; }
       .btn-primary, .btn-secondary { justify-content: center; }
-      .releases-grid { grid-template-columns: 1fr 1fr; gap: .75rem; }
-      .drop-card__title { font-size: .95rem; }
-      .drop-card__price { font-size: 1.1rem; }
-      .drop-card__body { padding: .75rem; gap: .3rem; }
-      .section-header { flex-direction: column; gap: .4rem; }
-      .footer__inner { flex-direction: column; align-items: flex-start; }
+      .float-tg { bottom: 80px; right: 12px; font-size: .8rem; padding: .65rem .9rem; }
+      .sticky-tg__text { font-size: .78rem; }
     }
-    @media (max-width: 380px) {
+    @media (max-width: 400px) {
       .releases-grid { grid-template-columns: 1fr; }
     }
   </style>
@@ -228,7 +209,7 @@
     <div class="container">
       <div class="hero__eyebrow">Alertes en temps réel</div>
       <h1 class="hero__title">🔥 Drops Sneakers<br/><span>De La Semaine</span></h1>
-      <p class="hero__sub">Les paires qui vont partir en premier. Stock limité — agis vite.</p>
+      <p class="hero__sub">Ces paires vont disparaître en quelques heures. Ne rate pas ton drop.</p>
       <div class="hero__ctas">
         <a href="#releases" class="btn-primary">⚡ Voir les paires disponibles</a>
         <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="btn-secondary">🚨 Rejoindre le Telegram</a>
@@ -237,21 +218,30 @@
     <div class="ticker">
       <div class="ticker__track">
         <span>📅 DROP — <strong>Air Jordan 3 OG World's Best Dad</strong> — Sam. 16 Mai — 198€</span>
-        <span>📅 DROP — <strong>Travis Scott x AJ1 Low Pink Pack</strong> — Ven. 22 Mai — 143€</span>
+        <span class="sold">🔥 SOLD OUT ailleurs — <strong>Travis Scott x AJ1</strong> — encore dispo ici</span>
         <span>📅 DROP — <strong>Nike Air Max 90 Total 90 Laser</strong> — Lun. 11 Mai — 150€</span>
-        <span>📅 DROP — <strong>Bad Bunny x Adidas Ballerina</strong> — Ven. 15 Mai — 120€</span>
+        <span class="sold">🔥 SOLD OUT ailleurs — <strong>Bad Bunny x Adidas Ballerina</strong> — encore dispo ici</span>
         <span>📅 DROP — <strong>Air Jordan 12 Bloodline</strong> — Ven. 23 Mai — 198€</span>
         <span>📅 DROP — <strong>Nigel Sylvester x AJ4</strong> — Jeu. 22 Mai — 212€</span>
         <span>📅 DROP — <strong>Air Jordan 3 OG World's Best Dad</strong> — Sam. 16 Mai — 198€</span>
-        <span>📅 DROP — <strong>Travis Scott x AJ1 Low Pink Pack</strong> — Ven. 22 Mai — 143€</span>
+        <span class="sold">🔥 SOLD OUT ailleurs — <strong>Travis Scott x AJ1</strong> — encore dispo ici</span>
         <span>📅 DROP — <strong>Nike Air Max 90 Total 90 Laser</strong> — Lun. 11 Mai — 150€</span>
-        <span>📅 DROP — <strong>Bad Bunny x Adidas Ballerina</strong> — Ven. 15 Mai — 120€</span>
+        <span class="sold">🔥 SOLD OUT ailleurs — <strong>Bad Bunny x Adidas Ballerina</strong> — encore dispo ici</span>
         <span>📅 DROP — <strong>Air Jordan 12 Bloodline</strong> — Ven. 23 Mai — 198€</span>
         <span>📅 DROP — <strong>Nigel Sylvester x AJ4</strong> — Jeu. 22 Mai — 212€</span>
       </div>
     </div>
   </section>
 
+  <!-- TOP PICK -->
+  <section class="top-pick">
+    <div class="container">
+      <div class="top-pick__label">⚡ La paire à cop cette semaine</div>
+      <div class="top-pick__card" id="top-pick-card"></div>
+    </div>
+  </section>
+
+  <!-- RELEASES -->
   <section class="releases" id="releases">
     <div class="container">
       <div class="section-header">
@@ -271,6 +261,7 @@
     </div>
   </section>
 
+  <!-- TELEGRAM -->
   <section class="tg-section">
     <div class="tg-section__inner">
       <div class="tg-section__icon">🚨</div>
@@ -286,7 +277,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.14 13.745l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.834.814h-.826z"/></svg>
         Rejoindre Telegram — Gratuit
       </a>
-      <div class="tg-members">t.me/SneakersDropsFR</div>
+      <div class="tg-social-proof">+500 sneakerheads déjà inscrits 🔥</div>
     </div>
   </section>
 
@@ -301,7 +292,6 @@
           <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="footer__link">Telegram</a>
           <a href="https://www.instagram.com/sneakerdropfr/" target="_blank" rel="noopener" class="footer__link">Instagram</a>
           <a href="https://www.tiktok.com/@sneakerdropfr" target="_blank" rel="noopener" class="footer__link">TikTok</a>
-          <a href="https://sneakerdropfr.fr" class="footer__link">sneakerdropfr.fr</a>
         </div>
       </div>
       <div class="footer__legal">
@@ -310,6 +300,16 @@
     </div>
   </footer>
 
+  <!-- FLOATING TELEGRAM BUTTON -->
+  <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="float-tg">🚨 Telegram</a>
+
+  <!-- STICKY BAR -->
+  <div class="sticky-tg">
+    <div class="sticky-tg__text">🚨 <span>Reçois les drops</span> avant tout le monde</div>
+    <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="sticky-tg__btn">Rejoindre Telegram</a>
+  </div>
+
+  <!-- COOKIE -->
   <div id="cookie-banner">
     <p>Ce site utilise Google Analytics pour mesurer l'audience. <a href="privacy.html">En savoir plus</a>.</p>
     <button id="cookie-accept">J'accepte</button>
@@ -337,6 +337,8 @@
     const grid = document.getElementById('releases-grid');
     const empty = document.getElementById('releases-empty');
     const loading = document.getElementById('releases-loading');
+    const topPickCard = document.getElementById('top-pick-card');
+    const MAX_CARDS = 6;
     let allReleases = [];
     let activeFilter = 'all';
 
@@ -346,6 +348,15 @@
       'adidas': ['adidas'],
       'new balance': ['new balance']
     };
+
+    const URGENCY_MSGS = [
+      '⚠️ Stock limité — part vite',
+      '🔥 Déjà en rupture ailleurs',
+      '🚨 Dernières tailles dispo',
+      '⚡ Encore dispo ici',
+      '⚠️ Très demandé cette semaine',
+      '🔥 Sold out sur d\'autres sites'
+    ];
 
     function matchBrand(r, filter) {
       if (filter === 'all') return true;
@@ -364,40 +375,13 @@
 
     function isSoon(dateStr) {
       if (!dateStr || dateStr === 'TBD') return false;
-      const d = new Date(dateStr + 'T12:00:00');
-      const diff = (d - new Date()) / (1000*60*60*24);
+      const diff = (new Date(dateStr + 'T12:00:00') - new Date()) / (1000*60*60*24);
       return diff >= 0 && diff <= 7;
     }
 
     function isFutureOrToday(dateStr) {
       if (!dateStr || dateStr === 'TBD') return true;
       return new Date(dateStr + 'T23:59:59') >= new Date();
-    }
-
-    function renderCard(r) {
-      const date = formatDate(r.date);
-      const price = r.price || 'Prix NC';
-      const img = r.image_url
-        ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy" onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
-        : '<div class="drop-card__img-placeholder">👟</div>';
-      const badge = isSoon(r.date) ? '<div class="drop-card__badge">⚡ Cette semaine</div>' : '';
-      const btn = r.buy_url
-        ? '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="btn-cop">🔥 Cop Maintenant</a>'
-        : '<a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="btn-cop btn-cop--ghost">🚨 Alerte Telegram</a>';
-
-      return '<article class="drop-card">' +
-        '<div class="drop-card__img-wrap">' + badge + img + '</div>' +
-        '<div class="drop-card__body">' +
-          '<span class="drop-card__brand">' + (r.brand || '') + '</span>' +
-          '<h3 class="drop-card__title">' + r.title + '</h3>' +
-          '<div class="drop-card__meta">' +
-            '<span class="drop-card__date">📅 ' + date + '</span>' +
-            '<span class="drop-card__price">' + price + '</span>' +
-          '</div>' +
-          '<div class="drop-card__stock">⚠️ Stock limité</div>' +
-          '<div class="drop-card__cta">' + btn + '</div>' +
-        '</div>' +
-      '</article>';
     }
 
     function sortByDate(arr) {
@@ -408,17 +392,64 @@
       });
     }
 
+    function renderTopPick(r) {
+      if (!r || !topPickCard) return;
+      const img = r.image_url
+        ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="top-pick__img" loading="lazy" onerror="this.style.display=\'none\'">'
+        : '';
+      const btn = r.buy_url
+        ? '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="btn-cop-big">🔥 Acheter Avant Rupture</a>'
+        : '<a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="btn-cop-big">🚨 Alerte Telegram</a>';
+      topPickCard.innerHTML =
+        '<div class="top-pick__tag">🔥 Top Pick de la semaine</div>' +
+        '<div class="top-pick__img-wrap">' + img + '</div>' +
+        '<div class="top-pick__body">' +
+          '<span class="top-pick__brand">' + (r.brand || '') + '</span>' +
+          '<h2 class="top-pick__title">' + r.title + '</h2>' +
+          '<div class="top-pick__price">' + (r.price || '') + '</div>' +
+          '<div class="top-pick__date">📅 ' + formatDate(r.date) + '</div>' +
+          '<div class="top-pick__alert">⚠️ Déjà en rupture sur plusieurs sites — encore dispo ici</div>' +
+          btn +
+        '</div>';
+    }
+
+    function renderCard(r, index) {
+      const img = r.image_url
+        ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy" onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
+        : '<div class="drop-card__img-placeholder">👟</div>';
+      const badgeTop = isSoon(r.date)
+        ? '<div class="drop-card__badge-top badge-week">⚡ Cette semaine</div>'
+        : '<div class="drop-card__badge-top badge-hot">🔥 Hot</div>';
+      const badgeBot = '<div class="drop-card__badge-bot">🔥 HOT</div>';
+      const btn = r.buy_url
+        ? '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="btn-cop">🔥 Acheter Avant Rupture</a>'
+        : '<a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="btn-cop btn-cop--ghost">🚨 Alerte Telegram</a>';
+      return '<article class="drop-card">' +
+        '<div class="drop-card__img-wrap">' + badgeTop + badgeBot + img + '</div>' +
+        '<div class="drop-card__body">' +
+          '<span class="drop-card__brand">' + (r.brand || '') + '</span>' +
+          '<h3 class="drop-card__title">' + r.title + '</h3>' +
+          '<div class="drop-card__meta">' +
+            '<span class="drop-card__date">📅 ' + formatDate(r.date) + '</span>' +
+            '<span class="drop-card__price">' + (r.price || '') + '</span>' +
+          '</div>' +
+          '<div class="drop-card__stock">' + URGENCY_MSGS[index % URGENCY_MSGS.length] + '</div>' +
+          '<div class="drop-card__cta">' + btn + '</div>' +
+        '</div>' +
+      '</article>';
+    }
+
     function render() {
       const upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
       const filtered = upcoming.filter(function(r) { return matchBrand(r, activeFilter); });
-      const sorted = sortByDate(filtered);
+      const sorted = sortByDate(filtered).slice(0, MAX_CARDS);
       if (!sorted.length) {
         grid.style.display = 'none';
         empty.style.display = 'block';
       } else {
         empty.style.display = 'none';
         grid.style.display = '';
-        grid.innerHTML = sorted.map(renderCard).join('');
+        grid.innerHTML = sorted.map(function(r, i) { return renderCard(r, i); }).join('');
       }
     }
 
@@ -437,6 +468,11 @@
         loading.style.display = 'none';
         allReleases = data.filter(function(r) { return !r.id.startsWith('test-'); });
         if (!allReleases.length) { empty.style.display = 'block'; return; }
+        const upcoming = sortByDate(allReleases.filter(function(r) { return isFutureOrToday(r.date); }));
+        const topPick = upcoming.find(function(r) {
+          return (r.brand || '').toLowerCase().indexOf('jordan') !== -1;
+        }) || upcoming[0];
+        renderTopPick(topPick);
         render();
       })
       .catch(function(err) {
