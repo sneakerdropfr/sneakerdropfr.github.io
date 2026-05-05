@@ -403,7 +403,7 @@
       var urgencyClass = released ? 'drop-card__stock' : 'drop-card__stock drop-card__stock--upcoming';
 
       var articleUrl = '/sorties/' + r.id + '.html';
-      '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>' +
+      return '<article class="drop-card">' +'<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>' +
         '<div class="drop-card__body">' +
           '<span class="drop-card__brand">' + (r.brand || '') + '</span>' +
           '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + r.title + '</h3></a>' +
