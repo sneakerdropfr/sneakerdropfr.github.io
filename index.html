@@ -402,11 +402,11 @@
 
       var urgencyClass = released ? 'drop-card__stock' : 'drop-card__stock drop-card__stock--upcoming';
 
-      return '<article class="drop-card">' +
-        '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>' +
+      var articleUrl = '/sorties/' + r.id + '.html';
+      '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>' +
         '<div class="drop-card__body">' +
           '<span class="drop-card__brand">' + (r.brand || '') + '</span>' +
-          '<h3 class="drop-card__title">' + r.title + '</h3>' +
+          '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + r.title + '</h3></a>' +
           '<div class="drop-card__meta">' +
             '<span class="drop-card__date">📅 ' + formatDate(r.date) + '</span>' +
             '<span class="drop-card__price">' + (r.price || '') + '</span>' +
