@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SneakerDrop FR — Restocks & Deals Sneakers en temps réel</title>
-  <meta name="description" content="Alertes restocks, promos et sorties sneakers en temps réel sur Telegram. Nike, Jordan, Adidas, New Balance — ne ratez plus aucun drop." />
-  <meta property="og:title" content="SneakerDrop FR — Restocks & Deals Sneakers" />
-  <meta property="og:description" content="Alertes restocks, promos et sorties sneakers en temps réel sur Telegram." />
+  <title>SneakerDrop FR — Calendrier des Drops Sneakers 2026</title>
+  <meta name="description" content="Calendrier des sorties sneakers 2026 en France : Nike, Air Jordan, Adidas, New Balance. Dates, prix et alertes en temps réel sur Telegram." />
+  <meta property="og:title" content="SneakerDrop FR — Calendrier des Drops Sneakers" />
+  <meta property="og:description" content="Calendrier des sorties sneakers 2026 : dates, prix et alertes sur Telegram." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://sneakerdropfr.fr" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;0,700;0,900;1,900&family=Barlow+Condensed:wght@400;600;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <!-- Google Analytics GA4 — remplacer G-XXXXXXXXXX par ton ID -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TQQ3RSJJV"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
+    gtag('config', 'G-1TQQ3RSJJV');
   </script>
 
   <style id="cookie-style">
@@ -79,18 +79,20 @@
       </div>
       <div class="hero__ticker">
         <div class="ticker__track">
-          <span>📅 DROP — Travis Scott x AJ1 Low Pink Pack le 22 mai</span>
           <span>📅 DROP — Air Jordan 11 Low Mother's Day le 9 mai</span>
           <span>📅 DROP — Air Jordan 3 Brazil le 16 mai</span>
-          <span>📅 DROP — Travis Scott x AJ1 Low Pink Pack le 22 mai</span>
+          <span>📅 DROP — Air Jordan 3 OG World's Best Dad le 16 mai</span>
+          <span>📅 DROP — Travis Scott x AJ1 Low OG Pink Pack le 22 mai</span>
           <span>📅 DROP — Nigel Sylvester x AJ4 Brick After Brick le 22 mai</span>
           <span>📅 DROP — Air Jordan 12 Bloodline le 23 mai</span>
-          <span>📅 DROP — Travis Scott x AJ1 Low Pink Pack le 22 mai</span>
+          <span>📅 DROP — Air Jordan 3 Bin23 le 13 juin</span>
           <span>📅 DROP — Air Jordan 11 Low Mother's Day le 9 mai</span>
           <span>📅 DROP — Air Jordan 3 Brazil le 16 mai</span>
-          <span>📅 DROP — Travis Scott x AJ1 Low Pink Pack le 22 mai</span>
+          <span>📅 DROP — Air Jordan 3 OG World's Best Dad le 16 mai</span>
+          <span>📅 DROP — Travis Scott x AJ1 Low OG Pink Pack le 22 mai</span>
           <span>📅 DROP — Nigel Sylvester x AJ4 Brick After Brick le 22 mai</span>
           <span>📅 DROP — Air Jordan 12 Bloodline le 23 mai</span>
+          <span>📅 DROP — Air Jordan 3 Bin23 le 13 juin</span>
         </div>
       </div>
     </div>
@@ -179,9 +181,8 @@
         <button class="filter__btn" data-brand="New Balance">New Balance</button>
       </div>
 
-      <div class="releases__grid" id="releases-grid">
-        <div class="releases__loading">Chargement des sorties...</div>
-      </div>
+      <div class="releases__loading" id="releases-loading">Chargement des sorties...</div>
+      <div class="releases__grid" id="releases-grid" style="display:none"></div>
       <div class="releases__empty" id="releases-empty" style="display:none">
         <p>Aucune sortie pour cette marque. Reviens bientôt !</p>
       </div>
@@ -243,23 +244,45 @@
     const RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now();
     const grid = document.getElementById('releases-grid');
     const empty = document.getElementById('releases-empty');
+    const loading = document.getElementById('releases-loading');
     let allReleases = [];
     let activeFilter = 'all';
+
+    // Normalise brand pour le filtre
+    const BRAND_MAP = {
+      'jordan': ['jordan brand', 'jordan'],
+      'nike': ['nike'],
+      'adidas': ['adidas'],
+      'new balance': ['new balance']
+    };
+
+    function matchBrand(release, filter) {
+      if (filter === 'all') return true;
+      const b = (release.brand || '').toLowerCase();
+      const keys = BRAND_MAP[filter.toLowerCase()] || [filter.toLowerCase()];
+      return keys.some(function(k) { return b.indexOf(k) !== -1; });
+    }
 
     function formatDate(str) {
       if (!str || str === 'TBD') return 'Date à confirmer';
       try {
-        const d = new Date(str);
+        const d = new Date(str + 'T12:00:00');
         return d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
       } catch(e) { return str; }
     }
 
     function isSoon(dateStr) {
       if (!dateStr || dateStr === 'TBD') return false;
-      const d = new Date(dateStr);
+      const d = new Date(dateStr + 'T12:00:00');
       const now = new Date();
       const diff = (d - now) / (1000 * 60 * 60 * 24);
       return diff >= 0 && diff <= 7;
+    }
+
+    function isFutureOrToday(dateStr) {
+      if (!dateStr || dateStr === 'TBD') return true;
+      const d = new Date(dateStr + 'T23:59:59');
+      return d >= new Date();
     }
 
     function isPromo(r) {
@@ -273,7 +296,7 @@
       const img = r.image_url
         ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="release-card__img" loading="lazy" onerror="this.style.display=\'none\'">'
         : '<div class="release-card__img release-card__img--placeholder"></div>';
-      const isPast = r.date && r.date !== 'TBD' && new Date(r.date) <= new Date();
+      const isPast = r.date && r.date !== 'TBD' && new Date(r.date + 'T23:59:59') < new Date();
       const btnLabel = isPast ? 'Acheter' : 'Voir sur BSTN';
       const btnClass = isPast ? 'btn--primary' : 'btn--ghost';
       const btn = r.buy_url
@@ -309,11 +332,9 @@
     }
 
     function renderFiltered() {
-      const filtered = activeFilter === 'all'
-        ? allReleases
-        : allReleases.filter(function(r) {
-            return r.brand && r.brand.toLowerCase().indexOf(activeFilter.toLowerCase()) !== -1;
-          });
+      // Afficher uniquement les drops futurs ou aujourd'hui
+      const upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
+      const filtered = upcoming.filter(function(r) { return matchBrand(r, activeFilter); });
       const sorted = sortByDate(filtered);
       if (!sorted.length) {
         grid.style.display = 'none';
@@ -336,18 +357,22 @@
     });
 
     fetch(RELEASES_URL)
-      .then(function(r) { return r.json(); })
+      .then(function(r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
       .then(function(data) {
+        loading.style.display = 'none';
         allReleases = data.filter(function(r) { return !r.id.startsWith('test-'); });
         if (!allReleases.length) {
-          grid.style.display = 'none';
           empty.style.display = 'block';
           return;
         }
         renderFiltered();
       })
-      .catch(function() {
-        grid.style.display = 'none';
+      .catch(function(err) {
+        loading.style.display = 'none';
+        console.error('Erreur chargement releases:', err);
         empty.style.display = 'block';
       });
   })();
@@ -381,12 +406,10 @@
         <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" style="color:#aaa;font-size:.85rem;font-weight:600">Telegram</a>
         <a href="https://www.instagram.com/sneakerdropfr/" target="_blank" rel="noopener" style="color:#aaa;font-size:.85rem;font-weight:600">Instagram</a>
         <a href="https://www.tiktok.com/@sneakerdropfr" target="_blank" rel="noopener" style="color:#aaa;font-size:.85rem;font-weight:600">TikTok</a>
+
       </div>
       <p class="footer__links" style="margin-top:.5rem;font-size:.8rem;color:#555"><a href="privacy.html" style="color:#555">Politique de confidentialité</a> — <a href="sitemap.xml" style="color:#555">Sitemap</a></p>
-      <div class="footer__links">
-        <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener">Telegram</a>
-        <a href="https://tiktok.com/@SneakersDropsFR" target="_blank" rel="noopener">TikTok</a>
-      </div>
+
     </div>
   </footer>
 
