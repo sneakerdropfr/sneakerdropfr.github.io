@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title">SneakerDrop FR — Sortie Sneakers</title>
+  <meta name="description" id="page-desc" content="Informations sur la sortie de cette paire de sneakers en France." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700;900&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TQQ3RSJJV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1TQQ3RSJJV');
+    function trackBSTN(product) {
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'click_bstn', { event_category: 'outbound', event_label: product, value: 1 });
+      }
+    }
+    function trackTelegram(source) {
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'telegram_click', { event_category: 'engagement', event_label: source || 'article' });
+      }
+    }
+  </script>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--green:#C8FF00;--pink:#FF2D6B;--black:#0a0a0a;--dark:#111;--card:#161616;--border:#222;--text:#fff;--muted:#888;--font-display:'Bebas Neue',sans-serif;--font-body:'Barlow',sans-serif;--font-condensed:'Barlow Condensed',sans-serif}
+    html{scroll-behavior:smooth}
+    body{background:var(--black);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden;padding-bottom:80px}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;display:block}
+    .container{max-width:900px;margin:0 auto;padding:0 1.25rem}
+    .header{position:sticky;top:0;z-index:100;background:rgba(10,10,10,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    .header__inner{display:flex;align-items:center;justify-content:space-between;height:56px;gap:1rem}
+    .logo{display:flex;align-items:center;gap:.5rem;font-family:var(--font-condensed);font-size:1.2rem;font-weight:900;letter-spacing:.05em}
+    .logo__icon{width:32px;height:32px;background:var(--green);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:1rem}
+    .logo__fr{color:var(--green)}
+    .header__cta{background:var(--green);color:#111;font-family:var(--font-condensed);font-weight:900;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;padding:.5rem 1.1rem;border-radius:6px;white-space:nowrap}
+    .breadcrumb{padding:1rem 0;font-family:var(--font-condensed);font-size:.8rem;color:var(--muted);letter-spacing:.05em}
+    .breadcrumb a{color:var(--muted)}
+    .breadcrumb a:hover{color:var(--green)}
+    .breadcrumb span{color:var(--green);margin:0 .4rem}
+    .article{padding:2rem 0 3rem}
+    .article__hero{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-bottom:2.5rem;align-items:start}
+    .article__img-wrap{background:#1a1a1a;border-radius:12px;overflow:hidden;aspect-ratio:1;border:1px solid var(--border)}
+    .article__img{width:100%;height:100%;object-fit:contain;padding:2rem}
+    .article__meta{display:flex;flex-direction:column;gap:1rem}
+    .article__brand{font-family:var(--font-condensed);font-size:.8rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--green)}
+    .article__title{font-family:var(--font-display);font-size:clamp(1.8rem,5vw,3rem);letter-spacing:.03em;text-transform:uppercase;line-height:1}
+    .article__colorway{font-family:var(--font-condensed);font-size:.9rem;color:var(--muted);font-weight:600}
+    .article__price-date{display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap}
+    .article__price{font-family:var(--font-display);font-size:2.5rem;color:var(--green)}
+    .article__date{font-family:var(--font-condensed);font-size:1rem;color:var(--muted);font-weight:600}
+    .article__status{padding:.5rem .9rem;border-radius:6px;font-family:var(--font-condensed);font-size:.85rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;display:inline-block}
+    .status--released{background:rgba(255,45,107,.12);border:1px solid var(--pink);color:var(--pink)}
+    .status--upcoming{background:rgba(200,255,0,.1);border:1px solid var(--green);color:var(--green)}
+    .btn-buy{display:block;background:var(--green);color:#111;font-family:var(--font-condensed);font-weight:900;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;padding:1rem;border-radius:8px;text-align:center;transition:transform .15s,box-shadow .15s}
+    .btn-buy:hover{transform:translateY(-2px);box-shadow:0 0 24px rgba(200,255,0,.5)}
+    .btn-alert{display:block;background:transparent;color:var(--green);border:2px solid var(--green);font-family:var(--font-condensed);font-weight:900;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;padding:1rem;border-radius:8px;text-align:center;transition:background .15s,box-shadow .15s}
+    .btn-alert:hover{background:rgba(200,255,0,.1);box-shadow:0 0 16px rgba(200,255,0,.3)}
+    .article__body{display:flex;flex-direction:column;gap:2rem}
+    .section-block{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem}
+    .section-block h2{font-family:var(--font-display);font-size:1.5rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:1rem;color:var(--green)}
+    .section-block p{font-size:.95rem;line-height:1.7;color:#ccc;margin-bottom:.75rem}
+    .section-block p:last-child{margin-bottom:0}
+    .info-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+    .info-item{background:var(--dark);border-radius:8px;padding:.75rem 1rem}
+    .info-item__label{font-family:var(--font-condensed);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+    .info-item__value{font-family:var(--font-condensed);font-size:1rem;font-weight:700;color:var(--text)}
+    .faq-item{border-bottom:1px solid var(--border);padding-bottom:1rem;margin-bottom:1rem}
+    .faq-item:last-child{border-bottom:none;padding-bottom:0;margin-bottom:0}
+    .faq-item h3{font-family:var(--font-condensed);font-size:1rem;font-weight:700;letter-spacing:.04em;margin-bottom:.5rem;color:var(--text)}
+    .faq-item p{font-size:.9rem;color:#aaa;line-height:1.6}
+    .tg-banner{background:var(--dark);border:1px solid var(--border);border-radius:12px;padding:1.5rem;text-align:center}
+    .tg-banner h2{font-family:var(--font-display);font-size:1.8rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:.5rem}
+    .tg-banner h2 span{color:var(--green)}
+    .tg-banner p{font-size:.9rem;color:var(--muted);margin-bottom:1.25rem}
+    .btn-tg{display:inline-flex;align-items:center;gap:.5rem;background:var(--green);color:#111;font-family:var(--font-condensed);font-weight:900;font-size:1rem;letter-spacing:.08em;text-transform:uppercase;padding:.85rem 2rem;border-radius:8px;transition:box-shadow .15s}
+    .btn-tg:hover{box-shadow:0 0 20px rgba(200,255,0,.4)}
+    .related{padding:2rem 0}
+    .related h2{font-family:var(--font-display);font-size:1.8rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:1.25rem}
+    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+    .related-card{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;transition:border-color .2s,transform .2s}
+    .related-card:hover{border-color:var(--green);transform:translateY(-3px)}
+    .related-card__img{aspect-ratio:1;background:#1a1a1a;overflow:hidden}
+    .related-card__img img{width:100%;height:100%;object-fit:contain;padding:.75rem}
+    .related-card__body{padding:.75rem}
+    .related-card__brand{font-family:var(--font-condensed);font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--green)}
+    .related-card__title{font-family:var(--font-condensed);font-size:.9rem;font-weight:900;text-transform:uppercase;line-height:1.2;margin:.2rem 0}
+    .related-card__price{font-family:var(--font-condensed);font-size:1rem;font-weight:900;color:var(--pink)}
+    .not-found{text-align:center;padding:5rem 1rem}
+    .not-found h1{font-family:var(--font-display);font-size:4rem;color:var(--green);margin-bottom:1rem}
+    .not-found p{color:var(--muted);margin-bottom:2rem}
+    .float-tg{position:fixed;bottom:90px;right:20px;background:var(--green);color:#111;padding:.75rem 1.1rem;border-radius:50px;font-family:var(--font-condensed);font-weight:900;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;z-index:999;box-shadow:0 4px 20px rgba(200,255,0,.4);display:flex;align-items:center;gap:.4rem}
+    .sticky-tg{position:fixed;bottom:0;left:0;right:0;z-index:200;background:rgba(10,10,10,.97);border-top:1px solid var(--border);padding:.75rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;backdrop-filter:blur(12px)}
+    .sticky-tg__text{font-family:var(--font-condensed);font-size:.9rem;font-weight:700}
+    .sticky-tg__text span{color:var(--green)}
+    .sticky-tg__btn{background:var(--green);color:#111;font-family:var(--font-condensed);font-weight:900;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;padding:.55rem 1.25rem;border-radius:6px;white-space:nowrap}
+    #loading{text-align:center;padding:4rem;color:var(--muted);font-family:var(--font-condensed)}
+    @media(max-width:640px){.article__hero{grid-template-columns:1fr}.info-grid{grid-template-columns:1fr}.related-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:380px){.related-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo"><div class="logo__icon">👟</div><span>SneakerDrop<span class="logo__fr">FR</span></span></a>
+      <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="header__cta" onclick="trackTelegram('header')">🚨 Telegram</a>
+    </div>
+  </header>
+
+  <div id="loading">Chargement de l'article...</div>
+  <div id="content" style="display:none">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/">Accueil</a><span>›</span><span id="bc-title"></span>
+      </div>
+    </div>
+
+    <section class="article">
+      <div class="container">
+        <div class="article__hero">
+          <div class="article__img-wrap">
+            <img id="art-img" src="" alt="" class="article__img" />
+          </div>
+          <div class="article__meta">
+            <div id="art-brand" class="article__brand"></div>
+            <h1 id="art-title" class="article__title"></h1>
+            <div id="art-colorway" class="article__colorway"></div>
+            <div class="article__price-date">
+              <div id="art-price" class="article__price"></div>
+              <div id="art-date" class="article__date"></div>
+            </div>
+            <div id="art-status" class="article__status"></div>
+            <div id="art-btn"></div>
+          </div>
+        </div>
+
+        <div class="article__body">
+          <div class="section-block">
+            <h2>Infos de sortie</h2>
+            <div class="info-grid" id="info-grid"></div>
+          </div>
+
+          <div class="section-block">
+            <h2>Description</h2>
+            <div id="art-desc"></div>
+          </div>
+
+          <div class="section-block">
+            <h2>FAQ</h2>
+            <div id="art-faq"></div>
+          </div>
+
+          <div class="tg-banner">
+            <h2>Ne rate plus <span>aucun drop</span></h2>
+            <p>Rejoins le canal Telegram pour recevoir les alertes en temps réel — dès l'ouverture des stocks.</p>
+            <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="btn-tg" onclick="trackTelegram('article-banner')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.14 13.745l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.834.814h-.826z"/></svg>
+              Rejoindre — Gratuit
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="related">
+      <div class="container">
+        <h2>Autres drops à surveiller</h2>
+        <div class="related-grid" id="related-grid"></div>
+      </div>
+    </section>
+  </div>
+
+  <div id="not-found" class="not-found" style="display:none">
+    <div class="container">
+      <h1>404</h1>
+      <p>Cette paire n'existe pas ou a été retirée.</p>
+      <a href="/" class="btn-buy" style="display:inline-block;width:auto;padding:.85rem 2rem">← Voir tous les drops</a>
+    </div>
+  </div>
+
+  <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="float-tg" onclick="trackTelegram('float')">🚨 Telegram</a>
+  <div class="sticky-tg">
+    <div class="sticky-tg__text">🚨 <span>Alertes drops</span> en temps réel</div>
+    <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="sticky-tg__btn" onclick="trackTelegram('sticky')">Rejoindre</a>
+  </div>
+
+  <script>
+  (function() {
+    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now();
+
+    // Récupère l'ID depuis l'URL
+    function getIdFromURL() {
+      var path = window.location.pathname;
+      var parts = path.split('/');
+      var last = parts[parts.length - 1].replace('.html', '');
+      if (!last) last = parts[parts.length - 2].replace('.html', '');
+      return last;
+    }
+
+    function isReleased(dateStr) {
+      if (!dateStr || dateStr === 'TBD') return false;
+      var d = new Date(dateStr + 'T00:00:00');
+      var today = new Date(); today.setHours(0,0,0,0);
+      return d <= today;
+    }
+
+    function formatDate(str) {
+      if (!str || str === 'TBD') return 'Date à confirmer';
+      try {
+        var d = new Date(str + 'T12:00:00');
+        return d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+      } catch(e) { return str; }
+    }
+
+    function getDescription(r) {
+      var brand = (r.brand || '').toLowerCase();
+      var desc = '';
+      if (brand.indexOf('jordan') !== -1) {
+        desc = 'La <strong>' + r.title + '</strong> est l\'une des sorties les plus attendues de la saison. Jordan Brand continue de surprendre les sneakerheads avec ce coloris exclusif qui allie heritage et modernité. La silhouette iconique Air Jordan, reconnue mondialement pour son histoire dans le basketball et la culture streetwear, revient dans une version qui va faire parler.';
+      } else if (brand.indexOf('nike') !== -1) {
+        desc = 'La <strong>' + r.title + '</strong> fait partie des drops Nike les plus attendus de cette période. Nike confirme une fois de plus son talent pour réinterpréter ses silhouettes iconiques avec des coloris frais et une histoire forte. Cette paire s\'inscrit dans la continuité de l\'héritage Nike tout en apportant une touche contemporaine appréciée des collectionneurs comme des porteurs quotidiens.';
+      } else if (brand.indexOf('new balance') !== -1) {
+        desc = 'La <strong>' + r.title + '</strong> confirme la montée en puissance de New Balance dans la culture sneaker mondiale. La marque américaine, reconnue pour la qualité de sa construction et ses matières premium, propose avec cette sortie une paire qui s\'adresse autant aux amateurs de running lifestyle qu\'aux collectionneurs les plus exigeants.';
+      } else if (brand.indexOf('adidas') !== -1) {
+        desc = 'La <strong>' + r.title + '</strong> s\'inscrit dans la stratégie d\'Adidas de collaborations et de sorties lifestyle premium. Avec un design qui puise dans l\'héritage sportif de la marque aux trois bandes, cette paire propose un équilibre parfait entre authenticité et modernité, séduisant aussi bien les fans de la marque que les nouveaux adeptes du sneaker game.';
+      } else {
+        desc = 'La <strong>' + r.title + '</strong> est l\'une des sorties notables de cette période dans le monde des sneakers. Un coloris soigné, une construction de qualité et un positionnement prix cohérent en font une paire à surveiller de près pour tous les amateurs de sneakers.';
+      }
+      if (r.colorway) {
+        desc += '<br><br>Le coloris <strong>' + r.colorway + '</strong> apporte une identité visuelle forte qui se démarque dans la rotation des drops habituels.';
+      }
+      return desc;
+    }
+
+    function getFAQ(r) {
+      var released = isReleased(r.date);
+      var faqs = [
+        {
+          q: 'Quel est le prix de la ' + r.title + ' ?',
+          a: r.price ? 'La ' + r.title + ' est proposée au prix de ' + r.price + ' en France.' : 'Le prix officiel n\'a pas encore été confirmé pour la France.'
+        },
+        {
+          q: 'Quand sort la ' + r.title + ' ?',
+          a: r.date && r.date !== 'TBD'
+            ? 'La sortie est prévue le ' + formatDate(r.date) + ' en France chez les retailers officiels.'
+            : 'La date de sortie n\'est pas encore confirmée. Rejoins le canal Telegram pour être alerté dès l\'annonce.'
+        },
+        {
+          q: 'Où acheter la ' + r.title + ' en France ?',
+          a: released
+            ? 'Tu peux trouver la ' + r.title + ' chez BSTN, Foot Locker FR, JD Sports et les retailers officiels Nike/Jordan/Adidas selon le modèle.'
+            : 'Dès la sortie, la ' + r.title + ' sera disponible chez BSTN et les retailers officiels. Rejoins le Telegram pour recevoir le lien direct dès ouverture des stocks.'
+        },
+        {
+          q: 'La ' + r.title + ' va-t-elle se revendre plus cher ?',
+          a: 'Le potentiel de revente dépend du niveau de hype et des stocks disponibles. Les paires Jordan Brand et les collaborations sont généralement les plus demandées sur le marché secondaire. Rejoins le canal Telegram pour rester informé des tendances.'
+        }
+      ];
+      return faqs.map(function(f) {
+        return '<div class="faq-item"><h3>' + f.q + '</h3><p>' + f.a + '</p></div>';
+      }).join('');
+    }
+
+    fetch(RELEASES_URL)
+      .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function(data) {
+        var id = getIdFromURL();
+        var release = data.find(function(r) { return r.id === id; });
+
+        document.getElementById('loading').style.display = 'none';
+
+        if (!release) {
+          document.getElementById('not-found').style.display = 'block';
+          return;
+        }
+
+        // SEO meta
+        document.getElementById('page-title').textContent = release.title + ' — Date, Prix, Où Acheter | SneakerDrop FR';
+        document.getElementById('page-desc').setAttribute('content', 'Tout sur la ' + release.title + ' : date de sortie ' + (release.date || '') + ', prix ' + (release.price || '') + ', où acheter en France. Alertes drops sur Telegram.');
+
+        // Breadcrumb
+        document.getElementById('bc-title').textContent = release.title;
+
+        // Image
+        var img = document.getElementById('art-img');
+        if (release.image_url) { img.src = release.image_url; img.alt = release.title; }
+        else { img.parentNode.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;font-size:5rem">👟</div>'; }
+
+        // Meta
+        document.getElementById('art-brand').textContent = release.brand || '';
+        document.getElementById('art-title').textContent = release.title;
+        document.getElementById('art-colorway').textContent = release.colorway ? 'Coloris : ' + release.colorway : '';
+        document.getElementById('art-price').textContent = release.price || 'Prix NC';
+        document.getElementById('art-date').textContent = '📅 ' + formatDate(release.date);
+
+        var released = isReleased(release.date);
+        var statusEl = document.getElementById('art-status');
+        statusEl.textContent = released ? '🔥 Disponible maintenant' : '⏰ Sortie prochaine';
+        statusEl.className = 'article__status ' + (released ? 'status--released' : 'status--upcoming');
+
+        // Bouton
+        var btnEl = document.getElementById('art-btn');
+        if (released && release.buy_url) {
+          btnEl.innerHTML = '<a href="' + release.buy_url + '" target="_blank" rel="noopener" class="btn-buy" onclick="trackBSTN(\'' + (release.title || '').replace(/'/g, "\\'") + ' - article\')">🔥 Acheter Avant Rupture</a>';
+        } else {
+          btnEl.innerHTML = '<a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="btn-alert" onclick="trackTelegram(\'article-btn\')">🔔 Alerte Telegram — Gratuit</a>';
+        }
+
+        // Infos
+        var infoItems = [
+          { label: 'Marque', value: release.brand || 'N/A' },
+          { label: 'Prix', value: release.price || 'N/A' },
+          { label: 'Date de sortie', value: release.date !== 'TBD' ? formatDate(release.date) : 'À confirmer' },
+          { label: 'Coloris', value: release.colorway || 'N/A' },
+          { label: 'SKU', value: release.sku || 'N/A' },
+          { label: 'Disponibilité', value: released ? 'Dispo maintenant' : 'À venir' }
+        ];
+        document.getElementById('info-grid').innerHTML = infoItems.map(function(i) {
+          return '<div class="info-item"><div class="info-item__label">' + i.label + '</div><div class="info-item__value">' + i.value + '</div></div>';
+        }).join('');
+
+        // Description
+        document.getElementById('art-desc').innerHTML = '<p>' + getDescription(release) + '</p>';
+
+        // FAQ
+        document.getElementById('art-faq').innerHTML = getFAQ(release);
+
+        // Related
+        var others = data.filter(function(r) {
+          return r.id !== release.id && new Date(r.date + 'T23:59:59') >= new Date();
+        }).slice(0, 3);
+        document.getElementById('related-grid').innerHTML = others.map(function(r) {
+          var img = r.image_url ? '<img src="' + r.image_url + '" alt="' + r.title + '" loading="lazy" onerror="this.style.display=\'none\'">' : '';
+          return '<a href="/sorties/' + r.id + '.html" class="related-card"><div class="related-card__img">' + img + '</div><div class="related-card__body"><div class="related-card__brand">' + (r.brand || '') + '</div><div class="related-card__title">' + r.title + '</div><div class="related-card__price">' + (r.price || '') + '</div></div></a>';
+        }).join('');
+
+        document.getElementById('content').style.display = 'block';
+      })
+      .catch(function(err) {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('not-found').style.display = 'block';
+        console.error(err);
+      });
+  })();
+  </script>
+
+</body>
+</html>
