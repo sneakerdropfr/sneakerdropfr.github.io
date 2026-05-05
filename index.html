@@ -83,8 +83,11 @@
     .top-pick__price{font-family:var(--font-display);font-size:2.5rem;color:var(--green)}
     .top-pick__date{font-family:var(--font-condensed);font-size:.9rem;color:var(--muted);font-weight:600}
     .top-pick__alert{background:rgba(255,45,107,.12);border:1px solid var(--pink);border-radius:6px;padding:.5rem .75rem;font-family:var(--font-condensed);font-size:.85rem;font-weight:700;color:var(--pink);letter-spacing:.04em;text-transform:uppercase}
+    .top-pick__alert--upcoming{background:rgba(200,255,0,.08);border:1px solid var(--green);color:var(--green)}
     .btn-cop-big{display:block;background:var(--green);color:#111;font-family:var(--font-condensed);font-weight:900;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;padding:1rem;border-radius:8px;text-align:center;transition:transform .15s,box-shadow .15s}
     .btn-cop-big:hover{transform:translateY(-2px);box-shadow:0 0 28px rgba(200,255,0,.5)}
+    .btn-cop-big--alert{background:transparent;color:var(--green);border:2px solid var(--green)}
+    .btn-cop-big--alert:hover{background:rgba(200,255,0,.1);box-shadow:0 0 20px rgba(200,255,0,.3)}
     .releases{padding:2rem 0}
     .section-header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:1.5rem;gap:1rem;flex-wrap:wrap}
     .section-title{font-family:var(--font-display);font-size:clamp(1.8rem,5vw,2.8rem);letter-spacing:.03em;text-transform:uppercase}
@@ -101,9 +104,9 @@
     .drop-card:hover .drop-card__img{transform:scale(1.08)}
     .drop-card__img-placeholder{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:3rem}
     .drop-card__badge-top{position:absolute;top:.75rem;left:.75rem;font-family:var(--font-condensed);font-size:.7rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:.2rem .6rem;border-radius:4px}
-    .drop-card__badge-bot{position:absolute;bottom:.75rem;left:.75rem;font-family:var(--font-condensed);font-size:.7rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:.2rem .6rem;border-radius:4px;background:var(--green);color:#111}
     .badge-week{background:var(--pink);color:#fff}
     .badge-hot{background:#FF6B00;color:#fff}
+    .badge-upcoming{background:var(--green);color:#111}
     .drop-card__body{padding:1rem;display:flex;flex-direction:column;gap:.35rem;flex:1}
     .drop-card__brand{font-family:var(--font-condensed);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--green)}
     .drop-card__title{font-family:var(--font-condensed);font-size:1rem;font-weight:900;line-height:1.2;text-transform:uppercase;letter-spacing:.03em}
@@ -111,11 +114,12 @@
     .drop-card__date{font-size:.78rem;color:var(--muted);font-family:var(--font-condensed);font-weight:600}
     .drop-card__price{font-family:var(--font-condensed);font-size:1.3rem;font-weight:900;color:var(--pink)}
     .drop-card__stock{font-size:.72rem;color:var(--pink);font-family:var(--font-condensed);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .drop-card__stock--upcoming{color:var(--green)}
     .drop-card__cta{margin-top:auto;padding-top:.75rem}
     .btn-cop{display:block;width:100%;background:var(--green);color:#111;font-family:var(--font-condensed);font-weight:900;font-size:.9rem;letter-spacing:.08em;text-transform:uppercase;padding:.7rem 1rem;border-radius:8px;border:none;cursor:pointer;text-align:center;transition:box-shadow .15s,transform .15s}
     .btn-cop:hover{box-shadow:0 0 18px rgba(200,255,0,.5);transform:translateY(-1px)}
-    .btn-cop--ghost{background:transparent;color:var(--text);border:1px solid var(--border)}
-    .btn-cop--ghost:hover{border-color:var(--green);color:var(--green);box-shadow:none}
+    .btn-cop--alert{background:transparent;color:var(--green);border:2px solid var(--green)}
+    .btn-cop--alert:hover{background:rgba(200,255,0,.1);box-shadow:0 0 14px rgba(200,255,0,.3);transform:translateY(-1px)}
     .releases-loading,.releases-empty{text-align:center;padding:3rem 1rem;color:var(--muted);font-family:var(--font-condensed);font-size:1rem}
     .tg-section{background:var(--dark);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:3.5rem 0;text-align:center}
     .tg-section__inner{max-width:560px;margin:0 auto}
@@ -277,104 +281,181 @@
     var allReleases=[];
     var activeFilter='all';
     var BRAND_MAP={'jordan':['jordan brand','jordan'],'nike':['nike'],'adidas':['adidas'],'new balance':['new balance']};
-    var URGENCY_MSGS=['⚠️ Stock limité — part vite','🔥 Déjà en rupture ailleurs','🚨 Dernières tailles dispo','⚡ Encore dispo ici','⚠️ Très demandé cette semaine','🔥 Sold out sur d\'autres sites'];
 
-    function getScore(r){
-      var score=0;
-      var clicks={};
-      try{clicks=JSON.parse(localStorage.getItem('sdf_clicks')||'{}');}catch(e){}
-      if(clicks[r.title])score+=clicks[r.title]*0.5;
-      if(r.date&&r.date!=='TBD'){var diff=(new Date(r.date+'T12:00:00')-new Date())/(1000*60*60*24);if(diff>=0&&diff<=3)score+=4;else if(diff>0&&diff<=7)score+=2;}
-      var brand=(r.brand||'').toLowerCase();
-      if(brand.indexOf('jordan')!==-1)score+=3;
-      else if(brand.indexOf('nike')!==-1)score+=2;
-      else if(brand.indexOf('adidas')!==-1)score+=1;
-      if(r.price){var p=parseInt(r.price);if(p>=100&&p<=200)score+=2;}
-      if(r.buy_url)score+=1;
+    // Vérifie si la paire est déjà sortie (date passée ou aujourd'hui)
+    function isReleased(dateStr) {
+      if (!dateStr || dateStr === 'TBD') return false;
+      var releaseDate = new Date(dateStr + 'T00:00:00');
+      var today = new Date();
+      today.setHours(0,0,0,0);
+      return releaseDate <= today;
+    }
+
+    function isFutureOrToday(dateStr) {
+      if (!dateStr || dateStr === 'TBD') return true;
+      return new Date(dateStr + 'T23:59:59') >= new Date();
+    }
+
+    function isSoon(dateStr) {
+      if (!dateStr || dateStr === 'TBD') return false;
+      var diff = (new Date(dateStr + 'T12:00:00') - new Date()) / (1000*60*60*24);
+      return diff >= 0 && diff <= 7;
+    }
+
+    function getScore(r) {
+      var score = 0;
+      var clicks = {};
+      try { clicks = JSON.parse(localStorage.getItem('sdf_clicks') || '{}'); } catch(e) {}
+      if (clicks[r.title]) score += clicks[r.title] * 0.5;
+      if (r.date && r.date !== 'TBD') {
+        var diff = (new Date(r.date + 'T12:00:00') - new Date()) / (1000*60*60*24);
+        if (diff >= 0 && diff <= 3) score += 4;
+        else if (diff > 0 && diff <= 7) score += 2;
+      }
+      var brand = (r.brand || '').toLowerCase();
+      if (brand.indexOf('jordan') !== -1) score += 3;
+      else if (brand.indexOf('nike') !== -1) score += 2;
+      else if (brand.indexOf('adidas') !== -1) score += 1;
+      if (r.price) { var p = parseInt(r.price); if (p >= 100 && p <= 200) score += 2; }
+      if (r.buy_url) score += 1;
       return score;
     }
 
-    function matchBrand(r,filter){
-      if(filter==='all')return true;
-      var b=(r.brand||'').toLowerCase();
-      var keys=BRAND_MAP[filter.toLowerCase()]||[filter.toLowerCase()];
-      return keys.some(function(k){return b.indexOf(k)!==-1;});
+    function matchBrand(r, filter) {
+      if (filter === 'all') return true;
+      var b = (r.brand || '').toLowerCase();
+      var keys = BRAND_MAP[filter.toLowerCase()] || [filter.toLowerCase()];
+      return keys.some(function(k) { return b.indexOf(k) !== -1; });
     }
 
-    function formatDate(str){
-      if(!str||str==='TBD')return 'Date à confirmer';
-      try{var d=new Date(str+'T12:00:00');return d.toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'long'});}catch(e){return str;}
+    function formatDate(str) {
+      if (!str || str === 'TBD') return 'Date à confirmer';
+      try {
+        var d = new Date(str + 'T12:00:00');
+        return d.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'long' });
+      } catch(e) { return str; }
     }
 
-    function isSoon(dateStr){
-      if(!dateStr||dateStr==='TBD')return false;
-      var diff=(new Date(dateStr+'T12:00:00')-new Date())/(1000*60*60*24);
-      return diff>=0&&diff<=7;
-    }
-
-    function isFutureOrToday(dateStr){
-      if(!dateStr||dateStr==='TBD')return true;
-      return new Date(dateStr+'T23:59:59')>=new Date();
-    }
-
-    function sortByDate(arr){
-      return arr.slice().sort(function(a,b){
-        var da=a.date&&a.date!=='TBD'?new Date(a.date):new Date('9999-12-31');
-        var db=b.date&&b.date!=='TBD'?new Date(b.date):new Date('9999-12-31');
-        return da-db;
+    function sortByDate(arr) {
+      return arr.slice().sort(function(a, b) {
+        var da = a.date && a.date !== 'TBD' ? new Date(a.date) : new Date('9999-12-31');
+        var db = b.date && b.date !== 'TBD' ? new Date(b.date) : new Date('9999-12-31');
+        return da - db;
       });
     }
 
-    function sortByScore(arr){
-      return arr.slice().sort(function(a,b){return getScore(b)-getScore(a);});
+    function sortByScore(arr) {
+      return arr.slice().sort(function(a, b) { return getScore(b) - getScore(a); });
     }
 
-    function safeTitle(t){return(t||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');}
+    function safeTitle(t) { return (t || '').replace(/'/g, "\\'").replace(/"/g, '&quot;'); }
 
-    function renderTopPick(r){
-      if(!r||!topPickCard)return;
-      var img=r.image_url?'<img src="'+r.image_url+'" alt="'+r.title+'" class="top-pick__img" loading="lazy" onerror="this.style.display=\'none\'">':'';
-      var btn=r.buy_url?'<a href="'+r.buy_url+'" target="_blank" rel="noopener" class="btn-cop-big" onclick="trackBSTN(\''+safeTitle(r.title)+' - TOP PICK\')">🔥 Acheter Avant Rupture</a>':'<a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="btn-cop-big" onclick="trackTelegram(\'top-pick\')">🚨 Alerte Telegram</a>';
-      topPickCard.innerHTML='<div class="top-pick__tag">🔥 Top Pick de la semaine</div><div class="top-pick__img-wrap">'+img+'</div><div class="top-pick__body"><span class="top-pick__brand">'+(r.brand||'')+'</span><h2 class="top-pick__title">'+r.title+'</h2><div class="top-pick__price">'+(r.price||'')+'</div><div class="top-pick__date">📅 '+formatDate(r.date)+'</div><div class="top-pick__alert">⚠️ Déjà en rupture sur plusieurs sites — encore dispo ici</div>'+btn+'</div>';
+    // Génère le bon bouton selon si la paire est sortie ou pas
+    function makeBtn(r, isBig) {
+      var released = isReleased(r.date);
+      if (released && r.buy_url) {
+        // Paire sortie → bouton achat BSTN
+        var cls = isBig ? 'btn-cop-big' : 'btn-cop';
+        return '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN(\'' + safeTitle(r.title) + '\')">🔥 Acheter Avant Rupture</a>';
+      } else {
+        // Paire pas encore sortie → alerte Telegram
+        var cls2 = isBig ? 'btn-cop-big btn-cop-big--alert' : 'btn-cop btn-cop--alert';
+        return '<a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="' + cls2 + '" onclick="trackTelegram(\'alert-btn\')">🔔 Créer une alerte Telegram</a>';
+      }
     }
 
-    function renderCard(r,index){
-      var img=r.image_url?'<img src="'+r.image_url+'" alt="'+r.title+'" class="drop-card__img" loading="lazy" onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">':'<div class="drop-card__img-placeholder">👟</div>';
-      var badgeTop=isSoon(r.date)?'<div class="drop-card__badge-top badge-week">⚡ Cette semaine</div>':'<div class="drop-card__badge-top badge-hot">🔥 Hot</div>';
-      var badgeBot='<div class="drop-card__badge-bot">🔥 HOT</div>';
-      var btn=r.buy_url?'<a href="'+r.buy_url+'" target="_blank" rel="noopener" class="btn-cop" onclick="trackBSTN(\''+safeTitle(r.title)+'\')">🔥 Acheter Avant Rupture</a>':'<a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="btn-cop btn-cop--ghost" onclick="trackTelegram(\'card\')">🚨 Alerte Telegram</a>';
-      return '<article class="drop-card"><div class="drop-card__img-wrap">'+badgeTop+badgeBot+img+'</div><div class="drop-card__body"><span class="drop-card__brand">'+(r.brand||'')+'</span><h3 class="drop-card__title">'+r.title+'</h3><div class="drop-card__meta"><span class="drop-card__date">📅 '+formatDate(r.date)+'</span><span class="drop-card__price">'+(r.price||'')+'</span></div><div class="drop-card__stock">'+URGENCY_MSGS[index%URGENCY_MSGS.length]+'</div><div class="drop-card__cta">'+btn+'</div></div></article>';
+    function renderTopPick(r) {
+      if (!r || !topPickCard) return;
+      var released = isReleased(r.date);
+      var img = r.image_url ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="top-pick__img" loading="lazy" onerror="this.style.display=\'none\'">' : '';
+      var alertDiv = released
+        ? '<div class="top-pick__alert">⚠️ Déjà en rupture sur plusieurs sites — encore dispo ici</div>'
+        : '<div class="top-pick__alert top-pick__alert--upcoming">📅 Drop le ' + formatDate(r.date) + ' — Active ton alerte maintenant</div>';
+      topPickCard.innerHTML =
+        '<div class="top-pick__tag">🔥 Top Pick de la semaine</div>' +
+        '<div class="top-pick__img-wrap">' + img + '</div>' +
+        '<div class="top-pick__body">' +
+          '<span class="top-pick__brand">' + (r.brand || '') + '</span>' +
+          '<h2 class="top-pick__title">' + r.title + '</h2>' +
+          '<div class="top-pick__price">' + (r.price || '') + '</div>' +
+          '<div class="top-pick__date">📅 ' + formatDate(r.date) + '</div>' +
+          alertDiv +
+          makeBtn(r, true) +
+        '</div>';
     }
 
-    function render(){
-      var upcoming=allReleases.filter(function(r){return isFutureOrToday(r.date);});
-      var filtered=upcoming.filter(function(r){return matchBrand(r,activeFilter);});
-      var sorted=sortByDate(filtered).slice(0,MAX_CARDS);
-      if(!sorted.length){grid.style.display='none';empty.style.display='block';}
-      else{empty.style.display='none';grid.style.display='';grid.innerHTML=sorted.map(function(r,i){return renderCard(r,i);}).join('');}
+    function renderCard(r, index) {
+      var released = isReleased(r.date);
+      var img = r.image_url
+        ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy" onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
+        : '<div class="drop-card__img-placeholder">👟</div>';
+
+      var badgeTop = released
+        ? '<div class="drop-card__badge-top badge-week">🔥 Dispo maintenant</div>'
+        : (isSoon(r.date)
+            ? '<div class="drop-card__badge-top badge-hot">⏰ Cette semaine</div>'
+            : '<div class="drop-card__badge-top badge-upcoming">📅 À venir</div>');
+
+      var urgency = released
+        ? '⚠️ Stock limité — part vite'
+        : '🔔 Active ton alerte pour ne pas rater ce drop';
+
+      var urgencyClass = released ? 'drop-card__stock' : 'drop-card__stock drop-card__stock--upcoming';
+
+      return '<article class="drop-card">' +
+        '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>' +
+        '<div class="drop-card__body">' +
+          '<span class="drop-card__brand">' + (r.brand || '') + '</span>' +
+          '<h3 class="drop-card__title">' + r.title + '</h3>' +
+          '<div class="drop-card__meta">' +
+            '<span class="drop-card__date">📅 ' + formatDate(r.date) + '</span>' +
+            '<span class="drop-card__price">' + (r.price || '') + '</span>' +
+          '</div>' +
+          '<div class="' + urgencyClass + '">' + urgency + '</div>' +
+          '<div class="drop-card__cta">' + makeBtn(r, false) + '</div>' +
+        '</div>' +
+      '</article>';
     }
 
-    document.querySelectorAll('.filter-btn').forEach(function(btn){
-      btn.addEventListener('click',function(){
-        document.querySelectorAll('.filter-btn').forEach(function(b){b.classList.remove('active');});
+    function render() {
+      var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
+      var filtered = upcoming.filter(function(r) { return matchBrand(r, activeFilter); });
+      var sorted = sortByDate(filtered).slice(0, MAX_CARDS);
+      if (!sorted.length) {
+        grid.style.display = 'none';
+        empty.style.display = 'block';
+      } else {
+        empty.style.display = 'none';
+        grid.style.display = '';
+        grid.innerHTML = sorted.map(function(r, i) { return renderCard(r, i); }).join('');
+      }
+    }
+
+    document.querySelectorAll('.filter-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
         btn.classList.add('active');
-        activeFilter=btn.dataset.brand;
+        activeFilter = btn.dataset.brand;
         render();
       });
     });
 
     fetch(RELEASES_URL)
-      .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
-      .then(function(data){
-        loading.style.display='none';
-        allReleases=data.filter(function(r){return!r.id.startsWith('test-');});
-        if(!allReleases.length){empty.style.display='block';return;}
-        var upcoming=allReleases.filter(function(r){return isFutureOrToday(r.date);});
-        var byScore=sortByScore(upcoming);
+      .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function(data) {
+        loading.style.display = 'none';
+        allReleases = data.filter(function(r) { return !r.id.startsWith('test-'); });
+        if (!allReleases.length) { empty.style.display = 'block'; return; }
+        var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
+        var byScore = sortByScore(upcoming);
         renderTopPick(byScore[0]);
         render();
       })
-      .catch(function(err){loading.style.display='none';console.error('Erreur releases:',err);empty.style.display='block';});
+      .catch(function(err) {
+        loading.style.display = 'none';
+        console.error('Erreur releases:', err);
+        empty.style.display = 'block';
+      });
   })();
   </script>
 
