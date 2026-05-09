@@ -208,6 +208,9 @@
         <h2 class="section-title">Prochaines Sorties</h2>
         <span class="section-badge">⚡ Stock Limité</span>
       </div>
+      <div style="margin-bottom:1rem">
+        <input id="search-releases" type="text" placeholder="🔍 Rechercher une paire..." oninput="filterBySearch(this.value)" style="width:100%;padding:.75rem 1rem;border-radius:999px;border:1px solid var(--border);background:var(--card);color:var(--text);font-family:var(--font-condensed);font-size:.95rem;outline:none;box-sizing:border-box">
+      </div>
       <div class="filters" id="filters">
         <button class="filter-btn active" data-brand="all">Toutes</button>
         <button class="filter-btn" data-brand="Jordan">Jordan</button>
@@ -464,6 +467,24 @@
         empty.style.display = 'block';
       });
   })();
+
+  function filterBySearch(query) {
+    var q = query.toLowerCase().trim();
+    if (!q) { render(); return; }
+    var filtered = allReleases.filter(function(r) {
+      return (r.title||'').toLowerCase().includes(q) || (r.brand||'').toLowerCase().includes(q);
+    });
+    var grid = document.getElementById('releases-grid');
+    var empty = document.getElementById('releases-empty');
+    if (!filtered.length) {
+      grid.style.display = 'none';
+      empty.style.display = 'block';
+    } else {
+      empty.style.display = 'none';
+      grid.style.display = '';
+      grid.innerHTML = filtered.map(function(r, i) { return renderCard(r, i); }).join('');
+    }
+  }
 
   function loadPastReleases() {
     var btn = document.getElementById('btn-past');
