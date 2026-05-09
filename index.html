@@ -659,7 +659,7 @@
     } else {
       var html = '<div class="releases-grid">';
       data.forEach(function(r) {
-        var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" onerror="this.style.display='none'">' : '<div class="drop-card__img-placeholder">👟</div>';
+        var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" onerror="this.style.display=\'none\'">' : '<div class="drop-card__img-placeholder">👟</div>';
         html += '<article class="drop-card">';
         html += '<div class="drop-card__img-wrap">' + img + '</div>';
         html += '<div class="drop-card__body">';
@@ -813,7 +813,7 @@
     var loading = document.getElementById('weekly-loading');
 
     function renderWeeklyCard(r) {
-      var img = r.image ? '<img src="' + r.image + '" alt="' + (r.name||'') + '" class="weekly-card__img" loading="lazy" onerror="this.style.display='none'">' : '';
+      var img = r.image ? '<img src="' + r.image + '" alt="' + (r.name||'') + '" class="weekly-card__img" loading="lazy" onerror="this.style.display=\'none\'">' : '';
       var wtcSlug = (r.wtc_url || r.link || '');
       var btnHtml = wtcSlug ? '<a href="' + wtcSlug + '" target="_blank" rel="noopener" class="weekly-card__btn">Voir</a>' : '';
       var dateStr = '';
