@@ -445,7 +445,7 @@
       .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function(data) {
         loading.style.display = 'none';
-        allReleases = data.filter(function(r) { return !r.id.startsWith('test-'); });
+        allReleases = data.filter(function(r) { return r.id && !r.id.startsWith('test-'); });
         if (!allReleases.length) { empty.style.display = 'block'; return; }
         var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
         var byScore = sortByScore(upcoming);
