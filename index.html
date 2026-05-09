@@ -468,7 +468,7 @@
   function loadPastReleases() {
     var btn = document.getElementById('btn-past');
     var grid = document.getElementById('past-grid');
-    if (grid.style.display !== 'none') {
+    if (grid.style.display === 'block') {
       grid.style.display = 'none';
       btn.textContent = '🕐 VOIR LES ANCIENNES SORTIES';
       return;
