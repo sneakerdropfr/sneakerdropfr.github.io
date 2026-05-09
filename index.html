@@ -427,7 +427,6 @@
       '</article>';
     }
 
-    window._render = render;
     function render() {
       var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
       var filtered = upcoming.filter(function(r) { return matchBrand(r, activeFilter); });
@@ -443,6 +442,7 @@
       }
     }
 
+    window._render = render;
     document.querySelectorAll('.filter-btn').forEach(function(btn) {
       btn.addEventListener('click', function() {
         document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
