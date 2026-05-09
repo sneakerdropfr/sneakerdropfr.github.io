@@ -166,6 +166,25 @@
     .weekly-card__price{font-size:.85rem;color:var(--muted)}
     .weekly-card__btn{display:inline-block;background:var(--accent);color:#000;font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:.4rem .9rem;border-radius:6px;text-decoration:none;margin-top:auto;align-self:flex-start}
     .weekly-card__btn:hover{opacity:.85}
+  
+    /* Section paires cotées */
+    .hype-section{padding:3.5rem 0;border-top:1px solid var(--border)}
+    .hype-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem;margin-top:1.5rem}
+    .hype-card{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
+    .hype-card:hover{border-color:var(--accent);transform:translateY(-4px)}
+    .hype-card__img-wrap{position:relative;background:#fff}
+    .hype-card__img{width:100%;height:200px;object-fit:contain;display:block;padding:8px}
+    .hype-card__badge{position:absolute;top:10px;left:10px;font-size:.65rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:.3rem .6rem;border-radius:4px}
+    .hype-card__multiplier{position:absolute;top:10px;right:10px;background:rgba(0,0,0,.75);color:#E8FF00;font-size:.75rem;font-weight:900;padding:.25rem .55rem;border-radius:4px;letter-spacing:.04em}
+    .hype-card__body{padding:1rem;display:flex;flex-direction:column;gap:.35rem;flex:1}
+    .hype-card__title{font-size:.95rem;font-weight:800;color:var(--text);line-height:1.3}
+    .hype-card__sub{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+    .hype-card__date{font-size:.75rem;color:#888}
+    .hype-card__prices{display:flex;gap:.75rem;align-items:center;margin-top:.25rem}
+    .hype-card__retail{font-size:.8rem;color:var(--muted);text-decoration:line-through}
+    .hype-card__resell{font-size:1rem;font-weight:900;color:var(--accent)}
+    .hype-card__btn{display:inline-block;background:transparent;border:1px solid var(--accent);color:var(--accent);font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:.45rem 1rem;border-radius:6px;text-decoration:none;margin-top:auto;align-self:flex-start;transition:background .2s,color .2s}
+    .hype-card__btn:hover{background:var(--accent);color:#000}
   </style>
 </head>
 <body>
@@ -243,6 +262,120 @@
     </div>
   </section>
 
+
+
+  <section class="hype-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Paires les Plus Cotées</h2>
+        <span class="section-badge" style="background:var(--accent);color:#000">Resell 2026</span>
+      </div>
+      <div class="hype-grid">
+        <div class="hype-card">
+          <div class="hype-card__img-wrap">
+            <img src="https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-3-bin23-io7744-600-1.jpg" alt="Air Jordan 3 Bin23" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
+            <span class="hype-card__badge" style="background:#E8FF00;color:#000">GRAIL</span>
+            <span class="hype-card__multiplier">x2.2</span>
+          </div>
+          <div class="hype-card__body">
+            <div class="hype-card__title">Air Jordan 3 Bin23</div>
+            <div class="hype-card__sub">Limited 2300 pairs</div>
+            <div class="hype-card__date">Drop : 13 juin 2026</div>
+            <div class="hype-card__prices">
+              <span class="hype-card__retail">Retail 355€</span>
+              <span class="hype-card__resell">Resell ~800€</span>
+            </div>
+            <a href="https://sneakerdropfr.fr/sorties/aj3-bin23-2026.html" class="hype-card__btn">Voir le drop</a>
+          </div>
+        </div>
+<div class="hype-card">
+          <div class="hype-card__img-wrap">
+            <img src="https://sneakernews.com/wp-content/uploads/2026/01/travis-scott-jordan-1-low-pink-iq7604-101-1.jpg" alt="Travis Scott x AJ1 Low Pink Pack" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
+            <span class="hype-card__badge" style="background:#ff6b35;color:#fff">HYPE</span>
+            <span class="hype-card__multiplier">x3.2</span>
+          </div>
+          <div class="hype-card__body">
+            <div class="hype-card__title">Travis Scott x AJ1 Low Pink Pack</div>
+            <div class="hype-card__sub">Collab exclusive</div>
+            <div class="hype-card__date">Drop : 29 mai 2026</div>
+            <div class="hype-card__prices">
+              <span class="hype-card__retail">Retail 155€</span>
+              <span class="hype-card__resell">Resell ~500€</span>
+            </div>
+            <a href="https://sneakerdropfr.fr/sorties/travis-scott-x-air-jordan-1-low-og-pink-pack-releases-may-2026.html" class="hype-card__btn">Voir le drop</a>
+          </div>
+        </div>
+<div class="hype-card">
+          <div class="hype-card__img-wrap">
+            <img src="https://sneakernews.com/wp-content/uploads/2026/04/nigel-sylvester-air-jordan-4-brick-after-brick-iq8055-100.jpg" alt="Nigel Sylvester x AJ4 Brick After Brick" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
+            <span class="hype-card__badge" style="background:#a855f7;color:#fff">COLLAB</span>
+            <span class="hype-card__multiplier">x1.5</span>
+          </div>
+          <div class="hype-card__body">
+            <div class="hype-card__title">Nigel Sylvester x AJ4 Brick After Brick</div>
+            <div class="hype-card__sub">Collab BMX / Jordan</div>
+            <div class="hype-card__date">Drop : 22 mai 2026</div>
+            <div class="hype-card__prices">
+              <span class="hype-card__retail">Retail 230€</span>
+              <span class="hype-card__resell">Resell ~348€</span>
+            </div>
+            <a href="https://sneakerdropfr.fr/sorties/nigel-sylvester-x-air-jordan-4-brick-after-brick.html" class="hype-card__btn">Voir le drop</a>
+          </div>
+        </div>
+<div class="hype-card">
+          <div class="hype-card__img-wrap">
+            <img src="https://sneakernews.com/wp-content/uploads/2026/05/nike-kobe-air-force-1-protro-denim-im1980-400-1.jpg" alt="Kobe x Nike AF1 Low Protro Denim" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
+            <span class="hype-card__badge" style="background:#3b82f6;color:#fff">KOBE</span>
+            <span class="hype-card__multiplier">x1.3</span>
+          </div>
+          <div class="hype-card__body">
+            <div class="hype-card__title">Kobe x Nike AF1 Low Protro Denim</div>
+            <div class="hype-card__sub">Retro 2006 limité</div>
+            <div class="hype-card__date">Drop : 22 mai 2026</div>
+            <div class="hype-card__prices">
+              <span class="hype-card__retail">Retail 150€</span>
+              <span class="hype-card__resell">Resell ~194€</span>
+            </div>
+            <a href="https://sneakerdropfr.fr/sorties/nike-kobe-air-force-1-low-protro-denim.html" class="hype-card__btn">Voir le drop</a>
+          </div>
+        </div>
+<div class="hype-card">
+          <div class="hype-card__img-wrap">
+            <img src="https://sneakernews.com/wp-content/uploads/2026/01/bad-bunny-adidas-ballerina-flamboyan-red-ki7916-4.jpg" alt="Bad Bunny x Adidas Ballerina Flamboyan" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
+            <span class="hype-card__badge" style="background:#a855f7;color:#fff">COLLAB</span>
+            <span class="hype-card__multiplier">x2.3</span>
+          </div>
+          <div class="hype-card__body">
+            <div class="hype-card__title">Bad Bunny x Adidas Ballerina Flamboyan</div>
+            <div class="hype-card__sub">Silhouette inédite</div>
+            <div class="hype-card__date">Drop : 15 mai 2026</div>
+            <div class="hype-card__prices">
+              <span class="hype-card__retail">Retail 120€</span>
+              <span class="hype-card__resell">Resell ~280€</span>
+            </div>
+            <a href="https://sneakerdropfr.fr/sorties/bad-bunny-adidas-ballerina-flamboyan-2026.html" class="hype-card__btn">Voir le drop</a>
+          </div>
+        </div>
+<div class="hype-card">
+          <div class="hype-card__img-wrap">
+            <img src="https://sneakernews.com/wp-content/uploads/2026/01/air-jordan-12-bloodline-ct8013-003-1.jpg" alt="Air Jordan 12 Bloodline" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
+            <span class="hype-card__badge" style="background:#ef4444;color:#fff">RETRO</span>
+            <span class="hype-card__multiplier">x1.3</span>
+          </div>
+          <div class="hype-card__body">
+            <div class="hype-card__title">Air Jordan 12 Bloodline</div>
+            <div class="hype-card__sub">Retro OG colorway</div>
+            <div class="hype-card__date">Drop : 23 mai 2026</div>
+            <div class="hype-card__prices">
+              <span class="hype-card__retail">Retail 190€</span>
+              <span class="hype-card__resell">Resell ~250€</span>
+            </div>
+            <a href="https://sneakerdropfr.fr/sorties/air-jordan-12-bloodline-releases-may-2026.html" class="hype-card__btn">Voir le drop</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="weekly-section" id="drops-semaine">
     <div class="container">
