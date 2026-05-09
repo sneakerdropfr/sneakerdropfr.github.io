@@ -430,6 +430,7 @@
     function render() {
       var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
       var filtered = upcoming.filter(function(r) { return matchBrand(r, activeFilter); });
+      if (searchQuery) { filtered = filtered.filter(function(r) { return (r.title||'').toLowerCase().indexOf(searchQuery) !== -1 || (r.brand||'').toLowerCase().indexOf(searchQuery) !== -1; }); }
       var sorted = sortByDate(filtered).slice(0, MAX_CARDS);
       if (!sorted.length) {
         grid.style.display = 'none';
@@ -468,22 +469,10 @@
       });
   })();
 
+  var searchQuery = '';
   function filterBySearch(query) {
-    var q = query.toLowerCase().trim();
-    if (!q) { render(); return; }
-    var filtered = allReleases.filter(function(r) {
-      return (r.title||'').toLowerCase().includes(q) || (r.brand||'').toLowerCase().includes(q);
-    });
-    var grid = document.getElementById('releases-grid');
-    var empty = document.getElementById('releases-empty');
-    if (!filtered.length) {
-      grid.style.display = 'none';
-      empty.style.display = 'block';
-    } else {
-      empty.style.display = 'none';
-      grid.style.display = '';
-      grid.innerHTML = filtered.map(function(r, i) { return renderCard(r, i); }).join('');
-    }
+    searchQuery = query.toLowerCase().trim();
+    render();
   }
 
   function loadPastReleases() {
