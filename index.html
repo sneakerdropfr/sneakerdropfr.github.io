@@ -273,7 +273,7 @@
   })();
 
   (function(){
-    var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
+    var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?nocache='+Math.random();
     var grid=document.getElementById('releases-grid');
     var empty=document.getElementById('releases-empty');
     var loading=document.getElementById('releases-loading');
