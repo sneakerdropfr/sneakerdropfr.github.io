@@ -555,14 +555,16 @@
       return !EXCLUDE.some(function(ex){ return t.indexOf(ex) !== -1; });
     }
     function formatDateFR(dateStr) {
-      if(!dateStr) return '';
-      var months = ['Jan','Fév','Mar','Avr','Mai','Jun','Jul','Aoû','Sep','Oct','Nov','Déc'];
+      if(!dateStr) return dateStr||'';
+      // Format DD/MM/YYYY (ex: 11/05/2026)
       var parts = dateStr.split('/');
       if(parts.length === 3) {
+        var months = ['Jan','Fév','Mar','Avr','Mai','Jun','Jul','Aoû','Sep','Oct','Nov','Déc'];
         var d = parseInt(parts[0]), m = parseInt(parts[1])-1;
         return d + ' ' + (months[m]||'');
       }
-      return dateStr;
+      // Format "D Month YYYY" (ex: "11 May 2026")
+      return dateStr.replace(/\s+\d{4}$/, '');
     }
     fetch(WEEKLY_URL)
       .then(function(r){ return r.json(); })
@@ -573,7 +575,7 @@
         if(badge) badge.textContent = formatDateFR(start) + ' → ' + formatDateFR(end);
         if(!releases.length){ grid.innerHTML='<p style="color:var(--muted)">Aucun drop cette semaine.</p>'; return; }
         grid.innerHTML = releases.slice(0,12).map(function(r) {
-          var img = r.image_url ? '<img src="'+r.image_url+'" alt="'+r.title+'" class="weekly-card__img" loading="lazy" onerror="this.style.display='none'">' : '';
+          var img = (r.image_url||r.image) ? '<img src="'+(r.image_url||r.image)+'" alt="'+r.title+'" class="weekly-card__img" loading="lazy" onerror="this.style.display='none'">' : '';
           var dateStr = r.date ? '<span class="weekly-card__date">'+r.date+'</span>' : '';
           var price = r.price ? '<span class="weekly-card__price">'+r.price+'</span>' : '';
           var btn = r.buy_link ? '<a href="'+r.buy_link+'" target="_blank" rel="noopener" class="weekly-card__btn">Voir</a>' : (r.link ? '<a href="'+r.link+'" target="_blank" rel="noopener" class="weekly-card__btn">Voir</a>' : '');
