@@ -153,6 +153,19 @@
     #cookie-accept{background:var(--green);color:#111;border:none;border-radius:6px;padding:.5rem 1.1rem;font-weight:900;font-size:.82rem;font-family:var(--font-condensed);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
     @media(max-width:768px){.top-pick__card{grid-template-columns:1fr}.top-pick__body{padding:1.25rem}.releases-grid{grid-template-columns:1fr 1fr;gap:.75rem}.drop-card__title{font-size:.9rem}.drop-card__body{padding:.75rem}.hero__ctas{flex-direction:column;align-items:stretch}.btn-primary,.btn-secondary{justify-content:center}.float-tg{bottom:80px;right:12px;font-size:.8rem;padding:.65rem .9rem}.sticky-tg__text{font-size:.78rem}}
     @media(max-width:400px){.releases-grid{grid-template-columns:1fr}}
+  
+    /* Section drops semaine */
+    .weekly-section{padding:3rem 0;border-top:1px solid var(--border)}
+    .weekly-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;margin-top:1.5rem}
+    .weekly-card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
+    .weekly-card:hover{border-color:var(--accent);transform:translateY(-3px)}
+    .weekly-card__img{width:100%;height:160px;object-fit:contain;background:#fff;padding:8px}
+    .weekly-card__body{padding:1rem;flex:1;display:flex;flex-direction:column;gap:.4rem}
+    .weekly-card__date{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent)}
+    .weekly-card__title{font-size:.9rem;font-weight:700;color:var(--text);line-height:1.3;flex:1}
+    .weekly-card__price{font-size:.85rem;color:var(--muted)}
+    .weekly-card__btn{display:inline-block;background:var(--accent);color:#000;font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:.4rem .9rem;border-radius:6px;text-decoration:none;margin-top:auto;align-self:flex-start}
+    .weekly-card__btn:hover{opacity:.85}
   </style>
 </head>
 <body>
@@ -227,6 +240,19 @@
         </button>
       </div>
       <div id="past-grid" style="display:none;margin-top:1.5rem"></div>
+    </div>
+  </section>
+
+
+  <section class="weekly-section" id="drops-semaine">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Drops de la Semaine</h2>
+        <span class="section-badge" id="weekly-badge">...</span>
+      </div>
+      <div class="weekly-grid" id="weekly-grid">
+        <p style="color:var(--muted);grid-column:1/-1">Chargement...</p>
+      </div>
     </div>
   </section>
 
@@ -516,6 +542,46 @@
       });
   }
   </script>
+
+
+  // ─── Drops de la semaine (weekly_data.json) ───
+  (function() {
+    var WEEKLY_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/weekly_data.json?t=' + Date.now();
+    var grid = document.getElementById('weekly-grid');
+    var badge = document.getElementById('weekly-badge');
+    var EXCLUDE = ['crocs','jersey','maillot','hoodie','pant','short','t-shirt','jacket','sock','cap','hat','bag','clog','brief','boxer','legging','psg','saint-germain'];
+    function isSneaker(title) {
+      var t = (title||'').toLowerCase();
+      return !EXCLUDE.some(function(ex){ return t.indexOf(ex) !== -1; });
+    }
+    function formatDateFR(dateStr) {
+      if(!dateStr) return '';
+      var months = ['Jan','Fév','Mar','Avr','Mai','Jun','Jul','Aoû','Sep','Oct','Nov','Déc'];
+      var parts = dateStr.split('/');
+      if(parts.length === 3) {
+        var d = parseInt(parts[0]), m = parseInt(parts[1])-1;
+        return d + ' ' + (months[m]||'');
+      }
+      return dateStr;
+    }
+    fetch(WEEKLY_URL)
+      .then(function(r){ return r.json(); })
+      .then(function(data) {
+        var releases = (data.releases||[]).filter(function(r){ return isSneaker(r.title); });
+        var start = data.week_start || '';
+        var end = data.week_end || '';
+        if(badge) badge.textContent = formatDateFR(start) + ' → ' + formatDateFR(end);
+        if(!releases.length){ grid.innerHTML='<p style="color:var(--muted)">Aucun drop cette semaine.</p>'; return; }
+        grid.innerHTML = releases.slice(0,12).map(function(r) {
+          var img = r.image_url ? '<img src="'+r.image_url+'" alt="'+r.title+'" class="weekly-card__img" loading="lazy" onerror="this.style.display='none'">' : '';
+          var dateStr = r.date ? '<span class="weekly-card__date">'+r.date+'</span>' : '';
+          var price = r.price ? '<span class="weekly-card__price">'+r.price+'</span>' : '';
+          var btn = r.buy_link ? '<a href="'+r.buy_link+'" target="_blank" rel="noopener" class="weekly-card__btn">Voir</a>' : (r.link ? '<a href="'+r.link+'" target="_blank" rel="noopener" class="weekly-card__btn">Voir</a>' : '');
+          return '<div class="weekly-card">'+img+'<div class="weekly-card__body">'+dateStr+'<div class="weekly-card__title">'+r.title+'</div>'+price+btn+'</div></div>';
+        }).join('');
+      })
+      .catch(function(){ grid.innerHTML='<p style="color:var(--muted)">Erreur chargement.</p>'; });
+  })();
 
 </body>
 </html>
