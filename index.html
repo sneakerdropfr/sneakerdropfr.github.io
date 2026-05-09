@@ -480,7 +480,20 @@
         if (!data.length) {
           grid.innerHTML = '<p style="text-align:center;color:var(--muted);padding:2rem">Aucune ancienne sortie disponible.</p>';
         } else {
-          grid.innerHTML = '<div class="releases-grid">' + data.map(function(r) { return renderCard(r, 0); }).join('') + '</div>';
+          var html = '<div class="releases-grid">';
+          data.forEach(function(r) {
+            var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" onerror="this.style.display=null">' : '<div class="drop-card__img-placeholder">\u{1F45F}</div>';
+            html += '<article class="drop-card">';
+            html += '<div class="drop-card__img-wrap">' + img + '</div>';
+            html += '<div class="drop-card__body">';
+            html += '<div class="drop-card__brand">' + (r.brand || r.source || '') + '</div>';
+            html += '<h3 class="drop-card__title">' + (r.title || '') + '</h3>';
+            html += '<div class="drop-card__meta"><span>' + (r.date || 'TBD') + '</span><span class="drop-card__price">' + (r.price || '') + '</span></div>';
+            html += '<a href="' + (r.link || '#') + '" target="_blank" class="drop-card__cta btn-primary">Voir la paire</a>';
+            html += '</div></article>';
+          });
+          html += '</div>';
+          grid.innerHTML = html;
         }
         grid.style.display = 'block';
         btn.textContent = '🔼 MASQUER LES ANCIENNES SORTIES';
