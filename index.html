@@ -185,6 +185,8 @@
     .hype-card__resell{font-size:1rem;font-weight:900;color:var(--accent)}
     .hype-card__btn{display:inline-block;background:transparent;border:1px solid var(--accent);color:var(--accent);font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:.45rem 1rem;border-radius:6px;text-decoration:none;margin-top:auto;align-self:flex-start;transition:background .2s,color .2s}
     .hype-card__btn:hover{background:var(--accent);color:#000}
+    .hype-card__bstn{display:inline-block;background:var(--accent);color:#000;font-size:.75rem;font-weight:900;text-transform:uppercase;letter-spacing:.06em;padding:.45rem 1rem;border-radius:6px;text-decoration:none;margin-top:.5rem;align-self:flex-start;transition:opacity .2s}
+    .hype-card__bstn:hover{opacity:.85}
   </style>
 </head>
 <body>
@@ -271,7 +273,7 @@
         <span class="section-badge" style="background:var(--accent);color:#000">Resell 2026</span>
       </div>
       <div class="hype-grid">
-        <div class="hype-card">
+        <div class="hype-card" data-sku="IO7744-600">
           <div class="hype-card__img-wrap">
             <img src="https://sneakernews.com/wp-content/uploads/2025/07/air-jordan-3-bin23-io7744-600.jpg?w=1200" alt="Air Jordan 3 Bin23" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
             <span class="hype-card__badge" style="background:#E8FF00;color:#000">GRAIL</span>
@@ -288,7 +290,7 @@
             <a href="https://sneakernews.com/2025/07/13/air-jordan-3-bin23-io7744-600/" target="_blank" rel="noopener" class="hype-card__btn">Voir le drop</a>
           </div>
         </div>
-<div class="hype-card">
+<div class="hype-card" data-sku="IQ7604-101">
           <div class="hype-card__img-wrap">
             <img src="https://sneakernews.com/wp-content/uploads/2026/01/travis-scott-jordan-1-low-pink-iq7604-101-1.jpg" alt="Travis Scott x AJ1 Low Pink Pack" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
             <span class="hype-card__badge" style="background:#ff6b35;color:#fff">HYPE</span>
@@ -305,7 +307,7 @@
             <a href="https://www.whentocop.fr/drops/travis-scott-x-air-jordan-1-low-og-pink-pack" target="_blank" rel="noopener" class="hype-card__btn">Voir le drop</a>
           </div>
         </div>
-<div class="hype-card">
+<div class="hype-card" data-sku="IQ8055-100">
           <div class="hype-card__img-wrap">
             <img src="https://sneakerbardetroit.com/wp-content/uploads/2026/03/nigel-sylvester-air-jordan-4-brick-after-brick-1068x757.webp" alt="Nigel Sylvester x AJ4 Brick After Brick" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
             <span class="hype-card__badge" style="background:#a855f7;color:#fff">COLLAB</span>
@@ -322,7 +324,7 @@
             <a href="https://sneakerbardetroit.com/nigel-sylvester-air-jordan-4-brick-after-brick/" target="_blank" rel="noopener" class="hype-card__btn">Voir le drop</a>
           </div>
         </div>
-<div class="hype-card">
+<div class="hype-card" data-sku="IM1980-400">
           <div class="hype-card__img-wrap">
             <img src="https://sneakernews.com/wp-content/uploads/2025/08/kobe-bryant-nike-air-force-1-protro-denim-IM1980-400.jpg?w=1200" alt="Kobe x Nike AF1 Low Protro Denim" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
             <span class="hype-card__badge" style="background:#3b82f6;color:#fff">KOBE</span>
@@ -339,7 +341,7 @@
             <a href="https://sneakernews.com/2025/08/26/kobe-bryant-nike-air-force-1-protro-denim-im1980-400/" target="_blank" rel="noopener" class="hype-card__btn">Voir le drop</a>
           </div>
         </div>
-<div class="hype-card">
+<div class="hype-card" data-sku="KI7916">
           <div class="hype-card__img-wrap">
             <img src="https://sneakernews.com/wp-content/uploads/2026/01/bad-bunny-adidas-ballerina-flamboyan-red-ki7916-4.jpg" alt="Bad Bunny x Adidas Ballerina Flamboyan" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
             <span class="hype-card__badge" style="background:#a855f7;color:#fff">COLLAB</span>
@@ -356,7 +358,7 @@
             <a href="https://www.whentocop.fr/drops/bad-bunny-adidas-ballerina-flamboyan-ki7916" target="_blank" rel="noopener" class="hype-card__btn">Voir le drop</a>
           </div>
         </div>
-<div class="hype-card">
+<div class="hype-card" data-sku="CT8013-003">
           <div class="hype-card__img-wrap">
             <img src="https://app.kicksonfire.com/kofapp/upload/events_master_images/ipad_air-jordan-12-bloodline.png" alt="Air Jordan 12 Bloodline" class="hype-card__img" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111/fff?text=SneakerDrop'">
             <span class="hype-card__badge" style="background:#ef4444;color:#fff">RETRO</span>
@@ -674,6 +676,62 @@
         btn.textContent = '🕐 VOIR LES ANCIENNES SORTIES';
       });
   }
+  </script>
+
+  <script>
+  // ── BSTN live check sur les paires hype ──────────────────────────────
+  (function() {
+    var AWIN_MID  = '104979';
+    var AWIN_AFF  = '2855487';
+    var BSTN_API  = 'https://searcht.bstn.com/collections/magento2_eu_products/documents/search';
+    var BSTN_KEY  = 'NCZstZEMLnMy4MSLPh9NKNrtMLsEF1Zy';
+    var BSTN_BASE = 'https://www.bstn.com/';
+
+    function buildAwinUrl(productPath) {
+      return 'https://www.awin1.com/cread.php?awinmid=' + AWIN_MID + '&awinaffid=' + AWIN_AFF + '&p=' + encodeURIComponent(BSTN_BASE + productPath);
+    }
+
+    function injectBSTNBtn(card, url) {
+      if (card.querySelector('.hype-card__bstn')) return;
+      var body = card.querySelector('.hype-card__body');
+      if (!body) return;
+      var btn = document.createElement('a');
+      btn.href = url;
+      btn.target = '_blank';
+      btn.rel = 'noopener sponsored';
+      btn.className = 'hype-card__bstn';
+      btn.textContent = 'Acheter sur BSTN';
+      btn.onclick = function() { trackBSTN(card.querySelector('.hype-card__title') ? card.querySelector('.hype-card__title').textContent : 'hype'); };
+      body.appendChild(btn);
+    }
+
+    function checkCard(card) {
+      var sku = card.getAttribute('data-sku');
+      if (!sku) return;
+      // Recherche par style code dans le nom
+      var skuClean = sku.replace('-', ' ').toLowerCase();
+      var url = BSTN_API + '?q=' + encodeURIComponent(skuClean) + '&query_by=name&per_page=3&filter_by=price%3A%3E0';
+      fetch(url, { headers: { 'X-TYPESENSE-API-KEY': BSTN_KEY } })
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var hits = data.hits || [];
+          // Vérif stricte : le style code doit apparaître dans l'URL du produit
+          var skuNorm = sku.toLowerCase().replace('-','');
+          for (var i = 0; i < hits.length; i++) {
+            var doc = hits[i].document;
+            var docUrl = (doc.url || '').toLowerCase();
+            var docName = (doc.name || '').toLowerCase();
+            if (docUrl.indexOf(skuNorm) !== -1 || docName.indexOf(skuNorm) !== -1) {
+              injectBSTNBtn(card, buildAwinUrl(doc.url));
+              break;
+            }
+          }
+        })
+        .catch(function() {});
+    }
+
+    document.querySelectorAll('.hype-card[data-sku]').forEach(checkCard);
+  })();
   </script>
 
 
