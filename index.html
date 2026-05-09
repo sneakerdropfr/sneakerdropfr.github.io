@@ -477,6 +477,7 @@
     fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t=' + Date.now())
       .then(function(r) { return r.json(); })
       .then(function(data) {
+        if (!Array.isArray(data)) { grid.innerHTML = '<p style="text-align:center;color:red">Erreur format</p>'; grid.style.display='block'; return; }
         if (!data.length) {
           grid.innerHTML = '<p style="text-align:center;color:var(--muted);padding:2rem">Aucune ancienne sortie disponible.</p>';
         } else {
@@ -485,6 +486,7 @@
         grid.style.display = 'block';
         btn.textContent = '🔼 MASQUER LES ANCIENNES SORTIES';
       })
+      .catch(function(err) { console.error('Erreur past:', err); btn.textContent = '🕐 VOIR LES ANCIENNES SORTIES'; grid.innerHTML = '<p style="color:red;text-align:center">Erreur: ' + err + '</p>'; grid.style.display='block'; });
       .catch(function() {
         btn.textContent = '🕐 VOIR LES ANCIENNES SORTIES';
       });
