@@ -544,46 +544,40 @@
   </script>
 
 
-  // ─── Drops de la semaine (weekly_data.json) ───
+  <script>
   (function() {
     var WEEKLY_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/weekly_data.json?t=' + Date.now();
     var grid = document.getElementById('weekly-grid');
     var badge = document.getElementById('weekly-badge');
+    if (!grid) return;
     var EXCLUDE = ['crocs','jersey','maillot','hoodie','pant','short','t-shirt','jacket','sock','cap','hat','bag','clog','brief','boxer','legging','psg','saint-germain'];
-    function isSneaker(title) {
-      var t = (title||'').toLowerCase();
-      return !EXCLUDE.some(function(ex){ return t.indexOf(ex) !== -1; });
-    }
-    function formatDateFR(dateStr) {
-      if(!dateStr) return dateStr||'';
-      // Format DD/MM/YYYY (ex: 11/05/2026)
-      var parts = dateStr.split('/');
-      if(parts.length === 3) {
-        var months = ['Jan','Fév','Mar','Avr','Mai','Jun','Jul','Aoû','Sep','Oct','Nov','Déc'];
-        var d = parseInt(parts[0]), m = parseInt(parts[1])-1;
-        return d + ' ' + (months[m]||'');
-      }
-      // Format "D Month YYYY" (ex: "11 May 2026")
-      return dateStr.replace(/\s+\d{4}$/, '');
+    function isSneaker(t) { t=(t||'').toLowerCase(); return !EXCLUDE.some(function(e){return t.indexOf(e)!==-1;}); }
+    function fmtDate(s) {
+      if(!s) return '';
+      var mo=['Jan','Fev','Mar','Avr','Mai','Jun','Jul','Aou','Sep','Oct','Nov','Dec'];
+      var p=s.split('/');
+      if(p.length===3) return parseInt(p[0])+' '+(mo[parseInt(p[1])-1]||'');
+      return s.replace(/\s+\d{4}$/,'');
     }
     fetch(WEEKLY_URL)
-      .then(function(r){ return r.json(); })
-      .then(function(data) {
-        var releases = (data.releases||[]).filter(function(r){ return isSneaker(r.title); });
-        var start = data.week_start || '';
-        var end = data.week_end || '';
-        if(badge) badge.textContent = formatDateFR(start) + ' → ' + formatDateFR(end);
-        if(!releases.length){ grid.innerHTML='<p style="color:var(--muted)">Aucun drop cette semaine.</p>'; return; }
-        grid.innerHTML = releases.slice(0,12).map(function(r) {
-          var img = (r.image_url||r.image) ? '<img src="'+(r.image_url||r.image)+'" alt="'+r.title+'" class="weekly-card__img" loading="lazy" onerror="this.style.display='none'">' : '';
-          var dateStr = r.date ? '<span class="weekly-card__date">'+r.date+'</span>' : '';
-          var price = r.price ? '<span class="weekly-card__price">'+r.price+'</span>' : '';
-          var btn = r.buy_link ? '<a href="'+r.buy_link+'" target="_blank" rel="noopener" class="weekly-card__btn">Voir</a>' : (r.link ? '<a href="'+r.link+'" target="_blank" rel="noopener" class="weekly-card__btn">Voir</a>' : '');
-          return '<div class="weekly-card">'+img+'<div class="weekly-card__body">'+dateStr+'<div class="weekly-card__title">'+r.title+'</div>'+price+btn+'</div></div>';
+      .then(function(r){return r.json();})
+      .then(function(data){
+        var rel=(data.releases||[]).filter(function(r){return isSneaker(r.title);});
+        if(badge) badge.textContent=fmtDate(data.week_start)+' -> '+fmtDate(data.week_end);
+        if(!rel.length){grid.innerHTML='<p style="color:var(--muted)">Aucun drop cette semaine.</p>';return;}
+        grid.innerHTML=rel.slice(0,12).map(function(r){
+          var s=r.image_url||r.image||'';
+          var img=s?'<img src="'+s+'" alt="'+r.title+'" class="weekly-card__img" loading="lazy" onerror="this.style.display='none'">':'';
+          var dt=r.date?'<span class="weekly-card__date">'+r.date+'</span>':'';
+          var px=r.price?'<span class="weekly-card__price">'+r.price+'</span>':'';
+          var lk=r.buy_link||r.link||'';
+          var btn=lk?'<a href="'+lk+'" target="_blank" rel="noopener" class="weekly-card__btn">Voir</a>':'';
+          return '<div class="weekly-card">'+img+'<div class="weekly-card__body">'+dt+'<div class="weekly-card__title">'+r.title+'</div>'+px+btn+'</div></div>';
         }).join('');
       })
-      .catch(function(){ grid.innerHTML='<p style="color:var(--muted)">Erreur chargement.</p>'; });
+      .catch(function(){grid.innerHTML='<p style="color:var(--muted)">Erreur chargement.</p>';});
   })();
+  </script>
 
 </body>
 </html>
