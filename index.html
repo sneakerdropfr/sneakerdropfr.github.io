@@ -288,7 +288,7 @@
     var loading=document.getElementById('releases-loading');
     var topPickCard=document.getElementById('top-pick-card');
     var MAX_CARDS=20;
-    var allReleases=[];
+    var allReleases=[]; window._releases=[]; window._render=null;
     var activeFilter='all';
     var BRAND_MAP={'jordan':['jordan brand','jordan'],'nike':['nike'],'adidas':['adidas'],'new balance':['new balance']};
 
@@ -427,10 +427,11 @@
       '</article>';
     }
 
+    window._render = render;
     function render() {
       var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
       var filtered = upcoming.filter(function(r) { return matchBrand(r, activeFilter); });
-      if (searchQuery) { filtered = filtered.filter(function(r) { return (r.title||'').toLowerCase().indexOf(searchQuery) !== -1 || (r.brand||'').toLowerCase().indexOf(searchQuery) !== -1; }); }
+      if (window._searchQuery) { filtered = filtered.filter(function(r) { return (r.title||'').toLowerCase().indexOf(window._searchQuery) !== -1 || (r.brand||'').toLowerCase().indexOf(window._searchQuery) !== -1; }); }
       var sorted = sortByDate(filtered).slice(0, MAX_CARDS);
       if (!sorted.length) {
         grid.style.display = 'none';
@@ -455,7 +456,7 @@
       .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function(data) {
         loading.style.display = 'none';
-        allReleases = data.filter(function(r) { return r.id && !r.id.startsWith('test-'); });
+        allReleases = data.filter(function(r) { return r.id && !r.id.startsWith('test-'); }); window._releases = allReleases;
         if (!allReleases.length) { empty.style.display = 'block'; return; }
         var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
         var byScore = sortByScore(upcoming);
@@ -469,10 +470,12 @@
       });
   })();
 
-  var searchQuery = '';
   function filterBySearch(query) {
-    searchQuery = query.toLowerCase().trim();
-    render();
+    var q = query.toLowerCase().trim();
+    if (window._render) { 
+      window._searchQuery = q; 
+      window._render(); 
+    }
   }
 
   function loadPastReleases() {
