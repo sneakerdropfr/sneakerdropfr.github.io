@@ -477,25 +477,14 @@
     fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t=' + Date.now())
       .then(function(r) { return r.json(); })
       .then(function(data) {
-        if (!Array.isArray(data)) { grid.innerHTML = '<p style="text-align:center;color:red">Erreur format</p>'; grid.style.display='block'; return; }
         if (!data.length) {
           grid.innerHTML = '<p style="text-align:center;color:var(--muted);padding:2rem">Aucune ancienne sortie disponible.</p>';
         } else {
-          grid.innerHTML = '<div class="releases-grid">' + data.map(function(r) {
-            return '<article class="drop-card">' +
-              '<div class="drop-card__img-wrap"><img src="' + (r.image_url||'') + '" alt="' + (r.title||'') + '" class="drop-card__img" onerror="this.parentNode.innerHTML='<div class=drop-card__img-placeholder>👟</div>'">' + '</div>' +
-              '<div class="drop-card__body">' +
-              '<div class="drop-card__brand">' + (r.brand||r.source||'') + '</div>' +
-              '<h3 class="drop-card__title">' + (r.title||'') + '</h3>' +
-              '<div class="drop-card__meta"><span>' + (r.date||'Date à confirmer') + '</span><span class="drop-card__price">' + (r.price||'') + '</span></div>' +
-              '<a href="' + (r.link||'#') + '" target="_blank" class="drop-card__cta btn-primary">Voir la paire</a>' +
-              '</div></article>';
-          }).join('') + '</div>';
+          grid.innerHTML = '<div class="releases-grid">' + data.map(function(r) { return renderCard(r, 0); }).join('') + '</div>';
         }
         grid.style.display = 'block';
         btn.textContent = '🔼 MASQUER LES ANCIENNES SORTIES';
       })
-      .catch(function(err) { console.error('Erreur past:', err); btn.textContent = '🕐 VOIR LES ANCIENNES SORTIES'; grid.innerHTML = '<p style="color:red;text-align:center">Erreur: ' + err + '</p>'; grid.style.display='block'; });
       .catch(function() {
         btn.textContent = '🕐 VOIR LES ANCIENNES SORTIES';
       });
