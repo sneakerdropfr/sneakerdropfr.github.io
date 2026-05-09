@@ -187,6 +187,8 @@
     .hype-card__btn:hover{background:var(--accent);color:#000}
     .hype-card__bstn{display:inline-block;background:var(--accent);color:#000;font-size:.75rem;font-weight:900;text-transform:uppercase;letter-spacing:.06em;padding:.45rem 1rem;border-radius:6px;text-decoration:none;margin-top:.5rem;align-self:flex-start;transition:opacity .2s}
     .hype-card__bstn:hover{opacity:.85}
+    .btn-bstn-aff{display:inline-block;background:var(--accent);color:#000;font-size:.72rem;font-weight:900;text-transform:uppercase;letter-spacing:.06em;padding:.4rem .9rem;border-radius:6px;text-decoration:none;margin-top:.5rem;transition:opacity .2s}
+    .btn-bstn-aff:hover{opacity:.85}
   </style>
 </head>
 <body>
@@ -557,6 +559,9 @@
 
     function renderCard(r, index) {
       var released = isReleased(r.date);
+      // Extraire le SKU depuis r.id (ex: "nike-air-max-90-hj0624-758" → "hj0624-758")
+      var skuMatch = (r.id || '').match(/([a-z]{1,3}[0-9]{4,6}-[0-9]{3,4})(?:[^-]|$)/i);
+      var cardSku = skuMatch ? skuMatch[1] : '';
       var img = r.image_url
         ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy" onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
         : '<div class="drop-card__img-placeholder">👟</div>';
@@ -574,7 +579,7 @@
       var urgencyClass = released ? 'drop-card__stock' : 'drop-card__stock drop-card__stock--upcoming';
 
       var articleUrl = '/sorties/' + r.id + '.html';
-      return '<article class="drop-card">' +'<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>' +
+      return '<article class="drop-card"' + (cardSku ? ' data-sku="' + cardSku + '"' : '') + ' data-title="' + safeTitle(r.title) + '">' +'<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>' +
         '<div class="drop-card__body">' +
           '<span class="drop-card__brand">' + (r.brand || '') + '</span>' +
           '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + r.title + '</h3></a>' +
@@ -679,58 +684,109 @@
   </script>
 
   <script>
-  // ── BSTN live check sur les paires hype ──────────────────────────────
-  (function() {
-    var AWIN_MID  = '104979';
-    var AWIN_AFF  = '2855487';
-    var BSTN_API  = 'https://searcht.bstn.com/collections/magento2_eu_products/documents/search';
-    var BSTN_KEY  = 'NCZstZEMLnMy4MSLPh9NKNrtMLsEF1Zy';
-    var BSTN_BASE = 'https://www.bstn.com/';
+  // ── BSTN live check — toutes les sections ────────────────────────────
+  var BSTN_AWIN_MID = '104979';
+  var BSTN_AWIN_AFF = '2855487';
+  var BSTN_API_URL  = 'https://searcht.bstn.com/collections/magento2_eu_products/documents/search';
+  var BSTN_API_KEY  = 'NCZstZEMLnMy4MSLPh9NKNrtMLsEF1Zy';
+  var BSTN_SITE     = 'https://www.bstn.com/';
+  var _bstnCache    = {}; // cache SKU → url afin d'éviter les doubles requêtes
 
-    function buildAwinUrl(productPath) {
-      return 'https://www.awin1.com/cread.php?awinmid=' + AWIN_MID + '&awinaffid=' + AWIN_AFF + '&p=' + encodeURIComponent(BSTN_BASE + productPath);
-    }
+  function bstnAwinUrl(productPath) {
+    return 'https://www.awin1.com/cread.php?awinmid=' + BSTN_AWIN_MID + '&awinaffid=' + BSTN_AWIN_AFF + '&p=' + encodeURIComponent(BSTN_SITE + productPath);
+  }
 
-    function injectBSTNBtn(card, url) {
-      if (card.querySelector('.hype-card__bstn')) return;
-      var body = card.querySelector('.hype-card__body');
-      if (!body) return;
-      var btn = document.createElement('a');
-      btn.href = url;
-      btn.target = '_blank';
-      btn.rel = 'noopener sponsored';
-      btn.className = 'hype-card__bstn';
-      btn.textContent = 'Acheter sur BSTN';
-      btn.onclick = function() { trackBSTN(card.querySelector('.hype-card__title') ? card.querySelector('.hype-card__title').textContent : 'hype'); };
-      body.appendChild(btn);
-    }
-
-    function checkCard(card) {
-      var sku = card.getAttribute('data-sku');
-      if (!sku) return;
-      // Recherche par style code dans le nom
-      var skuClean = sku.replace('-', ' ').toLowerCase();
-      var url = BSTN_API + '?q=' + encodeURIComponent(skuClean) + '&query_by=name&per_page=3&filter_by=price%3A%3E0';
-      fetch(url, { headers: { 'X-TYPESENSE-API-KEY': BSTN_KEY } })
-        .then(function(r) { return r.json(); })
-        .then(function(data) {
-          var hits = data.hits || [];
-          // Vérif stricte : le style code doit apparaître dans l'URL du produit
-          var skuNorm = sku.toLowerCase().replace('-','');
-          for (var i = 0; i < hits.length; i++) {
-            var doc = hits[i].document;
-            var docUrl = (doc.url || '').toLowerCase();
-            var docName = (doc.name || '').toLowerCase();
-            if (docUrl.indexOf(skuNorm) !== -1 || docName.indexOf(skuNorm) !== -1) {
-              injectBSTNBtn(card, buildAwinUrl(doc.url));
-              break;
-            }
+  // Cherche une paire sur BSTN par SKU, appelle cb(awinUrl) si trouvée
+  function bstnCheckSku(sku, cb) {
+    if (!sku) return;
+    var skuKey = sku.toLowerCase();
+    if (_bstnCache[skuKey] !== undefined) { if (_bstnCache[skuKey]) cb(_bstnCache[skuKey]); return; }
+    var skuNorm = skuKey.replace(/-/g, '');
+    var q = skuKey.replace(/-/g, ' ');
+    var url = BSTN_API_URL + '?q=' + encodeURIComponent(q) + '&query_by=name&per_page=5&filter_by=price%3A%3E0';
+    fetch(url, { headers: { 'X-TYPESENSE-API-KEY': BSTN_API_KEY } })
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var hits = data.hits || [];
+        for (var i = 0; i < hits.length; i++) {
+          var doc = hits[i].document;
+          var docUrl = (doc.url || '').toLowerCase();
+          if (docUrl.indexOf(skuNorm) !== -1) {
+            var awinUrl = bstnAwinUrl(doc.url);
+            _bstnCache[skuKey] = awinUrl;
+            cb(awinUrl);
+            return;
           }
-        })
-        .catch(function() {});
-    }
+        }
+        _bstnCache[skuKey] = null; // pas trouvé
+      })
+      .catch(function() { _bstnCache[skuKey] = null; });
+  }
 
-    document.querySelectorAll('.hype-card[data-sku]').forEach(checkCard);
+  // Injecte un bouton BSTN dans un container DOM
+  function bstnInjectBtn(container, awinUrl, label) {
+    if (!container || container.querySelector('.btn-bstn-aff')) return;
+    var btn = document.createElement('a');
+    btn.href = awinUrl;
+    btn.target = '_blank';
+    btn.rel = 'noopener sponsored';
+    btn.className = 'btn-bstn-aff';
+    btn.textContent = label || 'Acheter sur BSTN';
+    btn.onclick = function() { trackBSTN(container.closest('[data-title]') ? container.closest('[data-title]').getAttribute('data-title') : 'bstn'); };
+    container.appendChild(btn);
+  }
+
+  // ── 1. Section hype (cards statiques avec data-sku) ──────────────────
+  (function() {
+    document.querySelectorAll('.hype-card[data-sku]').forEach(function(card) {
+      var sku = card.getAttribute('data-sku');
+      var body = card.querySelector('.hype-card__body');
+      bstnCheckSku(sku, function(url) { bstnInjectBtn(body, url, 'Acheter sur BSTN'); });
+    });
+  })();
+
+  // ── 2. Section weekly (cards statiques générées via WhenToCop) ────────
+  // Les URLs WhenToCop se terminent par le slug qui contient le SKU, ex: nike-air-max-90-hj0624-758
+  // On extrait le SKU depuis le href du bouton "Voir"
+  (function() {
+    function extractSkuFromWtcUrl(href) {
+      // Ex: https://www.whentocop.fr/drops/nike-air-max-90-total-90-laser-hj0624-758
+      // SKU = dernière partie après le dernier tiret séparant code+chiffres: "hj0624-758"
+      var m = href.match(/([a-z]{1,3}[0-9]{4,6}-[0-9]{3,4})(?:[^-]|$)/i);
+      return m ? m[1] : null;
+    }
+    document.querySelectorAll('.weekly-card').forEach(function(card) {
+      var link = card.querySelector('a[href*="whentocop.fr"]');
+      if (!link) return;
+      var sku = extractSkuFromWtcUrl(link.href);
+      if (!sku) return;
+      card.setAttribute('data-sku', sku);
+      var body = card.querySelector('.weekly-card__body');
+      bstnCheckSku(sku, function(url) { bstnInjectBtn(body, url, 'Acheter sur BSTN'); });
+    });
+  })();
+
+  // ── 3. Section Prochaines Sorties (cards JS dynamiques) ───────────────
+  // On patch renderCard() pour ajouter data-sku + data-title, et on observe les nouvelles cards
+  (function() {
+    var observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(m) {
+        m.addedNodes.forEach(function(node) {
+          if (node.nodeType !== 1) return;
+          var cards = node.matches && node.matches('.drop-card') ? [node] : Array.from(node.querySelectorAll('.drop-card[data-sku]'));
+          cards.forEach(function(card) {
+            var sku = card.getAttribute('data-sku');
+            if (!sku) return;
+            var ctaDiv = card.querySelector('.drop-card__cta');
+            bstnCheckSku(sku, function(url) { bstnInjectBtn(ctaDiv, url, 'Acheter sur BSTN'); });
+          });
+        });
+      });
+    });
+    var grid = document.getElementById('releases-grid');
+    if (grid) observer.observe(grid, { childList: true, subtree: true });
+    var topPick = document.getElementById('top-pick-card');
+    if (topPick) observer.observe(topPick, { childList: true, subtree: true });
   })();
   </script>
 
