@@ -256,35 +256,21 @@
     </div>
   </section>
 
-  <section class="releases" id="releases">
+
+
+
+
+
+
+  <section class="weekly-section" id="drops-semaine">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">Prochaines Sorties</h2>
-        <span class="section-badge">⚡ Stock Limité</span>
+        <h2 class="section-title">Drops de la Semaine</h2>
+        <span class="section-badge" id="weekly-badge">11 Mai → 17 Mai</span>
       </div>
-      <div style="margin-bottom:1rem">
-        <input id="search-releases" type="text" placeholder="🔍 Rechercher une paire..." oninput="filterBySearch(this.value)" style="width:100%;padding:.75rem 1rem;border-radius:999px;border:1px solid var(--border);background:var(--card);color:var(--text);font-family:var(--font-condensed);font-size:.95rem;outline:none;box-sizing:border-box">
-      </div>
-      <div class="filters" id="filters">
-        <button class="filter-btn active" data-brand="all">Toutes</button>
-        <button class="filter-btn" data-brand="Jordan">Jordan</button>
-        <button class="filter-btn" data-brand="Nike">Nike</button>
-        <button class="filter-btn" data-brand="Adidas">Adidas</button>
-        <button class="filter-btn" data-brand="New Balance">New Balance</button>
-      </div>
-      <div class="releases-loading" id="releases-loading">Chargement des drops...</div>
-      <div class="releases-grid" id="releases-grid" style="display:none"></div>
-      <div class="releases-empty" id="releases-empty" style="display:none">Aucune sortie pour cette marque. Reviens bientôt !</div>
-      <div style="text-align:center;margin-top:2rem">
-        <button id="btn-past" onclick="loadPastReleases()" style="background:var(--green);border:2px solid var(--green);color:#111;padding:.8rem 2rem;border-radius:999px;font-family:var(--font-condensed);font-weight:900;font-size:1rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;width:100%;max-width:400px">
-          🕐 VOIR LES ANCIENNES SORTIES
-        </button>
-      </div>
-      <div id="past-grid" style="display:none;margin-top:1.5rem"></div>
+      <div class="weekly-grid" id="weekly-grid"><p id="weekly-loading" style="color:var(--muted);text-align:center;padding:2rem;grid-column:1/-1">Chargement...</p></div>
     </div>
   </section>
-
-
 
   <section class="hype-section">
     <div class="container">
@@ -399,13 +385,40 @@
     </div>
   </section>
 
-  <section class="weekly-section" id="drops-semaine">
+  <section class="releases" id="releases">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">Drops de la Semaine</h2>
-        <span class="section-badge" id="weekly-badge">11 Mai → 17 Mai</span>
+        <h2 class="section-title">Prochaines Sorties</h2>
+        <span class="section-badge">⚡ Stock Limité</span>
       </div>
-      <div class="weekly-grid" id="weekly-grid"><p id="weekly-loading" style="color:var(--muted);text-align:center;padding:2rem;grid-column:1/-1">Chargement...</p></div>
+      <div style="margin-bottom:1rem">
+        <input id="search-releases" type="text" placeholder="🔍 Rechercher une paire..." oninput="filterBySearch(this.value)" style="width:100%;padding:.75rem 1rem;border-radius:999px;border:1px solid var(--border);background:var(--card);color:var(--text);font-family:var(--font-condensed);font-size:.95rem;outline:none;box-sizing:border-box">
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-brand="all">Toutes</button>
+        <button class="filter-btn" data-brand="Jordan">Jordan</button>
+        <button class="filter-btn" data-brand="Nike">Nike</button>
+        <button class="filter-btn" data-brand="Adidas">Adidas</button>
+        <button class="filter-btn" data-brand="New Balance">New Balance</button>
+      </div>
+      <div class="releases-loading" id="releases-loading">Chargement des drops...</div>
+      <!-- Sous-section : Cette semaine -->
+      <div id="this-week-header" style="display:none;margin:1.5rem 0 .75rem;border-left:3px solid var(--accent);padding-left:.75rem">
+        <span style="font-family:var(--font-condensed);font-size:.8rem;font-weight:900;text-transform:uppercase;letter-spacing:.1em;color:var(--accent)">⏰ Cette semaine</span>
+      </div>
+      <div class="releases-grid" id="releases-grid-week" style="display:none"></div>
+      <!-- Sous-section : À venir -->
+      <div id="upcoming-header" style="display:none;margin:2rem 0 .75rem;border-left:3px solid var(--muted);padding-left:.75rem">
+        <span style="font-family:var(--font-condensed);font-size:.8rem;font-weight:900;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)">📅 À venir</span>
+      </div>
+      <div class="releases-grid" id="releases-grid-upcoming" style="display:none"></div>
+      <div class="releases-empty" id="releases-empty" style="display:none">Aucune sortie pour cette marque. Reviens bientôt !</div>
+      <div style="text-align:center;margin-top:2rem">
+        <button id="btn-past" onclick="loadPastReleases()" style="background:var(--green);border:2px solid var(--green);color:#111;padding:.8rem 2rem;border-radius:999px;font-family:var(--font-condensed);font-weight:900;font-size:1rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;width:100%;max-width:400px">
+          🕐 VOIR LES ANCIENNES SORTIES
+        </button>
+      </div>
+      <div id="past-grid" style="display:none;margin-top:1.5rem"></div>
     </div>
   </section>
 
@@ -574,7 +587,7 @@
 
   (function(){
     var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
-    var grid=document.getElementById('releases-grid');
+    var grid=document.getElementById('releases-grid-week'); var gridUpcoming=document.getElementById('releases-grid-upcoming');
     var empty=document.getElementById('releases-empty');
     var loading=document.getElementById('releases-loading');
     var topPickCard=document.getElementById('top-pick-card');
@@ -740,11 +753,31 @@
       var sorted = sortByDate(filtered).slice(0, MAX_CARDS);
       if (!sorted.length) {
         grid.style.display = 'none';
+        gridUpcoming.style.display = 'none';
+        document.getElementById('this-week-header').style.display = 'none';
+        document.getElementById('upcoming-header').style.display = 'none';
         empty.style.display = 'block';
-      } else {
-        empty.style.display = 'none';
+        return;
+      }
+      empty.style.display = 'none';
+      // Séparer cette semaine (<= 7 jours) vs à venir (> 7 jours ou TBD)
+      var thisWeek = sorted.filter(function(r) { return isSoon(r.date); });
+      var laterOn  = sorted.filter(function(r) { return !isSoon(r.date); });
+      if (thisWeek.length) {
+        document.getElementById('this-week-header').style.display = 'block';
         grid.style.display = 'grid';
-        grid.innerHTML = sorted.map(function(r, i) { return renderCard(r, i); }).join('');
+        grid.innerHTML = thisWeek.map(function(r, i) { return renderCard(r, i); }).join('');
+      } else {
+        document.getElementById('this-week-header').style.display = 'none';
+        grid.style.display = 'none';
+      }
+      if (laterOn.length) {
+        document.getElementById('upcoming-header').style.display = 'block';
+        gridUpcoming.style.display = 'grid';
+        gridUpcoming.innerHTML = laterOn.map(function(r, i) { return renderCard(r, i); }).join('');
+      } else {
+        document.getElementById('upcoming-header').style.display = 'none';
+        gridUpcoming.style.display = 'none';
       }
     }
 
@@ -937,8 +970,10 @@
         });
       });
     });
-    var grid = document.getElementById('releases-grid');
+    var grid = document.getElementById('releases-grid-week');
     if (grid) observer.observe(grid, { childList: true, subtree: true });
+    var gridUp = document.getElementById('releases-grid-upcoming');
+    if (gridUp) observer.observe(gridUp, { childList: true, subtree: true });
     var topPick = document.getElementById('top-pick-card');
     if (topPick) observer.observe(topPick, { childList: true, subtree: true });
   })();
