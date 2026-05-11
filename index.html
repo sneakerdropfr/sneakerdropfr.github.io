@@ -1118,8 +1118,17 @@
       var dateStr = '';
       if (r.date) {
         try {
-          var d = new Date(r.date + 'T12:00:00');
-          dateStr = d.toLocaleDateString('fr-FR', {day:'numeric', month:'2-digit', year:'numeric'}).replace(/\//g, '/');
+          // Gérer DD/MM/YYYY (WhenToCop) et YYYY-MM-DD
+          var rawDate = r.date;
+          var d;
+          if (/^\d{2}\/\d{2}\/\d{4}$/.test(rawDate)) {
+            var parts = rawDate.split('/');
+            d = new Date(parts[2] + '-' + parts[1] + '-' + parts[0] + 'T12:00:00');
+          } else {
+            d = new Date(rawDate + 'T12:00:00');
+          }
+          if (isNaN(d.getTime())) { dateStr = rawDate; }
+          else { dateStr = d.toLocaleDateString('fr-FR', {weekday:'short', day:'numeric', month:'long'}); }
         } catch(e) { dateStr = r.date; }
       }
       return '<div class="weekly-card">' + img +
