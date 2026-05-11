@@ -392,7 +392,8 @@
         <span class="section-badge">⚡ Stock Limité</span>
       </div>
       <div style="margin-bottom:1rem">
-        <input id="search-releases" type="text" placeholder="🔍 Rechercher une paire..." oninput="filterBySearch(this.value)" style="width:100%;padding:.75rem 1rem;border-radius:999px;border:1px solid var(--border);background:var(--card);color:var(--text);font-family:var(--font-condensed);font-size:.95rem;outline:none;box-sizing:border-box">
+        <input id="search-releases" type="text" placeholder="🔍 Rechercher une paire..." oninput="filterBySearch(this.value)" style="width:100%;padding:.75rem 1rem;border-radius:999px;border:1px solid var(--border);background:var(--card);color:var(--text);font-family:var(--font-condensed);font-size:.95rem;outline:none;box-sizing:border-box" autocomplete="off">
+        <p style="font-size:.75rem;color:var(--muted);margin-top:.4rem;text-align:center">Recherche dans toutes les sections</p>
       </div>
       <div class="filters" id="filters">
         <button class="filter-btn active" data-brand="all">Toutes</button>
@@ -747,17 +748,7 @@
     }
 
     function render() {
-      // Calculer le dimanche de fin de semaine courante (lundi=début)
-      var now = new Date();
-      var day = now.getDay(); // 0=dim, 1=lun...
-      var daysToSunday = day === 0 ? 0 : 7 - day;
-      var endOfWeek = new Date(now);
-      endOfWeek.setDate(now.getDate() + daysToSunday);
-      endOfWeek.setHours(23,59,59,0);
-      var upcoming = allReleases.filter(function(r) {
-        if (!r.date || r.date === 'TBD') return true;
-        return new Date(r.date + 'T00:00:00') > endOfWeek;
-      });
+      var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
       var filtered = upcoming.filter(function(r) { return matchBrand(r, activeFilter); });
       if (window._searchQuery) { filtered = filtered.filter(function(r) { return (r.title||'').toLowerCase().indexOf(window._searchQuery) !== -1 || (r.brand||'').toLowerCase().indexOf(window._searchQuery) !== -1; }); }
       var sorted = sortByDate(filtered).slice(0, MAX_CARDS);
@@ -821,10 +812,34 @@
 
   function filterBySearch(query) {
     var q = query.toLowerCase().trim();
-    if (window._render) { 
-      window._searchQuery = q; 
-      window._render(); 
+    window._searchQuery = q;
+
+    // 1. Prochaines Sorties
+    if (window._render) window._render();
+
+    // 2. Drops de la Semaine — filtrer les weekly-cards
+    var weeklyGrid = document.getElementById('weekly-grid');
+    if (weeklyGrid) {
+      weeklyGrid.querySelectorAll('.weekly-card').forEach(function(card) {
+        var title = (card.querySelector('.weekly-card__title') || {}).textContent || '';
+        var match = !q || title.toLowerCase().indexOf(q) !== -1;
+        card.style.display = match ? '' : 'none';
+      });
     }
+
+    // 3. Paires les Plus Cotées — filtrer les hype-cards
+    document.querySelectorAll('.hype-card').forEach(function(card) {
+      var title = (card.dataset.title || card.querySelector('.hype-card__title') && card.querySelector('.hype-card__title').textContent || '').toLowerCase();
+      var match = !q || title.indexOf(q) !== -1;
+      card.style.display = match ? '' : 'none';
+    });
+
+    // 4. Bonnes Affaires BSTN — filtrer les promo-cards
+    document.querySelectorAll('.promo-card, [data-promo-title]').forEach(function(card) {
+      var title = (card.dataset.promoTitle || card.querySelector('h3,h4,.promo-title') && card.querySelector('h3,h4,.promo-title').textContent || '').toLowerCase();
+      var match = !q || title.indexOf(q) !== -1;
+      card.style.display = match ? '' : 'none';
+    });
   }
 
   function renderPastGrid(data) {
