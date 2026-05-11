@@ -573,7 +573,7 @@
   })();
 
   (function(){
-    var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?nocache='+Math.random();
+    var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
     var grid=document.getElementById('releases-grid');
     var empty=document.getElementById('releases-empty');
     var loading=document.getElementById('releases-loading');
@@ -743,7 +743,7 @@
         empty.style.display = 'block';
       } else {
         empty.style.display = 'none';
-        grid.style.display = '';
+        grid.style.display = 'grid';
         grid.innerHTML = sorted.map(function(r, i) { return renderCard(r, i); }).join('');
       }
     }
