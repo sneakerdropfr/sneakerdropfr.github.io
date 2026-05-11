@@ -852,7 +852,18 @@
     }
 
     function render() {
-      var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
+      // Calculer lundi et dimanche de la semaine courante
+      var _now = new Date();
+      var _day = _now.getDay(); // 0=dim,1=lun...6=sam
+      var _daysFromMon = _day === 0 ? 6 : _day - 1;
+      var _monday = new Date(_now); _monday.setDate(_now.getDate() - _daysFromMon); _monday.setHours(0,0,0,0);
+      var _sunday = new Date(_monday); _sunday.setDate(_monday.getDate() + 6); _sunday.setHours(23,59,59,999);
+      // Exclure les paires de la semaine en cours (déjà dans Drops de la Semaine)
+      var upcoming = allReleases.filter(function(r) {
+        if (!r.date || r.date === 'TBD') return true;
+        var d = new Date(r.date + 'T00:00:00');
+        return d > _sunday; // seulement à partir de la semaine prochaine
+      });
       var filtered = upcoming.filter(function(r) { return matchBrand(r, activeFilter); });
       if (window._searchQuery) { filtered = filtered.filter(function(r) { return (r.title||'').toLowerCase().indexOf(window._searchQuery) !== -1 || (r.brand||'').toLowerCase().indexOf(window._searchQuery) !== -1; }); }
       var sorted = sortByDate(filtered).slice(0, MAX_CARDS);
