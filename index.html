@@ -150,6 +150,10 @@
     .tg-social-proof{margin-top:1rem;font-size:.85rem;color:var(--green);font-family:var(--font-condensed);font-weight:700;letter-spacing:.06em}
     .float-tg{position:fixed;bottom:90px;right:20px;background:var(--green);color:#111;padding:.75rem 1.1rem;border-radius:50px;font-family:var(--font-condensed);font-weight:900;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;z-index:999;box-shadow:0 4px 20px rgba(200,255,0,.4);transition:transform .15s,box-shadow .15s;display:flex;align-items:center;gap:.4rem}
     .float-tg:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(200,255,0,.5)}
+    .scroll-top{position:fixed;bottom:90px;left:20px;background:rgba(30,30,30,.9);border:1px solid var(--border);color:var(--text);width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;cursor:pointer;z-index:999;opacity:0;transition:opacity .3s,transform .15s;box-shadow:0 2px 12px rgba(0,0,0,.4)}
+    .scroll-top.visible{opacity:1}
+    .scroll-top:hover{transform:translateY(-3px);border-color:var(--accent);color:var(--accent)}
+    @media(max-width:768px){.scroll-top{bottom:80px;left:12px;width:36px;height:36px;font-size:1rem}}
     .sticky-tg{position:fixed;bottom:0;left:0;right:0;z-index:200;background:rgba(10,10,10,.97);border-top:1px solid var(--border);padding:.75rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;backdrop-filter:blur(12px)}
     .sticky-tg__text{font-family:var(--font-condensed);font-size:.9rem;font-weight:700;color:var(--text)}
     .sticky-tg__text span{color:var(--green)}
@@ -529,7 +533,10 @@
             <h2 class="section-title">Bonnes Affaires <span style="color:var(--accent)">BSTN</span></h2>
             <p style="color:var(--muted);font-size:.85rem;margin-top:.35rem">Nike &amp; Jordan en promo — mis &agrave; jour automatiquement</p>
           </div>
-          <span style="background:rgba(232,255,0,.1);border:1px solid rgba(232,255,0,.3);color:var(--accent);font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.3rem .8rem;border-radius:999px">Liens affiliés</span>
+          <div style="display:flex;gap:.5rem;align-items:center;flex-wrap:wrap">
+            <span style="background:rgba(232,255,0,.1);border:1px solid rgba(232,255,0,.3);color:var(--accent);font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.3rem .8rem;border-radius:999px">Liens affiliés</span>
+            <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" style="background:transparent;border:1px solid var(--border);color:var(--muted);font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.3rem .8rem;border-radius:999px;text-decoration:none">&#8679; Haut de page</a>
+          </div>
         </div>
         <div class="releases-grid">
           <div class="drop-card">
@@ -1118,17 +1125,8 @@
       var dateStr = '';
       if (r.date) {
         try {
-          // Gérer DD/MM/YYYY (WhenToCop) et YYYY-MM-DD
-          var rawDate = r.date;
-          var d;
-          if (/^\d{2}\/\d{2}\/\d{4}$/.test(rawDate)) {
-            var parts = rawDate.split('/');
-            d = new Date(parts[2] + '-' + parts[1] + '-' + parts[0] + 'T12:00:00');
-          } else {
-            d = new Date(rawDate + 'T12:00:00');
-          }
-          if (isNaN(d.getTime())) { dateStr = rawDate; }
-          else { dateStr = d.toLocaleDateString('fr-FR', {weekday:'short', day:'numeric', month:'long'}); }
+          var d = new Date(r.date + 'T12:00:00');
+          dateStr = d.toLocaleDateString('fr-FR', {day:'numeric', month:'2-digit', year:'numeric'}).replace(/\//g, '/');
         } catch(e) { dateStr = r.date; }
       }
       return '<div class="weekly-card">' + img +
@@ -1174,6 +1172,16 @@
         console.warn('weekly_data.json inaccessible:', err);
         if (loading) loading.textContent = 'Drops non disponibles pour le moment.';
       });
+  })();
+  </script>
+  <!-- Bouton retour haut -->
+  <button class="scroll-top" id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Retour en haut">&#8679;</button>
+  <script>
+  (function(){
+    var btn = document.getElementById('scroll-top');
+    window.addEventListener('scroll', function(){
+      btn.classList.toggle('visible', window.scrollY > 400);
+    }, {passive:true});
   })();
   </script>
 </body>
