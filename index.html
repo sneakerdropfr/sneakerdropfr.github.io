@@ -747,7 +747,17 @@
     }
 
     function render() {
-      var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
+      // Calculer le dimanche de fin de semaine courante (lundi=début)
+      var now = new Date();
+      var day = now.getDay(); // 0=dim, 1=lun...
+      var daysToSunday = day === 0 ? 0 : 7 - day;
+      var endOfWeek = new Date(now);
+      endOfWeek.setDate(now.getDate() + daysToSunday);
+      endOfWeek.setHours(23,59,59,0);
+      var upcoming = allReleases.filter(function(r) {
+        if (!r.date || r.date === 'TBD') return true;
+        return new Date(r.date + 'T00:00:00') > endOfWeek;
+      });
       var filtered = upcoming.filter(function(r) { return matchBrand(r, activeFilter); });
       if (window._searchQuery) { filtered = filtered.filter(function(r) { return (r.title||'').toLowerCase().indexOf(window._searchQuery) !== -1 || (r.brand||'').toLowerCase().indexOf(window._searchQuery) !== -1; }); }
       var sorted = sortByDate(filtered).slice(0, MAX_CARDS);
