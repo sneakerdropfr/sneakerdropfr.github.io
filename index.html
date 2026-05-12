@@ -831,32 +831,7 @@
     function renderTopPick(r) {
       if (!r || !topPickCard) return;
       var released = isReleased(r.date);
-      var img = r.image_url ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="top-pick__img" loading="lazy" onerror="this.style.display=\'none\'">' : '';
-      var alertDiv = released
-        ? '<div class="top-pick__alert">⚠️ Déjà en rupture sur plusieurs sites — encore dispo ici</div>'
-        : '<div class="top-pick__alert top-pick__alert--upcoming">📅 Drop le ' + formatDate(r.date) + ' — Active ton alerte maintenant</div>';
-      topPickCard.innerHTML =
-        '<div class="top-pick__tag">🔥 Top Pick de la semaine</div>' +
-        '<div class="top-pick__img-wrap">' + img + '</div>' +
-        '<div class="top-pick__body">' +
-          '<span class="top-pick__brand">' + (r.brand || '') + '</span>' +
-          '<h2 class="top-pick__title">' + r.title + '</h2>' +
-          '<div class="top-pick__price">' + formatPrice(r.price) + '</div>' +
-          (r.resell ? '<div class="top-pick__resell">Resell estimé ~' + r.resell + '€</div>' : '') +
-          '<div class="top-pick__date">📅 ' + formatDate(r.date) + '</div>' +
-          alertDiv +
-          makeBtn(r, true) +
-        '</div>';
-    }
-
-    function renderCard(r, index) {
-      var released = isReleased(r.date);
-      // Extraire le SKU depuis r.id (ex: "nike-air-max-90-hj0624-758" → "hj0624-758")
-      var skuMatch = (r.id || '').match(/([a-z]{1,3}[0-9]{4,6}-[0-9]{3,4})(?:[^-]|$)/i);
-      var cardSku = skuMatch ? skuMatch[1] : '';
-      var img = r.image_url
-        ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy" onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
-        : '<div class="drop-card__img-placeholder">👟</div>';
+      var img = r.image_url ? ('<img src="' + r.image_url + '" alt="" class="drop-card__img" loading="lazy">') : '<div class="drop-card__img-placeholder"></div>';
 
       var badgeTop = released
         ? '<div class="drop-card__badge-top badge-week">🔥 Dispo maintenant</div>'
@@ -998,7 +973,7 @@
     } else {
       var html = '<div class="releases-grid">';
       data.forEach(function(r) {
-        var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" onerror="this.style.display=\'none\'">' : '<div class="drop-card__img-placeholder">👟</div>';
+      var img = r.image_url ? ('<img src="' + r.image_url + '" alt="" class="drop-card__img" loading="lazy">') : '<div class="drop-card__img-placeholder"></div>';
         html += '<article class="drop-card">';
         html += '<div class="drop-card__img-wrap">' + img + '</div>';
         html += '<div class="drop-card__body">';
@@ -1013,6 +988,38 @@
     }
     grid.style.display = 'block';
     btn.textContent = '🔼 MASQUER LES ANCIENNES SORTIES';
+  }
+
+  function renderPastGrid(data) {
+    var btn = document.getElementById('btn-past');
+    var grid = document.getElementById('past-grid');
+    if (!data || !data.length) {
+      grid.innerHTML = '<p style="text-align:center;color:var(--muted);padding:2rem">Aucune ancienne sortie disponible.</p>';
+      grid.style.display = 'block';
+      btn.textContent = '🕐 MASQUER LES ANCIENNES SORTIES';
+      return;
+    }
+    var sorted = data.slice().sort(function(a,b){ return (b.date||'').localeCompare(a.date||''); });
+    var html = '<div class="releases-grid">';
+    sorted.forEach(function(r) {
+      var p = (r.date||'').split('-');
+      var dateStr = p.length===3 ? new Date(parseInt(p[0]),parseInt(p[1])-1,parseInt(p[2])).toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'}) : (r.date||'');
+      var img = r.image_url ? ('<img src="' + r.image_url + '" alt="" class="drop-card__img" loading="lazy">') : '<div class="drop-card__img-placeholder"></div>';
+      var buyBtn = r.buy_url ? '<a href="'+r.buy_url+'" target="_blank" rel="noopener nofollow" class="btn-cop">Voir</a>' : '';
+      html += '<article class="drop-card drop-card--released">'
+        +'<div class="drop-card__img-wrap">'+imgTag+'</div>'
+        +'<div class="drop-card__body">'
+        +'<div class="drop-card__title">'+r.title+'</div>'
+        +'<span class="drop-card__brand">'+( r.brand||'')+'</span>'
+        +'<span class="drop-card__date">'+dateStr+'</span>'
+        +(r.price ? '<span class="drop-card__price">'+r.price+'</span>' : '')
+        +'<div class="drop-card__cta">'+buyBtn+'</div>'
+        +'</div></article>';
+    });
+    html += '</div>';
+    grid.innerHTML = html;
+    grid.style.display = 'block';
+    btn.textContent = '🕐 MASQUER LES ANCIENNES SORTIES';
   }
 
   function loadPastReleases() {
