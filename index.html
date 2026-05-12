@@ -957,7 +957,9 @@
         gridUpcoming.style.display = 'none';
         document.getElementById('this-week-header').style.display = 'none';
         document.getElementById('upcoming-header').style.display = 'none';
-        empty.style.display = 'block';
+        if (weeklyDropsGrid) { weeklyDropsGrid.style.display = 'none'; weeklyDropsGrid.innerHTML = ''; }
+        if (weeklyDropsEmpty) weeklyDropsEmpty.style.display = 'block';
+        empty.style.display = window._searchQuery ? 'none' : 'block';
         return;
       }
       empty.style.display = 'none';
