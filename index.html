@@ -965,29 +965,18 @@
   function filterBySearch(query) {
     var q = query.toLowerCase().trim();
     window._searchQuery = q;
-
-    // 1. Prochaines Sorties
+    // Prochaines Sorties + Drops de la semaine
     try { if (window._render) window._render(); } catch(e) {}
-    if (!data.length) {
-      grid.innerHTML = '<p style="text-align:center;color:var(--muted);padding:2rem">Aucune ancienne sortie disponible.</p>';
-    } else {
-      var html = '<div class="releases-grid">';
-      data.forEach(function(r) {
-      var img = r.image_url ? ('<img src="' + r.image_url + '" alt="" class="drop-card__img" loading="lazy">') : '<div class="drop-card__img-placeholder"></div>';
-        html += '<article class="drop-card">';
-        html += '<div class="drop-card__img-wrap">' + img + '</div>';
-        html += '<div class="drop-card__body">';
-        html += '<div class="drop-card__brand">' + (r.brand || r.source || '') + '</div>';
-        html += '<h3 class="drop-card__title">' + (r.title || '') + '</h3>';
-        html += '<div class="drop-card__meta"><span>' + (r.date || 'TBD') + '</span><span class="drop-card__price">' + (r.price || '') + '</span></div>';
-        html += '<a href="' + (r.link || '#') + '" target="_blank" rel="noopener" class="drop-card__cta btn-primary">Voir la paire</a>';
-        html += '</div></article>';
-      });
-      html += '</div>';
-      grid.innerHTML = html;
-    }
-    grid.style.display = 'block';
-    btn.textContent = '🔼 MASQUER LES ANCIENNES SORTIES';
+    // Hype cards
+    document.querySelectorAll('.hype-card').forEach(function(card) {
+      var title = (card.dataset.title || card.querySelector('.hype-card__title') && card.querySelector('.hype-card__title').textContent || '').toLowerCase();
+      card.style.display = (!q || title.indexOf(q) !== -1) ? '' : 'none';
+    });
+    // Promo cards
+    document.querySelectorAll('.promo-card, [data-promo-title]').forEach(function(card) {
+      var title = (card.dataset.promoTitle || '').toLowerCase();
+      card.style.display = (!q || title.indexOf(q) !== -1) ? '' : 'none';
+    });
   }
 
   function renderPastGrid(data) {
@@ -1007,7 +996,7 @@
       var img = r.image_url ? ('<img src="' + r.image_url + '" alt="" class="drop-card__img" loading="lazy">') : '<div class="drop-card__img-placeholder"></div>';
       var buyBtn = r.buy_url ? '<a href="'+r.buy_url+'" target="_blank" rel="noopener nofollow" class="btn-cop">Voir</a>' : '';
       html += '<article class="drop-card drop-card--released">'
-        +'<div class="drop-card__img-wrap">'+imgTag+'</div>'
+        +'<div class="drop-card__img-wrap">'+img+'</div>'
         +'<div class="drop-card__body">'
         +'<div class="drop-card__title">'+r.title+'</div>'
         +'<span class="drop-card__brand">'+( r.brand||'')+'</span>'
