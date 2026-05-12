@@ -227,7 +227,7 @@
   <section class="hero">
     <div class="container">
       <div class="hero__eyebrow">Alertes en temps réel</div>
-      <h1 class="hero__title">NE RATE PLUS<br/><span>AUCUN DROP</span></h1><p class="hero__sub" style="color:var(--muted);font-size:.95rem;margin:.5rem 0 0;letter-spacing:.08em">Nike · Jordan · Adidas · New Balance</p>
+      <h1 class="hero__title">NE RATE PLUS<br/><span>AUCUN DROP</span></h1><p class="hero__sub" style="color:var(--muted);font-size:.95rem;margin:.5rem 0 0;letter-spacing:.08em;text-align:center">Nike · Jordan · Adidas · New Balance</p>
       <p class="hero__sub">Ces paires vont disparaître en quelques heures. Ne rate pas ton drop.</p>
       <div class="hero__ctas">
         <a href="#drops-semaine" class="btn-primary">⚡ Drops de la semaine</a>
@@ -235,21 +235,45 @@
       </div>
     </div>
     <div class="ticker">
-      <div class="ticker__track">
-        <span>📅 DROP — <strong>Air Jordan 3 OG World's Best Dad</strong> — Sam. 16 Mai — 209,99€</span>
-        <span class="sold">🔥 SOLD OUT ailleurs — <strong>Travis Scott x AJ1</strong> — encore dispo ici</span>
-        <span>📅 DROP — <strong>Nike Air Max 90 Total 90 Laser</strong> — Dim. 10 Mai — 150€</span>
-        <span class="sold">🔥 SOLD OUT ailleurs — <strong>Bad Bunny x Adidas Ballerina</strong> — encore dispo ici</span>
-        <span>📅 DROP — <strong>Air Jordan 12 Bloodline</strong> — Sam. 23 Mai — 190€</span>
-        <span>📅 DROP — <strong>Nigel Sylvester x AJ4</strong> — Jeu. 22 Mai — 212€</span>
-        <span>📅 DROP — <strong>Air Jordan 3 OG World's Best Dad</strong> — Sam. 16 Mai — 209,99€</span>
-        <span class="sold">🔥 SOLD OUT ailleurs — <strong>Travis Scott x AJ1</strong> — encore dispo ici</span>
-        <span>📅 DROP — <strong>Nike Air Max 90 Total 90 Laser</strong> — Dim. 10 Mai — 150€</span>
-        <span class="sold">🔥 SOLD OUT ailleurs — <strong>Bad Bunny x Adidas Ballerina</strong> — encore dispo ici</span>
-        <span>📅 DROP — <strong>Air Jordan 12 Bloodline</strong> — Sam. 23 Mai — 190€</span>
-        <span>📅 DROP — <strong>Nigel Sylvester x AJ4</strong> — Jeu. 22 Mai — 212€</span>
+      <div class="ticker__track" id="ticker-track">
+        <span>📅 Chargement des drops...</span>
       </div>
     </div>
+  <script>
+  (function() {
+    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now();
+    fetch(RELEASES_URL)
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var today = new Date(); today.setHours(0,0,0,0);
+        // Garder uniquement les paires futures (date >= aujourd'hui)
+        var upcoming = data.filter(function(r) {
+          if (!r.date || r.date === 'TBD') return false;
+          var p = r.date.split('-');
+          var d = new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2]));
+          return d >= today;
+        });
+        if (!upcoming.length) return;
+        // Construire les spans
+        var items = upcoming.map(function(r) {
+          var p = r.date.split('-');
+          var d = new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2]));
+          var dateStr = d.toLocaleDateString('fr-FR', {weekday:'short', day:'numeric', month:'short'});
+          var price = r.price ? ' — ' + String(r.price).replace(/EUR/gi,'').trim() + ' €' : '';
+          var cls = r.stock === 'rupture' ? ' class="sold"' : '';
+          var label = r.stock === 'rupture' ? '🔴 RUPTURE' : '📅 DROP';
+          return '<span' + cls + '>' + label + ' — <strong>' + r.title + '</strong> — ' + dateStr + price + '</span>';
+        });
+        // Doubler pour loop infinie
+        var track = document.getElementById('ticker-track');
+        if (track) {
+          var html = items.join('');
+          track.innerHTML = html + html;
+        }
+      })
+      .catch(function() {});
+  })();
+  </script>
   </section>
 
   <section class="top-pick">
