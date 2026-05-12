@@ -1186,11 +1186,20 @@
       var dateStr = '';
       if (r.date) {
         try {
-          var _p = r.date.split('-');
-          if (_p.length === 3) {
-            var _d = new Date(parseInt(_p[0]), parseInt(_p[1])-1, parseInt(_p[2]));
-            dateStr = _d.toLocaleDateString('fr-FR', {day:'numeric', month:'2-digit', year:'numeric'}).replace(/\//g, '/');
-          } else { dateStr = r.date; }
+          var _p;
+          if (r.date.indexOf('/') !== -1) {
+            // Format JJ/MM/YYYY (weekly_data.json)
+            _p = r.date.split('/');
+            var _d = new Date(parseInt(_p[2]), parseInt(_p[1])-1, parseInt(_p[0]));
+            dateStr = _d.toLocaleDateString('fr-FR', {day:'numeric', month:'long'});
+          } else {
+            // Format YYYY-MM-DD
+            _p = r.date.split('-');
+            if (_p.length === 3) {
+              var _d = new Date(parseInt(_p[0]), parseInt(_p[1])-1, parseInt(_p[2]));
+              dateStr = _d.toLocaleDateString('fr-FR', {day:'numeric', month:'long'});
+            } else { dateStr = r.date; }
+          }
         } catch(e) { dateStr = r.date; }
       }
       return '<div class="weekly-card">' + img +
