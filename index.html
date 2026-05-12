@@ -380,6 +380,17 @@
     </div>
   </section>
 
+  <section class="releases" id="drops-semaine" style="padding-bottom:0">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Drops <span style="color:var(--accent)">de la Semaine</span></h2>
+        <span class="section-badge" id="weekly-drops-badge" style="background:var(--accent);color:#000">Cette semaine</span>
+      </div>
+      <div class="releases-grid" id="weekly-drops-grid" style="display:none"></div>
+      <div id="weekly-drops-empty" style="display:none;color:var(--muted);text-align:center;padding:2rem">Aucun drop cette semaine.</div>
+    </div>
+  </section>
+
   <section class="releases" id="releases">
     <div class="container">
       <div class="section-header">
@@ -697,6 +708,7 @@
   (function(){
     var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
     var grid=document.getElementById('releases-grid-week'); var gridUpcoming=document.getElementById('releases-grid-upcoming');
+    var weeklyDropsGrid=document.getElementById('weekly-drops-grid'); var weeklyDropsBadge=document.getElementById('weekly-drops-badge'); var weeklyDropsEmpty=document.getElementById('weekly-drops-empty');
     var empty=document.getElementById('releases-empty');
     var loading=document.getElementById('releases-loading');
     var topPickCard=document.getElementById('top-pick-card');
@@ -881,6 +893,11 @@
       var _daysFromMon = _day === 0 ? 6 : _day - 1;
       var _monday = new Date(_now); _monday.setDate(_now.getDate() - _daysFromMon); _monday.setHours(0,0,0,0);
       var _sunday = new Date(_monday); _sunday.setDate(_monday.getDate() + 6); _sunday.setHours(23,59,59,999);
+      // Mettre à jour le badge avec les dates de la semaine
+      if (weeklyDropsBadge) {
+        var _fmt = {day:'numeric', month:'short'};
+        weeklyDropsBadge.textContent = _monday.toLocaleDateString('fr-FR',_fmt) + ' \u2192 ' + _sunday.toLocaleDateString('fr-FR',_fmt);
+      }
       // Exclure les paires de la semaine en cours (déjà dans Drops de la Semaine)
       // Parser les dates manuellement pour éviter les problèmes de timezone
       function parseDateLocal(str) {
@@ -918,14 +935,20 @@
         var d = parseDateLocal(r.date);
         return !d || d > _sunday;
       });
-      if (thisWeek.length) {
-        document.getElementById('this-week-header').style.display = 'block';
-        grid.style.display = 'grid';
-        grid.innerHTML = thisWeek.map(function(r, i) { return renderCard(r, i); }).join('');
-      } else {
-        document.getElementById('this-week-header').style.display = 'none';
-        grid.style.display = 'none';
+      // Drops de la semaine — grid dédié
+      if (weeklyDropsGrid) {
+        if (thisWeek.length) {
+          weeklyDropsGrid.style.display = 'grid';
+          weeklyDropsGrid.innerHTML = thisWeek.map(function(r, i) { return renderCard(r, i); }).join('');
+          if (weeklyDropsEmpty) weeklyDropsEmpty.style.display = 'none';
+        } else {
+          weeklyDropsGrid.style.display = 'none';
+          if (weeklyDropsEmpty) weeklyDropsEmpty.style.display = 'block';
+        }
       }
+      // Masquer l'ancienne sous-section "Cette semaine" (obsolète)
+      document.getElementById('this-week-header').style.display = 'none';
+      grid.style.display = 'none';
       if (laterOn.length) {
         document.getElementById('upcoming-header').style.display = 'block';
         gridUpcoming.style.display = 'grid';
