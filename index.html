@@ -220,6 +220,15 @@
     <div class="container header__inner">
       <a href="#" class="logo"><div class="logo__icon">👟</div><span>SneakerDrop<span class="logo__fr">FR</span></span></a>
             <a href="/bstn-deals.html" class="header__cta" style="background:#111;color:var(--green);border:1px solid var(--green);margin-right:8px">🔥 Soldes BSTN</a><a href="/bstn-promos.html" class="header__cta" style="background:#111;color:var(--green);border:1px solid var(--green);margin-right:8px">👟 Catalogue BSTN</a>
+      <!-- Search expand -->
+      <div id="header-search" style="display:flex;align-items:center;position:relative;margin-left:auto;margin-right:.75rem">
+        <input id="header-search-input" type="text" placeholder="Rechercher..." autocomplete="off"
+          oninput="filterBySearch(this.value)"
+          style="width:0;opacity:0;border:none;outline:none;background:var(--card);color:var(--text);font-family:var(--font-condensed);font-size:.9rem;padding:0;border-radius:999px;transition:width .3s ease,opacity .3s ease,padding .3s ease;position:absolute;right:36px;top:50%;transform:translateY(-50%);box-shadow:none"
+          onfocus="this.style.boxShadow='0 0 0 2px var(--accent)'"
+          onblur="if(!this.value){closeSearch()}else{this.style.boxShadow='0 0 0 2px var(--accent)'}" />
+        <button onclick="toggleSearch()" style="background:none;border:none;cursor:pointer;color:var(--text);font-size:1.25rem;padding:.3rem;display:flex;align-items:center;line-height:1" title="Rechercher">🔍</button>
+      </div>
       <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="header__cta" onclick="trackTelegram('header')">🚨 Rejoindre Telegram</a>
     </div>
   </header>
@@ -298,17 +307,7 @@
   </section>
 
   <!-- Barre de recherche globale -->
-  <div style="background:rgba(10,10,10,.97);border-bottom:2px solid var(--accent);padding:.85rem 0;position:sticky;top:56px;z-index:99;backdrop-filter:blur(12px)">
-    <div class="container">
-      <div style="position:relative">
-        <span style="position:absolute;left:1rem;top:50%;transform:translateY(-50%);font-size:1.1rem;pointer-events:none">🔍</span>
-        <input id="search-releases" type="text" placeholder="Rechercher une paire, une marque..." oninput="filterBySearch(this.value)" autocomplete="off"
-          style="width:100%;padding:.85rem 1rem .85rem 2.75rem;border-radius:999px;border:2px solid var(--accent);background:var(--card);color:var(--text);font-family:var(--font-condensed);font-size:1rem;outline:none;box-sizing:border-box;transition:box-shadow .2s;box-shadow:0 0 0 0 rgba(232,255,0,.3)"
-          onfocus="this.style.boxShadow='0 0 0 4px rgba(232,255,0,.25)'"
-          onblur="this.style.boxShadow='0 0 0 0 rgba(232,255,0,.3)'">
-      </div>
-    </div>
-  </div>
+
 
   <section class="hype-section">
     <div class="container">
@@ -1024,7 +1023,31 @@
       });
   })();
 
-  function filterBySearch(query) {
+  function toggleSearch() {
+    var inp = document.getElementById('header-search-input');
+    if (!inp) return;
+    var isOpen = inp.style.width && inp.style.width !== '0' && inp.style.width !== '0px';
+    if (isOpen) {
+      closeSearch();
+    } else {
+      inp.style.width = '200px';
+      inp.style.opacity = '1';
+      inp.style.padding = '.45rem 1rem';
+      inp.focus();
+    }
+  }
+  function closeSearch() {
+    var inp = document.getElementById('header-search-input');
+    if (!inp) return;
+    inp.style.width = '0';
+    inp.style.opacity = '0';
+    inp.style.padding = '0';
+    inp.style.boxShadow = 'none';
+    inp.value = '';
+    filterBySearch('');
+  }
+
+    function filterBySearch(query) {
     var q = query.toLowerCase().trim();
     window._searchQuery = q;
 
