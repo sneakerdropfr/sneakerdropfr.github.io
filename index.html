@@ -777,11 +777,27 @@
       return keys.some(function(k) { return b.indexOf(k) !== -1; });
     }
 
+    function formatPrice(p) {
+      if (!p && p !== 0) return '';
+      var s = String(p).trim();
+      // Supprimer tous les € existants
+      s = s.replace(/€/g, '').trim();
+      // Supprimer "EUR" éventuel
+      s = s.replace(/EUR/gi, '').trim();
+      if (!s) return '';
+      return s + ' €';
+    }
+
     function formatDate(str) {
       if (!str || str === 'TBD') return 'Date à confirmer';
       try {
-        var d = new Date(str + 'T12:00:00');
-        return d.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'long' });
+        // Parser YYYY-MM-DD manuellement pour éviter les problèmes de timezone
+        var parts = str.split('-');
+        if (parts.length === 3) {
+          var d = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
+          return d.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'long' });
+        }
+        return str;
       } catch(e) { return str; }
     }
 
@@ -862,9 +878,9 @@
           '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + r.title + '</h3></a>' +
           '<div class="drop-card__meta">' +
             '<span class="drop-card__date">📅 ' + formatDate(r.date) + '</span>' +
-            '<span class="drop-card__price">' + (r.price || '') + '</span>' +
+            '<span class="drop-card__price">' + formatPrice(r.price) + '</span>' +
           '</div>' +
-          (r.resell ? '<div class="drop-card__resell">Resell ~' + r.resell + '€</div>' : '') +
+          (r.resell ? '<div class="drop-card__resell">Resell ~' + formatPrice(r.resell) + '</div>' : '') +
           '<div class="' + urgencyClass + '">' + urgency + '</div>' +
           '<div class="drop-card__cta">' + makeBtn(r, false) + '</div>' +
         '</div>' +
