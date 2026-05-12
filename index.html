@@ -795,6 +795,7 @@
       if (!s) return '';
       return s + ' €';
     }
+    window.formatPrice = formatPrice;
 
     function formatDate(str) {
       if (!str || str === 'TBD') return 'Date à confirmer';
@@ -1174,6 +1175,7 @@
   <script>
   // \u2500\u2500 Drops de la semaine \u2014 fetch weekly_data.json depuis GitHub \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
   (function() {
+    var formatPrice = window.formatPrice || function(p) { if(!p&&p!==0)return''; var s=String(p).trim().replace(/€/g,'').replace(/EUR/gi,'').trim(); return s?s+' €':''; };
     var WEEKLY_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/weekly_data.json?t=' + Date.now();
     var grid = document.getElementById('weekly-grid');
     var badge = document.getElementById('weekly-badge');
@@ -1186,20 +1188,17 @@
       var dateStr = '';
       if (r.date) {
         try {
-          var _p;
+          var _p, _y, _m, _day, _d;
           if (r.date.indexOf('/') !== -1) {
             // Format JJ/MM/YYYY (weekly_data.json)
             _p = r.date.split('/');
-            var _d = new Date(parseInt(_p[2]), parseInt(_p[1])-1, parseInt(_p[0]));
-            dateStr = _d.toLocaleDateString('fr-FR', {day:'numeric', month:'long'});
+            _d = new Date(parseInt(_p[2]), parseInt(_p[1])-1, parseInt(_p[0]));
           } else {
             // Format YYYY-MM-DD
             _p = r.date.split('-');
-            if (_p.length === 3) {
-              var _d = new Date(parseInt(_p[0]), parseInt(_p[1])-1, parseInt(_p[2]));
-              dateStr = _d.toLocaleDateString('fr-FR', {day:'numeric', month:'long'});
-            } else { dateStr = r.date; }
+            _d = (_p.length === 3) ? new Date(parseInt(_p[0]), parseInt(_p[1])-1, parseInt(_p[2])) : null;
           }
+          dateStr = _d ? _d.toLocaleDateString('fr-FR', {day:'numeric', month:'long'}) : r.date;
         } catch(e) { dateStr = r.date; }
       }
       return '<div class="weekly-card">' + img +
