@@ -992,7 +992,7 @@
     window._searchQuery = q;
 
     // 1. Prochaines Sorties
-    if (window._render) window._render(); catch(e) {}
+    try { if (window._render) window._render(); } catch(e) {}
     if (!data.length) {
       grid.innerHTML = '<p style="text-align:center;color:var(--muted);padding:2rem">Aucune ancienne sortie disponible.</p>';
     } else {
