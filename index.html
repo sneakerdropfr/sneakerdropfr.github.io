@@ -1186,8 +1186,11 @@
       var dateStr = '';
       if (r.date) {
         try {
-          var d = new Date(r.date + 'T12:00:00');
-          dateStr = d.toLocaleDateString('fr-FR', {day:'numeric', month:'2-digit', year:'numeric'}).replace(/\//g, '/');
+          var _p = r.date.split('-');
+          if (_p.length === 3) {
+            var _d = new Date(parseInt(_p[0]), parseInt(_p[1])-1, parseInt(_p[2]));
+            dateStr = _d.toLocaleDateString('fr-FR', {day:'numeric', month:'2-digit', year:'numeric'}).replace(/\//g, '/');
+          } else { dateStr = r.date; }
         } catch(e) { dateStr = r.date; }
       }
       return '<div class="weekly-card">' + img +
@@ -1300,9 +1303,13 @@
         return r.json();
       })
       .then(function(products) {
-        var today = new Date().toISOString().substring(0,10);
+        // Calculer today en local (CEST) pour ne pas exclure les paires de demain
+        var _n = new Date();
+        var today = _n.getFullYear() + '-' + String(_n.getMonth()+1).padStart(2,'0') + '-' + String(_n.getDate()).padStart(2,'0');
+        var tomorrow = new Date(_n.getFullYear(), _n.getMonth(), _n.getDate()+1);
+        var tomorrowStr = tomorrow.getFullYear() + '-' + String(tomorrow.getMonth()+1).padStart(2,'0') + '-' + String(tomorrow.getDate()).padStart(2,'0');
         var upcoming = products.filter(function(p) {
-          return !p.date || p.date >= today;
+          return !p.date || p.date > today;  // strict > : exclure les paires d'aujourd'hui
         });
         var grid = document.getElementById('bstn-upcoming-grid');
         var count = document.getElementById('bstn-upcoming-count');
