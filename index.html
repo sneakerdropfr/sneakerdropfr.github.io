@@ -846,6 +846,7 @@
       var urgencyClass = released ? 'drop-card__stock' : 'drop-card__stock drop-card__stock--upcoming';
 
       var articleUrl = r.wtc_url || r.buy_url || ('#');
+      var cardSku = r.sku || '';
       return '<article class="drop-card"' + (cardSku ? ' data-sku="' + cardSku + '"' : '') + ' data-title="' + safeTitle(r.title) + '">' +'<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>' +
         '<div class="drop-card__body">' +
           '<span class="drop-card__brand">' + (r.brand || '') + '</span>' +
