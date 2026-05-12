@@ -1046,30 +1046,18 @@
     inp.value = '';
     filterBySearch('');
   }
-
-    function filterBySearch(query) {
-    var q = query.toLowerCase().trim();
+  function filterBySearch(query) {
+    var q = (query || '').toLowerCase().trim();
     window._searchQuery = q;
-
-    // 1. Prochaines Sorties
     if (window._render) window._render();
-
-    // 2. Drops de la Semaine — géré par _render() ci-dessus (même source releases.json)
-
-    // 3. Paires les Plus Cotées — filtrer les hype-cards
     document.querySelectorAll('.hype-card').forEach(function(card) {
-      var title = (card.dataset.title || card.querySelector('.hype-card__title') && card.querySelector('.hype-card__title').textContent || '').toLowerCase();
-      var match = !q || title.indexOf(q) !== -1;
-      card.style.display = match ? '' : 'none';
-    });
-
-    // 4. Bonnes Affaires BSTN — filtrer les promo-cards
-    document.querySelectorAll('.promo-card, [data-promo-title]').forEach(function(card) {
-      var title = (card.dataset.promoTitle || card.querySelector('h3,h4,.promo-title') && card.querySelector('h3,h4,.promo-title').textContent || '').toLowerCase();
-      var match = !q || title.indexOf(q) !== -1;
-      card.style.display = match ? '' : 'none';
+      var title = (card.dataset.title || '').toLowerCase();
+      card.style.display = (!q || title.indexOf(q) !== -1) ? '' : 'none';
     });
   }
+
+
+
 
   function renderPastGrid(data) {
     var grid = document.getElementById('past-grid');
