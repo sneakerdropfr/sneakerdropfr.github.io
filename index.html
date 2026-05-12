@@ -174,17 +174,11 @@
     @media(max-width:400px){.releases-grid{grid-template-columns:1fr}}
   
     /* Section drops semaine */
-    .weekly-section{padding:3rem 0;border-top:1px solid var(--border)}
-    .weekly-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;margin-top:1.5rem}
-    .weekly-card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
-    .weekly-card:hover{border-color:var(--accent);transform:translateY(-3px)}
-    .weekly-card__img{width:100%;height:160px;object-fit:contain;background:#fff;padding:8px}
-    .weekly-card__body{padding:1rem;flex:1;display:flex;flex-direction:column;gap:.4rem}
-    .weekly-card__date{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent)}
-    .weekly-card__title{font-size:.9rem;font-weight:700;color:var(--text);line-height:1.3;flex:1}
-    .weekly-card__price{font-size:.85rem;color:var(--muted)}
-    .weekly-card__btn{display:inline-block;background:var(--accent);color:#000;font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:.4rem .9rem;border-radius:6px;text-decoration:none;margin-top:auto;align-self:flex-start}
-    .weekly-card__btn:hover{opacity:.85}
+
+
+
+
+
   
     /* Section paires cotées */
     .hype-section{padding:3.5rem 0;border-top:1px solid var(--border)}
@@ -272,22 +266,6 @@
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-  <section class="weekly-section" id="drops-semaine">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Drops de la Semaine</h2>
-        <span class="section-badge" id="weekly-badge">11 Mai → 17 Mai</span>
-      </div>
-      <div class="weekly-grid" id="weekly-grid"><p id="weekly-loading" style="color:var(--muted);text-align:center;padding:2rem;grid-column:1/-1">Chargement...</p></div>
-    </div>
-  </section>
 
   <section class="hype-section">
     <div class="container">
@@ -940,8 +918,7 @@
         var d = parseDateLocal(r.date);
         return !d || d > _sunday;
       });
-      // Masquer "Cette semaine" si weekly_data.json est déjà affiché (doublon)
-      if (thisWeek.length && !window._weeklyLoaded) {
+      if (thisWeek.length) {
         document.getElementById('this-week-header').style.display = 'block';
         grid.style.display = 'grid';
         grid.innerHTML = thisWeek.map(function(r, i) { return renderCard(r, i); }).join('');
@@ -992,45 +969,7 @@
     window._searchQuery = q;
 
     // 1. Prochaines Sorties
-    if (window._render) window._render();
-
-    // 2. Drops de la Semaine — filtrer les weekly-cards
-    var weeklyGrid = document.getElementById('weekly-grid');
-    if (weeklyGrid) {
-      weeklyGrid.querySelectorAll('.weekly-card').forEach(function(card) {
-        var title = (card.querySelector('.weekly-card__title') || {}).textContent || '';
-        var match = !q || title.toLowerCase().indexOf(q) !== -1;
-        card.style.display = match ? '' : 'none';
-      });
-    }
-
-    // 3. Paires les Plus Cotées — filtrer les hype-cards
-    document.querySelectorAll('.hype-card').forEach(function(card) {
-      var title = (card.dataset.title || card.querySelector('.hype-card__title') && card.querySelector('.hype-card__title').textContent || '').toLowerCase();
-      var match = !q || title.indexOf(q) !== -1;
-      card.style.display = match ? '' : 'none';
-    });
-
-    // 4. Bonnes Affaires BSTN — filtrer les promo-cards
-    document.querySelectorAll('.promo-card, [data-promo-title]').forEach(function(card) {
-      var title = (card.dataset.promoTitle || card.querySelector('h3,h4,.promo-title') && card.querySelector('h3,h4,.promo-title').textContent || '').toLowerCase();
-      var match = !q || title.indexOf(q) !== -1;
-      card.style.display = match ? '' : 'none';
-    });
-  }
-
-  function renderPastGrid(data) {
-    var grid = document.getElementById('past-grid');
-    var btn = document.getElementById('btn-past');
-    try {
-      var hypePast = JSON.parse(localStorage.getItem('sdf_hype_past') || '[]');
-      if (hypePast.length) {
-        var existingIds = data.map(function(r) { return r.id; });
-        hypePast.forEach(function(r) {
-          if (existingIds.indexOf(r.id) === -1) data.unshift(r);
-        });
-      }
-    } catch(e) {}
+    if (window._render) window._render(); catch(e) {}
     if (!data.length) {
       grid.innerHTML = '<p style="text-align:center;color:var(--muted);padding:2rem">Aucune ancienne sortie disponible.</p>';
     } else {
@@ -1144,15 +1083,7 @@
       var m = href.match(/([a-z]{1,3}[0-9]{4,6}-[0-9]{3,4})(?:[^-]|$)/i);
       return m ? m[1] : null;
     }
-    document.querySelectorAll('.weekly-card').forEach(function(card) {
-      var link = card.querySelector('a[href*="whentocop.fr"]');
-      if (!link) return;
-      var sku = extractSkuFromWtcUrl(link.href);
-      if (!sku) return;
-      card.setAttribute('data-sku', sku);
-      var body = card.querySelector('.weekly-card__body');
-      bstnCheckSku(sku, function(url) { bstnInjectBtn(body, url, 'Acheter sur BSTN'); });
-    });
+
   })();
 
   // ── 3. Section Prochaines Sorties (cards JS dynamiques) ───────────────
@@ -1183,84 +1114,6 @@
 
 
 
-  <script>
-  // \u2500\u2500 Drops de la semaine \u2014 fetch weekly_data.json depuis GitHub \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-  (function() {
-    var formatPrice = window.formatPrice || function(p) { if(!p&&p!==0)return''; var s=String(p).trim().replace(/€/g,'').replace(/EUR/gi,'').trim(); return s?s+' €':''; };
-    var WEEKLY_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/weekly_data.json?t=' + Date.now();
-    var grid = document.getElementById('weekly-grid');
-    var badge = document.getElementById('weekly-badge');
-    var loading = document.getElementById('weekly-loading');
-
-    function renderWeeklyCard(r) {
-      var img = r.image ? '<img src="' + r.image + '" alt="' + (r.name||'') + '" class="weekly-card__img" loading="lazy" onerror="this.style.display=\'none\'">' : '';
-      var wtcSlug = (r.wtc_url || r.link || '');
-      var btnHtml = wtcSlug ? '<a href="' + wtcSlug + '" target="_blank" rel="noopener" class="weekly-card__btn">Voir</a>' : '';
-      var dateStr = '';
-      if (r.date) {
-        try {
-          var _p, _y, _m, _day, _d;
-          if (r.date.indexOf('/') !== -1) {
-            // Format JJ/MM/YYYY (weekly_data.json)
-            _p = r.date.split('/');
-            _d = new Date(parseInt(_p[2]), parseInt(_p[1])-1, parseInt(_p[0]));
-          } else {
-            // Format YYYY-MM-DD
-            _p = r.date.split('-');
-            _d = (_p.length === 3) ? new Date(parseInt(_p[0]), parseInt(_p[1])-1, parseInt(_p[2])) : null;
-          }
-          dateStr = _d ? _d.toLocaleDateString('fr-FR', {day:'numeric', month:'long'}) : r.date;
-        } catch(e) { dateStr = r.date; }
-      }
-      return '<div class="weekly-card">' + img +
-        '<div class="weekly-card__body">' +
-          '<span class="weekly-card__date">' + dateStr + '</span>' +
-          '<div class="weekly-card__title">' + (r.name||r.title||'') + '</div>' +
-          '<span class="weekly-card__price">' + formatPrice(r.price) + '</span>' +
-          btnHtml +
-        '</div></div>';
-    }
-
-    function renderWeekly(data) {
-      var releases = data.releases || [];
-      if (badge && data.week_start && data.week_end) {
-        badge.textContent = data.week_start + ' \u2192 ' + data.week_end;
-      }
-      if (!releases.length) {
-        if (loading) loading.textContent = 'Aucun drop cette semaine.';
-        return;
-      }
-      grid.innerHTML = releases.map(renderWeeklyCard).join('');
-      window._weeklyLoaded = true;
-      window._weeklyTitles = releases.map(function(r) { return (r.title||r.name||'').toLowerCase().trim(); });
-      // Re-render les prochaines sorties pour exclure les doublons
-      if (typeof window._render === 'function') window._render();
-      // D\u00e9clencher le check BSTN sur les nouvelles cards
-      if (typeof bstnCheckSku === 'function') {
-        function extractSku(href) {
-          var m = (href||'').match(/([a-z]{1,3}[0-9]{4,6}-[0-9]{3,4})(?:[^-]|$)/i);
-          return m ? m[1] : null;
-        }
-        grid.querySelectorAll('.weekly-card').forEach(function(card) {
-          var link = card.querySelector('a[href*="whentocop.fr"]');
-          if (!link) return;
-          var sku = extractSku(link.href);
-          if (!sku) return;
-          var body = card.querySelector('.weekly-card__body');
-          bstnCheckSku(sku, function(url) { bstnInjectBtn(body, url, 'Acheter sur BSTN'); });
-        });
-      }
-    }
-
-    fetch(WEEKLY_URL)
-      .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-      .then(function(data) { renderWeekly(data); })
-      .catch(function(err) {
-        console.warn('weekly_data.json inaccessible:', err);
-        if (loading) loading.textContent = 'Drops non disponibles pour le moment.';
-      });
-  })();
-  </script>
   <!-- Bouton retour haut -->
   <button class="scroll-top" id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Retour en haut">&#8679;</button>
   <script>
