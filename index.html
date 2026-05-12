@@ -1126,6 +1126,8 @@
     if (grid) observer.observe(grid, { childList: true, subtree: true });
     var gridUp = document.getElementById('releases-grid-upcoming');
     if (gridUp) observer.observe(gridUp, { childList: true, subtree: true });
+    var gridWeekly = document.getElementById('weekly-drops-grid');
+    if (gridWeekly) observer.observe(gridWeekly, { childList: true, subtree: true });
     var topPick = document.getElementById('top-pick-card');
     if (topPick) observer.observe(topPick, { childList: true, subtree: true });
   })();
