@@ -917,6 +917,12 @@
         var todayMidnight = new Date(); todayMidnight.setHours(0,0,0,0);
         return d >= todayMidnight; // inclure aujourd'hui et futur
       });
+      // Exclure les paires déjà affichées dans Drops de la semaine (weekly_data.json)
+      if (window._weeklyTitles && window._weeklyTitles.length) {
+        notReleased = notReleased.filter(function(r) {
+          return window._weeklyTitles.indexOf((r.title||'').toLowerCase().trim()) === -1;
+        });
+      }
       var filtered = notReleased.filter(function(r) { return matchBrand(r, activeFilter); });
       if (window._searchQuery) { filtered = filtered.filter(function(r) { return (r.title||'').toLowerCase().indexOf(window._searchQuery) !== -1 || (r.brand||'').toLowerCase().indexOf(window._searchQuery) !== -1; }); }
       var sorted = sortByDate(filtered).slice(0, MAX_CARDS);
@@ -1232,7 +1238,8 @@
       }
       grid.innerHTML = releases.map(renderWeeklyCard).join('');
       window._weeklyLoaded = true;
-      // Re-render les prochaines sorties pour masquer "Cette semaine"
+      window._weeklyTitles = releases.map(function(r) { return (r.title||r.name||'').toLowerCase().trim(); });
+      // Re-render les prochaines sorties pour exclure les doublons
       if (typeof window._render === 'function') window._render();
       // D\u00e9clencher le check BSTN sur les nouvelles cards
       if (typeof bstnCheckSku === 'function') {
