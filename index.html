@@ -730,7 +730,9 @@
     // Vérifie si la paire est déjà sortie (date passée ou aujourd'hui)
     function isReleased(dateStr) {
       if (!dateStr || dateStr === 'TBD') return false;
-      var releaseDate = new Date(dateStr + 'T00:00:00');
+      var p = dateStr.split('-');
+      if (p.length !== 3) return false;
+      var releaseDate = new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2]));
       var today = new Date();
       today.setHours(0,0,0,0);
       return releaseDate <= today;
@@ -901,9 +903,15 @@
       var _monday = new Date(_now); _monday.setDate(_now.getDate() - _daysFromMon); _monday.setHours(0,0,0,0);
       var _sunday = new Date(_monday); _sunday.setDate(_monday.getDate() + 6); _sunday.setHours(23,59,59,999);
       // Exclure les paires de la semaine en cours (déjà dans Drops de la Semaine)
+      // Parser les dates manuellement pour éviter les problèmes de timezone
+      function parseDateLocal(str) {
+        var p = str.split('-');
+        return p.length === 3 ? new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2])) : null;
+      }
       var upcoming = allReleases.filter(function(r) {
         if (!r.date || r.date === 'TBD') return true;
-        var d = new Date(r.date + 'T00:00:00');
+        var d = parseDateLocal(r.date);
+        if (!d) return true;
         return d > _sunday; // seulement à partir de la semaine prochaine
       });
       var filtered = upcoming.filter(function(r) { return matchBrand(r, activeFilter); });
