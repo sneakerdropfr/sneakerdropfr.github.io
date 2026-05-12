@@ -829,12 +829,14 @@
     // Génère le bon bouton selon si la paire est sortie ou pas
     function makeBtn(r, isBig) {
       var released = isReleased(r.date);
-      if (released && r.buy_url) {
-        // Paire sortie → bouton achat BSTN
+      var hasAff = r.buy_url && r.buy_url.indexOf('awin') !== -1;
+      if (r.buy_url && (released || hasAff)) {
+        // Paire sortie OU lien affilié BSTN dispo → bouton achat
+        var label = released ? '🔥 Acheter Avant Rupture' : '🛒 Acheter sur BSTN';
         var cls = isBig ? 'btn-cop-big' : 'btn-cop';
-        return '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN(\'' + safeTitle(r.title) + '\')">🔥 Acheter Avant Rupture</a>';
+        return '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN(\'' + safeTitle(r.title) + '\')">' + label + '</a>';
       } else {
-        // Paire pas encore sortie → alerte Telegram
+        // Pas de lien → alerte Telegram
         var cls2 = isBig ? 'btn-cop-big btn-cop-big--alert' : 'btn-cop btn-cop--alert';
         return '<a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="' + cls2 + '" onclick="trackTelegram(\'alert-btn\')">📢 Rejoindre Telegram</a>';
       }
