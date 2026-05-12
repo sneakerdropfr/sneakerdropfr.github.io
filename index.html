@@ -848,7 +848,7 @@
         '<div class="top-pick__body">' +
           '<span class="top-pick__brand">' + (r.brand || '') + '</span>' +
           '<h2 class="top-pick__title">' + r.title + '</h2>' +
-          '<div class="top-pick__price">' + (r.price || '') + '</div>' +
+          '<div class="top-pick__price">' + formatPrice(r.price) + '</div>' +
           (r.resell ? '<div class="top-pick__resell">Resell estimé ~' + r.resell + '€</div>' : '') +
           '<div class="top-pick__date">📅 ' + formatDate(r.date) + '</div>' +
           alertDiv +
@@ -1186,7 +1186,7 @@
         '<div class="weekly-card__body">' +
           '<span class="weekly-card__date">' + dateStr + '</span>' +
           '<div class="weekly-card__title">' + (r.name||r.title||'') + '</div>' +
-          '<span class="weekly-card__price">' + (r.price ? '\u20ac' + r.price : '') + '</span>' +
+          '<span class="weekly-card__price">' + formatPrice(r.price) + '</span>' +
           btnHtml +
         '</div></div>';
     }
