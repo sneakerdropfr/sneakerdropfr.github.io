@@ -116,8 +116,7 @@
     "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com",
     "in_stock": true,
     "wtc_url": "https://www.whentocop.fr/drops/bad-bunny-adidas-ballerina-flamboyan-ki7916",
-    "resell": 280,
-    "featured": true
+    "resell": 280
   },
   {
     "id": "aj3-worlds-best-dad-2026",
@@ -291,6 +290,17 @@
     "buy_url": "https://www.whentocop.fr/drops/nigel-sylvester-air-jordan-4-2026",
     "wtc_url": "https://www.whentocop.fr/drops/nigel-sylvester-air-jordan-4-2026",
     "score": 115,
-    "featured": false
+    "featured": true
+  },
+  {
+    "id": "air-jordan-3-bin23",
+    "title": "Air Jordan 3 Bin 23",
+    "brand": "Jordan Brand",
+    "date": "2026-06-13",
+    "price": 350,
+    "resell": 800,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2025/07/air-jordan-3-bin23-io7744-600.jpg?w=1200",
+    "sku": "IO7744-600",
+    "score": 95
   }
 ]
