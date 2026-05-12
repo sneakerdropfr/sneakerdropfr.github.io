@@ -909,13 +909,15 @@
         var p = str.split('-');
         return p.length === 3 ? new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2])) : null;
       }
-      var upcoming = allReleases.filter(function(r) {
+      // Toutes les paires non encore sorties
+      var notReleased = allReleases.filter(function(r) {
         if (!r.date || r.date === 'TBD') return true;
         var d = parseDateLocal(r.date);
         if (!d) return true;
-        return d > _sunday; // seulement à partir de la semaine prochaine
+        var todayMidnight = new Date(); todayMidnight.setHours(0,0,0,0);
+        return d >= todayMidnight; // inclure aujourd'hui et futur
       });
-      var filtered = upcoming.filter(function(r) { return matchBrand(r, activeFilter); });
+      var filtered = notReleased.filter(function(r) { return matchBrand(r, activeFilter); });
       if (window._searchQuery) { filtered = filtered.filter(function(r) { return (r.title||'').toLowerCase().indexOf(window._searchQuery) !== -1 || (r.brand||'').toLowerCase().indexOf(window._searchQuery) !== -1; }); }
       var sorted = sortByDate(filtered).slice(0, MAX_CARDS);
       if (!sorted.length) {
@@ -927,9 +929,17 @@
         return;
       }
       empty.style.display = 'none';
-      // Séparer cette semaine (<= 7 jours) vs à venir (> 7 jours ou TBD)
-      var thisWeek = sorted.filter(function(r) { return isSoon(r.date); });
-      var laterOn  = sorted.filter(function(r) { return !isSoon(r.date); });
+      // Séparer cette semaine (lun-dim) vs à venir (semaine prochaine+)
+      var thisWeek = sorted.filter(function(r) {
+        if (!r.date || r.date === 'TBD') return false;
+        var d = parseDateLocal(r.date);
+        return d && d >= _monday && d <= _sunday;
+      });
+      var laterOn = sorted.filter(function(r) {
+        if (!r.date || r.date === 'TBD') return true;
+        var d = parseDateLocal(r.date);
+        return !d || d > _sunday;
+      });
       if (thisWeek.length) {
         document.getElementById('this-week-header').style.display = 'block';
         grid.style.display = 'grid';
