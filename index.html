@@ -259,6 +259,19 @@
     </div>
   </section>
 
+
+
+  <section class="releases" id="drops-semaine" style="padding-bottom:0">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Drops <span style="color:var(--accent)">de la Semaine</span></h2>
+        <span class="section-badge" id="weekly-drops-badge" style="background:var(--accent);color:#000">Cette semaine</span>
+      </div>
+      <div class="releases-grid" id="weekly-drops-grid" style="display:none"></div>
+      <div id="weekly-drops-empty" style="display:none;color:var(--muted);text-align:center;padding:2rem">Aucun drop cette semaine.</div>
+    </div>
+  </section>
+
   <!-- Barre de recherche globale -->
   <div style="background:rgba(10,10,10,.97);border-bottom:2px solid var(--accent);padding:.85rem 0;position:sticky;top:0;z-index:50;backdrop-filter:blur(12px)">
     <div class="container">
@@ -271,14 +284,6 @@
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
 
   <section class="hype-section">
     <div class="container">
@@ -393,16 +398,6 @@
     </div>
   </section>
 
-  <section class="releases" id="drops-semaine" style="padding-bottom:0">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Drops <span style="color:var(--accent)">de la Semaine</span></h2>
-        <span class="section-badge" id="weekly-drops-badge" style="background:var(--accent);color:#000">Cette semaine</span>
-      </div>
-      <div class="releases-grid" id="weekly-drops-grid" style="display:none"></div>
-      <div id="weekly-drops-empty" style="display:none;color:var(--muted);text-align:center;padding:2rem">Aucun drop cette semaine.</div>
-    </div>
-  </section>
 
   <section class="releases" id="releases">
     <div class="container">
@@ -1011,14 +1006,7 @@
     // 1. Prochaines Sorties
     if (window._render) window._render();
 
-    // 2. Drops de la Semaine — filtrer les weekly-cards
-    if (weeklyGrid) {
-      weeklyGrid.querySelectorAll('.weekly-card').forEach(function(card) {
-        var title = (card.querySelector('.weekly-card__title') || {}).textContent || '';
-        var match = !q || title.toLowerCase().indexOf(q) !== -1;
-        card.style.display = match ? '' : 'none';
-      });
-    }
+    // 2. Drops de la Semaine — géré par _render() ci-dessus (même source releases.json)
 
     // 3. Paires les Plus Cotées — filtrer les hype-cards
     document.querySelectorAll('.hype-card').forEach(function(card) {
