@@ -940,7 +940,8 @@
         var d = parseDateLocal(r.date);
         return !d || d > _sunday;
       });
-      if (thisWeek.length) {
+      // Masquer "Cette semaine" si weekly_data.json est déjà affiché (doublon)
+      if (thisWeek.length && !window._weeklyLoaded) {
         document.getElementById('this-week-header').style.display = 'block';
         grid.style.display = 'grid';
         grid.innerHTML = thisWeek.map(function(r, i) { return renderCard(r, i); }).join('');
@@ -1230,6 +1231,9 @@
         return;
       }
       grid.innerHTML = releases.map(renderWeeklyCard).join('');
+      window._weeklyLoaded = true;
+      // Re-render les prochaines sorties pour masquer "Cette semaine"
+      if (typeof window._render === 'function') window._render();
       // D\u00e9clencher le check BSTN sur les nouvelles cards
       if (typeof bstnCheckSku === 'function') {
         function extractSku(href) {
