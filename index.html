@@ -295,7 +295,8 @@
     </div>
   <script>
   (function() {
-    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now();
+    var RELEASES_URL = '/releases.json?t=' + Date.now();
+    var RELEASES_URL_FALLBACK = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now();
     fetch(RELEASES_URL)
       .then(function(r) { return r.json(); })
       .then(function(data) {
@@ -791,7 +792,8 @@
   })();
 
   (function(){
-    var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
+    var RELEASES_URL='/releases.json?t='+Date.now();
+    var RELEASES_URL_FALLBACK='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
     var grid=document.getElementById('releases-grid-week'); var gridUpcoming=document.getElementById('releases-grid-upcoming');
     var weeklyDropsGrid=document.getElementById('weekly-drops-grid'); var weeklyDropsBadge=document.getElementById('weekly-drops-badge'); var weeklyDropsEmpty=document.getElementById('weekly-drops-empty');
     var empty=document.getElementById('releases-empty');
@@ -1071,6 +1073,7 @@
     });
 
     fetch(RELEASES_URL)
+      .catch(function() { return fetch(RELEASES_URL_FALLBACK); })
       .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function(data) {
         loading.style.display = 'none';
@@ -1757,7 +1760,8 @@ OCTYPE html>
     </div>
   <script>
   (function() {
-    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now();
+    var RELEASES_URL = '/releases.json?t=' + Date.now();
+    var RELEASES_URL_FALLBACK = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now();
     fetch(RELEASES_URL)
       .then(function(r) { return r.json(); })
       .then(function(data) {
@@ -2253,7 +2257,8 @@ OCTYPE html>
   })();
 
   (function(){
-    var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
+    var RELEASES_URL='/releases.json?t='+Date.now();
+    var RELEASES_URL_FALLBACK='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
     var grid=document.getElementById('releases-grid-week'); var gridUpcoming=document.getElementById('releases-grid-upcoming');
     var weeklyDropsGrid=document.getElementById('weekly-drops-grid'); var weeklyDropsBadge=document.getElementById('weekly-drops-badge'); var weeklyDropsEmpty=document.getElementById('weekly-drops-empty');
     var empty=document.getElementById('releases-empty');
@@ -2532,6 +2537,7 @@ OCTYPE html>
     });
 
     fetch(RELEASES_URL)
+      .catch(function() { return fetch(RELEASES_URL_FALLBACK); })
       .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function(data) {
         loading.style.display = 'none';
