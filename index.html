@@ -991,11 +991,17 @@
 
       var urgencyClass = released ? 'drop-card__stock' : 'drop-card__stock drop-card__stock--upcoming';
 
-      var articleUrl = r.wtc_url || r.buy_url || ('#');
-      return '<article class="drop-card"' + (cardSku ? ' data-sku="' + cardSku + '"' : '') + ' data-title="' + safeTitle(r.title) + '">' +'<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block" target="_blank" rel="noopener">' + badgeTop + img + '</a>' +
+      var articleUrl = r.wtc_url || r.buy_url || null;
+      var imgWrap = articleUrl
+        ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block" target="_blank" rel="noopener">' + badgeTop + img + '</a>'
+        : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
+      var titleWrap = articleUrl
+        ? '<a href="' + articleUrl + '" style="color:inherit" target="_blank" rel="noopener"><h3 class="drop-card__title">' + r.title + '</h3></a>'
+        : '<h3 class="drop-card__title">' + r.title + '</h3>';
+      return '<article class="drop-card"' + (cardSku ? ' data-sku="' + cardSku + '"' : '') + ' data-title="' + safeTitle(r.title) + '">' + imgWrap +
         '<div class="drop-card__body">' +
           '<span class="drop-card__brand">' + (r.brand || '') + '</span>' +
-          '<a href="' + articleUrl + '" style="color:inherit" target="_blank" rel="noopener"><h3 class="drop-card__title">' + r.title + '</h3></a>' +
+          titleWrap +
           '<div class="drop-card__meta">' +
             '<span class="drop-card__date">📅 ' + formatDate(r.date) + '</span>' +
             '<span class="drop-card__price">' + formatPrice(r.price) + '</span>' +
