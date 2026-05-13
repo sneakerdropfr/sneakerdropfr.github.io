@@ -941,9 +941,12 @@
         var cls = isBig ? 'btn-cop-big' : 'btn-cop';
         return '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN(\'' + safeTitle(r.title) + '\')">' + label + '</a>';
       } else {
-        // Pas de lien → alerte Telegram
-        var cls2 = isBig ? 'btn-cop-big btn-cop-big--alert' : 'btn-cop btn-cop--alert';
-        return '<a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="' + cls2 + '" onclick="trackTelegram(\'alert-btn\')">📢 Rejoindre Telegram</a>';
+        // Pas de lien affilié → WhenToCop si dispo, sinon rien
+        if (r.wtc_url) {
+          var cls2 = isBig ? 'btn-cop-big btn-cop-big--alert' : 'btn-cop btn-cop--alert';
+          return '<a href="' + r.wtc_url + '" target="_blank" rel="noopener" class="' + cls2 + '">Voir sur WhenToCop</a>';
+        }
+        return '';
       }
     }
 
