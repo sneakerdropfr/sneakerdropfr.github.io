@@ -316,7 +316,7 @@
           var price = r.price ? ' — ' + String(r.price).replace(/EUR/gi,'').trim() + ' €' : '';
           var cls = r.stock === 'rupture' ? ' class="sold"' : '';
           var label = r.stock === 'rupture' ? '🔴 RUPTURE' : '📅 DROP';
-          return '<span' + cls + '>' + label + ' — <strong>' + r.title + '</strong> — ' + dateStr + price + '</span>';
+          return '<span' + cls + '>' + label + ' — <strong>' + escapeHtml(r.title) + '</strong> — ' + dateStr + price + '</span>';
         });
         // Doubler pour loop infinie
         var track = document.getElementById('ticker-track');
@@ -898,6 +898,7 @@
     }
 
     function safeTitle(t) { return (t || '').replace(/'/g, "\\'").replace(/"/g, '&quot;'); }
+    function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
 
     // Génère le bon bouton selon si la paire est sortie ou pas
     function makeBtn(r, isBig) {
@@ -935,7 +936,7 @@
         '<div class="top-pick__img-wrap">' + img + '</div>' +
         '<div class="top-pick__body">' +
           '<span class="top-pick__brand">' + (r.brand || '') + '</span>' +
-          '<h2 class="top-pick__title">' + r.title + '</h2>' +
+          '<h2 class="top-pick__title">' + escapeHtml(r.title) + '</h2>' +
           '<div class="top-pick__price">' + formatPrice(r.price) + '</div>' +
           (r.resell ? '<div class="top-pick__resell">Resell estimé ~' + r.resell + '€</div>' : '') +
           '<div class="top-pick__date">📅 ' + formatDate(r.date) + '</div>' +
@@ -970,7 +971,7 @@
         ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block" target="_blank" rel="noopener">' + badgeTop + img + '</a>'
         : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
       var titleWrap = articleUrl
-        ? '<a href="' + articleUrl + '" style="color:inherit" target="_blank" rel="noopener"><h3 class="drop-card__title">' + r.title + '</h3></a>'
+        ? '<a href="' + articleUrl + '" style="color:inherit" target="_blank" rel="noopener"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
         : '<h3 class="drop-card__title">' + r.title + '</h3>';
       return '<article class="drop-card"' + (cardSku ? ' data-sku="' + cardSku + '"' : '') + ' data-title="' + safeTitle(r.title) + '">' + imgWrap +
         '<div class="drop-card__body">' +
@@ -1093,7 +1094,7 @@
               + '<div class="raffle-card__img"><img src="' + (r.image_url||'') + '" alt="' + (r.title||'').replace(/"/g,'') + '" loading="lazy"></div>'
               + '<div class="raffle-card__body">'
               + '<span class="raffle-card__badge">Raffle</span>'
-              + '<div class="raffle-card__title">' + (r.title||'') + '</div>'
+              + '<div class="raffle-card__title">' + escapeHtml(r.title) + '</div>'
               + '<div class="raffle-card__meta">' + dateStr + (price ? ' · ' + price : '') + '</div>'
               + '<a href="' + (r.raffle_url||'#') + '" target="_blank" rel="noopener" class="raffle-card__btn">Participer au raffle</a>'
               + '</div></div>';
@@ -1178,7 +1179,7 @@
       return '<a href="' + link + '" target="_blank" rel="noopener" class="src">'
         + imgHtml
         + '<div class="src__body">'
-        + '<div class="src__title">' + (r.title || '') + '</div>'
+        + '<div class="src__title">' + escapeHtml(r.title) + '</div>'
         + '<div class="src__meta">'
         + '<span>' + dateStr + '</span>'
         + '<span class="src__price">' + price + '</span>'
@@ -1214,7 +1215,7 @@
         html += '<div class="drop-card__img-wrap">' + img + '</div>';
         html += '<div class="drop-card__body">';
         html += '<div class="drop-card__brand">' + (r.brand || r.source || '') + '</div>';
-        html += '<h3 class="drop-card__title">' + (r.title || '') + '</h3>';
+        html += '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
         html += '<div class="drop-card__meta"><span>' + (r.date || 'TBD') + '</span><span class="drop-card__price">' + (r.price || '') + '</span></div>';
         html += '<a href="' + (r.link || '#') + '" target="_blank" rel="noopener" class="drop-card__cta btn-primary">Voir la paire</a>';
         html += '</div></article>';
@@ -1382,7 +1383,7 @@
       return d;
     }
     
-    function safeTitle(t) { return (t||'').replace(/'/g,'').substring(0,30); }
+    function safeTitle(t) { return (t || '').replace(/'/g, "\\'").replace(/"/g, '&quot;'); }
     
     function buildBstnCard(p) {
       var nom = p.nom || '';
@@ -1777,7 +1778,7 @@ OCTYPE html>
           var price = r.price ? ' — ' + String(r.price).replace(/EUR/gi,'').trim() + ' €' : '';
           var cls = r.stock === 'rupture' ? ' class="sold"' : '';
           var label = r.stock === 'rupture' ? '🔴 RUPTURE' : '📅 DROP';
-          return '<span' + cls + '>' + label + ' — <strong>' + r.title + '</strong> — ' + dateStr + price + '</span>';
+          return '<span' + cls + '>' + label + ' — <strong>' + escapeHtml(r.title) + '</strong> — ' + dateStr + price + '</span>';
         });
         // Doubler pour loop infinie
         var track = document.getElementById('ticker-track');
@@ -2396,7 +2397,7 @@ OCTYPE html>
         '<div class="top-pick__img-wrap">' + img + '</div>' +
         '<div class="top-pick__body">' +
           '<span class="top-pick__brand">' + (r.brand || '') + '</span>' +
-          '<h2 class="top-pick__title">' + r.title + '</h2>' +
+          '<h2 class="top-pick__title">' + escapeHtml(r.title) + '</h2>' +
           '<div class="top-pick__price">' + formatPrice(r.price) + '</div>' +
           (r.resell ? '<div class="top-pick__resell">Resell estimé ~' + r.resell + '€</div>' : '') +
           '<div class="top-pick__date">📅 ' + formatDate(r.date) + '</div>' +
@@ -2431,7 +2432,7 @@ OCTYPE html>
         ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block" target="_blank" rel="noopener">' + badgeTop + img + '</a>'
         : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
       var titleWrap = articleUrl
-        ? '<a href="' + articleUrl + '" style="color:inherit" target="_blank" rel="noopener"><h3 class="drop-card__title">' + r.title + '</h3></a>'
+        ? '<a href="' + articleUrl + '" style="color:inherit" target="_blank" rel="noopener"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
         : '<h3 class="drop-card__title">' + r.title + '</h3>';
       return '<article class="drop-card"' + (cardSku ? ' data-sku="' + cardSku + '"' : '') + ' data-title="' + safeTitle(r.title) + '">' + imgWrap +
         '<div class="drop-card__body">' +
@@ -2554,7 +2555,7 @@ OCTYPE html>
               + '<div class="raffle-card__img"><img src="' + (r.image_url||'') + '" alt="' + (r.title||'').replace(/"/g,'') + '" loading="lazy"></div>'
               + '<div class="raffle-card__body">'
               + '<span class="raffle-card__badge">Raffle</span>'
-              + '<div class="raffle-card__title">' + (r.title||'') + '</div>'
+              + '<div class="raffle-card__title">' + escapeHtml(r.title) + '</div>'
               + '<div class="raffle-card__meta">' + dateStr + (price ? ' · ' + price : '') + '</div>'
               + '<a href="' + (r.raffle_url||'#') + '" target="_blank" rel="noopener" class="raffle-card__btn">Participer au raffle</a>'
               + '</div></div>';
@@ -2639,7 +2640,7 @@ OCTYPE html>
       return '<a href="' + link + '" target="_blank" rel="noopener" class="src">'
         + imgHtml
         + '<div class="src__body">'
-        + '<div class="src__title">' + (r.title || '') + '</div>'
+        + '<div class="src__title">' + escapeHtml(r.title) + '</div>'
         + '<div class="src__meta">'
         + '<span>' + dateStr + '</span>'
         + '<span class="src__price">' + price + '</span>'
@@ -2675,7 +2676,7 @@ OCTYPE html>
         html += '<div class="drop-card__img-wrap">' + img + '</div>';
         html += '<div class="drop-card__body">';
         html += '<div class="drop-card__brand">' + (r.brand || r.source || '') + '</div>';
-        html += '<h3 class="drop-card__title">' + (r.title || '') + '</h3>';
+        html += '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
         html += '<div class="drop-card__meta"><span>' + (r.date || 'TBD') + '</span><span class="drop-card__price">' + (r.price || '') + '</span></div>';
         html += '<a href="' + (r.link || '#') + '" target="_blank" rel="noopener" class="drop-card__cta btn-primary">Voir la paire</a>';
         html += '</div></article>';
@@ -2843,7 +2844,7 @@ OCTYPE html>
       return d;
     }
     
-    function safeTitle(t) { return (t||'').replace(/'/g,'').substring(0,30); }
+    function safeTitle(t) { return (t || '').replace(/'/g, "\\'").replace(/"/g, '&quot;'); }
     
     function buildBstnCard(p) {
       var nom = p.nom || '';
