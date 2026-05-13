@@ -2921,18 +2921,6 @@ OCTYPE html>
   </script>
 <script type="text/javascript" src="https://s.skimresources.com/js/302926X179095.skimlinks.js"></script>
 
-  document.addEventListener('click', function(e) {
-    var hs = document.getElementById('header-search');
-    var overlay = document.getElementById('search-overlay');
-    if (hs && overlay && !hs.contains(e.target) && !overlay.contains(e.target)) {
-      overlay.classList.remove('active');
-      var inp = document.getElementById('header-search-input');
-      if (inp) { inp.style.width = '0'; inp.style.opacity = '0'; inp.style.padding = '0'; inp.value = ''; }
-      window._searchQuery = '';
-    }
-  });
-
-
   <script>
   document.addEventListener('click', function(e) {
     var hs = document.getElementById('header-search');
