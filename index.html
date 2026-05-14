@@ -170,8 +170,8 @@
     #cookie-banner p{margin:0;flex:1;line-height:1.5}
     #cookie-banner a{color:var(--green)}
     #cookie-accept{background:var(--green);color:#111;border:none;border-radius:6px;padding:.5rem 1.1rem;font-weight:900;font-size:.82rem;font-family:var(--font-condensed);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
-    @media(max-width:768px){.top-pick__card{grid-template-columns:1fr}.top-pick__body{padding:1.25rem}.releases-grid{grid-template-columns:1fr 1fr;gap:.75rem}.drop-card__title{font-size:.9rem}.drop-card__body{padding:.75rem}.hero__ctas{flex-direction:column;align-items:stretch}.btn-primary,.btn-secondary{justify-content:center}.float-tg{bottom:80px;right:12px;font-size:.8rem;padding:.65rem .9rem}.sticky-tg__text{font-size:.78rem}}
-    @media(max-width:400px){.releases-grid{grid-template-columns:1fr}}
+    @media(max-width:768px){.top-pick__card{grid-template-columns:1fr}.top-pick__img-wrap{max-height:260px;overflow:hidden}.top-pick__body{padding:1.25rem}.releases-grid{grid-template-columns:1fr 1fr;gap:.75rem}.drop-card__title{font-size:.9rem}.drop-card__body{padding:.75rem}.hero__ctas{flex-direction:column;align-items:stretch}.btn-primary,.btn-secondary{justify-content:center}.float-tg{bottom:80px;right:12px;font-size:.8rem;padding:.65rem .9rem}.sticky-tg__text{font-size:.78rem}}
+    @media(max-width:400px){.releases-grid{grid-template-columns:1fr 1fr;gap:.5rem}}
   
     /* Section drops semaine */
     .weekly-card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
@@ -186,7 +186,7 @@
   
     /* Section paires cotées */
     .hype-section{padding:3.5rem 0;border-top:1px solid var(--border)}
-    .hype-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem;margin-top:1.5rem}
+    .hype-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1rem;margin-top:1.5rem}
     .hype-card{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
     .hype-card:hover{border-color:var(--accent);transform:translateY(-4px)}
     .hype-card__img-wrap{position:relative;background:#fff}
@@ -240,6 +240,7 @@
     .raffle-card__meta{font-size:.8rem;color:var(--muted)}
     .raffle-card__btn{display:inline-block;background:var(--accent);color:#111;font-family:var(--font-condensed);font-size:.8rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:.55rem 1.2rem;border-radius:999px;text-decoration:none;align-self:flex-start}
     @media(max-width:500px){.raffle-card{flex-direction:column}.raffle-card__img{width:100%;height:180px}}
+    @media(max-width:768px){#raffle-grid{grid-template-columns:1fr 1fr;gap:.75rem}.drop-card__img-wrap img,.drop-card__img{height:140px}}
 
 </style>
   <script type="application/ld+json">
@@ -1635,8 +1636,8 @@ OCTYPE html>
     #cookie-banner p{margin:0;flex:1;line-height:1.5}
     #cookie-banner a{color:var(--green)}
     #cookie-accept{background:var(--green);color:#111;border:none;border-radius:6px;padding:.5rem 1.1rem;font-weight:900;font-size:.82rem;font-family:var(--font-condensed);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
-    @media(max-width:768px){.top-pick__card{grid-template-columns:1fr}.top-pick__body{padding:1.25rem}.releases-grid{grid-template-columns:1fr 1fr;gap:.75rem}.drop-card__title{font-size:.9rem}.drop-card__body{padding:.75rem}.hero__ctas{flex-direction:column;align-items:stretch}.btn-primary,.btn-secondary{justify-content:center}.float-tg{bottom:80px;right:12px;font-size:.8rem;padding:.65rem .9rem}.sticky-tg__text{font-size:.78rem}}
-    @media(max-width:400px){.releases-grid{grid-template-columns:1fr}}
+    @media(max-width:768px){.top-pick__card{grid-template-columns:1fr}.top-pick__img-wrap{max-height:260px;overflow:hidden}.top-pick__body{padding:1.25rem}.releases-grid{grid-template-columns:1fr 1fr;gap:.75rem}.drop-card__title{font-size:.9rem}.drop-card__body{padding:.75rem}.hero__ctas{flex-direction:column;align-items:stretch}.btn-primary,.btn-secondary{justify-content:center}.float-tg{bottom:80px;right:12px;font-size:.8rem;padding:.65rem .9rem}.sticky-tg__text{font-size:.78rem}}
+    @media(max-width:400px){.releases-grid{grid-template-columns:1fr 1fr;gap:.5rem}}
   
     /* Section drops semaine */
     .weekly-card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
@@ -1651,7 +1652,7 @@ OCTYPE html>
   
     /* Section paires cotées */
     .hype-section{padding:3.5rem 0;border-top:1px solid var(--border)}
-    .hype-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem;margin-top:1.5rem}
+    .hype-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1rem;margin-top:1.5rem}
     .hype-card{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
     .hype-card:hover{border-color:var(--accent);transform:translateY(-4px)}
     .hype-card__img-wrap{position:relative;background:#fff}
@@ -1705,6 +1706,7 @@ OCTYPE html>
     .raffle-card__meta{font-size:.8rem;color:var(--muted)}
     .raffle-card__btn{display:inline-block;background:var(--accent);color:#111;font-family:var(--font-condensed);font-size:.8rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:.55rem 1.2rem;border-radius:999px;text-decoration:none;align-self:flex-start}
     @media(max-width:500px){.raffle-card{flex-direction:column}.raffle-card__img{width:100%;height:180px}}
+    @media(max-width:768px){#raffle-grid{grid-template-columns:1fr 1fr;gap:.75rem}.drop-card__img-wrap img,.drop-card__img{height:140px}}
 
 </style>
   <script type="application/ld+json">
