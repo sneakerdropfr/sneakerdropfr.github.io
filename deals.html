@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSTN Deals — SneakerDropFR</title>
+  <meta name="description" content="Soldes, deals et catalogue BSTN sélectionnés — les meilleures paires sneakers chez BSTN." />
+  <link rel="canonical" href="https://sneakerdropfr.fr/deals.html" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="BSTN Deals — SneakerDropFR" />
+  <meta property="og:description" content="Soldes, deals et catalogue BSTN — les meilleures paires sélectionnées." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sneakerdropfr.fr/deals.html" />
+  <meta property="og:locale" content="fr_FR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700;900&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TQQ3RSJJV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1TQQ3RSJJV');
+    function trackBSTN(product) {
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'click_bstn', { event_category: 'outbound', event_label: product, value: 1 });
+      }
+      try {
+        var clicks = JSON.parse(localStorage.getItem('sdf_clicks') || '{}');
+        clicks[product] = (clicks[product] || 0) + 1;
+        localStorage.setItem('sdf_clicks', JSON.stringify(clicks));
+      } catch(e) {}
+    }
+  </script>
+  <style>
+    /* ── Reset & tokens ── */
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --accent:#E8FF00;
+      --pink:#FF2D6B;
+      --black:#0A0A0A;
+      --white:#FFFFFF;
+      --bg:#FFFFFF;
+      --bg-alt:#F5F5F5;
+      --text:#0A0A0A;
+      --muted:#777;
+      --border:#E5E5E5;
+      --shadow:0 2px 12px rgba(0,0,0,0.07);
+      --shadow-hover:0 8px 28px rgba(0,0,0,0.11);
+      --r:12px;
+      --font-display:'Bebas Neue',sans-serif;
+      --font-body:'Barlow',sans-serif;
+      --font-cond:'Barlow Condensed',sans-serif;
+      --section-gap:4.5rem;
+    }
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;display:block}
+    .container{max-width:1100px;margin:0 auto;padding:0 1.5rem}
+
+    /* ── Header ── */
+    .header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    .header__inner{display:flex;align-items:center;gap:.75rem;height:56px}
+    .logo{display:flex;align-items:center;gap:.45rem;font-family:var(--font-cond);font-size:1.15rem;font-weight:900;letter-spacing:.04em;color:var(--black);flex-shrink:0}
+    .logo__icon{width:30px;height:30px;background:var(--black);border-radius:5px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .logo__fr{opacity:.45}
+    .header__spacer{flex:1}
+    .hbtn{font-family:var(--font-cond);font-weight:900;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:.42rem .9rem;border-radius:6px;white-space:nowrap;transition:background .15s,color .15s,border-color .15s;cursor:pointer;display:inline-flex;align-items:center;gap:.3rem}
+    .hbtn--outline{background:transparent;color:var(--black);border:1px solid var(--border)}
+    .hbtn--outline:hover{border-color:var(--black);background:var(--black);color:#fff}
+
+    /* ── Hero ── */
+    .deals-hero{background:var(--bg);border-bottom:1px solid var(--border);padding:3rem 0 2.5rem;text-align:center}
+    .deals-hero__eyebrow{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-cond);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem}
+    .deals-hero__eyebrow-dot{width:6px;height:6px;background:var(--accent);border-radius:50%;display:inline-block;flex-shrink:0}
+    .deals-hero__title{font-family:var(--font-display);font-size:clamp(3rem,9vw,5.5rem);letter-spacing:.02em;text-transform:uppercase;line-height:.95;margin-bottom:.6rem}
+    .deals-hero__sub{color:var(--muted);font-size:.95rem;max-width:420px;margin:0 auto}
+
+    /* ── Section ── */
+    .section{padding:var(--section-gap) 0}
+    .section--alt{background:var(--bg-alt)}
+    .section-header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2rem;gap:1rem;flex-wrap:wrap}
+    .section-title{font-family:var(--font-display);font-size:clamp(1.9rem,5vw,2.8rem);letter-spacing:.03em;text-transform:uppercase;line-height:1}
+    .pill-aff{background:rgba(232,255,0,.18);border:1px solid rgba(0,0,0,.08);color:var(--black);font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:.26rem .7rem;border-radius:999px}
+
+    /* ── Cards grid ── */
+    .cards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem}
+    @media(max-width:900px){.cards-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:480px){.cards-grid{grid-template-columns:repeat(2,1fr);gap:.65rem}}
+
+    /* ── Drop card ── */
+    .drop-card{background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:border-color .2s,transform .2s,box-shadow .2s}
+    .drop-card:hover{border-color:var(--black);transform:translateY(-4px);box-shadow:var(--shadow-hover)}
+    .drop-card__img-wrap{position:relative;aspect-ratio:1;background:#F9F9F9;overflow:hidden;flex-shrink:0}
+    .drop-card__img{width:100%;height:100%;object-fit:contain;padding:.9rem;transition:transform .3s}
+    .drop-card:hover .drop-card__img{transform:scale(1.07)}
+    .drop-card__badge-top{position:absolute;top:.65rem;left:.65rem;font-family:var(--font-cond);font-size:.65rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:.18rem .55rem;border-radius:4px;z-index:1}
+    .badge-upcoming{background:var(--accent);color:var(--black)}
+    .badge-hype{background:var(--black);color:var(--accent)}
+    .drop-card__body{padding:.9rem;display:flex;flex-direction:column;gap:.28rem;flex:1}
+    .drop-card__brand{font-family:var(--font-cond);font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+    .drop-card__title{font-family:var(--font-cond);font-size:.95rem;font-weight:900;line-height:1.2;text-transform:uppercase;letter-spacing:.03em;color:var(--black)}
+    .drop-card__meta{display:flex;align-items:center;justify-content:space-between;margin-top:.15rem;gap:.4rem}
+    .drop-card__date{font-size:.74rem;color:var(--muted);font-family:var(--font-cond);font-weight:600}
+    .drop-card__price{font-family:var(--font-cond);font-size:1.15rem;font-weight:900;color:var(--black)}
+    .drop-card__resell{font-size:.68rem;font-weight:700;color:var(--muted);margin-top:.1rem}
+    .drop-card__resell::before{content:'↑ ';color:var(--black);opacity:.5}
+    .drop-card__stock{font-size:.68rem;color:var(--pink);font-family:var(--font-cond);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .drop-card__stock--upcoming{color:var(--muted)}
+    .drop-card__cta{margin-top:auto;padding-top:.65rem}
+    .btn-cop{display:block;width:100%;background:var(--black);color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.85rem;letter-spacing:.07em;text-transform:uppercase;padding:.62rem .9rem;border-radius:7px;border:none;cursor:pointer;text-align:center;transition:background .15s,color .15s}
+    .btn-cop:hover{background:var(--accent);color:var(--black)}
+    .btn-cop--alert{background:transparent;color:var(--black);border:1px solid var(--black)}
+    .btn-cop--alert:hover{background:var(--black);color:#fff}
+    .btn-buy-bstn{background:var(--black);color:#fff;font-size:.72rem;font-weight:900;padding:.32rem .68rem;border-radius:6px;text-transform:uppercase;letter-spacing:.05em;transition:background .15s,color .15s;white-space:nowrap}
+    .btn-buy-bstn:hover{background:var(--accent);color:var(--black)}
+    .bstn-price{color:var(--black);font-weight:900;font-size:1.05rem}
+    .btn-bstn-aff{display:inline-block;background:var(--black);color:#fff;font-size:.7rem;font-weight:900;text-transform:uppercase;letter-spacing:.06em;padding:.38rem .85rem;border-radius:6px;text-decoration:none;margin-top:.45rem;transition:background .15s,color .15s}
+    .btn-bstn-aff:hover{background:var(--accent);color:var(--black)}
+
+    /* ── BSTN tabs ── */
+    .bstn-tabs{display:flex;gap:0;border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:2rem;background:#fff;width:fit-content}
+    .bstn-tab{font-family:var(--font-cond);font-weight:900;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;padding:.6rem 1.4rem;cursor:pointer;transition:background .15s,color .15s;color:var(--muted);background:none;border:none;border-right:1px solid var(--border)}
+    .bstn-tab:last-child{border-right:none}
+    .bstn-tab:hover{color:var(--black);background:#F9F9F9}
+    .bstn-tab.active{background:var(--black);color:#fff}
+    .bstn-panel{display:none}
+    .bstn-panel.active{display:block}
+    #bstn-upcoming-section{} /* kept for JS */
+    #bstn-upcoming-grid{} /* kept for JS */
+
+    /* ── Footer ── */
+    .footer{padding:2rem 0;border-top:1px solid var(--border)}
+    .footer__inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+    .footer__social{display:flex;gap:.75rem;flex-wrap:wrap;align-items:center}
+    .social-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-cond);font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.45rem 1rem;border-radius:6px;border:1px solid var(--border);color:var(--black);transition:all .15s}
+    .social-btn:hover{background:var(--black);color:#fff;border-color:var(--black)}
+    .social-btn--tg:hover{background:#229ED9;border-color:#229ED9}
+    .footer__legal{font-size:.72rem;color:#bbb;width:100%;text-align:center;padding-top:.7rem;border-top:1px solid var(--border);margin-top:.7rem}
+    .footer__legal a{color:#bbb}
+
+    /* ── Cookie ── */
+    #cookie-banner{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--border);border-radius:12px;padding:.9rem 1.4rem;display:flex;align-items:center;gap:1.4rem;max-width:500px;width:calc(100% - 2rem);z-index:9999;box-shadow:0 8px 30px rgba(0,0,0,.09);font-size:.8rem;color:var(--muted)}
+    #cookie-banner p{margin:0;flex:1;line-height:1.5}
+    #cookie-banner a{color:var(--black);text-decoration:underline}
+    #cookie-accept{background:var(--black);color:#fff;border:none;border-radius:6px;padding:.46rem 1rem;font-weight:900;font-size:.8rem;font-family:var(--font-cond);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}
+    #cookie-accept:hover{background:var(--accent);color:var(--black)}
+
+    /* ── Mobile ── */
+    @media(max-width:768px){
+      :root{--section-gap:3rem}
+      .bstn-tabs{width:100%}
+      .bstn-tab{flex:1;text-align:center;padding:.55rem .8rem;font-size:.78rem}
+    }
+    @media(max-width:480px){
+      .drop-card__body{padding:.75rem}
+      .drop-card__title{font-size:.85rem}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo">
+        <div class="logo__icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 14c0-3 2-6 5-7.5L20 3l-3.5 12C15 18 12 20 9 20c-3.3 0-6-2.7-6-6z" fill="#E8FF00"/><circle cx="9" cy="14" r="2" fill="#0A0A0A"/></svg>
+        </div>
+        <span>SneakerDrop<span class="logo__fr">FR</span></span>
+      </a>
+      <div class="header__spacer"></div>
+      <a href="/" class="hbtn hbtn--outline">← Accueil</a>
+    </div>
+  </header>
+
+  <!-- ═══ HERO ═══ -->
+  <div class="deals-hero">
+    <div class="container">
+      <div class="deals-hero__eyebrow">
+        <span class="deals-hero__eyebrow-dot"></span>
+        Partenaire officiel BSTN
+      </div>
+      <h1 class="deals-hero__title">BSTN DEALS</h1>
+      <p class="deals-hero__sub">Soldes, deals et catalogue BSTN sélectionnés</p>
+    </div>
+  </div>
+
+  <!-- ═══ BSTN UNIFIÉ — 3 onglets ═══ -->
+  <section class="section section--alt" id="bstn-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">BSTN</h2>
+        <span class="pill-aff">Liens affiliés</span>
+      </div>
+
+      <!-- Tabs -->
+      <div class="bstn-tabs" role="tablist">
+        <button class="bstn-tab active" role="tab" id="tab-soldes" onclick="activateBstnTab('soldes')">🔥 Soldes</button>
+        <button class="bstn-tab" role="tab" id="tab-deals" onclick="activateBstnTab('deals')">💸 Deals</button>
+        <button class="bstn-tab" role="tab" id="tab-catalogue" onclick="activateBstnTab('catalogue')">👟 Catalogue</button>
+      </div>
+
+      <!-- Panel : Soldes (= drops BSTN à venir, section bstn-upcoming-section) -->
+      <div class="bstn-panel active" id="panel-soldes" role="tabpanel">
+        <p style="color:var(--muted);font-size:.84rem;margin-bottom:1.25rem" id="bstn-upcoming-count">Paires à venir sur BSTN — chargement...</p>
+        <!-- bstn-upcoming-section et bstn-upcoming-grid conservés pour le JS -->
+        <div id="bstn-upcoming-section" style="display:contents">
+          <div class="cards-grid" id="bstn-upcoming-grid">
+            <p style="color:var(--muted);text-align:center;padding:2rem;grid-column:1/-1">Chargement...</p>
+          </div>
+        </div>
+        <div style="text-align:right;margin-top:1rem">
+          <a href="https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fmen%2Fall-products%3Fcategories%3DUpcoming" target="_blank" rel="nofollow noopener" style="font-family:var(--font-cond);font-size:.78rem;font-weight:700;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;text-decoration:none;border:1px solid var(--border);padding:.3rem .75rem;border-radius:6px;transition:color .15s,border-color .15s" onmouseover="this.style.color='var(--black)';this.style.borderColor='var(--black)'" onmouseout="this.style.color='var(--muted)';this.style.borderColor='var(--border)'">Voir tout sur BSTN →</a>
+        </div>
+      </div>
+
+      <!-- Panel : Deals (bonnes affaires) -->
+      <div class="bstn-panel" id="panel-deals" role="tabpanel">
+        <div class="cards-grid">
+          <div class="drop-card">
+            <div class="drop-card__img-wrap"><img src="https://images2.productserve.com/?w=800&h=800&bg=white&trim=5&t=letterbox&url=ssl%3Aimg.bstn.com%2FeyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GRDIzMjYtODAwL0ZEMjMyNi04MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ%3D%3D&feedId=99343&k=2a5b0266ace3ddebd2683c251457a64b758db0a7" alt="Air Jordan Xxxviii Low" loading="lazy" onerror="this.style.display='none'"/></div>
+            <div class="drop-card__body">
+              <div class="drop-card__title">Air Jordan Xxxviii Low</div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:.4rem">
+                <span class="bstn-price">95.79€</span>
+                <a href="https://www.awin1.com/pclick.php?p=44675012808&a=2855487&m=104979" target="_blank" rel="nofollow noopener" class="btn-buy-bstn" onclick="trackBSTN('Air Jordan Xxxviii Low')">Acheter</a>
+              </div>
+            </div>
+          </div>
+          <div class="drop-card">
+            <div class="drop-card__img-wrap"><img src="https://images2.productserve.com/?w=800&h=800&bg=white&trim=5&t=letterbox&url=ssl%3Aimg.bstn.com%2FeyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GSjEyMTQtMTAxL0ZKMTIxNC0xMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ%3D%3D&feedId=104279&k=30ca266e5ced4f11c6528f078aa7b38aabde8abc" alt="Air Jordan Mule" loading="lazy" onerror="this.style.display='none'"/></div>
+            <div class="drop-card__body">
+              <div class="drop-card__title">Air Jordan Mule</div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:.4rem">
+                <span class="bstn-price">109.99€</span>
+                <a href="https://www.awin1.com/pclick.php?p=44480831728&a=2855487&m=104979" target="_blank" rel="nofollow noopener" class="btn-buy-bstn" onclick="trackBSTN('Air Jordan Mule')">Acheter</a>
+              </div>
+            </div>
+          </div>
+          <div class="drop-card">
+            <div class="drop-card__img-wrap"><img src="https://images2.productserve.com/?w=800&h=800&bg=white&trim=5&t=letterbox&url=ssl%3Aimg.bstn.com%2FeyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JRjQzOTEtMTAwL0lGNDM5MS0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ%3D%3D&feedId=104279&k=c6ca3df9faf54c3bddde549275145d4396988d74" alt="Air Jordan 1 Retro Low Og" loading="lazy" onerror="this.style.display='none'"/></div>
+            <div class="drop-card__body">
+              <div class="drop-card__title">Air Jordan 1 Retro Low Og</div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:.4rem">
+                <span class="bstn-price">159.99€</span>
+                <a href="https://www.awin1.com/pclick.php?p=44146437450&a=2855487&m=104979" target="_blank" rel="nofollow noopener" class="btn-buy-bstn" onclick="trackBSTN('Air Jordan 1 Retro Low Og')">Acheter</a>
+              </div>
+            </div>
+          </div>
+          <div class="drop-card">
+            <div class="drop-card__img-wrap"><img src="https://images2.productserve.com/?w=800&h=800&bg=white&trim=5&t=letterbox&url=ssl%3Aimg.bstn.com%2FeyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTY5OTgtNjAwL0hRNjk5OC02MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ%3D%3D&feedId=99343&k=6bb1c5936f6d4fd4cc01251d817402d7c05ea71d" alt="Air Jordan 1 Retro Low Og Chicago" loading="lazy" onerror="this.style.display='none'"/></div>
+            <div class="drop-card__body">
+              <div class="drop-card__title">Air Jordan 1 Retro Low Og "Chicago"</div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:.4rem">
+                <span class="bstn-price">159.99€</span>
+                <a href="https://www.awin1.com/pclick.php?p=43158915012&a=2855487&m=104979" target="_blank" rel="nofollow noopener" class="btn-buy-bstn" onclick="trackBSTN('Air Jordan 1 Retro Low Og Chi')">Acheter</a>
+              </div>
+            </div>
+          </div>
+          <div class="drop-card">
+            <div class="drop-card__img-wrap"><img src="https://images2.productserve.com/?w=800&h=800&bg=white&trim=5&t=letterbox&url=ssl%3Aimg.bstn.com%2FeyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTM0MTctNjAwL0lRMzQxNy02MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ%3D%3D&feedId=104279&k=1309ea44e5162a77cda94c83a1b5d638e5593841" alt="Air Jordan 1 Low G Spk" loading="lazy" onerror="this.style.display='none'"/></div>
+            <div class="drop-card__body">
+              <div class="drop-card__title">Air Jordan 1 Low G Spk</div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:.4rem">
+                <span class="bstn-price">169.99€</span>
+                <a href="https://www.awin1.com/pclick.php?p=44637470006&a=2855487&m=104979" target="_blank" rel="nofollow noopener" class="btn-buy-bstn" onclick="trackBSTN('Air Jordan 1 Low G Spk')">Acheter</a>
+              </div>
+            </div>
+          </div>
+          <div class="drop-card">
+            <div class="drop-card__img-wrap"><img src="https://images2.productserve.com/?w=800&h=800&bg=white&trim=5&t=letterbox&url=ssl%3Aimg.bstn.com%2FeyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9BSDc4NjAtMTAyL0FINzg2MC0xMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ%3D%3D&feedId=104279&k=e5d44d33a957c913a52b1c86590cc936dc5de912" alt="Wmns Air Jordan 11 Retro Low Mothers Day" loading="lazy" onerror="this.style.display='none'"/></div>
+            <div class="drop-card__body">
+              <div class="drop-card__title">Wmns AJ11 Retro Low 'Mothers Day'</div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:.4rem">
+                <span class="bstn-price">189.99€</span>
+                <a href="https://www.awin1.com/pclick.php?p=44701503092&a=2855487&m=104979" target="_blank" rel="nofollow noopener" class="btn-buy-bstn" onclick="trackBSTN('Wmns Air Jordan 11 Retro Low')">Acheter</a>
+              </div>
+            </div>
+          </div>
+          <div class="drop-card">
+            <div class="drop-card__img-wrap"><img src="https://images2.productserve.com/?w=800&h=800&bg=white&trim=5&t=letterbox&url=ssl%3Aimg.bstn.com%2FeyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTQwMDItMTAwL0lNNDAwMi0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ%3D%3D&feedId=104279&k=e556072684921123e48d97c8507190b8404d8906" alt="Air Jordan 4 Retro Flight Club" loading="lazy" onerror="this.style.display='none'"/></div>
+            <div class="drop-card__body">
+              <div class="drop-card__title">Air Jordan 4 Retro "Flight Club"</div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:.4rem">
+                <span class="bstn-price">199.99€</span>
+                <a href="https://www.awin1.com/pclick.php?p=43806187860&a=2855487&m=104979" target="_blank" rel="nofollow noopener" class="btn-buy-bstn" onclick="trackBSTN('Air Jordan 4 Retro Flight Club')">Acheter</a>
+              </div>
+            </div>
+          </div>
+          <div class="drop-card">
+            <div class="drop-card__img-wrap"><img src="https://images2.productserve.com/?w=800&h=800&bg=white&trim=5&t=letterbox&url=ssl%3Aimg.bstn.com%2FeyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTQwOTItMDAxL0lRNDA5Mi0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ%3D%3D&feedId=104279&k=b7772e56ad1c6daee5a89a342de6000d2f81566b" alt="Air Jordan 40 Asw" loading="lazy" onerror="this.style.display='none'"/></div>
+            <div class="drop-card__body">
+              <div class="drop-card__title">Air Jordan 40 Asw</div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:.4rem">
+                <span class="bstn-price">199.99€</span>
+                <a href="https://www.awin1.com/pclick.php?p=43955342515&a=2855487&m=104979" target="_blank" rel="nofollow noopener" class="btn-buy-bstn" onclick="trackBSTN('Air Jordan 40 Asw')">Acheter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel : Catalogue (paires hype cotées) -->
+      <div class="bstn-panel" id="panel-catalogue" role="tabpanel">
+        <div class="cards-grid">
+          <div class="drop-card" data-sku="IO7744-600" data-title="Air Jordan 3 Bin23">
+            <div class="drop-card__img-wrap">
+              <img src="https://sneakernews.com/wp-content/uploads/2025/07/air-jordan-3-bin23-io7744-600.jpg?w=1200" alt="Air Jordan 3 Bin23" class="drop-card__img" loading="lazy">
+              <div class="drop-card__badge-top badge-hype">GRAIL ×2.2</div>
+            </div>
+            <div class="drop-card__body">
+              <div class="drop-card__brand">Jordan Brand</div>
+              <div class="drop-card__title">Air Jordan 3 Bin23</div>
+              <div class="drop-card__meta"><span class="drop-card__date">13 juin 2026</span><span class="drop-card__price">350 €</span></div>
+              <div class="drop-card__resell">Resell ~800€</div>
+              <div class="drop-card__cta"><a href="https://sneakernews.com/2025/07/13/air-jordan-3-bin23-io7744-600/" target="_blank" rel="noopener" class="btn-cop btn-cop--alert">Voir le drop</a></div>
+            </div>
+          </div>
+          <div class="drop-card" data-sku="IQ7604-101" data-title="Travis Scott x AJ1 Low Pink Pack">
+            <div class="drop-card__img-wrap">
+              <img src="https://statics.whentocop.fr/media/oyfz5grY3Em4/tmptravis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101-2000x2000.webp?width=750&quality=75&format=auto" alt="Travis Scott x AJ1 Low Pink Pack" class="drop-card__img" loading="lazy">
+              <div class="drop-card__badge-top badge-hype">HYPE ×3.2</div>
+            </div>
+            <div class="drop-card__body">
+              <div class="drop-card__brand">Jordan Brand</div>
+              <div class="drop-card__title">Travis Scott x AJ1 Low Pink Pack</div>
+              <div class="drop-card__meta"><span class="drop-card__date">29 mai 2026</span><span class="drop-card__price">160 €</span></div>
+              <div class="drop-card__resell">Resell ~500€</div>
+              <div class="drop-card__cta"><a href="https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101" target="_blank" rel="noopener" class="btn-cop btn-cop--alert">Voir le drop</a></div>
+            </div>
+          </div>
+          <div class="drop-card" data-sku="IQ8055-100" data-title="Nigel Sylvester x AJ4 Brick After Brick">
+            <div class="drop-card__img-wrap">
+              <img src="https://sneakerbardetroit.com/wp-content/uploads/2026/03/nigel-sylvester-air-jordan-4-brick-after-brick-1068x757.webp" alt="Nigel Sylvester x AJ4 Brick After Brick" class="drop-card__img" loading="lazy">
+              <div class="drop-card__badge-top badge-hype">COLLAB ×1.5</div>
+            </div>
+            <div class="drop-card__body">
+              <div class="drop-card__brand">Jordan Brand</div>
+              <div class="drop-card__title">Nigel Sylvester x AJ4 Brick After Brick</div>
+              <div class="drop-card__meta"><span class="drop-card__date">22 mai 2026</span><span class="drop-card__price">230 €</span></div>
+              <div class="drop-card__resell">Resell ~348€</div>
+              <div class="drop-card__cta"><a href="https://sneakerbardetroit.com/nigel-sylvester-air-jordan-4-brick-after-brick/" target="_blank" rel="noopener" class="btn-cop btn-cop--alert">Voir le drop</a></div>
+            </div>
+          </div>
+          <div class="drop-card" data-sku="IM1980-400" data-title="Kobe x Nike AF1 Low Protro Denim">
+            <div class="drop-card__img-wrap">
+              <img src="https://sneakernews.com/wp-content/uploads/2025/08/kobe-bryant-nike-air-force-1-protro-denim-IM1980-400.jpg?w=1200" alt="Kobe x Nike AF1 Low Protro Denim" class="drop-card__img" loading="lazy">
+              <div class="drop-card__badge-top badge-hype">KOBE ×1.3</div>
+            </div>
+            <div class="drop-card__body">
+              <div class="drop-card__brand">Nike</div>
+              <div class="drop-card__title">Kobe x AF1 Low Protro Denim</div>
+              <div class="drop-card__meta"><span class="drop-card__date">22 mai 2026</span><span class="drop-card__price">150 €</span></div>
+              <div class="drop-card__resell">Resell ~194€</div>
+              <div class="drop-card__cta"><a href="https://sneakernews.com/2025/08/26/kobe-bryant-nike-air-force-1-protro-denim-im1980-400/" target="_blank" rel="noopener" class="btn-cop btn-cop--alert">Voir le drop</a></div>
+            </div>
+          </div>
+          <div class="drop-card" data-sku="KI7916" data-title="Bad Bunny x Adidas Ballerina Flamboyan">
+            <div class="drop-card__img-wrap">
+              <img src="https://sneakernews.com/wp-content/uploads/2026/01/bad-bunny-adidas-ballerina-flamboyan-red-ki7916-4.jpg" alt="Bad Bunny x Adidas Ballerina Flamboyan" class="drop-card__img" loading="lazy">
+              <div class="drop-card__badge-top badge-hype">COLLAB ×2.3</div>
+            </div>
+            <div class="drop-card__body">
+              <div class="drop-card__brand">Adidas</div>
+              <div class="drop-card__title">Bad Bunny x Adidas Ballerina Flamboyan</div>
+              <div class="drop-card__meta"><span class="drop-card__date">15 mai 2026</span><span class="drop-card__price">120 €</span></div>
+              <div class="drop-card__resell">Resell ~280€</div>
+              <div class="drop-card__cta"><a href="https://www.whentocop.fr/drops/bad-bunny-adidas-ballerina-flamboyan-ki7916" target="_blank" rel="noopener" class="btn-cop btn-cop--alert">Voir le drop</a></div>
+            </div>
+          </div>
+          <div class="drop-card" data-sku="CT8013-003" data-title="Air Jordan 12 Bloodline">
+            <div class="drop-card__img-wrap">
+              <img src="https://app.kicksonfire.com/kofapp/upload/events_master_images/ipad_air-jordan-12-bloodline.png" alt="Air Jordan 12 Bloodline" class="drop-card__img" loading="lazy">
+              <div class="drop-card__badge-top badge-hype">RETRO ×1.3</div>
+            </div>
+            <div class="drop-card__body">
+              <div class="drop-card__brand">Jordan Brand</div>
+              <div class="drop-card__title">Air Jordan 12 Bloodline</div>
+              <div class="drop-card__meta"><span class="drop-card__date">23 mai 2026</span><span class="drop-card__price">205 €</span></div>
+              <div class="drop-card__resell">Resell ~250€</div>
+              <div class="drop-card__cta"><a href="https://www.kicksonfire.com/air-jordan-12-bloodline" target="_blank" rel="noopener" class="btn-cop btn-cop--alert">Voir le drop</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="/" class="logo">
+          <div class="logo__icon" style="width:26px;height:26px">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 14c0-3 2-6 5-7.5L20 3l-3.5 12C15 18 12 20 9 20c-3.3 0-6-2.7-6-6z" fill="#E8FF00"/><circle cx="9" cy="14" r="2" fill="#0A0A0A"/></svg>
+          </div>
+          <span style="font-size:1rem">SneakerDrop<span class="logo__fr">FR</span></span>
+        </a>
+        <div class="footer__social">
+          <a href="https://www.tiktok.com/@sneakerdropfr" target="_blank" rel="noopener" class="social-btn social-btn--tiktok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.75a8.16 8.16 0 004.77 1.52V6.82a4.85 4.85 0 01-1-.13z"/></svg>
+            TikTok
+          </a>
+          <a href="https://www.instagram.com/sneakerdropfr/" target="_blank" rel="noopener" class="social-btn social-btn--insta">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            Instagram
+          </a>
+          <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="social-btn social-btn--tg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.14 13.745l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.834.814h-.826z"/></svg>
+            Telegram
+          </a>
+        </div>
+      </div>
+      <div class="footer__legal">© 2026 SneakerDropFR — <a href="/privacy.html">Politique de confidentialité</a> — <a href="/sitemap.xml">Sitemap</a></div>
+    </div>
+  </footer>
+
+  <div id="cookie-banner">
+    <p>Ce site utilise Google Analytics pour mesurer l'audience. <a href="/privacy.html">En savoir plus</a>.</p>
+    <button id="cookie-accept">J'accepte</button>
+  </div>
+
+  <!-- Tab switcher for BSTN section -->
+  <script>
+  function activateBstnTab(name) {
+    document.querySelectorAll('.bstn-tab').forEach(function(t) { t.classList.remove('active'); });
+    var tabEl = document.getElementById('tab-' + name);
+    if (tabEl) tabEl.classList.add('active');
+    document.querySelectorAll('.bstn-panel').forEach(function(p) { p.classList.remove('active'); });
+    var panelEl = document.getElementById('panel-' + name);
+    if (panelEl) panelEl.classList.add('active');
+  }
+  </script>
+
+  <!-- Cookie -->
+  <script>
+  (function(){
+    if(localStorage.getItem('cookie-ok')){var b=document.getElementById('cookie-banner');if(b)b.style.display='none';return;}
+    document.addEventListener('DOMContentLoaded',function(){
+      var b=document.getElementById('cookie-banner');
+      var btn=document.getElementById('cookie-accept');
+      if(btn)btn.addEventListener('click',function(){localStorage.setItem('cookie-ok','1');b.style.display='none';});
+    });
+  })();
+  </script>
+
+  <!-- BSTN live check (catalogue SKU injection) -->
+  <script>
+  var BSTN_AWIN_MID = '104979';
+  var BSTN_AWIN_AFF = '2855487';
+  var BSTN_API_URL  = 'https://searcht.bstn.com/collections/magento2_eu_products/documents/search';
+  var BSTN_API_KEY  = 'NCZstZEMLnMy4MSLPh9NKNrtMLsEF1Zy';
+  var BSTN_SITE     = 'https://www.bstn.com/';
+  var _bstnCache    = {};
+  function bstnAwinUrl(productPath) {
+    return 'https://www.awin1.com/cread.php?awinmid=' + BSTN_AWIN_MID + '&awinaffid=' + BSTN_AWIN_AFF + '&p=' + encodeURIComponent(BSTN_SITE + productPath);
+  }
+  function bstnCheckSku(sku, cb) {
+    if (!sku) return;
+    var skuKey = sku.toLowerCase();
+    if (_bstnCache[skuKey] !== undefined) { if (_bstnCache[skuKey]) cb(_bstnCache[skuKey]); return; }
+    var skuNorm = skuKey.replace(/-/g, '');
+    var q = skuKey.replace(/-/g, ' ');
+    var url = BSTN_API_URL + '?q=' + encodeURIComponent(q) + '&query_by=name&per_page=5&filter_by=price%3A%3E0';
+    fetch(url, { headers: { 'X-TYPESENSE-API-KEY': BSTN_API_KEY } })
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var hits = data.hits || [];
+        for (var i = 0; i < hits.length; i++) {
+          var doc = hits[i].document;
+          var docUrl = (doc.url || '').toLowerCase();
+          if (docUrl.indexOf(skuNorm) !== -1) {
+            var awinUrl = bstnAwinUrl(doc.url);
+            _bstnCache[skuKey] = awinUrl; cb(awinUrl); return;
+          }
+        }
+        _bstnCache[skuKey] = null;
+      }).catch(function() { _bstnCache[skuKey] = null; });
+  }
+  function bstnInjectBtn(container, awinUrl, label) {
+    if (!container || container.querySelector('.btn-bstn-aff')) return;
+    var btn = document.createElement('a');
+    btn.href = awinUrl; btn.target = '_blank'; btn.rel = 'noopener sponsored';
+    btn.className = 'btn-bstn-aff'; btn.textContent = label || 'Acheter sur BSTN';
+    btn.onclick = function() { trackBSTN(container.closest('[data-title]') ? container.closest('[data-title]').getAttribute('data-title') : 'bstn'); };
+    container.appendChild(btn);
+  }
+  // Section catalogue (static hype cards)
+  (function() {
+    document.querySelectorAll('#panel-catalogue .drop-card[data-sku]').forEach(function(card) {
+      var sku = card.getAttribute('data-sku');
+      var cta = card.querySelector('.drop-card__cta');
+      bstnCheckSku(sku, function(url) { bstnInjectBtn(cta, url, 'Acheter sur BSTN'); });
+    });
+  })();
+  </script>
+
+  <!-- Drops BSTN à venir (panel Soldes) -->
+  <script>
+  (function() {
+    var MONTHS_FR = ['','jan','fév','mar','avr','mai','juin','juil','août','sep','oct','nov','déc'];
+    function formatDateFr(d) {
+      if (!d) return '';
+      var parts = d.split('-');
+      if (parts.length === 3) { var m = parseInt(parts[1]); return parseInt(parts[2]) + ' ' + (MONTHS_FR[m] || ''); }
+      return d;
+    }
+    function safeTitle(t) { return (t || '').replace(/'/g, "\\'").replace(/"/g, '&quot;'); }
+    function buildBstnCard(p) {
+      var nom = p.nom || '';
+      var marque = p.marque || '';
+      var prix = p.prix || '';
+      var img = p.image_url || '';
+      var aff = p.lien_affilie || p.lien_produit || '';
+      var dateFr = formatDateFr(p.date || '');
+      var couleur = p.couleur || '';
+      var nomDisplay = nom;
+      if (couleur && nom.toLowerCase().indexOf(couleur.toLowerCase()) === -1) nomDisplay = nom + ' (' + couleur + ')';
+      return '<div class="drop-card">'
+        + '<div class="drop-card__img-wrap">'
+        + (img ? '<img src="' + img + '" alt="' + nom.replace(/"/g,'') + '" loading="lazy" style="width:100%;height:100%;object-fit:contain;background:#F9F9F9">' : '')
+        + '<div class="drop-card__badge-top badge-upcoming">BSTN à venir</div>'
+        + '</div>'
+        + '<div class="drop-card__body">'
+        + '<div class="drop-card__brand">' + marque.toUpperCase() + '</div>'
+        + '<div class="drop-card__title">' + nomDisplay + '</div>'
+        + '<div class="drop-card__meta">'
+        + '<span class="drop-card__price">' + prix + '</span>'
+        + (dateFr ? '<span class="drop-card__stock drop-card__stock--upcoming">Drop ' + dateFr + '</span>' : '')
+        + '</div>'
+        + (aff ? '<div class="drop-card__cta"><a href="' + aff + '" target="_blank" rel="nofollow noopener" class="btn-cop">Voir sur BSTN</a></div>' : '')
+        + '</div>'
+        + '</div>';
+    }
+    fetch('/bstn_upcoming.json?t=' + Date.now())
+      .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function(products) {
+        var _n = new Date();
+        var today = _n.getFullYear() + '-' + String(_n.getMonth()+1).padStart(2,'0') + '-' + String(_n.getDate()).padStart(2,'0');
+        var upcoming = products.filter(function(p) { return !p.date || p.date > today; });
+        var grid = document.getElementById('bstn-upcoming-grid');
+        var count = document.getElementById('bstn-upcoming-count');
+        if (count) count.textContent = 'Paires à venir sur BSTN — ' + upcoming.length + ' drops confirmés';
+        if (grid) grid.innerHTML = upcoming.length ? upcoming.map(buildBstnCard).join('') : '<p style="color:var(--muted);text-align:center;padding:2rem;grid-column:1/-1">Aucun drop à venir</p>';
+      })
+      .catch(function(e) {
+        fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/bstn_upcoming.json?t=' + Date.now())
+          .then(function(r) { return r.json(); })
+          .then(function(products) {
+            var today = new Date().toISOString().substring(0,10);
+            var upcoming = products.filter(function(p) { return !p.date || p.date >= today; });
+            var grid = document.getElementById('bstn-upcoming-grid');
+            var count = document.getElementById('bstn-upcoming-count');
+            if (count) count.textContent = 'Paires à venir sur BSTN — ' + upcoming.length + ' drops confirmés';
+            if (grid) grid.innerHTML = upcoming.length ? upcoming.map(buildBstnCard).join('') : '<p style="color:var(--muted);text-align:center;padding:2rem;grid-column:1/-1">Aucun drop à venir</p>';
+          })
+          .catch(function() {
+            var grid = document.getElementById('bstn-upcoming-grid');
+            if (grid) grid.innerHTML = '<p style="color:var(--muted);text-align:center;padding:2rem;grid-column:1/-1">Données non disponibles</p>';
+          });
+      });
+  })();
+  </script>
+
+<script type="text/javascript" src="https://s.skimresources.com/js/302926X179095.skimlinks.js"></script>
+</body>
+</html>
