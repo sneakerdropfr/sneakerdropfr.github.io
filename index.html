@@ -885,7 +885,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
               var key = (rel.title || '').toLowerCase().trim();
               if (key) relIdx[key] = rel;
             });
-            function normTitle(t) { return (t||'').toLowerCase().trim(); }
+            function normTitle(t) { return (t||'').toLowerCase().trim().replace(/[\u2018\u2019\u201c\u201d\u00ab\u00bb]/g,"'"); }
 
             allWdrops = (wd.releases || []).map(function(r) {
               var dparts = (r.date||'').split('/');
