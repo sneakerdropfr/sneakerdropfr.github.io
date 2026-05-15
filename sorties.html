@@ -183,16 +183,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     </div>
   </header>
 
-  <!-- RAFFLE (compact) -->
-  <div id="raffle-section" style="display:none">
-    <div class="container" style="padding-top:1.5rem">
-      <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap">
-        <span style="font-family:var(--font-cond);font-size:.72rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)">Raffle actif :</span>
-        <div id="raffle-grid" style="display:none"></div>
-        <div id="raffle-compact"></div>
-      </div>
-    </div>
-  </div>
+  <!-- IDs cachés pour compat JS raffle -->
+  <div id="raffle-section" style="display:none"><div id="raffle-grid" style="display:none"></div><div id="raffle-compact"></div></div>
 
   <!-- PROCHAINES SORTIES -->
   <section class="section" id="releases">
