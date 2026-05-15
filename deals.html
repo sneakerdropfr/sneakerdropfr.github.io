@@ -202,7 +202,7 @@
       <div class="bstn-tabs" role="tablist">
         <button class="bstn-tab active" role="tab" id="tab-soldes" onclick="activateBstnTab('soldes')">⏳ Coming Soon</button>
         <button class="bstn-tab" role="tab" id="tab-deals" onclick="activateBstnTab('deals')">💸 Deals</button>
-        <button class="bstn-tab" role="tab" id="tab-catalogue" onclick="activateBstnTab('catalogue')">👟 Catalogue</button>
+        <button class="bstn-tab" role="tab" id="tab-catalogue" onclick="activateBstnTab('catalogue')">🔥 Hype Picks</button>
       </div>
 
       <!-- Panel : Soldes (= drops BSTN à venir, section bstn-upcoming-section) -->
@@ -435,7 +435,14 @@
     document.querySelectorAll('.bstn-panel').forEach(function(p) { p.classList.remove('active'); });
     var panelEl = document.getElementById('panel-' + name);
     if (panelEl) panelEl.classList.add('active');
+    history.replaceState(null, '', '#' + name);
   }
+  // Activer l'onglet via le hash URL
+  (function() {
+    var hash = window.location.hash.replace('#', '');
+    if (hash === 'hype-picks' || hash === 'catalogue') activateBstnTab('catalogue');
+    else if (hash === 'deals') activateBstnTab('deals');
+  })();
   </script>
 
   <!-- Cookie -->
