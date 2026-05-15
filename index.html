@@ -772,8 +772,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
                 date: isoDate,
                 price: r.price || '',
                 image_url: r.image || r.image_url || '',
-                wtc_url: r.wtc_url || '',
-                buy_url: r.buy_url || '',
+                wtc_url: r.wtc_url || r.link || '',
+                buy_url: r.buy_url || r.buy_link || '',
                 id: r.id || '',
                 resell: r.resell || '',
                 stock: r.stock || ''
