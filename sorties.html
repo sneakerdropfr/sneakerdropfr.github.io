@@ -345,7 +345,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             '<span class="drop-card__date">📅 '+formatDate(r.date)+'</span>'+
             '<span class="drop-card__price">'+formatPrice(r.price)+'</span>'+
           '</div>'+
-          (r.resell?'<div class="drop-card__resell">Resell ~'+formatPrice(r.resell)+'</div>':'')+
+
           '<div class="'+urgencyClass+'">'+urgency+'</div>'+
           '<div class="drop-card__cta">'+makeBtn(r,false)+'</div>'+
         '</div>'+
