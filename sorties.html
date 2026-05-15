@@ -120,6 +120,16 @@
     .btn-cop--alert{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4)}
     .btn-cop--alert:hover{background:#fff;color:var(--black)}
     .btn-cop--sold,.btn-cop-big--sold{display:block;background:rgba(255,255,255,.08);color:rgba(255,255,255,.35);font-size:.78rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em;padding:.55rem .9rem;border-radius:7px;cursor:default;border:1px solid var(--border);text-align:center;width:100%}
+    .retailers-row{display:flex;flex-wrap:wrap;gap:.38rem;margin-top:.3rem}
+    .retailers-label{font-family:var(--font-cond);font-size:.63rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:.2rem;margin-top:.45rem}
+    .btn-retailer{display:inline-flex;align-items:center;gap:.3rem;font-family:var(--font-cond);font-size:.72rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;padding:.35rem .65rem;border-radius:6px;border:none;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s,transform .12s;text-decoration:none;line-height:1.2}
+    .btn-retailer:hover{transform:translateY(-1px)}
+    .btn-retailer--bstn{background:#0A0A0A;color:#fff;border:1px solid rgba(255,255,255,.15)}
+    .btn-retailer--bstn:hover{background:#E8FF00;color:#0A0A0A;border-color:#E8FF00}
+    .btn-retailer--nike{background:#111;color:#fff;border:1px solid rgba(255,255,255,.1)}
+    .btn-retailer--nike:hover{background:#E8FF00;color:#0A0A0A}
+    .btn-retailer--official{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.18)}
+    .btn-retailer--official:hover{background:rgba(255,255,255,.2)}
     .btn-bstn-aff{display:inline-block;background:var(--black);color:#fff;font-size:.7rem;font-weight:900;text-transform:uppercase;letter-spacing:.06em;padding:.38rem .85rem;border-radius:6px;text-decoration:none;margin-top:.45rem;transition:background .15s,color .15s}
     .btn-bstn-aff:hover{background:var(--accent);color:var(--black)}
     .releases-loading,.releases-empty{text-align:center;padding:3rem 1rem;color:var(--muted);font-family:var(--font-cond);font-size:.95rem}
@@ -294,6 +304,30 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     }
     function safeTitle(t){ return (t||'').replace(/'/g,"\\'").replace(/"/g,'&quot;'); }
 
+    var RESELL_RETAILERS = ['stockx','goat','klekt','limited resell'];
+    var NIKE_RETAILERS = ['nike','nike snkrs'];
+    function isRetailerBSTN(n){ return n.toLowerCase()==='bstn'; }
+    function isRetailerResell(n){ return RESELL_RETAILERS.indexOf(n.toLowerCase())!==-1; }
+    function isRetailerNike(n){ return NIKE_RETAILERS.indexOf(n.toLowerCase())!==-1; }
+    function makeRetailersRow(r, isBig) {
+      var rets = r.retailers;
+      if (!rets || !rets.length) return makeBtn(r, isBig);
+      var official = rets.filter(function(rt){ return !isRetailerResell(rt.name); });
+      var html = '';
+      if (official.length) {
+        html += '<div class="retailers-label">Acheter</div><div class="retailers-row">';
+        official.forEach(function(rt) {
+          var cls = isRetailerBSTN(rt.name) ? 'btn-retailer btn-retailer--bstn'
+                  : isRetailerNike(rt.name) ? 'btn-retailer btn-retailer--nike'
+                  : 'btn-retailer btn-retailer--official';
+          var icon = isRetailerBSTN(rt.name) ? '🛒 ' : isRetailerNike(rt.name) ? '✓ ' : '';
+          var priceStr = rt.price ? ' <span style="opacity:.6;font-size:.65rem">' + rt.price + '</span>' : '';
+          html += '<a href="' + rt.url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN(\'' + safeTitle(rt.name+' - '+(r.title||'')) + '\')">' + icon + escapeHtml(rt.name) + priceStr + '</a>';
+        });
+        html += '</div>';
+      }
+      return html || makeBtn(r, isBig);
+    }
     function makeBtn(r, isBig) {
       var released=isReleased(r.date);
       var hasAff=r.buy_url&&r.buy_url.indexOf('awin')!==-1;
@@ -347,7 +381,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           '</div>'+
 
           '<div class="'+urgencyClass+'">'+urgency+'</div>'+
-          '<div class="drop-card__cta">'+makeBtn(r,false)+'</div>'+
+          '<div class="drop-card__cta">'+makeRetailersRow(r,false)+'</div>'+
         '</div>'+
       '</article>';
     }
