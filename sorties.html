@@ -399,29 +399,6 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         allReleases=data.filter(function(r){ return r.id&&!r.id.startsWith('test-'); });
         window._releases=allReleases;
 
-        // Raffles
-        (function(){
-          var raffles=allReleases.filter(function(r){ return r.raffle===true; });
-          var section=document.getElementById('raffle-section');
-          var raffleGrid=document.getElementById('raffle-grid');
-          var compact=document.getElementById('raffle-compact');
-          if (!section||!raffles.length) return;
-          section.style.display='block';
-          if (raffleGrid) raffleGrid.innerHTML=raffles.map(function(r){
-            var dateStr='';
-            if (r.date&&r.date!=='TBD') { var p=r.date.split('-'); var d=new Date(parseInt(p[0]),parseInt(p[1])-1,parseInt(p[2])); dateStr='Drop le '+d.toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'}); }
-            return '<div class="raffle-card"><div class="raffle-card__img"><img src="'+(r.image_url||'')+'" alt="'+(r.title||'').replace(/"/g,'')+'" loading="lazy"></div><div class="raffle-card__body"><span class="raffle-card__badge">Raffle</span><div class="raffle-card__title">'+escapeHtml(r.title)+'</div><div class="raffle-card__meta">'+dateStr+'</div><a href="'+(r.raffle_url||'#')+'" target="_blank" rel="noopener" class="raffle-card__btn">Participer au raffle</a></div></div>';
-          }).join('');
-          if (compact) {
-            var r0=raffles[0];
-            var dateStr0='';
-            if (r0.date&&r0.date!=='TBD') { var p0=r0.date.split('-'); var d0=new Date(parseInt(p0[0]),parseInt(p0[1])-1,parseInt(p0[2])); dateStr0='Drop le '+d0.toLocaleDateString('fr-FR',{day:'numeric',month:'long'}); }
-            compact.innerHTML='<div class="raffle-single">'+(r0.image_url?'<div class="raffle-single__img"><img src="'+r0.image_url+'" alt="'+escapeHtml(r0.title)+'" loading="lazy"></div>':'')+
-              '<div class="raffle-single__body"><span class="raffle-single__badge">Raffle</span><div class="raffle-single__title">'+escapeHtml(r0.title)+'</div><div class="raffle-single__meta">'+dateStr0+'</div><a href="'+(r0.raffle_url||'#')+'" target="_blank" rel="noopener" class="raffle-single__btn">Participer</a></div></div>'+
-              (raffles.length>1?'<div class="raffle-more">+'+(raffles.length-1)+' autre'+(raffles.length>2?'s':'')+' raffle'+(raffles.length>2?'s':'')+'</div>':'');
-          }
-        })();
-
         if (!allReleases.length) { if (empty) empty.style.display='block'; return; }
         render();
       })
