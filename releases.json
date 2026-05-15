@@ -48,7 +48,19 @@
     "buy_url": null,
     "source": "Sneaker Files",
     "added_at": "2026-05-06T21:05:05.127361+00:00",
-    "wtc_url": null
+    "wtc_url": null,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "150€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": ""
+      }
+    ]
   },
   {
     "id": "nike-air-foamposite-one-mummy-releases-holiday-2026",
@@ -75,7 +87,19 @@
     "source": "Sneaker Files",
     "added_at": "2026-05-06T21:04:50.401377+00:00",
     "wtc_url": null,
-    "resell": 200
+    "resell": 200,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "139.99€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": ""
+      }
+    ]
   },
   {
     "id": "une-nouvelle-action-bronson-x-new-balance-1890-planet-frog-v",
@@ -102,7 +126,19 @@
     "source": "Sneaker Files",
     "added_at": "2026-05-05T20:50:34.341369+00:00",
     "wtc_url": null,
-    "resell": 160
+    "resell": 160,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "150€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": ""
+      }
+    ]
   },
   {
     "id": "air-jordan-3-brazil-releases-may-2026",
@@ -181,7 +217,19 @@
     "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/assets/images/aj3-worlds-best-dad.jpg",
     "buy_url": null,
     "in_stock": true,
-    "wtc_url": null
+    "wtc_url": null,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": ""
+      }
+    ]
   },
   {
     "id": "travis-scott-aj1-low-og-pink-pack-muslin",
@@ -224,7 +272,19 @@
     "source": "Sneaker Files",
     "added_at": "2026-05-06T21:05:00.008189+00:00",
     "wtc_url": null,
-    "resell": 250
+    "resell": 250,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "205€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": ""
+      }
+    ]
   },
   {
     "title": "Nike Air Max 90 Total 90 Laser",
