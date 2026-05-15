@@ -177,16 +177,16 @@
     .releases-loading,.releases-empty{text-align:center;padding:3rem 1rem;color:var(--muted);font-family:var(--font-cond);font-size:.95rem}
 
     /* ── Top pick ── */
-    .top-pick__card{background:#0A0A0A;border:none;border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;box-shadow:var(--shadow);position:relative;transition:box-shadow .2s}
+    .top-pick__card{background:#0A0A0A;border:none;border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;box-shadow:var(--shadow);position:relative;transition:box-shadow .2s;max-height:360px}
     .top-pick__card:hover{box-shadow:var(--shadow-hover)}
     .top-pick__tag{position:absolute;top:1rem;left:1rem;background:#fff;color:#0A0A0A;font-family:var(--font-cond);font-size:.72rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;padding:.28rem .75rem;border-radius:4px;z-index:2}
-    .top-pick__img-wrap{background:rgba(255,255,255,.06);aspect-ratio:1;overflow:hidden}
+    .top-pick__img-wrap{background:rgba(255,255,255,.06);aspect-ratio:1;overflow:hidden;max-height:360px}
     .top-pick__img{width:100%;height:100%;object-fit:contain;padding:2rem;transition:transform .4s}
     .top-pick__card:hover .top-pick__img{transform:scale(1.05)}
-    .top-pick__body{padding:2rem;display:flex;flex-direction:column;justify-content:center;gap:.85rem}
+    .top-pick__body{padding:1.25rem 1.5rem;display:flex;flex-direction:column;justify-content:center;gap:.6rem}
     .top-pick__brand{font-family:var(--font-cond);font-size:.75rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.5)}
-    .top-pick__title{font-family:var(--font-display);font-size:clamp(1.4rem,3vw,2.1rem);letter-spacing:.03em;text-transform:uppercase;line-height:1;color:#fff}
-    .top-pick__price{font-family:var(--font-display);font-size:2.4rem;color:#fff}
+    .top-pick__title{font-family:var(--font-display);font-size:clamp(1.1rem,2.2vw,1.6rem);letter-spacing:.03em;text-transform:uppercase;line-height:1.05;color:#fff}
+    .top-pick__price{font-family:var(--font-display);font-size:1.8rem;color:#fff}
     .top-pick__date{font-family:var(--font-cond);font-size:.88rem;color:rgba(255,255,255,.6);font-weight:600}
     .top-pick__resell{font-size:.82rem;font-weight:700;color:rgba(255,255,255,.6)}
     .top-pick__resell::before{content:'↑ ';color:#fff;opacity:.5}
@@ -196,19 +196,19 @@
 
     /* ── Raffle (compact: 1 card visible) ── */
     #raffle-section{background:var(--bg);padding:var(--section-gap) 0}
-    .raffle-single{display:flex;gap:0;background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);max-width:520px;margin:0 auto}
-    .raffle-single__img{width:140px;flex-shrink:0;background:#F9F9F9}
+    .raffle-single{display:flex;gap:0;background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);max-width:760px;margin:0 auto}
+    .raffle-single__img{width:200px;flex-shrink:0;background:#F9F9F9}
     .raffle-single__img img{width:100%;height:100%;object-fit:cover;display:block}
-    .raffle-single__body{padding:1.1rem 1.3rem;display:flex;flex-direction:column;justify-content:space-between;gap:.65rem;flex:1}
+    .raffle-single__body{padding:1.5rem 1.8rem;display:flex;flex-direction:column;justify-content:space-between;gap:.75rem;flex:1}
     .raffle-single__badge{display:inline-block;background:#0A0A0A;color:#fff;font-size:.62rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;padding:.22rem .6rem;border-radius:999px;align-self:flex-start}
-    .raffle-single__title{font-family:var(--font-cond);font-size:1rem;font-weight:900;color:var(--black);line-height:1.2}
+    .raffle-single__title{font-family:var(--font-cond);font-size:1.25rem;font-weight:900;color:var(--black);line-height:1.2}
     .raffle-single__meta{font-size:.78rem;color:var(--muted)}
     .raffle-single__btn{display:inline-block;background:var(--black);color:#fff;font-family:var(--font-cond);font-size:.78rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:.5rem 1.1rem;border-radius:999px;text-decoration:none;align-self:flex-start;transition:background .15s,color .15s}
     .raffle-single__btn:hover{background:var(--accent);color:var(--black)}
     .raffle-more{font-family:var(--font-cond);font-size:.78rem;font-weight:700;color:var(--muted);margin-top:.5rem;letter-spacing:.04em}
     /* Keep raffle-grid for JS compat — hidden by default */
     #raffle-grid{display:none}
-    @media(max-width:500px){.raffle-single{flex-direction:column}.raffle-single__img{width:100%;height:160px}}
+    @media(max-width:600px){.raffle-single{flex-direction:column}.raffle-single__img{width:100%;height:200px}}
 
     /* ── Filters ── */
     .filters{display:flex;gap:.45rem;flex-wrap:wrap;margin-bottom:1.75rem}
