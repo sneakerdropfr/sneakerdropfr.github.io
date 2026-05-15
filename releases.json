@@ -115,7 +115,34 @@
     "buy_url": null,
     "source": "Sneaker Files",
     "added_at": "2026-05-05T19:46:44.037947+00:00",
-    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-og-brazil-iv4871-400"
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-jordan-3-retro-og-brazil-iv4871-400",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "225€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr/products/air-jordan-3-retro-og-brazil-iv4871-400",
+        "price": "225€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.snipes.com",
+        "price": "225€"
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://noirfonce.eu/products/air-jordan-3-retro-og-brazil-iv4871-400",
+        "price": "230€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-3-retro-brazil",
+        "price": "302€"
+      }
+    ]
   },
   {
     "id": "bad-bunny-adidas-ballerina-flamboyan-2026",
@@ -130,7 +157,19 @@
     "wtc_url": "https://www.whentocop.fr/drops/bad-bunny-adidas-ballerina-flamboyan-ki7916",
     "resell": 280,
     "raffle": true,
-    "raffle_url": "https://www.adidas.fr/confirmed"
+    "raffle_url": "https://www.adidas.fr/confirmed",
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "120€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-ballerina-bad-bunny-flamboyan",
+        "price": "183€"
+      }
+    ]
   },
   {
     "id": "aj3-worlds-best-dad-2026",
@@ -154,7 +193,24 @@
     "image_url": "https://cdn.sanity.io/images/pu5wtzfc/production/898a94217b12e05514c2566f038412cfe2f45798-1080x1080.jpg/travis-scott-air-jordan-1-low-og-shy-pink-sail-muslin-release-date-iq7604-100.jpg",
     "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com",
     "in_stock": true,
-    "wtc_url": "https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101"
+    "wtc_url": "https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "160€"
+      },
+      {
+        "name": "Travis Scott",
+        "url": "https://www.travisscott.com",
+        "price": "160€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-sp-travis-scott-sail-tropical-pink",
+        "price": "488€"
+      }
+    ]
   },
   {
     "id": "air-jordan-12-bloodline-releases-may-2026",
@@ -177,7 +233,44 @@
     "price": "150€",
     "image_url": "https://statics.whentocop.fr/media/OHtGYn3O4ijf/tmpnike-air-max-90-zest-black-fire-red-hj0624-758-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-total-90-laser-hj0624-758",
-    "id": "nike-air-max-90-total-90-laser"
+    "id": "nike-air-max-90-total-90-laser",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "150€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-90-hj0624-758-0350328",
+        "price": "150€"
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr",
+        "price": "150€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr",
+        "price": "150€"
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstar.fr",
+        "price": "150€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-max-90-zest-t90-laser",
+        "price": "157€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/nike-air-max-90-total-90-laser-hj0624-758",
+        "price": "170€"
+      }
+    ]
   },
   {
     "title": "Nike Air Max 90 Hypervenom",
@@ -186,7 +279,64 @@
     "price": "150€",
     "image_url": "https://statics.whentocop.fr/media/3rE2TwILZotv/tmpnike-air-max-90-hypervenom-ir1978-844-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-hypervenom-ir1978-844",
-    "id": "nike-air-max-90-hypervenom"
+    "id": "nike-air-max-90-hypervenom",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "150€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-air-max-90-ir1978-844-0350329",
+        "price": "150€"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "150€"
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr",
+        "price": "150€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr/products/nike-air-max-90-hypervenom-phantom-ir1978-844",
+        "price": "150€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "150€"
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstar.fr",
+        "price": "150€"
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://noirfonce.eu/products/nike-air-max-90-ir1978-844",
+        "price": "150€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-max-90-bright-citrus-hypervenom",
+        "price": "140€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/nike-air-max-90-bright-citrus-hypervenom-ir1978-844",
+        "price": "114€"
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-air-max-90-bright-citrus-hypervenom-mad-90-pack-2026",
+        "price": "210€"
+      }
+    ]
   },
   {
     "title": "Nike Air Max 90 Mercurial Korea Family Reunion",
@@ -196,7 +346,59 @@
     "image_url": "https://statics.whentocop.fr/media/5S6Pvl3S4rFx/tmpnike-air-max-90-korea-family-reunion-ir5903-010-1-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-mercurial-korea-family-reunion-ir5903-010",
     "id": "nike-air-max-90-mercurial-korea-family-reunion",
-    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-90-se-ir5903-010-0350330"
+    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-90-se-ir5903-010-0350330",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "150€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr",
+        "price": "150€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr",
+        "price": "150€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "150€"
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstar.fr",
+        "price": "150€"
+      },
+      {
+        "name": "Courir",
+        "url": "https://www.courir.com",
+        "price": "150€"
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://noirfonce.eu/products/nike-air-max-90-se-ir5903-010",
+        "price": "150€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-max-90-dark-cinder-mercurial-vapor-1",
+        "price": "161€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/nike-air-max-90-korea-family-reunion-ir5903-010",
+        "price": "170€"
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-air-max-90-mercurial-mad-90-pack-2026",
+        "price": "215€"
+      }
+    ]
   },
   {
     "title": "Air Jordan 1 Low OG Banned",
@@ -206,7 +408,94 @@
     "image_url": "https://statics.whentocop.fr/media/cU0tOTO1Flnu/tmpair-jordan-1-low-og-black-red-iw6276-001-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-low-og-black-red-banned-iw6276-001",
     "id": "air-jordan-1-low-og-banned",
-    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fjordan-air-jordan-1-retro-low-og-banned-iw6276-001-0350735"
+    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fjordan-air-jordan-1-retro-low-og-banned-iw6276-001-0350735",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "160€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fjordan-air-jordan-1-retro-low-og-banned-iw6276-001-0350735",
+        "price": "160€"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "160€"
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr",
+        "price": "160€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr/products/air-jordan-1-retro-low-og-banned-iw6276-001",
+        "price": "160€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "160€"
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.slamjam.com",
+        "price": "160€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk",
+        "price": "160€"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "160€"
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.solebox.com",
+        "price": "160€"
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstar.fr",
+        "price": "160€"
+      },
+      {
+        "name": "Naked",
+        "url": "https://www.nakedcph.com",
+        "price": "160€"
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "160€"
+      },
+      {
+        "name": "Sevenstore",
+        "url": "https://www.sevenstore.com",
+        "price": "160€"
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://noirfonce.eu/products/air-jordan-1-retro-low-og-iw6276-001",
+        "price": "160€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-banned",
+        "price": "127€"
+      },
+      {
+        "name": "Limited Resell",
+        "url": "https://limitedresell.com/7308-air-jordan-1-retro-low-og-banned.html",
+        "price": "195€"
+      }
+    ]
   },
   {
     "title": "New Balance 991v2 Made In UK Grey Balsam Total Eclipse",
@@ -217,7 +506,49 @@
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-made-in-uk-grey-balsam-total-eclipse-u991to2",
     "id": "new-balance-991v2-made-in-uk-grey-balsam-total-eclipse",
     "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-991v2-u991nv2-0302531",
-    "stock": "dispo"
+    "stock": "dispo",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/fr",
+        "price": "250€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-991v2-u991nv2-0302531",
+        "price": "250€"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "250€"
+      },
+      {
+        "name": "SVD",
+        "url": "https://www.svd.es",
+        "price": "250€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "250€"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "250€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-grey-total-eclipse",
+        "price": "946€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/new-balance-991v2-made-in-uk-grey-balsam-total-eclipse-u991to2",
+        "price": "329€"
+      }
+    ]
   },
   {
     "title": "Nike Air Max 90 Tiempo",
@@ -226,7 +557,44 @@
     "price": "150€",
     "image_url": "https://statics.whentocop.fr/media/NghX2AYILsRm/tmpnike-air-max-90-tiempo-iu0523-010-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-tiempo-iu0523-010",
-    "id": "nike-air-max-90-tiempo"
+    "id": "nike-air-max-90-tiempo",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "150€"
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr",
+        "price": "150€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr/products/nike-air-max-90-tiempo-iu0523-010",
+        "price": "150€"
+      },
+      {
+        "name": "Courir",
+        "url": "https://www.courir.com",
+        "price": "150€"
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://noirfonce.eu",
+        "price": "150€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-max-90-tiempo-2005",
+        "price": "178€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/nike-air-max-90-tiempo-iu0523-010",
+        "price": "161€"
+      }
+    ]
   },
   {
     "id": "nigel-sylvester-air-jordan-4-brick-after-brick",
@@ -239,7 +607,39 @@
     "buy_url": null,
     "wtc_url": "https://www.whentocop.fr/drops/nigel-sylvester-air-jordan-4-2026",
     "score": 115,
-    "featured": true
+    "featured": true,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "230€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr",
+        "price": "230€"
+      },
+      {
+        "name": "Sevenstore",
+        "url": "https://www.sevenstore.com",
+        "price": "230€"
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://noirfonce.eu/products/air-jordan-4-retro-og-sp-bike-air-iq8055-100",
+        "price": "230€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-4-retro-og-nigel-sylvester-brick-after-brick",
+        "price": "313€"
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/air-jordan-x-nigel-sylvester-4-brick-after-brick-2025",
+        "price": "399€"
+      }
+    ]
   },
   {
     "id": "air-jordan-3-bin23",
@@ -250,6 +650,24 @@
     "resell": 800,
     "image_url": "https://sneakernews.com/wp-content/uploads/2025/07/air-jordan-3-bin23-io7744-600.jpg?w=1200",
     "sku": "IO7744-600",
-    "score": 95
+    "score": 95,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "350€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-3-retro-prm-bin23",
+        "price": "1425€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/air-jordan-3-retro-bin23-io7744-600",
+        "price": "1056€"
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-og-bin-23-io7744-600"
   }
 ]
