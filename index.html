@@ -430,8 +430,16 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   </section>
 
 
+  <!-- ═══ TOP PICK ═══ -->
+  <section class="section" style="padding-bottom:0">
+    <div class="container">
+      <div style="font-family:var(--font-cond);font-size:.72rem;font-weight:900;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin-bottom:.8rem">⚡ Top pick de la semaine</div>
+      <div class="top-pick__card" id="top-pick-card"></div>
+    </div>
+  </section>
+
   <!-- ═══ DROPS DE LA SEMAINE ═══ -->
-  <section class="section section--alt" id="drops-semaine" style="padding-bottom:0">
+  <section class="section section--alt" id="drops-semaine">
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Drops <span style="opacity:.55">de la Semaine</span></h2>
@@ -439,11 +447,6 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       </div>
       <div class="cards-grid" id="weekly-drops-grid" style="display:none"></div>
       <div id="weekly-drops-empty" style="display:none;color:var(--muted);text-align:center;padding:2rem;font-family:var(--font-cond)">Aucun drop cette semaine — reviens bientôt.</div>
-    </div>
-    <!-- Top Pick placé juste en dessous, même section, fond alt -->
-    <div class="container" style="padding-top:3rem;padding-bottom:var(--section-gap)">
-      <div style="font-family:var(--font-cond);font-size:.72rem;font-weight:900;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin-bottom:.8rem">⚡ Top pick de la semaine</div>
-      <div class="top-pick__card" id="top-pick-card"></div>
     </div>
   </section>
 
