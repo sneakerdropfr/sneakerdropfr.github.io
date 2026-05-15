@@ -314,12 +314,15 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       }
     }
 
+    var FLIP_IDS = ['air-jordan-3-brazil-releases-may-2026','air-jordan-3-brazil'];
     function renderCard(r, index) {
       var released=isReleased(r.date);
       var skuMatch=(r.id||'').match(/([a-z]{1,3}[0-9]{4,6}-[0-9]{3,4})(?:[^-]|$)/i);
       var cardSku=skuMatch?skuMatch[1]:'';
+      var needsFlip = FLIP_IDS.indexOf(r.id||'') !== -1;
+      var imgStyle = needsFlip ? ' style="transform:scaleX(-1)"' : '';
       var img=r.image_url
-        ?'<img src="'+r.image_url+'" alt="'+r.title+'" class="drop-card__img" loading="lazy" onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
+        ?'<img src="'+r.image_url+'" alt="'+r.title+'" class="drop-card__img" loading="lazy"'+imgStyle+' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
         :'<div class="drop-card__img-placeholder">👟</div>';
       var badgeTop=released
         ?'<div class="drop-card__badge-top badge-week">🔥 Dispo</div>'
@@ -359,7 +362,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         var todayMidnight=new Date(); todayMidnight.setHours(0,0,0,0);
         return d>=todayMidnight;
       });
-      var filtered=notReleased.filter(function(r){ return matchBrand(r,activeFilter); });
+      var filtered=notReleased.filter(function(r){ return !r.raffle && matchBrand(r,activeFilter); });
       var sorted=sortByDate(filtered).slice(0,MAX_CARDS);
       if (!sorted.length) {
         if (grid) grid.style.display='none';
