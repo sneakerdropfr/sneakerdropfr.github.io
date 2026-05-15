@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hype Picks — SneakerDropFR</title>
+  <meta name="description" content="Les drops sneakers les plus attendus — Jordan, Nike collabs, Travis Scott, Bad Bunny et plus." />
+  <link rel="canonical" href="https://sneakerdropfr.fr/hype-picks.html" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Hype Picks — SneakerDropFR" />
+  <meta property="og:description" content="Les drops les plus attendus — triés par score hype." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sneakerdropfr.fr/hype-picks.html" />
+  <meta property="og:locale" content="fr_FR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700;900&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TQQ3RSJJV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1TQQ3RSJJV');
+    function trackBSTN(product) {
+      if (typeof gtag !== 'undefined') gtag('event', 'click_bstn', { event_category: 'outbound', event_label: product, value: 1 });
+      try { var c=JSON.parse(localStorage.getItem('sdf_clicks')||'{}'); c[product]=(c[product]||0)+1; localStorage.setItem('sdf_clicks',JSON.stringify(c)); } catch(e) {}
+    }
+  </script>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --accent:#E8FF00;
+      --black:#0A0A0A;
+      --bg:#FFFFFF;
+      --bg-alt:#F5F5F5;
+      --text:#0A0A0A;
+      --muted:#777;
+      --border:#E5E5E5;
+      --shadow:0 2px 12px rgba(0,0,0,0.07);
+      --shadow-hover:0 8px 28px rgba(0,0,0,0.11);
+      --r:12px;
+      --font-display:'Bebas Neue',sans-serif;
+      --font-body:'Barlow',sans-serif;
+      --font-cond:'Barlow Condensed',sans-serif;
+      --section-gap:4.5rem;
+    }
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;display:block}
+    .container{max-width:1100px;margin:0 auto;padding:0 1.5rem}
+
+    /* ── Header ── */
+    .header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    .header__inner{display:flex;align-items:center;gap:.75rem;height:56px}
+    .logo{display:flex;align-items:center;gap:.45rem;font-family:var(--font-cond);font-size:1.15rem;font-weight:900;letter-spacing:.04em;color:var(--black);flex-shrink:0}
+    .logo__icon{width:30px;height:30px;background:var(--black);border-radius:5px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .logo__fr{opacity:.45}
+    .header__spacer{flex:1}
+    .hbtn{font-family:var(--font-cond);font-weight:900;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:.42rem .9rem;border-radius:6px;white-space:nowrap;display:inline-flex;align-items:center;gap:.3rem;border:1px solid var(--border);color:var(--black);background:transparent;transition:all .15s}
+    .hbtn:hover{background:var(--black);color:#fff;border-color:var(--black)}
+
+    /* ── Hero ── */
+    .page-hero{background:var(--bg);border-bottom:1px solid var(--border);padding:3rem 0 2.5rem;text-align:center}
+    .page-hero__eyebrow{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-cond);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem}
+    .page-hero__dot{width:6px;height:6px;background:#FF2D2D;border-radius:50%;display:inline-block;flex-shrink:0}
+    .page-hero__title{font-family:var(--font-display);font-size:clamp(3rem,9vw,5.5rem);letter-spacing:.02em;text-transform:uppercase;line-height:.95;margin-bottom:.6rem}
+    .page-hero__sub{color:var(--muted);font-size:.95rem;max-width:420px;margin:0 auto}
+
+    /* ── Section ── */
+    .section{padding:var(--section-gap) 0}
+    .section--alt{background:var(--bg-alt)}
+    .section-header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2rem;gap:1rem;flex-wrap:wrap}
+    .section-title{font-family:var(--font-display);font-size:clamp(1.9rem,5vw,2.8rem);letter-spacing:.03em;text-transform:uppercase;line-height:1}
+
+    /* ── Filters ── */
+    .filters{display:flex;gap:.45rem;flex-wrap:wrap;margin-bottom:1.75rem}
+    .filter-btn{padding:.38rem .95rem;border-radius:999px;border:1px solid var(--border);background:transparent;color:var(--muted);font-family:var(--font-cond);font-size:.82rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;cursor:pointer;transition:all .15s}
+    .filter-btn:hover{border-color:var(--black);color:var(--black)}
+    .filter-btn.active{background:var(--black);color:#fff;border-color:var(--black)}
+
+    /* ── Cards grid ── */
+    .cards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem}
+    @media(max-width:900px){.cards-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:480px){.cards-grid{grid-template-columns:repeat(2,1fr);gap:.65rem}}
+
+    /* ── Drop card ── */
+    .drop-card{background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:border-color .2s,transform .2s,box-shadow .2s}
+    .drop-card:hover{border-color:var(--black);transform:translateY(-4px);box-shadow:var(--shadow-hover)}
+    .drop-card__img-wrap{position:relative;aspect-ratio:1;background:#F9F9F9;overflow:hidden;flex-shrink:0}
+    .drop-card__img{width:100%;height:100%;object-fit:contain;padding:.9rem;transition:transform .3s}
+    .drop-card:hover .drop-card__img{transform:scale(1.07)}
+    .drop-card__badge-top{position:absolute;top:.65rem;left:.65rem;font-family:var(--font-cond);font-size:.65rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:.18rem .55rem;border-radius:4px;z-index:1}
+    .badge-hype{background:var(--black);color:var(--accent)}
+    .badge-collab{background:#FF2D2D;color:#fff}
+    .drop-card__body{padding:.9rem;display:flex;flex-direction:column;gap:.28rem;flex:1}
+    .drop-card__brand{font-family:var(--font-cond);font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+    .drop-card__title{font-family:var(--font-cond);font-size:.95rem;font-weight:900;line-height:1.2;text-transform:uppercase;letter-spacing:.03em;color:var(--black)}
+    .drop-card__meta{display:flex;align-items:center;justify-content:space-between;margin-top:.15rem;gap:.4rem}
+    .drop-card__date{font-size:.74rem;color:var(--muted);font-family:var(--font-cond);font-weight:600}
+    .drop-card__price{font-family:var(--font-cond);font-size:1.15rem;font-weight:900;color:var(--black)}
+    .drop-card__cta{margin-top:auto;padding-top:.65rem}
+    .btn-cop{display:block;width:100%;background:var(--black);color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.85rem;letter-spacing:.07em;text-transform:uppercase;padding:.62rem .9rem;border-radius:7px;border:none;cursor:pointer;text-align:center;transition:background .15s,color .15s}
+    .btn-cop:hover{background:var(--accent);color:var(--black)}
+    .btn-cop--alert{background:transparent;color:var(--black);border:1px solid var(--black)}
+    .btn-cop--alert:hover{background:var(--black);color:#fff}
+    .empty-msg{text-align:center;padding:3rem 1rem;color:var(--muted);font-family:var(--font-cond);font-size:.95rem;grid-column:1/-1}
+
+    /* ── Footer ── */
+    .footer{padding:2rem 0;border-top:1px solid var(--border)}
+    .footer__inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+    .footer__social{display:flex;gap:.75rem;flex-wrap:wrap;align-items:center}
+    .social-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-cond);font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.45rem 1rem;border-radius:6px;border:1px solid var(--border);color:var(--black);transition:all .15s}
+    .social-btn:hover{background:var(--black);color:#fff;border-color:var(--black)}
+    .social-btn--tg:hover{background:#229ED9;border-color:#229ED9}
+    .footer__legal{font-size:.72rem;color:#bbb;width:100%;text-align:center;padding-top:.7rem;border-top:1px solid var(--border);margin-top:.7rem}
+    .footer__legal a{color:#bbb}
+
+    /* ── Cookie ── */
+    #cookie-banner{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--border);border-radius:12px;padding:.9rem 1.4rem;display:flex;align-items:center;gap:1.4rem;max-width:500px;width:calc(100% - 2rem);z-index:9999;box-shadow:0 8px 30px rgba(0,0,0,.09);font-size:.8rem;color:var(--muted)}
+    #cookie-banner p{margin:0;flex:1;line-height:1.5}
+    #cookie-accept{background:var(--black);color:#fff;border:none;border-radius:6px;padding:.46rem 1rem;font-weight:900;font-size:.8rem;font-family:var(--font-cond);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
+    #cookie-accept:hover{background:var(--accent);color:var(--black)}
+
+    @media(max-width:768px){:root{--section-gap:3rem}}
+    @media(max-width:480px){.drop-card__body{padding:.75rem}.drop-card__title{font-size:.85rem}}
+  </style>
+</head>
+<body>
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo">
+        <div class="logo__icon">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 14c0-3 2-6 5-7.5L20 3l-3.5 12C15 18 12 20 9 20c-3.3 0-6-2.7-6-6z" fill="#E8FF00"/><circle cx="9" cy="14" r="2" fill="#0A0A0A"/></svg>
+        </div>
+        <span>SneakerDrop<span class="logo__fr">FR</span></span>
+      </a>
+      <div class="header__spacer"></div>
+      <a href="/" class="hbtn">&larr; Accueil</a>
+    </div>
+  </header>
+
+  <!-- ═══ HERO ═══ -->
+  <div class="page-hero">
+    <div class="container">
+      <div class="page-hero__eyebrow">
+        <span class="page-hero__dot"></span>
+        Drops les plus attendus
+      </div>
+      <h1 class="page-hero__title">HYPE PICKS</h1>
+      <p class="page-hero__sub">Jordan, Nike collabs, Travis Scott, Bad Bunny — triés par score hype</p>
+    </div>
+  </div>
+
+  <!-- ═══ SECTION ═══ -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-brand="all">Toutes</button>
+        <button class="filter-btn" data-brand="Jordan">Jordan</button>
+        <button class="filter-btn" data-brand="Nike">Nike</button>
+        <button class="filter-btn" data-brand="Adidas">Adidas</button>
+        <button class="filter-btn" data-brand="New Balance">New Balance</button>
+      </div>
+      <div class="cards-grid" id="hype-grid">
+        <p class="empty-msg">Chargement...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="/" class="logo">
+          <div class="logo__icon" style="width:26px;height:26px">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 14c0-3 2-6 5-7.5L20 3l-3.5 12C15 18 12 20 9 20c-3.3 0-6-2.7-6-6z" fill="#E8FF00"/><circle cx="9" cy="14" r="2" fill="#0A0A0A"/></svg>
+          </div>
+          <span style="font-size:1rem">SneakerDrop<span class="logo__fr">FR</span></span>
+        </a>
+        <div class="footer__social">
+          <a href="https://www.tiktok.com/@sneakerdropfr" target="_blank" rel="noopener" class="social-btn social-btn--tiktok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.75a8.16 8.16 0 004.77 1.52V6.82a4.85 4.85 0 01-1-.13z"/></svg>
+            TikTok
+          </a>
+          <a href="https://www.instagram.com/sneakerdropfr/" target="_blank" rel="noopener" class="social-btn social-btn--insta">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            Instagram
+          </a>
+          <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="social-btn social-btn--tg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.14 13.745l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.834.814h-.826z"/></svg>
+            Telegram
+          </a>
+        </div>
+      </div>
+      <div class="footer__legal">© 2026 SneakerDropFR — <a href="/privacy.html">Politique de confidentialité</a> — <a href="/sitemap.xml">Sitemap</a></div>
+    </div>
+  </footer>
+
+  <div id="cookie-banner" style="display:none">
+    <p>Ce site utilise Google Analytics pour mesurer l'audience. <a href="/privacy.html">En savoir plus</a>.</p>
+    <button id="cookie-accept">J'accepte</button>
+  </div>
+
+  <script>
+  (function(){
+    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json';
+    var BRAND_MAP = {'jordan':['jordan brand','jordan'],'nike':['nike'],'adidas':['adidas'],'new balance':['new balance']};
+    var allData = [];
+    var activeFilter = 'all';
+
+    var COLLABS = ['travis scott','nigel sylvester','off-white','patta','sacai','nocta','bad bunny','union','fragment','clot'];
+
+    function getScore(r) {
+      var score = 0;
+      if (r.featured) score += 1000;
+      var title = (r.title || '').toLowerCase();
+      var brand = (r.brand || '').toLowerCase();
+      if (brand.indexOf('jordan') !== -1) score += 40;
+      else if (brand.indexOf('nike') !== -1) score += 20;
+      else if (brand.indexOf('adidas') !== -1) score += 15;
+      else if (brand.indexOf('new balance') !== -1) score += 15;
+      for (var i = 0; i < COLLABS.length; i++) { if (title.indexOf(COLLABS[i]) !== -1) { score += 50; break; } }
+      var premium = ['jordan 4','jordan 1','jordan 11','jordan 3','jordan 12','dunk','990','991','2002'];
+      for (var j = 0; j < premium.length; j++) { if (title.indexOf(premium[j]) !== -1) { score += 25; break; } }
+      if (r.resell) score += 30;
+      return score;
+    }
+
+    function isCollab(r) {
+      var title = (r.title || '').toLowerCase();
+      for (var i = 0; i < COLLABS.length; i++) { if (title.indexOf(COLLABS[i]) !== -1) return true; }
+      return false;
+    }
+
+    function isFutureOrToday(dateStr) {
+      if (!dateStr || dateStr === 'TBD') return true;
+      return new Date(dateStr + 'T23:59:59') >= new Date();
+    }
+
+    function matchBrand(r, filter) {
+      if (filter === 'all') return true;
+      var b = (r.brand || '').toLowerCase();
+      var keys = BRAND_MAP[filter.toLowerCase()] || [filter.toLowerCase()];
+      return keys.some(function(k) { return b.indexOf(k) !== -1; });
+    }
+
+    function formatDate(str) {
+      if (!str || str === 'TBD') return 'Date a confirmer';
+      try {
+        var p = str.split('-');
+        if (p.length === 3) {
+          var d = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
+          return d.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'long' });
+        }
+      } catch(e) {}
+      return str;
+    }
+
+    function formatPrice(p) {
+      if (!p && p !== 0) return '';
+      return String(p).replace(/\u20ac/g,'').replace(/EUR/gi,'').trim() + ' \u20ac';
+    }
+
+    function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+    function safeTitle(t) { return (t||'').replace(/'/g,"\\'").replace(/"/g,'&quot;'); }
+
+    function renderCard(r) {
+      var collab = isCollab(r);
+      var badge = collab
+        ? '<div class="drop-card__badge-top badge-collab">Collab</div>'
+        : '<div class="drop-card__badge-top badge-hype">Hype</div>';
+      var img = r.image_url
+        ? '<img src="' + r.image_url + '" alt="' + escapeHtml(r.title) + '" class="drop-card__img" loading="lazy" onerror="this.parentNode.innerHTML=\'<div style=padding:2rem;text-align:center;font-size:2rem>&#128095;</div>\'">'
+        : '<div style="padding:2rem;text-align:center;font-size:2rem">&#128095;</div>';
+      var btn = '';
+      if (r.buy_url) {
+        btn = '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="btn-cop" onclick="trackBSTN(\'' + safeTitle(r.title) + '\')">&#128722; Acheter sur BSTN</a>';
+      } else if (r.wtc_url) {
+        btn = '<a href="' + r.wtc_url + '" target="_blank" rel="noopener" class="btn-cop btn-cop--alert">Voir sur WhenToCop</a>';
+      }
+      return '<article class="drop-card">'
+        + '<div class="drop-card__img-wrap">' + badge + img + '</div>'
+        + '<div class="drop-card__body">'
+        + '<span class="drop-card__brand">' + escapeHtml(r.brand || '') + '</span>'
+        + '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>'
+        + '<div class="drop-card__meta">'
+        + '<span class="drop-card__date">&#128197; ' + formatDate(r.date) + '</span>'
+        + '<span class="drop-card__price">' + formatPrice(r.price) + '</span>'
+        + '</div>'
+        + (r.resell ? '<div class="drop-card__resell">Resell ~' + formatPrice(r.resell) + '</div>' : '')
+        + '<div class="drop-card__cta">' + btn + '</div>'
+        + '</div></article>';
+    }
+
+    function render() {
+      var filtered = allData.filter(function(r) { return matchBrand(r, activeFilter); });
+      var grid = document.getElementById('hype-grid');
+      if (!grid) return;
+      if (!filtered.length) { grid.innerHTML = '<p class="empty-msg">Aucun drop hype pour cette marque.</p>'; return; }
+      grid.innerHTML = filtered.map(renderCard).join('');
+    }
+
+    document.querySelectorAll('.filter-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        activeFilter = btn.dataset.brand;
+        render();
+      });
+    });
+
+    fetch(RELEASES_URL)
+      .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function(data) {
+        var upcoming = data.filter(function(r) {
+          return r.id && !r.id.startsWith('test-') && isFutureOrToday(r.date) && getScore(r) > 0;
+        });
+        allData = upcoming.slice().sort(function(a, b) { return getScore(b) - getScore(a); });
+        var grid = document.getElementById('hype-grid');
+        if (!allData.length) { grid.innerHTML = '<p class="empty-msg">Aucun drop hype a venir pour l\'instant.</p>'; return; }
+        render();
+      })
+      .catch(function() {
+        var grid = document.getElementById('hype-grid');
+        if (grid) grid.innerHTML = '<p class="empty-msg">Erreur de chargement.</p>';
+      });
+
+    // Cookie
+    (function(){
+      var b = document.getElementById('cookie-banner');
+      if (localStorage.getItem('cookie-ok')) { if (b) b.style.display = 'none'; return; }
+      if (b) b.style.display = 'flex';
+      var btn = document.getElementById('cookie-accept');
+      if (btn) btn.addEventListener('click', function() { localStorage.setItem('cookie-ok','1'); b.style.display = 'none'; });
+    })();
+  })();
+  </script>
+
+  <script type="text/javascript" src="https://s.skimresources.com/js/302926X179095.skimlinks.js"></script>
+</body>
+</html>
