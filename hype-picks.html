@@ -107,6 +107,16 @@
     .btn-cop:hover{background:var(--accent);color:var(--black)}
     .btn-cop--alert{background:transparent;color:var(--black);border:1px solid var(--black)}
     .btn-cop--alert:hover{background:var(--black);color:#fff}
+    .retailers-row{display:flex;flex-wrap:wrap;gap:.38rem;margin-top:.3rem}
+    .retailers-label{font-family:var(--font-cond);font-size:.63rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:.2rem;margin-top:.45rem}
+    .btn-retailer{display:inline-flex;align-items:center;gap:.3rem;font-family:var(--font-cond);font-size:.72rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;padding:.35rem .65rem;border-radius:6px;border:none;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s,transform .12s;text-decoration:none;line-height:1.2}
+    .btn-retailer:hover{transform:translateY(-1px)}
+    .btn-retailer--bstn{background:#0A0A0A;color:#fff;border:1px solid rgba(255,255,255,.15)}
+    .btn-retailer--bstn:hover{background:#E8FF00;color:#0A0A0A;border-color:#E8FF00}
+    .btn-retailer--nike{background:#111;color:#fff;border:1px solid rgba(255,255,255,.1)}
+    .btn-retailer--nike:hover{background:#E8FF00;color:#0A0A0A}
+    .btn-retailer--official{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.18)}
+    .btn-retailer--official:hover{background:rgba(255,255,255,.2)}
     .empty-msg{text-align:center;padding:3rem 1rem;color:var(--muted);font-family:var(--font-cond);font-size:.95rem;grid-column:1/-1}
 
     /* ── Footer ── */
@@ -278,12 +288,7 @@
       var img = r.image_url
         ? '<img src="' + r.image_url + '" alt="' + escapeHtml(r.title) + '" class="drop-card__img" loading="lazy" onerror="this.parentNode.innerHTML=\'<div style=padding:2rem;text-align:center;font-size:2rem>&#128095;</div>\'">'
         : '<div style="padding:2rem;text-align:center;font-size:2rem">&#128095;</div>';
-      var btn = '';
-      if (r.buy_url) {
-        btn = '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="btn-cop" onclick="trackBSTN(\'' + safeTitle(r.title) + '\')">&#128722; Acheter sur BSTN</a>';
-      } else if (r.wtc_url) {
-        btn = '<a href="' + r.wtc_url + '" target="_blank" rel="noopener" class="btn-cop btn-cop--alert">Voir sur WhenToCop</a>';
-      }
+      var btn = makeRetailersRow(r, false);
       return '<article class="drop-card">'
         + '<div class="drop-card__img-wrap">' + badge + img + '</div>'
         + '<div class="drop-card__body">'
@@ -296,6 +301,41 @@
 
         + '<div class="drop-card__cta">' + btn + '</div>'
         + '</div></article>';
+    }
+
+    var RESELL_RETAILERS = ['stockx','goat','klekt','limited resell'];
+    var NIKE_RETAILERS = ['nike','nike snkrs'];
+    function isRetailerBSTN(n){ return n.toLowerCase()==='bstn'; }
+    function isRetailerResell(n){ return RESELL_RETAILERS.indexOf(n.toLowerCase())!==-1; }
+    function isRetailerNike(n){ return NIKE_RETAILERS.indexOf(n.toLowerCase())!==-1; }
+    function makeRetailersRow(r, isBig) {
+      var rets = r.retailers;
+      if (!rets || !rets.length) return makeBtn(r, isBig);
+      var official = rets.filter(function(rt){ return !isRetailerResell(rt.name); });
+      var html = '';
+      if (official.length) {
+        html += '<div class="retailers-label">Acheter</div><div class="retailers-row">';
+        official.forEach(function(rt) {
+          var cls = isRetailerBSTN(rt.name) ? 'btn-retailer btn-retailer--bstn'
+                  : isRetailerNike(rt.name) ? 'btn-retailer btn-retailer--nike'
+                  : 'btn-retailer btn-retailer--official';
+          var icon = isRetailerBSTN(rt.name) ? '🛒 ' : isRetailerNike(rt.name) ? '✓ ' : '';
+          var priceStr = rt.price ? ' <span style="opacity:.6;font-size:.65rem">' + rt.price + '</span>' : '';
+          html += '<a href="' + rt.url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN(\'' + safeTitle(rt.name + ' - ' + (r.title||'')) + '\')">' + icon + escapeHtml(rt.name) + priceStr + '</a>';
+        });
+        html += '</div>';
+      }
+      return html || makeBtn(r, isBig);
+    }
+    function makeBtn(r, isBig) {
+      if (r.stock === 'rupture') return '<span class="btn-cop btn-cop--sold">Rupture de stock</span>';
+      var released = isReleased(r.date);
+      var hasAff = r.buy_url && r.buy_url.indexOf('awin') !== -1;
+      if (r.buy_url && (released || hasAff))
+        return '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="btn-cop" onclick="trackBSTN(\'' + safeTitle(r.title) + '\')">🛒 Acheter</a>';
+      if (r.wtc_url)
+        return '<a href="' + r.wtc_url + '" target="_blank" rel="noopener" class="btn-cop btn-cop--alert">Voir sur WhenToCop</a>';
+      return '';
     }
 
     function render() {
