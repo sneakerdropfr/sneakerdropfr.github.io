@@ -418,7 +418,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             var p=r.date.split('-');
             var d=new Date(+p[0],+p[1]-1,+p[2]);
             var ds=d.toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short'});
-            var pr=r.price?' — '+String(r.price).replace(/EUR/gi,'').trim()+' €':'';
+            var pr=r.price?' — '+String(r.price).replace(/EUR/gi,'').replace(/€/g,'').trim()+'€':'';
             var cls=r.stock==='rupture'?' class="sold"':'';
             var lbl=r.stock==='rupture'?'🔴 RUPTURE':'📅 DROP';
             return '<span'+cls+'>'+lbl+' — <strong>'+escapeHtml(r.title)+'</strong> — '+ds+pr+'</span>';
