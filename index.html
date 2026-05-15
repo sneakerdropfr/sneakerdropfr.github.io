@@ -704,7 +704,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             : '<div class="drop-card__badge-top badge-upcoming">📅 À venir</div>');
       var urgency = released ? '⚠️ Stock limité' : '📅 Drop à venir';
       var urgencyClass = released ? 'drop-card__stock' : 'drop-card__stock drop-card__stock--upcoming';
-      var articleUrl = (r.id ? 'sorties/' + r.id + '.html' : null) || r.wtc_url || r.buy_url || null;
+      var articleUrl = r.id ? 'sorties/' + r.id + '.html' : null;
       var imgWrap = articleUrl
         ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>'
         : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
