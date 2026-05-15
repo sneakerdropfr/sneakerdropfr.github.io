@@ -698,16 +698,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         html += '</div>';
       }
 
-      // Resell (si sortie passée ou si featured)
-      if (resell.length && (isReleased(r.date) || r.featured)) {
-        html += '<div class="retailers-label" style="margin-top:.4rem">Revente</div><div class="retailers-row">';
-        resell.forEach(function(rt) {
-          var priceStr = rt.price ? ' <span style="opacity:.6;font-size:.65rem">' + rt.price + '</span>' : '';
-          html += '<a href="' + rt.url + '" target="_blank" rel="noopener" class="btn-retailer btn-retailer--resell">'
-                + escapeHtml(rt.name) + priceStr + '</a>';
-        });
-        html += '</div>';
-      }
+      // Resell masqué (affiliation)
 
       return html || makeBtn(r, isBig);
     }
@@ -743,7 +734,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           '<span class="top-pick__brand">' + (r.brand || '') + '</span>' +
           '<h2 class="top-pick__title">' + escapeHtml(r.title) + '</h2>' +
           '<div class="top-pick__price">' + formatPrice(r.price) + '</div>' +
-          (r.resell ? '<div class="top-pick__resell">Resell estimé ~' + r.resell + '€</div>' : '') +
+
           '<div class="top-pick__date">📅 ' + formatDate(r.date) + '</div>' +
           alertDiv +
           makeRetailersRow(r, true) +
@@ -785,7 +776,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             '<span class="drop-card__date">📅 ' + formatDate(r.date) + '</span>' +
             '<span class="drop-card__price">' + formatPrice(r.price) + '</span>' +
           '</div>' +
-          (r.resell ? '<div class="drop-card__resell">Resell ~' + formatPrice(r.resell) + '</div>' : '') +
+
           '<div class="' + urgencyClass + '">' + urgency + '</div>' +
           '<div class="drop-card__cta">' + makeRetailersRow(r, false) + '</div>' +
         '</div>' +
