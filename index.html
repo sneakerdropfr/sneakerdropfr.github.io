@@ -972,10 +972,10 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 
       var articleUrl = (r.id ? 'sorties/' + r.id + '.html' : null) || r.wtc_url || r.buy_url || null;
       var imgWrap = articleUrl
-        ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block" target="_blank" rel="noopener">' + badgeTop + img + '</a>'
+        ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>'
         : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
       var titleWrap = articleUrl
-        ? '<a href="' + articleUrl + '" style="color:inherit" target="_blank" rel="noopener"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
+        ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
         : '<h3 class="drop-card__title">' + r.title + '</h3>';
       return '<article class="drop-card"' + (cardSku ? ' data-sku="' + cardSku + '"' : '') + ' data-title="' + safeTitle(r.title) + '">' + imgWrap +
         '<div class="drop-card__body">' +
