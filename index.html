@@ -678,7 +678,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
                    : isRetailerNike(rt.name) ? '✓ '
                    : '';
           var priceStr = rt.price ? ' <span style="opacity:.6;font-size:.65rem">' + rt.price + '</span>' : '';
-          html += '<a href="' + rt.url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN('' + safeTitle(rt.name + ' ' + (r.title||'')) + '')">'
+          html += '<a href="' + rt.url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN(\'' + safeTitle(rt.name + ' - ' + (r.title||'')) + '\')">'
                 + icon + escapeHtml(rt.name) + priceStr + '</a>';
         });
         html += '</div>';
