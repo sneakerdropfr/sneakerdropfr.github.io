@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prochaines Sorties Sneakers — SneakerDrop FR</title>
+  <meta name="description" content="Toutes les prochaines sorties sneakers en France : Nike, Air Jordan, Adidas, New Balance. Dates, prix retail, filtres par marque." />
+  <link rel="canonical" href="https://sneakerdropfr.fr/sorties.html" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700;900&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TQQ3RSJJV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1TQQ3RSJJV');
+    function trackBSTN(product) {
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'click_bstn', { event_category: 'outbound', event_label: product, value: 1 });
+      }
+      try {
+        var clicks = JSON.parse(localStorage.getItem('sdf_clicks') || '{}');
+        clicks[product] = (clicks[product] || 0) + 1;
+        localStorage.setItem('sdf_clicks', JSON.stringify(clicks));
+      } catch(e) {}
+    }
+  </script>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --accent:#FF2D2D;
+      --pink:#FF2D2D;
+      --black:#0A0A0A;
+      --white:#FFFFFF;
+      --bg:#FFFFFF;
+      --bg-alt:#F5F5F5;
+      --text:#0A0A0A;
+      --muted:#777;
+      --border:#E5E5E5;
+      --shadow:0 2px 12px rgba(0,0,0,0.07);
+      --shadow-hover:0 8px 28px rgba(0,0,0,0.11);
+      --r:12px;
+      --font-display:'Bebas Neue',sans-serif;
+      --font-body:'Barlow',sans-serif;
+      --font-cond:'Barlow Condensed',sans-serif;
+      --section-gap:4.5rem;
+    }
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden;padding-bottom:72px}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;display:block}
+    .container{max-width:1100px;margin:0 auto;padding:0 1.5rem}
+
+    /* Header */
+    .header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    .header__inner{display:flex;align-items:center;gap:.75rem;height:56px}
+    .logo{display:flex;align-items:center;gap:.45rem;font-family:var(--font-cond);font-size:1.15rem;font-weight:900;letter-spacing:.04em;color:var(--black);flex-shrink:0}
+    .logo__icon{width:30px;height:30px;background:var(--black);border-radius:5px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .logo__fr{opacity:.45}
+    .header__spacer{flex:1}
+    .header__nav{display:flex;align-items:center;gap:.5rem}
+    .hbtn{font-family:var(--font-cond);font-weight:900;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:.42rem .9rem;border-radius:6px;white-space:nowrap;transition:background .15s,color .15s,border-color .15s;cursor:pointer;display:inline-flex;align-items:center;gap:.3rem}
+    .hbtn--solid{background:var(--black);color:#fff;border:1px solid var(--black)}
+    .hbtn--solid:hover{background:var(--accent);color:var(--black);border-color:var(--accent)}
+    .hbtn--back{background:transparent;color:var(--black);border:1px solid var(--border)}
+    .hbtn--back:hover{border-color:var(--black);background:var(--black);color:#fff}
+
+    /* Section */
+    .section{padding:var(--section-gap) 0}
+    .section-header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2rem;gap:1rem;flex-wrap:wrap}
+    .section-title{font-family:var(--font-display);font-size:clamp(1.9rem,5vw,2.8rem);letter-spacing:.03em;text-transform:uppercase;line-height:1}
+    .section-badge{font-family:var(--font-cond);font-size:.72rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;padding:.22rem .7rem;border-radius:999px;background:#0A0A0A;color:#fff}
+
+    /* Filters */
+    .filters{display:flex;gap:.45rem;flex-wrap:wrap;margin-bottom:1.75rem}
+    .filter-btn{padding:.38rem .95rem;border-radius:999px;border:1px solid var(--border);background:transparent;color:var(--muted);font-family:var(--font-cond);font-size:.82rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;cursor:pointer;transition:all .15s}
+    .filter-btn:hover{border-color:var(--black);color:var(--black)}
+    .filter-btn.active{background:var(--black);border-color:var(--black);color:#fff}
+
+    /* Sub-headers */
+    .sub-header{display:flex;align-items:center;gap:.7rem;margin:1.75rem 0 .9rem}
+    .sub-header__line{flex:1;height:1px;background:var(--border)}
+    .sub-header__label{font-family:var(--font-cond);font-size:.72rem;font-weight:900;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);white-space:nowrap}
+
+    /* Cards grid */
+    .cards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem}
+    @media(max-width:900px){.cards-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:480px){.cards-grid{grid-template-columns:repeat(2,1fr);gap:.65rem}}
+    .releases-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
+    @media(max-width:900px){.releases-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:480px){.releases-grid{grid-template-columns:repeat(2,1fr);gap:.6rem}}
+    #releases-grid-week{display:none}
+
+    /* Drop card */
+    .drop-card{background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:border-color .2s,transform .2s,box-shadow .2s}
+    .drop-card:hover{border-color:var(--black);transform:translateY(-4px);box-shadow:var(--shadow-hover)}
+    .drop-card__img-wrap{position:relative;aspect-ratio:1;background:#F9F9F9;overflow:hidden;flex-shrink:0}
+    .drop-card__img{width:100%;height:100%;object-fit:contain;padding:.9rem;transition:transform .3s}
+    .drop-card:hover .drop-card__img{transform:scale(1.07)}
+    .drop-card__img-placeholder{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:2.5rem}
+    .drop-card__badge-top{position:absolute;top:.65rem;left:.65rem;font-family:var(--font-cond);font-size:.65rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:.18rem .55rem;border-radius:4px;z-index:1}
+    .badge-week{background:#0A0A0A;color:#fff}
+    .badge-hot{background:#0A0A0A;color:#fff}
+    .badge-upcoming{background:#0A0A0A;color:#fff}
+    .drop-card__body{padding:.9rem;display:flex;flex-direction:column;gap:.28rem;flex:1}
+    .drop-card__brand{font-family:var(--font-cond);font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+    .drop-card__title{font-family:var(--font-cond);font-size:.95rem;font-weight:900;line-height:1.2;text-transform:uppercase;letter-spacing:.03em;color:var(--black)}
+    .drop-card__meta{display:flex;align-items:center;justify-content:space-between;margin-top:.15rem;gap:.4rem}
+    .drop-card__date{font-size:.74rem;color:var(--muted);font-family:var(--font-cond);font-weight:600}
+    .drop-card__price{font-family:var(--font-cond);font-size:1.15rem;font-weight:900;color:var(--black)}
+    .drop-card__resell{font-size:.68rem;font-weight:700;color:var(--muted);margin-top:.1rem}
+    .drop-card__resell::before{content:'↑ ';color:var(--black);opacity:.5}
+    .drop-card__stock{font-size:.68rem;color:#FF2D2D;font-family:var(--font-cond);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .drop-card__stock--upcoming{color:#0A0A0A}
+    .drop-card__cta{margin-top:auto;padding-top:.65rem}
+    .btn-cop{display:block;width:100%;background:var(--black);color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.85rem;letter-spacing:.07em;text-transform:uppercase;padding:.62rem .9rem;border-radius:7px;border:none;cursor:pointer;text-align:center;transition:background .15s,color .15s}
+    .btn-cop:hover{background:var(--accent);color:var(--black)}
+    .btn-cop--alert{background:transparent;color:var(--black);border:1px solid var(--black)}
+    .btn-cop--alert:hover{background:var(--black);color:#fff}
+    .btn-cop--sold,.btn-cop-big--sold{display:block;background:#F2F2F2;color:#aaa;font-size:.78rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em;padding:.55rem .9rem;border-radius:7px;cursor:default;border:1px solid var(--border);text-align:center;width:100%}
+    .btn-bstn-aff{display:inline-block;background:var(--black);color:#fff;font-size:.7rem;font-weight:900;text-transform:uppercase;letter-spacing:.06em;padding:.38rem .85rem;border-radius:6px;text-decoration:none;margin-top:.45rem;transition:background .15s,color .15s}
+    .btn-bstn-aff:hover{background:var(--accent);color:var(--black)}
+    .releases-loading,.releases-empty{text-align:center;padding:3rem 1rem;color:var(--muted);font-family:var(--font-cond);font-size:.95rem}
+
+    /* Past btn */
+    #btn-past{background:var(--black);border:2px solid var(--black);color:#fff;padding:.75rem 2rem;border-radius:999px;font-family:var(--font-cond);font-weight:900;font-size:.95rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;width:100%;max-width:360px;display:block;margin:1.5rem auto 0;transition:background .15s,color .15s,border-color .15s}
+    #btn-past:hover{background:var(--accent);border-color:var(--accent);color:var(--black)}
+
+    /* Raffle compact */
+    #raffle-section{background:var(--bg);padding:0 0 2rem}
+    .raffle-single{display:flex;background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);max-width:520px}
+    .raffle-single__img{width:140px;flex-shrink:0;background:#F9F9F9}
+    .raffle-single__img img{width:100%;height:100%;object-fit:cover;display:block}
+    .raffle-single__body{padding:1.1rem 1.3rem;display:flex;flex-direction:column;justify-content:space-between;gap:.65rem;flex:1}
+    .raffle-single__badge{display:inline-block;background:#0A0A0A;color:#fff;font-size:.62rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;padding:.22rem .6rem;border-radius:999px;align-self:flex-start}
+    .raffle-single__title{font-family:var(--font-cond);font-size:1rem;font-weight:900;color:var(--black);line-height:1.2}
+    .raffle-single__meta{font-size:.78rem;color:var(--muted)}
+    .raffle-single__btn{display:inline-block;background:var(--black);color:#fff;font-family:var(--font-cond);font-size:.78rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:.5rem 1.1rem;border-radius:999px;text-decoration:none;align-self:flex-start;transition:background .15s,color .15s}
+    .raffle-single__btn:hover{background:var(--accent);color:var(--black)}
+    .raffle-more{font-family:var(--font-cond);font-size:.78rem;font-weight:700;color:var(--muted);margin-top:.5rem;letter-spacing:.04em}
+    #raffle-grid{display:none}
+    @media(max-width:500px){.raffle-single{flex-direction:column}.raffle-single__img{width:100%;height:160px}}
+
+    /* Footer */
+    .footer{padding:2rem 0;border-top:1px solid var(--border)}
+    .footer__inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+    .footer__legal{font-size:.72rem;color:#bbb;width:100%;text-align:center;padding-top:.7rem;border-top:1px solid var(--border);margin-top:.7rem}
+    .footer__social{display:flex;gap:.75rem;flex-wrap:wrap;align-items:center}
+    .social-btn{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-cond);font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.45rem 1rem;border-radius:6px;border:1px solid var(--border);color:var(--black);transition:all .15s}
+    .social-btn:hover{background:var(--black);color:#fff;border-color:var(--black)}
+    .social-btn--tg:hover{background:#229ED9;border-color:#229ED9}
+
+    /* Scroll top */
+    .scroll-top{position:fixed;bottom:84px;left:16px;background:rgba(255,255,255,.92);border:1px solid var(--border);color:var(--black);width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.15rem;cursor:pointer;z-index:999;opacity:0;transition:opacity .3s,transform .15s;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+    .scroll-top.visible{opacity:1}
+    .scroll-top:hover{transform:translateY(-3px);border-color:var(--black)}
+
+    @media(max-width:768px){:root{--section-gap:3rem}}
+    @media(max-width:480px){.drop-card__body{padding:.75rem}.drop-card__title{font-size:.85rem}}
+  </style>
+</head>
+<body>
+<script>
+function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+</script>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo">
+        <div class="logo__icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 14c0-3 2-6 5-7.5L20 3l-3.5 12C15 18 12 20 9 20c-3.3 0-6-2.7-6-6z" fill="#E8FF00"/><circle cx="9" cy="14" r="2" fill="#0A0A0A"/></svg>
+        </div>
+        <span>SneakerDrop<span class="logo__fr">FR</span></span>
+      </a>
+      <div class="header__spacer"></div>
+      <nav class="header__nav">
+        <a href="/" class="hbtn hbtn--back">← Accueil</a>
+        <a href="/deals.html" class="hbtn hbtn--solid">BSTN Deals</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- RAFFLE (compact) -->
+  <div id="raffle-section" style="display:none">
+    <div class="container" style="padding-top:1.5rem">
+      <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap">
+        <span style="font-family:var(--font-cond);font-size:.72rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)">Raffle actif :</span>
+        <div id="raffle-grid" style="display:none"></div>
+        <div id="raffle-compact"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROCHAINES SORTIES -->
+  <section class="section" id="releases">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Prochaines Sorties</h2>
+        <span class="section-badge">⚡ Stock Limité</span>
+      </div>
+
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-brand="all">Toutes</button>
+        <button class="filter-btn" data-brand="Jordan">Jordan</button>
+        <button class="filter-btn" data-brand="Nike">Nike</button>
+        <button class="filter-btn" data-brand="Adidas">Adidas</button>
+        <button class="filter-btn" data-brand="New Balance">New Balance</button>
+      </div>
+
+      <div class="releases-loading" id="releases-loading">Chargement des drops...</div>
+      <div id="this-week-header" style="display:none"><span></span></div>
+      <div class="releases-grid" id="releases-grid-week" style="display:none"></div>
+      <div id="upcoming-header" style="display:none">
+        <div class="sub-header"><div class="sub-header__line"></div><span class="sub-header__label">📅 À venir</span><div class="sub-header__line"></div></div>
+      </div>
+      <div class="cards-grid" id="releases-grid-upcoming" style="display:none"></div>
+      <div class="releases-empty" id="releases-empty" style="display:none">Aucune sortie pour cette marque. Reviens bientôt !</div>
+
+      <button id="btn-past" onclick="loadPastReleases()">🕐 Voir les anciennes sorties</button>
+      <div id="past-grid" style="display:none;margin-top:1.5rem"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__social">
+        <a href="https://www.tiktok.com/@sneakerdropsfr" target="_blank" rel="noopener" class="social-btn">TikTok</a>
+        <a href="https://www.instagram.com/sneakerdropsfr" target="_blank" rel="noopener" class="social-btn">Instagram</a>
+        <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="social-btn social-btn--tg">Telegram</a>
+      </div>
+      <div class="footer__legal">© 2026 SneakerDropFR — Liens affiliés BSTN via Awin</div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Retour en haut">&#8679;</button>
+  <script>
+  (function(){ var btn=document.getElementById('scroll-top'); window.addEventListener('scroll',function(){ btn.classList.toggle('visible',window.scrollY>400); },{passive:true}); })();
+  </script>
+
+  <!-- RELEASES JS -->
+  <script>
+  (function(){
+    var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
+    var grid=document.getElementById('releases-grid-week');
+    var gridUpcoming=document.getElementById('releases-grid-upcoming');
+    var empty=document.getElementById('releases-empty');
+    var loading=document.getElementById('releases-loading');
+    var MAX_CARDS=50;
+    var allReleases=[]; window._releases=[];
+    var activeFilter='all';
+    var BRAND_MAP={'jordan':['jordan brand','jordan'],'nike':['nike'],'adidas':['adidas'],'new balance':['new balance']};
+
+    function isReleased(dateStr) {
+      if (!dateStr || dateStr==='TBD') return false;
+      var p=dateStr.split('-');
+      if (p.length!==3) return false;
+      var d=new Date(parseInt(p[0]),parseInt(p[1])-1,parseInt(p[2]));
+      var today=new Date(); today.setHours(0,0,0,0);
+      return d<=today;
+    }
+    function isFutureOrToday(dateStr) {
+      if (!dateStr||dateStr==='TBD') return true;
+      return new Date(dateStr+'T23:59:59')>=new Date();
+    }
+    function isSoon(dateStr) {
+      if (!dateStr||dateStr==='TBD') return false;
+      var diff=(new Date(dateStr+'T12:00:00')-new Date())/(1000*60*60*24);
+      return diff>=0&&diff<=7;
+    }
+    function matchBrand(r,filter) {
+      if (filter==='all') return true;
+      var b=(r.brand||'').toLowerCase();
+      var keys=BRAND_MAP[filter.toLowerCase()]||[filter.toLowerCase()];
+      return keys.some(function(k){ return b.indexOf(k)!==-1; });
+    }
+    function formatPrice(p) {
+      if (!p&&p!==0) return '';
+      var s=String(p).trim().replace(/€/g,'').replace(/EUR/gi,'').trim();
+      if (!s) return '';
+      return s+' €';
+    }
+    function formatDate(str) {
+      if (!str||str==='TBD') return 'Date à confirmer';
+      try {
+        var parts=str.split('-');
+        if (parts.length===3) {
+          var d=new Date(parseInt(parts[0]),parseInt(parts[1])-1,parseInt(parts[2]));
+          return d.toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'long'});
+        }
+        return str;
+      } catch(e){ return str; }
+    }
+    function sortByDate(arr) {
+      return arr.slice().sort(function(a,b){
+        var da=a.date&&a.date!=='TBD'?new Date(a.date):new Date('9999-12-31');
+        var db=b.date&&b.date!=='TBD'?new Date(b.date):new Date('9999-12-31');
+        return da-db;
+      });
+    }
+    function safeTitle(t){ return (t||'').replace(/'/g,"\\'").replace(/"/g,'&quot;'); }
+
+    function makeBtn(r, isBig) {
+      var released=isReleased(r.date);
+      var hasAff=r.buy_url&&r.buy_url.indexOf('awin')!==-1;
+      if (r.stock==='rupture') {
+        var clsR=isBig?'btn-cop-big btn-cop-big--sold':'btn-cop btn-cop--sold';
+        return '<span class="'+clsR+'">Rupture de stock</span>';
+      }
+      if (r.buy_url&&(released||hasAff)) {
+        var label=released?'🔥 Acheter Avant Rupture':'🛒 Acheter sur BSTN';
+        var cls=isBig?'btn-cop-big':'btn-cop';
+        return '<a href="'+r.buy_url+'" target="_blank" rel="noopener" class="'+cls+'" onclick="trackBSTN(\''+safeTitle(r.title)+'\')">'+label+'</a>';
+      } else {
+        if (r.wtc_url) {
+          var cls2=isBig?'btn-cop-big btn-cop-big--alert':'btn-cop btn-cop--alert';
+          return '<a href="'+r.wtc_url+'" target="_blank" rel="noopener" class="'+cls2+'">Voir sur WhenToCop</a>';
+        }
+        return '';
+      }
+    }
+
+    function renderCard(r, index) {
+      var released=isReleased(r.date);
+      var skuMatch=(r.id||'').match(/([a-z]{1,3}[0-9]{4,6}-[0-9]{3,4})(?:[^-]|$)/i);
+      var cardSku=skuMatch?skuMatch[1]:'';
+      var img=r.image_url
+        ?'<img src="'+r.image_url+'" alt="'+r.title+'" class="drop-card__img" loading="lazy" onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
+        :'<div class="drop-card__img-placeholder">👟</div>';
+      var badgeTop=released
+        ?'<div class="drop-card__badge-top badge-week">🔥 Dispo</div>'
+        :(isSoon(r.date)
+          ?'<div class="drop-card__badge-top badge-hot">⏰ Cette semaine</div>'
+          :'<div class="drop-card__badge-top badge-upcoming">📅 À venir</div>');
+      var urgency=released?'⚠️ Stock limité':'📅 Drop à venir';
+      var urgencyClass=released?'drop-card__stock':'drop-card__stock drop-card__stock--upcoming';
+      var articleUrl=(r.id?'sorties/'+r.id+'.html':null)||r.wtc_url||r.buy_url||null;
+      var imgWrap=articleUrl
+        ?'<a href="'+articleUrl+'" class="drop-card__img-wrap" style="display:block">'+badgeTop+img+'</a>'
+        :'<div class="drop-card__img-wrap">'+badgeTop+img+'</div>';
+      var titleWrap=articleUrl
+        ?'<a href="'+articleUrl+'" style="color:inherit"><h3 class="drop-card__title">'+escapeHtml(r.title)+'</h3></a>'
+        :'<h3 class="drop-card__title">'+r.title+'</h3>';
+      return '<article class="drop-card"'+(cardSku?' data-sku="'+cardSku+'"':'')+' data-title="'+safeTitle(r.title)+'">'+imgWrap+
+        '<div class="drop-card__body">'+
+          '<span class="drop-card__brand">'+(r.brand||'')+'</span>'+
+          titleWrap+
+          '<div class="drop-card__meta">'+
+            '<span class="drop-card__date">📅 '+formatDate(r.date)+'</span>'+
+            '<span class="drop-card__price">'+formatPrice(r.price)+'</span>'+
+          '</div>'+
+          (r.resell?'<div class="drop-card__resell">Resell ~'+formatPrice(r.resell)+'</div>':'')+
+          '<div class="'+urgencyClass+'">'+urgency+'</div>'+
+          '<div class="drop-card__cta">'+makeBtn(r,false)+'</div>'+
+        '</div>'+
+      '</article>';
+    }
+
+    function render() {
+      var notReleased=allReleases.filter(function(r){
+        if (!r.date||r.date==='TBD') return true;
+        var p=r.date.split('-');
+        var d=p.length===3?new Date(parseInt(p[0]),parseInt(p[1])-1,parseInt(p[2])):null;
+        if (!d) return true;
+        var todayMidnight=new Date(); todayMidnight.setHours(0,0,0,0);
+        return d>=todayMidnight;
+      });
+      var filtered=notReleased.filter(function(r){ return matchBrand(r,activeFilter); });
+      var sorted=sortByDate(filtered).slice(0,MAX_CARDS);
+      if (!sorted.length) {
+        if (grid) grid.style.display='none';
+        if (gridUpcoming) gridUpcoming.style.display='none';
+        document.getElementById('this-week-header').style.display='none';
+        document.getElementById('upcoming-header').style.display='none';
+        if (empty) empty.style.display='block';
+        return;
+      }
+      if (empty) empty.style.display='none';
+      document.getElementById('this-week-header').style.display='none';
+      if (grid) grid.style.display='none';
+      if (sorted.length) {
+        document.getElementById('upcoming-header').style.display='block';
+        gridUpcoming.style.display='grid';
+        gridUpcoming.innerHTML=sorted.map(function(r,i){ return renderCard(r,i); }).join('');
+      } else {
+        document.getElementById('upcoming-header').style.display='none';
+        if (gridUpcoming) gridUpcoming.style.display='none';
+      }
+    }
+
+    window._render=render;
+    document.querySelectorAll('.filter-btn').forEach(function(btn){
+      btn.addEventListener('click',function(){
+        document.querySelectorAll('.filter-btn').forEach(function(b){ b.classList.remove('active'); });
+        btn.classList.add('active');
+        activeFilter=btn.dataset.brand;
+        render();
+      });
+    });
+
+    fetch(RELEASES_URL)
+      .then(function(r){ if (!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+      .then(function(data){
+        if (loading) loading.style.display='none';
+        allReleases=data.filter(function(r){ return r.id&&!r.id.startsWith('test-'); });
+        window._releases=allReleases;
+
+        // Raffles
+        (function(){
+          var raffles=allReleases.filter(function(r){ return r.raffle===true; });
+          var section=document.getElementById('raffle-section');
+          var raffleGrid=document.getElementById('raffle-grid');
+          var compact=document.getElementById('raffle-compact');
+          if (!section||!raffles.length) return;
+          section.style.display='block';
+          if (raffleGrid) raffleGrid.innerHTML=raffles.map(function(r){
+            var dateStr='';
+            if (r.date&&r.date!=='TBD') { var p=r.date.split('-'); var d=new Date(parseInt(p[0]),parseInt(p[1])-1,parseInt(p[2])); dateStr='Drop le '+d.toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'}); }
+            return '<div class="raffle-card"><div class="raffle-card__img"><img src="'+(r.image_url||'')+'" alt="'+(r.title||'').replace(/"/g,'')+'" loading="lazy"></div><div class="raffle-card__body"><span class="raffle-card__badge">Raffle</span><div class="raffle-card__title">'+escapeHtml(r.title)+'</div><div class="raffle-card__meta">'+dateStr+'</div><a href="'+(r.raffle_url||'#')+'" target="_blank" rel="noopener" class="raffle-card__btn">Participer au raffle</a></div></div>';
+          }).join('');
+          if (compact) {
+            var r0=raffles[0];
+            var dateStr0='';
+            if (r0.date&&r0.date!=='TBD') { var p0=r0.date.split('-'); var d0=new Date(parseInt(p0[0]),parseInt(p0[1])-1,parseInt(p0[2])); dateStr0='Drop le '+d0.toLocaleDateString('fr-FR',{day:'numeric',month:'long'}); }
+            compact.innerHTML='<div class="raffle-single">'+(r0.image_url?'<div class="raffle-single__img"><img src="'+r0.image_url+'" alt="'+escapeHtml(r0.title)+'" loading="lazy"></div>':'')+
+              '<div class="raffle-single__body"><span class="raffle-single__badge">Raffle</span><div class="raffle-single__title">'+escapeHtml(r0.title)+'</div><div class="raffle-single__meta">'+dateStr0+'</div><a href="'+(r0.raffle_url||'#')+'" target="_blank" rel="noopener" class="raffle-single__btn">Participer</a></div></div>'+
+              (raffles.length>1?'<div class="raffle-more">+'+(raffles.length-1)+' autre'+(raffles.length>2?'s':'')+' raffle'+(raffles.length>2?'s':'')+'</div>':'');
+          }
+        })();
+
+        if (!allReleases.length) { if (empty) empty.style.display='block'; return; }
+        render();
+      })
+      .catch(function(err){
+        if (loading) loading.style.display='none';
+        if (empty) empty.style.display='block';
+      });
+  })();
+  </script>
+
+  <!-- BSTN live check -->
+  <script>
+  var BSTN_AWIN_MID='104979';
+  var BSTN_AWIN_AFF='2855487';
+  var BSTN_API_URL='https://searcht.bstn.com/collections/magento2_eu_products/documents/search';
+  var BSTN_API_KEY='NCZstZEMLnMy4MSLPh9NKNrtMLsEF1Zy';
+  var BSTN_SITE='https://www.bstn.com/';
+  var _bstnCache={};
+  function bstnAwinUrl(productPath){ return 'https://www.awin1.com/cread.php?awinmid='+BSTN_AWIN_MID+'&awinaffid='+BSTN_AWIN_AFF+'&p='+encodeURIComponent(BSTN_SITE+productPath); }
+  function bstnCheckSku(sku,cb){
+    if (!sku) return;
+    var skuKey=sku.toLowerCase();
+    if (_bstnCache[skuKey]!==undefined){ if (_bstnCache[skuKey]) cb(_bstnCache[skuKey]); return; }
+    var skuNorm=skuKey.replace(/-/g,'');
+    var q=skuKey.replace(/-/g,' ');
+    var url=BSTN_API_URL+'?q='+encodeURIComponent(q)+'&query_by=name&per_page=5&filter_by=price%3A%3E0';
+    fetch(url,{headers:{'X-TYPESENSE-API-KEY':BSTN_API_KEY}})
+      .then(function(r){ return r.json(); })
+      .then(function(data){
+        var hits=data.hits||[];
+        for (var i=0;i<hits.length;i++){
+          var doc=hits[i].document;
+          var docUrl=(doc.url||'').toLowerCase();
+          if (docUrl.indexOf(skuNorm)!==-1){ var awinUrl=bstnAwinUrl(doc.url); _bstnCache[skuKey]=awinUrl; cb(awinUrl); return; }
+        }
+        _bstnCache[skuKey]=null;
+      }).catch(function(){ _bstnCache[skuKey]=null; });
+  }
+  function bstnInjectBtn(container,awinUrl,label){
+    if (!container||container.querySelector('.btn-bstn-aff')) return;
+    var btn=document.createElement('a');
+    btn.href=awinUrl; btn.target='_blank'; btn.rel='noopener sponsored';
+    btn.className='btn-bstn-aff'; btn.textContent=label||'Acheter sur BSTN';
+    btn.onclick=function(){ trackBSTN(container.closest('[data-title]')?container.closest('[data-title]').getAttribute('data-title'):'bstn'); };
+    container.appendChild(btn);
+  }
+  (function(){
+    var observer=new MutationObserver(function(mutations){
+      mutations.forEach(function(m){
+        m.addedNodes.forEach(function(node){
+          if (node.nodeType!==1) return;
+          var cards=node.matches&&node.matches('.drop-card')?[node]:Array.from(node.querySelectorAll('.drop-card[data-sku]'));
+          cards.forEach(function(card){
+            var sku=card.getAttribute('data-sku');
+            if (!sku) return;
+            var ctaDiv=card.querySelector('.drop-card__cta');
+            bstnCheckSku(sku,function(url){ bstnInjectBtn(ctaDiv,url,'Acheter sur BSTN'); });
+          });
+        });
+      });
+    });
+    var grids=['releases-grid-week','releases-grid-upcoming'];
+    grids.forEach(function(id){ var el=document.getElementById(id); if (el) observer.observe(el,{childList:true,subtree:true}); });
+  })();
+  </script>
+
+  <!-- Past releases -->
+  <script>
+  function renderPastGrid(data){
+    var pastGrid=document.getElementById('past-grid');
+    var btn=document.getElementById('btn-past');
+    if (!data.length){
+      pastGrid.innerHTML='<p style="text-align:center;color:var(--muted);padding:2rem">Aucune ancienne sortie disponible.</p>';
+    } else {
+      var html='<div class="cards-grid">';
+      data.forEach(function(r){
+        var img=r.image_url?'<img src="'+r.image_url+'" class="drop-card__img" loading="lazy" onerror="this.style.display=\'none\'">':'<div class="drop-card__img-placeholder">👟</div>';
+        html+='<article class="drop-card"><div class="drop-card__img-wrap">'+img+'</div><div class="drop-card__body"><div class="drop-card__brand">'+(r.brand||r.source||'')+'</div><h3 class="drop-card__title">'+escapeHtml(r.title)+'</h3><div class="drop-card__meta"><span>'+(r.date||'TBD')+'</span><span class="drop-card__price">'+(r.price||'')+'</span></div><a href="'+(r.link||'#')+'" target="_blank" rel="noopener" class="drop-card__cta btn-cop">Voir la paire</a></div></article>';
+      });
+      html+='</div>';
+      pastGrid.innerHTML=html;
+    }
+    pastGrid.style.display='block';
+    btn.textContent='🔼 Masquer les anciennes sorties';
+  }
+  function loadPastReleases(){
+    var btn=document.getElementById('btn-past');
+    var pastGrid=document.getElementById('past-grid');
+    if (pastGrid.style.display==='block'){ pastGrid.style.display='none'; btn.textContent='🕐 Voir les anciennes sorties'; return; }
+    btn.textContent='Chargement...';
+    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t='+Date.now())
+      .then(function(r){ return r.json(); })
+      .then(function(data){ renderPastGrid(data); })
+      .catch(function(){ renderPastGrid([]); btn.textContent='🕐 Voir les anciennes sorties'; });
+  }
+  </script>
+
+<script type="text/javascript" src="https://s.skimresources.com/js/302926X179095.skimlinks.js"></script>
+</body>
+</html>
