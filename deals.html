@@ -202,7 +202,6 @@
       <div class="bstn-tabs" role="tablist">
         <button class="bstn-tab active" role="tab" id="tab-soldes" onclick="activateBstnTab('soldes')">⏳ Coming Soon</button>
         <button class="bstn-tab" role="tab" id="tab-deals" onclick="activateBstnTab('deals')">💸 Deals</button>
-        <button class="bstn-tab" role="tab" id="tab-hype-picks" onclick="activateBstnTab('hype-picks')">🔥 Hype Picks</button>
 
       </div>
 
@@ -306,14 +305,6 @@
         </div>
       </div>
 
-      <!-- Panel : Hype Picks (paires les + hype depuis releases.json) -->
-      <div class="bstn-panel" id="panel-hype-picks" role="tabpanel">
-        <p style="color:var(--muted);font-size:.84rem;margin-bottom:1.25rem">Les drops les plus attendus — tri par score hype.</p>
-        <div class="cards-grid" id="hype-picks-grid">
-          <p style="color:var(--muted);text-align:center;padding:2rem;grid-column:1/-1">Chargement...</p>
-        </div>
-      </div>
-
     </div>
   </section>
 
@@ -365,7 +356,7 @@
   // Activer l'onglet via le hash URL
   (function() {
     var hash = window.location.hash.replace('#', '');
-    if (hash === 'hype-picks' || hash === 'catalogue') activateBstnTab('hype-picks');
+    if (hash === 'catalogue') activateBstnTab('soldes');
     else if (hash === 'deals') activateBstnTab('deals');
   })();
   </script>
@@ -379,84 +370,6 @@
       var btn=document.getElementById('cookie-accept');
       if(btn)btn.addEventListener('click',function(){localStorage.setItem('cookie-ok','1');b.style.display='none';});
     });
-  })();
-  </script>
-
-  <!-- Hype Picks loader -->
-  <script>
-  (function() {
-    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json';
-    var BRAND_MAP = {'jordan':['jordan brand','jordan'],'nike':['nike'],'adidas':['adidas'],'new balance':['new balance']};
-    function getScore(r) {
-      var score = 0;
-      if (r.featured) score += 1000;
-      var title = (r.title || '').toLowerCase();
-      var brand = (r.brand || '').toLowerCase();
-      if (brand.indexOf('jordan') !== -1) score += 40;
-      else if (brand.indexOf('nike') !== -1) score += 20;
-      else if (brand.indexOf('adidas') !== -1) score += 15;
-      else if (brand.indexOf('new balance') !== -1) score += 15;
-      var collabs = ['travis scott','nigel sylvester','off-white','patta','sacai','nocta','bad bunny','union','fragment','clot'];
-      for (var i = 0; i < collabs.length; i++) { if (title.indexOf(collabs[i]) !== -1) { score += 50; break; } }
-      var premium = ['jordan 4','jordan 1','jordan 11','jordan 3','jordan 12','dunk','990','991','2002'];
-      for (var j = 0; j < premium.length; j++) { if (title.indexOf(premium[j]) !== -1) { score += 25; break; } }
-      if (r.resell) score += 30;
-      return score;
-    }
-    function isFutureOrToday(dateStr) {
-      if (!dateStr || dateStr === 'TBD') return true;
-      return new Date(dateStr + 'T23:59:59') >= new Date();
-    }
-    function formatDate(str) {
-      if (!str || str === 'TBD') return 'Date à confirmer';
-      try {
-        var p = str.split('-');
-        if (p.length === 3) {
-          var d = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
-          return d.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'long' });
-        }
-      } catch(e) {}
-      return str;
-    }
-    function formatPrice(p) {
-      if (!p && p !== 0) return '';
-      return String(p).replace(/€/g,'').replace(/EUR/gi,'').trim() + ' €';
-    }
-    function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
-    function safeTitle(t) { return (t||'').replace(/'/g,"\\'").replace(/"/g,'&quot;'); }
-    function renderHypeCard(r) {
-      var img = r.image_url
-        ? '<img src="' + r.image_url + '" alt="' + escapeHtml(r.title) + '" class="drop-card__img" loading="lazy" onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>\uD83D\uDC5F</div>\';">'
-        : '<div class="drop-card__img-placeholder">\uD83D\uDC5F</div>';
-      var btn = r.buy_url
-        ? '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="btn-cop" onclick="trackBSTN(\'' + safeTitle(r.title) + '\')">\uD83D\uDED2 Acheter sur BSTN</a>'
-        : (r.wtc_url ? '<a href="' + r.wtc_url + '" target="_blank" rel="noopener" class="btn-cop btn-cop--alert">Voir sur WhenToCop</a>' : '');
-      return '<article class="drop-card">'
-        + '<div class="drop-card__img-wrap"><div class="drop-card__badge-top badge-hot">\uD83D\uDD25 Hype</div>' + img + '</div>'
-        + '<div class="drop-card__body">'
-        + '<span class="drop-card__brand">' + escapeHtml(r.brand || '') + '</span>'
-        + '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>'
-        + '<div class="drop-card__meta">'
-        + '<span class="drop-card__date">\uD83D\uDCC5 ' + formatDate(r.date) + '</span>'
-        + '<span class="drop-card__price">' + formatPrice(r.price) + '</span>'
-        + '</div>'
-        + '<div class="drop-card__cta">' + btn + '</div>'
-        + '</div></article>';
-    }
-    fetch(RELEASES_URL)
-      .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-      .then(function(data) {
-        var upcoming = data.filter(function(r) { return r.id && !r.id.startsWith('test-') && isFutureOrToday(r.date); });
-        var sorted = upcoming.slice().sort(function(a, b) { return getScore(b) - getScore(a); });
-        var grid = document.getElementById('hype-picks-grid');
-        if (!grid) return;
-        if (!sorted.length) { grid.innerHTML = '<p style="color:var(--muted);text-align:center;padding:2rem;grid-column:1/-1">Aucun drop à venir pour l\'instant.</p>'; return; }
-        grid.innerHTML = sorted.map(renderHypeCard).join('');
-      })
-      .catch(function() {
-        var grid = document.getElementById('hype-picks-grid');
-        if (grid) grid.innerHTML = '<p style="color:var(--muted);text-align:center;padding:2rem;grid-column:1/-1">Erreur de chargement.</p>';
-      });
   })();
   </script>
 
