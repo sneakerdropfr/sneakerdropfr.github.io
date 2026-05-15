@@ -97,8 +97,8 @@
     .drop-card{background:#0A0A0A;border:1px solid rgba(255,255,255,.08);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:border-color .2s,transform .2s,box-shadow .2s}
     .drop-card:hover{border-color:rgba(255,255,255,.3);transform:translateY(-4px);box-shadow:var(--shadow-hover)}
     .drop-card__img-wrap{position:relative;aspect-ratio:1;background:#fff;overflow:hidden;flex-shrink:0}
-    .drop-card__img{width:100%;height:100%;object-fit:contain;padding:.9rem;transition:transform .3s}
-    .drop-card:hover .drop-card__img{transform:scale(1.07)}
+    .drop-card__img{width:100%;height:100%;object-fit:contain;padding:.9rem;transition:transform .3s;transform:scaleX(-1)}
+    .drop-card:hover .drop-card__img{transform:scaleX(-1) scale(1.07)}
     .drop-card__img-placeholder{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:2.5rem}
     .drop-card__badge-top{position:absolute;top:.65rem;left:.65rem;font-family:var(--font-cond);font-size:.65rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:.18rem .55rem;border-radius:4px;z-index:1}
     .badge-week{background:#E8FF00;color:#0A0A0A}
@@ -314,13 +314,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       }
     }
 
-    var FLIP_IDS = ['air-jordan-3-brazil-releases-may-2026','air-jordan-3-brazil','aj3-worlds-best-dad-2026'];
+    var FLIP_IDS = [];
+    var NO_FLIP_IDS = ['air-jordan-3-brazil-releases-may-2026','air-jordan-3-brazil','aj3-worlds-best-dad-2026'];
     function renderCard(r, index) {
       var released=isReleased(r.date);
       var skuMatch=(r.id||'').match(/([a-z]{1,3}[0-9]{4,6}-[0-9]{3,4})(?:[^-]|$)/i);
       var cardSku=skuMatch?skuMatch[1]:'';
-      var needsFlip = FLIP_IDS.indexOf(r.id||'') !== -1;
-      var imgStyle = needsFlip ? ' style="transform:scaleX(-1)"' : '';
+      var noFlip = NO_FLIP_IDS.indexOf(r.id||'') !== -1;
+      var imgStyle = noFlip ? ' style="transform:scaleX(1)"' : '';
       var img=r.image_url
         ?'<img src="'+r.image_url+'" alt="'+r.title+'" class="drop-card__img" loading="lazy"'+imgStyle+' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
         :'<div class="drop-card__img-placeholder">👟</div>';
