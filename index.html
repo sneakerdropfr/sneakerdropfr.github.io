@@ -689,7 +689,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 
     // IDs dont l'image pointe vers la gauche -> à retourner
     var FLIP_IDS = []; // toutes les images sont retournées par défaut via CSS
-    var NO_FLIP_IDS = ['air-jordan-3-brazil-releases-may-2026','air-jordan-3-brazil','aj3-worlds-best-dad-2026'];
+    var NO_FLIP_IDS = ['air-jordan-3-brazil-releases-may-2026','air-jordan-3-brazil'];
     function renderCard(r, index) {
       var released = isReleased(r.date);
       var skuMatch = (r.id || '').match(/([a-z]{1,3}[0-9]{4,6}-[0-9]{3,4})(?:[^-]|$)/i);
