@@ -327,6 +327,7 @@
       }
       return html || makeBtn(r, isBig);
     }
+    function isReleased(d) { if (!d||d==='TBD') return false; var t=new Date(); t.setHours(0,0,0,0); return new Date(d)<t; }
     function makeBtn(r, isBig) {
       if (r.stock === 'rupture') return '<span class="btn-cop btn-cop--sold">Rupture de stock</span>';
       var released = isReleased(r.date);
