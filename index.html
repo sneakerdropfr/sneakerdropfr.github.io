@@ -646,6 +646,57 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     function safeTitle(t) { return (t || '').replace(/'/g, "\\'").replace(/"/g, '&quot;'); }
     function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
 
+
+    // Retailers connus en marché secondaire (resell)
+    var RESELL_RETAILERS = ['stockx','goat','klekt','limited resell'];
+    // Retailers Nike/Jordan officiels
+    var NIKE_RETAILERS = ['nike','nike snkrs'];
+    // BSTN
+    function isRetailerBSTN(name){ return name.toLowerCase()==='bstn'; }
+    function isRetailerResell(name){ return RESELL_RETAILERS.indexOf(name.toLowerCase())!==-1; }
+    function isRetailerNike(name){ return NIKE_RETAILERS.indexOf(name.toLowerCase())!==-1; }
+
+    function makeRetailersRow(r, isBig) {
+      var retailers = r.retailers;
+      // Si pas de retailers → fallback makeBtn
+      if (!retailers || !retailers.length) return makeBtn(r, isBig);
+
+      // Séparer officiels et resell
+      var official = retailers.filter(function(rt){ return !isRetailerResell(rt.name); });
+      var resell = retailers.filter(function(rt){ return isRetailerResell(rt.name); });
+
+      var html = '';
+
+      // Officiels
+      if (official.length) {
+        html += '<div class="retailers-label">Acheter</div><div class="retailers-row">';
+        official.forEach(function(rt) {
+          var cls = isRetailerBSTN(rt.name) ? 'btn-retailer btn-retailer--bstn'
+                  : isRetailerNike(rt.name) ? 'btn-retailer btn-retailer--nike'
+                  : 'btn-retailer btn-retailer--official';
+          var icon = isRetailerBSTN(rt.name) ? '🛒 '
+                   : isRetailerNike(rt.name) ? '✓ '
+                   : '';
+          var priceStr = rt.price ? ' <span style="opacity:.6;font-size:.65rem">' + rt.price + '</span>' : '';
+          html += '<a href="' + rt.url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN('' + safeTitle(rt.name + ' ' + (r.title||'')) + '')">'
+                + icon + escapeHtml(rt.name) + priceStr + '</a>';
+        });
+        html += '</div>';
+      }
+
+      // Resell (si sortie passée ou si featured)
+      if (resell.length && (isReleased(r.date) || r.featured)) {
+        html += '<div class="retailers-label" style="margin-top:.4rem">Revente</div><div class="retailers-row">';
+        resell.forEach(function(rt) {
+          var priceStr = rt.price ? ' <span style="opacity:.6;font-size:.65rem">' + rt.price + '</span>' : '';
+          html += '<a href="' + rt.url + '" target="_blank" rel="noopener" class="btn-retailer btn-retailer--resell">'
+                + escapeHtml(rt.name) + priceStr + '</a>';
+        });
+        html += '</div>';
+      }
+
+      return html || makeBtn(r, isBig);
+    }
     function makeBtn(r, isBig) {
       var released = isReleased(r.date);
       var hasAff = r.buy_url && r.buy_url.indexOf('awin') !== -1;
@@ -681,7 +732,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           (r.resell ? '<div class="top-pick__resell">Resell estimé ~' + r.resell + '€</div>' : '') +
           '<div class="top-pick__date">📅 ' + formatDate(r.date) + '</div>' +
           alertDiv +
-          makeBtn(r, true) +
+          makeRetailersRow(r, true) +
         '</div>';
     }
 
@@ -721,7 +772,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           '</div>' +
           (r.resell ? '<div class="drop-card__resell">Resell ~' + formatPrice(r.resell) + '</div>' : '') +
           '<div class="' + urgencyClass + '">' + urgency + '</div>' +
-          '<div class="drop-card__cta">' + makeBtn(r, false) + '</div>' +
+          '<div class="drop-card__cta">' + makeRetailersRow(r, false) + '</div>' +
         '</div>' +
       '</article>';
     }
