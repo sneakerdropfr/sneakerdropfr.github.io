@@ -446,6 +446,13 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         <h2 class="section-title">Drops <span style="opacity:.55">de la Semaine</span></h2>
         <span class="section-badge sb-yellow" id="weekly-drops-badge">Cette semaine</span>
       </div>
+      <div class="filters" id="weekly-filters">
+        <button class="filter-btn active" data-weekly="all">Toutes</button>
+        <button class="filter-btn" data-weekly="Jordan">Jordan</button>
+        <button class="filter-btn" data-weekly="Nike">Nike</button>
+        <button class="filter-btn" data-weekly="Adidas">Adidas</button>
+        <button class="filter-btn" data-weekly="New Balance">New Balance</button>
+      </div>
       <div class="cards-grid" id="weekly-drops-grid" style="display:none"></div>
       <div id="weekly-drops-empty" style="display:none;color:var(--muted);text-align:center;padding:2rem;font-family:var(--font-cond)">Aucun drop cette semaine — reviens bientôt.</div>
     </div>
@@ -759,11 +766,44 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       });
       // Weekly drops section — chargé depuis weekly_data.json
       (function loadWeeklyData() {
+        var WEEKLY_BRAND_MAP = {'jordan':['jordan brand','jordan'],'nike':['nike'],'adidas':['adidas'],'new balance':['new balance']};
+        var weeklyActiveFilter = 'all';
+        var allWdrops = [];
+
+        function matchWeeklyBrand(r, filter) {
+          if (filter === 'all') return true;
+          var b = (r.brand || '').toLowerCase();
+          var keys = WEEKLY_BRAND_MAP[filter.toLowerCase()] || [filter.toLowerCase()];
+          return keys.some(function(k) { return b.indexOf(k) !== -1; });
+        }
+
+        function renderWeeklyDrops() {
+          if (!weeklyDropsGrid) return;
+          var filtered = allWdrops.filter(function(r) { return matchWeeklyBrand(r, weeklyActiveFilter); });
+          if (filtered.length) {
+            weeklyDropsGrid.style.display = 'grid';
+            weeklyDropsGrid.innerHTML = filtered.map(function(r, i) { return renderCard(r, i); }).join('');
+            if (weeklyDropsEmpty) weeklyDropsEmpty.style.display = 'none';
+          } else {
+            weeklyDropsGrid.style.display = 'none';
+            if (weeklyDropsEmpty) weeklyDropsEmpty.style.display = 'block';
+          }
+        }
+
+        // Filtres marque drops de la semaine
+        document.querySelectorAll('#weekly-filters .filter-btn').forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            document.querySelectorAll('#weekly-filters .filter-btn').forEach(function(b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            weeklyActiveFilter = btn.getAttribute('data-weekly');
+            renderWeeklyDrops();
+          });
+        });
+
         fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/weekly_data.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .then(function(wd) {
-            var wdrops = (wd.releases || []).map(function(r) {
-              // Convertir date DD/MM/YYYY -> objet release compatible renderCard
+            allWdrops = (wd.releases || []).map(function(r) {
               var dparts = (r.date||'').split('/');
               var isoDate = dparts.length===3 ? (dparts[2]+'-'+dparts[1]+'-'+dparts[0]) : r.date;
               return {
@@ -779,37 +819,21 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
                 stock: r.stock || ''
               };
             });
-            if (!weeklyDropsGrid) return;
-            if (wdrops.length) {
-              weeklyDropsGrid.style.display = 'grid';
-              weeklyDropsGrid.innerHTML = wdrops.map(function(r, i) { return renderCard(r, i); }).join('');
-              if (weeklyDropsEmpty) weeklyDropsEmpty.style.display = 'none';
-              if (weeklyDropsBadge) {
-                try {
-                  var ws = (wd.week_start||'').split('/');
-                  var we = (wd.week_end||'').split('/');
-                  var ds = ws.length===3 ? new Date(+ws[2],+ws[1]-1,+ws[0]) : null;
-                  var de = we.length===3 ? new Date(+we[2],+we[1]-1,+we[0]) : null;
-                  if (ds && de) weeklyDropsBadge.textContent = ds.toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) + ' -> ' + de.toLocaleDateString('fr-FR',{day:'numeric',month:'short'});
-                } catch(e){}
-              }
-            } else {
-              weeklyDropsGrid.style.display = 'none';
-              if (weeklyDropsEmpty) weeklyDropsEmpty.style.display = 'block';
+            if (weeklyDropsBadge) {
+              try {
+                var ws = (wd.week_start||'').split('/');
+                var we = (wd.week_end||'').split('/');
+                var ds = ws.length===3 ? new Date(+ws[2],+ws[1]-1,+ws[0]) : null;
+                var de = we.length===3 ? new Date(+we[2],+we[1]-1,+we[0]) : null;
+                if (ds && de) weeklyDropsBadge.textContent = ds.toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) + ' -> ' + de.toLocaleDateString('fr-FR',{day:'numeric',month:'short'});
+              } catch(e){}
             }
+            renderWeeklyDrops();
           })
           .catch(function() {
-            // Fallback: utiliser releases.json filtré sur la semaine
-            if (weeklyDropsGrid) {
-              if (thisWeek.length) {
-                weeklyDropsGrid.style.display = 'grid';
-                weeklyDropsGrid.innerHTML = thisWeek.map(function(r, i) { return renderCard(r, i); }).join('');
-                if (weeklyDropsEmpty) weeklyDropsEmpty.style.display = 'none';
-              } else {
-                weeklyDropsGrid.style.display = 'none';
-                if (weeklyDropsEmpty) weeklyDropsEmpty.style.display = 'block';
-              }
-            }
+            // Fallback releases.json
+            allWdrops = thisWeek;
+            renderWeeklyDrops();
           });
       })();
       document.getElementById('this-week-header').style.display = 'none';
