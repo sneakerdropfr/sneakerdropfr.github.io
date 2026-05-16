@@ -789,6 +789,9 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var _daysFromMon = _day === 0 ? 6 : _day - 1;
       var _monday = new Date(_now); _monday.setDate(_now.getDate() - _daysFromMon); _monday.setHours(0,0,0,0);
       var _sunday = new Date(_monday); _sunday.setDate(_monday.getDate() + 6); _sunday.setHours(23,59,59,999);
+      // Semaine suivante (bascule lundi 00:00 local)
+      var _nextMonday = new Date(_monday); _nextMonday.setDate(_monday.getDate() + 7);
+      var _nextSunday = new Date(_nextMonday); _nextSunday.setDate(_nextMonday.getDate() + 6); _nextSunday.setHours(23,59,59,999);
       if (weeklyDropsBadge) {
         weeklyDropsBadge.textContent = _monday.toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) + ' \u2192 ' + _sunday.toLocaleDateString('fr-FR',{day:'numeric',month:'short'});
       }
@@ -908,8 +911,16 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
                 retailers: (rel && rel.retailers) || r.retailers || null
               };
             });
-            // Badge semaine = semaine ISO en cours (calculée par render(), pas weekly_data.json)
-            // Ne pas écraser weeklyDropsBadge ici
+            // Badge : si on est lundi ou après, afficher la semaine de weekly_data.json
+            if (weeklyDropsBadge && _now >= _nextMonday) {
+              try {
+                var ws = (wd.week_start||'').split('/');
+                var we = (wd.week_end||'').split('/');
+                var ds = ws.length===3 ? new Date(+ws[2],+ws[1]-1,+ws[0]) : null;
+                var de = we.length===3 ? new Date(+we[2],+we[1]-1,+we[0]) : null;
+                if (ds && de) weeklyDropsBadge.textContent = ds.toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) + ' → ' + de.toLocaleDateString('fr-FR',{day:'numeric',month:'short'});
+              } catch(e){}
+            }
             renderWeeklyDrops();
           })
           .catch(function() {
