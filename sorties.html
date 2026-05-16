@@ -229,7 +229,7 @@ window.sdfHideBrokenCard = sdfHideBrokenCard;
       </div>
       <div class="cards-grid" id="releases-grid-today" style="display:none"></div>
       <div id="upcoming-header" style="display:none">
-        <div class="sub-header"><div class="sub-header__line"></div><span class="sub-header__label">📅 À venir</span><div class="sub-header__line"></div></div>
+        <div class="sub-header"><div class="sub-header__line"></div><span class="sub-header__label">📅 Prochaines sorties</span><div class="sub-header__line"></div></div>
       </div>
       <div class="cards-grid" id="releases-grid-upcoming" style="display:none"></div>
       <div class="releases-empty" id="releases-empty" style="display:none">Aucune sortie pour cette marque. Reviens bientôt !</div>
@@ -409,11 +409,12 @@ window.sdfHideBrokenCard = sdfHideBrokenCard;
     }
 
     function render() {
-      // Sépare en deux blocs pour éviter qu'une paire datée d'aujourd'hui
-      // (ex. sam. 16 mai → AJ3 Brazil, AJ1 Low Banned) atterrisse dans "📅 À venir".
-      // - dispoToday : date == aujourd'hui                → bloc "📦 Disponible aujourd'hui"
-      // - upcoming   : date strictement future ou TBD     → bloc "📅 À venir"
-      // - released passés : exclus des deux blocs (visibles via "Voir les anciennes sorties")
+      // Page "Prochaines sorties" = uniquement les sorties strictement futures.
+      // Les paires datées d'aujourd'hui (ex. sam. 16 mai → AJ3 Brazil, AJ1 Low Banned)
+      // sont déjà sorties et n'ont pas leur place ici. Elles restent visibles sur
+      // la home (Drops de la semaine) et via "Voir les anciennes sorties".
+      // - upcoming   : date strictement future ou TBD     → bloc "📅 Prochaines sorties"
+      // - aujourd'hui & passés : exclus (consultables ailleurs)
       var todayMidnight=new Date(); todayMidnight.setHours(0,0,0,0);
       var tomorrowMidnight=new Date(todayMidnight); tomorrowMidnight.setDate(tomorrowMidnight.getDate()+1);
 
@@ -427,10 +428,6 @@ window.sdfHideBrokenCard = sdfHideBrokenCard;
       function hasUsableImage(r){ return r.image_url && String(r.image_url).trim() !== ''; }
       function brandFilter(r){ return !r.raffle && matchBrand(r,activeFilter) && hasUsableImage(r); }
 
-      var dispoToday=allReleases.filter(function(r){
-        var d=parseLocal(r.date);
-        return d && d.getTime()===todayMidnight.getTime() && brandFilter(r);
-      });
       var upcoming=allReleases.filter(function(r){
         if (!r.date||r.date==='TBD') return brandFilter(r);
         var d=parseLocal(r.date);
@@ -438,7 +435,6 @@ window.sdfHideBrokenCard = sdfHideBrokenCard;
         return d>=tomorrowMidnight && brandFilter(r);
       });
 
-      var sortedToday=sortByDate(dispoToday);
       var sortedUpcoming=sortByDate(upcoming).slice(0,MAX_CARDS);
 
       var todayHeader=document.getElementById('today-header');
@@ -447,16 +443,9 @@ window.sdfHideBrokenCard = sdfHideBrokenCard;
       if (weekHeader) weekHeader.style.display='none';
       if (grid) grid.style.display='none';
 
-      if (sortedToday.length) {
-        if (todayHeader) todayHeader.style.display='block';
-        if (gridToday) {
-          gridToday.style.display='grid';
-          gridToday.innerHTML=sortedToday.map(function(r,i){ return renderCard(r,i); }).join('');
-        }
-      } else {
-        if (todayHeader) todayHeader.style.display='none';
-        if (gridToday) { gridToday.style.display='none'; gridToday.innerHTML=''; }
-      }
+      // Bloc "Disponible aujourd'hui" volontairement vide sur la page Prochaines sorties.
+      if (todayHeader) todayHeader.style.display='none';
+      if (gridToday) { gridToday.style.display='none'; gridToday.innerHTML=''; }
 
       if (sortedUpcoming.length) {
         if (upcomingHeader) upcomingHeader.style.display='block';
@@ -469,7 +458,7 @@ window.sdfHideBrokenCard = sdfHideBrokenCard;
         if (gridUpcoming) { gridUpcoming.style.display='none'; gridUpcoming.innerHTML=''; }
       }
 
-      if (!sortedToday.length && !sortedUpcoming.length) {
+      if (!sortedUpcoming.length) {
         if (empty) empty.style.display='block';
       } else {
         if (empty) empty.style.display='none';

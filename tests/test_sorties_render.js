@@ -1,12 +1,11 @@
 /*
- * Validation : groupement "Disponible aujourd'hui" vs "À venir" sur sorties.html.
+ * Validation : page sorties.html = "Prochaines sorties" strictement futures.
  *
- * Approche : on charge sorties.html en tant que texte, on en extrait le bloc
- *            entre les markers de la fonction render(), et on s'assure que les
- *            mots-clés clés y sont (filtre par date, séparation des deux blocs).
- *            Puis on simule la logique sur releases.json et on vérifie que
- *            AJ3 Brazil et AJ1 Low Banned (datés du 16 mai) sont bien dans le
- *            bloc "Disponible aujourd'hui" et JAMAIS dans "À venir" un 16 mai.
+ * Règle métier (mise à jour 2026-05-16) : la page Prochaines sorties n'affiche
+ * QUE les drops à venir (date > aujourd'hui). Les paires datées du jour ne
+ * doivent plus apparaître sur cette page, même dans un bloc "Disponible
+ * aujourd'hui". Elles restent visibles sur la home (Drops de la semaine) et
+ * via "Voir les anciennes sorties".
  *
  * Run: node tests/test_sorties_render.js
  */
@@ -24,22 +23,21 @@ function assert(cond, msg) {
   }
 }
 
-// -- 1. Le fichier sorties.html doit contenir le nouveau découpage --
+// -- 1. Le fichier sorties.html doit filtrer sur le strict futur --
 var sortiesHtml = fs.readFileSync(path.join(ROOT, 'sorties.html'), 'utf8');
-assert(sortiesHtml.indexOf('releases-grid-today') !== -1,
-       'sorties.html contient le grid "Disponible aujourd\'hui"');
-assert(sortiesHtml.indexOf('Disponible aujourd’hui') !== -1 || sortiesHtml.indexOf("Disponible aujourd'hui") !== -1,
-       'sorties.html contient le label "Disponible aujourd\'hui"');
-assert(sortiesHtml.indexOf('today-header') !== -1,
-       'sorties.html contient l\'en-tête "today-header"');
 assert(sortiesHtml.indexOf('d>=tomorrowMidnight') !== -1,
        'sorties.html filtre upcoming sur d >= tomorrowMidnight (strictement futur)');
-assert(sortiesHtml.indexOf('d.getTime()===todayMidnight.getTime()') !== -1,
-       'sorties.html sépare dispoToday sur égalité stricte avec todayMidnight');
+// Le bloc "Disponible aujourd'hui" doit être neutralisé sur sorties.html :
+// le grid existe encore pour compat mais render() ne l'alimente plus.
+assert(/Bloc "Disponible aujourd'hui" volontairement vide/.test(sortiesHtml),
+       'sorties.html neutralise explicitement le bloc "Disponible aujourd\'hui"');
+assert(!/var\s+dispoToday\s*=\s*allReleases\.filter/.test(sortiesHtml),
+       'sorties.html ne construit plus de bucket dispoToday alimenté');
 assert(sortiesHtml.indexOf('302926X179095') !== -1,
        'Skimlinks 302926X179095 toujours présent dans sorties.html');
 
-// -- 2. Réimplémentation locale du filtre, exécutée avec date simulée --
+// -- 2. Réimplémentation locale du filtre sorties.html (Prochaines sorties) --
+// Sur cette page : aujourd'hui & passés sont exclus ; seul upcoming est rendu.
 function buildRenderBuckets(releases, now) {
   var todayMidnight = new Date(now); todayMidnight.setHours(0,0,0,0);
   var tomorrowMidnight = new Date(todayMidnight); tomorrowMidnight.setDate(tomorrowMidnight.getDate()+1);
@@ -48,6 +46,8 @@ function buildRenderBuckets(releases, now) {
     var p=str.split('-');
     return p.length===3 ? new Date(parseInt(p[0]),parseInt(p[1])-1,parseInt(p[2])) : null;
   }
+  // dispoToday n'est plus rendu sur sorties.html : on le calcule juste pour
+  // pouvoir vérifier que le filtre upcoming l'exclut bien.
   var dispoToday = releases.filter(function(r){
     if (r.raffle) return false;
     var d = parseLocal(r.date);
@@ -73,18 +73,13 @@ var releases = JSON.parse(fs.readFileSync(path.join(ROOT, 'releases.json'), 'utf
 var samedi16mai = new Date(2026, 4, 16, 17, 0, 0);
 var buckets = buildRenderBuckets(releases, samedi16mai);
 
-var dispoIds   = buckets.dispoToday.map(function(r){ return r.id; });
 var upcomingIds= buckets.upcoming.map(function(r){ return r.id; });
 
-assert(dispoIds.indexOf('air-jordan-3-brazil-releases-may-2026') !== -1,
-       'AJ3 Brazil (16 mai) est dans "Disponible aujourd\'hui"');
-assert(dispoIds.indexOf('air-jordan-1-low-og-banned') !== -1,
-       'AJ1 Low OG Banned (16 mai) est dans "Disponible aujourd\'hui"');
-
+// Sur la page Prochaines sorties, les paires du jour n'apparaissent NULLE PART.
 assert(upcomingIds.indexOf('air-jordan-3-brazil-releases-may-2026') === -1,
-       'AJ3 Brazil (16 mai) N\'EST PAS dans "À venir"');
+       'AJ3 Brazil (16 mai) absent de "Prochaines sorties" sur sorties.html');
 assert(upcomingIds.indexOf('air-jordan-1-low-og-banned') === -1,
-       'AJ1 Low Banned (16 mai) N\'EST PAS dans "À venir"');
+       'AJ1 Low Banned (16 mai) absent de "Prochaines sorties" sur sorties.html');
 
 // -- 4. Vérifier qu'au moins une paire postérieure au 16 mai EST dans upcoming --
 var hasFutureDrop = buckets.upcoming.some(function(r){
@@ -164,6 +159,49 @@ assert(/function isSoon[\s\S]{0,400}?daysFromMon/.test(indexHtml),
        'index.html isSoon utilise la semaine lundi-dimanche (daysFromMon)');
 assert(/function isSoon[\s\S]{0,400}?daysFromMon/.test(sortiesHtml),
        'sorties.html isSoon utilise la semaine lundi-dimanche (daysFromMon)');
+
+// -- 13. Au 16 mai (sam), les AM90 du 20 mai (mar) sont dans la semaine SUIVANTE
+//        donc badge "À VENIR" pas "CETTE SEMAINE". On reproduit la logique isSoon.
+function isSoonLocal(dateStr, now) {
+  if (!dateStr || dateStr === 'TBD') return false;
+  var p = dateStr.split('-');
+  if (p.length !== 3) return false;
+  var d = new Date(+p[0], +p[1]-1, +p[2]);
+  var day = now.getDay();
+  var daysFromMon = day === 0 ? 6 : day - 1;
+  var monday = new Date(now); monday.setDate(now.getDate() - daysFromMon); monday.setHours(0,0,0,0);
+  var sunday = new Date(monday); sunday.setDate(monday.getDate() + 6); sunday.setHours(23,59,59,999);
+  return d >= monday && d <= sunday;
+}
+var am90Ids = ['nike-air-max-90-hypervenom', 'nike-air-max-90-tiempo', 'nike-air-max-90-mercurial-korea-family-reunion'];
+am90Ids.forEach(function(id){
+  var r = releases.find(function(x){ return x.id === id; });
+  if (r) {
+    assert(!isSoonLocal(r.date, samedi16mai),
+           id + ' (' + r.date + ') au 16 mai → À VENIR (pas CETTE SEMAINE)');
+  }
+});
+
+// -- 14. Dimanche 17 mai 2026 : AM90 (20 mai) toujours À VENIR ; toute paire
+//        future dans la même semaine locale (dim 17 mai si elle existe) est CETTE SEMAINE.
+var dimanche17mai = new Date(2026, 4, 17, 12, 0, 0);
+am90Ids.forEach(function(id){
+  var r = releases.find(function(x){ return x.id === id; });
+  if (r) {
+    assert(!isSoonLocal(r.date, dimanche17mai),
+           id + ' (' + r.date + ') au 17 mai → À VENIR (semaine prochaine)');
+  }
+});
+
+// -- 15. Lundi 18 mai 2026 : AM90 (20 mai) bascule sur CETTE SEMAINE.
+var lundi18maiBadge = new Date(2026, 4, 18, 10, 0, 0);
+am90Ids.forEach(function(id){
+  var r = releases.find(function(x){ return x.id === id; });
+  if (r) {
+    assert(isSoonLocal(r.date, lundi18maiBadge),
+           id + ' (' + r.date + ') au 18 mai → CETTE SEMAINE');
+  }
+});
 
 if (process.exitCode) {
   console.error('\n>>> Des tests ont échoué.');
