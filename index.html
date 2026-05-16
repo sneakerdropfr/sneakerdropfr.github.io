@@ -825,7 +825,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         return;
       }
       if (empty) empty.style.display = 'none';
-      var thisWeek = sorted.filter(function(r) {
+      // thisWeek : toutes les paires semaine ISO en cours (lundi-dimanche inclus jours passes)
+      var thisWeek = allReleases.filter(function(r) {
         if (!r.date || r.date === 'TBD') return false;
         var d = parseDateLocal(r.date);
         return d && d >= _monday && d <= _sunday;
