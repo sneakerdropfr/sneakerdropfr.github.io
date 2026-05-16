@@ -871,6 +871,12 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           });
         });
 
+        // Avant lundi 00:00 local : afficher la semaine en cours depuis releases.json
+        if (_now < _nextMonday) {
+          allWdrops = thisWeek;
+          renderWeeklyDrops();
+          return;
+        }
         fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/weekly_data.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .then(function(wd) {
