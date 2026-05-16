@@ -174,6 +174,16 @@
 <body>
 <script>
 function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+// Globalement : si une image produit casse (403, hotlink, blocked), on masque la
+// card entière dans les listings au lieu d'afficher l'emoji 👟 violet trompeur.
+function sdfHideBrokenCard(imgEl) {
+  if (!imgEl) return;
+  var card = imgEl.closest ? imgEl.closest('.drop-card, .raffle-single, .src') : null;
+  if (card && card.parentNode) { card.style.display = 'none'; card.setAttribute('data-broken-image','1'); return; }
+  var wrap = imgEl.parentNode;
+  if (wrap) wrap.style.display = 'none';
+}
+window.sdfHideBrokenCard = sdfHideBrokenCard;
 </script>
 
   <!-- HEADER -->
@@ -366,9 +376,9 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var cardSku=skuMatch?skuMatch[1]:'';
       var noFlip = NO_FLIP_IDS.indexOf(r.id||'') !== -1;
       var imgStyle = noFlip ? ' style="transform:scaleX(1)"' : '';
-      var img=r.image_url
-        ?'<img src="'+r.image_url+'" alt="'+r.title+'" class="drop-card__img" loading="lazy"'+imgStyle+' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
-        :'<div class="drop-card__img-placeholder">👟</div>';
+      // Pas d'image utilisable → card non rendue (le filtre en amont devrait l'éviter).
+      if (!r.image_url || !String(r.image_url).trim()) return '';
+      var img='<img src="'+r.image_url+'" alt="'+r.title+'" class="drop-card__img" loading="lazy"'+imgStyle+' onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">';
       var badgeTop=released
         ?'<div class="drop-card__badge-top badge-week">🔥 Dispo</div>'
         :(isSoon(r.date)
@@ -412,7 +422,10 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         var p=str.split('-');
         return p.length===3?new Date(parseInt(p[0]),parseInt(p[1])-1,parseInt(p[2])):null;
       }
-      function brandFilter(r){ return !r.raffle && matchBrand(r,activeFilter); }
+      // Exclure les cards sans image utilisable des listings : évite l'emoji 👟
+      // violet sur les sections publiques. La paire reste accessible via sa page détail.
+      function hasUsableImage(r){ return r.image_url && String(r.image_url).trim() !== ''; }
+      function brandFilter(r){ return !r.raffle && matchBrand(r,activeFilter) && hasUsableImage(r); }
 
       var dispoToday=allReleases.filter(function(r){
         var d=parseLocal(r.date);
@@ -554,9 +567,17 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     if (!data.length){
       pastGrid.innerHTML='<p style="text-align:center;color:var(--muted);padding:2rem">Aucune ancienne sortie disponible.</p>';
     } else {
+      // Filtrer les past sans image utilisable — pas de fallback emoji violet 👟 dans la grille.
+      data = data.filter(function(r) { return r.image_url && String(r.image_url).trim() !== ''; });
+      if (!data.length) {
+        pastGrid.innerHTML='<p style="text-align:center;color:var(--muted);padding:2rem">Aucune ancienne sortie disponible.</p>';
+        pastGrid.style.display='block';
+        btn.textContent='🔼 Masquer les anciennes sorties';
+        return;
+      }
       var html='<div class="cards-grid">';
       data.forEach(function(r){
-        var img=r.image_url?'<img src="'+r.image_url+'" class="drop-card__img" loading="lazy" onerror="this.style.display=\'none\'">':'<div class="drop-card__img-placeholder">👟</div>';
+        var img='<img src="'+r.image_url+'" class="drop-card__img" loading="lazy" onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">';
         var hasLink=(r.retailers&&r.retailers.length)||r.buy_url||r.wtc_url;
         var articleUrl=(r.id&&hasLink)?'sorties/'+r.id+'.html':null;
         var imgWrap=articleUrl
