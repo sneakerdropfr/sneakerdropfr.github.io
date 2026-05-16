@@ -799,12 +799,13 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         var p = str.split('-');
         return p.length === 3 ? new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2])) : null;
       }
+      // notReleased = strictement futur (exclut aujourd'hui) ; "Prochaines sorties" ne doit pas revivre une paire du jour.
       var notReleased = allReleases.filter(function(r) {
         if (!r.date || r.date === 'TBD') return true;
         var d = parseDateLocal(r.date);
         if (!d) return true;
         var todayMidnight = new Date(); todayMidnight.setHours(0,0,0,0);
-        return d >= todayMidnight;
+        return d > todayMidnight;
       });
       var filtered = notReleased.filter(function(r) { return matchBrand(r, activeFilter); });
       if (window._searchQuery) {
@@ -918,14 +919,19 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
                 retailers: (rel && rel.retailers) || r.retailers || null
               };
             });
-            // Badge : si on est lundi ou après, afficher la semaine de weekly_data.json
+            // Badge weekly_data.json : seulement si la semaine décrite contient bien aujourd'hui.
+            // Défense contre un weekly_data.json livré en avance (ex. samedi pour semaine suivante).
             if (weeklyDropsBadge && _now >= _nextMonday) {
               try {
                 var ws = (wd.week_start||'').split('/');
                 var we = (wd.week_end||'').split('/');
                 var ds = ws.length===3 ? new Date(+ws[2],+ws[1]-1,+ws[0]) : null;
                 var de = we.length===3 ? new Date(+we[2],+we[1]-1,+we[0]) : null;
-                if (ds && de) weeklyDropsBadge.textContent = ds.toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) + ' → ' + de.toLocaleDateString('fr-FR',{day:'numeric',month:'short'});
+                if (ds) ds.setHours(0,0,0,0);
+                if (de) de.setHours(23,59,59,999);
+                if (ds && de && ds <= _now && _now <= de) {
+                  weeklyDropsBadge.textContent = ds.toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) + ' → ' + de.toLocaleDateString('fr-FR',{day:'numeric',month:'short'});
+                }
               } catch(e){}
             }
             renderWeeklyDrops();

@@ -387,13 +387,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     }
 
     function render() {
+      // Prochaines sorties = strictement futures (exclut aujourd'hui et passées) ; TBD reste affiché.
       var notReleased=allReleases.filter(function(r){
         if (!r.date||r.date==='TBD') return true;
         var p=r.date.split('-');
         var d=p.length===3?new Date(parseInt(p[0]),parseInt(p[1])-1,parseInt(p[2])):null;
         if (!d) return true;
         var todayMidnight=new Date(); todayMidnight.setHours(0,0,0,0);
-        return d>=todayMidnight;
+        return d>todayMidnight;
       });
       var filtered=notReleased.filter(function(r){ return !r.raffle && matchBrand(r,activeFilter); });
       var sorted=sortByDate(filtered).slice(0,MAX_CARDS);
