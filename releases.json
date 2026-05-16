@@ -1220,35 +1220,60 @@
   },
   {
     "id": "bluetile-nike-sb-dunk-low",
-    "title": "Bluetile x Nike SB Dunk Low",
+    "title": "Bluetile x Nike SB Dunk Low \"Monarch Butterfly\"",
     "brand": "Nike",
+    "colorway": "Black/White-Campfire Orange-Marina",
     "date": "2026-05-12",
-    "price": "125€",
-    "image_url": "",
-    "buy_url": "",
-    "wtc_url": "",
-    "retailers": []
+    "price": "135€",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/bluetile-nike-sb-dunk-low-iq1323-001.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/bluetile-nike-sb-dunk-low-iq1323-001",
+    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com",
+    "score": 70,
+    "retailers": [
+      { "name": "Nike SNKRS", "url": "https://www.nike.com/fr/launch", "price": "135€" },
+      { "name": "BSTN", "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com", "price": "135€" },
+      { "name": "Solebox", "url": "https://www.solebox.com", "price": "135€" },
+      { "name": "END.", "url": "https://www.endclothing.com", "price": "135€" },
+      { "name": "Afew", "url": "https://www.afew-store.com", "price": "135€" },
+      { "name": "FootDistrict", "url": "https://footdistrict.com/fr", "price": "135€" },
+      { "name": "StockX", "url": "https://stockx.com/fr-fr/nike-sb-dunk-low-pro-bluetile-skateboards", "price": "170€" }
+    ]
   },
   {
     "id": "nike-ja-3-let-me-be-ja",
-    "title": "Nike Ja 3 'Let Me Be Ja'",
+    "title": "Nike Ja 3 \"Let Me Be Ja\"",
     "brand": "Nike",
+    "colorway": "Tour Yellow/Black-University Red",
     "date": "2026-05-12",
     "price": "115€",
-    "image_url": "",
-    "buy_url": "",
-    "wtc_url": "",
-    "retailers": []
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-ja-3-let-me-be-ja-hf2793-702.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-ja-3-let-me-be-ja-hf2793-702",
+    "buy_url": "https://www.nike.com/fr/launch",
+    "score": 40,
+    "retailers": [
+      { "name": "Nike", "url": "https://www.nike.com/fr/launch", "price": "115€" },
+      { "name": "Foot Locker", "url": "https://www.footlocker.fr", "price": "115€" },
+      { "name": "JD Sports", "url": "https://www.jdsports.fr", "price": "115€" },
+      { "name": "StockX", "url": "https://stockx.com/fr-fr/nike-ja-3-let-me-be-ja", "price": "120€" }
+    ]
   },
   {
     "id": "air-griffey-max-1-2026",
-    "title": "Air Griffey Max 1",
+    "title": "Nike Air Griffey Max 1 \"Freshwater\"",
     "brand": "Nike",
+    "colorway": "White/Black-Freshwater-Varsity Red",
     "date": "2026-05-15",
-    "price": "TBD",
-    "image_url": "",
-    "buy_url": "",
-    "wtc_url": "",
-    "retailers": []
+    "price": "160€",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-air-griffey-max-1-freshwater-dd8558-100-2026.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-griffey-max-1-freshwater-dd8558-100",
+    "buy_url": "https://www.nike.com/fr/launch",
+    "score": 55,
+    "retailers": [
+      { "name": "Nike", "url": "https://www.nike.com/fr/launch", "price": "160€" },
+      { "name": "Foot Locker", "url": "https://www.footlocker.fr", "price": "160€" },
+      { "name": "JD Sports", "url": "https://www.jdsports.fr", "price": "160€" },
+      { "name": "Urbanstar", "url": "https://www.urbanstar.fr", "price": "160€" },
+      { "name": "StockX", "url": "https://stockx.com/fr-fr/nike-air-griffey-max-1-freshwater-2026", "price": "175€" }
+    ]
   }
 ]
