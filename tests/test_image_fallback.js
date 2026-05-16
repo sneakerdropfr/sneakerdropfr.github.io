@@ -123,6 +123,119 @@ BROKEN_URL_PATTERNS.forEach(function(rx, i){
   }
 });
 
+// -- 8. Sweep dynamique : une image avec naturalWidth=0 doit masquer sa card parent.
+//        On simule un DOM minimal et on extrait le code de sweep d'index.html.
+(function testSweepHidesBrokenCard() {
+  var idx = read('index.html');
+  // Extraire le bloc <script> contenant sdfHideBrokenCard…
+  var m = idx.match(/<script>\s*function escapeHtml[\s\S]*?<\/script>/);
+  assert(!!m, 'extraction du bloc <script> sweep depuis index.html');
+  if (!m) return;
+  var src = m[0].replace(/^<script>/, '').replace(/<\/script>$/, '');
+
+  // DOM mock minimal : ChildNode + querySelectorAll + closest + matches + addEventListener.
+  function makeEl(tag, className) {
+    var el = {
+      tagName: tag.toUpperCase(),
+      nodeType: 1,
+      className: className || '',
+      children: [],
+      parentNode: null,
+      style: {},
+      attrs: {},
+      complete: false,
+      naturalWidth: 0,
+      _listeners: {},
+      setAttribute: function(k, v) { this.attrs[k] = v; },
+      getAttribute: function(k) { return this.attrs[k] != null ? String(this.attrs[k]) : null; },
+      addEventListener: function(ev, fn) { (this._listeners[ev] = this._listeners[ev] || []).push(fn); },
+      dispatch: function(ev) { (this._listeners[ev] || []).forEach(function(f){ f({ target: el }); }); },
+      appendChild: function(c) { c.parentNode = this; this.children.push(c); return c; },
+      matches: function(sel) {
+        var parts = sel.split(',').map(function(s){return s.trim();});
+        for (var i = 0; i < parts.length; i++) {
+          var p = parts[i];
+          if (p.charAt(0) === '.') {
+            if ((' '+this.className+' ').indexOf(' '+p.slice(1)+' ') !== -1) return true;
+          } else if (p === this.tagName.toLowerCase()) {
+            return true;
+          }
+        }
+        return false;
+      },
+      closest: function(sel) {
+        var n = this;
+        while (n) { if (n.matches && n.matches(sel)) return n; n = n.parentNode; }
+        return null;
+      },
+      querySelectorAll: function(sel) {
+        var out = [];
+        function walk(node) {
+          for (var i = 0; i < node.children.length; i++) {
+            var c = node.children[i];
+            if (sel === 'img') { if (c.tagName === 'IMG') out.push(c); }
+            else if (c.matches && c.matches(sel)) out.push(c);
+            walk(c);
+          }
+        }
+        walk(this);
+        return out;
+      }
+    };
+    return el;
+  }
+  var doc = makeEl('html');
+  var body = makeEl('body');
+  doc.body = body;
+  body.parentNode = doc;
+  doc.appendChild(body);
+  // Card .drop-card > a.drop-card__img-wrap > img (image cassée, naturalWidth=0)
+  var card = makeEl('article', 'drop-card');
+  var wrap = makeEl('a', 'drop-card__img-wrap');
+  var img  = makeEl('img', 'drop-card__img');
+  img.complete = true; img.naturalWidth = 0;
+  body.appendChild(card); card.appendChild(wrap); wrap.appendChild(img);
+  // Stubs globaux pour le bout de code extrait
+  doc.addEventListener = function(){};
+  doc.querySelectorAll = body.querySelectorAll.bind(body);
+  var win = {
+    MutationObserver: function() { this.observe = function(){}; },
+    sdfHideBrokenCard: null,
+    sdfSweepBrokenImages: null
+  };
+  // Évalue le bloc dans un scope contrôlé
+  try {
+    var run = new Function('window', 'document', src + '\nreturn { hide: sdfHideBrokenCard, sweep: sdfSweepBrokenImages };');
+    var api = run(win, doc);
+    api.sweep(body);
+    assert(card.style.display === 'none',
+           'sweep masque la .drop-card parent quand naturalWidth=0 (display:none)');
+    assert(card.attrs['data-broken-image'] === '1',
+           'sweep marque la card avec data-broken-image=1');
+  } catch (e) {
+    assert(false, 'sweep exécutable dans un DOM mock : ' + e.message);
+  }
+
+  // Cas 2 : image qui charge tardivement (load après sweep) avec naturalWidth=0.
+  var card2 = makeEl('article', 'drop-card');
+  var wrap2 = makeEl('div', 'drop-card__img-wrap');
+  var img2  = makeEl('img', 'drop-card__img');
+  img2.complete = false; img2.naturalWidth = 0;
+  body.appendChild(card2); card2.appendChild(wrap2); wrap2.appendChild(img2);
+  try {
+    var run2 = new Function('window', 'document', src + '\nreturn { sweep: sdfSweepBrokenImages };');
+    var api2 = run2(win, doc);
+    api2.sweep(body);
+    // L'image finit par charger mais avec naturalWidth=0 → load event doit cacher.
+    img2.complete = true; img2.naturalWidth = 0;
+    img2.dispatch('load');
+    assert(card2.style.display === 'none',
+           'sweep masque la card quand load se déclenche tardivement avec naturalWidth=0');
+  } catch (e) {
+    assert(false, 'sweep gère le load tardif : ' + e.message);
+  }
+})();
+
 if (process.exitCode) {
   console.error('\n>>> Des tests ont échoué.');
 } else {

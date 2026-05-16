@@ -359,41 +359,80 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 // Globalement : si une image produit casse (403, hotlink, blocked), on masque la
 // card entière dans les listings au lieu d'afficher l'emoji 👟 violet trompeur.
 // Demandé : "ne pas laisser visible une card avec image fallback violette".
+var SDF_CARD_SEL = '.drop-card, .raffle-single, .src, .top-pick__card, .raffle-card';
 function sdfHideBrokenCard(imgEl) {
-  if (!imgEl) return;
-  var card = imgEl.closest ? imgEl.closest('.drop-card, .raffle-single, .src, .top-pick__card, .raffle-card') : null;
-  if (card && card.parentNode) { card.style.display = 'none'; card.setAttribute('data-broken-image','1'); return; }
-  // Fallback : si pas de container reconnu, on cache au moins l'img-wrap
-  var wrap = imgEl.parentNode;
-  if (wrap) wrap.style.display = 'none';
+  if (!imgEl || imgEl.getAttribute && imgEl.getAttribute('data-sdf-broken') === '1') return;
+  if (imgEl.setAttribute) imgEl.setAttribute('data-sdf-broken', '1');
+  var card = imgEl.closest ? imgEl.closest(SDF_CARD_SEL) : null;
+  if (card && card.parentNode) {
+    card.style.display = 'none';
+    card.setAttribute('data-broken-image','1');
+    return;
+  }
+  // Fallback : si pas de container reconnu, on remonte aux ancêtres "card-like"
+  // (article, li, .card, [class*=card]) puis l'img-wrap, puis l'image.
+  var anc = imgEl.parentNode;
+  while (anc && anc !== document.body) {
+    if (anc.matches && (anc.matches('article, li') || /(^|\s)(card|drop|pick|raffle)/i.test(anc.className || ''))) {
+      anc.style.display = 'none';
+      anc.setAttribute('data-broken-image','1');
+      return;
+    }
+    anc = anc.parentNode;
+  }
+  if (imgEl.parentNode) imgEl.parentNode.style.display = 'none';
 }
-// L'événement `error` ne se déclenche pas toujours (image servie en 200 mais
-// vide / tracking pixel). On vérifie aussi naturalWidth après `load` et on
-// scanne au DOMContentLoaded toute image déjà résolue avec naturalWidth=0.
 function sdfCheckImgLoaded(imgEl) {
   if (!imgEl) return;
   if (imgEl.complete && imgEl.naturalWidth === 0) sdfHideBrokenCard(imgEl);
 }
+// Armement par image : appelé pour chaque <img> rencontré. Branche load/error
+// idempotents et déclenche un check immédiat si l'image est déjà complete.
+function sdfArmImage(im) {
+  if (!im || im.getAttribute && im.getAttribute('data-sdf-armed') === '1') return;
+  if (im.setAttribute) im.setAttribute('data-sdf-armed', '1');
+  im.addEventListener('error', function(){ sdfHideBrokenCard(im); });
+  im.addEventListener('load',  function(){ sdfCheckImgLoaded(im); });
+  if (im.complete) sdfCheckImgLoaded(im);
+}
 function sdfSweepBrokenImages(root) {
   var scope = root || document;
-  var imgs = scope.querySelectorAll('.drop-card img, .top-pick__card img, .raffle-single img, .raffle-card img, .src img');
-  for (var i = 0; i < imgs.length; i++) {
-    var im = imgs[i];
-    if (im.complete) {
-      if (im.naturalWidth === 0) sdfHideBrokenCard(im);
-    } else {
-      im.addEventListener('load', function(e){ sdfCheckImgLoaded(e.target); }, { once: true });
-      im.addEventListener('error', function(e){ sdfHideBrokenCard(e.target); }, { once: true });
-    }
-  }
+  // On scanne TOUTES les <img> du scope : certaines cards (raffle, src, search)
+  // n'ont pas toujours la classe attendue sur l'img elle-même, donc on remonte
+  // ensuite via .closest pour trouver le container réel.
+  var imgs = scope.querySelectorAll ? scope.querySelectorAll('img') : [];
+  for (var i = 0; i < imgs.length; i++) sdfArmImage(imgs[i]);
 }
 window.sdfHideBrokenCard = sdfHideBrokenCard;
 window.sdfSweepBrokenImages = sdfSweepBrokenImages;
+// MutationObserver : toute card/img injectée après coup (fetch async weekly_data,
+// past releases, search, top-pick) est armée immédiatement. Sans ça, le sweep
+// initial rate les rendus tardifs.
+(function setupSdfObserver(){
+  if (!window.MutationObserver) return;
+  var mo = new window.MutationObserver(function(muts){
+    for (var i = 0; i < muts.length; i++) {
+      var added = muts[i].addedNodes;
+      for (var j = 0; j < added.length; j++) {
+        var n = added[j];
+        if (!n || n.nodeType !== 1) continue;
+        if (n.tagName === 'IMG') sdfArmImage(n);
+        else if (n.querySelectorAll) {
+          var sub = n.querySelectorAll('img');
+          for (var k = 0; k < sub.length; k++) sdfArmImage(sub[k]);
+        }
+      }
+    }
+  });
+  function start(){ mo.observe(document.body, { childList: true, subtree: true }); }
+  if (document.body) start();
+  else document.addEventListener('DOMContentLoaded', start);
+})();
 document.addEventListener('DOMContentLoaded', function(){
-  // Sweep initial + balayages différés pour rattraper le rendu async des listings.
+  // Sweep initial + balayages différés. Les délais couvrent les fetchs async
+  // (weekly_data.json, top-pick, past, search) jusqu'à ~8s.
   sdfSweepBrokenImages();
-  setTimeout(sdfSweepBrokenImages, 1500);
-  setTimeout(sdfSweepBrokenImages, 4000);
+  [500, 1500, 3000, 5000, 8000].forEach(function(d){ setTimeout(sdfSweepBrokenImages, d); });
 });
 </script>
 
