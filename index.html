@@ -595,8 +595,15 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     }
     function isSoon(dateStr) {
       if (!dateStr || dateStr === 'TBD') return false;
-      var diff = (new Date(dateStr + 'T12:00:00') - new Date()) / (1000*60*60*24);
-      return diff >= 0 && diff <= 7;
+      var p = dateStr.split('-');
+      if (p.length !== 3) return false;
+      var d = new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2]));
+      var now = new Date();
+      var day = now.getDay();
+      var daysFromMon = day === 0 ? 6 : day - 1;
+      var monday = new Date(now); monday.setDate(now.getDate() - daysFromMon); monday.setHours(0,0,0,0);
+      var sunday = new Date(monday); sunday.setDate(monday.getDate() + 6); sunday.setHours(23,59,59,999);
+      return d >= monday && d <= sunday;
     }
     function getScore(r) {
       var score = 0;
@@ -853,6 +860,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         function renderWeeklyDrops() {
           if (!weeklyDropsGrid) return;
           var filtered = allWdrops.filter(function(r) { return matchWeeklyBrand(r, weeklyActiveFilter); });
+          // Exclure les cards sans image utilisable (évite placeholder 👟 dans la section semaine)
+          filtered = filtered.filter(function(r) { return r.image_url && String(r.image_url).trim() !== ''; });
+          // Tri croissant par date dans la semaine (du plus ancien au plus récent)
+          filtered = filtered.slice().sort(function(a, b) {
+            var da = a.date && a.date !== 'TBD' ? new Date(a.date) : new Date('9999-12-31');
+            var db = b.date && b.date !== 'TBD' ? new Date(b.date) : new Date('9999-12-31');
+            return da - db;
+          });
           if (filtered.length) {
             weeklyDropsGrid.style.display = 'grid';
             weeklyDropsGrid.innerHTML = filtered.map(function(r, i) { return renderCard(r, i); }).join('');
@@ -1120,13 +1135,19 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var html = '<div class="cards-grid">';
       data.forEach(function(r) {
         var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" onerror="this.style.display=\'none\'">' : '<div class="drop-card__img-placeholder">👟</div>';
+        var hasLink = (r.retailers && r.retailers.length) || r.buy_url || r.wtc_url;
+        var articleUrl = (r.id && hasLink) ? 'sorties/' + r.id + '.html' : null;
         html += '<article class="drop-card">';
-        html += '<div class="drop-card__img-wrap">' + img + '</div>';
+        html += articleUrl
+          ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + img + '</a>'
+          : '<div class="drop-card__img-wrap">' + img + '</div>';
         html += '<div class="drop-card__body">';
         html += '<div class="drop-card__brand">' + (r.brand || r.source || '') + '</div>';
-        html += '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
+        html += articleUrl
+          ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
+          : '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
         html += '<div class="drop-card__meta"><span>' + (r.date || 'TBD') + '</span><span class="drop-card__price">' + (r.price || '') + '</span></div>';
-        html += '<a href="' + (r.link || '#') + '" target="_blank" rel="noopener" class="drop-card__cta btn-cop">Voir la paire</a>';
+        html += '<a href="' + (r.link || articleUrl || '#') + '"' + (articleUrl && !r.link ? '' : ' target="_blank" rel="noopener"') + ' class="drop-card__cta btn-cop">Voir la paire</a>';
         html += '</div></article>';
       });
       html += '</div>';

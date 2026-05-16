@@ -112,6 +112,61 @@ assert(!shouldApplyWeeklyDataBadge(now, '18/05/2026', '24/05/2026'),
 assert( shouldApplyWeeklyDataBadge(monMorning, '18/05/2026', '24/05/2026'),
        'lundi 18 mai : weekly_data 18→24 mai PEUT écraser le badge');
 
+// ---- Badge "Cette semaine" vs "À venir" — la logique isSoon doit s'appuyer
+// sur la semaine en cours (lundi-dimanche locaux), pas sur un fenêtre de 7 jours
+// glissants. Une paire du 20/05 vue depuis le 16/05 doit être "À venir".
+function isSoonNew(dateStr, now) {
+  if (!dateStr || dateStr === 'TBD') return false;
+  var p = dateStr.split('-');
+  if (p.length !== 3) return false;
+  var d = new Date(+p[0], +p[1]-1, +p[2]);
+  var day = now.getDay();
+  var daysFromMon = day === 0 ? 6 : day - 1;
+  var monday = new Date(now); monday.setDate(now.getDate() - daysFromMon); monday.setHours(0,0,0,0);
+  var sunday = new Date(monday); sunday.setDate(monday.getDate() + 6); sunday.setHours(23,59,59,999);
+  return d >= monday && d <= sunday;
+}
+// Bug constaté : AM90 du 20 mai badgée "Cette semaine" alors qu'on est le 16 mai.
+assert( isSoonNew('2026-05-16', now), 'AJ3 Brazil (16 mai) → CETTE SEMAINE');
+assert( isSoonNew('2026-05-17', now), 'Drop dim 17 mai → CETTE SEMAINE');
+assert(!isSoonNew('2026-05-18', now), 'Drop lun 18 mai (semaine prochaine) → À VENIR (pas CETTE SEMAINE)');
+assert(!isSoonNew('2026-05-20', now), 'AM90 Tiempo 20 mai → À VENIR (pas CETTE SEMAINE)');
+assert( isSoonNew('2026-05-13', now), 'AM90 Hypervenom 13 mai (jour passé de la semaine) → CETTE SEMAINE');
+assert(!isSoonNew('2026-09-25', now), 'Drop sept lointain → À VENIR');
+
+// ---- Tri croissant pour "Drops de la semaine" ----
+function sortAsc(arr) {
+  return arr.slice().sort(function(a, b) {
+    var da = a.date && a.date !== 'TBD' ? new Date(a.date) : new Date('9999-12-31');
+    var db = b.date && b.date !== 'TBD' ? new Date(b.date) : new Date('9999-12-31');
+    return da - db;
+  });
+}
+var weeklyMix = [
+  { title: 'Sun 17',  date: '2026-05-17' },
+  { title: 'Mon 11',  date: '2026-05-11' },
+  { title: 'Sat 16',  date: '2026-05-16' },
+  { title: 'Tue 12',  date: '2026-05-12' },
+];
+var sortedTitles = sortAsc(weeklyMix).map(function(r){return r.title;});
+assert(sortedTitles[0] === 'Mon 11' && sortedTitles[sortedTitles.length-1] === 'Sun 17',
+       'Drops semaine triés croissant (du plus ancien au plus récent) — got ' + sortedTitles.join(' / '));
+
+// ---- Filtrage cards sans image ----
+function filterWithImage(arr) {
+  return arr.filter(function(r){ return r.image_url && String(r.image_url).trim() !== ''; });
+}
+var mixedImg = [
+  { title: 'A', image_url: 'https://example.com/a.jpg' },
+  { title: 'B', image_url: '' },
+  { title: 'C' },
+  { title: 'D', image_url: '   ' },
+  { title: 'E', image_url: 'https://example.com/e.jpg' },
+];
+var withImg = filterWithImage(mixedImg).map(function(r){return r.title;});
+assert(withImg.length === 2 && withImg.join(',') === 'A,E',
+       'Filtrage image utilisable : seules A et E gardées (got ' + withImg.join(',') + ')');
+
 if (process.exitCode) {
   console.error('\n>>> Des tests ont échoué.');
 } else {

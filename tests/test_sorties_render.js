@@ -129,6 +129,42 @@ if (nb991) {
          'lun 18 mai : NB 991v2 Made in UK Grey Balsam dans upcoming');
 }
 
+// -- 9. Past releases : cards cliquables vers la page détail quand hasLink + id --
+var indexHtml = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+assert(indexHtml.indexOf('302926X179095') !== -1,
+       'Skimlinks 302926X179095 toujours présent dans index.html');
+assert(/renderPastGrid[\s\S]*?hasLink\s*=\s*\(r\.retailers/.test(indexHtml),
+       'index.html renderPastGrid utilise hasLink (anti-404)');
+assert(/renderPastGrid[\s\S]*?articleUrl\s*=\s*\(r\.id\s*&&\s*hasLink\)/.test(indexHtml),
+       'index.html renderPastGrid construit articleUrl uniquement si id + hasLink');
+
+assert(/renderPastGrid[\s\S]*?hasLink\s*=\s*\(r\.retailers/.test(sortiesHtml),
+       'sorties.html renderPastGrid utilise hasLink (anti-404)');
+
+// -- 10. Past JSON : chaque id doit pointer vers un fichier sortie qui existe --
+var pastJson = JSON.parse(fs.readFileSync(path.join(ROOT, 'releases_past.json'), 'utf8'));
+var missing = pastJson.filter(function(r){
+  if (!r.id) return false;
+  return !fs.existsSync(path.join(ROOT, 'sorties', r.id + '.html'));
+});
+assert(missing.length === 0,
+       'releases_past.json : tous les id correspondent à une page détail (manquants: ' +
+       missing.map(function(r){return r.id;}).join(', ') + ')');
+
+// -- 11. Index "Drops de la semaine" : tri ascendant + filtrage image --
+assert(/Tri croissant par date dans la semaine/.test(indexHtml) ||
+       /sort\(function\(a,\s*b\)\s*{[\s\S]{0,150}?return\s+da\s*-\s*db/.test(indexHtml),
+       'index.html applique un tri croissant dans renderWeeklyDrops');
+assert(/Exclure les cards sans image utilisable/.test(indexHtml) ||
+       /filter\(function\(r\)\s*{\s*return\s+r\.image_url/.test(indexHtml),
+       'index.html exclut les cards sans image utilisable dans renderWeeklyDrops');
+
+// -- 12. Badge "isSoon" recalibré sur semaine en cours (pas 7j glissants) --
+assert(/function isSoon[\s\S]{0,400}?daysFromMon/.test(indexHtml),
+       'index.html isSoon utilise la semaine lundi-dimanche (daysFromMon)');
+assert(/function isSoon[\s\S]{0,400}?daysFromMon/.test(sortiesHtml),
+       'sorties.html isSoon utilise la semaine lundi-dimanche (daysFromMon)');
+
 if (process.exitCode) {
   console.error('\n>>> Des tests ont échoué.');
 } else {
