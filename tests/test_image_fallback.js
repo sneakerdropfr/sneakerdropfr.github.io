@@ -148,9 +148,15 @@ BROKEN_URL_PATTERNS.forEach(function(rx, i){
       _listeners: {},
       setAttribute: function(k, v) { this.attrs[k] = v; },
       getAttribute: function(k) { return this.attrs[k] != null ? String(this.attrs[k]) : null; },
+      removeAttribute: function(k) { delete this.attrs[k]; },
       addEventListener: function(ev, fn) { (this._listeners[ev] = this._listeners[ev] || []).push(fn); },
       dispatch: function(ev) { (this._listeners[ev] || []).forEach(function(f){ f({ target: el }); }); },
       appendChild: function(c) { c.parentNode = this; this.children.push(c); return c; },
+      removeChild: function(c) {
+        var i = this.children.indexOf(c);
+        if (i !== -1) { this.children.splice(i, 1); c.parentNode = null; }
+        return c;
+      },
       matches: function(sel) {
         var parts = sel.split(',').map(function(s){return s.trim();});
         for (var i = 0; i < parts.length; i++) {
@@ -193,7 +199,7 @@ BROKEN_URL_PATTERNS.forEach(function(rx, i){
   var card = makeEl('article', 'drop-card');
   var wrap = makeEl('a', 'drop-card__img-wrap');
   var img  = makeEl('img', 'drop-card__img');
-  img.complete = true; img.naturalWidth = 0;
+  img.complete = true; img.naturalWidth = 0; img.src = 'http://broken/case1.jpg';
   body.appendChild(card); card.appendChild(wrap); wrap.appendChild(img);
   // Stubs globaux pour le bout de code extrait
   doc.addEventListener = function(){};
@@ -205,13 +211,21 @@ BROKEN_URL_PATTERNS.forEach(function(rx, i){
   };
   // Évalue le bloc dans un scope contrôlé
   try {
-    var run = new Function('window', 'document', src + '\nreturn { hide: sdfHideBrokenCard, sweep: sdfSweepBrokenImages };');
+    var run = new Function('window', 'document', src + '\nreturn { hide: sdfHideBrokenCard, sweep: sdfSweepBrokenImages, isBroken: sdfIsBrokenImg };');
     var api = run(win, doc);
     api.sweep(body);
     assert(card.style.display === 'none',
            'sweep masque la .drop-card parent quand naturalWidth=0 (display:none)');
     assert(card.attrs['data-broken-image'] === '1',
            'sweep marque la card avec data-broken-image=1');
+    // Critère d'acceptation Playwright : l'<img> elle-même doit être masquée
+    // (display:none) ET/OU retirée du DOM. On vérifie les deux côtés.
+    var imgGone = wrap.children.indexOf(img) === -1;
+    var imgHidden = img.style.display === 'none';
+    assert(imgGone || imgHidden,
+           "sweep masque l'<img> elle-même (display:none) ou la retire du DOM");
+    assert(img.attrs['data-sdf-broken'] === '1',
+           "sweep marque l'img avec data-sdf-broken=1");
   } catch (e) {
     assert(false, 'sweep exécutable dans un DOM mock : ' + e.message);
   }
@@ -220,7 +234,7 @@ BROKEN_URL_PATTERNS.forEach(function(rx, i){
   var card2 = makeEl('article', 'drop-card');
   var wrap2 = makeEl('div', 'drop-card__img-wrap');
   var img2  = makeEl('img', 'drop-card__img');
-  img2.complete = false; img2.naturalWidth = 0;
+  img2.complete = false; img2.naturalWidth = 0; img2.src = 'http://broken/2';
   body.appendChild(card2); card2.appendChild(wrap2); wrap2.appendChild(img2);
   try {
     var run2 = new Function('window', 'document', src + '\nreturn { sweep: sdfSweepBrokenImages };');
@@ -231,9 +245,56 @@ BROKEN_URL_PATTERNS.forEach(function(rx, i){
     img2.dispatch('load');
     assert(card2.style.display === 'none',
            'sweep masque la card quand load se déclenche tardivement avec naturalWidth=0');
+    var img2Gone = wrap2.children.indexOf(img2) === -1;
+    var img2Hidden = img2.style.display === 'none';
+    assert(img2Gone || img2Hidden,
+           "sweep masque l'<img> tardive elle-même ou la retire du DOM");
   } catch (e) {
     assert(false, 'sweep gère le load tardif : ' + e.message);
   }
+
+  // Cas 3 : critère Playwright — Array.from(images).filter(visible && broken) doit être vide.
+  // On simule plusieurs cards sur la page, certaines OK, certaines cassées.
+  // Après sweep, aucune img restante visible (style.display !== 'none') ne doit être broken.
+  var bigBody = makeEl('body');
+  var doc3 = makeEl('html'); doc3.body = bigBody; bigBody.parentNode = doc3;
+  doc3.addEventListener = function(){}; doc3.querySelectorAll = bigBody.querySelectorAll.bind(bigBody);
+  function addCard(broken, srcUrl) {
+    var c = makeEl('article', 'drop-card');
+    var w = makeEl('a', 'drop-card__img-wrap');
+    var i = makeEl('img', 'drop-card__img');
+    i.complete = true; i.naturalWidth = broken ? 0 : 800; i.src = srcUrl;
+    bigBody.appendChild(c); c.appendChild(w); w.appendChild(i);
+    return { card: c, wrap: w, img: i };
+  }
+  var a = addCard(true,  'http://x/broken-griffey.jpg');
+  var b = addCard(false, 'http://x/ok-nike.jpg');
+  var c3 = addCard(true,  'http://x/broken-aj3.png');
+  var d = addCard(true,  'http://x/broken-aj1.png');
+  var e = addCard(false, 'http://x/ok-adidas.jpg');
+  var run3 = new Function('window', 'document', src + '\nreturn { sweep: sdfSweepBrokenImages };');
+  run3({ MutationObserver: function(){ this.observe = function(){}; } }, doc3).sweep(bigBody);
+  // Collecter toutes les <img> restantes dans le DOM ET visibles.
+  function collectImgs(node, out) {
+    for (var i = 0; i < node.children.length; i++) {
+      var ch = node.children[i];
+      if (ch.tagName === 'IMG') out.push(ch);
+      collectImgs(ch, out);
+    }
+  }
+  var remaining = []; collectImgs(bigBody, remaining);
+  var visibleBroken = remaining.filter(function(im) {
+    var hidden = im.style.display === 'none' || im.style.visibility === 'hidden';
+    var brokenByPw = !im.complete || im.naturalWidth === 0; // critère Playwright
+    return !hidden && brokenByPw;
+  });
+  assert(visibleBroken.length === 0,
+         'critère Playwright : aucune <img> visible avec naturalWidth=0 après sweep (got ' + visibleBroken.length + ')');
+  // Les images OK restent intactes
+  assert(b.img.style.display !== 'none' && e.img.style.display !== 'none',
+         'sweep ne touche pas les images OK (naturalWidth>0)');
+  assert(b.card.style.display !== 'none' && e.card.style.display !== 'none',
+         'sweep ne masque pas les cards OK');
 })();
 
 if (process.exitCode) {

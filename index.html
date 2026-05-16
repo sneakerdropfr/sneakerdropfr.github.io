@@ -360,59 +360,92 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 // card entière dans les listings au lieu d'afficher l'emoji 👟 violet trompeur.
 // Demandé : "ne pas laisser visible une card avec image fallback violette".
 var SDF_CARD_SEL = '.drop-card, .raffle-single, .src, .top-pick__card, .raffle-card';
+// Critère de "broken" unifié : pas complete OU naturalWidth=0 OU naturalHeight=0.
+// Même critère que le test Playwright d'acceptation côté live.
+function sdfIsBrokenImg(im) {
+  if (!im || !im.tagName || im.tagName !== 'IMG') return false;
+  if (!im.src) return false;
+  if (!im.complete) return false; // pas encore chargée — pas considérée broken pour l'instant
+  return im.naturalWidth === 0 || im.naturalHeight === 0;
+}
+// Masquage agressif : on cache l'image ELLE-MÊME (display:none + dimensions à 0)
+// pour que Playwright ne la voie plus visible, ET on remonte cacher la card.
+// Demandé explicitement : "supprimer/masquer les <img> cassées elles-mêmes
+// (display:none) ET masquer la card parent".
 function sdfHideBrokenCard(imgEl) {
-  if (!imgEl || imgEl.getAttribute && imgEl.getAttribute('data-sdf-broken') === '1') return;
+  if (!imgEl) return;
+  if (imgEl.getAttribute && imgEl.getAttribute('data-sdf-broken') === '1') return;
   if (imgEl.setAttribute) imgEl.setAttribute('data-sdf-broken', '1');
+  // 1) Cacher l'image elle-même de toutes les façons possibles
+  try {
+    imgEl.style.display = 'none';
+    imgEl.style.visibility = 'hidden';
+    imgEl.style.width = '0px';
+    imgEl.style.height = '0px';
+    imgEl.setAttribute('aria-hidden', 'true');
+    // Vider src pour éviter toute relance + retirer du DOM si possible
+    imgEl.removeAttribute('srcset');
+    imgEl.removeAttribute('src');
+  } catch (e) {}
+  // 2) Cacher le container card si trouvé
   var card = imgEl.closest ? imgEl.closest(SDF_CARD_SEL) : null;
   if (card && card.parentNode) {
     card.style.display = 'none';
     card.setAttribute('data-broken-image','1');
-    return;
-  }
-  // Fallback : si pas de container reconnu, on remonte aux ancêtres "card-like"
-  // (article, li, .card, [class*=card]) puis l'img-wrap, puis l'image.
-  var anc = imgEl.parentNode;
-  while (anc && anc !== document.body) {
-    if (anc.matches && (anc.matches('article, li') || /(^|\s)(card|drop|pick|raffle)/i.test(anc.className || ''))) {
-      anc.style.display = 'none';
-      anc.setAttribute('data-broken-image','1');
-      return;
+  } else {
+    // Fallback : ancêtres "card-like" (article/li ou className matchant card/drop/pick/raffle)
+    var anc = imgEl.parentNode;
+    var hops = 0;
+    while (anc && anc !== document.body && hops < 8) {
+      var cn = anc.className || '';
+      if (typeof cn !== 'string') cn = ('' + cn);
+      var isCard = (anc.tagName === 'ARTICLE' || anc.tagName === 'LI'
+                    || /(^|\s)(card|drop|pick|raffle|src)/i.test(cn));
+      if (isCard) {
+        anc.style.display = 'none';
+        anc.setAttribute('data-broken-image','1');
+        break;
+      }
+      anc = anc.parentNode; hops++;
     }
-    anc = anc.parentNode;
   }
-  if (imgEl.parentNode) imgEl.parentNode.style.display = 'none';
+  // 3) Retirer l'image du DOM en dernier recours pour qu'elle n'apparaisse plus
+  //    dans Array.from(document.images). On le fait après le 1) au cas où le
+  //    parent serait déjà caché — ça reste cohérent.
+  try { if (imgEl.parentNode) imgEl.parentNode.removeChild(imgEl); } catch (e) {}
 }
 function sdfCheckImgLoaded(imgEl) {
-  if (!imgEl) return;
-  if (imgEl.complete && imgEl.naturalWidth === 0) sdfHideBrokenCard(imgEl);
+  if (sdfIsBrokenImg(imgEl)) sdfHideBrokenCard(imgEl);
 }
-// Armement par image : appelé pour chaque <img> rencontré. Branche load/error
-// idempotents et déclenche un check immédiat si l'image est déjà complete.
+// Armement par image : load/error + check immédiat. Idempotent (data-sdf-armed).
 function sdfArmImage(im) {
-  if (!im || im.getAttribute && im.getAttribute('data-sdf-armed') === '1') return;
+  if (!im || im.tagName !== 'IMG') return;
+  if (im.getAttribute && im.getAttribute('data-sdf-armed') === '1') {
+    // Déjà armé — re-vérifier quand même au cas où l'état a changé.
+    if (sdfIsBrokenImg(im)) sdfHideBrokenCard(im);
+    return;
+  }
   if (im.setAttribute) im.setAttribute('data-sdf-armed', '1');
   im.addEventListener('error', function(){ sdfHideBrokenCard(im); });
   im.addEventListener('load',  function(){ sdfCheckImgLoaded(im); });
-  if (im.complete) sdfCheckImgLoaded(im);
+  if (sdfIsBrokenImg(im)) sdfHideBrokenCard(im);
 }
 function sdfSweepBrokenImages(root) {
   var scope = root || document;
-  // On scanne TOUTES les <img> du scope : certaines cards (raffle, src, search)
-  // n'ont pas toujours la classe attendue sur l'img elle-même, donc on remonte
-  // ensuite via .closest pour trouver le container réel.
   var imgs = scope.querySelectorAll ? scope.querySelectorAll('img') : [];
   for (var i = 0; i < imgs.length; i++) sdfArmImage(imgs[i]);
 }
 window.sdfHideBrokenCard = sdfHideBrokenCard;
 window.sdfSweepBrokenImages = sdfSweepBrokenImages;
-// MutationObserver : toute card/img injectée après coup (fetch async weekly_data,
-// past releases, search, top-pick) est armée immédiatement. Sans ça, le sweep
-// initial rate les rendus tardifs.
+window.sdfIsBrokenImg = sdfIsBrokenImg;
+// MutationObserver : armement immédiat de toute <img> injectée après coup.
 (function setupSdfObserver(){
   if (!window.MutationObserver) return;
   var mo = new window.MutationObserver(function(muts){
     for (var i = 0; i < muts.length; i++) {
-      var added = muts[i].addedNodes;
+      var m = muts[i];
+      // Nouveaux nœuds ajoutés
+      var added = m.addedNodes;
       for (var j = 0; j < added.length; j++) {
         var n = added[j];
         if (!n || n.nodeType !== 1) continue;
@@ -422,17 +455,27 @@ window.sdfSweepBrokenImages = sdfSweepBrokenImages;
           for (var k = 0; k < sub.length; k++) sdfArmImage(sub[k]);
         }
       }
+      // Changements d'attribut src sur une <img> existante (re-render in-place)
+      if (m.type === 'attributes' && m.target && m.target.tagName === 'IMG') {
+        // Réarmer (force re-check)
+        try { m.target.removeAttribute('data-sdf-armed'); } catch(e){}
+        sdfArmImage(m.target);
+      }
     }
   });
-  function start(){ mo.observe(document.body, { childList: true, subtree: true }); }
+  function start(){
+    mo.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['src','srcset'] });
+  }
   if (document.body) start();
   else document.addEventListener('DOMContentLoaded', start);
 })();
+// Polling : on continue de sweeper périodiquement pendant 30s pour rattraper
+// tout cas exotique (loading=lazy déclenché tardivement par scroll, fetch lent,
+// rerender post-sweep). Critère d'acceptation : aucune img cassée visible après 8.5s.
 document.addEventListener('DOMContentLoaded', function(){
-  // Sweep initial + balayages différés. Les délais couvrent les fetchs async
-  // (weekly_data.json, top-pick, past, search) jusqu'à ~8s.
   sdfSweepBrokenImages();
-  [500, 1500, 3000, 5000, 8000].forEach(function(d){ setTimeout(sdfSweepBrokenImages, d); });
+  [200, 500, 1000, 1500, 2500, 4000, 6000, 8000, 12000, 18000, 25000, 30000]
+    .forEach(function(d){ setTimeout(sdfSweepBrokenImages, d); });
 });
 </script>
 
