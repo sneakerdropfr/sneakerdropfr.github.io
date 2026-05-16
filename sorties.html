@@ -214,6 +214,10 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       <div class="releases-loading" id="releases-loading">Chargement des drops...</div>
       <div id="this-week-header" style="display:none"><span></span></div>
       <div class="releases-grid" id="releases-grid-week" style="display:none"></div>
+      <div id="today-header" style="display:none">
+        <div class="sub-header"><div class="sub-header__line"></div><span class="sub-header__label">📦 Disponible aujourd'hui</span><div class="sub-header__line"></div></div>
+      </div>
+      <div class="cards-grid" id="releases-grid-today" style="display:none"></div>
       <div id="upcoming-header" style="display:none">
         <div class="sub-header"><div class="sub-header__line"></div><span class="sub-header__label">📅 À venir</span><div class="sub-header__line"></div></div>
       </div>
@@ -248,6 +252,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
     var grid=document.getElementById('releases-grid-week');
     var gridUpcoming=document.getElementById('releases-grid-upcoming');
+    var gridToday=document.getElementById('releases-grid-today');
     var empty=document.getElementById('releases-empty');
     var loading=document.getElementById('releases-loading');
     var MAX_CARDS=50;
@@ -387,35 +392,67 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     }
 
     function render() {
-      // Prochaines sorties = strictement futures (exclut aujourd'hui et passées) ; TBD reste affiché.
-      var notReleased=allReleases.filter(function(r){
-        if (!r.date||r.date==='TBD') return true;
-        var p=r.date.split('-');
-        var d=p.length===3?new Date(parseInt(p[0]),parseInt(p[1])-1,parseInt(p[2])):null;
-        if (!d) return true;
-        var todayMidnight=new Date(); todayMidnight.setHours(0,0,0,0);
-        return d>todayMidnight;
-      });
-      var filtered=notReleased.filter(function(r){ return !r.raffle && matchBrand(r,activeFilter); });
-      var sorted=sortByDate(filtered).slice(0,MAX_CARDS);
-      if (!sorted.length) {
-        if (grid) grid.style.display='none';
-        if (gridUpcoming) gridUpcoming.style.display='none';
-        document.getElementById('this-week-header').style.display='none';
-        document.getElementById('upcoming-header').style.display='none';
-        if (empty) empty.style.display='block';
-        return;
+      // Sépare en deux blocs pour éviter qu'une paire datée d'aujourd'hui
+      // (ex. sam. 16 mai → AJ3 Brazil, AJ1 Low Banned) atterrisse dans "📅 À venir".
+      // - dispoToday : date == aujourd'hui                → bloc "📦 Disponible aujourd'hui"
+      // - upcoming   : date strictement future ou TBD     → bloc "📅 À venir"
+      // - released passés : exclus des deux blocs (visibles via "Voir les anciennes sorties")
+      var todayMidnight=new Date(); todayMidnight.setHours(0,0,0,0);
+      var tomorrowMidnight=new Date(todayMidnight); tomorrowMidnight.setDate(tomorrowMidnight.getDate()+1);
+
+      function parseLocal(str){
+        if (!str||str==='TBD') return null;
+        var p=str.split('-');
+        return p.length===3?new Date(parseInt(p[0]),parseInt(p[1])-1,parseInt(p[2])):null;
       }
-      if (empty) empty.style.display='none';
-      document.getElementById('this-week-header').style.display='none';
+      function brandFilter(r){ return !r.raffle && matchBrand(r,activeFilter); }
+
+      var dispoToday=allReleases.filter(function(r){
+        var d=parseLocal(r.date);
+        return d && d.getTime()===todayMidnight.getTime() && brandFilter(r);
+      });
+      var upcoming=allReleases.filter(function(r){
+        if (!r.date||r.date==='TBD') return brandFilter(r);
+        var d=parseLocal(r.date);
+        if (!d) return brandFilter(r);
+        return d>=tomorrowMidnight && brandFilter(r);
+      });
+
+      var sortedToday=sortByDate(dispoToday);
+      var sortedUpcoming=sortByDate(upcoming).slice(0,MAX_CARDS);
+
+      var todayHeader=document.getElementById('today-header');
+      var upcomingHeader=document.getElementById('upcoming-header');
+      var weekHeader=document.getElementById('this-week-header');
+      if (weekHeader) weekHeader.style.display='none';
       if (grid) grid.style.display='none';
-      if (sorted.length) {
-        document.getElementById('upcoming-header').style.display='block';
-        gridUpcoming.style.display='grid';
-        gridUpcoming.innerHTML=sorted.map(function(r,i){ return renderCard(r,i); }).join('');
+
+      if (sortedToday.length) {
+        if (todayHeader) todayHeader.style.display='block';
+        if (gridToday) {
+          gridToday.style.display='grid';
+          gridToday.innerHTML=sortedToday.map(function(r,i){ return renderCard(r,i); }).join('');
+        }
       } else {
-        document.getElementById('upcoming-header').style.display='none';
-        if (gridUpcoming) gridUpcoming.style.display='none';
+        if (todayHeader) todayHeader.style.display='none';
+        if (gridToday) { gridToday.style.display='none'; gridToday.innerHTML=''; }
+      }
+
+      if (sortedUpcoming.length) {
+        if (upcomingHeader) upcomingHeader.style.display='block';
+        if (gridUpcoming) {
+          gridUpcoming.style.display='grid';
+          gridUpcoming.innerHTML=sortedUpcoming.map(function(r,i){ return renderCard(r,i); }).join('');
+        }
+      } else {
+        if (upcomingHeader) upcomingHeader.style.display='none';
+        if (gridUpcoming) { gridUpcoming.style.display='none'; gridUpcoming.innerHTML=''; }
+      }
+
+      if (!sortedToday.length && !sortedUpcoming.length) {
+        if (empty) empty.style.display='block';
+      } else {
+        if (empty) empty.style.display='none';
       }
     }
 
@@ -497,7 +534,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         });
       });
     });
-    var grids=['releases-grid-week','releases-grid-upcoming'];
+    var grids=['releases-grid-week','releases-grid-today','releases-grid-upcoming'];
     grids.forEach(function(id){ var el=document.getElementById(id); if (el) observer.observe(el,{childList:true,subtree:true}); });
   })();
   </script>
