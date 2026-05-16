@@ -227,7 +227,26 @@
     var wrap = imgEl.parentNode;
     if (wrap) wrap.style.display = 'none';
   }
+  function sdfSweepBrokenImages(root) {
+    var scope = root || document;
+    var imgs = scope.querySelectorAll('.drop-card img');
+    for (var i = 0; i < imgs.length; i++) {
+      var im = imgs[i];
+      if (im.complete) {
+        if (im.naturalWidth === 0) sdfHideBrokenCard(im);
+      } else {
+        im.addEventListener('load', function(e){ if (e.target.naturalWidth === 0) sdfHideBrokenCard(e.target); }, { once: true });
+        im.addEventListener('error', function(e){ sdfHideBrokenCard(e.target); }, { once: true });
+      }
+    }
+  }
   window.sdfHideBrokenCard = sdfHideBrokenCard;
+  window.sdfSweepBrokenImages = sdfSweepBrokenImages;
+  document.addEventListener('DOMContentLoaded', function(){
+    sdfSweepBrokenImages();
+    setTimeout(sdfSweepBrokenImages, 1500);
+    setTimeout(sdfSweepBrokenImages, 4000);
+  });
   (function(){
     var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json';
     var BRAND_MAP = {'jordan':['jordan brand','jordan'],'nike':['nike'],'adidas':['adidas'],'new balance':['new balance']};

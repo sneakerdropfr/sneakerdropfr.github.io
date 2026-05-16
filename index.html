@@ -361,13 +361,40 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 // Demandé : "ne pas laisser visible une card avec image fallback violette".
 function sdfHideBrokenCard(imgEl) {
   if (!imgEl) return;
-  var card = imgEl.closest ? imgEl.closest('.drop-card, .raffle-single, .src, .top-pick__card') : null;
+  var card = imgEl.closest ? imgEl.closest('.drop-card, .raffle-single, .src, .top-pick__card, .raffle-card') : null;
   if (card && card.parentNode) { card.style.display = 'none'; card.setAttribute('data-broken-image','1'); return; }
   // Fallback : si pas de container reconnu, on cache au moins l'img-wrap
   var wrap = imgEl.parentNode;
   if (wrap) wrap.style.display = 'none';
 }
+// L'événement `error` ne se déclenche pas toujours (image servie en 200 mais
+// vide / tracking pixel). On vérifie aussi naturalWidth après `load` et on
+// scanne au DOMContentLoaded toute image déjà résolue avec naturalWidth=0.
+function sdfCheckImgLoaded(imgEl) {
+  if (!imgEl) return;
+  if (imgEl.complete && imgEl.naturalWidth === 0) sdfHideBrokenCard(imgEl);
+}
+function sdfSweepBrokenImages(root) {
+  var scope = root || document;
+  var imgs = scope.querySelectorAll('.drop-card img, .top-pick__card img, .raffle-single img, .raffle-card img, .src img');
+  for (var i = 0; i < imgs.length; i++) {
+    var im = imgs[i];
+    if (im.complete) {
+      if (im.naturalWidth === 0) sdfHideBrokenCard(im);
+    } else {
+      im.addEventListener('load', function(e){ sdfCheckImgLoaded(e.target); }, { once: true });
+      im.addEventListener('error', function(e){ sdfHideBrokenCard(e.target); }, { once: true });
+    }
+  }
+}
 window.sdfHideBrokenCard = sdfHideBrokenCard;
+window.sdfSweepBrokenImages = sdfSweepBrokenImages;
+document.addEventListener('DOMContentLoaded', function(){
+  // Sweep initial + balayages différés pour rattraper le rendu async des listings.
+  sdfSweepBrokenImages();
+  setTimeout(sdfSweepBrokenImages, 1500);
+  setTimeout(sdfSweepBrokenImages, 4000);
+});
 </script>
 
   <div class="urgency-bar">⚠️ Certaines tailles sont déjà en rupture — Vérifie ta paire maintenant</div>

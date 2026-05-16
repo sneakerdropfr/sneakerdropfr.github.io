@@ -24,6 +24,14 @@ function read(p) { return fs.readFileSync(path.join(ROOT, p), 'utf8'); }
          p + ' définit sdfHideBrokenCard');
   assert(/window\.sdfHideBrokenCard\s*=\s*sdfHideBrokenCard/.test(h),
          p + ' expose window.sdfHideBrokenCard');
+  // Le sweep doit aussi être présent pour rattraper les images dont l'onerror
+  // ne se déclenche pas (200 OK mais naturalWidth=0).
+  assert(/function sdfSweepBrokenImages/.test(h),
+         p + ' définit sdfSweepBrokenImages (naturalWidth=0 sweep)');
+  assert(/window\.sdfSweepBrokenImages\s*=\s*sdfSweepBrokenImages/.test(h),
+         p + ' expose window.sdfSweepBrokenImages');
+  assert(/DOMContentLoaded[^]*sdfSweepBrokenImages/.test(h),
+         p + ' déclenche sdfSweepBrokenImages au DOMContentLoaded');
 });
 
 // -- 2. Le pattern d'emoji 👟 ne doit plus apparaître dans les onerror des listings.
@@ -93,6 +101,10 @@ var BROKEN_URL_PATTERNS = [
   /sneakernews\.com\/wp-content\/uploads\/2026\/05\/air-jordan-3-worlds-best-dad-IF4396-103\.jpg/,
   /statics\.whentocop\.fr\/drops\/20252\/picture\/000000_New-Balance-ABZORB-5030/,
   /statics\.whentocop\.fr\/drops\/20252\/picture\/000000_New-Balance-ABZORB-2000/,
+  // Vague 2 (commit après 8fb5a39) : images encore cassées détectées en live.
+  /sneakerfiles\.com\/wp-content\/uploads\/2025\/07\/nike-air-griffey-max-1-freshwater-2026-DD8558-100-1024x725\.jpg/,
+  /cdn\.lesitedelasneaker\.com\/wp-content\/images\/2026\/02\/air-jordan-3-brazil-iv4871-400-2-1100x1100\.jpg/,
+  /statics\.whentocop\.fr\/media\/cU0tOTO1Flnu\/tmpair-jordan-1-low-og-black-red-iw6276-001-small-500x500\.webp/,
 ];
 var raw = read('releases.json');
 BROKEN_URL_PATTERNS.forEach(function(rx, i){
