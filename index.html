@@ -855,12 +855,21 @@ document.addEventListener('DOMContentLoaded', function(){
       var alertDiv = released
         ? '<div class="top-pick__alert">⚠️ Déjà en rupture sur plusieurs sites — encore dispo ici</div>'
         : '<div class="top-pick__alert top-pick__alert--upcoming">📅 Drop le ' + formatDate(r.date) + ' — Active ton alerte maintenant</div>';
+      // hasLink anti-404 : ne génère le lien article que si la page détail est attendue.
+      var hasLink = (r.retailers && r.retailers.length) || r.buy_url || r.wtc_url;
+      var articleUrl = (r.id && hasLink) ? 'sorties/' + r.id + '.html' : null;
+      var imgWrap = articleUrl
+        ? '<a href="' + articleUrl + '" class="top-pick__img-wrap" style="display:block">' + img + '</a>'
+        : '<div class="top-pick__img-wrap">' + img + '</div>';
+      var titleWrap = articleUrl
+        ? '<a href="' + articleUrl + '" style="color:inherit"><h2 class="top-pick__title">' + escapeHtml(r.title) + '</h2></a>'
+        : '<h2 class="top-pick__title">' + escapeHtml(r.title) + '</h2>';
       topPickCard.innerHTML =
         '<div class="top-pick__tag">🔥 Top Pick de la semaine</div>' +
-        '<div class="top-pick__img-wrap">' + img + '</div>' +
+        imgWrap +
         '<div class="top-pick__body">' +
           '<span class="top-pick__brand">' + (r.brand || '') + '</span>' +
-          '<h2 class="top-pick__title">' + escapeHtml(r.title) + '</h2>' +
+          titleWrap +
           '<div class="top-pick__price">' + formatPrice(r.price) + '</div>' +
 
           '<div class="top-pick__date">📅 ' + formatDate(r.date) + '</div>' +
