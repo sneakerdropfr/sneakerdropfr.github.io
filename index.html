@@ -851,7 +851,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 
         function renderWeeklyDrops() {
           if (!weeklyDropsGrid) return;
-          var filtered = allWdrops.filter(function(r) { return matchWeeklyBrand(r, weeklyActiveFilter); });
+          var filtered = sortByDate(allWdrops.filter(function(r) { return matchWeeklyBrand(r, weeklyActiveFilter); }));
           if (filtered.length) {
             weeklyDropsGrid.style.display = 'grid';
             weeklyDropsGrid.innerHTML = filtered.map(function(r, i) { return renderCard(r, i); }).join('');
