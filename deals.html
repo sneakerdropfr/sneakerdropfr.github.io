@@ -66,7 +66,7 @@
     .header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
     .header__inner{display:flex;align-items:center;gap:.75rem;height:56px}
     .logo{display:flex;align-items:center;gap:.45rem;font-family:var(--font-cond);font-size:1.15rem;font-weight:900;letter-spacing:.04em;color:var(--black);flex-shrink:0}
-    .logo__icon{width:30px;height:30px;background:var(--black);border-radius:5px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .logo__icon{width:30px;height:30px;background:transparent;border-radius:0;display:flex;align-items:center;justify-content:center;flex-shrink:0}
     .logo__fr{opacity:.45}
     .header__spacer{flex:1}
     .hbtn{font-family:var(--font-cond);font-weight:900;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:.42rem .9rem;border-radius:6px;white-space:nowrap;transition:background .15s,color .15s,border-color .15s;cursor:pointer;display:inline-flex;align-items:center;gap:.3rem}
@@ -199,9 +199,7 @@ document.addEventListener('DOMContentLoaded', function(){
   <header class="header">
     <div class="container header__inner">
       <a href="/" class="logo">
-        <div class="logo__icon">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 14c0-3 2-6 5-7.5L20 3l-3.5 12C15 18 12 20 9 20c-3.3 0-6-2.7-6-6z" fill="#E8FF00"/><circle cx="9" cy="14" r="2" fill="#0A0A0A"/></svg>
-        </div>
+        <div class="logo__icon"><img src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="30" height="30" style="display:block"></div>
         <span>SneakerDrop<span class="logo__fr">FR</span></span>
       </a>
       <div class="header__spacer"></div>
@@ -344,9 +342,7 @@ document.addEventListener('DOMContentLoaded', function(){
     <div class="container">
       <div class="footer__inner">
         <a href="/" class="logo">
-          <div class="logo__icon" style="width:26px;height:26px">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 14c0-3 2-6 5-7.5L20 3l-3.5 12C15 18 12 20 9 20c-3.3 0-6-2.7-6-6z" fill="#E8FF00"/><circle cx="9" cy="14" r="2" fill="#0A0A0A"/></svg>
-          </div>
+          <div class="logo__icon" style="width:26px;height:26px"><img src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="26" height="26" style="display:block"></div>
           <span style="font-size:1rem">SneakerDrop<span class="logo__fr">FR</span></span>
         </a>
         <div class="footer__social">
