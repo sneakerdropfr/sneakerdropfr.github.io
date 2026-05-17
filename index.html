@@ -161,6 +161,8 @@
     .drop-card__resell::before{content:'↑ ';color:#fff;opacity:.4}
     .drop-card__stock{font-size:.68rem;color:#FF2D2D;font-family:var(--font-cond);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
     .drop-card__stock--upcoming{color:rgba(255,255,255,.5)}
+    .drop-card__countdown{display:inline-flex;align-items:center;gap:.3rem;font-family:var(--font-cond);font-size:.72rem;font-weight:900;letter-spacing:.06em;color:#E8FF00;background:rgba(232,255,0,.08);border:1px solid rgba(232,255,0,.25);border-radius:4px;padding:.18rem .5rem;margin-top:.2rem}
+    .drop-card__countdown--dispo{color:#FF2D2D;background:rgba(255,45,45,.1);border-color:rgba(255,45,45,.3)}
     .drop-card__cta{margin-top:auto;padding-top:.65rem}
     /* CTA buttons */
     .btn-cop{display:block;width:100%;background:var(--black);color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.85rem;letter-spacing:.07em;text-transform:uppercase;padding:.62rem .9rem;border-radius:7px;border:none;cursor:pointer;text-align:center;transition:background .15s,color .15s}
@@ -768,6 +770,18 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var titleWrap = articleUrl
         ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
         : '<h3 class="drop-card__title">' + r.title + '</h3>';
+      // Countdown : afficher si date connue, pas encore sortie, dans moins de 72h
+      var countdownHtml = '';
+      if (!released && r.date && r.date !== 'TBD') {
+        var dropTs = (function() {
+          var p = r.date.split('-');
+          return p.length === 3 ? new Date(+p[0], +p[1]-1, +p[2]).getTime() : 0;
+        })();
+        var diffMs = dropTs - Date.now();
+        if (dropTs && diffMs > 0 && diffMs < 72 * 3600 * 1000) {
+          countdownHtml = '<div class="drop-card__countdown" data-target="' + dropTs + '">⏱ </div>';
+        }
+      }
       return '<article class="drop-card"' + (cardSku ? ' data-sku="' + cardSku + '"' : '') + ' data-title="' + safeTitle(r.title) + '">' + imgWrap +
         '<div class="drop-card__body">' +
           '<span class="drop-card__brand">' + (r.brand || '') + '</span>' +
@@ -776,7 +790,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             '<span class="drop-card__date">📅 ' + formatDate(r.date) + '</span>' +
             '<span class="drop-card__price">' + formatPrice(r.price) + '</span>' +
           '</div>' +
-
+          countdownHtml +
           (urgency ? '<div class="' + urgencyClass + '">' + urgency + '</div>' : '') +
           '<div class="drop-card__cta">' + makeRetailersRow(r, false) + '</div>' +
         '</div>' +
@@ -947,6 +961,30 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         if (gridUpcoming) gridUpcoming.style.display = 'none';
       }
     }
+
+    // ── Countdown global tick ──────────────────────────────────────────────
+    function pad2(n) { return n < 10 ? '0' + n : '' + n; }
+    function tickCountdowns() {
+      var now = Date.now();
+      document.querySelectorAll('.drop-card__countdown[data-target]').forEach(function(el) {
+        var target = parseInt(el.getAttribute('data-target'), 10);
+        var diff = target - now;
+        if (diff <= 0) {
+          el.textContent = 'DISPO MAINTENANT';
+          el.classList.add('drop-card__countdown--dispo');
+        } else {
+          var totalSec = Math.floor(diff / 1000);
+          var days = Math.floor(totalSec / 86400);
+          var hrs  = Math.floor((totalSec % 86400) / 3600);
+          var mins = Math.floor((totalSec % 3600) / 60);
+          var secs = totalSec % 60;
+          var txt = (days > 0 ? days + 'J ' : '') + pad2(hrs) + ':' + pad2(mins) + ':' + pad2(secs);
+          el.textContent = '⏱ ' + txt;
+        }
+      });
+    }
+    setInterval(tickCountdowns, 1000);
+    tickCountdowns();
 
     window._render = render;
     document.querySelectorAll('.filter-btn').forEach(function(btn) {
