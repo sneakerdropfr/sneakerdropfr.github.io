@@ -55,10 +55,10 @@
       --pink:#FF2D2D;
       --black:#0A0A0A;
       --white:#FFFFFF;
-      --bg:#FFFFFF;
-      --bg-alt:#F5F5F5;
-      --text:#0A0A0A;
-      --muted:#777;
+      --bg:#0A0A0A;
+      --bg-alt:#111111;
+      --text:#FFFFFF;
+      --muted:rgba(255,255,255,.5);
       --border:#E5E5E5;
       --shadow:0 2px 12px rgba(0,0,0,0.07);
       --shadow-hover:0 8px 28px rgba(0,0,0,0.11);
@@ -95,9 +95,9 @@
     @media(max-width:640px){.hbtn--outline:not(.hbtn--keep){display:none}}
 
     /* ── Hero ── */
-    .hero{background:#FFFFFF;color:var(--black);padding:2rem 0 0;text-align:center;position:relative;overflow:hidden;border-bottom:1px solid #E5E5E5}
+    .hero{background:#0A0A0A;color:#fff;padding:2rem 0 0;text-align:center;position:relative;overflow:hidden;border-bottom:1px solid rgba(255,255,255,.08)}
     .hero::before{display:none}
-    .hero__eyebrow{display:inline-flex;align-items:center;gap:.4rem;background:#F5F5F5;border:1px solid #E0E0E0;color:var(--black);font-family:var(--font-cond);font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.32rem .85rem;border-radius:999px;margin-bottom:1.4rem}
+    .hero__eyebrow{display:inline-flex;align-items:center;gap:.4rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:#fff;font-family:var(--font-cond);font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.32rem .85rem;border-radius:999px;margin-bottom:1.4rem}
     .hero__eyebrow::before{content:'';width:6px;height:6px;background:var(--accent);border-radius:50%;animation:blink 1.2s ease-in-out infinite;flex-shrink:0}
     @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
     .hero__title{font-family:var(--font-display);font-size:clamp(2.4rem,8vw,4.5rem);line-height:.93;letter-spacing:.02em;text-transform:uppercase;margin-bottom:.5rem}
@@ -122,7 +122,7 @@
 
     /* ── Section shell ── */
     .section{padding:var(--section-gap) 0}
-    .section--alt{background:var(--bg-alt)}
+    .section--alt{background:#111111}
     .section--dark{background:var(--black);color:#fff}
     .section-header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2rem;gap:1rem;flex-wrap:wrap}
     .section-title{font-family:var(--font-display);font-size:clamp(1.9rem,5vw,2.8rem);letter-spacing:.03em;text-transform:uppercase;line-height:1}
@@ -356,127 +356,6 @@
 <body>
 <script>
 function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
-// Globalement : si une image produit casse (403, hotlink, blocked), on masque la
-// card entière dans les listings au lieu d'afficher l'emoji 👟 violet trompeur.
-// Demandé : "ne pas laisser visible une card avec image fallback violette".
-var SDF_CARD_SEL = '.drop-card, .raffle-single, .src, .top-pick__card, .raffle-card';
-// Critère de "broken" unifié : pas complete OU naturalWidth=0 OU naturalHeight=0.
-// Même critère que le test Playwright d'acceptation côté live.
-function sdfIsBrokenImg(im) {
-  if (!im || !im.tagName || im.tagName !== 'IMG') return false;
-  if (!im.src) return false;
-  if (!im.complete) return false; // pas encore chargée — pas considérée broken pour l'instant
-  return im.naturalWidth === 0 || im.naturalHeight === 0;
-}
-// Masquage agressif : on cache l'image ELLE-MÊME (display:none + dimensions à 0)
-// pour que Playwright ne la voie plus visible, ET on remonte cacher la card.
-// Demandé explicitement : "supprimer/masquer les <img> cassées elles-mêmes
-// (display:none) ET masquer la card parent".
-function sdfHideBrokenCard(imgEl) {
-  if (!imgEl) return;
-  if (imgEl.getAttribute && imgEl.getAttribute('data-sdf-broken') === '1') return;
-  if (imgEl.setAttribute) imgEl.setAttribute('data-sdf-broken', '1');
-  // 1) Cacher l'image elle-même de toutes les façons possibles
-  try {
-    imgEl.style.display = 'none';
-    imgEl.style.visibility = 'hidden';
-    imgEl.style.width = '0px';
-    imgEl.style.height = '0px';
-    imgEl.setAttribute('aria-hidden', 'true');
-    // Vider src pour éviter toute relance + retirer du DOM si possible
-    imgEl.removeAttribute('srcset');
-    imgEl.removeAttribute('src');
-  } catch (e) {}
-  // 2) Cacher le container card si trouvé
-  var card = imgEl.closest ? imgEl.closest(SDF_CARD_SEL) : null;
-  if (card && card.parentNode) {
-    card.style.display = 'none';
-    card.setAttribute('data-broken-image','1');
-  } else {
-    // Fallback : ancêtres "card-like" (article/li ou className matchant card/drop/pick/raffle)
-    var anc = imgEl.parentNode;
-    var hops = 0;
-    while (anc && anc !== document.body && hops < 8) {
-      var cn = anc.className || '';
-      if (typeof cn !== 'string') cn = ('' + cn);
-      var isCard = (anc.tagName === 'ARTICLE' || anc.tagName === 'LI'
-                    || /(^|\s)(card|drop|pick|raffle|src)/i.test(cn));
-      if (isCard) {
-        anc.style.display = 'none';
-        anc.setAttribute('data-broken-image','1');
-        break;
-      }
-      anc = anc.parentNode; hops++;
-    }
-  }
-  // 3) Retirer l'image du DOM en dernier recours pour qu'elle n'apparaisse plus
-  //    dans Array.from(document.images). On le fait après le 1) au cas où le
-  //    parent serait déjà caché — ça reste cohérent.
-  try { if (imgEl.parentNode) imgEl.parentNode.removeChild(imgEl); } catch (e) {}
-}
-function sdfCheckImgLoaded(imgEl) {
-  if (sdfIsBrokenImg(imgEl)) sdfHideBrokenCard(imgEl);
-}
-// Armement par image : load/error + check immédiat. Idempotent (data-sdf-armed).
-function sdfArmImage(im) {
-  if (!im || im.tagName !== 'IMG') return;
-  if (im.getAttribute && im.getAttribute('data-sdf-armed') === '1') {
-    // Déjà armé — re-vérifier quand même au cas où l'état a changé.
-    if (sdfIsBrokenImg(im)) sdfHideBrokenCard(im);
-    return;
-  }
-  if (im.setAttribute) im.setAttribute('data-sdf-armed', '1');
-  im.addEventListener('error', function(){ sdfHideBrokenCard(im); });
-  im.addEventListener('load',  function(){ sdfCheckImgLoaded(im); });
-  if (sdfIsBrokenImg(im)) sdfHideBrokenCard(im);
-}
-function sdfSweepBrokenImages(root) {
-  var scope = root || document;
-  var imgs = scope.querySelectorAll ? scope.querySelectorAll('img') : [];
-  for (var i = 0; i < imgs.length; i++) sdfArmImage(imgs[i]);
-}
-window.sdfHideBrokenCard = sdfHideBrokenCard;
-window.sdfSweepBrokenImages = sdfSweepBrokenImages;
-window.sdfIsBrokenImg = sdfIsBrokenImg;
-// MutationObserver : armement immédiat de toute <img> injectée après coup.
-(function setupSdfObserver(){
-  if (!window.MutationObserver) return;
-  var mo = new window.MutationObserver(function(muts){
-    for (var i = 0; i < muts.length; i++) {
-      var m = muts[i];
-      // Nouveaux nœuds ajoutés
-      var added = m.addedNodes;
-      for (var j = 0; j < added.length; j++) {
-        var n = added[j];
-        if (!n || n.nodeType !== 1) continue;
-        if (n.tagName === 'IMG') sdfArmImage(n);
-        else if (n.querySelectorAll) {
-          var sub = n.querySelectorAll('img');
-          for (var k = 0; k < sub.length; k++) sdfArmImage(sub[k]);
-        }
-      }
-      // Changements d'attribut src sur une <img> existante (re-render in-place)
-      if (m.type === 'attributes' && m.target && m.target.tagName === 'IMG') {
-        // Réarmer (force re-check)
-        try { m.target.removeAttribute('data-sdf-armed'); } catch(e){}
-        sdfArmImage(m.target);
-      }
-    }
-  });
-  function start(){
-    mo.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['src','srcset'] });
-  }
-  if (document.body) start();
-  else document.addEventListener('DOMContentLoaded', start);
-})();
-// Polling : on continue de sweeper périodiquement pendant 30s pour rattraper
-// tout cas exotique (loading=lazy déclenché tardivement par scroll, fetch lent,
-// rerender post-sweep). Critère d'acceptation : aucune img cassée visible après 8.5s.
-document.addEventListener('DOMContentLoaded', function(){
-  sdfSweepBrokenImages();
-  [200, 500, 1000, 1500, 2500, 4000, 6000, 8000, 12000, 18000, 25000, 30000]
-    .forEach(function(d){ setTimeout(sdfSweepBrokenImages, d); });
-});
 </script>
 
   <div class="urgency-bar">⚠️ Certaines tailles sont déjà en rupture — Vérifie ta paire maintenant</div>
@@ -716,15 +595,8 @@ document.addEventListener('DOMContentLoaded', function(){
     }
     function isSoon(dateStr) {
       if (!dateStr || dateStr === 'TBD') return false;
-      var p = dateStr.split('-');
-      if (p.length !== 3) return false;
-      var d = new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2]));
-      var now = new Date();
-      var day = now.getDay();
-      var daysFromMon = day === 0 ? 6 : day - 1;
-      var monday = new Date(now); monday.setDate(now.getDate() - daysFromMon); monday.setHours(0,0,0,0);
-      var sunday = new Date(monday); sunday.setDate(monday.getDate() + 6); sunday.setHours(23,59,59,999);
-      return d >= monday && d <= sunday;
+      var diff = (new Date(dateStr + 'T12:00:00') - new Date()) / (1000*60*60*24);
+      return diff >= 0 && diff <= 7;
     }
     function getScore(r) {
       var score = 0;
@@ -851,25 +723,16 @@ document.addEventListener('DOMContentLoaded', function(){
     function renderTopPick(r) {
       if (!r || !topPickCard) return;
       var released = isReleased(r.date);
-      var img = r.image_url ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="top-pick__img" loading="lazy" onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">' : '';
+      var img = r.image_url ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="top-pick__img" loading="lazy" onerror="this.style.display=\'none\'">' : '';
       var alertDiv = released
         ? '<div class="top-pick__alert">⚠️ Déjà en rupture sur plusieurs sites — encore dispo ici</div>'
         : '<div class="top-pick__alert top-pick__alert--upcoming">📅 Drop le ' + formatDate(r.date) + ' — Active ton alerte maintenant</div>';
-      // hasLink anti-404 : ne génère le lien article que si la page détail est attendue.
-      var hasLink = (r.retailers && r.retailers.length) || r.buy_url || r.wtc_url;
-      var articleUrl = (r.id && hasLink) ? 'sorties/' + r.id + '.html' : null;
-      var imgWrap = articleUrl
-        ? '<a href="' + articleUrl + '" class="top-pick__img-wrap" style="display:block">' + img + '</a>'
-        : '<div class="top-pick__img-wrap">' + img + '</div>';
-      var titleWrap = articleUrl
-        ? '<a href="' + articleUrl + '" style="color:inherit"><h2 class="top-pick__title">' + escapeHtml(r.title) + '</h2></a>'
-        : '<h2 class="top-pick__title">' + escapeHtml(r.title) + '</h2>';
       topPickCard.innerHTML =
         '<div class="top-pick__tag">🔥 Top Pick de la semaine</div>' +
-        imgWrap +
+        '<div class="top-pick__img-wrap">' + img + '</div>' +
         '<div class="top-pick__body">' +
           '<span class="top-pick__brand">' + (r.brand || '') + '</span>' +
-          titleWrap +
+          '<h2 class="top-pick__title">' + escapeHtml(r.title) + '</h2>' +
           '<div class="top-pick__price">' + formatPrice(r.price) + '</div>' +
 
           '<div class="top-pick__date">📅 ' + formatDate(r.date) + '</div>' +
@@ -887,10 +750,9 @@ document.addEventListener('DOMContentLoaded', function(){
       var cardSku = skuMatch ? skuMatch[1] : '';
       var noFlip = NO_FLIP_IDS.indexOf(r.id || '') !== -1;
       var imgStyle = noFlip ? ' style="transform:scaleX(1)"' : '';
-      // Pas d'image utilisable → card masquée (filtrage en amont devrait éviter ça,
-      // garde-fou ici pour les fallbacks éventuels).
-      if (!r.image_url || !String(r.image_url).trim()) return '';
-      var img = '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">';
+      var img = r.image_url
+        ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
+        : '<div class="drop-card__img-placeholder">👟</div>';
       var badgeTop = released
         ? '<div class="drop-card__badge-top badge-week">🔥 Dispo</div>'
         : (isSoon(r.date)
@@ -937,17 +799,14 @@ document.addEventListener('DOMContentLoaded', function(){
         var p = str.split('-');
         return p.length === 3 ? new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2])) : null;
       }
-      // notReleased = strictement futur (exclut aujourd'hui) ; "Prochaines sorties" ne doit pas revivre une paire du jour.
       var notReleased = allReleases.filter(function(r) {
         if (!r.date || r.date === 'TBD') return true;
         var d = parseDateLocal(r.date);
         if (!d) return true;
         var todayMidnight = new Date(); todayMidnight.setHours(0,0,0,0);
-        return d > todayMidnight;
+        return d >= todayMidnight;
       });
       var filtered = notReleased.filter(function(r) { return matchBrand(r, activeFilter); });
-      // Exclure les cards sans image utilisable des listings (cohérent avec weekly).
-      filtered = filtered.filter(function(r) { return r.image_url && String(r.image_url).trim() !== ''; });
       if (window._searchQuery) {
         filtered = filtered.filter(function(r) {
           return (r.title||'').toLowerCase().indexOf(window._searchQuery) !== -1
@@ -993,14 +852,6 @@ document.addEventListener('DOMContentLoaded', function(){
         function renderWeeklyDrops() {
           if (!weeklyDropsGrid) return;
           var filtered = allWdrops.filter(function(r) { return matchWeeklyBrand(r, weeklyActiveFilter); });
-          // Exclure les cards sans image utilisable (évite placeholder 👟 dans la section semaine)
-          filtered = filtered.filter(function(r) { return r.image_url && String(r.image_url).trim() !== ''; });
-          // Tri croissant par date dans la semaine (du plus ancien au plus récent)
-          filtered = filtered.slice().sort(function(a, b) {
-            var da = a.date && a.date !== 'TBD' ? new Date(a.date) : new Date('9999-12-31');
-            var db = b.date && b.date !== 'TBD' ? new Date(b.date) : new Date('9999-12-31');
-            return da - db;
-          });
           if (filtered.length) {
             weeklyDropsGrid.style.display = 'grid';
             weeklyDropsGrid.innerHTML = filtered.map(function(r, i) { return renderCard(r, i); }).join('');
@@ -1067,19 +918,14 @@ document.addEventListener('DOMContentLoaded', function(){
                 retailers: (rel && rel.retailers) || r.retailers || null
               };
             });
-            // Badge weekly_data.json : seulement si la semaine décrite contient bien aujourd'hui.
-            // Défense contre un weekly_data.json livré en avance (ex. samedi pour semaine suivante).
+            // Badge : si on est lundi ou après, afficher la semaine de weekly_data.json
             if (weeklyDropsBadge && _now >= _nextMonday) {
               try {
                 var ws = (wd.week_start||'').split('/');
                 var we = (wd.week_end||'').split('/');
                 var ds = ws.length===3 ? new Date(+ws[2],+ws[1]-1,+ws[0]) : null;
                 var de = we.length===3 ? new Date(+we[2],+we[1]-1,+we[0]) : null;
-                if (ds) ds.setHours(0,0,0,0);
-                if (de) de.setHours(23,59,59,999);
-                if (ds && de && ds <= _now && _now <= de) {
-                  weeklyDropsBadge.textContent = ds.toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) + ' → ' + de.toLocaleDateString('fr-FR',{day:'numeric',month:'short'});
-                }
+                if (ds && de) weeklyDropsBadge.textContent = ds.toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) + ' → ' + de.toLocaleDateString('fr-FR',{day:'numeric',month:'short'});
               } catch(e){}
             }
             renderWeeklyDrops();
@@ -1170,10 +1016,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
         if (!allReleases.length) { if (empty) empty.style.display = 'block'; return; }
         var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
-        // Top pick : on garde uniquement les paires avec image utilisable pour ne pas
-        // afficher la card avec emoji 👟 sur le hero "Top pick de la semaine".
-        var upcomingWithImg = upcoming.filter(function(r) { return r.image_url && String(r.image_url).trim() !== ''; });
-        var byScore = sortByScore(upcomingWithImg.length ? upcomingWithImg : upcoming);
+        var byScore = sortByScore(upcoming);
         renderTopPick(byScore[0]);
         render();
       })
@@ -1211,7 +1054,6 @@ document.addEventListener('DOMContentLoaded', function(){
     if (overlay) overlay.classList.add('active');
     var all = window._releases || [];
     var results = all.filter(function(r) {
-      if (!r.image_url || !String(r.image_url).trim()) return false;
       return (r.title || '').toLowerCase().indexOf(q) !== -1 || (r.brand || '').toLowerCase().indexOf(q) !== -1;
     });
     if (overlayTitle) overlayTitle.textContent = results.length + ' résultat' + (results.length > 1 ? 's' : '') + ' pour "' + query + '"';
@@ -1222,10 +1064,9 @@ document.addEventListener('DOMContentLoaded', function(){
     }
     if (overlayEmpty) overlayEmpty.style.display = 'none';
     if (overlayGrid) overlayGrid.innerHTML = results.map(function(r) {
-      // Search overlay : pas d'image utilisable → on saute le résultat pour ne pas
-      // afficher la card vide / placeholder violet 👟.
-      if (!r.image_url || !String(r.image_url).trim()) return '';
-      var imgHtml = '<img src="' + r.image_url + '" alt="' + (r.title || '').replace(/"/g, '') + '" loading="lazy" onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">';
+      var imgHtml = r.image_url
+        ? '<img src="' + r.image_url + '" alt="' + (r.title || '').replace(/"/g, '') + '" loading="lazy">'
+        : '<div style="width:100%;aspect-ratio:1;background:#F5F5F5"></div>';
       var price = r.price ? r.price + ' €' : '';
       var badge = r.stock === 'rupture'
         ? '<span class="src__badge src__badge--rupture">Rupture</span>'
@@ -1271,23 +1112,15 @@ document.addEventListener('DOMContentLoaded', function(){
       grid.innerHTML = '<p style="text-align:center;color:var(--muted);padding:2rem">Aucune ancienne sortie disponible.</p>';
     } else {
       var html = '<div class="cards-grid">';
-      // Filtrer les past sans image utilisable — pas de fallback emoji violet 👟 dans la grille.
-      data = data.filter(function(r) { return r.image_url && String(r.image_url).trim() !== ''; });
       data.forEach(function(r) {
-        var img = '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">';
-        var hasLink = (r.retailers && r.retailers.length) || r.buy_url || r.wtc_url;
-        var articleUrl = (r.id && hasLink) ? 'sorties/' + r.id + '.html' : null;
+        var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" onerror="this.style.display=\'none\'">' : '<div class="drop-card__img-placeholder">👟</div>';
         html += '<article class="drop-card">';
-        html += articleUrl
-          ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + img + '</a>'
-          : '<div class="drop-card__img-wrap">' + img + '</div>';
+        html += '<div class="drop-card__img-wrap">' + img + '</div>';
         html += '<div class="drop-card__body">';
         html += '<div class="drop-card__brand">' + (r.brand || r.source || '') + '</div>';
-        html += articleUrl
-          ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
-          : '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
+        html += '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
         html += '<div class="drop-card__meta"><span>' + (r.date || 'TBD') + '</span><span class="drop-card__price">' + (r.price || '') + '</span></div>';
-        html += '<a href="' + (r.link || articleUrl || '#') + '"' + (articleUrl && !r.link ? '' : ' target="_blank" rel="noopener"') + ' class="drop-card__cta btn-cop">Voir la paire</a>';
+        html += '<a href="' + (r.link || '#') + '" target="_blank" rel="noopener" class="drop-card__cta btn-cop">Voir la paire</a>';
         html += '</div></article>';
       });
       html += '</div>';
