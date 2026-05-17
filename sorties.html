@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', function(){
       if (p.length!==3) return false;
       var d=new Date(parseInt(p[0]),parseInt(p[1])-1,parseInt(p[2]));
       var today=new Date(); today.setHours(0,0,0,0);
-      return d<=today;
+      return d<today; // strict : le jour J n'est pas "sorti"
     }
     function isFutureOrToday(dateStr) {
       if (!dateStr||dateStr==='TBD') return true;
