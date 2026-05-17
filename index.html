@@ -55,10 +55,10 @@
       --pink:#FF2D2D;
       --black:#0A0A0A;
       --white:#FFFFFF;
-      --bg:#0A0A0A;
-      --bg-alt:#111111;
-      --text:#FFFFFF;
-      --muted:rgba(255,255,255,.5);
+      --bg:#FFFFFF;
+      --bg-alt:#F5F5F5;
+      --text:#0A0A0A;
+      --muted:#777;
       --border:#E5E5E5;
       --shadow:0 2px 12px rgba(0,0,0,0.07);
       --shadow-hover:0 8px 28px rgba(0,0,0,0.11);
@@ -95,9 +95,9 @@
     @media(max-width:640px){.hbtn--outline:not(.hbtn--keep){display:none}}
 
     /* ── Hero ── */
-    .hero{background:#0A0A0A;color:#fff;padding:2rem 0 0;text-align:center;position:relative;overflow:hidden;border-bottom:1px solid rgba(255,255,255,.08)}
+    .hero{background:#FFFFFF;color:var(--black);padding:2rem 0 0;text-align:center;position:relative;overflow:hidden;border-bottom:1px solid #E5E5E5}
     .hero::before{display:none}
-    .hero__eyebrow{display:inline-flex;align-items:center;gap:.4rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:#fff;font-family:var(--font-cond);font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.32rem .85rem;border-radius:999px;margin-bottom:1.4rem}
+    .hero__eyebrow{display:inline-flex;align-items:center;gap:.4rem;background:#F5F5F5;border:1px solid #E0E0E0;color:var(--black);font-family:var(--font-cond);font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.32rem .85rem;border-radius:999px;margin-bottom:1.4rem}
     .hero__eyebrow::before{content:'';width:6px;height:6px;background:var(--accent);border-radius:50%;animation:blink 1.2s ease-in-out infinite;flex-shrink:0}
     @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
     .hero__title{font-family:var(--font-display);font-size:clamp(2.4rem,8vw,4.5rem);line-height:.93;letter-spacing:.02em;text-transform:uppercase;margin-bottom:.5rem}
@@ -122,7 +122,7 @@
 
     /* ── Section shell ── */
     .section{padding:var(--section-gap) 0}
-    .section--alt{background:#111111}
+    .section--alt{background:var(--bg-alt)}
     .section--dark{background:var(--black);color:#fff}
     .section-header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2rem;gap:1rem;flex-wrap:wrap}
     .section-title{font-family:var(--font-display);font-size:clamp(1.9rem,5vw,2.8rem);letter-spacing:.03em;text-transform:uppercase;line-height:1}
