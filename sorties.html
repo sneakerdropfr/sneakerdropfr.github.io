@@ -434,6 +434,12 @@ document.addEventListener('DOMContentLoaded', function(){
       // - aujourd'hui & passés : exclus (consultables ailleurs)
       var todayMidnight=new Date(); todayMidnight.setHours(0,0,0,0);
       var tomorrowMidnight=new Date(todayMidnight); tomorrowMidnight.setDate(tomorrowMidnight.getDate()+1);
+      // Prochaines sorties = à partir du lundi prochain (semaine ISO suivante)
+      // Les paires de la semaine courante (lundi-dimanche) sont dans "Drops de la semaine" sur la home
+      var _day=todayMidnight.getDay();
+      var _daysFromMon=_day===0?6:_day-1;
+      var _monday=new Date(todayMidnight); _monday.setDate(todayMidnight.getDate()-_daysFromMon);
+      var nextMondayMidnight=new Date(_monday); nextMondayMidnight.setDate(_monday.getDate()+7);
 
       function parseLocal(str){
         if (!str||str==='TBD') return null;
@@ -449,7 +455,7 @@ document.addEventListener('DOMContentLoaded', function(){
         if (!r.date||r.date==='TBD') return brandFilter(r);
         var d=parseLocal(r.date);
         if (!d) return brandFilter(r);
-        return d>=tomorrowMidnight && brandFilter(r);
+        return d>=nextMondayMidnight && brandFilter(r);
       });
 
       var sortedUpcoming=sortByDate(upcoming).slice(0,MAX_CARDS);
