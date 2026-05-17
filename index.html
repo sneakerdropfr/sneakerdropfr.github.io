@@ -584,8 +584,17 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var p = dateStr.split('-');
       if (p.length !== 3) return false;
       var releaseDate = new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2]));
+      var tomorrow = new Date(); tomorrow.setHours(0,0,0,0); tomorrow.setDate(tomorrow.getDate() + 1);
+      // Sorti = date strictement avant aujourd'hui (hier ou avant)
+      return releaseDate < new Date(new Date().setHours(0,0,0,0));
+    }
+    function isToday(dateStr) {
+      if (!dateStr || dateStr === 'TBD') return false;
+      var p = dateStr.split('-');
+      if (p.length !== 3) return false;
+      var d = new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2]));
       var today = new Date(); today.setHours(0,0,0,0);
-      return releaseDate <= today;
+      return d.getTime() === today.getTime();
     }
     function isFutureOrToday(dateStr) {
       if (!dateStr || dateStr === 'TBD') return true;
@@ -593,7 +602,11 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     }
     function isSoon(dateStr) {
       if (!dateStr || dateStr === 'TBD') return false;
-      var diff = (new Date(dateStr + 'T12:00:00') - new Date()) / (1000*60*60*24);
+      var p = dateStr.split('-');
+      if (p.length !== 3) return false;
+      var dropDate = new Date(parseInt(p[0]), parseInt(p[1])-1, parseInt(p[2]));
+      var today = new Date(); today.setHours(0,0,0,0);
+      var diff = (dropDate - today) / (1000*60*60*24);
       return diff >= 0 && diff <= 7;
     }
     function getScore(r) {
@@ -751,11 +764,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var img = r.image_url
         ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
         : '<div class="drop-card__img-placeholder">👟</div>';
+      var isDropToday = isToday(r.date);
       var badgeTop = released
         ? '<div class="drop-card__badge-top badge-week">🔥 Dispo</div>'
-        : (isSoon(r.date)
-            ? '<div class="drop-card__badge-top badge-hot">⏰ Cette semaine</div>'
-            : '<div class="drop-card__badge-top badge-upcoming">📅 À venir</div>');
+        : (isDropToday
+            ? '<div class="drop-card__badge-top badge-hot" style="background:#FF2D2D">🔥 AUJOURD\'HUI</div>'
+            : (isSoon(r.date)
+                ? '<div class="drop-card__badge-top badge-hot">⏰ Cette semaine</div>'
+                : '<div class="drop-card__badge-top badge-upcoming">📅 À venir</div>'));
       var urgency = released ? '⚠️ Stock limité' : (!r.date || r.date === 'TBD' ? 'DROP À VENIR' : '');
       var urgencyClass = released ? 'drop-card__stock' : 'drop-card__stock drop-card__stock--upcoming';
       var hasLink = (r.retailers && r.retailers.length) || r.buy_url || r.wtc_url;
