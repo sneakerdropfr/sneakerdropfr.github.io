@@ -1,5 +1,17 @@
 [
   {
+    "id": "adidas-hyperboost-emerges-for-lifestyle-as-the-euphoria-runn",
+    "title": "adidas Hyperboost Emerges for Lifestyle as the Euphoria Runner",
+    "brand": "Just Fresh Kicks",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/05/adidas-hyperboost-euphoria-hero-scaled.jpg",
+    "buy_url": "https://justfreshkicks.com/adidas-hyperboost-euphoria/",
+    "source": "Just Fresh Kicks",
+    "added_at": "2026-05-18T23:03:02.087868+00:00"
+  },
+  {
     "id": "air-jordan-3-utility-releases-spring-2027",
     "title": "Air Jordan 3 “Utility” Releases Spring 2027",
     "brand": "Sneaker Files",
@@ -1180,23 +1192,5 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-dunk-low-have-a-nike-day-ir0609-100",
     "buy_url": "",
     "retailers": []
-  },
-  {
-    "id": "joe-freshgoods-x-new-balance-1890-finger-waves",
-    "title": "Joe Freshgoods x New Balance 1890 Finger Waves",
-    "brand": "New Balance",
-    "date": "2026-06-07",
-    "price": "180€",
-    "image_url": "https://sneakerdropfr.github.io/assets/images/releases/joe-freshgoods-x-new-balance-1890-finger-waves.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/joe-freshgoods-new-balance-1890-finger-waves-orange-u189065n",
-    "buy_url": "",
-    "retailers": [
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/new-balance-1890-joe-freshgoods-finger-waves",
-        "price": "275€",
-        "resell": true
-      }
-    ]
   }
 ]
