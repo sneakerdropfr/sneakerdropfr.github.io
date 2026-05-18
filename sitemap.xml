@@ -1,25 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://sneakerdropfr.fr/</loc><lastmod>2026-05-07</lastmod><priority>1.0</priority></url>
-<url><loc>https://sneakerdropfr.fr/privacy.html</loc><lastmod>2026-05-07</lastmod><priority>0.3</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/travis-scott-x-cpfm-x-nike-flea-1-releases-spring-2027.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/kobe-bryant-x-nike-air-force-1-low-protro-denim-releases-may.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/air-jordan-12-bloodline-releases-may-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/nike-air-foamposite-one-mummy-releases-holiday-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/air-jordan-17-low-black-patent-releases-august-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/une-nouvelle-action-bronson-x-new-balance-1890-planet-frog-v.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/air-jordan-12-bloodline-ct8013-003-may-2026-release-date-inf.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/nike-air-more-uptempo-og-black-white-returns-september-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/air-jordan-3-brazil-releases-may-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/nike-air-max-90-total-90-laser-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/nike-air-max-90-hypervenom-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/nike-air-max-90-mercurial-korea-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/nb-gator-run-apollo-gold-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/converse-shai-001-premium-ink-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/nb-abzorb-5030-grey-days-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/bad-bunny-adidas-ballerina-flamboyan-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/aj3-worlds-best-dad-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/travis-scott-aj1-low-og-pink-pack-muslin.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/nigel-sylvester-aj4-brick-after-brick.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
-<url><loc>https://sneakerdropfr.fr/sorties/aj12-bloodline-2026.html</loc><lastmod>2026-05-07</lastmod><priority>0.8</priority></url>
+  <url>
+    <loc>https://sneakerdropfr.fr/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/hype-picks.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/deals.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/adidas-stan-smith-court-pack.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/nike-air-max-95-fresh-mint-returns-june-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/nike-kobe-air-force-1-low-daybreak-releases-may-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/cade-cunningham-x-nike-st-charge-detroit-tough-releases-may-.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/mcdonald-s-x-nike-book-2-sedona-releases-june-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/nike-kd-19-field-purple-releases-june-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/nike-ja-3-kool-aid-releases-may-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/kobe-bryant-x-nike-air-force-1-low-protro-denim-releases-may.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/nike-air-foamposite-one-mummy-releases-holiday-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/air-jordan-17-low-black-patent-releases-august-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/nike-air-more-uptempo-og-black-white-returns-september-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/bad-bunny-adidas-ballerina-flamboyan-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/aj3-worlds-best-dad-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/travis-scott-aj1-low-og-pink-pack-muslin.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/air-jordan-12-bloodline-releases-may-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/nike-air-max-90-total-90-laser.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/nike-air-max-90-hypervenom.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/nike-air-max-90-mercurial-korea-family-reunion.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/new-balance-991v2-made-in-uk-grey-balsam-total-eclipse.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/nike-air-max-90-tiempo.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/nigel-sylvester-air-jordan-4-brick-after-brick.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sneakerdropfr.fr/sorties/air-jordan-3-bin23.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
