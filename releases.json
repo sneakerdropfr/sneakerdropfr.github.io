@@ -111,7 +111,14 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-book-2-mcdonalds-sedona-IR6443-100-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch/upcoming",
     "source": "Sneaker Files",
-    "added_at": "2026-05-16T22:02:47.708688+00:00"
+    "added_at": "2026-05-16T22:02:47.708688+00:00",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "154.99€"
+      }
+    ]
   },
   {
     "id": "nike-kd-19-field-purple-releases-june-2026",
@@ -727,7 +734,56 @@
     "image_url": "https://statics.whentocop.fr/drops/20249/picture_360/tmp000000_Air-Jordan-11-Retro-Low-WMNS_Mothers-Day_AH7860-102_img0-2000x2000.webp",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-11-retro-low-wmns-metallic-gold-white-ah7860-102",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "190€"
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr",
+        "price": "190€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr",
+        "price": "190€"
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu/en/womens-shoes/461326-air-jordan-11-retro-low-mother-s-day-white-metallic-gold-team-gold.html",
+        "price": "190€"
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://slamjam.com/en-fr/products/nike-jordan-footwear-wmns-air-jordan-11-retro-low-white-j358908",
+        "price": "190€"
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://noirfonce.eu/products/air-jordan-11-retro-low-w-ah7860-102",
+        "price": "190€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-11-retro-low-mothers-day-womens",
+        "price": "147€",
+        "resell": true
+      },
+      {
+        "name": "Limited Resell",
+        "url": "https://limitedresell.com/7307-air-jordan-11-retro-low-mothers-day.html",
+        "price": "240€",
+        "resell": true
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/air-jordan-11-retro-low-mother-s-day-2026-1",
+        "price": "279€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "air-jordan-6-retro-wmns-sail-neutral-olive",
@@ -738,7 +794,25 @@
     "image_url": "https://statics.whentocop.fr/media/ikK76gQB0bkW/tmp000000_Air-Jordan-6-Retro-WMNS_Sail-And-Neutral-Olive_IR2009-133_img1-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-6-retro-wmns-sail-neutral-olive-ir2009-133",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-6-retro-neutral-olive-womens",
+        "price": "199€",
+        "resell": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/wmns-air-jordan-6-retro-low-sail-neutral-olive-ir2009-133",
+        "price": "561€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "nike-kobe-3-low-protro-mambacita",
@@ -749,7 +823,30 @@
     "image_url": "https://statics.whentocop.fr/media/aigpUmsyLehL/tmpNike-Kobe-3-Low-Protro_Mambacita_IQ3916-100_img0-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-kobe-3-low-protro-mambacita-iq3916-100",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "190€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr/products/nike-kobe-3-low-protro-mambacita-iq3916-100",
+        "price": "190€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-kobe-3-low-protro-mambacita",
+        "price": "197€",
+        "resell": true
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-kobe-iii-low-protro-mambacita-2026",
+        "price": "225€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "nike-air-max-95-og-comet-red",
@@ -760,7 +857,41 @@
     "image_url": "https://statics.whentocop.fr/media/EaRgImlzYJkL/tmpNike-Air-Max-95-OG_COMET-RED_IB7862-100_img0-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-og-big-bubble-comet-red-ib7862-100",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "190€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr/products/nike-air-max-95-premium-big-bubble-comet-red-ib7862-100",
+        "price": "190€"
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://noirfonce.eu/products/nike-air-max-95-big-bbl-premium-ib7862-100",
+        "price": "190€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/air-max-95-og-comet-red-2026-ib7862-100",
+        "price": "118€",
+        "resell": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-max-95-og-big-bubble-comet-red",
+        "price": "129€",
+        "resell": true
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-air-max-95-og-comet-red-2026",
+        "price": "260€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "virgil-abloh-x-nike-air-force-1-low-sesame",
@@ -771,7 +902,20 @@
     "image_url": "https://statics.whentocop.fr/media/RFcRxnpi1750/tmpoff-white-nike-air-force-1-low-sesame-fd6900-200.webp-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/off-white-nike-air-force-1-low-desert-tan",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-off-white-sesame",
+        "price": "1114€",
+        "resell": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/off-white-x-air-force-1-low-sp-sesame-fd6900-200",
+        "price": "1202€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon",
@@ -782,7 +926,14 @@
     "image_url": "https://statics.whentocop.fr/media/dkpnBFTr8qow/tmpkids-of-immigrants-nike-total-90-velvet-brown-rauw-alejandro-2-1068x1335-2000x2000.webp",
     "wtc_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-total-90-mule-kids-of-immigrants-velvet-brown",
+        "price": "420€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "kids-of-immigrants-x-nike-t90-mule-khaki-fusion-red",
@@ -793,7 +944,14 @@
     "image_url": "https://statics.whentocop.fr/drops/20361/picture/kids-of-immigrants-nike-t90-mule-khaki-fusion-red-orange-horizon-university-gold-velvet-brownorange-horizon-fusion-red-ih4422-200_rymmfX-2000x2000.webp",
     "wtc_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-khaki-fusion-red-ih4422-200",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-total-90-mule-kids-of-immigrants-khaki",
+        "price": "420€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
@@ -804,7 +962,25 @@
     "image_url": "https://statics.whentocop.fr/drops/17302/picture/travis-scott-air-jordan-1-low-og-sp-shy-pink-sail-iq7604-100_2yb0jQ-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-shy-pink-sail-iq7604-100",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "160€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-sp-travis-scott-shy-pink",
+        "price": "515€",
+        "resell": true
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/air-jordan-x-travis-scott-1-low-og-muslin-shy-pink-2026-1",
+        "price": "700€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
@@ -815,7 +991,19 @@
     "image_url": "https://statics.whentocop.fr/media/oyfz5grY3Em4/tmptravis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "160€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-sp-travis-scott-sail-tropical-pink",
+        "price": "485€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "nike-air-max-plus-vii-scorpion",
@@ -870,7 +1058,14 @@
     "image_url": "https://statics.whentocop.fr/drops/20054/picture/joe-freshgoods-new-balance-1890-finger-waves-orange-u189065n_QU5hj4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/joe-freshgoods-new-balance-1890-finger-waves-orange-u189065n",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/new-balance-1890-joe-freshgoods-finger-waves",
+        "price": "275€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "joe-freshgoods-x-new-balance-1890-naughty-things",
@@ -881,7 +1076,14 @@
     "image_url": "https://statics.whentocop.fr/drops/20053/picture/joe-freshgoods-new-balance-1890-naughty-things-purple-u18908jy_4w4yNg-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/joe-freshgoods-new-balance-1890-naughty-things-purple-u18908jy",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/new-balance-1890-joe-freshgoods-naughty-things",
+        "price": "154€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "nike-air-force-1-low-retro-heat-map-black-racer-blue",
@@ -892,7 +1094,14 @@
     "image_url": "https://statics.whentocop.fr/media/FQPodg4ctzA6/tmpnike-air-force-1-low-retro-heat-map-ib6834-001-s2-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-heat-map-black-racer-blue-ib6834-001",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-retro-heat-map-black-racer-blue",
+        "price": "155€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "adidas-adizero-adios-pro-evo-3-cloud-white-solar-turbo",
@@ -903,7 +1112,14 @@
     "image_url": "https://statics.whentocop.fr/media/mPdhdPbHTZcW/tmpadidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo-kh7678-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo-kh7678",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-adizero-adios-pro-evo-3-white-black",
+        "price": "1634€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "cdg-x-nike-ld-1000-spirit-pink",
@@ -914,6 +1130,19 @@
     "image_url": "https://statics.whentocop.fr/drops/17832/picture/cdg-nike-ld-1000-spirit-pink-iu7936-001_KGd9YD-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/cdg-nike-ld-1000-spirit-pink-iu7936-001",
     "buy_url": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/cdg-black-x-nike-ld-1000-black-spirit-pink-iu7936-001",
+        "price": "154€",
+        "resell": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-ld-1000-comme-des-garcons-black-black-spirit-pink",
+        "price": "229€",
+        "resell": true
+      }
+    ]
   }
 ]
