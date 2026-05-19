@@ -360,5 +360,35 @@
         "price": "120€"
       }
     ]
+  },
+  {
+    "id": "nike-kobe-air-force-1-low-daybreak-releases-may-2026",
+    "title": "Nike Kobe Air Force 1 Low “Daybreak”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "2026-02-28",
+    "price": "180€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/04/kobe-bryant-nike-air-force-1-low-white-daybreak-IB0018-102-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w/kobe-pgd6",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-16T22:03:10.573635+00:00",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-kobe-9-em-protro-daybreak-ih1401-401",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "180€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2F",
+        "price": "180€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://de.afew-store.com/",
+        "price": "180€"
+      }
+    ]
   }
 ]
