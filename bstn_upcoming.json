@@ -1,41 +1,11 @@
 [
   {
-    "nom": "New Balance 991",
-    "marque": "New Balance",
-    "prix": "249,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VOTkxVE8yL1U5OTFUTzItMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-991-u991to2-0342575",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-991-u991to2-0342575",
-    "date": "2026-05-21",
-    "couleur": ""
-  },
-  {
-    "nom": "Nike AIR MAX 90",
-    "marque": "Nike",
-    "prix": "149,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ISjA2MjQtNzU4L0hKMDYyNC03NTgtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/nike-air-max-90-hj0624-758-0350328",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-90-hj0624-758-0350328",
-    "date": "2026-05-21",
-    "couleur": ""
-  },
-  {
-    "nom": "Nike AIR MAX 90 SE",
-    "marque": "Nike",
-    "prix": "149,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUjU5MDMtMDEwL0lSNTkwMy0wMTAtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/nike-air-max-90-se-ir5903-010-0350330",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-90-se-ir5903-010-0350330",
-    "date": "2026-05-21",
-    "couleur": ""
-  },
-  {
     "nom": "Nike AIR MAX 95 BIG BBL PREMIUM",
     "marque": "Nike",
     "prix": "189,99 €",
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjc4NjItMTAwL0lCNzg2Mi0xMDAtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/nike-air-max-95-big-bbl-premium-ib7862-100-0350688",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-95-big-bbl-premium-ib7862-100-0350688",
+    "lien_produit": "https://www.bstn.com/eu_fr/r/nike-air-max-95-big-bbl-premium-ib7862-100-0350688",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-air-max-95-big-bbl-premium-ib7862-100-0350688",
     "date": "2026-05-22",
     "couleur": ""
   },
@@ -47,6 +17,16 @@
     "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-1890-u18905uy-0348495",
     "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890-u18905uy-0348495",
     "date": "2026-05-22",
+    "couleur": ""
+  },
+  {
+    "nom": "Adidas ADIZERO EVO SL EXO LIGHTSTRIKEPRO RUNNING",
+    "marque": "Adidas",
+    "prix": "149,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LSjA0MjIvS0owNDIyLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-adizero-evo-sl-exo-lightstrikepro-running-kj0422-0355072",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-adizero-evo-sl-exo-lightstrikepro-running-kj0422-0355072",
+    "date": "2026-06-01",
     "couleur": ""
   },
   {
