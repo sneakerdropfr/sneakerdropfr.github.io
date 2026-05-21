@@ -1,17 +1,5 @@
 [
   {
-    "id": "adidas-hyperboost-euphoria",
-    "title": "adidas Hyperboost Euphoria",
-    "brand": "Sneakers.fr",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/adidas-hyperboost-euphoria-14-1.jpg",
-    "buy_url": "https://www.sneakers.fr/adidas-hyperboost-euphoria/",
-    "source": "Sneakers.fr",
-    "added_at": "2026-05-20T07:45:34.766435+00:00"
-  },
-  {
     "id": "nike-air-zoom-huarache-2k4-knicks-pe-releases-fall-2026",
     "title": "Nike Air Zoom Huarache 2K4 “Knicks” PE",
     "brand": "Sneaker Files",
@@ -663,24 +651,6 @@
     ]
   },
   {
-    "id": "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon",
-    "title": "Kids Of Immigrants x Nike T90 Mule Velvet Brown Orange Horizon",
-    "brand": "Nike",
-    "date": "2026-05-27",
-    "price": "120€",
-    "image_url": "https://sneakerdropfr.github.io/assets/images/releases/kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
-    "buy_url": "",
-    "retailers": [
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-total-90-mule-kids-of-immigrants-velvet-brown",
-        "price": "420€",
-        "resell": true
-      }
-    ]
-  },
-  {
     "id": "kids-of-immigrants-x-nike-t90-mule-khaki-fusion-red",
     "title": "Kids Of Immigrants x Nike T90 Mule Khaki Fusion Red",
     "brand": "Nike",
@@ -950,18 +920,6 @@
     "added_at": "2026-05-19T07:44:19.645682+00:00"
   },
   {
-    "id": "adidas-hyperboost-emerges-for-lifestyle-as-the-euphoria-runn",
-    "title": "adidas Hyperboost Emerges for Lifestyle as the Euphoria Runner",
-    "brand": "Just Fresh Kicks",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/05/adidas-hyperboost-euphoria-hero-scaled.jpg",
-    "buy_url": "https://justfreshkicks.com/adidas-hyperboost-euphoria/",
-    "source": "Just Fresh Kicks",
-    "added_at": "2026-05-18T23:03:02.087868+00:00"
-  },
-  {
     "id": "air-jordan-3-utility-releases-spring-2027",
     "title": "Air Jordan 3 “Utility”",
     "brand": "Sneaker Files",
@@ -1044,18 +1002,6 @@
     "buy_url": "https://www.lesitedelasneaker.com/2026/05/preview-aime-leon-dore-new-balance-gator-run-cream/",
     "source": "Le Site de la Sneaker",
     "added_at": "2026-05-18T13:20:29.809317+00:00"
-  },
-  {
-    "id": "adidas-originals-d-voile-la-hyperboost-euphoria",
-    "title": "adidas Originals dévoile la Hyperboost Euphoria",
-    "brand": "Le Site de la Sneaker",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": null,
-    "buy_url": "https://www.lesitedelasneaker.com/2026/05/preview-adidas-originals-hyperboost-euphoria/",
-    "source": "Le Site de la Sneaker",
-    "added_at": "2026-05-18T09:11:57.589413+00:00"
   },
   {
     "id": "star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr",
