@@ -506,6 +506,18 @@
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
         "price": ""
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr/fr/category/marques/nike/air-force-1.html",
+        "price": "150€",
+        "resell": false
+      },
+      {
+        "name": "JD Sports",
+        "url": "https://www.jdsports.fr/campaign/jordan-brand/",
+        "price": "150€",
+        "resell": false
       }
     ]
   },
@@ -611,6 +623,18 @@
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
         "price": ""
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr/fr/category/marques/jordan/air-jordan-12.html",
+        "price": "215€",
+        "resell": false
+      },
+      {
+        "name": "JD Sports",
+        "url": "https://www.jdsports.fr/campaign/jordan-brand/",
+        "price": "215€",
+        "resell": false
       }
     ]
   },
@@ -653,6 +677,12 @@
         "url": "https://stockx.com/fr-fr/nike-total-90-mule-kids-of-immigrants-khaki",
         "price": "420€",
         "resell": true
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/launch/t/nike-kids-of-immigrants-koi-t90-mule",
+        "price": "120€",
+        "resell": false
       }
     ]
   },
@@ -705,6 +735,18 @@
         "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-sp-travis-scott-sail-tropical-pink",
         "price": "485€",
         "resell": true
+      },
+      {
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com",
+        "price": "150€",
+        "resell": false
+      },
+      {
+        "name": "Sevenstore",
+        "url": "https://www.sevenstore.com/launches/jordan-tropical-pink-x-travis-scott-air-jordan-1-low-og-tropical-pink-sneaker/",
+        "price": "150€",
+        "resell": false
       }
     ]
   },
@@ -732,6 +774,24 @@
         "name": "StockX",
         "url": "https://stockx.com/fr-fr/adidas-ballerina-bad-bunny-flamboyan",
         "price": "183€"
+      },
+      {
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com",
+        "price": "120€",
+        "resell": false
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/adidas-x-bad-bunny-ballerina-flamboyan-2026",
+        "price": "190€",
+        "resell": true
+      },
+      {
+        "name": "Limited Resell",
+        "url": "https://limitedresell.com/7310-adidas-ballerina-bad-bunny-flamboyan.html",
+        "price": "225€",
+        "resell": true
       }
     ]
   },
