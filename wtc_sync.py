@@ -135,7 +135,11 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
         if next_data_str:
             nd = json.loads(next_data_str)
             pp = nd.get("props", {}).get("pageProps", {})
-            log(f"  🔍 __NEXT_DATA__ pageProps keys: {list(pp.keys())[:12]}")
+            build_id = nd.get("buildId", "")
+            slug_path = nd.get("page", "").replace("/[locale]", "/fr")
+            product_id = pp.get("productId", "")
+            slug = pp.get("slug", "")
+            log(f"  🔍 buildId={build_id} slug={slug} productId={product_id}")
 
             RESELL_D = ["stockx.com", "goat.com", "klekt.com"]
             RETAIL_D = [
@@ -144,37 +148,49 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
                 "adidas.fr","adidas.com","jdsports","footlocker",
                 "courir.com","bstn.com","zalando","goat.com","stockx.com",
                 "klekt.com","sns","solebox","sneakers.fr","end-clothing",
+                "size?","offspring","footshop","snipes",
             ]
 
-            # ── React Query dehydratedState ──
-            dehydrated = pp.get("dehydratedState", {})
-            queries = dehydrated.get("queries", [])
-            log(f"  🔍 dehydratedState queries: {len(queries)}")
-            for i, q in enumerate(queries):
-                qdata = q.get("state", {}).get("data", {})
-                if not isinstance(qdata, dict):
-                    continue
-                body = qdata.get("body") or qdata
-                if not isinstance(body, dict):
-                    # Log pour voir le type
-                    log(f"  🔍 Query[{i}] data type: {type(body)} preview: {str(body)[:100]}")
-                    continue
+            # ── Essayer de récupérer les retailers via API directe ──
+            api_candidates = []
+            if build_id and slug:
+                api_candidates.append(
+                    f"https://www.whentocop.fr/_next/data/{build_id}/fr/drops/{slug}.json"
+                )
+            if product_id:
+                api_candidates += [
+                    f"https://back.whentocop.fr/v1/drops/{product_id}/retailers",
+                    f"https://back.whentocop.fr/drops/{product_id}/retailers",
+                    f"https://back.whentocop.fr/v1/products/{product_id}/retailers",
+                ]
 
-                # Query[1] = infos produit → extraire prix et date
-                if "retailPrice" in body and not result.get("price"):
-                    price = body.get("retailPrice")
-                    if price:
-                        result["price"] = f"{price}€"
-                if "dropDate" in body and not result.get("date"):
-                    result["_dropDate"] = body.get("dropDate")
+            for api_url in api_candidates:
+                try:
+                    log(f"  🔍 Tentative API: {api_url}")
+                    resp = await page.goto(api_url, wait_until="domcontentloaded", timeout=10000)
+                    if resp and resp.status == 200:
+                        try:
+                            api_data = await resp.json()
+                        except Exception:
+                            text = await page.inner_text("body")
+                            api_data = json.loads(text)
 
-                # items = contenu de la query
-                items = body.get("items")
-                if items and isinstance(items, list) and items:
-                    first = items[0] if isinstance(items[0], dict) else {}
-                    log(f"  🔍 Query[{i}] items: {len(items)} | ex keys: {list(first.keys())[:10]}")
-                    # Si items ressemble à des retailers
-                    if any(k in first for k in ["url","link","href","buyUrl","redirectUrl","shopName","retailer"]):
+                        log(f"  🔍 API OK — type={type(api_data).__name__} keys={list(api_data.keys())[:10] if isinstance(api_data, dict) else 'list:'+str(len(api_data))}")
+
+                        # Parser selon structure
+                        items = []
+                        if isinstance(api_data, list):
+                            items = api_data
+                        elif isinstance(api_data, dict):
+                            pp2 = api_data.get("pageProps", api_data)
+                            drop2 = pp2.get("drop") or pp2.get("product") or pp2.get("release") or {}
+                            for key in ["retailers","shops","partners","links","where_to_buy","offers","stores","items"]:
+                                raw = (drop2 or pp2).get(key)
+                                if raw and isinstance(raw, list):
+                                    items = raw
+                                    log(f"  🔍 Clé '{key}': {len(items)} entrées")
+                                    break
+
                         for rt in items:
                             if not isinstance(rt, dict): continue
                             u = rt.get("url") or rt.get("link") or rt.get("href") or rt.get("redirectUrl") or rt.get("buyUrl") or ""
@@ -186,31 +202,32 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
                             if price: entry["price"] = str(price)
                             if any(d in u for d in RESELL_D): entry["resell"] = True
                             result["retailers"].append(entry)
+
+                        if result["retailers"]:
+                            log(f"  ✅ {len(result['retailers'])} retailers via API {api_url}")
+                            # Revenir sur la page originale
+                            await page.goto(wtc_url, wait_until="domcontentloaded", timeout=15000)
+                            break
+                except Exception as e:
+                    log(f"  ⚠️  API {api_url} erreur: {e}")
                     continue
 
-                # Autres clés retailers
-                for key in ["retailers","shops","partners","links","where_to_buy","offers","stores","buyLinks","whereToGet"]:
-                    raw = body.get(key)
-                    if raw and isinstance(raw, list):
-                        log(f"  🔍 Trouvé '{key}' dans query[{i}]: {len(raw)} | ex: {raw[0] if raw else ''}")
-                        for rt in raw:
-                            if not isinstance(rt, dict): continue
-                            u = rt.get("url") or rt.get("link") or rt.get("href") or rt.get("redirectUrl") or ""
-                            if not u or "whentocop" in u.lower(): continue
-                            if not any(d in u for d in RETAIL_D): continue
-                            name = rt.get("name") or rt.get("retailer") or rt.get("shop") or u.split("/")[2]
-                            price = rt.get("price") or rt.get("retail_price") or rt.get("retailPrice")
-                            entry = {"name": str(name)[:40], "url": u}
-                            if price: entry["price"] = str(price)
-                            if any(d in u for d in RESELL_D): entry["resell"] = True
-                            result["retailers"].append(entry)
+            # Extraire prix et date depuis Query[1]
+            dehydrated = pp.get("dehydratedState", {})
+            queries = dehydrated.get("queries", [])
+            for q in queries:
+                qdata = q.get("state", {}).get("data", {})
+                if not isinstance(qdata, dict): continue
+                body = qdata.get("body") or qdata
+                if not isinstance(body, dict): continue
+                if "retailPrice" in body and not result.get("price"):
+                    p = body.get("retailPrice")
+                    if p: result["price"] = f"{p}€"
+                if "dropDate" in body and not result.get("date"):
+                    result["_dropDate"] = body.get("dropDate")
 
-                # Log toutes les clés pour debug
-                log(f"  🔍 Query[{i}] body keys: {list(body.keys())[:15]}")
-
-            # Debug si toujours vide
-            if not result["retailers"]:
-                log(f"  ⚠️  Aucun retailer trouvé dans {len(queries)} queries")
+    except Exception as e:
+        log(f"  ⚠️  __NEXT_DATA__ erreur: {e}")
 
     except Exception as e:
         log(f"  ⚠️  __NEXT_DATA__ erreur: {e}")
