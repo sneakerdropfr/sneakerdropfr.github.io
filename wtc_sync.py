@@ -150,17 +150,19 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
             dehydrated = pp.get("dehydratedState", {})
             queries = dehydrated.get("queries", [])
             log(f"  🔍 dehydratedState queries: {len(queries)}")
-            for q in queries:
+            for i, q in enumerate(queries):
                 qdata = q.get("state", {}).get("data", {})
                 if not isinstance(qdata, dict):
                     continue
-                # Chercher retailers dans toutes les clés
-                for key in ["retailers","shops","partners","links","where_to_buy","offers","stores","buyLinks"]:
-                    raw = qdata.get(key)
-                    if not raw and "data" in qdata:
-                        raw = qdata["data"].get(key)
+                # Les données sont dans body
+                body = qdata.get("body") or qdata
+                if not isinstance(body, dict):
+                    continue
+                log(f"  🔍 Query[{i}] body keys: {list(body.keys())[:12]}")
+                for key in ["retailers","shops","partners","links","where_to_buy","offers","stores","buyLinks","whereToGet"]:
+                    raw = body.get(key)
                     if raw and isinstance(raw, list):
-                        log(f"  🔍 Trouvé '{key}' dans query: {len(raw)} entrées")
+                        log(f"  🔍 Trouvé '{key}' dans query[{i}]: {len(raw)} entrées | ex: {raw[0] if raw else ''}")
                         for rt in raw:
                             if not isinstance(rt, dict): continue
                             u = rt.get("url") or rt.get("link") or rt.get("href") or rt.get("redirectUrl") or ""
@@ -178,7 +180,9 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
                 for i, q in enumerate(queries[:3]):
                     qdata = q.get("state", {}).get("data", {})
                     if isinstance(qdata, dict):
-                        log(f"  🔍 Query[{i}] keys: {list(qdata.keys())[:10]}")
+                        body = qdata.get("body") or qdata
+                        if isinstance(body, dict):
+                            log(f"  🔍 Query[{i}] body keys: {list(body.keys())[:10]}")
 
     except Exception as e:
         log(f"  ⚠️  __NEXT_DATA__ erreur: {e}")
