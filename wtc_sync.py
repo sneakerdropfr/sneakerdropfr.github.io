@@ -122,7 +122,7 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
                     if (!href || href === window.location.href) return;
                     if (seen.has(href)) return;
                     // Exclure liens internes WhenToCop
-                    if (href.includes('whentocop.fr')) return;
+                    if (href.includes('whentocop.fr') || href.includes('whentocop.com') || href.includes('whentocop.')) return;
                     seen.add(href);
 
                     const text = el.innerText || '';
@@ -194,6 +194,8 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
         links = re.findall(r'href=["\']([^"\']+)["\']', html)
         seen = set()
         for link in links:
+            if 'whentocop' in link:
+                continue  # exclure tous les liens internes WhenToCop
             if any(d in link for d in known_domains) and link not in seen:
                 seen.add(link)
                 domain = re.sub(r'https?://(www\.)?', '', link).split('/')[0]
