@@ -51,7 +51,8 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
     async def on_response(response):
         url = response.url
         ct = response.headers.get("content-type", "")
-        if "application/json" in ct and "whentocop" in url:
+        # Capturer TOUTES les réponses JSON (pas seulement whentocop)
+        if "application/json" in ct or url.endswith(".json"):
             try:
                 body = await response.json()
                 api_responses.append({"url": url, "body": body})
@@ -69,6 +70,12 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
         return result
 
     page.remove_listener("response", on_response)
+
+    log(f"  🔍 Réponses JSON capturées: {len(api_responses)}")
+    for api in api_responses:
+        log(f"     URL: {api['url'][:100]}")
+        if isinstance(api['body'], dict):
+            log(f"     Keys: {list(api['body'].keys())[:8]}")
 
     # ── Analyser les réponses API capturées ──
     RESELL_DOMAINS = ["stockx.com", "goat.com", "klekt.com"]
