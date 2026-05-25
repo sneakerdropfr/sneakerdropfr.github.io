@@ -82,24 +82,18 @@
     "buy_url": "",
     "retailers": [
       {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "160€"
+        "name": "Adidas Campus 00s",
+        "url": "https://www.whentocop.fr/brands/adidas/sneakers/adidas-campus-00s"
       },
       {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-sp-travis-scott-shy-pink",
-        "price": "515€",
-        "resell": true
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/air-jordan-x-travis-scott-1-low-og-muslin-shy-pink-2026-1",
-        "price": "700€",
-        "resell": true
+        "name": "Adidas",
+        "url": "https://www.whentocop.fr/brands/adidas/clothes"
       }
     ],
-    "featured": true
+    "featured": true,
+    "sku": "IQ7604-100",
+    "raffle": true,
+    "_wtc_synced": true
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
@@ -112,29 +106,17 @@
     "buy_url": "",
     "retailers": [
       {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "160€"
+        "name": "Adidas Campus 00s",
+        "url": "https://www.whentocop.fr/brands/adidas/sneakers/adidas-campus-00s"
       },
       {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-sp-travis-scott-sail-tropical-pink",
-        "price": "485€",
-        "resell": true
-      },
-      {
-        "name": "Footpatrol",
-        "url": "https://www.footpatrol.com",
-        "price": "150€",
-        "resell": false
-      },
-      {
-        "name": "Sevenstore",
-        "url": "https://www.sevenstore.com/launches/jordan-tropical-pink-x-travis-scott-air-jordan-1-low-og-tropical-pink-sneaker/",
-        "price": "150€",
-        "resell": false
+        "name": "Adidas",
+        "url": "https://www.whentocop.fr/brands/adidas/clothes"
       }
-    ]
+    ],
+    "sku": "IQ7604-101",
+    "raffle": true,
+    "_wtc_synced": true
   },
   {
     "id": "bad-bunny-adidas-ballerina-flamboyan-2026",
