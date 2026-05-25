@@ -154,15 +154,32 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
                 qdata = q.get("state", {}).get("data", {})
                 if not isinstance(qdata, dict):
                     continue
-                # Les données sont dans body
                 body = qdata.get("body") or qdata
                 if not isinstance(body, dict):
                     continue
-                log(f"  🔍 Query[{i}] body keys: {list(body.keys())[:12]}")
+
+                # Query avec retailers = body.items (liste de retailers)
+                items = body.get("items")
+                if items and isinstance(items, list):
+                    log(f"  🔍 Query[{i}] items: {len(items)} | ex: {list(items[0].keys())[:10] if items and isinstance(items[0], dict) else items[0]}")
+                    for rt in items:
+                        if not isinstance(rt, dict): continue
+                        u = rt.get("url") or rt.get("link") or rt.get("href") or rt.get("redirectUrl") or rt.get("buyUrl") or ""
+                        if not u or "whentocop" in u.lower(): continue
+                        if not any(d in u for d in RETAIL_D): continue
+                        name = rt.get("name") or rt.get("retailer") or rt.get("shopName") or rt.get("shop") or u.split("/")[2]
+                        price = rt.get("price") or rt.get("retail_price") or rt.get("retailPrice")
+                        entry = {"name": str(name)[:40], "url": u}
+                        if price: entry["price"] = str(price)
+                        if any(d in u for d in RESELL_D): entry["resell"] = True
+                        result["retailers"].append(entry)
+                    continue
+
+                # Autres clés retailers
                 for key in ["retailers","shops","partners","links","where_to_buy","offers","stores","buyLinks","whereToGet"]:
                     raw = body.get(key)
                     if raw and isinstance(raw, list):
-                        log(f"  🔍 Trouvé '{key}' dans query[{i}]: {len(raw)} entrées | ex: {raw[0] if raw else ''}")
+                        log(f"  🔍 Trouvé '{key}' dans query[{i}]: {len(raw)} entrées")
                         for rt in raw:
                             if not isinstance(rt, dict): continue
                             u = rt.get("url") or rt.get("link") or rt.get("href") or rt.get("redirectUrl") or ""
@@ -177,7 +194,7 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
 
             # Debug si toujours vide
             if not result["retailers"] and queries:
-                for i, q in enumerate(queries[:3]):
+                for i, q in enumerate(queries):
                     qdata = q.get("state", {}).get("data", {})
                     if isinstance(qdata, dict):
                         body = qdata.get("body") or qdata
