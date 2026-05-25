@@ -48,5 +48,153 @@
       "type": "direct",
       "status": "available"
     }
+  ],
+  "virgil-abloh-x-nike-air-force-1-low-sesame": [
+    {
+      "name": "GOAT",
+      "url": "https://www.goat.com/sneakers/virgil-abloh-nike-air-force-1-low-sesame",
+      "price": "resell",
+      "type": "resell",
+      "status": "available"
+    }
+  ],
+  "nike-mind-001-flyknit-hyper-royal": [
+    {
+      "name": "Nike",
+      "url": "https://www.nike.com/fr/launch",
+      "price": "90€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Footshop",
+      "url": "https://www.footshop.eu",
+      "price": "90€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "Urbanstar",
+      "url": "https://www.urbanstaronline.com",
+      "price": "90€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "GOAT",
+      "url": "https://www.goat.com",
+      "price": "115€",
+      "type": "resell",
+      "status": "available"
+    },
+    {
+      "name": "StockX",
+      "url": "https://stockx.com/fr-fr/nike-mind-001-flyknit-hyper-royal",
+      "price": "122€",
+      "type": "resell",
+      "status": "available"
+    }
+  ],
+  "nike-mind-002-flyknit-qs-pure-platinum": [
+    {
+      "name": "Nike",
+      "url": "https://www.nike.com/fr/launch",
+      "price": "145€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "StockX",
+      "url": "https://stockx.com/fr-fr/nike-mind-002-flyknit-qs-pure-platinum",
+      "price": "355€",
+      "type": "resell",
+      "status": "available"
+    },
+    {
+      "name": "GOAT",
+      "url": "https://www.goat.com",
+      "price": "resell",
+      "type": "resell",
+      "status": "available"
+    }
+  ],
+  "nike-air-max-90-photon-dust-blue-cyber": [
+    {
+      "name": "Nike SNKRS",
+      "url": "https://www.nike.com/fr/launch",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Size?",
+      "url": "https://www.size.co.uk",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Footpatrol",
+      "url": "https://www.footpatrol.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "43einhalb",
+      "url": "https://www.43einhalb.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "FootDistrict",
+      "url": "https://www.footdistrict.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Offspring",
+      "url": "https://www.offspring.co.uk",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Solebox",
+      "url": "https://www.solebox.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Footshop",
+      "url": "https://www.footshop.eu",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "Noirfonce",
+      "url": "https://www.noirfonce.eu",
+      "price": "120€",
+      "type": "resell",
+      "status": "available"
+    },
+    {
+      "name": "GOAT",
+      "url": "https://www.goat.com",
+      "price": "240€",
+      "type": "resell",
+      "status": "available"
+    },
+    {
+      "name": "StockX",
+      "url": "https://stockx.com/fr-fr/nike-air-max-90-photon-dust-blue-cyber",
+      "price": "316€",
+      "type": "resell",
+      "status": "available"
+    }
   ]
 }
