@@ -121,6 +121,8 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
                     const href = el.href || el.querySelector('a')?.href || '';
                     if (!href || href === window.location.href) return;
                     if (seen.has(href)) return;
+                    // Exclure liens internes WhenToCop
+                    if (href.includes('whentocop.fr')) return;
                     seen.add(href);
 
                     const text = el.innerText || '';
