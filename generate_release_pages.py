@@ -24,7 +24,55 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SORTIES_DIR = os.path.join(ROOT, "sorties")
 RELEASES_PATH = os.path.join(ROOT, "releases.json")
 SITEMAP_PATH = os.path.join(ROOT, "sitemap.xml")
+AFFILIATE_MAPPING_PATH = os.path.join(ROOT, "affiliate_mapping.json")
 SITE_BASE = "https://sneakerdropfr.fr"
+
+# ── Affiliate config ──────────────────────────────────────────────────────────
+AWIN_AFFID = "2855487"
+
+# Mapping domaine -> awinmid. Compléter au fur et à mesure des validations.
+# status: "active" = opérationnel | "pending" = en attente Awin | "none" = pas d'affilié
+AWIN_RETAILERS: dict = {
+    # Validés
+    "bstn.com":        {"mid": "104979", "status": "active",  "name": "BSTN"},
+    "sneakers.fr":     {"mid": "16329",  "status": "active",  "name": "Sneakers.fr"},
+    # En attente de validation — ajouter mid dès réception
+    "footlocker.fr":   {"mid": None,     "status": "pending", "name": "Foot Locker FR"},
+    "jdsports.fr":     {"mid": None,     "status": "pending", "name": "JD Sports"},
+    "courir.com":      {"mid": None,     "status": "pending", "name": "Courir"},
+    # À vérifier
+    "footpatrol.com":  {"mid": None,     "status": "to_check","name": "Footpatrol"},
+    "sevenstore.com":  {"mid": None,     "status": "to_check","name": "Sevenstore"},
+    # Pas d'affilié
+    "nike.com":        {"mid": None,     "status": "none",    "name": "Nike"},
+    "adidas.fr":       {"mid": None,     "status": "none",    "name": "Adidas"},
+    "stockx.com":      {"mid": None,     "status": "none",    "name": "StockX"},
+    "klekt.com":       {"mid": None,     "status": "none",    "name": "Klekt"},
+}
+
+
+def build_awin_url(destination_url: str) -> str | None:
+    """Construit un lien Awin si le domaine a un mid actif.
+    Retourne None si pas de mid, ou si le lien est déjà un lien Awin.
+    Ne modifie jamais un lien déjà affilié.
+    """
+    if not destination_url:
+        return None
+    if "awin1.com" in destination_url or "awinmid" in destination_url:
+        return destination_url  # déjà affilié, ne pas toucher
+    try:
+        from urllib.parse import urlparse, quote
+        domain = urlparse(destination_url).netloc.lstrip("www.")
+        config = AWIN_RETAILERS.get(domain) or AWIN_RETAILERS.get("www." + domain)
+        if not config or config["status"] != "active" or not config["mid"]:
+            return None
+        encoded = quote(destination_url, safe="")
+        return (
+            f"https://www.awin1.com/cread.php"
+            f"?awinmid={config['mid']}&awinaffid={AWIN_AFFID}&p={encoded}"
+        )
+    except Exception:
+        return None
 
 FR_DAYS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 FR_MONTHS = [
@@ -136,6 +184,11 @@ def retailers_html(r: dict) -> str:
         url = ret.get("url") or ""
         if not url:
             continue
+        # Essayer d'appliquer un lien Awin si le domaine est actif et que ce n'est pas du resell
+        if not ret.get("resell"):
+            awin_url = build_awin_url(url)
+            if awin_url:
+                url = awin_url
         price = ret.get("price")
         price_html = (
             f'<span class="retailer__price">{escape(str(price))}</span>'
@@ -172,6 +225,11 @@ def primary_buy_button(r: dict) -> str:
     url = (target and target.get("url")) or r.get("buy_url") or r.get("wtc_url")
     if not url:
         return ""
+    # Appliquer Awin si disponible (pas sur resell ni WhenToCop)
+    if target and not target.get("resell"):
+        awin_url = build_awin_url(url)
+        if awin_url:
+            url = awin_url
     label = "Acheter maintenant"
     return (
         '<a class="article__buy" href="' + escape(url, quote=True) + '" '
