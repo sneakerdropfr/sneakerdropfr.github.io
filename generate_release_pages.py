@@ -69,19 +69,59 @@ def short_meta_desc(r: dict) -> str:
 
 
 def editorial_text(r: dict) -> str:
-    """Factual one-liner. No invented narrative."""
+    """Factual editorial block built from available release data. No invented content."""
     title = r.get("title", "").strip()
+    brand = (r.get("brand") or "").strip()
+    colorway = (r.get("colorway") or "").strip()
     date_fr = format_date_fr(r.get("date"))
     price = format_price(r.get("price"))
-    bits = [f"Retrouve toutes les infos sur <strong>{escape(title)}</strong>"]
+    raffle = r.get("raffle")
+    resell = r.get("resell")
+    rets = r.get("retailers") or []
+    retail_names = [rt["name"] for rt in rets if rt.get("name") and not rt.get("resell")]
+    resell_names = [rt["name"] for rt in rets if rt.get("name") and rt.get("resell")]
+
+    parts = []
+
+    # Phrase 1 — présentation
+    intro = f"La <strong>{escape(title)}</strong>"
+    if brand and brand.lower() not in title.lower():
+        intro += f" est une paire signée <strong>{escape(brand)}</strong>"
+    if colorway:
+        intro += f" disponible dans le coloris <strong>{escape(colorway)}</strong>"
+    intro += "."
+    parts.append(intro)
+
+    # Phrase 2 — date et prix
     if date_fr != "TBD" and price != "TBD":
-        bits.append(f"sortie prévue le {escape(date_fr)} au prix de {escape(price)}")
+        parts.append(f"Elle sort le <strong>{escape(date_fr)}</strong> au prix retail de <strong>{escape(price)}</strong>.")
     elif date_fr != "TBD":
-        bits.append(f"sortie prévue le {escape(date_fr)}")
+        parts.append(f"La date de sortie est fixée au <strong>{escape(date_fr)}</strong>. Le prix retail n'a pas encore été communiqué.")
     elif price != "TBD":
-        bits.append(f"prix annoncé : {escape(price)}")
-    bits.append("date de sortie, prix et où acheter.")
-    return ", ".join(bits) + "."
+        parts.append(f"Le prix retail est fixé à <strong>{escape(price)}</strong>. La date de sortie reste à confirmer.")
+    else:
+        parts.append("La date de sortie et le prix retail ne sont pas encore confirmés.")
+
+    # Phrase 3 — raffle
+    if raffle:
+        parts.append("Une <strong>raffle</strong> est organisée pour cette sortie — inscris-toi tôt pour maximiser tes chances.")
+
+    # Phrase 4 — resell
+    if resell and str(resell).replace("€","").replace("$","").strip().isdigit():
+        parts.append(f"Sur le marché secondaire, la paire s'échange autour de <strong>{escape(str(resell))}€</strong>.")
+
+    # Phrase 5 — retailers
+    if retail_names:
+        if len(retail_names) == 1:
+            parts.append(f"Tu peux l'acheter au prix retail chez <strong>{escape(retail_names[0])}</strong>.")
+        else:
+            listed = ", ".join(f"<strong>{escape(n)}</strong>" for n in retail_names[:-1])
+            listed += f" et <strong>{escape(retail_names[-1])}</strong>"
+            parts.append(f"Elle est disponible chez {listed}.")
+    elif resell_names:
+        parts.append("Aucun retailer officiel confirmé pour l'instant — des liens resell sont disponibles ci-dessous.")
+
+    return " ".join(parts)
 
 
 def retailers_html(r: dict) -> str:
