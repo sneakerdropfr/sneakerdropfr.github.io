@@ -83,6 +83,19 @@
     .retailer__badge--retail{background:#E6F4EA;color:#137333}
     .retailer__badge--resell{background:#FCE8E6;color:#A50E0E}
     .retailer__arrow{font-family:var(--font-cond);font-weight:900;color:var(--muted)}
+    .related{margin-bottom:2.5rem}
+    .related h2{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:1rem}
+    .related h2 span{color:var(--accent)}
+    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem}
+    @media(max-width:600px){.related-grid{grid-template-columns:repeat(2,1fr)}}
+    .related-card{display:flex;flex-direction:column;background:#0A0A0A;border:1px solid rgba(255,255,255,.08);border-radius:10px;overflow:hidden;transition:border-color .2s,transform .2s;text-decoration:none}
+    .related-card:hover{border-color:rgba(255,255,255,.3);transform:translateY(-3px)}
+    .related-card__img{aspect-ratio:1;background:#fff;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:.5rem}
+    .related-card__img img{width:100%;height:100%;object-fit:contain}
+    .related-card__body{padding:.65rem .75rem}
+    .related-card__brand{font-family:var(--font-cond);font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4)}
+    .related-card__title{font-family:var(--font-cond);font-size:.8rem;font-weight:900;text-transform:uppercase;color:#fff;line-height:1.2;margin:.2rem 0}
+    .related-card__price{font-family:var(--font-cond);font-size:.85rem;font-weight:700;color:var(--accent)}
     .article__cta{background:var(--black);border-radius:16px;padding:2.5rem;text-align:center;color:#fff}
     .article__cta h3{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:.6rem}
     .article__cta p{color:rgba(255,255,255,.6);font-size:.9rem;margin-bottom:1.5rem}
@@ -148,6 +161,8 @@
       </div>
 
       <section class="article__retailers"><h2>Où <span>acheter</span></h2><div class="retailers-list"><a class="retailer" href="https://www.adidas.fr" target="_blank" rel="noopener nofollow sponsored"><span class="retailer__name">Adidas</span><span class="retailer__price">120€</span><span class="retailer__badge retailer__badge--retail">Retail</span><span class="retailer__arrow">→</span></a><a class="retailer" href="https://stockx.com/fr-fr/adidas-ballerina-bad-bunny-flamboyan" target="_blank" rel="noopener nofollow sponsored"><span class="retailer__name">StockX</span><span class="retailer__price">183€</span><span class="retailer__badge retailer__badge--resell">Resell</span><span class="retailer__arrow">→</span></a><a class="retailer" href="https://www.footpatrol.com" target="_blank" rel="noopener nofollow sponsored"><span class="retailer__name">Footpatrol</span><span class="retailer__price">120€</span><span class="retailer__badge retailer__badge--retail">Retail</span><span class="retailer__arrow">→</span></a><a class="retailer" href="https://www.klekt.com/product/new/adidas-x-bad-bunny-ballerina-flamboyan-2026" target="_blank" rel="noopener nofollow sponsored"><span class="retailer__name">Klekt</span><span class="retailer__price">190€</span><span class="retailer__badge retailer__badge--resell">Resell</span><span class="retailer__arrow">→</span></a><a class="retailer" href="https://limitedresell.com/7310-adidas-ballerina-bad-bunny-flamboyan.html" target="_blank" rel="noopener nofollow sponsored"><span class="retailer__name">Limited Resell</span><span class="retailer__price">225€</span><span class="retailer__badge retailer__badge--resell">Resell</span><span class="retailer__arrow">→</span></a></div></section>
+
+      <section class="related"><h2>Voir aussi — <span>Adidas</span></h2><div class="related-grid"><a href="/sorties/adidas-believe-that-1-core-black.html" class="related-card"><div class="related-card__img"><img src="https://statics.whentocop.fr/media/Dg92MOceYGvm/tmp000000_adidas-Believe-That-1_Core-Black_KJ3147_img2-small-500x500.webp?width=384&amp;quality=75&amp;format=auto" alt="Adidas Believe That 1 Core Black" loading="lazy"></div><div class="related-card__body"><div class="related-card__brand">Adidas</div><div class="related-card__title">Adidas Believe That 1 Core Black</div><div class="related-card__price">100€</div></div></a><a href="/sorties/adidas-adizero-evo-sl-wmns-off-white-aurora-comet.html" class="related-card"><div class="related-card__img"><img src="https://statics.whentocop.fr/media/0JJSXPzTzC3f/tmpadidas-adizero-evo-sl-wmns-cloud-white-dark-brown-ki9873-4-small-500x500.webp?width=384&amp;quality=75&amp;format=auto" alt="Adidas Adizero Evo Sl Wmns Off White Aurora Comet" loading="lazy"></div><div class="related-card__body"><div class="related-card__brand">Adidas</div><div class="related-card__title">Adidas Adizero Evo Sl Wmns Off White Aurora Comet</div><div class="related-card__price">150€</div></div></a><a href="/sorties/adidas-believe-that-1-cloud-white.html" class="related-card"><div class="related-card__img"><img src="https://statics.whentocop.fr/media/N4QiGC6W8U1R/tmpadidas-believe-that-1-footwear-white-core-black-kj3320-4-small-500x500.webp?width=384&amp;quality=75&amp;format=auto" alt="Adidas Believe That 1 Cloud White" loading="lazy"></div><div class="related-card__body"><div class="related-card__brand">Adidas</div><div class="related-card__title">Adidas Believe That 1 Cloud White</div><div class="related-card__price">100€</div></div></a></div></section>
 
       <div class="article__cta">
         <h3>Sois le premier alerté</h3>
