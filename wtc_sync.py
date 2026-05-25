@@ -82,6 +82,8 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
     page.remove_listener("response", on_response)
 
     log(f"  🔍 Réponses JSON: {len(api_responses)} | back.whentocop: {len(back_responses)}")
+    for api in api_responses:
+        log(f"     {api['url'][:90]}")
 
     # ── Traiter d'abord les réponses back.whentocop (retailers directs) ──
     RESELL_D = ["stockx.com", "goat.com", "klekt.com"]
