@@ -181,33 +181,73 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
     except Exception as e:
         log(f"  ⚠️  Erreur extraction DOM: {e}")
 
-    # ── Fallback : parser le HTML brut ──
+    # ── Fallback : attendre JS puis re-extraire ──
     if not result["retailers"]:
-        log("  ↩️  Fallback parsing HTML...")
-        # Chercher les liens vers des domaines retailers connus
-        known_domains = [
-            "footpatrol", "snipes", "offspring", "footshop", "sevenstore",
-            "size.co.uk", "urbanstar", "nike.com", "adidas", "jdsports",
-            "footlocker", "courir", "bstn", "zalando", "goat.com", "stockx",
-            "klekt", "sns", "solebox", "sivasdescalzo",
-        ]
-        links = re.findall(r'href=["\']([^"\']+)["\']', html)
-        seen = set()
-        for link in links:
-            if 'whentocop' in link:
-                continue  # exclure tous les liens internes WhenToCop
-            if any(d in link for d in known_domains) and link not in seen:
-                seen.add(link)
-                domain = re.sub(r'https?://(www\.)?', '', link).split('/')[0]
-                is_resell = any(d in link for d in ["stockx", "goat.com", "klekt"])
-                result["retailers"].append({
-                    "name": domain,
-                    "url": link,
-                    "resell": is_resell,
-                })
+        log("  ↩️  Fallback JS wait + re-extract...")
+        # Attendre que les liens retailers apparaissent dans le DOM
+        WAIT_SELECTORS = (
+            'a[href*="footpatrol"], a[href*="snipes"], a[href*="size.co"],'
+            'a[href*="offspring"], a[href*="footshop"], a[href*="sevenstore"],'
+            'a[href*="nike.com/launch"], a[href*="stockx"], a[href*="goat.com"],'
+            'a[href*="jdsports"], a[href*="footlocker"], a[href*="bstn"]'
+        )
+        try:
+            await page.wait_for_selector(WAIT_SELECTORS, timeout=8000)
+        except Exception:
+            pass
+        await asyncio.sleep(2)
 
-        if result["retailers"]:
-            log(f"  ✅ {len(result['retailers'])} retailers via fallback HTML")
+        RETAILER_DOMAINS = [
+            "footpatrol.com", "snipes.com", "offspring.co.uk", "footshop.eu",
+            "sevenstore.com", "size.co.uk", "urbanstar", "nike.com",
+            "adidas.fr", "adidas.com", "jdsports", "footlocker",
+            "courir.com", "bstn.com", "zalando", "goat.com", "stockx.com",
+            "klekt.com", "sns", "solebox", "sivasdescalzo", "sneakers.fr",
+            "end-clothing", "flatspot",
+        ]
+        RESELL_DOMAINS = ["stockx.com", "goat.com", "klekt.com"]
+
+        js_code = """
+        (retailerDomains, resellDomains) => {
+            const results = [];
+            const seen = new Set();
+            document.querySelectorAll('a[href]').forEach(a => {
+                const href = a.href;
+                if (!href || href.includes('whentocop')) return;
+                if (seen.has(href)) return;
+                if (!retailerDomains.some(d => href.includes(d))) return;
+                seen.add(href);
+                const text = a.innerText.trim();
+                const name = text.split('\\n')[0].slice(0, 40) || href.split('/')[2] || 'Retailer';
+                const priceM = text.match(/(\\d+)\\s*€/);
+                results.push({
+                    name: name,
+                    url: href,
+                    price: priceM ? priceM[1] + '€' : null,
+                    resell: resellDomains.some(d => href.includes(d)),
+                });
+            });
+            return results;
+        }
+        """
+        try:
+            links_data = await page.evaluate(js_code, RETAILER_DOMAINS, RESELL_DOMAINS)
+            if links_data:
+                seen_urls = set()
+                for rt in links_data:
+                    u = rt.get("url", "")
+                    if u and u not in seen_urls:
+                        seen_urls.add(u)
+                        entry = {"name": rt["name"], "url": u}
+                        if rt.get("price"):
+                            entry["price"] = rt["price"]
+                        if rt.get("resell"):
+                            entry["resell"] = True
+                        result["retailers"].append(entry)
+            if result["retailers"]:
+                log(f"  ✅ {len(result['retailers'])} retailers via fallback JS")
+        except Exception as e:
+            log(f"  ⚠️  Fallback JS erreur: {e}")
 
     # ── Raffle globale ──
     raffle_keywords = ["raffle", "tirage au sort", "inscriptions", "draw"]
