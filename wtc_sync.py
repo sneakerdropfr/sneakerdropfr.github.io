@@ -197,25 +197,24 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
             pass
         await asyncio.sleep(2)
 
-        RETAILER_DOMAINS = [
-            "footpatrol.com", "snipes.com", "offspring.co.uk", "footshop.eu",
-            "sevenstore.com", "size.co.uk", "urbanstar", "nike.com",
-            "adidas.fr", "adidas.com", "jdsports", "footlocker",
-            "courir.com", "bstn.com", "zalando", "goat.com", "stockx.com",
-            "klekt.com", "sns", "solebox", "sivasdescalzo", "sneakers.fr",
-            "end-clothing", "flatspot",
-        ]
-        RESELL_DOMAINS = ["stockx.com", "goat.com", "klekt.com"]
-
         js_code = """
-        (retailerDomains, resellDomains) => {
+        () => {
+            const RETAILER_DOMAINS = [
+                'footpatrol.com','snipes.com','offspring.co.uk','footshop.eu',
+                'sevenstore.com','size.co.uk','urbanstar','nike.com',
+                'adidas.fr','adidas.com','jdsports','footlocker',
+                'courir.com','bstn.com','zalando','goat.com','stockx.com',
+                'klekt.com','sns','solebox','sivasdescalzo','sneakers.fr',
+                'end-clothing','flatspot'
+            ];
+            const RESELL_DOMAINS = ['stockx.com','goat.com','klekt.com'];
             const results = [];
             const seen = new Set();
             document.querySelectorAll('a[href]').forEach(a => {
                 const href = a.href;
                 if (!href || href.includes('whentocop')) return;
                 if (seen.has(href)) return;
-                if (!retailerDomains.some(d => href.includes(d))) return;
+                if (!RETAILER_DOMAINS.some(d => href.includes(d))) return;
                 seen.add(href);
                 const text = a.innerText.trim();
                 const name = text.split('\\n')[0].slice(0, 40) || href.split('/')[2] || 'Retailer';
@@ -224,14 +223,14 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
                     name: name,
                     url: href,
                     price: priceM ? priceM[1] + '€' : null,
-                    resell: resellDomains.some(d => href.includes(d)),
+                    resell: RESELL_DOMAINS.some(d => href.includes(d)),
                 });
             });
             return results;
         }
         """
         try:
-            links_data = await page.evaluate(js_code, RETAILER_DOMAINS, RESELL_DOMAINS)
+            links_data = await page.evaluate(js_code)
             if links_data:
                 seen_urls = set()
                 for rt in links_data:
