@@ -25,36 +25,39 @@ SORTIES_DIR = os.path.join(ROOT, "sorties")
 RELEASES_PATH = os.path.join(ROOT, "releases.json")
 SITEMAP_PATH = os.path.join(ROOT, "sitemap.xml")
 AFFILIATE_MAPPING_PATH = os.path.join(ROOT, "affiliate_mapping.json")
+MANUAL_RETAILERS_PATH = os.path.join(ROOT, "manual_retailers.json")
 SITE_BASE = "https://sneakerdropfr.fr"
 
 # ── Affiliate config ──────────────────────────────────────────────────────────
 AWIN_AFFID = "2855487"
 
-# Mapping domaine -> awinmid. Compléter au fur et à mesure des validations.
-# status: "active" = opérationnel | "pending" = en attente Awin | "none" = pas d'affilié
-AWIN_RETAILERS: dict = {
-    # Validés
-    "bstn.com":        {"mid": "104979", "status": "active",  "name": "BSTN"},
-    "sneakers.fr":     {"mid": "16329",  "status": "active",  "name": "Sneakers.fr"},
-    # En attente de validation — ajouter mid dès réception
-    "footlocker.fr":   {"mid": None,     "status": "pending", "name": "Foot Locker FR"},
-    "jdsports.fr":     {"mid": None,     "status": "pending", "name": "JD Sports"},
-    "courir.com":      {"mid": None,     "status": "pending", "name": "Courir"},
-    # À vérifier
-    "footpatrol.com":  {"mid": None,     "status": "to_check","name": "Footpatrol"},
-    "sevenstore.com":  {"mid": None,     "status": "to_check","name": "Sevenstore"},
-    # Pas d'affilié
-    "nike.com":        {"mid": None,     "status": "none",    "name": "Nike"},
-    "adidas.fr":       {"mid": None,     "status": "none",    "name": "Adidas"},
-    "stockx.com":      {"mid": None,     "status": "none",    "name": "StockX"},
-    "klekt.com":       {"mid": None,     "status": "none",    "name": "Klekt"},
-}
+# Charger affiliate_mapping.json (format domaine -> config)
+def _load_awin_map() -> dict:
+    try:
+        with open(AFFILIATE_MAPPING_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+        # Filtrer les clés privées (_comment, _awinaffid)
+        return {k: v for k, v in data.items() if not k.startswith("_")}
+    except Exception:
+        return {}
+
+AWIN_MAP: dict = _load_awin_map()
+
+# Charger manual_retailers.json
+def _load_manual_retailers() -> dict:
+    try:
+        with open(MANUAL_RETAILERS_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+MANUAL_RETAILERS: dict = _load_manual_retailers()
 
 
 def build_awin_url(destination_url: str) -> str | None:
-    """Construit un lien Awin si le domaine a un mid actif.
-    Retourne None si pas de mid, ou si le lien est déjà un lien Awin.
-    Ne modifie jamais un lien déjà affilié.
+    """Construit un lien Awin si le domaine est actif dans affiliate_mapping.json.
+    Retourne None si status != active, ou si le lien est déjà affilié.
+    Ne modifie jamais un lien déjà affilié. Ne touche jamais aux pending.
     """
     if not destination_url:
         return None
@@ -63,13 +66,18 @@ def build_awin_url(destination_url: str) -> str | None:
     try:
         from urllib.parse import urlparse, quote
         domain = urlparse(destination_url).netloc.lstrip("www.")
-        config = AWIN_RETAILERS.get(domain) or AWIN_RETAILERS.get("www." + domain)
-        if not config or config["status"] != "active" or not config["mid"]:
+        config = AWIN_MAP.get(domain) or AWIN_MAP.get("www." + domain)
+        if not config:
+            return None
+        if config.get("status") != "active":
+            return None  # pending ou none → lien direct
+        mid = config.get("awinmid") or config.get("awin_mid")
+        if not mid:
             return None
         encoded = quote(destination_url, safe="")
         return (
             f"https://www.awin1.com/cread.php"
-            f"?awinmid={config['mid']}&awinaffid={AWIN_AFFID}&p={encoded}"
+            f"?awinmid={mid}&awinaffid={AWIN_AFFID}&p={encoded}"
         )
     except Exception:
         return None
@@ -172,20 +180,66 @@ def editorial_text(r: dict) -> str:
     return " ".join(parts)
 
 
-def retailers_html(r: dict) -> str:
+def get_retailers_for_release(r: dict) -> list:
+    """Retourne les retailers dans l'ordre de priorité :
+    1. manual_retailers.json
+    2. retailers dans releases.json
+    3. buy_url comme retailer unique
+    4. liste vide (fallback wtc_url géré ailleurs)
+    """
+    rid = r.get("id", "")
+
+    # Priorité 1 : manual_retailers.json
+    if rid in MANUAL_RETAILERS and MANUAL_RETAILERS[rid]:
+        return MANUAL_RETAILERS[rid]
+
+    # Priorité 2 : retailers dans releases.json
     rets = r.get("retailers") or []
-    if not rets and r.get("buy_url"):
-        rets = [{"name": "Site officiel", "url": r["buy_url"], "price": r.get("price"), "resell": False}]
+    # Filtrer les retailers avec URL valide et sans lien whentocop
+    clean = [
+        rt for rt in rets
+        if rt.get("url") and "whentocop" not in rt.get("url", "").lower()
+    ]
+    if clean:
+        return clean
+
+    # Priorité 3 : buy_url comme retailer unique
+    buy = r.get("buy_url", "")
+    if buy and "whentocop" not in buy.lower():
+        return [{"name": "Site officiel", "url": buy, "price": r.get("price"), "resell": False}]
+
+    return []
+
+
+def retailers_html(r: dict) -> str:
+    rets = get_retailers_for_release(r)
     if not rets:
+        # Fallback WhenToCop officiel
+        wtc = r.get("wtc_url") or r.get("buy_url", "")
+        if wtc:
+            return (
+                '<section class="article__retailers">'
+                '<h2>Où <span>acheter</span></h2>'
+                '<div class="retailers-list">'
+                f'<a class="retailer" href="{escape(wtc, quote=True)}" '
+                'target="_blank" rel="noopener nofollow">'
+                '<span class="retailer__name">Voir sur WhenToCop</span>'
+                '<span class="retailer__badge retailer__badge--retail">Retail</span>'
+                '<span class="retailer__arrow">→</span>'
+                '</a>'
+                '</div></section>'
+            )
         return ""
+
     rows = []
     for ret in rets:
         name = escape(str(ret.get("name", "Retailer")))
         url = ret.get("url") or ""
         if not url:
             continue
-        # Essayer d'appliquer un lien Awin si le domaine est actif et que ce n'est pas du resell
-        if not ret.get("resell"):
+        # Appliquer Awin uniquement si status=active et pas resell
+        is_resell = ret.get("resell") or ret.get("type") == "resell"
+        if not is_resell:
             awin_url = build_awin_url(url)
             if awin_url:
                 url = awin_url
@@ -194,10 +248,9 @@ def retailers_html(r: dict) -> str:
             f'<span class="retailer__price">{escape(str(price))}</span>'
             if price else ""
         )
-        resell = ret.get("resell")
         badge = (
             '<span class="retailer__badge retailer__badge--resell">Resell</span>'
-            if resell else
+            if is_resell else
             '<span class="retailer__badge retailer__badge--retail">Retail</span>'
         )
         rows.append(
@@ -219,18 +272,19 @@ def retailers_html(r: dict) -> str:
 
 
 def primary_buy_button(r: dict) -> str:
-    rets = r.get("retailers") or []
-    retail = next((x for x in rets if x.get("url") and not x.get("resell")), None)
+    rets = get_retailers_for_release(r)
+    retail = next((x for x in rets if not x.get("resell") and not x.get("type") == "resell"), None)
     target = retail or (rets[0] if rets else None)
     url = (target and target.get("url")) or r.get("buy_url") or r.get("wtc_url")
     if not url:
         return ""
-    # Appliquer Awin si disponible (pas sur resell ni WhenToCop)
-    if target and not target.get("resell"):
+    label = "Voir sur WhenToCop" if "whentocop" in url else "Acheter maintenant"
+    # Appliquer Awin si disponible et pas resell
+    is_resell = target and (target.get("resell") or target.get("type") == "resell")
+    if not is_resell and "whentocop" not in url:
         awin_url = build_awin_url(url)
         if awin_url:
             url = awin_url
-    label = "Acheter maintenant"
     return (
         '<a class="article__buy" href="' + escape(url, quote=True) + '" '
         f'target="_blank" rel="noopener nofollow sponsored">{label} →</a>'
