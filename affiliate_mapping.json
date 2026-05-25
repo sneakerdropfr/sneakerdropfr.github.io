@@ -1,0 +1,130 @@
+{
+  "_comment": "Mapping retailer -> affiliate config. Statut: active | pending | none",
+  "_awinaffid": "2855487",
+
+  "retailers": {
+
+    "BSTN": {
+      "domain": "bstn.com",
+      "awin_mid": "104979",
+      "network": "awin",
+      "status": "active",
+      "url_template": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p={encoded_url}",
+      "notes": "Validé. Utilisé dans buy_url pour Bad Bunny."
+    },
+
+    "Foot Locker FR": {
+      "domain": "footlocker.fr",
+      "awin_mid": null,
+      "network": "awin",
+      "status": "pending",
+      "url_template": null,
+      "notes": "Programme Awin soumis — en attente de validation.",
+      "checklist": [
+        "Valider la candidature Awin Foot Locker FR",
+        "Récupérer awinmid Foot Locker FR sur dashboard Awin",
+        "Mettre à jour awin_mid ici",
+        "Tester url_template sur une paire Nike/Jordan",
+        "Ajouter dans releases.json sur les paires éligibles",
+        "Régénérer les pages avec generate_release_pages.py --force"
+      ]
+    },
+
+    "JD Sports": {
+      "domain": "jdsports.fr",
+      "awin_mid": null,
+      "network": "awin",
+      "status": "pending",
+      "url_template": null,
+      "notes": "Programme Awin soumis — en attente de validation.",
+      "checklist": [
+        "Valider la candidature Awin JD Sports",
+        "Récupérer awinmid JD Sports sur dashboard Awin",
+        "Mettre à jour awin_mid ici",
+        "Tester url_template sur une paire Nike/Jordan/Adidas",
+        "Ajouter dans releases.json sur les paires éligibles",
+        "Régénérer les pages avec generate_release_pages.py --force"
+      ]
+    },
+
+    "Courir": {
+      "domain": "courir.com",
+      "awin_mid": null,
+      "network": "awin",
+      "status": "pending",
+      "url_template": null,
+      "notes": "Programme Awin soumis — en attente de validation.",
+      "checklist": [
+        "Valider la candidature Awin Courir",
+        "Récupérer awinmid Courir sur dashboard Awin",
+        "Mettre à jour awin_mid ici",
+        "Tester url_template sur une paire Nike/Adidas",
+        "Ajouter dans releases.json sur les paires éligibles",
+        "Régénérer les pages avec generate_release_pages.py --force"
+      ]
+    },
+
+    "Sneakers.fr": {
+      "domain": "sneakers.fr",
+      "awin_mid": "16329",
+      "network": "awin",
+      "status": "active",
+      "url_template": "https://www.awin1.com/cread.php?awinmid=16329&awinaffid=2855487&p={encoded_url}",
+      "notes": "Awinmid détecté dans buy_url existants (Nike Baltoro, Nike Book 2)."
+    },
+
+    "Nike SNKRS": {
+      "domain": "nike.com",
+      "awin_mid": null,
+      "network": "direct",
+      "status": "none",
+      "url_template": null,
+      "notes": "Pas de programme affilié Nike direct. Lien direct uniquement."
+    },
+
+    "Adidas": {
+      "domain": "adidas.fr",
+      "awin_mid": null,
+      "network": "direct",
+      "status": "none",
+      "url_template": null,
+      "notes": "Pas de programme affilié Adidas FR confirmé. Lien direct."
+    },
+
+    "StockX": {
+      "domain": "stockx.com",
+      "awin_mid": null,
+      "network": "resell",
+      "status": "none",
+      "url_template": null,
+      "notes": "Plateforme resell. Pas d'affiliation Awin. Lien direct resell."
+    },
+
+    "Klekt": {
+      "domain": "klekt.com",
+      "awin_mid": null,
+      "network": "resell",
+      "status": "none",
+      "url_template": null,
+      "notes": "Plateforme resell. Vérifier si programme affilié disponible."
+    },
+
+    "Footpatrol": {
+      "domain": "footpatrol.com",
+      "awin_mid": null,
+      "network": "awin",
+      "status": "to_check",
+      "url_template": null,
+      "notes": "Retailer UK sérieux. Programme Awin probable — à vérifier."
+    },
+
+    "Sevenstore": {
+      "domain": "sevenstore.com",
+      "awin_mid": null,
+      "network": "awin",
+      "status": "to_check",
+      "url_template": null,
+      "notes": "Retailer UK. Programme Awin à vérifier."
+    }
+  }
+}
