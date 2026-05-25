@@ -513,12 +513,77 @@
     "id": "air-jordan-3-retro-worlds-best-dad",
     "title": "Air Jordan 3 Retro Worlds Best Dad",
     "brand": "Jordan",
-    "date": "2026-05-29",
+    "date": "2026-05-30",
     "price": "210€",
     "image_url": "https://statics.whentocop.fr/media/p47DZjct6zlW/tmpair-jordan-3-worlds-best-dad-if4396-103-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-worlds-best-dad-if4396-103",
     "buy_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-worlds-best-dad-if4396-103",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Size?",
+        "url": "https://www.size.co.uk",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.snipes.com",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstaronline.com",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "210€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "Sevenstore",
+        "url": "https://www.sevenstore.com",
+        "price": "210€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/air-jordan-3-retro-worlds-best-dad-if4396-103",
+        "price": "125€",
+        "resell": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-3-retro-worlds-best-dad",
+        "price": "157€",
+        "resell": true
+      }
+    ],
+    "sku": "JF4396-103",
+    "raffle": true
   },
   {
     "id": "new-balance-933-grey-days",
