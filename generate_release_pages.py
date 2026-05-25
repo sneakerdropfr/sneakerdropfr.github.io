@@ -144,7 +144,7 @@ PAGE_TMPL = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{title_html} — Date sortie, prix et où acheter | SneakerDrop FR</title>
+  <title>{meta_title}</title>
   <meta name="description" content="{meta_desc}" />
   <link rel="canonical" href="{canonical}" />
   <meta property="og:title" content="{title_html} — SneakerDrop FR" />
@@ -360,6 +360,14 @@ def render_page(r: dict) -> str:
     else:
         img_tag = '<div style="font-size:4rem">👟</div>'
 
+    # Meta title optimisé < 60 chars
+    suffix = " | SneakerDrop FR"
+    base_title = title
+    max_base = 60 - len(suffix)
+    if len(base_title) > max_base:
+        base_title = base_title[:max_base].rsplit(" ", 1)[0]
+    meta_title = escape(base_title + suffix)
+
     jsonld_obj = {
         "@context": "https://schema.org",
         "@type": "Product",
@@ -403,6 +411,7 @@ def render_page(r: dict) -> str:
     jsonld = json.dumps(jsonld_obj, ensure_ascii=False).replace("</", "<\\/")
 
     return PAGE_TMPL.format(
+        meta_title=meta_title,
         title_html=title_html,
         meta_desc=meta_desc,
         canonical=escape(canonical, quote=True),
