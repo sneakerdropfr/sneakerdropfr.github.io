@@ -136,10 +136,7 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
             nd = json.loads(next_data_str)
             pp = nd.get("props", {}).get("pageProps", {})
             log(f"  🔍 __NEXT_DATA__ pageProps keys: {list(pp.keys())[:12]}")
-            # Chercher les retailers dans toutes les clés possibles
-            drop = pp.get("drop") or pp.get("product") or pp.get("release") or pp.get("item") or {}
-            if drop and drop != pp:
-                log(f"  🔍 drop keys: {list(drop.keys())[:12]}")
+
             RESELL_D = ["stockx.com", "goat.com", "klekt.com"]
             RETAIL_D = [
                 "footpatrol.com","snipes.com","offspring.co.uk","footshop.eu",
@@ -148,23 +145,41 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
                 "courir.com","bstn.com","zalando","goat.com","stockx.com",
                 "klekt.com","sns","solebox","sneakers.fr","end-clothing",
             ]
-            # Chercher dans drop OU directement dans pp
-            for container in [drop, pp]:
-                for key in ["retailers","shops","partners","links","where_to_buy","offers","stores"]:
-                    raw = container.get(key)
+
+            # ── React Query dehydratedState ──
+            dehydrated = pp.get("dehydratedState", {})
+            queries = dehydrated.get("queries", [])
+            log(f"  🔍 dehydratedState queries: {len(queries)}")
+            for q in queries:
+                qdata = q.get("state", {}).get("data", {})
+                if not isinstance(qdata, dict):
+                    continue
+                # Chercher retailers dans toutes les clés
+                for key in ["retailers","shops","partners","links","where_to_buy","offers","stores","buyLinks"]:
+                    raw = qdata.get(key)
+                    if not raw and "data" in qdata:
+                        raw = qdata["data"].get(key)
                     if raw and isinstance(raw, list):
-                        log(f"  🔍 Trouvé '{key}': {len(raw)} entrées")
+                        log(f"  🔍 Trouvé '{key}' dans query: {len(raw)} entrées")
                         for rt in raw:
                             if not isinstance(rt, dict): continue
-                            u = rt.get("url") or rt.get("link") or rt.get("href") or ""
+                            u = rt.get("url") or rt.get("link") or rt.get("href") or rt.get("redirectUrl") or ""
                             if not u or "whentocop" in u.lower(): continue
                             if not any(d in u for d in RETAIL_D): continue
-                            name = rt.get("name") or rt.get("retailer") or u.split("/")[2]
-                            price = rt.get("price") or rt.get("retail_price")
+                            name = rt.get("name") or rt.get("retailer") or rt.get("shop") or u.split("/")[2]
+                            price = rt.get("price") or rt.get("retail_price") or rt.get("retailPrice")
                             entry = {"name": str(name)[:40], "url": u}
                             if price: entry["price"] = str(price)
                             if any(d in u for d in RESELL_D): entry["resell"] = True
                             result["retailers"].append(entry)
+
+            # Debug si toujours vide
+            if not result["retailers"] and queries:
+                for i, q in enumerate(queries[:3]):
+                    qdata = q.get("state", {}).get("data", {})
+                    if isinstance(qdata, dict):
+                        log(f"  🔍 Query[{i}] keys: {list(qdata.keys())[:10]}")
+
     except Exception as e:
         log(f"  ⚠️  __NEXT_DATA__ erreur: {e}")
 
