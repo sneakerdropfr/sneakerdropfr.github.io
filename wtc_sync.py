@@ -183,12 +183,19 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
                             items = api_data
                         elif isinstance(api_data, dict):
                             pp2 = api_data.get("pageProps", api_data)
-                            drop2 = pp2.get("drop") or pp2.get("product") or pp2.get("release") or {}
-                            for key in ["retailers","shops","partners","links","where_to_buy","offers","stores","items"]:
+                            log(f"  🔍 pageProps2 keys: {list(pp2.keys())[:15]}")
+                            # Explorer récursivement les sous-objets
+                            for k, v in pp2.items():
+                                if isinstance(v, dict):
+                                    log(f"  🔍 pp2[{k}] keys: {list(v.keys())[:10]}")
+                                elif isinstance(v, list) and v:
+                                    log(f"  🔍 pp2[{k}] list[{len(v)}] ex: {list(v[0].keys())[:8] if isinstance(v[0], dict) else str(v[0])[:60]}")
+                            drop2 = pp2.get("drop") or pp2.get("product") or pp2.get("release") or pp2.get("item") or {}
+                            for key in ["retailers","shops","partners","links","where_to_buy","offers","stores","items","buyLinks","whereToGet"]:
                                 raw = (drop2 or pp2).get(key)
                                 if raw and isinstance(raw, list):
                                     items = raw
-                                    log(f"  🔍 Clé '{key}': {len(items)} entrées")
+                                    log(f"  🔍 Clé '{key}': {len(items)} entrées | ex: {list(items[0].keys())[:8] if isinstance(items[0],dict) else items[0]}")
                                     break
 
                         for rt in items:
