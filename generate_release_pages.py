@@ -264,6 +264,19 @@ PAGE_TMPL = """<!DOCTYPE html>
     .retailer__badge--retail{{background:#E6F4EA;color:#137333}}
     .retailer__badge--resell{{background:#FCE8E6;color:#A50E0E}}
     .retailer__arrow{{font-family:var(--font-cond);font-weight:900;color:var(--muted)}}
+    .related{{margin-bottom:2.5rem}}
+    .related h2{{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:1rem}}
+    .related h2 span{{color:var(--accent)}}
+    .related-grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem}}
+    @media(max-width:600px){{.related-grid{{grid-template-columns:repeat(2,1fr)}}}}
+    .related-card{{display:flex;flex-direction:column;background:#0A0A0A;border:1px solid rgba(255,255,255,.08);border-radius:10px;overflow:hidden;transition:border-color .2s,transform .2s;text-decoration:none}}
+    .related-card:hover{{border-color:rgba(255,255,255,.3);transform:translateY(-3px)}}
+    .related-card__img{{aspect-ratio:1;background:#fff;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:.5rem}}
+    .related-card__img img{{width:100%;height:100%;object-fit:contain}}
+    .related-card__body{{padding:.65rem .75rem}}
+    .related-card__brand{{font-family:var(--font-cond);font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4)}}
+    .related-card__title{{font-family:var(--font-cond);font-size:.8rem;font-weight:900;text-transform:uppercase;color:#fff;line-height:1.2;margin:.2rem 0}}
+    .related-card__price{{font-family:var(--font-cond);font-size:.85rem;font-weight:700;color:var(--accent)}}
     .article__cta{{background:var(--black);border-radius:16px;padding:2.5rem;text-align:center;color:#fff}}
     .article__cta h3{{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:.6rem}}
     .article__cta p{{color:rgba(255,255,255,.6);font-size:.9rem;margin-bottom:1.5rem}}
@@ -330,6 +343,8 @@ PAGE_TMPL = """<!DOCTYPE html>
 
       {retailers_block}
 
+      {related_block}
+
       <div class="article__cta">
         <h3>Sois le premier alerté</h3>
         <p>Rejoins le canal Telegram — restocks, promos et drops en temps réel, 24h/24.</p>
@@ -365,7 +380,56 @@ PAGE_TMPL = """<!DOCTYPE html>
 """
 
 
-def render_page(r: dict) -> str:
+def related_html(r: dict, all_releases: list) -> str:
+    """Section Voir aussi — 3 paires de la même marque, excluant la paire courante."""
+    brand = (r.get("brand") or "").strip()
+    current_id = r.get("id", "")
+    if not brand:
+        return ""
+
+    # Paires de la même marque avec image et lien valide, hors paire courante
+    same_brand = [
+        x for x in all_releases
+        if x.get("brand","").strip() == brand
+        and x.get("id") != current_id
+        and x.get("id")
+        and x.get("image_url")
+    ]
+
+    # Priorité : paires avec date connue d'abord
+    same_brand.sort(key=lambda x: (x.get("date","TBD") == "TBD", x.get("date","TBD")))
+    picks = same_brand[:3]
+
+    if not picks:
+        return ""
+
+    cards = []
+    for p in picks:
+        pid = p["id"]
+        ptitle = escape(p.get("title",""))
+        pbrand = escape(p.get("brand",""))
+        pprice = escape(format_price(p.get("price")))
+        pimg = escape(p.get("image_url",""), quote=True)
+        cards.append(
+            f'<a href="/sorties/{pid}.html" class="related-card">'
+            f'<div class="related-card__img"><img src="{pimg}" alt="{ptitle}" loading="lazy"></div>'
+            f'<div class="related-card__body">'
+            f'<div class="related-card__brand">{pbrand}</div>'
+            f'<div class="related-card__title">{ptitle}</div>'
+            f'<div class="related-card__price">{pprice}</div>'
+            f'</div></a>'
+        )
+
+    brand_html = escape(brand)
+    return (
+        f'<section class="related">'
+        f'<h2>Voir aussi — <span>{brand_html}</span></h2>'
+        f'<div class="related-grid">{"".join(cards)}</div>'
+        f'</section>'
+    )
+
+
+def render_page(r: dict, all_releases: list | None = None) -> str:
     rid = r.get("id", "")
     title = r.get("title", "").strip() or rid
     brand = (r.get("brand") or "").strip()
@@ -466,6 +530,7 @@ def render_page(r: dict) -> str:
         buy_btn=primary_buy_button(r),
         editorial=editorial_text(r),
         retailers_block=retailers_html(r),
+        related_block=related_html(r, all_releases or []),
     )
 
 
@@ -528,7 +593,7 @@ def main() -> int:
         if not is_new and not args.force:
             skipped.append(rid)
             continue
-        html = render_page(r)
+        html = render_page(r, releases)
         if args.dry_run:
             (created if is_new else overwrote).append(rid)
             continue
