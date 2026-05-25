@@ -1,0 +1,15 @@
+{
+  "_comment": "Sources de retailers par release. Permet de tracer l'origine des données.",
+  "_sources": {
+    "manual": "Renseigné manuellement",
+    "wtc": "Extrait automatiquement depuis WhenToCop",
+    "buy_url": "URL d'achat directe depuis releases.json",
+    "awin": "Lien affilié Awin généré automatiquement"
+  },
+  "_priority": [
+    "manual_retailers.json",
+    "retailers dans releases.json",
+    "buy_url dans releases.json avec transform Awin si actif",
+    "wtc_url fallback"
+  ]
+}
