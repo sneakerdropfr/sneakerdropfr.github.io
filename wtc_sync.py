@@ -67,13 +67,24 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
 
     try:
         await page.goto(wtc_url, wait_until="domcontentloaded", timeout=25000)
-        # Scroller progressivement pour déclencher le lazy loading des retailers
+
+        # Attendre que la section retailers apparaisse dans le DOM
+        try:
+            await page.wait_for_function(
+                "() => document.querySelectorAll('a[href]').length > 20",
+                timeout=10000
+            )
+        except Exception:
+            pass
+
+        # Scroller progressivement pour déclencher le lazy loading
         await page.evaluate("window.scrollTo(0, document.body.scrollHeight / 3)")
-        await asyncio.sleep(1)
+        await asyncio.sleep(1.5)
         await page.evaluate("window.scrollTo(0, document.body.scrollHeight / 2)")
-        await asyncio.sleep(1)
+        await asyncio.sleep(1.5)
         await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
         await asyncio.sleep(3)
+
     except Exception as e:
         log(f"  ⚠️  Timeout/erreur chargement: {e}")
         page.remove_listener("response", on_response)
@@ -479,6 +490,20 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
     raffle_keywords = ["raffle", "tirage au sort", "inscriptions", "draw"]
     if any(kw in html.lower() for kw in raffle_keywords):
         result["raffle"] = True
+
+    # ── Fallback DOM final — debug total liens ──
+    if not result["retailers"]:
+        try:
+            total_links = await page.evaluate("() => document.querySelectorAll('a[href]').length")
+            ext_links = await page.evaluate("""
+            () => Array.from(document.querySelectorAll('a[href]'))
+                .map(a => a.href)
+                .filter(h => h && !h.includes('whentocop') && h.startsWith('http'))
+                .slice(0, 20)
+            """)
+            log(f"  🔍 Total liens: {total_links} | Externes (20 max): {ext_links}")
+        except Exception as e:
+            log(f"  ⚠️  Debug liens: {e}")
 
     return result
 
