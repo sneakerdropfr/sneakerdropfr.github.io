@@ -1,0 +1,52 @@
+{
+  "mcdonald-s-x-nike-book-2-sedona-releases-june-2026": [
+    {
+      "name": "Nike SNKRS",
+      "url": "https://www.nike.com/fr/launch",
+      "price": "154.99€",
+      "type": "direct",
+      "status": "available"
+    }
+  ],
+  "air-jordan-17-low-black-patent-releases-august-2026": [
+    {
+      "name": "Nike SNKRS",
+      "url": "https://www.nike.com/fr/launch",
+      "price": "139.99€",
+      "type": "direct",
+      "status": "available"
+    },
+    {
+      "name": "StockX",
+      "url": "https://stockx.com/fr-fr",
+      "price": "",
+      "type": "resell",
+      "status": "available"
+    }
+  ],
+  "nike-air-more-uptempo-og-black-white-returns-september-2026": [
+    {
+      "name": "Nike",
+      "url": "https://www.nike.com/fr/launch",
+      "price": "150€",
+      "type": "direct",
+      "status": "available"
+    },
+    {
+      "name": "StockX",
+      "url": "https://stockx.com/fr-fr",
+      "price": "",
+      "type": "resell",
+      "status": "available"
+    }
+  ],
+  "nike-mind-001-flyknit-bronze-eclipse": [
+    {
+      "name": "Nike",
+      "url": "https://www.nike.com/launch",
+      "price": "",
+      "type": "direct",
+      "status": "available"
+    }
+  ]
+}
