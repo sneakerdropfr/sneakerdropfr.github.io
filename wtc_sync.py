@@ -129,6 +129,49 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
 
     html = await page.content()
 
+    # ── Retailers via __NEXT_DATA__ (Next.js) ──
+    try:
+        next_data_str = await page.evaluate("() => window.__NEXT_DATA__ ? JSON.stringify(window.__NEXT_DATA__) : null")
+        if next_data_str:
+            nd = json.loads(next_data_str)
+            pp = nd.get("props", {}).get("pageProps", {})
+            log(f"  🔍 __NEXT_DATA__ pageProps keys: {list(pp.keys())[:12]}")
+            # Chercher les retailers dans toutes les clés possibles
+            drop = pp.get("drop") or pp.get("product") or pp.get("release") or pp.get("item") or {}
+            if drop and drop != pp:
+                log(f"  🔍 drop keys: {list(drop.keys())[:12]}")
+            RESELL_D = ["stockx.com", "goat.com", "klekt.com"]
+            RETAIL_D = [
+                "footpatrol.com","snipes.com","offspring.co.uk","footshop.eu",
+                "sevenstore.com","size.co.uk","urbanstar","nike.com",
+                "adidas.fr","adidas.com","jdsports","footlocker",
+                "courir.com","bstn.com","zalando","goat.com","stockx.com",
+                "klekt.com","sns","solebox","sneakers.fr","end-clothing",
+            ]
+            # Chercher dans drop OU directement dans pp
+            for container in [drop, pp]:
+                for key in ["retailers","shops","partners","links","where_to_buy","offers","stores"]:
+                    raw = container.get(key)
+                    if raw and isinstance(raw, list):
+                        log(f"  🔍 Trouvé '{key}': {len(raw)} entrées")
+                        for rt in raw:
+                            if not isinstance(rt, dict): continue
+                            u = rt.get("url") or rt.get("link") or rt.get("href") or ""
+                            if not u or "whentocop" in u.lower(): continue
+                            if not any(d in u for d in RETAIL_D): continue
+                            name = rt.get("name") or rt.get("retailer") or u.split("/")[2]
+                            price = rt.get("price") or rt.get("retail_price")
+                            entry = {"name": str(name)[:40], "url": u}
+                            if price: entry["price"] = str(price)
+                            if any(d in u for d in RESELL_D): entry["resell"] = True
+                            result["retailers"].append(entry)
+    except Exception as e:
+        log(f"  ⚠️  __NEXT_DATA__ erreur: {e}")
+
+    if result["retailers"]:
+        log(f"  ✅ {len(result['retailers'])} retailers via __NEXT_DATA__")
+        return result
+
     # ── Date ──
     date_match = re.search(
         r'(?:Date de sortie|Release date)[^<]*?[:]\s*<[^>]*>\s*(\d{1,2})\s+(\w+)\s+(\d{4})',
