@@ -45,12 +45,79 @@ async def fetch_wtc_retailers(page, wtc_url: str) -> dict:
     Retourne un dict avec les champs à merger dans releases.json.
     """
     result = {"retailers": [], "_wtc_synced": True}
+    api_responses = []
+
+    # ── Intercepter les réponses API JSON ──
+    async def on_response(response):
+        url = response.url
+        ct = response.headers.get("content-type", "")
+        if "application/json" in ct and "whentocop" in url:
+            try:
+                body = await response.json()
+                api_responses.append({"url": url, "body": body})
+            except Exception:
+                pass
+
+    page.on("response", on_response)
 
     try:
         await page.goto(wtc_url, wait_until="networkidle", timeout=25000)
-        await asyncio.sleep(1.5)
+        await asyncio.sleep(2)
     except Exception as e:
         log(f"  ⚠️  Timeout/erreur chargement: {e}")
+        page.remove_listener("response", on_response)
+        return result
+
+    page.remove_listener("response", on_response)
+
+    # ── Analyser les réponses API capturées ──
+    RESELL_DOMAINS = ["stockx.com", "goat.com", "klekt.com"]
+    RETAILER_DOMAINS = [
+        "footpatrol.com", "snipes.com", "offspring.co.uk", "footshop.eu",
+        "sevenstore.com", "size.co.uk", "urbanstar", "nike.com",
+        "adidas.fr", "adidas.com", "jdsports", "footlocker",
+        "courir.com", "bstn.com", "zalando", "goat.com", "stockx.com",
+        "klekt.com", "sns", "solebox", "sneakers.fr", "end-clothing",
+    ]
+
+    for api in api_responses:
+        body = api["body"]
+        retailers_raw = []
+        # Chercher une clé retailers/shops/partners dans la réponse
+        if isinstance(body, dict):
+            for key in ["retailers", "shops", "partners", "links", "where_to_buy", "offers"]:
+                if key in body and isinstance(body[key], list):
+                    retailers_raw = body[key]
+                    break
+            # Parfois dans data.retailers
+            if not retailers_raw and "data" in body and isinstance(body["data"], dict):
+                for key in ["retailers", "shops", "partners", "links"]:
+                    if key in body["data"] and isinstance(body["data"][key], list):
+                        retailers_raw = body["data"][key]
+                        break
+        elif isinstance(body, list):
+            retailers_raw = body
+
+        for rt in retailers_raw:
+            if not isinstance(rt, dict):
+                continue
+            url = rt.get("url") or rt.get("link") or rt.get("href") or ""
+            if not url or "whentocop" in url.lower():
+                continue
+            if not any(d in url for d in RETAILER_DOMAINS):
+                continue
+            name = rt.get("name") or rt.get("retailer") or rt.get("shop") or url.split("/")[2]
+            price = rt.get("price") or rt.get("retail_price")
+            is_resell = any(d in url for d in RESELL_DOMAINS)
+            entry = {"name": str(name)[:40], "url": url}
+            if price:
+                entry["price"] = str(price)
+            if is_resell:
+                entry["resell"] = True
+            result["retailers"].append(entry)
+
+    if result["retailers"]:
+        log(f"  ✅ {len(result['retailers'])} retailers via API intercept")
         return result
 
     html = await page.content()
