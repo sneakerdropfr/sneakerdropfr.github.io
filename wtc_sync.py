@@ -541,12 +541,47 @@ async def run(args):
     updated = 0
     errors = 0
 
+    # ── Cookies WhenToCop (chargés depuis .env ou wtc_cookies.json) ──
+    wtc_cookies = []
+    cookies_path = os.path.join(ROOT, "wtc_cookies.json")
+    if os.path.exists(cookies_path):
+        try:
+            with open(cookies_path, encoding="utf-8") as f:
+                raw_cookies = json.load(f)
+            # Convertir au format Playwright
+            for c in raw_cookies:
+                domain = c.get("domain", "")
+                # Nettoyer le domaine si format markdown
+                if "](http" in domain:
+                    domain = domain.split("](")[0].lstrip("[")
+                entry = {
+                    "name": c["name"],
+                    "value": c["value"],
+                    "domain": domain,
+                    "path": c.get("path", "/"),
+                    "secure": c.get("secure", False),
+                    "httpOnly": c.get("httpOnly", False),
+                }
+                if c.get("expirationDate"):
+                    entry["expires"] = int(c["expirationDate"])
+                wtc_cookies.append(entry)
+            log(f"✅ {len(wtc_cookies)} cookies WhenToCop chargés")
+        except Exception as e:
+            log(f"⚠️  Erreur chargement cookies: {e}")
+    else:
+        log("⚠️  wtc_cookies.json absent — Cloudflare risque de bloquer")
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         context = await browser.new_context(
-            user_agent="Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
             locale="fr-FR",
+            viewport={"width": 1280, "height": 800},
         )
+        # Injecter les cookies avant toute navigation
+        if wtc_cookies:
+            await context.add_cookies(wtc_cookies)
+            log("✅ Cookies injectés dans le contexte Playwright")
         page = await context.new_page()
 
         for i, r in enumerate(to_process):
