@@ -208,8 +208,18 @@
     .raffle-single__btn{display:inline-block;background:var(--black);color:#fff;font-family:var(--font-cond);font-size:.78rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:.5rem 1.1rem;border-radius:999px;text-decoration:none;align-self:flex-start;transition:background .15s,color .15s}
     .raffle-single__btn:hover{background:var(--accent);color:var(--black)}
     .raffle-more{font-family:var(--font-cond);font-size:.78rem;font-weight:700;color:var(--muted);margin-top:.5rem;letter-spacing:.04em}
-    /* Keep raffle-grid for JS compat — hidden by default */
+    /* Raffle carousel */
     #raffle-grid{display:none}
+    .raffle-carousel{display:flex;gap:.85rem;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:.5rem;scrollbar-width:none}
+    .raffle-carousel::-webkit-scrollbar{display:none}
+    .raffle-carousel-item{flex:0 0 260px;scroll-snap-align:start;background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
+    .raffle-carousel-item__img{width:100%;height:160px;object-fit:cover;display:block;background:#F9F9F9}
+    .raffle-carousel-item__body{padding:.85rem}
+    .raffle-carousel-item__badge{display:inline-block;background:#0A0A0A;color:#fff;font-size:.6rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;padding:.18rem .5rem;border-radius:999px;margin-bottom:.4rem}
+    .raffle-carousel-item__title{font-family:var(--font-cond);font-size:.95rem;font-weight:900;color:var(--black);line-height:1.2;margin-bottom:.3rem}
+    .raffle-carousel-item__meta{font-size:.75rem;color:var(--muted);margin-bottom:.6rem}
+    .raffle-carousel-item__btn{display:inline-block;background:var(--black);color:#fff;font-family:var(--font-cond);font-size:.75rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:.45rem 1rem;border-radius:999px;text-decoration:none;transition:background .15s,color .15s}
+    .raffle-carousel-item__btn:hover{background:var(--accent);color:var(--black)}
     @media(max-width:600px){.raffle-single{flex-direction:column}.raffle-single__img{width:100%;height:200px}}
 
     /* ── Filters ── */
@@ -1041,24 +1051,27 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
                 + '</div></div>';
             }).join('');
           }
-          // Compact display: 1 card
+          // Carousel : toutes les raffles en scroll horizontal
           if (compact) {
-            var r0 = raffles[0];
-            var dateStr0 = '';
-            if (r0.date && r0.date !== 'TBD') {
-              var p0 = r0.date.split('-');
-              var d0 = new Date(parseInt(p0[0]), parseInt(p0[1])-1, parseInt(p0[2]));
-              dateStr0 = 'Drop le ' + d0.toLocaleDateString('fr-FR', {day:'numeric', month:'long'});
-            }
-            compact.innerHTML = '<div class="raffle-single">'
-              + (r0.image_url ? '<div class="raffle-single__img"><img src="' + r0.image_url + '" alt="' + escapeHtml(r0.title) + '" loading="lazy"></div>' : '')
-              + '<div class="raffle-single__body">'
-              + '<span class="raffle-single__badge">Raffle</span>'
-              + '<div class="raffle-single__title">' + escapeHtml(r0.title) + '</div>'
-              + '<div class="raffle-single__meta">' + dateStr0 + '</div>'
-              + '<a href="' + (r0.raffle_url||'#') + '" target="_blank" rel="noopener" class="raffle-single__btn">Participer</a>'
-              + '</div></div>'
-              + (raffles.length > 1 ? '<div class="raffle-more">+' + (raffles.length - 1) + ' autre' + (raffles.length > 2 ? 's' : '') + ' raffle' + (raffles.length > 2 ? 's' : '') + '</div>' : '');
+            var carouselHtml = '<div class="raffle-carousel">';
+            raffles.forEach(function(rf) {
+              var dateStrRf = '';
+              if (rf.date && rf.date !== 'TBD') {
+                var prf = rf.date.split('-');
+                var drf = new Date(parseInt(prf[0]), parseInt(prf[1])-1, parseInt(prf[2]));
+                dateStrRf = 'Drop le ' + drf.toLocaleDateString('fr-FR', {day:'numeric', month:'long'});
+              }
+              carouselHtml += '<div class="raffle-carousel-item">'
+                + (rf.image_url ? '<img src="' + rf.image_url + '" alt="' + escapeHtml(rf.title) + '" class="raffle-carousel-item__img" loading="lazy">' : '<div class="raffle-carousel-item__img"></div>')
+                + '<div class="raffle-carousel-item__body">'
+                + '<span class="raffle-carousel-item__badge">Raffle</span>'
+                + '<div class="raffle-carousel-item__title">' + escapeHtml(rf.title) + '</div>'
+                + '<div class="raffle-carousel-item__meta">' + dateStrRf + '</div>'
+                + '<a href="' + (rf.raffle_url||'#') + '" target="_blank" rel="noopener" class="raffle-carousel-item__btn">Participer</a>'
+                + '</div></div>';
+            });
+            carouselHtml += '</div>';
+            compact.innerHTML = carouselHtml;
           }
         })();
 
