@@ -214,7 +214,6 @@ def get_retailers_for_release(r: dict) -> list:
 def retailers_html(r: dict) -> str:
     rets = get_retailers_for_release(r)
     if not rets:
-        # Fallback WhenToCop officiel
         wtc = r.get("wtc_url") or r.get("buy_url", "")
         if wtc:
             return (
@@ -231,29 +230,30 @@ def retailers_html(r: dict) -> str:
             )
         return ""
 
-    rows = []
-    for ret in rets:
+    def make_row(ret):
         name = escape(str(ret.get("name", "Retailer")))
         url = ret.get("url") or ""
         if not url:
-            continue
-        # Appliquer Awin uniquement si status=active et pas resell
+            return ""
         is_resell = ret.get("resell") or ret.get("type") == "resell"
-        if not is_resell:
+        is_raffle = ret.get("raffle") or ret.get("type") == "raffle" or ret.get("status") == "raffle"
+        if not is_resell and not is_raffle:
             awin_url = build_awin_url(url)
             if awin_url:
                 url = awin_url
         price = ret.get("price")
         price_html = (
             f'<span class="retailer__price">{escape(str(price))}</span>'
-            if price else ""
+            if price and str(price) not in ("resell", "") else ""
         )
         badge = (
             '<span class="retailer__badge retailer__badge--resell">Resell</span>'
             if is_resell else
+            '<span class="retailer__badge retailer__badge--raffle">Raffle</span>'
+            if is_raffle else
             '<span class="retailer__badge retailer__badge--retail">Retail</span>'
         )
-        rows.append(
+        return (
             '<a class="retailer" href="' + escape(url, quote=True) + '" '
             'target="_blank" rel="noopener nofollow sponsored">'
             f'<span class="retailer__name">{name}</span>'
@@ -261,14 +261,31 @@ def retailers_html(r: dict) -> str:
             '<span class="retailer__arrow">→</span>'
             '</a>'
         )
-    if not rows:
-        return ""
-    return (
-        '<section class="article__retailers">'
-        '<h2>Où <span>acheter</span></h2>'
-        '<div class="retailers-list">' + "".join(rows) + '</div>'
-        '</section>'
-    )
+
+    # Séparer en 3 groupes
+    retail  = [rt for rt in rets if not (rt.get("resell") or rt.get("type")=="resell") and not (rt.get("raffle") or rt.get("type")=="raffle" or rt.get("status")=="raffle")]
+    raffles = [rt for rt in rets if rt.get("raffle") or rt.get("type")=="raffle" or rt.get("status")=="raffle"]
+    resell  = [rt for rt in rets if rt.get("resell") or rt.get("type")=="resell"]
+
+    html = '<section class="article__retailers"><h2>Où <span>acheter</span></h2>'
+
+    if retail:
+        html += '<div class="retailers-section"><h3 class="retailers-section__title">🛒 Retail</h3><div class="retailers-list">'
+        html += "".join(make_row(rt) for rt in retail)
+        html += '</div></div>'
+
+    if raffles:
+        html += '<div class="retailers-section"><h3 class="retailers-section__title">🎰 Raffles</h3><div class="retailers-list">'
+        html += "".join(make_row(rt) for rt in raffles)
+        html += '</div></div>'
+
+    if resell:
+        html += '<div class="retailers-section"><h3 class="retailers-section__title">📈 Resell</h3><div class="retailers-list">'
+        html += "".join(make_row(rt) for rt in resell)
+        html += '</div></div>'
+
+    html += '</section>'
+    return html
 
 
 def primary_buy_button(r: dict) -> str:
@@ -367,6 +384,8 @@ PAGE_TMPL = """<!DOCTYPE html>
     .article__retailers{{margin-bottom:2.5rem}}
     .article__retailers h2{{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:1rem}}
     .article__retailers h2 span{{color:var(--accent)}}
+    .retailers-section{{margin-bottom:1.25rem}}
+    .retailers-section__title{{font-family:var(--font-cond);font-size:.85rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.6rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}}
     .retailers-list{{display:flex;flex-direction:column;gap:.6rem}}
     .retailer{{display:flex;align-items:center;gap:1rem;padding:.95rem 1.2rem;background:#fff;border:1px solid var(--border);border-radius:10px;transition:border-color .15s,transform .15s,box-shadow .15s}}
     .retailer:hover{{border-color:var(--black);transform:translateY(-1px);box-shadow:var(--shadow)}}
@@ -375,6 +394,7 @@ PAGE_TMPL = """<!DOCTYPE html>
     .retailer__badge{{font-family:var(--font-cond);font-size:.7rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:.2rem .55rem;border-radius:999px}}
     .retailer__badge--retail{{background:#E6F4EA;color:#137333}}
     .retailer__badge--resell{{background:#FCE8E6;color:#A50E0E}}
+    .retailer__badge--raffle{{background:#FFF3CD;color:#856404}}
     .retailer__arrow{{font-family:var(--font-cond);font-weight:900;color:var(--muted)}}
     .related{{margin-bottom:2.5rem}}
     .related h2{{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:1rem}}
