@@ -1025,7 +1025,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 
         // Section Raffles — compact: 1 card visible
         (function() {
-          var raffles = allReleases.filter(function(r) { return r.raffle === true; });
+          var raffles = allReleases.filter(function(r) { return r.raffle === true; }).sort(function(a,b){ var da=a.date||'9999'; var db=b.date||'9999'; return da<db?-1:da>db?1:(a.id||'').localeCompare(b.id||''); });
           var section = document.getElementById('raffle-section');
           var grid = document.getElementById('raffle-grid'); // kept for JS compat, hidden
           var compact = document.getElementById('raffle-compact');
