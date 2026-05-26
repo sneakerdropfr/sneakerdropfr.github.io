@@ -179,7 +179,7 @@
     .releases-loading,.releases-empty{text-align:center;padding:3rem 1rem;color:var(--muted);font-family:var(--font-cond);font-size:.95rem}
 
     /* ── Top pick ── */
-    .top-pick__card{background:#0A0A0A;border:none;border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;box-shadow:var(--shadow);position:relative;transition:box-shadow .2s;max-height:360px}
+    .top-pick__card{background:#0A0A0A;border:none;border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;box-shadow:var(--shadow);position:relative;transition:box-shadow .2s}
     .top-pick__card:hover{box-shadow:var(--shadow-hover)}
     .top-pick__tag{position:absolute;top:1rem;left:1rem;background:#fff;color:#0A0A0A;font-family:var(--font-cond);font-size:.72rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;padding:.28rem .75rem;border-radius:4px;z-index:2}
     .top-pick__img-wrap{background:rgba(255,255,255,.06);aspect-ratio:1;overflow:hidden;max-height:360px}
@@ -194,7 +194,7 @@
     .top-pick__resell::before{content:'↑ ';color:#fff;opacity:.5}
     .top-pick__alert{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:.48rem .72rem;font-family:var(--font-cond);font-size:.82rem;font-weight:700;color:#fff;letter-spacing:.04em;text-transform:uppercase}
     .top-pick__alert--upcoming{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:#fff}
-    @media(max-width:768px){.top-pick__card{grid-template-columns:1fr}.top-pick__img-wrap{max-height:240px}.top-pick__body{padding:1.25rem}}
+    @media(max-width:768px){.top-pick__card{grid-template-columns:1fr;display:flex;flex-direction:column}.top-pick__img-wrap{max-height:200px;width:100%;flex-shrink:0}.top-pick__body{padding:1rem;flex:1}}
 
     /* ── Raffle (compact: 1 card visible) ── */
     #raffle-section{background:var(--bg);padding:var(--section-gap) 0}
