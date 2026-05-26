@@ -1061,13 +1061,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
                 var drf = new Date(parseInt(prf[0]), parseInt(prf[1])-1, parseInt(prf[2]));
                 dateStrRf = 'Drop le ' + drf.toLocaleDateString('fr-FR', {day:'numeric', month:'long'});
               }
+              var rfLink = rf.id ? 'sorties/' + rf.id + '.html' : (rf.raffle_url || rf.wtc_url || '#');
               carouselHtml += '<div class="raffle-carousel-item">'
                 + (rf.image_url ? '<img src="' + rf.image_url + '" alt="' + escapeHtml(rf.title) + '" class="raffle-carousel-item__img" loading="lazy">' : '<div class="raffle-carousel-item__img"></div>')
                 + '<div class="raffle-carousel-item__body">'
                 + '<span class="raffle-carousel-item__badge">Raffle</span>'
                 + '<div class="raffle-carousel-item__title">' + escapeHtml(rf.title) + '</div>'
                 + '<div class="raffle-carousel-item__meta">' + dateStrRf + '</div>'
-                + '<a href="' + (rf.raffle_url||'#') + '" target="_blank" rel="noopener" class="raffle-carousel-item__btn">Participer</a>'
+                + '<a href="' + rfLink + '" class="raffle-carousel-item__btn">Voir les raffles</a>'
                 + '</div></div>';
             });
             carouselHtml += '</div>';
