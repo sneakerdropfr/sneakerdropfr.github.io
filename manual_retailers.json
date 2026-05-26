@@ -196,5 +196,121 @@
       "type": "resell",
       "status": "available"
     }
+  ],
+  "travis-scott-x-air-jordan-1-low-og-sp-shy-pink": [
+    {
+      "name": "Naked",
+      "url": "https://www.nakedcph.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Maha",
+      "url": "https://www.mahamuamsterdam.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Nike SNKRS",
+      "url": "https://www.nike.com/fr/launch",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "Footpatrol",
+      "url": "https://www.footpatrol.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "FootDistrict",
+      "url": "https://www.footdistrict.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "Sevenstore",
+      "url": "https://www.sevenstore.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "Kickz",
+      "url": "https://www.kickz.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "The Broken Arm",
+      "url": "https://www.the-broken-arm.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    }
+  ],
+  "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink": [
+    {
+      "name": "Naked",
+      "url": "https://www.nakedcph.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Maha",
+      "url": "https://www.mahamuamsterdam.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Nike SNKRS",
+      "url": "https://www.nike.com/fr/launch",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "Footpatrol",
+      "url": "https://www.footpatrol.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "FootDistrict",
+      "url": "https://www.footdistrict.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "Sevenstore",
+      "url": "https://www.sevenstore.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "Kickz",
+      "url": "https://www.kickz.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "The Broken Arm",
+      "url": "https://www.the-broken-arm.com",
+      "price": "160€",
+      "type": "direct",
+      "status": "raffle"
+    }
   ]
 }
