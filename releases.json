@@ -32,10 +32,20 @@
     "image_url": "https://sneakerdropfr.github.io/assets/images/releases/virgil-abloh-x-nike-air-force-1-low-sesame.webp",
     "wtc_url": "https://www.whentocop.fr/drops/off-white-nike-air-force-1-low-desert-tan",
     "buy_url": "",
-    "retailers": [],
-    "sku": "FD6900-200",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-off-white-sesame",
+        "price": "1114€",
+        "resell": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/off-white-x-air-force-1-low-sp-sesame-fd6900-200",
+        "price": "1202€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "kids-of-immigrants-x-nike-t90-mule-khaki-fusion-red",
@@ -46,10 +56,20 @@
     "image_url": "https://statics.whentocop.fr/drops/20361/picture/Kids-of-Immigrants-x-Nike-T90-Mule_Khaki-Fusion-Red_IH4422-200_img0-1000x1000.webp?width=1920&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-khaki-fusion-red-ih4422-200",
     "buy_url": "",
-    "retailers": [],
-    "sku": "IH4422-200",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-total-90-mule-kids-of-immigrants-khaki",
+        "price": "420€",
+        "resell": true
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/launch/t/nike-kids-of-immigrants-koi-t90-mule",
+        "price": "120€",
+        "resell": false
+      }
+    ]
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
@@ -60,11 +80,26 @@
     "image_url": "https://sneakerdropfr.github.io/assets/images/releases/travis-scott-x-air-jordan-1-low-og-sp-shy-pink.webp",
     "wtc_url": "https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-shy-pink-sail-iq7604-100",
     "buy_url": "",
-    "retailers": [],
-    "featured": true,
-    "sku": "IQ7604-100",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "160€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-sp-travis-scott-shy-pink",
+        "price": "515€",
+        "resell": true
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/air-jordan-x-travis-scott-1-low-og-muslin-shy-pink-2026-1",
+        "price": "700€",
+        "resell": true
+      }
+    ],
+    "featured": true
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
@@ -75,10 +110,31 @@
     "image_url": "https://sneakerdropfr.github.io/assets/images/releases/travis-scott-x-air-jordan-1-low-og-sp-tropical-pink.webp",
     "wtc_url": "https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101",
     "buy_url": "",
-    "retailers": [],
-    "sku": "IQ7604-101",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "160€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-sp-travis-scott-sail-tropical-pink",
+        "price": "485€",
+        "resell": true
+      },
+      {
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com",
+        "price": "150€",
+        "resell": false
+      },
+      {
+        "name": "Sevenstore",
+        "url": "https://www.sevenstore.com/launches/jordan-tropical-pink-x-travis-scott-air-jordan-1-low-og-tropical-pink-sneaker/",
+        "price": "150€",
+        "resell": false
+      }
+    ]
   },
   {
     "id": "bad-bunny-adidas-ballerina-flamboyan-2026",
@@ -94,8 +150,37 @@
     "resell": 280,
     "raffle": true,
     "raffle_url": "https://www.adidas.fr/confirmed",
-    "retailers": [],
-    "_wtc_synced": true
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "120€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-ballerina-bad-bunny-flamboyan",
+        "price": "183€",
+        "resell": true
+      },
+      {
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com",
+        "price": "120€",
+        "resell": false
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/adidas-x-bad-bunny-ballerina-flamboyan-2026",
+        "price": "190€",
+        "resell": true
+      },
+      {
+        "name": "Limited Resell",
+        "url": "https://limitedresell.com/7310-adidas-ballerina-bad-bunny-flamboyan.html",
+        "price": "225€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
@@ -262,7 +347,7 @@
     "date": "TBD",
     "price": null,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-baltoro-chalk-sail-safety-orange-black-io4556-100-2.jpg",
-    "buy_url": "https://www.awin1.com/cread.php?awinmid=16329&amp;awinaffid=1726465&amp;clickref=monotote-search-url-mens-baltoro&amp;clickref6=Monotote&amp;p=https://www.nike.com/de/w?q=Mens+Baltoro&vst=Mens+Baltoro",
+    "buy_url": "https://www.nike.com/de/w?q=Mens+Baltoro",
     "source": "Sneaker News",
     "added_at": "2026-05-18T22:04:06.002114+00:00"
   },
@@ -286,7 +371,7 @@
     "date": "TBD",
     "price": null,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-book-2-haven-and-hector-ix1832-001-5.jpg",
-    "buy_url": "https://www.awin1.com/cread.php?awinmid=16329&amp;awinaffid=1726465&amp;clickref=monotote-search-url-mens-book-2&amp;clickref6=Monotote&amp;p=https://www.nike.com/de/w?q=Mens+Book+2&vst=Mens+Book+2",
+    "buy_url": "https://www.nike.com/de/w?q=Mens+Book+2",
     "source": "Sneaker News",
     "added_at": "2026-05-18T18:33:04.832480+00:00"
   },
@@ -323,10 +408,7 @@
     "image_url": "https://statics.whentocop.fr/media/unGtpbgmmflr/tmpnike-mind-001-flyknit-hyper-royal-ir2175-400-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
     "buy_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
-    "retailers": [],
-    "sku": "IR2175-400",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-mind-002-flyknit-qs-pure-platinum",
@@ -337,10 +419,7 @@
     "image_url": "https://statics.whentocop.fr/media/pxwtEM54ykVS/tmpnike-mind-002-flyknit-qs-pure-platinum-ir2176-100-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
     "buy_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
-    "retailers": [],
-    "sku": "IR2176-100",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-air-max-90-photon-dust-blue-cyber",
@@ -351,10 +430,7 @@
     "image_url": "https://statics.whentocop.fr/media/wAkgjgcBnMsm/tmpnike-air-max-90-photon-dust-and-blue-cyber-iu7543-025-s4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
-    "retailers": [],
-    "sku": "IU7543-025",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "asphaltgold-x-puma-h-street-saffron-coffee-milk",
@@ -365,9 +441,7 @@
     "image_url": "https://statics.whentocop.fr/media/YkJrJzIg4DGH/tmppuma-x-asphaltgold-h-street-saffron-coffee-milk-408616-01-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/asphaltgold-puma-h-street-saffron-coffee-milk-408616-01",
     "buy_url": "https://www.whentocop.fr/drops/asphaltgold-puma-h-street-saffron-coffee-milk-408616-01",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon",
@@ -378,10 +452,7 @@
     "image_url": "https://statics.whentocop.fr/media/sU0iafNrkeSy/tmpKids-of-Immigrants-x-Nike-T90-Mule_Velvet-Brown-Orange-Horizon_IH4422-201_img0-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
     "buy_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
-    "retailers": [],
-    "sku": "IH4422-201",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "auralee-x-new-balance-204l-brown",
@@ -392,9 +463,7 @@
     "image_url": "https://statics.whentocop.fr/media/G50aJDDl2eZF/tmpauralee-x-new-balance-204l-ganache-black-bean-u204l5i7-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-brown-u204l5i7",
     "buy_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-brown-u204l5i7",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "auralee-x-new-balance-204l-cream",
@@ -405,9 +474,7 @@
     "image_url": "https://statics.whentocop.fr/media/l6hR55lrXHsG/tmpauralee-x-new-balance-204l-plaza-taupe-white-jade-u204l7yu-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-cream-u204l7yu",
     "buy_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-cream-u204l7yu",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-air-liquid-max-bright-crimson-fire-red",
@@ -418,10 +485,7 @@
     "image_url": "https://statics.whentocop.fr/media/M1d3ctaG3rnT/tmpNIKE-AIR-LIQUID-MAX-Black-Team-Red-Fire-Red-Metallic-Gold-IQ7634-002-1-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-liquid-max-bright-crimson-fire-red-iq7634-002",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-liquid-max-bright-crimson-fire-red-iq7634-002",
-    "retailers": [],
-    "sku": "IQ7634-002",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "new-balance-numeric-933-marblehead-island-blue",
@@ -432,9 +496,7 @@
     "image_url": "https://statics.whentocop.fr/media/03z4GdG7tLj4/tmpnew-balance-numeric-933-marblehead-island-blue-un933gry-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-933-marblehead-island-blue-un933gry",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-numeric-933-marblehead-island-blue-un933gry",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "new-balance-numeric-tiago-lemos-1010-grey-days",
@@ -445,9 +507,7 @@
     "image_url": "https://statics.whentocop.fr/media/7H5Fj7iH88nh/tmpnew-balance-numeric-tiago-lemos-1010-grey-days-un1010y-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-tiago-lemos-1010-grey-days-un1010y",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-numeric-tiago-lemos-1010-grey-days-un1010y",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "air-jordan-3-retro-worlds-best-dad",
@@ -458,10 +518,72 @@
     "image_url": "https://statics.whentocop.fr/media/p47DZjct6zlW/tmpair-jordan-3-worlds-best-dad-if4396-103-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-worlds-best-dad-if4396-103",
     "buy_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-worlds-best-dad-if4396-103",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Size?",
+        "url": "https://www.size.co.uk",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.snipes.com",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstaronline.com",
+        "price": "210€",
+        "resell": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "210€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "Sevenstore",
+        "url": "https://www.sevenstore.com",
+        "price": "210€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/air-jordan-3-retro-worlds-best-dad-if4396-103",
+        "price": "125€",
+        "resell": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-3-retro-worlds-best-dad",
+        "price": "157€",
+        "resell": true
+      }
+    ],
     "sku": "JF4396-103",
-    "raffle": true,
-    "_wtc_synced": true
+    "raffle": true
   },
   {
     "id": "new-balance-933-grey-days",
@@ -472,9 +594,7 @@
     "image_url": "https://statics.whentocop.fr/media/txh3kPQYIens/tmpnew-balance-933-grey-days-nm933gey-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-933-grey-days-nm933gey",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-933-grey-days-nm933gey",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "new-balance-mt10t-fire-cracker",
@@ -485,9 +605,7 @@
     "image_url": "https://statics.whentocop.fr/media/E7kT16ZGAZJS/tmpnew-balance-mt10t-fire-cracker-mt10t8e8-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-mt10t-fire-cracker-mt10t8e8",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-mt10t-fire-cracker-mt10t8e8",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "adidas-believe-that-1-core-black",
@@ -498,9 +616,7 @@
     "image_url": "https://statics.whentocop.fr/media/Dg92MOceYGvm/tmp000000_adidas-Believe-That-1_Core-Black_KJ3147_img2-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-core-black-kj3147",
     "buy_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-core-black-kj3147",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
@@ -511,9 +627,7 @@
     "image_url": "https://statics.whentocop.fr/media/0JJSXPzTzC3f/tmpadidas-adizero-evo-sl-wmns-cloud-white-dark-brown-ki9873-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-wmns-off-white-aurora-comet-ki9873",
     "buy_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-wmns-off-white-aurora-comet-ki9873",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "adidas-believe-that-1-cloud-white",
@@ -524,9 +638,7 @@
     "image_url": "https://statics.whentocop.fr/media/N4QiGC6W8U1R/tmpadidas-believe-that-1-footwear-white-core-black-kj3320-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-cloud-white-kj3320",
     "buy_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-cloud-white-kj3320",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "adidas-adizero-evo-sl-exo-core-black",
@@ -537,9 +649,7 @@
     "image_url": "https://statics.whentocop.fr/media/TQc7zqYOu8L5/tmpadidas-adizero-evo-sl-exo-kj0422-v4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-exo-core-black-kj0422",
     "buy_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-exo-core-black-kj0422",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "new-balance-mt10t-raincloud-concrete",
@@ -550,9 +660,7 @@
     "image_url": "https://statics.whentocop.fr/media/k7eibZIDlVs1/tmpnew-balance-mt10t-gray-mt10t8wq-noshadow-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-mt10t-raincloud-concrete-mt10t8wq",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-mt10t-raincloud-concrete-mt10t8wq",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "new-balance-5030-grey-black",
@@ -563,9 +671,7 @@
     "image_url": "https://statics.whentocop.fr/media/NdiPqLq5CaMJ/tmpnew-balance-5030-grey-black-u50303l3-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-5030-grey-black-u50303l3",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-5030-grey-black-u50303l3",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "new-balance-1906l-fairweather-blue",
@@ -576,9 +682,7 @@
     "image_url": "https://statics.whentocop.fr/media/cC9dn6dzyxfX/tmpNew-Balance-1906L_Fairweather-Blue_U19062XN_img0-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-1906l-fairweather-blue-u19062xn",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-1906l-fairweather-blue-u19062xn",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "new-balance-2010-neptune-grey-shadow-blue",
@@ -589,9 +693,7 @@
     "image_url": "https://statics.whentocop.fr/media/aworOHoSKDVs/tmpnew-balance-2010-neptune-grey-shadow-blue-u20107pt-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-neptune-grey-shadow-blue-u20107pt",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-2010-neptune-grey-shadow-blue-u20107pt",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "adidas-adizero-evo-sl-crystal-white-luta",
@@ -602,9 +704,7 @@
     "image_url": "https://statics.whentocop.fr/media/xDxAko6EFLPA/tmpadidas-adizero-evo-sl-m-crystal-white-luta-iron-metallic-kj2521-4-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-crystal-white-luta-kj2521",
     "buy_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-crystal-white-luta-kj2521",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "new-balance-1906l-rosewood",
@@ -615,9 +715,7 @@
     "image_url": "https://statics.whentocop.fr/media/gPS1jLc9GbXH/tmpnew-balance-1906l-rosewood-u19065ws-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-1906l-rosewood-u19065ws",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-1906l-rosewood-u19065ws",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-air-max-plus-vii-scorpion",
@@ -628,10 +726,7 @@
     "image_url": "https://statics.whentocop.fr/drops/20359/picture/nike-air-max-plus-vii-scorpion-iq9429-001_NtzyEY-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-plus-vii-scorpion-iq9429-001",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-max-plus-vii-scorpion-iq9429-001",
-    "retailers": [],
-    "sku": "IQ9429-001",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
@@ -642,9 +737,7 @@
     "image_url": "https://statics.whentocop.fr/media/EeFARm2Il9s2/tmpbape-adidas-adizero-evo-sl-kj5751-06-1100x770-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/bape-adidas-adizero-evo-sl-white-gold-pink-blue-kj5751",
     "buy_url": "https://www.whentocop.fr/drops/bape-adidas-adizero-evo-sl-white-gold-pink-blue-kj5751",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-rift-2-kenya",
@@ -655,10 +748,7 @@
     "image_url": "https://statics.whentocop.fr/media/OF4kCHQbJSqN/tmpnike-rift-2-kenya-iq8006-002-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-rift-2-kenya-iq8006-002",
     "buy_url": "https://www.whentocop.fr/drops/nike-rift-2-kenya-iq8006-002",
-    "retailers": [],
-    "sku": "IQ8006-002",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "renegade-x-nike-vomero-premium-brown-basalt",
@@ -669,10 +759,7 @@
     "image_url": "https://statics.whentocop.fr/drops/20437/picture/renegade-nike-vomero-premium-brown-basalt-iq7314-200_4xNFKR-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/renegade-nike-vomero-premium-brown-basalt-iq7314-200",
     "buy_url": "https://www.whentocop.fr/drops/renegade-nike-vomero-premium-brown-basalt-iq7314-200",
-    "retailers": [],
-    "sku": "IQ7314-200",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "renegade-x-nike-vaporfly-4-brown-basalt",
@@ -683,10 +770,7 @@
     "image_url": "https://statics.whentocop.fr/media/9b5nKj5T8go7/tmpnike-vaporfly-4-x-renegade-brown-basalt-bronze-eclipse-iq7313-200-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/renegade-nike-vaporfly-4-cinnamon-iq7313-200",
     "buy_url": "https://www.whentocop.fr/drops/renegade-nike-vaporfly-4-cinnamon-iq7313-200",
-    "retailers": [],
-    "sku": "IQ7313-200",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-air-max-90-cool-grey",
@@ -697,10 +781,7 @@
     "image_url": "https://statics.whentocop.fr/media/0hK4gYIhv567/tmpnike-air-max-iii-cool-grey-infrared-23-iu7543-065-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-cool-grey-iu7543-065",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-max-90-cool-grey-iu7543-065",
-    "retailers": [],
-    "sku": "IU7543-065",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-mind-001-flyknit-bronze-eclipse",
@@ -711,15 +792,7 @@
     "image_url": "https://statics.whentocop.fr/media/H3AVjYbLcRbu/tmpNike-Mind-001_Bronze-Eclipse_A-definir_img0-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-bronze-eclipse-ir2175-200",
     "buy_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-bronze-eclipse-ir2175-200",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/launch"
-      }
-    ],
-    "sku": "IR2175-200",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "adidas-sc-premiere-cloud-white-power-green",
@@ -730,9 +803,7 @@
     "image_url": "https://statics.whentocop.fr/media/3WV4apV9lywV/tmpadidas-sc-premiere-cloud-white-power-green-kz7196-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-sc-premiere-cloud-white-power-green-kz7196",
     "buy_url": "https://www.whentocop.fr/drops/adidas-sc-premiere-cloud-white-power-green-kz7196",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "adidas-powerphase-cloud-white-power-green",
@@ -743,9 +814,7 @@
     "image_url": "https://statics.whentocop.fr/media/Bdf7UKLOIKn9/tmpadidas-powerphase-cloud-white-power-green-la4359-v4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-powerphase-cloud-white-power-green-la4359",
     "buy_url": "https://www.whentocop.fr/drops/adidas-powerphase-cloud-white-power-green-la4359",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "joe-freshgoods-x-new-balance-1890-finger-waves",
@@ -756,9 +825,7 @@
     "image_url": "https://statics.whentocop.fr/drops/20054/picture/joe-freshgoods-new-balance-1890-finger-waves-orange-u189065n_QU5hj4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/joe-freshgoods-new-balance-1890-finger-waves-orange-u189065n",
     "buy_url": "https://www.whentocop.fr/drops/joe-freshgoods-new-balance-1890-finger-waves-orange-u189065n",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "joe-freshgoods-x-new-balance-1890-naughty-things",
@@ -769,9 +836,7 @@
     "image_url": "https://statics.whentocop.fr/drops/20053/picture/joe-freshgoods-new-balance-1890-naughty-things-purple-u18908jy_4w4yNg-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/joe-freshgoods-new-balance-1890-naughty-things-purple-u18908jy",
     "buy_url": "https://www.whentocop.fr/drops/joe-freshgoods-new-balance-1890-naughty-things-purple-u18908jy",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-air-force-1-low-retro-heat-map-black-racer-blue",
@@ -782,10 +847,7 @@
     "image_url": "https://statics.whentocop.fr/media/FQPodg4ctzA6/tmpnike-air-force-1-low-retro-heat-map-ib6834-001-s2-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-heat-map-black-racer-blue-ib6834-001",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-heat-map-black-racer-blue-ib6834-001",
-    "retailers": [],
-    "sku": "IB6834-001",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-air-force-1-low-paisley-hydrogen-blue",
@@ -796,10 +858,7 @@
     "image_url": "https://statics.whentocop.fr/drops/18007/picture/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400_pHmmLp-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
-    "retailers": [],
-    "sku": "IO1259-400",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "adidas-adizero-adios-pro-evo-3-cloud-white-solar-turbo",
@@ -810,9 +869,7 @@
     "image_url": "https://statics.whentocop.fr/media/mPdhdPbHTZcW/tmpadidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo-kh7678-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo-kh7678",
     "buy_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo-kh7678",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-air-force-1-low-glam-rock-bold-berry",
@@ -823,10 +880,7 @@
     "image_url": "https://statics.whentocop.fr/drops/17611/picture/nike-air-force-1-low-glam-rock-bold-berry-ib6843-002_0ux87P-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
-    "retailers": [],
-    "sku": "IB6843-002",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "cdg-x-nike-ld-1000-spirit-pink",
@@ -837,10 +891,7 @@
     "image_url": "https://statics.whentocop.fr/drops/17832/picture/cdg-nike-ld-1000-spirit-pink-iu7936-001_KGd9YD-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/cdg-nike-ld-1000-spirit-pink-iu7936-001",
     "buy_url": "https://www.whentocop.fr/drops/cdg-nike-ld-1000-spirit-pink-iu7936-001",
-    "retailers": [],
-    "sku": "IU7936-001",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "willy-chavarria-x-adidas-megaride-ag-powder-red",
@@ -851,9 +902,7 @@
     "image_url": "https://statics.whentocop.fr/media/Hjvn8vUDCnym/tmpwilly-chavarria-x-adidas-megaride-ag-powder-red-ki7006-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/willy-chavarria-adidas-megaride-ag-powder-red-ki7006",
     "buy_url": "https://www.whentocop.fr/drops/willy-chavarria-adidas-megaride-ag-powder-red-ki7006",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-air-max-95-mexico",
@@ -864,10 +913,7 @@
     "image_url": "https://statics.whentocop.fr/media/R9BPzlaCEqYT/tmpnike-air-max-95-mexico-ir5900-030-v4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-mexico-ir5900-030",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-max-95-mexico-ir5900-030",
-    "retailers": [],
-    "sku": "IR5900-030",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "awake-ny-x-air-jordan-6-midnight-navy",
@@ -878,10 +924,7 @@
     "image_url": "https://statics.whentocop.fr/drops/20177/picture/awake-ny-air-jordan-6-retro-midnight-navy-iq5706-400_hgYx5z-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/awake-ny-air-jordan-6-retro-midnight-navy-iq5706-400",
     "buy_url": "https://www.whentocop.fr/drops/awake-ny-air-jordan-6-retro-midnight-navy-iq5706-400",
-    "retailers": [],
-    "sku": "IQ5706-400",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "air-jordan-3-retro-olive-aura",
@@ -892,10 +935,7 @@
     "image_url": "https://statics.whentocop.fr/media/MRRtNdLJEkeZ/tmpair-jordan-3-retro-olive-aura-1-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-olive-aura-ck9246-302",
     "buy_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-olive-aura-ck9246-302",
-    "retailers": [],
-    "sku": "CK9246-302",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-air-force-1-low-retro-premium-red-sepia",
@@ -906,10 +946,7 @@
     "image_url": "https://statics.whentocop.fr/media/vhpOkZmbti0U/tmpnike-air-force-1-low-retro-premium-qs-red-sepia-io9555-201-s1-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-premium-red-sepia-io9555-201",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-premium-red-sepia-io9555-201",
-    "retailers": [],
-    "sku": "IO9555-201",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-dunk-low-have-a-nike-day",
@@ -920,10 +957,7 @@
     "image_url": "https://statics.whentocop.fr/media/8rWBunHGTMUK/tmpnike-dunk-low-have-a-nike-day-ir0609-100-s4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-dunk-low-have-a-nike-day-ir0609-100",
     "buy_url": "https://www.whentocop.fr/drops/nike-dunk-low-have-a-nike-day-ir0609-100",
-    "retailers": [],
-    "sku": "IR0609-100",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "new-balance-204l-wmns-cow-print-brown",
@@ -934,9 +968,7 @@
     "image_url": "https://statics.whentocop.fr/media/ZTlflPlLI72X/tmp000000_New-Balance-204L_COW-PRINT-BROWN_U204L8JF_img0-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-204l-cow-print-brown-wmns-u204l8jf",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-204l-cow-print-brown-wmns-u204l8jf",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "new-balance-204l-wmns-cow-print-black",
@@ -947,63 +979,50 @@
     "image_url": "https://statics.whentocop.fr/drops/18825/gallery/000000_New-Balance-204L_COW-PRINT-BLACK_U204L3Z7_img1-1000x1000.webp",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-204l-cow-print-black-wmns-u204l3z7",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-204l-cow-print-black-wmns-u204l3z7",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "air-jordan-3-og-bin-23",
     "title": "Air Jordan 3 Og Bin 23",
     "brand": "Jordan",
     "date": "TBD",
-    "price": "350€",
+    "price": null,
     "image_url": "https://statics.whentocop.fr/drops/18866/picture/vanson-leathers-spider-man-supreme-jacket-black_NrPWDV-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-og-bin-23-io7744-600",
     "buy_url": "https://www.whentocop.fr/drops/air-jordan-3-og-bin-23-io7744-600",
-    "retailers": [],
-    "sku": "IO7744-600",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-air-max-plus-vii-fire-red",
     "title": "Nike Air Max Plus VII Fire Red",
     "brand": "Nike",
     "date": "TBD",
-    "price": "190€",
+    "price": null,
     "image_url": "https://statics.whentocop.fr/drops/20359/picture/nike-air-max-plus-vii-scorpion-iq9429-001_NtzyEY-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-plus-vii-fire-red-io9556-600",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-max-plus-vii-fire-red-io9556-600",
-    "retailers": [],
-    "sku": "IO9556-600",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "action-bronson-x-new-balance-1890-planet-frog",
     "title": "Action Bronson X New Balance 1890 Planet Frog",
     "brand": "New Balance",
     "date": "TBD",
-    "price": "160€",
+    "price": null,
     "image_url": "https://statics.whentocop.fr/drops/20053/picture/joe-freshgoods-new-balance-1890-naughty-things-purple-u18908jy_4w4yNg-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/action-bronson-new-balance-1890-planet-frog",
     "buy_url": "https://www.whentocop.fr/drops/action-bronson-new-balance-1890-planet-frog",
-    "retailers": [],
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   },
   {
     "id": "nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey",
     "title": "Nike Air Max 95 Big Bubble Tech Smoke Grey Wolf Grey",
     "brand": "Nike",
     "date": "TBD",
-    "price": "200€",
+    "price": null,
     "image_url": "https://statics.whentocop.fr/media/R9BPzlaCEqYT/tmpnike-air-max-95-mexico-ir5900-030-v4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey-ih7853-001",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey-ih7853-001",
-    "retailers": [],
-    "sku": "IH7853-001",
-    "raffle": true,
-    "_wtc_synced": true
+    "retailers": []
   }
 ]
