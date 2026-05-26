@@ -1,82 +1,124 @@
 {
-  "week_start": "26/05/2026",
+  "week_start": "25/05/2026",
   "week_end": "31/05/2026",
-  "generated_at": "2026-05-23T05:12:25Z",
+  "generated_at": "2026-05-26T15:34:51.415180+00:00",
   "releases": [
     {
-      "name": "Nike Mind 001 Flyknit Hyper Royal",
-      "date": "2026-05-26",
-      "price": 90,
-      "image": "https://statics.whentocop.fr/media/unGtpbgmmflr/tmpnike-mind-001-flyknit-hyper-royal-ir2175-400-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
-      "brand": "Nike",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "90€"
-        },
-        {
-          "name": "Footshop",
-          "url": "https://www.footshop.eu",
-          "price": "90€",
-          "raffle": true
-        },
-        {
-          "name": "Urbanstar",
-          "url": "https://www.urbanstaronline.com",
-          "price": "90€",
-          "raffle": true
-        },
-        {
-          "name": "GOAT",
-          "url": "https://www.goat.com",
-          "price": "115€",
-          "resell": true
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr/nike-mind-001-flyknit-hyper-royal",
-          "price": "122€",
-          "resell": true
-        }
-      ],
-      "id": "nike-mind-001-flyknit-hyper-royal"
+      "type": "release",
+      "title": "Satisfy X Adidas Adizero Adios Pro 4 Satisfy Night Metallic Grey Five",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/satisfy-adidas-adizero-adios-pro-4-satisfy-night-metallic-grey-five-kh8439",
+      "buy_link": "https://www.whentocop.com/drops/satisfy-adidas-adizero-adios-pro-4-satisfy-night-metallic-grey-five-kh8439?tab=shops",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/lionel-messi-kith-adidas-football-7.jpg",
+      "price": "€300",
+      "resell_price": "180€ - 250€",
+      "date": null,
+      "summary": ""
     },
     {
-      "name": "Nike Mind 002 Flyknit Qs Pure Platinum",
-      "date": "2026-05-26",
-      "price": 145,
-      "image": "https://statics.whentocop.fr/media/pxwtEM54ykVS/tmpnike-mind-002-flyknit-qs-pure-platinum-ir2176-100-4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
-      "brand": "Nike",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "145€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr/nike-mind-002-flyknit-qs-pure-platinum",
-          "price": "355€",
-          "resell": true
-        },
-        {
-          "name": "GOAT",
-          "url": "https://www.goat.com",
-          "resell": true
-        }
-      ],
-      "id": "nike-mind-002-flyknit-qs-pure-platinum"
+      "type": "release",
+      "title": "Satisfy X Adidas Adizero Adios Pro 4 Wmns Brown Aurora Coffee",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/satisfy-adidas-adizero-adios-pro-4-wmns-brown-aurora-coffee-kh8445",
+      "buy_link": "https://www.whentocop.com/drops/satisfy-adidas-adizero-adios-pro-4-wmns-brown-aurora-coffee-kh8445?tab=shops",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/lionel-messi-kith-adidas-football-7.jpg",
+      "price": "€300",
+      "resell_price": "170€ - 230€",
+      "date": null,
+      "summary": ""
     },
     {
-      "name": "Nike Air Max 90 Photon Dust Blue Cyber",
-      "date": "2026-05-26",
-      "price": 160,
-      "image": "https://statics.whentocop.fr/media/wAkgjgcBnMsm/tmpnike-air-max-90-photon-dust-and-blue-cyber-iu7543-025-s4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
-      "brand": "Nike",
+      "type": "release",
+      "title": "Satisfy X Adidas Adizero Adios Pro 4 Tent Green Silver",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/satisfy-adidas-adizero-adios-pro-4-tent-green-silver-kh8441",
+      "buy_link": "https://www.whentocop.com/drops/satisfy-adidas-adizero-adios-pro-4-tent-green-silver-kh8441?tab=shops",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/lionel-messi-kith-adidas-football-7.jpg",
+      "price": "€300",
+      "resell_price": "180€ - 250€",
+      "date": null,
+      "summary": ""
+    },
+    {
+      "type": "release",
+      "title": "Satisfy X Adidas Adizero Adios Pro 4 Brown Aurora Coffee",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/satisfy-adidas-adizero-adios-pro-4-brown-aurora-coffee-kh8442",
+      "buy_link": "https://www.whentocop.com/drops/satisfy-adidas-adizero-adios-pro-4-brown-aurora-coffee-kh8442?tab=shops",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/lionel-messi-kith-adidas-football-7.jpg",
+      "price": "€300",
+      "resell_price": "180€ - 250€",
+      "date": null,
+      "summary": ""
+    },
+    {
+      "type": "release",
+      "title": "Satisfy X Adidas Adizero Adios Pro 4 Wmns Night Metallic Grey Five",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/satisfy-adidas-adizero-adios-pro-4-wmns-night-metallic-grey-five-kh8443",
+      "buy_link": "https://www.whentocop.com/drops/satisfy-adidas-adizero-adios-pro-4-wmns-night-metallic-grey-five-kh8443?tab=shops",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/lionel-messi-kith-adidas-football-7.jpg",
+      "price": "€300",
+      "resell_price": "170€ - 230€",
+      "date": null,
+      "summary": ""
+    },
+    {
+      "type": "release",
+      "title": "Satisfy X Adidas Adizero Adios Pro 4 Wmns Tent Green Silver",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/satisfy-adidas-adizero-adios-pro-4-wmns-tent-green-silver-kh8444",
+      "buy_link": "https://www.whentocop.com/drops/satisfy-adidas-adizero-adios-pro-4-wmns-tent-green-silver-kh8444?tab=shops",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/lionel-messi-kith-adidas-football-7.jpg",
+      "price": "€300",
+      "resell_price": "170€ - 230€",
+      "date": null,
+      "summary": ""
+    },
+    {
+      "type": "release",
+      "title": "Adidas Handball Spezial Cloud White Core Black",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/adidas-handball-spezial-cloud-white-core-black-ki6052",
+      "buy_link": "https://www.whentocop.com/drops/adidas-handball-spezial-cloud-white-core-black-ki6052?tab=shops",
+      "image": "https://statics.whentocop.fr/media/GyXp15XxXU4c/tmpadidas-Handball-Spezial_Cloud-White-Core-Black_KI6052_img0-small-500x500.webp?width=3840&quality=75&format=auto",
+      "price": "€110",
+      "resell_price": "70€ - 100€",
+      "date": null,
+      "summary": ""
+    },
+    {
+      "type": "release",
+      "title": "Nike Air Max 90 Cool Grey",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/nike-air-max-90-cool-grey-iu7543-065",
+      "buy_link": "https://www.whentocop.com/drops/nike-air-max-90-cool-grey-iu7543-065?tab=shops",
+      "image": "https://statics.whentocop.fr/media/0hK4gYIhv567/tmpnike-air-max-iii-cool-grey-infrared-23-iu7543-065-4-small-500x500.webp?width=3840&quality=75&format=auto",
+      "price": "€160",
+      "resell_price": null,
+      "date": null,
+      "summary": ""
+    },
+    {
+      "type": "release",
+      "title": "Nike Air Max 90 Photon Dust Blue Cyber",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
+      "buy_link": "https://www.whentocop.com/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025?tab=shops",
+      "image": "https://statics.whentocop.fr/media/wAkgjgcBnMsm/tmpnike-air-max-90-photon-dust-and-blue-cyber-iu7543-025-s4-small-500x500.webp?width=3840&quality=75&format=auto",
+      "price": "€160",
+      "resell_price": "80€ - 100€",
+      "date": null,
+      "summary": "",
       "retailers": [
         {
           "name": "Nike SNKRS",
@@ -141,28 +183,82 @@
       "id": "nike-air-max-90-photon-dust-blue-cyber"
     },
     {
-      "name": "Asphaltgold X Puma H-Street Saffron Coffee Milk",
-      "date": "2026-05-27",
-      "price": 110,
-      "image": "https://statics.whentocop.fr/media/YkJrJzIg4DGH/tmppuma-x-asphaltgold-h-street-saffron-coffee-milk-408616-01-4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/asphaltgold-puma-h-street-saffron-coffee-milk-408616-01",
-      "brand": "Puma"
+      "type": "release",
+      "title": "Metagirl X Vans Premium Old Skool 36 Black",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/metagirl-x-vans-premium-old-skool-36-black-blanc-de-blanc-vn000zazhab1",
+      "buy_link": "https://www.whentocop.com/drops/metagirl-x-vans-premium-old-skool-36-black-blanc-de-blanc-vn000zazhab1?tab=shops",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/metagirl-vans-old-skool-VN000ZAZHAB-4.jpg",
+      "price": "€160",
+      "resell_price": null,
+      "date": null,
+      "summary": ""
     },
     {
-      "name": "Kids Of Immigrants X Nike T90 Mule Velvet Brown Orange Horizon",
-      "date": "2026-05-27",
-      "price": 120,
-      "image": "https://statics.whentocop.fr/media/sU0iafNrkeSy/tmpKids-of-Immigrants-x-Nike-T90-Mule_Velvet-Brown-Orange-Horizon_IH4422-201_img0-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
-      "brand": "Nike"
+      "type": "release",
+      "title": "Bisous Bisous X Clarks Cleyhill Fire Black",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/bisous-bisous-clarks-cleyhill-fire-black-261895327",
+      "buy_link": "https://www.whentocop.com/drops/bisous-bisous-clarks-cleyhill-fire-black-261895327?tab=shops",
+      "image": "https://statics.whentocop.fr/media/2PTT7N4Xtbu5/tmpclarks-x-bisous-bisous-cleyhill-fire-black-261895327-small-500x500.webp?width=3840&quality=75&format=auto",
+      "price": "€120",
+      "resell_price": null,
+      "date": null,
+      "summary": ""
     },
     {
-      "name": "Kids Of Immigrants X Nike T90 Mule Khaki Fusion Red",
-      "date": "2026-05-27",
-      "price": 120,
-      "image": "https://statics.whentocop.fr/media/LsQ2CdhCHF5O/tmpKids-of-Immigrants-x-Nike-T90-Mule_Khaki-Fusion-Red_IH4422-200_img0-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-khaki-fusion-red-ih4422-200",
-      "brand": "Nike",
+      "type": "release",
+      "title": "Asphaltgold X Puma H-Street Saffron Coffee Milk",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/asphaltgold-puma-h-street-saffron-coffee-milk-408616-01",
+      "buy_link": "https://www.whentocop.com/drops/asphaltgold-puma-h-street-saffron-coffee-milk-408616-01?tab=shops",
+      "image": "https://statics.whentocop.fr/media/YkJrJzIg4DGH/tmppuma-x-asphaltgold-h-street-saffron-coffee-milk-408616-01-4-small-500x500.webp?width=3840&quality=75&format=auto",
+      "price": "€110",
+      "resell_price": "50€ - 70€",
+      "date": null,
+      "summary": ""
+    },
+    {
+      "type": "release",
+      "title": "Kids Of Immigrants X Nike Jersey Anthracite",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-jersey-anthractie-ih3590-237",
+      "buy_link": "https://www.whentocop.com/drops/kids-of-immigrants-nike-jersey-anthractie-ih3590-237?tab=shops",
+      "image": "https://statics.whentocop.fr/drops/20665/picture/kids-of-immigrants-nike-jersey-anthractie-ih3590-237_vZNUH7-small-500x500.webp?width=3840&quality=75&format=auto",
+      "price": "€130",
+      "resell_price": null,
+      "date": null,
+      "summary": ""
+    },
+    {
+      "type": "release",
+      "title": "Kids Of Immigrants X Nike T90 Mule Velvet Brown Orange Horizon",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
+      "buy_link": "https://www.whentocop.com/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201?tab=shops",
+      "image": "https://statics.whentocop.fr/media/sU0iafNrkeSy/tmpKids-of-Immigrants-x-Nike-T90-Mule_Velvet-Brown-Orange-Horizon_IH4422-201_img0-small-500x500.webp?width=3840&quality=75&format=auto",
+      "price": "€120",
+      "resell_price": "80€ - 100€",
+      "date": null,
+      "summary": ""
+    },
+    {
+      "type": "release",
+      "title": "Kids Of Immigrants X Nike T90 Mule Khaki Fusion Red",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-khaki-fusion-red-ih4422-200",
+      "buy_link": "https://www.whentocop.com/drops/kids-of-immigrants-nike-t90-mule-khaki-fusion-red-ih4422-200?tab=shops",
+      "image": "https://statics.whentocop.fr/media/LsQ2CdhCHF5O/tmpKids-of-Immigrants-x-Nike-T90-Mule_Khaki-Fusion-Red_IH4422-200_img0-small-500x500.webp?width=3840&quality=75&format=auto",
+      "price": "€120",
+      "resell_price": "80€ - 100€",
+      "date": null,
+      "summary": "",
       "retailers": [
         {
           "name": "StockX",
@@ -180,470 +276,279 @@
       "id": "kids-of-immigrants-x-nike-t90-mule-khaki-fusion-red"
     },
     {
-      "name": "Auralee X New Balance 204l Brown",
-      "date": "2026-05-28",
-      "price": 160,
-      "image": "https://statics.whentocop.fr/media/G50aJDDl2eZF/tmpauralee-x-new-balance-204l-ganache-black-bean-u204l5i7-4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-brown-u204l5i7",
-      "brand": "New Balance"
-    },
-    {
-      "name": "Auralee X New Balance 204l Cream",
-      "date": "2026-05-28",
-      "price": 160,
-      "image": "https://statics.whentocop.fr/media/l6hR55lrXHsG/tmpauralee-x-new-balance-204l-plaza-taupe-white-jade-u204l7yu-4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-cream-u204l7yu",
-      "brand": "New Balance"
-    },
-    {
-      "name": "Nike Air Liquid Max Bright Crimson Fire Red",
-      "date": "2026-05-28",
-      "price": 220,
-      "image": "https://statics.whentocop.fr/media/M1d3ctaG3rnT/tmpNIKE-AIR-LIQUID-MAX-Black-Team-Red-Fire-Red-Metallic-Gold-IQ7634-002-1-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-liquid-max-bright-crimson-fire-red-iq7634-002",
-      "brand": "Nike"
-    },
-    {
-      "name": "New Balance Numeric 933 Marblehead Island Blue",
-      "date": "2026-05-28",
-      "price": 150,
-      "image": "https://statics.whentocop.fr/media/03z4GdG7tLj4/tmpnew-balance-numeric-933-marblehead-island-blue-un933gry-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-933-marblehead-island-blue-un933gry",
-      "brand": "New Balance"
-    },
-    {
-      "name": "New Balance Numeric Tiago Lemos 1010 Grey Days",
-      "date": "2026-05-28",
-      "price": 120,
-      "image": "https://statics.whentocop.fr/media/7H5Fj7iH88nh/tmpnew-balance-numeric-tiago-lemos-1010-grey-days-un1010y-4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-tiago-lemos-1010-grey-days-un1010y",
-      "brand": "New Balance"
-    },
-    {
-      "name": "Travis Scott X Air Jordan 1 Low OG SP Shy Pink",
-      "date": "2026-05-28",
-      "price": 160,
-      "image": "https://statics.whentocop.fr/media/a6KrLlRQivgl/tmpraffle-5768152-shy-pink-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-shy-pink-sail-iq7604-100",
-      "brand": "Jordan",
-      "retailers": [
-        {
-          "name": "Naked",
-          "url": "https://www.nakedcph.com",
-          "price": "160€"
-        },
-        {
-          "name": "Maha",
-          "url": "https://www.mahamuamsterdam.com",
-          "price": "160€"
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "160€",
-          "raffle": true
-        },
-        {
-          "name": "Footpatrol",
-          "url": "https://www.footpatrol.com",
-          "price": "160€",
-          "raffle": true
-        },
-        {
-          "name": "FootDistrict",
-          "url": "https://www.footdistrict.com",
-          "price": "160€",
-          "raffle": true
-        },
-        {
-          "name": "Sevenstore",
-          "url": "https://www.sevenstore.com",
-          "price": "160€",
-          "raffle": true
-        },
-        {
-          "name": "Kickz",
-          "url": "https://www.kickz.com",
-          "price": "160€",
-          "raffle": true
-        },
-        {
-          "name": "The Broken Arm",
-          "url": "https://www.the-broken-arm.com",
-          "price": "160€",
-          "raffle": true
-        }
-      ],
-      "id": "travis-scott-x-air-jordan-1-low-og-sp-shy-pink"
-    },
-    {
-      "name": "Travis Scott X Air Jordan 1 Low OG SP Tropical Pink",
-      "date": "2026-05-28",
-      "price": 160,
-      "image": "https://statics.whentocop.fr/media/YEEc8RoLiK1o/tmpraffle-55688952-travis-tropical-pink-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101",
-      "brand": "Jordan",
-      "retailers": [
-        {
-          "name": "Naked",
-          "url": "https://www.nakedcph.com",
-          "price": "160€"
-        },
-        {
-          "name": "Maha",
-          "url": "https://www.mahamuamsterdam.com",
-          "price": "160€"
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "160€",
-          "raffle": true
-        },
-        {
-          "name": "Footpatrol",
-          "url": "https://www.footpatrol.com",
-          "price": "160€",
-          "raffle": true
-        },
-        {
-          "name": "FootDistrict",
-          "url": "https://www.footdistrict.com",
-          "price": "160€",
-          "raffle": true
-        },
-        {
-          "name": "Sevenstore",
-          "url": "https://www.sevenstore.com",
-          "price": "160€",
-          "raffle": true
-        },
-        {
-          "name": "Kickz",
-          "url": "https://www.kickz.com",
-          "price": "160€",
-          "raffle": true
-        },
-        {
-          "name": "The Broken Arm",
-          "url": "https://www.the-broken-arm.com",
-          "price": "160€",
-          "raffle": true
-        }
-      ],
-      "id": "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink"
-    },
-    {
-      "name": "Air Jordan 3 Retro World's Best Dad",
-      "date": "2026-05-29",
-      "price": 210,
-      "image": "https://statics.whentocop.fr/media/p47DZjct6zlW/tmpair-jordan-3-worlds-best-dad-if4396-103-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-worlds-best-dad-if4396-103",
-      "brand": "Jordan"
-    },
-    {
-      "name": "Bad Bunny X Adidas Ballerina Flamboyan",
-      "date": "2026-05-29",
-      "price": 120,
-      "image": "https://statics.whentocop.fr/drops/17875/picture/bad-bunny-adidas-ballerina-flamboyan-ki7916_3b2A7h-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/bad-bunny-adidas-ballerina-flamboyan-ki7916",
-      "brand": "Adidas",
-      "retailers": [
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr",
-          "price": "120€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr/adidas-ballerina-bad-bunny-flamboyan",
-          "price": "183€",
-          "resell": true
-        },
-        {
-          "name": "Footpatrol",
-          "url": "https://www.footpatrol.com",
-          "price": "120€",
-          "resell": false
-        },
-        {
-          "name": "Klekt",
-          "url": "https://www.klekt.com/product/new/adidas-x-bad-bunny-ballerina-flamboyan-2026",
-          "price": "190€",
-          "resell": true
-        },
-        {
-          "name": "Limited Resell",
-          "url": "https://limitedresell.com/7310-adidas-ballerina-bad-bunny-flamboyan.html",
-          "price": "225€",
-          "resell": true
-        }
-      ],
-      "id": "bad-bunny-adidas-ballerina-flamboyan-2026"
-    },
-    {
-      "name": "New Balance 933 Grey Days",
-      "date": "TBD",
-      "price": 135,
-      "image": "https://statics.whentocop.fr/media/txh3kPQYIens/tmpnew-balance-933-grey-days-nm933gey-4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-933-grey-days-nm933gey",
-      "brand": "New Balance"
-    },
-    {
-      "name": "Virgil Abloh X Nike Air Force 1 Low Sesame",
-      "date": "TBD",
+      "type": "release",
+      "title": "Vanson Leathers X Spider-Man X Supreme Jacket Black",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-jacket-black",
+      "buy_link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-jacket-black",
+      "image": "https://statics.whentocop.fr/drops/18866/picture/vanson-leathers-spider-man-supreme-jacket-black_NrPWDV-small-500x500.webp?width=3840&quality=75&format=auto",
       "price": null,
-      "image": "https://statics.whentocop.fr/media/RFcRxnpi1750/tmpoff-white-nike-air-force-1-low-sesame-fd6900-200.webp-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/off-white-nike-air-force-1-low-desert-tan",
-      "brand": "Nike",
-      "retailers": [
-        {
-          "name": "GOAT",
-          "url": "https://www.goat.com/sneakers/virgil-abloh-nike-air-force-1-low-sesame",
-          "resell": true
-        }
-      ],
-      "id": "virgil-abloh-x-nike-air-force-1-low-sesame"
+      "resell_price": null,
+      "date": null,
+      "summary": ""
     },
     {
-      "name": "New Balance MT10T Fire Cracker",
-      "date": "2026-05-31",
-      "price": 140,
-      "image": "https://statics.whentocop.fr/media/E7kT16ZGAZJS/tmpnew-balance-mt10t-fire-cracker-mt10t8e8-4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-mt10t-fire-cracker-mt10t8e8",
-      "brand": "New Balance"
+      "type": "release",
+      "title": "Vanson Leathers X Spider-Man X Supreme Jacket Red",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-jacket-red",
+      "buy_link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-jacket-red",
+      "image": "https://statics.whentocop.fr/drops/18864/picture/vanson-leathers-spider-man-supreme-jacket-red_Jm9P7X-small-500x500.webp?width=3840&quality=75&format=auto",
+      "price": null,
+      "resell_price": null,
+      "date": null,
+      "summary": ""
     },
     {
-      "name": "Adidas Believe That 1 Core Black",
-      "date": "2026-05-31",
-      "price": 100,
-      "image": "https://statics.whentocop.fr/media/Dg92MOceYGvm/tmp000000_adidas-Believe-That-1_Core-Black_KJ3147_img2-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-core-black-kj3147",
-      "brand": "Adidas"
+      "type": "release",
+      "title": "Vanson Leathers X Spider-Man X Supreme Short Black",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-short-black",
+      "buy_link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-short-black",
+      "image": "https://statics.whentocop.fr/drops/18861/picture/vanson-leathers-spider-man-supreme-short-black_7MgMDM-small-500x500.webp?width=3840&quality=75&format=auto",
+      "price": null,
+      "resell_price": null,
+      "date": null,
+      "summary": ""
     },
     {
-      "name": "Adidas Adizero Evo SL Wmns Off White Aurora Comet",
-      "date": "2026-05-31",
-      "price": 150,
-      "image": "https://statics.whentocop.fr/media/0JJSXPzTzC3f/tmpadidas-adizero-evo-sl-wmns-cloud-white-dark-brown-ki9873-4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-wmns-off-white-aurora-comet-ki9873",
-      "brand": "Adidas"
+      "type": "release",
+      "title": "Vanson Leathers X Spider-Man X Supreme Short Red",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-short-red",
+      "buy_link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-short-red",
+      "image": "https://statics.whentocop.fr/drops/18860/picture/vanson-leathers-spider-man-supreme-short-red_8N9qHn-small-500x500.webp",
+      "price": null,
+      "resell_price": null,
+      "date": null,
+      "summary": ""
     },
     {
-      "name": "Adidas Believe That 1 Cloud White",
-      "date": "2026-05-31",
-      "price": 100,
-      "image": "https://statics.whentocop.fr/media/N4QiGC6W8U1R/tmpadidas-believe-that-1-footwear-white-core-black-kj3320-4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-cloud-white-kj3320",
-      "brand": "Adidas"
+      "type": "release",
+      "title": "Vanson Leathers X Spider-Man X Supreme Sweater Black",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-sweater-black",
+      "buy_link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-sweater-black",
+      "image": "https://statics.whentocop.fr/drops/18830/picture/vanson-leathers-spider-man-supreme-sweater-black_KWuz6y-small-500x500.webp",
+      "price": null,
+      "resell_price": null,
+      "date": null,
+      "summary": ""
     },
     {
-      "name": "Adidas Adizero Evo SL Exo Core Black",
-      "date": "2026-05-31",
-      "price": 150,
-      "image": "https://statics.whentocop.fr/media/TQc7zqYOu8L5/tmpadidas-adizero-evo-sl-exo-kj0422-v4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-exo-core-black-kj0422",
-      "brand": "Adidas"
+      "type": "release",
+      "title": "Vanson Leathers X Spider-Man X Supreme Sweater Red",
+      "source": "WhenToCop",
+      "emoji": "📅",
+      "link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-sweater-red",
+      "buy_link": "https://www.whentocop.fr/drops/vanson-leathers-spider-man-supreme-sweater-red",
+      "image": "https://statics.whentocop.fr/drops/18829/picture/vanson-leathers-spider-man-supreme-sweater-red_yCbXtK-small-500x500.webp",
+      "price": null,
+      "resell_price": null,
+      "date": null,
+      "summary": ""
+    }
+  ],
+  "promos": [
+    {
+      "type": "promo",
+      "title": "Jordan Jordan CLT Woven Jacket",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fjordan-jordan-clt-woven-jacket-dj9742-414-214024",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ESjk3NDItNDE0L0RKOTc0Mi00MTQtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "price": "$158.99",
+      "old_price": "$399.99",
+      "discount": "-60%",
+      "date": null,
+      "summary": "En promo sur BSTN — -60%"
     },
     {
-      "name": "New Balance MT10T Raincloud Concrete",
-      "date": "2026-05-31",
-      "price": 140,
-      "image": "https://statics.whentocop.fr/media/k7eibZIDlVs1/tmpnew-balance-mt10t-gray-mt10t8wq-noshadow-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-mt10t-raincloud-concrete-mt10t8wq",
-      "brand": "New Balance"
+      "type": "promo",
+      "title": "The North Face X SOUKUU TRAIL RUN UTILITY SHORT",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fthe-north-face-x-soukuu-trail-run-utility-short-nf0a8c09ael1-572183",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ORjBBOEMwOUFFTDEvTkYwQThDMDlBRUwxLTAxLW4uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "price": "$106.99",
+      "old_price": "$176.99",
+      "discount": "-40%",
+      "date": null,
+      "summary": "En promo sur BSTN — -40%"
     },
     {
-      "name": "New Balance 5030 Grey Black",
-      "date": "2026-05-31",
-      "price": 130,
-      "image": "https://statics.whentocop.fr/media/NdiPqLq5CaMJ/tmpnew-balance-5030-grey-black-u50303l3-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-5030-grey-black-u50303l3",
-      "brand": "New Balance"
+      "type": "promo",
+      "title": "Adidas x FEAR OF GOD ATHLETICS ADILETTE",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fadidas-x-fear-of-god-athletics-adilette-ih2272-486596",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JSDIyNzIvSUgyMjcyLTAxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "price": "$79.99",
+      "old_price": "$113.99",
+      "discount": "-30%",
+      "date": null,
+      "summary": "En promo sur BSTN — -30%"
     },
     {
-      "name": "New Balance 1906L Fairweather Blue",
-      "date": "2026-05-31",
-      "price": 140,
-      "image": "https://statics.whentocop.fr/media/cC9dn6dzyxfX/tmpNew-Balance-1906L_Fairweather-Blue_U19062XN_img0-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1906l-fairweather-blue-u19062xn",
-      "brand": "New Balance"
+      "type": "promo",
+      "title": "parel studios Saana Shorts",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fparel-studios-saana-shorts-parel_102_blk-610916",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9QQVJFTF8xMDJfQkxLL1BBUkVMXzEwMl9CTEstMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "price": "$124.99",
+      "old_price": "$177.99",
+      "discount": "-30%",
+      "date": null,
+      "summary": "En promo sur BSTN — -30%"
     },
     {
-      "name": "New Balance 2010 Neptune Grey Shadow Blue",
-      "date": "2026-05-31",
-      "price": 170,
-      "image": "https://statics.whentocop.fr/media/aworOHoSKDVs/tmpnew-balance-2010-neptune-grey-shadow-blue-u20107pt-4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-neptune-grey-shadow-blue-u20107pt",
-      "brand": "New Balance"
+      "type": "promo",
+      "title": "UGG WOMEN VENTURE DAZE",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fugg-women-venture-daze-1155650-ctc-444258",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC8xMTU1NjUwLUNUQy8xMTU1NjUwLUNUQy0wMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo1ODAsImhlaWdodCI6NzI1LCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "price": "$140.99",
+      "old_price": "$200.99",
+      "discount": "-30%",
+      "date": null,
+      "summary": "En promo sur BSTN — -30%"
     },
     {
-      "name": "Adidas Adizero Evo SL Crystal White Luta",
-      "date": "2026-05-31",
-      "price": 150,
-      "image": "https://statics.whentocop.fr/media/xDxAko6EFLPA/tmpadidas-adizero-evo-sl-m-crystal-white-luta-iron-metallic-kj2521-4-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-crystal-white-luta-kj2521",
-      "brand": "Adidas"
+      "type": "promo",
+      "title": "Calvin Klein Jeans PULL ON RELAXED DENIM SHORT",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fcalvin-klein-jeans-pull-on-relaxed-denim-short-j30j3275171a4-602544",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9KMzBKMzI3NTE3MUE0L0ozMEozMjc1MTcxQTQtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "price": "$86.99",
+      "old_price": "$123.99",
+      "discount": "-30%",
+      "date": null,
+      "summary": "En promo sur BSTN — -30%"
     },
     {
-      "name": "New Balance 1906L Rosewood",
-      "date": "2026-05-31",
-      "price": 140,
-      "image": "https://statics.whentocop.fr/media/gPS1jLc9GbXH/tmpnew-balance-1906l-rosewood-u19065ws-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1906l-rosewood-u19065ws",
-      "brand": "New Balance"
+      "type": "promo",
+      "title": "Lacoste TRICOT",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Flacoste-tricot-ah0730-xfj-599771",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9BSDA3MzAtWEZKL0FIMDczMC1YRkotMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "price": "$162.99",
+      "old_price": "$231.99",
+      "discount": "-30%",
+      "date": null,
+      "summary": "En promo sur BSTN — -30%"
     },
     {
-      "name": "Nike Air Max Plus VII Scorpion",
-      "date": "2026-05-31",
-      "price": 190,
-      "image": "https://statics.whentocop.fr/drops/20359/picture/nike-air-max-plus-vii-scorpion-iq9429-001_NtzyEY-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-plus-vii-scorpion-iq9429-001",
-      "brand": "Nike"
+      "type": "promo",
+      "title": "Edmmond Studios SNAP SHIRT STRIPES SHIRT",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fedmmond-studios-snap-shirt-stripes-shirt-125-10-07050-589635",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC8xMjUtMTAtMDcwNTAvMTI1LTEwLTA3MDUwLTAxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "price": "$139.99",
+      "old_price": "$198.99",
+      "discount": "-30%",
+      "date": null,
+      "summary": "En promo sur BSTN — -30%"
     },
     {
-      "name": "Salomon S/Lab Ultra Glide 2 Limited Courtney Edition Blue",
-      "date": "2026-05-31",
-      "price": 270,
-      "image": "https://statics.whentocop.fr/media/KnWjRe0UDWlr/tmpvariant-4-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/salomon-slab-ultra-glide-2-limited-courtney-edition-blue-l49283700",
-      "brand": "Salomon"
+      "type": "promo",
+      "title": "Sergio Tacchini SIMBA FLEECE SHORTS",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fsergio-tacchini-simba-fleece-shorts-40712-108-577174",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC80MDcxMi0xMDgvNDA3MTItMTA4LTAxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "price": "$49.99",
+      "old_price": "$70.99",
+      "discount": "-30%",
+      "date": null,
+      "summary": "En promo sur BSTN — -30%"
     },
     {
-      "name": "Bape X Adidas Adizero Evo SL White Gold Pink Blue",
-      "date": "2026-05-31",
-      "price": 200,
-      "image": "https://statics.whentocop.fr/media/EeFARm2Il9s2/tmpbape-adidas-adizero-evo-sl-kj5751-06-1100x770-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/bape-adidas-adizero-evo-sl-white-gold-pink-blue-kj5751",
-      "brand": "Adidas"
+      "type": "promo",
+      "title": "Roa Sella",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Froa-sella-nbuw1112fa65-556938",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9OQlVXMTExMkZBNjUvTkJVVzExMTJGQTY1LTAxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "price": "$211.99",
+      "old_price": "$299.99",
+      "discount": "-29%",
+      "date": null,
+      "summary": "En promo sur BSTN — -29%"
     },
     {
-      "name": "Nike Mind 001 Sail",
-      "date": "2026-05-31",
-      "price": 90,
-      "image": "https://statics.whentocop.fr/media/NODKv74VjIXk/tmpSAIL_Nike_Mind-001_HQ4309-100_img0-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-sail-hq4309-100",
-      "brand": "Nike"
+      "type": "promo",
+      "title": "le gramme 7g-brushed sterling silver-orange nato-cable-bracelet",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fle-gramme-7g-brushed-sterling-silver-orange-nato-cable-bracelet-carbrnof051_05-582555",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9MR19DQVJCUk5PRjA1MV8wNS1PUkFOR0UvTEdfQ0FSQlJOT0YwNTFfMDUtT1JBTkdFLTAxLW4uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "price": "$294.99",
+      "old_price": "$414.99",
+      "discount": "-29%",
+      "date": null,
+      "summary": "En promo sur BSTN — -29%"
     },
     {
-      "name": "Nike Mind 002 Wmns Football Grey",
-      "date": "2026-05-31",
-      "price": 140,
-      "image": "https://statics.whentocop.fr/media/x9vb5JBhOgux/tmpnike-mind-002-wmns-football-grey-hq4310-002-s4-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-wmns-football-grey-hq4310-002",
-      "brand": "Nike"
+      "type": "promo",
+      "title": "Adidas HANDBALL SPEZIAL",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fadidas-handball-spezial-jh5445-569946",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9KSDU0NDUvSkg1NDQ1LTAxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "price": "$109.99",
+      "old_price": "$155.99",
+      "discount": "-29%",
+      "date": null,
+      "summary": "En promo sur BSTN — -29%"
     },
     {
-      "name": "Nike Mind 002 Thunder Blue",
-      "date": "2026-05-31",
-      "price": 140,
-      "image": "https://statics.whentocop.fr/media/qX5YUCITXtoT/tmpnike-mind-002-thunder-blue-hq4308-400-s4-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-thunder-blue-hq4308-400",
-      "brand": "Nike"
+      "type": "promo",
+      "title": "WOOLRICH MOULINE JERSEY LOGO TEE",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fwoolrich-mouline-jersey-logo-tee-cfwote0150mrut3957-6006-548429",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9DRldPVEUwMTUwTVJVVDM5NTctNjAwNi9DRldPVEUwMTUwTVJVVDM5NTctNjAwNi0wMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo1ODAsImhlaWdodCI6NzI1LCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "price": "$86.99",
+      "old_price": "$122.99",
+      "discount": "-29%",
+      "date": null,
+      "summary": "En promo sur BSTN — -29%"
     },
     {
-      "name": "Nike Mind 002 Wmns Sail Hyper Crimson",
-      "date": "2026-05-31",
-      "price": 140,
-      "image": "https://statics.whentocop.fr/media/0M8EJ5rMM9e6/tmpnike-mind-002-wmns-sail-hyper-crimson-hq4310-100-s4-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-wmns-sail-hyper-crimson-hq4310-100",
-      "brand": "Nike"
+      "type": "promo",
+      "title": "The North Face DENALI NORM HAT",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fthe-north-face-denali-norm-hat-nf0a8886kx71-516220",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ORjBBODg4NktYNzEvTkYwQTg4ODZLWDcxLTAxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "price": "$39.99",
+      "old_price": "$55.99",
+      "discount": "-29%",
+      "date": null,
+      "summary": "En promo sur BSTN — -29%"
     },
     {
-      "name": "Nike Mind 002 Black Hyper Crimson",
-      "date": "2026-05-31",
-      "price": 140,
-      "image": "https://statics.whentocop.fr/drops/18339/picture/nike-mind-002-black-hq4308-001_4uHkrI-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-black-hyper-crimson-hq4308-001",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Mind 002 Wmns Light Violet Ore",
-      "date": "2026-05-31",
-      "price": 140,
-      "image": "https://statics.whentocop.fr/drops/18337/picture/nike-mind-002-wmns-light-violet-ore-hq4310-200_KwP1Nq-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-wmns-light-violet-ore-hq4310-200",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Mind 001 Wmns Barely Green",
-      "date": "2026-05-31",
-      "price": 90,
-      "image": "https://statics.whentocop.fr/drops/17762/picture/nike-mind-001-barely-green_ma8Wlr-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-wmns-barely-green-hq4309-300",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Mind 001 Backened Blue",
-      "date": "2026-05-31",
-      "price": 90,
-      "image": "https://statics.whentocop.fr/media/nUAjeiwTlkZq/tmpNike-Mind-001_BACKENED-BLUE_HQ4307-400_img3-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-backened-blue",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Mind 001 White Speed Red",
-      "date": "2026-05-31",
-      "price": 90,
-      "image": "https://statics.whentocop.fr/media/WUXxiesvu73i/tmpnike-mind-001-slide-white_0eU3vQ-small-500x500.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-slide-white",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Mind 001 Mineral Slate",
-      "date": "2026-05-31",
-      "price": 90,
-      "image": "https://statics.whentocop.fr/drops/17557/picture/nike-mind-001-mineral-slate_LBmNmu-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-mineral-slate",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Mind 002 Wmns Light Smoke Grey",
-      "date": "2026-05-31",
-      "price": 140,
-      "image": "https://statics.whentocop.fr/drops/17425/picture/nike-mind-002-wmns-light-smoke-grey-hq4310-003_bwRG5j-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-wmns-light-smoke-grey-hq4310-003",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Mind 001 Black Hyper Crimson",
-      "date": "2026-05-31",
-      "price": 90,
-      "image": "https://statics.whentocop.fr/drops/17351/picture/nike-mind-001-black-hyper-crimson-hq4307-001_5KGFlp-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-black-hyper-crimson-hq4307-001",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Mind 001 Wmns Black Hyper Crimson",
-      "date": "2026-05-31",
-      "price": 90,
-      "image": "https://statics.whentocop.fr/media/72i6OHksaNfc/tmp000000_Nike-Mind-001-WMNS_BLACK-HYPER-CRIMSON_HQ4309-001_img1-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-wmns-black-hyper-crimson-hq4309-001",
-      "brand": "Nike"
-    },
-    {
-      "name": "Adidas Adizero Prime X Evo Cloud White",
-      "date": "2026-05-31",
-      "price": 500,
-      "image": "https://statics.whentocop.fr/drops/16768/picture/adidas-adizero-prime-x-evo-cloud-white-kh7677_1lPNIr-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-prime-x-evo-cloud-white-kh7677",
-      "brand": "Adidas"
-    },
-    {
-      "name": "Nike Mind 002 Light Smoke Grey",
-      "date": "2026-05-31",
-      "price": 140,
-      "image": "https://statics.whentocop.fr/drops/16245/picture/nike-mind-002-light-smoke-grey-hq4308-003_liPmVa-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-light-smoke-grey-hq4308-003",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Mind 001 Light Smoke Grey",
-      "date": "2026-05-31",
-      "price": 90,
-      "image": "https://statics.whentocop.fr/media/ruBPia76xTAq/tmpNike-Mind-001_Light-Smoke-Grey_HQ4307-003_img3-small-500x500.webp?width=384&quality=75&format=auto",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-light-smoke-grey-chrome-hq4307-003",
-      "brand": "Nike"
+      "type": "promo",
+      "title": "The New Originals MINI MESSENGER BAG",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fthe-new-originals-mini-messenger-bag-900mmsnbss25.417-597395",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC85MDBNTVNOQlNTMjUuNDE3LzkwME1NU05CU1MyNS40MTctMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "price": "$66.99",
+      "old_price": "$94.99",
+      "discount": "-29%",
+      "date": null,
+      "summary": "En promo sur BSTN — -29%"
     }
   ]
 }
