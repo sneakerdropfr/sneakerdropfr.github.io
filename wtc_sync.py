@@ -584,6 +584,14 @@ async def run(args):
             log("✅ Cookies injectés dans le contexte Playwright")
         page = await context.new_page()
 
+        # Activer stealth pour bypasser Cloudflare
+        try:
+            from playwright_stealth import stealth_async
+            await stealth_async(page)
+            log("✅ Stealth activé")
+        except Exception as e:
+            log(f"⚠️  Stealth non disponible: {e}")
+
         for i, r in enumerate(to_process):
             log(f"[{i+1}/{len(to_process)}] {r['id']}")
             try:
