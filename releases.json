@@ -34,15 +34,8 @@
     "buy_url": "",
     "retailers": [
       {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-off-white-sesame",
-        "price": "1114€",
-        "resell": true
-      },
-      {
         "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/off-white-x-air-force-1-low-sp-sesame-fd6900-200",
-        "price": "1202€",
+        "url": "https://www.goat.com/sneakers/virgil-abloh-nike-air-force-1-low-sesame",
         "resell": true
       }
     ]
@@ -82,21 +75,50 @@
     "buy_url": "",
     "retailers": [
       {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
+        "name": "Naked",
+        "url": "https://www.nakedcph.com",
         "price": "160€"
       },
       {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-sp-travis-scott-shy-pink",
-        "price": "515€",
-        "resell": true
+        "name": "Maha",
+        "url": "https://www.mahamuamsterdam.com",
+        "price": "160€"
       },
       {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/air-jordan-x-travis-scott-1-low-og-muslin-shy-pink-2026-1",
-        "price": "700€",
-        "resell": true
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "160€",
+        "raffle": true
+      },
+      {
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com",
+        "price": "160€",
+        "raffle": true
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://www.footdistrict.com",
+        "price": "160€",
+        "raffle": true
+      },
+      {
+        "name": "Sevenstore",
+        "url": "https://www.sevenstore.com",
+        "price": "160€",
+        "raffle": true
+      },
+      {
+        "name": "Kickz",
+        "url": "https://www.kickz.com",
+        "price": "160€",
+        "raffle": true
+      },
+      {
+        "name": "The Broken Arm",
+        "url": "https://www.the-broken-arm.com",
+        "price": "160€",
+        "raffle": true
       }
     ],
     "featured": true
@@ -112,27 +134,50 @@
     "buy_url": "",
     "retailers": [
       {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
+        "name": "Naked",
+        "url": "https://www.nakedcph.com",
         "price": "160€"
       },
       {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-sp-travis-scott-sail-tropical-pink",
-        "price": "485€",
-        "resell": true
+        "name": "Maha",
+        "url": "https://www.mahamuamsterdam.com",
+        "price": "160€"
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "160€",
+        "raffle": true
       },
       {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
-        "price": "150€",
-        "resell": false
+        "price": "160€",
+        "raffle": true
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://www.footdistrict.com",
+        "price": "160€",
+        "raffle": true
       },
       {
         "name": "Sevenstore",
-        "url": "https://www.sevenstore.com/launches/jordan-tropical-pink-x-travis-scott-air-jordan-1-low-og-tropical-pink-sneaker/",
-        "price": "150€",
-        "resell": false
+        "url": "https://www.sevenstore.com",
+        "price": "160€",
+        "raffle": true
+      },
+      {
+        "name": "Kickz",
+        "url": "https://www.kickz.com",
+        "price": "160€",
+        "raffle": true
+      },
+      {
+        "name": "The Broken Arm",
+        "url": "https://www.the-broken-arm.com",
+        "price": "160€",
+        "raffle": true
       }
     ]
   },
@@ -235,7 +280,6 @@
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
-        "price": "",
         "resell": true
       }
     ]
@@ -262,7 +306,6 @@
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
-        "price": "",
         "resell": true
       }
     ]
@@ -408,7 +451,37 @@
     "image_url": "https://statics.whentocop.fr/media/unGtpbgmmflr/tmpnike-mind-001-flyknit-hyper-royal-ir2175-400-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
     "buy_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "90€"
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "90€",
+        "raffle": true
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstaronline.com",
+        "price": "90€",
+        "raffle": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "115€",
+        "resell": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-mind-001-flyknit-hyper-royal",
+        "price": "122€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "nike-mind-002-flyknit-qs-pure-platinum",
@@ -419,7 +492,24 @@
     "image_url": "https://statics.whentocop.fr/media/pxwtEM54ykVS/tmpnike-mind-002-flyknit-qs-pure-platinum-ir2176-100-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
     "buy_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-mind-002-flyknit-qs-pure-platinum",
+        "price": "355€",
+        "resell": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "nike-air-max-90-photon-dust-blue-cyber",
@@ -430,7 +520,67 @@
     "image_url": "https://statics.whentocop.fr/media/wAkgjgcBnMsm/tmpnike-air-max-90-photon-dust-and-blue-cyber-iu7543-025-s4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "160€"
+      },
+      {
+        "name": "Size?",
+        "url": "https://www.size.co.uk",
+        "price": "160€"
+      },
+      {
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com",
+        "price": "160€"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "160€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://www.footdistrict.com",
+        "price": "160€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk",
+        "price": "160€"
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.solebox.com",
+        "price": "160€"
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "160€",
+        "raffle": true
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://www.noirfonce.eu",
+        "price": "120€",
+        "resell": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "240€",
+        "resell": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-max-90-photon-dust-blue-cyber",
+        "price": "316€",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "asphaltgold-x-puma-h-street-saffron-coffee-milk",
@@ -792,7 +942,12 @@
     "image_url": "https://statics.whentocop.fr/media/H3AVjYbLcRbu/tmpNike-Mind-001_Bronze-Eclipse_A-definir_img0-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-bronze-eclipse-ir2175-200",
     "buy_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-bronze-eclipse-ir2175-200",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/launch"
+      }
+    ]
   },
   {
     "id": "adidas-sc-premiere-cloud-white-power-green",
