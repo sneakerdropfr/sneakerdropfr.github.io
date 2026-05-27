@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raffles Sneakers — SneakerDrop FR</title>
+  <meta name="description" content="Toutes les raffles sneakers en France : Jordan, Nike collabs, Adidas. Inscris-toi avant la date limite." />
+  <link rel="canonical" href="https://sneakerdropfr.fr/raffles.html" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/shared.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700;900&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TQQ3RSJJV"></script>
+  <script src="/assets/js/common.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Raffles Sneakers France","description":"Toutes les raffles sneakers en France","url":"https://sneakerdropfr.fr/raffles.html","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SneakerDrop FR","item":"https://sneakerdropfr.fr"},{"@type":"ListItem","position":2,"name":"Raffles","item":"https://sneakerdropfr.fr/raffles.html"}]}}</script>
+  <style>
+    .page-hero{padding:2.5rem 0 2rem;border-bottom:1px solid var(--border)}
+    .page-hero__eyebrow{font-family:var(--font-cond);font-size:.85rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:.5rem}
+    .page-hero__title{font-family:var(--font-display);font-size:clamp(2.5rem,6vw,4rem);line-height:1;margin-bottom:.75rem}
+    .page-hero__sub{color:var(--muted);font-size:.95rem;max-width:500px}
+    .raffle-info{background:rgba(255,45,45,.08);border:1px solid rgba(255,45,45,.2);border-radius:var(--r);padding:1rem 1.25rem;margin:1.5rem 0;font-size:.9rem;color:var(--text)}
+    .raffle-info strong{color:#FF2D2D}
+    .raffle-card{background:#0A0A0A;border:1px solid rgba(255,255,255,.08);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
+    .raffle-card:hover{transform:translateY(-2px);border-color:rgba(255,45,45,.4)}
+    .raffle-card__img{aspect-ratio:1;background:#1a1a1a;overflow:hidden;position:relative}
+    .raffle-card__img img{width:100%;height:100%;object-fit:contain;padding:.75rem;transform:scaleX(-1)}
+    .raffle-card__badge{position:absolute;top:.5rem;left:.5rem;background:#FF2D2D;color:#fff;font-family:var(--font-cond);font-size:.7rem;font-weight:900;letter-spacing:.08em;padding:.2rem .5rem;border-radius:4px}
+    .raffle-card__body{padding:.85rem;display:flex;flex-direction:column;gap:.4rem;flex:1}
+    .raffle-card__brand{font-family:var(--font-cond);font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+    .raffle-card__title{font-family:var(--font-cond);font-size:.95rem;font-weight:900;text-transform:uppercase;line-height:1.2;color:var(--text)}
+    .raffle-card__meta{display:flex;align-items:center;gap:.75rem;margin-top:.25rem;flex-wrap:wrap}
+    .raffle-card__price{font-family:var(--font-cond);font-size:1.1rem;font-weight:900;color:var(--text)}
+    .raffle-card__date{font-size:.8rem;color:var(--muted)}
+    .raffle-card__deadline{background:rgba(255,45,45,.1);border:1px solid rgba(255,45,45,.3);border-radius:6px;padding:.3rem .6rem;font-size:.78rem;color:#FF2D2D;font-weight:700;margin-top:.25rem}
+    .raffle-card__btn{display:block;text-align:center;background:#FF2D2D;color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;padding:.65rem;border-radius:6px;margin-top:auto;transition:background .15s}
+    .raffle-card__btn:hover{background:#e02020}
+    .raffles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1rem;margin-top:1.5rem}
+    .empty-state{text-align:center;padding:3rem 1rem;color:var(--muted);font-family:var(--font-cond);font-size:1.1rem}
+    .loading-state{text-align:center;padding:2rem;color:var(--muted)}
+    .section{padding:2.5rem 0}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo">
+        <div class="logo__icon"><img src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="30" height="30" loading="eager" /></div>
+        <span>SneakerDrop<span class="logo__fr">FR</span></span>
+      </a>
+      <div style="flex:1"></div>
+      <a href="/" class="hbtn hbtn--back">← Accueil</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__eyebrow">🎟 Inscriptions ouvertes</div>
+      <h1 class="page-hero__title">RAFFLES</h1>
+      <p class="page-hero__sub">Les paires les plus hype en tirage au sort. Inscris-toi avant la date limite — chaque seconde compte.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="raffle-info">
+        <strong>Comment ça marche ?</strong> Les raffles sont des tirages au sort organisés par les retailers. Tu t'inscris avant la date limite, le retailer choisit les gagnants au hasard. C'est gratuit — tu paies uniquement si tu es sélectionné.
+      </div>
+      <div id="raffles-loading" class="loading-state">⏳ Chargement des raffles...</div>
+      <div id="raffles-grid" class="raffles-grid" style="display:none"></div>
+      <div id="raffles-empty" class="empty-state" style="display:none">Aucune raffle active en ce moment.<br>Reviens bientôt ou suis-nous sur <a href="https://t.me/SneakersDropsFR" style="color:var(--accent)">Telegram</a>.</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="/" class="logo">
+          <div class="logo__icon" style="width:26px;height:26px"><img src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="26" height="26" loading="lazy" /></div>
+          <span style="font-size:1rem">SneakerDrop<span class="logo__fr">FR</span></span>
+        </a>
+        <div class="footer__social">
+          <a href="https://www.tiktok.com/@sneakerdropfr" target="_blank" rel="noopener" class="social-btn">TikTok</a>
+          <a href="https://www.instagram.com/sneakerdropfr/" target="_blank" rel="noopener" class="social-btn">Instagram</a>
+          <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="social-btn" onclick="trackTelegram('footer')">Telegram</a>
+        </div>
+      </div>
+      <div class="footer__legal">© 2026 SneakerDropFR — <a href="/privacy.html">Politique de confidentialité</a></div>
+    </div>
+  </footer>
+
+  <script>
+  (function(){
+    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now();
+    var grid = document.getElementById('raffles-grid');
+    var loading = document.getElementById('raffles-loading');
+    var empty = document.getElementById('raffles-empty');
+
+    function formatDate(d) {
+      if (!d || d === 'TBD') return 'Date à confirmer';
+      var p = d.split('-');
+      var months = ['jan','fév','mar','avr','mai','juin','juil','août','sep','oct','nov','déc'];
+      return parseInt(p[2]) + ' ' + months[parseInt(p[1])-1] + ' ' + p[0];
+    }
+
+    function renderRaffle(r) {
+      var img = r.image_url
+        ? '<img src="' + r.image_url + '" alt="' + (r.title||'') + '" loading="lazy" referrerpolicy="no-referrer">'
+        : '<div style="display:flex;align-items:center;justify-content:center;height:100%;font-size:2rem">👟</div>';
+      var retailers = (r.retailers || []).filter(function(rt){ return rt.name && rt.url && rt.url.indexOf('whentocop') === -1; });
+      var raffleRetailers = retailers.filter(function(rt){
+        return ['size?','adidas','nike','footlocker','jd','bstn','43einhalb','afew','asphaltgold','offspring','naked','slam jam','snipes','footdistrict'].some(function(n){
+          return rt.name.toLowerCase().indexOf(n) !== -1;
+        });
+      });
+      var btns = (raffleRetailers.length ? raffleRetailers : retailers.slice(0,2)).map(function(rt){
+        return '<a href="' + rt.url + '" target="_blank" rel="noopener" class="raffle-card__btn" onclick="trackBSTN(\'' + (r.title||'').replace(/\'/g,\'\') + '\')">S\'inscrire chez ' + rt.name + '</a>';
+      }).join('');
+      if (!btns && r.wtc_url) {
+        btns = '<a href="' + r.wtc_url + '" target="_blank" rel="noopener" class="raffle-card__btn">Voir la raffle</a>';
+      }
+      return '<div class="raffle-card">'
+        + '<div class="raffle-card__img"><div class="raffle-card__badge">🎟 RAFFLE</div>' + img + '</div>'
+        + '<div class="raffle-card__body">'
+        + '<div class="raffle-card__brand">' + (r.brand||'') + '</div>'
+        + '<div class="raffle-card__title">' + (r.title||'') + '</div>'
+        + '<div class="raffle-card__meta">'
+        + '<span class="raffle-card__price">' + (r.price ? r.price + '€' : '') + '</span>'
+        + '<span class="raffle-card__date">📅 ' + formatDate(r.date) + '</span>'
+        + '</div>'
+        + '<div class="raffle-card__deadline">⏰ Inscription avant le drop</div>'
+        + btns
+        + '</div></div>';
+    }
+
+    fetch(RELEASES_URL)
+      .then(function(res){ return res.json(); })
+      .then(function(data){
+        if (loading) loading.style.display = 'none';
+        var raffles = data.filter(function(r){ return r.raffle === true; })
+          .sort(function(a,b){ var da=a.date||'9999'; var db=b.date||'9999'; return da<db?-1:da>db?1:0; });
+        if (!raffles.length) { if (empty) empty.style.display = 'block'; return; }
+        grid.innerHTML = raffles.map(renderRaffle).join('');
+        grid.style.display = 'grid';
+      })
+      .catch(function(){ if (loading) loading.style.display='none'; if (empty) empty.style.display='block'; });
+  })();
+  </script>
+</body>
+</html>
