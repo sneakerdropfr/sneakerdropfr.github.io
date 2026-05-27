@@ -377,6 +377,9 @@
     .filter-chip:hover{border-color:var(--black);color:var(--black)}
     .filter-chip.active{background:var(--text);color:var(--bg);border-color:var(--text)}
     .filter-rows-wrap{border-bottom:1px solid var(--border);margin-bottom:1.25rem}
+  
+    .stockx-badge{display:inline-flex;align-items:center;gap:3px;background:rgba(83,183,255,.1);border:1px solid rgba(83,183,255,.3);color:#53B7FF;font-family:var(--font-cond);font-size:.68rem;font-weight:700;padding:.2rem .5rem;border-radius:4px;margin:.3rem .75rem 0;width:fit-content;text-decoration:none;letter-spacing:.03em}
+    .stockx-badge:hover{background:rgba(83,183,255,.2)}
   </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","description":"Les prochaines sorties sneakers Nike, Air Jordan, Adidas et New Balance en France","url":"https://sneakerdropfr.fr","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Nike Sabrina 3 WNBA 30th Anniversary","url":"https://www.nike.com/t/sabrina-3-wnba-30th-basketball-shoes-LArVJUMq/IH1125-100","brand":{"@type":"Brand","name":"Nike"},"image":"https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-sabrina-3-wnba-30th-anniversary-IH1125-100-1024x725.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Travis Scott x Air Jordan 1 Low Pink Pack","url":"https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101","brand":{"@type":"Brand","name":"Jordan"},"offers":{"@type":"Offer","price":"160","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","availabilityStarts":"2026-05-29"},"image":"https://statics.whentocop.fr/media/oyfz5grY3Em4/tmptravis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101-2000x2000.webp"}}]}</script>
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
@@ -801,6 +804,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         : '<div class="drop-card__img-placeholder">👟</div>';
       var isDropToday = isToday(r.date);
       var hypeScore = getScore(r);
+      // StockX prix dans les drops passés
+      var stockxRetailer = (r.retailers||[]).find(function(rt){ return rt.name && rt.name.toLowerCase().indexOf('stockx') !== -1; });
+      var stockxPrice = stockxRetailer ? stockxRetailer.price || null : null;
+      var stockxUrl = stockxRetailer ? stockxRetailer.url : null;
+      var stockxBadge = (released && stockxUrl)
+        ? '<a href="' + stockxUrl + '" target="_blank" rel="noopener" class="stockx-badge" onclick="trackOutbound(\'StockX\',\'' + (r.title||'') + '\')">'
+          + '🔄 StockX' + (stockxPrice ? ' · ' + stockxPrice + '€' : '') + '</a>'
+        : '';
       var hypeBadge = (r.featured || r.raffle || hypeScore >= 90)
         ? '<div class="drop-card__hype-badge">' + (r.raffle ? '🎟 RAFFLE' : '🔥 HYPE') + '</div>'
         : '';
@@ -818,7 +829,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var alertBtn = !released ? '<button class="card-alert-btn" onclick="event.preventDefault();event.stopPropagation();openAlertModal(\'' + (r.title||'').replace(/\'/g,\'\') + '\')">🔔 Alerte</button>' : '';
       var imgWrap = articleUrl
         ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>'
-        : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>' + hypeBadge;
+        : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>' + hypeBadge + stockxBadge;
       var titleWrap = articleUrl
         ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
         : '<h3 class="drop-card__title">' + r.title + '</h3>';
