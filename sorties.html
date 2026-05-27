@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', function(){
       var imgStyle = noFlip ? ' style="transform:scaleX(1)"' : '';
       // Pas d'image utilisable → card non rendue (le filtre en amont devrait l'éviter).
       if (!r.image_url || !String(r.image_url).trim()) return '';
-      var img='<img loading=\'lazy\' src="'+r.image_url+'" alt="'+r.title+'" class="drop-card__img" loading="lazy"'+imgStyle+' onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">';
+      var img='<img loading=\'lazy\' src="'+r.image_url+'" alt="'+r.title+'" class="drop-card__img" loading="lazy" referrerpolicy="no-referrer"'+imgStyle+' onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">';
       var badgeTop=released
         ?'<div class="drop-card__badge-top badge-week">🔥 Dispo</div>'
         :(isSoon(r.date)
@@ -437,7 +437,7 @@ document.addEventListener('DOMContentLoaded', function(){
       }
       var html='<div class="cards-grid">';
       data.forEach(function(r){
-        var img='<img loading=\'lazy\' src="'+r.image_url+'" class="drop-card__img" loading="lazy" onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">';
+        var img='<img loading=\'lazy\' src="'+r.image_url+'" class="drop-card__img" loading="lazy" referrerpolicy="no-referrer" onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">';
         var hasLink=(r.retailers&&r.retailers.length)||r.buy_url||r.wtc_url;
         var articleUrl=(r.id&&hasLink)?'sorties/'+r.id+'.html':null;
         var imgWrap=articleUrl
