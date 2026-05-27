@@ -62,7 +62,7 @@
     .sub-header__label{font-family:var(--font-cond);font-size:.72rem;font-weight:900;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);white-space:nowrap}
 
     /* Cards grid */
-    .cards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem}
+    .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.75rem}
     @media(max-width:900px){.cards-grid{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:480px){.cards-grid{grid-template-columns:repeat(2,1fr);gap:.65rem}}
     .releases-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
