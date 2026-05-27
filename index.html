@@ -815,7 +815,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var noFlip = NO_FLIP_IDS.indexOf(r.id || '') !== -1;
       var imgStyle = noFlip ? ' style="transform:scaleX(1)"' : '';
       var img = r.image_url
-        ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
+        ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy" referrerpolicy="no-referrer"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
         : '<div class="drop-card__img-placeholder">👟</div>';
       var isDropToday = isToday(r.date);
       var badgeTop = released
@@ -1271,7 +1271,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     } else {
       var html = '<div class="cards-grid">';
       data.forEach(function(r) {
-        var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" onerror="this.style.display=\'none\'">' : '<div class="drop-card__img-placeholder">👟</div>';
+        var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">' : '<div class="drop-card__img-placeholder">👟</div>';
         html += '<article class="drop-card">';
         html += '<div class="drop-card__img-wrap">' + img + '</div>';
         html += '<div class="drop-card__body">';
