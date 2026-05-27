@@ -115,7 +115,7 @@
     .see-more:hover{color:var(--black);border-color:var(--black)}
 
     /* ── Cards grid ── */
-    .cards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem}
+    .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.75rem}
     .cards-grid--3{grid-template-columns:repeat(3,1fr)}
     @media(max-width:900px){.cards-grid{grid-template-columns:repeat(2,1fr)}.cards-grid--3{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:480px){.cards-grid{grid-template-columns:repeat(2,1fr);gap:.65rem}}
