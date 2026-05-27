@@ -26,27 +26,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700;900&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TQQ3RSJJV"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-1TQQ3RSJJV');
-    function trackBSTN(product) {
-      if (typeof gtag !== 'undefined') {
-        gtag('event', 'click_bstn', { event_category: 'outbound', event_label: product, value: 1 });
-      }
-      try {
-        var clicks = JSON.parse(localStorage.getItem('sdf_clicks') || '{}');
-        clicks[product] = (clicks[product] || 0) + 1;
-        localStorage.setItem('sdf_clicks', JSON.stringify(clicks));
-      } catch(e) {}
-    }
-    function trackTelegram(source) {
-      if (typeof gtag !== 'undefined') {
-        gtag('event', 'telegram_click', { event_category: 'engagement', event_label: source || 'unknown' });
-      }
-    }
-  </script>
+  <script src="/assets/js/common.js" defer></script>
+  
   <style>
     /* ── Reset & tokens ── */
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -377,7 +358,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   <header class="header">
     <div class="container header__inner">
       <a href="#" class="logo">
-        <div class="logo__icon"><img src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="30" height="30" style="display:block"></div>
+        <div class="logo__icon"><img loading="lazy" src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="30" height="30" style="display:block"></div>
         <span>SneakerDrop<span class="logo__fr">FR</span></span>
       </a>
       <div class="header__spacer"></div>
@@ -516,7 +497,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     <div class="container">
       <div class="footer__inner">
         <a href="#" class="logo">
-          <div class="logo__icon" style="width:26px;height:26px"><img src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="26" height="26" style="display:block"></div>
+          <div class="logo__icon" style="width:26px;height:26px"><img loading="lazy" src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="26" height="26" style="display:block"></div>
           <span style="font-size:1rem">SneakerDrop<span class="logo__fr">FR</span></span>
         </a>
         <div class="footer__social">
@@ -745,7 +726,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     function renderTopPick(r) {
       if (!r || !topPickCard) return;
       var released = isReleased(r.date);
-      var img = r.image_url ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="top-pick__img" loading="lazy" onerror="this.style.display=\'none\'">' : '';
+      var img = r.image_url ? '<img loading=\'lazy\' src="' + r.image_url + '" alt="' + r.title + '" class="top-pick__img" loading="lazy" onerror="this.style.display=\'none\'">' : '';
       var alertDiv = released
         ? '<div class="top-pick__alert">⚠️ Déjà en rupture sur plusieurs sites — encore dispo ici</div>'
         : '<div class="top-pick__alert top-pick__alert--upcoming">📅 Drop le ' + formatDate(r.date) + ' — Active ton alerte maintenant</div>';
@@ -773,7 +754,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var noFlip = NO_FLIP_IDS.indexOf(r.id || '') !== -1;
       var imgStyle = noFlip ? ' style="transform:scaleX(1)"' : '';
       var img = r.image_url
-        ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
+        ? '<img loading=\'lazy\' src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
         : '<div class="drop-card__img-placeholder">👟</div>';
       var isDropToday = isToday(r.date);
       var badgeTop = released
@@ -1066,7 +1047,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
               }
               var rfLink = rf.id ? 'sorties/' + rf.id + '.html' : (rf.raffle_url || rf.wtc_url || '#');
               carouselHtml += '<div class="raffle-carousel-item">'
-                + (rf.image_url ? '<img src="' + rf.image_url + '" alt="' + escapeHtml(rf.title) + '" class="raffle-carousel-item__img" loading="lazy">' : '<div class="raffle-carousel-item__img"></div>')
+                + (rf.image_url ? '<img loading=\'lazy\' src="' + rf.image_url + '" alt="' + escapeHtml(rf.title) + '" class="raffle-carousel-item__img" loading="lazy">' : '<div class="raffle-carousel-item__img"></div>')
                 + '<div class="raffle-carousel-item__body">'
                 + '<span class="raffle-carousel-item__badge">Raffle</span>'
                 + '<div class="raffle-carousel-item__title">' + escapeHtml(rf.title) + '</div>'
@@ -1130,7 +1111,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     if (overlayEmpty) overlayEmpty.style.display = 'none';
     if (overlayGrid) overlayGrid.innerHTML = results.map(function(r) {
       var imgHtml = r.image_url
-        ? '<img src="' + r.image_url + '" alt="' + (r.title || '').replace(/"/g, '') + '" loading="lazy">'
+        ? '<img loading=\'lazy\' src="' + r.image_url + '" alt="' + (r.title || '').replace(/"/g, '') + '" loading="lazy">'
         : '<div style="width:100%;aspect-ratio:1;background:#F5F5F5"></div>';
       var price = r.price ? r.price + ' €' : '';
       var badge = r.stock === 'rupture'
@@ -1178,7 +1159,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     } else {
       var html = '<div class="cards-grid">';
       data.forEach(function(r) {
-        var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" onerror="this.style.display=\'none\'">' : '<div class="drop-card__img-placeholder">👟</div>';
+        var img = r.image_url ? '<img loading=\'lazy\' src="' + r.image_url + '" class="drop-card__img" loading="lazy" onerror="this.style.display=\'none\'">' : '<div class="drop-card__img-placeholder">👟</div>';
         html += '<article class="drop-card">';
         html += '<div class="drop-card__img-wrap">' + img + '</div>';
         html += '<div class="drop-card__body">';
@@ -1303,7 +1284,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       if (couleur && nom.toLowerCase().indexOf(couleur.toLowerCase()) === -1) nomDisplay = nom + ' (' + couleur + ')';
       return '<div class="drop-card">'
         + '<div class="drop-card__img-wrap">'
-        + (img ? '<img src="' + img + '" alt="' + nom.replace(/"/g,'') + '" loading="lazy" style="width:100%;height:100%;object-fit:contain;background:#F9F9F9">' : '')
+        + (img ? '<img loading=\'lazy\' src="' + img + '" alt="' + nom.replace(/"/g,'') + '" loading="lazy" style="width:100%;height:100%;object-fit:contain;background:#F9F9F9">' : '')
         + '<div class="drop-card__badge-top badge-upcoming">BSTN à venir</div>'
         + '</div>'
         + '<div class="drop-card__body">'
