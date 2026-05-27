@@ -328,5 +328,171 @@
       "type": "resell",
       "status": "available"
     }
+  ],
+  "asphaltgold-x-puma-h-street-saffron-coffee-milk": [
+    {
+      "name": "Asphaltgold",
+      "url": "https://www.asphaltgold.com",
+      "price": "110€",
+      "type": "direct",
+      "status": "available"
+    }
+  ],
+  "auralee-x-new-balance-204l-brown": [
+    {
+      "name": "New Balance",
+      "url": "https://www.newbalance.fr",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "GOAT",
+      "url": "https://www.goat.com",
+      "price": "272€",
+      "type": "resell",
+      "status": "available"
+    },
+    {
+      "name": "StockX",
+      "url": "https://stockx.com/fr-fr",
+      "price": "454€",
+      "type": "resell",
+      "status": "available"
+    }
+  ],
+  "auralee-x-new-balance-204l-cream": [
+    {
+      "name": "New Balance",
+      "url": "https://www.newbalance.fr",
+      "price": "160€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "GOAT",
+      "url": "https://www.goat.com",
+      "price": "267€",
+      "type": "resell",
+      "status": "available"
+    },
+    {
+      "name": "StockX",
+      "url": "https://stockx.com/fr-fr",
+      "price": "454€",
+      "type": "resell",
+      "status": "available"
+    }
+  ],
+  "nike-air-liquid-max-bright-crimson-fire-red": [
+    {
+      "name": "Nike SNKRS",
+      "url": "https://www.nike.com/fr/launch",
+      "price": "220€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "FootDistrict",
+      "url": "https://www.footdistrict.com",
+      "price": "220€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Afew",
+      "url": "https://www.afew-store.com",
+      "price": "220€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Urbanstar",
+      "url": "https://www.urbanstaronline.com",
+      "price": "220€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "Footshop",
+      "url": "https://www.footshop.eu",
+      "price": "220€",
+      "type": "direct",
+      "status": "raffle"
+    },
+    {
+      "name": "Noirfonce",
+      "url": "https://www.noirfonce.eu",
+      "price": "220€",
+      "type": "resell",
+      "status": "available"
+    },
+    {
+      "name": "StockX",
+      "url": "https://stockx.com/fr-fr",
+      "price": "268€",
+      "type": "resell",
+      "status": "available"
+    },
+    {
+      "name": "GOAT",
+      "url": "https://www.goat.com",
+      "price": "271€",
+      "type": "resell",
+      "status": "available"
+    },
+    {
+      "name": "Klekt",
+      "url": "https://www.klekt.com",
+      "price": "330€",
+      "type": "resell",
+      "status": "available"
+    }
+  ],
+  "new-balance-numeric-933-marblehead-island-blue": [
+    {
+      "name": "New Balance",
+      "url": "https://www.newbalance.fr",
+      "price": "150€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "StockX",
+      "url": "https://stockx.com/fr-fr",
+      "price": "164€",
+      "type": "resell",
+      "status": "available"
+    },
+    {
+      "name": "GOAT",
+      "url": "https://www.goat.com",
+      "price": "205€",
+      "type": "resell",
+      "status": "available"
+    }
+  ],
+  "new-balance-numeric-tiago-lemos-1010-grey-days": [
+    {
+      "name": "New Balance",
+      "url": "https://www.newbalance.fr",
+      "price": "120€",
+      "type": "direct",
+      "status": "upcoming"
+    },
+    {
+      "name": "GOAT",
+      "url": "https://www.goat.com",
+      "price": "194€",
+      "type": "resell",
+      "status": "available"
+    },
+    {
+      "name": "StockX",
+      "url": "https://stockx.com/fr-fr",
+      "price": "202€",
+      "type": "resell",
+      "status": "available"
+    }
   ]
 }
