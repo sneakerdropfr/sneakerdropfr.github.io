@@ -385,8 +385,8 @@
     .btn-retailer--resell:hover{background:rgba(255,255,255,.12);color:#fff}
   
     /* ── Brand filters ── */
-    .brand-filters{display:flex;gap:.4rem;padding:.75rem 0 0;overflow-x:auto;border-bottom:1px solid var(--border);margin-bottom:1.5rem;scrollbar-width:none}
-    .brand-filter{font-family:var(--font-cond);font-weight:700;font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;padding:.28rem .65rem;border-radius:999px;border:1.5px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0}
+    .brand-filters{display:flex;gap:.4rem;padding:.75rem 0 0;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;border-bottom:1px solid var(--border);margin-bottom:1.5rem;scrollbar-width:none}
+    .brand-filter{font-family:var(--font-cond);font-weight:700;font-size:.75rem;letter-spacing:.04em;text-transform:uppercase;padding:.28rem .65rem;border-radius:999px;border:1.5px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0}
     .brand-filter:hover{border-color:var(--black);color:var(--black)}
     .brand-filter.active{background:var(--black);color:#fff;border-color:var(--black)}
     /* ── Share btn ── */
@@ -787,7 +787,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     function renderTopPick(r) {
       if (!r || !topPickCard) return;
       var released = isReleased(r.date);
-      var img = r.image_url ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="top-pick__img" loading="lazy" onerror="this.style.display=\'none\'">' : '';
+      var img = r.image_url ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="top-pick__img" loading="lazy" onerror="this.src=\'data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='140' viewBox='0 0 200 140'%3E%3Crect width='200' height='140' fill='%23222'/%3E%3Ctext x='100' y='78' text-anchor='middle' font-size='40' fill='%23444'%3E%F0%9F%91%9F%3C/text%3E%3C/svg%3E\'">' : '';
       var alertDiv = released
         ? '<div class="top-pick__alert">⚠️ Déjà en rupture sur plusieurs sites — encore dispo ici</div>'
         : '<div class="top-pick__alert top-pick__alert--upcoming">📅 Drop le ' + formatDate(r.date) + ' — Active ton alerte maintenant</div>';
@@ -1271,7 +1271,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     } else {
       var html = '<div class="cards-grid">';
       data.forEach(function(r) {
-        var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">' : '<div class="drop-card__img-placeholder">👟</div>';
+        var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" referrerpolicy="no-referrer" onerror="this.src=\'data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='140' viewBox='0 0 200 140'%3E%3Crect width='200' height='140' fill='%23222'/%3E%3Ctext x='100' y='78' text-anchor='middle' font-size='40' fill='%23444'%3E%F0%9F%91%9F%3C/text%3E%3C/svg%3E\'">' : '<div class="drop-card__img-placeholder">👟</div>';
         html += '<article class="drop-card">';
         html += '<div class="drop-card__img-wrap">' + img + '</div>';
         html += '<div class="drop-card__body">';
