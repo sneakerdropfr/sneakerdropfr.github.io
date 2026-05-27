@@ -312,5 +312,21 @@
       "type": "direct",
       "status": "raffle"
     }
+  ],
+  "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon": [
+    {
+      "name": "Nike SNKRS",
+      "url": "https://www.nike.com/fr/launch",
+      "price": "120€",
+      "type": "direct",
+      "status": "available"
+    },
+    {
+      "name": "GOAT",
+      "url": "https://www.goat.com",
+      "price": "resell",
+      "type": "resell",
+      "status": "available"
+    }
   ]
 }
