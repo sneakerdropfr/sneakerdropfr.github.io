@@ -349,6 +349,8 @@
     .brand-filter{font-family:var(--font-cond);font-weight:700;font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;padding:.28rem .65rem;border-radius:999px;border:1.5px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0}
     .brand-filter:hover{border-color:var(--black);color:var(--black)}
     .brand-filter.active{background:var(--black);color:#fff;border-color:var(--black)}
+  
+    .drop-card__hype-badge{display:inline-flex;align-items:center;gap:3px;background:linear-gradient(135deg,#FF2D2D,#ff6b35);color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.65rem;letter-spacing:.07em;padding:.2rem .55rem;border-radius:4px;margin:.4rem .75rem 0;width:fit-content}
   </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","description":"Les prochaines sorties sneakers Nike, Air Jordan, Adidas et New Balance en France","url":"https://sneakerdropfr.fr","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Nike Sabrina 3 WNBA 30th Anniversary","url":"https://www.nike.com/t/sabrina-3-wnba-30th-basketball-shoes-LArVJUMq/IH1125-100","brand":{"@type":"Brand","name":"Nike"},"image":"https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-sabrina-3-wnba-30th-anniversary-IH1125-100-1024x725.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Travis Scott x Air Jordan 1 Low Pink Pack","url":"https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101","brand":{"@type":"Brand","name":"Jordan"},"offers":{"@type":"Offer","price":"160","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","availabilityStarts":"2026-05-29"},"image":"https://statics.whentocop.fr/media/oyfz5grY3Em4/tmptravis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101-2000x2000.webp"}}]}</script>
 </head>
@@ -771,6 +773,10 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
         : '<div class="drop-card__img-placeholder">👟</div>';
       var isDropToday = isToday(r.date);
+      var hypeScore = getScore(r);
+      var hypeBadge = (r.featured || r.raffle || hypeScore >= 90)
+        ? '<div class="drop-card__hype-badge">' + (r.raffle ? '🎟 RAFFLE' : '🔥 HYPE') + '</div>'
+        : '';
       var badgeTop = released
         ? '<div class="drop-card__badge-top badge-week">🔥 Dispo</div>'
         : (isDropToday
@@ -784,7 +790,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var articleUrl = (r.id && hasLink) ? 'sorties/' + r.id + '.html' : null;
       var imgWrap = articleUrl
         ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>'
-        : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
+        : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>' + hypeBadge;
       var titleWrap = articleUrl
         ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
         : '<h3 class="drop-card__title">' + r.title + '</h3>';
