@@ -893,6 +893,15 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var _daysFromMon = _day === 0 ? 6 : _day - 1;
       var _monday = new Date(_now); _monday.setDate(_now.getDate() - _daysFromMon); _monday.setHours(0,0,0,0);
       var _sunday = new Date(_monday); _sunday.setDate(_monday.getDate() + 6); _sunday.setHours(23,59,59,999);
+
+      // Filtre marque actif
+      if (typeof _activeBrand !== 'undefined' && _activeBrand !== 'all' && window._releases && window._releases.length) {
+        allReleases = window._releases.filter(function(r){
+          return (r.brand||'').toLowerCase().indexOf(_activeBrand.toLowerCase()) !== -1;
+        });
+      } else if (window._releases && window._releases.length && (typeof _activeBrand === 'undefined' || _activeBrand === 'all')) {
+        allReleases = window._releases.slice();
+      }
       // Urgency bar dynamique
       (function(){
         var bar = document.getElementById('urgency-bar');
@@ -1106,7 +1115,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function(data) {
         if (loading) loading.style.display = 'none';
-        allReleases = data.filter(function(r) { return r.id && !r.id.startsWith('test-'); });
+        allReleases = data.filter(function(r) { return r.id && !r.id.startsWith('test-');
+        window._releases = allReleases.slice(); });
         window._releases = allReleases;
 
         // Section Raffles — compact: 1 card visible
