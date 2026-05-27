@@ -1008,7 +1008,20 @@
     "image_url": "https://statics.whentocop.fr/media/0JJSXPzTzC3f/tmpadidas-adizero-evo-sl-wmns-cloud-white-dark-brown-ki9873-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-wmns-off-white-aurora-comet-ki9873",
     "buy_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-wmns-off-white-aurora-comet-ki9873",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com"
+      },
+      {
+        "name": "SportScheck",
+        "url": "https://www.sportscheck.com"
+      }
+    ]
   },
   {
     "id": "adidas-believe-that-1-cloud-white",
@@ -1052,7 +1065,20 @@
     "image_url": "https://statics.whentocop.fr/media/TQc7zqYOu8L5/tmpadidas-adizero-evo-sl-exo-kj0422-v4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-exo-core-black-kj0422",
     "buy_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-exo-core-black-kj0422",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com"
+      },
+      {
+        "name": "SportScheck",
+        "url": "https://www.sportscheck.com"
+      }
+    ]
   },
   {
     "id": "new-balance-mt10t-raincloud-concrete",
@@ -1223,7 +1249,20 @@
     "image_url": "https://statics.whentocop.fr/media/xDxAko6EFLPA/tmpadidas-adizero-evo-sl-m-crystal-white-luta-iron-metallic-kj2521-4-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-crystal-white-luta-kj2521",
     "buy_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-crystal-white-luta-kj2521",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com"
+      },
+      {
+        "name": "SportScheck",
+        "url": "https://www.sportscheck.com"
+      }
+    ]
   },
   {
     "id": "new-balance-1906l-rosewood",
