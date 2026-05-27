@@ -161,3 +161,6 @@
     gap:.65rem!important;
   }
 }
+/* ── Filtres no-wrap mobile ── */
+.filters{flex-wrap:nowrap!important;overflow-x:auto!important;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.filter-btn{white-space:nowrap!important;flex-shrink:0!important}
