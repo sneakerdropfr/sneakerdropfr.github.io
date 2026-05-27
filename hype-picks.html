@@ -259,7 +259,7 @@
         : '<div class="drop-card__badge-top badge-hype">Hype</div>';
       // Pas d'image utilisable → on n'affiche pas la card (filtre upstream préférable).
       if (!r.image_url || !String(r.image_url).trim()) return '';
-      var img = '<img loading=\'lazy\' src="' + r.image_url + '" alt="' + escapeHtml(r.title) + '" class="drop-card__img" loading="lazy" onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">';
+      var img = '<img loading=\'lazy\' src="' + r.image_url + '" alt="' + escapeHtml(r.title) + '" class="drop-card__img" loading="lazy" referrerpolicy="no-referrer" onerror="window.sdfHideBrokenCard&&window.sdfHideBrokenCard(this)">';
       var btn = makeRetailersRow(r, false);
       // hasLink anti-404 : on ne génère le lien article que si une page détail
       // est attendue (présence de retailers / buy_url / wtc_url côté data).
