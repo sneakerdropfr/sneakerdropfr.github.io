@@ -593,7 +593,15 @@
     "image_url": "https://statics.whentocop.fr/media/YkJrJzIg4DGH/tmppuma-x-asphaltgold-h-street-saffron-coffee-milk-408616-01-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/asphaltgold-puma-h-street-saffron-coffee-milk-408616-01",
     "buy_url": "https://www.whentocop.fr/drops/asphaltgold-puma-h-street-saffron-coffee-milk-408616-01",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon",
@@ -626,7 +634,29 @@
     "image_url": "https://statics.whentocop.fr/media/G50aJDDl2eZF/tmpauralee-x-new-balance-204l-ganache-black-bean-u204l5i7-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-brown-u204l5i7",
     "buy_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-brown-u204l5i7",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "272€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "454€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "auralee-x-new-balance-204l-cream",
@@ -637,7 +667,29 @@
     "image_url": "https://statics.whentocop.fr/media/l6hR55lrXHsG/tmpauralee-x-new-balance-204l-plaza-taupe-white-jade-u204l7yu-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-cream-u204l7yu",
     "buy_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-cream-u204l7yu",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "267€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "454€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-air-liquid-max-bright-crimson-fire-red",
@@ -648,7 +700,71 @@
     "image_url": "https://statics.whentocop.fr/media/M1d3ctaG3rnT/tmpNIKE-AIR-LIQUID-MAX-Black-Team-Red-Fire-Red-Metallic-Gold-IQ7634-002-1-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-liquid-max-bright-crimson-fire-red-iq7634-002",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-liquid-max-bright-crimson-fire-red-iq7634-002",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://www.footdistrict.com",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstaronline.com",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "220€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://www.noirfonce.eu",
+        "price": "220€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "268€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "271€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com",
+        "price": "330€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "new-balance-numeric-933-marblehead-island-blue",
@@ -659,7 +775,29 @@
     "image_url": "https://statics.whentocop.fr/media/03z4GdG7tLj4/tmpnew-balance-numeric-933-marblehead-island-blue-un933gry-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-933-marblehead-island-blue-un933gry",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-numeric-933-marblehead-island-blue-un933gry",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "164€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "205€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "new-balance-numeric-tiago-lemos-1010-grey-days",
@@ -670,7 +808,29 @@
     "image_url": "https://statics.whentocop.fr/media/7H5Fj7iH88nh/tmpnew-balance-numeric-tiago-lemos-1010-grey-days-un1010y-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-tiago-lemos-1010-grey-days-un1010y",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-numeric-tiago-lemos-1010-grey-days-un1010y",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "194€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "202€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-3-retro-worlds-best-dad",
