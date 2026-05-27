@@ -124,7 +124,7 @@
 
 
     /* ── Drop card ── */
-    .drop-card{background:#0A0A0A;border:1px solid rgba(255,255,255,.08);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:border-color .2s,transform .2s,box-shadow .2s}
+    .drop-card{position:relative;background:#0A0A0A;border:1px solid rgba(255,255,255,.08);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:border-color .2s,transform .2s,box-shadow .2s}
 
     .badge-hype{background:var(--accent);color:#0A0A0A}
 
@@ -383,6 +383,16 @@
     .btn-retailer--resell{background:rgba(255,255,255,.05);color:rgba(255,255,255,.5);border:1px solid rgba(255,255,255,.1);font-size:.66rem}
 
     .btn-retailer--resell:hover{background:rgba(255,255,255,.12);color:#fff}
+  
+    /* ── Brand filters ── */
+    .brand-filters{display:flex;gap:.5rem;padding:.85rem 0 0;flex-wrap:wrap;border-bottom:1px solid var(--border);margin-bottom:1.5rem}
+    .brand-filter{font-family:var(--font-cond);font-weight:700;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:.35rem .9rem;border-radius:999px;border:1.5px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s}
+    .brand-filter:hover{border-color:var(--black);color:var(--black)}
+    .brand-filter.active{background:var(--black);color:#fff;border-color:var(--black)}
+    /* ── Share btn ── */
+    .card-share{position:absolute;top:.55rem;right:.55rem;background:rgba(0,0,0,.07);border:none;border-radius:50%;width:26px;height:26px;font-size:.8rem;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .2s;z-index:2}
+    .drop-card:hover .card-share,.drop-card:focus-within .card-share{opacity:1}
+    @media(max-width:600px){.card-share{opacity:.65}}
   </style>
   
 
@@ -394,7 +404,7 @@
 function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
 </script>
 
-  <div class="urgency-bar">⚠️ Certaines tailles sont déjà en rupture — Vérifie ta paire maintenant</div>
+  <div class="urgency-bar" id="urgency-bar">⚡ Chargement des drops...</div>
 
   <!-- ═══ HEADER ═══ -->
   <header class="header">
@@ -432,7 +442,16 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   </div>
 
 
-  <!-- ═══ HERO ═══ -->
+  
+  <!-- FILTRES MARQUE -->
+  <div class="brand-filters container" id="brand-filters">
+    <button class="brand-filter active" onclick="setBrandFilter('all',this)">Tous</button>
+    <button class="brand-filter" onclick="setBrandFilter('Nike',this)">Nike</button>
+    <button class="brand-filter" onclick="setBrandFilter('Jordan',this)">Jordan</button>
+    <button class="brand-filter" onclick="setBrandFilter('Adidas',this)">Adidas</button>
+    <button class="brand-filter" onclick="setBrandFilter('New Balance',this)">New Balance</button>
+  </div>
+<!-- ═══ HERO ═══ -->
   <section class="hero">
     <div class="container">
       <div class="hero__eyebrow">Alertes en temps réel</div>
@@ -768,7 +787,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     function renderTopPick(r) {
       if (!r || !topPickCard) return;
       var released = isReleased(r.date);
-      var img = r.image_url ? '<img loading=\'lazy\' src="' + r.image_url + '" alt="' + r.title + '" class="top-pick__img" loading="lazy" onerror="this.style.display=\'none\'">' : '';
+      var img = r.image_url ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="top-pick__img" loading="lazy" onerror="this.style.display=\'none\'">' : '';
       var alertDiv = released
         ? '<div class="top-pick__alert">⚠️ Déjà en rupture sur plusieurs sites — encore dispo ici</div>'
         : '<div class="top-pick__alert top-pick__alert--upcoming">📅 Drop le ' + formatDate(r.date) + ' — Active ton alerte maintenant</div>';
@@ -796,7 +815,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var noFlip = NO_FLIP_IDS.indexOf(r.id || '') !== -1;
       var imgStyle = noFlip ? ' style="transform:scaleX(1)"' : '';
       var img = r.image_url
-        ? '<img loading=\'lazy\' src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
+        ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
         : '<div class="drop-card__img-placeholder">👟</div>';
       var isDropToday = isToday(r.date);
       var badgeTop = released
@@ -843,12 +862,53 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       '</article>';
     }
 
-    function render() {
+    
+  var _activeBrand = 'all';
+  function setBrandFilter(brand, btn) {
+    _activeBrand = brand;
+    document.querySelectorAll('.brand-filter').forEach(function(b){ b.classList.remove('active'); });
+    if (btn) btn.classList.add('active');
+    render();
+  }
+  function shareCard(title, buyUrl) {
+    var url = buyUrl && buyUrl.indexOf('http') === 0 ? buyUrl : 'https://sneakerdropfr.fr/sorties.html';
+    var txt = '\uD83D\uDC5F ' + title + ' \u2014 SneakerDrop FR';
+    if (navigator.share) {
+      navigator.share({title: title, text: txt, url: url}).catch(function(){});
+    } else {
+      try {
+        navigator.clipboard.writeText(url).then(function(){
+          var m = document.createElement('div');
+          m.style.cssText = 'position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:#0A0A0A;color:#fff;padding:.45rem 1.1rem;border-radius:999px;font-size:.82rem;z-index:9999;pointer-events:none';
+          m.textContent = '\u2705 Lien copié !';
+          document.body.appendChild(m);
+          setTimeout(function(){if(m.parentNode)m.parentNode.removeChild(m);},2000);
+        });
+      } catch(e){}
+    }
+  }
+  function render() {
       var _now = new Date();
       var _day = _now.getDay();
       var _daysFromMon = _day === 0 ? 6 : _day - 1;
       var _monday = new Date(_now); _monday.setDate(_now.getDate() - _daysFromMon); _monday.setHours(0,0,0,0);
       var _sunday = new Date(_monday); _sunday.setDate(_monday.getDate() + 6); _sunday.setHours(23,59,59,999);
+      // Urgency bar dynamique
+      (function(){
+        var bar = document.getElementById('urgency-bar');
+        if (!bar) return;
+        var now2 = new Date(); now2.setHours(0,0,0,0);
+        var wd = allReleases.filter(function(r){
+          if (!r.date || r.date === 'TBD') return false;
+          var p = r.date.split('-'); var d = new Date(+p[0], +p[1]-1, +p[2]);
+          return d >= _monday && d <= _sunday;
+        });
+        if (wd.length > 0) {
+          bar.textContent = '\uD83D\uDD25 ' + wd.length + ' drop' + (wd.length > 1 ? 's' : '') + ' cette semaine \u2014 Certaines tailles partent vite';
+        } else {
+          bar.textContent = '\uD83D\uDCC5 Prochains drops à venir \u2014 Suis-nous sur Telegram pour les alertes';
+        }
+      })();
       // Semaine suivante (bascule lundi 00:00 local)
       var _nextMonday = new Date(_monday); _nextMonday.setDate(_monday.getDate() + 7);
       var _nextSunday = new Date(_nextMonday); _nextSunday.setDate(_nextMonday.getDate() + 6); _nextSunday.setHours(23,59,59,999);
@@ -1089,7 +1149,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
               }
               var rfLink = rf.id ? 'sorties/' + rf.id + '.html' : (rf.raffle_url || rf.wtc_url || '#');
               carouselHtml += '<div class="raffle-carousel-item">'
-                + (rf.image_url ? '<img loading=\'lazy\' src="' + rf.image_url + '" alt="' + escapeHtml(rf.title) + '" class="raffle-carousel-item__img" loading="lazy">' : '<div class="raffle-carousel-item__img"></div>')
+                + (rf.image_url ? '<img src="' + rf.image_url + '" alt="' + escapeHtml(rf.title) + '" class="raffle-carousel-item__img" loading="lazy">' : '<div class="raffle-carousel-item__img"></div>')
                 + '<div class="raffle-carousel-item__body">'
                 + '<span class="raffle-carousel-item__badge">Raffle</span>'
                 + '<div class="raffle-carousel-item__title">' + escapeHtml(rf.title) + '</div>'
@@ -1153,7 +1213,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     if (overlayEmpty) overlayEmpty.style.display = 'none';
     if (overlayGrid) overlayGrid.innerHTML = results.map(function(r) {
       var imgHtml = r.image_url
-        ? '<img loading=\'lazy\' src="' + r.image_url + '" alt="' + (r.title || '').replace(/"/g, '') + '" loading="lazy">'
+        ? '<img src="' + r.image_url + '" alt="' + (r.title || '').replace(/"/g, '') + '" loading="lazy">'
         : '<div style="width:100%;aspect-ratio:1;background:#F5F5F5"></div>';
       var price = r.price ? r.price + ' €' : '';
       var badge = r.stock === 'rupture'
@@ -1201,7 +1261,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     } else {
       var html = '<div class="cards-grid">';
       data.forEach(function(r) {
-        var img = r.image_url ? '<img loading=\'lazy\' src="' + r.image_url + '" class="drop-card__img" loading="lazy" onerror="this.style.display=\'none\'">' : '<div class="drop-card__img-placeholder">👟</div>';
+        var img = r.image_url ? '<img src="' + r.image_url + '" class="drop-card__img" loading="lazy" onerror="this.style.display=\'none\'">' : '<div class="drop-card__img-placeholder">👟</div>';
         html += '<article class="drop-card">';
         html += '<div class="drop-card__img-wrap">' + img + '</div>';
         html += '<div class="drop-card__body">';
@@ -1326,7 +1386,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       if (couleur && nom.toLowerCase().indexOf(couleur.toLowerCase()) === -1) nomDisplay = nom + ' (' + couleur + ')';
       return '<div class="drop-card">'
         + '<div class="drop-card__img-wrap">'
-        + (img ? '<img loading=\'lazy\' src="' + img + '" alt="' + nom.replace(/"/g,'') + '" loading="lazy" style="width:100%;height:100%;object-fit:contain;background:#F9F9F9">' : '')
+        + (img ? '<img src="' + img + '" alt="' + nom.replace(/"/g,'') + '" loading="lazy" style="width:100%;height:100%;object-fit:contain;background:#F9F9F9">' : '')
         + '<div class="drop-card__badge-top badge-upcoming">BSTN à venir</div>'
         + '</div>'
         + '<div class="drop-card__body">'
