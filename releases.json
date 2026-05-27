@@ -604,7 +604,18 @@
     "image_url": "https://statics.whentocop.fr/media/sU0iafNrkeSy/tmpKids-of-Immigrants-x-Nike-T90-Mule_Velvet-Brown-Orange-Horizon_IH4422-201_img0-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
     "buy_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "120€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "resell": true
+      }
+    ]
   },
   {
     "id": "auralee-x-new-balance-204l-brown",
