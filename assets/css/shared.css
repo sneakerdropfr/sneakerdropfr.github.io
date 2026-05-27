@@ -153,3 +153,11 @@
   --accent: #E8FF00;
   --pink: #FF2D6B;
 }
+
+/* ── Mobile grid 2 colonnes — tous les grids ── */
+@media(max-width:768px){
+  #weekly-drops-grid,#releases-grid-upcoming,#past-grid{
+    grid-template-columns:repeat(2,1fr)!important;
+    gap:.65rem!important;
+  }
+}
