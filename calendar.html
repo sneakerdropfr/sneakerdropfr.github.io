@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendrier Drops Sneakers — SneakerDrop FR</title>
+  <meta name="description" content="Calendrier mensuel de tous les drops sneakers en France. Voir d'un coup d'œil les sorties Nike, Jordan, Adidas, New Balance du mois." />
+  <link rel="canonical" href="https://sneakerdropfr.fr/calendar.html" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/shared.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700;900&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TQQ3RSJJV"></script>
+  <script src="/assets/js/common.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Calendrier Drops Sneakers","url":"https://sneakerdropfr.fr/calendar.html","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SneakerDrop FR","item":"https://sneakerdropfr.fr"},{"@type":"ListItem","position":2,"name":"Calendrier","item":"https://sneakerdropfr.fr/calendar.html"}]}}</script>
+  <style>
+    .cal-header{padding:2rem 0 1.5rem;border-bottom:1px solid var(--border)}
+    .cal-nav{display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap}
+    .cal-month-title{font-family:var(--font-display);font-size:clamp(1.8rem,4vw,2.8rem);flex:1}
+    .cal-btn{font-family:var(--font-cond);font-weight:700;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;padding:.45rem 1rem;border-radius:6px;border:1.5px solid var(--border);background:transparent;color:var(--text);cursor:pointer;transition:all .15s}
+    .cal-btn:hover{background:var(--black);color:#fff;border-color:var(--black)}
+    .cal-brand-filters{display:flex;gap:.4rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-bottom:1.25rem}
+    .cal-filter{font-family:var(--font-cond);font-weight:700;font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;padding:.28rem .65rem;border-radius:999px;border:1.5px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0}
+    .cal-filter:hover{border-color:var(--black);color:var(--black)}
+    .cal-filter.active{background:var(--black);color:#fff;border-color:var(--black)}
+    .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;margin-top:1rem}
+    .cal-day-header{font-family:var(--font-cond);font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;text-align:center;padding:.5rem .2rem;color:var(--muted);border-bottom:1px solid var(--border)}
+    .cal-cell{min-height:80px;background:var(--bg-alt);border-radius:4px;padding:.4rem;position:relative;transition:background .15s}
+    .cal-cell.today{background:rgba(255,45,45,.06);outline:2px solid rgba(255,45,45,.3)}
+    .cal-cell.other-month{opacity:.35}
+    .cal-cell.has-drops{background:#0A0A0A;cursor:pointer}
+    .cal-cell.has-drops:hover{background:#111}
+    .cal-day-num{font-family:var(--font-cond);font-size:.8rem;font-weight:700;color:var(--muted);margin-bottom:.3rem}
+    .cal-cell.today .cal-day-num{color:#FF2D2D;font-weight:900}
+    .cal-drop-dot{width:100%;font-family:var(--font-cond);font-size:.62rem;font-weight:700;text-transform:uppercase;color:var(--text);background:rgba(255,255,255,.07);border-radius:3px;padding:.1rem .3rem;margin-bottom:2px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:1.4}
+    .cal-drop-dot.hype{background:rgba(255,45,45,.25);color:#ff8080}
+    .cal-drop-dot.raffle{background:rgba(232,255,0,.15);color:#E8FF00}
+    .cal-more{font-family:var(--font-cond);font-size:.6rem;color:var(--muted);margin-top:2px}
+    .cal-detail{position:fixed;bottom:0;left:0;right:0;background:#111;border-top:2px solid var(--border);padding:1.25rem;z-index:200;transform:translateY(100%);transition:transform .3s;max-height:60vh;overflow-y:auto}
+    .cal-detail.open{transform:translateY(0)}
+    .cal-detail__close{position:absolute;top:.75rem;right:1rem;background:none;border:none;color:var(--muted);font-size:1.3rem;cursor:pointer}
+    .cal-detail__title{font-family:var(--font-display);font-size:1.4rem;margin-bottom:1rem}
+    .cal-detail__card{display:flex;gap:.75rem;align-items:center;padding:.6rem 0;border-bottom:1px solid var(--border)}
+    .cal-detail__img{width:56px;height:56px;background:#1a1a1a;border-radius:6px;overflow:hidden;flex-shrink:0}
+    .cal-detail__img img{width:100%;height:100%;object-fit:contain;padding:4px;transform:scaleX(-1)}
+    .cal-detail__info{flex:1;min-width:0}
+    .cal-detail__brand{font-family:var(--font-cond);font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+    .cal-detail__name{font-family:var(--font-cond);font-weight:900;font-size:.9rem;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .cal-detail__price{font-family:var(--font-cond);font-weight:900;font-size:1rem;color:var(--accent)}
+    .cal-detail__link{font-family:var(--font-cond);font-size:.78rem;font-weight:700;color:#fff;background:#FF2D2D;padding:.3rem .7rem;border-radius:4px;white-space:nowrap;text-transform:uppercase}
+    .cal-stats{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem}
+    .cal-stat{background:#0A0A0A;border:1px solid var(--border);border-radius:8px;padding:.6rem 1rem;text-align:center;flex:1;min-width:80px}
+    .cal-stat__num{font-family:var(--font-display);font-size:1.5rem;color:var(--accent)}
+    .cal-stat__label{font-family:var(--font-cond);font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+    @media(max-width:480px){.cal-cell{min-height:60px}.cal-drop-dot{font-size:.55rem}}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo">
+        <div class="logo__icon"><img src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="30" height="30" /></div>
+        <span>SneakerDrop<span class="logo__fr">FR</span></span>
+      </a>
+      <div style="flex:1"></div>
+      <a href="/" class="hbtn hbtn--back">← Accueil</a>
+    </div>
+  </header>
+
+  <section class="cal-header">
+    <div class="container">
+      <div style="font-family:var(--font-cond);font-size:.85rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:.5rem">📅 Vue mensuelle</div>
+      <div class="cal-nav">
+        <div class="cal-month-title" id="cal-month-title">Chargement...</div>
+        <button class="cal-btn" onclick="changeMonth(-1)">◀ Mois préc.</button>
+        <button class="cal-btn" onclick="changeMonth(0)">Aujourd'hui</button>
+        <button class="cal-btn" onclick="changeMonth(1)">Mois suiv. ▶</button>
+      </div>
+      <div class="cal-brand-filters">
+        <button class="cal-filter active" onclick="setCalFilter('all',this)">Toutes</button>
+        <button class="cal-filter" onclick="setCalFilter('Jordan',this)">Jordan</button>
+        <button class="cal-filter" onclick="setCalFilter('Nike',this)">Nike</button>
+        <button class="cal-filter" onclick="setCalFilter('Adidas',this)">Adidas</button>
+        <button class="cal-filter" onclick="setCalFilter('New Balance',this)">New Balance</button>
+      </div>
+      <div class="cal-stats" id="cal-stats"></div>
+    </div>
+  </section>
+
+  <section style="padding:1.5rem 0 4rem">
+    <div class="container">
+      <div class="cal-grid" id="cal-grid">
+        <div class="cal-day-header">Lun</div>
+        <div class="cal-day-header">Mar</div>
+        <div class="cal-day-header">Mer</div>
+        <div class="cal-day-header">Jeu</div>
+        <div class="cal-day-header">Ven</div>
+        <div class="cal-day-header">Sam</div>
+        <div class="cal-day-header">Dim</div>
+      </div>
+      <div id="cal-loading" style="text-align:center;padding:2rem;color:var(--muted);font-family:var(--font-cond)">Chargement...</div>
+    </div>
+  </section>
+
+  <!-- Panel détail jour -->
+  <div class="cal-detail" id="cal-detail">
+    <button class="cal-detail__close" onclick="closeDetail()">✕</button>
+    <div class="cal-detail__title" id="cal-detail-title"></div>
+    <div id="cal-detail-cards"></div>
+  </div>
+  <div id="cal-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:199" onclick="closeDetail()"></div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="/" class="logo">
+          <div class="logo__icon" style="width:26px;height:26px"><img src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="26" height="26" loading="lazy" /></div>
+          <span style="font-size:1rem">SneakerDrop<span class="logo__fr">FR</span></span>
+        </a>
+        <div class="footer__social">
+          <a href="https://www.tiktok.com/@sneakerdropfr" target="_blank" rel="noopener" class="social-btn">TikTok</a>
+          <a href="https://www.instagram.com/sneakerdropfr/" target="_blank" rel="noopener" class="social-btn">Instagram</a>
+          <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="social-btn" onclick="trackTelegram('footer')">Telegram</a>
+        </div>
+      </div>
+      <div class="footer__legal">© 2026 SneakerDropFR</div>
+    </div>
+  </footer>
+
+  <script>
+  var _allReleases = [];
+  var _calFilter = 'all';
+  var _curYear, _curMonth;
+
+  function setCalFilter(brand, btn) {
+    _calFilter = brand;
+    document.querySelectorAll('.cal-filter').forEach(function(b){ b.classList.remove('active'); });
+    if (btn) btn.classList.add('active');
+    renderCalendar();
+  }
+
+  function changeMonth(dir) {
+    if (dir === 0) { var n = new Date(); _curYear = n.getFullYear(); _curMonth = n.getMonth(); }
+    else {
+      _curMonth += dir;
+      if (_curMonth < 0) { _curMonth = 11; _curYear--; }
+      if (_curMonth > 11) { _curMonth = 0; _curYear++; }
+    }
+    renderCalendar();
+  }
+
+  function getReleasesForDay(y, m, d) {
+    var dateStr = y + '-' + String(m+1).padStart(2,'0') + '-' + String(d).padStart(2,'0');
+    return _allReleases.filter(function(r){
+      if (r.date !== dateStr) return false;
+      if (_calFilter === 'all') return true;
+      return (r.brand||'').toLowerCase().indexOf(_calFilter.toLowerCase()) !== -1;
+    });
+  }
+
+  function renderCalendar() {
+    var MONTHS_FR = ['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+    var today = new Date(); today.setHours(0,0,0,0);
+    document.getElementById('cal-month-title').textContent = MONTHS_FR[_curMonth] + ' ' + _curYear;
+
+    var firstDay = new Date(_curYear, _curMonth, 1);
+    var lastDay = new Date(_curYear, _curMonth+1, 0);
+    // Monday-based: 0=Mon...6=Sun
+    var startDow = (firstDay.getDay() + 6) % 7;
+
+    var grid = document.getElementById('cal-grid');
+    // Keep day headers (first 7 children)
+    var headers = [];
+    for (var i=0; i<7; i++) headers.push(grid.children[i]);
+    grid.innerHTML = '';
+    headers.forEach(function(h){ grid.appendChild(h); });
+
+    var cells = [];
+    // Prev month fill
+    for (var p=0; p<startDow; p++) {
+      var d = new Date(_curYear, _curMonth, 1 - (startDow - p));
+      cells.push({ date: d, current: false });
+    }
+    // Current month
+    for (var d=1; d<=lastDay.getDate(); d++) {
+      cells.push({ date: new Date(_curYear, _curMonth, d), current: true });
+    }
+    // Next month fill
+    var remaining = 42 - cells.length;
+    for (var n=1; n<=remaining; n++) {
+      cells.push({ date: new Date(_curYear, _curMonth+1, n), current: false });
+    }
+
+    // Stats
+    var totalDrops = 0, hyped = 0, raffles = 0;
+    cells.filter(function(c){ return c.current; }).forEach(function(c){
+      var drops = getReleasesForDay(c.date.getFullYear(), c.date.getMonth(), c.date.getDate());
+      totalDrops += drops.length;
+      hyped += drops.filter(function(r){ return r.featured; }).length;
+      raffles += drops.filter(function(r){ return r.raffle; }).length;
+    });
+    document.getElementById('cal-stats').innerHTML =
+      '<div class="cal-stat"><div class="cal-stat__num">' + totalDrops + '</div><div class="cal-stat__label">Drops</div></div>' +
+      '<div class="cal-stat"><div class="cal-stat__num">' + hyped + '</div><div class="cal-stat__label">🔥 Hype</div></div>' +
+      '<div class="cal-stat"><div class="cal-stat__num">' + raffles + '</div><div class="cal-stat__label">🎟 Raffles</div></div>';
+
+    cells.forEach(function(cell){
+      var div = document.createElement('div');
+      div.className = 'cal-cell' + (cell.current ? '' : ' other-month');
+      var cellDate = cell.date; cellDate.setHours(0,0,0,0);
+      if (cellDate.getTime() === today.getTime()) div.classList.add('today');
+
+      var drops = getReleasesForDay(cell.date.getFullYear(), cell.date.getMonth(), cell.date.getDate());
+      var dayNum = '<div class="cal-day-num">' + cell.date.getDate() + '</div>';
+
+      if (drops.length) {
+        div.classList.add('has-drops');
+        var dots = drops.slice(0,3).map(function(r){
+          var cls = r.featured ? 'hype' : (r.raffle ? 'raffle' : '');
+          return '<div class="cal-drop-dot ' + cls + '">' + (r.title||'').substring(0,18) + '</div>';
+        }).join('');
+        var more = drops.length > 3 ? '<div class="cal-more">+' + (drops.length-3) + ' autres</div>' : '';
+        div.innerHTML = dayNum + dots + more;
+        div.addEventListener('click', function(){ openDetail(cell.date, drops); });
+      } else {
+        div.innerHTML = dayNum;
+      }
+      grid.appendChild(div);
+    });
+  }
+
+  function openDetail(date, drops) {
+    var MONTHS_FR = ['Jan','Fév','Mar','Avr','Mai','Juin','Juil','Août','Sep','Oct','Nov','Déc'];
+    document.getElementById('cal-detail-title').textContent =
+      date.getDate() + ' ' + MONTHS_FR[date.getMonth()] + ' ' + date.getFullYear() + ' — ' + drops.length + ' drop' + (drops.length>1?'s':'');
+    document.getElementById('cal-detail-cards').innerHTML = drops.map(function(r){
+      var retailers = (r.retailers||[]).filter(function(rt){ return rt.url && rt.url.indexOf('whentocop')===-1; });
+      var link = retailers.length ? retailers[0].url : (r.wtc_url||'#');
+      var img = r.image_url ? '<img src="' + r.image_url + '" alt="" loading="lazy" referrerpolicy="no-referrer">' : '👟';
+      return '<div class="cal-detail__card">'
+        + '<div class="cal-detail__img">' + img + '</div>'
+        + '<div class="cal-detail__info">'
+        + '<div class="cal-detail__brand">' + (r.brand||'') + (r.featured?' 🔥':'') + (r.raffle?' 🎟':'') + '</div>'
+        + '<div class="cal-detail__name">' + (r.title||'') + '</div>'
+        + '</div>'
+        + '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:.3rem;flex-shrink:0">'
+        + '<div class="cal-detail__price">' + (r.price ? r.price+'€' : '') + '</div>'
+        + (link !== '#' ? '<a href="' + link + '" target="_blank" rel="noopener" class="cal-detail__link">Voir</a>' : '')
+        + '</div>'
+        + '</div>';
+    }).join('');
+    document.getElementById('cal-detail').classList.add('open');
+    document.getElementById('cal-overlay').style.display = 'block';
+  }
+
+  function closeDetail() {
+    document.getElementById('cal-detail').classList.remove('open');
+    document.getElementById('cal-overlay').style.display = 'none';
+  }
+
+  // Init
+  var now = new Date();
+  _curYear = now.getFullYear();
+  _curMonth = now.getMonth();
+
+  fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now())
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      document.getElementById('cal-loading').style.display = 'none';
+      _allReleases = data.filter(function(r){ return r.date && r.date !== 'TBD'; });
+      renderCalendar();
+    })
+    .catch(function(){ document.getElementById('cal-loading').textContent = 'Erreur de chargement.'; });
+  </script>
+</body>
+</html>
