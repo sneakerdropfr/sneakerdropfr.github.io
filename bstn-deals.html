@@ -21,7 +21,14 @@ h1 { text-align: center; color: #CCFF00; }
 .info h3 { font-size: 14px; margin: 0 0 8px; }
 .price { color: #CCFF00; font-weight: bold; font-size: 18px; margin: 0 0 10px; }
 .info a { display: block; background: #CCFF00; color: #000; text-align: center; padding: 8px; border-radius: 6px; text-decoration: none; font-weight: bold; }
-</style>
+
+    @media(max-width:900px){
+      ,.grid,.cards-grid,.releases-grid,.bstn-grid{
+        grid-template-columns:repeat(2,1fr)!important;
+        gap:.65rem!important;
+      }
+    }
+  </style>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TQQ3RSJJV"></script>
   <script src="/assets/js/common.js" defer></script>
 
