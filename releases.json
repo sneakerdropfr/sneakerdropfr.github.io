@@ -1105,39 +1105,32 @@
     "buy_url": "https://www.whentocop.fr/drops/new-balance-5030-grey-black-u50303l3",
     "retailers": [
       {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/fr/"
+      },
+      {
         "name": "BSTN",
-        "url": "https://www.bstn.com",
-        "price": "150€",
-        "resell": false,
-        "raffle": false
+        "url": "https://www.bstn.com"
       },
       {
         "name": "43einhalb",
-        "url": "https://www.43einhalb.com",
-        "price": "150€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "150€",
-        "resell": false,
-        "raffle": false
+        "url": "https://www.43einhalb.com"
       },
       {
         "name": "Afew",
-        "url": "https://www.afew-store.com",
-        "price": "150€",
-        "resell": false,
-        "raffle": false
+        "url": "https://www.afew-store.com"
       },
       {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr",
-        "price": "150€",
-        "resell": false,
-        "raffle": true
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com"
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.slamjam.com"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.snipes.com/fr"
       }
     ]
   },
@@ -1150,7 +1143,40 @@
     "image_url": "https://statics.whentocop.fr/media/cC9dn6dzyxfX/tmpNew-Balance-1906L_Fairweather-Blue_U19062XN_img0-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-1906l-fairweather-blue-u19062xn",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-1906l-fairweather-blue-u19062xn",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/fr/"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com"
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com"
+      },
+      {
+        "name": "Naked",
+        "url": "https://www.nakedcph.com"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com"
+      }
+    ]
   },
   {
     "id": "new-balance-2010-neptune-grey-shadow-blue",
@@ -1161,7 +1187,32 @@
     "image_url": "https://statics.whentocop.fr/media/aworOHoSKDVs/tmpnew-balance-2010-neptune-grey-shadow-blue-u20107pt-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-neptune-grey-shadow-blue-u20107pt",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-2010-neptune-grey-shadow-blue-u20107pt",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/fr/"
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com"
+      },
+      {
+        "name": "Courir",
+        "url": "https://www.courir.com"
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com"
+      }
+    ]
   },
   {
     "id": "adidas-adizero-evo-sl-crystal-white-luta",
@@ -1183,7 +1234,40 @@
     "image_url": "https://statics.whentocop.fr/media/gPS1jLc9GbXH/tmpnew-balance-1906l-rosewood-u19065ws-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-1906l-rosewood-u19065ws",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-1906l-rosewood-u19065ws",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/fr/"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com"
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com"
+      },
+      {
+        "name": "Naked",
+        "url": "https://www.nakedcph.com"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com"
+      }
+    ]
   },
   {
     "id": "nike-air-max-plus-vii-scorpion",
