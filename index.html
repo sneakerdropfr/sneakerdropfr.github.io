@@ -353,6 +353,15 @@
     .search-clear{position:absolute;right:38px;top:50%;transform:translateY(-50%);background:none;border:none;font-size:1rem;color:#999;cursor:pointer;display:none;line-height:1;padding:2px 6px;z-index:10}
     .search-clear:hover{color:#333}
     .search-clear.visible{display:block}
+  
+    /* ── Promo bar ── */
+    .promo-bar{background:linear-gradient(90deg,#FF2D2D,#cc0000);color:#fff;text-align:center;padding:.5rem 1rem;font-family:var(--font-cond);font-size:.82rem;font-weight:700;letter-spacing:.04em;position:relative;z-index:50}
+    .promo-bar a{color:#fff;text-decoration:none}
+    .promo-bar__inner{display:flex;align-items:center;justify-content:center;gap:1.5rem;flex-wrap:wrap;max-width:900px;margin:0 auto}
+    .promo-bar__item{display:flex;align-items:center;gap:.4rem;white-space:nowrap}
+    .promo-bar__code{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);border-radius:4px;padding:.1rem .4rem;font-size:.8rem;letter-spacing:.08em;cursor:pointer;transition:background .15s}
+    .promo-bar__code:hover{background:rgba(255,255,255,.35)}
+    .promo-bar__sep{opacity:.4}
   </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","description":"Les prochaines sorties sneakers Nike, Air Jordan, Adidas et New Balance en France","url":"https://sneakerdropfr.fr","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Nike Sabrina 3 WNBA 30th Anniversary","url":"https://www.nike.com/t/sabrina-3-wnba-30th-basketball-shoes-LArVJUMq/IH1125-100","brand":{"@type":"Brand","name":"Nike"},"image":"https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-sabrina-3-wnba-30th-anniversary-IH1125-100-1024x725.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Travis Scott x Air Jordan 1 Low Pink Pack","url":"https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101","brand":{"@type":"Brand","name":"Jordan"},"offers":{"@type":"Offer","price":"160","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","availabilityStarts":"2026-05-29"},"image":"https://statics.whentocop.fr/media/oyfz5grY3Em4/tmptravis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101-2000x2000.webp"}}]}</script>
 </head>
@@ -364,6 +373,26 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   <div class="urgency-bar" id="urgency-bar">⚠️ Certaines tailles sont déjà en rupture — Vérifie ta paire maintenant</div>
 
   <!-- ═══ HEADER ═══ -->
+  <!-- Barre promos BSTN -->
+  <div class="promo-bar" id="promo-bar">
+    <div class="promo-bar__inner">
+      <a href="/bstn-promos.html" class="promo-bar__item">
+        <span>⏰ Expire ce soir :</span>
+        <span class="promo-bar__code" onclick="copyCode(event,'SUMMER15')">SUMMER15</span>
+        <span>= -15% chez BSTN</span>
+      </a>
+      <span class="promo-bar__sep">|</span>
+      <a href="/bstn-promos.html" class="promo-bar__item">
+        <span>📅 2–3 juin :</span>
+        <span class="promo-bar__code" onclick="copyCode(event,'SPORT25')">SPORT25</span>
+        <span>= -25% Sportswear</span>
+      </a>
+      <span class="promo-bar__sep">|</span>
+      <a href="/bstn-promos.html" class="promo-bar__item">
+        <span>🔥 Jusqu'au 7 juin : -30% Summer Sale →</span>
+      </a>
+    </div>
+  </div>
   <header class="header">
     <div class="container header__inner">
       <a href="#" class="logo">
@@ -1386,6 +1415,19 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       activeFilter = brand === 'all' ? 'all' : brand.toLowerCase();
       if (typeof render === 'function') render();
     }
+  }
+  </script>
+
+  <script>
+  function copyCode(e, code) {
+    e.preventDefault(); e.stopPropagation();
+    navigator.clipboard.writeText(code).then(function(){
+      var el = e.target;
+      var orig = el.textContent;
+      el.textContent = '✓ Copié !';
+      el.style.background = 'rgba(255,255,255,.4)';
+      setTimeout(function(){ el.textContent = orig; el.style.background = ''; }, 1500);
+    });
   }
   </script>
 </body>
