@@ -99,7 +99,10 @@
 
   <script>
   (function(){
-    var RELEASES_URL = 'https://cdn.jsdelivr.net/gh/sneakerdropfr/sneakerdropfr.github.io@main/releases.json?v=' + Date.now();
+    // Essayer raw.githubusercontent en premier, fallback jsDelivr
+    var _cb = Date.now();
+    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?cb=' + _cb;
+    var FALLBACK_URL = 'https://cdn.jsdelivr.net/gh/sneakerdropfr/sneakerdropfr.github.io@main/releases.json?cb=' + _cb;
     var grid = document.getElementById('raffles-grid');
     var loading = document.getElementById('raffles-loading');
     var empty = document.getElementById('raffles-empty');
@@ -141,20 +144,27 @@
         + '</div></div>';
     }
 
+    function processRaffles(data) {
+      if (loading) loading.style.display = 'none';
+      var raffles = data.filter(function(r){ return r.raffle === true || r.raffle === 'true'; })
+        .sort(function(a,b){ var da=a.date||'9999'; var db=b.date||'9999'; return da<db?-1:da>db?1:0; });
+      if (!raffles.length) { if (empty) empty.style.display = 'block'; return; }
+      grid.innerHTML = raffles.map(renderRaffle).join('');
+      grid.style.display = 'grid';
+    }
     fetch(RELEASES_URL)
-      .then(function(res){
-        if (!res.ok) throw new Error('HTTP ' + res.status);
-        return res.json();
-      })
-      .then(function(data){
-        if (loading) loading.style.display = 'none';
-        var raffles = data.filter(function(r){ return r.raffle === true || r.raffle === 'true'; })
-          .sort(function(a,b){ var da=a.date||'9999'; var db=b.date||'9999'; return da<db?-1:da>db?1:0; });
-        if (!raffles.length) { if (empty) empty.style.display = 'block'; return; }
-        grid.innerHTML = raffles.map(renderRaffle).join('');
-        grid.style.display = 'grid';
-      })
-      .catch(function(err){ console.error('Raffles:', err); if (loading) loading.style.display='none'; if (empty){ empty.style.display='block'; empty.textContent='Impossible de charger les raffles. Réessaie dans quelques secondes.'; } });
+      .then(function(res){ if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
+      .then(processRaffles)
+      .catch(function() {
+        fetch(FALLBACK_URL)
+          .then(function(res){ if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
+          .then(processRaffles)
+          .catch(function(err){
+            console.error('Raffles fallback error:', err);
+            if (loading) loading.style.display = 'none';
+            if (empty){ empty.style.display = 'block'; empty.textContent = 'Impossible de charger les raffles.'; }
+          });
+      });
   })();
   </script>
 </body>
