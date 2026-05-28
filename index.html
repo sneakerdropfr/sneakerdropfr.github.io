@@ -191,7 +191,7 @@
     .raffle-more{font-family:var(--font-cond);font-size:.78rem;font-weight:700;color:var(--muted);margin-top:.5rem;letter-spacing:.04em}
     /* Raffle carousel */
     #raffle-grid{display:none}
-    .raffle-carousel{display:flex;gap:.75rem;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:.5rem;scrollbar-width:none;padding-left:.1rem;padding-right:1.5rem}
+    .raffle-carousel{display:flex;gap:.75rem;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:.5rem;scrollbar-width:none;padding-left:.1rem;padding-right:1.5rem;cursor:grab;user-select:none}
     .raffle-carousel::-webkit-scrollbar{display:none}
     .raffle-carousel-item{flex:0 0 75vw;max-width:300px;scroll-snap-align:start;background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
     .raffle-carousel-item__img{width:100%;height:180px;object-fit:contain;display:block;background:#F9F9F9;padding:.75rem}
@@ -1112,6 +1112,23 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             });
             carouselHtml += '</div>';
             compact.innerHTML = carouselHtml;
+            // Mouse drag to scroll
+            (function(){
+              var el = compact.querySelector('.raffle-carousel');
+              if (!el) return;
+              var isDown = false, startX, scrollLeft;
+              el.addEventListener('mousedown', function(e){
+                isDown = true; el.style.cursor='grabbing';
+                startX = e.pageX - el.offsetLeft; scrollLeft = el.scrollLeft;
+              });
+              el.addEventListener('mouseleave', function(){ isDown=false; el.style.cursor='grab'; });
+              el.addEventListener('mouseup', function(){ isDown=false; el.style.cursor='grab'; });
+              el.addEventListener('mousemove', function(e){
+                if (!isDown) return; e.preventDefault();
+                var x = e.pageX - el.offsetLeft;
+                el.scrollLeft = scrollLeft - (x - startX) * 1.5;
+              });
+            })();
           }
         })();
 
