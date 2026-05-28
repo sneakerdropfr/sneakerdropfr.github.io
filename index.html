@@ -1349,7 +1349,10 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   <script>
   (function(){
     var btn = document.getElementById('scroll-top');
-    window.addEventListener('scroll', function(){ btn.classList.toggle('visible', window.scrollY > 400); }, {passive:true});
+    if (!btn) return;
+    window.addEventListener('scroll', function(){
+      btn.classList.toggle('visible', window.scrollY > 300);
+    }, {passive:true});
   })();
   </script>
 
