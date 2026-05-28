@@ -77,48 +77,56 @@
       {
         "name": "Naked",
         "url": "https://www.nakedcph.com",
-        "price": "160€"
+        "price": "160€",
+        "type": "raffle"
       },
       {
         "name": "Maha",
         "url": "https://www.maha-amsterdam.com",
-        "price": "160€"
+        "price": "160€",
+        "type": "raffle"
       },
       {
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "FootDistrict",
         "url": "https://www.footdistrict.com",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "Sevenstore",
         "url": "https://www.sevenstore.com",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "Kickz",
         "url": "https://www.kickz.com",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "The Broken Arm",
         "url": "https://www.the-broken-arm.com",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       }
     ],
     "featured": true,
@@ -137,48 +145,56 @@
       {
         "name": "Naked",
         "url": "https://www.nakedcph.com",
-        "price": "160€"
+        "price": "160€",
+        "type": "raffle"
       },
       {
         "name": "Maha",
         "url": "https://www.maha-amsterdam.com",
-        "price": "160€"
+        "price": "160€",
+        "type": "raffle"
       },
       {
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "FootDistrict",
         "url": "https://www.footdistrict.com",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "Sevenstore",
         "url": "https://www.sevenstore.com",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "Kickz",
         "url": "https://www.kickz.com",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "The Broken Arm",
         "url": "https://www.the-broken-arm.com",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       }
     ],
     "raffle": true
@@ -201,31 +217,36 @@
       {
         "name": "Adidas",
         "url": "https://www.adidas.fr",
-        "price": "120€"
+        "price": "120€",
+        "type": "raffle"
       },
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr/adidas-ballerina-bad-bunny-flamboyan",
         "price": "183€",
-        "resell": true
+        "resell": true,
+        "type": "resell"
       },
       {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
         "price": "120€",
-        "resell": false
+        "resell": false,
+        "type": "raffle"
       },
       {
         "name": "Klekt",
         "url": "https://www.klekt.com/product/new/adidas-x-bad-bunny-ballerina-flamboyan-2026",
         "price": "190€",
-        "resell": true
+        "resell": true,
+        "type": "resell"
       },
       {
         "name": "Limited Resell",
         "url": "https://limitedresell.com/7310-adidas-ballerina-bad-bunny-flamboyan.html",
         "price": "225€",
-        "resell": true
+        "resell": true,
+        "type": "resell"
       }
     ]
   },
@@ -846,63 +867,73 @@
         "name": "Nike",
         "url": "https://www.nike.com/fr/launch",
         "price": "210€",
-        "resell": false
+        "resell": false,
+        "type": "raffle"
       },
       {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
         "price": "210€",
-        "resell": false
+        "resell": false,
+        "type": "raffle"
       },
       {
         "name": "Size?",
         "url": "https://www.size.co.uk",
         "price": "210€",
-        "resell": false
+        "resell": false,
+        "type": "raffle"
       },
       {
         "name": "Offspring",
         "url": "https://www.offspring.co.uk",
         "price": "210€",
-        "resell": false
+        "resell": false,
+        "type": "raffle"
       },
       {
         "name": "Snipes",
         "url": "https://www.snipes.com",
         "price": "210€",
-        "resell": false
+        "resell": false,
+        "type": "raffle"
       },
       {
         "name": "Urbanstar",
         "url": "https://www.urbanstaronline.com",
         "price": "210€",
-        "resell": false
+        "resell": false,
+        "type": "raffle"
       },
       {
         "name": "Footshop",
         "url": "https://www.footshop.eu",
         "price": "210€",
         "resell": false,
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "Sevenstore",
         "url": "https://www.sevenstore.com",
         "price": "210€",
         "resell": false,
-        "raffle": true
+        "raffle": true,
+        "type": "raffle"
       },
       {
         "name": "GOAT",
         "url": "https://www.goat.com/sneakers/air-jordan-3-retro-worlds-best-dad-if4396-103",
         "price": "125€",
-        "resell": true
+        "resell": true,
+        "type": "resell"
       },
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr/air-jordan-3-retro-worlds-best-dad",
         "price": "157€",
-        "resell": true
+        "resell": true,
+        "type": "resell"
       }
     ],
     "sku": "JF4396-103",
