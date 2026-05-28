@@ -98,14 +98,12 @@
   </footer>
 
   <script>
-  (function(){
-    // Essayer raw.githubusercontent en premier, fallback jsDelivr
-    var _cb = Date.now();
-    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?cb=' + _cb;
-    var FALLBACK_URL = 'https://cdn.jsdelivr.net/gh/sneakerdropfr/sneakerdropfr.github.io@main/releases.json?cb=' + _cb;
-    var grid = document.getElementById('raffles-grid');
+  document.addEventListener('DOMContentLoaded', function() {
+    var grid    = document.getElementById('raffles-grid');
     var loading = document.getElementById('raffles-loading');
-    var empty = document.getElementById('raffles-empty');
+    var empty   = document.getElementById('raffles-empty');
+
+    if (!grid) { console.error('raffles-grid introuvable'); return; }
 
     function formatDate(d) {
       if (!d || d === 'TBD') return 'Date à confirmer';
@@ -116,27 +114,23 @@
 
     function renderRaffle(r) {
       var img = r.image_url
-        ? '<img src="' + r.image_url + '" alt="' + (r.title||'') + '" loading="lazy" referrerpolicy="no-referrer">'
+        ? '<img src="' + r.image_url + '" alt="' + (r.title||'').replace(/"/g,'&quot;') + '" loading="lazy" referrerpolicy="no-referrer">'
         : '<div style="display:flex;align-items:center;justify-content:center;height:100%;font-size:2rem">👟</div>';
       var retailers = (r.retailers || []).filter(function(rt){ return rt.name && rt.url && rt.url.indexOf('whentocop') === -1; });
-      var raffleRetailers = retailers.filter(function(rt){
-        return ['size?','adidas','nike','footlocker','jd','bstn','43einhalb','afew','asphaltgold','offspring','naked','slam jam','snipes','footdistrict'].some(function(n){
-          return rt.name.toLowerCase().indexOf(n) !== -1;
-        });
-      });
-      var btns = (raffleRetailers.length ? raffleRetailers : retailers.slice(0,2)).map(function(rt){
-        return '<a href="' + rt.url + '" target="_blank" rel="noopener" class="raffle-card__btn" onclick="trackBSTN(\'' + (r.title||'').replace(/\'/g,\'\') + '\')">S\'inscrire chez ' + rt.name + '</a>';
+      var btns = retailers.slice(0,2).map(function(rt){
+        return '<a href="' + rt.url + '" target="_blank" rel="noopener" class="raffle-card__btn">S'inscrire chez ' + rt.name + '</a>';
       }).join('');
       if (!btns && r.wtc_url) {
         btns = '<a href="' + r.wtc_url + '" target="_blank" rel="noopener" class="raffle-card__btn">Voir la raffle</a>';
       }
+      var price = r.price ? String(r.price).replace(/€+$/,'') + '€' : '';
       return '<div class="raffle-card">'
         + '<div class="raffle-card__img"><div class="raffle-card__badge">🎟 RAFFLE</div>' + img + '</div>'
         + '<div class="raffle-card__body">'
         + '<div class="raffle-card__brand">' + (r.brand||'') + '</div>'
         + '<div class="raffle-card__title">' + (r.title||'') + '</div>'
         + '<div class="raffle-card__meta">'
-        + '<span class="raffle-card__price">' + (r.price ? (String(r.price).replace(/€$/,'') + '€') : '') + '</span>'
+        + '<span class="raffle-card__price">' + price + '</span>'
         + '<span class="raffle-card__date">📅 ' + formatDate(r.date) + '</span>'
         + '</div>'
         + '<div class="raffle-card__deadline">⏰ Inscription avant le drop</div>'
@@ -145,27 +139,32 @@
     }
 
     function processRaffles(data) {
-      if (loading) loading.style.display = 'none';
       var raffles = data.filter(function(r){ return r.raffle === true || r.raffle === 'true'; })
-        .sort(function(a,b){ var da=a.date||'9999'; var db=b.date||'9999'; return da<db?-1:da>db?1:0; });
-      if (!raffles.length) { if (empty) empty.style.display = 'block'; return; }
+        .sort(function(a,b){ var da=a.date||'9999', db=b.date||'9999'; return da<db?-1:da>db?1:0; });
+      if (loading) loading.style.display = 'none';
+      if (!raffles.length) {
+        if (empty) empty.style.display = 'block';
+        return;
+      }
       grid.innerHTML = raffles.map(renderRaffle).join('');
       grid.style.display = 'grid';
     }
-    fetch(RELEASES_URL)
+
+    var cb = Date.now();
+    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?cb=' + cb)
       .then(function(res){ if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
       .then(processRaffles)
       .catch(function() {
-        fetch(FALLBACK_URL)
+        fetch('https://cdn.jsdelivr.net/gh/sneakerdropfr/sneakerdropfr.github.io@main/releases.json?cb=' + cb)
           .then(function(res){ if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
           .then(processRaffles)
           .catch(function(err){
-            console.error('Raffles fallback error:', err);
+            console.error('Raffles error:', err);
             if (loading) loading.style.display = 'none';
-            if (empty){ empty.style.display = 'block'; empty.textContent = 'Impossible de charger les raffles.'; }
+            if (empty) { empty.style.display = 'block'; empty.textContent = 'Impossible de charger les raffles.'; }
           });
       });
-  })();
+  });
   </script>
 </body>
 </html>
