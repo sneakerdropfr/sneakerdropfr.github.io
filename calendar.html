@@ -35,15 +35,15 @@
     .cal-day-header{font-family:var(--font-cond);font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;text-align:center;padding:.5rem .2rem;color:var(--muted);border-bottom:1px solid var(--border)}
     .cal-cell{min-height:80px;background:var(--bg-alt);border-radius:4px;padding:.4rem;position:relative;transition:background .15s}
     .cal-cell.today{background:rgba(255,45,45,.06);outline:2px solid rgba(255,45,45,.3)}
-    .cal-cell.other-month{opacity:.35}
+    .cal-cell.other-month{opacity:.35}.cal-cell.other-month.has-drops{border-left:3px solid rgba(255,45,45,.3)}
     .cal-cell.has-drops{background:#fff;border-left:3px solid #FF2D2D;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.06)}
     .cal-cell.has-drops:hover{background:#FFF5F5}
     .cal-cell.has-drops .cal-day-num{color:#0A0A0A;font-weight:900}
     .cal-day-num{font-family:var(--font-cond);font-size:.8rem;font-weight:700;color:var(--muted);margin-bottom:.3rem}
     .cal-cell.today .cal-day-num{color:#FF2D2D;font-weight:900}
-    .cal-drop-dot{width:100%;font-family:var(--font-cond);font-size:.62rem;font-weight:700;text-transform:uppercase;color:#1a1a1a;background:#F0F0F0;border-radius:3px;padding:.1rem .3rem;margin-bottom:2px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:1.4}
-    .cal-drop-dot.hype{background:rgba(255,45,45,.12);color:#CC0000;font-weight:900}
-    .cal-drop-dot.raffle{background:rgba(180,160,0,.12);color:#7a6b00;font-weight:700}
+    .cal-drop-dot{width:100%;font-family:var(--font-cond);font-size:.62rem;font-weight:700;text-transform:uppercase;color:#111;background:#E2E2E2;border-radius:3px;padding:.1rem .3rem;margin-bottom:2px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:1.4}
+    .cal-drop-dot.hype{background:#FF2D2D;color:#fff;font-weight:900}
+    .cal-drop-dot.raffle{background:#D4C800;color:#1a1a1a;font-weight:700}
     .cal-more{font-family:var(--font-cond);font-size:.6rem;color:var(--muted);margin-top:2px}
     .cal-detail{position:fixed;bottom:0;left:0;right:0;background:#111;border-top:2px solid var(--border);padding:1.25rem;z-index:200;transform:translateY(100%);transition:transform .3s;max-height:60vh;overflow-y:auto}
     .cal-detail.open{transform:translateY(0)}
