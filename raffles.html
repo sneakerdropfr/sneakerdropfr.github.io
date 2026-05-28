@@ -119,7 +119,13 @@
       var img = r.image_url
         ? '<img src="' + r.image_url + '" alt="' + (r.title||'').replace(/"/g,'&quot;') + '" loading="lazy" referrerpolicy="no-referrer">'
         : '<div style="display:flex;align-items:center;justify-content:center;height:100%;font-size:2rem">👟</div>';
-      var retailers = (r.retailers || []).filter(function(rt){ return rt.name && rt.url && rt.url.indexOf('whentocop') === -1; });
+      var RESELL_NAMES = ['stockx','goat','klekt','limited resell','flight club','stadium goods','kicks crew'];
+      var retailers = (r.retailers || []).filter(function(rt){
+        if (!rt.name || !rt.url) return false;
+        if (rt.url.indexOf('whentocop') !== -1) return false;
+        var n = rt.name.toLowerCase();
+        return !RESELL_NAMES.some(function(x){ return n.indexOf(x) !== -1; });
+      });
       var btns = retailers.slice(0,2).map(function(rt){
         return '<a href="' + rt.url + '" target="_blank" rel="noopener" class="raffle-card__btn">S&#x2019;inscrire &#x2014; ' + rt.name + '</a>';
       }).join('');
@@ -142,7 +148,7 @@
     }
 
     function renderData(data) {
-      var list = (data || []).filter(function(r){ return r.raffle === true || r.raffle === 'true'; })
+      var list = (data || []).filter(function(r){ return r.raffle === true; })
         .sort(function(a,b){ var da=a.date||'9999', db=b.date||'9999'; return da<db?-1:da>db?1:0; });
       if (loading) loading.style.display = 'none';
       if (!list.length) { if (empty) empty.style.display = 'block'; return; }
