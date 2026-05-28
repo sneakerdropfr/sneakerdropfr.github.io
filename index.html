@@ -1119,8 +1119,22 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     if (!q) { if (overlay) overlay.classList.remove('active'); if (overlayGrid) overlayGrid.innerHTML = ''; return; }
     if (overlay) overlay.classList.add('active');
     var all = window._releases || [];
+    // Recherche par mots-clés — chaque mot doit apparaître dans le titre, la marque ou l'id
+    var words = q.split(/\s+/).filter(function(w){ return w.length > 0; });
     var results = all.filter(function(r) {
-      return (r.title || '').toLowerCase().indexOf(q) !== -1 || (r.brand || '').toLowerCase().indexOf(q) !== -1;
+      var haystack = ((r.title || '') + ' ' + (r.brand || '') + ' ' + (r.id || '')).toLowerCase();
+      // Correspondance exacte d'abord
+      if (haystack.indexOf(q) !== -1) return true;
+      // Puis correspondance par tous les mots
+      return words.every(function(w){ return haystack.indexOf(w) !== -1; });
+    });
+    // Trier : correspondance exacte en premier
+    results.sort(function(a, b) {
+      var ha = ((a.title || '') + ' ' + (a.brand || '')).toLowerCase();
+      var hb = ((b.title || '') + ' ' + (b.brand || '')).toLowerCase();
+      var ea = ha.indexOf(q) !== -1 ? 0 : 1;
+      var eb = hb.indexOf(q) !== -1 ? 0 : 1;
+      return ea - eb;
     });
     if (overlayTitle) overlayTitle.textContent = results.length + ' résultat' + (results.length > 1 ? 's' : '') + ' pour "' + query + '"';
     if (!results.length) {
