@@ -83,14 +83,14 @@
     .badge-upcoming{background:rgba(255,255,255,.15);color:#fff}
     .drop-card__body{padding:.9rem;display:flex;flex-direction:column;gap:.28rem;flex:1}
     .drop-card__brand{font-family:var(--font-cond);font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.45)}
-    .drop-card__title{font-family:var(--font-cond);font-size:.95rem;font-weight:900;line-height:1.2;text-transform:uppercase;letter-spacing:.03em;color:#fff}
+    .drop-card__title{font-family:var(--font-cond);font-size:.95rem;font-weight:900;line-height:1.2;text-transform:uppercase;letter-spacing:.03em;color:#0A0A0A}
     .drop-card__meta{display:flex;align-items:center;justify-content:space-between;margin-top:.15rem;gap:.4rem}
-    .drop-card__date{font-size:.74rem;color:rgba(255,255,255,.5);font-family:var(--font-cond);font-weight:600}
-    .drop-card__price{font-family:var(--font-cond);font-size:1.15rem;font-weight:900;color:#fff}
-    .drop-card__resell{font-size:.68rem;font-weight:700;color:rgba(255,255,255,.5);margin-top:.1rem}
+    .drop-card__date{font-size:.74rem;color:rgba(0,0,0,.45);font-family:var(--font-cond);font-weight:600}
+    .drop-card__price{font-family:var(--font-cond);font-size:1.15rem;font-weight:900;color:#0A0A0A}
+    .drop-card__resell{font-size:.68rem;font-weight:700;color:rgba(0,0,0,.45);margin-top:.1rem}
     .drop-card__resell::before{content:'↑ ';color:#fff;opacity:.4}
     .drop-card__stock{font-size:.68rem;color:#FF2D2D;font-family:var(--font-cond);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
-    .drop-card__stock--upcoming{color:rgba(255,255,255,.5)}
+    .drop-card__stock--upcoming{color:rgba(0,0,0,.45)}
     .drop-card__cta{margin-top:auto;padding-top:.65rem}
     .btn-cop{display:block;width:100%;background:var(--black);color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.85rem;letter-spacing:.07em;text-transform:uppercase;padding:.62rem .9rem;border-radius:7px;border:none;cursor:pointer;text-align:center;transition:background .15s,color .15s}
     .btn-cop:hover{background:var(--accent);color:var(--black)}
@@ -164,3 +164,11 @@
 /* ── Filtres no-wrap mobile ── */
 .filters{flex-wrap:nowrap!important;overflow-x:auto!important;-webkit-overflow-scrolling:touch;scrollbar-width:none}
 .filter-btn{white-space:nowrap!important;flex-shrink:0!important}
+    /* ── Cards fond blanc — textes sombres ── */
+    .drop-card__body{background:#fff}
+    .drop-card__title{color:#0A0A0A!important}
+    .drop-card__brand{color:#666!important}
+    .drop-card__price{color:#0A0A0A!important}
+    .drop-card__date{color:#999!important}
+    .btn-cop{color:#0A0A0A!important}
+    .drop-card__urgency,.urgency-tag{color:#666!important}
