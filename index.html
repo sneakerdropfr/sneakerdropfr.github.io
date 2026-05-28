@@ -901,6 +901,11 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       });
       // Weekly drops section — chargé depuis weekly_data.json
       (function loadWeeklyData() {
+        // Guard : ne pas re-fetcher si déjà chargé (évite le re-render vide sur mobile lors des appels render() du hook)
+        if (window._weeklyLoaded) {
+          if (typeof window._renderWeeklyDrops === 'function') window._renderWeeklyDrops();
+          return;
+        }
         var WEEKLY_BRAND_MAP = {'jordan':['jordan brand','jordan'],'nike':['nike'],'adidas':['adidas'],'new balance':['new balance']};
         var weeklyActiveFilter = 'all';
         var allWdrops = [];
@@ -924,6 +929,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             if (weeklyDropsEmpty) weeklyDropsEmpty.style.display = 'block';
           }
         }
+        // Exposer renderWeeklyDrops pour le guard de re-render
+        window._renderWeeklyDrops = renderWeeklyDrops;
 
         // Filtres marque drops de la semaine
         document.querySelectorAll('#weekly-filters .filter-btn').forEach(function(btn) {
@@ -938,6 +945,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         // Avant lundi 00:00 local : afficher la semaine en cours depuis releases.json
         if (_now < _nextMonday) {
           allWdrops = thisWeek;
+          window._weeklyLoaded = true;
           renderWeeklyDrops();
           return;
         }
@@ -952,6 +960,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
               if (key) relIdx[key] = rel;
             });
 
+            window._weeklyLoaded = true;
             allWdrops = (wd.releases || []).map(function(r) {
               var dparts = (r.date||'').split('/');
               var isoDate = dparts.length===3 ? (dparts[2]+'-'+dparts[1]+'-'+dparts[0]) : r.date;
@@ -995,6 +1004,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           })
           .catch(function() {
             // Fallback releases.json
+            window._weeklyLoaded = true;
             allWdrops = thisWeek;
             renderWeeklyDrops();
           });
