@@ -99,7 +99,7 @@
 
   <script>
   (function(){
-    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?v=' + Date.now() + '&r=' + Math.random();
+    var RELEASES_URL = 'https://cdn.jsdelivr.net/gh/sneakerdropfr/sneakerdropfr.github.io@main/releases.json?v=' + Date.now();
     var grid = document.getElementById('raffles-grid');
     var loading = document.getElementById('raffles-loading');
     var empty = document.getElementById('raffles-empty');
@@ -154,7 +154,7 @@
         grid.innerHTML = raffles.map(renderRaffle).join('');
         grid.style.display = 'grid';
       })
-      .catch(function(){ if (loading) loading.style.display='none'; if (empty) empty.style.display='block'; });
+      .catch(function(err){ console.error('Raffles:', err); if (loading) loading.style.display='none'; if (empty){ empty.style.display='block'; empty.textContent='Impossible de charger les raffles. Réessaie dans quelques secondes.'; } });
   })();
   </script>
 </body>
