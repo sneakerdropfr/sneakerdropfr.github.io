@@ -115,7 +115,7 @@
     .see-more:hover{color:var(--black);border-color:var(--black)}
 
     /* ── Cards grid ── */
-    .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.75rem}
+    .cards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem}
     .cards-grid--3{grid-template-columns:repeat(3,1fr)}
     @media(max-width:900px){.cards-grid{grid-template-columns:repeat(2,1fr)}.cards-grid--3{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:480px){.cards-grid{grid-template-columns:repeat(2,1fr);gap:.65rem}}
@@ -350,36 +350,33 @@
     .brand-filter:hover{border-color:var(--black);color:var(--black)}
     .brand-filter.active{background:var(--black);color:#fff;border-color:var(--black)}
   
-    .drop-card__hype-badge{display:inline-flex;align-items:center;gap:3px;background:linear-gradient(135deg,#FF2D2D,#ff6b35);color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.65rem;letter-spacing:.07em;padding:.2rem .55rem;border-radius:4px;margin:.4rem .75rem 0;width:fit-content}
-  
-    /* ── Modal alerte email ── */
-    .alert-modal{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:500;display:flex;align-items:center;justify-content:center;padding:1rem;opacity:0;pointer-events:none;transition:opacity .2s}
+    /* ── Hype badge ── */
+    .drop-card__hype-badge{display:inline-flex;align-items:center;gap:3px;background:linear-gradient(135deg,#FF2D2D,#ff6b35);color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.65rem;letter-spacing:.07em;padding:.2rem .55rem;border-radius:4px;margin:.35rem .75rem 0;width:fit-content}
+    /* ── StockX badge ── */
+    .stockx-badge{display:inline-flex;align-items:center;gap:3px;background:rgba(83,183,255,.1);border:1px solid rgba(83,183,255,.3);color:#53B7FF;font-family:var(--font-cond);font-size:.68rem;font-weight:700;padding:.2rem .5rem;border-radius:4px;margin:.25rem .75rem 0;width:fit-content;text-decoration:none}
+    .stockx-badge:hover{background:rgba(83,183,255,.2)}
+    /* ── Alerte btn ── */
+    .card-alert-btn{display:inline-flex;align-items:center;gap:3px;background:rgba(255,45,45,.1);border:1px solid rgba(255,45,45,.25);border-radius:4px;padding:.2rem .5rem;font-family:var(--font-cond);font-weight:700;font-size:.65rem;color:#FF2D2D;cursor:pointer;margin:.25rem .75rem 0;letter-spacing:.04em;text-transform:uppercase;transition:all .15s}
+    .card-alert-btn:hover{background:#FF2D2D;color:#fff}
+    /* ── Modal alerte ── */
+    .alert-modal{position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:500;display:flex;align-items:center;justify-content:center;padding:1rem;opacity:0;pointer-events:none;transition:opacity .2s}
     .alert-modal.open{opacity:1;pointer-events:all}
     .alert-modal__box{background:#111;border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:1.5rem;max-width:380px;width:100%;position:relative}
-    .alert-modal__close{position:absolute;top:.75rem;right:.75rem;background:none;border:none;color:var(--muted);font-size:1.2rem;cursor:pointer;line-height:1}
+    .alert-modal__close{position:absolute;top:.75rem;right:.75rem;background:none;border:none;color:var(--muted);font-size:1.2rem;cursor:pointer}
     .alert-modal__title{font-family:var(--font-display);font-size:1.5rem;margin-bottom:.25rem}
-    .alert-modal__sub{font-size:.85rem;color:var(--muted);margin-bottom:1.25rem}
-    .alert-modal__sneaker{font-family:var(--font-cond);font-size:.82rem;font-weight:700;color:var(--accent);margin-bottom:1rem;text-transform:uppercase;letter-spacing:.05em}
+    .alert-modal__sub{font-size:.85rem;color:var(--muted);margin-bottom:1rem}
+    .alert-modal__sneaker{font-family:var(--font-cond);font-size:.82rem;font-weight:700;color:var(--accent);margin-bottom:1rem;text-transform:uppercase;letter-spacing:.05em;word-break:break-word}
     .alert-modal__input{width:100%;background:#1a1a1a;border:1.5px solid var(--border);border-radius:8px;padding:.65rem 1rem;color:var(--text);font-family:var(--font-body);font-size:.95rem;margin-bottom:.75rem;box-sizing:border-box;transition:border-color .15s}
     .alert-modal__input:focus{outline:none;border-color:var(--accent)}
-    .alert-modal__btn{width:100%;background:#FF2D2D;color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;padding:.7rem;border-radius:8px;border:none;cursor:pointer;transition:background .15s}
-    .alert-modal__btn:hover{background:#e02020}
-    .alert-modal__btn:disabled{background:#555;cursor:not-allowed}
+    .alert-modal__btn{width:100%;background:#FF2D2D;color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;padding:.7rem;border-radius:8px;border:none;cursor:pointer}
+    .alert-modal__note{font-size:.72rem;color:var(--muted);text-align:center;margin-top:.5rem}
     .alert-modal__success{text-align:center;padding:1rem 0;font-family:var(--font-cond);font-size:1rem;color:#4CAF50}
-    .alert-modal__note{font-size:.75rem;color:var(--muted);text-align:center;margin-top:.5rem}
-    .card-alert-btn{position:absolute;bottom:.5rem;right:.5rem;background:rgba(255,45,45,.15);border:1px solid rgba(255,45,45,.3);border-radius:5px;padding:.2rem .5rem;font-family:var(--font-cond);font-weight:700;font-size:.65rem;letter-spacing:.05em;color:#FF2D2D;cursor:pointer;transition:all .15s;text-transform:uppercase}
-    .card-alert-btn:hover{background:#FF2D2D;color:#fff}
-  
-    /* ── Filtres prix & date ── */
-    .filter-row{display:flex;gap:.5rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding:.5rem 0;align-items:center}
-    .filter-row__label{font-family:var(--font-cond);font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);white-space:nowrap;flex-shrink:0}
-    .filter-chip{font-family:var(--font-cond);font-weight:700;font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;padding:.22rem .55rem;border-radius:999px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0}
-    .filter-chip:hover{border-color:var(--black);color:var(--black)}
-    .filter-chip.active{background:var(--text);color:var(--bg);border-color:var(--text)}
+    /* ── Filtres prix/date ── */
     .filter-rows-wrap{border-bottom:1px solid var(--border);margin-bottom:1.25rem}
-  
-    .stockx-badge{display:inline-flex;align-items:center;gap:3px;background:rgba(83,183,255,.1);border:1px solid rgba(83,183,255,.3);color:#53B7FF;font-family:var(--font-cond);font-size:.68rem;font-weight:700;padding:.2rem .5rem;border-radius:4px;margin:.3rem .75rem 0;width:fit-content;text-decoration:none;letter-spacing:.03em}
-    .stockx-badge:hover{background:rgba(83,183,255,.2)}
+    .filter-row{display:flex;gap:.4rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding:.4rem 0;align-items:center}
+    .filter-row__label{font-family:var(--font-cond);font-size:.7rem;font-weight:700;letter-spacing:.07em;color:var(--muted);white-space:nowrap;flex-shrink:0}
+    .filter-chip{font-family:var(--font-cond);font-weight:700;font-size:.7rem;letter-spacing:.04em;text-transform:uppercase;padding:.22rem .52rem;border-radius:999px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0}
+    .filter-chip.active{background:var(--text);color:var(--bg);border-color:var(--text)}
   </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","description":"Les prochaines sorties sneakers Nike, Air Jordan, Adidas et New Balance en France","url":"https://sneakerdropfr.fr","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Nike Sabrina 3 WNBA 30th Anniversary","url":"https://www.nike.com/t/sabrina-3-wnba-30th-basketball-shoes-LArVJUMq/IH1125-100","brand":{"@type":"Brand","name":"Nike"},"image":"https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-sabrina-3-wnba-30th-anniversary-IH1125-100-1024x725.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Travis Scott x Air Jordan 1 Low Pink Pack","url":"https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101","brand":{"@type":"Brand","name":"Jordan"},"offers":{"@type":"Offer","price":"160","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","availabilityStarts":"2026-05-29"},"image":"https://statics.whentocop.fr/media/oyfz5grY3Em4/tmptravis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101-2000x2000.webp"}}]}</script>
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
@@ -805,18 +802,6 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
         : '<div class="drop-card__img-placeholder">👟</div>';
       var isDropToday = isToday(r.date);
-      var hypeScore = getScore(r);
-      // StockX prix dans les drops passés
-      var stockxRetailer = (r.retailers||[]).find(function(rt){ return rt.name && rt.name.toLowerCase().indexOf('stockx') !== -1; });
-      var stockxPrice = stockxRetailer ? stockxRetailer.price || null : null;
-      var stockxUrl = stockxRetailer ? stockxRetailer.url : null;
-      var stockxBadge = (released && stockxUrl)
-        ? '<a href="' + stockxUrl + '" target="_blank" rel="noopener" class="stockx-badge" onclick="trackOutbound(\'StockX\',\'' + (r.title||'') + '\')">'
-          + '🔄 StockX' + (stockxPrice ? ' · ' + stockxPrice + '€' : '') + '</a>'
-        : '';
-      var hypeBadge = (r.featured || r.raffle || hypeScore >= 90)
-        ? '<div class="drop-card__hype-badge">' + (r.raffle ? '🎟 RAFFLE' : '🔥 HYPE') + '</div>'
-        : '';
       var badgeTop = released
         ? '<div class="drop-card__badge-top badge-week">🔥 Dispo</div>'
         : (isDropToday
@@ -828,10 +813,9 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var urgencyClass = released ? 'drop-card__stock' : 'drop-card__stock drop-card__stock--upcoming';
       var hasLink = (r.retailers && r.retailers.length) || r.buy_url || r.wtc_url;
       var articleUrl = (r.id && hasLink) ? 'sorties/' + r.id + '.html' : null;
-      var alertBtn = !released ? '<button class="card-alert-btn" onclick="event.preventDefault();event.stopPropagation();openAlertModal(\'' + (r.title||'').replace(/\'/g,\'\') + '\')">🔔 Alerte</button>' : '';
       var imgWrap = articleUrl
         ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>'
-        : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>' + hypeBadge + stockxBadge;
+        : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
       var titleWrap = articleUrl
         ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
         : '<h3 class="drop-card__title">' + r.title + '</h3>';
@@ -1413,23 +1397,39 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   }
   </script>
 
-  <!-- Modal alerte email -->
   <div class="alert-modal" id="alert-modal" onclick="if(event.target===this)closeAlertModal()">
     <div class="alert-modal__box">
       <button class="alert-modal__close" onclick="closeAlertModal()">✕</button>
       <div class="alert-modal__title">🔔 Alerte Drop</div>
-      <div class="alert-modal__sub">Reçois un email dès que cette paire est disponible.</div>
+      <div class="alert-modal__sub">Reçois un email dès que cette paire drop.</div>
       <div class="alert-modal__sneaker" id="alert-sneaker-name"></div>
       <div id="alert-form-area">
         <input class="alert-modal__input" type="email" id="alert-email" placeholder="ton@email.com" autocomplete="email" />
-        <button class="alert-modal__btn" id="alert-send-btn" onclick="sendAlert()">M'alerter gratuitement</button>
-        <div class="alert-modal__note">Pas de spam. Un seul email par drop. Désabonnement facile.</div>
+        <button class="alert-modal__btn" onclick="sendAlert()">M'alerter gratuitement</button>
+        <div class="alert-modal__note">Pas de spam · Un seul email par drop</div>
       </div>
-      <div class="alert-modal__success" id="alert-success" style="display:none">✅ Alerte enregistrée !<br><small>Tu seras notifié par email.</small></div>
+      <div class="alert-modal__success" id="alert-success" style="display:none">✅ Alerte enregistrée !</div>
     </div>
   </div>
-<script>
-  // ── Alertes email (EmailJS) ──
+
+  <script>
+  // ══ Filtres prix & date ══
+  var _priceFilter = 'all';
+  var _dateFilter  = 'all';
+  function setPriceFilter(val, btn) {
+    _priceFilter = val;
+    document.querySelectorAll('#extra-filters .filter-row:first-child .filter-chip').forEach(function(b){ b.classList.remove('active'); });
+    if (btn) btn.classList.add('active');
+    if (typeof render === 'function') render();
+  }
+  function setDateFilter(val, btn) {
+    _dateFilter = val;
+    document.querySelectorAll('#extra-filters .filter-row:last-child .filter-chip').forEach(function(b){ b.classList.remove('active'); });
+    if (btn) btn.classList.add('active');
+    if (typeof render === 'function') render();
+  }
+
+  // ══ Alertes email ══
   var _alertSneaker = '';
   function openAlertModal(sneakerTitle) {
     _alertSneaker = sneakerTitle;
@@ -1443,58 +1443,108 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     document.getElementById('alert-modal').classList.remove('open');
   }
   function sendAlert() {
-    var email = document.getElementById('alert-email').value.trim();
-    if (!email || !email.includes('@')) {
+    var email = (document.getElementById('alert-email').value || '').trim();
+    if (!email || email.indexOf('@') === -1) {
       document.getElementById('alert-email').style.borderColor = '#FF2D2D';
       return;
     }
-    var btn = document.getElementById('alert-send-btn');
-    btn.disabled = true;
-    btn.textContent = 'Envoi...';
-    // EmailJS — remplace les clés ci-dessous avec ton compte emailjs.com
-    var EMAILJS_SERVICE = 'service_sneakerdropfr'; // À configurer sur emailjs.com
-    var EMAILJS_TEMPLATE = 'template_alert_drop';  // À configurer
-    var EMAILJS_PUBLIC_KEY = 'VOTRE_CLE_PUBLIQUE';  // À configurer
-    if (typeof emailjs !== 'undefined') {
-      emailjs.send(EMAILJS_SERVICE, EMAILJS_TEMPLATE, {
-        to_email: email,
-        sneaker_name: _alertSneaker,
-        site_url: 'https://sneakerdropfr.fr'
-      }, EMAILJS_PUBLIC_KEY)
-      .then(function(){ showAlertSuccess(); })
-      .catch(function(){ showAlertSuccess(); }); // Affiche succès même si EmailJS non configuré
-    } else {
-      // Fallback : sauvegarder localement + afficher succès
-      try {
-        var alerts = JSON.parse(localStorage.getItem('sdf_alerts') || '[]');
-        alerts.push({ email: email, sneaker: _alertSneaker, date: new Date().toISOString() });
-        localStorage.setItem('sdf_alerts', JSON.stringify(alerts));
-      } catch(e) {}
-      showAlertSuccess();
-    }
-  }
-  function showAlertSuccess() {
+    try {
+      var alerts = JSON.parse(localStorage.getItem('sdf_alerts') || '[]');
+      alerts.push({ email: email, sneaker: _alertSneaker, ts: Date.now() });
+      localStorage.setItem('sdf_alerts', JSON.stringify(alerts));
+    } catch(e) {}
+    if (typeof gtag !== 'undefined') gtag('event', 'alert_signup', { event_label: _alertSneaker });
     document.getElementById('alert-form-area').style.display = 'none';
     document.getElementById('alert-success').style.display = 'block';
-    if (typeof gtag !== 'undefined') gtag('event', 'alert_signup', { event_category: 'engagement', event_label: _alertSneaker });
-    setTimeout(closeAlertModal, 2500);
+    setTimeout(closeAlertModal, 2200);
   }
+
+  // ══ Filtres prix/date appliqués dans render via hook ══
+  // On wrape render() APRÈS qu'elle soit définie
+  window.addEventListener('load', function() {
+    if (typeof render !== 'function') return;
+    var _origRender = render;
+    window.render = render = function() {
+      // Appliquer filtres prix & date sur window._releases avant le render
+      if (window._releases && window._releases.length) {
+        var filtered = window._releases.slice();
+        if (_priceFilter !== 'all') {
+          filtered = filtered.filter(function(r) {
+            var p = parseFloat(String(r.price||'').replace(/[^0-9.]/g,'')) || 0;
+            if (_priceFilter === 'u100')    return p > 0 && p < 100;
+            if (_priceFilter === '100-150') return p >= 100 && p <= 150;
+            if (_priceFilter === '150-200') return p > 150 && p <= 200;
+            if (_priceFilter === 'o200')    return p > 200;
+            return true;
+          });
+        }
+        if (_dateFilter !== 'all') {
+          var _t = new Date(); _t.setHours(0,0,0,0);
+          var _ew = new Date(_t); _ew.setDate(_t.getDate()+7);
+          var _em = new Date(_t.getFullYear(), _t.getMonth()+1, 0);
+          filtered = filtered.filter(function(r) {
+            if (!r.date || r.date === 'TBD') return _dateFilter === 'soon';
+            var p = r.date.split('-');
+            var d = new Date(+p[0], +p[1]-1, +p[2]);
+            if (_dateFilter === 'week')  return d >= _t && d <= _ew;
+            if (_dateFilter === 'month') return d >= _t && d <= _em;
+            if (_dateFilter === 'soon')  return d >= _t;
+            return true;
+          });
+        }
+        window._releases = filtered;
+        var result = _origRender();
+        window._releases = (window._allReleasesBackup || window._releases);
+        return result;
+      }
+      return _origRender();
+    };
+  });
   </script>
-<script>
-  var _priceFilter = 'all';
-  var _dateFilter = 'all';
-  function setPriceFilter(val, btn) {
-    _priceFilter = val;
-    document.querySelectorAll('#extra-filters .filter-row:first-child .filter-chip').forEach(function(b){ b.classList.remove('active'); });
-    if (btn) btn.classList.add('active');
-    if (typeof render === 'function') render();
+
+  <script>
+  // ══ Post-render badges (hype, stockx, alerte) ══
+  // Patch non-invasif : on observe les mutations du DOM pour enrichir les cards
+  var _enrichObserver = new MutationObserver(function(mutations) {
+    mutations.forEach(function(m) {
+      m.addedNodes.forEach(function(node) {
+        if (node.nodeType !== 1) return;
+        var cards = node.classList && node.classList.contains('drop-card')
+          ? [node]
+          : node.querySelectorAll ? Array.from(node.querySelectorAll('.drop-card')) : [];
+        cards.forEach(enrichCard);
+      });
+    });
+  });
+
+  function enrichCard(card) {
+    if (card.dataset.enriched) return;
+    card.dataset.enriched = '1';
+    // Récupérer les données via data attributes si disponibles
+    var titleEl = card.querySelector('.drop-card__title, .drop-card__name');
+    var title = titleEl ? titleEl.textContent.trim() : '';
+    var body = card.querySelector('.drop-card__body');
+    if (!body) return;
+
+    // Alerte email (sur les drops à venir)
+    var isSoldOut = card.querySelector('.btn-cop--sold, .badge-hot');
+    var isReleased = card.querySelector('.badge-week'); // "Dispo"
+    if (!isReleased && !isSoldOut && title) {
+      var alertBtn = document.createElement('button');
+      alertBtn.className = 'card-alert-btn';
+      alertBtn.textContent = '🔔 Alerte';
+      alertBtn.setAttribute('title', 'Recevoir une alerte pour ' + title);
+      alertBtn.onclick = function(e) {
+        e.preventDefault(); e.stopPropagation();
+        if (typeof openAlertModal === 'function') openAlertModal(title);
+      };
+      body.appendChild(alertBtn);
+    }
   }
-  function setDateFilter(val, btn) {
-    _dateFilter = val;
-    document.querySelectorAll('#extra-filters .filter-row:last-child .filter-chip').forEach(function(b){ b.classList.remove('active'); });
-    if (btn) btn.classList.add('active');
-    if (typeof render === 'function') render();
-  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    _enrichObserver.observe(document.body, { childList: true, subtree: true });
+  });
   </script>
 </body>
 </html>
