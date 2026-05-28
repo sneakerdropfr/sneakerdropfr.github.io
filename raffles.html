@@ -67,6 +67,36 @@
     /* Fix body background pour les pages dark */
     .page-hero__sub{color:#555}
   
+  
+    /* ── Raffle card nouveau layout ── */
+    .raffle-card{background:#fff;border:1px solid #e5e5e5;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.07);transition:box-shadow .2s}
+    .raffle-card:hover{box-shadow:0 8px 28px rgba(0,0,0,.11)}
+    .rc-summary{background:#f8f8f8;border-bottom:1px solid #eee;padding:.85rem 1.1rem;font-size:.88rem;color:#444;line-height:1.5}
+    .rc-summary strong{color:#0A0A0A;font-weight:700}
+    .rc-top{display:flex;gap:1rem;padding:1.1rem;align-items:flex-start}
+    .rc-img{width:120px;height:120px;flex-shrink:0;background:#fff;border-radius:8px;overflow:hidden;border:1px solid #eee}
+    .rc-img img{width:100%;height:100%;object-fit:contain;padding:6px;transform:scaleX(-1)}
+    .rc-no-img{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:2rem}
+    .rc-meta{flex:1;min-width:0}
+    .rc-brand{font-family:var(--font-cond);font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#777;margin-bottom:.2rem}
+    .rc-title{font-family:var(--font-cond);font-size:1rem;font-weight:900;text-transform:uppercase;line-height:1.2;color:#0A0A0A;margin-bottom:.5rem}
+    .rc-info{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}
+    .rc-price{font-family:var(--font-cond);font-size:1.1rem;font-weight:900;color:#0A0A0A}
+    .rc-date{font-size:.82rem;color:#777}
+    .rc-where{border-top:1px solid #eee;padding:.75rem 1.1rem}
+    .rc-where__label{font-family:var(--font-cond);font-size:.78rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#777;margin-bottom:.5rem}
+    .rt-section-label{display:flex;align-items:center;gap:.4rem;font-family:var(--font-cond);font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#999;margin:.6rem 0 .3rem;padding-left:.1rem}
+    .rt-row{display:flex;align-items:center;justify-content:space-between;padding:.6rem .75rem;border:1px solid #eee;border-radius:8px;margin-bottom:.35rem;text-decoration:none;color:#0A0A0A;transition:background .12s,border-color .12s;background:#fff}
+    .rt-row:hover{background:#f5f5f5;border-color:#ccc}
+    .rt-name{font-family:var(--font-cond);font-weight:900;font-size:.85rem;letter-spacing:.05em}
+    .rt-right{display:flex;align-items:center;gap:.5rem;flex-shrink:0}
+    .rt-price{font-family:var(--font-cond);font-weight:700;font-size:.88rem;color:#0A0A0A}
+    .rt-badge{font-family:var(--font-cond);font-size:.65rem;font-weight:900;letter-spacing:.06em;padding:.18rem .45rem;border-radius:4px}
+    .rt-badge--retail{background:#e8f5e9;color:#2e7d32}
+    .rt-badge--raffle{background:#fff8e1;color:#f57c00}
+    .rt-arrow{font-size:.9rem;color:#aaa}
+    .raffles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.25rem;margin-top:1.5rem;align-items:start}
+    @media(max-width:600px){.raffles-grid{grid-template-columns:1fr}.rc-img{width:90px;height:90px}}
   </style>
 </head>
 <body>
@@ -136,35 +166,84 @@
     }
 
     function renderRaffle(r) {
-      var img = r.image_url
-        ? '<img src="' + r.image_url + '" alt="' + (r.title||'').replace(/"/g,'&quot;') + '" loading="lazy" referrerpolicy="no-referrer">'
-        : '<div style="display:flex;align-items:center;justify-content:center;height:100%;font-size:2rem">👟</div>';
       var RESELL_NAMES = ['stockx','goat','klekt','limited resell','flight club','stadium goods','kicks crew'];
+      var RAFFLE_NAMES = ['nike snkrs','snkrs','size?','footpatrol','footdistrict','sevenstore','kickz','the broken arm','maha','naked','offspring','asphaltgold','43einhalb','afew','solebox','slam jam','end.','urban outfitters','urbanstar'];
+
       var retailers = (r.retailers || []).filter(function(rt){
         if (!rt.name || !rt.url) return false;
         if (rt.url.indexOf('whentocop') !== -1) return false;
         var n = rt.name.toLowerCase();
         return !RESELL_NAMES.some(function(x){ return n.indexOf(x) !== -1; });
       });
-      var btns = retailers.map(function(rt){
-        return '<a href="' + rt.url + '" target="_blank" rel="noopener" class="raffle-card__btn">S&#x2019;inscrire &#x2014; ' + rt.name + '</a>';
-      }).join('');
-      if (!btns && r.wtc_url) {
-        btns = '<a href="' + r.wtc_url + '" target="_blank" rel="noopener" class="raffle-card__btn">Voir la raffle</a>';
+
+      // Séparer retail et raffle
+      var retailList = retailers.filter(function(rt){
+        var n = rt.name.toLowerCase();
+        return !RAFFLE_NAMES.some(function(x){ return n.indexOf(x) !== -1; });
+      });
+      var raffleList = retailers.filter(function(rt){
+        var n = rt.name.toLowerCase();
+        return RAFFLE_NAMES.some(function(x){ return n.indexOf(x) !== -1; });
+      });
+      // Si pas de séparation claire, tout en raffle
+      if (!retailList.length && !raffleList.length) raffleList = retailers;
+
+      function makeRows(list, type) {
+        return list.map(function(rt){
+          var badge = type === 'retail'
+            ? '<span class="rt-badge rt-badge--retail">RETAIL</span>'
+            : '<span class="rt-badge rt-badge--raffle">RAFFLE</span>';
+          var price = r.price ? r.price + '€' : '';
+          return '<a href="' + rt.url + '" target="_blank" rel="noopener" class="rt-row">'
+            + '<span class="rt-name">' + rt.name.toUpperCase() + '</span>'
+            + '<span class="rt-right">'
+            + (price ? '<span class="rt-price">' + price + '</span>' : '')
+            + badge
+            + '<span class="rt-arrow">→</span>'
+            + '</span>'
+            + '</a>';
+        }).join('');
       }
+
+      var img = r.image_url
+        ? '<img src="' + r.image_url + '" alt="' + (r.title||'').replace(/"/g,'&quot;') + '" loading="lazy" referrerpolicy="no-referrer">'
+        : '<div class="rc-no-img">👟</div>';
+
       var price = r.price ? String(r.price).replace(/€+$/,'') + '€' : '';
+
+      var retailSection = retailList.length
+        ? '<div class="rt-section-label"><span>🛒</span> RETAIL</div>' + makeRows(retailList,'retail')
+        : '';
+      var raffleSection = raffleList.length
+        ? '<div class="rt-section-label"><span>🎟</span> RAFFLES</div>' + makeRows(raffleList,'raffle')
+        : '';
+
+      var noRetailers = !retailList.length && !raffleList.length
+        ? (r.wtc_url ? '<a href="' + r.wtc_url + '" target="_blank" rel="noopener" class="rt-row"><span class="rt-name">VOIR SUR WHENTOCOP</span><span class="rt-right"><span class="rt-arrow">→</span></span></a>' : '')
+        : '';
+
+      var summary = '<div class="rc-summary">'
+        + '<p>' + (r.title||'') + '. Drop le <strong>' + formatDate(r.date) + '</strong> au prix retail de <strong>' + price + '</strong>.'
+        + (r.raffle ? ' Une raffle est organisée — inscris-toi tôt pour maximiser tes chances.' : '')
+        + '</p></div>';
+
       return '<div class="raffle-card">'
-        + '<div class="raffle-card__img"><div class="raffle-card__badge">🎟 RAFFLE</div>' + img + '</div>'
-        + '<div class="raffle-card__body">'
-        + '<div class="raffle-card__brand">' + (r.brand||'') + '</div>'
-        + '<div class="raffle-card__title">' + (r.title||'') + '</div>'
-        + '<div class="raffle-card__meta">'
-        + '<span class="raffle-card__price">' + price + '</span>'
-        + '<span class="raffle-card__date">📅 ' + formatDate(r.date) + '</span>'
+        + summary
+        + '<div class="rc-top">'
+        + '<div class="rc-img">' + img + '</div>'
+        + '<div class="rc-meta">'
+        + '<div class="rc-brand">' + (r.brand||'') + '</div>'
+        + '<div class="rc-title">' + (r.title||'') + '</div>'
+        + '<div class="rc-info">'
+        + (price ? '<span class="rc-price">' + price + '</span>' : '')
+        + '<span class="rc-date">📅 ' + formatDate(r.date) + '</span>'
         + '</div>'
-        + '<div class="raffle-card__deadline">⏰ Inscription avant le drop</div>'
-        + btns
-        + '</div></div>';
+        + '</div>'
+        + '</div>'
+        + '<div class="rc-where"><div class="rc-where__label">OÙ ACHETER</div>'
+        + retailSection + raffleSection + noRetailers
+        + '</div>'
+        + '</div>';
     }
 
     function renderData(data) {
