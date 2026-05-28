@@ -194,7 +194,7 @@
     .raffle-carousel{display:flex;gap:.75rem;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:.5rem;scrollbar-width:none;padding-left:.1rem;padding-right:1.5rem;cursor:grab;user-select:none}
     .raffle-carousel::-webkit-scrollbar{display:none}
     .raffle-carousel-item{flex:0 0 75vw;max-width:300px;scroll-snap-align:start;background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
-    .raffle-carousel-item__img{width:100%;height:180px;object-fit:contain;display:block;background:#F9F9F9;padding:.75rem}
+    .raffle-carousel-item__img{width:100%;height:180px;object-fit:contain;display:block;background:#F9F9F9;padding:.75rem;pointer-events:none;-webkit-user-drag:none;user-drag:none}
     .raffle-carousel-item__body{padding:.85rem}
     .raffle-carousel-item__badge{display:inline-block;background:#0A0A0A;color:#fff;font-size:.6rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;padding:.18rem .5rem;border-radius:999px;margin-bottom:.4rem}
     .raffle-carousel-item__title{font-family:var(--font-cond);font-size:.95rem;font-weight:900;color:var(--black);line-height:1.2;margin-bottom:.3rem}
@@ -1116,18 +1116,27 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             (function(){
               var el = compact.querySelector('.raffle-carousel');
               if (!el) return;
-              var isDown = false, startX, scrollLeft;
+              // Bloquer le drag natif des images
+              el.addEventListener('dragstart', function(e){ e.preventDefault(); });
+              var isDown = false, startX, scrollLeft, moved = false;
               el.addEventListener('mousedown', function(e){
-                isDown = true; el.style.cursor='grabbing';
-                startX = e.pageX - el.offsetLeft; scrollLeft = el.scrollLeft;
+                isDown = true; moved = false; el.style.cursor='grabbing';
+                startX = e.pageX; scrollLeft = el.scrollLeft;
+                e.preventDefault();
               });
-              el.addEventListener('mouseleave', function(){ isDown=false; el.style.cursor='grab'; });
-              el.addEventListener('mouseup', function(){ isDown=false; el.style.cursor='grab'; });
-              el.addEventListener('mousemove', function(e){
-                if (!isDown) return; e.preventDefault();
-                var x = e.pageX - el.offsetLeft;
-                el.scrollLeft = scrollLeft - (x - startX) * 1.5;
+              document.addEventListener('mouseup', function(){ 
+                if (isDown) { isDown = false; el.style.cursor = 'grab'; }
               });
+              document.addEventListener('mousemove', function(e){
+                if (!isDown) return;
+                var dx = e.pageX - startX;
+                if (Math.abs(dx) > 3) moved = true;
+                el.scrollLeft = scrollLeft - dx;
+              });
+              // Bloquer le clic sur les liens si on a dragué
+              el.addEventListener('click', function(e){
+                if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; }
+              }, true);
             })();
           }
         })();
