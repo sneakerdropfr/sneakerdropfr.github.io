@@ -373,26 +373,6 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   <div class="urgency-bar" id="urgency-bar">⚠️ Certaines tailles sont déjà en rupture — Vérifie ta paire maintenant</div>
 
   <!-- ═══ HEADER ═══ -->
-  <!-- Barre promos BSTN -->
-  <div class="promo-bar" id="promo-bar">
-    <div class="promo-bar__inner">
-      <a href="/bstn-promos.html" class="promo-bar__item">
-        <span>⏰ Expire ce soir :</span>
-        <span class="promo-bar__code" onclick="copyCode(event,'SUMMER15')">SUMMER15</span>
-        <span>= -15% chez BSTN</span>
-      </a>
-      <span class="promo-bar__sep">|</span>
-      <a href="/bstn-promos.html" class="promo-bar__item">
-        <span>📅 2–3 juin :</span>
-        <span class="promo-bar__code" onclick="copyCode(event,'SPORT25')">SPORT25</span>
-        <span>= -25% Sportswear</span>
-      </a>
-      <span class="promo-bar__sep">|</span>
-      <a href="/bstn-promos.html" class="promo-bar__item">
-        <span>🔥 Jusqu'au 7 juin : -30% Summer Sale →</span>
-      </a>
-    </div>
-  </div>
   <header class="header">
     <div class="container header__inner">
       <a href="#" class="logo">
@@ -476,6 +456,27 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         }).catch(function(){});
     })();
     </script>
+
+  <!-- Barre promos BSTN -->
+  <div class="promo-bar" id="promo-bar">
+    <div class="promo-bar__inner">
+      <a href="/bstn-promos.html" class="promo-bar__item">
+        <span>⏰ Expire ce soir :</span>
+        <span class="promo-bar__code" onclick="copyCode(event,'SUMMER15')">SUMMER15</span>
+        <span>= -15% chez BSTN</span>
+      </a>
+      <span class="promo-bar__sep">|</span>
+      <a href="/bstn-promos.html" class="promo-bar__item">
+        <span>📅 2–3 juin :</span>
+        <span class="promo-bar__code" onclick="copyCode(event,'SPORT25')">SPORT25</span>
+        <span>= -25% Sportswear</span>
+      </a>
+      <span class="promo-bar__sep">|</span>
+      <a href="/bstn-promos.html" class="promo-bar__item">
+        <span>🔥 Jusqu'au 7 juin : -30% Summer Sale →</span>
+      </a>
+    </div>
+  </div>
   </section>
 
 
