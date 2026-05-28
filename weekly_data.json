@@ -219,7 +219,17 @@
       "price": "€110",
       "resell_price": "50€ - 70€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "name": "Asphaltgold",
+          "url": "https://www.asphaltgold.com",
+          "price": "110€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "id": "asphaltgold-x-puma-h-street-saffron-coffee-milk"
     },
     {
       "type": "release",
@@ -245,7 +255,20 @@
       "price": "€120",
       "resell_price": "80€ - 100€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch",
+          "price": "120€"
+        },
+        {
+          "name": "GOAT",
+          "url": "https://www.goat.com",
+          "resell": true
+        }
+      ],
+      "id": "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon"
     },
     {
       "type": "release",
