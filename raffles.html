@@ -121,7 +121,7 @@
         : '<div style="display:flex;align-items:center;justify-content:center;height:100%;font-size:2rem">👟</div>';
       var retailers = (r.retailers || []).filter(function(rt){ return rt.name && rt.url && rt.url.indexOf('whentocop') === -1; });
       var btns = retailers.slice(0,2).map(function(rt){
-        return '<a href="' + rt.url + '" target="_blank" rel="noopener" class="raffle-card__btn">S'inscrire — ' + rt.name + '</a>';
+        return "<a href="' + rt.url + '" target="_blank" rel="noopener" class="raffle-card__btn">S'inscrire — " + rt.name + "</a>";
       }).join('');
       if (!btns && r.wtc_url) {
         btns = '<a href="' + r.wtc_url + '" target="_blank" rel="noopener" class="raffle-card__btn">Voir la raffle</a>';
