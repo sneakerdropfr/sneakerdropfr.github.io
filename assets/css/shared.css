@@ -163,8 +163,7 @@
 /* ── Filtres no-wrap mobile ── */
 .filters{flex-wrap:nowrap!important;overflow-x:auto!important;-webkit-overflow-scrolling:touch;scrollbar-width:none}
 .filter-btn{white-space:nowrap!important;flex-shrink:0!important}
-    /* ── Cards fond blanc — textes sombres ── */
-    .drop-card__body{background:#fff}
+    
     
 
     .drop-card__brand{color:#666!important}
@@ -174,10 +173,20 @@
     .btn-cop{color:#0A0A0A!important}
 
     .drop-card__urgency,.urgency-tag{color:#666!important}
-    /* ── Cards fond blanc ── */
-    .drop-card__img-wrap{background:#fff}
+    
     .drop-card__body,.drop-card{color:#0A0A0A}
     .drop-card__title{color:#0A0A0A}
     .drop-card__brand{color:#888}
     .drop-card__price{color:#0A0A0A}
     .drop-card__date{color:#999}
+    /* ── Cards fond blanc — couleurs ── */
+    .drop-card__img-wrap { background: #fff; }
+    .drop-card__body { background: #fff; }
+    .drop-card__title { color: #0A0A0A; }
+    .drop-card__brand { color: #888; }
+    .drop-card__price { color: #0A0A0A; }
+    .drop-card__date { color: #999; }
+    .drop-card__retailer-label { color: #555; }
+    .btn-cop { background: #0A0A0A; color: #fff; }
+    .btn-cop:hover { background: #333; color: #fff; }
+    .btn-resell { color: #0A0A0A; }
