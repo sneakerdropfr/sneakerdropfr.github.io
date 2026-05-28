@@ -253,7 +253,7 @@
       date.getDate() + ' ' + MONTHS_FR[date.getMonth()] + ' ' + date.getFullYear() + ' — ' + drops.length + ' drop' + (drops.length>1?'s':'');
     document.getElementById('cal-detail-cards').innerHTML = drops.map(function(r){
       var retailers = (r.retailers||[]).filter(function(rt){ return rt.url && rt.url.indexOf('whentocop')===-1; });
-      var link = retailers.length ? retailers[0].url : (r.wtc_url||'#');
+      var link = r.id ? '/sorties/' + r.id + '.html' : (r.wtc_url||'#');
       var img = r.image_url ? '<img src="' + r.image_url + '" alt="" loading="lazy" referrerpolicy="no-referrer">' : '👟';
       return '<div class="cal-detail__card">'
         + '<div class="cal-detail__img">' + img + '</div>'
@@ -263,7 +263,7 @@
         + '</div>'
         + '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:.3rem;flex-shrink:0">'
         + '<div class="cal-detail__price">' + (r.price ? r.price+'€' : '') + '</div>'
-        + (link !== '#' ? '<a href="' + link + '" target="_blank" rel="noopener" class="cal-detail__link">Voir</a>' : '')
+        + (link !== '#' ? '<a href="' + link + '" class="cal-detail__link">Voir</a>' : '')
         + '</div>'
         + '</div>';
     }).join('');
