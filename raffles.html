@@ -126,7 +126,7 @@
         var n = rt.name.toLowerCase();
         return !RESELL_NAMES.some(function(x){ return n.indexOf(x) !== -1; });
       });
-      var btns = retailers.slice(0,2).map(function(rt){
+      var btns = retailers.map(function(rt){
         return '<a href="' + rt.url + '" target="_blank" rel="noopener" class="raffle-card__btn">S&#x2019;inscrire &#x2014; ' + rt.name + '</a>';
       }).join('');
       if (!btns && r.wtc_url) {
