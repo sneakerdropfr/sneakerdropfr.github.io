@@ -349,6 +349,10 @@
     .brand-filter{font-family:var(--font-cond);font-weight:700;font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;padding:.28rem .65rem;border-radius:999px;border:1.5px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0}
     .brand-filter:hover{border-color:var(--black);color:var(--black)}
     .brand-filter.active{background:var(--black);color:#fff;border-color:var(--black)}
+  
+    .search-clear{position:absolute;right:38px;top:50%;transform:translateY(-50%);background:none;border:none;font-size:1rem;color:#999;cursor:pointer;display:none;line-height:1;padding:2px 6px;z-index:10}
+    .search-clear:hover{color:#333}
+    .search-clear.visible{display:block}
   </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","description":"Les prochaines sorties sneakers Nike, Air Jordan, Adidas et New Balance en France","url":"https://sneakerdropfr.fr","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Nike Sabrina 3 WNBA 30th Anniversary","url":"https://www.nike.com/t/sabrina-3-wnba-30th-basketball-shoes-LArVJUMq/IH1125-100","brand":{"@type":"Brand","name":"Nike"},"image":"https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-sabrina-3-wnba-30th-anniversary-IH1125-100-1024x725.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Travis Scott x Air Jordan 1 Low Pink Pack","url":"https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101","brand":{"@type":"Brand","name":"Jordan"},"offers":{"@type":"Offer","price":"160","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","availabilityStarts":"2026-05-29"},"image":"https://statics.whentocop.fr/media/oyfz5grY3Em4/tmptravis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101-2000x2000.webp"}}]}</script>
 </head>
@@ -376,10 +380,11 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         <!-- Search -->
         <div id="header-search" style="position:relative;display:flex;align-items:center">
           <input id="header-search-input" type="text" placeholder="Rechercher..." autocomplete="off"
-            oninput="filterBySearch(this.value)"
+            oninput="filterBySearch(this.value);var cb=document.getElementById('search-clear-btn');if(cb)cb.classList.toggle('visible',this.value.length>0)"
             style="width:0;opacity:0;border:none;outline:none;background:#F5F5F5;color:var(--text);font-family:var(--font-cond);font-size:.88rem;padding:0;border-radius:999px;transition:width .3s,opacity .3s,padding .3s;position:absolute;right:34px;top:50%;transform:translateY(-50%)"
             onfocus="this.style.boxShadow='0 0 0 2px var(--black)'"
             onblur="if(!this.value)closeSearch();else this.style.boxShadow='0 0 0 2px var(--black)'" />
+          <button class="search-clear" id="search-clear-btn" onclick="clearSearch()" title="Effacer">✕</button>
           <button class="hbtn hbtn--search" onclick="toggleSearch()" title="Rechercher">🔍</button>
         </div>
 
@@ -1096,6 +1101,13 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     if (!inp) return;
     inp.style.width = '0'; inp.style.opacity = '0'; inp.style.padding = '0'; inp.style.boxShadow = 'none'; inp.value = '';
     filterBySearch('');
+  }
+
+  function clearSearch() {
+    var inp = document.getElementById('header-search-input');
+    var btn = document.getElementById('search-clear-btn');
+    if (inp) { inp.value = ''; inp.focus(); filterBySearch(''); }
+    if (btn) btn.classList.remove('visible');
   }
   function filterBySearch(query) {
     var q = (query || '').toLowerCase().trim();
