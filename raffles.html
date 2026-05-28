@@ -23,27 +23,35 @@
   <script src="/assets/js/common.js"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Raffles Sneakers France","description":"Toutes les raffles sneakers en France","url":"https://sneakerdropfr.fr/raffles.html","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SneakerDrop FR","item":"https://sneakerdropfr.fr"},{"@type":"ListItem","position":2,"name":"Raffles","item":"https://sneakerdropfr.fr/raffles.html"}]}}</script>
   <style>
+    /* Force dark theme */
+    :root{--bg:#0a0a0a;--bg-alt:#111;--text:#fff;--muted:#999;--border:rgba(255,255,255,.1);--black:#fff;--accent:#FF2D2D}
+    html,body{background:#0a0a0a!important;color:#fff!important}
+    .raffle-card__title{color:#fff!important}
+    .raffle-card__brand{color:#ccc!important}
+    .raffle-card__price{color:#fff!important}
+    .raffle-card__date{color:#bbb!important}
+    .raffle-card__deadline{color:#FF2D2D!important}
     .page-hero{padding:2.5rem 0 2rem;border-bottom:1px solid var(--border)}
     .page-hero__eyebrow{font-family:var(--font-cond);font-size:.85rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:.5rem}
     .page-hero__title{font-family:var(--font-display);font-size:clamp(2.5rem,6vw,4rem);line-height:1;margin-bottom:.75rem}
     .page-hero__sub{color:var(--muted);font-size:.95rem;max-width:500px}
     .raffle-info{background:rgba(255,45,45,.08);border:1px solid rgba(255,45,45,.2);border-radius:var(--r);padding:1rem 1.25rem;margin:1.5rem 0;font-size:.9rem;color:#fff}
     .raffle-info strong{color:#FF2D2D}
-    .raffle-card{background:#0A0A0A;border:1px solid rgba(255,255,255,.08);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
+    .raffle-card{background:#111;border:1px solid rgba(255,255,255,.12);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
     .raffle-card:hover{transform:translateY(-2px);border-color:rgba(255,45,45,.4)}
     .raffle-card__img{aspect-ratio:1;background:#1a1a1a;overflow:hidden;position:relative}
     .raffle-card__img img{width:100%;height:100%;object-fit:contain;padding:.75rem;transform:scaleX(-1)}
     .raffle-card__badge{position:absolute;top:.5rem;left:.5rem;background:#FF2D2D;color:#fff;font-family:var(--font-cond);font-size:.7rem;font-weight:900;letter-spacing:.08em;padding:.2rem .5rem;border-radius:4px}
-    .raffle-card__body{padding:.85rem;display:flex;flex-direction:column;gap:.4rem;flex:1}
+    .raffle-card__body{padding:.85rem;display:flex;flex-direction:column;gap:.4rem}
     .raffle-card__brand{font-family:var(--font-cond);font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.5)}
     .raffle-card__title{font-family:var(--font-cond);font-size:.95rem;font-weight:900;text-transform:uppercase;line-height:1.2;color:#fff}
     .raffle-card__meta{display:flex;align-items:center;gap:.75rem;margin-top:.25rem;flex-wrap:wrap}
     .raffle-card__price{font-family:var(--font-cond);font-size:1.1rem;font-weight:900;color:#fff}
     .raffle-card__date{font-size:.8rem;color:rgba(255,255,255,.5)}
     .raffle-card__deadline{background:rgba(255,45,45,.1);border:1px solid rgba(255,45,45,.3);border-radius:6px;padding:.3rem .6rem;font-size:.78rem;color:#FF2D2D;font-weight:700;margin-top:.25rem}
-    .raffle-card__btn{display:block;text-align:center;background:#FF2D2D;color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;padding:.65rem;border-radius:6px;margin-top:auto;transition:background .15s}
+    .raffle-card__btn{display:block;text-align:center;background:#FF2D2D;color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;padding:.65rem;border-radius:6px;margin-top:.35rem;transition:background .15s}
     .raffle-card__btn:hover{background:#e02020}
-    .raffles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1rem;margin-top:1.5rem}
+    .raffles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;margin-top:1.5rem;align-items:start}
     .empty-state{text-align:center;padding:3rem 1rem;color:var(--muted);font-family:var(--font-cond);font-size:1.1rem}
     .loading-state{text-align:center;padding:2rem;color:var(--muted)}
     .section{padding:2.5rem 0}
