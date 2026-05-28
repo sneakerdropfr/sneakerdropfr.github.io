@@ -99,7 +99,7 @@
 
   <script>
   (function(){
-    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now();
+    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?v=' + Date.now() + '&r=' + Math.random();
     var grid = document.getElementById('raffles-grid');
     var loading = document.getElementById('raffles-loading');
     var empty = document.getElementById('raffles-empty');
@@ -133,7 +133,7 @@
         + '<div class="raffle-card__brand">' + (r.brand||'') + '</div>'
         + '<div class="raffle-card__title">' + (r.title||'') + '</div>'
         + '<div class="raffle-card__meta">'
-        + '<span class="raffle-card__price">' + (r.price ? r.price + '€' : '') + '</span>'
+        + '<span class="raffle-card__price">' + (r.price ? (String(r.price).replace(/€$/,'') + '€') : '') + '</span>'
         + '<span class="raffle-card__date">📅 ' + formatDate(r.date) + '</span>'
         + '</div>'
         + '<div class="raffle-card__deadline">⏰ Inscription avant le drop</div>'
@@ -142,10 +142,13 @@
     }
 
     fetch(RELEASES_URL)
-      .then(function(res){ return res.json(); })
+      .then(function(res){
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
       .then(function(data){
         if (loading) loading.style.display = 'none';
-        var raffles = data.filter(function(r){ return r.raffle === true; })
+        var raffles = data.filter(function(r){ return r.raffle === true || r.raffle === 'true'; })
           .sort(function(a,b){ var da=a.date||'9999'; var db=b.date||'9999'; return da<db?-1:da>db?1:0; });
         if (!raffles.length) { if (empty) empty.style.display = 'block'; return; }
         grid.innerHTML = raffles.map(renderRaffle).join('');
