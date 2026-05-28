@@ -112,6 +112,11 @@
       .bstn-tabs{width:100%}
 
       .bstn-tab{flex:1;text-align:center;padding:.55rem .8rem;font-size:.78rem}
+  
+    /* ── Scroll to top ── */
+    .scroll-top{position:fixed;bottom:24px;right:20px;background:#fff;border:1px solid #e0e0e0;color:#0A0A0A;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.12);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:100;transform:translateY(8px)}
+    .scroll-top.visible{opacity:1;pointer-events:all;transform:translateY(0)}
+    .scroll-top:hover{background:#f5f5f5;box-shadow:0 4px 16px rgba(0,0,0,.16)}
   </style>
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "SneakerDrop FR", "url": "https://sneakerdropfr.fr", "publisher": {"@type": "Organization", "name": "SneakerDrop FR", "url": "https://sneakerdropfr.fr", "logo": {"@type": "ImageObject", "url": "https://sneakerdropfr.fr/assets/favicon-32.png"}, "sameAs": ["https://t.me/SneakersDropsFR", "https://www.tiktok.com/@sneakerdropfr"]}}</script>
@@ -467,5 +472,17 @@ document.addEventListener('DOMContentLoaded', function(){
   </script>
 
 <script type="text/javascript" src="https://s.skimresources.com/js/302926X179095.skimlinks.js"></script>
+
+  <button class="scroll-top" id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Retour en haut" aria-label="Retour en haut">&#8679;</button>
+
+  <script>
+  (function(){
+    var btn = document.getElementById('scroll-top');
+    if (!btn) return;
+    window.addEventListener('scroll', function(){
+      btn.classList.toggle('visible', window.scrollY > 300);
+    }, {passive:true});
+  })();
+  </script>
 </body>
 </html>
