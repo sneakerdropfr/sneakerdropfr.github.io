@@ -11,27 +11,39 @@
     "retailers": [
       {
         "name": "New Balance",
-        "url": "https://www.newbalance.com/fr/"
+        "url": "https://www.newbalance.com/fr/",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Afew",
-        "url": "https://www.afew-store.com"
+        "url": "https://www.afew-store.com",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Courir",
-        "url": "https://www.courir.com"
+        "url": "https://www.courir.com",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Foot Locker",
-        "url": "https://www.footlocker.fr"
+        "url": "https://www.footlocker.fr",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "StockX",
-        "url": "https://stockx.com"
+        "url": "https://stockx.com",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "GOAT",
-        "url": "https://www.goat.com"
+        "url": "https://www.goat.com",
+        "raffle": false,
+        "resell": false
       }
     ]
   },
@@ -48,7 +60,8 @@
       {
         "name": "GOAT",
         "url": "https://www.goat.com/sneakers/virgil-abloh-nike-air-force-1-low-sesame",
-        "resell": true
+        "resell": true,
+        "raffle": false
       }
     ]
   },
@@ -65,18 +78,22 @@
       {
         "name": "Nike",
         "url": "https://www.nike.com/fr/launch",
-        "price": "145€"
+        "price": "145€",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr/nike-mind-002-flyknit-qs-pure-platinum",
         "price": "355€",
-        "resell": true
+        "resell": true,
+        "raffle": false
       },
       {
         "name": "GOAT",
         "url": "https://www.goat.com",
-        "resell": true
+        "resell": true,
+        "raffle": false
       }
     ]
   },
@@ -93,61 +110,79 @@
       {
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
-        "price": "160€"
+        "price": "160€",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Size?",
         "url": "https://www.size.co.uk",
-        "price": "160€"
+        "price": "160€",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
-        "price": "160€"
+        "price": "160€",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "43einhalb",
         "url": "https://www.43einhalb.com",
-        "price": "160€"
+        "price": "160€",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "FootDistrict",
         "url": "https://www.footdistrict.com",
-        "price": "160€"
+        "price": "160€",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Offspring",
         "url": "https://www.offspring.co.uk",
-        "price": "160€"
+        "price": "160€",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Solebox",
         "url": "https://www.solebox.com",
-        "price": "160€"
+        "price": "160€",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Footshop",
         "url": "https://www.footshop.eu",
         "price": "160€",
-        "raffle": true
+        "raffle": true,
+        "resell": false
       },
       {
         "name": "Noirfonce",
         "url": "https://www.noirfonce.eu",
         "price": "120€",
-        "resell": true
+        "resell": true,
+        "raffle": false
       },
       {
         "name": "GOAT",
         "url": "https://www.goat.com",
         "price": "240€",
-        "resell": true
+        "resell": true,
+        "raffle": false
       },
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr/nike-air-max-90-photon-dust-blue-cyber",
         "price": "316€",
-        "resell": true
+        "resell": true,
+        "raffle": false
       }
     ]
   },
@@ -165,13 +200,15 @@
         "name": "StockX",
         "url": "https://stockx.com/fr-fr/nike-total-90-mule-kids-of-immigrants-khaki",
         "price": "420€",
-        "resell": true
+        "resell": true,
+        "raffle": false
       },
       {
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/launch/t/nike-kids-of-immigrants-koi-t90-mule",
         "price": "120€",
-        "resell": false
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -207,12 +244,15 @@
       {
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
-        "price": "120€"
+        "price": "120€",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "GOAT",
         "url": "https://www.goat.com",
-        "resell": true
+        "resell": true,
+        "raffle": false
       }
     ]
   },
@@ -230,59 +270,71 @@
         "name": "Naked",
         "url": "https://www.nakedcph.com",
         "price": "160€",
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Maha",
         "url": "https://www.maha-amsterdam.com",
         "price": "160€",
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "FootDistrict",
         "url": "https://www.footdistrict.com",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "Sevenstore",
         "url": "https://www.sevenstore.com",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "Kickz",
         "url": "https://www.kickz.com",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "The Broken Arm",
         "url": "https://www.the-broken-arm.com",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2Fair-jordan%2Fair-jordan-1%2Fairjordan1low"
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2Fair-jordan%2Fair-jordan-1%2Fairjordan1low",
+        "raffle": false,
+        "resell": false
       }
     ],
     "featured": true,
@@ -302,59 +354,71 @@
         "name": "Naked",
         "url": "https://www.nakedcph.com",
         "price": "160€",
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Maha",
         "url": "https://www.maha-amsterdam.com",
         "price": "160€",
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "FootDistrict",
         "url": "https://www.footdistrict.com",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "Sevenstore",
         "url": "https://www.sevenstore.com",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "Kickz",
         "url": "https://www.kickz.com",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "The Broken Arm",
         "url": "https://www.the-broken-arm.com",
         "price": "160€",
         "raffle": true,
-        "type": "raffle"
+        "type": "raffle",
+        "resell": false
       },
       {
         "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2Fair-jordan%2Fair-jordan-1%2Fairjordan1low"
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2Fair-jordan%2Fair-jordan-1%2Fairjordan1low",
+        "raffle": false,
+        "resell": false
       }
     ],
     "raffle": true
@@ -552,35 +616,41 @@
         "name": "Adidas",
         "url": "https://www.adidas.fr",
         "price": "120€",
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr/adidas-ballerina-bad-bunny-flamboyan",
         "price": "183€",
         "resell": true,
-        "type": "resell"
+        "type": "resell",
+        "raffle": false
       },
       {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
         "price": "120€",
         "resell": false,
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false
       },
       {
         "name": "Klekt",
         "url": "https://www.klekt.com/product/new/adidas-x-bad-bunny-ballerina-flamboyan-2026",
         "price": "190€",
         "resell": true,
-        "type": "resell"
+        "type": "resell",
+        "raffle": false
       },
       {
         "name": "Limited Resell",
         "url": "https://limitedresell.com/7310-adidas-ballerina-bad-bunny-flamboyan.html",
         "price": "225€",
         "resell": true,
-        "type": "resell"
+        "type": "resell",
+        "raffle": false
       }
     ]
   },
@@ -632,7 +702,8 @@
         "url": "https://www.nike.com/fr/launch",
         "price": "210€",
         "resell": false,
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false
       },
       {
         "name": "Foot Locker",
@@ -653,35 +724,40 @@
         "url": "https://www.footpatrol.com",
         "price": "210€",
         "resell": false,
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false
       },
       {
         "name": "Size?",
         "url": "https://www.size.co.uk",
         "price": "210€",
         "resell": false,
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false
       },
       {
         "name": "Offspring",
         "url": "https://www.offspring.co.uk",
         "price": "210€",
         "resell": false,
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false
       },
       {
         "name": "Snipes",
         "url": "https://www.snipes.com/c/sneakers",
         "price": "210€",
         "resell": false,
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false
       },
       {
         "name": "Urbanstar",
         "url": "https://www.urbanstaronline.com",
         "price": "210€",
         "resell": false,
-        "type": "raffle"
+        "type": "raffle",
+        "raffle": false
       },
       {
         "name": "Footshop",
@@ -704,14 +780,16 @@
         "url": "https://www.goat.com/sneakers/air-jordan-3-retro-worlds-best-dad-if4396-103",
         "price": "125€",
         "resell": true,
-        "type": "resell"
+        "type": "resell",
+        "raffle": false
       },
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr/air-jordan-3-retro-worlds-best-dad",
         "price": "157€",
         "resell": true,
-        "type": "resell"
+        "type": "resell",
+        "raffle": false
       },
       {
         "name": "FootDistrict",
@@ -722,7 +800,9 @@
       },
       {
         "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-air-jordan-3-retro-og-sail-and-university-red-if4396-103-0350734"
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-air-jordan-3-retro-og-sail-and-university-red-if4396-103-0350734",
+        "raffle": false,
+        "resell": false
       }
     ],
     "sku": "JF4396-103",
@@ -1413,7 +1493,9 @@
       {
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
-        "price": "154.99€"
+        "price": "154.99€",
+        "raffle": false,
+        "resell": false
       }
     ]
   },
@@ -1949,12 +2031,15 @@
       {
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
-        "price": "139.99€"
+        "price": "139.99€",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
-        "resell": true
+        "resell": true,
+        "raffle": false
       }
     ]
   },
@@ -1975,12 +2060,15 @@
       {
         "name": "Nike",
         "url": "https://www.nike.com/fr/launch",
-        "price": "150€"
+        "price": "150€",
+        "raffle": false,
+        "resell": false
       },
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
-        "resell": true
+        "resell": true,
+        "raffle": false
       }
     ]
   },
