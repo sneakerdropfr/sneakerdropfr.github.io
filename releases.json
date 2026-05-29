@@ -755,7 +755,7 @@
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
-        "price": "261€",
+        "price": "263€",
         "resell": true,
         "raffle": false
       }
@@ -773,15 +773,31 @@
     "retailers": [
       {
         "name": "Adidas",
-        "url": "https://www.adidas.fr"
+        "url": "https://www.adidas.fr",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com"
-      },
-      {
-        "name": "SportScheck",
-        "url": "https://www.sportscheck.com"
+        "url": "https://www.asphaltgold.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -796,13 +812,6 @@
     "buy_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-cloud-white-kj3320",
     "retailers": [
       {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr",
-        "price": "100€",
-        "resell": false,
-        "raffle": true
-      },
-      {
         "name": "BSTN",
         "url": "https://www.bstn.com",
         "price": "100€",
@@ -810,10 +819,17 @@
         "raffle": false
       },
       {
-        "name": "43einhalb",
-        "url": "https://www.43einhalb.com",
-        "price": "150€",
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "100€",
         "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "189€",
+        "resell": true,
         "raffle": false
       }
     ]
@@ -830,15 +846,24 @@
     "retailers": [
       {
         "name": "Adidas",
-        "url": "https://www.adidas.fr"
+        "url": "https://www.adidas.fr",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
       },
       {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com"
+        "name": "BSTN",
+        "url": "https://www.bstn.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
       },
       {
-        "name": "SportScheck",
-        "url": "https://www.sportscheck.com"
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -876,6 +901,13 @@
       {
         "name": "Afew",
         "url": "https://www.afew-store.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
         "price": "140€",
         "resell": false,
         "raffle": false
@@ -1059,16 +1091,9 @@
         "raffle": true
       },
       {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "128€",
-        "resell": true,
-        "raffle": false
-      },
-      {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
-        "price": "147€",
+        "price": "152€",
         "resell": true,
         "raffle": false
       }
@@ -1092,7 +1117,22 @@
     "price": 210,
     "currency": "EUR",
     "image": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "adidas-a-e-2-coral-red",
@@ -1102,7 +1142,22 @@
     "price": 130,
     "currency": "EUR",
     "image": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "130€",
+        "resell": false,
+        "raffle": true
+      }
+    ]
   },
   {
     "id": "nike-pegasus-premium-sp-white-black",
@@ -1112,7 +1167,22 @@
     "price": 210,
     "currency": "EUR",
     "image": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
@@ -1122,7 +1192,29 @@
     "price": 150,
     "currency": "EUR",
     "image": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "232€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
