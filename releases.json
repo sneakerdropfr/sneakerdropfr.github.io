@@ -270,7 +270,6 @@
         "name": "Naked",
         "url": "https://www.nakedcph.com",
         "price": "160€",
-        "type": "raffle",
         "raffle": false,
         "resell": false
       },
@@ -278,7 +277,6 @@
         "name": "Maha",
         "url": "https://www.maha-amsterdam.com",
         "price": "160€",
-        "type": "raffle",
         "raffle": false,
         "resell": false
       },
@@ -354,7 +352,6 @@
         "name": "Naked",
         "url": "https://www.nakedcph.com",
         "price": "160€",
-        "type": "raffle",
         "raffle": false,
         "resell": false
       },
@@ -362,7 +359,6 @@
         "name": "Maha",
         "url": "https://www.maha-amsterdam.com",
         "price": "160€",
-        "type": "raffle",
         "raffle": false,
         "resell": false
       },
@@ -616,7 +612,6 @@
         "name": "Adidas",
         "url": "https://www.adidas.fr",
         "price": "120€",
-        "type": "raffle",
         "raffle": false,
         "resell": false
       },
@@ -633,7 +628,6 @@
         "url": "https://www.footpatrol.com",
         "price": "120€",
         "resell": false,
-        "type": "raffle",
         "raffle": false
       },
       {
@@ -702,7 +696,6 @@
         "url": "https://www.nike.com/fr/launch",
         "price": "210€",
         "resell": false,
-        "type": "raffle",
         "raffle": false
       },
       {
@@ -724,7 +717,6 @@
         "url": "https://www.footpatrol.com",
         "price": "210€",
         "resell": false,
-        "type": "raffle",
         "raffle": false
       },
       {
@@ -732,7 +724,6 @@
         "url": "https://www.size.co.uk",
         "price": "210€",
         "resell": false,
-        "type": "raffle",
         "raffle": false
       },
       {
@@ -740,7 +731,6 @@
         "url": "https://www.offspring.co.uk",
         "price": "210€",
         "resell": false,
-        "type": "raffle",
         "raffle": false
       },
       {
@@ -748,7 +738,6 @@
         "url": "https://www.snipes.com/c/sneakers",
         "price": "210€",
         "resell": false,
-        "type": "raffle",
         "raffle": false
       },
       {
@@ -756,7 +745,6 @@
         "url": "https://www.urbanstaronline.com",
         "price": "210€",
         "resell": false,
-        "type": "raffle",
         "raffle": false
       },
       {
