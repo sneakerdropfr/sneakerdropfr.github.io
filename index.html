@@ -1198,8 +1198,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         var d = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
         dateStr = d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
       }
-      var link = r.buy_url || r.wtc_url || '#';
-      return '<a href="' + link + '" target="_blank" rel="noopener" class="src">'
+      var link = r.id ? 'sorties/' + r.id + '.html' : (r.buy_url || r.wtc_url || '#');
+      return '<a href="' + link + '" class="src">'
         + imgHtml + '<div class="src__body"><div class="src__title">' + escapeHtml(r.title) + '</div>'
         + '<div class="src__meta"><span>' + dateStr + '</span><span class="src__price">' + price + '</span></div>'
         + (badge ? badge : '') + '</div></a>';
