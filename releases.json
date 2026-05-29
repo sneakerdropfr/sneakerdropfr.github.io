@@ -832,6 +832,66 @@
     "raffle": true
   },
   {
+    "id": "air-jordan-4-retro-toro-bravo-2026",
+    "title": "Air Jordan 4 Retro Toro Bravo",
+    "brand": "Jordan",
+    "date": "2026-05-30",
+    "price": 220,
+    "currency": "EUR",
+    "image": "",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "JD Sports",
+        "url": "https://www.jdsports.fr",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.snipes.com/c/sneakers",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/fr/sneakers/",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-4-retro-toro-bravo-2026",
+        "price": "220€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/air-jordan-4-retro-toro-bravo-2026",
+        "price": "220€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
+  },
+  {
     "id": "new-balance-mt10t-fire-cracker",
     "title": "New Balance Mt10t Fire Cracker",
     "brand": "New Balance",
