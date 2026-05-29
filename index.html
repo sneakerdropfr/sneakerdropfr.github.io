@@ -727,10 +727,13 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 
       var html = '';
 
-      // Officiels
+      // Officiels — max 3 sur la card, bouton "Voir tout" si plus
       if (official.length) {
+        var officialShown = official.slice(0, 3);
+        var hasMore = official.length > 3;
+        var sortiePage = r.id ? 'sorties/' + r.id + '.html' : null;
         html += '<div class="retailers-label">Acheter</div><div class="retailers-row">';
-        official.forEach(function(rt) {
+        officialShown.forEach(function(rt) {
           var cls = isRetailerBSTN(rt.name) ? 'btn-retailer btn-retailer--bstn'
                   : isRetailerNike(rt.name) ? 'btn-retailer btn-retailer--nike'
                   : 'btn-retailer btn-retailer--official';
@@ -741,6 +744,9 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           html += '<a href="' + rt.url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN(\'' + safeTitle(rt.name + ' - ' + (r.title||'')) + '\')">'
                 + icon + escapeHtml(rt.name) + priceStr + '</a>';
         });
+        if (hasMore && sortiePage) {
+          html += '<a href="' + sortiePage + '" class="btn-retailer btn-retailer--more">+' + (official.length - 3) + ' voir tout →</a>';
+        }
         html += '</div>';
       }
 
