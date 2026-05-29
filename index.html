@@ -877,10 +877,13 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       });
       var filtered = notReleased.filter(function(r) { return matchBrand(r, activeFilter); });
       if (window._searchQuery) {
-        filtered = filtered.filter(function(r) {
-          return (r.title||'').toLowerCase().indexOf(window._searchQuery) !== -1
-              || (r.brand||'').toLowerCase().indexOf(window._searchQuery) !== -1;
+        // Recherche dans tout le catalogue (à venir + passés)
+        var allFiltered = (window.allReleases || []).filter(function(r) {
+          return ((r.title||'').toLowerCase().indexOf(window._searchQuery) !== -1
+              || (r.brand||'').toLowerCase().indexOf(window._searchQuery) !== -1)
+              && matchBrand(r, activeFilter);
         });
+        filtered = allFiltered;
       }
       var sorted = sortByDate(filtered).slice(0, MAX_CARDS);
       if (!sorted.length) {
@@ -1256,10 +1259,16 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       return;
     }
     btn.textContent = 'Chargement...';
-    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t=' + Date.now())
-      .then(function(r) { return r.json(); })
-      .then(function(data) { renderPastGrid(data); })
-      .catch(function() { renderPastGrid([]); btn.textContent = '🕐 Voir les anciennes sorties'; });
+    // Utiliser allReleases déjà chargé — filtrer les paires dont la date est passée
+    var today = new Date(); today.setHours(0,0,0,0);
+    var past = (window.allReleases || []).filter(function(r) {
+      if (!r.date || r.date === 'TBD') return false;
+      var p = r.date.split('-');
+      if (p.length !== 3) return false;
+      var d = new Date(+p[0], +p[1]-1, +p[2]);
+      return d < today;
+    }).sort(function(a,b) { return b.date.localeCompare(a.date); });
+    renderPastGrid(past);
   }
   </script>
 
