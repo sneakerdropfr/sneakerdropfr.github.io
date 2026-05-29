@@ -1,87 +1,39 @@
 [
   {
-    "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
-    "title": "Air Jordan 1 Low OG “Phantom Pine Green”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "2026-06-06",
-    "price": "159.99€",
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-1-low-og-phantom-pine-green-IR2283-030-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/t/air-jordan-1-low-og-phantom-and-pine-green",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-29T00:09:57.841600+00:00"
-  },
-  {
-    "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
-    "title": "Nike Air Max 1 City Connect “Baltimore Orioles”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "2026-06-08",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-baltimore-orioles-IQ2894-100-1024x725.jpg",
-    "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-baltimore-orioles/",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-29T00:09:50.450229+00:00"
-  },
-  {
-    "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
-    "title": "Nike Air Max 1 City Connect “Kansas City Royals”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "2026-06-09",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-kansas-city-royal-IQ2916-100-1024x725.jpg",
-    "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-kansas-city-royals/",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-29T00:09:42.864231+00:00"
-  },
-  {
-    "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
-    "title": "Nike Air Trainer SC “Atlanta Olympics 30th Anniversary”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "2026-06-01",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2022/06/nike-air-trainer-sc-high-raiders-black-grey-white-DX3764-001-release-date-info.jpeg",
-    "buy_url": "https://www.nike.com/w?q=Nike Air Trainer SC&amp;vst=Nike Air Trainer SC",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-29T00:09:34.422569+00:00"
-  },
-  {
-    "id": "a-ma-mani-re-x-nike-pegasus-premium-timing-is-everything-rel",
-    "title": "A Ma Maniére x Nike Pegasus Premium “Timing Is Everything”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/a-ma-maniere-nike-pegasus-premium-timing-is-everything-1024x725.jpg",
-    "buy_url": "https://www.sneakerfiles.com/a-ma-maniere-nike-pegasus-premium/",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-29T00:09:27.663748+00:00"
-  },
-  {
-    "id": "nike-air-zoom-huarache-2k4-knicks-pe-releases-fall-2026",
-    "title": "Nike Air Zoom Huarache 2K4 “Knicks” PE",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": "$210",
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2016/05/nike-air-zoom-huarache-2k4-uconn-midnight-navy-university-red-review-on-feet.jpg",
-    "buy_url": "https://www.nike.com/w/new-shoes-3n82yzy7ok",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-19T21:11:08.231766+00:00"
-  },
-  {
-    "id": "la-brick-after-brick-arrive-le-22-mai-sur-snkrs",
-    "title": "La “Brick After Brick” arrive le 22 mai sur SNKRS",
-    "brand": "FitThemAll",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": null,
-    "buy_url": "https://fitthemall.fr/la-brick-after-brick-arrive-le-22-mai-sur-snkrs/",
-    "source": "FitThemAll",
-    "added_at": "2026-05-19T14:45:44.335620+00:00"
+    "id": "new-balance-2010-neptune-grey-shadow-blue",
+    "title": "New Balance 2010 Neptune Grey Shadow Blue",
+    "brand": "New Balance",
+    "date": "2026-05-24",
+    "price": 170,
+    "image_url": "https://statics.whentocop.fr/media/aworOHoSKDVs/tmpnew-balance-2010-neptune-grey-shadow-blue-u20107pt-4-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-neptune-grey-shadow-blue-u20107pt",
+    "buy_url": "https://www.whentocop.fr/drops/new-balance-2010-neptune-grey-shadow-blue-u20107pt",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/fr/"
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com"
+      },
+      {
+        "name": "Courir",
+        "url": "https://www.courir.com"
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com"
+      }
+    ]
   },
   {
     "id": "virgil-abloh-x-nike-air-force-1-low-sesame",
@@ -96,6 +48,105 @@
       {
         "name": "GOAT",
         "url": "https://www.goat.com/sneakers/virgil-abloh-nike-air-force-1-low-sesame",
+        "resell": true
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-002-flyknit-qs-pure-platinum",
+    "title": "Nike Mind 002 Flyknit Qs Pure Platinum",
+    "brand": "Nike",
+    "date": "2026-05-26",
+    "price": 145,
+    "image_url": "https://statics.whentocop.fr/media/pxwtEM54ykVS/tmpnike-mind-002-flyknit-qs-pure-platinum-ir2176-100-4-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
+    "buy_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-mind-002-flyknit-qs-pure-platinum",
+        "price": "355€",
+        "resell": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "resell": true
+      }
+    ]
+  },
+  {
+    "id": "nike-air-max-90-photon-dust-blue-cyber",
+    "title": "Nike Air Max 90 Photon Dust Blue Cyber",
+    "brand": "Nike",
+    "date": "2026-05-26",
+    "price": 124,
+    "image_url": "https://statics.whentocop.fr/media/wAkgjgcBnMsm/tmpnike-air-max-90-photon-dust-and-blue-cyber-iu7543-025-s4-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
+    "buy_url": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "160€"
+      },
+      {
+        "name": "Size?",
+        "url": "https://www.size.co.uk",
+        "price": "160€"
+      },
+      {
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com",
+        "price": "160€"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "160€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://www.footdistrict.com",
+        "price": "160€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk",
+        "price": "160€"
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.solebox.com",
+        "price": "160€"
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "160€",
+        "raffle": true
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://www.noirfonce.eu",
+        "price": "120€",
+        "resell": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "240€",
+        "resell": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-max-90-photon-dust-blue-cyber",
+        "price": "316€",
         "resell": true
       }
     ]
@@ -121,6 +172,47 @@
         "url": "https://www.nike.com/launch/t/nike-kids-of-immigrants-koi-t90-mule",
         "price": "120€",
         "resell": false
+      }
+    ]
+  },
+  {
+    "id": "asphaltgold-x-puma-h-street-saffron-coffee-milk",
+    "title": "Asphaltgold X Puma H-Street Saffron Coffee Milk",
+    "brand": "Puma",
+    "date": "2026-05-27",
+    "price": 110,
+    "image_url": "https://statics.whentocop.fr/media/YkJrJzIg4DGH/tmppuma-x-asphaltgold-h-street-saffron-coffee-milk-408616-01-4-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/asphaltgold-puma-h-street-saffron-coffee-milk-408616-01",
+    "buy_url": "https://www.whentocop.fr/drops/asphaltgold-puma-h-street-saffron-coffee-milk-408616-01",
+    "retailers": [
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon",
+    "title": "Kids Of Immigrants X Nike T90 Mule Velvet Brown Orange Horizon",
+    "brand": "Nike",
+    "date": "2026-05-27",
+    "price": "120€",
+    "image_url": "https://statics.whentocop.fr/media/sU0iafNrkeSy/tmpKids-of-Immigrants-x-Nike-T90-Mule_Velvet-Brown-Orange-Horizon_IH4422-201_img0-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
+    "buy_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "120€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "resell": true
       }
     ]
   },
@@ -266,486 +358,6 @@
       }
     ],
     "raffle": true
-  },
-  {
-    "id": "bad-bunny-adidas-ballerina-flamboyan-2026",
-    "title": "Bad Bunny x Adidas Ballerina Flamboyan",
-    "brand": "Adidas",
-    "colorway": "Flamboyan Pink/White",
-    "date": "2026-05-29",
-    "price": 120,
-    "image_url": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F01%2F27%2FBad-Bunny-adidas-Ballerina-Flamboyan-KI7916-Official-Images-1.jpg?q=75&w=800&cbr=1&fit=max",
-    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com",
-    "in_stock": true,
-    "wtc_url": "https://www.whentocop.fr/drops/bad-bunny-adidas-ballerina-flamboyan-ki7916",
-    "resell": 280,
-    "raffle": true,
-    "raffle_url": "https://www.adidas.fr/confirmed",
-    "retailers": [
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr",
-        "price": "120€",
-        "type": "raffle"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/adidas-ballerina-bad-bunny-flamboyan",
-        "price": "183€",
-        "resell": true,
-        "type": "resell"
-      },
-      {
-        "name": "Footpatrol",
-        "url": "https://www.footpatrol.com",
-        "price": "120€",
-        "resell": false,
-        "type": "raffle"
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/adidas-x-bad-bunny-ballerina-flamboyan-2026",
-        "price": "190€",
-        "resell": true,
-        "type": "resell"
-      },
-      {
-        "name": "Limited Resell",
-        "url": "https://limitedresell.com/7310-adidas-ballerina-bad-bunny-flamboyan.html",
-        "price": "225€",
-        "resell": true,
-        "type": "resell"
-      }
-    ]
-  },
-  {
-    "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
-    "title": "McDonald’s x Nike Book 2 “Sedona”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "2026-06-02",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-book-2-mcdonalds-sedona-IR6443-100-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-16T22:02:47.708688+00:00",
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "154.99€"
-      }
-    ]
-  },
-  {
-    "id": "nike-kd-19-field-purple-releases-june-2026",
-    "title": "Nike KD 19 “Field Purple”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "2026-06-17",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-kd-19-field-purple-stuff-IH1117-500-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-16T22:02:39.779561+00:00"
-  },
-  {
-    "id": "air-jordan-17-low-black-patent-releases-august-2026",
-    "title": "Air Jordan 17 Low “Black Patent”",
-    "brand": "Jordan Brand",
-    "colorway": "",
-    "date": "2026-08-08",
-    "price": "139.99€",
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-17-low-black-patent-2026-release-details-1024x725.jpg",
-    "buy_url": null,
-    "source": "Sneaker Files",
-    "added_at": "2026-05-06T21:04:50.401377+00:00",
-    "wtc_url": null,
-    "resell": 200,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "139.99€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "resell": true
-      }
-    ]
-  },
-  {
-    "id": "nike-air-more-uptempo-og-black-white-returns-september-2026",
-    "title": "Nike Air More Uptempo OG “Black White”",
-    "brand": "Nike",
-    "colorway": "",
-    "date": "2026-09-25",
-    "price": "150€",
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/nike-air-more-uptempo-og-black-white-2026-FV2291-001-1024x725.jpg",
-    "buy_url": null,
-    "source": "Sneaker Files",
-    "added_at": "2026-05-05T20:50:34.341369+00:00",
-    "wtc_url": null,
-    "resell": 160,
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "150€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "resell": true
-      }
-    ]
-  },
-  {
-    "id": "nike-kobe-9-em-low-protro-draft-day-releases-june-2026",
-    "title": "Nike Kobe 9 EM Low Protro “Draft Day”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": "125.99€",
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-kobe-9-em-low-protro-hornets-draft-day-IM6119-500-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w/kobe-pgd6",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-19T08:27:19.521894+00:00"
-  },
-  {
-    "id": "nike-air-rift-2-kenya-returns-summer-2026",
-    "title": "Nike Air Rift 2 “Kenya”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2023/05/nike-air-rift-kenya-fn7772-001.jpeg",
-    "buy_url": "https://www.nike.com/launch",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-19T08:06:05.067593+00:00"
-  },
-  {
-    "id": "nike-sb-dunk-low-green-patent-releases-holiday-2026",
-    "title": "Nike SB Dunk Low “Green Patent”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-sb-dunk-low-green-patent-IQ0431-300-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-19T07:55:21.635429+00:00"
-  },
-  {
-    "id": "nike-air-max-95-scorpion",
-    "title": "Nike Air Max 95 Scorpion",
-    "brand": "Sneakers.fr",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/nike-air-max-95-scorpion-1-380x380.jpeg",
-    "buy_url": "https://www.sneakers.fr/nike-air-max-95-scorpion/",
-    "source": "Sneakers.fr",
-    "added_at": "2026-05-19T07:49:56.592667+00:00"
-  },
-  {
-    "id": "nike-mind-001-cucumber-calm-releases-summer-2026",
-    "title": "Nike Mind 001 “Cucumber Calm”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-mind-001-cucumber-calm-HQ4307-302-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w?q=nike mind 001&amp;vst=nike mind 001",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-19T07:44:19.645682+00:00"
-  },
-  {
-    "id": "air-jordan-3-utility-releases-spring-2027",
-    "title": "Air Jordan 3 “Utility”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-3-utility-black-fire-red-IX0198-001-2027-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w?q=air jordan 3&amp;vst=air jordan 3",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-18T22:36:37.864535+00:00"
-  },
-  {
-    "id": "the-nike-baltoro-makes-a-summer-cameo-in-chalk-safety-orange",
-    "title": "The Nike Baltoro Makes A Summer Cameo In “Chalk/Safety Orange”",
-    "brand": "Sneaker News",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-baltoro-chalk-sail-safety-orange-black-io4556-100-2.jpg",
-    "buy_url": "https://www.nike.com/de/w?q=Mens+Baltoro",
-    "source": "Sneaker News",
-    "added_at": "2026-05-18T22:04:06.002114+00:00"
-  },
-  {
-    "id": "nike-gives-the-air-max-95-a-multicolor-woven-upgrade-for-sum",
-    "title": "Nike Gives the Air Max 95 a Multicolor Woven Upgrade for Summer 2026",
-    "brand": "Just Fresh Kicks",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/04/nike-air-max-95-woven-multi-color-2026-3-1-e1775066609805.webp",
-    "buy_url": "https://justfreshkicks.com/nike-air-max-95-woven-multi/",
-    "source": "Just Fresh Kicks",
-    "added_at": "2026-05-18T20:45:16.819110+00:00"
-  },
-  {
-    "id": "devin-booker-s-dogs-inspire-the-nike-book-2-haven-and-hector",
-    "title": "Devin Booker’s Dogs Inspire The Nike Book 2 “Haven And Hector”",
-    "brand": "Sneaker News",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-book-2-haven-and-hector-ix1832-001-5.jpg",
-    "buy_url": "https://www.nike.com/de/w?q=Mens+Book+2",
-    "source": "Sneaker News",
-    "added_at": "2026-05-18T18:33:04.832480+00:00"
-  },
-  {
-    "id": "la-nike-air-force-1-low-protro-denim-pe-arrive-pour-le-grand",
-    "title": "La Nike Air Force 1 Low Protro Denim PE arrive pour le grand public",
-    "brand": "FitThemAll",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": null,
-    "buy_url": "https://fitthemall.fr/la-nike-air-force-1-low-protro-denim-pe-arrive-pour-le-grand-public/",
-    "source": "FitThemAll",
-    "added_at": "2026-05-18T14:33:56.901791+00:00"
-  },
-  {
-    "id": "star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr",
-    "title": "Star Wars The Mandalorian x adidas Adizero Evo SL ATR",
-    "brand": "Sneakers.fr",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/star-wars-mandalorian-x-adidas-adizero-evo-sl-atr-1-380x380.jpg",
-    "buy_url": "https://www.sneakers.fr/star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr/",
-    "source": "Sneakers.fr",
-    "added_at": "2026-05-18T08:19:11.609960+00:00"
-  },
-  {
-    "id": "nike-mind-001-flyknit-hyper-royal",
-    "title": "Nike Mind 001 Flyknit Hyper Royal",
-    "brand": "Nike",
-    "date": "2026-06-04",
-    "price": 90,
-    "image_url": "https://statics.whentocop.fr/media/unGtpbgmmflr/tmpnike-mind-001-flyknit-hyper-royal-ir2175-400-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
-    "buy_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "90€"
-      },
-      {
-        "name": "Footshop",
-        "url": "https://www.footshop.eu",
-        "price": "90€",
-        "raffle": true
-      },
-      {
-        "name": "Urbanstar",
-        "url": "https://www.urbanstaronline.com",
-        "price": "90€",
-        "raffle": true
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "115€",
-        "resell": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-mind-001-flyknit-hyper-royal",
-        "price": "122€",
-        "resell": true
-      }
-    ]
-  },
-  {
-    "id": "nike-mind-002-flyknit-qs-pure-platinum",
-    "title": "Nike Mind 002 Flyknit Qs Pure Platinum",
-    "brand": "Nike",
-    "date": "2026-05-26",
-    "price": 145,
-    "image_url": "https://statics.whentocop.fr/media/pxwtEM54ykVS/tmpnike-mind-002-flyknit-qs-pure-platinum-ir2176-100-4-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
-    "buy_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "145€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-mind-002-flyknit-qs-pure-platinum",
-        "price": "355€",
-        "resell": true
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "resell": true
-      }
-    ]
-  },
-  {
-    "id": "nike-air-max-90-photon-dust-blue-cyber",
-    "title": "Nike Air Max 90 Photon Dust Blue Cyber",
-    "brand": "Nike",
-    "date": "2026-05-26",
-    "price": 124,
-    "image_url": "https://statics.whentocop.fr/media/wAkgjgcBnMsm/tmpnike-air-max-90-photon-dust-and-blue-cyber-iu7543-025-s4-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
-    "buy_url": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "160€"
-      },
-      {
-        "name": "Size?",
-        "url": "https://www.size.co.uk",
-        "price": "160€"
-      },
-      {
-        "name": "Footpatrol",
-        "url": "https://www.footpatrol.com",
-        "price": "160€"
-      },
-      {
-        "name": "43einhalb",
-        "url": "https://www.43einhalb.com",
-        "price": "160€"
-      },
-      {
-        "name": "FootDistrict",
-        "url": "https://www.footdistrict.com",
-        "price": "160€"
-      },
-      {
-        "name": "Offspring",
-        "url": "https://www.offspring.co.uk",
-        "price": "160€"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.solebox.com",
-        "price": "160€"
-      },
-      {
-        "name": "Footshop",
-        "url": "https://www.footshop.eu",
-        "price": "160€",
-        "raffle": true
-      },
-      {
-        "name": "Noirfonce",
-        "url": "https://www.noirfonce.eu",
-        "price": "120€",
-        "resell": true
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "240€",
-        "resell": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-max-90-photon-dust-blue-cyber",
-        "price": "316€",
-        "resell": true
-      }
-    ]
-  },
-  {
-    "id": "asphaltgold-x-puma-h-street-saffron-coffee-milk",
-    "title": "Asphaltgold X Puma H-Street Saffron Coffee Milk",
-    "brand": "Puma",
-    "date": "2026-05-27",
-    "price": 110,
-    "image_url": "https://statics.whentocop.fr/media/YkJrJzIg4DGH/tmppuma-x-asphaltgold-h-street-saffron-coffee-milk-408616-01-4-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/asphaltgold-puma-h-street-saffron-coffee-milk-408616-01",
-    "buy_url": "https://www.whentocop.fr/drops/asphaltgold-puma-h-street-saffron-coffee-milk-408616-01",
-    "retailers": [
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "110€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon",
-    "title": "Kids Of Immigrants X Nike T90 Mule Velvet Brown Orange Horizon",
-    "brand": "Nike",
-    "date": "2026-05-27",
-    "price": "120€",
-    "image_url": "https://statics.whentocop.fr/media/sU0iafNrkeSy/tmpKids-of-Immigrants-x-Nike-T90-Mule_Velvet-Brown-Orange-Horizon_IH4422-201_img0-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
-    "buy_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-t90-mule-velvet-brown-orange-horizon-ih4422-201",
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "120€"
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "resell": true
-      }
-    ]
-  },
-  {
-    "id": "auralee-x-new-balance-204l-brown",
-    "title": "Auralee X New Balance 204l Brown",
-    "brand": "New Balance",
-    "date": "2026-05-29",
-    "price": 160,
-    "image_url": "https://statics.whentocop.fr/media/G50aJDDl2eZF/tmpauralee-x-new-balance-204l-ganache-black-bean-u204l5i7-4-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-brown-u204l5i7",
-    "buy_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-brown-u204l5i7",
-    "retailers": [
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "272€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "454€",
-        "resell": true,
-        "raffle": false
-      }
-    ]
   },
   {
     "id": "auralee-x-new-balance-204l-cream",
@@ -922,6 +534,90 @@
     ]
   },
   {
+    "id": "bad-bunny-adidas-ballerina-flamboyan-2026",
+    "title": "Bad Bunny x Adidas Ballerina Flamboyan",
+    "brand": "Adidas",
+    "colorway": "Flamboyan Pink/White",
+    "date": "2026-05-29",
+    "price": 120,
+    "image_url": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F01%2F27%2FBad-Bunny-adidas-Ballerina-Flamboyan-KI7916-Official-Images-1.jpg?q=75&w=800&cbr=1&fit=max",
+    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com",
+    "in_stock": true,
+    "wtc_url": "https://www.whentocop.fr/drops/bad-bunny-adidas-ballerina-flamboyan-ki7916",
+    "resell": 280,
+    "raffle": true,
+    "raffle_url": "https://www.adidas.fr/confirmed",
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "120€",
+        "type": "raffle"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-ballerina-bad-bunny-flamboyan",
+        "price": "183€",
+        "resell": true,
+        "type": "resell"
+      },
+      {
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com",
+        "price": "120€",
+        "resell": false,
+        "type": "raffle"
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/adidas-x-bad-bunny-ballerina-flamboyan-2026",
+        "price": "190€",
+        "resell": true,
+        "type": "resell"
+      },
+      {
+        "name": "Limited Resell",
+        "url": "https://limitedresell.com/7310-adidas-ballerina-bad-bunny-flamboyan.html",
+        "price": "225€",
+        "resell": true,
+        "type": "resell"
+      }
+    ]
+  },
+  {
+    "id": "auralee-x-new-balance-204l-brown",
+    "title": "Auralee X New Balance 204l Brown",
+    "brand": "New Balance",
+    "date": "2026-05-29",
+    "price": 160,
+    "image_url": "https://statics.whentocop.fr/media/G50aJDDl2eZF/tmpauralee-x-new-balance-204l-ganache-black-bean-u204l5i7-4-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-brown-u204l5i7",
+    "buy_url": "https://www.whentocop.fr/drops/auralee-new-balance-204l-brown-u204l5i7",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "272€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "454€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
+  },
+  {
     "id": "air-jordan-3-retro-worlds-best-dad",
     "title": "Air Jordan 3 Retro Worlds Best Dad",
     "brand": "Jordan",
@@ -1026,17 +722,6 @@
     "raffle": true
   },
   {
-    "id": "new-balance-933-grey-days",
-    "title": "New Balance 933 Grey Days",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 135,
-    "image_url": "https://statics.whentocop.fr/media/txh3kPQYIens/tmpnew-balance-933-grey-days-nm933gey-4-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/new-balance-933-grey-days-nm933gey",
-    "buy_url": "https://www.whentocop.fr/drops/new-balance-933-grey-days-nm933gey",
-    "retailers": []
-  },
-  {
     "id": "new-balance-mt10t-fire-cracker",
     "title": "New Balance Mt10t Fire Cracker",
     "brand": "New Balance",
@@ -1071,46 +756,6 @@
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
         "price": "261€",
-        "resell": true,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "adidas-believe-that-1-core-black",
-    "title": "Adidas Believe That 1 Core Black",
-    "brand": "Adidas",
-    "date": "2026-06-01",
-    "price": 100,
-    "image_url": "https://statics.whentocop.fr/media/Dg92MOceYGvm/tmp000000_adidas-Believe-That-1_Core-Black_KJ3147_img2-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-core-black-kj3147",
-    "buy_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-core-black-kj3147",
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.bstn.com",
-        "price": "100€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr",
-        "price": "100€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "128€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "147€",
         "resell": true,
         "raffle": false
       }
@@ -1322,42 +967,6 @@
     ]
   },
   {
-    "id": "new-balance-2010-neptune-grey-shadow-blue",
-    "title": "New Balance 2010 Neptune Grey Shadow Blue",
-    "brand": "New Balance",
-    "date": "2026-05-24",
-    "price": 170,
-    "image_url": "https://statics.whentocop.fr/media/aworOHoSKDVs/tmpnew-balance-2010-neptune-grey-shadow-blue-u20107pt-4-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-neptune-grey-shadow-blue-u20107pt",
-    "buy_url": "https://www.whentocop.fr/drops/new-balance-2010-neptune-grey-shadow-blue-u20107pt",
-    "retailers": [
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.com/fr/"
-      },
-      {
-        "name": "Afew",
-        "url": "https://www.afew-store.com"
-      },
-      {
-        "name": "Courir",
-        "url": "https://www.courir.com"
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com"
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com"
-      }
-    ]
-  },
-  {
     "id": "adidas-adizero-evo-sl-crystal-white-luta",
     "title": "Adidas Adizero Evo Sl Crystal White Luta",
     "brand": "Adidas",
@@ -1424,5 +1033,566 @@
         "url": "https://stockx.com"
       }
     ]
+  },
+  {
+    "id": "adidas-believe-that-1-core-black",
+    "title": "Adidas Believe That 1 Core Black",
+    "brand": "Adidas",
+    "date": "2026-06-01",
+    "price": 100,
+    "image_url": "https://statics.whentocop.fr/media/Dg92MOceYGvm/tmp000000_adidas-Believe-That-1_Core-Black_KJ3147_img2-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-core-black-kj3147",
+    "buy_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-core-black-kj3147",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "100€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "128€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "147€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "new-balance-5030-black-silver",
+    "title": "New Balance 5030 Black Silver",
+    "brand": "New Balance",
+    "date": "2026-06-01",
+    "price": 130,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "nike-pegasus-premium-sp-black-sail",
+    "title": "Nike Pegasus Premium SP Black Sail",
+    "brand": "Nike",
+    "date": "2026-06-01",
+    "price": 210,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "adidas-a-e-2-coral-red",
+    "title": "Adidas A.E. 2 Coral Red",
+    "brand": "Adidas",
+    "date": "2026-06-01",
+    "price": 130,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "nike-pegasus-premium-sp-white-black",
+    "title": "Nike Pegasus Premium SP White Black",
+    "brand": "Nike",
+    "date": "2026-06-01",
+    "price": 210,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
+    "title": "Adidas Adizero Evo SL Exo Cloud White Black Grey",
+    "brand": "Adidas",
+    "date": "2026-06-01",
+    "price": 150,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+    "title": "Bape x Adidas Adizero Evo SL White Gold Pink Blue",
+    "brand": "Adidas",
+    "date": "2026-06-01",
+    "price": 200,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "nike-air-max-90-infrared-3m-2026",
+    "title": "Nike Air Max 90 Infrared 3M 2026",
+    "brand": "Nike",
+    "date": "2026-06-01",
+    "price": 150,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "adidas-adizero-prime-x-evo-cloud-white",
+    "title": "Adidas Adizero Prime X Evo Cloud White",
+    "brand": "Adidas",
+    "date": "2026-06-01",
+    "price": 500,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
+    "title": "McDonald’s x Nike Book 2 “Sedona”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "2026-06-02",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-book-2-mcdonalds-sedona-IR6443-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-16T22:02:47.708688+00:00",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "154.99€"
+      }
+    ]
+  },
+  {
+    "id": "nike-rift-2-kenya",
+    "title": "Nike Rift 2 Kenya",
+    "brand": "Nike",
+    "date": "2026-06-02",
+    "price": 130,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
+    "title": "Nike Air Trainer SC “Atlanta Olympics 30th Anniversary”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "2026-06-03",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2022/06/nike-air-trainer-sc-high-raiders-black-grey-white-DX3764-001-release-date-info.jpeg",
+    "buy_url": "https://www.nike.com/w?q=Nike Air Trainer SC&amp;vst=Nike Air Trainer SC",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-29T00:09:34.422569+00:00"
+  },
+  {
+    "id": "nike-mind-001-flyknit-hyper-royal",
+    "title": "Nike Mind 001 Flyknit Hyper Royal",
+    "brand": "Nike",
+    "date": "2026-06-04",
+    "price": 90,
+    "image_url": "https://statics.whentocop.fr/media/unGtpbgmmflr/tmpnike-mind-001-flyknit-hyper-royal-ir2175-400-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
+    "buy_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "90€"
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "90€",
+        "raffle": true
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstaronline.com",
+        "price": "90€",
+        "raffle": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "115€",
+        "resell": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-mind-001-flyknit-hyper-royal",
+        "price": "122€",
+        "resell": true
+      }
+    ]
+  },
+  {
+    "id": "nike-air-max-95-og-fresh-mint",
+    "title": "Nike Air Max 95 OG Fresh Mint",
+    "brand": "Nike",
+    "date": "2026-06-04",
+    "price": 190,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "renegade-x-nike-vomero-premium-brown-basalt",
+    "title": "Renegade x Nike Vomero Premium Brown Basalt",
+    "brand": "Nike",
+    "date": "2026-06-04",
+    "price": 240,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "renegade-x-nike-vaporfly-4-brown-basalt",
+    "title": "Renegade x Nike Vaporfly 4 Brown Basalt",
+    "brand": "Nike",
+    "date": "2026-06-04",
+    "price": 270,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "nike-air-max-90-cool-grey",
+    "title": "Nike Air Max 90 Cool Grey",
+    "brand": "Nike",
+    "date": "2026-06-05",
+    "price": 160,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "nike-mind-001-flyknit-bronze-eclipse",
+    "title": "Nike Mind 001 Flyknit Bronze Eclipse",
+    "brand": "Nike",
+    "date": "2026-06-05",
+    "price": 90,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
+    "title": "Air Jordan 1 Low OG “Phantom Pine Green”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "2026-06-06",
+    "price": "159.99€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-1-low-og-phantom-pine-green-IR2283-030-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/t/air-jordan-1-low-og-phantom-and-pine-green",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-29T00:09:57.841600+00:00"
+  },
+  {
+    "id": "adidas-tangum-white-power-green",
+    "title": "Adidas Tangum White Power Green",
+    "brand": "Adidas",
+    "date": "2026-06-06",
+    "price": 120,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "adidas-sc-premiere-cloud-white-power-green",
+    "title": "Adidas SC Premiere Cloud White Power Green",
+    "brand": "Adidas",
+    "date": "2026-06-06",
+    "price": 140,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "adidas-powerphase-cloud-white-power-green",
+    "title": "Adidas Powerphase Cloud White Power Green",
+    "brand": "Adidas",
+    "date": "2026-06-06",
+    "price": 120,
+    "currency": "EUR",
+    "image": "",
+    "retailers": []
+  },
+  {
+    "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
+    "title": "Nike Air Max 1 City Connect “Baltimore Orioles”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "2026-06-08",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-baltimore-orioles-IQ2894-100-1024x725.jpg",
+    "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-baltimore-orioles/",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-29T00:09:50.450229+00:00"
+  },
+  {
+    "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
+    "title": "Nike Air Max 1 City Connect “Kansas City Royals”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "2026-06-09",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-kansas-city-royal-IQ2916-100-1024x725.jpg",
+    "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-kansas-city-royals/",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-29T00:09:42.864231+00:00"
+  },
+  {
+    "id": "nike-kd-19-field-purple-releases-june-2026",
+    "title": "Nike KD 19 “Field Purple”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "2026-06-17",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-kd-19-field-purple-stuff-IH1117-500-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-16T22:02:39.779561+00:00"
+  },
+  {
+    "id": "air-jordan-17-low-black-patent-releases-august-2026",
+    "title": "Air Jordan 17 Low “Black Patent”",
+    "brand": "Jordan Brand",
+    "colorway": "",
+    "date": "2026-08-08",
+    "price": "139.99€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-17-low-black-patent-2026-release-details-1024x725.jpg",
+    "buy_url": null,
+    "source": "Sneaker Files",
+    "added_at": "2026-05-06T21:04:50.401377+00:00",
+    "wtc_url": null,
+    "resell": 200,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "139.99€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "resell": true
+      }
+    ]
+  },
+  {
+    "id": "nike-air-more-uptempo-og-black-white-returns-september-2026",
+    "title": "Nike Air More Uptempo OG “Black White”",
+    "brand": "Nike",
+    "colorway": "",
+    "date": "2026-09-25",
+    "price": "150€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/nike-air-more-uptempo-og-black-white-2026-FV2291-001-1024x725.jpg",
+    "buy_url": null,
+    "source": "Sneaker Files",
+    "added_at": "2026-05-05T20:50:34.341369+00:00",
+    "wtc_url": null,
+    "resell": 160,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "150€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "resell": true
+      }
+    ]
+  },
+  {
+    "id": "a-ma-mani-re-x-nike-pegasus-premium-timing-is-everything-rel",
+    "title": "A Ma Maniére x Nike Pegasus Premium “Timing Is Everything”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/a-ma-maniere-nike-pegasus-premium-timing-is-everything-1024x725.jpg",
+    "buy_url": "https://www.sneakerfiles.com/a-ma-maniere-nike-pegasus-premium/",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-29T00:09:27.663748+00:00"
+  },
+  {
+    "id": "nike-air-zoom-huarache-2k4-knicks-pe-releases-fall-2026",
+    "title": "Nike Air Zoom Huarache 2K4 “Knicks” PE",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": "$210",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2016/05/nike-air-zoom-huarache-2k4-uconn-midnight-navy-university-red-review-on-feet.jpg",
+    "buy_url": "https://www.nike.com/w/new-shoes-3n82yzy7ok",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-19T21:11:08.231766+00:00"
+  },
+  {
+    "id": "la-brick-after-brick-arrive-le-22-mai-sur-snkrs",
+    "title": "La “Brick After Brick” arrive le 22 mai sur SNKRS",
+    "brand": "FitThemAll",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": null,
+    "buy_url": "https://fitthemall.fr/la-brick-after-brick-arrive-le-22-mai-sur-snkrs/",
+    "source": "FitThemAll",
+    "added_at": "2026-05-19T14:45:44.335620+00:00"
+  },
+  {
+    "id": "nike-kobe-9-em-low-protro-draft-day-releases-june-2026",
+    "title": "Nike Kobe 9 EM Low Protro “Draft Day”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": "125.99€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-kobe-9-em-low-protro-hornets-draft-day-IM6119-500-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w/kobe-pgd6",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-19T08:27:19.521894+00:00"
+  },
+  {
+    "id": "nike-air-rift-2-kenya-returns-summer-2026",
+    "title": "Nike Air Rift 2 “Kenya”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2023/05/nike-air-rift-kenya-fn7772-001.jpeg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-19T08:06:05.067593+00:00"
+  },
+  {
+    "id": "nike-sb-dunk-low-green-patent-releases-holiday-2026",
+    "title": "Nike SB Dunk Low “Green Patent”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-sb-dunk-low-green-patent-IQ0431-300-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-19T07:55:21.635429+00:00"
+  },
+  {
+    "id": "nike-air-max-95-scorpion",
+    "title": "Nike Air Max 95 Scorpion",
+    "brand": "Sneakers.fr",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/nike-air-max-95-scorpion-1-380x380.jpeg",
+    "buy_url": "https://www.sneakers.fr/nike-air-max-95-scorpion/",
+    "source": "Sneakers.fr",
+    "added_at": "2026-05-19T07:49:56.592667+00:00"
+  },
+  {
+    "id": "nike-mind-001-cucumber-calm-releases-summer-2026",
+    "title": "Nike Mind 001 “Cucumber Calm”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-mind-001-cucumber-calm-HQ4307-302-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=nike mind 001&amp;vst=nike mind 001",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-19T07:44:19.645682+00:00"
+  },
+  {
+    "id": "air-jordan-3-utility-releases-spring-2027",
+    "title": "Air Jordan 3 “Utility”",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-3-utility-black-fire-red-IX0198-001-2027-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=air jordan 3&amp;vst=air jordan 3",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-18T22:36:37.864535+00:00"
+  },
+  {
+    "id": "the-nike-baltoro-makes-a-summer-cameo-in-chalk-safety-orange",
+    "title": "The Nike Baltoro Makes A Summer Cameo In “Chalk/Safety Orange”",
+    "brand": "Sneaker News",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-baltoro-chalk-sail-safety-orange-black-io4556-100-2.jpg",
+    "buy_url": "https://www.nike.com/de/w?q=Mens+Baltoro",
+    "source": "Sneaker News",
+    "added_at": "2026-05-18T22:04:06.002114+00:00"
+  },
+  {
+    "id": "nike-gives-the-air-max-95-a-multicolor-woven-upgrade-for-sum",
+    "title": "Nike Gives the Air Max 95 a Multicolor Woven Upgrade for Summer 2026",
+    "brand": "Just Fresh Kicks",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/04/nike-air-max-95-woven-multi-color-2026-3-1-e1775066609805.webp",
+    "buy_url": "https://justfreshkicks.com/nike-air-max-95-woven-multi/",
+    "source": "Just Fresh Kicks",
+    "added_at": "2026-05-18T20:45:16.819110+00:00"
+  },
+  {
+    "id": "devin-booker-s-dogs-inspire-the-nike-book-2-haven-and-hector",
+    "title": "Devin Booker’s Dogs Inspire The Nike Book 2 “Haven And Hector”",
+    "brand": "Sneaker News",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-book-2-haven-and-hector-ix1832-001-5.jpg",
+    "buy_url": "https://www.nike.com/de/w?q=Mens+Book+2",
+    "source": "Sneaker News",
+    "added_at": "2026-05-18T18:33:04.832480+00:00"
+  },
+  {
+    "id": "la-nike-air-force-1-low-protro-denim-pe-arrive-pour-le-grand",
+    "title": "La Nike Air Force 1 Low Protro Denim PE arrive pour le grand public",
+    "brand": "FitThemAll",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": null,
+    "buy_url": "https://fitthemall.fr/la-nike-air-force-1-low-protro-denim-pe-arrive-pour-le-grand-public/",
+    "source": "FitThemAll",
+    "added_at": "2026-05-18T14:33:56.901791+00:00"
+  },
+  {
+    "id": "star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr",
+    "title": "Star Wars The Mandalorian x adidas Adizero Evo SL ATR",
+    "brand": "Sneakers.fr",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/star-wars-mandalorian-x-adidas-adizero-evo-sl-atr-1-380x380.jpg",
+    "buy_url": "https://www.sneakers.fr/star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr/",
+    "source": "Sneakers.fr",
+    "added_at": "2026-05-18T08:19:11.609960+00:00"
+  },
+  {
+    "id": "new-balance-933-grey-days",
+    "title": "New Balance 933 Grey Days",
+    "brand": "New Balance",
+    "date": "TBD",
+    "price": 135,
+    "image_url": "https://statics.whentocop.fr/media/txh3kPQYIens/tmpnew-balance-933-grey-days-nm933gey-4-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-933-grey-days-nm933gey",
+    "buy_url": "https://www.whentocop.fr/drops/new-balance-933-grey-days-nm933gey",
+    "retailers": []
   }
 ]
