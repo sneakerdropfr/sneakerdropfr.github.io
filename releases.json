@@ -926,31 +926,38 @@
     "retailers": [
       {
         "name": "New Balance",
-        "url": "https://www.newbalance.com/fr/"
+        "url": "https://www.newbalance.fr",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "BSTN",
-        "url": "https://www.bstn.com"
+        "url": "https://www.bstn.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "43einhalb",
-        "url": "https://www.43einhalb.com"
+        "url": "https://www.43einhalb.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Afew",
-        "url": "https://www.afew-store.com"
+        "url": "https://www.afew-store.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
       },
       {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com"
-      },
-      {
-        "name": "Slam Jam",
-        "url": "https://www.slamjam.com"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.snipes.com/fr"
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "93€",
+        "resell": true,
+        "raffle": false
       }
     ]
   },
@@ -966,35 +973,59 @@
     "retailers": [
       {
         "name": "New Balance",
-        "url": "https://www.newbalance.com/fr/"
+        "url": "https://www.newbalance.fr",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "BSTN",
-        "url": "https://www.bstn.com"
+        "url": "https://www.bstn.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "43einhalb",
-        "url": "https://www.43einhalb.com"
+        "url": "https://www.43einhalb.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Afew",
-        "url": "https://www.afew-store.com"
+        "url": "https://www.afew-store.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Offspring",
-        "url": "https://www.offspring.co.uk"
+        "url": "https://www.offspring.co.uk",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com"
+        "url": "https://www.asphaltgold.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Naked",
-        "url": "https://www.nakedcph.com"
+        "url": "https://www.nakedcph.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "StockX",
-        "url": "https://stockx.com"
+        "url": "https://stockx.com/fr-fr",
+        "price": "197€",
+        "resell": true,
+        "raffle": false
       }
     ]
   },
@@ -1010,15 +1041,24 @@
     "retailers": [
       {
         "name": "Adidas",
-        "url": "https://www.adidas.fr"
+        "url": "https://www.adidas.fr",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com"
+        "url": "https://www.asphaltgold.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
       },
       {
-        "name": "SportScheck",
-        "url": "https://www.sportscheck.com"
+        "name": "SportsCheck",
+        "url": "https://www.sportscheck.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -1034,35 +1074,59 @@
     "retailers": [
       {
         "name": "New Balance",
-        "url": "https://www.newbalance.com/fr/"
+        "url": "https://www.newbalance.fr",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "BSTN",
-        "url": "https://www.bstn.com"
+        "url": "https://www.bstn.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "43einhalb",
-        "url": "https://www.43einhalb.com"
+        "url": "https://www.43einhalb.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Afew",
-        "url": "https://www.afew-store.com"
+        "url": "https://www.afew-store.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Offspring",
-        "url": "https://www.offspring.co.uk"
+        "url": "https://www.offspring.co.uk",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com"
+        "url": "https://www.asphaltgold.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Naked",
-        "url": "https://www.nakedcph.com"
+        "url": "https://www.nakedcph.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "StockX",
-        "url": "https://stockx.com"
+        "url": "https://stockx.com/fr-fr",
+        "price": "166€",
+        "resell": true,
+        "raffle": false
       }
     ]
   },
@@ -1224,7 +1288,15 @@
     "price": 200,
     "currency": "EUR",
     "image": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Adidas Confirmed",
+        "url": "https://www.adidas.fr",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-air-max-90-infrared-3m-2026",
@@ -1234,7 +1306,36 @@
     "price": 150,
     "currency": "EUR",
     "image": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.slamjam.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "186€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "adidas-adizero-prime-x-evo-cloud-white",
@@ -1244,7 +1345,22 @@
     "price": 500,
     "currency": "EUR",
     "image": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "500€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "1013€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
@@ -1273,7 +1389,57 @@
     "price": 130,
     "currency": "EUR",
     "image": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://www.footdistrict.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "SNS",
+        "url": "https://www.sneakersnstuff.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Naked",
+        "url": "https://www.nakedcph.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstaronline.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
@@ -1285,7 +1451,51 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2022/06/nike-air-trainer-sc-high-raiders-black-grey-white-DX3764-001-release-date-info.jpeg",
     "buy_url": "https://www.nike.com/w?q=Nike Air Trainer SC&amp;vst=Nike Air Trainer SC",
     "source": "Sneaker Files",
-    "added_at": "2026-05-29T00:09:34.422569+00:00"
+    "added_at": "2026-05-29T00:09:34.422569+00:00",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "140€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "303€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "400€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-mind-001-flyknit-hyper-royal",
@@ -1336,7 +1546,36 @@
     "price": 190,
     "currency": "EUR",
     "image": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "190€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "279€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "renegade-x-nike-vomero-premium-brown-basalt",
