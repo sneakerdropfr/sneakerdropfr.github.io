@@ -925,7 +925,7 @@
     "id": "air-jordan-3-retro-worlds-best-dad",
     "title": "Air Jordan 3 Retro Worlds Best Dad",
     "brand": "Jordan",
-    "date": "2026-05-29",
+    "date": "2026-05-30",
     "price": 210,
     "image_url": "https://statics.whentocop.fr/media/p47DZjct6zlW/tmpair-jordan-3-worlds-best-dad-if4396-103-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-worlds-best-dad-if4396-103",
@@ -937,6 +937,20 @@
         "price": "210€",
         "resell": false,
         "type": "raffle"
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "JD Sports",
+        "url": "https://www.jdsports.fr",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Footpatrol",
