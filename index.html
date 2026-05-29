@@ -1208,6 +1208,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   document.addEventListener('click', function(e) {
     var hs = document.getElementById('header-search');
     var overlay = document.getElementById('search-overlay');
+    // Ne pas fermer si clic sur un lien (navigation en cours)
+    if (e.target.closest && e.target.closest('a')) return;
     if (hs && overlay && !hs.contains(e.target) && !overlay.contains(e.target)) {
       overlay.classList.remove('active');
       var inp = document.getElementById('header-search-input');
