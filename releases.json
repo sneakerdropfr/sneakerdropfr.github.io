@@ -1539,54 +1539,30 @@
     "title": "Nike Air Trainer SC “Atlanta Olympics 30th Anniversary”",
     "brand": "Sneaker Files",
     "colorway": "",
-    "date": "2026-06-03",
-    "price": null,
+    "date": "2026-06-02",
+    "price": 140,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2022/06/nike-air-trainer-sc-high-raiders-black-grey-white-DX3764-001-release-date-info.jpeg",
     "buy_url": "https://www.nike.com/w?q=Nike Air Trainer SC&amp;vst=Nike Air Trainer SC",
     "source": "Sneaker Files",
     "added_at": "2026-05-29T00:09:34.422569+00:00",
     "retailers": [
       {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
         "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
+        "url": "https://www.nike.com/fr/launch/t/air-trainer-sc-pro-purple",
+        "price": 140,
+        "type": "official"
       },
       {
         "name": "Afew",
-        "url": "https://www.afew-store.com",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
+        "url": "https://en.afew-store.com/products/nike-air-trainer-sc-sp-pro-purple-white-sail-metallic-gold",
+        "price": 140,
+        "type": "official"
       },
       {
         "name": "Footshop",
-        "url": "https://www.footshop.eu",
-        "price": "140€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "303€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "400€",
-        "resell": true,
-        "raffle": false
+        "url": "https://releases.footshop.com/air-trainer-sc-sp-AUUIT54B855nFHXG3u68",
+        "price": 140,
+        "type": "raffle"
       }
     ]
   },
@@ -1737,11 +1713,42 @@
     "id": "nike-air-max-90-cool-grey",
     "title": "Nike Air Max 90 Cool Grey",
     "brand": "Nike",
-    "date": "2026-06-05",
+    "date": "2026-06-04",
     "price": 160,
     "currency": "EUR",
     "image": "",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fnike%2Fair-max-90-cool-grey",
+        "price": 160,
+        "type": "official"
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://noirfonce.eu/products/nike-air-max-iii-iu7543-065",
+        "price": 160,
+        "type": "official"
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-air-max-90-cool-grey-infrared-23-wave-pack-2026",
+        "price": 225,
+        "type": "resell"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/nike-air-max-3-infrared-23-iu7543-065",
+        "price": 107,
+        "type": "resell"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-max-90-wave-pack-cool-grey-infrared",
+        "price": 135,
+        "type": "resell"
+      }
+    ]
   },
   {
     "id": "nike-mind-001-flyknit-bronze-eclipse",
@@ -2072,18 +2079,6 @@
     "added_at": "2026-05-19T21:11:08.231766+00:00"
   },
   {
-    "id": "la-brick-after-brick-arrive-le-22-mai-sur-snkrs",
-    "title": "La “Brick After Brick” arrive le 22 mai sur SNKRS",
-    "brand": "FitThemAll",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": null,
-    "buy_url": "https://fitthemall.fr/la-brick-after-brick-arrive-le-22-mai-sur-snkrs/",
-    "source": "FitThemAll",
-    "added_at": "2026-05-19T14:45:44.335620+00:00"
-  },
-  {
     "id": "nike-kobe-9-em-low-protro-draft-day-releases-june-2026",
     "title": "Nike Kobe 9 EM Low Protro “Draft Day”",
     "brand": "Sneaker Files",
@@ -2154,54 +2149,6 @@
     "buy_url": "https://www.nike.com/w?q=air jordan 3&amp;vst=air jordan 3",
     "source": "Sneaker Files",
     "added_at": "2026-05-18T22:36:37.864535+00:00"
-  },
-  {
-    "id": "the-nike-baltoro-makes-a-summer-cameo-in-chalk-safety-orange",
-    "title": "The Nike Baltoro Makes A Summer Cameo In “Chalk/Safety Orange”",
-    "brand": "Sneaker News",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-baltoro-chalk-sail-safety-orange-black-io4556-100-2.jpg",
-    "buy_url": "https://www.nike.com/de/w?q=Mens+Baltoro",
-    "source": "Sneaker News",
-    "added_at": "2026-05-18T22:04:06.002114+00:00"
-  },
-  {
-    "id": "nike-gives-the-air-max-95-a-multicolor-woven-upgrade-for-sum",
-    "title": "Nike Gives the Air Max 95 a Multicolor Woven Upgrade for Summer 2026",
-    "brand": "Just Fresh Kicks",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/04/nike-air-max-95-woven-multi-color-2026-3-1-e1775066609805.webp",
-    "buy_url": "https://justfreshkicks.com/nike-air-max-95-woven-multi/",
-    "source": "Just Fresh Kicks",
-    "added_at": "2026-05-18T20:45:16.819110+00:00"
-  },
-  {
-    "id": "devin-booker-s-dogs-inspire-the-nike-book-2-haven-and-hector",
-    "title": "Devin Booker’s Dogs Inspire The Nike Book 2 “Haven And Hector”",
-    "brand": "Sneaker News",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-book-2-haven-and-hector-ix1832-001-5.jpg",
-    "buy_url": "https://www.nike.com/de/w?q=Mens+Book+2",
-    "source": "Sneaker News",
-    "added_at": "2026-05-18T18:33:04.832480+00:00"
-  },
-  {
-    "id": "la-nike-air-force-1-low-protro-denim-pe-arrive-pour-le-grand",
-    "title": "La Nike Air Force 1 Low Protro Denim PE arrive pour le grand public",
-    "brand": "FitThemAll",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": null,
-    "buy_url": "https://fitthemall.fr/la-nike-air-force-1-low-protro-denim-pe-arrive-pour-le-grand-public/",
-    "source": "FitThemAll",
-    "added_at": "2026-05-18T14:33:56.901791+00:00"
   },
   {
     "id": "star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr",
