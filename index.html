@@ -811,6 +811,10 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
         : '<div class="drop-card__img-placeholder">👟</div>';
       var isDropToday = isToday(r.date);
+      var titleLC = (r.title || '').toLowerCase();
+      var isHypeCollab = ['travis scott','bad bunny','patta','off-white','sacai','fragment','union','kaws','stussy','corteiz'].some(function(k){ return titleLC.indexOf(k) !== -1; });
+      var officialRets = (r.retailers || []).filter(function(rt){ return !rt.resell && !rt.raffle; });
+      var isLimitedDrop = officialRets.length > 0 && officialRets.length <= 3;
       var badgeTop = released
         ? '<div class="drop-card__badge-top badge-week">🔥 Dispo</div>'
         : (isDropToday
@@ -818,6 +822,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             : (isSoon(r.date)
                 ? '<div class="drop-card__badge-top badge-hot">⏰ Cette semaine</div>'
                 : '<div class="drop-card__badge-top badge-upcoming">📅 À venir</div>'));
+      if (isHypeCollab && !released) badgeTop = '<div class="drop-card__badge-top badge-hype">⚡ Très attendu</div>';
+      else if (isLimitedDrop && !released && !isDropToday) badgeTop += '<div class="drop-card__badge-top" style="position:absolute;top:2.2rem;left:.65rem;background:#FF3B30;color:#fff;font-family:var(--font-cond);font-size:.6rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;padding:.2rem .5rem;border-radius:3px;">🚨 Stock limité</div>';
       var urgency = released ? '⚠️ Stock limité' : (!r.date || r.date === 'TBD' ? 'DROP À VENIR' : '');
       var urgencyClass = released ? 'drop-card__stock' : 'drop-card__stock drop-card__stock--upcoming';
       var hasLink = (r.retailers && r.retailers.length) || r.buy_url || r.wtc_url;
