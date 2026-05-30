@@ -6,6 +6,13 @@ on:
     paths-ignore:
       - 'sitemap.xml'
       - '.github/**'
+      - 'releases.json'
+      - 'releases_snapshot.json'
+      - 'weekly_data.json'
+
+concurrency:
+  group: sitemap
+  cancel-in-progress: true
 
 jobs:
   sitemap:
@@ -19,6 +26,9 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Pull latest
+        run: git pull --rebase origin main || true
+
       - name: Generate sitemap
         run: python3 generate_sitemap.py
 
@@ -27,3 +37,4 @@ jobs:
         with:
           commit_message: "sitemap: mise a jour automatique [skip ci]"
           file_pattern: sitemap.xml
+        continue-on-error: true
