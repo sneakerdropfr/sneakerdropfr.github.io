@@ -366,7 +366,7 @@
       .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function(data) {
         var upcoming = data.filter(function(r) {
-          return r.id && !r.id.startsWith('test-') && isFutureOrToday(r.date) && getScore(r) >= 90;
+          return r.id && !r.id.startsWith('test-') && isFutureOrToday(r.date) && getScore(r) >= 60;
         });
         allData = upcoming.slice().sort(function(a, b) { return getScore(b) - getScore(a); });
         var grid = document.getElementById('hype-grid');
