@@ -123,61 +123,79 @@
         {
           "name": "Nike SNKRS",
           "url": "https://www.nike.com/fr/launch",
-          "price": "160€"
+          "price": "160€",
+          "raffle": false,
+          "resell": false
         },
         {
           "name": "Size?",
           "url": "https://www.size.co.uk",
-          "price": "160€"
+          "price": "160€",
+          "raffle": false,
+          "resell": false
         },
         {
           "name": "Footpatrol",
           "url": "https://www.footpatrol.com",
-          "price": "160€"
+          "price": "160€",
+          "raffle": false,
+          "resell": false
         },
         {
           "name": "43einhalb",
           "url": "https://www.43einhalb.com",
-          "price": "160€"
+          "price": "160€",
+          "raffle": false,
+          "resell": false
         },
         {
           "name": "FootDistrict",
           "url": "https://www.footdistrict.com",
-          "price": "160€"
+          "price": "160€",
+          "raffle": false,
+          "resell": false
         },
         {
           "name": "Offspring",
           "url": "https://www.offspring.co.uk",
-          "price": "160€"
+          "price": "160€",
+          "raffle": false,
+          "resell": false
         },
         {
           "name": "Solebox",
           "url": "https://www.solebox.com",
-          "price": "160€"
+          "price": "160€",
+          "raffle": false,
+          "resell": false
         },
         {
           "name": "Footshop",
           "url": "https://www.footshop.eu",
           "price": "160€",
-          "raffle": true
+          "raffle": true,
+          "resell": false
         },
         {
           "name": "Noirfonce",
           "url": "https://www.noirfonce.eu",
           "price": "120€",
-          "resell": true
+          "resell": true,
+          "raffle": false
         },
         {
           "name": "GOAT",
           "url": "https://www.goat.com",
           "price": "240€",
-          "resell": true
+          "resell": true,
+          "raffle": false
         },
         {
           "name": "StockX",
           "url": "https://stockx.com/fr-fr/nike-air-max-90-photon-dust-blue-cyber",
           "price": "316€",
-          "resell": true
+          "resell": true,
+          "raffle": false
         }
       ],
       "id": "nike-air-max-90-photon-dust-blue-cyber"
@@ -260,12 +278,15 @@
         {
           "name": "Nike SNKRS",
           "url": "https://www.nike.com/fr/launch",
-          "price": "120€"
+          "price": "120€",
+          "raffle": false,
+          "resell": false
         },
         {
           "name": "GOAT",
           "url": "https://www.goat.com",
-          "resell": true
+          "resell": true,
+          "raffle": false
         }
       ],
       "id": "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon"
@@ -287,13 +308,15 @@
           "name": "StockX",
           "url": "https://stockx.com/fr-fr/nike-total-90-mule-kids-of-immigrants-khaki",
           "price": "420€",
-          "resell": true
+          "resell": true,
+          "raffle": false
         },
         {
           "name": "Nike SNKRS",
           "url": "https://www.nike.com/launch/t/nike-kids-of-immigrants-koi-t90-mule",
           "price": "120€",
-          "resell": false
+          "resell": false,
+          "raffle": false
         }
       ],
       "id": "kids-of-immigrants-x-nike-t90-mule-khaki-fusion-red"
