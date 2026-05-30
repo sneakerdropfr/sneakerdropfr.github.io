@@ -318,18 +318,26 @@
       var official = rets.filter(function(rt){ return !isRetailerResell(rt.name); });
       var html = '';
       if (official.length) {
+        var officialShown = official.slice(0, 3);
+        var hasMore = official.length > 3;
+        var sortiePage = r.id ? '/sorties/' + r.id + '.html' : null;
         html += '<div class="retailers-label">Acheter</div><div class="retailers-row">';
-        official.forEach(function(rt) {
+        officialShown.forEach(function(rt) {
           var cls = isRetailerBSTN(rt.name) ? 'btn-retailer btn-retailer--bstn'
                   : isRetailerNike(rt.name) ? 'btn-retailer btn-retailer--nike'
                   : 'btn-retailer btn-retailer--official';
           var icon = isRetailerBSTN(rt.name) ? '🛒 ' : isRetailerNike(rt.name) ? '✓ ' : '';
           var priceStr = rt.price ? ' <span style="opacity:.6;font-size:.65rem">' + rt.price + '</span>' : '';
-          html += '<a href="' + rt.url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN(\'' + safeTitle(rt.name + ' - ' + (r.title||'')) + '\')">' + icon + escapeHtml(rt.name) + priceStr + '</a>';
+          html += '<a href="' + rt.url + '" target="_blank" rel="noopener" class="' + cls + '">'
+                + icon + escapeHtml(rt.name) + priceStr + '</a>';
         });
+        if (hasMore && sortiePage) {
+          html += '<a href="' + sortiePage + '" class="btn-retailer btn-retailer--more">+' + (official.length - 3) + ' voir tout →</a>';
+        }
         html += '</div>';
       }
       return html || makeBtn(r, isBig);
+    }
     }
     function isReleased(d) { if (!d||d==='TBD') return false; var t=new Date(); t.setHours(0,0,0,0); return new Date(d)<t; }
     function makeBtn(r, isBig) {
