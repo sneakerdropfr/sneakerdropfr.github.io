@@ -373,8 +373,22 @@
     fetch(RELEASES_URL)
       .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function(data) {
+        var now = new Date();
+        var thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
         var upcoming = data.filter(function(r) {
-          return r.id && !r.id.startsWith('test-') && isFutureOrToday(r.date) && getScore(r) >= 60;
+          if (!r.id || r.id.startsWith('test-')) return false;
+          var score = getScore(r);
+          if (score < 60) return false;
+          // Paires raffle toujours visibles (inscriptions actives)
+          if (r.raffle) return true;
+          // Paires à venir ou TBD
+          if (isFutureOrToday(r.date)) return true;
+          // Paires récentes (< 30 jours) avec score élevé — encore pertinentes
+          if (r.date && r.date !== 'TBD') {
+            var d = new Date(r.date + 'T00:00:00');
+            if (d >= thirtyDaysAgo) return true;
+          }
+          return false;
         });
         allData = upcoming.slice().sort(function(a, b) { return getScore(b) - getScore(a); });
         var grid = document.getElementById('hype-grid');
