@@ -1,53 +1,5 @@
 [
   {
-    "id": "new-balance-2010-neptune-grey-shadow-blue",
-    "title": "New Balance 2010 Neptune Grey Shadow Blue",
-    "brand": "New Balance",
-    "date": "2026-05-24",
-    "price": 170,
-    "image_url": "https://statics.whentocop.fr/media/aworOHoSKDVs/tmpnew-balance-2010-neptune-grey-shadow-blue-u20107pt-4-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-neptune-grey-shadow-blue-u20107pt",
-    "buy_url": "https://www.whentocop.fr/drops/new-balance-2010-neptune-grey-shadow-blue-u20107pt",
-    "retailers": [
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.com/fr/",
-        "raffle": false,
-        "resell": false
-      },
-      {
-        "name": "Afew",
-        "url": "https://www.afew-store.com",
-        "raffle": false,
-        "resell": false
-      },
-      {
-        "name": "Courir",
-        "url": "https://www.courir.com",
-        "raffle": false,
-        "resell": false
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "raffle": false,
-        "resell": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com",
-        "raffle": false,
-        "resell": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "raffle": false,
-        "resell": false
-      }
-    ]
-  },
-  {
     "id": "virgil-abloh-x-nike-air-force-1-low-sesame",
     "title": "Virgil Abloh x Nike Air Force 1 Low Sesame",
     "brand": "Nike",
@@ -830,67 +782,6 @@
     ],
     "sku": "JF4396-103",
     "raffle": true
-  },
-  {
-    "id": "air-jordan-4-retro-toro-bravo-2026",
-    "title": "Air Jordan 4 Retro Toro Bravo",
-    "brand": "Jordan",
-    "date": "2026-05-02",
-    "price": 220,
-    "currency": "EUR",
-    "image": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/date-de-sortie-de-la-air-jordan%C2%A04-toro-bravo-%C2%AB%C2%A0fire-red-and-black%C2%A0%C2%BB-fq8138-600.jpg",
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "JD Sports",
-        "url": "https://www.jdsports.fr",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.snipes.com/c/sneakers",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "BSTN",
-        "url": "https://www.bstn.com/fr/sneakers/",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-4-retro-toro-bravo-2026",
-        "price": "220€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/air-jordan-4-retro-toro-bravo-2026",
-        "price": "220€",
-        "resell": true,
-        "raffle": false
-      }
-    ],
-    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/date-de-sortie-de-la-air-jordan%C2%A04-toro-bravo-%C2%AB%C2%A0fire-red-and-black%C2%A0%C2%BB-fq8138-600.jpg"
   },
   {
     "id": "new-balance-mt10t-fire-cracker",
