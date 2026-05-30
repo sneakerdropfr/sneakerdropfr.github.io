@@ -112,16 +112,19 @@ def short_meta_desc(r: dict) -> str:
     title = r.get("title", "").strip()
     date_fr = format_date_fr(r.get("date"))
     price = format_price(r.get("price"))
-    parts = [title]
-    if date_fr != "TBD":
-        parts.append(f"Sortie : {date_fr}")
+    rets = r.get("retailers") or []
+    retail_names = [rt.get("name","") for rt in rets if not rt.get("resell") and not rt.get("raffle")]
+    desc = "Ou acheter " + title + " au prix retail"
     if price != "TBD":
-        parts.append(f"Prix : {price}")
-    cw = (r.get("colorway") or "").strip()
-    if cw:
-        parts.append(f"Colorway : {cw}")
-    parts.append("Retrouve les liens d'achat et infos sur SneakerDrop FR.")
-    return " — ".join(parts)
+        desc += " a " + price
+    if date_fr != "TBD":
+        desc += ". Sortie le " + date_fr
+    if retail_names:
+        desc += ". Disponible chez " + ", ".join(retail_names[:3])
+        if len(retail_names) > 3:
+            desc += " et " + str(len(retail_names)-3) + " autres retailers"
+    desc += ". Liens et infos sur SneakerDrop FR."
+    return desc
 
 
 def editorial_text(r: dict) -> str:
@@ -270,9 +273,25 @@ def retailers_html(r: dict) -> str:
     html = '<section class="article__retailers"><h2>Où <span>acheter</span></h2>'
 
     if retail:
-        html += '<div class="retailers-section"><h3 class="retailers-section__title">🛒 Retail</h3><div class="retailers-list">'
-        html += "".join(make_row(rt) for rt in retail)
-        html += '</div></div>'
+        shown3 = retail[:3]
+        extra = retail[3:]
+        html += '<div class="retailers-section"><h3 class="retailers-section__title">Retail</h3>'
+        html += '<div class="retailers-list">'
+        for rt3 in shown3:
+            html += make_row(rt3)
+        html += '</div>'
+        if extra:
+            html += '<div class="retailers-accordion" style="display:none;"><div class="retailers-list">'
+            for rte in extra:
+                html += make_row(rte)
+            html += '</div></div>'
+            nb = len(extra)
+            btn = ('<button class="retailers-voir-tout" '
+                   'onclick="var a=this.previousElementSibling;'
+                   'a.style.display=a.style.display===&quot;none&quot;?&quot;block&quot;:&quot;none&quot;;">'
+                   '+ ' + str(nb) + ' voir tout</button>')
+            html += btn
+        html += '</div>'
 
     if raffles:
         html += '<div class="retailers-section"><h3 class="retailers-section__title">🎰 Raffles</h3><div class="retailers-list">'
@@ -396,6 +415,9 @@ PAGE_TMPL = """<!DOCTYPE html>
     .retailer__badge--resell{{background:#FCE8E6;color:#A50E0E}}
     .retailer__badge--raffle{{background:#FFF3CD;color:#856404}}
     .retailer__arrow{{font-family:var(--font-cond);font-weight:900;color:var(--muted)}}
+    .retailers-voir-tout{{font-family:var(--font-cond);font-size:.7rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;padding:.4rem .9rem;border:1.5px dashed #ccc;border-radius:4px;background:none;color:#888;cursor:pointer;margin-top:.5rem;display:inline-block;}}
+    .retailers-voir-tout:hover{{border-color:#000;color:#000;}}
+    .retailers-accordion{{margin-top:.3rem;}}
     .related{{margin-bottom:2.5rem}}
     .related h2{{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:1rem}}
     .related h2 span{{color:var(--accent)}}
@@ -596,13 +618,17 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
     else:
         img_tag = '<div style="font-size:4rem">👟</div>'
 
-    # Meta title optimisé < 60 chars
+    # Meta title optimise < 60 chars
     suffix = " | SneakerDrop FR"
-    base_title = title
+    date_fr_t = format_date_fr(r.get("date"))
+    if date_fr_t and date_fr_t != "TBD":
+        prefix = "Date de sortie " + title
+    else:
+        prefix = title
     max_base = 60 - len(suffix)
-    if len(base_title) > max_base:
-        base_title = base_title[:max_base].rsplit(" ", 1)[0]
-    meta_title = escape(base_title + suffix)
+    if len(prefix) > max_base:
+        prefix = prefix[:max_base].rsplit(" ", 1)[0]
+    meta_title = escape(prefix + suffix)
 
     jsonld_obj = {
         "@context": "https://schema.org",
