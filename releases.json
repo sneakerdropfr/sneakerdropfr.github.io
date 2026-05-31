@@ -1,5 +1,38 @@
 [
   {
+    "id": "clot-adidas-samba-espadrille-white-black",
+    "title": "CLOT x Adidas Samba Espadrille White Black",
+    "brand": "Adidas",
+    "date": "2026-05-02",
+    "price": 138,
+    "image_url": "https://statics.whentocop.fr/media/pxwtEM54ykVS/tmpclot-adidas-samba-espadrille-white-black-kj0274-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/clot-adidas-samba-espadrille-white-black-kj0274",
+    "buy_url": "https://stockx.com/fr-fr/adidas-samba-clot-espadrille-white-black",
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-samba-clot-espadrille-white-black",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2Fadidas%2Fsamba",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "sku": "KJ0274",
+    "sku_source": "wtc",
+    "sku_confidence": "confirmed",
+    "hype_score": 45,
+    "similar_products": [
+      "caroline-hu-clot-adidas-samba-lace-blue",
+      "caroline-hu-clot-adidas-samba-pink"
+    ],
+    "restocks": []
+  },
+  {
     "id": "virgil-abloh-x-nike-air-force-1-low-sesame",
     "title": "Virgil Abloh x Nike Air Force 1 Low Sesame",
     "brand": "Nike",
