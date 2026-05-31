@@ -1,39 +1,5 @@
 [
   {
-    "id": "jason-kidd-s-nike-zoom-flight-5-returns-spring-2027",
-    "title": "Jason Kidd’s Nike Zoom Flight 5 Returns Spring 2027",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-zoom-flight-5-2027-jason-kidd-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-31T07:11:23.392646+00:00",
-    "hype_score": 10,
-    "similar_products": [],
-    "restocks": []
-  },
-  {
-    "id": "air-jordan-1-low-og-sail-releases-summer-2026",
-    "title": "Air Jordan 1 Low OG “Sail” Releases Summer 2026",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": "159.99€",
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/04/air-jordan-1-low-og-sail-HQ6998-100-release-info-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w?q=air jordan 1 low&amp;vst=air jordan 1 low",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-31T06:50:18.293973+00:00",
-    "hype_score": 35,
-    "similar_products": [
-      "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
-      "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
-      "travis-scott-x-air-jordan-1-low-og-sp-shy-pink"
-    ],
-    "restocks": []
-  },
-  {
     "id": "virgil-abloh-x-nike-air-force-1-low-sesame",
     "title": "Virgil Abloh x Nike Air Force 1 Low Sesame",
     "brand": "Nike",
@@ -372,7 +338,10 @@
       "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
       "air-jordan-1-low-og-sail-releases-summer-2026"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "FN5164-101",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
@@ -460,7 +429,10 @@
       "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
       "air-jordan-1-low-og-sail-releases-summer-2026"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "FN5164-601",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "auralee-x-new-balance-204l-cream",
@@ -724,7 +696,10 @@
     ],
     "hype_score": 63,
     "similar_products": [],
-    "restocks": []
+    "restocks": [],
+    "sku": "IE9954",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "auralee-x-new-balance-204l-brown",
@@ -968,7 +943,10 @@
       "new-balance-numeric-933-marblehead-island-blue",
       "new-balance-5030-grey-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "MT10T8E8",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
@@ -1016,7 +994,10 @@
       "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
       "adidas-adizero-evo-sl-crystal-white-luta"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "KI9873",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "adidas-believe-that-1-cloud-white",
@@ -1057,7 +1038,10 @@
       "adidas-sc-premiere-cloud-white-power-green",
       "adidas-powerphase-cloud-white-power-green"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "KJ3320",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "adidas-adizero-evo-sl-exo-core-black",
@@ -1098,7 +1082,10 @@
       "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
       "adidas-adizero-evo-sl-crystal-white-luta"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "KJ0422",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "new-balance-mt10t-raincloud-concrete",
@@ -1153,7 +1140,10 @@
       "new-balance-numeric-933-marblehead-island-blue",
       "new-balance-5030-grey-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "MT10T8WQ",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "new-balance-5030-grey-black",
@@ -1325,7 +1315,10 @@
       "adidas-adizero-evo-sl-exo-core-black",
       "adidas-adizero-evo-sl-exo-cloud-white-black-grey"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "KJ2521",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "new-balance-1906l-rosewood",
@@ -1442,7 +1435,10 @@
       "adidas-sc-premiere-cloud-white-power-green",
       "adidas-powerphase-cloud-white-power-green"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "KJ3147",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "new-balance-5030-black-silver",
@@ -1524,7 +1520,10 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "IR2166-001",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "adidas-a-e-2-coral-red",
@@ -1558,7 +1557,10 @@
       "adidas-sc-premiere-cloud-white-power-green",
       "adidas-believe-that-1-core-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "KJ1886",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "nike-pegasus-premium-sp-white-black",
@@ -1592,7 +1594,10 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "IR2166-102",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
@@ -1633,7 +1638,10 @@
       "adidas-adizero-evo-sl-exo-core-black",
       "adidas-adizero-evo-sl-crystal-white-luta"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "KJ0430",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
@@ -1710,7 +1718,10 @@
       "virgil-abloh-x-nike-air-force-1-low-sesame",
       "renegade-x-nike-vomero-premium-brown-basalt"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "IU1055-100",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "adidas-adizero-prime-x-evo-cloud-white",
@@ -1843,7 +1854,10 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-pegasus-premium-sp-white-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "IQ8006-002",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
@@ -1883,7 +1897,10 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "IQ5796-500",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "nike-air-max-95-og-fresh-mint",
@@ -1931,7 +1948,10 @@
       "nike-rift-2-kenya",
       "nike-mind-002-flyknit-qs-pure-platinum"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "HJ5996-005",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "renegade-x-nike-vomero-premium-brown-basalt",
@@ -2366,6 +2386,40 @@
       "renegade-x-nike-vomero-premium-brown-basalt",
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "jason-kidd-s-nike-zoom-flight-5-returns-spring-2027",
+    "title": "Jason Kidd’s Nike Zoom Flight 5 Returns Spring 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-zoom-flight-5-2027-jason-kidd-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-31T07:11:23.392646+00:00",
+    "hype_score": 10,
+    "similar_products": [],
+    "restocks": []
+  },
+  {
+    "id": "air-jordan-1-low-og-sail-releases-summer-2026",
+    "title": "Air Jordan 1 Low OG “Sail” Releases Summer 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": "159.99€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/04/air-jordan-1-low-og-sail-HQ6998-100-release-info-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=air jordan 1 low&amp;vst=air jordan 1 low",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-31T06:50:18.293973+00:00",
+    "hype_score": 35,
+    "similar_products": [
+      "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
+      "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
+      "travis-scott-x-air-jordan-1-low-og-sp-shy-pink"
     ],
     "restocks": []
   }
