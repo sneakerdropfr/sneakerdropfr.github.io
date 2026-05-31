@@ -10,7 +10,9 @@
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
     "added_at": "2026-05-31T07:11:23.392646+00:00",
-    "hype_score": 10
+    "hype_score": 10,
+    "similar_products": [],
+    "restocks": []
   },
   {
     "id": "air-jordan-1-low-og-sail-releases-summer-2026",
@@ -23,7 +25,13 @@
     "buy_url": "https://www.nike.com/w?q=air jordan 1 low&amp;vst=air jordan 1 low",
     "source": "Sneaker Files",
     "added_at": "2026-05-31T06:50:18.293973+00:00",
-    "hype_score": 35
+    "hype_score": 35,
+    "similar_products": [
+      "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
+      "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
+      "travis-scott-x-air-jordan-1-low-og-sp-shy-pink"
+    ],
+    "restocks": []
   },
   {
     "id": "virgil-abloh-x-nike-air-force-1-low-sesame",
@@ -42,7 +50,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 10
+    "hype_score": 10,
+    "similar_products": [
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya",
+      "nike-pegasus-premium-sp-white-black"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-mind-002-flyknit-qs-pure-platinum",
@@ -75,7 +90,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 30
+    "hype_score": 30,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-max-90-photon-dust-blue-cyber",
@@ -165,7 +187,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 48
+    "hype_score": 48,
+    "similar_products": [
+      "nike-air-max-90-infrared-3m-2026",
+      "nike-air-max-90-cool-grey",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt"
+    ],
+    "restocks": []
   },
   {
     "id": "kids-of-immigrants-x-nike-t90-mule-khaki-fusion-red",
@@ -192,7 +221,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 30
+    "hype_score": 30,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "asphaltgold-x-puma-h-street-saffron-coffee-milk",
@@ -212,7 +248,9 @@
         "raffle": false
       }
     ],
-    "hype_score": 0
+    "hype_score": 0,
+    "similar_products": [],
+    "restocks": []
   },
   {
     "id": "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon",
@@ -238,7 +276,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 10
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
@@ -321,7 +366,13 @@
     ],
     "featured": false,
     "raffle": true,
-    "hype_score": 95
+    "hype_score": 95,
+    "similar_products": [
+      "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
+      "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
+      "air-jordan-1-low-og-sail-releases-summer-2026"
+    ],
+    "restocks": []
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
@@ -403,7 +454,13 @@
       }
     ],
     "raffle": true,
-    "hype_score": 95
+    "hype_score": 95,
+    "similar_products": [
+      "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
+      "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
+      "air-jordan-1-low-og-sail-releases-summer-2026"
+    ],
+    "restocks": []
   },
   {
     "id": "auralee-x-new-balance-204l-cream",
@@ -437,7 +494,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 28
+    "hype_score": 28,
+    "similar_products": [
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-mt10t-fire-cracker"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-liquid-max-bright-crimson-fire-red",
@@ -513,7 +577,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 33
+    "hype_score": 33,
+    "similar_products": [
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya",
+      "nike-mind-002-flyknit-qs-pure-platinum"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-numeric-933-marblehead-island-blue",
@@ -547,7 +618,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 18
+    "hype_score": 18,
+    "similar_products": [
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-mt10t-fire-cracker",
+      "new-balance-5030-grey-black"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-numeric-tiago-lemos-1010-grey-days",
@@ -581,7 +659,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 28
+    "hype_score": 28,
+    "similar_products": [
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-mt10t-fire-cracker",
+      "new-balance-5030-grey-black"
+    ],
+    "restocks": []
   },
   {
     "id": "bad-bunny-adidas-ballerina-flamboyan-2026",
@@ -637,7 +722,9 @@
         "raffle": false
       }
     ],
-    "hype_score": 63
+    "hype_score": 63,
+    "similar_products": [],
+    "restocks": []
   },
   {
     "id": "auralee-x-new-balance-204l-brown",
@@ -671,7 +758,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 28
+    "hype_score": 28,
+    "similar_products": [
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-mt10t-fire-cracker"
+    ],
+    "restocks": []
   },
   {
     "id": "air-jordan-3-retro-worlds-best-dad",
@@ -822,7 +916,11 @@
     ],
     "sku": "JF4396-103",
     "raffle": true,
-    "hype_score": 53
+    "hype_score": 53,
+    "similar_products": [
+      "air-jordan-1-low-og-phantom-pine-green-releases-june-2026"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-mt10t-fire-cracker",
@@ -863,7 +961,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 33
+    "hype_score": 33,
+    "similar_products": [
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-5030-grey-black"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
@@ -904,7 +1009,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 13
+    "hype_score": 13,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-exo-core-black",
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-believe-that-1-cloud-white",
@@ -938,7 +1050,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 36
+    "hype_score": 36,
+    "similar_products": [
+      "adidas-believe-that-1-core-black",
+      "adidas-tangum-white-power-green",
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-powerphase-cloud-white-power-green"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-adizero-evo-sl-exo-core-black",
@@ -972,7 +1091,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 13
+    "hype_score": 13,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-mt10t-raincloud-concrete",
@@ -1020,7 +1146,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 13
+    "hype_score": 13,
+    "similar_products": [
+      "new-balance-mt10t-fire-cracker",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-5030-grey-black"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-5030-grey-black",
@@ -1068,7 +1201,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 13
+    "hype_score": 13,
+    "similar_products": [
+      "new-balance-5030-black-silver",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-1906l-fairweather-blue",
@@ -1137,7 +1277,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 28
+    "hype_score": 28,
+    "similar_products": [
+      "new-balance-1906l-rosewood",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-adizero-evo-sl-crystal-white-luta",
@@ -1171,7 +1318,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 13
+    "hype_score": 13,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
+      "adidas-adizero-evo-sl-exo-core-black",
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-1906l-rosewood",
@@ -1240,7 +1394,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 18
+    "hype_score": 18,
+    "similar_products": [
+      "new-balance-1906l-fairweather-blue",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-believe-that-1-core-black",
@@ -1274,7 +1435,14 @@
         "raffle": false
       }
     ],
-    "hype_score": 36
+    "hype_score": 36,
+    "similar_products": [
+      "adidas-believe-that-1-cloud-white",
+      "adidas-tangum-white-power-green",
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-powerphase-cloud-white-power-green"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-5030-black-silver",
@@ -1315,7 +1483,14 @@
       }
     ],
     "image_url": "https://statics.whentocop.fr/media/NecGZCELhgQG/tmpu50307g4_nb_02_i-2000x2000.webp?width=750&quality=75&format=auto",
-    "hype_score": 13
+    "hype_score": 13,
+    "similar_products": [
+      "new-balance-5030-grey-black",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-pegasus-premium-sp-black-sail",
@@ -1342,7 +1517,14 @@
       }
     ],
     "image_url": "https://statics.whentocop.fr/drops/20689/picture/000000_Nike-Pegasus-Premium-SP_Black-Sail-Sail_IR2166-001_img0-1000x1000.webp?width=1920&quality=75&format=auto",
-    "hype_score": 10
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-a-e-2-coral-red",
@@ -1369,7 +1551,14 @@
       }
     ],
     "image_url": "https://statics.whentocop.fr/drops/20695/picture/000000_adidas-Anthony-Edwards-2_Coral-Red_KJ1886_img0-1000x1000.webp?width=1920&quality=75&format=auto",
-    "hype_score": 16
+    "hype_score": 16,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-tangum-white-power-green",
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-believe-that-1-core-black"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-pegasus-premium-sp-white-black",
@@ -1396,7 +1585,14 @@
       }
     ],
     "image_url": "https://statics.whentocop.fr/drops/20690/picture/000000_Nike-Pegasus-Premium-SP_White-Black_IR2166-102_img0-1000x1000.webp?width=1920&quality=75&format=auto",
-    "hype_score": 10
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
@@ -1430,7 +1626,14 @@
       }
     ],
     "image_url": "https://statics.whentocop.fr/drops/20701/picture/000000_adidas-Adizero-Evo-SL-EXO_Cloud-White-Utility-Black-Grey-Two_KJ0430_img0-1000x1000.webp?width=1920&quality=75&format=auto",
-    "hype_score": 28
+    "hype_score": 28,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
+      "adidas-adizero-evo-sl-exo-core-black",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ],
+    "restocks": []
   },
   {
     "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
@@ -1451,7 +1654,14 @@
     ],
     "image_url": "https://statics.whentocop.fr/media/DIeKK1RWZvK8/tmpbape-adidas-adizero-evo-sl-kj5751-06-1100x770-medium-1000x1000.webp?width=750&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/bape-adidas-adizero-evo-sl-white-gold-pink-blue-kj5751",
-    "hype_score": 8
+    "hype_score": 8,
+    "similar_products": [
+      "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
+      "adidas-adizero-evo-sl-exo-core-black",
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-max-90-infrared-3m-2026",
@@ -1493,7 +1703,14 @@
     ],
     "image_url": "https://statics.whentocop.fr/drops/18933/picture_360/tmp000000_Nike-Air-Max-90_Infrared_IU1055-100_img0-2000x2000.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-infrared-2026-iu1055-100",
-    "hype_score": 25
+    "hype_score": 25,
+    "similar_products": [
+      "nike-air-max-90-cool-grey",
+      "nike-air-max-90-photon-dust-blue-cyber",
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-adizero-prime-x-evo-cloud-white",
@@ -1521,7 +1738,14 @@
     ],
     "image_url": "https://statics.whentocop.fr/drops/16768/picture/adidas-adizero-prime-x-evo-cloud-white-kh7677_1lPNIr-2000x2000.webp?width=750&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-prime-x-evo-cloud-white-kh7677",
-    "hype_score": 28
+    "hype_score": 28,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-tangum-white-power-green",
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-powerphase-cloud-white-power-green"
+    ],
+    "restocks": []
   },
   {
     "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
@@ -1543,7 +1767,14 @@
         "resell": false
       }
     ],
-    "hype_score": 10
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-rift-2-kenya",
@@ -1605,7 +1836,14 @@
       }
     ],
     "image_url": "https://statics.whentocop.fr/drops/20629/picture/000000_Nike-Rift-2_Kenya_IQ8006-002_img0-1000x1000.webp?width=1920&quality=75&format=auto",
-    "hype_score": 20
+    "hype_score": 20,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-pegasus-premium-sp-white-black"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
@@ -1638,7 +1876,14 @@
         "type": "raffle"
       }
     ],
-    "hype_score": 15
+    "hype_score": 15,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-max-95-og-fresh-mint",
@@ -1679,7 +1924,14 @@
       }
     ],
     "image_url": "https://statics.whentocop.fr/drops/20691/picture/000000_Nike-Air-Max-95-OG_Fresh-Mint_HJ5996-005_img0-1000x1000.webp?width=1920&quality=75&format=auto",
-    "hype_score": 38
+    "hype_score": 38,
+    "similar_products": [
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya",
+      "nike-mind-002-flyknit-qs-pure-platinum"
+    ],
+    "restocks": []
   },
   {
     "id": "renegade-x-nike-vomero-premium-brown-basalt",
@@ -1706,7 +1958,14 @@
       }
     ],
     "image_url": "https://statics.whentocop.fr/drops/20437/picture_360/tmp000000_Renegade-x-Nike-Vomero-Premium_Brown-Basalt_IQ7314-200_img0-2000x2000.webp",
-    "hype_score": 30
+    "hype_score": 30,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya",
+      "nike-pegasus-premium-sp-white-black"
+    ],
+    "restocks": []
   },
   {
     "id": "renegade-x-nike-vaporfly-4-brown-basalt",
@@ -1733,7 +1992,14 @@
       }
     ],
     "image_url": "https://statics.whentocop.fr/drops/20421/picture/000000_Nike-Vaporfly-4-x-Renegade_Brown-Basalt-Bronze-Eclipse_IQ7313-200_img0-1000x1000.webp?width=750&quality=75&format=auto",
-    "hype_score": 30
+    "hype_score": 30,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "nike-rift-2-kenya",
+      "nike-pegasus-premium-sp-white-black"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-max-90-cool-grey",
@@ -1776,7 +2042,14 @@
       }
     ],
     "image_url": "https://statics.whentocop.fr/drops/20609/picture/000000_Nike-Air-Max-III_Cool-Grey-Infrared-23_IU7543-065_img0-1000x1000.webp?width=1920&quality=75&format=auto",
-    "hype_score": 15
+    "hype_score": 15,
+    "similar_products": [
+      "nike-air-max-90-infrared-3m-2026",
+      "nike-air-max-90-photon-dust-blue-cyber",
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-mind-001-flyknit-bronze-eclipse",
@@ -1824,7 +2097,14 @@
       }
     ],
     "image_url": "https://statics.whentocop.fr/drops/17772/picture/Nike-Mind-001_Bronze-Eclipse_A-definir_img0-1000x1000.webp?width=750&quality=75&format=auto",
-    "hype_score": 28
+    "hype_score": 28,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
@@ -1838,7 +2118,14 @@
     "source": "Sneaker Files",
     "added_at": "2026-05-29T00:09:57.841600+00:00",
     "featured": true,
-    "hype_score": 35
+    "hype_score": 35,
+    "similar_products": [
+      "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
+      "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
+      "air-jordan-1-low-og-sail-releases-summer-2026",
+      "air-jordan-3-retro-worlds-best-dad"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-tangum-white-power-green",
@@ -1894,7 +2181,14 @@
     ],
     "image_url": "https://statics.whentocop.fr/drops/20706/picture/000000_adidas-Tangum_White-Power-Green_LA6570_img0-1000x1000.webp?width=750&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-tangum-white-power-green-la6570",
-    "hype_score": 31
+    "hype_score": 31,
+    "similar_products": [
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-powerphase-cloud-white-power-green",
+      "adidas-believe-that-1-core-black",
+      "adidas-believe-that-1-cloud-white"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-sc-premiere-cloud-white-power-green",
@@ -1950,7 +2244,14 @@
     ],
     "image_url": "https://statics.whentocop.fr/drops/20328/picture/000000_adidas-SC-Premiere_Cloud-White-Power-Green_KZ7196_img0-1000x1000.webp?width=750&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-sc-premiere-cloud-white-power-green-kz7196",
-    "hype_score": 31
+    "hype_score": 31,
+    "similar_products": [
+      "adidas-tangum-white-power-green",
+      "adidas-powerphase-cloud-white-power-green",
+      "adidas-believe-that-1-core-black",
+      "adidas-believe-that-1-cloud-white"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-powerphase-cloud-white-power-green",
@@ -1999,7 +2300,14 @@
     ],
     "image_url": "https://statics.whentocop.fr/drops/20327/picture/000000_adidas-Powerphase_Cloud-White-Power-Green_LA4359_img0-1000x1000.webp?width=750&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-powerphase-cloud-white-power-green-la4359",
-    "hype_score": 41
+    "hype_score": 41,
+    "similar_products": [
+      "adidas-tangum-white-power-green",
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-believe-that-1-core-black",
+      "adidas-believe-that-1-cloud-white"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
@@ -2012,7 +2320,14 @@
     "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-baltimore-orioles/",
     "source": "Sneaker Files",
     "added_at": "2026-05-29T00:09:50.450229+00:00",
-    "hype_score": 10
+    "hype_score": 10,
+    "similar_products": [
+      "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
@@ -2025,7 +2340,14 @@
     "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-kansas-city-royals/",
     "source": "Sneaker Files",
     "added_at": "2026-05-29T00:09:42.864231+00:00",
-    "hype_score": 10
+    "hype_score": 10,
+    "similar_products": [
+      "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-kd-19-field-purple-releases-june-2026",
@@ -2038,6 +2360,13 @@
     "buy_url": "https://www.nike.com/launch/upcoming",
     "source": "Sneaker Files",
     "added_at": "2026-05-16T22:02:39.779561+00:00",
-    "hype_score": 10
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   }
 ]
