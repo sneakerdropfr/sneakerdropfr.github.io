@@ -14,7 +14,7 @@
     "confidence": 100
   },
   "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink": {
-    "sku": "FN5164-601",
+    "sku": "IQ7604-101",
     "title": "Travis Scott x Air Jordan 1 Low OG SP Tropical Pink",
     "brand": "Jordan",
     "source": "manual",
@@ -171,6 +171,13 @@
     "sku": "KH7677",
     "title": "Adidas Adizero Prime X Evo Cloud White",
     "brand": "Adidas",
+    "source": "manual",
+    "confidence": 100
+  },
+  "new-balance-5030-black-silver": {
+    "sku": "U50307G4",
+    "title": "New Balance 5030 Black Silver",
+    "brand": "New Balance",
     "source": "manual",
     "confidence": 100
   }
