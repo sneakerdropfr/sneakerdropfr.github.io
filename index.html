@@ -118,7 +118,7 @@
     .cards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem}
     .cards-grid--3{grid-template-columns:repeat(3,1fr)}
     @media(max-width:900px){.cards-grid{grid-template-columns:repeat(2,1fr)}.cards-grid--3{grid-template-columns:repeat(2,1fr)}}
-    @media(max-width:480px){.cards-grid{grid-template-columns:repeat(2,1fr);gap:.65rem}}
+    @media(max-width:480px){.cards-grid{grid-template-columns:1fr;gap:.65rem}}
 
     /* ── Drop card ── */
     .drop-card{background:#0A0A0A;border:1px solid rgba(255,255,255,.08);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:border-color .2s,transform .2s,box-shadow .2s}
@@ -332,7 +332,7 @@
     #releases-grid-week{display:none}
     .releases-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
     @media(max-width:900px){.releases-grid{grid-template-columns:repeat(2,1fr)}}
-    @media(max-width:480px){.releases-grid{grid-template-columns:repeat(2,1fr);gap:.6rem}}
+    @media(max-width:480px){.releases-grid{grid-template-columns:1fr;gap:.6rem}}
     /* ── Retailers multi-boutons ── */
     .retailers-row{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.3rem}
     .retailers-label{font-family:var(--font-cond);font-size:.63rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:.2rem;margin-top:.45rem}
