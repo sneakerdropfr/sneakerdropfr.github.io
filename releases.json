@@ -2148,7 +2148,71 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "IR2175-200",
+    "sku_source": "manual",
+    "sku_confidence": 100
+  },
+  {
+    "id": "nike-mind-001-flyknit-hyper-royal",
+    "title": "Nike Mind 001 Flyknit Hyper Royal",
+    "brand": "Nike",
+    "date": "2026-06-05",
+    "price": 90,
+    "currency": "EUR",
+    "sku": "IR2175-400",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "image_url": "",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.solebox.com",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "90€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "162€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "217€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "restocks": [],
+    "similar_products": [
+      "nike-mind-001-flyknit-bronze-eclipse"
+    ],
+    "hype_score": 30
   },
   {
     "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
