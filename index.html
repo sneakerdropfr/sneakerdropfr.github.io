@@ -131,7 +131,13 @@
     .badge-week{background:#E8FF00;color:#0A0A0A}
     .badge-hot{background:#FF2D2D;color:#fff}
     .badge-upcoming{background:rgba(255,255,255,.15);color:#fff}
-    .badge-hype{background:var(--accent);color:#0A0A0A}
+    .badge-hype{background:#FF6B00;color:#fff}.badge-limited{background:#FF3B30;color:#fff}
+    .hype-score{display:inline-flex;align-items:center;gap:.25rem;font-family:var(--font-cond);font-size:.62rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;padding:.2rem .5rem;border-radius:3px;margin-top:.3rem;}
+    .hype-score--hot{background:#FF3B30;color:#fff}
+    .hype-score--hype{background:#FF9500;color:#fff}
+    .hype-score--mid{background:#34C759;color:#fff}
+    .hype-score--low{background:#e8e8e8;color:#888}
+    @media(max-width:640px){.hbtn--desktop{display:none!important}}
     .drop-card__body{padding:.9rem;display:flex;flex-direction:column;gap:.28rem;flex:1}
     .drop-card__brand{font-family:var(--font-cond);font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.45)}
     .drop-card__title{font-family:var(--font-cond);font-size:.95rem;font-weight:900;line-height:1.2;text-transform:uppercase;letter-spacing:.03em;color:#fff}
@@ -385,9 +391,12 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       <nav class="header__nav">
         <a href="/deals.html" class="hbtn hbtn--solid hbtn--keep">BSTN Deals</a>
         <a href="/raffles.html" class="hbtn hbtn--solid hbtn--keep">Raffles</a>
-        <a href="/calendar.html" class="hbtn hbtn--solid hbtn--keep">📅</a>
-        <a href="/sorties.html" class="hbtn hbtn--solid hbtn--keep">Prochaines Sorties</a>
         <a href="/hype-picks.html" class="hbtn hbtn--solid hbtn--keep">Hype Picks</a>
+        <a href="/sorties.html" class="hbtn hbtn--solid hbtn--keep hbtn--desktop">Prochaines Sorties</a>
+        <a href="/categories/jordan.html" class="hbtn hbtn--solid hbtn--keep hbtn--desktop">Jordan</a>
+        <a href="/categories/nike.html" class="hbtn hbtn--solid hbtn--keep hbtn--desktop">Nike</a>
+        <a href="/articles/top-drops-juin-2026.html" class="hbtn hbtn--solid hbtn--keep hbtn--desktop">Articles</a>
+        <a href="/calendar.html" class="hbtn hbtn--solid hbtn--keep hbtn--desktop">📅</a>
         <!-- Search -->
         <div id="header-search" style="position:relative;display:flex;align-items:center">
           <input id="header-search-input" type="text" placeholder="Rechercher..." autocomplete="off"
@@ -459,26 +468,36 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     })();
     </script>
 
-  <!-- Barre promos BSTN -->
-  <div class="promo-bar" id="promo-bar">
-    <div class="promo-bar__inner">
-      <a href="/bstn-promos.html" class="promo-bar__item">
-        <span>⏰ Expire ce soir :</span>
-        <span class="promo-bar__code" onclick="copyCode(event,'SUMMER15')">SUMMER15</span>
-        <span>= -15% chez BSTN</span>
-      </a>
-      <span class="promo-bar__sep">|</span>
-      <a href="/bstn-promos.html" class="promo-bar__item">
-        <span>📅 2–3 juin :</span>
-        <span class="promo-bar__code" onclick="copyCode(event,'SPORT25')">SPORT25</span>
-        <span>= -25% Sportswear</span>
-      </a>
-      <span class="promo-bar__sep">|</span>
-      <a href="/bstn-promos.html" class="promo-bar__item">
-        <span>🔥 Jusqu'au 7 juin : -30% Summer Sale →</span>
-      </a>
-    </div>
+  <!-- Barre promos BSTN — affichage conditionnel par date -->
+  <div class="promo-bar" id="promo-bar" style="display:none;">
+    <div class="promo-bar__inner" id="promo-bar-inner"></div>
   </div>
+  <script>
+  (function() {
+    var now = new Date();
+    var today = now.toISOString().slice(0,10);
+    var promos = [
+      { code: 'SUMMER15', label: '-15% chez BSTN', start: '2026-05-29', end: '2026-05-31', icon: '⏰', prefix: 'Expire ce soir :' },
+      { code: 'SPORT25',  label: '-25% Sportswear', start: '2026-06-02', end: '2026-06-03', icon: '⚽', prefix: '2–3 juin :' },
+      { code: null,       label: '-30% Summer Sale →', start: '2026-05-25', end: '2026-06-07', icon: '🔥', prefix: "Jusqu'au 7 juin :" },
+    ];
+    var active = promos.filter(function(p){ return today >= p.start && today <= p.end; });
+    if (active.length > 0) {
+      var bar = document.getElementById('promo-bar');
+      var inner = document.getElementById('promo-bar-inner');
+      var parts = active.map(function(p, i) {
+        var sep = i > 0 ? '<span class="promo-bar__sep">|</span>' : '';
+        if (p.code) {
+          return sep + '<a href="/bstn-promos.html" class="promo-bar__item"><span>' + p.icon + ' ' + p.prefix + '</span><span class="promo-bar__code" onclick="copyCode(event,\'' + p.code + '\')">' + p.code + '</span><span>= ' + p.label + '</span></a>';
+        } else {
+          return sep + '<a href="/bstn-promos.html" class="promo-bar__item"><span>' + p.icon + ' ' + p.prefix + ' ' + p.label + '</span></a>';
+        }
+      });
+      inner.innerHTML = parts.join('');
+      bar.style.display = 'block';
+    }
+  })();
+  </script>
   </section>
 
 
@@ -538,6 +557,43 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 
 
   <!-- ═══ FOOTER ═══ -->
+  
+  <!-- ═══ ARTICLES ═══ -->
+  <section id="articles-section" style="background:#f5f5f5;padding:2.5rem 1rem 2rem;">
+    <div style="max-width:1100px;margin:0 auto;">
+      <div style="display:flex;align-items:baseline;gap:.75rem;margin-bottom:1.25rem;">
+        <span style="font-family:var(--font-cond);font-size:.72rem;font-weight:900;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);">📖 GUIDES & ARTICLES</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;">
+
+        <a href="/articles/top-drops-juin-2026.html" style="text-decoration:none;color:inherit;background:#fff;border:1px solid var(--border);border-radius:8px;overflow:hidden;display:block;transition:transform .15s,box-shadow .15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 16px rgba(0,0,0,.1)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+          <div style="background:var(--black);padding:1.5rem 1.25rem 1rem;">
+            <div style="font-size:1.75rem;margin-bottom:.5rem;">🔥</div>
+            <div style="font-family:var(--font-display);font-size:1rem;text-transform:uppercase;color:#fff;line-height:1.2;">Top 10 Drops Juin 2026</div>
+          </div>
+          <div style="padding:.85rem 1.25rem;font-family:var(--font-cond);font-size:.78rem;color:var(--muted);">Les sneakers les plus attendues du mois — dates, prix et retailers.</div>
+        </a>
+
+        <a href="/articles/comment-gagner-raffle-nike-snkrs.html" style="text-decoration:none;color:inherit;background:#fff;border:1px solid var(--border);border-radius:8px;overflow:hidden;display:block;transition:transform .15s,box-shadow .15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 16px rgba(0,0,0,.1)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+          <div style="background:#1a1a2e;padding:1.5rem 1.25rem 1rem;">
+            <div style="font-size:1.75rem;margin-bottom:.5rem;">🎰</div>
+            <div style="font-family:var(--font-display);font-size:1rem;text-transform:uppercase;color:#fff;line-height:1.2;">Gagner un Raffle Nike SNKRS</div>
+          </div>
+          <div style="padding:.85rem 1.25rem;font-family:var(--font-cond);font-size:.78rem;color:var(--muted);">Guide complet pour maximiser tes chances sur SNKRS en 2026.</div>
+        </a>
+
+        <a href="/articles/calendrier-drops-sneakers-ete-2026.html" style="text-decoration:none;color:inherit;background:#fff;border:1px solid var(--border);border-radius:8px;overflow:hidden;display:block;transition:transform .15s,box-shadow .15s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 16px rgba(0,0,0,.1)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+          <div style="background:#0d3b2e;padding:1.5rem 1.25rem 1rem;">
+            <div style="font-size:1.75rem;margin-bottom:.5rem;">📅</div>
+            <div style="font-family:var(--font-display);font-size:1rem;text-transform:uppercase;color:#fff;line-height:1.2;">Calendrier Été 2026</div>
+          </div>
+          <div style="padding:.85rem 1.25rem;font-family:var(--font-cond);font-size:.78rem;color:var(--muted);">Tous les drops de juin à août 2026 en un seul endroit.</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
@@ -808,6 +864,10 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         ? '<img src="' + r.image_url + '" alt="' + r.title + '" class="drop-card__img" loading="lazy"' + imgStyle + ' onerror="this.parentNode.innerHTML=\'<div class=drop-card__img-placeholder>👟</div>\'">'
         : '<div class="drop-card__img-placeholder">👟</div>';
       var isDropToday = isToday(r.date);
+      var titleLC = (r.title || '').toLowerCase();
+      var isHypeCollab = ['travis scott','bad bunny','patta','off-white','sacai','fragment','union','kaws','stussy','corteiz'].some(function(k){ return titleLC.indexOf(k) !== -1; });
+      var officialRets = (r.retailers || []).filter(function(rt){ return !rt.resell && !rt.raffle; });
+      var isLimitedDrop = officialRets.length > 0 && officialRets.length <= 3;
       var badgeTop = released
         ? '<div class="drop-card__badge-top badge-week">🔥 Dispo</div>'
         : (isDropToday
@@ -815,6 +875,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             : (isSoon(r.date)
                 ? '<div class="drop-card__badge-top badge-hot">⏰ Cette semaine</div>'
                 : '<div class="drop-card__badge-top badge-upcoming">📅 À venir</div>'));
+      if (isHypeCollab && !released) badgeTop = '<div class="drop-card__badge-top badge-hype">⚡ Très attendu</div>';
+      else if (isLimitedDrop && !released && !isDropToday) badgeTop += '<div class="drop-card__badge-top" style="position:absolute;top:2.2rem;left:.65rem;background:#FF3B30;color:#fff;font-family:var(--font-cond);font-size:.6rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;padding:.2rem .5rem;border-radius:3px;">🚨 Stock limité</div>';
       var urgency = released ? '⚠️ Stock limité' : (!r.date || r.date === 'TBD' ? 'DROP À VENIR' : '');
       var urgencyClass = released ? 'drop-card__stock' : 'drop-card__stock drop-card__stock--upcoming';
       var hasLink = (r.retailers && r.retailers.length) || r.buy_url || r.wtc_url;
@@ -824,7 +886,15 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
       var titleWrap = articleUrl
         ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
-        : '<h3 class="drop-card__title">' + r.title + '</h3>';
+        : '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
+      // Badge hype_score
+      var hypeScoreHtml = '';
+      if (r.hype_score && r.hype_score >= 40) {
+        var hs = r.hype_score;
+        var hsCls = hs >= 80 ? 'hype-score--hot' : hs >= 60 ? 'hype-score--hype' : 'hype-score--mid';
+        var hsIcon = hs >= 80 ? '🔥' : hs >= 60 ? '⚡' : '👟';
+        hypeScoreHtml = '<div class="hype-score ' + hsCls + '">' + hsIcon + ' ' + hs + '/100</div>';
+      }
       // Countdown : afficher si date connue, pas encore sortie, dans moins de 72h
       var countdownHtml = '';
       if (!released && r.date && r.date !== 'TBD') {
@@ -841,6 +911,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         '<div class="drop-card__body">' +
           '<span class="drop-card__brand">' + (r.brand || '') + '</span>' +
           titleWrap +
+          hypeScoreHtml +
           '<div class="drop-card__meta">' +
             '<span class="drop-card__date">📅 ' + formatDate(r.date) + '</span>' +
             '<span class="drop-card__price">' + formatPrice(r.price) + '</span>' +
@@ -1242,6 +1313,13 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         html += '<div class="drop-card__body">';
         html += '<div class="drop-card__brand">' + (r.brand || r.source || '') + '</div>';
         html += '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
+      // Badge hype_score
+      if (r.hype_score && r.hype_score >= 40) {
+        var hs = r.hype_score;
+        var hsCls = hs >= 80 ? 'hype-score--hot' : hs >= 60 ? 'hype-score--hype' : 'hype-score--mid';
+        var hsIcon = hs >= 80 ? '🔥' : hs >= 60 ? '⚡' : '👟';
+        html += '<div class="hype-score ' + hsCls + '">' + hsIcon + ' ' + hs + '/100</div>';
+      }
         html += '<div class="drop-card__meta"><span>' + (r.date || 'TBD') + '</span><span class="drop-card__price">' + (r.price || '') + '</span></div>';
         html += '<a href="' + (r.link || '#') + '" target="_blank" rel="noopener" class="drop-card__cta btn-cop">Voir la paire</a>';
         html += '</div></article>';

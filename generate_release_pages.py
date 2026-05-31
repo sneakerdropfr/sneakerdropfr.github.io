@@ -112,16 +112,19 @@ def short_meta_desc(r: dict) -> str:
     title = r.get("title", "").strip()
     date_fr = format_date_fr(r.get("date"))
     price = format_price(r.get("price"))
-    parts = [title]
-    if date_fr != "TBD":
-        parts.append(f"Sortie : {date_fr}")
+    rets = r.get("retailers") or []
+    retail_names = [rt.get("name","") for rt in rets if not rt.get("resell") and not rt.get("raffle")]
+    desc = "Ou acheter " + title + " au prix retail"
     if price != "TBD":
-        parts.append(f"Prix : {price}")
-    cw = (r.get("colorway") or "").strip()
-    if cw:
-        parts.append(f"Colorway : {cw}")
-    parts.append("Retrouve les liens d'achat et infos sur SneakerDrop FR.")
-    return " — ".join(parts)
+        desc += " a " + price
+    if date_fr != "TBD":
+        desc += ". Sortie le " + date_fr
+    if retail_names:
+        desc += ". Disponible chez " + ", ".join(retail_names[:3])
+        if len(retail_names) > 3:
+            desc += " et " + str(len(retail_names)-3) + " autres retailers"
+    desc += ". Liens et infos sur SneakerDrop FR."
+    return desc
 
 
 def editorial_text(r: dict) -> str:
@@ -270,9 +273,25 @@ def retailers_html(r: dict) -> str:
     html = '<section class="article__retailers"><h2>Où <span>acheter</span></h2>'
 
     if retail:
-        html += '<div class="retailers-section"><h3 class="retailers-section__title">🛒 Retail</h3><div class="retailers-list">'
-        html += "".join(make_row(rt) for rt in retail)
-        html += '</div></div>'
+        shown3 = retail[:3]
+        extra = retail[3:]
+        html += '<div class="retailers-section"><h3 class="retailers-section__title">Retail</h3>'
+        html += '<div class="retailers-list">'
+        for rt3 in shown3:
+            html += make_row(rt3)
+        html += '</div>'
+        if extra:
+            html += '<div class="retailers-accordion" style="display:none;"><div class="retailers-list">'
+            for rte in extra:
+                html += make_row(rte)
+            html += '</div></div>'
+            nb = len(extra)
+            btn = ('<button class="retailers-voir-tout" '
+                   'onclick="var a=this.previousElementSibling;'
+                   'a.style.display=a.style.display===&quot;none&quot;?&quot;block&quot;:&quot;none&quot;;">'
+                   '+ ' + str(nb) + ' voir tout</button>')
+            html += btn
+        html += '</div>'
 
     if raffles:
         html += '<div class="retailers-section"><h3 class="retailers-section__title">🎰 Raffles</h3><div class="retailers-list">'
@@ -396,6 +415,9 @@ PAGE_TMPL = """<!DOCTYPE html>
     .retailer__badge--resell{{background:#FCE8E6;color:#A50E0E}}
     .retailer__badge--raffle{{background:#FFF3CD;color:#856404}}
     .retailer__arrow{{font-family:var(--font-cond);font-weight:900;color:var(--muted)}}
+    .retailers-voir-tout{{font-family:var(--font-cond);font-size:.7rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;padding:.4rem .9rem;border:1.5px dashed #ccc;border-radius:4px;background:none;color:#888;cursor:pointer;margin-top:.5rem;display:inline-block;}}
+    .retailers-voir-tout:hover{{border-color:#000;color:#000;}}
+    .retailers-accordion{{margin-top:.3rem;}}
     .related{{margin-bottom:2.5rem}}
     .related h2{{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:1rem}}
     .related h2 span{{color:var(--accent)}}
@@ -474,6 +496,7 @@ PAGE_TMPL = """<!DOCTYPE html>
       </div>
 
       {retailers_block}
+    {restocks_block}
 
       {related_block}
 
@@ -512,25 +535,76 @@ PAGE_TMPL = """<!DOCTYPE html>
 """
 
 
+def restocks_html(r: dict) -> str:
+    """Section Restocks — affiche les restocks recents si disponibles."""
+    restocks = r.get("restocks") or []
+    if not restocks:
+        return ""
+    items = []
+    for rs in restocks[:5]:
+        retailer = escape(rs.get("retailer",""))
+        date_rs = rs.get("date","")
+        try:
+            from datetime import datetime
+            dt = datetime.fromisoformat(date_rs.replace("Z","+00:00"))
+            mois = ["jan","fev","mar","avr","mai","juin","juil","aout","sep","oct","nov","dec"]
+            date_str = f"{dt.day} {mois[dt.month-1]}"
+        except:
+            date_str = date_rs[:10] if date_rs else "Recemment"
+        sizes = rs.get("sizes") or []
+        sizes_str = ", ".join(sizes[:6]) if sizes else "Tailles variees"
+        url = rs.get("url","#")
+        items.append(
+            f'<div class="restock-item">'
+            f'<div class="restock-item__header">'
+            f'<span class="restock-item__retailer">{retailer}</span>'
+            f'<span class="restock-item__date">{date_str}</span>'
+            f'</div>'
+            f'<div class="restock-item__sizes">{escape(sizes_str)}</div>'
+            f'<a href="{url}" target="_blank" rel="noopener nofollow sponsored" class="restock-item__btn">Voir dispo →</a>'
+            f'</div>'
+        )
+    return (
+        f'<section class="restocks-section">'
+        f'<h2>Restocks <span>recents</span></h2>'
+        f'<div class="restocks-list">{"".join(items)}</div>'
+        f'</section>'
+    )
+
+
 def related_html(r: dict, all_releases: list) -> str:
-    """Section Voir aussi — 3 paires de la même marque, excluant la paire courante."""
+    """Section Voir aussi — utilise similar_products en priorite, sinon meme marque."""
     brand = (r.get("brand") or "").strip()
     current_id = r.get("id", "")
-    if not brand:
+    releases_index = {x["id"]: x for x in all_releases if x.get("id")}
+
+    picks = []
+
+    # 1. Utiliser similar_products si disponible
+    similar_ids = r.get("similar_products") or []
+    for sid in similar_ids:
+        p = releases_index.get(sid)
+        if p and p.get("image_url") and p.get("id") != current_id:
+            picks.append(p)
+        if len(picks) >= 4:
+            break
+
+    # 2. Fallback : meme marque si pas assez de similar
+    if len(picks) < 3 and brand:
+        same_brand = [
+            x for x in all_releases
+            if x.get("brand","").strip() == brand
+            and x.get("id") != current_id
+            and x.get("id") not in [p["id"] for p in picks]
+            and x.get("image_url")
+        ]
+        same_brand.sort(key=lambda x: (x.get("date","TBD") == "TBD", x.get("date","TBD")))
+        picks += same_brand[:4 - len(picks)]
+
+    if not picks:
         return ""
 
-    # Paires de la même marque avec image et lien valide, hors paire courante
-    same_brand = [
-        x for x in all_releases
-        if x.get("brand","").strip() == brand
-        and x.get("id") != current_id
-        and x.get("id")
-        and x.get("image_url")
-    ]
-
-    # Priorité : paires avec date connue d'abord
-    same_brand.sort(key=lambda x: (x.get("date","TBD") == "TBD", x.get("date","TBD")))
-    picks = same_brand[:3]
+    picks = picks[:4]
 
     if not picks:
         return ""
@@ -555,7 +629,7 @@ def related_html(r: dict, all_releases: list) -> str:
     brand_html = escape(brand)
     return (
         f'<section class="related">'
-        f'<h2>Voir aussi — <span>{brand_html}</span></h2>'
+        f'<h2>Paires <span>similaires</span></h2>'
         f'<div class="related-grid">{"".join(cards)}</div>'
         f'</section>'
     )
@@ -596,13 +670,17 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
     else:
         img_tag = '<div style="font-size:4rem">👟</div>'
 
-    # Meta title optimisé < 60 chars
+    # Meta title optimise < 60 chars
     suffix = " | SneakerDrop FR"
-    base_title = title
+    date_fr_t = format_date_fr(r.get("date"))
+    if date_fr_t and date_fr_t != "TBD":
+        prefix = "Date de sortie " + title
+    else:
+        prefix = title
     max_base = 60 - len(suffix)
-    if len(base_title) > max_base:
-        base_title = base_title[:max_base].rsplit(" ", 1)[0]
-    meta_title = escape(base_title + suffix)
+    if len(prefix) > max_base:
+        prefix = prefix[:max_base].rsplit(" ", 1)[0]
+    meta_title = escape(prefix + suffix)
 
     jsonld_obj = {
         "@context": "https://schema.org",
@@ -662,6 +740,7 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
         buy_btn=primary_buy_button(r),
         editorial=editorial_text(r),
         retailers_block=retailers_html(r),
+        restocks_block=restocks_html(r),
         related_block=related_html(r, all_releases or []),
     )
 

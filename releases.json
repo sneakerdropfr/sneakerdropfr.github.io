@@ -1,5 +1,38 @@
 [
   {
+    "id": "clot-adidas-samba-espadrille-white-black",
+    "title": "CLOT x Adidas Samba Espadrille White Black",
+    "brand": "Adidas",
+    "date": "2026-05-02",
+    "price": 138,
+    "image_url": "https://statics.whentocop.fr/media/pxwtEM54ykVS/tmpclot-adidas-samba-espadrille-white-black-kj0274-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/clot-adidas-samba-espadrille-white-black-kj0274",
+    "buy_url": "https://stockx.com/fr-fr/adidas-samba-clot-espadrille-white-black",
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-samba-clot-espadrille-white-black",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2Fadidas%2Fsamba",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "sku": "KJ0274",
+    "sku_source": "wtc",
+    "sku_confidence": "confirmed",
+    "hype_score": 45,
+    "similar_products": [
+      "caroline-hu-clot-adidas-samba-lace-blue",
+      "caroline-hu-clot-adidas-samba-pink"
+    ],
+    "restocks": []
+  },
+  {
     "id": "virgil-abloh-x-nike-air-force-1-low-sesame",
     "title": "Virgil Abloh x Nike Air Force 1 Low Sesame",
     "brand": "Nike",
@@ -15,7 +48,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "FD6900-200",
+    "sku_source": "sneakerfiles",
+    "sku_confidence": "confirmed",
+    "hype_score": 10,
+    "similar_products": [
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya",
+      "nike-pegasus-premium-sp-white-black"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-mind-002-flyknit-qs-pure-platinum",
@@ -47,7 +91,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "IR2176-100",
+    "sku_source": "sneakerbardetroit",
+    "sku_confidence": "confirmed",
+    "hype_score": 30,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-max-90-photon-dust-blue-cyber",
@@ -136,7 +191,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "IU7543-025",
+    "sku_source": "sneakerbardetroit",
+    "sku_confidence": "confirmed",
+    "hype_score": 48,
+    "similar_products": [
+      "nike-air-max-90-infrared-3m-2026",
+      "nike-air-max-90-cool-grey",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt"
+    ],
+    "restocks": []
   },
   {
     "id": "kids-of-immigrants-x-nike-t90-mule-khaki-fusion-red",
@@ -162,7 +228,18 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "IH4422-200",
+    "sku_source": "sneakerfiles",
+    "sku_confidence": "confirmed",
+    "hype_score": 30,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "asphaltgold-x-puma-h-street-saffron-coffee-milk",
@@ -181,7 +258,11 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "408616-01",
+    "sku_source": "thedropdate",
+    "sku_confidence": "confirmed",
+    "restocks": []
   },
   {
     "id": "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon",
@@ -206,7 +287,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "IH4422-201",
+    "sku_source": "hypebeast",
+    "sku_confidence": "confirmed",
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
@@ -287,8 +379,18 @@
         "resell": false
       }
     ],
-    "featured": true,
-    "raffle": true
+    "featured": false,
+    "raffle": true,
+    "sku": "FN5164-101",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 95,
+    "similar_products": [
+      "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
+      "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
+      "air-jordan-1-low-og-sail-releases-summer-2026"
+    ],
+    "restocks": []
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
@@ -369,7 +471,17 @@
         "resell": false
       }
     ],
-    "raffle": true
+    "raffle": true,
+    "sku": "IQ7604-101",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 100,
+    "similar_products": [
+      "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
+      "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
+      "air-jordan-1-low-og-sail-releases-summer-2026"
+    ],
+    "restocks": []
   },
   {
     "id": "auralee-x-new-balance-204l-cream",
@@ -402,7 +514,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "U204L7YU",
+    "sku_source": "hypebeast",
+    "sku_confidence": "confirmed",
+    "hype_score": 28,
+    "similar_products": [
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-mt10t-fire-cracker"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-liquid-max-bright-crimson-fire-red",
@@ -477,7 +600,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "IQ7634-002",
+    "sku_source": "nike",
+    "sku_confidence": "confirmed",
+    "hype_score": 33,
+    "similar_products": [
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya",
+      "nike-mind-002-flyknit-qs-pure-platinum"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-numeric-933-marblehead-island-blue",
@@ -510,7 +644,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "UN933GRY",
+    "sku_source": "newbalance",
+    "sku_confidence": "confirmed",
+    "hype_score": 18,
+    "similar_products": [
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-mt10t-fire-cracker",
+      "new-balance-5030-grey-black"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-numeric-tiago-lemos-1010-grey-days",
@@ -543,7 +688,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "UN1010Y",
+    "sku_source": "newbalance",
+    "sku_confidence": "confirmed",
+    "hype_score": 28,
+    "similar_products": [
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-mt10t-fire-cracker",
+      "new-balance-5030-grey-black"
+    ],
+    "restocks": []
   },
   {
     "id": "bad-bunny-adidas-ballerina-flamboyan-2026",
@@ -598,7 +754,12 @@
         "type": "resell",
         "raffle": false
       }
-    ]
+    ],
+    "sku": "IE9954",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 63,
+    "restocks": []
   },
   {
     "id": "auralee-x-new-balance-204l-brown",
@@ -631,7 +792,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "U204L5I7",
+    "sku_source": "hypebeast",
+    "sku_confidence": "confirmed",
+    "hype_score": 28,
+    "similar_products": [
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-mt10t-fire-cracker"
+    ],
+    "restocks": []
   },
   {
     "id": "air-jordan-3-retro-worlds-best-dad",
@@ -781,7 +953,12 @@
       }
     ],
     "sku": "JF4396-103",
-    "raffle": true
+    "raffle": true,
+    "hype_score": 53,
+    "similar_products": [
+      "air-jordan-1-low-og-phantom-pine-green-releases-june-2026"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-mt10t-fire-cracker",
@@ -821,7 +998,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "MT10T8E8",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 33,
+    "similar_products": [
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-5030-grey-black"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
@@ -861,7 +1049,18 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "KI9873",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 13,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-exo-core-black",
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-believe-that-1-cloud-white",
@@ -894,7 +1093,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "KJ3320",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 36,
+    "similar_products": [
+      "adidas-believe-that-1-core-black",
+      "adidas-tangum-white-power-green",
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-powerphase-cloud-white-power-green"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-adizero-evo-sl-exo-core-black",
@@ -927,7 +1137,18 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "KJ0422",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 13,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-mt10t-raincloud-concrete",
@@ -974,7 +1195,18 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "MT10T8WQ",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 13,
+    "similar_products": [
+      "new-balance-mt10t-fire-cracker",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-5030-grey-black"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-5030-grey-black",
@@ -1021,7 +1253,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "U50303L3",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 13,
+    "similar_products": [
+      "new-balance-5030-black-silver",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-1906l-fairweather-blue",
@@ -1089,7 +1332,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "U19062XN",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 28,
+    "similar_products": [
+      "new-balance-1906l-rosewood",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-adizero-evo-sl-crystal-white-luta",
@@ -1122,7 +1376,18 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "KJ2521",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 13,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
+      "adidas-adizero-evo-sl-exo-core-black",
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-1906l-rosewood",
@@ -1190,7 +1455,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "U19065WS",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 18,
+    "similar_products": [
+      "new-balance-1906l-fairweather-blue",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-believe-that-1-core-black",
@@ -1223,7 +1499,18 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "KJ3147",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 36,
+    "similar_products": [
+      "adidas-believe-that-1-cloud-white",
+      "adidas-tangum-white-power-green",
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-powerphase-cloud-white-power-green"
+    ],
+    "restocks": []
   },
   {
     "id": "new-balance-5030-black-silver",
@@ -1232,7 +1519,7 @@
     "date": "2026-06-01",
     "price": 130,
     "currency": "EUR",
-    "image": "",
+    "image": "https://statics.whentocop.fr/media/NecGZCELhgQG/tmpu50307g4_nb_02_i-2000x2000.webp?width=750&quality=75&format=auto",
     "retailers": [
       {
         "name": "New Balance",
@@ -1262,7 +1549,19 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "image_url": "https://statics.whentocop.fr/media/NecGZCELhgQG/tmpu50307g4_nb_02_i-2000x2000.webp?width=750&quality=75&format=auto",
+    "sku": "U50307G4",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 13,
+    "similar_products": [
+      "new-balance-5030-grey-black",
+      "new-balance-numeric-tiago-lemos-1010-grey-days",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-mt10t-raincloud-concrete"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-pegasus-premium-sp-black-sail",
@@ -1271,7 +1570,7 @@
     "date": "2026-06-01",
     "price": 210,
     "currency": "EUR",
-    "image": "",
+    "image": "https://statics.whentocop.fr/drops/20689/picture/000000_Nike-Pegasus-Premium-SP_Black-Sail-Sail_IR2166-001_img0-1000x1000.webp?width=1920&quality=75&format=auto",
     "retailers": [
       {
         "name": "Nike",
@@ -1287,7 +1586,19 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20689/picture/000000_Nike-Pegasus-Premium-SP_Black-Sail-Sail_IR2166-001_img0-1000x1000.webp?width=1920&quality=75&format=auto",
+    "sku": "IR2166-001",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-a-e-2-coral-red",
@@ -1296,7 +1607,7 @@
     "date": "2026-06-01",
     "price": 130,
     "currency": "EUR",
-    "image": "",
+    "image": "https://statics.whentocop.fr/drops/20695/picture/000000_adidas-Anthony-Edwards-2_Coral-Red_KJ1886_img0-1000x1000.webp?width=1920&quality=75&format=auto",
     "retailers": [
       {
         "name": "BSTN",
@@ -1312,7 +1623,19 @@
         "resell": false,
         "raffle": true
       }
-    ]
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20695/picture/000000_adidas-Anthony-Edwards-2_Coral-Red_KJ1886_img0-1000x1000.webp?width=1920&quality=75&format=auto",
+    "sku": "KJ1886",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 16,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-tangum-white-power-green",
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-believe-that-1-core-black"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-pegasus-premium-sp-white-black",
@@ -1321,7 +1644,7 @@
     "date": "2026-06-01",
     "price": 210,
     "currency": "EUR",
-    "image": "",
+    "image": "https://statics.whentocop.fr/drops/20690/picture/000000_Nike-Pegasus-Premium-SP_White-Black_IR2166-102_img0-1000x1000.webp?width=1920&quality=75&format=auto",
     "retailers": [
       {
         "name": "Nike",
@@ -1337,7 +1660,19 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20690/picture/000000_Nike-Pegasus-Premium-SP_White-Black_IR2166-102_img0-1000x1000.webp?width=1920&quality=75&format=auto",
+    "sku": "IR2166-102",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
@@ -1346,7 +1681,7 @@
     "date": "2026-06-01",
     "price": 150,
     "currency": "EUR",
-    "image": "",
+    "image": "https://statics.whentocop.fr/drops/20701/picture/000000_adidas-Adizero-Evo-SL-EXO_Cloud-White-Utility-Black-Grey-Two_KJ0430_img0-1000x1000.webp?width=1920&quality=75&format=auto",
     "retailers": [
       {
         "name": "Adidas",
@@ -1369,7 +1704,19 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20701/picture/000000_adidas-Adizero-Evo-SL-EXO_Cloud-White-Utility-Black-Grey-Two_KJ0430_img0-1000x1000.webp?width=1920&quality=75&format=auto",
+    "sku": "KJ0430",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 28,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
+      "adidas-adizero-evo-sl-exo-core-black",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ],
+    "restocks": []
   },
   {
     "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
@@ -1378,7 +1725,7 @@
     "date": "2026-06-01",
     "price": 200,
     "currency": "EUR",
-    "image": "",
+    "image": "https://statics.whentocop.fr/media/DIeKK1RWZvK8/tmpbape-adidas-adizero-evo-sl-kj5751-06-1100x770-medium-1000x1000.webp?width=750&quality=75&format=auto",
     "retailers": [
       {
         "name": "Adidas Confirmed",
@@ -1387,7 +1734,20 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "image_url": "https://statics.whentocop.fr/media/DIeKK1RWZvK8/tmpbape-adidas-adizero-evo-sl-kj5751-06-1100x770-medium-1000x1000.webp?width=750&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/bape-adidas-adizero-evo-sl-white-gold-pink-blue-kj5751",
+    "sku": "KJ5751",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 8,
+    "similar_products": [
+      "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
+      "adidas-adizero-evo-sl-exo-core-black",
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-max-90-infrared-3m-2026",
@@ -1396,7 +1756,7 @@
     "date": "2026-06-01",
     "price": 150,
     "currency": "EUR",
-    "image": "",
+    "image": "https://statics.whentocop.fr/drops/18933/picture_360/tmp000000_Nike-Air-Max-90_Infrared_IU1055-100_img0-2000x2000.webp",
     "retailers": [
       {
         "name": "Nike",
@@ -1426,7 +1786,20 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/18933/picture_360/tmp000000_Nike-Air-Max-90_Infrared_IU1055-100_img0-2000x2000.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-infrared-2026-iu1055-100",
+    "sku": "IU1055-100",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 25,
+    "similar_products": [
+      "nike-air-max-90-cool-grey",
+      "nike-air-max-90-photon-dust-blue-cyber",
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt"
+    ],
+    "restocks": []
   },
   {
     "id": "adidas-adizero-prime-x-evo-cloud-white",
@@ -1435,7 +1808,7 @@
     "date": "2026-06-01",
     "price": 500,
     "currency": "EUR",
-    "image": "",
+    "image": "https://statics.whentocop.fr/drops/16768/picture/adidas-adizero-prime-x-evo-cloud-white-kh7677_1lPNIr-2000x2000.webp?width=750&quality=75&format=auto",
     "retailers": [
       {
         "name": "Adidas",
@@ -1451,15 +1824,28 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/16768/picture/adidas-adizero-prime-x-evo-cloud-white-kh7677_1lPNIr-2000x2000.webp?width=750&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-prime-x-evo-cloud-white-kh7677",
+    "sku": "KH7677",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 28,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-tangum-white-power-green",
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-powerphase-cloud-white-power-green"
+    ],
+    "restocks": []
   },
   {
     "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
     "title": "McDonald’s x Nike Book 2 “Sedona”",
-    "brand": "Sneaker Files",
+    "brand": "Nike",
     "colorway": "",
     "date": "2026-06-02",
-    "price": null,
+    "price": 145,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-book-2-mcdonalds-sedona-IR6443-100-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch/upcoming",
     "source": "Sneaker Files",
@@ -1472,7 +1858,18 @@
         "raffle": false,
         "resell": false
       }
-    ]
+    ],
+    "sku": "IR6443-100",
+    "sku_source": "sneakerfiles",
+    "sku_confidence": "confirmed",
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-rift-2-kenya",
@@ -1481,7 +1878,7 @@
     "date": "2026-06-02",
     "price": 130,
     "currency": "EUR",
-    "image": "",
+    "image": "https://statics.whentocop.fr/drops/20629/picture/000000_Nike-Rift-2_Kenya_IQ8006-002_img0-1000x1000.webp?width=1920&quality=75&format=auto",
     "retailers": [
       {
         "name": "Nike SNKRS",
@@ -1532,30 +1929,408 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20629/picture/000000_Nike-Rift-2_Kenya_IQ8006-002_img0-1000x1000.webp?width=1920&quality=75&format=auto",
+    "sku": "IQ8006-002",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 20,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-pegasus-premium-sp-white-black"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
     "title": "Nike Air Trainer SC “Atlanta Olympics 30th Anniversary”",
-    "brand": "Sneaker Files",
+    "brand": "Nike",
     "colorway": "",
-    "date": "2026-06-03",
-    "price": null,
+    "date": "2026-06-02",
+    "price": 140,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2022/06/nike-air-trainer-sc-high-raiders-black-grey-white-DX3764-001-release-date-info.jpeg",
     "buy_url": "https://www.nike.com/w?q=Nike Air Trainer SC&amp;vst=Nike Air Trainer SC",
     "source": "Sneaker Files",
     "added_at": "2026-05-29T00:09:34.422569+00:00",
     "retailers": [
       {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch/t/air-trainer-sc-pro-purple",
+        "price": 140,
+        "type": "official"
+      },
+      {
+        "name": "Afew",
+        "url": "https://en.afew-store.com/products/nike-air-trainer-sc-sp-pro-purple-white-sail-metallic-gold",
+        "price": 140,
+        "type": "official"
+      },
+      {
+        "name": "Footshop",
+        "url": "https://releases.footshop.com/air-trainer-sc-sp-AUUIT54B855nFHXG3u68",
+        "price": 140,
+        "type": "raffle"
+      }
+    ],
+    "sku": "IQ5796-500",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 15,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "nike-air-max-95-og-fresh-mint",
+    "title": "Nike Air Max 95 OG Fresh Mint",
+    "brand": "Nike",
+    "date": "2026-06-04",
+    "price": 190,
+    "currency": "EUR",
+    "image": "https://statics.whentocop.fr/drops/20691/picture/000000_Nike-Air-Max-95-OG_Fresh-Mint_HJ5996-005_img0-1000x1000.webp?width=1920&quality=75&format=auto",
+    "retailers": [
+      {
         "name": "Nike",
         "url": "https://www.nike.com/fr",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "190€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "279€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20691/picture/000000_Nike-Air-Max-95-OG_Fresh-Mint_HJ5996-005_img0-1000x1000.webp?width=1920&quality=75&format=auto",
+    "sku": "HJ5996-005",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 38,
+    "similar_products": [
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya",
+      "nike-mind-002-flyknit-qs-pure-platinum"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "renegade-x-nike-vomero-premium-brown-basalt",
+    "title": "Renegade x Nike Vomero Premium Brown Basalt",
+    "brand": "Nike",
+    "date": "2026-06-04",
+    "price": 240,
+    "currency": "EUR",
+    "image": "https://statics.whentocop.fr/drops/20437/picture_360/tmp000000_Renegade-x-Nike-Vomero-Premium_Brown-Basalt_IQ7314-200_img0-2000x2000.webp",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "240€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "433€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20437/picture_360/tmp000000_Renegade-x-Nike-Vomero-Premium_Brown-Basalt_IQ7314-200_img0-2000x2000.webp",
+    "sku": "IQ7314-200",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 30,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya",
+      "nike-pegasus-premium-sp-white-black"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "renegade-x-nike-vaporfly-4-brown-basalt",
+    "title": "Renegade x Nike Vaporfly 4 Brown Basalt",
+    "brand": "Nike",
+    "date": "2026-06-04",
+    "price": 270,
+    "currency": "EUR",
+    "image": "https://statics.whentocop.fr/drops/20421/picture/000000_Nike-Vaporfly-4-x-Renegade_Brown-Basalt-Bronze-Eclipse_IQ7313-200_img0-1000x1000.webp?width=750&quality=75&format=auto",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "270€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "419€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20421/picture/000000_Nike-Vaporfly-4-x-Renegade_Brown-Basalt-Bronze-Eclipse_IQ7313-200_img0-1000x1000.webp?width=750&quality=75&format=auto",
+    "sku": "IQ7313-200",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 30,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "nike-rift-2-kenya",
+      "nike-pegasus-premium-sp-white-black"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "nike-air-max-90-cool-grey",
+    "title": "Nike Air Max 90 Cool Grey",
+    "brand": "Nike",
+    "date": "2026-06-04",
+    "price": 160,
+    "currency": "EUR",
+    "image": "https://statics.whentocop.fr/drops/20609/picture/000000_Nike-Air-Max-III_Cool-Grey-Infrared-23_IU7543-065_img0-1000x1000.webp?width=1920&quality=75&format=auto",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fnike%2Fair-max-90-cool-grey",
+        "price": 160,
+        "type": "official"
+      },
+      {
+        "name": "Noirfonce",
+        "url": "https://noirfonce.eu/products/nike-air-max-iii-iu7543-065",
+        "price": 160,
+        "type": "official"
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-air-max-90-cool-grey-infrared-23-wave-pack-2026",
+        "price": 225,
+        "type": "resell"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/nike-air-max-3-infrared-23-iu7543-065",
+        "price": 107,
+        "type": "resell"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-max-90-wave-pack-cool-grey-infrared",
+        "price": 135,
+        "type": "resell"
+      }
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20609/picture/000000_Nike-Air-Max-III_Cool-Grey-Infrared-23_IU7543-065_img0-1000x1000.webp?width=1920&quality=75&format=auto",
+    "sku": "IU7543-065",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 15,
+    "similar_products": [
+      "nike-air-max-90-infrared-3m-2026",
+      "nike-air-max-90-photon-dust-blue-cyber",
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "nike-mind-001-flyknit-bronze-eclipse",
+    "title": "Nike Mind 001 Flyknit Bronze Eclipse",
+    "brand": "Nike",
+    "date": "2026-06-05",
+    "price": 90,
+    "currency": "EUR",
+    "image": "https://statics.whentocop.fr/drops/17772/picture/Nike-Mind-001_Bronze-Eclipse_A-definir_img0-1000x1000.webp?width=750&quality=75&format=auto",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "90€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstaronline.com",
+        "price": "90€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "134€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/17772/picture/Nike-Mind-001_Bronze-Eclipse_A-definir_img0-1000x1000.webp?width=750&quality=75&format=auto",
+    "sku": "IR2175-200",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 28,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
+    "title": "Air Jordan 1 Low OG “Phantom Pine Green”",
+    "brand": "Jordan",
+    "colorway": "",
+    "date": "2026-06-06",
+    "price": "159.99€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-1-low-og-phantom-pine-green-IR2283-030-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/t/air-jordan-1-low-og-phantom-and-pine-green",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-29T00:09:57.841600+00:00",
+    "featured": true,
+    "sku": "IR2283-030",
+    "sku_source": "sneakerbardetroit",
+    "sku_confidence": "confirmed",
+    "hype_score": 35,
+    "similar_products": [
+      "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
+      "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
+      "air-jordan-1-low-og-sail-releases-summer-2026",
+      "air-jordan-3-retro-worlds-best-dad"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "adidas-tangum-white-power-green",
+    "title": "Adidas Tangum White Power Green",
+    "brand": "Adidas",
+    "date": "2026-06-06",
+    "price": 120,
+    "currency": "EUR",
+    "image": "https://statics.whentocop.fr/drops/20706/picture/000000_adidas-Tangum_White-Power-Green_LA6570_img0-1000x1000.webp?width=750&quality=75&format=auto",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/fr/sneakers/",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "120€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "163€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20706/picture/000000_adidas-Tangum_White-Power-Green_LA6570_img0-1000x1000.webp?width=750&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-tangum-white-power-green-la6570",
+    "sku": "LA6570",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 31,
+    "similar_products": [
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-powerphase-cloud-white-power-green",
+      "adidas-believe-that-1-core-black",
+      "adidas-believe-that-1-cloud-white"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "adidas-sc-premiere-cloud-white-power-green",
+    "title": "Adidas SC Premiere Cloud White Power Green",
+    "brand": "Adidas",
+    "date": "2026-06-06",
+    "price": 140,
+    "currency": "EUR",
+    "image": "https://statics.whentocop.fr/drops/20328/picture/000000_adidas-SC-Premiere_Cloud-White-Power-Green_KZ7196_img0-1000x1000.webp?width=750&quality=75&format=auto",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/fr/sneakers/",
         "price": "140€",
         "resell": false,
         "raffle": false
       },
       {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
         "price": "140€",
         "resell": false,
         "raffle": false
@@ -1568,27 +2343,168 @@
         "raffle": false
       },
       {
-        "name": "Footshop",
-        "url": "https://www.footshop.eu",
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
         "price": "140€",
         "resell": false,
         "raffle": true
       },
       {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "303€",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "194€",
         "resell": true,
         "raffle": false
+      }
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20328/picture/000000_adidas-SC-Premiere_Cloud-White-Power-Green_KZ7196_img0-1000x1000.webp?width=750&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-sc-premiere-cloud-white-power-green-kz7196",
+    "sku": "KZ7196",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 31,
+    "similar_products": [
+      "adidas-tangum-white-power-green",
+      "adidas-powerphase-cloud-white-power-green",
+      "adidas-believe-that-1-core-black",
+      "adidas-believe-that-1-cloud-white"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "adidas-powerphase-cloud-white-power-green",
+    "title": "Adidas Powerphase Cloud White Power Green",
+    "brand": "Adidas",
+    "date": "2026-06-06",
+    "price": 120,
+    "currency": "EUR",
+    "image": "https://statics.whentocop.fr/drops/20327/picture/000000_adidas-Powerphase_Cloud-White-Power-Green_LA4359_img0-1000x1000.webp?width=750&quality=75&format=auto",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/fr/sneakers/",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "120€",
+        "resell": false,
+        "raffle": true
       },
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
-        "price": "400€",
+        "price": "310€",
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "image_url": "https://statics.whentocop.fr/drops/20327/picture/000000_adidas-Powerphase_Cloud-White-Power-Green_LA4359_img0-1000x1000.webp?width=750&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-powerphase-cloud-white-power-green-la4359",
+    "sku": "LA4359",
+    "sku_source": "adidas",
+    "sku_confidence": "confirmed",
+    "hype_score": 41,
+    "similar_products": [
+      "adidas-tangum-white-power-green",
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-believe-that-1-core-black",
+      "adidas-believe-that-1-cloud-white"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
+    "title": "Nike Air Max 1 City Connect “Baltimore Orioles”",
+    "brand": "Nike",
+    "colorway": "",
+    "date": "2026-06-08",
+    "price": 140,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-baltimore-orioles-IQ2894-100-1024x725.jpg",
+    "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-baltimore-orioles/",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-29T00:09:50.450229+00:00",
+    "sku": "IQ2894-100",
+    "sku_source": "sneakerbardetroit",
+    "sku_confidence": "confirmed",
+    "hype_score": 10,
+    "similar_products": [
+      "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
+    "title": "Nike Air Max 1 City Connect “Kansas City Royals”",
+    "brand": "Nike",
+    "colorway": "",
+    "date": "2026-06-09",
+    "price": 140,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-kansas-city-royal-IQ2916-100-1024x725.jpg",
+    "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-kansas-city-royals/",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-29T00:09:42.864231+00:00",
+    "sku": "IQ2916-100",
+    "sku_source": "sneakerbardetroit",
+    "sku_confidence": "confirmed",
+    "hype_score": 10,
+    "similar_products": [
+      "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt"
+    ],
+    "restocks": []
+  },
+  {
+    "id": "nike-kd-19-field-purple-releases-june-2026",
+    "title": "Nike KD 19 “Field Purple”",
+    "brand": "Nike",
+    "colorway": "",
+    "date": "2026-06-17",
+    "price": 145,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-kd-19-field-purple-stuff-IH1117-500-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-16T22:02:39.779561+00:00",
+    "sku": "IH1117-500",
+    "sku_source": "sneakerbardetroit",
+    "sku_confidence": "confirmed",
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": []
   },
   {
     "id": "nike-mind-001-flyknit-hyper-royal",
@@ -1642,352 +2558,15 @@
         "resell": true,
         "raffle": false
       }
-    ]
-  },
-  {
-    "id": "nike-air-max-95-og-fresh-mint",
-    "title": "Nike Air Max 95 OG Fresh Mint",
-    "brand": "Nike",
-    "date": "2026-06-04",
-    "price": 190,
-    "currency": "EUR",
-    "image": "",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr",
-        "price": "190€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "43einhalb",
-        "url": "https://www.43einhalb.com",
-        "price": "190€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Footshop",
-        "url": "https://www.footshop.eu",
-        "price": "190€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "279€",
-        "resell": true,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "renegade-x-nike-vomero-premium-brown-basalt",
-    "title": "Renegade x Nike Vomero Premium Brown Basalt",
-    "brand": "Nike",
-    "date": "2026-06-04",
-    "price": 240,
-    "currency": "EUR",
-    "image": "",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr",
-        "price": "240€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "433€",
-        "resell": true,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "renegade-x-nike-vaporfly-4-brown-basalt",
-    "title": "Renegade x Nike Vaporfly 4 Brown Basalt",
-    "brand": "Nike",
-    "date": "2026-06-04",
-    "price": 270,
-    "currency": "EUR",
-    "image": "",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr",
-        "price": "270€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "419€",
-        "resell": true,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-air-max-90-cool-grey",
-    "title": "Nike Air Max 90 Cool Grey",
-    "brand": "Nike",
-    "date": "2026-06-05",
-    "price": 160,
-    "currency": "EUR",
-    "image": "",
-    "retailers": []
-  },
-  {
-    "id": "nike-mind-001-flyknit-bronze-eclipse",
-    "title": "Nike Mind 001 Flyknit Bronze Eclipse",
-    "brand": "Nike",
-    "date": "2026-06-05",
-    "price": 90,
-    "currency": "EUR",
-    "image": "",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Footshop",
-        "url": "https://www.footshop.eu",
-        "price": "90€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "Urbanstar",
-        "url": "https://www.urbanstaronline.com",
-        "price": "90€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "134€",
-        "resell": true,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
-    "title": "Air Jordan 1 Low OG “Phantom Pine Green”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "2026-06-06",
-    "price": "159.99€",
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-1-low-og-phantom-pine-green-IR2283-030-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/t/air-jordan-1-low-og-phantom-and-pine-green",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-29T00:09:57.841600+00:00"
-  },
-  {
-    "id": "adidas-tangum-white-power-green",
-    "title": "Adidas Tangum White Power Green",
-    "brand": "Adidas",
-    "date": "2026-06-06",
-    "price": 120,
-    "currency": "EUR",
-    "image": "",
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.bstn.com/fr/sneakers/",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "43einhalb",
-        "url": "https://www.43einhalb.com",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Afew",
-        "url": "https://www.afew-store.com",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr",
-        "price": "120€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "163€",
-        "resell": true,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "adidas-sc-premiere-cloud-white-power-green",
-    "title": "Adidas SC Premiere Cloud White Power Green",
-    "brand": "Adidas",
-    "date": "2026-06-06",
-    "price": 140,
-    "currency": "EUR",
-    "image": "",
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.bstn.com/fr/sneakers/",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "43einhalb",
-        "url": "https://www.43einhalb.com",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Afew",
-        "url": "https://www.afew-store.com",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr",
-        "price": "140€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "194€",
-        "resell": true,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "adidas-powerphase-cloud-white-power-green",
-    "title": "Adidas Powerphase Cloud White Power Green",
-    "brand": "Adidas",
-    "date": "2026-06-06",
-    "price": 120,
-    "currency": "EUR",
-    "image": "",
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.bstn.com/fr/sneakers/",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Afew",
-        "url": "https://www.afew-store.com",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr",
-        "price": "120€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "310€",
-        "resell": true,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
-    "title": "Nike Air Max 1 City Connect “Baltimore Orioles”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "2026-06-08",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-baltimore-orioles-IQ2894-100-1024x725.jpg",
-    "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-baltimore-orioles/",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-29T00:09:50.450229+00:00"
-  },
-  {
-    "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
-    "title": "Nike Air Max 1 City Connect “Kansas City Royals”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "2026-06-09",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-kansas-city-royal-IQ2916-100-1024x725.jpg",
-    "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-kansas-city-royals/",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-29T00:09:42.864231+00:00"
-  },
-  {
-    "id": "nike-kd-19-field-purple-releases-june-2026",
-    "title": "Nike KD 19 “Field Purple”",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "2026-06-17",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-kd-19-field-purple-stuff-IH1117-500-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-16T22:02:39.779561+00:00"
+    ],
+    "sku": "IR2175-400",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 30,
+    "similar_products": [
+      "nike-mind-001-flyknit-bronze-eclipse"
+    ],
+    "restocks": []
   },
   {
     "id": "air-jordan-17-low-black-patent-releases-august-2026",
@@ -2016,7 +2595,10 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "sku": "HV4803-001",
+    "sku_source": "manual",
+    "sku_confidence": 90
   },
   {
     "id": "nike-air-more-uptempo-og-black-white-returns-september-2026",
@@ -2050,7 +2632,7 @@
   {
     "id": "a-ma-mani-re-x-nike-pegasus-premium-timing-is-everything-rel",
     "title": "A Ma Maniére x Nike Pegasus Premium “Timing Is Everything”",
-    "brand": "Sneaker Files",
+    "brand": "Nike",
     "colorway": "",
     "date": "TBD",
     "price": null,
@@ -2062,7 +2644,7 @@
   {
     "id": "nike-air-zoom-huarache-2k4-knicks-pe-releases-fall-2026",
     "title": "Nike Air Zoom Huarache 2K4 “Knicks” PE",
-    "brand": "Sneaker Files",
+    "brand": "Nike",
     "colorway": "",
     "date": "TBD",
     "price": "$210",
@@ -2072,21 +2654,9 @@
     "added_at": "2026-05-19T21:11:08.231766+00:00"
   },
   {
-    "id": "la-brick-after-brick-arrive-le-22-mai-sur-snkrs",
-    "title": "La “Brick After Brick” arrive le 22 mai sur SNKRS",
-    "brand": "FitThemAll",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": null,
-    "buy_url": "https://fitthemall.fr/la-brick-after-brick-arrive-le-22-mai-sur-snkrs/",
-    "source": "FitThemAll",
-    "added_at": "2026-05-19T14:45:44.335620+00:00"
-  },
-  {
     "id": "nike-kobe-9-em-low-protro-draft-day-releases-june-2026",
     "title": "Nike Kobe 9 EM Low Protro “Draft Day”",
-    "brand": "Sneaker Files",
+    "brand": "Nike",
     "colorway": "",
     "date": "TBD",
     "price": "125.99€",
@@ -2098,7 +2668,7 @@
   {
     "id": "nike-air-rift-2-kenya-returns-summer-2026",
     "title": "Nike Air Rift 2 “Kenya”",
-    "brand": "Sneaker Files",
+    "brand": "Nike",
     "colorway": "",
     "date": "TBD",
     "price": null,
@@ -2110,7 +2680,7 @@
   {
     "id": "nike-sb-dunk-low-green-patent-releases-holiday-2026",
     "title": "Nike SB Dunk Low “Green Patent”",
-    "brand": "Sneaker Files",
+    "brand": "Nike",
     "colorway": "",
     "date": "TBD",
     "price": null,
@@ -2122,7 +2692,7 @@
   {
     "id": "nike-air-max-95-scorpion",
     "title": "Nike Air Max 95 Scorpion",
-    "brand": "Sneakers.fr",
+    "brand": "Nike",
     "colorway": "",
     "date": "TBD",
     "price": null,
@@ -2134,7 +2704,7 @@
   {
     "id": "nike-mind-001-cucumber-calm-releases-summer-2026",
     "title": "Nike Mind 001 “Cucumber Calm”",
-    "brand": "Sneaker Files",
+    "brand": "Nike",
     "colorway": "",
     "date": "TBD",
     "price": null,
@@ -2146,7 +2716,7 @@
   {
     "id": "air-jordan-3-utility-releases-spring-2027",
     "title": "Air Jordan 3 “Utility”",
-    "brand": "Sneaker Files",
+    "brand": "Jordan",
     "colorway": "",
     "date": "TBD",
     "price": null,
@@ -2156,57 +2726,9 @@
     "added_at": "2026-05-18T22:36:37.864535+00:00"
   },
   {
-    "id": "the-nike-baltoro-makes-a-summer-cameo-in-chalk-safety-orange",
-    "title": "The Nike Baltoro Makes A Summer Cameo In “Chalk/Safety Orange”",
-    "brand": "Sneaker News",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-baltoro-chalk-sail-safety-orange-black-io4556-100-2.jpg",
-    "buy_url": "https://www.nike.com/de/w?q=Mens+Baltoro",
-    "source": "Sneaker News",
-    "added_at": "2026-05-18T22:04:06.002114+00:00"
-  },
-  {
-    "id": "nike-gives-the-air-max-95-a-multicolor-woven-upgrade-for-sum",
-    "title": "Nike Gives the Air Max 95 a Multicolor Woven Upgrade for Summer 2026",
-    "brand": "Just Fresh Kicks",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/04/nike-air-max-95-woven-multi-color-2026-3-1-e1775066609805.webp",
-    "buy_url": "https://justfreshkicks.com/nike-air-max-95-woven-multi/",
-    "source": "Just Fresh Kicks",
-    "added_at": "2026-05-18T20:45:16.819110+00:00"
-  },
-  {
-    "id": "devin-booker-s-dogs-inspire-the-nike-book-2-haven-and-hector",
-    "title": "Devin Booker’s Dogs Inspire The Nike Book 2 “Haven And Hector”",
-    "brand": "Sneaker News",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-book-2-haven-and-hector-ix1832-001-5.jpg",
-    "buy_url": "https://www.nike.com/de/w?q=Mens+Book+2",
-    "source": "Sneaker News",
-    "added_at": "2026-05-18T18:33:04.832480+00:00"
-  },
-  {
-    "id": "la-nike-air-force-1-low-protro-denim-pe-arrive-pour-le-grand",
-    "title": "La Nike Air Force 1 Low Protro Denim PE arrive pour le grand public",
-    "brand": "FitThemAll",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": null,
-    "buy_url": "https://fitthemall.fr/la-nike-air-force-1-low-protro-denim-pe-arrive-pour-le-grand-public/",
-    "source": "FitThemAll",
-    "added_at": "2026-05-18T14:33:56.901791+00:00"
-  },
-  {
     "id": "star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr",
     "title": "Star Wars The Mandalorian x adidas Adizero Evo SL ATR",
-    "brand": "Sneakers.fr",
+    "brand": "Adidas",
     "colorway": "",
     "date": "TBD",
     "price": null,
@@ -2225,5 +2747,1890 @@
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-933-grey-days-nm933gey",
     "buy_url": "https://www.whentocop.fr/drops/new-balance-933-grey-days-nm933gey",
     "retailers": []
+  },
+  {
+    "id": "wmns-air-jordan-1-mid",
+    "title": "WMNS Air Jordan 1 Mid",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 139,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9EVjA5OTEtMTExL0RWMDk5MS0xMTEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40127327016%26a%3D2855487%26m%3D104979",
+        "price": "139€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-9-golf",
+    "title": "AIR JORDAN 9 GOLF",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 219,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GSjU5MzQtMTAxL0ZKNTkzNC0xMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40127371437%26a%3D2855487%26m%3D104979",
+        "price": "219€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-xxxix",
+    "title": "AIR JORDAN XXXIX",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GUTAyMTMtMDEwL0ZRMDIxMy0wMTAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40127412617%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-4-rm",
+    "title": "AIR JORDAN 4 RM",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GUTc5MzktMDA2L0ZRNzkzOS0wMDYtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40127417333%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-sweater-knit-pants",
+    "title": "WMNS Air Jordan Sweater-Knit Pants",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 174,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GWjQyMDEtMDEwL0ZaNDIwMS0wMTAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40127415755%26a%3D2855487%26m%3D104979",
+        "price": "174€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-pants",
+    "title": "Air Jordan Pants",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GWjIxMzQtMjIzL0ZaMjEzNC0yMjMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40127365710%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-4-rm",
+    "title": "WMNS AIR JORDAN 4 RM",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjQ0NjYtMDI1L0lCNDQ2Ni0wMjUtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40699204455%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "jordan-1-crib-bootie",
+    "title": "Jordan 1 CRIB BOOTIE",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 32,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9BVDM3NDUtMTA4L0FUMzc0NS0xMDgtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43683901728%26a%3D2855487%26m%3D104979",
+        "price": "32€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-zippered-knit-top",
+    "title": "WMNS Air Jordan Zippered Knit Top",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 109,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IRjk0MzgtNTQwL0hGOTQzOC01NDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40534608093%26a%3D2855487%26m%3D104979",
+        "price": "109€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-85-tee",
+    "title": "Air Jordan 85 Tee",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 32,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IRjM0NDctMDQ1L0hGMzQ0Ny0wNDUtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44675012946%26a%3D2855487%26m%3D104979",
+        "price": "32€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-dunk-low-panda",
+    "title": "WMNS Dunk Low \"Panda\"",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 119,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9kZDE1MDMtMTAxL2RkMTUwMy0xMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40127328246%26a%3D2855487%26m%3D104979",
+        "price": "119€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "nike-dunk-low",
+    "title": "Nike Dunk Low",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 59,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GQjkxMDctMDAyL0ZCOTEwNy0wMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40127363085%26a%3D2855487%26m%3D104979",
+        "price": "59€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-dunk-low-se",
+    "title": "WMNS DUNK LOW SE",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 119,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTM0MzEtNTE1L0hRMzQzMS01MTUtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40127405383%26a%3D2855487%26m%3D104979",
+        "price": "119€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "x-stash-air-max-95-sp",
+    "title": "X STASH AIR MAX 95 SP",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IRjU1MTUtNDAwL0hGNTUxNS00MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40127415585%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "dunk-low-retro-qs",
+    "title": "DUNK LOW RETRO QS",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 129,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GWjMwNTMtMDAxL0ZaMzA1My0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40127391466%26a%3D2855487%26m%3D104979",
+        "price": "129€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "dunk-low-retro-se",
+    "title": "DUNK LOW RETRO SE",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 129,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IRjMxNDEtMjAwL0hGMzE0MS0yMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40603475703%26a%3D2855487%26m%3D104979",
+        "price": "129€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-90-prm",
+    "title": "AIR MAX 90 PRM",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 159,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ITTk0MzItMDAxL0hNOTQzMi0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D40419606941%26a%3D2855487%26m%3D104979",
+        "price": "159€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "x-travis-scott-zoom-field-jaxx",
+    "title": "X TRAVIS SCOTT ZOOM FIELD JAXX",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 169,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTMwNzItNDAwL0hRMzA3Mi00MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D41385302737%26a%3D2855487%26m%3D104979",
+        "price": "169€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-dunk-low-cacao-wow-and-pink-foam",
+    "title": "WMNS DUNK LOW \"Cacao Wow and Pink Foam\"",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 129,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ITTA5ODctMjAwL0hNMDk4Ny0yMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44885807109%26a%3D2855487%26m%3D104979",
+        "price": "129€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-90-gtx",
+    "title": "AIR MAX 90 GTX",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 169,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GRDU4MTAtMTAyL0ZENTgxMC0xMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44885807274%26a%3D2855487%26m%3D104979",
+        "price": "169€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-4rm",
+    "title": "AIR JORDAN 4RM",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JSDQ0ODgtMDcyL0lINDQ4OC0wNzItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D41948724859%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-40",
+    "title": "AIR JORDAN 40",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ITTk5MzEtNDAwL0hNOTkzMS00MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42214941751%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-rare-air-fleerce-po-hoodie",
+    "title": "Air Jordan Rare Air Fleerce PO Hoodie",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjMwMDMtMzI0L0lCMzAwMy0zMjQtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42261109364%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-11-retro-rare-air",
+    "title": "AIR JORDAN 11 RETRO \"RARE AIR\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 219,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JSDAyOTYtNDAwL0lIMDI5Ni00MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42719507396%26a%3D2855487%26m%3D104979",
+        "price": "219€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-patch-s-s-tee",
+    "title": "Air Jordan PATCH S/S TEE",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 29,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC85NUM4OTktMDIzLzk1Qzg5OS0wMjMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43451960004%26a%3D2855487%26m%3D104979",
+        "price": "29€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-mule",
+    "title": "WMNS AIR JORDAN MULE",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ISjQyOTItMTAwL0hKNDI5Mi0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43593993693%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-1-mm-low-v3",
+    "title": "WMNS AIR JORDAN 1 MM LOW V3",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 134,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTIxODYtMDAyL0hRMjE4Ni0wMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43628412052%26a%3D2855487%26m%3D104979",
+        "price": "134€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-4-retro-flight-club",
+    "title": "AIR JORDAN 4 RETRO \"Flight Club\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTQwMDItMTAwL0lNNDAwMi0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43806187861%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-1-retro-low",
+    "title": "AIR JORDAN 1 RETRO LOW",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC84NDg3NzUtODA1Lzg0ODc3NS04MDUtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43820072444%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-40-asw",
+    "title": "AIR JORDAN 40 ASW",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTQwOTItMDAxL0lRNDA5Mi0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43955342522%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-6-retro-infrared",
+    "title": "AIR JORDAN 6 RETRO \"INFRARED\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9DVDg1MjktMDAxL0NUODUyOS0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43986821701%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-40-sl",
+    "title": "AIR JORDAN 40 SL",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTgyMDYtODAwL0lNODIwNi04MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44146437426%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-1-retro-low-og",
+    "title": "AIR JORDAN 1 RETRO LOW OG",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 159,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JRjQzOTEtMTAwL0lGNDM5MS0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44146437447%26a%3D2855487%26m%3D104979",
+        "price": "159€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-1-retro-hi-og",
+    "title": "WMNS AIR JORDAN 1 RETRO HI OG",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 179,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GRDI1OTYtMTAyL0ZEMjU5Ni0xMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44157362494%26a%3D2855487%26m%3D104979",
+        "price": "179€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-6-retro-psg",
+    "title": "AIR JORDAN 6 RETRO - PSG",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 229,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTUxMzUtMDAxL0lRNTEzNS0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44046757884%26a%3D2855487%26m%3D104979",
+        "price": "229€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-13-retro",
+    "title": "AIR JORDAN 13 RETRO",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC80MTQ1NzEtMTAyLzQxNDU3MS0xMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44218872854%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-9-retro",
+    "title": "AIR JORDAN 9 RETRO",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IVjQ3OTQtMTAwL0hWNDc5NC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44218872878%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-mule",
+    "title": "AIR JORDAN MULE",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 109,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GSjEyMTQtMTAxL0ZKMTIxNC0xMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44480831729%26a%3D2855487%26m%3D104979",
+        "price": "109€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-11-retro-low",
+    "title": "AIR JORDAN 11 RETRO LOW",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GVjUxMDQtMTAwL0ZWNTEwNC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44544939643%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-1-low",
+    "title": "AIR JORDAN 1 LOW",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 129,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC81NTM1NTgtMDY3LzU1MzU1OC0wNjctMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42941984144%26a%3D2855487%26m%3D104979",
+        "price": "129€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-5-retro-og",
+    "title": "AIR JORDAN 5 RETRO OG",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTc5NzgtMTAzL0hRNzk3OC0xMDMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44570909494%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-1-low-g-spk",
+    "title": "AIR JORDAN 1 LOW G SPK",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 169,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTM0MTctNjAwL0lRMzQxNy02MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44637470007%26a%3D2855487%26m%3D104979",
+        "price": "169€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-11-retro-low-mothers-day",
+    "title": "WMNS AIR JORDAN 11 RETRO LOW 'MOTHERS DAY'",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 189,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9BSDc4NjAtMTAyL0FINzg2MC0xMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44701503082%26a%3D2855487%26m%3D104979",
+        "price": "189€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "jdb-air-jordan-plane-window-ss",
+    "title": "JDB AIR JORDAN PLANE WINDOW SS",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 27,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC85NUY5MDMtMDIzLzk1RjkwMy0wMjMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44721060545%26a%3D2855487%26m%3D104979",
+        "price": "27€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-mule-se",
+    "title": "WMNS AIR JORDAN MULE SE",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 159,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTzc3MDItMDAxL0lPNzcwMi0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44754237290%26a%3D2855487%26m%3D104979",
+        "price": "159€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-1-element-low-a-t",
+    "title": "AIR JORDAN 1 ELEMENT LOW A/T",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GVjQyMjctMDAzL0ZWNDIyNy0wMDMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44792074857%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-12-retro-bloodline",
+    "title": "AIR JORDAN 12 RETRO 'Bloodline'",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9DVDgwMTMtMDAzL0NUODAxMy0wMDMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44809551211%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-3-retro-og-sail-and-university-red",
+    "title": "AIR JORDAN 3 RETRO OG 'Sail and University Red'",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JRjQzOTYtMTAzL0lGNDM5Ni0xMDMtMDEtbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjoxNjAwLCJoZWlnaHQiOjIwMDAsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44884454054%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-dunk-low",
+    "title": "WMNS DUNK LOW",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 119,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjQ0MTctMTAxL0lCNDQxNy0xMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D41948724759%26a%3D2855487%26m%3D104979",
+        "price": "119€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "dunk-low-retro-prm",
+    "title": "DUNK LOW RETRO PRM",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 129,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTMwNzctNjAwL0lNMzA3Ny02MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42325269940%26a%3D2855487%26m%3D104979",
+        "price": "129€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "x-harris-tweed-wmns-dunk-low",
+    "title": "X Harris Tweed WMNS DUNK LOW",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 129,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTUwMzYtOTAyL0hRNTAzNi05MDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42468059405%26a%3D2855487%26m%3D104979",
+        "price": "129€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "dunk-low-gtx",
+    "title": "DUNK LOW GTX",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 139,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTIwNTMtMDAxL0hRMjA1My0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42941982732%26a%3D2855487%26m%3D104979",
+        "price": "139€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "dunk-low-gs-gg",
+    "title": "DUNK LOW GS GG",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 94,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTzIwNzgtMTAwL0lPMjA3OC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43105029241%26a%3D2855487%26m%3D104979",
+        "price": "94€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-dunk-lowmns-ss",
+    "title": "WMNS DUNK LOWMNS SS",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 139,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IVjQzODgtMDAxL0hWNDM4OC0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43143016017%26a%3D2855487%26m%3D104979",
+        "price": "139€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-max-90",
+    "title": "WMNS AIR MAX 90",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTMxMTAtMTAwL0lNMzExMC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43352090824%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-prm",
+    "title": "AIR MAX 95 PRM",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 189,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTMwODItMDAxL0lNMzA4Mi0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43087186031%26a%3D2855487%26m%3D104979",
+        "price": "189€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-big-bbl-ltr-qs",
+    "title": "AIR MAX 95 BIG BBL LTR QS",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTA2OTYtMDAxL0lNMDY5Ni0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43439287721%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "dunk-low-retro",
+    "title": "DUNK LOW RETRO",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 119,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IRjU0NDEtMDA3L0hGNTQ0MS0wMDctMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43451960982%26a%3D2855487%26m%3D104979",
+        "price": "119€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-g",
+    "title": "AIR MAX 95 G",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IVjQ2OTYtNjAwL0hWNDY5Ni02MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43506317226%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "dunk-low-bp",
+    "title": "DUNK LOW BP",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 79,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTAyMjAtNjYzL0lRMDIyMC02NjMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43628411968%26a%3D2855487%26m%3D104979",
+        "price": "79€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-90",
+    "title": "AIR MAX 90",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ETTAwMjktMDIyL0RNMDAyOS0wMjItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43780060191%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "dunk-low-retro-prm-qs",
+    "title": "DUNK LOW RETRO PRM QS",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 139,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTMzNDItMTAwL0lRMzM0Mi0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43817746651%26a%3D2855487%26m%3D104979",
+        "price": "139€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-max-95-big-bubble",
+    "title": "WMNS AIR MAX 95 BIG BUBBLE",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 194,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTM0NDQtNzIyL0lRMzQ0NC03MjItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44148258722%26a%3D2855487%26m%3D104979",
+        "price": "194€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-big-bubble-zip-sp",
+    "title": "AIR MAX 95 BIG BUBBLE ZIP SP",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTA2OTUtMDAyL0lNMDY5NS0wMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44170275297%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-90-g",
+    "title": "AIR MAX 90 G",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 159,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IVjkzMDUtMTA1L0hWOTMwNS0xMDUtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44367488896%26a%3D2855487%26m%3D104979",
+        "price": "159€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "dunk-low-gs",
+    "title": "DUNK LOW GS",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 104,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTYwMjgtMDEwL0lNNjAyOC0wMTAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43105029236%26a%3D2855487%26m%3D104979",
+        "price": "104€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-3-og-rare-air-td",
+    "title": "Air Jordan 3 OG \"Rare Air\" TD",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 69,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjg5NjYtMDA0L0lCODk2Ni0wMDQtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D41062149615%26a%3D2855487%26m%3D104979",
+        "price": "69€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-rev",
+    "title": "AIR JORDAN REV",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 249,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GVjYzMzgtMTAwL0ZWNjMzOC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D41475196779%26a%3D2855487%26m%3D104979",
+        "price": "249€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-3-retro-pure-money-ps",
+    "title": "Air Jordan 3 Retro \"PURE MONEY\" PS",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 89,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ETTA5NjYtMTExL0RNMDk2Ni0xMTEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D41760130763%26a%3D2855487%26m%3D104979",
+        "price": "89€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-3-retro-starfish",
+    "title": "Air Jordan 3 Retro \"Starfish\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JSDc2OTQtMjAwL0lINzY5NC0yMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D41813016217%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-3-retro-og",
+    "title": "AIR JORDAN 3 RETRO OG",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ETjM3MDctMjAyL0ROMzcwNy0yMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42967609788%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-1-retro-high-og-shattered-backboard",
+    "title": "Air Jordan 1 Retro High OG \"Shattered Backboard\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 189,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9EWjU0ODUtMDA4L0RaNTQ4NS0wMDgtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D41837141839%26a%3D2855487%26m%3D104979",
+        "price": "189€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-11-retro-grand-finale",
+    "title": "WMNS AIR JORDAN 11 RETRO \"Grand Finale\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9BUjA3MTUtMTEwL0FSMDcxNS0xMTAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43128161984%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-10-retro-shadow",
+    "title": "AIR JORDAN 10 RETRO \"Shadow\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ISjY3NzktMDAxL0hKNjc3OS0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43186552409%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "x-paris-saint-germain-air-jordan-4-rm",
+    "title": "X Paris Saint-Germain AIR JORDAN 4 RM",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JSDc0NTMtMDAxL0lINzQ1My0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43365840819%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-12-retro-taxi",
+    "title": "AIR JORDAN 12 RETRO \"TAXI\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9DVDgwMTMtMTE3L0NUODAxMy0xMTctMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43387141249%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-1-retro-low-og-chicago",
+    "title": "AIR JORDAN 1 RETRO LOW OG \"Chicago\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 159,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTY5OTgtNjAwL0hRNjk5OC02MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43158915017%26a%3D2855487%26m%3D104979",
+        "price": "159€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-6-low-blackout",
+    "title": "WMNS AIR JORDAN 6 LOW \"Blackout\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTzk3ODYtMDAxL0lPOTc4Ni0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43782419537%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-1-retro-high-og",
+    "title": "AIR JORDAN 1 RETRO HIGH OG",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 179,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9EWjU0ODUtMDAzL0RaNTQ4NS0wMDMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43963580804%26a%3D2855487%26m%3D104979",
+        "price": "179€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "x-paris-saint-germain-air-jordan-5-retro",
+    "title": "X Paris Saint-Germain AIR JORDAN 5 RETRO",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTMwMDQtMDAxL0hRMzAwNC0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43365840804%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "x-levis-air-jordan-3-black-and-white",
+    "title": "X LEVIS AIR JORDAN 3 \"Black and White\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUjA5MTQtNDAwL0lSMDkxNC00MDAtMDEtbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjoxNjAwLCJoZWlnaHQiOjIwMDAsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44036476428%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-3-retro-og-sp",
+    "title": "WMNS AIR JORDAN 3 RETRO OG SP",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 224,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JRjMwOTctMzAwL0lGMzA5Ny0zMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44480802594%26a%3D2855487%26m%3D104979",
+        "price": "224€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-4-retro-pearl-pink-and-iced-carmine",
+    "title": "WMNS AIR JORDAN 4 RETRO 'Pearl Pink and Iced Carmine'",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjY3MTYtNjAwL0lCNjcxNi02MC0wMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjoxNjAwLCJoZWlnaHQiOjIwMDAsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44548396492%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-3-retro-orange-citrus",
+    "title": "WMNS AIR JORDAN 3 RETRO \"Orange Citrus\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9DSzkyNDYtMTAxL0NLOTI0Ni0xMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44642659992%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-4-retro-toro-bravo",
+    "title": "AIR JORDAN 4 RETRO 'Toro Bravo'",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GUTgxMzgtNjAwL0ZRODEzOC02MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44652211468%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-5-retro-og-medium-soft-pink",
+    "title": "AIR JORDAN 5 RETRO OG \"Medium Soft Pink\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTc5NzgtMTAyL0hRNzk3OC0xMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43105014094%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-1-retro-low-og-banned",
+    "title": "AIR JORDAN 1 RETRO LOW OG 'Banned'",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 159,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JVzYyNzYtMDAxL0lXNjI3Ni0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44757908617%26a%3D2855487%26m%3D104979",
+        "price": "159€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-jordan-4-retro-love-letter",
+    "title": "WMNS AIR JORDAN 4 RETRO \"Love Letter\"",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 209,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IVjA4MjMtMTA4L0hWMDgyMy0xMDgtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43912836474%26a%3D2855487%26m%3D104979",
+        "price": "209€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-3-retro-og-brazil",
+    "title": "Air Jordan 3 Retro OG 'Brazil'",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 224,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JVjQ4NzEtNDAwL0lWNDg3MS00MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44844118401%26a%3D2855487%26m%3D104979",
+        "price": "224€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "dunk-low-tde",
+    "title": "DUNK LOW (TDE)",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 59,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GQjkxMDctMTMxL0ZCOTEwNy0xMzEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D41956258955%26a%3D2855487%26m%3D104979",
+        "price": "59€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-big-bubble-blue-spark",
+    "title": "AIR MAX 95 BIG BUBBLE 'BLUE SPARK'",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 179,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTc0MTAtMTAwL0lNNzQxMC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42030820314%26a%3D2855487%26m%3D104979",
+        "price": "179€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-max-95-big-bubble-blue-tint",
+    "title": "WMNS AIR MAX 95 BIG BUBBLE 'BLUE TINT'",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 189,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ISjU5OTYtMDAyL0hKNTk5Ni0wMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42144343842%26a%3D2855487%26m%3D104979",
+        "price": "189€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "x-lego-col-gs-dunk-low",
+    "title": "X LEGO COL GS DUNK LOW",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 104,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JRjIxMTctMTAwL0lGMjExNy0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42277447730%26a%3D2855487%26m%3D104979",
+        "price": "104€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-qs",
+    "title": "AIR MAX 95 QS",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 199,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTE5NzMtMDAxL0hRMTk3My0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42408180425%26a%3D2855487%26m%3D104979",
+        "price": "199€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-og-black-border",
+    "title": "Air Max 95 OG \"Black Border\"",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 189,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTc0MDktMTAwL0lNNzQwOS0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D41881001073%26a%3D2855487%26m%3D104979",
+        "price": "189€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-big-bubble",
+    "title": "AIR MAX 95 BIG BUBBLE",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 189,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTc0MTAtMDAxL0lNNzQxMC0wMDEtMDEtbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjoxNjAwLCJoZWlnaHQiOjIwMDAsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D42576260042%26a%3D2855487%26m%3D104979",
+        "price": "189€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-og",
+    "title": "AIR MAX 95 OG",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 189,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ITTQ3NDAtMDAxL0hNNDc0MC0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44138254999%26a%3D2855487%26m%3D104979",
+        "price": "189€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-90-se",
+    "title": "AIR MAX 90 SE",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUjU5MDMtMDEwL0lSNTkwMy0wMTAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44792075580%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-big-bubble-volt-and-university-red",
+    "title": "Air Max 95 Big Bubble \"Volt and University Red\"",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 194,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTA2MjAtMTAwL0lRMDYyMC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44239971320%26a%3D2855487%26m%3D104979",
+        "price": "194€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-big-bbl-premium",
+    "title": "AIR MAX 95 BIG BBL PREMIUM",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 189,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjc4NjItMTAwL0lCNzg2Mi0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44801489745%26a%3D2855487%26m%3D104979",
+        "price": "189€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-90-qs",
+    "title": "AIR MAX 90 QS",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 149,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JVTA3NjctMDAxL0lVMDc2Ny0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44633526350%26a%3D2855487%26m%3D104979",
+        "price": "149€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-max-95-big-bubble-prm",
+    "title": "AIR MAX 95 BIG BUBBLE PRM",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 179,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjc4NzItMTAwL0lCNzg3Mi0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44863149814%26a%3D2855487%26m%3D104979",
+        "price": "179€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-air-max-95-pink-foam",
+    "title": "WMNS Air Max 95 Pink Foam",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 189,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ISjU5OTYtMDAxL0hKNTk5Ni0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44538817271%26a%3D2855487%26m%3D104979",
+        "price": "189€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "wmns-dunk-low-nn-se",
+    "title": "WMNS DUNK LOW NN SE",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 129,
+    "currency": "EUR",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ISjU4NjQtNzAwL0hKNTg2NC03MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D41279481521%26a%3D2855487%26m%3D104979",
+        "price": "129€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "supreme-x-martine-rose-x-nike-dunk-low-releases-holiday-2026",
+    "title": "Supreme x Martine Rose x Nike Dunk Low Releases Holiday 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/supreme-martine-rose-nike-dunk-low-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-31T08:56:54.297309+00:00",
+    "restocks": []
   }
 ]

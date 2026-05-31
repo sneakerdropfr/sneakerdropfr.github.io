@@ -1,5 +1,93 @@
 [
   {
+    "id": "caroline-hu-clot-adidas-samba-lace-blue",
+    "title": "Caroline Hu x CLOT x Adidas Samba Lace Blue",
+    "brand": "Adidas",
+    "date": "2024-05-24",
+    "price": 137,
+    "image_url": "https://statics.whentocop.fr/media/pxwtEM54ykVS/tmpcaroline-hu-clot-adidas-samba-lace-blue-js2777-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/caroline-hu-clot-adidas-samba-lace-blue-js2777",
+    "buy_url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-blue",
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-blue",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "sku": "JS2777",
+    "sku_source": "wtc",
+    "sku_confidence": "confirmed",
+    "hype_score": 42
+  },
+  {
+    "id": "caroline-hu-clot-adidas-samba-black",
+    "title": "Caroline Hu x CLOT x Adidas Samba Black",
+    "brand": "Adidas",
+    "date": "2024-05-24",
+    "price": 136,
+    "image_url": "https://statics.whentocop.fr/media/pxwtEM54ykVS/tmpcaroline-hu-clot-adidas-samba-black-jq4749-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/caroline-hu-clot-adidas-samba-black-jq4749",
+    "buy_url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-black",
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-black",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "sku": "JQ4749",
+    "sku_source": "wtc",
+    "sku_confidence": "confirmed",
+    "hype_score": 40
+  },
+  {
+    "id": "caroline-hu-clot-adidas-samba-pink",
+    "title": "Caroline Hu x CLOT x Adidas Samba Pink",
+    "brand": "Adidas",
+    "date": "2024-05-24",
+    "price": 104,
+    "image_url": "https://statics.whentocop.fr/media/pxwtEM54ykVS/tmpcaroline-hu-clot-adidas-samba-pink-jq4747-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/caroline-hu-clot-adidas-samba-pink-jq4747",
+    "buy_url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-pink",
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-pink",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "sku": "JQ4747",
+    "sku_source": "wtc",
+    "sku_confidence": "confirmed",
+    "hype_score": 38
+  },
+  {
+    "id": "caroline-hu-clot-adidas-samba-off-white",
+    "title": "Caroline Hu x CLOT x Adidas Samba Off White",
+    "brand": "Adidas",
+    "date": "2024-05-24",
+    "price": 147,
+    "image_url": "https://statics.whentocop.fr/media/pxwtEM54ykVS/tmpcaroline-hu-clot-adidas-samba-off-white-jq4748-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/caroline-hu-clot-adidas-samba-off-white-jq4748",
+    "buy_url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-off-white",
+    "retailers": [
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-off-white",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "sku": "JQ4748",
+    "sku_source": "wtc",
+    "sku_confidence": "confirmed",
+    "hype_score": 38
+  },
+  {
     "id": "new-balance-2010-neptune-grey-shadow-blue",
     "title": "New Balance 2010 Neptune Grey Shadow Blue",
     "brand": "New Balance",
