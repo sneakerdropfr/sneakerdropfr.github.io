@@ -145,5 +145,33 @@
     "brand": "",
     "source": "manual",
     "confidence": 90
+  },
+  "new-balance-5030-grey-black": {
+    "sku": "U50303L3",
+    "title": "New Balance 5030 Grey Black",
+    "brand": "New Balance",
+    "source": "manual",
+    "confidence": 100
+  },
+  "new-balance-1906l-fairweather-blue": {
+    "sku": "U19062XN",
+    "title": "New Balance 1906l Fairweather Blue",
+    "brand": "New Balance",
+    "source": "manual",
+    "confidence": 100
+  },
+  "new-balance-1906l-rosewood": {
+    "sku": "U19065WS",
+    "title": "New Balance 1906l Rosewood",
+    "brand": "New Balance",
+    "source": "manual",
+    "confidence": 100
+  },
+  "adidas-adizero-prime-x-evo-cloud-white": {
+    "sku": "KH7677",
+    "title": "Adidas Adizero Prime X Evo Cloud White",
+    "brand": "Adidas",
+    "source": "manual",
+    "confidence": 100
   }
 }
