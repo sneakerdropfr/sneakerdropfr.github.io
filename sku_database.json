@@ -215,5 +215,26 @@
     "brand": "Nike",
     "source": "manual",
     "confidence": 100
+  },
+  "nike-air-max-90-cool-grey": {
+    "sku": "IU7543-065",
+    "title": "Nike Air Max 90 Cool Grey",
+    "brand": "Nike",
+    "source": "manual",
+    "confidence": 100
+  },
+  "adidas-tangum-white-power-green": {
+    "sku": "LA6570",
+    "title": "Adidas Tangum White Power Green",
+    "brand": "Adidas",
+    "source": "manual",
+    "confidence": 100
+  },
+  "adidas-sc-premiere-cloud-white-power-green": {
+    "sku": "KZ7196",
+    "title": "Adidas SC Premiere Cloud White Power Green",
+    "brand": "Adidas",
+    "source": "manual",
+    "confidence": 100
   }
 }
