@@ -1,5 +1,17 @@
 [
   {
+    "id": "jason-kidd-s-nike-zoom-flight-5-returns-spring-2027",
+    "title": "Jason Kidd’s Nike Zoom Flight 5 Returns Spring 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-zoom-flight-5-2027-jason-kidd-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-31T07:11:23.392646+00:00"
+  },
+  {
     "id": "air-jordan-1-low-og-sail-releases-summer-2026",
     "title": "Air Jordan 1 Low OG “Sail” Releases Summer 2026",
     "brand": "Sneaker Files",
@@ -1977,59 +1989,5 @@
     "buy_url": "https://www.nike.com/launch/upcoming",
     "source": "Sneaker Files",
     "added_at": "2026-05-16T22:02:39.779561+00:00"
-  },
-  {
-    "id": "nike-mind-001-flyknit-hyper-royal",
-    "title": "Nike Mind 001 Flyknit Hyper Royal",
-    "brand": "Nike",
-    "date": "2026-07-04",
-    "price": 90,
-    "image_url": "https://statics.whentocop.fr/media/unGtpbgmmflr/tmpnike-mind-001-flyknit-hyper-royal-ir2175-400-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
-    "buy_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.solebox.com",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Footshop",
-        "url": "https://www.footshop.eu",
-        "price": "90€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "162€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "217€",
-        "resell": true,
-        "raffle": false
-      }
-    ]
   }
 ]
