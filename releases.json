@@ -1198,7 +1198,10 @@
       "new-balance-numeric-933-marblehead-island-blue",
       "new-balance-mt10t-raincloud-concrete"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "U50303L3",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "new-balance-1906l-fairweather-blue",
@@ -1274,7 +1277,10 @@
       "new-balance-numeric-933-marblehead-island-blue",
       "new-balance-mt10t-raincloud-concrete"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "U19062XN",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "adidas-adizero-evo-sl-crystal-white-luta",
@@ -1394,7 +1400,10 @@
       "new-balance-numeric-933-marblehead-island-blue",
       "new-balance-mt10t-raincloud-concrete"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "U19065WS",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "adidas-believe-that-1-core-black",
@@ -1756,7 +1765,10 @@
       "adidas-sc-premiere-cloud-white-power-green",
       "adidas-powerphase-cloud-white-power-green"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "KH7677",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
