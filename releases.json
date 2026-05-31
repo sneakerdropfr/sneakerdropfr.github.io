@@ -1681,7 +1681,10 @@
       "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
       "adidas-adizero-evo-sl-crystal-white-luta"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "KJ5751",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "nike-air-max-90-infrared-3m-2026",
@@ -2000,7 +2003,10 @@
       "nike-rift-2-kenya",
       "nike-pegasus-premium-sp-white-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "IQ7314-200",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "renegade-x-nike-vaporfly-4-brown-basalt",
@@ -2034,7 +2040,10 @@
       "nike-rift-2-kenya",
       "nike-pegasus-premium-sp-white-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "IQ7313-200",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "nike-air-max-90-cool-grey",
