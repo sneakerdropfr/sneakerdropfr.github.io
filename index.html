@@ -876,6 +876,13 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
       var titleWrap = articleUrl
         ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
+      // Badge hype_score
+      if (r.hype_score && r.hype_score >= 40) {
+        var hs = r.hype_score;
+        var hsCls = hs >= 80 ? 'hype-score--hot' : hs >= 60 ? 'hype-score--hype' : 'hype-score--mid';
+        var hsIcon = hs >= 80 ? '🔥' : hs >= 60 ? '⚡' : '👟';
+        html += '<div class="hype-score ' + hsCls + '">' + hsIcon + ' ' + hs + '/100</div>';
+      }
         : '<h3 class="drop-card__title">' + r.title + '</h3>';
       // Countdown : afficher si date connue, pas encore sortie, dans moins de 72h
       var countdownHtml = '';
@@ -1294,6 +1301,13 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         html += '<div class="drop-card__body">';
         html += '<div class="drop-card__brand">' + (r.brand || r.source || '') + '</div>';
         html += '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
+      // Badge hype_score
+      if (r.hype_score && r.hype_score >= 40) {
+        var hs = r.hype_score;
+        var hsCls = hs >= 80 ? 'hype-score--hot' : hs >= 60 ? 'hype-score--hype' : 'hype-score--mid';
+        var hsIcon = hs >= 80 ? '🔥' : hs >= 60 ? '⚡' : '👟';
+        html += '<div class="hype-score ' + hsCls + '">' + hsIcon + ' ' + hs + '/100</div>';
+      }
         html += '<div class="drop-card__meta"><span>' + (r.date || 'TBD') + '</span><span class="drop-card__price">' + (r.price || '') + '</span></div>';
         html += '<a href="' + (r.link || '#') + '" target="_blank" rel="noopener" class="drop-card__cta btn-cop">Voir la paire</a>';
         html += '</div></article>';
