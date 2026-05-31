@@ -496,6 +496,7 @@ PAGE_TMPL = """<!DOCTYPE html>
       </div>
 
       {retailers_block}
+    {restocks_block}
 
       {related_block}
 
@@ -534,25 +535,76 @@ PAGE_TMPL = """<!DOCTYPE html>
 """
 
 
+def restocks_html(r: dict) -> str:
+    """Section Restocks — affiche les restocks recents si disponibles."""
+    restocks = r.get("restocks") or []
+    if not restocks:
+        return ""
+    items = []
+    for rs in restocks[:5]:
+        retailer = escape(rs.get("retailer",""))
+        date_rs = rs.get("date","")
+        try:
+            from datetime import datetime
+            dt = datetime.fromisoformat(date_rs.replace("Z","+00:00"))
+            mois = ["jan","fev","mar","avr","mai","juin","juil","aout","sep","oct","nov","dec"]
+            date_str = f"{dt.day} {mois[dt.month-1]}"
+        except:
+            date_str = date_rs[:10] if date_rs else "Recemment"
+        sizes = rs.get("sizes") or []
+        sizes_str = ", ".join(sizes[:6]) if sizes else "Tailles variees"
+        url = rs.get("url","#")
+        items.append(
+            f'<div class="restock-item">'
+            f'<div class="restock-item__header">'
+            f'<span class="restock-item__retailer">{retailer}</span>'
+            f'<span class="restock-item__date">{date_str}</span>'
+            f'</div>'
+            f'<div class="restock-item__sizes">{escape(sizes_str)}</div>'
+            f'<a href="{url}" target="_blank" rel="noopener nofollow sponsored" class="restock-item__btn">Voir dispo →</a>'
+            f'</div>'
+        )
+    return (
+        f'<section class="restocks-section">'
+        f'<h2>Restocks <span>recents</span></h2>'
+        f'<div class="restocks-list">{"".join(items)}</div>'
+        f'</section>'
+    )
+
+
 def related_html(r: dict, all_releases: list) -> str:
-    """Section Voir aussi — 3 paires de la même marque, excluant la paire courante."""
+    """Section Voir aussi — utilise similar_products en priorite, sinon meme marque."""
     brand = (r.get("brand") or "").strip()
     current_id = r.get("id", "")
-    if not brand:
+    releases_index = {x["id"]: x for x in all_releases if x.get("id")}
+
+    picks = []
+
+    # 1. Utiliser similar_products si disponible
+    similar_ids = r.get("similar_products") or []
+    for sid in similar_ids:
+        p = releases_index.get(sid)
+        if p and p.get("image_url") and p.get("id") != current_id:
+            picks.append(p)
+        if len(picks) >= 4:
+            break
+
+    # 2. Fallback : meme marque si pas assez de similar
+    if len(picks) < 3 and brand:
+        same_brand = [
+            x for x in all_releases
+            if x.get("brand","").strip() == brand
+            and x.get("id") != current_id
+            and x.get("id") not in [p["id"] for p in picks]
+            and x.get("image_url")
+        ]
+        same_brand.sort(key=lambda x: (x.get("date","TBD") == "TBD", x.get("date","TBD")))
+        picks += same_brand[:4 - len(picks)]
+
+    if not picks:
         return ""
 
-    # Paires de la même marque avec image et lien valide, hors paire courante
-    same_brand = [
-        x for x in all_releases
-        if x.get("brand","").strip() == brand
-        and x.get("id") != current_id
-        and x.get("id")
-        and x.get("image_url")
-    ]
-
-    # Priorité : paires avec date connue d'abord
-    same_brand.sort(key=lambda x: (x.get("date","TBD") == "TBD", x.get("date","TBD")))
-    picks = same_brand[:3]
+    picks = picks[:4]
 
     if not picks:
         return ""
@@ -577,7 +629,7 @@ def related_html(r: dict, all_releases: list) -> str:
     brand_html = escape(brand)
     return (
         f'<section class="related">'
-        f'<h2>Voir aussi — <span>{brand_html}</span></h2>'
+        f'<h2>Paires <span>similaires</span></h2>'
         f'<div class="related-grid">{"".join(cards)}</div>'
         f'</section>'
     )
@@ -688,6 +740,7 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
         buy_btn=primary_buy_button(r),
         editorial=editorial_text(r),
         retailers_block=retailers_html(r),
+        restocks_block=restocks_html(r),
         related_block=related_html(r, all_releases or []),
     )
 
