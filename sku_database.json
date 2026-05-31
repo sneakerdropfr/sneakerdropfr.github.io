@@ -201,5 +201,19 @@
     "brand": "Nike",
     "source": "manual",
     "confidence": 100
+  },
+  "nike-mind-001-flyknit-hyper-royal": {
+    "sku": "IR2175-400",
+    "title": "Nike Mind 001 Flyknit Hyper Royal",
+    "brand": "Nike",
+    "source": "manual",
+    "confidence": 100
+  },
+  "nike-mind-001-flyknit-bronze-eclipse": {
+    "sku": "IR2175-200",
+    "title": "Nike Mind 001 Flyknit Bronze Eclipse",
+    "brand": "Nike",
+    "source": "manual",
+    "confidence": 100
   }
 }
