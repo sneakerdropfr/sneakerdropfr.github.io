@@ -488,7 +488,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var parts = active.map(function(p, i) {
         var sep = i > 0 ? '<span class="promo-bar__sep">|</span>' : '';
         if (p.code) {
-          return sep + '<a href="/bstn-promos.html" class="promo-bar__item"><span>' + p.icon + ' ' + p.prefix + '</span><span class="promo-bar__code" onclick="copyCode(event,'' + p.code + '')">' + p.code + '</span><span>= ' + p.label + '</span></a>';
+          return sep + '<a href="/bstn-promos.html" class="promo-bar__item"><span>' + p.icon + ' ' + p.prefix + '</span><span class="promo-bar__code" onclick="copyCode(event,\'' + p.code + '\')">' + p.code + '</span><span>= ' + p.label + '</span></a>';
         } else {
           return sep + '<a href="/bstn-promos.html" class="promo-bar__item"><span>' + p.icon + ' ' + p.prefix + ' ' + p.label + '</span></a>';
         }
