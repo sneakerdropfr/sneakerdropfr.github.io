@@ -180,5 +180,26 @@
     "brand": "New Balance",
     "source": "manual",
     "confidence": 100
+  },
+  "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue": {
+    "sku": "KJ5751",
+    "title": "Bape x Adidas Adizero Evo SL White Gold Pink Blue",
+    "brand": "Adidas",
+    "source": "manual",
+    "confidence": 100
+  },
+  "renegade-x-nike-vomero-premium-brown-basalt": {
+    "sku": "IQ7314-200",
+    "title": "Renegade x Nike Vomero Premium Brown Basalt",
+    "brand": "Nike",
+    "source": "manual",
+    "confidence": 100
+  },
+  "renegade-x-nike-vaporfly-4-brown-basalt": {
+    "sku": "IQ7313-200",
+    "title": "Renegade x Nike Vaporfly 4 Brown Basalt",
+    "brand": "Nike",
+    "source": "manual",
+    "confidence": 100
   }
 }
