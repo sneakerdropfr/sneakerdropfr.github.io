@@ -441,9 +441,9 @@ document.addEventListener('DOMContentLoaded', function(){
       function brandFilter(r){ return !r.raffle && matchBrand(r,activeFilter) && hasUsableImage(r); }
 
       var upcoming=allReleases.filter(function(r){
-        if (!r.date||r.date==='TBD') return brandFilter(r);
+        if (!r.date||r.date==='TBD') return false;
         var d=parseLocal(r.date);
-        if (!d) return brandFilter(r);
+        if (!d) return false;
         return d>=nextMondayMidnight && brandFilter(r);
       });
 
