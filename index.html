@@ -450,7 +450,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           var upcoming=data.filter(function(r){
             if(!r.date||r.date==='TBD')return false;
             var p=r.date.split('-');
-            return new Date(+p[0],+p[1]-1,+p[2])>=today;
+            return new Date(+p[0],+p[1]-1,+p[2])>today;
           });
           if(!upcoming.length)return;
           var items=upcoming.map(function(r){
