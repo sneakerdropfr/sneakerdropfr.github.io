@@ -2093,7 +2093,10 @@
       "virgil-abloh-x-nike-air-force-1-low-sesame",
       "renegade-x-nike-vomero-premium-brown-basalt"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "IU7543-065",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "nike-mind-001-flyknit-bronze-eclipse",
@@ -2296,7 +2299,10 @@
       "adidas-believe-that-1-core-black",
       "adidas-believe-that-1-cloud-white"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "LA6570",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "adidas-sc-premiere-cloud-white-power-green",
@@ -2359,7 +2365,10 @@
       "adidas-believe-that-1-core-black",
       "adidas-believe-that-1-cloud-white"
     ],
-    "restocks": []
+    "restocks": [],
+    "sku": "KZ7196",
+    "sku_source": "manual",
+    "sku_confidence": 100
   },
   {
     "id": "adidas-powerphase-cloud-white-power-green",
