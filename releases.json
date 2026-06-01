@@ -1,5 +1,17 @@
 [
   {
+    "id": "virgil-abloh-archive-x-nike-cryoshot-zoom-m9-releases-june-2",
+    "title": "Virgil Abloh Archive x Nike Cryoshot Zoom M9 Releases June 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": "$210",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/vaa-nike-cryoshot-zoom-m9-IM3886-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-01T22:01:38.484112+00:00"
+  },
+  {
     "id": "patta-x-nike-cryoshot-mercurial-vapor-r9-releases-june-2026",
     "title": "Patta x Nike Cryoshot Mercurial Vapor R9 Releases June 2026",
     "brand": "Sneaker Files",
@@ -2255,45 +2267,6 @@
       "new-balance-1906l-fairweather-blue",
       "new-balance-5030-black-silver",
       "new-balance-mt10t-fire-cracker"
-    ]
-  },
-  {
-    "id": "salomon-slab-ultra-glide-2-limited-courtney-edition-blue",
-    "title": "Salomon S/Lab Ultra Glide 2 Limited Courtney Edition Blue",
-    "brand": "Salomon",
-    "date": "2026-06-01",
-    "price": 270,
-    "image_url": "https://statics.whentocop.fr/media/KnWjRe0UDWlr/tmpvariant-4-small-500x500.webp?width=3840&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/salomon-slab-ultra-glide-2-limited-courtney-edition-blue-l49283700",
-    "sku": "L49283700",
-    "retailers": [
-      {
-        "name": "Salomon",
-        "url": "https://www.salomon.com/fr-fr",
-        "price": "270€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "362€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "546€",
-        "resell": true,
-        "raffle": false
-      }
-    ],
-    "hype_score": 0,
-    "similar_products": [
-      "new-balance-1906l-fairweather-blue",
-      "nike-air-max-90-photon-dust-blue-cyber",
-      "new-balance-numeric-933-marblehead-island-blue"
     ]
   }
 ]
