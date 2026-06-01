@@ -64,6 +64,8 @@
     .hero-search__input:focus{border-color:var(--black);box-shadow:0 0 0 3px rgba(0,0,0,.08)}
     .hero-search__input::placeholder{color:#aaa}
     .hero-search__icon{position:absolute;right:1rem;top:50%;transform:translateY(-50%);font-size:1rem;color:#aaa;pointer-events:none}
+    /* Cacher loupe navbar quand barre hero visible */
+    @media(max-width:899px){#header-search{display:none!important}}
     @keyframes pulse-bar{0%,100%{opacity:1}50%{opacity:.88}}
 
     /* ── Header ── */
