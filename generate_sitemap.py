@@ -34,6 +34,16 @@ for fname, cfg in PAGE_CONFIG.items():
             "priority": cfg["priority"]
         })
 
+# Pages blog/
+for fpath in sorted(glob.glob("blog/*.html")):
+    slug = os.path.basename(fpath).replace(".html", "")
+    urls.append({
+        "loc": f"{BASE_URL}/blog/{slug}.html",
+        "lastmod": TODAY,
+        "changefreq": "monthly",
+        "priority": "0.6"
+    })
+
 # Pages sorties/ individuelles
 for fpath in sorted(glob.glob("sorties/*.html")):
     fname = os.path.basename(fpath)
