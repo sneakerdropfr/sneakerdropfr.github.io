@@ -57,6 +57,13 @@
 
     /* ── Urgency bar ── */
     .urgency-bar{background:#FF2D2D;color:#fff;text-align:center;padding:.5rem 1rem;font-family:var(--font-cond);font-size:.85rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;animation:pulse-bar 2.5s ease-in-out infinite}
+    /* ── Search bar hero ── */
+    .hero-search{background:#F5F5F5;border-bottom:1px solid var(--border);padding:.75rem 1.5rem}
+    .hero-search__inner{max-width:680px;margin:0 auto;position:relative}
+    .hero-search__input{width:100%;padding:.75rem 3rem .75rem 1.2rem;border:2px solid var(--border);border-radius:999px;font-family:var(--font-cond);font-size:.95rem;font-weight:600;background:#fff;color:var(--black);outline:none;transition:border-color .2s,box-shadow .2s}
+    .hero-search__input:focus{border-color:var(--black);box-shadow:0 0 0 3px rgba(0,0,0,.08)}
+    .hero-search__input::placeholder{color:#aaa}
+    .hero-search__icon{position:absolute;right:1rem;top:50%;transform:translateY(-50%);font-size:1rem;color:#aaa;pointer-events:none}
     @keyframes pulse-bar{0%,100%{opacity:1}50%{opacity:.88}}
 
     /* ── Header ── */
@@ -430,6 +437,17 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 
   
 <!-- ═══ HERO ═══ -->
+  <!-- Search bar hero -->
+  <div class="hero-search">
+    <div class="hero-search__inner">
+      <input class="hero-search__input" type="text" placeholder="Rechercher une paire, une collab, un SKU..." autocomplete="off"
+        oninput="filterBySearch(this.value);document.getElementById('header-search-input').value=this.value;var cb=document.getElementById('search-clear-btn');if(cb)cb.classList.toggle('visible',this.value.length>0)"
+        onfocus="if(this.value)filterBySearch(this.value)"
+        id="hero-search-input" />
+      <span class="hero-search__icon">🔍</span>
+    </div>
+  </div>
+
   <section class="hero">
     <div class="container">
       <div class="hero__eyebrow">Alertes en temps réel</div>
