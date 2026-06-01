@@ -1809,7 +1809,8 @@
         "price": "329€",
         "resell": true
       }
-    ]
+    ],
+    "sku": "U991TO2"
   },
   {
     "id": "air-jordan-6-retro-wmns-sail-neutral-olive",
@@ -2506,6 +2507,28 @@
     "sku": "A23978C"
   },
   {
+    "title": "New Balance Gator Run Apollo Gold",
+    "brand": "New Balance",
+    "date": "2026-05-12",
+    "price": 120,
+    "image_url": "https://statics.whentocop.fr/media/8769kiZzcUeL/tmpnew-balance-gator-run-apollo-gold-ugtr9sr-4-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-gator-run-apollo-gold-ugtr9sr",
+    "id": "nb-gator-run-apollo-gold",
+    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-gator-run-ugtr9sr-0348441",
+    "sku": "UGTR9SR"
+  },
+  {
+    "title": "New Balance Gator Run Dry Lime",
+    "brand": "New Balance",
+    "date": "2026-05-12",
+    "price": 120,
+    "image_url": "https://statics.whentocop.fr/media/VNueBjWj3PiS/tmpnew-balance-gator-run-dry-lime-ugtr5t9-4-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-gator-run-dry-lime-ugtr5t9",
+    "id": "nb-gator-run-dry-lime",
+    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-gator-run-ugtr9sr-0348441",
+    "sku": "UGTR9SR"
+  },
+  {
     "id": "bluetile-nike-sb-dunk-low",
     "title": "Bluetile x Nike SB Dunk Low \"Monarch Butterfly\"",
     "brand": "Nike",
@@ -2837,6 +2860,17 @@
     "image_url": "https://www.nicekicks.com/files/2026/05/JQ9475_1-1-e1778156828384.jpg",
     "sku": "JQ9475",
     "buy_url": "https://sneakerdropfr.fr/deals.html",
+    "past": true
+  },
+  {
+    "id": "adidas-hyperboost-emerges-for-lifestyle-as-the-euphoria-runn",
+    "title": "ADIDAS HYPERBOOST EMERGES FOR LIFESTYLE AS THE EUPHORIA RUNNER ([SneakerDrop FR](https://sneakerdropfr.github.io/sorties/adidas-hyperboost-emerges-for-lifestyle-as-the-euphoria-runn.html))",
+    "brand": "Adidas",
+    "date": "TBD",
+    "price": "",
+    "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/05/adidas-hyperboost-euphoria-hero-scaled.jpg ([Just Fresh Kicks](https://justfreshkicks.com/wp-content/uploads/2026/05/adidas-hyperboost-euphoria-hero-scaled.jpg))",
+    "sku": "",
+    "buy_url": "",
     "past": true
   },
   {
@@ -3610,6 +3644,17 @@
     "past": true
   },
   {
+    "id": "avavav-combines-sandals-sneakers-for-their-adidas-megaride-p",
+    "title": "AVAVAV COMBINES SANDALS & SNEAKERS FOR THEIR ADIDAS MEGARIDE PACK",
+    "brand": "Adidas",
+    "date": "TBD",
+    "price": "",
+    "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/05/avavav-adi-megaride-pack-justfreshkicks-scaled.jpg",
+    "sku": "",
+    "buy_url": "",
+    "past": true
+  },
+  {
     "id": "caitlin-clark-x-nike-kobe-5-protro-coconut-milk-releases-jun",
     "title": "Caitlin Clark x Nike Kobe 5 Protro “Coconut Milk”",
     "brand": "Nike",
@@ -3830,6 +3875,17 @@
     "past": true
   },
   {
+    "id": "kasina-created-an-insane-nike-air-max-shrine-with-500-pairs",
+    "title": "KASINA CREATED AN INSANE NIKE AIR MAX SHRINE WITH 500 PAIRS",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": "",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/kasina-nike-air-max-museum-6.jpg",
+    "sku": "",
+    "buy_url": "",
+    "past": true
+  },
+  {
     "id": "jordan-luka-5-luka-lifestyle-",
     "title": "JORDAN LUKA 5 “LUKA LIFESTYLE”",
     "brand": "Jordan",
@@ -3896,6 +3952,17 @@
     "past": true
   },
   {
+    "id": "le-maillot-pr-match-nike-x-jacquemus-x-fff-2026-world-cup-d-",
+    "title": "LE MAILLOT PRÉ-MATCH NIKE X JACQUEMUS X FFF 2026 WORLD CUP DÉVOILÉ",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": "294.99",
+    "image_url": "https://sneakerdropfr.fr/assets/images/sneakerdropfr-logo.svg",
+    "sku": "",
+    "buy_url": "",
+    "past": true
+  },
+  {
     "id": "kids-of-immigrants-x-nike-t90-mule",
     "title": "Kids of Immigrants x Nike T90 Mule",
     "brand": "Nike",
@@ -3903,6 +3970,17 @@
     "price": "120",
     "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/kids-of-immigrants-x-nike-t90-mule-2.jpeg",
     "sku": "IH4422-201",
+    "buy_url": "",
+    "past": true
+  },
+  {
+    "id": "le-premier-a-roport-pok-mon-ouvre-au-japon",
+    "title": "LE PREMIER AÉROPORT POKÉMON OUVRE AU JAPON",
+    "brand": "",
+    "date": "TBD",
+    "price": "",
+    "image_url": "https://www.lesitedelasneaker.com/wp-content/images/2026/05/pokemon-airport-noto-japan-1.jpg",
+    "sku": "",
     "buy_url": "",
     "past": true
   },
@@ -3918,6 +3996,17 @@
     "past": true
   },
   {
+    "id": "nb-gator-run-apollo-gold-2026",
+    "title": "New Balance Gator Run Apollo Gold — Date de Sortie, Prix, Où Acheter | SneakerDrop FR",
+    "brand": "New Balance",
+    "date": "TBD",
+    "price": "",
+    "image_url": "https://cdn.afew-store.com/assets/52/521136/1200/new-balance-gator-run-apollo-gold-ugtr9sr-footwear%20%3E%20sneaker-packshots-0.jpg",
+    "sku": "UGTR9SR",
+    "buy_url": "",
+    "past": true
+  },
+  {
     "id": "nigel-sylvester-aj4-brick-after-brick",
     "title": "Nigel Sylvester x Air Jordan 4 Brick After Brick — Date de Sortie, Prix, Où Acheter | SneakerDrop FR",
     "brand": "Jordan",
@@ -3926,6 +4015,17 @@
     "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nigel-sylvester-air-jordan-4-brick-after-brick.webp",
     "sku": "IQ8055-100",
     "buy_url": "https://t.me/SneakersDropsFR",
+    "past": true
+  },
+  {
+    "id": "la-jellyfish-de-chez-adidas-dans-un-coloris-green-brown",
+    "title": "La Jellyfish de chez Adidas dans un coloris Green Brown ([SneakerDrop FR](https://sneakerdropfr.fr/sorties/la-jellyfish-de-chez-adidas-dans-un-coloris-green-brown.html))",
+    "brand": "Adidas",
+    "date": "TBD",
+    "price": "",
+    "image_url": "",
+    "sku": "",
+    "buy_url": "",
     "past": true
   },
   {
@@ -4182,6 +4282,17 @@
     "past": true
   },
   {
+    "id": "the-new-balance-allerdale-regroups-for-summer-in-vaporous-gr",
+    "title": "THE NEW BALANCE ALLERDALE REGROUPS FOR SUMMER IN “VAPOROUS GREY”",
+    "brand": "New Balance",
+    "date": "TBD",
+    "price": "",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-allerdale-Vaporous-Grey-chipmunk-UADWLWO-2.jpg",
+    "sku": "",
+    "buy_url": "",
+    "past": true
+  },
+  {
     "id": "the-adidas-anthony-edwards-believe-that-1-clay-red-will-be-a",
     "title": "THE ADIDAS ANTHONY EDWARDS BELIEVE THAT 1 “CLAY RED” WILL BE AFFORABLE",
     "brand": "Adidas",
@@ -4281,6 +4392,17 @@
     "past": true
   },
   {
+    "id": "une-nouvelle-action-bronson-x-new-balance-1890-planet-frog-v",
+    "title": "UNE NOUVELLE ACTION BRONSON X NEW BALANCE 1890 « PLANET FROG » À VENIR",
+    "brand": "New Balance",
+    "date": "TBD",
+    "price": "75.99",
+    "image_url": "https://www.lesitedelasneaker.com/wp-content/images/2026/05/action-bronson-new-balance-1890-planet-frog.jpg",
+    "sku": "",
+    "buy_url": "",
+    "past": true
+  },
+  {
     "id": "wmns-air-jordan-11-retro-low-mothers-day",
     "title": "WMNS AIR JORDAN 11 RETRO LOW 'MOTHERS DAY'",
     "brand": "Jordan",
@@ -4311,6 +4433,17 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9BUjA3MTUtMTEwL0FSMDcxNS0xMTAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "AR0715-110",
     "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43128161984%26a%3D2855487%26m%3D104979",
+    "past": true
+  },
+  {
+    "id": "une-new-balance-gator-run-cream-propos-e-par-aim-leon-dore",
+    "title": "Une New Balance Gator Run « Cream » proposée par Aimé Leon Dore",
+    "brand": "New Balance",
+    "date": "TBD",
+    "price": "",
+    "image_url": "https://www.lesitedelasneaker.com/wp-content/images/2026/05/preview-aime-leon-dore-new-balance-gator-run-cream-6.jpg",
+    "sku": "",
+    "buy_url": "",
     "past": true
   },
   {
@@ -4562,7 +4695,7 @@
     "date": "TBD",
     "price": "209",
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUjA5MTQtNDAwL0lSMDkxNC00MDAtMDEtbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjoxNjAwLCJoZWlnaHQiOjIwMDAsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "sku": "",
+    "sku": "IR0914-400",
     "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44036476428%26a%3D2855487%26m%3D104979",
     "past": true
   },
