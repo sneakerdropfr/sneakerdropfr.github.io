@@ -9,7 +9,13 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/nocta-nike-cryoshot-tiempo-94-IM0703-700-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch/upcoming",
     "source": "Sneaker Files",
-    "added_at": "2026-06-01T19:37:26.876367+00:00"
+    "added_at": "2026-06-01T19:37:26.876367+00:00",
+    "similar_products": [
+      "nike-pegasus-premium-sp-black-sail",
+      "nike-pegasus-premium-sp-white-black",
+      "nike-air-max-90-infrared-3m-2026",
+      "mcdonald-s-x-nike-book-2-sedona-releases-june-2026"
+    ]
   },
   {
     "id": "new-balance-5030-black-silver",
@@ -1149,7 +1155,13 @@
     "sku": "HV4803-001",
     "sku_source": "manual",
     "sku_confidence": 90,
-    "hype_score": 95
+    "hype_score": 95,
+    "similar_products": [
+      "air-jordan-9-retro ([SneakerDrop FR](https://sneakerdropfr.github.io/sorties/air-jordan-9-retro.html))",
+      "jordan-tatum-4-black-ice-blue- ([SneakerDrop FR](https://sneakerdropfr.github.io/sorties/jordan-tatum-4-black-ice-blue-.html))",
+      "air-jordan-3-golf-black-cement-releases-february-2027",
+      "air-max-90-g ([SneakerDrop FR](https://sneakerdropfr.github.io/sorties/air-max-90-g.html))"
+    ]
   },
   {
     "id": "nike-air-more-uptempo-og-black-white-returns-september-2026",
@@ -1182,7 +1194,13 @@
     "sku": "FV2291-001",
     "sku_source": "web_search",
     "sku_confidence": "confirmed",
-    "hype_score": 50
+    "hype_score": 50,
+    "similar_products": [
+      "nike-pegasus-premium-sp-black-sail",
+      "nike-pegasus-premium-sp-white-black",
+      "nike-pegasus-premium-sp-black-sail-sail",
+      "preview-nike-sb-air-force-1-black-gum-"
+    ]
   },
   {
     "id": "nike-pegasus-premium-sp-black-sail-sail",
@@ -1231,7 +1249,13 @@
       }
     ],
     "hype_score": 20,
-    "colorway": "Black and Sail"
+    "colorway": "Black and Sail",
+    "similar_products": [
+      "nike-pegasus-premium-sp-black-sail",
+      "nike-pegasus-premium-sp-white-black",
+      "a-ma-mani-re-x-nike-pegasus-premium-timing-is-everything-rel",
+      "mcdonald-s-x-nike-book-2-sedona-releases-june-2026"
+    ]
   },
   {
     "id": "asics-gel-nyc-20-lake-grey-piedmont-grey",
@@ -1273,7 +1297,13 @@
       }
     ],
     "hype_score": 0,
-    "colorway": "Lake Grey / Piedmont Grey"
+    "colorway": "Lake Grey / Piedmont Grey",
+    "similar_products": [
+      "asics-gel-nyc-khaki-pure-silver",
+      "asics-gel-nyc-cocoa-powder-pure-silver",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey"
+    ]
   },
   {
     "id": "asics-gel-kayano-121-piedmont-grey-gravel",
@@ -1308,7 +1338,13 @@
       }
     ],
     "hype_score": 0,
-    "colorway": "Piedmont Grey/Gravel"
+    "colorway": "Piedmont Grey/Gravel",
+    "similar_products": [
+      "asics-gel-kayano-121-cream-smoke-grey",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
+      "asics-gel-cumulus-16-lake-grey-pure-silver"
+    ]
   },
   {
     "id": "asics-gt-2160-white-raspberry",
@@ -1344,7 +1380,13 @@
     ],
     "hype_score": 0,
     "sku_source": "wtc",
-    "sku_confidence": "confirmed"
+    "sku_confidence": "confirmed",
+    "similar_products": [
+      "asics-gel-1130-white-piedmont-grey",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-nyc-khaki-pure-silver"
+    ]
   },
   {
     "id": "asics-gel-nyc-khaki-pure-silver",
@@ -1385,7 +1427,13 @@
         "raffle": false
       }
     ],
-    "hype_score": 0
+    "hype_score": 0,
+    "similar_products": [
+      "asics-gel-nyc-cocoa-powder-pure-silver",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gt-2160-white-raspberry"
+    ]
   },
   {
     "id": "asics-gel-1130-white-piedmont-grey",
@@ -1427,7 +1475,13 @@
       }
     ],
     "hype_score": 0,
-    "colorway": "White/Piedmont Grey"
+    "colorway": "White/Piedmont Grey",
+    "similar_products": [
+      "asics-gt-2160-white-raspberry",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-nyc-khaki-pure-silver"
+    ]
   },
   {
     "id": "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
@@ -1462,7 +1516,13 @@
       }
     ],
     "hype_score": 0,
-    "colorway": "Dusty Fern/Seal Grey"
+    "colorway": "Dusty Fern/Seal Grey",
+    "similar_products": [
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-cumulus-16-lake-grey-pure-silver",
+      "asics-gel-kayano-121-cream-smoke-grey"
+    ]
   },
   {
     "id": "asics-gel-cumulus-16-lake-grey-pure-silver",
@@ -1497,7 +1557,13 @@
       }
     ],
     "hype_score": 0,
-    "colorway": "Lake Grey / Pure Silver"
+    "colorway": "Lake Grey / Pure Silver",
+    "similar_products": [
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
+      "asics-gel-kayano-121-cream-smoke-grey"
+    ]
   },
   {
     "id": "asics-gel-nyc-cocoa-powder-pure-silver",
@@ -1546,7 +1612,13 @@
       }
     ],
     "hype_score": 0,
-    "colorway": "Cocoa Powder / Pure Silver"
+    "colorway": "Cocoa Powder / Pure Silver",
+    "similar_products": [
+      "asics-gel-nyc-khaki-pure-silver",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gt-2160-white-raspberry"
+    ]
   },
   {
     "id": "asics-gel-kayano-121-cream-smoke-grey",
@@ -1588,7 +1660,13 @@
       }
     ],
     "hype_score": 0,
-    "colorway": "Piedmont Grey/Gravel"
+    "colorway": "Piedmont Grey/Gravel",
+    "similar_products": [
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
+      "asics-gel-cumulus-16-lake-grey-pure-silver"
+    ]
   },
   {
     "id": "new-balance-mt10t-fire-cracker",
@@ -1630,7 +1708,12 @@
       }
     ],
     "hype_score": 15,
-    "colorway": "Fire Cracker Red"
+    "colorway": "Fire Cracker Red",
+    "similar_products": [
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-5030-black-silver",
+      "new-balance-5030-grey-black"
+    ]
   },
   {
     "id": "adidas-believe-that-1-core-black",
@@ -1665,7 +1748,12 @@
       }
     ],
     "hype_score": 15,
-    "colorway": "Core Black / Carbon / Iron Metallic"
+    "colorway": "Core Black / Carbon / Iron Metallic",
+    "similar_products": [
+      "adidas-believe-that-1-cloud-white",
+      "adidas-anthony-edwards-believe-that-1-cloud-white-",
+      "adidas-anthony-edwards-believe-that-1-carbon-"
+    ]
   },
   {
     "id": "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
@@ -1713,7 +1801,12 @@
         "raffle": false
       }
     ],
-    "hype_score": 65
+    "hype_score": 65,
+    "similar_products": [
+      "star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr",
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ]
   },
   {
     "id": "adidas-believe-that-1-cloud-white",
@@ -1748,7 +1841,12 @@
       }
     ],
     "hype_score": 15,
-    "colorway": "Core Black / Carbon / Iron Metallic"
+    "colorway": "Core Black / Carbon / Iron Metallic",
+    "similar_products": [
+      "adidas-anthony-edwards-believe-that-1-cloud-white-",
+      "adidas-believe-that-1-core-black",
+      "adidas-anthony-edwards-believe-that-1-carbon-"
+    ]
   },
   {
     "id": "adidas-adizero-evo-sl-exo-core-black",
@@ -1789,7 +1887,12 @@
         "raffle": false
       }
     ],
-    "hype_score": 15
+    "hype_score": 15,
+    "similar_products": [
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ]
   },
   {
     "id": "new-balance-mt10t-raincloud-concrete",
@@ -1845,7 +1948,12 @@
       }
     ],
     "hype_score": 15,
-    "colorway": "FTW"
+    "colorway": "FTW",
+    "similar_products": [
+      "new-balance-mt10t-fire-cracker",
+      "new-balance-5030-black-silver",
+      "new-balance-5030-grey-black"
+    ]
   },
   {
     "id": "new-balance-5030-grey-black",
@@ -1908,7 +2016,13 @@
       }
     ],
     "hype_score": 15,
-    "colorway": "Rainclound/Black Metallic"
+    "colorway": "Rainclound/Black Metallic",
+    "similar_products": [
+      "new-balance-5030-black-silver",
+      "new-balance-abzorb-5030-grey-days",
+      "nb-abzorb-5030-grey-days-2026",
+      "new-balance-mt10t-fire-cracker"
+    ]
   },
   {
     "id": "new-balance-1906l-fairweather-blue",
@@ -1984,7 +2098,12 @@
         "raffle": false
       }
     ],
-    "hype_score": 15
+    "hype_score": 15,
+    "similar_products": [
+      "new-balance-1906l-rosewood",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-5030-black-silver"
+    ]
   },
   {
     "id": "adidas-adizero-evo-sl-crystal-white-luta",
@@ -2018,7 +2137,12 @@
         "raffle": false
       }
     ],
-    "hype_score": 15
+    "hype_score": 15,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
+      "adidas-adizero-evo-sl-exo-core-black"
+    ]
   },
   {
     "id": "new-balance-1906l-rosewood",
@@ -2102,7 +2226,12 @@
       }
     ],
     "hype_score": 15,
-    "colorway": "ROSEWOOD"
+    "colorway": "ROSEWOOD",
+    "similar_products": [
+      "new-balance-1906l-fairweather-blue",
+      "new-balance-5030-black-silver",
+      "new-balance-mt10t-fire-cracker"
+    ]
   },
   {
     "id": "salomon-slab-ultra-glide-2-limited-courtney-edition-blue",
@@ -2136,7 +2265,12 @@
         "raffle": false
       }
     ],
-    "hype_score": 0
+    "hype_score": 0,
+    "similar_products": [
+      "new-balance-1906l-fairweather-blue",
+      "nike-air-max-90-photon-dust-blue-cyber",
+      "new-balance-numeric-933-marblehead-island-blue"
+    ]
   },
   {
     "id": "nike-mind-001-sail",
@@ -2149,7 +2283,13 @@
     "sku": "HQ4309-100",
     "retailers": [],
     "hype_score": 20,
-    "colorway": "Sail/Hyper Crimson/Black/Chrome"
+    "colorway": "Sail/Hyper Crimson/Black/Chrome",
+    "similar_products": [
+      "nike-mind-002-wmns-football-grey",
+      "nike-mind-001-cucumber-calm-releases-summer-2026",
+      "nike-mind-001-flyknit-bronze-eclipse",
+      "nike-mind-001-flyknit-hyper-royal"
+    ]
   },
   {
     "id": "nike-mind-002-wmns-football-grey",
@@ -2162,6 +2302,12 @@
     "sku": "HQ4310-002",
     "retailers": [],
     "hype_score": 20,
-    "colorway": "Football Grey / Hydrogen Blue / Hyper Crimson / Chrome"
+    "colorway": "Football Grey / Hydrogen Blue / Hyper Crimson / Chrome",
+    "similar_products": [
+      "nike-mind-001-sail",
+      "nike-mind-001-cucumber-calm-releases-summer-2026",
+      "nike-mind-001-flyknit-bronze-eclipse",
+      "nike-mind-001-flyknit-hyper-royal"
+    ]
   }
 ]
