@@ -1,130 +1,5 @@
 [
   {
-    "id": "virgil-abloh-x-nike-air-force-1-low-sesame",
-    "date": "2026-05-26",
-    "price": "TBD"
-  },
-  {
-    "id": "nike-mind-002-flyknit-qs-pure-platinum",
-    "date": "2026-05-26",
-    "price": 145
-  },
-  {
-    "id": "nike-air-max-90-photon-dust-blue-cyber",
-    "date": "2026-05-26",
-    "price": 124
-  },
-  {
-    "id": "kids-of-immigrants-x-nike-t90-mule-khaki-fusion-red",
-    "date": "2026-05-27",
-    "price": 120
-  },
-  {
-    "id": "asphaltgold-x-puma-h-street-saffron-coffee-milk",
-    "date": "2026-05-27",
-    "price": 110
-  },
-  {
-    "id": "kids-of-immigrants-x-nike-t90-mule-velvet-brown-orange-horizon",
-    "date": "2026-05-27",
-    "price": "120€"
-  },
-  {
-    "id": "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
-    "date": "2026-05-28",
-    "price": 160
-  },
-  {
-    "id": "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
-    "date": "2026-05-28",
-    "price": 160
-  },
-  {
-    "id": "auralee-x-new-balance-204l-cream",
-    "date": "2026-05-28",
-    "price": 160
-  },
-  {
-    "id": "nike-air-liquid-max-bright-crimson-fire-red",
-    "date": "2026-05-28",
-    "price": 220
-  },
-  {
-    "id": "new-balance-numeric-933-marblehead-island-blue",
-    "date": "2026-05-28",
-    "price": 150
-  },
-  {
-    "id": "new-balance-numeric-tiago-lemos-1010-grey-days",
-    "date": "2026-05-28",
-    "price": 120
-  },
-  {
-    "id": "bad-bunny-adidas-ballerina-flamboyan-2026",
-    "date": "2026-05-29",
-    "price": 120
-  },
-  {
-    "id": "auralee-x-new-balance-204l-brown",
-    "date": "2026-05-29",
-    "price": 160
-  },
-  {
-    "id": "air-jordan-3-retro-worlds-best-dad",
-    "date": "2026-05-30",
-    "price": 210
-  },
-  {
-    "id": "new-balance-mt10t-fire-cracker",
-    "date": "2026-05-31",
-    "price": 140
-  },
-  {
-    "id": "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
-    "date": "2026-05-31",
-    "price": 150
-  },
-  {
-    "id": "adidas-believe-that-1-cloud-white",
-    "date": "2026-05-31",
-    "price": 100
-  },
-  {
-    "id": "adidas-adizero-evo-sl-exo-core-black",
-    "date": "2026-05-31",
-    "price": 150
-  },
-  {
-    "id": "new-balance-mt10t-raincloud-concrete",
-    "date": "2026-05-31",
-    "price": 140
-  },
-  {
-    "id": "new-balance-5030-grey-black",
-    "date": "2026-05-31",
-    "price": 130
-  },
-  {
-    "id": "new-balance-1906l-fairweather-blue",
-    "date": "2026-05-31",
-    "price": 140
-  },
-  {
-    "id": "adidas-adizero-evo-sl-crystal-white-luta",
-    "date": "2026-05-31",
-    "price": 150
-  },
-  {
-    "id": "new-balance-1906l-rosewood",
-    "date": "2026-05-31",
-    "price": 140
-  },
-  {
-    "id": "adidas-believe-that-1-core-black",
-    "date": "2026-05-31",
-    "price": 100
-  },
-  {
     "id": "new-balance-5030-black-silver",
     "date": "2026-06-01",
     "price": 130
@@ -167,7 +42,7 @@
   {
     "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
     "date": "2026-06-02",
-    "price": null
+    "price": 145
   },
   {
     "id": "nike-rift-2-kenya",
@@ -178,11 +53,6 @@
     "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
     "date": "2026-06-02",
     "price": 140
-  },
-  {
-    "id": "nike-mind-001-flyknit-hyper-royal",
-    "date": "2026-07-04",
-    "price": 90
   },
   {
     "id": "nike-air-max-95-og-fresh-mint",
@@ -232,17 +102,22 @@
   {
     "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
     "date": "2026-06-08",
-    "price": null
+    "price": 140
   },
   {
     "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
     "date": "2026-06-09",
-    "price": null
+    "price": 140
   },
   {
     "id": "nike-kd-19-field-purple-releases-june-2026",
     "date": "2026-06-17",
-    "price": null
+    "price": 145
+  },
+  {
+    "id": "nike-mind-001-flyknit-hyper-royal",
+    "date": "2026-06-05",
+    "price": 90
   },
   {
     "id": "air-jordan-17-low-black-patent-releases-august-2026",
@@ -255,53 +130,308 @@
     "price": "150€"
   },
   {
-    "id": "a-ma-mani-re-x-nike-pegasus-premium-timing-is-everything-rel",
-    "date": "TBD",
-    "price": null
+    "id": "nike-pegasus-premium-sp-black-sail-sail",
+    "date": "2026-06-01",
+    "price": 210
   },
   {
-    "id": "nike-air-zoom-huarache-2k4-knicks-pe-releases-fall-2026",
-    "date": "TBD",
-    "price": "$210"
+    "id": "asics-gel-nyc-20-lake-grey-piedmont-grey",
+    "date": "2026-06-01",
+    "price": 160
   },
   {
-    "id": "nike-kobe-9-em-low-protro-draft-day-releases-june-2026",
-    "date": "TBD",
-    "price": "125.99€"
+    "id": "asics-gel-kayano-121-piedmont-grey-gravel",
+    "date": "2026-06-01",
+    "price": 180
   },
   {
-    "id": "nike-air-rift-2-kenya-returns-summer-2026",
-    "date": "TBD",
-    "price": null
+    "id": "asics-gt-2160-white-raspberry",
+    "date": "2026-06-01",
+    "price": 130
   },
   {
-    "id": "nike-sb-dunk-low-green-patent-releases-holiday-2026",
-    "date": "TBD",
-    "price": null
+    "id": "asics-gel-nyc-khaki-pure-silver",
+    "date": "2026-06-01",
+    "price": 160
   },
   {
-    "id": "nike-air-max-95-scorpion",
-    "date": "TBD",
-    "price": null
+    "id": "asics-gel-1130-white-piedmont-grey",
+    "date": "2026-06-01",
+    "price": 100
   },
   {
-    "id": "nike-mind-001-cucumber-calm-releases-summer-2026",
-    "date": "TBD",
-    "price": null
+    "id": "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
+    "date": "2026-06-01",
+    "price": 180
   },
   {
-    "id": "air-jordan-3-utility-releases-spring-2027",
-    "date": "TBD",
-    "price": null
+    "id": "asics-gel-cumulus-16-lake-grey-pure-silver",
+    "date": "2026-06-01",
+    "price": 150
   },
   {
-    "id": "star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr",
-    "date": "TBD",
-    "price": null
+    "id": "asics-gel-nyc-cocoa-powder-pure-silver",
+    "date": "2026-06-01",
+    "price": 160
+  },
+  {
+    "id": "asics-gel-kayano-121-cream-smoke-grey",
+    "date": "2026-06-01",
+    "price": 180
+  },
+  {
+    "id": "new-balance-mt10t-fire-cracker",
+    "date": "2026-06-01",
+    "price": 140
+  },
+  {
+    "id": "adidas-believe-that-1-core-black",
+    "date": "2026-06-01",
+    "price": 100
+  },
+  {
+    "id": "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
+    "date": "2026-06-01",
+    "price": 150
+  },
+  {
+    "id": "adidas-believe-that-1-cloud-white",
+    "date": "2026-06-01",
+    "price": 100
+  },
+  {
+    "id": "adidas-adizero-evo-sl-exo-core-black",
+    "date": "2026-06-01",
+    "price": 150
+  },
+  {
+    "id": "new-balance-mt10t-raincloud-concrete",
+    "date": "2026-06-01",
+    "price": 140
+  },
+  {
+    "id": "new-balance-5030-grey-black",
+    "date": "2026-06-01",
+    "price": 130
+  },
+  {
+    "id": "new-balance-1906l-fairweather-blue",
+    "date": "2026-06-01",
+    "price": 140
+  },
+  {
+    "id": "adidas-adizero-evo-sl-crystal-white-luta",
+    "date": "2026-06-01",
+    "price": 150
+  },
+  {
+    "id": "new-balance-1906l-rosewood",
+    "date": "2026-06-01",
+    "price": 140
+  },
+  {
+    "id": "salomon-slab-ultra-glide-2-limited-courtney-edition-blue",
+    "date": "2026-06-01",
+    "price": 270
+  },
+  {
+    "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary",
+    "date": "2026-06-03",
+    "price": 140
+  },
+  {
+    "id": "nike-mind-001-sail",
+    "date": "2026-06-08",
+    "price": 90
+  },
+  {
+    "id": "nike-mind-002-wmns-football-grey",
+    "date": "2026-06-08",
+    "price": 140
+  },
+  {
+    "id": "nike-mind-002-thunder-blue",
+    "date": "2026-06-08",
+    "price": 140
+  },
+  {
+    "id": "nike-mind-002-wmns-sail-hyper-crimson",
+    "date": "2026-06-08",
+    "price": 140
+  },
+  {
+    "id": "nike-mind-002-black-hyper-crimson",
+    "date": "2026-06-08",
+    "price": 140
+  },
+  {
+    "id": "nike-mind-002-wmns-light-violet-ore",
+    "date": "2026-06-08",
+    "price": 140
+  },
+  {
+    "id": "nike-mind-001-wmns-barely-green",
+    "date": "2026-06-08",
+    "price": 90
+  },
+  {
+    "id": "nike-mind-002-wmns-light-smoke-grey",
+    "date": "2026-06-08",
+    "price": 140
+  },
+  {
+    "id": "nike-mind-001-black-hyper-crimson",
+    "date": "2026-06-08",
+    "price": 90
+  },
+  {
+    "id": "nike-mind-001-wmns-black-hyper-crimson",
+    "date": "2026-06-08",
+    "price": 90
+  },
+  {
+    "id": "nike-mind-002-light-smoke-grey",
+    "date": "2026-06-08",
+    "price": 140
+  },
+  {
+    "id": "nike-mind-001-light-smoke-grey",
+    "date": "2026-06-08",
+    "price": 90
+  },
+  {
+    "id": "joe-freshgoods-x-new-balance-1890-finger-waves",
+    "date": "2026-06-09",
+    "price": 210
+  },
+  {
+    "id": "joe-freshgoods-x-new-balance-1890-naughty-things",
+    "date": "2026-06-09",
+    "price": 210
+  },
+  {
+    "id": "nike-air-force-1-low-retro-heat-map-black-racer-blue",
+    "date": "2026-06-15",
+    "price": 130
+  },
+  {
+    "id": "nike-air-force-1-low-paisley-hydrogen-blue",
+    "date": "2026-06-15",
+    "price": 120
+  },
+  {
+    "id": "adidas-adizero-adios-pro-evo-3-cloud-white-solar-turbo",
+    "date": "2026-06-18",
+    "price": 500
+  },
+  {
+    "id": "nike-air-force-1-low-glam-rock-bold-berry",
+    "date": "2026-06-20",
+    "price": 120
+  },
+  {
+    "id": "cdg-x-nike-ld-1000-spirit-pink",
+    "date": "2026-06-30",
+    "price": 110
+  },
+  {
+    "id": "jjjjound-x-new-balance-1890-black-white",
+    "date": "2026-06-30",
+    "price": 200
+  },
+  {
+    "id": "nike-mind-002-flyknit-qs-pure-platinum",
+    "date": "2026-06-30",
+    "price": 145
+  },
+  {
+    "id": "willy-chavarria-x-adidas-megaride-ag-powder-red",
+    "date": "2026-06-30",
+    "price": 200
+  },
+  {
+    "id": "nike-air-max-plus-vii-scorpion",
+    "date": "2026-06-30",
+    "price": 190
   },
   {
     "id": "new-balance-933-grey-days",
-    "date": "TBD",
+    "date": "2026-06-30",
     "price": 135
+  },
+  {
+    "id": "nike-air-max-95-mexico",
+    "date": "2026-06-30",
+    "price": 200
+  },
+  {
+    "id": "awake-ny-x-air-jordan-6-midnight-navy",
+    "date": "2026-06-30",
+    "price": 230
+  },
+  {
+    "id": "air-jordan-3-retro-olive-aura",
+    "date": "2026-06-30",
+    "price": 190
+  },
+  {
+    "id": "nike-air-force-1-low-retro-premium-red-sepia",
+    "date": "2026-06-30",
+    "price": 140
+  },
+  {
+    "id": "nike-sb-paul-rodriguez-zoom-air-low-black-gum",
+    "date": "2026-06-30",
+    "price": 125
+  },
+  {
+    "id": "nike-air-force-1-low-white-patent",
+    "date": "2026-06-30",
+    "price": 125
+  },
+  {
+    "id": "nike-dunk-low-have-a-nike-day",
+    "date": "2026-06-30",
+    "price": 130
+  },
+  {
+    "id": "nike-air-force-1-low-black-fire-red",
+    "date": "2026-06-30",
+    "price": 125
+  },
+  {
+    "id": "new-balance-204l-wmns-cow-print-brown",
+    "date": "2026-06-30",
+    "price": 120
+  },
+  {
+    "id": "new-balance-204l-wmns-cow-print-black",
+    "date": "2026-06-30",
+    "price": 120
+  },
+  {
+    "id": "air-jordan-3-og-bin-23",
+    "date": "2026-06-30",
+    "price": 350
+  },
+  {
+    "id": "nike-air-force-1-low-premium-black-patent",
+    "date": "2026-06-30",
+    "price": 125
+  },
+  {
+    "id": "nike-lebron-23-dreams-and-nightmares",
+    "date": "2026-07-31",
+    "price": 240
+  },
+  {
+    "id": "nike-air-max-plus-vii-fire-red",
+    "date": "2026-07-31",
+    "price": 190
+  },
+  {
+    "id": "nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey",
+    "date": "2026-07-31",
+    "price": 200
   }
 ]

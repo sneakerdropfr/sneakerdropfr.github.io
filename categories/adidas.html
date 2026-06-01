@@ -107,8 +107,8 @@
     /* ── Drop card ── */
     .drop-card{background:#0A0A0A;border:1px solid rgba(255,255,255,.08);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:border-color .2s,transform .2s,box-shadow .2s}
     .drop-card:hover{border-color:rgba(255,255,255,.3);transform:translateY(-4px);box-shadow:var(--shadow-hover)}
-    .drop-card__img-wrap{position:relative;aspect-ratio:1;background:#fff;overflow:hidden;flex-shrink:0}
-    .drop-card__img{width:100%;height:100%;object-fit:contain;padding:.9rem;transition:transform .3s;transform:scaleX(-1)}
+    .drop-card__img-wrap{position:relative;background:#fff;overflow:hidden;flex-shrink:0;height:180px}
+    .drop-card__img{width:100%;height:180px;object-fit:contain;padding:.9rem;transition:transform .3s;transform:scaleX(-1)}
     .drop-card:hover .drop-card__img{transform:scaleX(-1) scale(1.07)}
     .drop-card__img-placeholder{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:2.5rem}
     .drop-card__badge-top{position:absolute;top:.65rem;left:.65rem;font-family:var(--font-cond);font-size:.65rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;padding:.18rem .55rem;border-radius:4px;z-index:1}
@@ -360,8 +360,8 @@
     @media(max-width:640px){.cat-grid{grid-template-columns:1fr 1fr;gap:1rem;padding:1rem}}
     .cat-card{background:#fff;border:1px solid var(--border);border-radius:8px;overflow:hidden;transition:transform .15s,box-shadow .15s}
     .cat-card:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(0,0,0,.1)}
-    .cat-card__img-link{display:block;position:relative;aspect-ratio:1;overflow:hidden;background:#f5f5f5}
-    .cat-card__img-link img{width:100%;height:100%;object-fit:cover}
+    .cat-card__img-link{display:block;position:relative;height:180px;overflow:hidden;background:#f5f5f5}
+    .cat-card__img-link img{width:100%;height:100%;object-fit:contain;padding:.6rem}
     .cat-card__no-img{width:100%;height:100%;background:#eee}
     .cat-badge{position:absolute;top:.5rem;left:.5rem;font-family:var(--font-cond);font-size:.6rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;padding:.2rem .5rem;border-radius:3px}
     .cat-badge--today{background:#FF3B30;color:#fff}
