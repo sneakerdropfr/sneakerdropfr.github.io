@@ -139,6 +139,10 @@
     .hype-score--hype{background:#FF9500;color:#fff}
     .hype-score--mid{background:#34C759;color:#fff}
     .hype-score--low{background:#e8e8e8;color:#888}
+    .difficulty{display:inline-flex;align-items:center;gap:.25rem;font-family:var(--font-cond);font-size:.62rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;padding:.2rem .5rem;border-radius:3px;margin-top:.2rem}
+    .difficulty--hard{background:rgba(255,45,45,.15);color:#FF2D2D}
+    .difficulty--medium{background:rgba(255,149,0,.15);color:#FF9500}
+    .difficulty--easy{background:rgba(52,199,89,.15);color:#1a7a35}
     @media(max-width:640px){.hbtn--desktop{display:none!important}}
     .drop-card__body{padding:.9rem;display:flex;flex-direction:column;gap:.28rem;flex:1}
     .drop-card__brand{font-family:var(--font-cond);font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.45)}
@@ -903,6 +907,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         var hsIcon = hs >= 80 ? '🔥' : hs >= 60 ? '⚡' : '👟';
         hypeScoreHtml = '<div class="hype-score ' + hsCls + '">' + hsIcon + ' ' + hs + '/100</div>';
       }
+      // Difficulté d'achat dérivée du hype_score
+      var difficultyHtml = '';
+      if (r.hype_score) {
+        var hs2 = r.hype_score;
+        if (hs2 >= 70) difficultyHtml = '<div class="difficulty difficulty--hard">🎯 Difficile</div>';
+        else if (hs2 >= 40) difficultyHtml = '<div class="difficulty difficulty--medium">🎯 Moyen</div>';
+        else difficultyHtml = '<div class="difficulty difficulty--easy">🎯 Facile</div>';
+      }
       // Countdown : afficher si date connue, pas encore sortie, dans moins de 72h
       var countdownHtml = '';
       if (!released && r.date && r.date !== 'TBD') {
@@ -920,6 +932,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           '<span class="drop-card__brand">' + (r.brand || '') + '</span>' +
           titleWrap +
           hypeScoreHtml +
+          difficultyHtml +
           '<div class="drop-card__meta">' +
             '<span class="drop-card__date">📅 ' + formatDate(r.date) + '</span>' +
             '<span class="drop-card__price">' + formatPrice(r.price) + '</span>' +
