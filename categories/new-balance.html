@@ -67,6 +67,11 @@
     /* Btn past */
     #btn-past{background:var(--black);border:2px solid var(--black);color:#fff;padding:.75rem 2rem;border-radius:999px;font-family:var(--font-cond);font-weight:900;font-size:.95rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;width:100%;max-width:360px;display:block;margin:1.5rem auto;transition:background .15s,color .15s,border-color .15s}
     #btn-past:hover{background:var(--accent);border-color:var(--accent);color:var(--black)}
+    /* Difficulté */
+    .difficulty{display:inline-flex;align-items:center;gap:.25rem;font-family:var(--font-cond);font-size:.62rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;padding:.2rem .5rem;border-radius:3px;margin-top:.2rem}
+    .difficulty--hard{background:rgba(255,45,45,.15);color:#FF2D2D}
+    .difficulty--medium{background:rgba(255,149,0,.15);color:#FF9500}
+    .difficulty--easy{background:rgba(52,199,89,.15);color:#1a7a35}
     /* Loading */
     .cat-loading{text-align:center;padding:3rem;color:var(--muted);font-family:var(--font-cond);font-size:.9rem;letter-spacing:.08em}
   </style>
@@ -145,6 +150,15 @@
       }
     }
 
+    // Difficulté d'achat
+    var diffHtml = '';
+    if (!isPast && r.hype_score) {
+      var hs = r.hype_score;
+      if (hs >= 70) diffHtml = '<div class="difficulty difficulty--hard">🎯 Difficile</div>';
+      else if (hs >= 40) diffHtml = '<div class="difficulty difficulty--medium">🎯 Moyen</div>';
+      else diffHtml = '<div class="difficulty difficulty--easy">🎯 Facile</div>';
+    }
+
     var img = r.image_url || '';
     var price = fmtPrice(r.price);
     var date = fmtDate(r.date);
@@ -162,6 +176,7 @@
       + '<span class="cat-card__date">📅 ' + date + '</span>'
       + (price ? '<span class="cat-card__price">' + price + '</span>' : '')
       + '</div>'
+      + diffHtml
       + (retailers ? '<div class="cat-card__retailers">' + retailers + '</div>' : '')
       + '</div>'
       + '</article>';
