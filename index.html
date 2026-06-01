@@ -1287,15 +1287,13 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     var results = all.filter(function(r) {
       // Haystack titre+marque+SKU+colorway (pas l'ID brut pour éviter aj1→aj11)
       var haystackMain = ((r.title || '') + ' ' + (r.brand || '') + ' ' + (r.sku || '') + ' ' + (r.colorway || '')).toLowerCase();
-      // ID uniquement pour recherches longues (>= 4 chars) ou recherche exacte
-      var haystackFull = haystackMain + ' ' + (r.id || '').toLowerCase();
-      // Correspondance exacte titre/marque
-      if (haystackMain.indexOf(q) !== -1) return true;
-      // Correspondance exacte sur ID uniquement si query >= 4 chars
-      if (q.length >= 4 && haystackFull.indexOf(q) !== -1) return true;
-      // Chaque mot en word boundary sur le titre/marque
+      // Word boundary strict AVANT et APRÈS chaque mot
+      // Règle chiffre final : "990" accepte "990v6" (suffixe version) mais pas "9906" ni "990r"
+      // Règle lettre finale : boundary stricte avant et après
       return words.every(function(w){
-        var re = new RegExp('(^|[\\s\\-\'\"_/])' + w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'), 'i');
+        var escaped = w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+        var after = /\d$/.test(w) ? '($|[\\s\\-\'\"_/)]|v(?=[0-9]))' : '($|[\\s\\-\'\"_/)])';
+        var re = new RegExp('(^|[\\s\\-\'\"_/(])' + escaped + after, 'i');
         return re.test(haystackMain);
       });
     });
