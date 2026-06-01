@@ -1618,7 +1618,8 @@
         "price": "210€",
         "resell": false
       }
-    ]
+    ],
+    "sku": "CT8013-003"
   },
   {
     "id": "kobe-bryant-x-nike-air-force-1-low-protro-denim-releases-may",
@@ -1656,7 +1657,8 @@
         "price": "150€",
         "resell": false
       }
-    ]
+    ],
+    "sku": "IM1980-400"
   },
   {
     "id": "nigel-sylvester-air-jordan-4-brick-after-brick",
@@ -1703,7 +1705,8 @@
         "resell": true
       }
     ],
-    "featured": true
+    "featured": true,
+    "sku": "IQ8055-100"
   },
   {
     "title": "Nike Air Max 90 Total 90 Laser",
@@ -1835,7 +1838,8 @@
         "price": "561€",
         "resell": true
       }
-    ]
+    ],
+    "sku": "IR2009-133"
   },
   {
     "id": "nike-air-max-95-og-comet-red",
@@ -1880,7 +1884,8 @@
         "price": "260€",
         "resell": true
       }
-    ]
+    ],
+    "sku": "IB7862-100"
   },
   {
     "id": "nike-kobe-air-force-1-low-daybreak-releases-may-2026",
@@ -1910,7 +1915,8 @@
         "url": "https://de.afew-store.com/",
         "price": "180€"
       }
-    ]
+    ],
+    "sku": "IB0018-102"
   },
   {
     "id": "nike-kobe-3-low-protro-mambacita",
@@ -1944,7 +1950,8 @@
         "price": "225€",
         "resell": true
       }
-    ]
+    ],
+    "sku": "IQ3916-100"
   },
   {
     "id": "cade-cunningham-x-nike-st-charge-detroit-tough-releases-may-",
@@ -1956,7 +1963,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/cade-cunningham-nike-st-charge-detroit-tough-IZ6735-100-1024x725.jpg",
     "buy_url": "https://www.footlocker.com/",
     "source": "Sneaker Files",
-    "added_at": "2026-05-16T22:03:03.240098+00:00"
+    "added_at": "2026-05-16T22:03:03.240098+00:00",
+    "sku": "IZ6735-100"
   },
   {
     "id": "nike-ja-3-kool-aid-releases-may-2026",
@@ -1982,7 +1990,8 @@
         "price": "135€",
         "resell": false
       }
-    ]
+    ],
+    "sku": "IW1159-700"
   },
   {
     "title": "Nike Air Max 90 Hypervenom",
@@ -2051,7 +2060,8 @@
         "price": "210€",
         "resell": true
       }
-    ]
+    ],
+    "sku": "IR1978-844"
   },
   {
     "title": "Nike Air Max 90 Mercurial Korea Family Reunion",
@@ -2116,7 +2126,8 @@
         "price": "215€",
         "resell": true
       }
-    ]
+    ],
+    "sku": "IR5903-010"
   },
   {
     "title": "Nike Air Max 90 Tiempo",
@@ -2164,7 +2175,8 @@
         "price": "161€",
         "resell": true
       }
-    ]
+    ],
+    "sku": "IU0523-010"
   },
   {
     "id": "air-jordan-11-retro-low-wmns-mother-s-day",
@@ -2224,7 +2236,8 @@
         "price": "279€",
         "resell": true
       }
-    ]
+    ],
+    "sku": "AH7860-102"
   },
   {
     "id": "air-jordan-3-brazil-releases-may-2026",
@@ -2264,7 +2277,8 @@
         "url": "https://stockx.com/fr-fr/air-jordan-3-retro-brazil",
         "price": "302€"
       }
-    ]
+    ],
+    "sku": "IV4871-400"
   },
   {
     "title": "Air Jordan 1 Low OG Banned",
@@ -2361,7 +2375,8 @@
         "url": "https://limitedresell.com/7308-air-jordan-1-retro-low-og-banned.html",
         "price": "195€"
       }
-    ]
+    ],
+    "sku": "IW6276-001"
   },
   {
     "id": "air-griffey-max-1-2026",
@@ -2400,7 +2415,8 @@
         "url": "https://stockx.com/fr-fr/nike-air-griffey-max-1-freshwater-2026",
         "price": "175€"
       }
-    ]
+    ],
+    "sku": "DD8558-100"
   },
   {
     "title": "Adidas Bw Army Chalk White Power Green",
@@ -2420,7 +2436,8 @@
     "image_url": "https://statics.whentocop.fr/media/MV7zAPDT7UPE/tmpadidas-adistar-moulded-w-linen-green-tegrme-true-green-kj4895-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-moulded-wmns-linen-green-true-green-kj4895",
     "id": "adidas-adistar-moulded-wmns-linen-green-true-green",
-    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-wmns-adistar-mld-jh8990-0346608"
+    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-wmns-adistar-mld-jh8990-0346608",
+    "sku": "KJ4895"
   },
   {
     "title": "Adidas Adistar Moulded Wmns Aurora Coffee Silver Metallic",
@@ -2429,7 +2446,8 @@
     "price": 130,
     "image_url": "https://statics.whentocop.fr/media/NR5geKv5ZZOv/tmpadidas-adistar-moulded-w-aurora-coffee-silver-metallic-blue-fusion-kj4896-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-moulded-wmns-aurora-coffee-silver-metallic-kj4896",
-    "id": "adidas-adistar-moulded-wmns-aurora-coffee"
+    "id": "adidas-adistar-moulded-wmns-aurora-coffee",
+    "sku": "KJ4896"
   },
   {
     "title": "New Balance Abzorb 5030 Grey Days",
@@ -2439,7 +2457,8 @@
     "image_url": "https://statics.whentocop.fr/media/kam95P9aHifO/tmpnew-balance-abzorb-5030-grey-days-magnet-dark-silver-metallic-u503069c-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-abzorb-5030-grey-days-u503069c",
     "id": "new-balance-abzorb-5030-grey-days",
-    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-5030-u503069c-0348505"
+    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-5030-u503069c-0348505",
+    "sku": "U503069C"
   },
   {
     "title": "New Balance Abzorb 2000 Grey Days",
@@ -2483,7 +2502,8 @@
         "url": "https://stockx.com/fr-fr",
         "price": "191€"
       }
-    ]
+    ],
+    "sku": "A23978C"
   },
   {
     "title": "New Balance Gator Run Apollo Gold",
@@ -2493,7 +2513,8 @@
     "image_url": "https://statics.whentocop.fr/media/8769kiZzcUeL/tmpnew-balance-gator-run-apollo-gold-ugtr9sr-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-gator-run-apollo-gold-ugtr9sr",
     "id": "nb-gator-run-apollo-gold",
-    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-gator-run-ugtr9sr-0348441"
+    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-gator-run-ugtr9sr-0348441",
+    "sku": "UGTR9SR"
   },
   {
     "title": "New Balance Gator Run Dry Lime",
@@ -2503,7 +2524,8 @@
     "image_url": "https://statics.whentocop.fr/media/VNueBjWj3PiS/tmpnew-balance-gator-run-dry-lime-ugtr5t9-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-gator-run-dry-lime-ugtr5t9",
     "id": "nb-gator-run-dry-lime",
-    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-gator-run-ugtr9sr-0348441"
+    "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-gator-run-ugtr9sr-0348441",
+    "sku": "UGTR9SR"
   },
   {
     "id": "bluetile-nike-sb-dunk-low",
@@ -2552,7 +2574,8 @@
         "url": "https://stockx.com/fr-fr/nike-sb-dunk-low-pro-bluetile-skateboards",
         "price": "170€"
       }
-    ]
+    ],
+    "sku": "IQ1323-001"
   },
   {
     "id": "nike-ja-3-let-me-be-ja",
@@ -2586,7 +2609,8 @@
         "url": "https://stockx.com/fr-fr/nike-ja-3-let-me-be-ja",
         "price": "120€"
       }
-    ]
+    ],
+    "sku": "HF2793-702"
   },
   {
     "id": "air-jordan-4-retro-toro-bravo-2026",
@@ -2647,7 +2671,8 @@
         "raffle": false
       }
     ],
-    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/date-de-sortie-de-la-air-jordan%C2%A04-toro-bravo-%C2%AB%C2%A0fire-red-and-black%C2%A0%C2%BB-fq8138-600.jpg"
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/date-de-sortie-de-la-air-jordan%C2%A04-toro-bravo-%C2%AB%C2%A0fire-red-and-black%C2%A0%C2%BB-fq8138-600.jpg",
+    "sku": "308497603"
   },
   {
     "id": "clot-adidas-samba-espadrille-white-black",
@@ -2777,7 +2802,7 @@
     "date": "TBD",
     "price": "",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/a-ma-maniere-nike-pegasus-premium-timing-is-everything-1024x725.jpg",
-    "sku": "",
+    "sku": "IM0701-001",
     "buy_url": "https://www.sneakerfiles.com/a-ma-maniere-nike-pegasus-premium/",
     "past": true
   },
@@ -2876,7 +2901,7 @@
     "date": "TBD",
     "price": "109",
     "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/adidas-stan-smith-court-pack-32-380x380.jpg",
-    "sku": "",
+    "sku": "IF0202, HQ9265, LA4359, KZ7196, M20324",
     "buy_url": "",
     "past": true
   },
@@ -2898,7 +2923,7 @@
     "date": "TBD",
     "price": "",
     "image_url": "",
-    "sku": "",
+    "sku": "LA5974",
     "buy_url": "",
     "past": true
   },
@@ -2997,7 +3022,7 @@
     "date": "TBD",
     "price": "199",
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GVjUxMDQtMTAwL0ZWNTEwNC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-    "sku": "",
+    "sku": "AH7860-102",
     "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D44544939643%26a%3D2855487%26m%3D104979",
     "past": true
   },
@@ -3558,7 +3583,7 @@
     "date": "2026-05-09",
     "price": "",
     "image_url": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8dd04efe-4caa-4279-a0ae-2188dc0764ec/WMNS+AIR+JORDAN+11+RETRO+LOW.png",
-    "sku": "",
+    "sku": "AH7860-102",
     "buy_url": "",
     "past": true
   },
@@ -3591,7 +3616,7 @@
     "date": "2026-05-16",
     "price": "",
     "image_url": "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/868bbd83-c38a-46a3-8ac2-a917da1ab196/AIR+JORDAN+3+RETRO+OG+BZ+SP.png",
-    "sku": "",
+    "sku": "IV4871-400",
     "buy_url": "",
     "past": true
   },
@@ -3613,7 +3638,7 @@
     "date": "2026-05-02",
     "price": "133",
     "image_url": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ba9c1273-c857-431c-8ec7-f97aa861ed69/AIR+JORDAN+1+RETRO+LOW+OG.png",
-    "sku": "",
+    "sku": "IW6276-001",
     "buy_url": "",
     "past": true
   },
@@ -3668,7 +3693,7 @@
     "date": "2026-05-16",
     "price": "215",
     "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/assets/images/aj3-worlds-best-dad.jpg",
-    "sku": "",
+    "sku": "IF4396-103",
     "buy_url": "",
     "past": true
   },
@@ -3701,7 +3726,7 @@
     "date": "2026-05-02",
     "price": "129",
     "image_url": "https://www.nicekicks.com/files/2026/05/Clot-x-Adidas-Samba-Mundial-5-1-scaled-e1777674839816.jpg",
-    "sku": "",
+    "sku": "KJ0274",
     "buy_url": "",
     "past": true
   },
@@ -3844,7 +3869,7 @@
     "date": "2026-05-01 ([SneakerDropFR](https://sneakerdropfr.github.io/sorties/jordan-luka-5-familia-.html))",
     "price": "",
     "image_url": "https://www.nicekicks.com/files/2026/05/iw9035-500-5-e1777640636406.jpg ([SneakerDropFR](https://sneakerdropfr.github.io/sorties/jordan-luka-5-familia-.html))",
-    "sku": "",
+    "sku": "IO5028-900",
     "buy_url": "",
     "past": true
   },
@@ -3877,7 +3902,7 @@
     "date": "2026-05-28",
     "price": "120",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/kids-of-immigrants-nike-t90-mule-pack-2026-1024x725.jpg",
-    "sku": "",
+    "sku": "IH4422-201",
     "buy_url": "",
     "past": true
   },
@@ -3899,7 +3924,7 @@
     "date": "2026-05-22",
     "price": "",
     "image_url": "https://sneakerdropfr.fr/assets/images/sneakers/la-brick-after-brick-arrive-le-22-mai-sur-snkrs.webp",
-    "sku": "",
+    "sku": "IQ8055-100",
     "buy_url": "https://fitthemall.fr/la-brick-after-brick-arrive-le-22-mai-sur-snkrs/",
     "past": true
   },
@@ -3943,7 +3968,7 @@
     "date": "TBD",
     "price": "120",
     "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/kids-of-immigrants-x-nike-t90-mule-2.jpeg",
-    "sku": "",
+    "sku": "IH4422-201",
     "buy_url": "",
     "past": true
   },
@@ -3965,7 +3990,7 @@
     "date": "TBD",
     "price": "",
     "image_url": "https://sneakerdropfr.fr/assets/images/sneakerdropfr-logo.svg",
-    "sku": "",
+    "sku": "IM1980-400",
     "buy_url": "https://fitthemall.fr/la-nike-air-force-1-low-protro-denim-pe-arrive-pour-le-grand-public/",
     "past": true
   },
@@ -3976,7 +4001,7 @@
     "date": "TBD",
     "price": "",
     "image_url": "https://cdn.afew-store.com/assets/52/521136/1200/new-balance-gator-run-apollo-gold-ugtr9sr-footwear%20%3E%20sneaker-packshots-0.jpg",
-    "sku": "",
+    "sku": "UGTR9SR",
     "buy_url": "",
     "past": true
   },
@@ -4031,7 +4056,7 @@
     "date": "TBD",
     "price": "",
     "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/nike-air-max-95-scorpion-1-380x380.jpeg",
-    "sku": "",
+    "sku": "IM4691-001",
     "buy_url": "https://www.sneakers.fr/nike-air-max-95-scorpion/",
     "past": true
   },
@@ -4053,7 +4078,7 @@
     "date": "TBD",
     "price": "",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2023/05/nike-air-rift-kenya-fn7772-001.jpeg [SneakerDrop FR](https://sneakerdropfr.github.io/sorties/nike-air-rift-2-kenya-returns-summer-2026.html)",
-    "sku": "",
+    "sku": "IQ8006-002",
     "buy_url": "https://www.nike.com/launch [SneakerDrop FR](https://sneakerdropfr.github.io/sorties/nike-air-rift-2-kenya-returns-summer-2026.html)",
     "past": true
   },
@@ -4097,7 +4122,7 @@
     "date": "TBD",
     "price": "219",
     "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/nike-air-liquid-max-black-team-red-9.jpg",
-    "sku": "",
+    "sku": "IQ7634-002",
     "buy_url": "",
     "past": true
   },
@@ -4119,7 +4144,7 @@
     "date": "TBD",
     "price": "",
     "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/04/nike-air-max-95-woven-multi-color-2026-3-1-e1775066609805.webp",
-    "sku": "",
+    "sku": "IU2254-900",
     "buy_url": "https://justfreshkicks.com/nike-air-max-95-woven-multi/",
     "past": true
   },
@@ -4130,7 +4155,7 @@
     "date": "TBD",
     "price": "",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2016/05/nike-air-zoom-huarache-2k4-uconn-midnight-navy-university-red-review-on-feet.jpg",
-    "sku": "",
+    "sku": "IV0345-001",
     "buy_url": "https://www.nike.com/w/new-shoes-3n82yzy7ok",
     "past": true
   },
@@ -4229,7 +4254,7 @@
     "date": "TBD",
     "price": "120",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/oregon-ducks-nike-air-force-1-low-orchard-stealth-2026-1024x725.jpg",
-    "sku": "",
+    "sku": "JF5453-300, JF5453-001",
     "buy_url": "",
     "past": true
   },
@@ -4240,7 +4265,7 @@
     "date": "TBD",
     "price": "",
     "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/star-wars-mandalorian-x-adidas-adizero-evo-sl-atr-1-380x380.jpg",
-    "sku": "",
+    "sku": "KI5668",
     "buy_url": "https://www.sneakers.fr/star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr/",
     "past": true
   },
@@ -4251,7 +4276,7 @@
     "date": "TBD",
     "price": "",
     "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/05/mando-grogu-adidas-scaled.jpg",
-    "sku": "",
+    "sku": "KI5668",
     "buy_url": "",
     "past": true
   },
@@ -4284,7 +4309,7 @@
     "date": "TBD",
     "price": "",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/supreme-martine-rose-nike-dunk-low-1024x725.jpg",
-    "sku": "",
+    "sku": "JA1868-001",
     "buy_url": "https://www.nike.com/launch",
     "past": true
   },
@@ -4339,7 +4364,7 @@
     "date": "TBD",
     "price": "135.99",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/travis-scott-cactus-plant-flea-market-cpfm-nike-flea-1-2027-1024x725.jpg",
-    "sku": "",
+    "sku": "IX7250-200",
     "buy_url": "https://sneakerdropfr.github.io/sorties/travis-scott-x-cpfm-x-nike-flea-1-releases-spring-2027.html",
     "past": true
   },
@@ -4504,7 +4529,7 @@
     "date": "TBD",
     "price": "230",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-foamposite-one-tianjin-ir2078-100-release-date-6.jpg",
-    "sku": "",
+    "sku": "IR2078-100",
     "buy_url": "",
     "past": true
   },
