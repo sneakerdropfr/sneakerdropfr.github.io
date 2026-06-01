@@ -23,6 +23,7 @@ from html import escape
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SORTIES_DIR = os.path.join(ROOT, "sorties")
 RELEASES_PATH = os.path.join(ROOT, "releases.json")
+RELEASES_PAST_PATH = os.path.join(ROOT, "releases_past.json")
 SITEMAP_PATH = os.path.join(ROOT, "sitemap.xml")
 AFFILIATE_MAPPING_PATH = os.path.join(ROOT, "affiliate_mapping.json")
 MANUAL_RETAILERS_PATH = os.path.join(ROOT, "manual_retailers.json")
@@ -789,6 +790,16 @@ def main() -> int:
     with open(RELEASES_PATH, "r", encoding="utf-8") as f:
         releases = json.load(f)
 
+    # Charger releases_past.json pour enrichir all_releases (similar_products)
+    past_releases = []
+    if os.path.exists(RELEASES_PAST_PATH):
+        try:
+            with open(RELEASES_PAST_PATH, "r", encoding="utf-8") as f:
+                past_releases = json.load(f)
+        except Exception:
+            past_releases = []
+    all_releases = releases + past_releases
+
     os.makedirs(SORTIES_DIR, exist_ok=True)
     existing = set(os.listdir(SORTIES_DIR))
 
@@ -804,7 +815,7 @@ def main() -> int:
         if not is_new and not args.force:
             skipped.append(rid)
             continue
-        html = render_page(r, releases)
+        html = render_page(r, all_releases)
         if args.dry_run:
             (created if is_new else overwrote).append(rid)
             continue
