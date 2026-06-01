@@ -435,7 +435,7 @@
     "title": "Nike Air Trainer SC “Atlanta Olympics 30th Anniversary”",
     "brand": "Nike",
     "colorway": "",
-    "date": "2026-06-02",
+    "date": "2026-06-03",
     "price": 140,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2022/06/nike-air-trainer-sc-high-raiders-black-grey-white-DX3764-001-release-date-info.jpeg",
     "buy_url": "https://www.nike.com/w?q=Nike Air Trainer SC&amp;vst=Nike Air Trainer SC",
@@ -451,7 +451,7 @@
       },
       {
         "name": "Afew",
-        "url": "https://en.afew-store.com/products/nike-air-trainer-sc-sp-pro-purple-white-sail-metallic-gold",
+        "url": "https://www.afew-store.com",
         "price": "140€",
         "resell": false,
         "raffle": false
@@ -462,6 +462,13 @@
         "price": "140€",
         "resell": false,
         "raffle": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "226€",
+        "resell": true,
+        "raffle": false
       }
     ],
     "sku": "IQ5796-500",
@@ -2112,7 +2119,7 @@
       },
       {
         "name": "Afew",
-        "url": "https://en.afew-store.com/products/nike-air-trainer-sc-sp-pro-purple-white-sail-metallic-gold",
+        "url": "https://www.afew-store.com",
         "price": "140€",
         "resell": false,
         "raffle": false
@@ -2123,6 +2130,13 @@
         "price": "140€",
         "resell": false,
         "raffle": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "226€",
+        "resell": true,
+        "raffle": false
       }
     ],
     "hype_score": 20
