@@ -1317,9 +1317,11 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         ? '<img src="' + r.image_url + '" alt="' + (r.title || '').replace(/"/g, '') + '" loading="lazy">'
         : '<div style="width:100%;aspect-ratio:1;background:#F5F5F5"></div>';
       var price = r.price ? r.price + ' €' : '';
+      // Badge DISPO BSTN : uniquement pour paires à venir (date >= aujourd'hui ou pas encore sortie)
+      var isFuture = r.date && r.date !== 'TBD' && r.date >= new Date().toISOString().slice(0,10);
       var badge = r.stock === 'rupture'
         ? '<span class="src__badge src__badge--rupture">Rupture</span>'
-        : (r.buy_url ? '<span class="src__badge src__badge--dispo">Dispo BSTN</span>' : '');
+        : (r.buy_url && isFuture ? '<span class="src__badge src__badge--dispo">Dispo BSTN</span>' : '');
       var dateStr = '';
       if (r.date && r.date !== 'TBD') {
         var p = r.date.split('-');
