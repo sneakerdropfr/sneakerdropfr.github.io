@@ -97,7 +97,8 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Black and Sail"
   },
   {
     "id": "adidas-a-e-2-coral-red",
@@ -165,7 +166,8 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "White and Black"
   },
   {
     "id": "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
@@ -209,7 +211,8 @@
       "adidas-adizero-evo-sl-exo-core-black",
       "adidas-adizero-evo-sl-crystal-white-luta"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Core White / Utility Black / Grey Two"
   },
   {
     "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
@@ -330,13 +333,14 @@
       "adidas-sc-premiere-cloud-white-power-green",
       "adidas-powerphase-cloud-white-power-green"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Cloud White / Core Black / Lucid Red"
   },
   {
     "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
     "title": "McDonald’s x Nike Book 2 “Sedona”",
     "brand": "Nike",
-    "colorway": "",
+    "colorway": "Sanddrift and Teal Nebula",
     "date": "2026-06-02",
     "price": 145,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-book-2-mcdonalds-sedona-IR6443-100-1024x725.jpg",
@@ -434,13 +438,14 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-pegasus-premium-sp-white-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Black and Tm Dark Green"
   },
   {
     "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
     "title": "Nike Air Trainer SC “Atlanta Olympics 30th Anniversary”",
     "brand": "Nike",
-    "colorway": "",
+    "colorway": "Pro Purple",
     "date": "2026-06-03",
     "price": 140,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-trainer-sc-atlanta-olympics-30th-anniversary-IQ5796-500-1024x725.jpg",
@@ -538,7 +543,8 @@
       "nike-rift-2-kenya",
       "nike-mind-002-flyknit-qs-pure-platinum"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Black/White/Medium Grey/Fresh Mint"
   },
   {
     "id": "renegade-x-nike-vomero-premium-brown-basalt",
@@ -575,7 +581,8 @@
       "nike-rift-2-kenya",
       "nike-pegasus-premium-sp-white-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Brown Basalt / Total Orange / Bronze Eclipse / Hyper Crimson"
   },
   {
     "id": "renegade-x-nike-vaporfly-4-brown-basalt",
@@ -612,7 +619,8 @@
       "nike-rift-2-kenya",
       "nike-pegasus-premium-sp-white-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Brown Basalt / Bronze Eclipse / Burgundy Ash / Hyper Crimson"
   },
   {
     "id": "nike-air-max-90-cool-grey",
@@ -666,7 +674,8 @@
       "renegade-x-nike-vomero-premium-brown-basalt"
     ],
     "restocks": [],
-    "buy_url": "https://www.nike.com/fr/t/air-max-90-wave-pack-cool-grey-infrared/IU7543-065"
+    "buy_url": "https://www.nike.com/fr/t/air-max-90-wave-pack-cool-grey-infrared/IU7543-065",
+    "colorway": "Cool Grey and Laser Blue"
   },
   {
     "id": "nike-mind-001-flyknit-bronze-eclipse",
@@ -724,13 +733,14 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Bronze Eclipse"
   },
   {
     "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
     "title": "Air Jordan 1 Low OG “Phantom Pine Green”",
     "brand": "Jordan",
-    "colorway": "",
+    "colorway": "Phantom and Pine Green",
     "date": "2026-06-06",
     "price": "159.99€",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-1-low-og-phantom-pine-green-IR2283-030-1024x725.jpg",
@@ -844,7 +854,8 @@
       "adidas-believe-that-1-cloud-white"
     ],
     "restocks": [],
-    "buy_url": "https://www.adidas.fr/chaussures-tangum/LA6570.html"
+    "buy_url": "https://www.adidas.fr/chaussures-tangum/LA6570.html",
+    "colorway": "Cloud White / Power Green / Off White"
   },
   {
     "id": "adidas-sc-premiere-cloud-white-power-green",
@@ -911,7 +922,8 @@
       "adidas-believe-that-1-cloud-white"
     ],
     "restocks": [],
-    "buy_url": "https://www.adidas.fr/chaussures-sc-premiere/KZ7196.html"
+    "buy_url": "https://www.adidas.fr/chaussures-sc-premiere/KZ7196.html",
+    "colorway": "Cloud White / Power Green / Off White"
   },
   {
     "id": "adidas-powerphase-cloud-white-power-green",
@@ -971,7 +983,8 @@
       "adidas-believe-that-1-cloud-white"
     ],
     "restocks": [],
-    "buy_url": "https://www.adidas.fr/chaussures-powerphase/LA4359.html"
+    "buy_url": "https://www.adidas.fr/chaussures-powerphase/LA4359.html",
+    "colorway": "Cloud White / Power Green / Off White"
   },
   {
     "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
@@ -1000,7 +1013,7 @@
     "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
     "title": "Nike Air Max 1 City Connect “Kansas City Royals”",
     "brand": "Nike",
-    "colorway": "",
+    "colorway": "White/Vivid Grape/Soar",
     "date": "2026-06-09",
     "price": 140,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-kansas-city-royal-IQ2916-100-1024x725.jpg",
@@ -1023,7 +1036,7 @@
     "id": "nike-kd-19-field-purple-releases-june-2026",
     "title": "Nike KD 19 “Field Purple”",
     "brand": "Nike",
-    "colorway": "",
+    "colorway": "Field Purple / Stadium Green / University Gold",
     "date": "2026-06-17",
     "price": 145,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-kd-19-field-purple-stuff-IH1117-500-1024x725.jpg",
@@ -1102,7 +1115,8 @@
     "similar_products": [
       "nike-mind-001-flyknit-bronze-eclipse"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Bronze Eclipse"
   },
   {
     "id": "air-jordan-17-low-black-patent-releases-august-2026",
@@ -1141,7 +1155,7 @@
     "id": "nike-air-more-uptempo-og-black-white-returns-september-2026",
     "title": "Nike Air More Uptempo OG “Black White”",
     "brand": "Nike",
-    "colorway": "",
+    "colorway": "Polvo fotón / Naranja total / Negro / Rojo universitario",
     "date": "2026-09-25",
     "price": "150€",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/nike-air-more-uptempo-og-black-white-2026-FV2291-001-1024x725.jpg",
@@ -1216,7 +1230,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 20
+    "hype_score": 20,
+    "colorway": "Black and Sail"
   },
   {
     "id": "asics-gel-nyc-20-lake-grey-piedmont-grey",
@@ -1257,7 +1272,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 0
+    "hype_score": 0,
+    "colorway": "Lake Grey / Piedmont Grey"
   },
   {
     "id": "asics-gel-kayano-121-piedmont-grey-gravel",
@@ -1291,7 +1307,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 0
+    "hype_score": 0,
+    "colorway": "Piedmont Grey/Gravel"
   },
   {
     "id": "asics-gt-2160-white-raspberry",
@@ -1409,7 +1426,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 0
+    "hype_score": 0,
+    "colorway": "White/Piedmont Grey"
   },
   {
     "id": "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
@@ -1443,7 +1461,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 0
+    "hype_score": 0,
+    "colorway": "Dusty Fern/Seal Grey"
   },
   {
     "id": "asics-gel-cumulus-16-lake-grey-pure-silver",
@@ -1477,7 +1496,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 0
+    "hype_score": 0,
+    "colorway": "Lake Grey / Pure Silver"
   },
   {
     "id": "asics-gel-nyc-cocoa-powder-pure-silver",
@@ -1525,7 +1545,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 0
+    "hype_score": 0,
+    "colorway": "Cocoa Powder / Pure Silver"
   },
   {
     "id": "asics-gel-kayano-121-cream-smoke-grey",
@@ -1566,7 +1587,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 0
+    "hype_score": 0,
+    "colorway": "Piedmont Grey/Gravel"
   },
   {
     "id": "new-balance-mt10t-fire-cracker",
@@ -1607,7 +1629,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 15
+    "hype_score": 15,
+    "colorway": "Fire Cracker Red"
   },
   {
     "id": "adidas-believe-that-1-core-black",
@@ -1641,7 +1664,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 15
+    "hype_score": 15,
+    "colorway": "Core Black / Carbon / Iron Metallic"
   },
   {
     "id": "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
@@ -1723,7 +1747,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 15
+    "hype_score": 15,
+    "colorway": "Core Black / Carbon / Iron Metallic"
   },
   {
     "id": "adidas-adizero-evo-sl-exo-core-black",
@@ -1819,7 +1844,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 15
+    "hype_score": 15,
+    "colorway": "FTW"
   },
   {
     "id": "new-balance-5030-grey-black",
@@ -1881,7 +1907,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 15
+    "hype_score": 15,
+    "colorway": "Rainclound/Black Metallic"
   },
   {
     "id": "new-balance-1906l-fairweather-blue",
@@ -2074,7 +2101,8 @@
         "raffle": false
       }
     ],
-    "hype_score": 15
+    "hype_score": 15,
+    "colorway": "ROSEWOOD"
   },
   {
     "id": "salomon-slab-ultra-glide-2-limited-courtney-edition-blue",
@@ -2120,7 +2148,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-sail-hq4309-100",
     "sku": "HQ4309-100",
     "retailers": [],
-    "hype_score": 20
+    "hype_score": 20,
+    "colorway": "Sail/Hyper Crimson/Black/Chrome"
   },
   {
     "id": "nike-mind-002-wmns-football-grey",
@@ -2132,6 +2161,7 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-wmns-football-grey-hq4310-002",
     "sku": "HQ4310-002",
     "retailers": [],
-    "hype_score": 20
+    "hype_score": 20,
+    "colorway": "Football Grey / Hydrogen Blue / Hyper Crimson / Chrome"
   }
 ]
