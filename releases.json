@@ -1251,9 +1251,33 @@
     "price": 130,
     "image_url": "https://statics.whentocop.fr/media/Iy3GN6x7ObQz/tmpasics-gt-2160-white-raspberry-1203a275-121-v4-small-500x500.webp?width=3840&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/asics-gt-2160-white-raspberry-1203a275-121",
-    "sku": "1203A275-121",
-    "retailers": [],
-    "hype_score": 0
+    "sku": "1203A375-101",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "140€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 0,
+    "sku_source": "wtc",
+    "sku_confidence": "confirmed"
   },
   {
     "id": "asics-gel-nyc-khaki-pure-silver",
