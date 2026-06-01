@@ -1032,6 +1032,21 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/weekly_data.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .then(function(wd) {
+            // Vérifier que weekly_data.json correspond bien à la semaine en cours ou future
+            // Si week_end est dans le passé → fallback releases.json
+            try {
+              var we = (wd.week_end||'').split('/');
+              if (we.length===3) {
+                var weDate = new Date(+we[2],+we[1]-1,+we[0]);
+                weDate.setHours(23,59,59,999);
+                if (weDate < _now) {
+                  // weekly_data.json périmé → fallback sur releases.json cette semaine
+                  allWdrops = thisWeek;
+                  renderWeeklyDrops();
+                  return;
+                }
+              }
+            } catch(e) {}
             // Index releases.json par titre normalisé pour enrichissement
             function normTitle(t) { return (t||'').toLowerCase().trim().replace(/[\u2018\u2019\u201c\u201d\u00ab\u00bb"]/g,"'"); }
             var relIdx = {};
