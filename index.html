@@ -64,8 +64,7 @@
     .hero-search__input:focus{border-color:var(--black);box-shadow:0 0 0 3px rgba(0,0,0,.08)}
     .hero-search__input::placeholder{color:#aaa}
     .hero-search__icon{position:absolute;right:1rem;top:50%;transform:translateY(-50%);font-size:1rem;color:#aaa;pointer-events:none}
-    /* Cacher loupe navbar quand barre hero visible */
-    @media(max-width:899px){#header-search{display:none!important}}
+
     @keyframes pulse-bar{0%,100%{opacity:1}50%{opacity:.88}}
 
     /* ── Header ── */
@@ -413,16 +412,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         <a href="/categories/nike.html" class="hbtn hbtn--solid hbtn--keep hbtn--desktop">Nike</a>
         <a href="/blog/" class="hbtn hbtn--solid hbtn--keep hbtn--desktop">Blog</a>
         <a href="/calendar.html" class="hbtn hbtn--solid hbtn--keep hbtn--desktop">📅</a>
-        <!-- Search -->
-        <div id="header-search" style="position:relative;display:flex;align-items:center">
-          <input id="header-search-input" type="text" placeholder="Rechercher..." autocomplete="off"
-            oninput="filterBySearch(this.value);var cb=document.getElementById('search-clear-btn');if(cb)cb.classList.toggle('visible',this.value.length>0)"
-            style="width:0;opacity:0;border:none;outline:none;background:#F5F5F5;color:var(--text);font-family:var(--font-cond);font-size:.88rem;padding:0;border-radius:999px;transition:width .3s,opacity .3s,padding .3s;position:absolute;right:34px;top:50%;transform:translateY(-50%)"
-            onfocus="this.style.boxShadow='0 0 0 2px var(--black)'"
-            onblur="if(!this.value)closeSearch();else this.style.boxShadow='0 0 0 2px var(--black)'" />
-          <button class="search-clear" id="search-clear-btn" onclick="clearSearch()" title="Effacer">✕</button>
-          <button class="hbtn hbtn--search" onclick="toggleSearch()" title="Rechercher">🔍</button>
-        </div>
+
 
       </nav>
     </div>
@@ -444,10 +434,10 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   <div class="hero-search">
     <div class="hero-search__inner">
       <input class="hero-search__input" type="text" placeholder="Rechercher une paire, une collab, un SKU..." autocomplete="off"
-        oninput="filterBySearch(this.value);document.getElementById('header-search-input').value=this.value;var cb=document.getElementById('search-clear-btn');if(cb)cb.classList.toggle('visible',this.value.length>0)"
+        oninput="filterBySearch(this.value);var cb=document.getElementById('hero-clear-btn');if(cb){cb.style.display=this.value.length>0?'block':'none'}"
         onfocus="if(this.value)filterBySearch(this.value)"
         id="hero-search-input" />
-      <span class="hero-search__icon">🔍</span>
+      <button id="hero-clear-btn" onclick="var i=document.getElementById('hero-search-input');i.value='';filterBySearch('');this.style.display='none';i.focus()" title="Effacer" style="display:none;position:absolute;right:1rem;top:50%;transform:translateY(-50%);background:none;border:none;font-size:1.1rem;color:#999;cursor:pointer;line-height:1;padding:2px 6px;">✕</button>
     </div>
   </div>
 
@@ -1275,17 +1265,18 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     else { inp.style.width = '190px'; inp.style.opacity = '1'; inp.style.padding = '.42rem 1rem'; inp.focus(); }
   }
   function closeSearch() {
-    var inp = document.getElementById('header-search-input');
-    if (!inp) return;
-    inp.style.width = '0'; inp.style.opacity = '0'; inp.style.padding = '0'; inp.style.boxShadow = 'none'; inp.value = '';
+    var inp = document.getElementById('hero-search-input');
+    if (inp) { inp.value = ''; }
     filterBySearch('');
+    var cb = document.getElementById('hero-clear-btn');
+    if (cb) cb.style.display = 'none';
   }
 
   function clearSearch() {
-    var inp = document.getElementById('header-search-input');
-    var btn = document.getElementById('search-clear-btn');
+    var inp = document.getElementById('hero-search-input');
+    var btn = document.getElementById('hero-clear-btn');
     if (inp) { inp.value = ''; inp.focus(); filterBySearch(''); }
-    if (btn) btn.classList.remove('visible');
+    if (btn) btn.style.display = 'none';
   }
   function filterBySearch(query) {
     var q = (query || '').toLowerCase().trim();
@@ -1343,14 +1334,11 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     }).join('');
   }
   document.addEventListener('click', function(e) {
-    var hs = document.getElementById('header-search');
+    var heroSearch = document.querySelector('.hero-search');
     var overlay = document.getElementById('search-overlay');
-    // Ne pas fermer si clic sur un lien (navigation en cours)
     if (e.target.closest && e.target.closest('a')) return;
-    if (hs && overlay && !hs.contains(e.target) && !overlay.contains(e.target)) {
+    if (heroSearch && overlay && !heroSearch.contains(e.target) && !overlay.contains(e.target)) {
       overlay.classList.remove('active');
-      var inp = document.getElementById('header-search-input');
-      if (inp) { inp.style.width = '0'; inp.style.opacity = '0'; inp.style.padding = '0'; inp.value = ''; }
       window._searchQuery = '';
     }
   });
