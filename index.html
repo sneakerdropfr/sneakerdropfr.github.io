@@ -1257,13 +1257,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 
   <!-- Search -->
   <script>
-  function toggleSearch() {
-    var inp = document.getElementById('header-search-input');
-    if (!inp) return;
-    var isOpen = inp.style.width && inp.style.width !== '0' && inp.style.width !== '0px';
-    if (isOpen) { closeSearch(); }
-    else { inp.style.width = '190px'; inp.style.opacity = '1'; inp.style.padding = '.42rem 1rem'; inp.focus(); }
-  }
+
   function closeSearch() {
     var inp = document.getElementById('hero-search-input');
     if (inp) { inp.value = ''; }
