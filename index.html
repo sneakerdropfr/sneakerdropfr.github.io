@@ -1285,11 +1285,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     // Recherche par mots-clés — chaque mot doit apparaître dans le titre, la marque ou l'id
     var words = q.split(/\s+/).filter(function(w){ return w.length > 0; });
     var results = all.filter(function(r) {
-      var haystack = ((r.title || '') + ' ' + (r.brand || '') + ' ' + (r.id || '')).toLowerCase();
+      var haystack = ((r.title || '') + ' ' + (r.brand || '') + ' ' + (r.id || '') + ' ' + (r.sku || '') + ' ' + (r.colorway || '')).toLowerCase();
       // Correspondance exacte d'abord
       if (haystack.indexOf(q) !== -1) return true;
-      // Puis correspondance par tous les mots
-      return words.every(function(w){ return haystack.indexOf(w) !== -1; });
+      // Chaque mot doit matcher en tant que mot entier (word boundary)
+      return words.every(function(w){
+        var re = new RegExp('(^|[\\s\\-\'\"_/])' + w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'), 'i');
+        return re.test(haystack);
+      });
     });
     // Trier : correspondance exacte en premier
     results.sort(function(a, b) {
