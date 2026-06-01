@@ -1371,20 +1371,36 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     var grid = document.getElementById('past-grid');
     if (grid.style.display === 'block') {
       grid.style.display = 'none';
-      btn.textContent = '🕐 Voir les anciennes sorties';
+      btn.textContent = '\u{1F550} Voir les anciennes sorties';
       return;
     }
     btn.textContent = 'Chargement...';
-    // Utiliser allReleases déjà chargé — filtrer les paires dont la date est passée
     var today = new Date(); today.setHours(0,0,0,0);
-    var past = (window.allReleases || []).filter(function(r) {
+    // Paires passées depuis allReleases (releases.json)
+    var fromActive = (window.allReleases || []).filter(function(r) {
       if (!r.date || r.date === 'TBD') return false;
       var p = r.date.split('-');
       if (p.length !== 3) return false;
-      var d = new Date(+p[0], +p[1]-1, +p[2]);
-      return d < today;
-    }).sort(function(a,b) { return b.date.localeCompare(a.date); });
-    renderPastGrid(past);
+      return new Date(+p[0], +p[1]-1, +p[2]) < today;
+    });
+    // Charger releases_past.json
+    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t=' + Date.now())
+      .then(function(res) { return res.json(); })
+      .catch(function() { return []; })
+      .then(function(pastData) {
+        // Merger sans doublons (releases_past.json prioritaire)
+        var seenIds = {};
+        var merged = [];
+        pastData.forEach(function(r) { if (r.id) { seenIds[r.id] = true; merged.push(r); } });
+        fromActive.forEach(function(r) { if (r.id && !seenIds[r.id]) merged.push(r); });
+        // Trier par date desc, TBD en dernier
+        merged.sort(function(a, b) {
+          if (!a.date || a.date === 'TBD') return 1;
+          if (!b.date || b.date === 'TBD') return -1;
+          return b.date.localeCompare(a.date);
+        });
+        renderPastGrid(merged);
+      });
   }
   </script>
 
