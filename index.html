@@ -1285,13 +1285,18 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     // Recherche par mots-clés — chaque mot doit apparaître dans le titre, la marque ou l'id
     var words = q.split(/\s+/).filter(function(w){ return w.length > 0; });
     var results = all.filter(function(r) {
-      var haystack = ((r.title || '') + ' ' + (r.brand || '') + ' ' + (r.id || '') + ' ' + (r.sku || '') + ' ' + (r.colorway || '')).toLowerCase();
-      // Correspondance exacte d'abord
-      if (haystack.indexOf(q) !== -1) return true;
-      // Chaque mot doit matcher en tant que mot entier (word boundary)
+      // Haystack titre+marque+SKU+colorway (pas l'ID brut pour éviter aj1→aj11)
+      var haystackMain = ((r.title || '') + ' ' + (r.brand || '') + ' ' + (r.sku || '') + ' ' + (r.colorway || '')).toLowerCase();
+      // ID uniquement pour recherches longues (>= 4 chars) ou recherche exacte
+      var haystackFull = haystackMain + ' ' + (r.id || '').toLowerCase();
+      // Correspondance exacte titre/marque
+      if (haystackMain.indexOf(q) !== -1) return true;
+      // Correspondance exacte sur ID uniquement si query >= 4 chars
+      if (q.length >= 4 && haystackFull.indexOf(q) !== -1) return true;
+      // Chaque mot en word boundary sur le titre/marque
       return words.every(function(w){
         var re = new RegExp('(^|[\\s\\-\'\"_/])' + w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'), 'i');
-        return re.test(haystack);
+        return re.test(haystackMain);
       });
     });
     // Trier : correspondance exacte en premier
