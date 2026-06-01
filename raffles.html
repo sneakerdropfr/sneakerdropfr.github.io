@@ -252,7 +252,7 @@
     }
 
     function renderData(data) {
-      var list = (data || []).filter(function(r){ return r.raffle === true; })
+      var list = (data || []).filter(function(r){ var hasRaffle = r.raffle === true || (r.retailers||[]).some(function(rt){ return rt.raffle; }); var isHype = (r.hype_score||0) >= 50; return hasRaffle && isHype; })
         .sort(function(a,b){ var da=a.date||'9999', db=b.date||'9999'; return da<db?-1:da>db?1:0; });
       if (loading) loading.style.display = 'none';
       if (!list.length) { if (empty) empty.style.display = 'block'; return; }
