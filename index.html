@@ -85,6 +85,8 @@
     .hero__title span{color:var(--accent)}
     .hero__brands{font-family:var(--font-cond);font-size:.8rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:rgba(0,0,0,.35);margin:.6rem 0 .4rem}
     .hero__sub{font-size:.88rem;color:rgba(0,0,0,.5);max-width:420px;margin:0 auto 1.2rem;line-height:1.5}
+    .hero__benefits{display:flex;align-items:center;justify-content:center;gap:.75rem;flex-wrap:wrap;margin:.8rem 0 1.2rem;font-family:var(--font-cond);font-size:.82rem;font-weight:700;letter-spacing:.04em;color:rgba(0,0,0,.55)}
+    .hero__benefits span{display:inline-flex;align-items:center;gap:.3rem}
     .hero__ctas{display:flex;align-items:center;justify-content:center;gap:.65rem;flex-wrap:wrap;padding-bottom:1.5rem}
 
     /* ── Buttons ── */
@@ -430,6 +432,12 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       <h1 class="hero__title">NE RATE PLUS<br/><span>AUCUN DROP</span></h1>
       <div class="hero__brands">Nike &middot; Jordan &middot; Adidas &middot; New Balance</div>
       <p class="hero__sub">Ces paires disparaissent en quelques heures. Reste devant.</p>
+      <div class="hero__benefits">
+        <span>✓ Dates officielles</span>
+        <span>✓ Raffles vérifiées</span>
+        <span>✓ Liens retailers directs</span>
+        <span>✓ Alertes gratuites</span>
+      </div>
       <div class="hero__ctas">
         <a href="#drops-semaine" class="btn-primary">⚡ Drops de la semaine</a>
 
