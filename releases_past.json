@@ -905,7 +905,7 @@
   {
     "id": "air-jordan-12-bloodline-releases-may-2026",
     "title": "Air Jordan 12 “Bloodline”",
-    "brand": "Jordan Brand",
+    "brand": "Jordan",
     "colorway": "",
     "date": "2026-05-23",
     "price": "205€",
@@ -1038,7 +1038,7 @@
   {
     "id": "nigel-sylvester-air-jordan-4-brick-after-brick",
     "title": "Nigel Sylvester x Air Jordan 4 Brick After Brick",
-    "brand": "Jordan Brand",
+    "brand": "Jordan",
     "date": "2026-05-22",
     "price": "200€",
     "resell": "348",
@@ -1618,7 +1618,7 @@
   {
     "id": "air-jordan-3-brazil-releases-may-2026",
     "title": "Air Jordan 3 “Brazil”",
-    "brand": "Jordan Brand",
+    "brand": "Jordan",
     "colorway": "",
     "date": "2026-05-16",
     "price": "225€",
@@ -1753,46 +1753,6 @@
       }
     ],
     "sku": "IW6276-001"
-  },
-  {
-    "id": "air-griffey-max-1-2026",
-    "title": "Nike Air Griffey Max 1 \"Freshwater\"",
-    "brand": "Nike",
-    "colorway": "White/Black-Freshwater-Varsity Red",
-    "date": "2026-05-15",
-    "price": "160€",
-    "image_url": "https://www.lesitedelasneaker.com/wp-content/images/2025/07/nike-air-griffey-max-1-freshwater-dd8558-100.jpg",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-air-griffey-max-1-freshwater-dd8558-100",
-    "buy_url": "https://www.nike.com/fr/launch",
-    "score": 55,
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "160€"
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "price": "160€"
-      },
-      {
-        "name": "JD Sports",
-        "url": "https://www.jdsports.fr",
-        "price": "160€"
-      },
-      {
-        "name": "Urbanstar",
-        "url": "https://www.urbanstar.fr",
-        "price": "160€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-griffey-max-1-freshwater-2026",
-        "price": "175€"
-      }
-    ],
-    "sku": "DD8558-100"
   },
   {
     "title": "Adidas Bw Army Chalk White Power Green",
@@ -2408,7 +2368,7 @@
     "brand": "Jordan",
     "date": "2026-06-13 [SneakerDrop FR](https://sneakerdropfr.github.io/sorties/air-jordan-3-bin23.html)",
     "price": "350 [SneakerDrop FR](https://sneakerdropfr.github.io/sorties/air-jordan-3-bin23.html)",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2025/07/air-jordan-3-bin23-io7744-600.jpg?w=1200",
+    "image_url": null,
     "sku": "IO7744-600 [SneakerDrop FR](https://sneakerdropfr.github.io/sorties/air-jordan-3-bin23.html)",
     "buy_url": "",
     "past": true
@@ -2925,7 +2885,7 @@
     "brand": "Jordan",
     "date": "2026-06-13",
     "price": "327",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-3-bin23-io7744-600-release-date.jpg",
+    "image_url": null,
     "sku": "IO7744-600",
     "buy_url": "",
     "past": true
@@ -2950,17 +2910,6 @@
     "image_url": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F03%2F11%2Fconverse-shai-001-camo-A19839C-official-images-release-info-001.jpg?q=75&w=800&cbr=1&fit=max",
     "sku": "A19839C",
     "buy_url": "",
-    "past": true
-  },
-  {
-    "id": "devin-booker-s-dogs-inspire-the-nike-book-2-haven-and-hector",
-    "title": "DEVIN BOOKER’S DOGS INSPIRE THE NIKE BOOK 2 “HAVEN AND HECTOR”",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": "",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-book-2-haven-and-hector-ix1832-001-5.jpg",
-    "sku": "IX1832-001 ([SneakerDrop FR](https://sneakerdropfr.github.io/sorties/devin-booker-s-dogs-inspire-the-nike-book-2-haven-and-hector.html))",
-    "buy_url": null,
     "past": true
   },
   {
@@ -3206,17 +3155,6 @@
     "past": true
   },
   {
-    "id": "nike-air-max-90-mercurial-korea-2026",
-    "title": "Nike Air Max 90 Mercurial Korea Family Reunion",
-    "brand": "Nike",
-    "date": "2026-05-11",
-    "price": "140",
-    "image_url": "https://footdistrict.com/cdn/shop/files/sneakers-nike-air-max-90-vapor-mercurial-1-ir5903-010-0.jpg?v=1777718871&width=2048",
-    "sku": "IR5903-010",
-    "buy_url": "https://www.bstn.com/fr/fr",
-    "past": true
-  },
-  {
     "id": "nike-air-max-95-fresh-mint-returns-june-2026",
     "title": "Nike Air Max 95 “Fresh Mint”",
     "brand": "Nike",
@@ -3371,17 +3309,6 @@
     "past": true
   },
   {
-    "id": "the-new-balance-allerdale-regroups-for-summer-in-vaporous-gr",
-    "title": "THE NEW BALANCE ALLERDALE REGROUPS FOR SUMMER IN “VAPOROUS GREY”",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": "",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-allerdale-Vaporous-Grey-chipmunk-UADWLWO-2.jpg",
-    "sku": "",
-    "buy_url": "",
-    "past": true
-  },
-  {
     "id": "the-adidas-anthony-edwards-believe-that-1-clay-red-will-be-a",
     "title": "THE ADIDAS ANTHONY EDWARDS BELIEVE THAT 1 “CLAY RED” WILL BE AFFORABLE",
     "brand": "Adidas",
@@ -3420,20 +3347,9 @@
     "brand": "Nike",
     "date": "2026-06-01",
     "price": "110",
-    "image_url": "https://www.lesitedelasneaker.com/wp-content/images/2026/05/nike-sb-air-force-1-black-gum.jpg",
+    "image_url": null,
     "sku": "IB6388-001",
     "buy_url": "https://t.me/SneakersDropsFR",
-    "past": true
-  },
-  {
-    "id": "the-new-balance-2000-adds-flashy-options-for-summer",
-    "title": "THE NEW BALANCE 2000 ADDS FLASHY OPTIONS FOR SUMMER",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": "",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-abzorb-2000-silver-teal-U20007YS-3.jpg",
-    "sku": "U20007YS",
-    "buy_url": "",
     "past": true
   },
   {
@@ -3475,7 +3391,7 @@
     "brand": "New Balance",
     "date": "TBD",
     "price": "75.99",
-    "image_url": "https://www.lesitedelasneaker.com/wp-content/images/2026/05/action-bronson-new-balance-1890-planet-frog.jpg",
+    "image_url": null,
     "sku": "",
     "buy_url": "",
     "past": true
@@ -3577,17 +3493,6 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IVjA4MjMtMTA4L0hWMDgyMy0xMDgtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "",
     "buy_url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.awin1.com%2Fpclick.php%3Fp%3D43912836474%26a%3D2855487%26m%3D104979",
-    "past": true
-  },
-  {
-    "id": "the-nike-air-foamposite-one-tianjin-2-0-launches-this-month",
-    "title": "The Nike Air Foamposite One “Tianjin 2.0” Launches This Month",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": "230",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-foamposite-one-tianjin-ir2078-100-release-date-6.jpg",
-    "sku": "IR2078-100",
-    "buy_url": "",
     "past": true
   },
   {
