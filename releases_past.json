@@ -39,13 +39,6 @@
     "buy_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
     "retailers": [
       {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "145€",
-        "raffle": false,
-        "resell": false
-      },
-      {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr/nike-mind-002-flyknit-qs-pure-platinum",
         "price": "355€",
@@ -81,13 +74,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-max-90-photon-dust-blue-cyber-iu7543-025",
     "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "160€",
-        "raffle": false,
-        "resell": false
-      },
       {
         "name": "Size?",
         "url": "https://www.size.co.uk",
@@ -219,14 +205,6 @@
         "resell": false
       },
       {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "160€",
-        "raffle": true,
-        "type": "raffle",
-        "resell": false
-      },
-      {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
         "price": "160€",
@@ -302,14 +280,6 @@
         "url": "https://www.maha-amsterdam.com",
         "price": "160€",
         "raffle": false,
-        "resell": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "160€",
-        "raffle": true,
-        "type": "raffle",
         "resell": false
       },
       {
@@ -419,13 +389,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-liquid-max-bright-crimson-fire-red-iq7634-002",
     "buy_url": "https://www.whentocop.fr/drops/nike-air-liquid-max-bright-crimson-fire-red-iq7634-002",
     "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
       {
         "name": "FootDistrict",
         "url": "https://www.footdistrict.com",
@@ -698,27 +661,6 @@
     "buy_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-worlds-best-dad-if4396-103",
     "retailers": [
       {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "JD Sports",
-        "url": "https://www.jdsports.fr",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
-      },
-      {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
         "price": "210€",
@@ -865,12 +807,6 @@
         "resell": false
       },
       {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "raffle": false,
-        "resell": false
-      },
-      {
         "name": "StockX",
         "url": "https://stockx.com",
         "raffle": false,
@@ -986,11 +922,6 @@
     "wtc_url": null,
     "retailers": [
       {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "150€"
-      },
-      {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
         "price": "",
@@ -1023,11 +954,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/nigel-sylvester-air-jordan-4-2026",
     "score": 115,
     "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "230€"
-      },
       {
         "name": "FootDistrict",
         "url": "https://footdistrict.com/fr",
@@ -1068,16 +994,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-total-90-laser-hj0624-758",
     "id": "nike-air-max-90-total-90-laser",
     "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "150€"
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "price": "150€"
-      },
       {
         "name": "FootDistrict",
         "url": "https://footdistrict.com/fr",
@@ -1164,11 +1080,6 @@
     "buy_url": "",
     "retailers": [
       {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "210€"
-      },
-      {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr/air-jordan-6-retro-neutral-olive-womens",
         "price": "199€",
@@ -1193,11 +1104,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-og-big-bubble-comet-red-ib7862-100",
     "buy_url": "",
     "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "190€"
-      },
       {
         "name": "FootDistrict",
         "url": "https://footdistrict.com/fr/products/nike-air-max-95-premium-big-bubble-comet-red-ib7862-100",
@@ -1243,11 +1149,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-kobe-air-force-1-low-daybreak-ib0018-102",
     "retailers": [
       {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "180€"
-      },
-      {
         "name": "Afew",
         "url": "https://de.afew-store.com/",
         "price": "180€"
@@ -1265,11 +1166,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-kobe-3-low-protro-mambacita-iq3916-100",
     "buy_url": "",
     "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "190€"
-      },
       {
         "name": "FootDistrict",
         "url": "https://footdistrict.com/fr/products/nike-kobe-3-low-protro-mambacita-iq3916-100",
@@ -1316,12 +1212,6 @@
     "added_at": "2026-05-16T22:02:31.361745+00:00",
     "retailers": [
       {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "135€",
-        "resell": false
-      },
-      {
         "name": "Kickz",
         "url": "https://www.kickz.com/fr",
         "price": "135€",
@@ -1340,18 +1230,8 @@
     "id": "nike-air-max-90-hypervenom",
     "retailers": [
       {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "150€"
-      },
-      {
         "name": "43einhalb",
         "url": "https://www.43einhalb.com",
-        "price": "150€"
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
         "price": "150€"
       },
       {
@@ -1405,11 +1285,6 @@
     "id": "nike-air-max-90-mercurial-korea-family-reunion",
     "buy_url": null,
     "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "150€"
-      },
       {
         "name": "FootDistrict",
         "url": "https://footdistrict.com/fr",
@@ -1466,16 +1341,6 @@
     "id": "nike-air-max-90-tiempo",
     "retailers": [
       {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "150€"
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "price": "150€"
-      },
-      {
         "name": "FootDistrict",
         "url": "https://footdistrict.com/fr/products/nike-air-max-90-tiempo-iu0523-010",
         "price": "150€"
@@ -1515,16 +1380,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-11-retro-low-wmns-metallic-gold-white-ah7860-102",
     "buy_url": "",
     "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "190€"
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "price": "190€"
-      },
       {
         "name": "FootDistrict",
         "url": "https://footdistrict.com/fr",
@@ -1580,11 +1435,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-jordan-3-retro-og-brazil-iv4871-400",
     "retailers": [
       {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "225€"
-      },
-      {
         "name": "FootDistrict",
         "url": "https://footdistrict.com/fr/products/air-jordan-3-retro-og-brazil-iv4871-400",
         "price": "225€"
@@ -1618,18 +1468,8 @@
     "buy_url": null,
     "retailers": [
       {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "160€"
-      },
-      {
         "name": "43einhalb",
         "url": "https://www.43einhalb.com",
-        "price": "160€"
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
         "price": "160€"
       },
       {
@@ -1765,11 +1605,6 @@
     "added_at": "2026-05-15T20:44:20.414588+00:00",
     "retailers": [
       {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "price": "150€"
-      },
-      {
         "name": "GOAT",
         "url": "https://www.goat.com",
         "price": "158€"
@@ -1817,11 +1652,6 @@
     "score": 70,
     "retailers": [
       {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "135€"
-      },
-      {
         "name": "Solebox",
         "url": "https://www.solebox.com",
         "price": "135€"
@@ -1862,21 +1692,6 @@
     "score": 40,
     "retailers": [
       {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "115€"
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "price": "115€"
-      },
-      {
-        "name": "JD Sports",
-        "url": "https://www.jdsports.fr",
-        "price": "115€"
-      },
-      {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr/nike-ja-3-let-me-be-ja",
         "price": "120€"
@@ -1893,27 +1708,6 @@
     "currency": "EUR",
     "image": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/date-de-sortie-de-la-air-jordan%C2%A04-toro-bravo-%C2%AB%C2%A0fire-red-and-black%C2%A0%C2%BB-fq8138-600.jpg",
     "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "JD Sports",
-        "url": "https://www.jdsports.fr",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
       {
         "name": "Snipes",
         "url": "https://www.snipes.com/c/sneakers",
@@ -2462,17 +2256,6 @@
     "past": true
   },
   {
-    "id": "air-jordan-4-retro-toro-bravo",
-    "title": "AIR JORDAN 4 RETRO 'Toro Bravo'",
-    "brand": "Jordan",
-    "date": "TBD",
-    "price": "209",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GUTgxMzgtNjAwL0ZRODEzOC02MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-    "sku": "FQ8138-600",
-    "buy_url": null,
-    "past": true
-  },
-  {
     "id": "air-jordan-6-retro-psg",
     "title": "AIR JORDAN 6 RETRO - PSG",
     "brand": "Jordan",
@@ -2755,17 +2538,6 @@
     "price": "",
     "image_url": "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/868bbd83-c38a-46a3-8ac2-a917da1ab196/AIR+JORDAN+3+RETRO+OG+BZ+SP.png",
     "sku": "IV4871-400",
-    "buy_url": "",
-    "past": true
-  },
-  {
-    "id": "aj4-toro-bravo-2026",
-    "title": "AIR JORDAN 4 TORO BRAVO",
-    "brand": "Jordan",
-    "date": "2026-05-02",
-    "price": "",
-    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/02/air-jordan-4-toro-bravo-fq8138-600-release-date.webp",
-    "sku": "FQ8138-600",
     "buy_url": "",
     "past": true
   },
