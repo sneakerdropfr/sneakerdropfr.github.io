@@ -444,7 +444,7 @@ document.addEventListener('DOMContentLoaded', function(){
         if (!r.date||r.date==='TBD') return false;
         var d=parseLocal(r.date);
         if (!d) return false;
-        return d>=nextMondayMidnight && brandFilter(r);
+        return d>=todayMidnight && brandFilter(r);
       });
 
       var sortedUpcoming=sortByDate(upcoming).slice(0,MAX_CARDS);
