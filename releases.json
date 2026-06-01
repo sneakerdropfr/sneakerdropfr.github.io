@@ -1129,7 +1129,43 @@
     "image_url": "https://statics.whentocop.fr/media/D5Ua70DNriGI/tmpnike-pegasus-premium-sp-black-sail-sail-ir2166-001-small-500x500.webp?width=3840&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-pegasus-premium-sp-black-sail-sail-ir2166-001",
     "sku": "IR2166-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Queens",
+        "url": "https://www.queens.de",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-pegasus-premium-sp-black-sail",
+        "price": "388€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
     "hype_score": 20
   },
   {
@@ -1141,7 +1177,36 @@
     "image_url": "https://statics.whentocop.fr/media/rzvqhBdCSJi3/tmpasics-gel-nyc-2-0-lake-grey-piedmont-grey-1203a895-300-4-small-500x500.webp?width=3840&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/asics-gel-nyc-2-0-lake-grey-piedmont-grey-1203a895-300",
     "sku": "1203A895-300",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.slamjam.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "458€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
     "hype_score": 0
   },
   {
@@ -1153,7 +1218,29 @@
     "image_url": "https://statics.whentocop.fr/media/YKFGYLSBJr4G/tmpasics-gel-kayano-12-1-piedmont-grey-gravel-1203a759-021-2-small-500x500.webp?width=3840&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/asics-gel-kayano-12-1-piedmont-grey-gravel-1203a759-021",
     "sku": "1203A759-021",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "276€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
     "hype_score": 0
   },
   {
@@ -1177,7 +1264,36 @@
     "image_url": "https://statics.whentocop.fr/media/i6NeMqVcBBNP/tmpasics-gel-nyc-khaki-pure-silver-1203a739-302-noshadow-small-500x500.webp?width=3840&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/asics-gel-nyc-khaki-pure-silver-1203a739-302",
     "sku": "1203A739-302",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "146€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
     "hype_score": 0
   },
   {
@@ -1189,7 +1305,36 @@
     "image_url": "https://statics.whentocop.fr/media/WihJ1mUyfZWR/tmpasics-gel-1130-white-piedmont-grey-1203a609-112-4-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/asics-gel-1130-white-piedmont-grey-1203a609-112",
     "sku": "1203A609-112",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "131€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
     "hype_score": 0
   },
   {
@@ -1201,7 +1346,29 @@
     "image_url": "https://statics.whentocop.fr/media/LzQeRTC0RqGb/tmpasics-gel-quantum-360-i-amp-dusty-fern-seal-grey-1203a731-301-4-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/asics-gel-quantum-360-i-amp-dusty-fern-seal-grey-1203a731-301",
     "sku": "1203A731-301",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "194€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
     "hype_score": 0
   },
   {
@@ -1213,7 +1380,29 @@
     "image_url": "https://statics.whentocop.fr/media/vmQWy2wzivDR/tmpasics-gel-cumulus-16-lake-grey-pure-silver-1203a733-301-v2-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/asics-gel-cumulus-16-lake-grey-pure-silver-1203a733-301",
     "sku": "1203A733-301",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "138€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
     "hype_score": 0
   },
   {
@@ -1225,7 +1414,43 @@
     "image_url": "https://statics.whentocop.fr/media/KZIx2DxBGd8x/tmpasics-gel-nyc-cocoa-powder-pure-silver-1203a739-200-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/asics-gel-nyc-cocoa-powder-pure-silver-1203a739-200",
     "sku": "1203A739-200",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.slamjam.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "146€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
     "hype_score": 0
   },
   {
@@ -1237,7 +1462,36 @@
     "image_url": "https://statics.whentocop.fr/media/OUlC7pO42Db8/tmpasics-gel-kayano-121-cream-smoke-grey-1203a759-108-4-small-500x500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/asics-gel-kayano-12-1-cream-smoke-grey-1203a759-108",
     "sku": "1203A759-108",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "275€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
     "hype_score": 0
   },
   {
