@@ -444,21 +444,24 @@
     "retailers": [
       {
         "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch/t/air-trainer-sc-pro-purple",
-        "price": 140,
-        "type": "official"
+        "url": "https://www.nike.com/fr/launch/t/air-trainer-sc-sp-pro-purple",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Afew",
         "url": "https://en.afew-store.com/products/nike-air-trainer-sc-sp-pro-purple-white-sail-metallic-gold",
-        "price": 140,
-        "type": "official"
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       },
       {
         "name": "Footshop",
         "url": "https://releases.footshop.com/air-trainer-sc-sp-AUUIT54B855nFHXG3u68",
-        "price": 140,
-        "type": "raffle"
+        "price": "140€",
+        "resell": false,
+        "raffle": true
       }
     ],
     "sku": "IQ5796-500",
@@ -730,7 +733,37 @@
       "air-jordan-1-low-og-sail-releases-summer-2026",
       "air-jordan-3-retro-worlds-best-dad"
     ],
-    "restocks": []
+    "restocks": [],
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch/t/air-jordan-1-low-og-phantom-and-pine-green",
+        "price": "159.99€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr",
+        "price": "159.99€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "JD Sports",
+        "url": "https://www.jdsports.fr",
+        "price": "159.99€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-1-low-og-phantom-pine-green",
+        "price": "194€",
+        "resell": true,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "adidas-tangum-white-power-green",
@@ -2069,7 +2102,29 @@
     "image_url": "https://statics.whentocop.fr/media/4P3KPOz6U7Ka/tmpnike-air-trainer-sc-atlanta-olympics-30th-anniversary-iq5796-500-4-small-500x500.webp?width=3840&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-trainer-sc-atlanta-olympics-30th-anniversary-iq5796-500",
     "sku": "IQ5796-500",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch/t/air-trainer-sc-sp-pro-purple",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://en.afew-store.com/products/nike-air-trainer-sc-sp-pro-purple-white-sail-metallic-gold",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://releases.footshop.com/air-trainer-sc-sp-AUUIT54B855nFHXG3u68",
+        "price": "140€",
+        "resell": false,
+        "raffle": true
+      }
+    ],
     "hype_score": 20
   },
   {
