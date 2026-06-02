@@ -1179,6 +1179,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         if (loading) loading.style.display = 'none';
         allReleases = data.filter(function(r) { return r.id && !r.id.startsWith('test-'); });
         window._releases = allReleases.slice();
+        window.allReleases = allReleases;
         // Enrichir la recherche avec releases_past.json
         fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
@@ -1187,6 +1188,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             var seenIds = {};
             window._releases.forEach(function(r) { seenIds[r.id] = true; });
             past.forEach(function(r) { if (r.id && !seenIds[r.id]) window._releases.push(r); });
+            window.allReleases = window._releases.slice();
           });
 
         // Section Raffles — compact: 1 card visible
@@ -1310,20 +1312,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     var overlayTitle = document.getElementById('search-overlay-title');
     if (!q) { if (overlay) overlay.classList.remove('active'); if (overlayGrid) overlayGrid.innerHTML = ''; return; }
     if (overlay) { var hs = document.querySelector('.hero-search'); if (hs) { var r = hs.getBoundingClientRect(); overlay.style.top = (r.bottom) + 'px'; } overlay.classList.add('active'); }
-    var all = window._releases || [];
-    // Recherche par mots-clés — chaque mot doit apparaître dans le titre, la marque ou l'id
+    // Recherche dans tout le catalogue (actif + passé)
+    var all = (window.allReleases || window._releases || []);
+    // Recherche par mots-clés — chaque mot doit apparaître dans le titre, la marque, le SKU ou le colorway
     var words = q.split(/\s+/).filter(function(w){ return w.length > 0; });
     var results = all.filter(function(r) {
-      // Haystack titre+marque+SKU+colorway (pas l'ID brut pour éviter aj1→aj11)
       var haystackMain = ((r.title || '') + ' ' + (r.brand || '') + ' ' + (r.sku || '') + ' ' + (r.colorway || '')).toLowerCase();
-      // Word boundary strict AVANT et APRÈS chaque mot
-      // Règle chiffre final : "990" accepte "990v6" (suffixe version) mais pas "9906" ni "990r"
-      // Règle lettre finale : boundary stricte avant et après
       return words.every(function(w){
-        var escaped = w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
-        var after = /\d$/.test(w) ? '($|[\\s\\-\'\"_/)]|v(?=[0-9]))' : '($|[\\s\\-\'\"_/)])';
-        var re = new RegExp('(^|[\\s\\-\'\"_/(])' + escaped + after, 'i');
-        return re.test(haystackMain);
+        return haystackMain.indexOf(w) !== -1;
       });
     });
     // Trier : correspondance exacte en premier
