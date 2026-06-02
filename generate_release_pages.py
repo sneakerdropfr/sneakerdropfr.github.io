@@ -488,12 +488,14 @@ PAGE_TMPL = """<!DOCTYPE html>
           <div class="article__infos">
             <div class="article__info-row">
               <span class="article__info-label">Date</span>
-              <span class="article__info-value">{date_fr}</span>
+              <span class="article__info-value">{date_value}</span>
             </div>
             <div class="article__info-row">
               <span class="article__info-label">Prix</span>
               <span class="article__info-value">{price_html}</span>
             </div>
+            {silhouette_row}
+            {year_row}
           </div>
           <div class="article__price-badge">{price_html}</div>
           {buy_btn}
@@ -676,6 +678,12 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
         f'<p class="article__sku"><span class="article__sku-label">SKU</span> {escape(sku)}</p>' if sku else ""
     )
 
+    # release_window — affiché quand date == TBD
+    release_window = (r.get("release_window") or "").strip()
+    # Silhouette + year pour les info-rows
+    silhouette = (r.get("silhouette") or "").strip()
+    year = r.get("year")
+
     if image_url:
         img_tag = (
             '<img src="' + escape(image_url, quote=True) + '" '
@@ -751,7 +759,19 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
         brand_html=brand_html,
         colorway_html=colorway_html,
         sku_html=sku_html,
-        date_fr=escape(date_fr),
+        date_value=escape(release_window if date_fr == "TBD" and release_window else date_fr),
+        silhouette_row=(
+            f'<div class="article__info-row">'
+            f'<span class="article__info-label">Silhouette</span>'
+            f'<span class="article__info-value">{escape(silhouette)}</span>'
+            f'</div>' if silhouette else ''
+        ),
+        year_row=(
+            f'<div class="article__info-row">'
+            f'<span class="article__info-label">Année</span>'
+            f'<span class="article__info-value">{escape(str(year))}</span>'
+            f'</div>' if year else ''
+        ),
         price_html=price_html,
         buy_btn=primary_buy_button(r),
         editorial=editorial_text(r),

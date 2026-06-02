@@ -3,43 +3,49 @@
     "id": "virgil-abloh-archive-x-nike-cryoshot-zoom-m9-releases-june-2",
     "title": "Virgil Abloh Archive x Nike Cryoshot Zoom M9",
     "brand": "Sneaker Files",
-    "colorway": "",
+    "colorway": "White/University Red/Black",
     "date": "TBD",
     "price": "$210",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/vaa-nike-cryoshot-zoom-m9-IM3886-100-1024x725.jpg",
     "buy_url": null,
     "source": "Sneaker Files",
-    "added_at": "2026-06-01T22:01:38.484112+00:00"
+    "added_at": "2026-06-01T22:01:38.484112+00:00",
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "patta-x-nike-cryoshot-mercurial-vapor-r9-releases-june-2026",
     "title": "Patta x Nike Cryoshot Mercurial Vapor R9",
     "brand": "Sneaker Files",
-    "colorway": "",
+    "colorway": "Metallic Silver/Black/Anthracite/Hyper Crimson",
     "date": "TBD",
     "price": "$210",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/patta-nike-cryoshot-mercurial-vapor-r9-IM0589-001-1024x725.jpg",
     "buy_url": null,
     "source": "Sneaker Files",
-    "added_at": "2026-06-01T21:45:43.779948+00:00"
+    "added_at": "2026-06-01T21:45:43.779948+00:00",
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "palace-x-nike-cryoshot-air-speed-m-releases-june-2026",
     "title": "Palace x Nike Cryoshot Air Speed M",
     "brand": "Sneaker Files",
-    "colorway": "",
+    "colorway": "White/Sport Royal/University Red",
     "date": "TBD",
     "price": null,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/palace-skateboards-nike-cryoshot-air-speed-m-IM0702-001-1024x725.jpg",
     "buy_url": null,
     "source": "Sneaker Files",
-    "added_at": "2026-06-01T21:35:07.224945+00:00"
+    "added_at": "2026-06-01T21:35:07.224945+00:00",
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "nocta-x-nike-cryoshot-tiempo-94-releases-june-2026",
     "title": "NOCTA x Nike Cryoshot Tiempo ’94",
     "brand": "Nike",
-    "colorway": "",
+    "colorway": "University Gold/Black",
     "date": "TBD",
     "price": null,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/nocta-nike-cryoshot-tiempo-94-IM0703-700-1024x725.jpg",
@@ -51,7 +57,9 @@
       "nike-pegasus-premium-sp-white-black",
       "nike-air-max-90-infrared-3m-2026",
       "mcdonald-s-x-nike-book-2-sedona-releases-june-2026"
-    ]
+    ],
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "new-balance-5030-black-silver",
@@ -102,7 +110,10 @@
       "new-balance-numeric-933-marblehead-island-blue",
       "new-balance-mt10t-raincloud-concrete"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Black Silver",
+    "year": 2026,
+    "silhouette": "New Balance 5030"
   },
   {
     "id": "nike-pegasus-premium-sp-black-sail",
@@ -140,7 +151,9 @@
       "nike-rift-2-kenya"
     ],
     "restocks": [],
-    "colorway": "Black and Sail"
+    "colorway": "Black and Sail",
+    "year": 2026,
+    "silhouette": "Pegasus"
   },
   {
     "id": "adidas-a-e-2-coral-red",
@@ -171,7 +184,10 @@
       "adidas-believe-that-1-core-black"
     ],
     "restocks": [],
-    "buy_url": "https://www.adidas.fr/chaussures-anthony-edwards-2/KJ1886.html"
+    "buy_url": "https://www.adidas.fr/chaussures-anthony-edwards-2/KJ1886.html",
+    "colorway": "Coral Red",
+    "year": 2026,
+    "silhouette": "A.E."
   },
   {
     "id": "nike-pegasus-premium-sp-white-black",
@@ -209,7 +225,9 @@
       "nike-rift-2-kenya"
     ],
     "restocks": [],
-    "colorway": "White and Black"
+    "colorway": "White and Black",
+    "year": 2026,
+    "silhouette": "Pegasus"
   },
   {
     "id": "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
@@ -254,7 +272,9 @@
       "adidas-adizero-evo-sl-crystal-white-luta"
     ],
     "restocks": [],
-    "colorway": "Core White / Utility Black / Grey Two"
+    "colorway": "Core White / Utility Black / Grey Two",
+    "year": 2026,
+    "silhouette": "Adizero"
   },
   {
     "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
@@ -285,7 +305,10 @@
       "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
       "adidas-adizero-evo-sl-crystal-white-luta"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "White Gold Pink Blue",
+    "year": 2026,
+    "silhouette": "Adizero"
   },
   {
     "id": "nike-air-max-90-infrared-3m-2026",
@@ -337,7 +360,10 @@
       "virgil-abloh-x-nike-air-force-1-low-sesame",
       "renegade-x-nike-vomero-premium-brown-basalt"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Infrared 3M",
+    "year": 2026,
+    "silhouette": "Air Max 90"
   },
   {
     "id": "adidas-adizero-prime-x-evo-cloud-white",
@@ -376,7 +402,9 @@
       "adidas-powerphase-cloud-white-power-green"
     ],
     "restocks": [],
-    "colorway": "Cloud White / Core Black / Lucid Red"
+    "colorway": "Cloud White / Core Black / Lucid Red",
+    "year": 2026,
+    "silhouette": "Adizero"
   },
   {
     "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
@@ -408,7 +436,9 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": []
+    "restocks": [],
+    "year": 2026,
+    "silhouette": "Book"
   },
   {
     "id": "nike-rift-2-kenya",
@@ -481,7 +511,9 @@
       "nike-pegasus-premium-sp-white-black"
     ],
     "restocks": [],
-    "colorway": "Black and Tm Dark Green"
+    "colorway": "Black and Tm Dark Green",
+    "year": 2026,
+    "silhouette": "Air Rift"
   },
   {
     "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
@@ -534,7 +566,9 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": []
+    "restocks": [],
+    "year": 2026,
+    "silhouette": "Air Trainer"
   },
   {
     "id": "nike-air-max-95-og-fresh-mint",
@@ -586,7 +620,9 @@
       "nike-mind-002-flyknit-qs-pure-platinum"
     ],
     "restocks": [],
-    "colorway": "Black/White/Medium Grey/Fresh Mint"
+    "colorway": "Black/White/Medium Grey/Fresh Mint",
+    "year": 2026,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "renegade-x-nike-vomero-premium-brown-basalt",
@@ -624,7 +660,9 @@
       "nike-pegasus-premium-sp-white-black"
     ],
     "restocks": [],
-    "colorway": "Brown Basalt / Total Orange / Bronze Eclipse / Hyper Crimson"
+    "colorway": "Brown Basalt / Total Orange / Bronze Eclipse / Hyper Crimson",
+    "year": 2026,
+    "silhouette": "Vomero"
   },
   {
     "id": "renegade-x-nike-vaporfly-4-brown-basalt",
@@ -662,7 +700,9 @@
       "nike-pegasus-premium-sp-white-black"
     ],
     "restocks": [],
-    "colorway": "Brown Basalt / Bronze Eclipse / Burgundy Ash / Hyper Crimson"
+    "colorway": "Brown Basalt / Bronze Eclipse / Burgundy Ash / Hyper Crimson",
+    "year": 2026,
+    "silhouette": "Vaporfly"
   },
   {
     "id": "nike-air-max-90-cool-grey",
@@ -717,7 +757,9 @@
     ],
     "restocks": [],
     "buy_url": "https://www.nike.com/fr/t/air-max-90-wave-pack-cool-grey-infrared/IU7543-065",
-    "colorway": "Cool Grey and Laser Blue"
+    "colorway": "Cool Grey and Laser Blue",
+    "year": 2026,
+    "silhouette": "Air Max 90"
   },
   {
     "id": "nike-mind-001-flyknit-bronze-eclipse",
@@ -776,7 +818,9 @@
       "nike-rift-2-kenya"
     ],
     "restocks": [],
-    "colorway": "Bronze Eclipse"
+    "colorway": "Bronze Eclipse",
+    "year": 2026,
+    "silhouette": "Mind"
   },
   {
     "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
@@ -829,7 +873,9 @@
         "resell": true,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "adidas-tangum-white-power-green",
@@ -897,7 +943,9 @@
     ],
     "restocks": [],
     "buy_url": "https://www.adidas.fr/chaussures-tangum/LA6570.html",
-    "colorway": "Cloud White / Power Green / Off White"
+    "colorway": "Cloud White / Power Green / Off White",
+    "year": 2026,
+    "silhouette": "Adidas Tangum"
   },
   {
     "id": "adidas-sc-premiere-cloud-white-power-green",
@@ -965,7 +1013,9 @@
     ],
     "restocks": [],
     "buy_url": "https://www.adidas.fr/chaussures-sc-premiere/KZ7196.html",
-    "colorway": "Cloud White / Power Green / Off White"
+    "colorway": "Cloud White / Power Green / Off White",
+    "year": 2026,
+    "silhouette": "Adidas SC Premiere"
   },
   {
     "id": "adidas-powerphase-cloud-white-power-green",
@@ -1026,13 +1076,15 @@
     ],
     "restocks": [],
     "buy_url": "https://www.adidas.fr/chaussures-powerphase/LA4359.html",
-    "colorway": "Cloud White / Power Green / Off White"
+    "colorway": "Cloud White / Power Green / Off White",
+    "year": 2026,
+    "silhouette": "Adidas Powerphase"
   },
   {
     "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
     "title": "Nike Air Max 1 City Connect “Baltimore Orioles”",
     "brand": "Nike",
-    "colorway": "",
+    "colorway": "Baltimore Orioles",
     "date": "2026-06-08",
     "price": 140,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-baltimore-orioles-IQ2894-100-1024x725.jpg",
@@ -1049,7 +1101,9 @@
       "renegade-x-nike-vomero-premium-brown-basalt",
       "renegade-x-nike-vaporfly-4-brown-basalt"
     ],
-    "restocks": []
+    "restocks": [],
+    "year": 2026,
+    "silhouette": "Air Max 1"
   },
   {
     "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
@@ -1072,7 +1126,9 @@
       "renegade-x-nike-vomero-premium-brown-basalt",
       "renegade-x-nike-vaporfly-4-brown-basalt"
     ],
-    "restocks": []
+    "restocks": [],
+    "year": 2026,
+    "silhouette": "Air Max 1"
   },
   {
     "id": "nike-kd-19-field-purple-releases-june-2026",
@@ -1095,7 +1151,9 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": []
+    "restocks": [],
+    "year": 2026,
+    "silhouette": "KD"
   },
   {
     "id": "nike-mind-001-flyknit-hyper-royal",
@@ -1158,13 +1216,15 @@
       "nike-mind-001-flyknit-bronze-eclipse"
     ],
     "restocks": [],
-    "colorway": "Bronze Eclipse"
+    "colorway": "Bronze Eclipse",
+    "year": 2026,
+    "silhouette": "Mind"
   },
   {
     "id": "air-jordan-17-low-black-patent-releases-august-2026",
     "title": "Air Jordan 17 Low “Black Patent”",
     "brand": "Jordan",
-    "colorway": "",
+    "colorway": "Black Patent",
     "date": "2026-08-08",
     "price": "139.99€",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-17-low-black-patent-2026-release-details-1024x725.jpg",
@@ -1197,7 +1257,9 @@
       "jordan-tatum-4-black-ice-blue- ([SneakerDrop FR](https://sneakerdropfr.github.io/sorties/jordan-tatum-4-black-ice-blue-.html))",
       "air-jordan-3-golf-black-cement-releases-february-2027",
       "air-max-90-g ([SneakerDrop FR](https://sneakerdropfr.github.io/sorties/air-max-90-g.html))"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Air Jordan 17"
   },
   {
     "id": "nike-air-more-uptempo-og-black-white-returns-september-2026",
@@ -1236,7 +1298,9 @@
       "nike-pegasus-premium-sp-white-black",
       "nike-pegasus-premium-sp-black-sail-sail",
       "preview-nike-sb-air-force-1-black-gum-"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Air More Uptempo"
   },
   {
     "id": "nike-pegasus-premium-sp-black-sail-sail",
@@ -1291,7 +1355,9 @@
       "nike-pegasus-premium-sp-white-black",
       "a-ma-mani-re-x-nike-pegasus-premium-timing-is-everything-rel",
       "mcdonald-s-x-nike-book-2-sedona-releases-june-2026"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Pegasus"
   },
   {
     "id": "asics-gel-nyc-20-lake-grey-piedmont-grey",
@@ -1339,7 +1405,9 @@
       "asics-gel-nyc-cocoa-powder-pure-silver",
       "asics-gel-kayano-121-piedmont-grey-gravel",
       "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Gel-NYC"
   },
   {
     "id": "asics-gel-kayano-121-piedmont-grey-gravel",
@@ -1380,7 +1448,9 @@
       "asics-gel-nyc-20-lake-grey-piedmont-grey",
       "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
       "asics-gel-cumulus-16-lake-grey-pure-silver"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Gel-Kayano"
   },
   {
     "id": "asics-gt-2160-white-raspberry",
@@ -1422,7 +1492,10 @@
       "asics-gel-nyc-20-lake-grey-piedmont-grey",
       "asics-gel-kayano-121-piedmont-grey-gravel",
       "asics-gel-nyc-khaki-pure-silver"
-    ]
+    ],
+    "colorway": "White Raspberry",
+    "year": 2026,
+    "silhouette": "GT-2160"
   },
   {
     "id": "asics-gel-nyc-khaki-pure-silver",
@@ -1469,7 +1542,10 @@
       "asics-gel-nyc-20-lake-grey-piedmont-grey",
       "asics-gel-kayano-121-piedmont-grey-gravel",
       "asics-gt-2160-white-raspberry"
-    ]
+    ],
+    "colorway": "Khaki Pure Silver",
+    "year": 2026,
+    "silhouette": "Gel-NYC"
   },
   {
     "id": "asics-gel-1130-white-piedmont-grey",
@@ -1517,7 +1593,9 @@
       "asics-gel-nyc-20-lake-grey-piedmont-grey",
       "asics-gel-kayano-121-piedmont-grey-gravel",
       "asics-gel-nyc-khaki-pure-silver"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Gel-1130"
   },
   {
     "id": "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
@@ -1558,7 +1636,9 @@
       "asics-gel-kayano-121-piedmont-grey-gravel",
       "asics-gel-cumulus-16-lake-grey-pure-silver",
       "asics-gel-kayano-121-cream-smoke-grey"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Gel-Quantum"
   },
   {
     "id": "asics-gel-cumulus-16-lake-grey-pure-silver",
@@ -1599,7 +1679,9 @@
       "asics-gel-kayano-121-piedmont-grey-gravel",
       "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
       "asics-gel-kayano-121-cream-smoke-grey"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Gel-Cumulus"
   },
   {
     "id": "asics-gel-nyc-cocoa-powder-pure-silver",
@@ -1654,7 +1736,9 @@
       "asics-gel-nyc-20-lake-grey-piedmont-grey",
       "asics-gel-kayano-121-piedmont-grey-gravel",
       "asics-gt-2160-white-raspberry"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Gel-NYC"
   },
   {
     "id": "asics-gel-kayano-121-cream-smoke-grey",
@@ -1702,7 +1786,9 @@
       "asics-gel-nyc-20-lake-grey-piedmont-grey",
       "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
       "asics-gel-cumulus-16-lake-grey-pure-silver"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Gel-Kayano"
   },
   {
     "id": "new-balance-mt10t-fire-cracker",
@@ -1749,7 +1835,9 @@
       "new-balance-mt10t-raincloud-concrete",
       "new-balance-5030-black-silver",
       "new-balance-5030-grey-black"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "New Balance MT10"
   },
   {
     "id": "adidas-believe-that-1-core-black",
@@ -1789,7 +1877,9 @@
       "adidas-believe-that-1-cloud-white",
       "adidas-anthony-edwards-believe-that-1-cloud-white-",
       "adidas-anthony-edwards-believe-that-1-carbon-"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Believe That"
   },
   {
     "id": "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
@@ -1842,7 +1932,10 @@
       "star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr",
       "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
       "adidas-adizero-evo-sl-crystal-white-luta"
-    ]
+    ],
+    "colorway": "Off White Aurora Comet",
+    "year": 2026,
+    "silhouette": "Adizero"
   },
   {
     "id": "adidas-believe-that-1-cloud-white",
@@ -1882,7 +1975,9 @@
       "adidas-anthony-edwards-believe-that-1-cloud-white-",
       "adidas-believe-that-1-core-black",
       "adidas-anthony-edwards-believe-that-1-carbon-"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "Believe That"
   },
   {
     "id": "adidas-adizero-evo-sl-exo-core-black",
@@ -1928,7 +2023,10 @@
       "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
       "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
       "adidas-adizero-evo-sl-crystal-white-luta"
-    ]
+    ],
+    "colorway": "Core Black",
+    "year": 2026,
+    "silhouette": "Adizero"
   },
   {
     "id": "new-balance-mt10t-raincloud-concrete",
@@ -1989,7 +2087,9 @@
       "new-balance-mt10t-fire-cracker",
       "new-balance-5030-black-silver",
       "new-balance-5030-grey-black"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "New Balance MT10"
   },
   {
     "id": "new-balance-5030-grey-black",
@@ -2058,7 +2158,9 @@
       "new-balance-abzorb-5030-grey-days",
       "nb-abzorb-5030-grey-days-2026",
       "new-balance-mt10t-fire-cracker"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "New Balance 5030"
   },
   {
     "id": "new-balance-1906l-fairweather-blue",
@@ -2139,7 +2241,10 @@
       "new-balance-1906l-rosewood",
       "new-balance-numeric-933-marblehead-island-blue",
       "new-balance-5030-black-silver"
-    ]
+    ],
+    "colorway": "Fairweather Blue",
+    "year": 2026,
+    "silhouette": "New Balance 1906"
   },
   {
     "id": "adidas-adizero-evo-sl-crystal-white-luta",
@@ -2178,7 +2283,10 @@
       "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
       "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
       "adidas-adizero-evo-sl-exo-core-black"
-    ]
+    ],
+    "colorway": "Crystal White Luta",
+    "year": 2026,
+    "silhouette": "Adizero"
   },
   {
     "id": "new-balance-1906l-rosewood",
@@ -2267,6 +2375,8 @@
       "new-balance-1906l-fairweather-blue",
       "new-balance-5030-black-silver",
       "new-balance-mt10t-fire-cracker"
-    ]
+    ],
+    "year": 2026,
+    "silhouette": "New Balance 1906"
   }
 ]

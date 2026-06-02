@@ -26,7 +26,10 @@
       "nike-rift-2-kenya",
       "nike-pegasus-premium-sp-white-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Sesame",
+    "year": 2026,
+    "silhouette": "Air Force 1 Low"
   },
   {
     "id": "nike-mind-002-flyknit-qs-pure-platinum",
@@ -62,7 +65,10 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Pure Platinum",
+    "year": 2026,
+    "silhouette": "Mind"
   },
   {
     "id": "nike-air-max-90-photon-dust-blue-cyber",
@@ -155,7 +161,10 @@
       "renegade-x-nike-vomero-premium-brown-basalt",
       "renegade-x-nike-vaporfly-4-brown-basalt"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Photon Dust Blue Cyber",
+    "year": 2026,
+    "silhouette": "Air Max 90"
   },
   {
     "id": "asphaltgold-x-puma-h-street-saffron-coffee-milk",
@@ -178,7 +187,10 @@
     "sku": "408616-01",
     "sku_source": "thedropdate",
     "sku_confidence": "confirmed",
-    "restocks": []
+    "restocks": [],
+    "colorway": "Saffron Coffee Milk",
+    "year": 2026,
+    "silhouette": "Puma H-Street"
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
@@ -256,7 +268,10 @@
       "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
       "air-jordan-1-low-og-sail-releases-summer-2026"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Shy Pink",
+    "year": 2026,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
@@ -333,7 +348,10 @@
       "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
       "air-jordan-1-low-og-sail-releases-summer-2026"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Tropical Pink",
+    "year": 2026,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "auralee-x-new-balance-204l-cream",
@@ -377,7 +395,10 @@
       "new-balance-mt10t-raincloud-concrete",
       "new-balance-mt10t-fire-cracker"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Cream",
+    "year": 2026,
+    "silhouette": "New Balance 204"
   },
   {
     "id": "nike-air-liquid-max-bright-crimson-fire-red",
@@ -456,7 +477,10 @@
       "nike-rift-2-kenya",
       "nike-mind-002-flyknit-qs-pure-platinum"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Bright Crimson Fire Red",
+    "year": 2026,
+    "silhouette": "Air Max Liquid"
   },
   {
     "id": "new-balance-numeric-933-marblehead-island-blue",
@@ -500,7 +524,10 @@
       "new-balance-mt10t-fire-cracker",
       "new-balance-5030-grey-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Marblehead Island Blue",
+    "year": 2026,
+    "silhouette": "New Balance Numeric"
   },
   {
     "id": "new-balance-numeric-tiago-lemos-1010-grey-days",
@@ -544,7 +571,10 @@
       "new-balance-mt10t-fire-cracker",
       "new-balance-5030-grey-black"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Grey Days",
+    "year": 2026,
+    "silhouette": "New Balance 1010"
   },
   {
     "id": "bad-bunny-adidas-ballerina-flamboyan-2026",
@@ -604,7 +634,9 @@
     "sku_source": "manual",
     "sku_confidence": 100,
     "hype_score": 63,
-    "restocks": []
+    "restocks": [],
+    "year": 2026,
+    "silhouette": "Adidas Ballerina"
   },
   {
     "id": "auralee-x-new-balance-204l-brown",
@@ -648,7 +680,10 @@
       "new-balance-mt10t-raincloud-concrete",
       "new-balance-mt10t-fire-cracker"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Brown",
+    "year": 2026,
+    "silhouette": "New Balance 204"
   },
   {
     "id": "air-jordan-3-retro-worlds-best-dad",
@@ -776,7 +811,10 @@
     "similar_products": [
       "air-jordan-1-low-og-phantom-pine-green-releases-june-2026"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "Worlds Best Dad",
+    "year": 2026,
+    "silhouette": "Air Jordan 3"
   },
   {
     "id": "new-balance-2010-neptune-grey-shadow-blue",
@@ -818,13 +856,16 @@
         "raffle": false,
         "resell": false
       }
-    ]
+    ],
+    "colorway": "Neptune Grey Shadow Blue",
+    "year": 2026,
+    "silhouette": "New Balance 2010"
   },
   {
     "id": "air-jordan-12-bloodline-releases-may-2026",
     "title": "Air Jordan 12 “Bloodline”",
     "brand": "Jordan",
-    "colorway": "",
+    "colorway": "Bloodline",
     "date": "2026-05-23",
     "price": 205.0,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/04/air-jordan-12-bloodline-CT8013-003-release-info-1024x725.jpg",
@@ -906,13 +947,15 @@
         "resell": false
       }
     ],
-    "sku": "CT8013-003"
+    "sku": "CT8013-003",
+    "year": 2026,
+    "silhouette": "Air Jordan 12"
   },
   {
     "id": "kobe-bryant-x-nike-air-force-1-low-protro-denim-releases-may",
     "title": "Kobe Bryant x Nike Air Force 1 Low Protro “Denim”",
     "brand": "Nike",
-    "colorway": "",
+    "colorway": "Denim",
     "date": "2026-05-22",
     "price": 150.0,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/08/kobe-bryant-nike-air-force-1-low-protro-denim-2026-1024x725.jpg",
@@ -940,7 +983,9 @@
         "resell": false
       }
     ],
-    "sku": "IM1980-400"
+    "sku": "IM1980-400",
+    "year": 2026,
+    "silhouette": "Air Force 1 Low"
   },
   {
     "id": "nigel-sylvester-air-jordan-4-brick-after-brick",
@@ -983,7 +1028,10 @@
       }
     ],
     "featured": true,
-    "sku": "IQ8055-100"
+    "sku": "IQ8055-100",
+    "colorway": "Brick After Brick",
+    "year": 2026,
+    "silhouette": "Air Jordan 4"
   },
   {
     "title": "Nike Air Max 90 Total 90 Laser",
@@ -1016,7 +1064,10 @@
         "price": "170€",
         "resell": true
       }
-    ]
+    ],
+    "colorway": "Total 90 Laser",
+    "year": 2026,
+    "silhouette": "Air Max 90"
   },
   {
     "title": "New Balance 991v2 Made In UK Grey Balsam Total Eclipse",
@@ -1067,7 +1118,10 @@
         "resell": true
       }
     ],
-    "sku": "U991TO2"
+    "sku": "U991TO2",
+    "colorway": "Grey Balsam Total Eclipse",
+    "year": 2026,
+    "silhouette": "New Balance 991"
   },
   {
     "id": "air-jordan-6-retro-wmns-sail-neutral-olive",
@@ -1092,7 +1146,10 @@
         "resell": true
       }
     ],
-    "sku": "IR2009-133"
+    "sku": "IR2009-133",
+    "colorway": "Sail Neutral Olive",
+    "year": 2026,
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "nike-air-max-95-og-comet-red",
@@ -1133,13 +1190,16 @@
         "resell": true
       }
     ],
-    "sku": "IB7862-100"
+    "sku": "IB7862-100",
+    "colorway": "Comet Red",
+    "year": 2026,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "nike-kobe-air-force-1-low-daybreak-releases-may-2026",
     "title": "Nike Kobe Air Force 1 Low “Daybreak”",
     "brand": "Nike",
-    "colorway": "",
+    "colorway": "Daybreak",
     "date": "2026-05-21",
     "price": 120.0,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/04/kobe-bryant-nike-air-force-1-low-white-daybreak-IB0018-102-1024x725.jpg",
@@ -1154,7 +1214,9 @@
         "price": "180€"
       }
     ],
-    "sku": "IB0018-102"
+    "sku": "IB0018-102",
+    "year": 2026,
+    "silhouette": "Air Force 1 Low"
   },
   {
     "id": "nike-kobe-3-low-protro-mambacita",
@@ -1184,26 +1246,31 @@
         "resell": true
       }
     ],
-    "sku": "IQ3916-100"
+    "sku": "IQ3916-100",
+    "colorway": "Mambacita",
+    "year": 2026,
+    "silhouette": "Kobe"
   },
   {
     "id": "cade-cunningham-x-nike-st-charge-detroit-tough-releases-may-",
     "title": "Cade Cunningham x Nike ST Charge “Detroit Tough”",
     "brand": "Sneaker Files",
-    "colorway": "",
+    "colorway": "Detroit Tough",
     "date": "2026-05-20",
     "price": null,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/cade-cunningham-nike-st-charge-detroit-tough-IZ6735-100-1024x725.jpg",
     "buy_url": "https://www.footlocker.com/",
     "source": "Sneaker Files",
     "added_at": "2026-05-16T22:03:03.240098+00:00",
-    "sku": "IZ6735-100"
+    "sku": "IZ6735-100",
+    "year": 2026,
+    "silhouette": "Nike ST Charge"
   },
   {
     "id": "nike-ja-3-kool-aid-releases-may-2026",
     "title": "Nike Ja 3 “Kool-Aid”",
     "brand": "Sneaker Files",
-    "colorway": "",
+    "colorway": "Kool-Aid",
     "date": "2026-05-20",
     "price": null,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-ja-3-kool-aid-pink-lemonade-IW1159-700-1024x725.jpg",
@@ -1218,7 +1285,9 @@
         "resell": false
       }
     ],
-    "sku": "IW1159-700"
+    "sku": "IW1159-700",
+    "year": 2026,
+    "silhouette": "Ja"
   },
   {
     "title": "Nike Air Max 90 Hypervenom",
@@ -1273,7 +1342,10 @@
         "resell": true
       }
     ],
-    "sku": "IR1978-844"
+    "sku": "IR1978-844",
+    "colorway": "Hypervenom",
+    "year": 2026,
+    "silhouette": "Air Max 90"
   },
   {
     "title": "Nike Air Max 90 Mercurial Korea Family Reunion",
@@ -1329,7 +1401,10 @@
         "resell": true
       }
     ],
-    "sku": "IR5903-010"
+    "sku": "IR5903-010",
+    "colorway": "Mercurial Korea Family Reunion",
+    "year": 2026,
+    "silhouette": "Air Max 90"
   },
   {
     "title": "Nike Air Max 90 Tiempo",
@@ -1368,7 +1443,10 @@
         "resell": true
       }
     ],
-    "sku": "IU0523-010"
+    "sku": "IU0523-010",
+    "colorway": "Tiempo",
+    "year": 2026,
+    "silhouette": "Air Max 90"
   },
   {
     "id": "air-jordan-11-retro-low-wmns-mother-s-day",
@@ -1419,13 +1497,16 @@
         "resell": true
       }
     ],
-    "sku": "AH7860-102"
+    "sku": "AH7860-102",
+    "colorway": "Mother's Day",
+    "year": 2026,
+    "silhouette": "Air Jordan 11"
   },
   {
     "id": "air-jordan-3-brazil-releases-may-2026",
     "title": "Air Jordan 3 “Brazil”",
     "brand": "Jordan",
-    "colorway": "",
+    "colorway": "Brazil",
     "date": "2026-05-16",
     "price": 225.0,
     "image_url": "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/868bbd83-c38a-46a3-8ac2-a917da1ab196/AIR+JORDAN+3+RETRO+OG+BZ+SP.png",
@@ -1455,7 +1536,9 @@
         "price": "302€"
       }
     ],
-    "sku": "IV4871-400"
+    "sku": "IV4871-400",
+    "year": 2026,
+    "silhouette": "Air Jordan 3"
   },
   {
     "title": "Air Jordan 1 Low OG Banned",
@@ -1538,7 +1621,10 @@
         "price": "195€"
       }
     ],
-    "sku": "IW6276-001"
+    "sku": "IW6276-001",
+    "colorway": "Banned",
+    "year": 2026,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "title": "Adidas Bw Army Chalk White Power Green",
@@ -1548,7 +1634,10 @@
     "image_url": "https://statics.whentocop.fr/media/7sdMeDa3czJ1/tmpadidas-bw-army-chalk-white-power-green-gum-hq9265-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-bw-army-chalk-white-power-green-hq9265",
     "id": "adidas-bw-army-chalk-white-power-green",
-    "buy_url": null
+    "buy_url": null,
+    "colorway": "Chalk White Power Green",
+    "year": 2026,
+    "silhouette": "Adidas BW Army"
   },
   {
     "title": "Adidas Adistar Moulded Wmns Linen Green True Green",
@@ -1559,7 +1648,10 @@
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-moulded-wmns-linen-green-true-green-kj4895",
     "id": "adidas-adistar-moulded-wmns-linen-green-true-green",
     "buy_url": null,
-    "sku": "KJ4895"
+    "sku": "KJ4895",
+    "colorway": "Linen Green True Green",
+    "year": 2026,
+    "silhouette": "Adidas Adistar"
   },
   {
     "title": "Adidas Adistar Moulded Wmns Aurora Coffee Silver Metallic",
@@ -1569,7 +1661,10 @@
     "image_url": "https://statics.whentocop.fr/media/NR5geKv5ZZOv/tmpadidas-adistar-moulded-w-aurora-coffee-silver-metallic-blue-fusion-kj4896-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-moulded-wmns-aurora-coffee-silver-metallic-kj4896",
     "id": "adidas-adistar-moulded-wmns-aurora-coffee",
-    "sku": "KJ4896"
+    "sku": "KJ4896",
+    "colorway": "Aurora Coffee Silver Metallic",
+    "year": 2026,
+    "silhouette": "Adidas Adistar"
   },
   {
     "title": "New Balance Abzorb 5030 Grey Days",
@@ -1580,7 +1675,10 @@
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-abzorb-5030-grey-days-u503069c",
     "id": "new-balance-abzorb-5030-grey-days",
     "buy_url": null,
-    "sku": "U503069C"
+    "sku": "U503069C",
+    "colorway": "Grey Days",
+    "year": 2026,
+    "silhouette": "New Balance 5030"
   },
   {
     "title": "New Balance Abzorb 2000 Grey Days",
@@ -1590,7 +1688,10 @@
     "image_url": "https://statics.whentocop.fr/media/O1RJeSlN1BJs/tmpnew-balance-abzorb-2000-truffle-salt-u20008lr-4-small-500x500.webp?width=384&quality=75&format=auto",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-abzorb-2000-grey-days-u20008lr",
     "id": "new-balance-abzorb-2000-grey-days",
-    "buy_url": null
+    "buy_url": null,
+    "colorway": "Grey Days",
+    "year": 2026,
+    "silhouette": "New Balance 2000"
   },
   {
     "id": "converse-shai-001-premium-ink",
@@ -1615,7 +1716,10 @@
         "price": "191€"
       }
     ],
-    "sku": "A23978C"
+    "sku": "A23978C",
+    "colorway": "Ink",
+    "year": 2026,
+    "silhouette": "Converse Shai"
   },
   {
     "title": "New Balance Gator Run Apollo Gold",
@@ -1626,7 +1730,10 @@
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-gator-run-apollo-gold-ugtr9sr",
     "id": "nb-gator-run-apollo-gold",
     "buy_url": null,
-    "sku": "UGTR9SR"
+    "sku": "UGTR9SR",
+    "colorway": "Apollo Gold",
+    "year": 2026,
+    "silhouette": "New Balance Gator Run"
   },
   {
     "title": "New Balance Gator Run Dry Lime",
@@ -1637,7 +1744,10 @@
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-gator-run-dry-lime-ugtr5t9",
     "id": "nb-gator-run-dry-lime",
     "buy_url": null,
-    "sku": "UGTR9SR"
+    "sku": "UGTR9SR",
+    "colorway": "Dry Lime",
+    "year": 2026,
+    "silhouette": "New Balance Gator Run"
   },
   {
     "id": "bluetile-nike-sb-dunk-low",
@@ -1677,7 +1787,9 @@
         "price": "170€"
       }
     ],
-    "sku": "IQ1323-001"
+    "sku": "IQ1323-001",
+    "year": 2026,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "nike-ja-3-let-me-be-ja",
@@ -1697,7 +1809,9 @@
         "price": "120€"
       }
     ],
-    "sku": "HF2793-702"
+    "sku": "HF2793-702",
+    "year": 2026,
+    "silhouette": "Ja"
   },
   {
     "id": "air-jordan-4-retro-toro-bravo-2026",
@@ -1731,7 +1845,10 @@
       }
     ],
     "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/date-de-sortie-de-la-air-jordan%C2%A04-toro-bravo-%C2%AB%C2%A0fire-red-and-black%C2%A0%C2%BB-fq8138-600.jpg",
-    "sku": "308497603"
+    "sku": "308497603",
+    "colorway": "Toro Bravo",
+    "year": 2026,
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "clot-adidas-samba-espadrille-white-black",
@@ -1758,7 +1875,10 @@
       "caroline-hu-clot-adidas-samba-lace-blue",
       "caroline-hu-clot-adidas-samba-pink"
     ],
-    "restocks": []
+    "restocks": [],
+    "colorway": "White Black",
+    "year": 2026,
+    "silhouette": "Samba"
   },
   {
     "id": "caroline-hu-clot-adidas-samba-lace-blue",
@@ -1780,7 +1900,10 @@
     "sku": "JS2777",
     "sku_source": "wtc",
     "sku_confidence": "confirmed",
-    "hype_score": 42
+    "hype_score": 42,
+    "colorway": "Lace Blue",
+    "year": 2024,
+    "silhouette": "Samba"
   },
   {
     "id": "caroline-hu-clot-adidas-samba-black",
@@ -1802,7 +1925,10 @@
     "sku": "JQ4749",
     "sku_source": "wtc",
     "sku_confidence": "confirmed",
-    "hype_score": 40
+    "hype_score": 40,
+    "colorway": "Black",
+    "year": 2024,
+    "silhouette": "Samba"
   },
   {
     "id": "caroline-hu-clot-adidas-samba-pink",
@@ -1824,7 +1950,10 @@
     "sku": "JQ4747",
     "sku_source": "wtc",
     "sku_confidence": "confirmed",
-    "hype_score": 38
+    "hype_score": 38,
+    "colorway": "Pink",
+    "year": 2024,
+    "silhouette": "Samba"
   },
   {
     "id": "caroline-hu-clot-adidas-samba-off-white",
@@ -1846,7 +1975,10 @@
     "sku": "JQ4748",
     "sku_source": "wtc",
     "sku_confidence": "confirmed",
-    "hype_score": 38
+    "hype_score": 38,
+    "colorway": "Off White",
+    "year": 2024,
+    "silhouette": "Samba"
   },
   {
     "id": "a-ma-mani-re-x-nike-pegasus-premium-timing-is-everything-rel",
@@ -1857,7 +1989,10 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/a-ma-maniere-nike-pegasus-premium-timing-is-everything-1024x725.jpg",
     "sku": "IM0701-001",
     "buy_url": "https://www.sneakerfiles.com/a-ma-maniere-nike-pegasus-premium/",
-    "past": true
+    "past": true,
+    "colorway": "Timing Is Everything",
+    "year": 2026,
+    "silhouette": "Pegasus"
   },
   {
     "id": "adidas-anthony-edwards-believe-that-1-cloud-white-",
@@ -1868,7 +2003,10 @@
     "image_url": "https://www.nicekicks.com/files/2026/05/KJ3320_1-1-e1778156675247.jpg",
     "sku": "KJ3320_1-1",
     "buy_url": "https://t.me/SneakersDropsFR",
-    "past": true
+    "past": true,
+    "colorway": "CLOUD WHITE",
+    "year": 2026,
+    "silhouette": "Believe That"
   },
   {
     "id": "adidas-anthony-edwards-believe-that-1-carbon-",
@@ -1879,7 +2017,10 @@
     "image_url": "https://www.nicekicks.com/files/2026/05/KJ3146_1-1-e1778156544829.jpg",
     "sku": "KJ3146",
     "buy_url": "https://www.nicekicks.com/files/2026/05/KJ3146_1-1-e1778156544829.jpg",
-    "past": true
+    "past": true,
+    "colorway": "CARBON",
+    "year": 2026,
+    "silhouette": "Believe That"
   },
   {
     "id": "action-bronson-x-new-balance-1890-planet-frog",
@@ -1890,7 +2031,10 @@
     "image_url": "https://statics.whentocop.fr/drops/20053/picture/joe-freshgoods-new-balance-1890-naughty-things-purple-u18908jy_4w4yNg-small-500x500.webp?width=384&quality=75&format=auto",
     "sku": "U1890BJY",
     "buy_url": "https://www.whentocop.fr/drops/action-bronson-new-balance-1890-planet-frog",
-    "past": true
+    "past": true,
+    "colorway": "1890 Planet Frog",
+    "year": 2026,
+    "silhouette": "New Balance 1890"
   },
   {
     "id": "adidas-anthony-edwards-believe-that-1-with-love-",
@@ -1901,7 +2045,10 @@
     "image_url": "https://www.nicekicks.com/files/2026/05/JQ9478_1-1-e1778156949288.jpg",
     "sku": "JQ9478",
     "buy_url": "https://sneakerdropfr.fr/sorties.html",
-    "past": true
+    "past": true,
+    "colorway": "With Love",
+    "year": 2026,
+    "silhouette": "Believe That"
   },
   {
     "id": "adidas-anthony-edwards-believe-that-1-lucid-blue-",
@@ -1912,7 +2059,10 @@
     "image_url": "https://www.nicekicks.com/files/2026/05/JQ9475_1-1-e1778156828384.jpg",
     "sku": "JQ9475",
     "buy_url": "https://sneakerdropfr.fr/deals.html",
-    "past": true
+    "past": true,
+    "colorway": "Lucid Blue",
+    "year": 2026,
+    "silhouette": "Believe That"
   },
   {
     "id": "air-jordan-1-element-low-a-t",
@@ -1923,7 +2073,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GVjQyMjctMDAzL0ZWNDIyNy0wMDMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "FV4227-003",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "ELEMENT LOW A/T",
+    "year": 2026,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "adidas-stan-smith-court-pack",
@@ -1934,7 +2087,10 @@
     "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/adidas-stan-smith-court-pack-32-380x380.jpg",
     "sku": "IF0202, HQ9265, LA4359, KZ7196, M20324",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "White/Green",
+    "silhouette": "Stan Smith",
+    "year": 2025
   },
   {
     "id": "air-jordan-1-low-g-spk",
@@ -1945,7 +2101,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTM0MTctNjAwL0lRMzQxNy02MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IQ3417-600",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "G SPK",
+    "year": 2026,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "air-jordan-1-low",
@@ -1956,7 +2115,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC81NTM1NTgtMDY3LzU1MzU1OC0wNjctMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "553558-067",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Black/Varsity Red",
+    "year": 2024,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "air-jordan-1-retro-low-og",
@@ -1967,7 +2129,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JRjQzOTEtMTAwL0lGNDM5MS0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IF4391-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Sail/Off-White/Coconut Milk",
+    "year": 2026,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "air-jordan-1-retro-high-og",
@@ -1978,7 +2143,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9EWjU0ODUtMDAzL0RaNTQ4NS0wMDMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "DZ5485-003",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Cool Grey/Black/Sail/Game Royal",
+    "year": 2026,
+    "silhouette": "Air Jordan 1 High"
   },
   {
     "id": "air-jordan-1-retro-high-og-shattered-backboard",
@@ -1989,7 +2157,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9EWjU0ODUtMDA4L0RaNTQ4NS0wMDgtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "DZ5485-008",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Shattered Backboard",
+    "year": 2025,
+    "silhouette": "Air Jordan 1 High"
   },
   {
     "id": "air-jordan-1-retro-low",
@@ -2001,7 +2172,10 @@
     "sku": "848775-805",
     "buy_url": null,
     "past": true,
-    "release_window": "Spring 2026"
+    "release_window": "Spring 2026",
+    "colorway": "Arctic Orange/Sail",
+    "silhouette": "Air Jordan 1 Low",
+    "year": 2026
   },
   {
     "id": "air-jordan-1-retro-low-og-chicago",
@@ -2012,7 +2186,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTY5OTgtNjAwL0hRNjk5OC02MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HQ6998-600",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "CHICAGO",
+    "year": 2025,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "air-jordan-11-retro-low",
@@ -2023,7 +2200,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GVjUxMDQtMTAwL0ZWNTEwNC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "AH7860-102",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "White/Metallic Gold/Team Gold",
+    "year": 2026,
+    "silhouette": "Air Jordan 11"
   },
   {
     "id": "air-jordan-1-retro-low-og-banned",
@@ -2034,7 +2214,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JVzYyNzYtMDAxL0lXNjI3Ni0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IW6276-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "BANNED",
+    "year": 2026,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "air-jordan-10-retro-shadow",
@@ -2045,7 +2228,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ISjY3NzktMDAxL0hKNjc3OS0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HJ6779-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "SHADOW",
+    "year": 2025,
+    "silhouette": "Air Jordan 10"
   },
   {
     "id": "air-jordan-12-retro-taxi",
@@ -2056,7 +2242,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9DVDgwMTMtMTE3L0NUODAxMy0xMTctMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "CT8013-117",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "TAXI",
+    "year": 2025,
+    "silhouette": "Air Jordan 12"
   },
   {
     "id": "air-jordan-13-retro",
@@ -2067,7 +2256,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC80MTQ1NzEtMTAyLzQxNDU3MS0xMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "414571-102",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "White/Black/True Red",
+    "year": 2026,
+    "silhouette": "Air Jordan 13"
   },
   {
     "id": "air-jordan-3-bin23",
@@ -2078,7 +2270,10 @@
     "image_url": null,
     "sku": "IO7744-600",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "Bin 23",
+    "year": 2026,
+    "silhouette": "Air Jordan 3"
   },
   {
     "id": "air-jordan-3-retro-og",
@@ -2089,7 +2284,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ETjM3MDctMjAyL0ROMzcwNy0yMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "DN3707-202",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Medium Olive/Sequoia/Neutral Olive",
+    "year": 2026,
+    "silhouette": "Air Jordan 3"
   },
   {
     "id": "air-jordan-11-retro-rare-air",
@@ -2100,7 +2298,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JSDAyOTYtNDAwL0lIMDI5Ni00MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IH0296-400",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "RARE AIR",
+    "year": 2025,
+    "silhouette": "Air Jordan 11"
   },
   {
     "id": "air-jordan-3-retro-starfish",
@@ -2111,7 +2312,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JSDc2OTQtMjAwL0lINzY5NC0yMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IH7694-200",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Starfish",
+    "year": 2025,
+    "silhouette": "Air Jordan 3"
   },
   {
     "id": "air-jordan-3-og-rare-air-td",
@@ -2122,7 +2326,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjg5NjYtMDA0L0lCODk2Ni0wMDQtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IB8966-004",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Rare Air",
+    "year": 2025,
+    "silhouette": "Air Jordan 3"
   },
   {
     "id": "air-jordan-3-retro-pure-money-ps",
@@ -2133,7 +2340,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ETTA5NjYtMTExL0RNMDk2Ni0xMTEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "DM0966-111",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "PURE MONEY",
+    "year": 2025,
+    "silhouette": "Air Jordan 3"
   },
   {
     "id": "air-jordan-3-retro-og-brazil",
@@ -2144,7 +2354,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JVjQ4NzEtNDAwL0lWNDg3MS00MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IV4871-400",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Brazil",
+    "year": 2026,
+    "silhouette": "Air Jordan 3"
   },
   {
     "id": "air-jordan-3-utility-releases-spring-2027",
@@ -2155,7 +2368,10 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-3-utility-black-fire-red-IX0198-001-2027-1024x725.jpg",
     "sku": "IX0198-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "UTILITY",
+    "year": 2027,
+    "silhouette": "Air Jordan 3"
   },
   {
     "id": "air-jordan-4-retro-flight-club",
@@ -2166,7 +2382,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTQwMDItMTAwL0lNNDAwMi0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IM4002-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Flight Club",
+    "year": 2026,
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "air-jordan-5-retro-og",
@@ -2177,7 +2396,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTc5NzgtMTAzL0hRNzk3OC0xMDMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HQ7978-103",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "White/Metallic Silver/Black",
+    "year": 2026,
+    "silhouette": "Air Jordan 5"
   },
   {
     "id": "air-jordan-5-retro-og-medium-soft-pink",
@@ -2188,7 +2410,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTc5NzgtMTAyL0hRNzk3OC0xMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HQ7978-102",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "MEDIUM SOFT PINK",
+    "year": 2025,
+    "silhouette": "Air Jordan 5"
   },
   {
     "id": "air-jordan-6-retro-psg",
@@ -2199,7 +2424,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTUxMzUtMDAxL0lRNTEzNS0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IQ5135-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "PSG",
+    "year": 2026,
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "air-jordan-6-retro-infrared",
@@ -2210,7 +2438,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9DVDg1MjktMDAxL0NUODUyOS0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "CT8529-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "INFRARED",
+    "year": 2026,
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "air-jordan-9-retro",
@@ -2221,7 +2452,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IVjQ3OTQtMTAwL0hWNDc5NC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HV4794-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "White/French Blue/Flint Grey",
+    "year": 2026,
+    "silhouette": "Air Jordan 9"
   },
   {
     "id": "air-jordan-rev",
@@ -2232,7 +2466,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GVjYzMzgtMTAwL0ZWNjMzOC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "FV6338-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "AIR JORDAN REV",
+    "year": 2025,
+    "silhouette": "Air Jordan"
   },
   {
     "id": "air-max-90",
@@ -2243,7 +2480,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ETTAwMjktMDIyL0RNMDAyOS0wMjItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "DM0029-022",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Smoke Grey/Black/Dark Smoke Grey/Photon Dust",
+    "year": 2026,
+    "silhouette": "Air Max 90"
   },
   {
     "id": "air-max-90-gtx",
@@ -2254,7 +2494,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GRDU4MTAtMTAyL0ZENTgxMC0xMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "FD5810-102",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "TX",
+    "year": 2025,
+    "silhouette": "Air Max 90"
   },
   {
     "id": "air-jordan-xxxix",
@@ -2265,7 +2508,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GUTAyMTMtMDEwL0ZRMDIxMy0wMTAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "FQ0213-010",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "AIR JORDAN XXXIX",
+    "year": 2025,
+    "silhouette": "Air Jordan XXXIX"
   },
   {
     "id": "air-max-90-g",
@@ -2276,7 +2522,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IVjkzMDUtMTA1L0hWOTMwNS0xMDUtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HV9305-105",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "White/Light Smoke Grey/Fire Red",
+    "year": 2026,
+    "silhouette": "Air Max 90"
   },
   {
     "id": "air-max-90-prm",
@@ -2287,7 +2536,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ITTk0MzItMDAxL0hNOTQzMi0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HM9432-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "PRM",
+    "year": 2025,
+    "silhouette": "Air Max 90"
   },
   {
     "id": "air-max-90-qs",
@@ -2298,7 +2550,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JVTA3NjctMDAxL0lVMDc2Ny0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IU0767-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Light Base Grey/Coconut Milk/White/Sport Royal",
+    "year": 2026,
+    "silhouette": "Air Max 90"
   },
   {
     "id": "air-max-90-se",
@@ -2309,7 +2564,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUjU5MDMtMDEwL0lSNTkwMy0wMTAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IR5903-010",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "White/Black/Varsity Red",
+    "year": 2026,
+    "silhouette": "Air Max 90"
   },
   {
     "id": "air-max-95-big-bubble",
@@ -2320,7 +2578,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTc0MTAtMDAxL0lNNzQxMC0wMDEtMDEtbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjoxNjAwLCJoZWlnaHQiOjIwMDAsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     "sku": "IM7410-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Black/Medium Ash/Dark Pewter/Solar Red",
+    "year": 2025,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "air-max-95-big-bbl-ltr-qs",
@@ -2331,7 +2592,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTA2OTYtMDAxL0lNMDY5Ni0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IM0696-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "BIG BBL LTR QS",
+    "year": 2025,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "air-max-95-big-bbl-premium",
@@ -2342,7 +2606,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjc4NjItMTAwL0lCNzg2Mi0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IB7862-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "BIG BBL PREMIUM",
+    "year": 2026,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "air-max-95-big-bubble-volt-and-university-red",
@@ -2353,7 +2620,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTA2MjAtMTAwL0lRMDYyMC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IQ0620-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "VOLT AND UNIVERSITY RED",
+    "year": 2026,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "air-max-95-big-bubble-prm",
@@ -2364,7 +2634,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjc4NzItMTAwL0lCNzg3Mi0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IB7872-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "PRM",
+    "year": 2026,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "air-max-95-g",
@@ -2376,7 +2649,10 @@
     "sku": "HV4696-600",
     "buy_url": null,
     "past": true,
-    "release_window": "Spring 2026"
+    "release_window": "Spring 2026",
+    "colorway": "Peony/Volt Tint/Dusty Cactus/Anthracite",
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "air-max-95-big-bubble-blue-spark",
@@ -2387,7 +2663,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTc0MTAtMTAwL0lNNzQxMC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IM7410-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "BLUE SPARK",
+    "year": 2025,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "air-max-95-qs",
@@ -2398,7 +2677,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTE5NzMtMDAxL0hRMTk3My0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HQ1973-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Black/Golden Beige",
+    "year": 2025,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "air-max-95-prm",
@@ -2409,7 +2691,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTMwODItMDAxL0lNMzA4Mi0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IM3082-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "PRM",
+    "year": 2025,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "air-max-95-og",
@@ -2420,7 +2705,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ITTQ3NDAtMDAxL0hNNDc0MC0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HM4740-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Black/Neon Yellow/Cool Grey",
+    "year": 2026,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "air-max-95-big-bubble-zip-sp",
@@ -2431,7 +2719,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTA2OTUtMDAyL0lNMDY5NS0wMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IM0695-002",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "ZIP SP",
+    "year": 2026,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "air-max-95-og-black-border",
@@ -2442,7 +2733,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTc0MDktMTAwL0lNNzQwOS0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IM7409-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Black Border",
+    "year": 2025,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "caitlin-clark-x-nike-kobe-5-protro-coconut-milk-releases-jun",
@@ -2453,7 +2747,10 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/03/caitlin-clark-kobe-5-coconut-milk-bright-spurce-IZ1852-100-1024x725.jpg",
     "sku": "IZ1852-100",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "Coconut Milk",
+    "year": 2026,
+    "silhouette": "Kobe"
   },
   {
     "id": "clot-by-edison-chen-x-adidas-samba-cloud-white-",
@@ -2464,7 +2761,10 @@
     "image_url": "https://www.nicekicks.com/files/2026/05/Clot-x-Adidas-Samba-Mundial-5-1-scaled-e1777674839816.jpg",
     "sku": "KJ0274",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "Cloud White",
+    "year": 2026,
+    "silhouette": "Samba"
   },
   {
     "id": "dunk-low-gs-gg",
@@ -2475,7 +2775,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTzIwNzgtMTAwL0lPMjA3OC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IO2078-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "White/Multicolor",
+    "silhouette": "Dunk Low",
+    "year": 2026
   },
   {
     "id": "dunk-low-gs",
@@ -2486,7 +2789,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTYwMjgtMDEwL0lNNjAyOC0wMTAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IM6028-010",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Black/Reflect Silver",
+    "year": 2025,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "dunk-low-bp",
@@ -2498,7 +2804,10 @@
     "sku": "",
     "buy_url": null,
     "past": true,
-    "evergreen": true
+    "evergreen": true,
+    "colorway": "White/Hyper Royal",
+    "silhouette": "Dunk Low",
+    "year": 2026
   },
   {
     "id": "air-jordan-12-retro-bloodline",
@@ -2509,7 +2818,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9DVDgwMTMtMDAzL0NUODAxMy0wMDMtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "CT8013-003",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "BLOODLINE",
+    "year": 2026,
+    "silhouette": "Air Jordan 12"
   },
   {
     "id": "dunk-low-retro-qs",
@@ -2520,7 +2832,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GWjMwNTMtMDAxL0ZaMzA1My0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "FZ3053-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "QS",
+    "year": 2024,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "dunk-low-tde",
@@ -2532,7 +2847,10 @@
     "sku": "FB9107-131",
     "buy_url": null,
     "past": true,
-    "evergreen": true
+    "evergreen": true,
+    "colorway": "TDE",
+    "silhouette": "Dunk Low",
+    "year": 2026
   },
   {
     "id": "dunk-low-gtx",
@@ -2543,7 +2861,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTIwNTMtMDAxL0hRMjA1My0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HQ2053-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "GTX",
+    "year": 2026,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "dunk-low-retro",
@@ -2554,7 +2875,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IRjU0NDEtMDA3L0hGNTQ0MS0wMDctMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HF5441-007",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Soft Pearl/Cream",
+    "year": 2026,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "dunk-low-retro-prm-qs",
@@ -2565,7 +2889,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTMzNDItMTAwL0lRMzM0Mi0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IQ3342-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "PRM QS",
+    "year": 2026,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "dunk-low-retro-prm",
@@ -2576,7 +2903,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTMwNzctNjAwL0lNMzA3Ny02MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IM3077-600",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "PRM",
+    "year": 2025,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "dunk-low-retro-se",
@@ -2587,7 +2917,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IRjMxNDEtMjAwL0hGMzE0MS0yMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HF3141-200",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Dusted Clay/Amethyst/Team Gold/Baroque Brown",
+    "year": 2025,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "jordan-luka-5-familia-",
@@ -2598,7 +2931,10 @@
     "image_url": "https://www.nicekicks.com/files/2026/05/iw9035-500-5-e1777640636406.jpg",
     "sku": "IO5028-900",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "FAMILIA",
+    "year": 2026,
+    "silhouette": "Jordan Luka 5"
   },
   {
     "id": "jordan-luka-5-luka-lifestyle-",
@@ -2609,7 +2945,10 @@
     "image_url": "https://www.nicekicks.com/files/2026/05/io5028-900-5-1-e1777640477358.jpg",
     "sku": "IO5028-900",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "LUKA LIFESTYLE",
+    "year": 2026,
+    "silhouette": "Jordan Luka 5"
   },
   {
     "id": "jordan-tatum-4-black-ice-blue-",
@@ -2620,7 +2959,10 @@
     "image_url": "https://www.nicekicks.com/files/2026/05/hq4614-004-5-e1777640206406.jpg",
     "sku": "HQ4614-004",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "Black/Ice Blue",
+    "year": 2026,
+    "silhouette": "Jordan Tatum 4"
   },
   {
     "id": "nike-air-foamposite-one-mummy-releases-holiday-2026",
@@ -2631,7 +2973,10 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-foamposite-one-mummy-IZ1476-001-1024x725.jpg",
     "sku": "IZ1476-001",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "MUMMY",
+    "year": 2026,
+    "silhouette": "Air Foamposite One"
   },
   {
     "id": "nike-air-max-95-scorpion",
@@ -2642,7 +2987,10 @@
     "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/nike-air-max-95-scorpion-1-380x380.jpeg",
     "sku": "IM4691-001",
     "buy_url": "https://www.sneakers.fr/nike-air-max-95-scorpion/",
-    "past": true
+    "past": true,
+    "colorway": "Black/Gamma Blue/Metallic Silver/Chrome",
+    "year": 2026,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "nike-air-rift-2-kenya-returns-summer-2026",
@@ -2654,7 +3002,10 @@
     "sku": "IQ8006-002",
     "buy_url": null,
     "past": true,
-    "release_window": "Summer 2026"
+    "release_window": "Summer 2026",
+    "colorway": "KENYA",
+    "silhouette": "Air Rift",
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-fresh-mint-returns-june-2026",
@@ -2665,7 +3016,10 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-95-fresh-mint-hj5996-005-1024x725.jpg",
     "sku": "HJ5996-005",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "Fresh Mint",
+    "year": 2026,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "nike-air-liquid-max-black-team-red",
@@ -2676,7 +3030,10 @@
     "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/nike-air-liquid-max-black-team-red-9.jpg",
     "sku": "IQ7634-002",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "Black Team Red",
+    "year": 2026,
+    "silhouette": "Air Max Liquid"
   },
   {
     "id": "nike-dunk-low-clover-2026",
@@ -2687,7 +3044,10 @@
     "image_url": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco/f8c1cdef-3521-4750-9239-cb80f9542417/NIKE+DUNK+LOW+QS.png",
     "sku": "",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "Clover",
+    "year": 2026,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "nike-air-zoom-huarache-2k4-knicks-pe-releases-fall-2026",
@@ -2699,7 +3059,10 @@
     "sku": "IV0345-001",
     "buy_url": null,
     "past": true,
-    "release_window": "Fall 2026"
+    "release_window": "Fall 2026",
+    "colorway": "Knicks",
+    "silhouette": "Huarache",
+    "year": 2026
   },
   {
     "id": "nike-lebron-23-old-glory-releases-may-2026",
@@ -2710,7 +3073,10 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-lebron-23-old-glory-IB9562-103-1024x725.jpg",
     "sku": "IB9562-103",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "OLD GLORY",
+    "year": 2026,
+    "silhouette": "LeBron 23"
   },
   {
     "id": "nike-kobe-9-em-low-protro-draft-day-releases-june-2026",
@@ -2721,7 +3087,10 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-kobe-9-em-low-protro-hornets-draft-day-IM6119-500-1024x725.jpg",
     "sku": "IM6119-500",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Draft Day",
+    "year": 2026,
+    "silhouette": "Kobe"
   },
   {
     "id": "nike-mind-001-cucumber-calm-releases-summer-2026",
@@ -2733,7 +3102,10 @@
     "sku": "HQ4307-302",
     "buy_url": null,
     "past": true,
-    "release_window": "Summer 2026"
+    "release_window": "Summer 2026",
+    "colorway": "CUCUMBER CALM",
+    "silhouette": "Mind",
+    "year": 2026
   },
   {
     "id": "nike-dunk-low",
@@ -2745,7 +3117,10 @@
     "sku": "FB9107-002",
     "buy_url": null,
     "past": true,
-    "evergreen": true
+    "evergreen": true,
+    "colorway": "White/Black",
+    "silhouette": "Dunk Low",
+    "year": 2026
   },
   {
     "id": "star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr",
@@ -2756,7 +3131,10 @@
     "image_url": "https://www.sneakers.fr/wp-content/uploads/2026/05/star-wars-mandalorian-x-adidas-adizero-evo-sl-atr-1-380x380.jpg",
     "sku": "KI5668",
     "buy_url": "https://www.sneakers.fr/star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr/",
-    "past": true
+    "past": true,
+    "colorway": "ATR",
+    "year": 2026,
+    "silhouette": "Adizero"
   },
   {
     "id": "the-adidas-anthony-edwards-believe-that-1-clay-red-will-be-a",
@@ -2767,7 +3145,10 @@
     "image_url": "https://www.nicekicks.com/files/2026/02/KI4088_1-1-e1771531481961.jpg",
     "sku": "KI4088",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "CLAY RED",
+    "year": 2026,
+    "silhouette": "Believe That"
   },
   {
     "id": "nike-sb-dunk-low-bluetile-2026",
@@ -2778,7 +3159,10 @@
     "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/04/bluetile-nike-sb-dunk-low-monarch-butterfly-iq1323-001-release-date.webp",
     "sku": "IQ1323-001",
     "buy_url": "",
-    "past": true
+    "past": true,
+    "colorway": "Dunk Low",
+    "year": 2026,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "preview-nike-sb-air-force-1-black-gum-",
@@ -2789,7 +3173,10 @@
     "image_url": null,
     "sku": "IB6388-001",
     "buy_url": "https://t.me/SneakersDropsFR",
-    "past": true
+    "past": true,
+    "colorway": "Preview: Nike SB Air Force 1 « Black Gum »",
+    "year": 2026,
+    "silhouette": "Air Force 1 Low"
   },
   {
     "id": "this-stealth-anthony-edwards-believe-that-1-will-only-be-100",
@@ -2800,7 +3187,10 @@
     "image_url": "https://www.nicekicks.com/files/2026/02/KJ3149_1-1-e1771530746158.jpg",
     "sku": "KJ3149",
     "buy_url": "https://sneakerdropfr.fr/sorties/this-stealth-anthony-edwards-believe-that-1-will-only-be-100.html",
-    "past": true
+    "past": true,
+    "colorway": "Stealth/Black",
+    "year": 2026,
+    "silhouette": "Believe That"
   },
   {
     "id": "wmns-air-jordan-1-mid",
@@ -2811,7 +3201,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9EVjA5OTEtMTExL0RWMDk5MS0xMTEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "DV0991-111",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "AIR JORDAN 1 MID",
+    "silhouette": "Air Jordan 1 Mid",
+    "year": 2026
   },
   {
     "id": "wmns-air-jordan-11-retro-low-mothers-day",
@@ -2822,7 +3215,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9BSDc4NjAtMTAyL0FINzg2MC0xMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "AH7860-501",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "MOTHERS DAY",
+    "year": 2026,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "une-nike-sb-dunk-low-prm-wc-spruce-metallic-gold-d-voil-e",
@@ -2833,7 +3229,10 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-sb-dunk-low-green-patent-IQ0431-300-1024x725.jpg",
     "sku": "IQ0431-300",
     "buy_url": "https://www.nike.com/fr/",
-    "past": true
+    "past": true,
+    "colorway": "Green Patent",
+    "year": 2026,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "wmns-air-jordan-11-retro-grand-finale",
@@ -2844,7 +3243,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9BUjA3MTUtMTEwL0FSMDcxNS0xMTAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "AR0715-110",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "GRAND FINALE",
+    "year": 2025,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "wmns-air-jordan-3-retro-og-sp",
@@ -2855,7 +3257,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JRjMwOTctMzAwL0lGMzA5Ny0zMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IF3097-300",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "AIR JORDAN 3 RETRO OG SP",
+    "year": 2026,
+    "silhouette": "Air Jordan 3"
   },
   {
     "id": "wmns-air-jordan-1-retro-hi-og",
@@ -2866,7 +3271,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GRDI1OTYtMTAyL0ZEMjU5Ni0xMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "FD2596-102",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "AIR JORDAN 1 RETRO HI OG",
+    "year": 2026,
+    "silhouette": "Air Jordan 1 High"
   },
   {
     "id": "wmns-air-jordan-1-mm-low-v3",
@@ -2877,7 +3285,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTIxODYtMDAyL0hRMjE4Ni0wMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HQ2186-002",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "AIR JORDAN 1 MM LOW V3",
+    "year": 2025,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "wmns-air-jordan-4-retro-pearl-pink-and-iced-carmine",
@@ -2888,7 +3299,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjY3MTYtNjAwL0lCNjcxNi02MC0wMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjoxNjAwLCJoZWlnaHQiOjIwMDAsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     "sku": "IB6716-600",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "PEARL PINK AND ICED CARMINE",
+    "year": 2026,
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "wmns-air-jordan-4-retro-love-letter",
@@ -2899,7 +3313,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IVjA4MjMtMTA4L0hWMDgyMy0xMDgtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HV0823-108",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Love Letter",
+    "year": 2026,
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "wmns-air-max-90",
@@ -2910,7 +3327,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTTMxMTAtMTAwL0lNMzExMC0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IM3110-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "AIR MAX 90",
+    "year": 2025,
+    "silhouette": "Air Max 90"
   },
   {
     "id": "wmns-air-max-95-big-bubble",
@@ -2921,7 +3341,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUTM0NDQtNzIyL0lRMzQ0NC03MjItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IQ3444-722",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "AIR MAX 95 BIG BUBBLE",
+    "year": 2026,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "wmns-air-jordan-3-retro-orange-citrus",
@@ -2932,7 +3355,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9DSzkyNDYtMTAxL0NLOTI0Ni0xMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "CK9246-101",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Orange Citrus",
+    "year": 2026,
+    "silhouette": "Air Jordan 3"
   },
   {
     "id": "wmns-air-max-95-big-bubble-blue-tint",
@@ -2943,7 +3369,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ISjU5OTYtMDAyL0hKNTk5Ni0wMDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HJ5996-002",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "BLUE TINT",
+    "year": 2025,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "wmns-air-jordan-6-low-blackout",
@@ -2954,7 +3383,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JTzk3ODYtMDAxL0lPOTc4Ni0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IO9786-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Blackout",
+    "year": 2026,
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "wmns-dunk-low",
@@ -2965,7 +3397,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JQjQ0MTctMTAxL0lCNDQxNy0xMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IB4417-101",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "DUNK LOW",
+    "year": 2025,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "wmns-dunk-low-panda",
@@ -2976,7 +3411,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9kZDE1MDMtMTAxL2RkMTUwMy0xMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "DD1503-101",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "PANDA",
+    "year": 2021,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "wmns-dunk-low-nn-se",
@@ -2987,7 +3425,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ISjU4NjQtNzAwL0hKNTg2NC03MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HJ5864-700",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "DUNK LOW NN SE",
+    "year": 2025,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "wmns-air-max-95-pink-foam",
@@ -2998,7 +3439,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ISjU5OTYtMDAxL0hKNTk5Ni0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HJ5996-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Air Max 95 Pink Foam",
+    "year": 2026,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "wmns-dunk-low-cacao-wow-and-pink-foam",
@@ -3009,7 +3453,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ITTA5ODctMjAwL0hNMDk4Ny0yMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HM0987-200",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "CACAO WOW AND PINK FOAM",
+    "year": 2024,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "x-harris-tweed-wmns-dunk-low",
@@ -3020,7 +3467,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTUwMzYtOTAyL0hRNTAzNi05MDItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HQ5036-902",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "X Harris Tweed WMNS DUNK LOW",
+    "year": 2025,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "x-lego-col-gs-dunk-low",
@@ -3031,7 +3481,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JRjIxMTctMTAwL0lGMjExNy0xMDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "IF2117-100",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "X LEGO COL GS DUNK LOW",
+    "year": 2025,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "x-levis-air-jordan-3-black-and-white",
@@ -3042,7 +3495,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUjA5MTQtNDAwL0lSMDkxNC00MDAtMDEtbi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjoxNjAwLCJoZWlnaHQiOjIwMDAsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
     "sku": "IR0914-400",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "Black and White",
+    "year": 2026,
+    "silhouette": "Air Jordan 3"
   },
   {
     "id": "wmns-dunk-low-se",
@@ -3053,7 +3509,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTM0MzEtNTE1L0hRMzQzMS01MTUtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HQ3431-515",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "DUNK LOW SE",
+    "year": 2024,
+    "silhouette": "Dunk Low"
   },
   {
     "id": "x-stash-air-max-95-sp",
@@ -3064,7 +3523,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IRjU1MTUtNDAwL0hGNTUxNS00MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HF5515-400",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "X STASH AIR MAX 95 SP",
+    "year": 2024,
+    "silhouette": "Air Max 95"
   },
   {
     "id": "x-travis-scott-zoom-field-jaxx",
@@ -3075,7 +3537,10 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTMwNzItNDAwL0hRMzA3Mi00MDAtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HQ3072-400",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "X TRAVIS SCOTT ZOOM FIELD JAXX",
+    "year": 2025,
+    "silhouette": "Zoom Field Jaxx"
   },
   {
     "id": "x-paris-saint-germain-air-jordan-5-retro",
@@ -3086,6 +3551,9 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTMwMDQtMDAxL0hRMzAwNC0wMDEtMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
     "sku": "HQ3004-001",
     "buy_url": null,
-    "past": true
+    "past": true,
+    "colorway": "X PARIS SAINT-GERMAIN AIR JORDAN 5 RETRO",
+    "year": 2025,
+    "silhouette": "Air Jordan 5"
   }
 ]
