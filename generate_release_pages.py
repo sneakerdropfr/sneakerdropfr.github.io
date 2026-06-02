@@ -542,6 +542,53 @@ PAGE_TMPL = """<!DOCTYPE html>
   </footer>
 
   <script type="text/javascript" src="https://s.skimresources.com/js/302926X179095.skimlinks.js"></script>
+  <script>
+  (function(){{
+    var TRACKER = 'https://track.sneakerdropfr.fr/click';
+    var RELEASE_ID = '{release_id}';
+    function send(el){{
+      try{{
+        var isResell = el.classList.contains('retailer') &&
+                       el.querySelector('.retailer__badge--resell') !== null;
+        var isRaffle = el.classList.contains('retailer') &&
+                       el.querySelector('.retailer__badge--raffle') !== null;
+        var retailer = el.querySelector('.retailer__name');
+        fetch(TRACKER, {{
+          method: 'POST',
+          headers: {{'Content-Type': 'application/json'}},
+          body: JSON.stringify({{
+            release_id: RELEASE_ID,
+            retailer:   retailer ? retailer.textContent.trim() : 'unknown',
+            url:        el.href,
+            is_resell:  isResell,
+            is_raffle:  isRaffle
+          }}),
+          keepalive: true
+        }}).catch(function(){{}});
+      }}catch(e){{}}
+    }}
+    document.addEventListener('click', function(e){{
+      var el = e.target.closest('a.retailer, a.article__buy');
+      if(!el) return;
+      if(el.classList.contains('article__buy')){{
+        fetch(TRACKER, {{
+          method: 'POST',
+          headers: {{'Content-Type': 'application/json'}},
+          body: JSON.stringify({{
+            release_id: RELEASE_ID,
+            retailer:   'buy_btn',
+            url:        el.href,
+            is_resell:  false,
+            is_raffle:  false
+          }}),
+          keepalive: true
+        }}).catch(function(){{}});
+      }} else {{
+        send(el);
+      }}
+    }});
+  }})();
+  </script>
 </body>
 </html>
 """
@@ -778,6 +825,7 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
         retailers_block=retailers_html(r),
         restocks_block=restocks_html(r),
         related_block=related_html(r, all_releases or []),
+        release_id=escape(rid),
     )
 
 
