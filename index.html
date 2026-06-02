@@ -1319,7 +1319,11 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     var results = all.filter(function(r) {
       var haystackMain = ((r.title || '') + ' ' + (r.brand || '') + ' ' + (r.sku || '') + ' ' + (r.colorway || '')).toLowerCase();
       return words.every(function(w){
-        return haystackMain.indexOf(w) !== -1;
+        // Word boundary : le mot doit être suivi d'un espace, tiret, fin de chaîne ou chiffre de version (ex: 990v6)
+        var escaped = w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+        var after = /\d$/.test(w) ? '(?=$|[\\s\\-\'"_/,]|v\\d)' : '(?=$|[\\s\\-\'"_/,])';
+        var re = new RegExp('(?:^|[\\s\\-\'"_/(,])' + escaped + after, 'i');
+        return re.test(haystackMain);
       });
     });
     // Trier : correspondance exacte en premier
