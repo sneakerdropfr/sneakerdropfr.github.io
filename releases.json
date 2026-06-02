@@ -1,5 +1,17 @@
 [
   {
+    "id": "air-jordan-3-white-cement-returns-summer-2027",
+    "title": "Air Jordan 3 “White Cement” Returns Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/03/air-jordan-3-white-cement-2027-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=air jordan 3&amp;vst=air jordan 3",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-02T23:04:45.339657+00:00"
+  },
+  {
     "id": "virgil-abloh-archive-x-nike-cryoshot-zoom-m9-releases-june-2",
     "title": "Virgil Abloh Archive x Nike Cryoshot Zoom M9",
     "brand": "Sneaker Files",
@@ -2411,108 +2423,5 @@
     "year": 2026,
     "silhouette": "Adizero",
     "restocks": []
-  },
-  {
-    "id": "new-balance-1906l-rosewood",
-    "title": "New Balance 1906l Rosewood",
-    "brand": "New Balance",
-    "date": "2026-05-31",
-    "price": 140,
-    "image_url": "https://statics.whentocop.fr/media/gPS1jLc9GbXH/tmpnew-balance-1906l-rosewood-u19065ws-small-500x500.webp?width=3840&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1906l-rosewood-u19065ws",
-    "sku": "U19065WS",
-    "retailers": [
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2F",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "43einhalb",
-        "url": "https://www.43einhalb.com",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Afew",
-        "url": "https://www.afew-store.com",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Offspring",
-        "url": "https://www.offspring.co.uk",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Naked",
-        "url": "https://www.nakedcph.com",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "HHV",
-        "url": "https://www.hhv.de",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "144€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "158€",
-        "resell": true,
-        "raffle": false
-      }
-    ],
-    "hype_score": 15,
-    "colorway": "ROSEWOOD",
-    "similar_products": [
-      "new-balance-1906l-fairweather-blue",
-      "new-balance-5030-black-silver",
-      "new-balance-mt10t-fire-cracker"
-    ],
-    "year": 2026,
-    "silhouette": "New Balance 1906",
-    "restocks": [
-      {
-        "date": "2026-06-02",
-        "retailers": [
-          {
-            "name": "BSTN",
-            "url": "https://www.awin1.com/pclick.php?p=44899752366&a=2855487&m=104979",
-            "price": "139,99€"
-          }
-        ]
-      }
-    ]
   }
 ]
