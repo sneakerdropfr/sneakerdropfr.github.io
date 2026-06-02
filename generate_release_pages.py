@@ -106,7 +106,13 @@ def format_date_fr(iso: str | None) -> str:
 def format_price(price) -> str:
     if price is None or price == "" or price == "TBD":
         return "TBD"
-    return str(price)
+    s = str(price).strip()
+    # Ajouter le symbole € si c'est un nombre sans devise
+    if s.replace(".", "").replace(",", "").isdigit():
+        return s + "\u00a0€"
+    if s.endswith("€") or s.endswith("$") or s.endswith("£"):
+        return s
+    return s
 
 
 def short_meta_desc(r: dict) -> str:
@@ -389,7 +395,9 @@ PAGE_TMPL = """<!DOCTYPE html>
     .article__img{{width:100%;height:100%;object-fit:contain}}
     .article__brand{{font-family:var(--font-cond);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.5rem}}
     .article__title{{font-family:var(--font-display);font-size:clamp(2rem,5vw,3.2rem);text-transform:uppercase;line-height:1;color:var(--black);margin-bottom:.75rem}}
-    .article__colorway{{font-family:var(--font-cond);color:var(--muted);font-size:.95rem;margin-bottom:1rem;letter-spacing:.03em}}
+    .article__colorway{{font-family:var(--font-cond);color:var(--muted);font-size:.95rem;margin-bottom:.4rem;letter-spacing:.03em}}
+    .article__sku{{font-family:var(--font-cond);color:var(--muted);font-size:.8rem;margin-bottom:1rem;letter-spacing:.04em}}
+    .article__sku-label{{font-weight:900;color:var(--black);text-transform:uppercase;margin-right:.35rem}}
     .article__infos{{display:flex;flex-direction:column;gap:.65rem;margin-bottom:1.5rem}}
     .article__info-row{{display:flex;align-items:center;gap:1rem;padding:.85rem 1.1rem;background:var(--bg-alt);border:1px solid var(--border);border-radius:10px}}
     .article__info-label{{font-family:var(--font-cond);font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);min-width:70px}}
@@ -476,6 +484,7 @@ PAGE_TMPL = """<!DOCTYPE html>
           <div class="article__brand">{brand_html}</div>
           <h1 class="article__title">{title_html}</h1>
           {colorway_html}
+          {sku_html}
           <div class="article__infos">
             <div class="article__info-row">
               <span class="article__info-label">Date</span>
@@ -662,6 +671,11 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
         f'<p class="article__colorway">{escape(cw)}</p>' if cw else ""
     )
 
+    sku = (r.get("sku") or "").strip()
+    sku_html = (
+        f'<p class="article__sku"><span class="article__sku-label">SKU</span> {escape(sku)}</p>' if sku else ""
+    )
+
     if image_url:
         img_tag = (
             '<img src="' + escape(image_url, quote=True) + '" '
@@ -736,6 +750,7 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
         img_tag=img_tag,
         brand_html=brand_html,
         colorway_html=colorway_html,
+        sku_html=sku_html,
         date_fr=escape(date_fr),
         price_html=price_html,
         buy_btn=primary_buy_button(r),
