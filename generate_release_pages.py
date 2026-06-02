@@ -533,6 +533,19 @@ PAGE_TMPL = """<!DOCTYPE html>
     .related-card__brand{{font-family:var(--font-cond);font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4)}}
     .related-card__title{{font-family:var(--font-cond);font-size:.8rem;font-weight:900;text-transform:uppercase;color:#fff;line-height:1.2;margin:.2rem 0}}
     .related-card__price{{font-family:var(--font-cond);font-size:.85rem;font-weight:700;color:var(--accent)}}
+    .restocks-section{{margin-bottom:2.5rem}}
+    .restocks-section h2{{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:1rem}}
+    .restocks-section h2 span{{color:var(--accent)}}
+    .restocks-list{{display:flex;flex-direction:column;gap:.75rem}}
+    .restock-item{{background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:1rem 1.2rem;display:flex;align-items:flex-start;gap:1.2rem;flex-wrap:wrap}}
+    .restock-item__date{{font-family:var(--font-cond);font-size:.78rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);min-width:110px;padding-top:.15rem}}
+    .restock-item__retailers{{display:flex;flex-wrap:wrap;gap:.5rem;flex:1}}
+    .restock-item__retailer{{display:inline-flex;align-items:center;gap:.4rem;background:#fff;border:1px solid var(--border);border-radius:8px;padding:.4rem .85rem;font-family:var(--font-cond);font-size:.85rem;font-weight:900;letter-spacing:.04em;text-transform:uppercase;color:var(--black);transition:border-color .15s,transform .15s}}
+    .restock-item__retailer:hover{{border-color:var(--black);transform:translateY(-1px)}}
+    .restock-item__retailer--nolink{{cursor:default}}
+    .restock-item__retailer--nolink:hover{{transform:none;border-color:var(--border)}}
+    .restock-item__price{{font-weight:700;color:var(--accent);margin-left:.2rem}}
+    .restock-item__arrow{{color:var(--muted);font-size:.8rem}}
     .article__cta{{background:var(--black);border-radius:16px;padding:2.5rem;text-align:center;color:#fff}}
     .article__cta h3{{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:.6rem}}
     .article__cta p{{color:rgba(255,255,255,.6);font-size:.9rem;margin-bottom:1.5rem}}
@@ -557,6 +570,7 @@ PAGE_TMPL = """<!DOCTYPE html>
       <nav class="header__nav">
         <a href="/deals.html" class="hbtn hbtn--solid hbtn--hide-sm">BSTN Deals</a>
         <a href="/sorties.html" class="hbtn hbtn--solid hbtn--hide-sm">Sorties</a>
+        <a href="/restocks.html" class="hbtn hbtn--solid hbtn--hide-sm">Restocks</a>
         <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="hbtn hbtn--tg">Telegram</a>
       </nav>
     </div>
@@ -688,41 +702,77 @@ PAGE_TMPL = """<!DOCTYPE html>
 
 
 def restocks_html(r: dict) -> str:
-    """Section Restocks — affiche les restocks recents si disponibles."""
+    """Section Restocks — affiche l'historique des restocks si disponibles.
+    Format attendu :
+      restocks: [{date, retailers: [{name, url, price}]}, ...]
+    """
     restocks = r.get("restocks") or []
     if not restocks:
         return ""
-    items = []
-    for rs in restocks[:5]:
-        retailer = escape(rs.get("retailer",""))
-        date_rs = rs.get("date","")
+
+    FR_MONTHS_SHORT = ["jan","fév","mar","avr","mai","juin",
+                       "juil","août","sep","oct","nov","déc"]
+
+    def fmt_date(d: str) -> str:
         try:
-            from datetime import datetime
-            dt = datetime.fromisoformat(date_rs.replace("Z","+00:00"))
-            mois = ["jan","fev","mar","avr","mai","juin","juil","aout","sep","oct","nov","dec"]
-            date_str = f"{dt.day} {mois[dt.month-1]}"
-        except:
-            date_str = date_rs[:10] if date_rs else "Recemment"
-        sizes = rs.get("sizes") or []
-        sizes_str = ", ".join(sizes[:6]) if sizes else "Tailles variees"
-        url = rs.get("url","#")
+            from datetime import datetime as _dt
+            dt = _dt.fromisoformat(d[:10])
+            return f"{dt.day} {FR_MONTHS_SHORT[dt.month-1]} {dt.year}"
+        except Exception:
+            return d or "Date inconnue"
+
+    sorted_restocks = sorted(restocks, key=lambda rs: rs.get("date","") or "0000", reverse=True)
+
+    items = []
+    for rs in sorted_restocks:
+        date_str = fmt_date(rs.get("date", ""))
+        retailers_rs = rs.get("retailers") or []
+
+        links = []
+        for rt in retailers_rs:
+            name = escape(rt.get("name", "Retailer"))
+            url = rt.get("url", "")
+            price = rt.get("price", "")
+            if url:
+                awin = build_awin_url(url)
+                if awin:
+                    url = awin
+            price_html = (
+                f'<span class="restock-item__price">{escape(str(price))}</span>'
+                if price else ""
+            )
+            if url:
+                links.append(
+                    f'<a class="restock-item__retailer" href="{escape(url, quote=True)}" '
+                    f'target="_blank" rel="noopener nofollow sponsored">'
+                    f'{name}{price_html}'
+                    f'<span class="restock-item__arrow">→</span></a>'
+                )
+            else:
+                links.append(
+                    f'<span class="restock-item__retailer restock-item__retailer--nolink">'
+                    f'{name}{price_html}</span>'
+                )
+
+        if not links:
+            continue
+
         items.append(
             f'<div class="restock-item">'
-            f'<div class="restock-item__header">'
-            f'<span class="restock-item__retailer">{retailer}</span>'
-            f'<span class="restock-item__date">{date_str}</span>'
-            f'</div>'
-            f'<div class="restock-item__sizes">{escape(sizes_str)}</div>'
-            f'<a href="{url}" target="_blank" rel="noopener nofollow sponsored" class="restock-item__btn">Voir dispo →</a>'
+            f'<div class="restock-item__date">{date_str}</div>'
+            f'<div class="restock-item__retailers">{"".join(links)}</div>'
             f'</div>'
         )
+
+    if not items:
+        return ""
+
     return (
         f'<section class="restocks-section">'
-        f'<h2>Restocks <span>recents</span></h2>'
+        f'<h2>Historique <span>restocks</span></h2>'
         f'<div class="restocks-list">{"".join(items)}</div>'
         f'</section>'
     )
-
 
 def related_html(r: dict, all_releases: list) -> str:
     """Section Voir aussi — utilise similar_products en priorite, sinon meme marque."""

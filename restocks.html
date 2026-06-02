@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Restocks Sneakers 2026 — SneakerDropFR</title>
+  <meta name="description" content="Tous les restocks sneakers confirmés : Nike, Jordan, Adidas, New Balance. Sois alerté en temps réel sur SneakerDropFR.">
+  <link rel="canonical" href="https://sneakerdropfr.fr/restocks.html">
+  <meta property="og:title" content="Restocks Sneakers 2026 — SneakerDropFR">
+  <meta property="og:description" content="Tous les restocks sneakers confirmés : Nike, Jordan, Adidas, New Balance.">
+  <meta property="og:url" content="https://sneakerdropfr.fr/restocks.html">
+  <meta name="robots" content="index,follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#FF2D2D;--black:#0A0A0A;--white:#FFFFFF;--bg:#FFFFFF;--bg-alt:#F5F5F5;
+      --text:#0A0A0A;--muted:#777;--border:#E5E5E5;
+      --shadow:0 2px 12px rgba(0,0,0,0.07);--shadow-hover:0 8px 28px rgba(0,0,0,0.11);
+      --r:12px;
+      --font-display:'Bebas Neue',sans-serif;
+      --font-body:'Barlow',sans-serif;
+      --font-cond:'Barlow Condensed',sans-serif;
+    }
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden;margin:0}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;display:block}
+    .container{max-width:1100px;margin:0 auto;padding:0 1.5rem}
+    /* Header */
+    .header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    .header__inner{display:flex;align-items:center;gap:.75rem;height:56px}
+    .logo{display:flex;align-items:center;gap:.45rem;font-family:var(--font-cond);font-size:1.15rem;font-weight:900;letter-spacing:.04em;color:var(--black);flex-shrink:0}
+    .logo__icon{width:30px;height:30px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .logo__fr{opacity:.45}
+    .header__spacer{flex:1}
+    .header__nav{display:flex;align-items:center;gap:.5rem}
+    .hbtn{font-family:var(--font-cond);font-weight:900;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:.42rem .9rem;border-radius:6px;white-space:nowrap;transition:background .15s,color .15s;cursor:pointer;display:inline-flex;align-items:center;gap:.3rem}
+    .hbtn--solid{background:var(--black);color:#fff;border:1px solid var(--black)}
+    .hbtn--solid:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+    .hbtn--tg{background:var(--accent);color:#fff;border:1px solid var(--accent)}
+    .hbtn--tg:hover{background:#cc2222;border-color:#cc2222}
+    .hbtn--active{background:var(--accent);color:#fff;border:1px solid var(--accent)}
+    @media(max-width:640px){.hbtn--hide-sm{display:none}}
+    /* Page */
+    .page-wrap{padding:3rem 0 5rem}
+    .page-hero{margin-bottom:2.5rem}
+    .page-hero__label{font-family:var(--font-cond);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.4rem}
+    .page-hero__title{font-family:var(--font-display);font-size:clamp(2.4rem,6vw,4rem);text-transform:uppercase;line-height:1;color:var(--black);margin-bottom:.6rem}
+    .page-hero__title span{color:var(--accent)}
+    .page-hero__sub{color:var(--muted);font-size:.95rem;max-width:500px}
+    .page-hero__count{display:inline-block;margin-top:.75rem;font-family:var(--font-cond);font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:var(--bg-alt);border:1px solid var(--border);border-radius:999px;padding:.25rem .8rem;color:var(--muted)}
+    /* Grid */
+    .restocks-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem}
+    @media(max-width:600px){.restocks-grid{grid-template-columns:1fr}}
+    .restock-card{background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;transition:border-color .15s,box-shadow .15s,transform .15s;display:flex;flex-direction:column}
+    .restock-card:hover{border-color:#ccc;box-shadow:var(--shadow-hover);transform:translateY(-2px)}
+    .restock-card__img{display:block;background:#F5F5F5;aspect-ratio:1;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:1rem}
+    .restock-card__img img{width:100%;height:100%;object-fit:contain;transition:transform .2s}
+    .restock-card:hover .restock-card__img img{transform:scale(1.04)}
+    .restock-card__no-img{width:60px;height:60px;background:var(--border);border-radius:8px}
+    .restock-card__body{padding:1rem 1.1rem;display:flex;flex-direction:column;gap:.5rem;flex:1}
+    .restock-card__date{font-family:var(--font-cond);font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+    .restock-card__title{font-family:var(--font-cond);font-size:1rem;font-weight:900;text-transform:uppercase;letter-spacing:.03em;color:var(--black);line-height:1.2}
+    .restock-card__title:hover{color:var(--accent)}
+    .restock-card__retailers{display:flex;flex-direction:column;gap:.3rem;margin-top:.25rem}
+    .rc__link{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-cond);font-size:.82rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--black);background:var(--bg-alt);border:1px solid var(--border);border-radius:6px;padding:.3rem .7rem;transition:border-color .15s,background .15s}
+    .rc__link:hover{background:var(--black);color:#fff;border-color:var(--black)}
+    .rc__link--nourl{cursor:default}
+    .rc__link--nourl:hover{background:var(--bg-alt);color:var(--black);border-color:var(--border)}
+    .rc__price{color:var(--accent);margin-left:.2rem}
+    .rc__no-retailer{font-family:var(--font-cond);font-size:.8rem;color:var(--muted)}
+    /* Empty */
+    .restock-empty{text-align:center;padding:4rem 2rem;background:var(--bg-alt);border:1px solid var(--border);border-radius:var(--r)}
+    .restock-empty p{color:var(--muted);font-size:.95rem;line-height:1.7;margin:.3rem 0}
+    /* CTA */
+    .page-cta{background:var(--black);border-radius:16px;padding:2.5rem;text-align:center;color:#fff;margin-top:3rem}
+    .page-cta h3{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:.6rem}
+    .page-cta p{color:rgba(255,255,255,.6);font-size:.9rem;margin-bottom:1.5rem}
+    .btn-tg{display:inline-flex;align-items:center;gap:.5rem;background:var(--accent);color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.95rem;letter-spacing:.07em;text-transform:uppercase;padding:.8rem 1.8rem;border-radius:8px;transition:background .15s,transform .15s}
+    .btn-tg:hover{background:#cc2222;transform:translateY(-2px)}
+    /* Footer */
+    .footer{background:var(--bg-alt);border-top:1px solid var(--border);padding:2rem 0}
+    .footer__inner{display:flex;align-items:center;flex-wrap:wrap;gap:1rem;justify-content:space-between}
+    .footer__copy{font-size:.82rem;color:var(--muted);flex:1;min-width:200px}
+    .footer__links{display:flex;gap:1rem}
+    .footer__links a{font-family:var(--font-cond);font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);transition:color .15s}
+    .footer__links a:hover{color:var(--black)}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo">
+        <div class="logo__icon"><img src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="30" height="30" style="display:block"></div>
+        <span>SneakerDrop<span class="logo__fr">FR</span></span>
+      </a>
+      <div class="header__spacer"></div>
+      <nav class="header__nav">
+        <a href="/deals.html" class="hbtn hbtn--solid hbtn--hide-sm">BSTN Deals</a>
+        <a href="/sorties.html" class="hbtn hbtn--solid hbtn--hide-sm">Sorties</a>
+        <a href="/restocks.html" class="hbtn hbtn--active hbtn--hide-sm">Restocks</a>
+        <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="hbtn hbtn--tg">Telegram</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+    <div class="container">
+      <div class="page-hero">
+        <div class="page-hero__label">Sneakers</div>
+        <h1 class="page-hero__title">Restocks <span>confirmés</span></h1>
+        <p class="page-hero__sub">Toutes les paires disponibles de nouveau — Nike, Jordan, Adidas, New Balance et plus.</p>
+        <span class="page-hero__count">0 restock</span>
+      </div>
+
+      <div class="restocks-grid">
+<div class="restock-empty"><p>Aucun restock enregistré pour l'instant.</p><p>Les restocks confirmés apparaîtront ici dès qu'ils seront ajoutés.</p></div>
+      </div>
+
+      <div class="page-cta">
+        <h3>Sois le premier alerté</h3>
+        <p>Rejoins le canal Telegram — restocks, promos et drops en temps réel, 24h/24.</p>
+        <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="btn-tg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.14 13.745l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.834.814z"/></svg>
+          Rejoindre gratuitement
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="/" class="logo">
+          <div class="logo__icon" style="width:26px;height:26px"><img src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="26" height="26" style="display:block"></div>
+          <span style="font-size:1rem">SneakerDrop<span class="logo__fr">FR</span></span>
+        </a>
+        <p class="footer__copy">Veille sneakers — alertes restocks, promos et drops en temps réel.</p>
+        <div class="footer__links">
+          <a href="/sorties.html">Sorties</a>
+          <a href="/restocks.html">Restocks</a>
+          <a href="/deals.html">Deals</a>
+          <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener">Telegram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
