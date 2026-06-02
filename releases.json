@@ -187,7 +187,18 @@
       "adidas-sc-premiere-cloud-white-power-green",
       "adidas-believe-that-1-core-black"
     ],
-    "restocks": [],
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44894862967&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      }
+    ],
     "buy_url": "https://www.adidas.fr/chaussures-anthony-edwards-2/KJ1886.html",
     "colorway": "Coral Red",
     "year": 2026,
@@ -440,7 +451,18 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": [],
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44907969591&a=2855487&m=104979",
+            "price": "159,99€"
+          }
+        ]
+      }
+    ],
     "year": 2026,
     "silhouette": "Book"
   },
@@ -1897,7 +1919,18 @@
     ],
     "year": 2026,
     "silhouette": "Believe That",
-    "restocks": []
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44894862978&a=2855487&m=104979",
+            "price": "99,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
@@ -1954,7 +1987,18 @@
     "colorway": "Off White Aurora Comet",
     "year": 2026,
     "silhouette": "Adizero",
-    "restocks": []
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44896567156&a=2855487&m=104979",
+            "price": "149,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "adidas-believe-that-1-cloud-white",
@@ -1997,7 +2041,18 @@
     ],
     "year": 2026,
     "silhouette": "Believe That",
-    "restocks": []
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44896567144&a=2855487&m=104979",
+            "price": "99,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "adidas-adizero-evo-sl-exo-core-black",
@@ -2047,7 +2102,18 @@
     "colorway": "Core Black",
     "year": 2026,
     "silhouette": "Adizero",
-    "restocks": []
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44899752472&a=2855487&m=104979",
+            "price": "149,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "new-balance-mt10t-raincloud-concrete",
@@ -2111,7 +2177,18 @@
     ],
     "year": 2026,
     "silhouette": "New Balance MT10",
-    "restocks": []
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44899752386&a=2855487&m=104979",
+            "price": "139,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "new-balance-5030-grey-black",
@@ -2183,7 +2260,18 @@
     ],
     "year": 2026,
     "silhouette": "New Balance 5030",
-    "restocks": []
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44899752400&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "new-balance-1906l-fairweather-blue",
@@ -2268,7 +2356,18 @@
     "colorway": "Fairweather Blue",
     "year": 2026,
     "silhouette": "New Balance 1906",
-    "restocks": []
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44899752349&a=2855487&m=104979",
+            "price": "139,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "adidas-adizero-evo-sl-crystal-white-luta",
@@ -2403,6 +2502,17 @@
     ],
     "year": 2026,
     "silhouette": "New Balance 1906",
-    "restocks": []
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44899752366&a=2855487&m=104979",
+            "price": "139,99€"
+          }
+        ]
+      }
+    ]
   }
 ]
