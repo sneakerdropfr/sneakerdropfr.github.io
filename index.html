@@ -1273,8 +1273,36 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     if (inp) { inp.value = ''; inp.focus(); filterBySearch(''); }
     if (btn) btn.style.display = 'none';
   }
+  // Dictionnaire d'alias pour la recherche
+  var SEARCH_ALIASES = {
+    'aj1': 'air jordan 1', 'aj2': 'air jordan 2', 'aj3': 'air jordan 3',
+    'aj4': 'air jordan 4', 'aj5': 'air jordan 5', 'aj6': 'air jordan 6',
+    'aj7': 'air jordan 7', 'aj8': 'air jordan 8', 'aj9': 'air jordan 9',
+    'aj10': 'air jordan 10', 'aj11': 'air jordan 11', 'aj12': 'air jordan 12',
+    'aj13': 'air jordan 13', 'aj14': 'air jordan 14', 'aj1 low': 'air jordan 1 low',
+    'aj1 high': 'air jordan 1 high', 'aj1 mid': 'air jordan 1 mid',
+    'am1': 'air max 1', 'am90': 'air max 90', 'am95': 'air max 95',
+    'am97': 'air max 97', 'am270': 'air max 270',
+    'nb550': 'new balance 550', 'nb574': 'new balance 574',
+    'nb990': 'new balance 990', 'nb991': 'new balance 991',
+    'nb992': 'new balance 992', 'nb993': 'new balance 993',
+    'nb1906': 'new balance 1906', 'nb2002': 'new balance 2002',
+    'ow': 'off-white', 'ts': 'travis scott', 'og': 'og',
+    'dunk low': 'dunk low', 'dunk high': 'dunk high',
+  };
+  function expandAliases(q) {
+    var result = q;
+    // Remplacement exact (toute la query)
+    if (SEARCH_ALIASES[q]) return SEARCH_ALIASES[q];
+    // Remplacement partiel mot à mot
+    var words = q.split(/\s+/);
+    var expanded = words.map(function(w) { return SEARCH_ALIASES[w] || w; });
+    return expanded.join(' ');
+  }
+
   function filterBySearch(query) {
-    var q = (query || '').toLowerCase().trim();
+    var raw = (query || '').toLowerCase().trim();
+    var q = expandAliases(raw);
     window._searchQuery = q;
     var overlay = document.getElementById('search-overlay');
     var overlayGrid = document.getElementById('search-overlay-grid');
