@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 """
-bstn_restock_sync.py
-====================
-Détection automatique de restocks BSTN via le flux Awin.
+bstn_restock_sync.py — Version VPS standalone
+===============================================
+À placer dans /root/ sur le VPS.
+Tourne via cron : 0 9,19 * * * /usr/bin/python3 /root/bstn_restock_sync.py >> /var/log/bstn_restock.log 2>&1
 
 Fonctionnement :
   1. Télécharge le feed BSTN FR (FID 99343) depuis Awin
   2. Pour chaque produit en stock, extrait le SKU (colonne mpn)
-  3. Cherche ce SKU dans releases_past.json ET releases.json
-  4. Si trouvé ET aucun restock BSTN pour la date d'aujourd'hui → injecte le restock
-  5. Sauvegarde releases_past.json et releases.json mis à jour
-  6. Push sur GitHub
+  3. Lit releases_past.json ET releases.json depuis le repo GitHub via l'API
+  4. Si SKU trouvé ET pas de restock BSTN pour aujourd'hui → injecte le restock
+  5. Push les JSON modifiés sur GitHub via l'API
+  6. Régénère + push les pages HTML via generate_release_pages.py (si dispo)
 
 Format injecté :
   {"date": "YYYY-MM-DD", "retailers": [{"name": "BSTN", "url": "https://awin...", "price": "XXX€"}]}
@@ -24,19 +25,33 @@ import csv
 import io
 import os
 import sys
+import base64
+import subprocess
 import urllib.request
 import urllib.error
 from datetime import date, datetime
 
 # ── Configuration ────────────────────────────────────────────────────────────
 
-AWIN_API_KEY    = "3030aadc2e758542061a28ab8d8e68a3"
-BSTN_FEED_FID   = "99343"
-AWIN_AFFID      = "2855487"
+AWIN_API_KEY  = "3030aadc2e758542061a28ab8d8e68a3"
+BSTN_FEED_FID = "99343"
+AWIN_AFFID    = "2855487"
+
+# Token GitHub — à définir en variable d'environnement sur le VPS :
+# export GITHUB_TOKEN="ghp_xxx..."  (dans /root/.bashrc ou le crontab)
+GITHUB_TOKEN  = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_REPO   = "sneakerdropfr/sneakerdropfr.github.io"
+GITHUB_BRANCH = "main"
+
+# Chemin local du repo cloné sur le VPS (pour régénération HTML)
+# Mettre None si le repo n'est pas cloné localement
+REPO_LOCAL_PATH = "/root/sneakerdropfr.github.io"
+
+TODAY = date.today().isoformat()  # "YYYY-MM-DD"
 
 FEED_URL = (
-    f"https://productdata.awin.com/datafeed/download/apikey/{AWIN_API_KEY}"
-    f"/fid/{BSTN_FEED_FID}/format/csv/language/fr/delimiter/%2C/compression/gzip"
+    "https://productdata.awin.com/datafeed/download/apikey/" + AWIN_API_KEY +
+    "/fid/" + BSTN_FEED_FID + "/format/csv/language/fr/delimiter/%2C/compression/gzip"
     "/columns/data_feed_id%2Cmerchant_id%2Cmerchant_name%2Caw_product_id"
     "%2Caw_deep_link%2Caw_image_url%2Caw_thumb_url%2Ccategory_id%2Ccategory_name"
     "%2Cbrand_id%2Cbrand_name%2Cmerchant_product_id%2Cmerchant_category%2Cean"
@@ -54,18 +69,57 @@ FEED_URL = (
     "%2Calternate_image_four/"
 )
 
-SCRIPT_DIR        = os.path.dirname(os.path.abspath(__file__))
-RELEASES_PAST     = os.path.join(SCRIPT_DIR, "releases_past.json")
-RELEASES_ACTIVE   = os.path.join(SCRIPT_DIR, "releases.json")
-
-TODAY = date.today().isoformat()  # "YYYY-MM-DD"
-
-# ── Helpers ───────────────────────────────────────────────────────────────────
+# ── Logging ───────────────────────────────────────────────────────────────────
 
 def log(msg):
-    ts = datetime.now().strftime("%H:%M:%S")
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{ts}] {msg}", flush=True)
 
+# ── GitHub API ────────────────────────────────────────────────────────────────
+
+def github_api(method, path, body=None):
+    """Appel API GitHub REST."""
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/{path}"
+    headers = {
+        "Authorization": f"token {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github.v3+json",
+        "Content-Type": "application/json",
+        "User-Agent": "SneakerDropFR-ReStock/1.0",
+    }
+    data = json.dumps(body).encode() if body else None
+    req = urllib.request.Request(url, data=data, headers=headers, method=method)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        log(f"GitHub API error {e.code}: {e.read().decode()[:200]}")
+        raise
+
+
+def github_get_file(filepath):
+    """Récupère le contenu + SHA d'un fichier depuis GitHub."""
+    data = github_api("GET", f"contents/{filepath}?ref={GITHUB_BRANCH}")
+    content = base64.b64decode(data["content"]).decode("utf-8")
+    sha = data["sha"]
+    return json.loads(content), sha
+
+
+def github_put_file(filepath, content_str, sha, commit_message):
+    """Met à jour un fichier sur GitHub via l'API."""
+    encoded = base64.b64encode(content_str.encode("utf-8")).decode("ascii")
+    body = {
+        "message": commit_message,
+        "content": encoded,
+        "sha": sha,
+        "branch": GITHUB_BRANCH,
+        "committer": {
+            "name": "SneakerDropFR Bot",
+            "email": "melakh@hotmail.com"
+        }
+    }
+    return github_api("PUT", f"contents/{filepath}", body)
+
+# ── Feed BSTN ─────────────────────────────────────────────────────────────────
 
 def download_feed():
     """Télécharge et retourne le contenu gzip du feed BSTN."""
@@ -79,8 +133,9 @@ def download_feed():
 
 def parse_feed(gz_data):
     """
-    Parse le feed gzip CSV et retourne un dict {SKU_UPPER: first_row_in_stock}.
-    On garde un seul produit par SKU (le premier rencontré en stock).
+    Parse le feed gzip CSV.
+    Retourne dict {SKU_UPPER: {product_name, aw_deep_link, search_price, currency}}.
+    Un seul produit par SKU (premier en stock).
     """
     log("Parsing feed BSTN...")
     sku_map = {}
@@ -90,12 +145,10 @@ def parse_feed(gz_data):
         for row in reader:
             mpn = row.get('mpn', '').strip().upper()
             in_stock = row.get('in_stock', '').strip()
-
             if not mpn or in_stock != '1':
                 continue
             if mpn in sku_map:
-                continue  # garder seulement le premier
-
+                continue
             sku_map[mpn] = {
                 'product_name': row.get('product_name', '').strip(),
                 'aw_deep_link': row.get('aw_deep_link', '').strip(),
@@ -106,23 +159,13 @@ def parse_feed(gz_data):
     log(f"SKUs en stock dans le feed : {len(sku_map)}")
     return sku_map
 
-
-def load_json(path):
-    with open(path, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-
-def save_json(path, data):
-    with open(path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
+# ── Helpers ───────────────────────────────────────────────────────────────────
 
 def format_price(price_str, currency):
-    """Formater le prix : "189.99" + "EUR" → "190€"."""
+    """'189.99' + 'EUR' → '190€'  /  '189.50' → '189,50€'"""
     try:
         val = float(price_str)
         symbol = "€" if currency in ("EUR", "") else currency
-        # Arrondir si .00, sinon garder 2 décimales
         if val == int(val):
             return f"{int(val)}{symbol}"
         else:
@@ -132,7 +175,7 @@ def format_price(price_str, currency):
 
 
 def already_has_bstn_restock(restocks, today):
-    """Retourne True si un restock BSTN existe déjà pour la date today."""
+    """True si un restock BSTN existe déjà pour la date today."""
     for rs in restocks:
         if rs.get('date') != today:
             continue
@@ -143,69 +186,138 @@ def already_has_bstn_restock(restocks, today):
 
 
 def inject_restocks(releases, feed_sku_map, source_label):
-    """
-    Parcourt une liste de releases, injecte les restocks BSTN si nécessaire.
-    Retourne (releases_modifiées, nb_injections).
-    """
+    """Injecte les restocks BSTN. Retourne (releases, nb_injections)."""
     injected = 0
-
     for r in releases:
         sku = r.get('sku', '').strip().upper()
-        if not sku:
+        if not sku or sku not in feed_sku_map:
             continue
-        if sku not in feed_sku_map:
-            continue
-
         feed_entry = feed_sku_map[sku]
-
-        # Initialiser restocks si absent
         if 'restocks' not in r:
             r['restocks'] = []
-
-        # Anti-doublon : déjà un restock BSTN aujourd'hui ?
         if already_has_bstn_restock(r['restocks'], TODAY):
-            log(f"  SKIP (doublon) : {r.get('id')} — BSTN restock déjà enregistré le {TODAY}")
+            log(f"  SKIP (doublon) : {r.get('id')} — restock BSTN déjà enregistré le {TODAY}")
             continue
-
-        # Construire l'entrée restock
         price_str = format_price(feed_entry['search_price'], feed_entry.get('currency', 'EUR'))
-        restock_entry = {
+        r['restocks'].append({
             "date": TODAY,
-            "retailers": [
-                {
-                    "name": "BSTN",
-                    "url": feed_entry['aw_deep_link'],
-                    "price": price_str
-                }
-            ]
-        }
-
-        r['restocks'].append(restock_entry)
+            "retailers": [{
+                "name": "BSTN",
+                "url": feed_entry['aw_deep_link'],
+                "price": price_str
+            }]
+        })
         injected += 1
-        log(f"  ✓ Restock injecté [{source_label}] : {r.get('title', r.get('id'))} — {price_str}")
-
+        log(f"  ✓ [{source_label}] {r.get('title', r.get('id'))} — {price_str}")
     return releases, injected
 
+# ── Régénération HTML (si repo cloné localement) ─────────────────────────────
+
+def regenerate_and_push_html(all_releases, releases_past, releases_active):
+    """
+    Si le repo est cloné en local, régénère les pages HTML des releases
+    ayant un restock BSTN injecté aujourd'hui, puis git push.
+    """
+    if not REPO_LOCAL_PATH or not os.path.isdir(REPO_LOCAL_PATH):
+        log("Repo local non disponible — skip régénération HTML")
+        return
+
+    sys.path.insert(0, REPO_LOCAL_PATH)
+    try:
+        import importlib
+        grp = importlib.import_module("generate_release_pages")
+    except ImportError as e:
+        log(f"WARN : impossible d'importer generate_release_pages : {e}")
+        return
+
+    sorties_dir = os.path.join(REPO_LOCAL_PATH, "sorties")
+    os.makedirs(sorties_dir, exist_ok=True)
+
+    # Écrire les JSON mis à jour dans le repo local
+    past_path   = os.path.join(REPO_LOCAL_PATH, "releases_past.json")
+    active_path = os.path.join(REPO_LOCAL_PATH, "releases.json")
+    with open(past_path, 'w', encoding='utf-8') as f:
+        json.dump(releases_past, f, ensure_ascii=False, indent=2)
+    with open(active_path, 'w', encoding='utf-8') as f:
+        json.dump(releases_active, f, ensure_ascii=False, indent=2)
+
+    regenerated = 0
+    for r in all_releases:
+        has_today = any(
+            rs.get('date') == TODAY and
+            any(ret.get('name') == 'BSTN' for ret in rs.get('retailers', []))
+            for rs in r.get('restocks', [])
+        )
+        if not has_today:
+            continue
+        release_id = r.get('id', '')
+        if not release_id:
+            continue
+        try:
+            html = grp.render_page(r, all_releases)
+            out_path = os.path.join(sorties_dir, f"{release_id}.html")
+            with open(out_path, 'w', encoding='utf-8') as f:
+                f.write(html)
+            regenerated += 1
+        except Exception as e:
+            log(f"  WARN régénération {release_id} : {e}")
+
+    log(f"Pages HTML régénérées : {regenerated}")
+
+    if regenerated == 0:
+        return
+
+    # Git commit + push depuis le repo local
+    def run(cmd):
+        return subprocess.run(cmd, cwd=REPO_LOCAL_PATH, capture_output=True, text=True)
+
+    run(["git", "config", "user.email", "melakh@hotmail.com"])
+    run(["git", "config", "user.name", "SneakerDropFR Bot"])
+    run(["git", "add", "releases_past.json", "releases.json", "sorties/"])
+    result = run(["git", "commit", "-m",
+                  f"restock: régénération HTML BSTN — {regenerated} pages le {TODAY}"])
+    if "nothing to commit" in result.stdout + result.stderr:
+        log("Git : rien à committer pour les HTML.")
+        return
+    push = run(["git", "push"])
+    if push.returncode == 0:
+        log(f"Git push HTML réussi.")
+    else:
+        log(f"WARN git push HTML : {push.stderr.strip()}")
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    log("=== bstn_restock_sync.py démarré ===")
+    log("=" * 60)
+    log("bstn_restock_sync.py démarré")
     log(f"Date du jour : {TODAY}")
 
-    # 1. Télécharger et parser le feed
-    gz_data = download_feed()
-    feed_sku_map = parse_feed(gz_data)
+    # 1. Télécharger + parser le feed Awin BSTN
+    try:
+        gz_data = download_feed()
+    except Exception as e:
+        log(f"ERREUR téléchargement feed : {e}")
+        sys.exit(1)
 
+    feed_sku_map = parse_feed(gz_data)
     if not feed_sku_map:
         log("ERREUR : feed vide ou inaccessible. Abandon.")
         sys.exit(1)
 
-    # 2. Charger les releases
-    log("Chargement releases_past.json...")
-    releases_past = load_json(RELEASES_PAST)
-    log("Chargement releases.json...")
-    releases_active = load_json(RELEASES_ACTIVE)
+    # 2. Lire les releases depuis GitHub API
+    log("Lecture releases_past.json depuis GitHub...")
+    try:
+        releases_past, sha_past = github_get_file("releases_past.json")
+    except Exception as e:
+        log(f"ERREUR lecture releases_past.json : {e}")
+        sys.exit(1)
+
+    log("Lecture releases.json depuis GitHub...")
+    try:
+        releases_active, sha_active = github_get_file("releases.json")
+    except Exception as e:
+        log(f"ERREUR lecture releases.json : {e}")
+        sys.exit(1)
 
     # 3. Injecter les restocks
     log("--- Injection restocks releases_past.json ---")
@@ -218,103 +330,48 @@ def main():
     log(f"Total restocks injectés : {total} (past={n_past}, active={n_active})")
 
     if total == 0:
-        log("Aucun nouveau restock détecté. Pas de commit nécessaire.")
+        log("Aucun nouveau restock détecté. Rien à pusher.")
+        log("=" * 60)
         return
 
-    # 4. Sauvegarder les JSON
-    log("Sauvegarde releases_past.json...")
-    save_json(RELEASES_PAST, releases_past)
-
-    log("Sauvegarde releases.json...")
-    save_json(RELEASES_ACTIVE, releases_active)
-
-    # 5. Régénérer les pages HTML des releases concernées
-    log("Régénération pages HTML des releases avec nouveaux restocks...")
-    _regenerate_pages(releases_past, releases_active)
-
-    # 6. Git commit + push
-    log("Commit + push GitHub...")
-    _git_push(total)
-
-    log("=== bstn_restock_sync.py terminé avec succès ===")
-
-
-def _regenerate_pages(releases_past, releases_active):
-    """Régénère les pages HTML des releases ayant des restocks BSTN injectés aujourd'hui."""
-    import subprocess, sys
-
-    # Importer generate_release_pages depuis le même dossier
-    sys.path.insert(0, SCRIPT_DIR)
-    try:
-        import importlib
-        grp = importlib.import_module("generate_release_pages")
-    except ImportError as e:
-        log(f"WARN : impossible d'importer generate_release_pages : {e}")
-        return
-
-    all_releases = releases_past + releases_active
-    sorties_dir = os.path.join(SCRIPT_DIR, "sorties")
-    os.makedirs(sorties_dir, exist_ok=True)
-
-    regenerated = 0
-    for r in all_releases:
-        # Vérifier si ce release a un restock injecté aujourd'hui
-        has_today = any(
-            rs.get('date') == TODAY and
-            any(ret.get('name') == 'BSTN' for ret in rs.get('retailers', []))
-            for rs in r.get('restocks', [])
-        )
-        if not has_today:
-            continue
-
-        release_id = r.get('id', '')
-        if not release_id:
-            continue
-
+    # 4. Push releases_past.json sur GitHub
+    if n_past > 0:
+        log("Push releases_past.json → GitHub...")
         try:
-            html = grp.render_page(r, all_releases)
-            out_path = os.path.join(sorties_dir, f"{release_id}.html")
-            with open(out_path, 'w', encoding='utf-8') as f:
-                f.write(html)
-            log(f"  Page régénérée : {release_id}.html")
-            regenerated += 1
+            github_put_file(
+                "releases_past.json",
+                json.dumps(releases_past, ensure_ascii=False, indent=2),
+                sha_past,
+                f"restock: {n_past} restock(s) BSTN injecté(s) dans releases_past — {TODAY}"
+            )
+            log("releases_past.json pushé.")
         except Exception as e:
-            log(f"  WARN : échec régénération {release_id} : {e}")
+            log(f"ERREUR push releases_past.json : {e}")
+            sys.exit(1)
 
-    log(f"Pages régénérées : {regenerated}")
+    # 5. Push releases.json sur GitHub
+    if n_active > 0:
+        log("Push releases.json → GitHub...")
+        try:
+            # Relire le SHA après le push précédent si les deux fichiers ont changé
+            _, sha_active_fresh = github_get_file("releases.json")
+            github_put_file(
+                "releases.json",
+                json.dumps(releases_active, ensure_ascii=False, indent=2),
+                sha_active_fresh,
+                f"restock: {n_active} restock(s) BSTN injecté(s) dans releases — {TODAY}"
+            )
+            log("releases.json pushé.")
+        except Exception as e:
+            log(f"ERREUR push releases.json : {e}")
+            sys.exit(1)
 
+    # 6. Régénération HTML (si repo cloné localement)
+    all_releases = releases_past + releases_active
+    regenerate_and_push_html(all_releases, releases_past, releases_active)
 
-def _git_push(nb_restocks):
-    """Commit et push les modifications sur GitHub."""
-    import subprocess
-
-    def run(cmd, **kwargs):
-        result = subprocess.run(cmd, cwd=SCRIPT_DIR, capture_output=True, text=True, **kwargs)
-        if result.returncode != 0:
-            log(f"  git stderr: {result.stderr.strip()}")
-        return result
-
-    run(["git", "config", "user.email", "melakh@hotmail.com"])
-    run(["git", "config", "user.name", "SneakerDropFR Bot"])
-
-    # Ajouter tous les fichiers modifiés
-    run(["git", "add", "releases_past.json", "releases.json"])
-    # Ajouter les pages HTML régénérées
-    run(["git", "add", "sorties/"])
-
-    commit_msg = f"restock: injection automatique BSTN — {nb_restocks} restock(s) le {TODAY}"
-    result = run(["git", "commit", "-m", commit_msg])
-
-    if "nothing to commit" in result.stdout + result.stderr:
-        log("Git : rien à commiter.")
-        return
-
-    push = run(["git", "push"])
-    if push.returncode == 0:
-        log(f"Push réussi : {commit_msg}")
-    else:
-        log(f"ERREUR push : {push.stderr.strip()}")
-        sys.exit(1)
+    log(f"Terminé — {total} restock(s) BSTN enregistré(s) le {TODAY}.")
+    log("=" * 60)
 
 
 if __name__ == "__main__":
