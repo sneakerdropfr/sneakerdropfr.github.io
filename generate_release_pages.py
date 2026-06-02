@@ -277,7 +277,92 @@ def retailers_html(r: dict) -> str:
     raffles = [rt for rt in rets if rt.get("raffle") or rt.get("type")=="raffle" or rt.get("status")=="raffle"]
     resell  = [rt for rt in rets if rt.get("resell") or rt.get("type")=="resell"]
 
+    # ── Comparateur de prix ──────────────────────────────────────────────
+    def parse_price_val(p) -> float | None:
+        """Convertit '165€' ou '165' ou 165 en float."""
+        if p is None:
+            return None
+        try:
+            return float(str(p).replace('€','').replace('$','').replace(',','.').strip())
+        except Exception:
+            return None
+
+    def price_comparator_html() -> str:
+        retail_prices = [
+            (rt.get('name',''), parse_price_val(rt.get('price')))
+            for rt in rets
+            if not (rt.get('resell') or rt.get('type')=='resell')
+            and not (rt.get('raffle') or rt.get('type')=='raffle')
+            and rt.get('price')
+        ]
+        resell_prices = [
+            (rt.get('name',''), parse_price_val(rt.get('price')))
+            for rt in rets
+            if (rt.get('resell') or rt.get('type')=='resell')
+            and rt.get('price')
+        ]
+        retail_prices = [(n,v) for n,v in retail_prices if v is not None]
+        resell_prices = [(n,v) for n,v in resell_prices if v is not None]
+
+        # Besoin d'au moins 1 retail ET 1 resell avec des prix pour afficher le comparateur
+        if not retail_prices:
+            return ''
+        # Ou au moins 2 retailers retail avec prix différents
+        retail_vals = [v for _,v in retail_prices]
+        resell_vals = [v for _,v in resell_prices]
+
+        retail_min = min(retail_vals)
+        retail_max = max(retail_vals)
+
+        if resell_vals:
+            best_val = min(resell_vals)
+            best_name = next(n for n,v in resell_prices if v == best_val)
+            saving = retail_min - best_val
+            saving_html = ''
+            if saving > 0:
+                saving_html = (f'<span class="price-comparator__saving">'
+                               f'−{saving:.0f}€ vs retail</span>')
+            elif saving < 0:
+                saving_html = (f'<span class="price-comparator__saving" '
+                               f'style="background:#FCE8E6;color:#A50E0E">'
+                               f'+{abs(saving):.0f}€ vs retail</span>')
+            return (
+                '<div class="price-comparator">'
+                '<div class="price-comparator__best">'
+                '<span class="price-comparator__label">Prix retail</span>'
+                f'<span class="price-comparator__value">{retail_min:.0f}€</span>'
+                '</div>'
+                '<div class="price-comparator__sep"></div>'
+                '<div class="price-comparator__best">'
+                '<span class="price-comparator__label">Meilleur prix</span>'
+                f'<span class="price-comparator__value price-comparator__value--accent">{best_val:.0f}€</span>'
+                '</div>'
+                f'{saving_html}'
+                f'<span class="price-comparator__source">{escape(best_name)}</span>'
+                '</div>'
+            )
+        elif len(set(retail_vals)) > 1:
+            # Plusieurs retailers retail avec prix différents : afficher le min
+            best_val = retail_min
+            best_name = next(n for n,v in retail_prices if v == best_val)
+            return (
+                '<div class="price-comparator">'
+                '<div class="price-comparator__best">'
+                '<span class="price-comparator__label">Prix retail</span>'
+                f'<span class="price-comparator__value">{retail_max:.0f}€</span>'
+                '</div>'
+                '<div class="price-comparator__sep"></div>'
+                '<div class="price-comparator__best">'
+                '<span class="price-comparator__label">Meilleur prix</span>'
+                f'<span class="price-comparator__value price-comparator__value--accent">{best_val:.0f}€</span>'
+                '</div>'
+                f'<span class="price-comparator__source">{escape(best_name)}</span>'
+                '</div>'
+            )
+        return ''
+
     html = '<section class="article__retailers"><h2>Où <span>acheter</span></h2>'
+    html += price_comparator_html()
 
     if retail:
         shown3 = retail[:3]
@@ -427,6 +512,14 @@ PAGE_TMPL = """<!DOCTYPE html>
     .retailers-voir-tout{{font-family:var(--font-cond);font-size:.7rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;padding:.4rem .9rem;border:1.5px dashed #ccc;border-radius:4px;background:none;color:#888;cursor:pointer;margin-top:.5rem;display:inline-block;}}
     .retailers-voir-tout:hover{{border-color:#000;color:#000;}}
     .retailers-accordion{{margin-top:.3rem;}}
+    .price-comparator{{background:linear-gradient(135deg,#0A0A0A 0%,#1a1a1a 100%);border-radius:12px;padding:1.1rem 1.4rem;margin-bottom:1.25rem;display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap}}
+    .price-comparator__best{{display:flex;flex-direction:column}}
+    .price-comparator__label{{font-family:var(--font-cond);font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:.15rem}}
+    .price-comparator__value{{font-family:var(--font-display);font-size:1.6rem;color:#fff;line-height:1}}
+    .price-comparator__value--accent{{color:var(--accent)}}
+    .price-comparator__sep{{width:1px;height:36px;background:rgba(255,255,255,.15);flex-shrink:0}}
+    .price-comparator__saving{{display:inline-flex;align-items:center;gap:.35rem;background:#E6F4EA;color:#137333;font-family:var(--font-cond);font-size:.8rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .75rem;border-radius:999px}}
+    .price-comparator__source{{font-family:var(--font-cond);font-size:.75rem;color:rgba(255,255,255,.45);margin-left:auto}}
     .related{{margin-bottom:2.5rem}}
     .related h2{{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:1rem}}
     .related h2 span{{color:var(--accent)}}

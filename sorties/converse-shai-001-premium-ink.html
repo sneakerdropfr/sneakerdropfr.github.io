@@ -91,6 +91,14 @@
     .retailers-voir-tout{font-family:var(--font-cond);font-size:.7rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;padding:.4rem .9rem;border:1.5px dashed #ccc;border-radius:4px;background:none;color:#888;cursor:pointer;margin-top:.5rem;display:inline-block;}
     .retailers-voir-tout:hover{border-color:#000;color:#000;}
     .retailers-accordion{margin-top:.3rem;}
+    .price-comparator{background:linear-gradient(135deg,#0A0A0A 0%,#1a1a1a 100%);border-radius:12px;padding:1.1rem 1.4rem;margin-bottom:1.25rem;display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap}
+    .price-comparator__best{display:flex;flex-direction:column}
+    .price-comparator__label{font-family:var(--font-cond);font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:.15rem}
+    .price-comparator__value{font-family:var(--font-display);font-size:1.6rem;color:#fff;line-height:1}
+    .price-comparator__value--accent{color:var(--accent)}
+    .price-comparator__sep{width:1px;height:36px;background:rgba(255,255,255,.15);flex-shrink:0}
+    .price-comparator__saving{display:inline-flex;align-items:center;gap:.35rem;background:#E6F4EA;color:#137333;font-family:var(--font-cond);font-size:.8rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .75rem;border-radius:999px}
+    .price-comparator__source{font-family:var(--font-cond);font-size:.75rem;color:rgba(255,255,255,.45);margin-left:auto}
     .related{margin-bottom:2.5rem}
     .related h2{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:1rem}
     .related h2 span{color:var(--accent)}
@@ -171,7 +179,7 @@
         <div>La <strong>Converse Shai 001 Premium Ink</strong> disponible dans le coloris <strong>Ink</strong>. Elle sort le <strong>jeudi 14 mai 2026</strong> au prix retail de <strong>150.0 €</strong>. Elle est disponible chez <strong>GOAT</strong> et <strong>StockX</strong>.</div>
       </div>
 
-      <section class="article__retailers"><h2>Où <span>acheter</span></h2><div class="retailers-section"><h3 class="retailers-section__title">Retail</h3><div class="retailers-list"><a class="retailer" href="https://www.goat.com" target="_blank" rel="noopener nofollow sponsored"><span class="retailer__name">GOAT</span><span class="retailer__price">158€</span><span class="retailer__badge retailer__badge--retail">Retail</span><span class="retailer__arrow">→</span></a><a class="retailer" href="https://stockx.com/fr-fr" target="_blank" rel="noopener nofollow sponsored"><span class="retailer__name">StockX</span><span class="retailer__price">191€</span><span class="retailer__badge retailer__badge--retail">Retail</span><span class="retailer__arrow">→</span></a></div></div></section>
+      <section class="article__retailers"><h2>Où <span>acheter</span></h2><div class="price-comparator"><div class="price-comparator__best"><span class="price-comparator__label">Prix retail</span><span class="price-comparator__value">191€</span></div><div class="price-comparator__sep"></div><div class="price-comparator__best"><span class="price-comparator__label">Meilleur prix</span><span class="price-comparator__value price-comparator__value--accent">158€</span></div><span class="price-comparator__source">GOAT</span></div><div class="retailers-section"><h3 class="retailers-section__title">Retail</h3><div class="retailers-list"><a class="retailer" href="https://www.goat.com" target="_blank" rel="noopener nofollow sponsored"><span class="retailer__name">GOAT</span><span class="retailer__price">158€</span><span class="retailer__badge retailer__badge--retail">Retail</span><span class="retailer__arrow">→</span></a><a class="retailer" href="https://stockx.com/fr-fr" target="_blank" rel="noopener nofollow sponsored"><span class="retailer__name">StockX</span><span class="retailer__price">191€</span><span class="retailer__badge retailer__badge--retail">Retail</span><span class="retailer__arrow">→</span></a></div></div></section>
     
 
       
