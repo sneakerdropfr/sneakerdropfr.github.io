@@ -1625,5 +1625,70 @@
     "year": "2026",
     "retailers": [],
     "restocks": []
+  },
+  {
+    "id": "air-jordan-15-muslin-black-2026",
+    "title": "Air Jordan 15 \"Muslin/Black\"",
+    "brand": "Jordan Brand",
+    "colorway": "Muslin / Black / Muslin",
+    "sku": "IV7637-100",
+    "date": "2026-06-06",
+    "price": 255,
+    "image_url": "",
+    "buy_url": "",
+    "source": "manual",
+    "added_at": "2026-06-03T16:25:54.423895Z"
+  },
+  {
+    "id": "air-jordan-1-low-og-sail-2026",
+    "title": "Air Jordan 1 Low OG \"Sail\"",
+    "brand": "Jordan Brand",
+    "colorway": "Sail / University Red / Sail",
+    "sku": "HQ6998-100",
+    "date": "2026-06-06",
+    "price": 145,
+    "image_url": "",
+    "buy_url": "",
+    "source": "manual",
+    "added_at": "2026-06-03T16:25:54.423909Z"
+  },
+  {
+    "id": "air-jordan-3-bin-23-2026",
+    "title": "Air Jordan 3 \"Bin 23\"",
+    "brand": "Jordan Brand",
+    "colorway": "Team Red / Burgundy Crush / Coconut Milk / Metallic Gold",
+    "sku": "IO7744-600",
+    "date": "2026-06-13",
+    "price": 355,
+    "image_url": "",
+    "buy_url": "",
+    "source": "manual",
+    "added_at": "2026-06-03T16:25:54.423915Z"
+  },
+  {
+    "id": "air-jordan-5-black-university-blue-2026",
+    "title": "Air Jordan 5 \"Black/University Blue\"",
+    "brand": "Jordan Brand",
+    "colorway": "Black / University Blue / White",
+    "sku": "DD0587-008",
+    "date": "2026-06-20",
+    "price": 215,
+    "image_url": "",
+    "buy_url": "",
+    "source": "manual",
+    "added_at": "2026-06-03T16:25:54.423920Z"
+  },
+  {
+    "id": "jaide-air-jordan-11-low-fiberglass-2026",
+    "title": "JAIDE x Air Jordan 11 Low \"Fiberglass\"",
+    "brand": "Jordan Brand",
+    "colorway": "Fiberglass / White / Black",
+    "sku": "IW1882-300",
+    "date": "2026-06-27",
+    "price": 205,
+    "image_url": "",
+    "buy_url": "",
+    "source": "manual",
+    "added_at": "2026-06-03T16:25:54.423924Z"
   }
 ]
