@@ -1,39 +1,83 @@
 [
   {
-    "id": "the-nike-air-max-95-knicks-is-a-kith-preorder-exclusive",
-    "title": "The Nike Air Max 95 “Knicks” Is A Kith Preorder Exclusive",
-    "brand": "Nice Kicks Releases",
-    "colorway": "",
+    "id": "air-jordan-3-white-cement-returns-summer-2027",
+    "title": "Air Jordan 3 “White Cement” Returns Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "White",
     "date": "TBD",
     "price": null,
-    "image_url": "https://www.nicekicks.com/files/2026/06/IMG_2978-1-rotated-e1780502190258.jpg",
-    "buy_url": "https://www.nicekicks.com/kith-nike-air-max-95-bb-knicks/",
-    "source": "Nice Kicks Releases",
-    "added_at": "2026-06-03T16:08:29.243600+00:00"
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/03/air-jordan-3-white-cement-2027-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=air jordan 3&amp;vst=air jordan 3",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-02T23:04:45.339657+00:00",
+    "silhouette": "Air Jordan 3",
+    "year": 2027
   },
   {
-    "id": "apb-x-air-jordan-11-low-pack-releases-september-2026",
-    "title": "APB x Air Jordan 11 Low Pack Releases September 2026",
+    "id": "virgil-abloh-archive-x-nike-cryoshot-zoom-m9-releases-june-2",
+    "title": "Virgil Abloh Archive x Nike Cryoshot Zoom M9",
     "brand": "Sneaker Files",
-    "colorway": "",
+    "colorway": "White/University Red/Black",
     "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/apb-air-jordan-11-low-pack-2026-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
+    "price": "$210",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/vaa-nike-cryoshot-zoom-m9-IM3886-100-1024x725.jpg",
+    "buy_url": null,
     "source": "Sneaker Files",
-    "added_at": "2026-06-03T07:56:46.556103+00:00"
+    "added_at": "2026-06-01T22:01:38.484112+00:00",
+    "silhouette": "Cryoshot",
+    "year": 2026,
+    "restocks": []
   },
   {
-    "id": "apb-x-nike-dunk-low-pack-releases-fall-2026",
-    "title": "APB x Nike Dunk Low Pack Releases Fall 2026",
+    "id": "patta-x-nike-cryoshot-mercurial-vapor-r9-releases-june-2026",
+    "title": "Patta x Nike Cryoshot Mercurial Vapor R9",
     "brand": "Sneaker Files",
-    "colorway": "",
+    "colorway": "Metallic Silver/Black/Anthracite/Hyper Crimson",
+    "date": "TBD",
+    "price": "$210",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/patta-nike-cryoshot-mercurial-vapor-r9-IM0589-001-1024x725.jpg",
+    "buy_url": null,
+    "source": "Sneaker Files",
+    "added_at": "2026-06-01T21:45:43.779948+00:00",
+    "silhouette": "Cryoshot",
+    "year": 2026,
+    "restocks": []
+  },
+  {
+    "id": "palace-x-nike-cryoshot-air-speed-m-releases-june-2026",
+    "title": "Palace x Nike Cryoshot Air Speed M",
+    "brand": "Sneaker Files",
+    "colorway": "White/Sport Royal/University Red",
     "date": "TBD",
     "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/apb-nike-dunk-low-pack-1024x725.jpg",
-    "buy_url": "https://www.sneakerfiles.com/apb-nike-dunk-low-pack/",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/palace-skateboards-nike-cryoshot-air-speed-m-IM0702-001-1024x725.jpg",
+    "buy_url": null,
     "source": "Sneaker Files",
-    "added_at": "2026-06-03T07:41:04.008612+00:00"
+    "added_at": "2026-06-01T21:35:07.224945+00:00",
+    "silhouette": "Cryoshot",
+    "year": 2026,
+    "restocks": []
+  },
+  {
+    "id": "nocta-x-nike-cryoshot-tiempo-94-releases-june-2026",
+    "title": "NOCTA x Nike Cryoshot Tiempo ’94",
+    "brand": "Nike",
+    "colorway": "University Gold/Black",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/nocta-nike-cryoshot-tiempo-94-IM0703-700-1024x725.jpg",
+    "buy_url": null,
+    "source": "Sneaker Files",
+    "added_at": "2026-06-01T19:37:26.876367+00:00",
+    "similar_products": [
+      "nike-pegasus-premium-sp-black-sail",
+      "nike-pegasus-premium-sp-white-black",
+      "nike-air-max-90-infrared-3m-2026",
+      "mcdonald-s-x-nike-book-2-sedona-releases-june-2026"
+    ],
+    "silhouette": "Cryoshot",
+    "year": 2026,
+    "restocks": []
   },
   {
     "id": "new-balance-5030-black-silver",
@@ -296,238 +340,100 @@
     "silhouette": "Adizero"
   },
   {
-    "id": "asics-gel-kayano-121-piedmont-grey-gravel",
-    "title": "Asics Gel-Kayano 12.1 Piedmont Grey Gravel",
-    "brand": "Asics",
+    "id": "nike-air-max-90-infrared-3m-2026",
+    "title": "Nike Air Max 90 Infrared 3M 2026",
+    "brand": "Nike",
     "date": "2026-05-31",
-    "price": 180,
-    "image_url": "https://statics.whentocop.fr/media/YKFGYLSBJr4G/tmpasics-gel-kayano-12-1-piedmont-grey-gravel-1203a759-021-2-small-500x500.webp?width=3840&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/asics-gel-kayano-12-1-piedmont-grey-gravel-1203a759-021",
-    "sku": "1203A759-021",
+    "price": 150,
+    "currency": "EUR",
+    "image": "https://statics.whentocop.fr/drops/18933/picture_360/tmp000000_Nike-Air-Max-90_Infrared_IU1055-100_img0-2000x2000.webp",
     "retailers": [
       {
-        "name": "Asics",
-        "url": "https://www.asics.com/fr",
-        "price": "180€",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "150€",
         "resell": false,
         "raffle": false
       },
       {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "276€",
-        "resell": true,
-        "raffle": false
-      }
-    ],
-    "hype_score": 0,
-    "colorway": "Piedmont Grey/Gravel",
-    "similar_products": [
-      "asics-gel-kayano-121-cream-smoke-grey",
-      "asics-gel-nyc-20-lake-grey-piedmont-grey",
-      "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
-      "asics-gel-cumulus-16-lake-grey-pure-silver"
-    ],
-    "year": 2026,
-    "silhouette": "Gel-Kayano",
-    "restocks": []
-  },
-  {
-    "id": "asics-gel-kayano-121-cream-smoke-grey",
-    "title": "Asics Gel-Kayano 12.1 Cream Smoke Grey",
-    "brand": "Asics",
-    "date": "2026-05-31",
-    "price": 180,
-    "image_url": "https://statics.whentocop.fr/media/OUlC7pO42Db8/tmpasics-gel-kayano-121-cream-smoke-grey-1203a759-108-4-small-500x500.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/asics-gel-kayano-12-1-cream-smoke-grey-1203a759-108",
-    "sku": "1203A759-108",
-    "retailers": [
-      {
-        "name": "Asics",
-        "url": "https://www.asics.com/fr",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "43einhalb",
-        "url": "https://www.43einhalb.com",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "275€",
-        "resell": true,
-        "raffle": false
-      }
-    ],
-    "hype_score": 0,
-    "colorway": "Piedmont Grey/Gravel",
-    "similar_products": [
-      "asics-gel-kayano-121-piedmont-grey-gravel",
-      "asics-gel-nyc-20-lake-grey-piedmont-grey",
-      "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
-      "asics-gel-cumulus-16-lake-grey-pure-silver"
-    ],
-    "year": 2026,
-    "silhouette": "Gel-Kayano",
-    "restocks": []
-  },
-  {
-    "id": "new-balance-1906l-fairweather-blue",
-    "title": "New Balance 1906l Fairweather Blue",
-    "brand": "New Balance",
-    "date": "2026-05-31",
-    "price": 139.0,
-    "image_url": "https://statics.whentocop.fr/media/cC9dn6dzyxfX/tmpNew-Balance-1906L_Fairweather-Blue_U19062XN_img0-small-500x500.webp?width=3840&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1906l-fairweather-blue-u19062xn",
-    "sku": "U19062XN",
-    "retailers": [
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2F",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "43einhalb",
-        "url": "https://www.43einhalb.com",
-        "price": "140€",
+        "name": "Slam Jam",
+        "url": "https://www.slamjam.com",
+        "price": "150€",
         "resell": false,
         "raffle": false
       },
       {
         "name": "Afew",
         "url": "https://www.afew-store.com",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Offspring",
-        "url": "https://www.offspring.co.uk",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Naked",
-        "url": "https://www.nakedcph.com",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "HHV",
-        "url": "https://www.hhv.de",
-        "price": "140€",
+        "price": "150€",
         "resell": false,
         "raffle": false
       },
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
-        "price": "191€",
+        "price": "186€",
         "resell": true,
         "raffle": false
       }
     ],
-    "hype_score": 15,
+    "image_url": "https://statics.whentocop.fr/drops/18933/picture_360/tmp000000_Nike-Air-Max-90_Infrared_IU1055-100_img0-2000x2000.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-infrared-2026-iu1055-100",
+    "sku": "IU1055-100",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 25,
     "similar_products": [
-      "new-balance-1906l-rosewood",
-      "new-balance-numeric-933-marblehead-island-blue",
-      "new-balance-5030-black-silver"
+      "nike-air-max-90-cool-grey",
+      "nike-air-max-90-photon-dust-blue-cyber",
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt"
     ],
-    "colorway": "Fairweather Blue",
+    "restocks": [],
+    "colorway": "Infrared 3M",
     "year": 2026,
-    "silhouette": "New Balance 1906",
-    "restocks": [
-      {
-        "date": "2026-06-02",
-        "retailers": [
-          {
-            "name": "BSTN",
-            "url": "https://www.awin1.com/pclick.php?p=44899752349&a=2855487&m=104979",
-            "price": "139,99€"
-          }
-        ]
-      }
-    ]
+    "silhouette": "Air Max 90"
   },
   {
-    "id": "adidas-adizero-evo-sl-crystal-white-luta",
-    "title": "Adidas Adizero Evo Sl Crystal White Luta",
+    "id": "adidas-adizero-prime-x-evo-cloud-white",
+    "title": "Adidas Adizero Prime X Evo Cloud White",
     "brand": "Adidas",
     "date": "2026-05-31",
-    "price": 150,
-    "image_url": "https://statics.whentocop.fr/media/xDxAko6EFLPA/tmpadidas-adizero-evo-sl-m-crystal-white-luta-iron-metallic-kj2521-4-small-500x500.webp?width=3840&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-crystal-white-luta-kj2521",
-    "sku": "KJ2521",
+    "price": 500,
+    "currency": "EUR",
+    "image": "https://statics.whentocop.fr/drops/16768/picture/adidas-adizero-prime-x-evo-cloud-white-kh7677_1lPNIr-2000x2000.webp?width=750&quality=75&format=auto",
     "retailers": [
       {
         "name": "Adidas",
         "url": "https://www.adidas.fr",
-        "price": "150€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "150€",
+        "price": "500€",
         "resell": false,
         "raffle": false
       },
       {
         "name": "StockX",
         "url": "https://stockx.com/fr-fr",
-        "price": "185€",
+        "price": "1013€",
         "resell": true,
         "raffle": false
       }
     ],
-    "hype_score": 15,
+    "image_url": "https://statics.whentocop.fr/drops/16768/picture/adidas-adizero-prime-x-evo-cloud-white-kh7677_1lPNIr-2000x2000.webp?width=750&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-prime-x-evo-cloud-white-kh7677",
+    "sku": "KH7677",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 28,
     "similar_products": [
       "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
-      "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
-      "adidas-adizero-evo-sl-exo-core-black"
+      "adidas-tangum-white-power-green",
+      "adidas-sc-premiere-cloud-white-power-green",
+      "adidas-powerphase-cloud-white-power-green"
     ],
-    "colorway": "Crystal White Luta",
+    "restocks": [],
+    "colorway": "Cloud White / Core Black / Lucid Red",
     "year": 2026,
-    "silhouette": "Adizero",
-    "restocks": []
+    "silhouette": "Adizero"
   },
   {
     "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
@@ -896,141 +802,6 @@
     "silhouette": "Air Max 90"
   },
   {
-    "id": "nike-mind-001-flyknit-hyper-royal",
-    "title": "Nike Mind 001 Flyknit Hyper Royal",
-    "brand": "Nike",
-    "date": "2026-06-05",
-    "price": 90,
-    "image_url": "https://statics.whentocop.fr/media/unGtpbgmmflr/tmpnike-mind-001-flyknit-hyper-royal-ir2175-400-small-500x500.webp?width=384&quality=75&format=auto",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
-    "buy_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.solebox.com",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Footshop",
-        "url": "https://www.footshop.eu",
-        "price": "90€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "162€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "217€",
-        "resell": true,
-        "raffle": false
-      }
-    ],
-    "sku": "IR2175-400",
-    "sku_source": "manual",
-    "sku_confidence": 100,
-    "hype_score": 30,
-    "similar_products": [
-      "nike-mind-001-flyknit-bronze-eclipse"
-    ],
-    "restocks": [],
-    "colorway": "Bronze Eclipse",
-    "year": 2026,
-    "silhouette": "Mind"
-  },
-  {
-    "id": "lego-x-nike-dunk-low-gs-bright-concord",
-    "title": "LEGO x Nike Dunk Low GS Bright Concord",
-    "date": "2026-06-04",
-    "price": "105€",
-    "sku": "IF2117-102",
-    "brand": "Nike",
-    "colorway": "Violet,Blanc",
-    "image_url": "https://statics.whentocop.fr/drops/20724/picture/000000_Nike-Dunk-Low-x-LEGO-Collection-GS_Bright-Concord_IF2117-102_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "lego-x-nike-air-max-95-gs-brick-pixel",
-    "title": "LEGO x Nike Air Max 95 GS Brick Pixel",
-    "date": "2026-06-04",
-    "price": "150€",
-    "sku": "IO4799-001",
-    "brand": "Nike",
-    "colorway": "Gris,Rose",
-    "image_url": "https://statics.whentocop.fr/drops/20725/picture/000000_Nike-Air-Max-95-x-LEGO-GS_Brick-Pixel_IO4799-001_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "adidas-samba-bowling-core-black",
-    "title": "adidas Samba Bowling Core Black",
-    "date": "2026-06-04",
-    "price": "160€",
-    "sku": "KI9995",
-    "brand": "Adidas",
-    "colorway": "Noir",
-    "image_url": "https://statics.whentocop.fr/drops/20739/picture/000000_adidas-Samba-Bowling_Core-Black_KI9995_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "salehe-bembury-x-puma-velum-nitro-toasted-almond-sand-dune",
-    "title": "Salehe Bembury x Puma Velum Nitro Toasted Almond Sand Dune",
-    "date": "2026-06-04",
-    "price": "160€",
-    "sku": "409419-01",
-    "brand": "Puma",
-    "colorway": "Beige,Marron",
-    "image_url": "https://statics.whentocop.fr/drops/20742/gallery/000000_Puma-x-Salehe-Bembury-Velum-NITRO_Toasted-Almond-Sand-Dune_409419-01_img3-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "adidas-samba-bowling-leopard",
-    "title": "adidas Samba Bowling Leopard",
-    "date": "2026-06-04",
-    "price": "160€",
-    "sku": "KK2824",
-    "brand": "Adidas",
-    "colorway": "Noir",
-    "image_url": "https://statics.whentocop.fr/drops/20744/picture/000000_adidas-Samba-Bowling_Leopard_KK2824_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
     "id": "nike-mind-001-flyknit-bronze-eclipse",
     "title": "Nike Mind 001 Flyknit Bronze Eclipse",
     "brand": "Nike",
@@ -1090,6 +861,61 @@
     "colorway": "Bronze Eclipse",
     "year": 2026,
     "silhouette": "Mind"
+  },
+  {
+    "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
+    "title": "Air Jordan 1 Low OG “Phantom Pine Green”",
+    "brand": "Jordan",
+    "colorway": "Phantom and Pine Green",
+    "date": "2026-06-06",
+    "price": "159.99€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-1-low-og-phantom-pine-green-IR2283-030-1024x725.jpg",
+    "buy_url": "https://www.nike.com/fr/launch/t/air-jordan-1-low-og-phantom-and-pine-green",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-29T00:09:57.841600+00:00",
+    "sku": "IR2283-030",
+    "sku_source": "sneakerbardetroit",
+    "sku_confidence": "confirmed",
+    "hype_score": 35,
+    "similar_products": [
+      "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
+      "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
+      "air-jordan-1-low-og-sail-releases-summer-2026",
+      "air-jordan-3-retro-worlds-best-dad"
+    ],
+    "restocks": [],
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch/t/air-jordan-1-low-og-phantom-and-pine-green",
+        "price": "159.99€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.footlocker.fr",
+        "price": "159.99€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "JD Sports",
+        "url": "https://www.jdsports.fr",
+        "price": "159.99€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-1-low-og-phantom-pine-green",
+        "price": "194€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "year": 2026,
+    "silhouette": "Air Jordan 1 Low"
   },
   {
     "id": "adidas-tangum-white-power-green",
@@ -1295,103 +1121,6 @@
     "silhouette": "Adidas Powerphase"
   },
   {
-    "id": "hidden-ny-x-asics-gel-kinetic-20-white-castlerock",
-    "title": "Hidden NY x Asics Gel-Kinetic 2.0 White Castlerock",
-    "date": "2026-06-05",
-    "price": "280€",
-    "sku": "1203B169-100",
-    "brand": "Asics",
-    "colorway": "Blanc",
-    "image_url": "https://statics.whentocop.fr/drops/20737/picture/000000_Hidden-NY-x-ASICS-Gel-Kinetic-2.0_White-Castlerock_1203B169-100_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
-    "title": "Air Jordan 1 Low OG “Phantom Pine Green”",
-    "brand": "Jordan",
-    "colorway": "Phantom and Pine Green",
-    "date": "2026-06-06",
-    "price": "159.99€",
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-1-low-og-phantom-pine-green-IR2283-030-1024x725.jpg",
-    "buy_url": "https://www.nike.com/fr/launch/t/air-jordan-1-low-og-phantom-and-pine-green",
-    "source": "Sneaker Files",
-    "added_at": "2026-05-29T00:09:57.841600+00:00",
-    "sku": "IR2283-030",
-    "sku_source": "sneakerbardetroit",
-    "sku_confidence": "confirmed",
-    "hype_score": 35,
-    "similar_products": [
-      "travis-scott-x-air-jordan-1-low-og-sp-tropical-pink",
-      "travis-scott-x-air-jordan-1-low-og-sp-shy-pink",
-      "air-jordan-1-low-og-sail-releases-summer-2026",
-      "air-jordan-3-retro-worlds-best-dad"
-    ],
-    "restocks": [],
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch/t/air-jordan-1-low-og-phantom-and-pine-green",
-        "price": "159.99€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Foot Locker",
-        "url": "https://www.footlocker.fr",
-        "price": "159.99€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "JD Sports",
-        "url": "https://www.jdsports.fr",
-        "price": "159.99€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-1-low-og-phantom-pine-green",
-        "price": "194€",
-        "resell": true,
-        "raffle": false
-      }
-    ],
-    "year": 2026,
-    "silhouette": "Air Jordan 1 Low"
-  },
-  {
-    "id": "coca-cola-x-adidas-samba-og-red-core-black",
-    "title": "Coca-Cola x adidas Samba OG Red Core Black",
-    "date": "2026-06-06",
-    "price": "120€",
-    "sku": "KH6893",
-    "brand": "Adidas",
-    "colorway": "Rouge,Noir",
-    "image_url": "https://statics.whentocop.fr/drops/20741/picture/000000_Coca-Cola-x-adidas-Samba-OG_Red-Core-Black-Cloud-White_KH6893_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "adidas-stan-smith-80s-white-green",
-    "title": "adidas Stan Smith 80s WHITE GREEN",
-    "date": "2026-06-06",
-    "price": "130€",
-    "sku": "IF0202",
-    "brand": "Adidas",
-    "colorway": "Blanc,Vert",
-    "image_url": "https://statics.whentocop.fr/drops/16248/picture/208855_adidas-Stan-Smith-80s_WHITE-GREEN_IF0202_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
     "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
     "title": "Nike Air Max 1 City Connect “Baltimore Orioles”",
     "brand": "Nike",
@@ -1417,278 +1146,1284 @@
     "silhouette": "Air Max 1"
   },
   {
-    "id": "adidas-samba-jane-wmns-halo-green-warm-vanilla",
-    "title": "adidas Samba Jane WMNS Halo Green Warm Vanilla",
-    "date": "2026-06-08",
-    "price": "90€",
-    "sku": "LA7837",
-    "brand": "Adidas",
-    "colorway": "Vert",
-    "image_url": "https://statics.whentocop.fr/drops/20770/picture/000000_adidas-Samba-Jane-WMNS_Halo-Green-Warm-Vanilla_LA7837_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-001-sail",
-    "title": "Nike Mind 001 Sail",
-    "date": "2026-06-08",
-    "price": "90€",
-    "sku": "HQ4309-100",
+    "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
+    "title": "Nike Air Max 1 City Connect “Kansas City Royals”",
     "brand": "Nike",
-    "colorway": "Beige",
-    "image_url": "https://statics.whentocop.fr/drops/19879/picture/Nike-Mind-001_Sail_HQ4309-100_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
+    "colorway": "White/Vivid Grape/Soar",
+    "date": "2026-06-09",
+    "price": 140,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-kansas-city-royal-IQ2916-100-1024x725.jpg",
+    "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-kansas-city-royals/",
+    "source": "Sneaker Files",
+    "added_at": "2026-05-29T00:09:42.864231+00:00",
+    "sku": "IQ2916-100",
+    "sku_source": "sneakerbardetroit",
+    "sku_confidence": "confirmed",
+    "hype_score": 10,
+    "similar_products": [
+      "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt"
+    ],
+    "restocks": [],
+    "year": 2026,
+    "silhouette": "Air Max 1"
   },
   {
-    "id": "nike-mind-002-wmns-football-grey",
-    "title": "Nike Mind 002 WMNS Football Grey",
-    "date": "2026-06-08",
-    "price": "140€",
-    "sku": "HQ4310-002",
+    "id": "nike-kd-19-field-purple-releases-june-2026",
+    "title": "Nike KD 19 “Field Purple”",
     "brand": "Nike",
-    "colorway": "Gris",
-    "image_url": "https://statics.whentocop.fr/drops/19178/picture_360/tmp000000_Nike-Mind-002-WMNS_Football-Grey_HQ4310-002_img0-2000x2000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-002-thunder-blue",
-    "title": "Nike Mind 002 Thunder Blue",
-    "date": "2026-06-08",
-    "price": "140€",
-    "sku": "HQ4308-400",
-    "brand": "Nike",
-    "colorway": "Bleu",
-    "image_url": "https://statics.whentocop.fr/drops/19179/picture/Nike-Mind-002_Thunder-Blue_HQ4308-400_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-002-wmns-sail-hyper-crimson",
-    "title": "Nike Mind 002 WMNS Sail Hyper Crimson",
-    "date": "2026-06-08",
-    "price": "140€",
-    "sku": "HQ4310-100",
-    "brand": "Nike",
-    "colorway": "Blanc,Orange",
-    "image_url": "https://statics.whentocop.fr/drops/19180/picture/000000_Nike-Mind-002-WMNS_SAIL-HYPER-CRIMSON_HQ4310-100_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-002-black-hyper-crimson",
-    "title": "Nike Mind 002 Black Hyper Crimson",
-    "date": "2026-06-08",
-    "price": "140€",
-    "sku": "HQ4308-001",
-    "brand": "Nike",
-    "colorway": "Noir",
-    "image_url": "https://statics.whentocop.fr/drops/18339/picture_360/tmp201E1F_Nike-Mind-002_Black-Hyper-Crimson_HQ4308-001_img0-2000x2000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-002-wmns-light-violet-ore",
-    "title": "Nike Mind 002 WMNS Light Violet Ore",
-    "date": "2026-06-08",
-    "price": "140€",
-    "sku": "HQ4310-200",
-    "brand": "Nike",
-    "colorway": "Violet",
-    "image_url": "https://statics.whentocop.fr/drops/18337/picture/816772_Nike-Mind-002-WMNS_Light-Violet-Ore_HQ4310-200_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-001-wmns-barely-green",
-    "title": "Nike Mind 001 WMNS Barely Green",
-    "date": "2026-06-08",
-    "price": "90€",
-    "sku": "HQ4309-300",
-    "brand": "Nike",
-    "colorway": "Vert",
-    "image_url": "https://statics.whentocop.fr/drops/17762/gallery/Nike-Mind-001-WMNS_BARELY-GREEN_HQ4309-300_img1-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-001-backened-blue",
-    "title": "Nike Mind 001 Backened Blue",
-    "date": "2026-06-08",
-    "price": "90€",
-    "sku": "HQ4307-400",
-    "brand": "Nike",
-    "colorway": "Marine",
-    "image_url": "https://statics.whentocop.fr/drops/17761/gallery/Nike-Mind-001_BACKENED-BLUE_HQ4307-400_img5-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-001-white-speed-red",
-    "title": "Nike Mind 001 White Speed Red",
-    "date": "2026-06-08",
-    "price": "90€",
-    "sku": "HQ4307-101",
-    "brand": "Nike",
-    "colorway": "Blanc",
-    "image_url": "https://statics.whentocop.fr/drops/17757/gallery/Nike-Mind-001_White-Speed-Red_HQ4307-101_img1-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-001-mineral-slate",
-    "title": "Nike Mind 001 Mineral Slate",
-    "date": "2026-06-08",
-    "price": "90€",
-    "sku": "HQ4307-300",
-    "brand": "Nike",
-    "colorway": "Vert",
-    "image_url": "https://statics.whentocop.fr/drops/17557/picture/Nike-Mind-001_Mineral-Slate_HQ4307-300_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-002-wmns-light-smoke-grey",
-    "title": "Nike Mind 002 WMNS Light Smoke Grey",
-    "date": "2026-06-08",
-    "price": "140€",
-    "sku": "HQ4310-003",
-    "brand": "Nike",
-    "colorway": "Gris",
-    "image_url": "https://statics.whentocop.fr/drops/17425/picture/726D6E_Nike-Mind-002-WMNS_LIGHT-SMOKE-GREY_HQ4310-003_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-001-black-hyper-crimson",
-    "title": "Nike Mind 001 Black Hyper Crimson",
-    "date": "2026-06-08",
-    "price": "90€",
-    "sku": "HQ4307-001",
-    "brand": "Nike",
-    "colorway": "Noir",
-    "image_url": "https://statics.whentocop.fr/drops/17351/picture_360/tmp000000_Nike-Mind-001_BLACK-HYPER-CRIMSON_HQ4307-001_img0-2000x2000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-001-wmns-black-hyper-crimson",
-    "title": "Nike Mind 001 WMNS Black Hyper Crimson",
-    "date": "2026-06-08",
-    "price": "90€",
-    "sku": "HQ4309-001",
-    "brand": "Nike",
-    "colorway": "Noir",
-    "image_url": "https://statics.whentocop.fr/drops/17058/picture/000000_Nike-Mind-001-WMNS_BLACK-HYPER-CRIMSON_HQ4309-001_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "nike-mind-002-light-smoke-grey",
-    "title": "Nike Mind 002 Light Smoke Grey",
-    "date": "2026-06-08",
-    "price": "140€",
-    "sku": "HQ4308-003",
-    "brand": "Nike",
-    "colorway": "Gris",
-    "image_url": "https://statics.whentocop.fr/drops/16245/picture/000000_Nike-Mind-002_LIGHT-SMOKE-GREY_HQ4308-003_img0-1000x1000.webp",
-    "silhouette": "",
-    "year": "2026",
-    "retailers": [],
-    "restocks": []
-  },
-  {
-    "id": "air-jordan-15-muslin-black-2026",
-    "title": "Air Jordan 15 \"Muslin/Black\"",
-    "brand": "Jordan Brand",
-    "colorway": "Muslin / Black / Muslin",
-    "sku": "IV7637-100",
-    "date": "2026-06-06",
-    "price": 255,
-    "image_url": "https://cdn.shopify.com/s/files/1/0603/3031/1875/files/IV7637-100-1_1080x.jpg",
-    "buy_url": "",
-    "source": "manual",
-    "added_at": "2026-06-03T16:25:54.423895Z"
-  },
-  {
-    "id": "air-jordan-1-low-og-sail-2026",
-    "title": "Air Jordan 1 Low OG \"Sail\"",
-    "brand": "Jordan Brand",
-    "colorway": "Sail / University Red / Sail",
-    "sku": "HQ6998-100",
-    "date": "2026-06-06",
+    "colorway": "Field Purple / Stadium Green / University Gold",
+    "date": "2026-06-17",
     "price": 145,
-    "image_url": "https://www.nicekicks.com/files/2026/05/hq6998-100-5-1-1200x1200.jpg",
-    "buy_url": "",
-    "source": "manual",
-    "added_at": "2026-06-03T16:25:54.423909Z"
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-kd-19-field-purple-stuff-IH1117-500-1024x725.jpg",
+    "buy_url": null,
+    "source": "Sneaker Files",
+    "added_at": "2026-05-16T22:02:39.779561+00:00",
+    "sku": "IH1117-500",
+    "sku_source": "sneakerbardetroit",
+    "sku_confidence": "confirmed",
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": [],
+    "year": 2026,
+    "silhouette": "KD"
   },
   {
-    "id": "air-jordan-3-bin-23-2026",
-    "title": "Air Jordan 3 \"Bin 23\"",
-    "brand": "Jordan Brand",
-    "colorway": "Team Red / Burgundy Crush / Coconut Milk / Metallic Gold",
-    "sku": "IO7744-600",
-    "date": "2026-06-13",
-    "price": 355,
-    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/9f7e05ce-a7a7-49d7-9d1d-3042ea944dde/air-jordan-3-bin-23-team-red-and-burgundy-crush-io7744-600-release-date.jpg",
-    "buy_url": "",
-    "source": "manual",
-    "added_at": "2026-06-03T16:25:54.423915Z"
+    "id": "nike-mind-001-flyknit-hyper-royal",
+    "title": "Nike Mind 001 Flyknit Hyper Royal",
+    "brand": "Nike",
+    "date": "2026-06-04",
+    "price": 90,
+    "image_url": "https://statics.whentocop.fr/media/unGtpbgmmflr/tmpnike-mind-001-flyknit-hyper-royal-ir2175-400-small-500x500.webp?width=384&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
+    "buy_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.solebox.com",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "90€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "162€",
+        "resell": true,
+        "raffle": false
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com",
+        "price": "217€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "sku": "IR2175-400",
+    "sku_source": "manual",
+    "sku_confidence": 100,
+    "hype_score": 30,
+    "similar_products": [
+      "nike-mind-001-flyknit-bronze-eclipse"
+    ],
+    "restocks": [],
+    "colorway": "Bronze Eclipse",
+    "year": 2026,
+    "silhouette": "Mind"
   },
   {
-    "id": "air-jordan-5-black-university-blue-2026",
-    "title": "Air Jordan 5 \"Black/University Blue\"",
-    "brand": "Jordan Brand",
-    "colorway": "Black / University Blue / White",
-    "sku": "DD0587-008",
-    "date": "2026-06-20",
-    "price": 215,
-    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2025/10/air-jordan-5-black-university-blue-2026-dd0587-008.webp",
-    "buy_url": "",
-    "source": "manual",
-    "added_at": "2026-06-03T16:25:54.423920Z"
+    "id": "air-jordan-17-low-black-patent-releases-august-2026",
+    "title": "Air Jordan 17 Low “Black Patent”",
+    "brand": "Jordan",
+    "colorway": "Black Patent",
+    "date": "2026-08-08",
+    "price": "139.99€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-17-low-black-patent-2026-release-details-1024x725.jpg",
+    "buy_url": null,
+    "source": "Sneaker Files",
+    "added_at": "2026-05-06T21:04:50.401377+00:00",
+    "wtc_url": null,
+    "resell": 200,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "139.99€",
+        "raffle": false,
+        "resell": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "sku": "HV4803-001",
+    "sku_source": "manual",
+    "sku_confidence": 90,
+    "hype_score": 95,
+    "similar_products": [
+      "air-jordan-9-retro ([SneakerDrop FR](https://sneakerdropfr.github.io/sorties/air-jordan-9-retro.html))",
+      "jordan-tatum-4-black-ice-blue- ([SneakerDrop FR](https://sneakerdropfr.github.io/sorties/jordan-tatum-4-black-ice-blue-.html))",
+      "air-jordan-3-golf-black-cement-releases-february-2027",
+      "air-max-90-g ([SneakerDrop FR](https://sneakerdropfr.github.io/sorties/air-max-90-g.html))"
+    ],
+    "year": 2026,
+    "silhouette": "Air Jordan 17",
+    "restocks": []
   },
   {
-    "id": "jaide-air-jordan-11-low-fiberglass-2026",
-    "title": "JAIDE x Air Jordan 11 Low \"Fiberglass\"",
-    "brand": "Jordan Brand",
-    "colorway": "Fiberglass / White / Black",
-    "sku": "IW1882-300",
-    "date": "2026-06-27",
-    "price": 205,
-    "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/05/jaide-aj11-fiberglass.jpg",
-    "buy_url": "",
-    "source": "manual",
-    "added_at": "2026-06-03T16:25:54.423924Z"
+    "id": "nike-air-more-uptempo-og-black-white-returns-september-2026",
+    "title": "Nike Air More Uptempo OG “Black White”",
+    "brand": "Nike",
+    "colorway": "Polvo fotón / Naranja total / Negro / Rojo universitario",
+    "date": "2026-09-25",
+    "price": "150€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/nike-air-more-uptempo-og-black-white-2026-FV2291-001-1024x725.jpg",
+    "buy_url": null,
+    "source": "Sneaker Files",
+    "added_at": "2026-05-05T20:50:34.341369+00:00",
+    "wtc_url": null,
+    "resell": 160,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "150€",
+        "raffle": false,
+        "resell": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "sku": "FV2291-001",
+    "sku_source": "web_search",
+    "sku_confidence": "confirmed",
+    "hype_score": 50,
+    "similar_products": [
+      "nike-pegasus-premium-sp-black-sail",
+      "nike-pegasus-premium-sp-white-black",
+      "nike-pegasus-premium-sp-black-sail-sail",
+      "preview-nike-sb-air-force-1-black-gum-"
+    ],
+    "year": 2026,
+    "silhouette": "Air More Uptempo",
+    "restocks": []
+  },
+  {
+    "id": "nike-pegasus-premium-sp-black-sail-sail",
+    "title": "Nike Pegasus Premium Sp Black Sail Sail",
+    "brand": "Nike",
+    "date": "2026-05-31",
+    "price": 210,
+    "image_url": "https://statics.whentocop.fr/media/D5Ua70DNriGI/tmpnike-pegasus-premium-sp-black-sail-sail-ir2166-001-small-500x500.webp?width=3840&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-pegasus-premium-sp-black-sail-sail-ir2166-001",
+    "sku": "IR2166-001",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.footshop.eu",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Queens",
+        "url": "https://www.queens.de",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-pegasus-premium-sp-black-sail",
+        "price": "388€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 20,
+    "colorway": "Black and Sail",
+    "similar_products": [
+      "nike-pegasus-premium-sp-black-sail",
+      "nike-pegasus-premium-sp-white-black",
+      "a-ma-mani-re-x-nike-pegasus-premium-timing-is-everything-rel",
+      "mcdonald-s-x-nike-book-2-sedona-releases-june-2026"
+    ],
+    "year": 2026,
+    "silhouette": "Pegasus",
+    "restocks": []
+  },
+  {
+    "id": "asics-gel-nyc-20-lake-grey-piedmont-grey",
+    "title": "Asics Gel-Nyc 2.0 Lake Grey Piedmont Grey",
+    "brand": "Asics",
+    "date": "2026-05-31",
+    "price": 160,
+    "image_url": "https://statics.whentocop.fr/media/rzvqhBdCSJi3/tmpasics-gel-nyc-2-0-lake-grey-piedmont-grey-1203a895-300-4-small-500x500.webp?width=3840&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/asics-gel-nyc-2-0-lake-grey-piedmont-grey-1203a895-300",
+    "sku": "1203A895-300",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.slamjam.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "458€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 0,
+    "colorway": "Lake Grey / Piedmont Grey",
+    "similar_products": [
+      "asics-gel-nyc-khaki-pure-silver",
+      "asics-gel-nyc-cocoa-powder-pure-silver",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey"
+    ],
+    "year": 2026,
+    "silhouette": "Gel-NYC",
+    "restocks": []
+  },
+  {
+    "id": "asics-gel-kayano-121-piedmont-grey-gravel",
+    "title": "Asics Gel-Kayano 12.1 Piedmont Grey Gravel",
+    "brand": "Asics",
+    "date": "2026-06-01",
+    "price": 180,
+    "image_url": "https://statics.whentocop.fr/media/YKFGYLSBJr4G/tmpasics-gel-kayano-12-1-piedmont-grey-gravel-1203a759-021-2-small-500x500.webp?width=3840&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/asics-gel-kayano-12-1-piedmont-grey-gravel-1203a759-021",
+    "sku": "1203A759-021",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "276€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 0,
+    "colorway": "Piedmont Grey/Gravel",
+    "similar_products": [
+      "asics-gel-kayano-121-cream-smoke-grey",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
+      "asics-gel-cumulus-16-lake-grey-pure-silver"
+    ],
+    "year": 2026,
+    "silhouette": "Gel-Kayano",
+    "restocks": []
+  },
+  {
+    "id": "asics-gt-2160-white-raspberry",
+    "title": "Asics Gt-2160 White Raspberry",
+    "brand": "Asics",
+    "date": "2026-05-31",
+    "price": 130,
+    "image_url": "https://statics.whentocop.fr/media/Iy3GN6x7ObQz/tmpasics-gt-2160-white-raspberry-1203a275-121-v4-small-500x500.webp?width=3840&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/asics-gt-2160-white-raspberry-1203a275-121",
+    "sku": "1203A375-101",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "140€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 0,
+    "sku_source": "wtc",
+    "sku_confidence": "confirmed",
+    "similar_products": [
+      "asics-gel-1130-white-piedmont-grey",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-nyc-khaki-pure-silver"
+    ],
+    "colorway": "White Raspberry",
+    "year": 2026,
+    "silhouette": "GT-2160",
+    "restocks": []
+  },
+  {
+    "id": "asics-gel-nyc-khaki-pure-silver",
+    "title": "Asics Gel-Nyc Khaki Pure Silver",
+    "brand": "Asics",
+    "date": "2026-05-31",
+    "price": 160,
+    "image_url": "https://statics.whentocop.fr/media/i6NeMqVcBBNP/tmpasics-gel-nyc-khaki-pure-silver-1203a739-302-noshadow-small-500x500.webp?width=3840&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/asics-gel-nyc-khaki-pure-silver-1203a739-302",
+    "sku": "1203A739-302",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "146€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 0,
+    "similar_products": [
+      "asics-gel-nyc-cocoa-powder-pure-silver",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gt-2160-white-raspberry"
+    ],
+    "colorway": "Khaki Pure Silver",
+    "year": 2026,
+    "silhouette": "Gel-NYC",
+    "restocks": []
+  },
+  {
+    "id": "asics-gel-1130-white-piedmont-grey",
+    "title": "Asics Gel-1130 White Piedmont Grey",
+    "brand": "Asics",
+    "date": "2026-05-31",
+    "price": 100,
+    "image_url": "https://statics.whentocop.fr/media/WihJ1mUyfZWR/tmpasics-gel-1130-white-piedmont-grey-1203a609-112-4-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/asics-gel-1130-white-piedmont-grey-1203a609-112",
+    "sku": "1203A609-112",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "131€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 0,
+    "colorway": "White/Piedmont Grey",
+    "similar_products": [
+      "asics-gt-2160-white-raspberry",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-nyc-khaki-pure-silver"
+    ],
+    "year": 2026,
+    "silhouette": "Gel-1130",
+    "restocks": []
+  },
+  {
+    "id": "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
+    "title": "Asics Gel-Quantum 360 I Amp Dusty Fern Seal Grey",
+    "brand": "Asics",
+    "date": "2026-05-31",
+    "price": 180,
+    "image_url": "https://statics.whentocop.fr/media/LzQeRTC0RqGb/tmpasics-gel-quantum-360-i-amp-dusty-fern-seal-grey-1203a731-301-4-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/asics-gel-quantum-360-i-amp-dusty-fern-seal-grey-1203a731-301",
+    "sku": "1203A731-301",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "194€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 0,
+    "colorway": "Dusty Fern/Seal Grey",
+    "similar_products": [
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-cumulus-16-lake-grey-pure-silver",
+      "asics-gel-kayano-121-cream-smoke-grey"
+    ],
+    "year": 2026,
+    "silhouette": "Gel-Quantum",
+    "restocks": []
+  },
+  {
+    "id": "asics-gel-cumulus-16-lake-grey-pure-silver",
+    "title": "Asics Gel-Cumulus 16 Lake Grey Pure Silver",
+    "brand": "Asics",
+    "date": "2026-05-31",
+    "price": 150,
+    "image_url": "https://statics.whentocop.fr/media/vmQWy2wzivDR/tmpasics-gel-cumulus-16-lake-grey-pure-silver-1203a733-301-v2-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/asics-gel-cumulus-16-lake-grey-pure-silver-1203a733-301",
+    "sku": "1203A733-301",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "138€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 0,
+    "colorway": "Lake Grey / Pure Silver",
+    "similar_products": [
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
+      "asics-gel-kayano-121-cream-smoke-grey"
+    ],
+    "year": 2026,
+    "silhouette": "Gel-Cumulus",
+    "restocks": []
+  },
+  {
+    "id": "asics-gel-nyc-cocoa-powder-pure-silver",
+    "title": "Asics Gel-Nyc Cocoa Powder Pure Silver",
+    "brand": "Asics",
+    "date": "2026-05-31",
+    "price": 160,
+    "image_url": "https://statics.whentocop.fr/media/KZIx2DxBGd8x/tmpasics-gel-nyc-cocoa-powder-pure-silver-1203a739-200-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/asics-gel-nyc-cocoa-powder-pure-silver-1203a739-200",
+    "sku": "1203A739-200",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.slamjam.com",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "146€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 0,
+    "colorway": "Cocoa Powder / Pure Silver",
+    "similar_products": [
+      "asics-gel-nyc-khaki-pure-silver",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gt-2160-white-raspberry"
+    ],
+    "year": 2026,
+    "silhouette": "Gel-NYC",
+    "restocks": []
+  },
+  {
+    "id": "asics-gel-kayano-121-cream-smoke-grey",
+    "title": "Asics Gel-Kayano 12.1 Cream Smoke Grey",
+    "brand": "Asics",
+    "date": "2026-06-01",
+    "price": 180,
+    "image_url": "https://statics.whentocop.fr/media/OUlC7pO42Db8/tmpasics-gel-kayano-121-cream-smoke-grey-1203a759-108-4-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/asics-gel-kayano-12-1-cream-smoke-grey-1203a759-108",
+    "sku": "1203A759-108",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "275€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 0,
+    "colorway": "Piedmont Grey/Gravel",
+    "similar_products": [
+      "asics-gel-kayano-121-piedmont-grey-gravel",
+      "asics-gel-nyc-20-lake-grey-piedmont-grey",
+      "asics-gel-quantum-360-i-amp-dusty-fern-seal-grey",
+      "asics-gel-cumulus-16-lake-grey-pure-silver"
+    ],
+    "year": 2026,
+    "silhouette": "Gel-Kayano",
+    "restocks": []
+  },
+  {
+    "id": "new-balance-mt10t-fire-cracker",
+    "title": "New Balance Mt10t Fire Cracker",
+    "brand": "New Balance",
+    "date": "2026-05-31",
+    "price": 140,
+    "image_url": "https://statics.whentocop.fr/media/E7kT16ZGAZJS/tmpnew-balance-mt10t-fire-cracker-mt10t8e8-4-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-mt10t-fire-cracker-mt10t8e8",
+    "sku": "MT10T8E8",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "177€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 15,
+    "colorway": "Fire Cracker Red",
+    "similar_products": [
+      "new-balance-mt10t-raincloud-concrete",
+      "new-balance-5030-black-silver",
+      "new-balance-5030-grey-black"
+    ],
+    "year": 2026,
+    "silhouette": "New Balance MT10",
+    "restocks": []
+  },
+  {
+    "id": "adidas-believe-that-1-core-black",
+    "title": "Adidas Believe That 1 Core Black",
+    "brand": "Adidas",
+    "date": "2026-05-31",
+    "price": 100,
+    "image_url": "https://statics.whentocop.fr/media/Dg92MOceYGvm/tmp000000_adidas-Believe-That-1_Core-Black_KJ3147_img2-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-core-black-kj3147",
+    "sku": "KJ3147",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2F",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "100€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "151€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 15,
+    "colorway": "Core Black / Carbon / Iron Metallic",
+    "similar_products": [
+      "adidas-believe-that-1-cloud-white",
+      "adidas-anthony-edwards-believe-that-1-cloud-white-",
+      "adidas-anthony-edwards-believe-that-1-carbon-"
+    ],
+    "year": 2026,
+    "silhouette": "Believe That",
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44894862978&a=2855487&m=104979",
+            "price": "99,99€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adidas-adizero-evo-sl-wmns-off-white-aurora-comet",
+    "title": "Adidas Adizero Evo Sl Wmns Off White Aurora Comet",
+    "brand": "Adidas",
+    "date": "2026-05-31",
+    "price": 150,
+    "image_url": "https://statics.whentocop.fr/media/0JJSXPzTzC3f/tmpadidas-adizero-evo-sl-wmns-cloud-white-dark-brown-ki9873-4-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-wmns-off-white-aurora-comet-ki9873",
+    "sku": "KI9873",
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2F",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "185€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 65,
+    "similar_products": [
+      "star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr",
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ],
+    "colorway": "Off White Aurora Comet",
+    "year": 2026,
+    "silhouette": "Adizero",
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44896567156&a=2855487&m=104979",
+            "price": "149,99€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adidas-believe-that-1-cloud-white",
+    "title": "Adidas Believe That 1 Cloud White",
+    "brand": "Adidas",
+    "date": "2026-05-31",
+    "price": 100,
+    "image_url": "https://statics.whentocop.fr/media/N4QiGC6W8U1R/tmpadidas-believe-that-1-footwear-white-core-black-kj3320-4-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-believe-that-1-cloud-white-kj3320",
+    "sku": "KJ3320",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2F",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "100€",
+        "resell": false,
+        "raffle": true
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "156€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 15,
+    "colorway": "Core Black / Carbon / Iron Metallic",
+    "similar_products": [
+      "adidas-anthony-edwards-believe-that-1-cloud-white-",
+      "adidas-believe-that-1-core-black",
+      "adidas-anthony-edwards-believe-that-1-carbon-"
+    ],
+    "year": 2026,
+    "silhouette": "Believe That",
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44896567144&a=2855487&m=104979",
+            "price": "99,99€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adidas-adizero-evo-sl-exo-core-black",
+    "title": "Adidas Adizero Evo Sl Exo Core Black",
+    "brand": "Adidas",
+    "date": "2026-05-31",
+    "price": 150,
+    "image_url": "https://statics.whentocop.fr/media/TQc7zqYOu8L5/tmpadidas-adizero-evo-sl-exo-kj0422-v4-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-exo-core-black-kj0422",
+    "sku": "KJ0422",
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2F",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "233€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 15,
+    "similar_products": [
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-crystal-white-luta"
+    ],
+    "colorway": "Core Black",
+    "year": 2026,
+    "silhouette": "Adizero",
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44899752472&a=2855487&m=104979",
+            "price": "149,99€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "new-balance-mt10t-raincloud-concrete",
+    "title": "New Balance Mt10t Raincloud Concrete",
+    "brand": "New Balance",
+    "date": "2026-05-31",
+    "price": 140,
+    "image_url": "https://statics.whentocop.fr/media/k7eibZIDlVs1/tmpnew-balance-mt10t-gray-mt10t8wq-noshadow-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-mt10t-raincloud-concrete-mt10t8wq",
+    "sku": "MT10T8WQ",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "END.",
+        "url": "https://www.endclothing.com",
+        "price": "139€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 15,
+    "colorway": "FTW",
+    "similar_products": [
+      "new-balance-mt10t-fire-cracker",
+      "new-balance-5030-black-silver",
+      "new-balance-5030-grey-black"
+    ],
+    "year": 2026,
+    "silhouette": "New Balance MT10",
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44899752386&a=2855487&m=104979",
+            "price": "139,99€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "new-balance-5030-grey-black",
+    "title": "New Balance 5030 Grey Black",
+    "brand": "New Balance",
+    "date": "2026-05-31",
+    "price": 130,
+    "image_url": "https://statics.whentocop.fr/media/NdiPqLq5CaMJ/tmpnew-balance-5030-grey-black-u50303l3-small-500x500.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-5030-grey-black-u50303l3",
+    "sku": "U50303L3",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.slamjam.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.snipes.com",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "93€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 15,
+    "colorway": "Rainclound/Black Metallic",
+    "similar_products": [
+      "new-balance-5030-black-silver",
+      "new-balance-abzorb-5030-grey-days",
+      "nb-abzorb-5030-grey-days-2026",
+      "new-balance-mt10t-fire-cracker"
+    ],
+    "year": 2026,
+    "silhouette": "New Balance 5030",
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44899752400&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "new-balance-1906l-fairweather-blue",
+    "title": "New Balance 1906l Fairweather Blue",
+    "brand": "New Balance",
+    "date": "2026-06-01",
+    "price": 140,
+    "image_url": "https://statics.whentocop.fr/media/cC9dn6dzyxfX/tmpNew-Balance-1906L_Fairweather-Blue_U19062XN_img0-small-500x500.webp?width=3840&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1906l-fairweather-blue-u19062xn",
+    "sku": "U19062XN",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Naked",
+        "url": "https://www.nakedcph.com",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "HHV",
+        "url": "https://www.hhv.de",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "191€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 15,
+    "similar_products": [
+      "new-balance-1906l-rosewood",
+      "new-balance-numeric-933-marblehead-island-blue",
+      "new-balance-5030-black-silver"
+    ],
+    "colorway": "Fairweather Blue",
+    "year": 2026,
+    "silhouette": "New Balance 1906",
+    "restocks": [
+      {
+        "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44899752349&a=2855487&m=104979",
+            "price": "139,99€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adidas-adizero-evo-sl-crystal-white-luta",
+    "title": "Adidas Adizero Evo Sl Crystal White Luta",
+    "brand": "Adidas",
+    "date": "2026-06-01",
+    "price": 150,
+    "image_url": "https://statics.whentocop.fr/media/xDxAko6EFLPA/tmpadidas-adizero-evo-sl-m-crystal-white-luta-iron-metallic-kj2521-4-small-500x500.webp?width=3840&quality=75&format=auto",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-crystal-white-luta-kj2521",
+    "sku": "KJ2521",
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr",
+        "price": "185€",
+        "resell": true,
+        "raffle": false
+      }
+    ],
+    "hype_score": 15,
+    "similar_products": [
+      "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
+      "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
+      "adidas-adizero-evo-sl-exo-core-black"
+    ],
+    "colorway": "Crystal White Luta",
+    "year": 2026,
+    "silhouette": "Adizero",
+    "restocks": []
   }
 ]
