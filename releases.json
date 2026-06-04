@@ -1619,12 +1619,18 @@
     "brand": "Nike",
     "date": "2026-06-08",
     "price": 140,
-    "colorway": "Blanc,Orange",
-    "image_url": "https://statics.whentocop.fr/drops/19180/picture/000000_Nike-Mind-002-WMNS_SAIL-HYPER-CRIMSON_HQ4310-100_img0-1000x1000.webp",
+    "colorway": "Sail Hyper Crimson",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4310-100_A_PREM.jpg",
     "sku": "HQ4310-100",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "140€"
+      }
+    ],
     "buy_url": "",
-    "hype_score": 0,
+    "hype_score": 55,
     "year": 2026
   },
   {
@@ -1676,12 +1682,18 @@
     "brand": "Nike",
     "date": "2026-06-08",
     "price": 140,
-    "colorway": "Noir",
-    "image_url": "https://statics.whentocop.fr/drops/18339/picture_360/tmp201E1F_Nike-Mind-002_Black-Hyper-Crimson_HQ4308-001_img0-2000x2000.webp",
+    "colorway": "Black Hyper Crimson",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4308-001_A_PREM.jpg",
     "sku": "HQ4308-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "140€"
+      }
+    ],
     "buy_url": "",
-    "hype_score": 0,
+    "hype_score": 60,
     "year": 2026
   },
   {
@@ -1893,5 +1905,176 @@
     ],
     "buy_url": "",
     "hype_score": 70
+  },
+  {
+    "id": "coca-cola-x-adidas-superstar-ii-white-core-black-red",
+    "title": "Coca Cola x Adidas Superstar II White Core Black Red",
+    "brand": "Adidas",
+    "date": "2026-06-06",
+    "price": 120,
+    "colorway": "White Core Black Red",
+    "sku": "KH6888",
+    "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/KH6888.jpg",
+    "retailers": [
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com/",
+        "price": "120€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 70
+  },
+  {
+    "id": "coca-cola-x-adidas-superstar-ii-black-red-grey",
+    "title": "Coca-Cola x Adidas Superstar II Black Red Grey",
+    "brand": "Adidas",
+    "date": "2026-06-06",
+    "price": 120,
+    "colorway": "Black Red Grey",
+    "sku": "KH6891",
+    "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/KH6891.jpg",
+    "retailers": [
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com/",
+        "price": "120€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 70
+  },
+  {
+    "id": "adidas-harden-vol-10-metallic-gold-black",
+    "title": "Adidas Harden Vol. 10 Metallic Gold Black",
+    "brand": "Adidas",
+    "date": "2026-06-06",
+    "price": 159,
+    "colorway": "Metallic Gold Black",
+    "sku": "KH9153",
+    "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/KH9153.jpg",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/",
+        "price": "159€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 55
+  },
+  {
+    "id": "coca-cola-x-adidas-megaride-f50-white",
+    "title": "Coca-Cola x Adidas Megaride F50 White",
+    "brand": "Adidas",
+    "date": "2026-06-06",
+    "price": 190,
+    "colorway": "White",
+    "sku": "KH6896",
+    "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/KH6896.jpg",
+    "retailers": [
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com/",
+        "price": "190€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 65
+  },
+  {
+    "id": "coca-cola-x-adidas-samba-og-red-core-black-2",
+    "title": "Coca-Cola x Adidas Samba OG Red Core Black",
+    "brand": "Adidas",
+    "date": "2026-06-06",
+    "price": 120,
+    "colorway": "Red Core Black",
+    "sku": "KH6893",
+    "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/KH6893.jpg",
+    "retailers": [
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk/",
+        "price": "120€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 75
+  },
+  {
+    "id": "nike-mind-001-sail",
+    "title": "Nike Mind 001 Sail",
+    "brand": "Nike",
+    "date": "2026-06-08",
+    "price": 90,
+    "colorway": "Sail",
+    "sku": "HQ4309-100",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4309-100_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "90€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 60
+  },
+  {
+    "id": "nike-mind-002-wmns-football-grey",
+    "title": "Nike Mind 002 WMNS Football Grey",
+    "brand": "Nike",
+    "date": "2026-06-08",
+    "price": 140,
+    "colorway": "Football Grey",
+    "sku": "HQ4310-002",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4310-002_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "140€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 50
+  },
+  {
+    "id": "nike-mind-002-thunder-blue",
+    "title": "Nike Mind 002 Thunder Blue",
+    "brand": "Nike",
+    "date": "2026-06-08",
+    "price": 140,
+    "colorway": "Thunder Blue",
+    "sku": "HQ4308-400",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4308-400_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "140€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 55
+  },
+  {
+    "id": "nike-mind-002-wmns-light-violet-ore",
+    "title": "Nike Mind 002 WMNS Light Violet Ore",
+    "brand": "Nike",
+    "date": "2026-06-08",
+    "price": 140,
+    "colorway": "Light Violet Ore",
+    "sku": "HQ4310-200",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4310-200_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "140€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 50
   }
 ]
