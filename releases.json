@@ -3,13 +3,15 @@
     "id": "nike-cryoshot-mercurial-vapor-r9-varsity-royal-releases-summ",
     "title": "Nike Cryoshot Mercurial Vapor R9 “Varsity Royal” Releases Summer 2026",
     "brand": "Sneaker Files",
-    "colorway": "",
+    "colorway": "Varsity Royal",
     "date": "TBD",
     "price": "$210",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/nike-cryoshot-mercurial-vapor-r9-IQ8160-400-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch/upcoming",
     "source": "Sneaker Files",
-    "added_at": "2026-06-04T08:01:49.307035+00:00"
+    "added_at": "2026-06-04T08:01:49.307035+00:00",
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "air-jordan-3-white-cement-returns-summer-2027",
@@ -1727,28 +1729,52 @@
   },
   {
     "id": "stone-island-x-new-balance-abzorb-dark-green",
-    "title": "Stone Island x New Balance Abzorb Dark Green",
+    "title": "Stone Island x New Balance ABZORB 1890 Covert Green",
     "brand": "New Balance",
     "date": "2026-06-04",
-    "price": 250,
-    "colorway": "Dark Green",
-    "image_url": "",
-    "sku": "",
-    "retailers": [],
+    "price": 220,
+    "colorway": "Covert Green / Vetiver",
+    "image_url": "https://images.newbalance.com/is/image/NewBalance/U1890ST_NB_02_I?wid=1000&hei=750&fmt=png-alpha",
+    "sku": "U1890ST",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/pd/stone-island-x-new-balance-abzorb-1890/U1890V1_LI-FTW-832956.html",
+        "price": "220€"
+      },
+      {
+        "name": "Stone Island",
+        "url": "https://www.stoneisland.com/en-fr/stone-island-new-balance-collaboration.html",
+        "price": "220€"
+      }
+    ],
     "buy_url": "",
-    "hype_score": 80
+    "hype_score": 80,
+    "year": 2026
   },
   {
     "id": "stone-island-x-new-balance-abzorb-grey-olive",
-    "title": "Stone Island x New Balance Abzorb Grey Olive",
+    "title": "Stone Island x New Balance ABZORB 1890 Black",
     "brand": "New Balance",
     "date": "2026-06-04",
-    "price": 250,
-    "colorway": "Grey Olive",
-    "image_url": "",
-    "sku": "",
-    "retailers": [],
+    "price": 220,
+    "colorway": "Black / Olive",
+    "image_url": "https://images.newbalance.com/is/image/NewBalance/U1890SI_NB_02_I?wid=1000&hei=750&fmt=png-alpha",
+    "sku": "U1890SI",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/pd/stone-island-x-new-balance-abzorb-1890/U1890V1_LI-FTW-832956.html",
+        "price": "220€"
+      },
+      {
+        "name": "Stone Island",
+        "url": "https://www.stoneisland.com/en-fr/stone-island-new-balance-collaboration.html",
+        "price": "220€"
+      }
+    ],
     "buy_url": "",
-    "hype_score": 80
+    "hype_score": 80,
+    "year": 2026
   }
 ]
