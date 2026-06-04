@@ -1724,5 +1724,31 @@
     "buy_url": "",
     "hype_score": 0,
     "year": 2026
+  },
+  {
+    "id": "stone-island-x-new-balance-abzorb-dark-green",
+    "title": "Stone Island x New Balance Abzorb Dark Green",
+    "brand": "New Balance",
+    "date": "2026-06-04",
+    "price": 250,
+    "colorway": "Dark Green",
+    "image_url": "",
+    "sku": "",
+    "retailers": [],
+    "buy_url": "",
+    "hype_score": 80
+  },
+  {
+    "id": "stone-island-x-new-balance-abzorb-grey-olive",
+    "title": "Stone Island x New Balance Abzorb Grey Olive",
+    "brand": "New Balance",
+    "date": "2026-06-04",
+    "price": 250,
+    "colorway": "Grey Olive",
+    "image_url": "",
+    "sku": "",
+    "retailers": [],
+    "buy_url": "",
+    "hype_score": 80
   }
 ]
