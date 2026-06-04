@@ -696,6 +696,18 @@ PAGE_TMPL = """<!DOCTYPE html>
     }});
   }})();
   </script>
+  <script>
+    (function(){{
+      try {{
+        fetch('https://track.sneakerdropfr.fr/pageview', {{
+          method: 'POST',
+          headers: {{'Content-Type': 'application/json'}},
+          body: JSON.stringify({{page: window.location.pathname}}),
+          keepalive: true
+        }}).catch(function(){{}});
+      }} catch(e) {{}}
+    }})();
+  </script>
 </body>
 </html>
 """
