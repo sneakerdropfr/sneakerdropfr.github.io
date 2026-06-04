@@ -1776,5 +1776,122 @@
     "buy_url": "",
     "hype_score": 80,
     "year": 2026
+  },
+  {
+    "id": "adidas-adistar-xlg-2-grey",
+    "title": "Adidas Adistar XLG 2.0 Grey",
+    "brand": "Adidas",
+    "date": "2026-06-04",
+    "price": 140,
+    "colorway": "Grey",
+    "sku": "KJ7895",
+    "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/KJ7895.jpg",
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "140€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/",
+        "price": "140€"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com/",
+        "price": "140€"
+      },
+      {
+        "name": "END",
+        "url": "https://www.endclothing.com/",
+        "price": "140€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com/",
+        "price": "140€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 50
+  },
+  {
+    "id": "nike-acg-pegasus-trail-summit-white-safety-orange",
+    "title": "Nike ACG Pegasus Trail Summit White Safety Orange",
+    "brand": "Nike",
+    "date": "2026-06-04",
+    "price": 150,
+    "colorway": "Summit White / Safety Orange",
+    "sku": "HV8116-103",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HV8116-103_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "150€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/",
+        "price": "150€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com/",
+        "price": "150€"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com/",
+        "price": "150€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 45
+  },
+  {
+    "id": "nike-air-max-95-big-bubble-og-fresh-mint",
+    "title": "Nike Air Max 95 Big Bubble OG Fresh Mint",
+    "brand": "Nike",
+    "date": "2026-06-04",
+    "price": 190,
+    "colorway": "Fresh Mint",
+    "sku": "HJ5996-005",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HJ5996-005_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "190€"
+      },
+      {
+        "name": "JD Sports",
+        "url": "https://www.jdsports.fr/",
+        "price": "190€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/",
+        "price": "190€"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.43einhalb.com/",
+        "price": "190€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk/",
+        "price": "190€"
+      },
+      {
+        "name": "Solebox",
+        "url": "https://solebox.com/",
+        "price": "190€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 70
   }
 ]
