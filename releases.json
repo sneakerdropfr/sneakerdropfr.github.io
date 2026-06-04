@@ -1548,16 +1548,27 @@
   },
   {
     "id": "nike-air-force-1-low-glam-rock-bold-berry",
-    "title": "Nike Air Force 1 Low GLAM ROCK BOLD BERRY",
+    "title": "Nike Air Force 1 Low Glam Rock Bold Berry",
     "brand": "Nike",
     "date": "2026-06-20",
     "price": 120,
-    "colorway": "Multicolor",
-    "image_url": "https://statics.whentocop.fr/drops/17611/picture/120F14_Nike-Air-Force-1-Low_GLAM-ROCK-BOLD-BERRY_IB6843-002_img0-1000x1000.webp",
+    "colorway": "Bold Berry",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IB6843-002_A_PREM.jpg",
     "sku": "IB6843-002",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Courir",
+        "url": "https://www.courir.com/",
+        "price": "120€"
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/",
+        "price": "120€"
+      }
+    ],
     "buy_url": "",
-    "hype_score": 0,
+    "hype_score": 60,
     "silhouette": "Air Force 1",
     "year": 2026
   },
@@ -2414,5 +2425,177 @@
     ],
     "buy_url": "",
     "hype_score": 65
+  },
+  {
+    "id": "peaceminusone-x-nike-cryoshot-ctr360-team-south-korea",
+    "title": "PEACEMINUSONE x Nike Cryoshot CTR360 Team South Korea",
+    "brand": "Nike",
+    "date": "2026-06-16",
+    "price": 210,
+    "colorway": "Team South Korea",
+    "sku": "HQ1460-100",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ1460-100_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 85
+  },
+  {
+    "id": "slawn-x-nike-cryoshot-striker-1976-natural-white-black",
+    "title": "Slawn x Nike Cryoshot Striker 1976 Natural White Black",
+    "brand": "Nike",
+    "date": "2026-06-16",
+    "price": 210,
+    "colorway": "Natural White Black",
+    "sku": "II9933-100",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/II9933-100_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 80
+  },
+  {
+    "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
+    "title": "NOCTA x Nike Cryoshot Tiempo University Gold Black",
+    "brand": "Nike",
+    "date": "2026-06-16",
+    "price": 210,
+    "colorway": "University Gold Black",
+    "sku": "IM0703-700",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IM0703-700_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 90
+  },
+  {
+    "id": "off-white-x-nike-cryoshot-virgil-abloh-archives",
+    "title": "Off-White x Nike Cryoshot Virgil Abloh Archives",
+    "brand": "Nike",
+    "date": "2026-06-16",
+    "price": 210,
+    "colorway": "White",
+    "sku": "IM3886-100",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IM3886-100_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 95
+  },
+  {
+    "id": "nike-pegasus-premium-sp-black-sail-sail",
+    "title": "Nike Pegasus Premium SP Black Sail Sail",
+    "brand": "Nike",
+    "date": "2026-06-18",
+    "price": 210,
+    "colorway": "Black Sail Sail",
+    "sku": "IR2166-001",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IR2166-001_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "210€"
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/",
+        "price": "210€"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com/",
+        "price": "210€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 70
+  },
+  {
+    "id": "adidas-adizero-adios-pro-evo-3-cloud-white-solar-turbo",
+    "title": "Adidas Adizero Adios Pro Evo 3 Cloud White Solar Turbo",
+    "brand": "Adidas",
+    "date": "2026-06-18",
+    "price": 500,
+    "colorway": "Cloud White Solar Turbo",
+    "sku": "KH7678",
+    "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/KH7678.jpg",
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "500€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 75
+  },
+  {
+    "id": "nike-air-max-95-light-graphite-paisley",
+    "title": "Nike Air Max 95 Light Graphite Paisley",
+    "brand": "Nike",
+    "date": "2026-06-19",
+    "price": 190,
+    "colorway": "Light Graphite Paisley",
+    "sku": "IR0802-100",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IR0802-100_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "190€"
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstaronline.com/",
+        "price": "190€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 65
+  },
+  {
+    "id": "cdg-x-nike-ld-1000-spirit-pink",
+    "title": "CDG x Nike LD-1000 Spirit Pink",
+    "brand": "Nike",
+    "date": "2026-06-30",
+    "price": 110,
+    "colorway": "Spirit Pink",
+    "sku": "IU7936-001",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IU7936-001_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "110€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 80
   }
 ]
