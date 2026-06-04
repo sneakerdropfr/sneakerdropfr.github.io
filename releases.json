@@ -1532,12 +1532,18 @@
     "brand": "Nike",
     "date": "2026-06-08",
     "price": 90,
-    "colorway": "Blanc",
-    "image_url": "https://statics.whentocop.fr/drops/17757/gallery/Nike-Mind-001_White-Speed-Red_HQ4307-101_img1-1000x1000.webp",
+    "colorway": "White Speed Red",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4307-101_A_PREM.jpg",
     "sku": "HQ4307-101",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "90€"
+      }
+    ],
     "buy_url": "",
-    "hype_score": 0,
+    "hype_score": 60,
     "year": 2026
   },
   {
@@ -1576,12 +1582,18 @@
     "brand": "Nike",
     "date": "2026-06-08",
     "price": 90,
-    "colorway": "Gris",
-    "image_url": "https://statics.whentocop.fr/drops/15297/picture/Nike-Mind-001_Light-Smoke-Grey_HQ4307-003_img0-1000x1000.webp",
+    "colorway": "Light Smoke Grey",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4307-003_A_PREM.jpg",
     "sku": "HQ4307-003",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "90€"
+      }
+    ],
     "buy_url": "",
-    "hype_score": 0,
+    "hype_score": 60,
     "year": 2026
   },
   {
@@ -1590,12 +1602,18 @@
     "brand": "Nike",
     "date": "2026-06-13",
     "price": 160,
-    "colorway": "Orange",
-    "image_url": "https://statics.whentocop.fr/drops/20726/picture/000000_Nike-KD19_Orange-Crush_IH1117-800_img0-1000x1000.webp",
+    "colorway": "Orange Crush",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IH1117-800_A_PREM.jpg",
     "sku": "IH1117-800",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "160€"
+      }
+    ],
     "buy_url": "",
-    "hype_score": 0,
+    "hype_score": 60,
     "year": 2026
   },
   {
@@ -1639,12 +1657,18 @@
     "brand": "Nike",
     "date": "2026-06-15",
     "price": 130,
-    "colorway": "Noir,Rouge,Bleu",
-    "image_url": "https://statics.whentocop.fr/drops/19673/picture_360/tmp000000_Nike-Air-Force-1-Low-Retro_Heat-Map-Black-Racer-Blue_IB6834-001_img0-2000x2000.webp",
+    "colorway": "Black Racer Blue",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IB6834-001_A_PREM.jpg",
     "sku": "IB6834-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "130€"
+      }
+    ],
     "buy_url": "",
-    "hype_score": 0,
+    "hype_score": 65,
     "silhouette": "Air Force 1",
     "year": 2026
   },
@@ -1668,12 +1692,18 @@
     "brand": "Nike",
     "date": "2026-06-08",
     "price": 140,
-    "colorway": "Gris",
-    "image_url": "https://statics.whentocop.fr/drops/17425/picture/726D6E_Nike-Mind-002-WMNS_LIGHT-SMOKE-GREY_HQ4310-003_img0-1000x1000.webp",
+    "colorway": "Light Smoke Grey",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4310-003_A_PREM.jpg",
     "sku": "HQ4310-003",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "140€"
+      }
+    ],
     "buy_url": "",
-    "hype_score": 0,
+    "hype_score": 50,
     "year": 2026
   },
   {
@@ -1698,16 +1728,22 @@
   },
   {
     "id": "nike-air-force-1-low-paisley-hydrogen-blue",
-    "title": "Nike Air Force 1 Low PAISLEY HYDROGEN BLUE",
+    "title": "Nike Air Force 1 Low Paisley Hydrogen Blue",
     "brand": "Nike",
     "date": "2026-06-15",
     "price": 120,
-    "colorway": "Bleu",
-    "image_url": "https://statics.whentocop.fr/drops/18007/picture/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400_pHmmLp-small-500x500.webp",
+    "colorway": "Hydrogen Blue",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IO1259-400_A_PREM.jpg",
     "sku": "IO1259-400",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "120€"
+      }
+    ],
     "buy_url": "",
-    "hype_score": 0,
+    "hype_score": 60,
     "silhouette": "Air Force 1",
     "year": 2026
   },
@@ -2076,5 +2112,307 @@
     ],
     "buy_url": "",
     "hype_score": 50
+  },
+  {
+    "id": "nike-mind-001-wmns-barely-green",
+    "title": "Nike Mind 001 WMNS Barely Green",
+    "brand": "Nike",
+    "date": "2026-06-08",
+    "price": 90,
+    "colorway": "Barely Green",
+    "sku": "HQ4309-300",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4309-300_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "90€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 65
+  },
+  {
+    "id": "nike-mind-001-backened-blue",
+    "title": "Nike Mind 001 Backened Blue",
+    "brand": "Nike",
+    "date": "2026-06-08",
+    "price": 90,
+    "colorway": "Backened Blue",
+    "sku": "HQ4307-400",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4307-400_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "90€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 70
+  },
+  {
+    "id": "nike-mind-001-mineral-slate",
+    "title": "Nike Mind 001 Mineral Slate",
+    "brand": "Nike",
+    "date": "2026-06-08",
+    "price": 90,
+    "colorway": "Mineral Slate",
+    "sku": "HQ4307-300",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4307-300_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "90€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 55
+  },
+  {
+    "id": "nike-mind-001-black-hyper-crimson",
+    "title": "Nike Mind 001 Black Hyper Crimson",
+    "brand": "Nike",
+    "date": "2026-06-08",
+    "price": 90,
+    "colorway": "Black Hyper Crimson",
+    "sku": "HQ4307-001",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/HQ4307-001_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "90€"
+      },
+      {
+        "name": "Kickz",
+        "url": "https://www.kickz.com/",
+        "price": "90€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 65
+  },
+  {
+    "id": "joe-freshgoods-x-new-balance-1890-finger-waves",
+    "title": "Joe Freshgoods x New Balance 1890 Finger Waves",
+    "brand": "New Balance",
+    "date": "2026-06-09",
+    "price": 210,
+    "colorway": "Finger Waves",
+    "sku": "U189065N",
+    "image_url": "https://nb.scene7.com/is/image/NB/u189065n_nb_02_i?$pdpflexf2$&fmt=webp&wid=880",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/",
+        "price": "210€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 80
+  },
+  {
+    "id": "joe-freshgoods-x-new-balance-1890-naughty-things",
+    "title": "Joe Freshgoods x New Balance 1890 Naughty Things",
+    "brand": "New Balance",
+    "date": "2026-06-09",
+    "price": 210,
+    "colorway": "Naughty Things",
+    "sku": "U18908JY",
+    "image_url": "https://nb.scene7.com/is/image/NB/u18908jy_nb_02_i?$pdpflexf2$&fmt=webp&wid=880",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/",
+        "price": "210€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/",
+        "price": "210€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk/",
+        "price": "210€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 80
+  },
+  {
+    "id": "nike-air-max-95-big-bubble-woven-multi",
+    "title": "Nike Air Max 95 Big Bubble Woven Multi",
+    "brand": "Nike",
+    "date": "2026-06-11",
+    "price": 200,
+    "colorway": "Multi",
+    "sku": "IH3695-100",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IH3695-100_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "200€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://www.footdistrict.com/",
+        "price": "200€"
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.urbanstaronline.com/",
+        "price": "200€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 70
+  },
+  {
+    "id": "new-balance-992-made-in-usa-shadow-grey",
+    "title": "New Balance 992 Made in USA Shadow Grey",
+    "brand": "New Balance",
+    "date": "2026-06-11",
+    "price": 230,
+    "colorway": "Shadow Grey",
+    "sku": "U9927WX",
+    "image_url": "https://nb.scene7.com/is/image/NB/u9927wx_nb_02_i?$pdpflexf2$&fmt=webp&wid=880",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/",
+        "price": "230€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/",
+        "price": "230€"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com/",
+        "price": "230€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 75
+  },
+  {
+    "id": "jacquemus-x-nike-cryoshot-tiempo-r10-white-sport-royal",
+    "title": "Jacquemus x Nike Cryoshot Tiempo R10 White Sport Royal",
+    "brand": "Nike",
+    "date": "2026-06-11",
+    "price": 210,
+    "colorway": "White Sport Royal",
+    "sku": "IO0619-100",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IO0619-100_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€"
+      },
+      {
+        "name": "Jacquemus",
+        "url": "https://www.jacquemus.com/",
+        "price": "210€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 85
+  },
+  {
+    "id": "new-balance-1300-made-in-usa-slate-grey",
+    "title": "New Balance 1300 Made in USA Slate Grey",
+    "brand": "New Balance",
+    "date": "2026-06-11",
+    "price": 210,
+    "colorway": "Slate Grey",
+    "sku": "U13007PT",
+    "image_url": "https://nb.scene7.com/is/image/NB/u13007pt_nb_02_i?$pdpflexf2$&fmt=webp&wid=880",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.com/",
+        "price": "210€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/",
+        "price": "210€"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com/",
+        "price": "210€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 75
+  },
+  {
+    "id": "patta-x-nike-cryoshot-mercurial-vapor-r9-metallic-silver",
+    "title": "Patta x Nike Cryoshot Mercurial Vapor R9 Metallic Silver Hyper Crimson Black",
+    "brand": "Nike",
+    "date": "2026-06-12",
+    "price": 210,
+    "colorway": "Metallic Silver Hyper Crimson Black",
+    "sku": "IM0589-001",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IM0589-001_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 90
+  },
+  {
+    "id": "palace-x-nike-cryoshot-air-speed-m-black-crimson-white",
+    "title": "Palace x Nike Cryoshot Air Speed M Black Crimson White",
+    "brand": "Nike",
+    "date": "2026-06-12",
+    "price": 210,
+    "colorway": "Black Crimson White",
+    "sku": "IM0702-001",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IM0702-001_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 90
+  },
+  {
+    "id": "nike-mind-002-flyknit-qs-pure-platinum",
+    "title": "Nike Mind 002 Flyknit QS Pure Platinum",
+    "brand": "Nike",
+    "date": "2026-06-12",
+    "price": 140,
+    "colorway": "Pure Platinum",
+    "sku": "IR2176-100",
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IR2176-100_A_PREM.jpg",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "140€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://www.footdistrict.com/",
+        "price": "140€"
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 65
   }
 ]
