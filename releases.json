@@ -1873,7 +1873,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 50
+    "hype_score": 50,
+    "year": 2026
   },
   {
     "id": "nike-acg-pegasus-trail-summit-white-safety-orange",
@@ -1907,7 +1908,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 45
+    "hype_score": 45,
+    "silhouette": "Pegasus",
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-big-bubble-og-fresh-mint",
@@ -1951,7 +1954,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 70
+    "hype_score": 70,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "coca-cola-x-adidas-superstar-ii-white-core-black-red",
@@ -1970,7 +1975,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 70
+    "hype_score": 70,
+    "year": 2026
   },
   {
     "id": "coca-cola-x-adidas-superstar-ii-black-red-grey",
@@ -1989,7 +1995,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 70
+    "hype_score": 70,
+    "year": 2026
   },
   {
     "id": "adidas-harden-vol-10-metallic-gold-black",
@@ -2008,7 +2015,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 55
+    "hype_score": 55,
+    "year": 2026
   },
   {
     "id": "coca-cola-x-adidas-megaride-f50-white",
@@ -2027,7 +2035,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 65
+    "hype_score": 65,
+    "year": 2026
   },
   {
     "id": "coca-cola-x-adidas-samba-og-red-core-black-2",
@@ -2046,7 +2055,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 75
+    "hype_score": 75,
+    "silhouette": "Adidas Samba",
+    "year": 2026
   },
   {
     "id": "nike-mind-001-sail",
@@ -2065,7 +2076,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 60
+    "hype_score": 60,
+    "year": 2026
   },
   {
     "id": "nike-mind-002-wmns-football-grey",
@@ -2084,7 +2096,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 50
+    "hype_score": 50,
+    "year": 2026
   },
   {
     "id": "nike-mind-002-thunder-blue",
@@ -2103,7 +2116,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 55
+    "hype_score": 55,
+    "year": 2026
   },
   {
     "id": "nike-mind-002-wmns-light-violet-ore",
@@ -2122,7 +2136,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 50
+    "hype_score": 50,
+    "year": 2026
   },
   {
     "id": "nike-mind-001-wmns-barely-green",
@@ -2141,7 +2156,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 65
+    "hype_score": 65,
+    "year": 2026
   },
   {
     "id": "nike-mind-001-backened-blue",
@@ -2160,7 +2176,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 70
+    "hype_score": 70,
+    "year": 2026
   },
   {
     "id": "nike-mind-001-mineral-slate",
@@ -2179,7 +2196,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 55
+    "hype_score": 55,
+    "year": 2026
   },
   {
     "id": "nike-mind-001-black-hyper-crimson",
@@ -2203,7 +2221,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 65
+    "hype_score": 65,
+    "year": 2026
   },
   {
     "id": "joe-freshgoods-x-new-balance-1890-finger-waves",
@@ -2222,7 +2241,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 80
+    "hype_score": 80,
+    "year": 2026
   },
   {
     "id": "joe-freshgoods-x-new-balance-1890-naughty-things",
@@ -2251,7 +2271,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 80
+    "hype_score": 80,
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-big-bubble-woven-multi",
@@ -2280,7 +2301,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 70
+    "hype_score": 70,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "new-balance-992-made-in-usa-shadow-grey",
@@ -2309,7 +2332,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 75
+    "hype_score": 75,
+    "silhouette": "New Balance 992",
+    "year": 2026
   },
   {
     "id": "jacquemus-x-nike-cryoshot-tiempo-r10-white-sport-royal",
@@ -2333,7 +2358,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 85
+    "hype_score": 85,
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "new-balance-1300-made-in-usa-slate-grey",
@@ -2362,7 +2389,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 75
+    "hype_score": 75,
+    "year": 2026
   },
   {
     "id": "patta-x-nike-cryoshot-mercurial-vapor-r9-metallic-silver",
@@ -2381,7 +2409,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 90
+    "hype_score": 90,
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "palace-x-nike-cryoshot-air-speed-m-black-crimson-white",
@@ -2400,7 +2430,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 90
+    "hype_score": 90,
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "nike-mind-002-flyknit-qs-pure-platinum",
@@ -2424,7 +2456,8 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 65
+    "hype_score": 65,
+    "year": 2026
   },
   {
     "id": "peaceminusone-x-nike-cryoshot-ctr360-team-south-korea",
@@ -2443,7 +2476,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 85
+    "hype_score": 85,
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "slawn-x-nike-cryoshot-striker-1976-natural-white-black",
@@ -2462,7 +2497,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 80
+    "hype_score": 80,
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
@@ -2481,7 +2518,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 90
+    "hype_score": 90,
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "off-white-x-nike-cryoshot-virgil-abloh-archives",
@@ -2500,7 +2539,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 95
+    "hype_score": 95,
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "nike-pegasus-premium-sp-black-sail-sail",
@@ -2534,7 +2575,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 70
+    "hype_score": 70,
+    "silhouette": "Pegasus",
+    "year": 2026
   },
   {
     "id": "adidas-adizero-adios-pro-evo-3-cloud-white-solar-turbo",
@@ -2553,7 +2596,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 75
+    "hype_score": 75,
+    "silhouette": "Adidas Adizero",
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-light-graphite-paisley",
@@ -2577,7 +2622,9 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 65
+    "hype_score": 65,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "cdg-x-nike-ld-1000-spirit-pink",
@@ -2596,6 +2643,7 @@
       }
     ],
     "buy_url": "",
-    "hype_score": 80
+    "hype_score": 80,
+    "year": 2026
   }
 ]
