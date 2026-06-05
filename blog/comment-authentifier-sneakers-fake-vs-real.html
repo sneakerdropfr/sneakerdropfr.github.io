@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comment authentifier une paire de sneakers : le guide anti-fakes | SneakerDropFR</title>
+  <meta name="description" content="Guide complet pour authentifier ses sneakers et repérer les fakes. Jordan 1, Yeezy, Samba, Dunk : les points de contrôle par modèle. Applications et services recommandés.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #f5f5f5; color: #1a1a1a; line-height: 1.7; }
+    .container { max-width: 820px; margin: 0 auto; padding: 0 20px 60px; }
+    header { background: #111; color: #fff; padding: 18px 0; }
+    header .inner { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+    header a { color: #fff; text-decoration: none; font-size: 1.1rem; font-weight: 700; }
+    .hero { background: linear-gradient(135deg, #1a0000 0%, #3d0000 100%); color: #fff; padding: 52px 20px; text-align: center; margin-bottom: 48px; }
+    .hero .tag { display: inline-block; background: #dc3545; color: #fff; font-size: 0.72rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 12px; border-radius: 2px; margin-bottom: 18px; }
+    .hero h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 900; line-height: 1.2; max-width: 700px; margin: 0 auto 16px; }
+    .hero .meta { font-size: 0.85rem; color: #aaa; }
+    article h2 { font-size: 1.5rem; font-weight: 800; margin: 48px 0 16px; padding-bottom: 10px; border-bottom: 3px solid #dc3545; }
+    article h3 { font-size: 1.15rem; font-weight: 700; margin: 30px 0 12px; color: #222; }
+    article p { margin-bottom: 18px; font-size: 1.02rem; }
+    article ul, article ol { margin: 0 0 20px 22px; }
+    article li { margin-bottom: 9px; font-size: 1rem; }
+    .warning-box { background: #fff3cd; border-left: 4px solid #ffc107; padding: 20px 24px; margin: 32px 0; border-radius: 0 8px 8px 0; }
+    .warning-box strong { display: block; font-size: 0.8rem; letter-spacing: 1px; text-transform: uppercase; color: #856404; margin-bottom: 8px; }
+    .danger-box { background: #f8d7da; border-left: 4px solid #dc3545; padding: 20px 24px; margin: 32px 0; border-radius: 0 8px 8px 0; }
+    .danger-box strong { display: block; font-size: 0.8rem; letter-spacing: 1px; text-transform: uppercase; color: #721c24; margin-bottom: 8px; }
+    .success-box { background: #d4edda; border-left: 4px solid #28a745; padding: 20px 24px; margin: 32px 0; border-radius: 0 8px 8px 0; }
+    .success-box strong { display: block; font-size: 0.8rem; letter-spacing: 1px; text-transform: uppercase; color: #155724; margin-bottom: 8px; }
+    .check-list { background: #fff; border-radius: 10px; padding: 24px; margin: 28px 0; box-shadow: 0 2px 10px rgba(0,0,0,.07); }
+    .check-list h4 { font-size: 1rem; font-weight: 700; color: #dc3545; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+    .check-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 14px; padding-bottom: 14px; border-bottom: 1px solid #f5f5f5; }
+    .check-item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+    .check-icon { min-width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
+    .check-icon.ok { background: #28a745; color: #fff; }
+    .check-icon.warn { background: #ffc107; color: #000; }
+    .check-icon.bad { background: #dc3545; color: #fff; }
+    .check-text h5 { font-size: 0.92rem; font-weight: 700; margin-bottom: 4px; }
+    .check-text p { font-size: 0.85rem; color: #555; margin: 0; }
+    .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 28px 0; }
+    .app-card { background: #fff; border-radius: 8px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,.07); }
+    .app-card .app-name { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
+    .app-card .verdict { font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 3px; display: inline-block; margin-bottom: 10px; }
+    .app-card .verdict.top { background: #d4edda; color: #155724; }
+    .app-card .verdict.good { background: #fff3cd; color: #856404; }
+    .app-card p { font-size: 0.85rem; color: #555; margin: 0; }
+    .price-check { background: #1a1a1a; color: #fff; border-radius: 10px; padding: 24px; margin: 28px 0; }
+    .price-check h4 { font-size: 1rem; font-weight: 700; margin-bottom: 14px; color: #ffc107; }
+    .price-range { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #333; font-size: 0.9rem; }
+    .price-range:last-child { border-bottom: none; }
+    .price-range .range { color: #28a745; font-weight: 700; }
+    .red { color: #dc3545; font-weight: 700; }
+    footer { background: #111; color: #888; text-align: center; padding: 28px; font-size: 0.85rem; margin-top: 60px; }
+    footer a { color: #ccc; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <a href="https://sneakerdropfr.fr">🔴 SneakerDropFR</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div style="max-width:820px;margin:0 auto;">
+    <span class="tag">Guide Anti-Fakes</span>
+    <h1>Comment authentifier une paire de sneakers : le guide anti-fakes</h1>
+    <p class="meta">Publié le 4 juin 2026 · 15 min de lecture</p>
+  </div>
+</div>
+
+<div class="container">
+<article>
+
+<p>Le marché des fausses sneakers n'a jamais été aussi sophistiqué. En 2026, certains "super fakes" (SF) sont capables de tromper l'œil nu d'acheteurs expérimentés. Les productions chinoises ont tellement progressé que même des détails autrefois discriminants — l'odeur de la colle, la rigidité de la semelle — ne suffisent plus toujours. Ce guide te donne les outils et les méthodes pour t'en sortir.</p>
+
+<p>Que tu achètes sur StockX, GOAT, Vinted, Instagram ou à un particulier, les mêmes règles de base s'appliquent. Plus tu connais la paire, plus tu es protégé.</p>
+
+<div class="danger-box">
+  <strong>Attention</strong>
+  Acheter ou revendre sciemment des fausses sneakers est illégal en France (contrefaçon). Ce guide est exclusivement destiné à t'aider à identifier des fakes pour te protéger en tant qu'acheteur.
+</div>
+
+<h2>Les points de contrôle universels</h2>
+
+<p>Avant d'entrer dans le détail par modèle, voici les vérifications qui s'appliquent à quasiment toutes les sneakers du marché.</p>
+
+<div class="check-list">
+  <h4>🔍 Checklist universelle d'authentification</h4>
+
+  <div class="check-item">
+    <div class="check-icon ok">✓</div>
+    <div class="check-text">
+      <h5>L'étiquette intérieure (tag)</h5>
+      <p>Doit être cousue nette, droite, avec le même fil que l'empiècement. La typographie doit être précise et lisible. Le pays de fabrication doit correspondre à ce que Nike/Adidas produit réellement (ex: Jordan 1 = Chine, Made in USA 992 = USA).</p>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <div class="check-icon ok">✓</div>
+    <div class="check-text">
+      <h5>Le numéro de style (style code)</h5>
+      <p>Indiqué sur la boîte ET sur le tag intérieur. Les deux doivent correspondre exactement. Un seul code pour un coloris donné. Vérifie sur SneakerNews ou SBD que le code est réel.</p>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <div class="check-icon ok">✓</div>
+    <div class="check-text">
+      <h5>La boîte</h5>
+      <p>Police correcte, code-barres fonctionnel, étiquette bien collée, sans bulle. La paire doit correspondre à la pointure sur la boîte. Les papiers de soie Nike sont spécifiques et souvent mal imités.</p>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <div class="check-icon warn">!</div>
+    <div class="check-text">
+      <h5>La couture et les finitions</h5>
+      <p>Points serrés et réguliers sur les authentiques. Les fakes ont souvent des fils qui dépassent, des coutures irrégulières ou légèrement tordues. Examine les zones sous la languette et les renforts de talon.</p>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <div class="check-icon warn">!</div>
+    <div class="check-text">
+      <h5>Le bruit de la semelle</h5>
+      <p>Les semelles authentiques de qualité (React, Zoom, Boost) ont une souplesse et un rebond spécifiques. Appuie dessus — les fakes utilisent souvent du mousse moins dense qui s'effondre différemment.</p>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <div class="check-icon bad">✗</div>
+    <div class="check-text">
+      <h5>Prix trop beau pour être vrai</h5>
+      <p>Une Air Jordan 1 "Royal Toe" neuves à 150€ en 2026, ça n'existe pas. Toujours vérifier le prix marché actuel sur StockX ou GOAT avant d'acheter. Moins de 70% du prix marché = red flag systématique.</p>
+    </div>
+  </div>
+</div>
+
+<h2>Par modèle : les points de contrôle spécifiques</h2>
+
+<h3>Air Jordan 1 High</h3>
+
+<p>Le Jordan 1 est le modèle le plus contrefait au monde. Les fakes ont atteint un niveau de sophistication très élevé. Voici les zones où les falsificateurs trébuchent encore.</p>
+
+<div class="check-list">
+  <h4>🏀 Jordan 1 : vérifications clés</h4>
+  <div class="check-item">
+    <div class="check-icon bad">✗</div>
+    <div class="check-text">
+      <h5>Le Swoosh</h5>
+      <p>Sur un Jordan 1 authentique, le Swoosh est légèrement courbé vers le haut à son extrémité. Les fakes ont souvent un Swoosh trop droit ou dont la pointe s'incurve dans le mauvais sens. Étudie des photos de référence.</p>
+    </div>
+  </div>
+  <div class="check-item">
+    <div class="check-icon bad">✗</div>
+    <div class="check-text">
+      <h5>Le Wings logo</h5>
+      <p>Le logo ailé au niveau de la cheville doit être parfaitement centré et symmétrique. La police "NIKE AIR" en dessous est souvent mal reproduite — les lettres trop larges ou trop espacées.</p>
+    </div>
+  </div>
+  <div class="check-item">
+    <div class="check-icon warn">!</div>
+    <div class="check-text">
+      <h5>La semelle en caoutchouc</h5>
+      <p>La texture de la semelle varie selon les coloris et les années. Comparer avec des photos de vérification (sneakerbardetroit, solereview). L'épaisseur et le motif doivent être exacts.</p>
+    </div>
+  </div>
+  <div class="check-item">
+    <div class="check-icon ok">✓</div>
+    <div class="check-text">
+      <h5>Le padded collar</h5>
+      <p>Le col rembourré doit être uniformément épais sur tout le pourtour. Les fakes ont souvent des zones plus minces ou des bosses irrégulières. Appuie partout et compare.</p>
+    </div>
+  </div>
+</div>
+
+<h3>Nike Air Force 1</h3>
+
+<p>L'AF1 est tellement produite en masse qu'on pourrait croire les fakes faciles à repérer. En pratique, la profusion de coloris légitimes complique l'exercice.</p>
+
+<ul>
+  <li><strong>Le Swoosh piqué :</strong> Les points de couture autour du Swoosh sont visibles et réguliers sur un authentique. Les fakes les effacent souvent ou les rendent trop uniformes.</li>
+  <li><strong>La semelle outsole :</strong> Le motif damier de la semelle Nike doit être net et profond. Les contrefaçons ont des motifs aplatis.</li>
+  <li><strong>"NIKE AIR" sur la semelle intérieure :</strong> Police spécifique. Les "A" et les "R" ont des formes caractéristiques.</li>
+  <li><strong>L'arrière :</strong> La bande de renfort de talon doit être parfaitement centrée et le logo Air bien imprimé.</li>
+</ul>
+
+<h3>Adidas Yeezy (encore présentes sur le marché)</h3>
+
+<p>Même si Kanye West a quitté Adidas en 2022, le stock de Yeezy continue de se vendre et d'être contrefait. Les Boost 350 V2 et 700 restent les plus copiées.</p>
+
+<ul>
+  <li><strong>La semelle Boost :</strong> Sur un authentic, les perles Boost sont irrégulières et légèrement translucides. Les fakes ont des perles trop uniformes et opaques.</li>
+  <li><strong>Le "SPLY-350" (350 V2) :</strong> L'espacement et la typographie sont très précis. Les fakes sur-utilisent souvent la couleur de contraste.</li>
+  <li><strong>La languette :</strong> L'intégration de la languette dans l'empeigne Primeknit doit être parfaitement fondue. Un gap = fake.</li>
+  <li><strong>L'odeur :</strong> Le Primeknit authentique a une légère odeur textile spécifique. Les fakes sentent souvent davantage la colle ou le plastique.</li>
+</ul>
+
+<h3>New Balance Made in USA</h3>
+
+<div class="success-box">
+  <strong>Bonne nouvelle</strong>
+  Les New Balance Made in USA (990, 992, 1300) sont moins contrefaites que les Nike/Jordan/Adidas — le marché est plus restreint et les connaisseurs les achètent directement chez les retailers officiels. Mais elles existent.
+</div>
+
+<ul>
+  <li>Le label "Made in USA" avec le numéro de stock intérieur</li>
+  <li>Le cuir doit être souple mais ferme, pas cartonneux</li>
+  <li>La broderie "N" est précise et légèrement surélevée</li>
+  <li>La semelle ENCAP (mousse colorée visible sur le côté) doit être lisse et bien définie</li>
+</ul>
+
+<h2>Le prix comme premier indicateur : tableau de référence</h2>
+
+<div class="price-check">
+  <h4>⚠️ Prix en dessous de ces seuils = méfiance maximale</h4>
+  <div class="price-range">
+    <span>Air Jordan 1 High OG (collab/rétro)</span>
+    <span class="range">Marché : 200–600€+ | Seuil : 170€</span>
+  </div>
+  <div class="price-range">
+    <span>Nike Air Force 1 (standard)</span>
+    <span class="range">Retail : 110–130€ | Neuf &lt;90€ = suspect</span>
+  </div>
+  <div class="price-range">
+    <span>Nike Dunk Low (collab/rare)</span>
+    <span class="range">Marché : 150–400€ | Seuil : 130€</span>
+  </div>
+  <div class="price-range">
+    <span>Adidas Yeezy Boost 350 V2</span>
+    <span class="range">Marché : 150–300€ | Seuil : 130€</span>
+  </div>
+  <div class="price-range">
+    <span>New Balance 990v4/v6</span>
+    <span class="range">Retail : 200–220€ | Neuf &lt;160€ = suspect</span>
+  </div>
+</div>
+
+<h2>Les applications d'authentification</h2>
+
+<div class="app-grid">
+  <div class="app-card">
+    <div class="app-name">CheckCheck</div>
+    <span class="verdict top">Top pick</span>
+    <p>Application française leader de l'authentification photo. Envoi de photos, verdict en 24h par des experts. Fiable à &gt;95% sur les modèles courants. ~6€ par authentification.</p>
+  </div>
+  <div class="app-card">
+    <div class="app-name">Legit App</div>
+    <span class="verdict top">Top pick</span>
+    <p>Concurrent sérieux de CheckCheck. Interface similaire, bonne couverture des Jordan, Dunk et Yeezy. Service rapide et prixcompétitif.</p>
+  </div>
+  <div class="app-card">
+    <div class="app-name">StockX</div>
+    <span class="verdict good">Intégré</span>
+    <p>Toutes les paires vendues via StockX passent par leur système d'authentification physique. Fiable pour les achats directs — moins pour vérifier une paire achetée ailleurs.</p>
+  </div>
+  <div class="app-card">
+    <div class="app-name">GOAT</div>
+    <span class="verdict good">Intégré</span>
+    <p>Même principe que StockX. Authentification physique intégrée au processus de vente. Pour les pièces rares &gt;300€, vaut la peine de passer par GOAT plutôt qu'un particulier.</p>
+  </div>
+</div>
+
+<h2>Les plateformes de revente : lesquelles sont sûres ?</h2>
+
+<h3>Les plateformes avec authentification intégrée</h3>
+<p><strong>StockX</strong>, <strong>GOAT</strong> et <strong>Stadium Goods</strong> sont les références. Chaque paire est physiquement inspectée avant livraison. Ce n'est pas infaillible (des fakes sont passés, c'est documenté), mais le risque est drastiquement réduit versus un achat entre particuliers.</p>
+
+<h3>Les plateformes sans garantie</h3>
+<p><strong>Vinted</strong>, <strong>Facebook Marketplace</strong>, <strong>Leboncoin</strong> et <strong>Instagram</strong> sont les terrains de jeu favoris des vendeurs de fakes. Ici, la responsabilité est entièrement tienne. Règles à appliquer :</p>
+<ul>
+  <li>Demande systématiquement des photos de l'étiquette, de la boîte, du tag et de la semelle</li>
+  <li>N'achète jamais "photo générique" — insiste sur des photos avec la date ou un objet spécifique visible</li>
+  <li>Pour toute paire au-dessus de 150€, exige une authentification via CheckCheck ou Legit App avant paiement</li>
+  <li>Méfie-toi des "photos trop parfaites" — des shots studio sur fond blanc pour une vente entre particuliers, ça ne tient pas la route</li>
+</ul>
+
+<div class="warning-box">
+  <strong>Piège classique</strong>
+  Sur Instagram et TikTok, des comptes proposent des "authentics" avec des photos très bien faites. Beaucoup sont des revendeurs de super-fakes qui investissent dans la mise en scène. La règle d'or : si le prix est anormalement bas pour un modèle rare, c'est presque certainement un fake, peu importe la qualité des photos.
+</div>
+
+<h2>Conclusion : la connaissance, meilleure protection</h2>
+
+<p>Il n'existe pas de méthode infaillible à 100% — les fakes de 2026 sont trop sophistiqués pour ça. Mais la combinaison d'une bonne connaissance du modèle + d'une application d'authentification + d'une vigilance sur le prix couvre 95%+ des situations. Investis du temps à apprendre les spécificités des modèles que tu recherches, utilise CheckCheck ou Legit App pour toute paire au-dessus de 150€, et privilégie les plateformes avec garantie pour les pièces rares. C'est le meilleur assurance anti-arnaque qui existe.</p>
+
+</article>
+</div>
+
+<footer>
+  <p>© 2026 <a href="https://sneakerdropfr.fr">SneakerDropFR</a> — Tracking de drops sneakers en France</p>
+</footer>
+
+</body>
+</html>
