@@ -69,12 +69,12 @@
 
     /* ── Header ── */
     .header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
-    .header__inner{display:flex;align-items:center;gap:.75rem;height:56px;overflow:hidden}
+    .header__inner{display:flex;align-items:center;gap:.75rem;height:56px}
     .logo{display:flex;align-items:center;gap:.45rem;font-family:var(--font-cond);font-size:1.15rem;font-weight:900;letter-spacing:.04em;color:var(--black);flex-shrink:0}
     .logo__icon{width:30px;height:30px;background:transparent;border-radius:0;display:flex;align-items:center;justify-content:center;flex-shrink:0}
     .logo__fr{opacity:.45}
     .header__spacer{flex:1}
-    .header__nav{display:flex;align-items:center;gap:.5rem;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;flex-shrink:0}.header__nav::-webkit-scrollbar{display:none}
+    .header__nav{display:none}.header__nav-bar{display:flex;align-items:center;gap:.5rem;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;padding:.5rem 1rem;border-bottom:1px solid var(--border);background:rgba(255,255,255,.97)}.header__nav-bar::-webkit-scrollbar{display:none}.header__nav-bar a{white-space:nowrap}
     .hbtn{font-family:var(--font-cond);font-weight:900;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:.42rem .9rem;border-radius:6px;white-space:nowrap;transition:background .15s,color .15s,border-color .15s;cursor:pointer;display:inline-flex;align-items:center;gap:.3rem}
     .hbtn--outline{background:transparent;color:var(--black);border:1px solid var(--border)}
     .hbtn--outline:hover{border-color:var(--black);background:var(--black);color:#fff}
@@ -418,6 +418,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       </nav>
     </div>
   </header>
+<div class="header__nav-bar">
+  <a href="/deals.html" class="hbtn hbtn--solid hbtn--keep">BSTN Deals</a>
+  <a href="/raffles.html" class="hbtn hbtn--solid hbtn--keep">Raffles</a>
+  <a href="/hype-picks.html" class="hbtn hbtn--solid hbtn--keep">Hype Picks</a>
+  <a href="/sorties.html" class="hbtn hbtn--solid hbtn--keep">Prochaines Sorties</a>
+  <a href="/restocks.html" class="hbtn hbtn--solid hbtn--keep">Restocks</a>
+  <a href="/blog/" class="hbtn hbtn--solid hbtn--keep">Blog</a>
+</div>
 
   <!-- Search overlay -->
   <div id="search-overlay">
