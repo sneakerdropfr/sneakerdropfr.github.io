@@ -906,7 +906,7 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
             'onerror="this.parentElement.style.background=\'#eee\';this.style.display=\'none\'">'
         )
     else:
-        img_tag = '<div style="font-size:4rem">👟</div>'
+        img_tag = '<img src="/placeholder.svg" alt="Visuel officiel à venir" style="width:100%;max-width:400px;opacity:.6">'
 
     # Meta title optimise < 60 chars
     suffix = " | SneakerDrop FR"
