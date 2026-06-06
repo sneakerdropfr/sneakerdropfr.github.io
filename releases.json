@@ -28,21 +28,6 @@
     "year": 2027
   },
   {
-    "id": "off-white-x-nike-cryoshot-virgil-abloh-archives",
-    "title": "Virgil Abloh Archive x Nike Cryoshot Zoom M9",
-    "brand": "Sneaker Files",
-    "colorway": "White/University Red/Black",
-    "date": "TBD",
-    "price": "$210",
-    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2025/11/off-white-nike-cryoshot-virgil-abloh-archives-2026.webp",
-    "buy_url": null,
-    "source": "Sneaker Files",
-    "added_at": "2026-06-01T22:01:38.484112+00:00",
-    "silhouette": "Cryoshot",
-    "year": 2026,
-    "restocks": []
-  },
-  {
     "id": "patta-x-nike-cryoshot-mercurial-vapor-r9-releases-june-2026",
     "title": "Patta x Nike Cryoshot Mercurial Vapor R9",
     "brand": "Sneaker Files",
@@ -68,27 +53,6 @@
     "buy_url": null,
     "source": "Sneaker Files",
     "added_at": "2026-06-01T21:35:07.224945+00:00",
-    "silhouette": "Cryoshot",
-    "year": 2026,
-    "restocks": []
-  },
-  {
-    "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
-    "title": "NOCTA x Nike Cryoshot Tiempo ’94",
-    "brand": "Nike",
-    "colorway": "University Gold/Black",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/nocta-nike-cryoshot-tiempo-94-university-gold-im0703-700-release-date.webp",
-    "buy_url": null,
-    "source": "Sneaker Files",
-    "added_at": "2026-06-01T19:37:26.876367+00:00",
-    "similar_products": [
-      "nike-pegasus-premium-sp-black-sail",
-      "nike-pegasus-premium-sp-white-black",
-      "nike-air-max-90-infrared-3m-2026",
-      "mcdonald-s-x-nike-book-2-sedona-releases-june-2026"
-    ],
     "silhouette": "Cryoshot",
     "year": 2026,
     "restocks": []
@@ -2268,48 +2232,6 @@
     "year": 2026
   },
   {
-    "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
-    "title": "NOCTA x Nike Cryoshot Tiempo University Gold Black",
-    "brand": "Nike",
-    "date": "2026-06-16",
-    "price": 210,
-    "colorway": "University Gold Black",
-    "sku": "IM0703-700",
-    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IM0703-700_A_PREM.jpg",
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "210€"
-      }
-    ],
-    "buy_url": "",
-    "hype_score": 90,
-    "silhouette": "Cryoshot",
-    "year": 2026
-  },
-  {
-    "id": "off-white-x-nike-cryoshot-virgil-abloh-archives",
-    "title": "Off-White x Nike Cryoshot Virgil Abloh Archives",
-    "brand": "Nike",
-    "date": "2026-06-16",
-    "price": 210,
-    "colorway": "White",
-    "sku": "IM3886-100",
-    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IM3886-100_A_PREM.jpg",
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "210€"
-      }
-    ],
-    "buy_url": "",
-    "hype_score": 95,
-    "silhouette": "Cryoshot",
-    "year": 2026
-  },
-  {
     "id": "nike-pegasus-premium-sp-black-sail-sail",
     "title": "Nike Pegasus Premium SP Black Sail Sail",
     "brand": "Nike",
@@ -2411,5 +2333,41 @@
     "buy_url": "",
     "hype_score": 80,
     "year": 2026
+  },
+  {
+    "id": "off-white-x-nike-cryoshot-virgil-abloh-archives",
+    "title": "Virgil Abloh Archive x Nike Cryoshot Zoom M9",
+    "brand": "Sneaker Files",
+    "colorway": "White/University Red/Black",
+    "date": "TBD",
+    "price": "$210",
+    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2025/11/off-white-nike-cryoshot-virgil-abloh-archives-2026.webp",
+    "buy_url": null,
+    "source": "Sneaker Files",
+    "added_at": "2026-06-01T22:01:38.484112+00:00",
+    "silhouette": "Cryoshot",
+    "year": 2026,
+    "restocks": []
+  },
+  {
+    "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
+    "title": "NOCTA x Nike Cryoshot Tiempo ’94",
+    "brand": "Nike",
+    "colorway": "University Gold/Black",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/nocta-nike-cryoshot-tiempo-94-university-gold-im0703-700-release-date.webp",
+    "buy_url": null,
+    "source": "Sneaker Files",
+    "added_at": "2026-06-01T19:37:26.876367+00:00",
+    "similar_products": [
+      "nike-pegasus-premium-sp-black-sail",
+      "nike-pegasus-premium-sp-white-black",
+      "nike-air-max-90-infrared-3m-2026",
+      "mcdonald-s-x-nike-book-2-sedona-releases-june-2026"
+    ],
+    "silhouette": "Cryoshot",
+    "year": 2026,
+    "restocks": []
   }
 ]
