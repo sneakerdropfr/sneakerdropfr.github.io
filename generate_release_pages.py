@@ -224,20 +224,7 @@ def get_retailers_for_release(r: dict) -> list:
 def retailers_html(r: dict) -> str:
     rets = get_retailers_for_release(r)
     if not rets:
-        wtc = r.get("wtc_url") or r.get("buy_url", "")
-        if wtc:
-            return (
-                '<section class="article__retailers">'
-                '<h2>Où <span>acheter</span></h2>'
-                '<div class="retailers-list">'
-                f'<a class="retailer" href="{escape(wtc, quote=True)}" '
-                'target="_blank" rel="noopener nofollow">'
-                '<span class="retailer__name">Voir sur WhenToCop</span>'
-                '<span class="retailer__badge retailer__badge--retail">Retail</span>'
-                '<span class="retailer__arrow">→</span>'
-                '</a>'
-                '</div></section>'
-            )
+        return ""
         return ""
 
     def make_row(ret):
@@ -403,7 +390,7 @@ def primary_buy_button(r: dict) -> str:
     rets = get_retailers_for_release(r)
     retail = next((x for x in rets if not x.get("resell") and not x.get("type") == "resell"), None)
     target = retail or (rets[0] if rets else None)
-    url = (target and target.get("url")) or r.get("buy_url") or r.get("wtc_url")
+    url = (target and target.get("url")) or r.get("buy_url")
     if not url:
         return ""
     label = "Voir sur WhenToCop" if "whentocop" in url else "Acheter maintenant"
