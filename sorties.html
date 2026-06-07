@@ -801,10 +801,16 @@ document.addEventListener('DOMContentLoaded', function(){
       })();
       document.getElementById('this-week-header').style.display = 'none';
       if (grid) grid.style.display = 'none';
-      if (laterOn.length) {
+      // Fusionner thisWeek + laterOn dans gridUpcoming (sans doublons)
+      var seenIds = {};
+      var allVisible = [];
+      thisWeek.forEach(function(r) { if (!seenIds[r.id||r.title]) { seenIds[r.id||r.title]=1; allVisible.push(r); } });
+      laterOn.forEach(function(r) { if (!seenIds[r.id||r.title]) { seenIds[r.id||r.title]=1; allVisible.push(r); } });
+      var allVisibleSorted = sortByDate(allVisible);
+      if (allVisibleSorted.length) {
         document.getElementById('upcoming-header').style.display = 'block';
         gridUpcoming.style.display = 'grid';
-        gridUpcoming.innerHTML = laterOn.map(function(r, i) { return renderCard(r, i); }).join('');
+        gridUpcoming.innerHTML = allVisibleSorted.map(function(r, i) { return renderCard(r, i); }).join('');
       } else {
         document.getElementById('upcoming-header').style.display = 'none';
         if (gridUpcoming) gridUpcoming.style.display = 'none';
