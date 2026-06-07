@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<script>
-(function(){
-  var saved = localStorage.getItem('theme');
-  var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme:dark)').matches;
-  var theme = saved || (prefersDark ? 'dark' : 'light');
-  document.documentElement.classList.add(theme);
-})();
-</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Raffles Sneakers — SneakerDrop FR</title>
@@ -130,62 +122,42 @@ body{background:#111111;color:#F0F0F0}
 
     
 
-    /* Theme toggle */
-    .theme-toggle{background:none;border:1px solid var(--border);border-radius:999px;padding:.3rem .7rem;font-size:.75rem;font-family:var(--font-cond);font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;color:var(--text);transition:background .15s,color .15s,border-color .15s;display:flex;align-items:center;gap:.3rem;white-space:nowrap}
-    .theme-toggle:hover{background:var(--bg-alt);border-color:var(--text)}
-    html.dark .theme-toggle .icon-sun{display:inline}
-    html.dark .theme-toggle .icon-moon{display:none}
-    html.light .theme-toggle .icon-sun{display:none}
-    html.light .theme-toggle .icon-moon{display:inline}
-    .theme-toggle .icon-sun,.theme-toggle .icon-moon{font-size:.9rem}
+    html.dark .hbtn--solid:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+    html.dark .theme-toggle{border-color:#444;color:#F0F0F0}
 
-    /* Dark mode via classe */
-    html.dark body{background:#111111;color:#F0F0F0}
+    /* ── Theme toggle ── */
+    .theme-toggle{background:none;border:1px solid var(--border);border-radius:999px;padding:.28rem .65rem;font-size:.8rem;cursor:pointer;color:var(--text);transition:background .15s;display:inline-flex;align-items:center;gap:.25rem;line-height:1}
+    .theme-toggle:hover{background:var(--bg-alt)}
+    html.dark .icon-sun{display:inline}
+    html.dark .icon-moon{display:none}
+    html.light .icon-sun{display:none}
+    html.light .icon-moon{display:inline}
+    html.dark body{background:#111;color:#F0F0F0}
     html.dark .header,html.dark .header__nav-bar{background:rgba(17,17,17,.97);border-color:#2A2A2A}
     html.dark .logo{color:#F0F0F0}
-    html.dark .hero-search{background:#1A1A1A;border-bottom:1px solid #2A2A2A}
+    html.dark .hero-search{background:#1A1A1A;border-color:#2A2A2A}
     html.dark .hero-search__input{background:#222;color:#F0F0F0;border-color:#333}
-    html.dark .hero-search__input::placeholder{color:#666}
-    html.dark .hero{background:#111111;color:#F0F0F0}
+    html.dark .hero{background:#111}
     html.dark .hero__eyebrow{background:#1A1A1A;border-color:#333;color:#ccc}
-    html.dark .hero__title,html.dark .hero__sub{color:#F0F0F0}
-    html.dark .section--alt{background:#161616}
-    html.dark .section-title,html.dark .section-header .section-title{color:#F0F0F0}
-    html.dark .filter-btn{background:#1A1A1A;color:#aaa;border-color:#333}
-    html.dark .filter-btn.active{background:#F0F0F0;color:#111}
     html.dark .drop-card{background:#1A1A1A;border-color:#2A2A2A}
     html.dark .drop-card__body{background:#1A1A1A}
     html.dark .drop-card__title{color:#F0F0F0}
-    html.dark .drop-card__brand,html.dark .drop-card__meta{color:#888}
     html.dark .drop-card__img-wrap{background:#222}
-    html.dark .drop-card__price{color:#F0F0F0}
-    html.dark .top-pick{background:#1A1A1A;border-color:#2A2A2A}
+    html.dark .section--alt{background:#161616}
+    html.dark .section-title{color:#F0F0F0}
+    html.dark .filter-btn{background:#1A1A1A;color:#aaa;border-color:#333}
+    html.dark .filter-btn.active{background:#F0F0F0;color:#111}
     html.dark .raffle-card{background:#1A1A1A;border-color:#2A2A2A}
     html.dark .raffle-card__body{background:#111}
     html.dark .raffle-single{background:#1A1A1A;border-color:#2A2A2A}
-    html.dark .raffle-single__img{background:#222}
     html.dark .raffle-carousel-item{background:#1A1A1A;border-color:#2A2A2A}
-    html.dark .raffle-carousel-item__img{background:#222}
-    html.dark .raffle-carousel-item__title{color:#F0F0F0}
-    html.dark .bstn-tabs{background:#1A1A1A}
     html.dark .bstn-tab{background:#222;color:#aaa;border-color:#333}
     html.dark .bstn-tab.active{background:#F0F0F0;color:#111}
-    html.dark .src{background:#222;border-color:#2A2A2A}
-    html.dark .src__title{color:#F0F0F0}
-    html.dark .article-card{background:#1A1A1A;border-color:#2A2A2A}
-    html.dark .article-card__title{color:#F0F0F0}
-    html.dark .article-card__body{background:#1A1A1A}
     html.dark .footer{background:#0A0A0A;border-top:1px solid #222;color:#888}
     html.dark .footer a{color:#bbb}
-    html.dark .footer__title{color:#F0F0F0}
     html.dark #cookie-banner{background:#1A1A1A;border-color:#2A2A2A;color:#ccc}
-    html.dark #search-overlay{background:rgba(0,0,0,.95)}
-    html.dark .search-result{background:#1A1A1A;border-color:#2A2A2A;color:#F0F0F0}
     html.dark .hbtn--outline{color:#F0F0F0;border-color:#444}
-    html.dark .hbtn--outline:hover{background:#F0F0F0;color:#111}
     html.dark .hbtn--solid{background:#F0F0F0;color:#111;border-color:#F0F0F0}
-    html.dark .hbtn--solid:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
-    html.dark .theme-toggle{border-color:#444;color:#F0F0F0}
 </style>
 </head>
 <body>
@@ -367,25 +339,26 @@ body{background:#111111;color:#F0F0F0}
     }, {passive:true});
   })();
   </script>
-  <!-- Theme toggle -->
+
+  <!-- Theme toggle JS -->
   <script>
   (function(){
-    function applyTheme(theme){
-      document.documentElement.classList.remove('dark','light');
-      document.documentElement.classList.add(theme);
-      localStorage.setItem('theme', theme);
-      var btn = document.getElementById('theme-toggle-btn');
-      if(btn) btn.setAttribute('aria-label', theme === 'dark' ? 'Passer en mode clair' : 'Passer en mode sombre');
-    }
-    document.addEventListener('DOMContentLoaded', function(){
-      var btn = document.getElementById('theme-toggle-btn');
-      if(btn) btn.addEventListener('click', function(){
-        var current = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
-        applyTheme(current === 'dark' ? 'light' : 'dark');
+    var saved=localStorage.getItem('sneaker-theme');
+    var sys=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+    var theme=saved||sys;
+    document.documentElement.classList.remove('dark','light');
+    document.documentElement.classList.add(theme);
+    document.addEventListener('DOMContentLoaded',function(){
+      var btn=document.getElementById('theme-toggle-btn');
+      if(!btn)return;
+      btn.addEventListener('click',function(){
+        var next=document.documentElement.classList.contains('dark')?'light':'dark';
+        document.documentElement.classList.remove('dark','light');
+        document.documentElement.classList.add(next);
+        localStorage.setItem('sneaker-theme',next);
       });
     });
   })();
   </script>
-
 </body>
 </html>
