@@ -946,7 +946,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         var sortiePage = r.id ? 'sorties/' + r.id + '.html' : null;
         html += '<div class="retailers-label">Acheter</div><div class="retailers-row">';
         officialShown.forEach(function(rt) {
-          var cls = isRetailerBSTN(rt.name) ? 'btn-retailer btn-retailer--bstn'
+          var cls = isRetailerSnipes(rt.name) ? 'btn-retailer btn-retailer--snipes'
+                  : isRetailerBSTN(rt.name) ? 'btn-retailer btn-retailer--bstn'
                   : isRetailerNike(rt.name) ? 'btn-retailer btn-retailer--nike'
                   : 'btn-retailer btn-retailer--official';
           var icon = isRetailerBSTN(rt.name) ? '🛒 '
@@ -1586,10 +1587,16 @@ function renderPastGrid(data) {
   <script>
 var BSTN_AWIN_MID = '104979';
   var BSTN_AWIN_AFF = '2855487';
+  var SNIPES_AWIN_MID = '122628';
+  var SNIPES_AWIN_AFF = '2855487';
+  var SNIPES_SITE = 'https://www.snipes.com';
   var BSTN_API_URL  = 'https://searcht.bstn.com/collections/magento2_eu_products/documents/search';
   var BSTN_API_KEY  = 'NCZstZEMLnMy4MSLPh9NKNrtMLsEF1Zy';
   var BSTN_SITE     = 'https://www.bstn.com/';
   var _bstnCache    = {};
+  function snipesAwinUrl(productPath) {
+    return 'https://www.awin1.com/cread.php?awinmid=' + SNIPES_AWIN_MID + '&awinaffid=' + SNIPES_AWIN_AFF + '&p=' + encodeURIComponent(SNIPES_SITE + productPath);
+  }
   function bstnAwinUrl(productPath) {
     return 'https://www.awin1.com/cread.php?awinmid=' + BSTN_AWIN_MID + '&awinaffid=' + BSTN_AWIN_AFF + '&p=' + encodeURIComponent(BSTN_SITE + productPath);
   }
