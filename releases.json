@@ -1296,7 +1296,23 @@
     "colorway": "Violet,Blanc",
     "image_url": "https://statics.whentocop.fr/drops/20724/picture/000000_Nike-Dunk-Low-x-LEGO-Collection-GS_Bright-Concord_IF2117-102_img0-1000x1000.webp",
     "sku": "IF2117-102",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "105€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/lego-dunk-low-gs-bright-concord-if2117-102",
+        "price": "164€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/nike-dunk-low-lego-bright-concord-gs",
+        "price": "176€"
+      }
+    ],
     "buy_url": "",
     "hype_score": 0,
     "silhouette": "Dunk Low",
@@ -1351,7 +1367,23 @@
     "colorway": "Gris,Rose",
     "image_url": "https://statics.whentocop.fr/drops/20725/picture/000000_Nike-Air-Max-95-x-LEGO-GS_Brick-Pixel_IO4799-001_img0-1000x1000.webp",
     "sku": "IO4799-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "150€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/lego-air-max-95-gs-brick-pixel-io4799-001",
+        "price": "212€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/nike-air-max-95-lego-brick-pixel-gs",
+        "price": "215€"
+      }
+    ],
     "buy_url": "",
     "hype_score": 0,
     "silhouette": "Air Max 95",
