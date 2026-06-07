@@ -16,9 +16,25 @@ h1 { text-align: center; color: #CCFF00; }
 .info a { display: block; background: #CCFF00; color: #000; text-align: center; padding: 8px; border-radius: 6px; text-decoration: none; font-weight: bold; }
       .hbtn--outline:hover{background:#F0F0F0;color:#111}
       .filter-btn.active{background:#F0F0F0;color:#111}
+
+    /* ── Cookie RGPD ── */
+    #cookie-banner{position:fixed;bottom:5rem;left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--border);border-radius:12px;padding:.9rem 1.4rem;display:flex;align-items:center;gap:1.4rem;max-width:500px;width:calc(100% - 2rem);z-index:9999;box-shadow:0 8px 30px rgba(0,0,0,.09);font-size:.8rem;color:var(--muted)}
+    #cookie-banner p{margin:0;flex:1;line-height:1.5}
+    #cookie-banner a{color:var(--black);text-decoration:underline}
+    #cookie-accept{background:var(--black);color:#fff;border:none;border-radius:6px;padding:.46rem 1rem;font-weight:900;font-size:.8rem;font-family:var(--font-cond);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}
+    #cookie-accept:hover{background:var(--accent);color:var(--black)}
+    #cookie-refuse{background:transparent;color:var(--muted);border:1px solid var(--border);border-radius:6px;padding:.46rem 1rem;font-weight:700;font-size:.8rem;font-family:var(--font-cond);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}
+    #cookie-refuse:hover{background:var(--bg-alt);color:var(--black)}
 </style>
 </head>
 <body>
+  <div id="cookie-banner" role="dialog" aria-label="Consentement cookies">
+    <p>Ce site utilise Google Analytics pour mesurer l'audience. <a href="privacy.html">En savoir plus</a>.</p>
+    <div style="display:flex;gap:.5rem;flex-shrink:0">
+      <button id="cookie-refuse" aria-label="Refuser Google Analytics">Refuser</button>
+      <button id="cookie-accept" aria-label="Accepter Google Analytics">J'accepte</button>
+    </div>
+  </div>
 <h1>🔥 Soldes Nike &amp; Jordan sur BSTN</h1>
 <div style="text-align:center;margin:1rem 0 1.5rem"><a href="/" style="display:inline-block;background:#CCFF00;color:#111;font-size:.85rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:.55rem 1.4rem;border-radius:999px;text-decoration:none">← Accueil</a></div>
 <div class="grid">
@@ -257,6 +273,22 @@ h1 { text-align: center; color: #CCFF00; }
         document.documentElement.classList.add(next);
         localStorage.setItem('sneaker-theme',next);
       });
+    });
+  })();
+  </script>
+
+  <!-- Cookie RGPD -->
+  <script>
+  (function(){
+    var consent = localStorage.getItem('cookie-consent');
+    var b = document.getElementById('cookie-banner');
+    if(consent){if(b)b.style.display='none'; if(consent==='refused' && window.gtag) window['ga-disable-G-1TQQ3RSJJV']=true; return;}
+    document.addEventListener('DOMContentLoaded',function(){
+      var b=document.getElementById('cookie-banner');
+      var btnOk=document.getElementById('cookie-accept');
+      var btnNo=document.getElementById('cookie-refuse');
+      if(btnOk)btnOk.addEventListener('click',function(){localStorage.setItem('cookie-consent','accepted');if(b)b.style.display='none';});
+      if(btnNo)btnNo.addEventListener('click',function(){localStorage.setItem('cookie-consent','refused');window['ga-disable-G-1TQQ3RSJJV']=true;if(b)b.style.display='none';});
     });
   })();
   </script>
