@@ -1590,6 +1590,9 @@ var BSTN_AWIN_MID = '104979';
   var SNIPES_AWIN_MID = '122628';
   var SNIPES_AWIN_AFF = '2855487';
   var SNIPES_SITE = 'https://www.snipes.com';
+  var SOLEBOX_AWIN_MID = '20964';
+  var SOLEBOX_AWIN_AFF = '2855487';
+  var SOLEBOX_SITE = 'https://www.solebox.com';
   var BSTN_API_URL  = 'https://searcht.bstn.com/collections/magento2_eu_products/documents/search';
   var BSTN_API_KEY  = 'NCZstZEMLnMy4MSLPh9NKNrtMLsEF1Zy';
   var BSTN_SITE     = 'https://www.bstn.com/';
@@ -1599,6 +1602,12 @@ var BSTN_AWIN_MID = '104979';
       return 'https://www.awin1.com/awclick.php?gid=592257&mid=122628&awinaffid=2855487&linkid=4701498&clickref=';
     }
     return 'https://www.awin1.com/cread.php?awinmid=' + SNIPES_AWIN_MID + '&awinaffid=' + SNIPES_AWIN_AFF + '&p=' + encodeURIComponent(SNIPES_SITE + productPath);
+  }
+  function soleboxAwinUrl(productPath) {
+    if (!productPath || productPath === '/') {
+      return 'https://www.awin1.com/awclick.php?gid=399424&mid=20964&awinaffid=2855487&linkid=2734550&clickref=';
+    }
+    return 'https://www.awin1.com/cread.php?awinmid=' + SOLEBOX_AWIN_MID + '&awinaffid=' + SOLEBOX_AWIN_AFF + '&p=' + encodeURIComponent(SOLEBOX_SITE + productPath);
   }
   function bstnAwinUrl(productPath) {
     return 'https://www.awin1.com/cread.php?awinmid=' + BSTN_AWIN_MID + '&awinaffid=' + BSTN_AWIN_AFF + '&p=' + encodeURIComponent(BSTN_SITE + productPath);
