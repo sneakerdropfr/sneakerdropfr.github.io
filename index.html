@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <script>
+  // Anti-flash dark mode
+  (function(){var s=localStorage.getItem('theme-pref');if(s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}})();
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SneakerDrop FR — Drops Sneakers Nike, Jordan, Adidas 2026</title>
@@ -336,6 +340,8 @@
       .bstn-tab{flex:1;text-align:center;padding:.55rem .8rem;font-size:.78rem}
     @media(max-width:480px){
       .drop-card__body{padding:.75rem}
+    }
+    }
     /* Hidden grid kept for JS compatibility */
     #releases-grid-week{display:none}
     .releases-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
@@ -378,9 +384,82 @@
     .promo-bar__code{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);border-radius:4px;padding:.1rem .4rem;font-size:.8rem;letter-spacing:.08em;cursor:pointer;transition:background .15s}
     .promo-bar__code:hover{background:rgba(255,255,255,.35)}
     .promo-bar__sep{opacity:.4}
-      .hero-search__input{background:#222;color:#F0F0F0;border-color:#333}
-      .hbtn--outline:hover{background:#F0F0F0;color:#111}
-      .filter-btn.active{background:#F0F0F0;color:#111}
+    }
+
+    /* ══ DARK MODE ══ */
+    :root[data-theme="dark"]{
+      --bg:#0F0F0F;
+      --bg-alt:#1A1A1A;
+      --text:#F0F0F0;
+      --muted:#999;
+      --border:#2C2C2C;
+      --shadow:0 2px 12px rgba(0,0,0,.45);
+      --shadow-hover:0 8px 28px rgba(0,0,0,.65);
+      --black:#F0F0F0;
+      --white:#0F0F0F;
+    }
+    /* Header */
+    html[data-theme="dark"] .header{background:rgba(15,15,15,.97);border-bottom-color:#2C2C2C}
+    html[data-theme="dark"] .header__nav-bar{background:rgba(15,15,15,.97);border-bottom-color:#2C2C2C}
+    /* Hero search */
+    html[data-theme="dark"] .hero-search{background:#1A1A1A;border-bottom-color:#2C2C2C}
+    html[data-theme="dark"] .hero-search__input{background:#111;color:#F0F0F0;border-color:#2C2C2C}
+    html[data-theme="dark"] .hero-search__input:focus{border-color:#F0F0F0;box-shadow:0 0 0 3px rgba(255,255,255,.07)}
+    html[data-theme="dark"] .hero-search__input::placeholder{color:#555}
+    html[data-theme="dark"] .hero-search__icon{color:#555}
+    /* Hero */
+    html[data-theme="dark"] .hero{background:#0F0F0F;border-bottom-color:#2C2C2C}
+    html[data-theme="dark"] .hero__eyebrow{background:#1A1A1A;border-color:#2C2C2C;color:#F0F0F0}
+    html[data-theme="dark"] .hero__brands{color:rgba(255,255,255,.3)}
+    html[data-theme="dark"] .hero__sub{color:rgba(255,255,255,.45)}
+    /* Buttons */
+    html[data-theme="dark"] .hbtn--outline{color:#F0F0F0;border-color:#2C2C2C}
+    html[data-theme="dark"] .hbtn--outline:hover{border-color:#F0F0F0;background:#F0F0F0;color:#0F0F0F}
+    html[data-theme="dark"] .hbtn--solid{background:#F0F0F0;color:#0F0F0F;border-color:#F0F0F0}
+    html[data-theme="dark"] .hbtn--solid:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+    /* Drop cards */
+    html[data-theme="dark"] .drop-card{background:#1A1A1A;border-color:#2C2C2C}
+    html[data-theme="dark"] .drop-card:hover{border-color:#444}
+    html[data-theme="dark"] .drop-card__body{background:#1A1A1A}
+    html[data-theme="dark"] .drop-card__brand{color:rgba(255,255,255,.45)}
+    html[data-theme="dark"] .drop-card__title{color:#F0F0F0}
+    html[data-theme="dark"] .drop-card__meta{color:rgba(255,255,255,.5)}
+    html[data-theme="dark"] .drop-card__price{color:#F0F0F0}
+    html[data-theme="dark"] .drop-card__img-placeholder{background:#222}
+    /* Filter buttons */
+    html[data-theme="dark"] .filter-btn{background:#1A1A1A;color:#999;border-color:#2C2C2C}
+    html[data-theme="dark"] .filter-btn:hover{background:#2C2C2C;color:#F0F0F0}
+    html[data-theme="dark"] .filter-btn.active{background:#F0F0F0;color:#0F0F0F}
+    /* Sections */
+    html[data-theme="dark"] .section--alt{background:#141414}
+    html[data-theme="dark"] .section--dark{background:#0A0A0A}
+    /* Ticker */
+    html[data-theme="dark"] .ticker{background:#1A1A1A;border-color:#2C2C2C}
+    html[data-theme="dark"] .ticker__item{color:#F0F0F0}
+    html[data-theme="dark"] .ticker__sep{color:#444}
+    /* Cookie banner */
+    html[data-theme="dark"] #cookie-banner{background:#1A1A1A;border-color:#2C2C2C;color:#999}
+    html[data-theme="dark"] #cookie-accept{background:#F0F0F0;color:#0F0F0F}
+    html[data-theme="dark"] #cookie-refuse{border-color:#2C2C2C;color:#999}
+    html[data-theme="dark"] #cookie-refuse:hover{background:#2C2C2C;color:#F0F0F0}
+    /* Nav links */
+    html[data-theme="dark"] .nav-link{color:#F0F0F0}
+    /* Footer */
+    html[data-theme="dark"] footer{background:#0A0A0A;border-top-color:#2C2C2C;color:#999}
+    html[data-theme="dark"] footer a{color:#888}
+    /* Retailer buttons */
+    html[data-theme="dark"] .btn-retailer--bstn{background:#F0F0F0;color:#0F0F0F}
+    /* Search results */
+    html[data-theme="dark"] #search-results{background:#1A1A1A;border-color:#2C2C2C}
+    html[data-theme="dark"] .search-result-item{border-bottom-color:#2C2C2C;color:#F0F0F0}
+    html[data-theme="dark"] .search-result-item:hover{background:#222}
+    /* Scroll to top */
+    html[data-theme="dark"] #scroll-top{background:#F0F0F0;color:#0F0F0F}
+    /* Theme toggle */
+    .theme-toggle{background:none;border:1px solid var(--border);border-radius:6px;color:var(--black);font-size:1rem;padding:.3rem .55rem;cursor:pointer;display:flex;align-items:center;line-height:1;transition:background .15s,border-color .15s;flex-shrink:0}
+    .theme-toggle:hover{background:var(--bg-alt);border-color:var(--black)}
+    html[data-theme="dark"] .theme-toggle{border-color:#2C2C2C;color:#F0F0F0}
+    html[data-theme="dark"] .theme-toggle:hover{background:#1A1A1A;border-color:#555}
 </style>
   <script id="schema-jsonld" type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","url":"https://sneakerdropfr.fr","itemListElement":[]}</script>
   <script>
@@ -438,6 +517,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 
 
       </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Basculer mode sombre/clair" title="Mode sombre / clair">🌙</button>
     </div>
   </header>
 <div class="header__nav-bar">
@@ -1676,6 +1756,43 @@ var BSTN_AWIN_MID = '104979';
         }).catch(function(){});
       } catch(e) {}
     })();
+  </script>
+
+  <!-- Theme toggle dark/light -->
+  <script>
+  (function(){
+    var PREF_KEY = 'theme-pref';
+    var btn = null;
+    function applyTheme(dark){
+      document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+      if(btn) btn.textContent = dark ? '☀️' : '🌙';
+    }
+    function init(){
+      btn = document.getElementById('theme-toggle');
+      // Lire préférence stockée, sinon préférence système
+      var stored = localStorage.getItem(PREF_KEY);
+      var prefersDark = stored !== null ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(prefersDark);
+      if(btn){
+        btn.addEventListener('click', function(){
+          var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+          var next = !isDark;
+          applyTheme(next);
+          localStorage.setItem(PREF_KEY, next ? 'dark' : 'light');
+        });
+      }
+    }
+    if(document.readyState === 'loading'){
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+    // Anti-flash : appliquer immédiatement avant le premier paint
+    var stored = localStorage.getItem(PREF_KEY);
+    if(stored === 'dark' || (stored === null && window.matchMedia('(prefers-color-scheme: dark)').matches)){
+      document.documentElement.setAttribute('data-theme','dark');
+    }
+  })();
   </script>
 </body>
 </html>
