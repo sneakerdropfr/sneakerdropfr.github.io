@@ -1595,6 +1595,9 @@ var BSTN_AWIN_MID = '104979';
   var BSTN_SITE     = 'https://www.bstn.com/';
   var _bstnCache    = {};
   function snipesAwinUrl(productPath) {
+    if (!productPath || productPath === '/') {
+      return 'https://www.awin1.com/awclick.php?gid=592257&mid=122628&awinaffid=2855487&linkid=4701498&clickref=';
+    }
     return 'https://www.awin1.com/cread.php?awinmid=' + SNIPES_AWIN_MID + '&awinaffid=' + SNIPES_AWIN_AFF + '&p=' + encodeURIComponent(SNIPES_SITE + productPath);
   }
   function bstnAwinUrl(productPath) {
