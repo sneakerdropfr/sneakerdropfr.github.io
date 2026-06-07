@@ -301,6 +301,8 @@
 
     var RESELL_RETAILERS = ['stockx','goat','klekt','limited resell'];
     var NIKE_RETAILERS = ['nike','nike snkrs'];
+    function isRetailerSnipes(n){ return n && n.toLowerCase().indexOf('snipes') !== -1; }
+    function isRetailerSolebox(n){ return n && n.toLowerCase().indexOf('solebox') !== -1; }
     function isRetailerBSTN(n){ return n.toLowerCase()==='bstn'; }
     function isRetailerResell(n){ return RESELL_RETAILERS.indexOf(n.toLowerCase())!==-1; }
     function isRetailerNike(n){ return NIKE_RETAILERS.indexOf(n.toLowerCase())!==-1; }
