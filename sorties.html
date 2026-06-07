@@ -155,7 +155,27 @@
 
     @media(max-width:768px){:root{--section-gap:3rem}}
     @media(max-width:480px){.drop-card__body{padding:.75rem}.drop-card__title{font-size:.85rem}}
-  </style>
+  
+    @media(prefers-color-scheme:dark){
+      :root{--bg:#111111;--bg-alt:#1A1A1A;--text:#F0F0F0;--black:#F0F0F0;--white:#111111;--border:#2A2A2A;--muted:#888;--shadow:0 2px 12px rgba(0,0,0,0.4);--shadow-hover:0 8px 28px rgba(0,0,0,0.6)}
+      body{background:#111111;color:#F0F0F0}
+      .header,.header__nav-bar{background:rgba(17,17,17,.97)}
+      .drop-card,.drop-card__body{background:#1A1A1A;border-color:#2A2A2A}
+      .drop-card__img-wrap{background:#222}
+      .drop-card__title{color:#F0F0F0}
+      .section--alt{background:#161616}
+      .hbtn--outline{color:#F0F0F0;border-color:#333}
+      .hbtn--outline:hover{background:#F0F0F0;color:#111}
+      .hbtn--solid{background:#F0F0F0;color:#111;border-color:#F0F0F0}
+      .hbtn--solid:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+      .filter-btn{background:#1A1A1A;color:#aaa;border-color:#2A2A2A}
+      .filter-btn.active{background:#F0F0F0;color:#111}
+      .footer{background:#0A0A0A;border-top:1px solid #222}
+      #cookie-banner{background:#1A1A1A;border-top:1px solid #2A2A2A;color:#ccc}
+      .raffle-card{background:#1A1A1A;border-color:#2A2A2A}
+      .raffle-card__body{background:#1A1A1A}
+    }
+</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"SneakerDrop FR","url":"https://sneakerdropfr.fr","publisher":{"@type":"Organization","name":"SneakerDrop FR","url":"https://sneakerdropfr.fr","logo":{"@type":"ImageObject","url":"https://sneakerdropfr.fr/assets/favicon-32.png"},"sameAs":["https://t.me/SneakersDropsFR","https://www.tiktok.com/@sneakerdropfr"]}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SneakerDrop FR","item":"https://sneakerdropfr.fr"},{"@type":"ListItem","position":2,"name":"Sorties Sneakers","item":"https://sneakerdropfr.fr/sorties.html"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Comment ne pas rater un drop sneakers ?", "acceptedAnswer": {"@type": "Answer", "text": "Rejoins notre canal Telegram @SneakersDropsFR pour recevoir les alertes en temps réel. Tu peux aussi activer les notifications sur sneakerdropfr.fr."}}, {"@type": "Question", "name": "Où acheter les sneakers en drop ?", "acceptedAnswer": {"@type": "Answer", "text": "Les drops sont disponibles sur Nike.fr, Adidas.fr, BSTN, Footlocker, JD Sports, 43einhalb, Offspring, Afew et d'autres retailers listés sur chaque fiche."}}, {"@type": "Question", "name": "C'est quoi une raffle sneakers ?", "acceptedAnswer": {"@type": "Answer", "text": "Une raffle est un tirage au sort organisé par un retailer. Tu t'inscris avant la date limite, et le retailer sélectionne les gagnants aléatoirement. C'est gratuit, tu paies uniquement si tu es tiré au sort."}}, {"@type": "Question", "name": "Comment savoir si une sneaker va prendre de la valeur ?", "acceptedAnswer": {"@type": "Answer", "text": "Les paires les plus valorisées sont les collabs (Travis Scott, Bad Bunny, Off-White), les Jordan 1/3/4/11 OG, et les New Balance rares. Notre section Hype Picks liste les drops avec le meilleur potentiel de revente."}}, {"@type": "Question", "name": "Les drops sneakers sont-ils gratuits ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui, s'inscrire à une raffle et recevoir nos alertes est totalement gratuit. Tu paies uniquement le prix retail de la paire si tu réussis à l'acheter."}}]}</script>
@@ -609,6 +629,6 @@ document.addEventListener('DOMContentLoaded', function(){
   }
   </script>
 
-<script type="text/javascript" src="https://s.skimresources.com/js/302926X179095.skimlinks.js"></script>
+<script async src="https://s.skimresources.com/js/302926X179095.skimlinks.js"></script>
 </body>
 </html>
