@@ -10,24 +10,9 @@
     "price": null
   },
   {
-    "id": "virgil-abloh-archive-x-nike-cryoshot-zoom-m9-releases-june-2",
-    "date": "TBD",
-    "price": "$210"
-  },
-  {
     "id": "patta-x-nike-cryoshot-mercurial-vapor-r9-releases-june-2026",
     "date": "TBD",
     "price": "$210"
-  },
-  {
-    "id": "palace-x-nike-cryoshot-air-speed-m-releases-june-2026",
-    "date": "TBD",
-    "price": null
-  },
-  {
-    "id": "nocta-x-nike-cryoshot-tiempo-94-releases-june-2026",
-    "date": "TBD",
-    "price": null
   },
   {
     "id": "new-balance-5030-black-silver",
@@ -137,7 +122,7 @@
   {
     "id": "nike-mind-001-flyknit-hyper-royal",
     "date": "2026-06-04",
-    "price": 90
+    "price": 147.0
   },
   {
     "id": "air-jordan-17-low-black-patent-releases-august-2026",
@@ -375,16 +360,6 @@
     "price": 210
   },
   {
-    "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
-    "date": "2026-06-16",
-    "price": 210
-  },
-  {
-    "id": "off-white-x-nike-cryoshot-virgil-abloh-archives",
-    "date": "2026-06-16",
-    "price": 210
-  },
-  {
     "id": "nike-pegasus-premium-sp-black-sail-sail",
     "date": "2026-06-18",
     "price": 210
@@ -403,5 +378,15 @@
     "id": "cdg-x-nike-ld-1000-spirit-pink",
     "date": "2026-06-30",
     "price": 110
+  },
+  {
+    "id": "off-white-x-nike-cryoshot-virgil-abloh-archives",
+    "date": "TBD",
+    "price": "$210"
+  },
+  {
+    "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
+    "date": "TBD",
+    "price": null
   }
 ]
