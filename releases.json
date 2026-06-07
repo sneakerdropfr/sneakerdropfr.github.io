@@ -1,5 +1,29 @@
 [
   {
+    "id": "air-jordan-4-retro-toro-bravo-fq8138-600",
+    "title": "Air Jordan 4 Retro \"Toro Bravo\"",
+    "brand": "Jordan",
+    "colorway": "Fire Red/Black/Cement Grey",
+    "sku": "FQ8138-600",
+    "date": "2026-06-14",
+    "price": 210,
+    "currency": "EUR",
+    "release_type": "raffle",
+    "image_url": "https://asset.solebox.com/images/f_auto,q_100/w_2000,h_2000,c_pad,bo_16px_solid_rgb:f8f8f8,b_rgb:f8f8f8/02584607_1/Air-Jordan-4-Retro-Toro-Bravo",
+    "retailers": [
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-4-retro-toro-bravo-rouge-98024",
+        "price": "188,99€",
+        "resell": false,
+        "raffle": true
+      }
+    ],
+    "hype_score": 85,
+    "silhouette": "Air Jordan 4",
+    "year": 2026
+  },
+  {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
     "title": "Air Jordan 6 Low GS “China Rose” Releases Fall 2026",
     "brand": "Sneaker Files",
