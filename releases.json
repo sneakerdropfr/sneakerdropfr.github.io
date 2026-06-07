@@ -1,5 +1,91 @@
 [
   {
+    "id": "air-jordan-5-retro-og-white-metallic-136027-130",
+    "title": "Air Jordan 5 Retro OG \"White Metallic\"",
+    "brand": "Jordan",
+    "colorway": "White/Black/Metallic Silver",
+    "sku": "136027-130",
+    "date": "2026-06-07",
+    "price": 200,
+    "currency": "EUR",
+    "release_type": "online",
+    "image_url": "",
+    "retailers": [
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-5-retro-og-white-metallic-blanc-98025",
+        "price": "177,99€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "hype_score": 80,
+    "silhouette": "Air Jordan 5",
+    "year": 2026
+  },
+  {
+    "id": "air-jordan-4-retro-iced-carmine-dv7028-116",
+    "title": "Air Jordan 4 Retro \"Iced Carmine\"",
+    "brand": "Jordan",
+    "colorway": "Pink/White",
+    "sku": "HQ1685-116",
+    "date": "2026-04-25",
+    "price": 210,
+    "currency": "EUR",
+    "release_type": "online",
+    "image_url": "",
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-4-retro-iced-carmine-rose-97783",
+        "price": "209,99€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-4-retro-iced-carmine-rose-98018",
+        "price": "188,99€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "hype_score": 72,
+    "silhouette": "Air Jordan 4",
+    "year": 2026
+  },
+  {
+    "id": "air-jordan-3-retro-og-worlds-best-dad-dv7028-101",
+    "title": "Air Jordan 3 Retro OG \"World's Best Dad\"",
+    "brand": "Jordan",
+    "colorway": "White/Cement Grey/Black",
+    "sku": "DV7028-101",
+    "date": "2026-05-29",
+    "price": 210,
+    "currency": "EUR",
+    "release_type": "online",
+    "image_url": "",
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-3-retro-og-worlds-best-dad-beige-98222",
+        "price": "209,99€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-3-retro-og-worlds-best-dad-blanc-98030",
+        "price": "209,99€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "hype_score": 70,
+    "silhouette": "Air Jordan 3",
+    "year": 2026
+  },
+  {
     "id": "air-jordan-4-retro-toro-bravo-fq8138-600",
     "title": "Air Jordan 4 Retro \"Toro Bravo\"",
     "brand": "Jordan",
