@@ -410,7 +410,33 @@
       #cookie-banner{background:#1A1A1A;border-top:1px solid #2A2A2A;color:#ccc}
     }
   </style>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","description":"Les prochaines sorties sneakers Nike, Air Jordan, Adidas et New Balance en France","url":"https://sneakerdropfr.fr","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Nike Sabrina 3 WNBA 30th Anniversary","url":"https://www.nike.com/t/sabrina-3-wnba-30th-basketball-shoes-LArVJUMq/IH1125-100","brand":{"@type":"Brand","name":"Nike"},"image":"https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-sabrina-3-wnba-30th-anniversary-IH1125-100-1024x725.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Travis Scott x Air Jordan 1 Low Pink Pack","url":"https://www.whentocop.fr/drops/travis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101","brand":{"@type":"Brand","name":"Jordan"},"offers":{"@type":"Offer","price":"160","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","availabilityStarts":"2026-05-29"},"image":"https://statics.whentocop.fr/media/oyfz5grY3Em4/tmptravis-scott-air-jordan-1-low-og-sp-tropical-pink-iq7604-101-2000x2000.webp"}}]}</script>
+  <script id="schema-jsonld" type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","url":"https://sneakerdropfr.fr","itemListElement":[]}</script>
+  <script>
+  (function(){
+    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now())
+    .then(function(r){return r.json();}).then(function(data){
+      var today=new Date().toISOString().split('T')[0];
+      var upcoming=(data||[]).filter(function(r){
+        var d=r.date||r.release_date||'';
+        return d>=today && (r.title||r.model) && (r.sku||r.image_url);
+      }).slice(0,10);
+      var items=upcoming.map(function(r,i){
+        var name=r.title||r.model||'';
+        var price=r.price||r.retail_price||null;
+        var date=r.date||r.release_date||'';
+        var img=r.image_url||'';
+        var retailer=(r.retailers&&r.retailers[0]&&r.retailers[0].url)||'https://sneakerdropfr.fr';
+        var item={"@type":"Product","name":name,"brand":{"@type":"Brand","name":r.brand||'Nike'}};
+        if(img)item.image=img;
+        if(price)item.offers={"@type":"Offer","price":String(price),"priceCurrency":"EUR","availability":"https://schema.org/PreOrder","availabilityStarts":date,"url":retailer};
+        return {"@type":"ListItem","position":i+1,"item":item};
+      });
+      var schema={"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","description":"Les prochaines sorties sneakers Nike, Air Jordan, Adidas et New Balance en France","url":"https://sneakerdropfr.fr","itemListElement":items};
+      var el=document.getElementById('schema-jsonld');
+      if(el)el.textContent=JSON.stringify(schema);
+    }).catch(function(){});
+  })();
+  </script>
 </head>
 <body>
 <script>
