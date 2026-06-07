@@ -1,1068 +1,244 @@
 {
-  "week_start": "01/06/2026",
-  "week_end": "07/06/2026",
-  "generated_at": "2026-06-07T00:00:00+00:00",
+  "week_start": "08/06/2026",
+  "week_end": "14/06/2026",
+  "generated_at": "2026-06-08T00:00:00+00:00",
   "releases": [
     {
-      "name": "Air Jordan 5 Retro OG \"White Metallic\"",
-      "brand": "Jordan",
-      "date": "07/06/2026",
-      "price": "200",
-      "image": "",
-      "image_url": "",
-      "id": "air-jordan-5-retro-og-white-metallic-136027-130",
-      "sku": "136027-130",
-      "retailers": [
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-5-retro-og-white-metallic-blanc-98025",
-          "price": "177,99€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 80
-    },
-    {
-      "name": "New Balance 5030 Black Silver",
-      "brand": "New Balance",
-      "date": "01/06/2026",
-      "price": "130",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/01/slamjam-new-balance-5030-1.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/slamjam-new-balance-5030-1.jpg",
-      "id": "new-balance-5030-black-silver",
-      "sku": "U50307G4",
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "43einhalb",
-          "url": "https://www.43einhalb.com",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr",
-          "price": "93€",
-          "resell": true,
-          "raffle": false
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 13
-    },
-    {
-      "name": "Nike Pegasus Premium SP Black Sail",
+      "name": "Nike Air Max 1 City Connect “Baltimore Orioles”",
       "brand": "Nike",
-      "date": "01/06/2026",
-      "price": "210",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/nike-pegasus-premium-sp-black-sail-ir2166-001-1.jpg",
-      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/nike-pegasus-premium-sp-black-sail-ir2166-001-1.jpg",
-      "id": "nike-pegasus-premium-sp-black-sail",
-      "sku": "IR2166-001",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 10
-    },
-    {
-      "name": "Adidas A.E. 2 Coral Red",
-      "brand": "Adidas",
-      "date": "01/06/2026",
-      "price": "130",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-anthony-edwards-2-georgia-red-clay-kj1886-1.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-anthony-edwards-2-georgia-red-clay-kj1886-1.jpg",
-      "id": "adidas-a-e-2-coral-red",
-      "sku": "KJ1886",
-      "retailers": [
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr",
-          "price": "130€",
-          "resell": false,
-          "raffle": true
-        }
-      ],
-      "buy_url": "https://www.adidas.fr/chaussures-anthony-edwards-2/KJ1886.html",
-      "wtc_url": "",
-      "hype_score": 16
-    },
-    {
-      "name": "Nike Pegasus Premium SP White Black",
-      "brand": "Nike",
-      "date": "01/06/2026",
-      "price": "210",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/nike-pegasus-premium-sp-white-black-ir2166-102-3.jpg",
-      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/nike-pegasus-premium-sp-white-black-ir2166-102-3.jpg",
-      "id": "nike-pegasus-premium-sp-white-black",
-      "sku": "IR2166-102",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 10
-    },
-    {
-      "name": "Adidas Adizero Evo SL Exo Cloud White Black Grey",
-      "brand": "Adidas",
-      "date": "01/06/2026",
-      "price": "150",
-      "image": "https://sneakerpolitics.com/cdn/shop/files/AdidasAdizeroEVOSLExo-CloudWhite_CoreBlack_KI4763SneakerPoliticsWHites1.jpg",
-      "image_url": "https://sneakerpolitics.com/cdn/shop/files/AdidasAdizeroEVOSLExo-CloudWhite_CoreBlack_KI4763SneakerPoliticsWHites1.jpg",
-      "id": "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
-      "sku": "KJ0430",
-      "retailers": [
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr",
-          "price": "150€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com",
-          "price": "150€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr",
-          "price": "232€",
-          "resell": true,
-          "raffle": false
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 28
-    },
-    {
-      "name": "Bape x Adidas Adizero Evo SL White Gold Pink Blue",
-      "brand": "Adidas",
-      "date": "01/06/2026",
-      "price": "200",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/04/adidas-evo-sl-bape-KJ5751-1.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/adidas-evo-sl-bape-KJ5751-1.jpg",
-      "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
-      "sku": "KJ5751",
-      "retailers": [
-        {
-          "name": "Adidas Confirmed",
-          "url": "https://www.adidas.fr",
-          "price": "200€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/bape-adidas-adizero-evo-sl-white-gold-pink-blue-kj5751",
-      "hype_score": 8
-    },
-    {
-      "name": "McDonald’s x Nike Book 2 “Sedona”",
-      "brand": "Nike",
-      "date": "02/06/2026",
-      "price": "145",
-      "image": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-book-2-mcdonalds-sedona-IR6443-100-1024x725.jpg",
-      "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-book-2-mcdonalds-sedona-IR6443-100-1024x725.jpg",
-      "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
-      "sku": "IR6443-100",
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "154.99€",
-          "raffle": false,
-          "resell": false
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 10
-    },
-    {
-      "name": "Nike Rift 2 Kenya",
-      "brand": "Nike",
-      "date": "02/06/2026",
-      "price": "130",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/nike-rift-2-black-fire-red-team-dark-green-iq8006-002-1.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-rift-2-black-fire-red-team-dark-green-iq8006-002-1.jpg",
-      "id": "nike-rift-2-kenya",
-      "sku": "IQ8006-002",
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "43einhalb",
-          "url": "https://www.43einhalb.com",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "FootDistrict",
-          "url": "https://www.footdistrict.com",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "SNS",
-          "url": "https://www.sneakersnstuff.com",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Naked",
-          "url": "https://www.nakedcph.com",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Urbanstar",
-          "url": "https://www.urbanstaronline.com",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 20
-    },
-    {
-      "name": "Nike Air Trainer SC “Atlanta Olympics 30th Anniversary”",
-      "brand": "Nike",
-      "date": "03/06/2026",
+      "date": "08/06/2026",
       "price": "140",
-      "image": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-trainer-sc-atlanta-olympics-30th-anniversary-IQ5796-500-1024x725.jpg",
-      "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-trainer-sc-atlanta-olympics-30th-anniversary-IQ5796-500-1024x725.jpg",
-      "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
-      "sku": "IQ5796-500",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/t/air-trainer-sc-high-sp-chaussure-pour-homme-IQ5796-500",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Footshop",
-          "url": "https://releases.footshop.com/air-trainer-sc-sp-AUUIT54B855nFHXG3u68",
-          "price": "140€",
-          "resell": false,
-          "raffle": true
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr",
-          "price": "226€",
-          "resell": true,
-          "raffle": false
-        }
-      ],
-      "buy_url": "https://www.nike.com/fr/t/air-trainer-sc-high-sp-chaussure-pour-homme-IQ5796-500",
-      "wtc_url": "",
-      "hype_score": 15
+      "image": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-baltimore-orioles-IQ2894-100-1024x725.jpg",
+      "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-baltimore-orioles-IQ2894-100-1024x725.jpg",
+      "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
+      "sku": "IQ2894-100",
+      "retailers": [],
+      "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-baltimore-orioles/",
+      "hype_score": 10
     },
     {
-      "name": "Nike Air Max 95 OG Fresh Mint",
+      "name": "Nike Air Max 1 City Connect “Kansas City Royals”",
       "brand": "Nike",
-      "date": "04/06/2026",
-      "price": "190",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/fresh-mint-air-max-95-2026-2.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/fresh-mint-air-max-95-2026-2.jpg",
-      "id": "nike-air-max-95-og-fresh-mint",
-      "sku": "HJ5996-005",
+      "date": "09/06/2026",
+      "price": "140",
+      "image": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-kansas-city-royal-IQ2916-100-1024x725.jpg",
+      "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-kansas-city-royal-IQ2916-100-1024x725.jpg",
+      "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
+      "sku": "IQ2916-100",
+      "retailers": [],
+      "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-kansas-city-royals/",
+      "hype_score": 10
+    },
+    {
+      "name": "Air Jordan 3 \"Bin 23\"",
+      "brand": "Jordan Brand",
+      "date": "13/06/2026",
+      "price": "355",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/01/air-jordan-3-bin-23-io7744-600.webp",
+      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/01/air-jordan-3-bin-23-io7744-600.webp",
+      "id": "air-jordan-3-bin-23-2026",
+      "sku": "IO7744-600",
       "retailers": [
         {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr",
-          "price": "190€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "43einhalb",
-          "url": "https://www.43einhalb.com",
-          "price": "190€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Footshop",
-          "url": "https://www.footshop.eu",
-          "price": "190€",
-          "resell": false,
-          "raffle": true
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch",
+          "price": "350€"
         },
         {
           "name": "StockX",
-          "url": "https://stockx.com/fr-fr",
-          "price": "279€",
-          "resell": true,
-          "raffle": false
+          "url": "https://stockx.com/air-jordan-3-retro-og-bin-23",
+          "price": "759€"
         },
         {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnike-wmns-air-max-95-og-big-bubble-fresh-mint-gris-98908",
-          "price": "189,99€",
-          "resell": false,
-          "raffle": false
+          "name": "GOAT",
+          "url": "https://www.goat.com/sneakers/air-jordan-3-retro-og-bin-23-io7744-600",
+          "price": "1349€"
         }
       ],
       "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 38
+      "hype_score": 85
     },
     {
-      "name": "Renegade x Nike Vomero Premium Brown Basalt",
+      "name": "Nike Mind 001 White Speed Red",
       "brand": "Nike",
-      "date": "04/06/2026",
-      "price": "240",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/03/renegade-nike-vomero-premium-IQ7314-200-1.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/renegade-nike-vomero-premium-IQ7314-200-1.jpg",
-      "id": "renegade-x-nike-vomero-premium-brown-basalt",
-      "sku": "IQ7314-200",
+      "date": "08/06/2026",
+      "price": "90",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nike-mind-001-white-speed-red-hq4307-101.webp",
+      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nike-mind-001-white-speed-red-hq4307-101.webp",
+      "id": "nike-mind-001-white-speed-red",
+      "sku": "HQ4307-101",
       "retailers": [
         {
           "name": "Nike",
-          "url": "https://www.nike.com/fr",
-          "price": "240€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr",
-          "price": "433€",
-          "resell": true,
-          "raffle": false
+          "url": "https://www.nike.com/fr/",
+          "price": "90€"
         }
       ],
       "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 30
+      "hype_score": 60
     },
     {
-      "name": "Renegade x Nike Vaporfly 4 Brown Basalt",
+      "name": "Nike Mind 001 Light Smoke Grey",
       "brand": "Nike",
-      "date": "04/06/2026",
-      "price": "270",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/03/renegade-nike-vaporfly-4-IQ7313-200-1.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/renegade-nike-vaporfly-4-IQ7313-200-1.jpg",
-      "id": "renegade-x-nike-vaporfly-4-brown-basalt",
-      "sku": "IQ7313-200",
+      "date": "08/06/2026",
+      "price": "90",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2025/09/nike-mind-001-light-smoke-grey-hq4307-003-2.jpg",
+      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2025/09/nike-mind-001-light-smoke-grey-hq4307-003-2.jpg",
+      "id": "nike-mind-001-light-smoke-grey",
+      "sku": "HQ4307-003",
       "retailers": [
         {
           "name": "Nike",
-          "url": "https://www.nike.com/fr",
-          "price": "270€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr",
-          "price": "419€",
-          "resell": true,
-          "raffle": false
+          "url": "https://www.nike.com/fr/",
+          "price": "90€"
         }
       ],
       "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 30
+      "hype_score": 60
     },
     {
-      "name": "Nike Air Max 90 Cool Grey",
+      "name": "Nike KD19 Orange Crush",
       "brand": "Nike",
-      "date": "04/06/2026",
+      "date": "13/06/2026",
       "price": "160",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nike-air-max-90-cool-grey-infrared-23-iu7543-065-1.jpg",
-      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nike-air-max-90-cool-grey-infrared-23-iu7543-065-1.jpg",
-      "id": "nike-air-max-90-cool-grey",
-      "sku": "IU7543-065",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/nike-kd-19-orange-crush-bright-ceramic-ih1117-800-release-date.webp",
+      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/nike-kd-19-orange-crush-bright-ceramic-ih1117-800-release-date.webp",
+      "id": "nike-kd19-orange-crush",
+      "sku": "IH1117-800",
       "retailers": [
         {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fnike%2Fair-max-90-cool-grey",
-          "price": 160,
-          "type": "official"
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "160€"
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 60
+    },
+    {
+      "name": "Nike Mind 002 WMNS Sail Hyper Crimson",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nike-mind-002-sail-chalk-hq4310-100-4.webp",
+      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nike-mind-002-sail-chalk-hq4310-100-4.webp",
+      "id": "nike-mind-002-wmns-sail-hyper-crimson",
+      "sku": "HQ4310-100",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "140€"
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 55
+    },
+    {
+      "name": "Nike Mind 002 Light Smoke Grey",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140",
+      "image": "https://sneakernews.com/wp-content/uploads/2025/10/nike-mind-002-HQ4308-003-release-date-1.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2025/10/nike-mind-002-HQ4308-003-release-date-1.jpg",
+      "id": "nike-mind-002-light-smoke-grey",
+      "sku": "HQ4308-003",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/launch",
+          "price": "140€"
         },
         {
-          "name": "Noirfonce",
-          "url": "https://noirfonce.eu/products/nike-air-max-iii-iu7543-065",
-          "price": 160,
-          "type": "official"
+          "name": "GOAT",
+          "url": "https://www.goat.com/sneakers/mind-002-light-smoke-grey-hq4308-003",
+          "price": "146€"
+        },
+        {
+          "name": "StockX",
+          "url": "https://stockx.com/nike-mind-002-light-smoke-grey",
+          "price": "170€"
         },
         {
           "name": "Klekt",
-          "url": "https://www.klekt.com/product/new/nike-air-max-90-cool-grey-infrared-23-wave-pack-2026",
-          "price": 225,
-          "type": "resell"
-        },
-        {
-          "name": "GOAT",
-          "url": "https://www.goat.com/sneakers/nike-air-max-3-infrared-23-iu7543-065",
-          "price": 107,
-          "type": "resell"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr/nike-air-max-90-wave-pack-cool-grey-infrared",
-          "price": 135,
-          "type": "resell"
-        }
-      ],
-      "buy_url": "https://www.nike.com/fr/t/air-max-90-wave-pack-cool-grey-infrared/IU7543-065",
-      "wtc_url": "",
-      "hype_score": 15
-    },
-    {
-      "name": "Nike Mind 001 Flyknit Bronze Eclipse",
-      "brand": "Nike",
-      "date": "05/06/2026",
-      "price": "90",
-      "image": "https://www.nicekicks.com/files/2026/05/ir2175-200-1-e1779924384260.jpg",
-      "image_url": "https://www.nicekicks.com/files/2026/05/ir2175-200-1-e1779924384260.jpg",
-      "id": "nike-mind-001-flyknit-bronze-eclipse",
-      "sku": "IR2175-200",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr",
-          "price": "90€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://www.asphaltgold.com",
-          "price": "90€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Footshop",
-          "url": "https://www.footshop.eu",
-          "price": "90€",
-          "resell": false,
-          "raffle": true
-        },
-        {
-          "name": "Urbanstar",
-          "url": "https://www.urbanstaronline.com",
-          "price": "90€",
-          "resell": false,
-          "raffle": true
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr",
-          "price": "134€",
-          "resell": true,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnike-mind-001-fk-noir-99022",
-          "price": "89,99€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 28
-    },
-    {
-      "name": "Air Jordan 1 Low OG “Phantom Pine Green”",
-      "brand": "Jordan",
-      "date": "06/06/2026",
-      "price": "159.99€",
-      "image": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-1-low-og-phantom-pine-green-IR2283-030-1024x725.jpg",
-      "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/air-jordan-1-low-og-phantom-pine-green-IR2283-030-1024x725.jpg",
-      "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
-      "sku": "IR2283-030",
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch/t/air-jordan-1-low-og-phantom-and-pine-green",
-          "price": "159.99€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Foot Locker",
-          "url": "https://www.footlocker.fr",
-          "price": "159.99€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "JD Sports",
-          "url": "https://www.jdsports.fr",
-          "price": "159.99€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr/air-jordan-1-low-og-phantom-pine-green",
-          "price": "194€",
-          "resell": true,
-          "raffle": false
-        }
-      ],
-      "buy_url": "https://www.nike.com/fr/launch/t/air-jordan-1-low-og-phantom-and-pine-green",
-      "wtc_url": "",
-      "hype_score": 35
-    },
-    {
-      "name": "Adidas Tangum White Power Green",
-      "brand": "Adidas",
-      "date": "05/06/2026",
-      "price": "120",
-      "image": "https://shopnicekicks.com/cdn/shop/files/0dd0c0251befb6773590d499aaea6b3d_1600x.jpg?v=1778611699",
-      "image_url": "https://shopnicekicks.com/cdn/shop/files/0dd0c0251befb6773590d499aaea6b3d_1600x.jpg?v=1778611699",
-      "id": "adidas-tangum-white-power-green",
-      "sku": "LA6570",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2Fadidas%2Ftangum",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "43einhalb",
-          "url": "https://www.43einhalb.com",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://www.asphaltgold.com",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr",
-          "price": "120€",
-          "resell": false,
-          "raffle": true
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr",
-          "price": "163€",
-          "resell": true,
-          "raffle": false
-        }
-      ],
-      "buy_url": "https://www.adidas.fr/chaussures-tangum/LA6570.html",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-tangum-white-power-green-la6570",
-      "hype_score": 31
-    },
-    {
-      "name": "Adidas SC Premiere Cloud White Power Green",
-      "brand": "Adidas",
-      "date": "05/06/2026",
-      "price": "140",
-      "image": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-ADIDAS-SCPREMIERE-KZ7196-WB-4.jpg?v=1778272061&width=480",
-      "image_url": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-ADIDAS-SCPREMIERE-KZ7196-WB-4.jpg?v=1778272061&width=480",
-      "id": "adidas-sc-premiere-cloud-white-power-green",
-      "sku": "KZ7196",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2Fadidas%2Fsc-premiere",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "43einhalb",
-          "url": "https://www.43einhalb.com",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://www.asphaltgold.com",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr",
-          "price": "140€",
-          "resell": false,
-          "raffle": true
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr",
-          "price": "194€",
-          "resell": true,
-          "raffle": false
-        }
-      ],
-      "buy_url": "https://www.adidas.fr/chaussures-sc-premiere/KZ7196.html",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-sc-premiere-cloud-white-power-green-kz7196",
-      "hype_score": 31
-    },
-    {
-      "name": "Adidas Powerphase Cloud White Power Green",
-      "brand": "Adidas",
-      "date": "05/06/2026",
-      "price": "120",
-      "image": "https://shopnicekicks.com/cdn/shop/files/7ddb59be3f34cfa502086e418cfd7202_1600x.jpg?v=1779816593",
-      "image_url": "https://shopnicekicks.com/cdn/shop/files/7ddb59be3f34cfa502086e418cfd7202_1600x.jpg?v=1779816593",
-      "id": "adidas-powerphase-cloud-white-power-green",
-      "sku": "LA4359",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2Fadidas%2Fpowerphase",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://www.asphaltgold.com",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr",
-          "price": "120€",
-          "resell": false,
-          "raffle": true
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr",
-          "price": "310€",
-          "resell": true,
-          "raffle": false
-        }
-      ],
-      "buy_url": "https://www.adidas.fr/chaussures-powerphase/LA4359.html",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-powerphase-cloud-white-power-green-la4359",
-      "hype_score": 41
-    },
-    {
-      "name": "Nike Mind 001 Flyknit Hyper Royal",
-      "brand": "Nike",
-      "date": "04/06/2026",
-      "price": "147.0",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/nike-mind-001-flyknit-hyper-royal-black-volt-IR2175-400-1.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-mind-001-flyknit-hyper-royal-black-volt-IR2175-400-1.jpg",
-      "id": "nike-mind-001-flyknit-hyper-royal",
-      "sku": "IR2175-400",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr",
-          "price": "90€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://www.asphaltgold.com",
-          "price": "90€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.solebox.com",
-          "price": "90€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Footshop",
-          "url": "https://www.footshop.eu",
-          "price": "90€",
-          "resell": false,
-          "raffle": true
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr",
-          "price": "162€",
-          "resell": true,
-          "raffle": false
-        },
-        {
-          "name": "GOAT",
-          "url": "https://www.goat.com",
-          "price": "217€",
-          "resell": true,
-          "raffle": false
-        }
-      ],
-      "buy_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-flyknit-hyper-royal-ir2175-400",
-      "hype_score": 30
-    },
-    {
-      "name": "LEGO x Nike Dunk Low GS Bright Concord",
-      "brand": "Nike",
-      "date": "04/06/2026",
-      "price": "105",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/nike-dunk-low-lego-white-rush-blue-tour-yellow-bright-concord-if2117-102-1.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-dunk-low-lego-white-rush-blue-tour-yellow-bright-concord-if2117-102-1.jpg",
-      "id": "lego-x-nike-dunk-low-gs-bright-concord",
-      "sku": "IF2117-102",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "105€"
-        },
-        {
-          "name": "GOAT",
-          "url": "https://www.goat.com/sneakers/lego-dunk-low-gs-bright-concord-if2117-102",
-          "price": "164€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/nike-dunk-low-lego-bright-concord-gs",
-          "price": "176€"
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 0
-    },
-    {
-      "name": "LEGO x Nike Air Max 95 GS Brick Pixel",
-      "brand": "Nike",
-      "date": "04/06/2026",
-      "price": "150",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/04/lego-nike-air-max-95-brick-pixel-1.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/lego-nike-air-max-95-brick-pixel-1.jpg",
-      "id": "lego-x-nike-air-max-95-gs-brick-pixel",
-      "sku": "IO4799-001",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "150€"
-        },
-        {
-          "name": "GOAT",
-          "url": "https://www.goat.com/sneakers/lego-air-max-95-gs-brick-pixel-io4799-001",
+          "url": "https://www.klekt.com/nike-mind-002",
           "price": "212€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/nike-air-max-95-lego-brick-pixel-gs",
-          "price": "215€"
         }
       ],
       "buy_url": "",
-      "wtc_url": "",
       "hype_score": 0
     },
     {
-      "name": "Stone Island x New Balance ABZORB 1890 Covert Green",
-      "brand": "New Balance",
-      "date": "04/06/2026",
-      "price": "220",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/stone-island-new-balance-1890-covert-green-u1890st.jpg",
-      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/stone-island-new-balance-1890-covert-green-u1890st.jpg",
-      "id": "stone-island-x-new-balance-abzorb-dark-green",
-      "sku": "U1890ST",
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.com/pd/stone-island-x-new-balance-abzorb-1890/U1890V1_LI-FTW-832956.html",
-          "price": "220€"
-        },
-        {
-          "name": "Stone Island",
-          "url": "https://www.stoneisland.com/en-fr/stone-island-new-balance-collaboration.html",
-          "price": "220€"
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 80
-    },
-    {
-      "name": "Stone Island x New Balance ABZORB 1890 Black",
-      "brand": "New Balance",
-      "date": "04/06/2026",
-      "price": "220",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/stone-island-new-balance-1890-deep-forest-u1890si.jpg",
-      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/stone-island-new-balance-1890-deep-forest-u1890si.jpg",
-      "id": "stone-island-x-new-balance-abzorb-grey-olive",
-      "sku": "U1890SI",
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.com/pd/stone-island-x-new-balance-abzorb-1890/U1890V1_LI-FTW-832956.html",
-          "price": "220€"
-        },
-        {
-          "name": "Stone Island",
-          "url": "https://www.stoneisland.com/en-fr/stone-island-new-balance-collaboration.html",
-          "price": "220€"
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 80
-    },
-    {
-      "name": "Adidas Adistar XLG 2.0 Grey",
-      "brand": "Adidas",
-      "date": "04/06/2026",
+      "name": "Nike Mind 002 WMNS Light Smoke Grey",
+      "brand": "Nike",
+      "date": "08/06/2026",
       "price": "140",
-      "image": "https://www.asphaltgold.com/cdn/shop/files/gis9oaexo7-HQ7553_Adidas_Adistar-XLG-2.0-Grey-One-Silver-Metallic-Grey-Two_os-3_1200x1200.jpg?v=1762760986",
-      "image_url": "https://www.asphaltgold.com/cdn/shop/files/gis9oaexo7-HQ7553_Adidas_Adistar-XLG-2.0-Grey-One-Silver-Metallic-Grey-Two_os-3_1200x1200.jpg?v=1762760986",
-      "id": "adidas-adistar-xlg-2-grey",
-      "sku": "KJ7895",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2025/10/nike-mind-002-light-smoke-grey-hq4308-003-4.jpg",
+      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2025/10/nike-mind-002-light-smoke-grey-hq4308-003-4.jpg",
+      "id": "nike-mind-002-wmns-light-smoke-grey",
+      "sku": "HQ4310-003",
       "retailers": [
         {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr/",
-          "price": "140€"
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.bstn.com/",
-          "price": "140€"
-        },
-        {
-          "name": "43einhalb",
-          "url": "https://www.43einhalb.com/",
-          "price": "140€"
-        },
-        {
-          "name": "END",
-          "url": "https://www.endclothing.com/",
-          "price": "140€"
-        },
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com/",
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
           "price": "140€"
         }
       ],
       "buy_url": "",
-      "wtc_url": "",
       "hype_score": 50
     },
     {
-      "name": "Nike ACG Pegasus Trail Summit White Safety Orange",
+      "name": "Nike Mind 002 Black Hyper Crimson",
       "brand": "Nike",
-      "date": "04/06/2026",
-      "price": "150",
-      "image": "https://www.asphaltgold.com/cdn/shop/files/e1eutdeskga-HV8116-103_Nike_ACG-Pegasus-Trail-Summit-White-Phantom-Safety-Orange-Black_os-3_1200x1200.jpg?v=1779976434",
-      "image_url": "https://www.asphaltgold.com/cdn/shop/files/e1eutdeskga-HV8116-103_Nike_ACG-Pegasus-Trail-Summit-White-Phantom-Safety-Orange-Black_os-3_1200x1200.jpg?v=1779976434",
-      "id": "nike-acg-pegasus-trail-summit-white-safety-orange",
-      "sku": "HV8116-103",
+      "date": "08/06/2026",
+      "price": "140",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2025/11/nike-mind-002-black-hyper-crimson-hq4308-001-3.jpg",
+      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2025/11/nike-mind-002-black-hyper-crimson-hq4308-001-3.jpg",
+      "id": "nike-mind-002-black-hyper-crimson",
+      "sku": "HQ4308-001",
       "retailers": [
         {
           "name": "Nike",
           "url": "https://www.nike.com/fr/",
-          "price": "150€"
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.bstn.com/",
-          "price": "150€"
-        },
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com/",
-          "price": "150€"
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://www.asphaltgold.com/",
-          "price": "150€"
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnike-acg-pegasus-trail-blanc-98271",
-          "price": 139.99
+          "price": "140€"
         }
       ],
       "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 45
+      "hype_score": 60
     },
     {
-      "name": "Nike Air Max 95 Big Bubble OG Fresh Mint",
+      "name": "Nike Mind 001 WMNS Black Hyper Crimson",
       "brand": "Nike",
-      "date": "04/06/2026",
-      "price": "190",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/nike-air-max-95-big-bubble-fresh-mint-release-date.webp",
-      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/nike-air-max-95-big-bubble-fresh-mint-release-date.webp",
-      "id": "nike-air-max-95-big-bubble-og-fresh-mint",
-      "sku": "HJ5996-005",
+      "date": "08/06/2026",
+      "price": "90",
+      "image": "https://sneakernews.com/wp-content/uploads/2025/10/nike-mind-001-black-hyper-crimson-chrome-hq4307-001-1.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2025/10/nike-mind-001-black-hyper-crimson-chrome-hq4307-001-1.jpg",
+      "id": "nike-mind-001-wmns-black-hyper-crimson",
+      "sku": "HQ4309-001",
       "retailers": [
         {
           "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "190€"
+          "url": "https://www.nike.com/fr/launch",
+          "price": "90€"
         },
         {
-          "name": "JD Sports",
-          "url": "https://www.jdsports.fr/",
-          "price": "190€"
+          "name": "StockX",
+          "url": "https://stockx.com/nike-mind-001-wmns-black-hyper-crimson",
+          "price": "138€"
         },
         {
-          "name": "BSTN",
-          "url": "https://www.bstn.com/",
-          "price": "190€"
+          "name": "GOAT",
+          "url": "https://www.goat.com/sneakers/mind-001-wmns-black-hyper-crimson-hq4309-001",
+          "price": "155€"
         },
         {
-          "name": "43einhalb",
-          "url": "https://www.43einhalb.com/",
-          "price": "190€"
-        },
-        {
-          "name": "Offspring",
-          "url": "https://www.offspring.co.uk/",
-          "price": "190€"
-        },
-        {
-          "name": "Solebox",
-          "url": "https://solebox.com/",
-          "price": "190€"
+          "name": "Klekt",
+          "url": "https://www.klekt.com/nike-mind-001",
+          "price": "160€"
         }
       ],
       "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 70
-    },
-    {
-      "name": "Coca Cola x Adidas Superstar II White Core Black Red",
-      "brand": "Adidas",
-      "date": "06/06/2026",
-      "price": "120",
-      "image": "https://cdn.sanity.io/images/pu5wtzfc/production/934233d7fec6e3ed4dbe0df398a79d5ff1e1c3fc-2400x1500.jpg/coca-cola-adidas-superstar-white-KH6888.jpg?w=1200&auto=format",
-      "image_url": "https://cdn.sanity.io/images/pu5wtzfc/production/934233d7fec6e3ed4dbe0df398a79d5ff1e1c3fc-2400x1500.jpg/coca-cola-adidas-superstar-white-KH6888.jpg?w=1200&auto=format",
-      "id": "coca-cola-x-adidas-superstar-ii-white-core-black-red",
-      "sku": "KH6888",
-      "retailers": [
-        {
-          "name": "Afew",
-          "url": "https://www.afew-store.com/",
-          "price": "120€"
-        }
-      ],
-      "buy_url": "",
-      "wtc_url": "",
-      "hype_score": 70
+      "hype_score": 0
     }
   ]
 }
