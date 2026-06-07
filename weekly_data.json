@@ -4,6 +4,412 @@
   "generated_at": "2026-06-08T00:00:00+00:00",
   "releases": [
     {
+      "name": "Nike Mind 002 Flyknit QS \"Pure Platinum\"",
+      "brand": "Nike",
+      "date": "12/06/2026",
+      "price": "140",
+      "image": "",
+      "image_url": "",
+      "id": "nike-mind-002-flyknit-qs-pure-platinum",
+      "sku": "IR2176-100",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "140€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 72
+    },
+    {
+      "name": "Palace x Nike Cryoshot Air Speed M \"Black Crimson White\"",
+      "brand": "Nike",
+      "date": "12/06/2026",
+      "price": "200",
+      "image": "",
+      "image_url": "",
+      "id": "palace-nike-cryoshot-air-speed-m-black-crimson-white",
+      "sku": "IM0702-001",
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch/",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 90
+    },
+    {
+      "name": "adidas Samba Mule Woven \"Crew White\"",
+      "brand": "Adidas",
+      "date": "12/06/2026",
+      "price": "110",
+      "image": "",
+      "image_url": "",
+      "id": "adidas-samba-mule-woven-crew-white",
+      "sku": "KH7719",
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.adidas.fr/",
+          "price": "110€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 68
+    },
+    {
+      "name": "Jacquemus x Nike Cryoshot Tiempo R10 \"White Sport Royal\"",
+      "brand": "Nike",
+      "date": "11/06/2026",
+      "price": "200",
+      "image": "",
+      "image_url": "",
+      "id": "jacquemus-nike-cryoshot-tiempo-r10-white-sport-royal",
+      "sku": "IO0619-100",
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch/",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 88
+    },
+    {
+      "name": "New Balance 1300 Made in USA \"Slate Grey\"",
+      "brand": "New Balance",
+      "date": "11/06/2026",
+      "price": "210",
+      "image": "",
+      "image_url": "",
+      "id": "new-balance-1300-made-in-usa-slate-grey",
+      "sku": "U13007PT",
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "210€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.bstn.com/fr/",
+          "price": "210€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 70
+    },
+    {
+      "name": "New Balance 992 Made in USA \"Shadow Grey\"",
+      "brand": "New Balance",
+      "date": "11/06/2026",
+      "price": "230",
+      "image": "",
+      "image_url": "",
+      "id": "new-balance-992-made-in-usa-shadow-grey",
+      "sku": "U9927WX",
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "230€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.bstn.com/fr/",
+          "price": "230€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 75
+    },
+    {
+      "name": "Nike Air Max 95 Big Bubble \"Woven Multi\"",
+      "brand": "Nike",
+      "date": "11/06/2026",
+      "price": "200",
+      "image": "",
+      "image_url": "",
+      "id": "nike-air-max-95-big-bubble-woven-multi",
+      "sku": "IB3695-100",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 78
+    },
+    {
+      "name": "Willy Chavarria x adidas Megaride AG XL \"Black Red\"",
+      "brand": "Adidas",
+      "date": "10/06/2026",
+      "price": "220",
+      "image": "",
+      "image_url": "",
+      "id": "willy-chavarria-adidas-megaride-ag-xl-black-red",
+      "sku": "KJ2041",
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.adidas.fr/",
+          "price": "220€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 70
+    },
+    {
+      "name": "Willy Chavarria x adidas Megaride Copa Mundial \"Core Black\"",
+      "brand": "Adidas",
+      "date": "10/06/2026",
+      "price": "220",
+      "image": "",
+      "image_url": "",
+      "id": "willy-chavarria-adidas-megaride-copa-mundial-core-black",
+      "sku": "KZ8743",
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.adidas.fr/",
+          "price": "220€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.bstn.com/fr/",
+          "price": "220€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 75
+    },
+    {
+      "name": "Willy Chavarria x adidas Megaride Low Bones \"Cream White\"",
+      "brand": "Adidas",
+      "date": "10/06/2026",
+      "price": "220",
+      "image": "",
+      "image_url": "",
+      "id": "willy-chavarria-adidas-megaride-low-bones-cream-white",
+      "sku": "KI7728",
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.adidas.fr/",
+          "price": "220€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 72
+    },
+    {
+      "name": "Joe Freshgoods x New Balance 1890 \"Naughty Things\"",
+      "brand": "New Balance",
+      "date": "09/06/2026",
+      "price": "210",
+      "image": "",
+      "image_url": "",
+      "id": "joe-freshgoods-nb-1890-naughty-things",
+      "sku": "U18908JY",
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "210€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.bstn.com/fr/",
+          "price": "210€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 80
+    },
+    {
+      "name": "Joe Freshgoods x New Balance 1890 \"Finger Waves\"",
+      "brand": "New Balance",
+      "date": "09/06/2026",
+      "price": "210",
+      "image": "",
+      "image_url": "",
+      "id": "joe-freshgoods-nb-1890-finger-waves",
+      "sku": "U189065N",
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "210€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 82
+    },
+    {
+      "name": "Nike Mind 001 \"Mineral Slate\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "90",
+      "image": "",
+      "image_url": "",
+      "id": "nike-mind-001-mineral-slate",
+      "sku": "HQ4307-300",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "90€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 60
+    },
+    {
+      "name": "Nike Mind 001 \"Backened Blue\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "90",
+      "image": "",
+      "image_url": "",
+      "id": "nike-mind-001-backened-blue",
+      "sku": "HQ4307-400",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "90€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 58
+    },
+    {
+      "name": "Nike Mind 001 WMNS \"Barely Green\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "90",
+      "image": "",
+      "image_url": "",
+      "id": "nike-mind-001-wmns-barely-green",
+      "sku": "HQ4309-300",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "90€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 65
+    },
+    {
+      "name": "Nike Mind 002 WMNS \"Light Violet Ore\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140",
+      "image": "",
+      "image_url": "",
+      "id": "nike-mind-002-wmns-light-violet-ore",
+      "sku": "HQ4310-200",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "140€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 55
+    },
+    {
+      "name": "Nike Mind 002 \"Thunder Blue\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140",
+      "image": "",
+      "image_url": "",
+      "id": "nike-mind-002-thunder-blue",
+      "sku": "HQ4308-400",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "140€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 60
+    },
+    {
+      "name": "Nike Mind 002 WMNS \"Football Grey\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140",
+      "image": "",
+      "image_url": "",
+      "id": "nike-mind-002-wmns-football-grey",
+      "sku": "HQ4310-002",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "140€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "buy_url": "",
+      "hype_score": 55
+    },
+    {
       "name": "Nike Air Max 1 City Connect “Baltimore Orioles”",
       "brand": "Nike",
       "date": "08/06/2026",
