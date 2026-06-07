@@ -1827,7 +1827,15 @@
     "colorway": "MUMMY",
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-foamposite-one-mummy-IZ1476-001-1024x725.jpg",
     "sku": "IZ1476-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/pclick.php?p=40777876167&a=2855487&m=20964",
+        "price": "91.99€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
     "buy_url": "",
     "hype_score": 0,
     "year": 2026
