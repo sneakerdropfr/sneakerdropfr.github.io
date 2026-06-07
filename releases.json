@@ -1,5 +1,101 @@
 [
   {
+    "id": "jordan-x-nigel-sylvester-jordan-4-retro-sp-hf4099-100",
+    "title": "Jordan x Nigel Sylvester Jordan 4 Retro SP",
+    "brand": "Jordan",
+    "colorway": "Beige/Red",
+    "sku": "HF4099-100",
+    "date": "2026-05-27",
+    "price": 200,
+    "currency": "EUR",
+    "release_type": "online",
+    "image_url": "",
+    "retailers": [
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjordan-x-nigel-sylvester-jordan-4-retro-sp-beige-107124",
+        "price": "199,99€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "hype_score": 82,
+    "silhouette": "Air Jordan 4",
+    "year": 2026
+  },
+  {
+    "id": "air-jordan-12-retro-bloodline-130690-001",
+    "title": "Air Jordan 12 Retro \"Bloodline\"",
+    "brand": "Jordan",
+    "colorway": "Black/Varsity Red/White",
+    "sku": "130690-001",
+    "date": "2026-05-23",
+    "price": 210,
+    "currency": "EUR",
+    "release_type": "online",
+    "image_url": "",
+    "retailers": [
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-12-retro-bloodline-noir-98020",
+        "price": "209,99€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "hype_score": 78,
+    "silhouette": "Air Jordan 12",
+    "year": 2026
+  },
+  {
+    "id": "nike-air-max-90-og-infrared-ct1039-100",
+    "title": "Nike Air Max 90 OG \"Infrared\"",
+    "brand": "Nike",
+    "colorway": "White/Infrared/Dark Grey",
+    "sku": "CT1039-100",
+    "date": "2026-05-29",
+    "price": 150,
+    "currency": "EUR",
+    "release_type": "online",
+    "image_url": "",
+    "retailers": [
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnike-air-max-90-og-3m-infrared-blanc-99765",
+        "price": "149,99€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "hype_score": 75,
+    "silhouette": "Air Max 90",
+    "year": 2026
+  },
+  {
+    "id": "nike-air-max-90-wave-pack-cz4222-001",
+    "title": "Nike Air Max 90 \"Wave Pack\"",
+    "brand": "Nike",
+    "colorway": "Grey/Blue/Volt",
+    "sku": "CZ4222-001",
+    "date": "2026-05-26",
+    "price": 160,
+    "currency": "EUR",
+    "release_type": "online",
+    "image_url": "",
+    "retailers": [
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnike-air-max-90-wave-pack-gris-98055",
+        "price": "159,99€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "hype_score": 65,
+    "silhouette": "Air Max 90",
+    "year": 2026
+  },
+  {
     "id": "air-jordan-5-retro-og-white-metallic-136027-130",
     "title": "Air Jordan 5 Retro OG \"White Metallic\"",
     "brand": "Jordan",
