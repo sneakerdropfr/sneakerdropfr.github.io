@@ -108,6 +108,8 @@
     #cookie-accept{background:var(--black);color:#fff;border:none;border-radius:6px;padding:.46rem 1rem;font-weight:900;font-size:.8rem;font-family:var(--font-cond);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}
 
     #cookie-accept:hover{background:var(--accent);color:var(--black)}
+    #cookie-refuse{background:transparent;color:var(--muted);border:1px solid var(--border);border-radius:6px;padding:.46rem 1rem;font-weight:700;font-size:.8rem;font-family:var(--font-cond);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}
+    #cookie-refuse:hover{background:var(--bg-alt);color:var(--black)}
 
       .bstn-tabs{width:100%}
 
@@ -344,9 +346,12 @@ document.addEventListener('DOMContentLoaded', function(){
     </div>
   </footer>
 
-  <div id="cookie-banner">
+  <div id="cookie-banner" role="dialog" aria-label="Consentement cookies">
     <p>Ce site utilise Google Analytics pour mesurer l'audience. <a href="/privacy.html">En savoir plus</a>.</p>
-    <button id="cookie-accept">J'accepte</button>
+    <div style="display:flex;gap:.5rem;flex-shrink:0">
+      <button id="cookie-refuse" aria-label="Refuser Google Analytics">Refuser</button>
+      <button id="cookie-accept" aria-label="Accepter Google Analytics">J'accepte</button>
+    </div>
   </div>
 
   <!-- Tab switcher for BSTN section -->
