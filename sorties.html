@@ -352,7 +352,9 @@ document.addEventListener('DOMContentLoaded', function(){
   <!-- RELEASES JS -->
   <script>
 (function(){
-    var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
+    var _ts=Date.now();
+    var RELEASES_URL='https://cdn.jsdelivr.net/gh/sneakerdropfr/sneakerdropfr.github.io@main/releases.json?t='+_ts;
+    var RELEASES_URL_FALLBACK='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+_ts;
     var grid=document.getElementById('releases-grid-week');
     var gridUpcoming=document.getElementById('releases-grid-upcoming');
     var weeklyDropsGrid=document.getElementById('weekly-drops-grid');
@@ -726,7 +728,7 @@ document.addEventListener('DOMContentLoaded', function(){
           renderWeeklyDrops();
           return;
         }
-        fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/weekly_data.json?t=' + Date.now())
+        fetch('https://cdn.jsdelivr.net/gh/sneakerdropfr/sneakerdropfr.github.io@main/weekly_data.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .then(function(wd) {
             // Vérifier que weekly_data.json correspond bien à la semaine en cours ou future
@@ -851,8 +853,22 @@ document.addEventListener('DOMContentLoaded', function(){
       });
     });
 
-    fetch(RELEASES_URL)
+    function fetchWithTimeout(url, ms) {
+      var ctrl = typeof AbortController !== 'undefined' ? new AbortController() : null;
+      var timer = ctrl ? setTimeout(function() { ctrl.abort(); }, ms) : null;
+      return fetch(url, ctrl ? {signal: ctrl.signal} : {}).then(function(r) {
+        if (timer) clearTimeout(timer); return r;
+      }).catch(function(e) {
+        if (timer) clearTimeout(timer); throw e;
+      });
+    }
+
+    fetchWithTimeout(RELEASES_URL, 8000)
       .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .catch(function(e) {
+        // Fallback raw.githubusercontent.com
+        return fetch(RELEASES_URL_FALLBACK).then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+      })
       .then(function(data) {
         if (loading) loading.style.display = 'none';
         allReleases = data.filter(function(r) { return r.id && !r.id.startsWith('test-'); });
