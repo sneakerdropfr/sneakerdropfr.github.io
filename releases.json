@@ -1232,7 +1232,23 @@
     "colorway": "Team Red / Burgundy Crush / Coconut Milk / Metallic Gold",
     "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/01/air-jordan-3-bin-23-io7744-600.webp",
     "sku": "IO7744-600",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "350€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/air-jordan-3-retro-og-bin-23",
+        "price": "759€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/air-jordan-3-retro-og-bin-23-io7744-600",
+        "price": "1349€"
+      }
+    ],
     "buy_url": "",
     "hype_score": 85,
     "silhouette": "Air Jordan 3",
@@ -1547,7 +1563,28 @@
     "colorway": "Noir",
     "image_url": "https://statics.whentocop.fr/drops/17058/picture/000000_Nike-Mind-001-WMNS_BLACK-HYPER-CRIMSON_HQ4309-001_img0-1000x1000.webp",
     "sku": "HQ4309-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "90€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/nike-mind-001-wmns-black-hyper-crimson",
+        "price": "138€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/mind-001-wmns-black-hyper-crimson-hq4309-001",
+        "price": "155€"
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/nike-mind-001",
+        "price": "160€"
+      }
+    ],
     "buy_url": "",
     "hype_score": 0,
     "year": 2026
