@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <script>
+  (function(){var s=localStorage.getItem('theme-pref');if(s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}})();
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prochaines Sorties Sneakers — SneakerDrop FR</title>
@@ -156,6 +159,89 @@
     @media(max-width:480px){.drop-card__body{padding:.75rem}.drop-card__title{font-size:.85rem}}
       .hbtn--outline:hover{background:#F0F0F0;color:#111}
       .filter-btn.active{background:#F0F0F0;color:#111}
+
+    /* ══ DARK MODE ══ */
+    :root[data-theme="dark"]{
+      --bg:#0F0F0F;
+      --bg-alt:#1A1A1A;
+      --text:#F0F0F0;
+      --muted:#999;
+      --border:#2C2C2C;
+      --black:#F0F0F0;
+      --white:#0F0F0F;
+    }
+    html[data-theme="dark"] body{background:#0F0F0F;color:#F0F0F0}
+    html[data-theme="dark"] .header,html[data-theme="dark"] header{background:rgba(15,15,15,.97)!important;border-bottom-color:#2C2C2C!important}
+    html[data-theme="dark"] .header__nav-bar{background:rgba(15,15,15,.97)!important;border-bottom-color:#2C2C2C!important}
+    html[data-theme="dark"] nav{background:rgba(15,15,15,.97)!important;border-color:#2C2C2C!important}
+    html[data-theme="dark"] .hero{background:#0F0F0F!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .hero__sub{color:rgba(255,255,255,.45)!important}
+    html[data-theme="dark"] .hero__benefits span{color:rgba(255,255,255,.5)!important}
+    html[data-theme="dark"] .hero__benefits{color:rgba(255,255,255,.5)!important}
+    html[data-theme="dark"] .hero__brands{color:rgba(255,255,255,.3)!important}
+    html[data-theme="dark"] .hero__eyebrow{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .hero-search{background:#1A1A1A!important;border-bottom-color:#2C2C2C!important}
+    html[data-theme="dark"] .hero-search__input{background:#111!important;color:#F0F0F0!important;border-color:#2C2C2C!important}
+    html[data-theme="dark"] .hero-search__input::placeholder{color:#555!important}
+    html[data-theme="dark"] .hero__ctas .hbtn--solid{background:#F0F0F0!important;color:#0F0F0F!important;border-color:#F0F0F0!important}
+    html[data-theme="dark"] .hbtn--solid{background:#F0F0F0!important;color:#0F0F0F!important;border-color:#F0F0F0!important}
+    html[data-theme="dark"] .hbtn--solid:hover{background:var(--accent)!important;color:#fff!important;border-color:var(--accent)!important}
+    html[data-theme="dark"] .hbtn--outline{color:#F0F0F0!important;border-color:#2C2C2C!important}
+    html[data-theme="dark"] .hbtn--outline:hover{border-color:#F0F0F0!important;background:#F0F0F0!important;color:#0F0F0F!important}
+    html[data-theme="dark"] .drop-card{background:#1A1A1A!important;border-color:#2C2C2C!important}
+    html[data-theme="dark"] .drop-card:hover{border-color:#444!important}
+    html[data-theme="dark"] .drop-card__body{background:#1A1A1A!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .drop-card__img-wrap{background:#111!important}
+    html[data-theme="dark"] .drop-card__title,.drop-card__brand,.drop-card__price,.drop-card__meta,.drop-card__sku,.drop-card__diff{color:inherit}
+    html[data-theme="dark"] .drop-card__title{color:#F0F0F0!important}
+    html[data-theme="dark"] .drop-card__brand{color:rgba(255,255,255,.45)!important}
+    html[data-theme="dark"] .drop-card__price{color:#F0F0F0!important}
+    html[data-theme="dark"] .drop-card__meta{color:rgba(255,255,255,.5)!important}
+    html[data-theme="dark"] .drop-card__sku{color:rgba(255,255,255,.35)!important}
+    html[data-theme="dark"] .filter-btn{background:#1A1A1A!important;color:#999!important;border-color:#2C2C2C!important}
+    html[data-theme="dark"] .filter-btn.active{background:#F0F0F0!important;color:#0F0F0F!important}
+    html[data-theme="dark"] .filter-btn:hover{background:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .week-tab{color:rgba(255,255,255,.5)!important;border-color:#2C2C2C!important;background:#0F0F0F!important}
+    html[data-theme="dark"] .week-tab.active{background:#F0F0F0!important;color:#0F0F0F!important;border-color:#F0F0F0!important}
+    html[data-theme="dark"] .section--alt{background:#141414!important}
+    html[data-theme="dark"] .cards-section{background:#0F0F0F!important}
+    html[data-theme="dark"] .ticker{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .top-pick__card,html[data-theme="dark"] .top-pick__img-wrap{background:#1A1A1A!important}
+    html[data-theme="dark"] .top-pick__title{color:#F0F0F0!important}
+    html[data-theme="dark"] .top-pick__brand{color:rgba(255,255,255,.45)!important}
+    html[data-theme="dark"] .top-pick__price{color:#F0F0F0!important}
+    html[data-theme="dark"] .src{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .blog-card,html[data-theme="dark"] .article-card{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .blog-card__title,html[data-theme="dark"] .article-card__title{color:#F0F0F0!important}
+    html[data-theme="dark"] .blog-card__excerpt,html[data-theme="dark"] .article-card__excerpt{color:rgba(255,255,255,.55)!important}
+    html[data-theme="dark"] footer,html[data-theme="dark"] .footer{background:#0A0A0A!important;border-top-color:#2C2C2C!important;color:#888!important}
+    html[data-theme="dark"] footer a{color:#888!important}
+    html[data-theme="dark"] #cookie-banner{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#999!important}
+    html[data-theme="dark"] #cookie-accept{background:#F0F0F0!important;color:#0F0F0F!important}
+    html[data-theme="dark"] #cookie-refuse{border-color:#2C2C2C!important;color:#999!important}
+    html[data-theme="dark"] #scroll-top{background:#F0F0F0!important;color:#0F0F0F!important}
+    /* Raffle cards */
+    html[data-theme="dark"] .raffle-card,html[data-theme="dark"] .raffle-single{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .raffle-card__title{color:#F0F0F0!important}
+    html[data-theme="dark"] .raffle-card__brand{color:rgba(255,255,255,.45)!important}
+    html[data-theme="dark"] .raffle-card__date{color:rgba(255,255,255,.55)!important}
+    html[data-theme="dark"] .raffle-info-box{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .raffle-info-box strong{color:var(--accent)!important}
+    /* Sorties */
+    html[data-theme="dark"] .releases-grid{background:#0F0F0F!important}
+    html[data-theme="dark"] .release-card,html[data-theme="dark"] .sort-card{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .release-card__title{color:#F0F0F0!important}
+    html[data-theme="dark"] .release-card__brand{color:rgba(255,255,255,.45)!important}
+    html[data-theme="dark"] .back-link{color:#F0F0F0!important;border-color:#2C2C2C!important;background:#1A1A1A!important}
+    html[data-theme="dark"] .back-link:hover{background:#2C2C2C!important}
+    html[data-theme="dark"] p{color:rgba(255,255,255,.7)}
+    html[data-theme="dark"] h1,html[data-theme="dark"] h2,html[data-theme="dark"] h3{color:#F0F0F0}
+    /* Theme toggle */
+    .theme-toggle{background:none;border:1px solid var(--border);border-radius:6px;color:var(--black);font-size:1rem;padding:.3rem .55rem;cursor:pointer;display:flex;align-items:center;line-height:1;transition:background .15s,border-color .15s;flex-shrink:0}
+    .theme-toggle:hover{background:var(--bg-alt)}
+    html[data-theme="dark"] .theme-toggle{border-color:#2C2C2C;color:#F0F0F0}
+    html[data-theme="dark"] .theme-toggle:hover{background:#1A1A1A;border-color:#555}
+
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"SneakerDrop FR","url":"https://sneakerdropfr.fr","publisher":{"@type":"Organization","name":"SneakerDrop FR","url":"https://sneakerdropfr.fr","logo":{"@type":"ImageObject","url":"https://sneakerdropfr.fr/assets/favicon-32.png"},"sameAs":["https://t.me/SneakersDropsFR","https://www.tiktok.com/@sneakerdropfr"]}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SneakerDrop FR","item":"https://sneakerdropfr.fr"},{"@type":"ListItem","position":2,"name":"Sorties Sneakers","item":"https://sneakerdropfr.fr/sorties.html"}]}</script>
@@ -633,7 +719,8 @@ document.addEventListener('DOMContentLoaded', function(){
         });
 
         // Avant lundi 00:00 local : afficher la semaine en cours depuis releases.json
-        if (_now < _nextMonday) {
+        // MAIS si thisWeek est vide (fin de semaine), charger weekly_data.json quand même
+        if (_now < _nextMonday && thisWeek.length > 0) {
           allWdrops = thisWeek;
           renderWeeklyDrops();
           return;
