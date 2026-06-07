@@ -386,6 +386,7 @@
     .promo-bar__sep{opacity:.4}
     }
 
+    
     /* ══ DARK MODE ══ */
     :root[data-theme="dark"]{
       --bg:#0F0F0F;
@@ -393,114 +394,80 @@
       --text:#F0F0F0;
       --muted:#999;
       --border:#2C2C2C;
-      --shadow:0 2px 12px rgba(0,0,0,.45);
-      --shadow-hover:0 8px 28px rgba(0,0,0,.65);
       --black:#F0F0F0;
       --white:#0F0F0F;
     }
-    /* Header */
-    html[data-theme="dark"] .header{background:rgba(15,15,15,.97);border-bottom-color:#2C2C2C}
-    html[data-theme="dark"] .header__nav-bar{background:rgba(15,15,15,.97);border-bottom-color:#2C2C2C}
-    /* Hero search */
-    html[data-theme="dark"] .hero-search{background:#1A1A1A;border-bottom-color:#2C2C2C}
-    html[data-theme="dark"] .hero-search__input{background:#111;color:#F0F0F0;border-color:#2C2C2C}
-    html[data-theme="dark"] .hero-search__input:focus{border-color:#F0F0F0;box-shadow:0 0 0 3px rgba(255,255,255,.07)}
-    html[data-theme="dark"] .hero-search__input::placeholder{color:#555}
-    html[data-theme="dark"] .hero-search__icon{color:#555}
-    /* Hero */
-    html[data-theme="dark"] .hero{background:#0F0F0F;border-bottom-color:#2C2C2C}
-    html[data-theme="dark"] .hero__eyebrow{background:#1A1A1A;border-color:#2C2C2C;color:#F0F0F0}
-    html[data-theme="dark"] .hero__brands{color:rgba(255,255,255,.3)}
-    html[data-theme="dark"] .hero__sub{color:rgba(255,255,255,.45)}
-    /* Buttons */
-    html[data-theme="dark"] .hbtn--outline{color:#F0F0F0;border-color:#2C2C2C}
-    html[data-theme="dark"] .hbtn--outline:hover{border-color:#F0F0F0;background:#F0F0F0;color:#0F0F0F}
-    html[data-theme="dark"] .hbtn--solid{background:#F0F0F0;color:#0F0F0F;border-color:#F0F0F0}
-    html[data-theme="dark"] .hbtn--solid:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
-    /* Drop cards */
-    html[data-theme="dark"] .drop-card{background:#1A1A1A;border-color:#2C2C2C}
-    html[data-theme="dark"] .drop-card:hover{border-color:#444}
-    html[data-theme="dark"] .drop-card__body{background:#1A1A1A}
-    html[data-theme="dark"] .drop-card__brand{color:rgba(255,255,255,.45)}
-    html[data-theme="dark"] .drop-card__title{color:#F0F0F0}
-    html[data-theme="dark"] .drop-card__meta{color:rgba(255,255,255,.5)}
-    html[data-theme="dark"] .drop-card__price{color:#F0F0F0}
-    html[data-theme="dark"] .drop-card__img-placeholder{background:#222}
-    /* Filter buttons */
-    html[data-theme="dark"] .filter-btn{background:#1A1A1A;color:#999;border-color:#2C2C2C}
-    html[data-theme="dark"] .filter-btn:hover{background:#2C2C2C;color:#F0F0F0}
-    html[data-theme="dark"] .filter-btn.active{background:#F0F0F0;color:#0F0F0F}
-    /* Sections */
-    html[data-theme="dark"] .section--alt{background:#141414}
-    html[data-theme="dark"] .section--dark{background:#0A0A0A}
-    /* Ticker */
-    html[data-theme="dark"] .ticker{background:#1A1A1A;border-color:#2C2C2C}
-    html[data-theme="dark"] .ticker__item{color:#F0F0F0}
-    html[data-theme="dark"] .ticker__sep{color:#444}
-    /* Cookie banner */
-    html[data-theme="dark"] #cookie-banner{background:#1A1A1A;border-color:#2C2C2C;color:#999}
-    html[data-theme="dark"] #cookie-accept{background:#F0F0F0;color:#0F0F0F}
-    html[data-theme="dark"] #cookie-refuse{border-color:#2C2C2C;color:#999}
-    html[data-theme="dark"] #cookie-refuse:hover{background:#2C2C2C;color:#F0F0F0}
-    /* Nav links */
-    html[data-theme="dark"] .nav-link{color:#F0F0F0}
-    /* Footer */
-    html[data-theme="dark"] footer{background:#0A0A0A;border-top-color:#2C2C2C;color:#999}
-    html[data-theme="dark"] footer a{color:#888}
-    /* Retailer buttons */
-    html[data-theme="dark"] .btn-retailer--bstn{background:#F0F0F0;color:#0F0F0F}
-    /* Search results */
-    html[data-theme="dark"] #search-results{background:#1A1A1A;border-color:#2C2C2C}
-    html[data-theme="dark"] .search-result-item{border-bottom-color:#2C2C2C;color:#F0F0F0}
-    html[data-theme="dark"] .search-result-item:hover{background:#222}
-    /* Scroll to top */
-    html[data-theme="dark"] #scroll-top{background:#F0F0F0;color:#0F0F0F}
+    html[data-theme="dark"] body{background:#0F0F0F;color:#F0F0F0}
+    html[data-theme="dark"] .header,html[data-theme="dark"] header{background:rgba(15,15,15,.97)!important;border-bottom-color:#2C2C2C!important}
+    html[data-theme="dark"] .header__nav-bar{background:rgba(15,15,15,.97)!important;border-bottom-color:#2C2C2C!important}
+    html[data-theme="dark"] nav{background:rgba(15,15,15,.97)!important;border-color:#2C2C2C!important}
+    html[data-theme="dark"] .hero{background:#0F0F0F!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .hero__sub{color:rgba(255,255,255,.45)!important}
+    html[data-theme="dark"] .hero__benefits span{color:rgba(255,255,255,.5)!important}
+    html[data-theme="dark"] .hero__benefits{color:rgba(255,255,255,.5)!important}
+    html[data-theme="dark"] .hero__brands{color:rgba(255,255,255,.3)!important}
+    html[data-theme="dark"] .hero__eyebrow{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .hero-search{background:#1A1A1A!important;border-bottom-color:#2C2C2C!important}
+    html[data-theme="dark"] .hero-search__input{background:#111!important;color:#F0F0F0!important;border-color:#2C2C2C!important}
+    html[data-theme="dark"] .hero-search__input::placeholder{color:#555!important}
+    html[data-theme="dark"] .hero__ctas .hbtn--solid{background:#F0F0F0!important;color:#0F0F0F!important;border-color:#F0F0F0!important}
+    html[data-theme="dark"] .hbtn--solid{background:#F0F0F0!important;color:#0F0F0F!important;border-color:#F0F0F0!important}
+    html[data-theme="dark"] .hbtn--solid:hover{background:var(--accent)!important;color:#fff!important;border-color:var(--accent)!important}
+    html[data-theme="dark"] .hbtn--outline{color:#F0F0F0!important;border-color:#2C2C2C!important}
+    html[data-theme="dark"] .hbtn--outline:hover{border-color:#F0F0F0!important;background:#F0F0F0!important;color:#0F0F0F!important}
+    html[data-theme="dark"] .drop-card{background:#1A1A1A!important;border-color:#2C2C2C!important}
+    html[data-theme="dark"] .drop-card:hover{border-color:#444!important}
+    html[data-theme="dark"] .drop-card__body{background:#1A1A1A!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .drop-card__img-wrap{background:#111!important}
+    html[data-theme="dark"] .drop-card__title,.drop-card__brand,.drop-card__price,.drop-card__meta,.drop-card__sku,.drop-card__diff{color:inherit}
+    html[data-theme="dark"] .drop-card__title{color:#F0F0F0!important}
+    html[data-theme="dark"] .drop-card__brand{color:rgba(255,255,255,.45)!important}
+    html[data-theme="dark"] .drop-card__price{color:#F0F0F0!important}
+    html[data-theme="dark"] .drop-card__meta{color:rgba(255,255,255,.5)!important}
+    html[data-theme="dark"] .drop-card__sku{color:rgba(255,255,255,.35)!important}
+    html[data-theme="dark"] .filter-btn{background:#1A1A1A!important;color:#999!important;border-color:#2C2C2C!important}
+    html[data-theme="dark"] .filter-btn.active{background:#F0F0F0!important;color:#0F0F0F!important}
+    html[data-theme="dark"] .filter-btn:hover{background:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .week-tab{color:rgba(255,255,255,.5)!important;border-color:#2C2C2C!important;background:#0F0F0F!important}
+    html[data-theme="dark"] .week-tab.active{background:#F0F0F0!important;color:#0F0F0F!important;border-color:#F0F0F0!important}
+    html[data-theme="dark"] .section--alt{background:#141414!important}
+    html[data-theme="dark"] .cards-section{background:#0F0F0F!important}
+    html[data-theme="dark"] .ticker{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .top-pick__card,html[data-theme="dark"] .top-pick__img-wrap{background:#1A1A1A!important}
+    html[data-theme="dark"] .top-pick__title{color:#F0F0F0!important}
+    html[data-theme="dark"] .top-pick__brand{color:rgba(255,255,255,.45)!important}
+    html[data-theme="dark"] .top-pick__price{color:#F0F0F0!important}
+    html[data-theme="dark"] .src{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .blog-card,html[data-theme="dark"] .article-card{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .blog-card__title,html[data-theme="dark"] .article-card__title{color:#F0F0F0!important}
+    html[data-theme="dark"] .blog-card__excerpt,html[data-theme="dark"] .article-card__excerpt{color:rgba(255,255,255,.55)!important}
+    html[data-theme="dark"] footer,html[data-theme="dark"] .footer{background:#0A0A0A!important;border-top-color:#2C2C2C!important;color:#888!important}
+    html[data-theme="dark"] footer a{color:#888!important}
+    html[data-theme="dark"] #cookie-banner{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#999!important}
+    html[data-theme="dark"] #cookie-accept{background:#F0F0F0!important;color:#0F0F0F!important}
+    html[data-theme="dark"] #cookie-refuse{border-color:#2C2C2C!important;color:#999!important}
+    html[data-theme="dark"] #scroll-top{background:#F0F0F0!important;color:#0F0F0F!important}
+    /* Raffle cards */
+    html[data-theme="dark"] .raffle-card,html[data-theme="dark"] .raffle-single{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .raffle-card__title{color:#F0F0F0!important}
+    html[data-theme="dark"] .raffle-card__brand{color:rgba(255,255,255,.45)!important}
+    html[data-theme="dark"] .raffle-card__date{color:rgba(255,255,255,.55)!important}
+    html[data-theme="dark"] .raffle-info-box{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .raffle-info-box strong{color:var(--accent)!important}
+    /* Sorties */
+    html[data-theme="dark"] .releases-grid{background:#0F0F0F!important}
+    html[data-theme="dark"] .release-card,html[data-theme="dark"] .sort-card{background:#1A1A1A!important;border-color:#2C2C2C!important;color:#F0F0F0!important}
+    html[data-theme="dark"] .release-card__title{color:#F0F0F0!important}
+    html[data-theme="dark"] .release-card__brand{color:rgba(255,255,255,.45)!important}
+    html[data-theme="dark"] .back-link{color:#F0F0F0!important;border-color:#2C2C2C!important;background:#1A1A1A!important}
+    html[data-theme="dark"] .back-link:hover{background:#2C2C2C!important}
+    html[data-theme="dark"] p{color:rgba(255,255,255,.7)}
+    html[data-theme="dark"] h1,html[data-theme="dark"] h2,html[data-theme="dark"] h3{color:#F0F0F0}
     /* Theme toggle */
     .theme-toggle{background:none;border:1px solid var(--border);border-radius:6px;color:var(--black);font-size:1rem;padding:.3rem .55rem;cursor:pointer;display:flex;align-items:center;line-height:1;transition:background .15s,border-color .15s;flex-shrink:0}
-    .theme-toggle:hover{background:var(--bg-alt);border-color:var(--black)}
+    .theme-toggle:hover{background:var(--bg-alt)}
     html[data-theme="dark"] .theme-toggle{border-color:#2C2C2C;color:#F0F0F0}
     html[data-theme="dark"] .theme-toggle:hover{background:#1A1A1A;border-color:#555}
-
-    /* ── Overrides backgrounds #fff hardcodés ── */
-    html[data-theme="dark"] .drop-card__img-wrap{background:#111}
-    html[data-theme="dark"] .drop-card{background:#1A1A1A;border-color:#2C2C2C;color:#F0F0F0}
-    html[data-theme="dark"] .drop-card__title{color:#F0F0F0}
-    html[data-theme="dark"] .drop-card__brand{color:rgba(255,255,255,.45)}
-    html[data-theme="dark"] .drop-card__meta{color:rgba(255,255,255,.5)}
-    html[data-theme="dark"] .drop-card__price{color:#F0F0F0}
-    html[data-theme="dark"] .drop-card__sku{color:rgba(255,255,255,.4)}
-    html[data-theme="dark"] .drop-card__diff{color:rgba(255,255,255,.5)}
-    html[data-theme="dark"] .drop-card__body{background:#1A1A1A;color:#F0F0F0}
-    html[data-theme="dark"] .hero{background:#0F0F0F;color:#F0F0F0}
-    html[data-theme="dark"] .hero-search__input{background:#111;color:#F0F0F0;border-color:#2C2C2C}
-    html[data-theme="dark"] .top-pick__img-wrap{background:#111}
-    html[data-theme="dark"] .top-pick__tag{background:#1A1A1A;color:#F0F0F0;border:1px solid #2C2C2C}
-    html[data-theme="dark"] .top-pick__card{background:#1A1A1A;border-color:#2C2C2C;color:#F0F0F0}
-    html[data-theme="dark"] .top-pick__title{color:#F0F0F0}
-    html[data-theme="dark"] .top-pick__brand{color:rgba(255,255,255,.45)}
-    html[data-theme="dark"] .top-pick__price{color:#F0F0F0}
-    html[data-theme="dark"] .top-pick__meta{color:rgba(255,255,255,.5)}
-    html[data-theme="dark"] .raffle-single{background:#1A1A1A;border-color:#2C2C2C;color:#F0F0F0}
-    html[data-theme="dark"] .raffle-carousel-item{background:#1A1A1A;border-color:#2C2C2C}
-    html[data-theme="dark"] .bstn-tabs{background:#111;border-color:#2C2C2C}
-    html[data-theme="dark"] .bstn-tab{color:rgba(255,255,255,.55);border-color:#2C2C2C}
-    html[data-theme="dark"] .bstn-tab.active{background:#F0F0F0;color:#0F0F0F}
-    html[data-theme="dark"] .src{background:#1A1A1A;border-color:#2C2C2C;color:#F0F0F0}
-    html[data-theme="dark"] .src__name{color:#F0F0F0}
-    html[data-theme="dark"] .src__price{color:rgba(255,255,255,.6)}
-    html[data-theme="dark"] .section-header{color:#F0F0F0}
-    html[data-theme="dark"] .section-header__sub{color:rgba(255,255,255,.45)}
-    html[data-theme="dark"] .cards-section{background:#0F0F0F}
-    html[data-theme="dark"] .week-tabs{background:#0F0F0F}
-    html[data-theme="dark"] .week-tab{color:rgba(255,255,255,.5);border-color:#2C2C2C}
-    html[data-theme="dark"] .week-tab.active{background:#F0F0F0;color:#0F0F0F;border-color:#F0F0F0}
-    html[data-theme="dark"] .badge{background:#2C2C2C;color:#F0F0F0}
-    html[data-theme="dark"] .badge--hype{background:var(--accent);color:#fff}
-    html[data-theme="dark"] .badge--new{background:#F0F0F0;color:#0F0F0F}
-    html[data-theme="dark"] .btn-cop{background:#F0F0F0;color:#0F0F0F;border-color:#F0F0F0}
-    html[data-theme="dark"] .btn-cop:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
-    html[data-theme="dark"] .btn-cop--alert:hover{background:#2C2C2C;color:#F0F0F0}
-    html[data-theme="dark"] .retailers-row .src{background:#1A1A1A}
 
 </style>
   <script id="schema-jsonld" type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","url":"https://sneakerdropfr.fr","itemListElement":[]}</script>
