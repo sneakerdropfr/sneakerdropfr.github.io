@@ -1451,7 +1451,28 @@
     "colorway": "Gris",
     "image_url": "https://statics.whentocop.fr/drops/16245/picture/000000_Nike-Mind-002_LIGHT-SMOKE-GREY_HQ4308-003_img0-1000x1000.webp",
     "sku": "HQ4308-003",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "140€"
+      },
+      {
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/mind-002-light-smoke-grey-hq4308-003",
+        "price": "146€"
+      },
+      {
+        "name": "StockX",
+        "url": "https://stockx.com/nike-mind-002-light-smoke-grey",
+        "price": "170€"
+      },
+      {
+        "name": "Klekt",
+        "url": "https://www.klekt.com/nike-mind-002",
+        "price": "212€"
+      }
+    ],
     "buy_url": "",
     "hype_score": 0,
     "year": 2026
