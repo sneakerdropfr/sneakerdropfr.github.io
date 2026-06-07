@@ -486,7 +486,8 @@ document.addEventListener('DOMContentLoaded', function(){
         var sortiePage = r.id ? 'sorties/' + r.id + '.html' : null;
         html += '<div class="retailers-label">Acheter</div><div class="retailers-row">';
         officialShown.forEach(function(rt) {
-          var cls = isRetailerBSTN(rt.name) ? 'btn-retailer btn-retailer--bstn'
+          var cls = isRetailerSnipes(rt.name) ? 'btn-retailer btn-retailer--snipes'
+                  : isRetailerBSTN(rt.name) ? 'btn-retailer btn-retailer--bstn'
                   : isRetailerNike(rt.name) ? 'btn-retailer btn-retailer--nike'
                   : 'btn-retailer btn-retailer--official';
           var icon = isRetailerBSTN(rt.name) ? '🛒 '
