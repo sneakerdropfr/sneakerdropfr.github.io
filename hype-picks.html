@@ -105,10 +105,7 @@
     .scroll-top:hover{background:#f5f5f5;box-shadow:0 4px 16px rgba(0,0,0,.16)}
   
     .drop-card__img-wrap { background: #fff !important; }
-  
-    @media(prefers-color-scheme:dark){
-      :root{--bg:#111111;--bg-alt:#1A1A1A;--text:#F0F0F0;--black:#F0F0F0;--white:#111111;--border:#2A2A2A;--muted:#888;--shadow:0 2px 12px rgba(0,0,0,0.4);--shadow-hover:0 8px 28px rgba(0,0,0,0.6)}
-      body{background:#111111;color:#F0F0F0}
+body{background:#111111;color:#F0F0F0}
       .header,.header__nav-bar{background:rgba(17,17,17,.97)}
       .drop-card,.drop-card__body{background:#1A1A1A;border-color:#2A2A2A}
       .drop-card__img-wrap{background:#222}
@@ -124,6 +121,36 @@
       #cookie-banner{background:#1A1A1A;border-top:1px solid #2A2A2A;color:#ccc}
       .raffle-card{background:#1A1A1A;border-color:#2A2A2A}
       .raffle-card__body{background:#1A1A1A}
+    }
+
+    @media(prefers-color-scheme:dark){
+      :root{
+        --bg:#111111;
+        --bg-alt:#1A1A1A;
+        --text:#F0F0F0;
+        --border:#2A2A2A;
+        --muted:#888;
+        --shadow:0 2px 12px rgba(0,0,0,0.4);
+        --shadow-hover:0 8px 28px rgba(0,0,0,0.6);
+      }
+      body{background:#111111;color:#F0F0F0}
+      .header,.header__nav-bar{background:rgba(17,17,17,.97);border-color:#2A2A2A}
+      .hero{background:#111111}
+      .hero-search{background:#1A1A1A;border-bottom:1px solid #2A2A2A}
+      .hero-search__input{background:#222;color:#F0F0F0;border-color:#333}
+      .drop-card{background:#1A1A1A;border-color:#2A2A2A}
+      .drop-card__body{background:#1A1A1A}
+      .drop-card__title{color:#F0F0F0}
+      .drop-card__img-wrap{background:#222}
+      .section--alt{background:#161616}
+      .filter-btn{background:#1A1A1A;color:#aaa;border-color:#2A2A2A}
+      .filter-btn.active{background:#F0F0F0;color:#111111}
+      .footer{background:#0A0A0A;border-top:1px solid #222;color:#aaa}
+      .footer a{color:#ccc}
+      #cookie-banner{background:#1A1A1A;border-color:#2A2A2A;color:#ccc}
+      .raffle-card{background:#1A1A1A;border-color:#2A2A2A}
+      .section-header .section-title{color:#F0F0F0}
+      .logo{color:#F0F0F0}
     }
 </style>
 
