@@ -252,7 +252,7 @@
     }
 
     function renderData(data) {
-      var list = (data || []).filter(function(r){ return (r.hype_score||0) >= 55; })
+      var list = (data || []).filter(function(r){ return (r.retailers || []).some(function(rt){ return rt.raffle; }); })
         .sort(function(a,b){ var da=a.date||'9999', db=b.date||'9999'; return da<db?-1:da>db?1:0; });
       if (loading) loading.style.display = 'none';
       if (!list.length) { if (empty) empty.style.display = 'block'; return; }
