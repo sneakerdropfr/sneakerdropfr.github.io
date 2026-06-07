@@ -3,9 +3,10 @@
 <head>
 <script>
 (function(){
-  var saved = localStorage.getItem('theme');
-  var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme:dark)').matches;
-  var theme = saved || (prefersDark ? 'dark' : 'light');
+  var saved=localStorage.getItem('theme');
+  var sys=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+  var theme=saved||sys;
+  document.documentElement.classList.remove('dark','light');
   document.documentElement.classList.add(theme);
 })();
 </script>
@@ -420,11 +421,10 @@ body{background:#111111;color:#F0F0F0}
     /* Theme toggle */
     .theme-toggle{background:none;border:1px solid var(--border);border-radius:999px;padding:.3rem .7rem;font-size:.75rem;font-family:var(--font-cond);font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;color:var(--text);transition:background .15s,color .15s,border-color .15s;display:flex;align-items:center;gap:.3rem;white-space:nowrap}
     .theme-toggle:hover{background:var(--bg-alt);border-color:var(--text)}
+    .theme-toggle .icon-sun{font-size:.9rem;display:none}
+    .theme-toggle .icon-moon{font-size:.9rem;display:inline}
     html.dark .theme-toggle .icon-sun{display:inline}
     html.dark .theme-toggle .icon-moon{display:none}
-    html.light .theme-toggle .icon-sun{display:none}
-    html.light .theme-toggle .icon-moon{display:inline}
-    .theme-toggle .icon-sun,.theme-toggle .icon-moon{font-size:.9rem}
 
     /* Dark mode via classe */
     html.dark body{background:#111111;color:#F0F0F0}
