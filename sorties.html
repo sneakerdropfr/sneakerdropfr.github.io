@@ -466,6 +466,8 @@ document.addEventListener('DOMContentLoaded', function(){
     // Retailers Nike/Jordan officiels
     var NIKE_RETAILERS = ['nike','nike snkrs'];
     // BSTN
+    function isRetailerSnipes(name){ return name && name.toLowerCase().indexOf('snipes') !== -1; }
+    function isRetailerSolebox(name){ return name && name.toLowerCase().indexOf('solebox') !== -1; }
     function isRetailerBSTN(name){ return name.toLowerCase()==='bstn'; }
     function isRetailerResell(name){ return RESELL_RETAILERS.indexOf(name.toLowerCase())!==-1; }
     function isRetailerNike(name){ return NIKE_RETAILERS.indexOf(name.toLowerCase())!==-1; }
