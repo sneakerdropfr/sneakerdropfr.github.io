@@ -595,13 +595,18 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         .then(function(data){
           var today=new Date();today.setHours(0,0,0,0);
           var upcoming=data.filter(function(r){
-            if(!r.date||r.date==='TBD')return false;
-            var p=r.date.split('-');
-            return new Date(+p[0],+p[1]-1,+p[2])>today;
-          });
+            var d=r.date||r.release_date||'';
+            if(!d||d==='TBD')return false;
+            var p=d.split('-');
+            return new Date(+p[0],+p[1]-1,+p[2])>=today;
+          }).sort(function(a,b){
+            var da=a.date||a.release_date||'9999';
+            var db=b.date||b.release_date||'9999';
+            return da<db?-1:da>db?1:0;
+          }).slice(0,15);
           if(!upcoming.length)return;
           var items=upcoming.map(function(r){
-            var p=r.date.split('-');
+            var p=(r.date||r.release_date||'').split('-');
             var d=new Date(+p[0],+p[1]-1,+p[2]);
             var ds=d.toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short'});
             var pr=r.price?' — '+String(r.price).replace(/EUR/gi,'').replace(/€/g,'').trim()+'€':'';
