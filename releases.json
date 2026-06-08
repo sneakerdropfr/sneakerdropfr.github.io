@@ -1,5 +1,17 @@
 [
   {
+    "id": "randy-moss-jordan-super-freak-og-returns-spring-2027",
+    "title": "Randy Moss’ Jordan Super Freak “OG” Returns Spring 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jordan-super-freak-og-white-black-purple-2027-JA7049-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=jordan trainer&amp;vst=jordan trainer",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-08T22:05:07.902187+00:00"
+  },
+  {
     "id": "jalen-brunson-x-nike-kobe-5-protro-ny-vs-ny-releases-july-20",
     "title": "Jalen Brunson x Nike Kobe 5 Protro “NY vs NY” Releases July 2026",
     "brand": "Sneaker Files",
@@ -1620,68 +1632,5 @@
     "colorway": "Cloud White / Power Green / Off White",
     "year": 2026,
     "silhouette": "Adidas SC Premiere"
-  },
-  {
-    "id": "adidas-powerphase-cloud-white-power-green",
-    "title": "Adidas Powerphase Cloud White Power Green",
-    "brand": "Adidas",
-    "date": "2026-06-05",
-    "price": 120,
-    "currency": "EUR",
-    "image": "https://statics.whentocop.fr/drops/20327/picture/000000_adidas-Powerphase_Cloud-White-Power-Green_LA4359_img0-1000x1000.webp?width=750&quality=75&format=auto",
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2Fadidas%2Fpowerphase",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Afew",
-        "url": "https://www.afew-store.com",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr",
-        "price": "120€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "310€",
-        "resell": true,
-        "raffle": false
-      }
-    ],
-    "image_url": "https://shopnicekicks.com/cdn/shop/files/7ddb59be3f34cfa502086e418cfd7202_1600x.jpg?v=1779816593",
-    "wtc_url": "https://www.whentocop.fr/drops/adidas-powerphase-cloud-white-power-green-la4359",
-    "sku": "LA4359",
-    "sku_source": "adidas",
-    "sku_confidence": "confirmed",
-    "hype_score": 41,
-    "similar_products": [
-      "adidas-tangum-white-power-green",
-      "adidas-sc-premiere-cloud-white-power-green",
-      "adidas-believe-that-1-core-black",
-      "adidas-believe-that-1-cloud-white"
-    ],
-    "restocks": [],
-    "buy_url": "https://www.adidas.fr/chaussures-powerphase/LA4359.html",
-    "colorway": "Cloud White / Power Green / Off White",
-    "year": 2026,
-    "silhouette": "Adidas Powerphase"
   }
 ]
