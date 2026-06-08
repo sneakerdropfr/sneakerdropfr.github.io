@@ -1,5 +1,100 @@
 [
   {
+    "id": "nike-mind-002-flyknit-qs-pure-platinum",
+    "date": "2026-06-12",
+    "price": 140
+  },
+  {
+    "id": "palace-nike-cryoshot-air-speed-m-black-crimson-white",
+    "date": "2026-06-12",
+    "price": 200
+  },
+  {
+    "id": "adidas-samba-mule-woven-crew-white",
+    "date": "2026-06-12",
+    "price": 110
+  },
+  {
+    "id": "jacquemus-nike-cryoshot-tiempo-r10-white-sport-royal",
+    "date": "2026-06-11",
+    "price": 200
+  },
+  {
+    "id": "new-balance-1300-made-in-usa-slate-grey",
+    "date": "2026-06-11",
+    "price": 210
+  },
+  {
+    "id": "new-balance-992-made-in-usa-shadow-grey",
+    "date": "2026-06-11",
+    "price": 230
+  },
+  {
+    "id": "nike-air-max-95-big-bubble-woven-multi",
+    "date": "2026-06-11",
+    "price": 200
+  },
+  {
+    "id": "willy-chavarria-adidas-megaride-ag-xl-black-red",
+    "date": "2026-06-10",
+    "price": 220
+  },
+  {
+    "id": "willy-chavarria-adidas-megaride-copa-mundial-core-black",
+    "date": "2026-06-10",
+    "price": 220
+  },
+  {
+    "id": "willy-chavarria-adidas-megaride-low-bones-cream-white",
+    "date": "2026-06-10",
+    "price": 220
+  },
+  {
+    "id": "joe-freshgoods-nb-1890-naughty-things",
+    "date": "2026-06-09",
+    "price": 210
+  },
+  {
+    "id": "joe-freshgoods-nb-1890-finger-waves",
+    "date": "2026-06-09",
+    "price": 210
+  },
+  {
+    "id": "nike-mind-001-mineral-slate",
+    "date": "2026-06-08",
+    "price": 90
+  },
+  {
+    "id": "nike-mind-001-backened-blue",
+    "date": "2026-06-08",
+    "price": 90
+  },
+  {
+    "id": "nike-mind-001-wmns-barely-green",
+    "date": "2026-06-08",
+    "price": 90
+  },
+  {
+    "id": "nike-mind-002-wmns-light-violet-ore",
+    "date": "2026-06-08",
+    "price": 140
+  },
+  {
+    "id": "nike-mind-002-thunder-blue",
+    "date": "2026-06-08",
+    "price": 140
+  },
+  {
+    "id": "nike-mind-002-wmns-football-grey",
+    "date": "2026-06-08",
+    "price": 140
+  },
+  {
+    "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
+    "date": "TBD",
+    "price": null
+  },
+  {
     "id": "nike-cryoshot-mercurial-vapor-r9-varsity-royal-releases-summ",
     "date": "TBD",
     "price": "$210"
@@ -15,96 +110,6 @@
     "price": "$210"
   },
   {
-    "id": "new-balance-5030-black-silver",
-    "date": "2026-06-01",
-    "price": 130
-  },
-  {
-    "id": "nike-pegasus-premium-sp-black-sail",
-    "date": "2026-06-01",
-    "price": 210
-  },
-  {
-    "id": "adidas-a-e-2-coral-red",
-    "date": "2026-06-01",
-    "price": 130
-  },
-  {
-    "id": "nike-pegasus-premium-sp-white-black",
-    "date": "2026-06-01",
-    "price": 210
-  },
-  {
-    "id": "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
-    "date": "2026-06-01",
-    "price": 150
-  },
-  {
-    "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
-    "date": "2026-06-01",
-    "price": 200
-  },
-  {
-    "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
-    "date": "2026-06-02",
-    "price": 145
-  },
-  {
-    "id": "nike-rift-2-kenya",
-    "date": "2026-06-02",
-    "price": 130
-  },
-  {
-    "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
-    "date": "2026-06-03",
-    "price": 140
-  },
-  {
-    "id": "nike-air-max-95-og-fresh-mint",
-    "date": "2026-06-04",
-    "price": 190
-  },
-  {
-    "id": "renegade-x-nike-vomero-premium-brown-basalt",
-    "date": "2026-06-04",
-    "price": 240
-  },
-  {
-    "id": "renegade-x-nike-vaporfly-4-brown-basalt",
-    "date": "2026-06-04",
-    "price": 270
-  },
-  {
-    "id": "nike-air-max-90-cool-grey",
-    "date": "2026-06-04",
-    "price": 160
-  },
-  {
-    "id": "nike-mind-001-flyknit-bronze-eclipse",
-    "date": "2026-06-05",
-    "price": 90
-  },
-  {
-    "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
-    "date": "2026-06-06",
-    "price": "159.99€"
-  },
-  {
-    "id": "adidas-tangum-white-power-green",
-    "date": "2026-06-05",
-    "price": 120
-  },
-  {
-    "id": "adidas-sc-premiere-cloud-white-power-green",
-    "date": "2026-06-05",
-    "price": 140
-  },
-  {
-    "id": "adidas-powerphase-cloud-white-power-green",
-    "date": "2026-06-05",
-    "price": 120
-  },
-  {
     "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
     "date": "2026-06-08",
     "price": 140
@@ -118,11 +123,6 @@
     "id": "nike-kd-19-field-purple-releases-june-2026",
     "date": "2026-06-17",
     "price": 145
-  },
-  {
-    "id": "nike-mind-001-flyknit-hyper-royal",
-    "date": "2026-06-04",
-    "price": 147.0
   },
   {
     "id": "air-jordan-17-low-black-patent-releases-august-2026",
@@ -155,11 +155,6 @@
     "price": 120
   },
   {
-    "id": "lego-x-nike-dunk-low-gs-bright-concord",
-    "date": "2026-06-04",
-    "price": 105
-  },
-  {
     "id": "nike-mind-001-light-smoke-grey",
     "date": "2026-06-08",
     "price": 90
@@ -168,11 +163,6 @@
     "id": "nike-kd19-orange-crush",
     "date": "2026-06-13",
     "price": 160
-  },
-  {
-    "id": "lego-x-nike-air-max-95-gs-brick-pixel",
-    "date": "2026-06-04",
-    "price": 150
   },
   {
     "id": "nike-mind-002-wmns-sail-hyper-crimson",
@@ -215,178 +205,128 @@
     "price": 206
   },
   {
-    "id": "stone-island-x-new-balance-abzorb-dark-green",
-    "date": "2026-06-04",
-    "price": 220
-  },
-  {
-    "id": "stone-island-x-new-balance-abzorb-grey-olive",
-    "date": "2026-06-04",
-    "price": 220
-  },
-  {
-    "id": "adidas-adistar-xlg-2-grey",
-    "date": "2026-06-04",
-    "price": 140
-  },
-  {
-    "id": "nike-acg-pegasus-trail-summit-white-safety-orange",
-    "date": "2026-06-04",
-    "price": 150
-  },
-  {
-    "id": "nike-air-max-95-big-bubble-og-fresh-mint",
-    "date": "2026-06-04",
-    "price": 190
-  },
-  {
-    "id": "coca-cola-x-adidas-superstar-ii-white-core-black-red",
-    "date": "2026-06-06",
-    "price": 120
-  },
-  {
-    "id": "coca-cola-x-adidas-superstar-ii-black-red-grey",
-    "date": "2026-06-06",
-    "price": 120
-  },
-  {
-    "id": "adidas-harden-vol-10-metallic-gold-black",
-    "date": "2026-06-06",
-    "price": 159
-  },
-  {
-    "id": "coca-cola-x-adidas-megaride-f50-white",
-    "date": "2026-06-06",
-    "price": 190
-  },
-  {
-    "id": "coca-cola-x-adidas-samba-og-red-core-black-2",
-    "date": "2026-06-06",
-    "price": 120
-  },
-  {
-    "id": "nike-mind-001-sail",
+    "id": "adidas-samba-jane-wmns-halo-green-warm-vanilla",
     "date": "2026-06-08",
-    "price": 90
+    "price": "90 €"
   },
   {
-    "id": "nike-mind-002-wmns-football-grey",
-    "date": "2026-06-08",
-    "price": 140
-  },
-  {
-    "id": "nike-mind-002-thunder-blue",
-    "date": "2026-06-08",
-    "price": 140
-  },
-  {
-    "id": "nike-mind-002-wmns-light-violet-ore",
-    "date": "2026-06-08",
-    "price": 140
-  },
-  {
-    "id": "nike-mind-001-wmns-barely-green",
-    "date": "2026-06-08",
-    "price": 90
-  },
-  {
-    "id": "nike-mind-001-backened-blue",
-    "date": "2026-06-08",
-    "price": 90
-  },
-  {
-    "id": "nike-mind-001-mineral-slate",
-    "date": "2026-06-08",
-    "price": 90
+    "id": "adidas-samba-jane-wmns-wonder-quartz-halo-blush",
+    "date": "2026-06-07",
+    "price": "90 €"
   },
   {
     "id": "nike-mind-001-black-hyper-crimson",
-    "date": "2026-06-08",
-    "price": 90
+    "date": "2026-06-07",
+    "price": "90 €"
   },
   {
-    "id": "joe-freshgoods-x-new-balance-1890-finger-waves",
-    "date": "2026-06-09",
-    "price": 210
-  },
-  {
-    "id": "joe-freshgoods-x-new-balance-1890-naughty-things",
-    "date": "2026-06-09",
-    "price": 210
-  },
-  {
-    "id": "nike-air-max-95-big-bubble-woven-multi",
+    "id": "griff-x-asics-gel-cumulus-16-black",
     "date": "2026-06-11",
-    "price": 200
+    "price": "160 €"
   },
   {
-    "id": "new-balance-992-made-in-usa-shadow-grey",
+    "id": "patta-x-nike-cryoshot-mercurial-vapor-r9-metallic-silver-hyper-crimson-black",
     "date": "2026-06-11",
-    "price": 230
+    "price": "200 €"
   },
   {
-    "id": "jacquemus-x-nike-cryoshot-tiempo-r10-white-sport-royal",
-    "date": "2026-06-11",
-    "price": 210
-  },
-  {
-    "id": "new-balance-1300-made-in-usa-slate-grey",
-    "date": "2026-06-11",
-    "price": 210
-  },
-  {
-    "id": "patta-x-nike-cryoshot-mercurial-vapor-r9-metallic-silver",
-    "date": "2026-06-12",
-    "price": 210
-  },
-  {
-    "id": "palace-x-nike-cryoshot-air-speed-m-black-crimson-white",
-    "date": "2026-06-12",
-    "price": 210
-  },
-  {
-    "id": "nike-mind-002-flyknit-qs-pure-platinum",
-    "date": "2026-06-12",
-    "price": 140
+    "id": "adidas-adizero-adios-pro-4-white-fucid-red-shock-purple",
+    "date": "2026-06-15",
+    "price": "249 €"
   },
   {
     "id": "peaceminusone-x-nike-cryoshot-ctr360-team-south-korea",
-    "date": "2026-06-16",
-    "price": 210
+    "date": "2026-06-15",
+    "price": "200 €"
   },
   {
     "id": "slawn-x-nike-cryoshot-striker-1976-natural-white-black",
+    "date": "2026-06-15",
+    "price": "200 €"
+  },
+  {
+    "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
+    "date": "2026-06-15",
+    "price": "200 €"
+  },
+  {
+    "id": "off-white-x-nike-cryoshot-virgil-abloh-archives",
+    "date": "2026-06-15",
+    "price": "200 €"
+  },
+  {
+    "id": "toy-story-x-crocs-boot-jessie",
     "date": "2026-06-16",
-    "price": 210
+    "price": "130 €"
+  },
+  {
+    "id": "toy-story-x-crocs-classic-clog-aliens",
+    "date": "2026-06-16",
+    "price": "70 €"
+  },
+  {
+    "id": "new-balance-allerdale-vaporous-grey",
+    "date": "2026-06-16",
+    "price": "250 €"
+  },
+  {
+    "id": "new-balance-991v2-mahogany-rose",
+    "date": "2026-06-17",
+    "price": "250 €"
+  },
+  {
+    "id": "new-balance-991v2-sea-grass",
+    "date": "2026-06-17",
+    "price": "250 €"
+  },
+  {
+    "id": "nike-air-max-goadome-low-black",
+    "date": "2026-06-17",
+    "price": "190 €"
   },
   {
     "id": "nike-pegasus-premium-sp-black-sail-sail",
-    "date": "2026-06-18",
-    "price": 210
+    "date": "2026-06-17",
+    "price": "210 €"
+  },
+  {
+    "id": "nike-pegasus-premium-sp-white-black",
+    "date": "2026-06-17",
+    "price": "210 €"
   },
   {
     "id": "adidas-adizero-adios-pro-evo-3-cloud-white-solar-turbo",
-    "date": "2026-06-18",
-    "price": 500
+    "date": "2026-06-17",
+    "price": "500 €"
   },
   {
     "id": "nike-air-max-95-light-graphite-paisley",
-    "date": "2026-06-19",
-    "price": 190
+    "date": "2026-06-18",
+    "price": "190 €"
   },
   {
     "id": "cdg-x-nike-ld-1000-spirit-pink",
     "date": "2026-06-30",
-    "price": 110
+    "price": "110 €"
   },
   {
-    "id": "off-white-x-nike-cryoshot-virgil-abloh-archives",
-    "date": "TBD",
-    "price": "$210"
+    "id": "new-balance-204l-sea-salt",
+    "date": "2026-06-30",
+    "price": "130 €"
   },
   {
-    "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
-    "date": "TBD",
-    "price": null
+    "id": "new-balance-2010-sandstone-grey",
+    "date": "2026-06-30",
+    "price": "170 €"
+  },
+  {
+    "id": "nike-air-max-joga-bonito-r9",
+    "date": "2026-07-01",
+    "price": "180 €"
+  },
+  {
+    "id": "lego-x-nike-air-max-95-gs-lucky-green",
+    "date": "2026-07-03",
+    "price": "150 €"
   }
 ]
