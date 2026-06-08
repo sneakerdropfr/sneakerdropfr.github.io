@@ -1,105 +1,5 @@
 [
   {
-    "nom": "asics x Hidden NY-GEL-KINETIC 2.0",
-    "marque": "asics",
-    "prix": "279,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC8xMjAzQjE2OS0xMDAvMTIwM0IxNjktMTAwLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/r/asics-x-hidden-ny-gel-kinetic-2-0-1203b169-100-0349440",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fasics-x-hidden-ny-gel-kinetic-2-0-1203b169-100-0349440",
-    "date": "2026-06-05",
-    "couleur": ""
-  },
-  {
-    "nom": "Nike AIR MAX 90",
-    "marque": "Nike",
-    "prix": "159,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JVTc1NDMtMDY1L0lVNzU0My0wNjUtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/nike-air-max-iii-iu7543-065-0350697",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-iii-iu7543-065-0350697",
-    "date": "2026-06-05",
-    "couleur": ""
-  },
-  {
-    "nom": "Adidas ANTHONY EDWARDS 2",
-    "marque": "Adidas",
-    "prix": "129,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LSjE4ODUvS0oxODg1LTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-anthony-edwards-2-kj1885-0354833",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-anthony-edwards-2-kj1885-0354833",
-    "date": "2026-06-06",
-    "couleur": ""
-  },
-  {
-    "nom": "Adidas TANGUM",
-    "marque": "Adidas",
-    "prix": "119,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9MQTY1NzAvTEE2NTcwLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-tangum-la6570-0347325",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-tangum-la6570-0347325",
-    "date": "2026-06-06",
-    "couleur": ""
-  },
-  {
-    "nom": "Adidas POWERPHASE",
-    "marque": "Adidas",
-    "prix": "119,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9MQTQzNTkvTEE0MzU5LTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-powerphase-la4359-0347324",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-powerphase-la4359-0347324",
-    "date": "2026-06-06",
-    "couleur": ""
-  },
-  {
-    "nom": "Adidas SC Premiere",
-    "marque": "Adidas",
-    "prix": "139,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LWjcxOTYvS1o3MTk2LTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-sc-premiere-kz7196-0347323",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-sc-premiere-kz7196-0347323",
-    "date": "2026-06-06",
-    "couleur": ""
-  },
-  {
-    "nom": "Adidas BW ARMY",
-    "marque": "Adidas",
-    "prix": "149,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTkyNjUvSFE5MjY1LTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-bw-army-hq9265-0346603",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-bw-army-hq9265-0346603",
-    "date": "2026-06-06",
-    "couleur": ""
-  },
-  {
-    "nom": "Adidas STAN SMITH 80s",
-    "marque": "Adidas",
-    "prix": "129,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JRjAyMDIvSUYwMjAyLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/r/adidas-stan-smith-80s-if0202-0286316",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fadidas-stan-smith-80s-if0202-0286316",
-    "date": "2026-06-06",
-    "couleur": ""
-  },
-  {
-    "nom": "Adidas HARDEN VOLUME 10",
-    "marque": "Adidas",
-    "prix": "159,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LSDkxNTMvS0g5MTUzLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-harden-volume-10-kh9153-0354826",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-harden-volume-10-kh9153-0354826",
-    "date": "2026-06-06",
-    "couleur": ""
-  },
-  {
-    "nom": "JORDAN 1 RETRO LOW OG (TD)",
-    "marque": "Jordan",
-    "prix": "64,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9IUTY5OTctMTAwL0hRNjk5Ny0xMDAtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/jordan-jordan-1-retro-low-og-td-hq6997-100-0350346",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-jordan-1-retro-low-og-td-hq6997-100-0350346",
-    "date": "2026-06-06",
-    "couleur": ""
-  },
-  {
     "nom": "New Balance x JFG LC 1890",
     "marque": "New Balance",
     "prix": "209,99 €",
@@ -120,12 +20,32 @@
     "couleur": ""
   },
   {
+    "nom": "Adidas X WILLY CHAVARRIA MEGA WC VERSION",
+    "marque": "Adidas",
+    "prix": "219,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LSjIwNDEvS0oyMDQxLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-x-willy-chavarria-mega-wc-version-kj2041-0347286",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-x-willy-chavarria-mega-wc-version-kj2041-0347286",
+    "date": "2026-06-11",
+    "couleur": ""
+  },
+  {
     "nom": "New Balance Made in USA 992 Core",
     "marque": "New Balance",
     "prix": "239,99 €",
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VOTkyN1dYL1U5OTI3V1gtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
     "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-made-in-usa-992-core-u9927wx-0344358",
     "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-made-in-usa-992-core-u9927wx-0344358",
+    "date": "2026-06-11",
+    "couleur": ""
+  },
+  {
+    "nom": "Salomon RX-ENRO",
+    "marque": "Salomon",
+    "prix": "119,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9MNDkyOTQzMDAvTDQ5Mjk0MzAwLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/salomon-rx-enro-l49294300-0351137",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fsalomon-rx-enro-l49294300-0351137",
     "date": "2026-06-11",
     "couleur": ""
   },
@@ -137,6 +57,46 @@
     "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-made-in-usa-1300-u13007pt-0344357",
     "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-made-in-usa-1300-u13007pt-0344357",
     "date": "2026-06-11",
+    "couleur": ""
+  },
+  {
+    "nom": "Nike KD19",
+    "marque": "Nike",
+    "prix": "159,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JSDExMTctNTAwL0lIMTExNy01MDAtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/nike-kd19-ih1117-500-0350446",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-kd19-ih1117-500-0350446",
+    "date": "2026-06-17",
+    "couleur": ""
+  },
+  {
+    "nom": "New Balance 991",
+    "marque": "New Balance",
+    "prix": "249,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VOTkxUkIyL1U5OTFSQjItMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-991-u991rb2-0342572",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-991-u991rb2-0342572",
+    "date": "2026-06-18",
+    "couleur": ""
+  },
+  {
+    "nom": "Nike PEGASUS PREMIUM SP",
+    "marque": "Nike",
+    "prix": "209,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUjIxNjYtMDAxL0lSMjE2Ni0wMDEtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/nike-pegasus-premium-sp-ir2166-001-0350294",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-pegasus-premium-sp-ir2166-001-0350294",
+    "date": "2026-06-18",
+    "couleur": ""
+  },
+  {
+    "nom": "Adidas ADISTAR MLD",
+    "marque": "Adidas",
+    "prix": "119,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LSDgzMzQvS0g4MzM0LTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-adistar-mld-kh8334-0354436",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-adistar-mld-kh8334-0354436",
+    "date": "2026-06-19",
     "couleur": ""
   },
   {
