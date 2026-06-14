@@ -1,650 +1,383 @@
 {
-  "week_start": "08/06/2026",
-  "week_end": "14/06/2026",
+  "week_start": "15/06/2026",
+  "week_end": "21/06/2026",
+  "generated_at": "2026-06-14T23:02:28Z",
   "releases": [
     {
-      "name": "Nike Mind 002 Flyknit QS \"Pure Platinum\"",
-      "brand": "Nike",
-      "date": "12/06/2026",
-      "price": "140 €",
+      "name": "Adidas Adizero Adios Pro 4 White Fucid Red Shock Purple",
+      "date": "2026-06-15",
+      "price": 250,
       "image": "",
-      "id": "nike-mind-002-flyknit-qs-pure-platinum",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-4-white-fucid-red-shock-purple-kz9020",
+      "brand": "Adidas"
     },
     {
-      "name": "Palace x Nike Cryoshot Air Speed M \"Black Crimson White\"",
-      "brand": "Nike",
-      "date": "12/06/2026",
-      "price": "200 €",
+      "name": "Liberty London X Adidas Samba Og Wmns Maroon Warm Vanilla",
+      "date": "2026-06-15",
+      "price": 130,
       "image": "",
-      "id": "palace-nike-cryoshot-air-speed-m-black-crimson-white",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch/",
-          "price": "200€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/liberty-london-adidas-samba-og-wmns-maroon-warm-vanilla-kh9802",
+      "brand": "Adidas"
     },
     {
-      "name": "adidas Samba Mule Woven \"Crew White\"",
-      "brand": "Adidas",
-      "date": "12/06/2026",
-      "price": "110 €",
+      "name": "Nike Air Force 1 Low Paisley Hydrogen Blue",
+      "date": "2026-06-15",
+      "price": 120,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-paisley-suede.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
+      "brand": "Nike"
+    },
+    {
+      "name": "Nike Air Force 1 Low Retro Heat Map",
+      "date": "2026-06-15",
+      "price": 130,
+      "image": "https://sneakernews.com/wp-content/uploads/2015/03/0319_MM_sneakers.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-heat-map-black-racer-blue-ib6834-001",
+      "brand": "Nike"
+    },
+    {
+      "name": "Paul Rodriguez X Nike Sb Air Zoom Low Dodgers",
+      "date": "2026-06-15",
+      "price": 120,
+      "image": "https://sneakernews.com/wp-content/uploads/2011/06/weekly-rewind-summary-6-10.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/paul-rodriguez-nike-sb-air-zoom-low-dodgers-iu7835-001",
+      "brand": "Nike SB"
+    },
+    {
+      "name": "Super Mario X Crocs Classic Clog Bowser",
+      "date": "2026-06-15",
+      "price": 70,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-bowser-classic-clog-multi-212135-90h",
+      "brand": "Crocs"
+    },
+    {
+      "name": "Super Mario X Crocs Classic Clog Mario",
+      "date": "2026-06-15",
+      "price": 70,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-mario-212134-90h",
+      "brand": "Crocs"
+    },
+    {
+      "name": "Super Mario X Crocs Classic Clog Yoshi",
+      "date": "2026-06-15",
+      "price": 70,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-yoshi-212136-90h",
+      "brand": "Crocs"
+    },
+    {
+      "name": "Super Mario X Crocs Classic Platform Clog Wmns Princess Peach",
+      "date": "2026-06-15",
+      "price": 80,
       "image": "",
-      "id": "adidas-samba-mule-woven-crew-white",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr/",
-          "price": "110€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-platform-clog-wmns-princess-peach-212137-90h",
+      "brand": "Crocs"
     },
     {
-      "name": "Jacquemus x Nike Cryoshot Tiempo R10 \"White Sport Royal\"",
-      "brand": "Nike",
-      "date": "11/06/2026",
-      "price": "200 €",
+      "name": "Collina Strada X Converse Chuck 70 Black",
+      "date": "2026-06-16",
+      "price": 160,
       "image": "",
-      "id": "jacquemus-nike-cryoshot-tiempo-r10-white-sport-royal",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch/",
-          "price": "200€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-black-a19049c",
+      "brand": "Converse"
     },
     {
-      "name": "New Balance 1300 Made in USA \"Slate Grey\"",
-      "brand": "New Balance",
-      "date": "11/06/2026",
-      "price": "210 €",
+      "name": "Collina Strada X Converse Chuck 70 High Mellow Rose",
+      "date": "2026-06-16",
+      "price": 170,
       "image": "",
-      "id": "new-balance-1300-made-in-usa-slate-grey",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.bstn.com/fr/",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
+      "brand": "Converse"
     },
     {
-      "name": "New Balance 992 Made in USA \"Shadow Grey\"",
-      "brand": "New Balance",
-      "date": "11/06/2026",
-      "price": "230 €",
+      "name": "Collina Strada X Converse Chuck 70 Mellow Yellow",
+      "date": "2026-06-16",
+      "price": 160,
       "image": "",
-      "id": "new-balance-992-made-in-usa-shadow-grey",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/",
-          "price": "230€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.bstn.com/fr/",
-          "price": "230€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-mellow-yellow-a22205c",
+      "brand": "Converse"
     },
     {
-      "name": "Nike Air Max 95 Big Bubble \"Woven Multi\"",
-      "brand": "Nike",
-      "date": "11/06/2026",
-      "price": "200 €",
+      "name": "Collina Strada X Converse Chuck 70 Xxhi Black",
+      "date": "2026-06-16",
+      "price": 200,
       "image": "",
-      "id": "nike-air-max-95-big-bubble-woven-multi",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "200€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-xxhi-black-a19050c",
+      "brand": "Converse"
     },
     {
-      "name": "Willy Chavarria x adidas Megaride AG XL \"Black Red\"",
-      "brand": "Adidas",
-      "date": "10/06/2026",
-      "price": "220 €",
+      "name": "Jacquemus X Nike Cryoshot Tiempo R10 White Sport Royal",
+      "date": "2026-06-16",
+      "price": 200,
       "image": "",
-      "id": "willy-chavarria-adidas-megaride-ag-xl-black-red",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr/",
-          "price": "220€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/jacquemus-nike-cryoshot-tiempo-r10-white-sport-royal-io0619-100",
+      "brand": "Nike"
     },
     {
-      "name": "Willy Chavarria x adidas Megaride Copa Mundial \"Core Black\"",
-      "brand": "Adidas",
-      "date": "10/06/2026",
-      "price": "220 €",
+      "name": "Nocta X Nike Cryoshot Tiempo University Gold Black",
+      "date": "2026-06-16",
+      "price": 200,
       "image": "",
-      "id": "willy-chavarria-adidas-megaride-copa-mundial-core-black",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr/",
-          "price": "220€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.bstn.com/fr/",
-          "price": "220€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/nocta-nike-cryoshot-tiempo-university-gold-black-im0703-700",
+      "brand": "Nike"
     },
     {
-      "name": "Willy Chavarria x adidas Megaride Low Bones \"Cream White\"",
-      "brand": "Adidas",
-      "date": "10/06/2026",
-      "price": "220 €",
+      "name": "Off-White X Nike Cryoshot Virgil Abloh Archives",
+      "date": "2026-06-16",
+      "price": 200,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/02/adidas-f50-adiframe-shock-pink-JQ9556-5.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/off-white-nike-cryoshot-virgil-abloh-archives-im3886-100",
+      "brand": "Nike"
+    },
+    {
+      "name": "Palace X Nike Cryoshot Air Speed M Black Crimson White",
+      "date": "2026-06-16",
+      "price": 200,
       "image": "",
-      "id": "willy-chavarria-adidas-megaride-low-bones-cream-white",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr/",
-          "price": "220€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/palace-nike-cryoshot-air-speed-m-black-crimson-white-im0702-001",
+      "brand": "Nike"
     },
     {
-      "name": "Joe Freshgoods x New Balance 1890 \"Naughty Things\"",
-      "brand": "New Balance",
-      "date": "09/06/2026",
-      "price": "210 €",
+      "name": "Patta X Netherlands X Nike Academy Pro Top Black Orange",
+      "date": "2026-06-16",
+      "price": 70,
       "image": "",
-      "id": "joe-freshgoods-nb-1890-naughty-things",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.bstn.com/fr/",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/patta-netherlands-nike-academy-pro-top-black-orange-ih1678-010",
+      "brand": "Nike"
     },
     {
-      "name": "Joe Freshgoods x New Balance 1890 \"Finger Waves\"",
-      "brand": "New Balance",
-      "date": "09/06/2026",
-      "price": "210 €",
+      "name": "Patta X Netherlands X Nike Academy Pro Top Gs Black Orange",
+      "date": "2026-06-16",
+      "price": 65,
       "image": "",
-      "id": "joe-freshgoods-nb-1890-finger-waves",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/patta-netherlands-nike-academy-pro-top-gs-black-orange-ib5420-010",
+      "brand": "Nike"
     },
     {
-      "name": "Nike Mind 001 \"Mineral Slate\"",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "90 €",
+      "name": "Patta X Nike Cryoshot Mercurial Vapor R9 Metallic Silver Hyper Crimson Black",
+      "date": "2026-06-16",
+      "price": 200,
       "image": "",
-      "id": "nike-mind-001-mineral-slate",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "90€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/patta-nike-cryoshot-mercurial-vapor-r9-metallic-silver-hyper-crimson-black-im0589-001",
+      "brand": "Nike"
     },
     {
-      "name": "Nike Mind 001 \"Backened Blue\"",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "90 €",
+      "name": "Peaceminusone X Nike Cryoshot Ctr360 Team South Korea",
+      "date": "2026-06-16",
+      "price": 200,
       "image": "",
-      "id": "nike-mind-001-backened-blue",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "90€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/peaceminusone-nike-cryoshot-ctr360-team-south-korea-hq1460-100",
+      "brand": "Nike"
     },
     {
-      "name": "Nike Mind 001 WMNS \"Barely Green\"",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "90 €",
+      "name": "Peaceminusone X South Korea X Nike Pre Match Top Black White",
+      "date": "2026-06-16",
+      "price": 70,
       "image": "",
-      "id": "nike-mind-001-wmns-barely-green",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "90€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/peaceminusone-south-korea-x-nike-pre-match-top-black-white-ih1682-010",
+      "brand": "Nike"
     },
     {
-      "name": "Nike Mind 002 WMNS \"Light Violet Ore\"",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "140 €",
+      "name": "Peaceminusone X South Korea X Nike Short Sleeve Top White",
+      "date": "2026-06-16",
+      "price": 70,
       "image": "",
-      "id": "nike-mind-002-wmns-light-violet-ore",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/peaceminusone-south-korea-nike-short-sleeve-top-white-im3219-100",
+      "brand": "Nike"
     },
     {
-      "name": "Nike Mind 002 \"Thunder Blue\"",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "140 €",
+      "name": "Slawn X Nike Cryoshot Striker 1976 Natural White Black",
+      "date": "2026-06-16",
+      "price": 200,
       "image": "",
-      "id": "nike-mind-002-thunder-blue",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/slawn-x-nike-cryoshot-striker-1976-natural-white-black-ii9933-100",
+      "brand": "Nike"
     },
     {
-      "name": "Nike Mind 002 WMNS \"Football Grey\"",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "140 €",
+      "name": "Vaa X Usa X Nike Academy Pro Football Top White",
+      "date": "2026-06-16",
+      "price": 70,
       "image": "",
-      "id": "nike-mind-002-wmns-football-grey",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "wtc_url": "https://www.whentocop.fr/drops/vaa-usa-nike-academy-pro-football-top-white-ih1696-100",
+      "brand": "Nike"
     },
     {
-      "name": "Nike Air Max 1 City Connect “Baltimore Orioles”",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "140 €",
-      "image": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-baltimore-orioles-IQ2894-100-1024x725.jpg",
-      "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
-      "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-baltimore-orioles/",
-      "wtc_url": "",
-      "retailers": [],
-      "resell": "",
-      "stock": ""
+      "name": "New Balance Allerdale Vaporous Grey",
+      "date": "2026-06-17",
+      "price": 250,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-allerdale-Vaporous-Grey-chipmunk-UADWLWO-3.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-allerdale-vaporous-grey-uadwlwo",
+      "brand": "New Balance"
     },
     {
-      "name": "Nike Air Max 1 City Connect “Kansas City Royals”",
-      "brand": "Nike",
-      "date": "09/06/2026",
-      "price": "140 €",
-      "image": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-kansas-city-royal-IQ2916-100-1024x725.jpg",
-      "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
-      "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-kansas-city-royals/",
-      "wtc_url": "",
-      "retailers": [],
-      "resell": "",
-      "stock": ""
+      "name": "Nike Kd19 Field Purple",
+      "date": "2026-06-17",
+      "price": 160,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-kd19-field-purple-ih1117-500",
+      "brand": "Nike"
     },
     {
-      "name": "Air Jordan 3 \"Bin 23\"",
-      "brand": "Jordan Brand",
-      "date": "13/06/2026",
-      "price": "355 €",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/01/air-jordan-3-bin-23-io7744-600.webp",
-      "id": "air-jordan-3-bin-23-2026",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "350€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/air-jordan-3-retro-og-bin-23",
-          "price": "759€"
-        },
-        {
-          "name": "GOAT",
-          "url": "https://www.goat.com/sneakers/air-jordan-3-retro-og-bin-23-io7744-600",
-          "price": "1349€"
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "name": "Toy Story X Crocs Boot Jessie",
+      "date": "2026-06-17",
+      "price": 130,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/04/toy-story-crocs-release-date-7.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/toy-story-crocs-boot-jessie-213009-90h",
+      "brand": "Crocs"
     },
     {
-      "name": "Nike Mind 001 White Speed Red",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "90 €",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nike-mind-001-white-speed-red-hq4307-101.webp",
-      "id": "nike-mind-001-white-speed-red",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "90€"
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "name": "Toy Story X Crocs Classic Clog Aliens",
+      "date": "2026-06-17",
+      "price": 70,
+      "image": "https://sneakernews.com/wp-content/uploads/2024/01/toy-story-crocs-release-date.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/toy-story-crocs-classic-clog-aliens-213010-90h",
+      "brand": "Crocs"
     },
     {
-      "name": "Nike Mind 001 Light Smoke Grey",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "90 €",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2025/09/nike-mind-001-light-smoke-grey-hq4307-003-2.jpg",
-      "id": "nike-mind-001-light-smoke-grey",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "90€"
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "name": "Adidas Adizero Adios Pro Evo 3 Cloud White Solar Turbo",
+      "date": "2026-06-18",
+      "price": 500,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo-kh7678",
+      "brand": "Adidas"
     },
     {
-      "name": "Nike KD19 Orange Crush",
-      "brand": "Nike",
-      "date": "13/06/2026",
-      "price": "160 €",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/nike-kd-19-orange-crush-bright-ceramic-ih1117-800-release-date.webp",
-      "id": "nike-kd19-orange-crush",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "160€"
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "name": "Adidas Harden Vol.10 Clear Cyan",
+      "date": "2026-06-18",
+      "price": 160,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-harden-vol10-clear-cyan-ki1605",
+      "brand": "Adidas"
     },
     {
-      "name": "Nike Mind 002 WMNS Sail Hyper Crimson",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "140 €",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nike-mind-002-sail-chalk-hq4310-100-4.webp",
-      "id": "nike-mind-002-wmns-sail-hyper-crimson",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "140€"
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "name": "New Balance 991v2 Mahogany Rose",
+      "date": "2026-06-18",
+      "price": 250,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-mahogany-rose-U991RB2-2.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-mahogany-rose-u991rb2",
+      "brand": "New Balance"
     },
     {
-      "name": "Nike Mind 002 Light Smoke Grey",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "140 €",
-      "image": "https://sneakernews.com/wp-content/uploads/2025/10/nike-mind-002-HQ4308-003-release-date-1.jpg",
-      "id": "nike-mind-002-light-smoke-grey",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "140€"
-        },
-        {
-          "name": "GOAT",
-          "url": "https://www.goat.com/sneakers/mind-002-light-smoke-grey-hq4308-003",
-          "price": "146€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/nike-mind-002-light-smoke-grey",
-          "price": "170€"
-        },
-        {
-          "name": "Klekt",
-          "url": "https://www.klekt.com/nike-mind-002",
-          "price": "212€"
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "name": "New Balance 991v2 Sea Grass",
+      "date": "2026-06-18",
+      "price": 250,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-sea-grass-u991bb2",
+      "brand": "New Balance"
     },
     {
-      "name": "Nike Mind 002 WMNS Light Smoke Grey",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "140 €",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2025/10/nike-mind-002-light-smoke-grey-hq4308-003-4.jpg",
-      "id": "nike-mind-002-wmns-light-smoke-grey",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "140€"
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "name": "Nike Air Max Goadome Low Black",
+      "date": "2026-06-18",
+      "price": 185,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-goadome-low-sp-black-ir2173-001-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-goadome-low-black-ir2173-001",
+      "brand": "Nike"
     },
     {
-      "name": "Nike Mind 002 Black Hyper Crimson",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "140 €",
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2025/11/nike-mind-002-black-hyper-crimson-hq4308-001-3.jpg",
-      "id": "nike-mind-002-black-hyper-crimson",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "140€"
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "name": "Nike Pegasus Premium Sp Black Sail Sail",
+      "date": "2026-06-18",
+      "price": 210,
+      "image": "https://sneakernews.com/wp-content/uploads/2025/06/nike-pegasus-premium-run-platinum-tint-ih2288-001-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-pegasus-premium-sp-black-sail-sail-ir2166-001",
+      "brand": "Nike"
     },
     {
-      "name": "Nike Mind 001 WMNS Black Hyper Crimson",
-      "brand": "Nike",
-      "date": "08/06/2026",
-      "price": "90 €",
-      "image": "https://sneakernews.com/wp-content/uploads/2025/10/nike-mind-001-black-hyper-crimson-chrome-hq4307-001-1.jpg",
-      "id": "nike-mind-001-wmns-black-hyper-crimson",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "90€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.com/nike-mind-001-wmns-black-hyper-crimson",
-          "price": "138€"
-        },
-        {
-          "name": "GOAT",
-          "url": "https://www.goat.com/sneakers/mind-001-wmns-black-hyper-crimson-hq4309-001",
-          "price": "155€"
-        },
-        {
-          "name": "Klekt",
-          "url": "https://www.klekt.com/nike-mind-001",
-          "price": "160€"
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "name": "Nike Pegasus Premium Sp White Black",
+      "date": "2026-06-18",
+      "price": 210,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/nike-pegasus-premium-sp-black-phantom.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-pegasus-premium-sp-white-black-ir2166-102",
+      "brand": "Nike"
+    },
+    {
+      "name": "Adidas Adistar Mld Earth Strata",
+      "date": "2026-06-19",
+      "price": 120,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-adistar-mld-summer-2026.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-earth-strata-kh6407",
+      "brand": "Adidas"
+    },
+    {
+      "name": "Adidas Adistar Mld Grey",
+      "date": "2026-06-19",
+      "price": 120,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-adistar-mld-summer-2026.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-grey-kh8334",
+      "brand": "Adidas"
+    },
+    {
+      "name": "Air Jordan 1 Retro High Og Wmns Workwear",
+      "date": "2026-06-19",
+      "price": 180,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-retro-high-og-wmns-workwear-fd2596-201",
+      "brand": "Jordan Brand"
+    },
+    {
+      "name": "Nike Air Max 95 Light Graphite Paisley",
+      "date": "2026-06-19",
+      "price": 190,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-95-paisley-ir0802-100-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-light-graphite-paisley-ir0802-100",
+      "brand": "Nike"
+    },
+    {
+      "name": "Nike Vomero Premium Black Rush Violet",
+      "date": "2026-06-19",
+      "price": 220,
+      "image": "https://sneakernews.com/wp-content/uploads/2025/11/dsg-november-2025-holiday-guide-banner.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-vomero-premium-black-rush-violet-ir2168-002",
+      "brand": "Nike"
+    },
+    {
+      "name": "Air Jordan 5 Retro Black University Blue",
+      "date": "2026-06-20",
+      "price": 220,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-5-black-university-blue-release-date-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-5-retro-black-university-blue-dd0587-008",
+      "brand": "Jordan Brand"
+    },
+    {
+      "name": "Forget-Me-Nots X Nike Total 90 Shox Magia Wmns Green Gusto Black",
+      "date": "2026-06-20",
+      "price": 150,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-green-gusto-black-iq5683-300",
+      "brand": "Nike"
+    },
+    {
+      "name": "Forget-Me-Nots X Nike Total 90 Shox Magia Wmns Shy Pink",
+      "date": "2026-06-20",
+      "price": 150,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-shy-pink-iq5683-601",
+      "brand": "Nike"
+    },
+    {
+      "name": "Nike Air Force 1 Low Glam Rock Bold Berry",
+      "date": "2026-06-20",
+      "price": 120,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
+      "brand": "Nike"
+    },
+    {
+      "name": "Toy Story X Crocs Classic Clog Buzz Lightyear",
+      "date": "2026-06-20",
+      "price": 80,
+      "image": "https://sneakernews.com/wp-content/uploads/2024/01/toy-story-crocs-release-date.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/toy-story-crocs-classic-clog-buzz-lightyear",
+      "brand": "Crocs"
+    },
+    {
+      "name": "Toy Story X Crocs Classic Clog Woody",
+      "date": "2026-06-20",
+      "price": 80,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/04/toy-story-crocs-release-date-7.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/toy-story-crocs-classic-clog-woody",
+      "brand": "Crocs"
     }
-  ],
-  "promos": []
+  ]
 }
