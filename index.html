@@ -1180,12 +1180,6 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           });
         });
 
-        // Avant lundi 00:00 local : afficher la semaine en cours depuis releases.json
-        if (_now < _nextMonday) {
-          allWdrops = thisWeek;
-          renderWeeklyDrops();
-          return;
-        }
         fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/weekly_data.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .then(function(wd) {
@@ -1196,8 +1190,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
               if (we.length===3) {
                 var weDate = new Date(+we[2],+we[1]-1,+we[0]);
                 weDate.setHours(23,59,59,999);
-                if (weDate < _now) {
-                  // weekly_data.json périmé → fallback sur releases.json cette semaine
+                if (false) { /* fallback désactivé — weekly_data.json toujours prioritaire */
                   allWdrops = thisWeek;
                   renderWeeklyDrops();
                   return;
@@ -1242,7 +1235,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
               };
             });
             // Badge : si on est lundi ou après, afficher la semaine de weekly_data.json
-            if (weeklyDropsBadge && _now >= _nextMonday) {
+            if (weeklyDropsBadge) {
               try {
                 var ws = (wd.week_start||'').split('/');
                 var we = (wd.week_end||'').split('/');
