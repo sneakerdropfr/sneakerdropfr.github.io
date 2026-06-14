@@ -817,6 +817,9 @@ def related_html(r: dict, all_releases: list) -> str:
             break
 
     # 2. Fallback : meme marque si pas assez de similar
+    EXCLUDE_KW = ["golf", " gs)", "(gs)", " td)", "(td)", " ps)", "(ps)",
+                  " bp)", "(bp)", "infant", "toddler", "preschool", "kids",
+                  "grade school", "cleat", "spike"]
     if len(picks) < 3 and brand:
         same_brand = [
             x for x in all_releases
@@ -824,6 +827,7 @@ def related_html(r: dict, all_releases: list) -> str:
             and x.get("id") != current_id
             and x.get("id") not in [p["id"] for p in picks]
             and x.get("image_url")
+            and not any(kw in x.get("title","").lower() for kw in EXCLUDE_KW)
         ]
         same_brand.sort(key=lambda x: (x.get("date","TBD") == "TBD", x.get("date","TBD")))
         picks += same_brand[:4 - len(picks)]
@@ -903,7 +907,7 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
         img_tag = (
             '<img src="' + escape(image_url, quote=True) + '" '
             f'alt="{title_html}" class="article__img" loading="lazy" '
-            'onerror="this.parentElement.style.background=\'#eee\';this.style.display=\'none\'">'
+            'onerror="this.src=\'/assets/images/placeholder.svg\';this.style.opacity=\'0.5\'">'
         )
     else:
         img_tag = '<img src="/placeholder.svg" alt="Visuel officiel à venir" style="width:100%;max-width:400px;opacity:.6">'
