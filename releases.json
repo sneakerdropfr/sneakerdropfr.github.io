@@ -363,7 +363,11 @@
     "hype_score": 60,
     "silhouette": "Nike Mind 001",
     "year": 2026,
+<<<<<<< HEAD
     "image_url": "",
+=======
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/nike-mind-001-mineral-slate-hq4307-300-1.jpg",
+>>>>>>> origin/perplexity
     "featured": false
   },
   {
@@ -432,7 +436,11 @@
     "silhouette": "Nike Mind 002",
     "year": 2026,
     "colorway": "Violet",
+<<<<<<< HEAD
     "image_url": "",
+=======
+    "image_url": "https://sneakernews.com/wp-content/uploads/2025/12/nike-mind-002-light-violet-ore-hq4310-200-5.jpg",
+>>>>>>> origin/perplexity
     "featured": false
   },
   {
@@ -1426,7 +1434,7 @@
         "type": "resell"
       }
     ],
-    "image_url": "",
+    "image_url": "https://cdn.lesitedelasneaker.com/wp-content/images/2026/03/preview-nike-air-max-90-cool-grey-iu7543-065-2-1100x770.jpg",
     "sku": "IU7543-065",
     "sku_source": "manual",
     "sku_confidence": 100,
@@ -1746,7 +1754,7 @@
     "date": "2026-06-14",
     "price": 130,
     "sku": "KH9802",
-    "image_url": "",
+    "image_url": "https://cdn.lesitedelasneaker.com/wp-content/images/2026/06/liberty-london-adidas-samba-og-maroon-warm-vanilla-1.jpg.webp",
     "wtc_url": "https://www.whentocop.fr/drops/liberty-london-adidas-samba-og-wmns-maroon-warm-vanilla-kh9802",
     "retailers": [],
     "featured": false,
@@ -2449,7 +2457,7 @@
     "date": "2026-07-01",
     "price": 180,
     "sku": "IX8646-001",
-    "image_url": "",
+    "image_url": "https://cdn.lesitedelasneaker.com/wp-content/images/2026/06/nike-air-max-joga-bonito-r9-release-date-2026-1100x1101.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-joga-bonito-r9-ix8646-001",
     "retailers": [],
     "featured": false,
@@ -2463,7 +2471,11 @@
     "date": "2026-07-10",
     "price": 190,
     "sku": "IR1944-102",
+<<<<<<< HEAD
     "image_url": "",
+=======
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-7-11-ir1944-100-5.jpg",
+>>>>>>> origin/perplexity
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-7-eleven-ir1944-102",
     "retailers": [],
     "featured": false,
