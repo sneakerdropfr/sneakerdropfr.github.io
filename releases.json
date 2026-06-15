@@ -1,5 +1,17 @@
 [
   {
+    "id": "jordan-x-nike-cryoshot-university-red-releases-summer-2026",
+    "title": "Jordan x Nike Cryoshot “University Red” Releases Summer 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jordan-nike-cryoshot-university-red-IO8209-600-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-15T21:55:41.486809+00:00"
+  },
+  {
     "id": "jordan-future-mule-iron-ore-releases-fall-2026",
     "title": "Jordan Future Mule “Iron Ore” Releases Fall 2026",
     "brand": "Sneaker Files",
@@ -1588,77 +1600,6 @@
     ],
     "year": 2026,
     "silhouette": "Air Jordan 1 Low",
-    "featured": false
-  },
-  {
-    "id": "adidas-tangum-white-power-green",
-    "title": "Adidas Tangum White Power Green",
-    "brand": "Adidas",
-    "date": "2026-06-05",
-    "price": 115,
-    "currency": "EUR",
-    "image": "https://statics.whentocop.fr/drops/20706/picture/000000_adidas-Tangum_White-Power-Green_LA6570_img0-1000x1000.webp?width=750&quality=75&format=auto",
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Ffr%2Fsneakers%2Fadidas%2Ftangum",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "43einhalb",
-        "url": "https://www.43einhalb.com",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Afew",
-        "url": "https://www.afew-store.com",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://www.asphaltgold.com",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr",
-        "price": "120€",
-        "resell": false,
-        "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "163€",
-        "resell": true,
-        "raffle": false
-      }
-    ],
-    "image_url": "https://shopnicekicks.com/cdn/shop/files/0dd0c0251befb6773590d499aaea6b3d_1600x.jpg?v=1778611699",
-    "wtc_url": "https://www.whentocop.fr/drops/adidas-tangum-white-power-green-la6570",
-    "sku": "LA6570",
-    "sku_source": "manual",
-    "sku_confidence": 100,
-    "hype_score": 31,
-    "similar_products": [
-      "adidas-sc-premiere-cloud-white-power-green",
-      "adidas-powerphase-cloud-white-power-green",
-      "adidas-believe-that-1-core-black",
-      "adidas-believe-that-1-cloud-white"
-    ],
-    "restocks": [],
-    "buy_url": "https://www.adidas.fr/chaussures-tangum/LA6570.html",
-    "colorway": "Cloud White / Power Green / Off White",
-    "year": 2026,
-    "silhouette": "Adidas Tangum",
     "featured": false
   }
 ]
