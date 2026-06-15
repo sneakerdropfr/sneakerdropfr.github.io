@@ -1,65 +1,5 @@
 [
   {
-    "nom": "New Balance x JFG LC 1890",
-    "marque": "New Balance",
-    "prix": "209,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VMTg5MDhKWS9VMTg5MDhKWS0wMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo1ODAsImhlaWdodCI6NzI1LCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-    "lien_produit": "https://www.bstn.com/eu_fr/r/new-balance-x-jfg-lc-1890-u18908jy-0348491",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnew-balance-x-jfg-lc-1890-u18908jy-0348491",
-    "date": "2026-06-09",
-    "couleur": ""
-  },
-  {
-    "nom": "Adidas X WILLY CHAVARRIA MEGA",
-    "marque": "Adidas",
-    "prix": "219,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LWjg3NDMvS1o4NzQzLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-x-willy-chavarria-mega-kz8743-0354463",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-x-willy-chavarria-mega-kz8743-0354463",
-    "date": "2026-06-10",
-    "couleur": ""
-  },
-  {
-    "nom": "Adidas X WILLY CHAVARRIA MEGA WC VERSION",
-    "marque": "Adidas",
-    "prix": "219,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LSjIwNDEvS0oyMDQxLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-x-willy-chavarria-mega-wc-version-kj2041-0347286",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-x-willy-chavarria-mega-wc-version-kj2041-0347286",
-    "date": "2026-06-11",
-    "couleur": ""
-  },
-  {
-    "nom": "New Balance Made in USA 992 Core",
-    "marque": "New Balance",
-    "prix": "239,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VOTkyN1dYL1U5OTI3V1gtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-made-in-usa-992-core-u9927wx-0344358",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-made-in-usa-992-core-u9927wx-0344358",
-    "date": "2026-06-11",
-    "couleur": ""
-  },
-  {
-    "nom": "Salomon RX-ENRO",
-    "marque": "Salomon",
-    "prix": "119,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9MNDkyOTQzMDAvTDQ5Mjk0MzAwLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/salomon-rx-enro-l49294300-0351137",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fsalomon-rx-enro-l49294300-0351137",
-    "date": "2026-06-11",
-    "couleur": ""
-  },
-  {
-    "nom": "New Balance Made in USA 1300",
-    "marque": "New Balance",
-    "prix": "209,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VMTMwMDdQVC9VMTMwMDdQVC0wMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo1ODAsImhlaWdodCI6NzI1LCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-made-in-usa-1300-u13007pt-0344357",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-made-in-usa-1300-u13007pt-0344357",
-    "date": "2026-06-11",
-    "couleur": ""
-  },
-  {
     "nom": "Nike KD19",
     "marque": "Nike",
     "prix": "159,99 €",
@@ -100,6 +40,16 @@
     "couleur": ""
   },
   {
+    "nom": "WMNS AIR JORDAN 1 RETRO HI OG",
+    "marque": "Jordan",
+    "prix": "179,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9GRDI1OTYtMjAxL0ZEMjU5Ni0yMDEtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/jordan-wmns-air-jordan-1-retro-hi-og-fd2596-201-0350353",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-wmns-air-jordan-1-retro-hi-og-fd2596-201-0350353",
+    "date": "2026-06-27",
+    "couleur": ""
+  },
+  {
     "nom": "New Balance 2010",
     "marque": "New Balance",
     "prix": "169,99 €",
@@ -117,6 +67,16 @@
     "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-204l-u204lsc-0353087",
     "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-204l-u204lsc-0353087",
     "date": "2026-07-01",
+    "couleur": ""
+  },
+  {
+    "nom": "Hoka One One SPEEDGOAT 2",
+    "marque": "Hoka One One",
+    "prix": "159,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC8xMTYyNzEwLUJITFQvMTE2MjcxMC1CSExULTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/hoka-one-one-speedgoat-2-1162710-bhlt-0343481",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fhoka-one-one-speedgoat-2-1162710-bhlt-0343481",
+    "date": "2026-07-10",
     "couleur": ""
   }
 ]
