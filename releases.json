@@ -2643,5 +2643,121 @@
     "featured": false,
     "silhouette": "Air Max 95",
     "year": 2026
+  },
+  {
+    "id": "new-balance-9060-beige-grey",
+    "title": "New Balance 9060 \"Beige Grey\"",
+    "brand": "New Balance",
+    "sku": "U9060152",
+    "date": "2026-06-15",
+    "price": 190,
+    "silhouette": "New Balance 9060",
+    "year": 2026,
+    "colorway": "Beige Grey",
+    "image_url": "",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 190,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 190,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-1906-wmns-steel-grey-silver",
+    "title": "New Balance 1906 WMNS \"Steel Grey Silver\"",
+    "brand": "New Balance",
+    "sku": "U19066AT",
+    "date": "2026-06-15",
+    "price": 160,
+    "silhouette": "New Balance 1906",
+    "year": 2026,
+    "colorway": "Steel Grey Silver",
+    "image_url": "",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 160,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-2010-black",
+    "title": "New Balance 2010 \"Black\"",
+    "brand": "New Balance",
+    "sku": "U20107B1",
+    "date": "2026-06-15",
+    "price": 170,
+    "silhouette": "New Balance 2010",
+    "year": 2026,
+    "colorway": "Black",
+    "image_url": "",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 170,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-2010-sea-salt",
+    "title": "New Balance 2010 \"Sea Salt\"",
+    "brand": "New Balance",
+    "sku": "U20106OK",
+    "date": "2026-06-15",
+    "price": 170,
+    "silhouette": "New Balance 2010",
+    "year": 2026,
+    "colorway": "Sea Salt",
+    "image_url": "",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 170,
+        "priceCurrency": "EUR"
+      }
+    ]
   }
 ]
