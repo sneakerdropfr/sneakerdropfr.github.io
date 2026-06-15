@@ -1720,7 +1720,22 @@
     "sku": "IU7835-001",
     "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/nike-sb-paul-rodriguez-air-zoom-low-dodgers-iu7835-001.webp",
     "wtc_url": "https://www.whentocop.fr/drops/paul-rodriguez-nike-sb-air-zoom-low-dodgers-iu7835-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch/",
+        "price": 120,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 120,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "year": 2026
   },
@@ -1763,7 +1778,15 @@
     "sku": "IB6834-001",
     "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/nike-af1-low-retro-heat-map-ib6834-001.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-heat-map-black-racer-blue-ib6834-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": 130,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "silhouette": "Air Force 1",
     "year": 2026
@@ -1777,7 +1800,15 @@
     "sku": "IO1259-400",
     "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/nike-af1-low-paisley-hydrogen-blue-io1259-400.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": 120,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "silhouette": "Air Force 1",
     "colorway": "Blue",
@@ -1925,7 +1956,29 @@
     "sku": "IM3886-100",
     "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/off-white-nike-cryoshot-virgil-abloh-archives-im3886-100.webp",
     "wtc_url": "https://www.whentocop.fr/drops/off-white-nike-cryoshot-virgil-abloh-archives-im3886-100",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch/",
+        "price": 200,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "END Clothing",
+        "url": "https://www.endclothing.com/",
+        "price": 200,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Slam Jam",
+        "url": "https://www.slamjam.com/",
+        "price": 200,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "silhouette": "Cryoshot",
     "colorway": "White",
@@ -2039,7 +2092,22 @@
     "sku": "IR2173-001",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-goadome-low-sp-black-ir2173-001-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-goadome-low-black-ir2173-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch/",
+        "price": 185,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr%2F",
+        "price": 185,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "colorway": "Black",
     "year": 2026
@@ -2068,7 +2136,15 @@
     "sku": "IR2168-002",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-vomero-premium-IR2168-002-2.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-vomero-premium-black-rush-violet-ir2168-002",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": 220,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "colorway": "Black/Violet/Volt",
     "year": 2026
@@ -2082,7 +2158,22 @@
     "sku": "KH8334",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-adistar-mld-summer-2026.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-grey-kh8334",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 120,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": 120,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "colorway": "Grey",
     "year": 2026
@@ -2096,7 +2187,22 @@
     "sku": "KH6407",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-adistar-mld-summer-2026.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-earth-strata-kh6407",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 120,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": 120,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "year": 2026
   },
@@ -2109,7 +2215,15 @@
     "sku": "IR0802-100",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-95-paisley-ir0802-100-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-light-graphite-paisley-ir0802-100",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": 190,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "silhouette": "Air Max 95",
     "year": 2026
@@ -2173,7 +2287,15 @@
     "sku": "IQ5683-601",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-shy-pink-iq5683-601",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch/",
+        "price": 150,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "colorway": "Pink/University Red",
     "year": 2026
@@ -2187,7 +2309,15 @@
     "sku": "IQ5683-300",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-green-gusto-black-iq5683-300",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch/",
+        "price": 150,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "colorway": "Green/Black",
     "year": 2026
@@ -2231,7 +2361,15 @@
     "sku": "IB6843-002",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-glam-rock-pack.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": 120,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false,
     "silhouette": "Air Force 1",
     "year": 2026
