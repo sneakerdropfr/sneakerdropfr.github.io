@@ -476,7 +476,7 @@
   <script id="schema-jsonld" type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","url":"https://sneakerdropfr.fr","itemListElement":[]}</script>
   <script>
   (function(){
-    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now())
+    fetch('/releases.json?t='+Date.now())
     .then(function(r){return r.json();}).then(function(data){
       var today=new Date().toISOString().split('T')[0];
       var upcoming=(data||[]).filter(function(r){
@@ -589,7 +589,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     </div>
     <script>
     (function(){
-      fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now())
+      fetch('/releases.json?t='+Date.now())
         .then(function(r){return r.json();})
         .then(function(data){
           var today=new Date();today.setHours(0,0,0,0);
@@ -811,7 +811,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   <!-- Main releases JS -->
   <script>
 (function(){
-    var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
+    var RELEASES_URL='/releases.json?t='+Date.now();
     var grid=document.getElementById('releases-grid-week');
     var gridUpcoming=document.getElementById('releases-grid-upcoming');
     var weeklyDropsGrid=document.getElementById('weekly-drops-grid');
@@ -1310,7 +1310,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         window._releases = allReleases.slice();
         window.allReleases = allReleases;
         // Enrichir la recherche avec releases_past.json
-        fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t=' + Date.now())
+        fetch('/releases_past.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .catch(function() { return []; })
           .then(function(past) {
@@ -1561,7 +1561,7 @@ function renderPastGrid(data) {
       return new Date(+p[0], +p[1]-1, +p[2]) < today;
     });
     // Charger releases_past.json
-    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t=' + Date.now())
+    fetch('/releases_past.json?t=' + Date.now())
       .then(function(res) { return res.json(); })
       .catch(function() { return []; })
       .then(function(pastData) {
