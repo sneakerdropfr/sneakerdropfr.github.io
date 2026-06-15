@@ -769,7 +769,37 @@
     "restocks": [],
     "sku": "IM0589-001",
     "name": "Patta x Nike Cryoshot Mercurial Vapor R9",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "END.",
+        "url": "https://www.endclothing.com/ie/nike-x-patta-netherlands-cryo-shot-sneaker-im0589-001.html",
+        "price": 215,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-cryoshot-mercurial-vapor-r9-patta?country=FR&currencyCode=EUR&size=3.5",
+        "price": 247,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-x-patta-cryoshot-mercurial-vapor-r9-world-cup-pack-2026?destination=datafeed",
+        "price": 295,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/patta-x-nike-cryoshot-mercurial-metallic-silver-im0589-001",
+        "price": 298,
+        "priceCurrency": "EUR"
+      }
+    ]
   },
   {
     "id": "new-balance-5030-black-silver",
@@ -1798,7 +1828,36 @@
     "sku": "HQ1460-100",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/peaceminusone-nike-cryoshot-ctr-360-korea-HQ1460-100.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/peaceminusone-nike-cryoshot-ctr360-team-south-korea-hq1460-100",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "END.",
+        "url": "https://www.endclothing.com/ie/nike-x-g-dragon-korea-cryo-shot-sneaker-hq1460-100.html",
+        "price": 215,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-x-peaceminusone-cryoshot-ctr360-maestri-ii-world-cup-pack-2026?destination=datafeed",
+        "price": 400,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-cryoshot-ctr360-maestri-ii-g-dragon-peaceminusone-natural-university-red?country=FR&currencyCode=EUR&size=4",
+        "price": 487,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/peaceminusone-x-nike-cryoshot-ctr360-maestri-ii-natural-university-red-hq1460-100",
+        "price": 1766,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": true
   },
   {
@@ -1870,7 +1929,36 @@
     "sku": "U991RB2",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-mahogany-rose-U991RB2-2.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-mahogany-rose-u991rb2",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Slam Jam",
+        "url": "https://slamjam.com/en-fr/products/new-balance-footwear-u991rb2-pink-j353206",
+        "price": 250,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Calicoclubstore",
+        "url": "https://calicoclubstore.com/shop/products/new-balance-u991-rb2?source=webgains",
+        "price": 250,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/new-balance-991v2-mahogany-rose-u991rb2",
+        "price": 273,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-mahogany-rose?country=FR&currencyCode=EUR&size=4",
+        "price": 286,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -1882,7 +1970,22 @@
     "sku": "U991BB2",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-sea-grass-u991bb2-2.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-sea-grass-u991bb2",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-sea-grass?country=FR&currencyCode=EUR&size=7",
+        "price": 428,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/new-balance-991v2-made-in-uk-seaglass-u991bb2",
+        "price": 566,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -1966,7 +2069,43 @@
     "sku": "FD2596-201",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-1-workwear-FD2596-201.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-retro-high-og-wmns-workwear-fd2596-201",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/air-jordan-wmns-1-retro-high-og-khaki-fd2596-201",
+        "price": 99,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-high-og-khaki-womens?country=FR&currencyCode=EUR&size=5W",
+        "price": 111,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Slam Jam",
+        "url": "https://slamjam.com/en-fr/products/nike-jordan-footwear-air-jordan-1-retro-high-og-womens-shoes-multicolor-j356657",
+        "price": 180,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "FOOTDISTRICT",
+        "url": "https://footdistrict.com/fr/products/air-jordan-womens-1-retro-hi-og-khaki-fd2596-201?utm_source=webgains",
+        "price": 180,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/air-jordan-1-high-og-khaki-sail-2026?destination=datafeed",
+        "price": 266,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -2002,7 +2141,22 @@
     "sku": "DD0587-008",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-5-black-university-blue-release-date-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-5-retro-black-university-blue-dd0587-008",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/air-jordan-5-retro-black-university-blue-2026-dd0587-008",
+        "price": 250,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-5-retro-black-university-blue-2026?country=FR&currencyCode=EUR&size=7",
+        "price": 254,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
