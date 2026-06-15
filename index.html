@@ -979,10 +979,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         var label = released ? '🔥 Acheter Avant Rupture' : '🛒 Acheter sur BSTN';
         var cls = isBig ? 'btn-cop-big' : 'btn-cop';
         return '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN(\'' + safeTitle(r.title) + '\')">' + label + '</a>';
+      } else if (r.retailers && r.retailers.length) {
+        var rt = r.retailers[0];
+        var cls2 = isBig ? 'btn-cop-big' : 'btn-cop';
+        return '<a href="' + (rt.url || '#') + '" target="_blank" rel="nofollow noopener" class="' + cls2 + '">' + (rt.name || 'Acheter') + '</a>';
       } else {
-        var wtcLink = r.wtc_url || ('https://www.whentocop.fr/search?q=' + encodeURIComponent(r.title || ''));
-        var cls2 = isBig ? 'btn-cop-big btn-cop-big--alert' : 'btn-cop btn-cop--alert';
-        return '<a href="' + wtcLink + '" target="_blank" rel="noopener" class="' + cls2 + '">Voir sur WhenToCop</a>';
+        var sortieLnk = '/sorties/' + (r.id || '') + '.html';
+        var cls3 = isBig ? 'btn-cop-big btn-cop-big--alert' : 'btn-cop btn-cop--alert';
+        return '<a href="' + sortieLnk + '" class="' + cls3 + '">Voir la fiche →</a>';
       }
     }
 
