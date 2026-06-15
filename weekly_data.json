@@ -28,6 +28,274 @@
       "brand": "Nike SB"
     },
     {
+      "name": "New Balance 9060 \"Beige Grey\"",
+      "sku": "U9060152",
+      "brand": "New Balance",
+      "date": "2026-06-15",
+      "price": 190,
+      "image": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 190,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 190,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "New Balance 1906 WMNS \"Steel Grey Silver\"",
+      "sku": "U19066AT",
+      "brand": "New Balance",
+      "date": "2026-06-15",
+      "price": 160,
+      "image": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 160,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "New Balance 2010 \"Black\"",
+      "sku": "U20107B1",
+      "brand": "New Balance",
+      "date": "2026-06-15",
+      "price": 170,
+      "image": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 170,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "New Balance 2010 \"Sea Salt\"",
+      "sku": "U20106OK",
+      "brand": "New Balance",
+      "date": "2026-06-15",
+      "price": 170,
+      "image": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 170,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "New Balance 2010 \"Neptune Grey\"",
+      "sku": "U20107SQ",
+      "brand": "New Balance",
+      "date": "2026-06-15",
+      "price": 170,
+      "image": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 170,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "New Balance 2010 \"Harbor Grey\"",
+      "sku": "U20103EJ",
+      "brand": "New Balance",
+      "date": "2026-06-15",
+      "price": 170,
+      "image": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 170,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "New Balance T500 WMNS \"Bisque Gum\"",
+      "sku": "U50075U",
+      "brand": "New Balance",
+      "date": "2026-06-15",
+      "price": 130,
+      "image": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 130,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "New Balance 2010 \"Pink Chalk Sea Salt\"",
+      "sku": "U20106PT",
+      "brand": "New Balance",
+      "date": "2026-06-15",
+      "price": 170,
+      "image": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 170,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "New Balance 1906R \"Pink Chalk\"",
+      "sku": "U19063FT",
+      "brand": "New Balance",
+      "date": "2026-06-15",
+      "price": 160,
+      "image": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 160,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "New Balance 1906R \"Grey White\"",
+      "sku": "U190671F",
+      "brand": "New Balance",
+      "date": "2026-06-15",
+      "price": 160,
+      "image": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 160,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "name": "New Balance 1906R \"White Arid Stone\"",
+      "sku": "U1906980",
+      "brand": "New Balance",
+      "date": "2026-06-15",
+      "price": 160,
+      "image": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 160,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
       "name": "Off-White X Nike Cryoshot Virgil Abloh Archives",
       "date": "2026-06-16",
       "price": 200,
