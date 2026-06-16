@@ -773,6 +773,13 @@
     "retailers": [
       {
         "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fpatta-nike-cryoshot-mercurial-vapor-r9-im0589-001",
+        "price": 200,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
         "name": "END.",
         "url": "https://www.endclothing.com/ie/nike-x-patta-netherlands-cryo-shot-sneaker-im0589-001.html",
         "price": 215,
@@ -781,22 +788,22 @@
       {
         "@type": "Offer",
         "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-cryoshot-mercurial-vapor-r9-patta?country=FR&currencyCode=EUR&size=3.5",
-        "price": 247,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/nike-x-patta-cryoshot-mercurial-vapor-r9-world-cup-pack-2026?destination=datafeed",
-        "price": 295,
+        "url": "https://stockx.com/fr-fr/nike-cryoshot-mercurial-vapor-r9-patta",
+        "price": 260,
         "priceCurrency": "EUR"
       },
       {
         "@type": "Offer",
         "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/patta-x-nike-cryoshot-mercurial-metallic-silver-im0589-001",
-        "price": 298,
+        "url": "https://www.goat.com/sneakers/patta-x-nike-cryoshot-mercurial-vapor-r9-im0589-001",
+        "price": 277,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-x-patta-cryoshot-mercurial-vapor-r9",
+        "price": 315,
         "priceCurrency": "EUR"
       }
     ]
@@ -1845,24 +1852,68 @@
     "id": "collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
     "title": "Collina Strada x Converse Chuck 70 MELLOW YELLOW",
     "brand": "Converse",
-    "date": "2026-06-17",
+    "date": "2026-06-18",
     "price": 160,
     "sku": "A22205C",
     "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_mellow_yellow_A22205C.webp",
     "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-mellow-yellow-a22205c",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Size?",
+        "url": "https://www.size.co.uk/",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com/",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/collina-strada-converse-chuck-70-mellow-yellow-a22205c",
+        "price": 260,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
     "id": "collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
     "title": "Collina Strada Converse Chuck 70 High Mellow Rose A19047c",
     "brand": "Converse",
-    "date": "2026-06-17",
+    "date": "2026-06-18",
     "price": 170,
     "sku": "A19047C",
     "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_mellow_rose_A19047C.webp",
     "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Size?",
+        "url": "https://www.size.co.uk/",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Footpatrol",
+        "url": "https://www.footpatrol.com/",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
+        "price": 247,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -1984,24 +2035,82 @@
     "id": "nike-kd19-field-purple-ih1117-500",
     "title": "Nike KD19 Field Purple",
     "brand": "Nike",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "price": 160,
     "sku": "IH1117-500",
     "image_url": "https://sneakerdropfr.fr/images/nike_kd19_field_purple_IH1117-500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-kd19-field-purple-ih1117-500",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr/",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fnike-kd19-field-purple-ih1117-500",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Kickz",
+        "url": "https://www.kickz.com/fr/nike-kd19-field-purple-ih1117-500",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-kd19-field-purple-ih1117-500",
+        "price": 199,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
     "id": "adidas-harden-vol10-clear-cyan",
     "title": "adidas Harden Vol.10 CLEAR CYAN",
     "brand": "Adidas",
-    "date": "2026-06-17",
+    "date": "2026-06-18",
     "price": 160,
     "sku": "KI1605",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-harden-vol-10-gold-black-KH9153-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-harden-vol10-clear-cyan-ki1605",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr/",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com/",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-harden-vol-10-clear-cyan-ki1605",
+        "price": 313,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -2499,7 +2608,7 @@
       {
         "@type": "Offer",
         "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fnew-balance-2010-neptune-grey-u20107sq",
         "price": 170,
         "priceCurrency": "EUR"
       }
@@ -2528,8 +2637,36 @@
       {
         "@type": "Offer",
         "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fnew-balance-2010-harbor-grey-u20103ej",
         "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "HHV",
+        "url": "https://www.hhv.de/shop/en/new-balance-u20103ej",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Snipes",
+        "url": "https://www.snipes.com/fr/new-balance-2010-harbor-grey",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "END.",
+        "url": "https://www.endclothing.com/ie/new-balance-2010-u20103ej.html",
+        "price": 175,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/new-balance-2010-harbor-grey-u20103ej",
+        "price": 363,
         "priceCurrency": "EUR"
       }
     ]
@@ -2553,6 +2690,13 @@
         "url": "https://www.newbalance.fr/fr/",
         "price": 130,
         "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fnew-balance-t500-wmns-bisque-gum-u50075u",
+        "price": 130,
+        "priceCurrency": "EUR"
       }
     ]
   },
@@ -2571,15 +2715,29 @@
     "retailers": [
       {
         "@type": "Offer",
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/fr/",
-        "price": 170,
+        "name": "Courir",
+        "url": "https://www.courir.com/fr/new-balance-2010-pink-chalk",
+        "price": 160,
         "priceCurrency": "EUR"
       },
       {
         "@type": "Offer",
         "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fnew-balance-2010-pink-chalk-sea-salt-u20106pt",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Afew",
+        "url": "https://www.afew-store.com/new-balance-2010-pink-chalk",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Snipes",
+        "url": "https://www.snipes.com/fr/new-balance-2010-pink-chalk",
         "price": 170,
         "priceCurrency": "EUR"
       }
@@ -2600,15 +2758,15 @@
     "retailers": [
       {
         "@type": "Offer",
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/fr/",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fnew-balance-1906r-pink-chalk-u19063ft",
         "price": 160,
         "priceCurrency": "EUR"
       },
       {
         "@type": "Offer",
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
         "price": 160,
         "priceCurrency": "EUR"
       }
@@ -2629,15 +2787,15 @@
     "retailers": [
       {
         "@type": "Offer",
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/fr/",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fnew-balance-1906r-grey-white-u190671f",
         "price": 160,
         "priceCurrency": "EUR"
       },
       {
         "@type": "Offer",
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "name": "Calicoclubstore",
+        "url": "https://calicoclubstore.com/shop/products/new-balance-u190671f",
         "price": 160,
         "priceCurrency": "EUR"
       }
@@ -2658,15 +2816,29 @@
     "retailers": [
       {
         "@type": "Offer",
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/fr/",
+        "name": "Courir",
+        "url": "https://www.courir.com/fr/new-balance-1906r-white-arid-stone",
         "price": 160,
         "priceCurrency": "EUR"
       },
       {
         "@type": "Offer",
         "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fnew-balance-1906r-white-arid-stone-u1906980",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Afew",
+        "url": "https://www.afew-store.com/new-balance-1906r-white-arid-stone",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Snipes",
+        "url": "https://www.snipes.com/fr/new-balance-1906r-white-arid-stone",
         "price": 160,
         "priceCurrency": "EUR"
       }
