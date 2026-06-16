@@ -1,7 +1,7 @@
 {
   "week_start": "15/06/2026",
   "week_end": "21/06/2026",
-  "generated_at": "2026-06-16T22:40:34.287714+00:00",
+  "generated_at": "2026-06-16T22:43:07.357894+00:00",
   "releases": [
     {
       "type": "release",
@@ -607,97 +607,6 @@
     },
     {
       "type": "release",
-      "title": "New Balance 991v2 Mahogany Rose",
-      "date": "2026-06-17",
-      "price": "250EUR",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-mahogany-rose-U991RB2-2.jpg",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "Slam Jam",
-          "url": "https://slamjam.com/en-fr/products/new-balance-footwear-u991rb2-pink-j353206",
-          "price": 250,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "Calicoclubstore",
-          "url": "https://calicoclubstore.com/shop/products/new-balance-u991-rb2?source=webgains",
-          "price": 250,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "GOAT",
-          "url": "https://www.goat.com/sneakers/new-balance-991v2-mahogany-rose-u991rb2",
-          "price": 273,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-mahogany-rose?country=FR&currencyCode=EUR&size=4",
-          "price": 286,
-          "priceCurrency": "EUR"
-        }
-      ],
-      "id": "new-balance-991v2-mahogany-rose-u991rb2",
-      "sku": "U991RB2",
-      "brand": "New Balance",
-      "source": "releases.json",
-      "link": "https://sneakerdropfr.fr/sorties/new-balance-991v2-mahogany-rose-u991rb2.html"
-    },
-    {
-      "type": "release",
-      "title": "New Balance 991v2 Sea Grass",
-      "date": "2026-06-17",
-      "price": "250EUR",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-sea-grass-u991bb2-2.jpg",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-sea-grass?country=FR&currencyCode=EUR&size=7",
-          "price": 428,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "GOAT",
-          "url": "https://www.goat.com/sneakers/new-balance-991v2-made-in-uk-seaglass-u991bb2",
-          "price": 566,
-          "priceCurrency": "EUR"
-        }
-      ],
-      "id": "new-balance-991v2-sea-grass-u991bb2",
-      "sku": "U991BB2",
-      "brand": "New Balance",
-      "source": "releases.json",
-      "link": "https://sneakerdropfr.fr/sorties/new-balance-991v2-sea-grass-u991bb2.html"
-    },
-    {
-      "type": "release",
-      "title": "Nike Air Max Goadome Low SP - Black Pale Lemon",
-      "date": "2026-06-17",
-      "price": "185EUR",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-goadome-low-sp-black-ir2173-001-1.jpg",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/nike-air-max-goadome-low-sp-black-pale-lemon.html",
-          "price": 0,
-          "priceCurrency": "EUR"
-        }
-      ],
-      "id": "nike-air-max-goadome-low-sp-black-pale-lemon",
-      "sku": "IR2173-001",
-      "brand": "Nike",
-      "source": "releases.json",
-      "link": "https://sneakerdropfr.fr/sorties/nike-air-max-goadome-low-sp-black-pale-lemon.html"
-    },
-    {
-      "type": "release",
       "title": "Collina Strada x Converse Chuck 70 MELLOW YELLOW",
       "date": "2026-06-18",
       "price": "160EUR",
@@ -803,6 +712,132 @@
     },
     {
       "type": "release",
+      "title": "New Balance 991v2 Mahogany Rose",
+      "date": "2026-06-18",
+      "price": "250EUR",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-mahogany-rose-U991RB2-2.jpg",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Slam Jam",
+          "url": "https://slamjam.com/en-fr/products/new-balance-footwear-u991rb2-pink-j353206",
+          "price": 250,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Calicoclubstore",
+          "url": "https://calicoclubstore.com/shop/products/new-balance-u991-rb2?source=webgains",
+          "price": 250,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "GOAT",
+          "url": "https://www.goat.com/sneakers/new-balance-991v2-mahogany-rose-u991rb2",
+          "price": 273,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-mahogany-rose?country=FR&currencyCode=EUR&size=4",
+          "price": 286,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-991v2-mahogany-rose-u991rb2",
+      "sku": "U991RB2",
+      "brand": "New Balance",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/new-balance-991v2-mahogany-rose-u991rb2.html"
+    },
+    {
+      "type": "release",
+      "title": "New Balance 991v2 Sea Grass",
+      "date": "2026-06-18",
+      "price": "250EUR",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-sea-grass-u991bb2-2.jpg",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-sea-grass?country=FR&currencyCode=EUR&size=7",
+          "price": 428,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "GOAT",
+          "url": "https://www.goat.com/sneakers/new-balance-991v2-made-in-uk-seaglass-u991bb2",
+          "price": 566,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-991v2-sea-grass-u991bb2",
+      "sku": "U991BB2",
+      "brand": "New Balance",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/new-balance-991v2-sea-grass-u991bb2.html"
+    },
+    {
+      "type": "release",
+      "title": "Nike Air Max Goadome Low SP - Black Pale Lemon",
+      "date": "2026-06-18",
+      "price": "185EUR",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-goadome-low-sp-black-ir2173-001-1.jpg",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch",
+          "price": 185,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Afew",
+          "url": "https://www.afew-store.com/",
+          "price": 185,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Offspring",
+          "url": "https://www.offspring.co.uk/",
+          "price": 185,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Solebox",
+          "url": "https://www.solebox.com/",
+          "price": 185,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Naked",
+          "url": "https://www.nakedcph.com/",
+          "price": 185,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/nike-air-max-goadome-low-sp-black-ir2173-001",
+          "price": 278,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "nike-air-max-goadome-low-sp-black-pale-lemon",
+      "sku": "IR2173-001",
+      "brand": "Nike",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/nike-air-max-goadome-low-sp-black-pale-lemon.html"
+    },
+    {
+      "type": "release",
       "title": "Adidas Adizero Adios Pro Evo 3 Cloud White Core Black Solar Turbo",
       "date": "2026-06-18",
       "price": "500EUR",
@@ -810,9 +845,16 @@
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo.html",
-          "price": 0,
+          "name": "Adidas",
+          "url": "https://www.adidas.fr/",
+          "price": 500,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/adidas-adizero-adios-pro-evo-3-kh7678",
+          "price": 971,
           "priceCurrency": "EUR"
         }
       ],
@@ -825,15 +867,57 @@
     {
       "type": "release",
       "title": "Nike Vomero Premium Black Rush Violet Volt Glow",
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "price": "220EUR",
       "image_url": "https://sneakerdropfr.fr/images/nike_vomero_premium_black_violet_IR2168-002.webp",
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/nike-vomero-premium-black-rush-violet-volt-glow-ir2168-002.html",
-          "price": 0,
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": 220,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Size?",
+          "url": "https://www.size.co.uk/",
+          "price": 220,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Afew",
+          "url": "https://www.afew-store.com/",
+          "price": 220,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Offspring",
+          "url": "https://www.offspring.co.uk/",
+          "price": 220,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Asphaltgold",
+          "url": "https://www.asphaltgold.com/",
+          "price": 220,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Naked",
+          "url": "https://www.nakedcph.com/",
+          "price": 220,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/nike-vomero-premium-black-rush-violet-ir2168-002",
+          "price": 245,
           "priceCurrency": "EUR"
         }
       ],
@@ -846,15 +930,36 @@
     {
       "type": "release",
       "title": "Adidas Adistar Mld Grey Three Grey Grey Two",
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "price": "120EUR",
       "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_grey_KH8334.jpg",
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/adidas-adistar-mld-grey-three-grey-grey-two.html",
-          "price": 0,
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fadidas-adistar-mld-grey-kh8334",
+          "price": 120,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "43einhalb",
+          "url": "https://www.43einhalb.com/",
+          "price": 120,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Afew",
+          "url": "https://www.afew-store.com/",
+          "price": 120,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/adidas-adistar-mld-grey-kh8334",
+          "price": 227,
           "priceCurrency": "EUR"
         }
       ],
@@ -867,15 +972,43 @@
     {
       "type": "release",
       "title": "adidas Adistar MLD Earth Strata",
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "price": "120EUR",
       "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_earth_strata_KH6407.webp",
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/adidas-adistar-mld-earth-strata-kh6407.html",
-          "price": 0,
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fadidas-adistar-mld-earth-strata-kh6407",
+          "price": 120,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "43einhalb",
+          "url": "https://www.43einhalb.com/",
+          "price": 120,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Afew",
+          "url": "https://www.afew-store.com/",
+          "price": 120,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Asphaltgold",
+          "url": "https://www.asphaltgold.com/",
+          "price": 120,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/adidas-adistar-mld-earth-strata-kh6407",
+          "price": 350,
           "priceCurrency": "EUR"
         }
       ],
@@ -888,15 +1021,29 @@
     {
       "type": "release",
       "title": "Nike Air Max 95 Light Graphite Paisley",
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "price": "190EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-95-paisley-ir0802-100-1.jpg",
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/nike-air-max-95-light-graphite-paisley.html",
-          "price": 0,
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": 190,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Urbanstar",
+          "url": "https://www.urbanstaronline.de/",
+          "price": 190,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/nike-air-max-95-light-graphite-paisley-ir0802-100",
+          "price": 282,
           "priceCurrency": "EUR"
         }
       ],
@@ -909,7 +1056,7 @@
     {
       "type": "release",
       "title": "Air Jordan 1 Retro High Og Wmns Workwear",
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "price": "180EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-1-workwear-FD2596-201.jpg",
       "retailers": [
@@ -958,15 +1105,22 @@
     {
       "type": "release",
       "title": "Nike Total 90 Shox Magia Wmns Shy Pink University Red",
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "price": "150EUR",
       "image_url": "https://sneakerdropfr.fr/images/nike_t90_shox_magia_shy_pink_IQ5683-601.webp",
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/nike-total-90-shox-magia-wmns-shy-pink-university-red.html",
-          "price": 0,
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch",
+          "price": 150,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/nike-t90-shox-magia-shy-pink-iq5683-601",
+          "price": 314,
           "priceCurrency": "EUR"
         }
       ],
@@ -979,15 +1133,22 @@
     {
       "type": "release",
       "title": "Forget Me Nots X Nike Total 90 Shox Magia Wmns Green Gusto Black",
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "price": "150EUR",
       "image_url": "https://sneakerdropfr.fr/images/nike_t90_shox_magia_green_gusto_IQ5683-300.webp",
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/forget-me-nots-x-nike-total-90-shox-magia-wmns-green-gusto-black.html",
-          "price": 0,
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch",
+          "price": 150,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "GOAT",
+          "url": "https://www.goat.com/sneakers/forget-me-nots-nike-t90-shox-magia-green-gusto-iq5683-300",
+          "price": 258,
           "priceCurrency": "EUR"
         }
       ],
@@ -1000,7 +1161,7 @@
     {
       "type": "release",
       "title": "Air Jordan 5 Retro Black University Blue",
-      "date": "2026-06-19",
+      "date": "2026-06-20",
       "price": "220EUR",
       "image_url": "https://sneakerdropfr.fr/images/air_jordan_5_black_university_blue_DD0587-008.webp",
       "retailers": [
