@@ -1744,7 +1744,15 @@
     "sku": "KZ9020",
     "image_url": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro4_white_red_KZ9020.webp",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-4-white-fucid-red-shock-purple-kz9020",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-adizero-adios-pro-4",
+        "price": 211,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -1756,7 +1764,22 @@
     "sku": "IB6834-001",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-air-force-1-low-heat-map-IB6834-001-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-heat-map-black-racer-blue-ib6834-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": 130,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-retro-heat-map-ib6834-001",
+        "price": 176,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -1768,7 +1791,22 @@
     "sku": "IO1259-400",
     "image_url": "https://sneakerdropfr.fr/images/nike_af1_low_paisley_hydrogen_blue_IO1259-400.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": 120,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
+        "price": 123,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -1792,7 +1830,15 @@
     "sku": "A19050C",
     "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_xxhi_black_A19050C.webp",
     "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-xxhi-black-a19050c",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/collina-strada-converse-chuck-70-xxhi-black-a19050c",
+        "price": 693,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -1867,9 +1913,17 @@
     "date": "2026-06-15",
     "price": 200,
     "sku": "II9933-100",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/jacquemus-nike-cryoshot-tiempo-r10-IO0619-100-2.jpg",
+    "image_url": "https://sneakerdropfr.fr/images/nike_cryoshot_slawn_striker_1976_II9933-100.webp",
     "wtc_url": "https://www.whentocop.fr/drops/slawn-x-nike-cryoshot-striker-1976-natural-white-black-ii9933-100",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/slawn-nike-cryoshot-striker-1976-ii9933-100",
+        "price": 489,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -1881,7 +1935,22 @@
     "sku": "IM0703-700",
     "image_url": "https://sneakerdropfr.fr/images/nocta_nike_cryoshot_tiempo_gold_IM0703-700.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nocta-nike-cryoshot-tiempo-university-gold-black-im0703-700",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nocta-nike-cryoshot-tiempo-im0703-700",
+        "price": 302,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nocta-nike-cryoshot-tiempo-university-gold-black",
+        "price": 500,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -1893,7 +1962,22 @@
     "sku": "IM3886-100",
     "image_url": "https://sneakerdropfr.fr/images/nike_cryoshot_offwhite_virgil_abloh_IM3886-100.webp",
     "wtc_url": "https://www.whentocop.fr/drops/off-white-nike-cryoshot-virgil-abloh-archives-im3886-100",
-    "retailers": [],
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/off-white-nike-cryoshot-im3886-100",
+        "price": 287,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/off-white-nike-cryoshot-im3886-100",
+        "price": 333,
+        "priceCurrency": "EUR"
+      }
+    ],
     "featured": false
   },
   {
@@ -2330,14 +2414,35 @@
         "@type": "Offer",
         "name": "New Balance",
         "url": "https://www.newbalance.fr/fr/",
-        "price": 170,
+        "price": 160,
         "priceCurrency": "EUR"
       },
       {
         "@type": "Offer",
         "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fnew-balance-2010-black-u20107b1",
         "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "HHV",
+        "url": "https://www.hhv.de/shop/en/new-balance-u20107b1",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Snipes",
+        "url": "https://www.snipes.com/fr/new-balance-2010-black-u20107b1",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/new-balance-2010-black-u20107b1",
+        "price": 230,
         "priceCurrency": "EUR"
       }
     ]
@@ -2357,15 +2462,15 @@
     "retailers": [
       {
         "@type": "Offer",
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/fr/",
-        "price": 170,
+        "name": "Courir",
+        "url": "https://www.courir.com/fr/new-balance-2010-sea-salt-u20106ok",
+        "price": 160,
         "priceCurrency": "EUR"
       },
       {
         "@type": "Offer",
         "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fnew-balance-2010-sea-salt-u20106ok",
         "price": 170,
         "priceCurrency": "EUR"
       }
