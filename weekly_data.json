@@ -1,14 +1,14 @@
 {
   "week_start": "15/06/2026",
   "week_end": "21/06/2026",
-  "generated_at": "2026-06-16T21:25:30.748697+00:00",
+  "generated_at": "2026-06-16T21:32:14.631639+00:00",
   "releases": [
     {
       "type": "release",
       "title": "Adidas Adizero Adios Pro 4 Footwear White Fucid Red Shock Purple",
       "date": "2026-06-15",
       "price": "250EUR",
-      "image": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro4_white_red_KZ9020.webp",
+      "image_url": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro4_white_red_KZ9020.webp",
       "retailers": [],
       "id": "adidas-adizero-adios-pro-4-footwear-white-fucid-red-shock-purple",
       "sku": "KZ9020",
@@ -21,7 +21,7 @@
       "title": "Nike Air Force 1 Low Retro HEAT MAP IB6834-001",
       "date": "2026-06-15",
       "price": "130EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/03/nike-air-force-1-low-heat-map-IB6834-001-1.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-air-force-1-low-heat-map-IB6834-001-1.jpg",
       "retailers": [],
       "id": "nike-air-force-1-low-retro-heat-map-ib6834-001",
       "sku": "IB6834-001",
@@ -34,7 +34,7 @@
       "title": "Nike Air Force 1 Low Paisley Hydrogen Blue Io1259 400",
       "date": "2026-06-15",
       "price": "120EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-paisley-suede.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-paisley-suede.jpg",
       "retailers": [],
       "id": "nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
       "sku": "IO1259-400",
@@ -47,7 +47,7 @@
       "title": "Converse x Collina Strada Chuck 70 XXHi BLACK BLACK BLACK",
       "date": "2026-06-15",
       "price": "200EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
       "retailers": [],
       "id": "converse-x-collina-strada-chuck-70-xxhi-black-black-black",
       "sku": "A19050C",
@@ -60,7 +60,7 @@
       "title": "Peaceminusone X Nike Cryoshot CTR360 Team South Korea",
       "date": "2026-06-15",
       "price": "200EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/peaceminusone-nike-cryoshot-ctr-360-korea-HQ1460-100.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/peaceminusone-nike-cryoshot-ctr-360-korea-HQ1460-100.jpg",
       "retailers": [
         {
           "@type": "Offer",
@@ -102,7 +102,7 @@
       "title": "Slawn x Nike Cryoshot Striker 1976 Natural White Black II9933-100",
       "date": "2026-06-15",
       "price": "200EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/slawn-nike-cryoshot-striker-1976-II9933-100-1.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/slawn-nike-cryoshot-striker-1976-II9933-100-1.jpg",
       "retailers": [],
       "id": "slawn-x-nike-cryoshot-striker-1976-natural-white-black-ii9933-100",
       "sku": "II9933-100",
@@ -115,7 +115,7 @@
       "title": "Nocta X Nike Cryoshot Tiempo University Gold Black",
       "date": "2026-06-15",
       "price": "200EUR",
-      "image": "https://sneakerdropfr.fr/images/nocta_nike_cryoshot_tiempo_gold_IM0703-700.webp",
+      "image_url": "https://sneakerdropfr.fr/images/nocta_nike_cryoshot_tiempo_gold_IM0703-700.webp",
       "retailers": [],
       "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
       "sku": "IM0703-700",
@@ -128,7 +128,7 @@
       "title": "Off White Nike Cryoshot Virgil Abloh Archives 2026",
       "date": "2026-06-15",
       "price": "200EUR",
-      "image": "https://sneakerdropfr.fr/images/nike_cryoshot_offwhite_virgil_abloh_IM3886-100.webp",
+      "image_url": "https://sneakerdropfr.fr/images/nike_cryoshot_offwhite_virgil_abloh_IM3886-100.webp",
       "retailers": [],
       "id": "off-white-nike-cryoshot-virgil-abloh-archives-2026",
       "sku": "IM3886-100",
@@ -141,7 +141,7 @@
       "title": "New Balance 9060 \"Beige Grey\"",
       "date": "2026-06-15",
       "price": "190EUR",
-      "image": "https://sneakerdropfr.fr/images/nb_9060_beige_grey_U9060152.webp",
+      "image_url": "https://sneakerdropfr.fr/images/nb_9060_beige_grey_U9060152.webp",
       "retailers": [
         {
           "@type": "Offer",
@@ -169,7 +169,7 @@
       "title": "New Balance 2010 \"Black\"",
       "date": "2026-06-15",
       "price": "170EUR",
-      "image": "https://sneakerdropfr.fr/images/nb_2010_black_U20107B1.webp",
+      "image_url": "https://sneakerdropfr.fr/images/nb_2010_black_U20107B1.webp",
       "retailers": [
         {
           "@type": "Offer",
@@ -197,7 +197,7 @@
       "title": "New Balance 2010 \"Sea Salt\"",
       "date": "2026-06-15",
       "price": "170EUR",
-      "image": "https://sneakerdropfr.fr/images/nb_2010_sea_salt_U20106OK.jpg",
+      "image_url": "https://sneakerdropfr.fr/images/nb_2010_sea_salt_U20106OK.jpg",
       "retailers": [
         {
           "@type": "Offer",
@@ -225,7 +225,7 @@
       "title": "New Balance 2010 \"Neptune Grey\"",
       "date": "2026-06-15",
       "price": "170EUR",
-      "image": "https://sneakerdropfr.fr/images/nb_2010_neptune_grey_U20107SQ.jpg",
+      "image_url": "https://sneakerdropfr.fr/images/nb_2010_neptune_grey_U20107SQ.jpg",
       "retailers": [
         {
           "@type": "Offer",
@@ -253,7 +253,7 @@
       "title": "New Balance 2010 \"Harbor Grey\"",
       "date": "2026-06-15",
       "price": "170EUR",
-      "image": "https://sneakerdropfr.fr/images/nb_2010_harbor_grey_U20103EJ.jpg",
+      "image_url": "https://sneakerdropfr.fr/images/nb_2010_harbor_grey_U20103EJ.jpg",
       "retailers": [
         {
           "@type": "Offer",
@@ -281,7 +281,7 @@
       "title": "New Balance T500 WMNS \"Bisque Gum\"",
       "date": "2026-06-15",
       "price": "130EUR",
-      "image": "https://sneakerdropfr.fr/images/nb_t500_bisque_gum_U50075U.webp",
+      "image_url": "https://sneakerdropfr.fr/images/nb_t500_bisque_gum_U50075U.webp",
       "retailers": [
         {
           "@type": "Offer",
@@ -302,7 +302,7 @@
       "title": "New Balance 2010 \"Pink Chalk Sea Salt\"",
       "date": "2026-06-15",
       "price": "170EUR",
-      "image": "https://sneakerdropfr.fr/images/nb_2010_pink_chalk_sea_salt_U20106PT.jpg",
+      "image_url": "https://sneakerdropfr.fr/images/nb_2010_pink_chalk_sea_salt_U20106PT.jpg",
       "retailers": [
         {
           "@type": "Offer",
@@ -330,7 +330,7 @@
       "title": "New Balance 1906R \"Pink Chalk\"",
       "date": "2026-06-15",
       "price": "160EUR",
-      "image": "https://sneakerdropfr.fr/images/nb_1906r_pink_chalk_U19063FT.webp",
+      "image_url": "https://sneakerdropfr.fr/images/nb_1906r_pink_chalk_U19063FT.webp",
       "retailers": [
         {
           "@type": "Offer",
@@ -358,7 +358,7 @@
       "title": "New Balance 1906R \"Grey White\"",
       "date": "2026-06-15",
       "price": "160EUR",
-      "image": "https://sneakerdropfr.fr/images/nb_1906r_grey_white_U190671F.webp",
+      "image_url": "https://sneakerdropfr.fr/images/nb_1906r_grey_white_U190671F.webp",
       "retailers": [
         {
           "@type": "Offer",
@@ -386,7 +386,7 @@
       "title": "New Balance 1906R \"White Arid Stone\"",
       "date": "2026-06-15",
       "price": "160EUR",
-      "image": "https://sneakerdropfr.fr/images/nb_1906r_white_arid_U1906980.webp",
+      "image_url": "https://sneakerdropfr.fr/images/nb_1906r_white_arid_U1906980.webp",
       "retailers": [
         {
           "@type": "Offer",
@@ -414,7 +414,7 @@
       "title": "Patta x Nike Cryoshot Mercurial Vapor R9",
       "date": "2026-06-16",
       "price": "200EUR",
-      "image": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/patta-cryoshot-metallic-silver.webp",
+      "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/patta-cryoshot-metallic-silver.webp",
       "retailers": [
         {
           "@type": "Offer",
@@ -456,7 +456,7 @@
       "title": "Nike KD19 Field Purple IH1117-500",
       "date": "2026-06-16",
       "price": "160EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/drake-kevin-durant-nike-kd-19-yes-man-7.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/drake-kevin-durant-nike-kd-19-yes-man-7.jpg",
       "retailers": [],
       "id": "nike-kd19-field-purple-ih1117-500",
       "sku": "IH1117-500",
@@ -469,7 +469,7 @@
       "title": "Converse x Collina Strada Chuck 70 BLACK BLACK BLACK A19049C",
       "date": "2026-06-17",
       "price": "160EUR",
-      "image": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_black_A19049C.webp",
+      "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_black_A19049C.webp",
       "retailers": [],
       "id": "converse-x-collina-strada-chuck-70-black-black-black-a19049c",
       "sku": "A19049C",
@@ -482,7 +482,7 @@
       "title": "Collina Strada x Converse Chuck 70 MELLOW YELLOW A22205C",
       "date": "2026-06-17",
       "price": "160EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
       "retailers": [],
       "id": "collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
       "sku": "A22205C",
@@ -495,7 +495,7 @@
       "title": "Collina Strada Converse Chuck 70 High Mellow Rose A19047c",
       "date": "2026-06-17",
       "price": "170EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
       "retailers": [],
       "id": "collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
       "sku": "A19047C",
@@ -508,7 +508,7 @@
       "title": "adidas Harden Vol.10 CLEAR CYAN",
       "date": "2026-06-17",
       "price": "160EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-harden-vol-10-gold-black-KH9153-1.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-harden-vol-10-gold-black-KH9153-1.jpg",
       "retailers": [],
       "id": "adidas-harden-vol10-clear-cyan",
       "sku": "KI1605",
@@ -521,7 +521,7 @@
       "title": "New Balance 991v2 Mahogany Rose U991RB2",
       "date": "2026-06-17",
       "price": "250EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-mahogany-rose-U991RB2-2.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-mahogany-rose-U991RB2-2.jpg",
       "retailers": [
         {
           "@type": "Offer",
@@ -563,7 +563,7 @@
       "title": "New Balance 991v2 Sea Grass U991BB2",
       "date": "2026-06-17",
       "price": "250EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-sea-grass-u991bb2-2.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-sea-grass-u991bb2-2.jpg",
       "retailers": [
         {
           "@type": "Offer",
@@ -591,7 +591,7 @@
       "title": "Nike Air Max Goadome Low SP - Black Pale Lemon",
       "date": "2026-06-17",
       "price": "185EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-goadome-low-sp-black-ir2173-001-1.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-goadome-low-sp-black-ir2173-001-1.jpg",
       "retailers": [],
       "id": "nike-air-max-goadome-low-sp-black-pale-lemon",
       "sku": "IR2173-001",
@@ -604,7 +604,7 @@
       "title": "Adidas Adizero Adios Pro Evo 3 Cloud White Core Black Solar Turbo",
       "date": "2026-06-18",
       "price": "500EUR",
-      "image": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro_evo3_white_KH7678.webp",
+      "image_url": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro_evo3_white_KH7678.webp",
       "retailers": [],
       "id": "adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo",
       "sku": "KH7678",
@@ -617,7 +617,7 @@
       "title": "Nike Vomero Premium Black Rush Violet Volt Glow IR2168-002",
       "date": "2026-06-18",
       "price": "220EUR",
-      "image": "https://sneakerdropfr.fr/images/nike_vomero_premium_black_violet_IR2168-002.webp",
+      "image_url": "https://sneakerdropfr.fr/images/nike_vomero_premium_black_violet_IR2168-002.webp",
       "retailers": [],
       "id": "nike-vomero-premium-black-rush-violet-volt-glow-ir2168-002",
       "sku": "IR2168-002",
@@ -630,7 +630,7 @@
       "title": "Adidas Adistar Mld Grey Three Grey Grey Two",
       "date": "2026-06-18",
       "price": "120EUR",
-      "image": "https://sneakerdropfr.fr/images/adidas_adistar_mld_grey_KH8334.jpg",
+      "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_grey_KH8334.jpg",
       "retailers": [],
       "id": "adidas-adistar-mld-grey-three-grey-grey-two",
       "sku": "KH8334",
@@ -643,7 +643,7 @@
       "title": "adidas Adistar MLD Earth Strata KH6407",
       "date": "2026-06-18",
       "price": "120EUR",
-      "image": "https://sneakerdropfr.fr/images/adidas_adistar_mld_earth_strata_KH6407.webp",
+      "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_earth_strata_KH6407.webp",
       "retailers": [],
       "id": "adidas-adistar-mld-earth-strata-kh6407",
       "sku": "KH6407",
@@ -656,7 +656,7 @@
       "title": "Nike Air Max 95 Light Graphite Paisley",
       "date": "2026-06-18",
       "price": "190EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-95-paisley-ir0802-100-1.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-95-paisley-ir0802-100-1.jpg",
       "retailers": [],
       "id": "nike-air-max-95-light-graphite-paisley",
       "sku": "IR0802-100",
@@ -669,7 +669,7 @@
       "title": "Air Jordan 1 Retro High Og Wmns Workwear",
       "date": "2026-06-18",
       "price": "180EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-1-workwear-FD2596-201.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-1-workwear-FD2596-201.jpg",
       "retailers": [
         {
           "@type": "Offer",
@@ -718,7 +718,7 @@
       "title": "Nike Total 90 Shox Magia Wmns Shy Pink University Red",
       "date": "2026-06-19",
       "price": "150EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia.jpg",
       "retailers": [],
       "id": "nike-total-90-shox-magia-wmns-shy-pink-university-red",
       "sku": "IQ5683-601",
@@ -731,7 +731,7 @@
       "title": "Forget Me Nots X Nike Total 90 Shox Magia Wmns Green Gusto Black",
       "date": "2026-06-19",
       "price": "150EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia-green.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia-green.jpg",
       "retailers": [],
       "id": "forget-me-nots-x-nike-total-90-shox-magia-wmns-green-gusto-black",
       "sku": "IQ5683-300",
@@ -744,7 +744,7 @@
       "title": "Air Jordan 5 Retro Black University Blue DD0587-008",
       "date": "2026-06-19",
       "price": "220EUR",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-5-black-university-blue-release-date-1.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-5-black-university-blue-release-date-1.jpg",
       "retailers": [
         {
           "@type": "Offer",
