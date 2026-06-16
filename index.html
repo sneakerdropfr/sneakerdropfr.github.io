@@ -1374,7 +1374,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         })();
 
         if (!allReleases.length) { if (empty) empty.style.display = 'block'; return; }
-        var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
+        var upcoming = allReleases.filter(function(r) { if (!r.date || r.date === "TBD") return false; var diff=(new Date(r.date+"T23:59:59")-new Date())/(1000*60*60*24); return diff>=0 && diff<=30; });
         var byScore = sortByScore(upcoming);
         renderTopPick(byScore[0]);
         render();
