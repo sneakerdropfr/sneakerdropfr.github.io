@@ -55,7 +55,7 @@ sys.path.insert(0, '${REPO_DIR}')
 os.chdir('${REPO_DIR}')
 
 # Régénération releases.json (actives)
-from generate_release_pages import render_page, load_manual_retailers
+from generate_release_pages import render_page, _load_manual_retailers
 import generate_release_pages as grp
 
 with open('releases.json') as f:
@@ -63,7 +63,7 @@ with open('releases.json') as f:
 with open('releases_past.json') as f:
     past = json.load(f)
 
-manual = load_manual_retailers()
+manual = _load_manual_retailers()
 count = 0
 for r in releases + past:
     try:
