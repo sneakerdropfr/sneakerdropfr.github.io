@@ -1,7 +1,7 @@
 {
   "week_start": "15/06/2026",
   "week_end": "21/06/2026",
-  "generated_at": "2026-06-16T06:54:32.629529+00:00",
+  "generated_at": "2026-06-16T07:26:58.812401+00:00",
   "releases": [
     {
       "type": "release",
@@ -14,7 +14,24 @@
       "price": "€190",
       "resell_price": "80€ - 120€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 190,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 190,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-9060-beige-grey"
     },
     {
       "type": "release",
@@ -27,7 +44,24 @@
       "price": "€160",
       "resell_price": "70€ - 110€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 160,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-1906-wmns-steel-grey-silver"
     },
     {
       "type": "release",
@@ -40,7 +74,24 @@
       "price": "€170",
       "resell_price": "90€ - 120€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 170,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-2010-black"
     },
     {
       "type": "release",
@@ -53,7 +104,24 @@
       "price": "€170",
       "resell_price": "90€ - 130€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 170,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-2010-sea-salt"
     },
     {
       "type": "release",
@@ -66,7 +134,24 @@
       "price": "€170",
       "resell_price": "80€ - 110€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 170,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-2010-neptune-grey"
     },
     {
       "type": "release",
@@ -79,7 +164,24 @@
       "price": "€170",
       "resell_price": "80€ - 120€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 170,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-2010-harbor-grey"
     },
     {
       "type": "release",
@@ -92,7 +194,17 @@
       "price": "€130",
       "resell_price": "50€ - 80€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 130,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-t500-wmns-bisque-gum"
     },
     {
       "type": "release",
@@ -105,7 +217,24 @@
       "price": "€170",
       "resell_price": "80€ - 120€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 170,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-2010-pink-chalk-sea-salt"
     },
     {
       "type": "release",
@@ -118,7 +247,24 @@
       "price": "€160",
       "resell_price": "90€ - 130€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 160,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-1906r-pink-chalk"
     },
     {
       "type": "release",
@@ -144,7 +290,24 @@
       "price": "€160",
       "resell_price": "90€ - 120€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 160,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-1906r-grey-white"
     },
     {
       "type": "release",
@@ -157,7 +320,24 @@
       "price": "€160",
       "resell_price": "100€ - 130€",
       "date": null,
-      "summary": ""
+      "summary": "",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/fr/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+          "price": 160,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "new-balance-1906r-white-arid-stone"
     },
     {
       "type": "release",
