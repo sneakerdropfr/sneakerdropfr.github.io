@@ -1,7 +1,7 @@
 {
   "week_start": "15/06/2026",
   "week_end": "21/06/2026",
-  "generated_at": "2026-06-16T07:26:58.812401+00:00",
+  "generated_at": "2026-06-16T07:30:44.493908+00:00",
   "releases": [
     {
       "type": "release",
@@ -32,36 +32,6 @@
         }
       ],
       "id": "new-balance-9060-beige-grey"
-    },
-    {
-      "type": "release",
-      "title": "New Balance 1906 Wmns Steel Grey Silver",
-      "source": "WhenToCop",
-      "emoji": "📅",
-      "link": "https://www.whentocop.fr/drops/new-balance-1906-wmns-steel-grey-silver-u19066at",
-      "buy_link": "https://www.whentocop.com/drops/new-balance-1906-wmns-steel-grey-silver-u19066at?tab=shops",
-      "image": "https://statics.whentocop.fr/media/M5LTiVYIxskP/tmpnew-balance-1906-wmns-steel-grey-silver-u19066at-small-500x500.webp?width=3840&quality=75&format=auto",
-      "price": "€160",
-      "resell_price": "70€ - 110€",
-      "date": null,
-      "summary": "",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 160,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
-          "price": 160,
-          "priceCurrency": "EUR"
-        }
-      ],
-      "id": "new-balance-1906-wmns-steel-grey-silver"
     },
     {
       "type": "release",
@@ -380,19 +350,6 @@
     },
     {
       "type": "release",
-      "title": "Nocta X Canada X Nike Cs Hoodie Optic Yellow",
-      "source": "WhenToCop",
-      "emoji": "📅",
-      "link": "https://www.whentocop.fr/drops/nocta-canada-nike-cs-hoodie-optic-yellow-im3232-704",
-      "buy_link": "https://www.whentocop.com/drops/nocta-canada-nike-cs-hoodie-optic-yellow-im3232-704?tab=shops",
-      "image": "https://statics.whentocop.fr/media/76ntilxyPydS/tmpnike-canada-x-nocta-canada-cs-hoodie-opti-yellow-black-im3232-704-small-500x500.webp?width=3840&quality=75&format=auto",
-      "price": "€120",
-      "resell_price": null,
-      "date": null,
-      "summary": ""
-    },
-    {
-      "type": "release",
       "title": "The Broken Arm X Salomon SaváT Cosmic Sky Peat Acid Lime",
       "source": "WhenToCop",
       "emoji": "📅",
@@ -414,45 +371,6 @@
       "image": "https://statics.whentocop.fr/media/NBVdAwWGIC1A/tmpconverse-x-collina-strada-chuck-70-xxhi-black-black-black-a19050c-small-500x500.webp?width=3840&quality=75&format=auto",
       "price": "€200",
       "resell_price": "70€ - 110€",
-      "date": null,
-      "summary": ""
-    },
-    {
-      "type": "release",
-      "title": "Palace X England X Nike Pre-Match Top Grey",
-      "source": "WhenToCop",
-      "emoji": "📅",
-      "link": "https://www.whentocop.fr/drops/palace-england-nike-pre-match-top-grey-ih1670-052",
-      "buy_link": "https://www.whentocop.com/drops/palace-england-nike-pre-match-top-grey-ih1670-052?tab=shops",
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/nike-giannis-freak-8-wolf-grey-volt-im5152-001-2.jpg",
-      "price": "€70",
-      "resell_price": null,
-      "date": null,
-      "summary": ""
-    },
-    {
-      "type": "release",
-      "title": "Peaceminusone X South Korea X Nike Pre Match Top Black White",
-      "source": "WhenToCop",
-      "emoji": "📅",
-      "link": "https://www.whentocop.fr/drops/peaceminusone-south-korea-x-nike-pre-match-top-black-white-ih1682-010",
-      "buy_link": "https://www.whentocop.com/drops/peaceminusone-south-korea-x-nike-pre-match-top-black-white-ih1682-010?tab=shops",
-      "image": "https://statics.whentocop.fr/media/khLONtxmVq5d/tmpnike-korea-pre-match-top-black-white-white-ih1682-010-small-500x500.webp?width=3840&quality=75&format=auto",
-      "price": "€70",
-      "resell_price": null,
-      "date": null,
-      "summary": ""
-    },
-    {
-      "type": "release",
-      "title": "Patta X Netherlands X Nike Academy Pro Top Gs Black Orange",
-      "source": "WhenToCop",
-      "emoji": "📅",
-      "link": "https://www.whentocop.fr/drops/patta-netherlands-nike-academy-pro-top-gs-black-orange-ib5420-010",
-      "buy_link": "https://www.whentocop.com/drops/patta-netherlands-nike-academy-pro-top-gs-black-orange-ib5420-010?tab=shops",
-      "image": "https://statics.whentocop.fr/media/WjouVh8mrOEo/tmppatta-x-nike-academy-pro-short-sleeve-top-gs-black-orange-ib5420-010-small-500x500.webp?width=3840&quality=75&format=auto",
-      "price": "€65",
-      "resell_price": null,
       "date": null,
       "summary": ""
     }
