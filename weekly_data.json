@@ -1,7 +1,7 @@
 {
   "week_start": "15/06/2026",
   "week_end": "21/06/2026",
-  "generated_at": "2026-06-16T21:32:14.631639+00:00",
+  "generated_at": "2026-06-16T21:40:22.120790+00:00",
   "releases": [
     {
       "type": "release",
@@ -9,7 +9,15 @@
       "date": "2026-06-15",
       "price": "250EUR",
       "image_url": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro4_white_red_KZ9020.webp",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/adidas-adizero-adios-pro-4-footwear-white-fucid-red-shock-purple.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "adidas-adizero-adios-pro-4-footwear-white-fucid-red-shock-purple",
       "sku": "KZ9020",
       "brand": "Adidas",
@@ -22,7 +30,15 @@
       "date": "2026-06-15",
       "price": "130EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-air-force-1-low-heat-map-IB6834-001-1.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/nike-air-force-1-low-retro-heat-map-ib6834-001.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "nike-air-force-1-low-retro-heat-map-ib6834-001",
       "sku": "IB6834-001",
       "brand": "Nike",
@@ -35,7 +51,15 @@
       "date": "2026-06-15",
       "price": "120EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-paisley-suede.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
       "sku": "IO1259-400",
       "brand": "Nike",
@@ -48,7 +72,15 @@
       "date": "2026-06-15",
       "price": "200EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/converse-x-collina-strada-chuck-70-xxhi-black-black-black.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "converse-x-collina-strada-chuck-70-xxhi-black-black-black",
       "sku": "A19050C",
       "brand": "Converse",
@@ -103,7 +135,15 @@
       "date": "2026-06-15",
       "price": "200EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/slawn-nike-cryoshot-striker-1976-II9933-100-1.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/slawn-x-nike-cryoshot-striker-1976-natural-white-black-ii9933-100.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "slawn-x-nike-cryoshot-striker-1976-natural-white-black-ii9933-100",
       "sku": "II9933-100",
       "brand": "Nike",
@@ -116,7 +156,15 @@
       "date": "2026-06-15",
       "price": "200EUR",
       "image_url": "https://sneakerdropfr.fr/images/nocta_nike_cryoshot_tiempo_gold_IM0703-700.webp",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/nocta-x-nike-cryoshot-tiempo-university-gold-black.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
       "sku": "IM0703-700",
       "brand": "Nike",
@@ -129,7 +177,15 @@
       "date": "2026-06-15",
       "price": "200EUR",
       "image_url": "https://sneakerdropfr.fr/images/nike_cryoshot_offwhite_virgil_abloh_IM3886-100.webp",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/off-white-nike-cryoshot-virgil-abloh-archives-2026.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "off-white-nike-cryoshot-virgil-abloh-archives-2026",
       "sku": "IM3886-100",
       "brand": "Nike",
@@ -457,7 +513,15 @@
       "date": "2026-06-16",
       "price": "160EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/drake-kevin-durant-nike-kd-19-yes-man-7.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/nike-kd19-field-purple-ih1117-500.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "nike-kd19-field-purple-ih1117-500",
       "sku": "IH1117-500",
       "brand": "Nike",
@@ -470,7 +534,15 @@
       "date": "2026-06-17",
       "price": "160EUR",
       "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_black_A19049C.webp",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/converse-x-collina-strada-chuck-70-black-black-black-a19049c.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "converse-x-collina-strada-chuck-70-black-black-black-a19049c",
       "sku": "A19049C",
       "brand": "Converse",
@@ -483,7 +555,15 @@
       "date": "2026-06-17",
       "price": "160EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/collina-strada-x-converse-chuck-70-mellow-yellow-a22205c.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
       "sku": "A22205C",
       "brand": "Converse",
@@ -496,7 +576,15 @@
       "date": "2026-06-17",
       "price": "170EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/collina-strada-converse-chuck-70-high-mellow-rose-a19047c.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
       "sku": "A19047C",
       "brand": "Converse",
@@ -509,7 +597,15 @@
       "date": "2026-06-17",
       "price": "160EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-harden-vol-10-gold-black-KH9153-1.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/adidas-harden-vol10-clear-cyan.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "adidas-harden-vol10-clear-cyan",
       "sku": "KI1605",
       "brand": "Adidas",
@@ -592,7 +688,15 @@
       "date": "2026-06-17",
       "price": "185EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-goadome-low-sp-black-ir2173-001-1.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/nike-air-max-goadome-low-sp-black-pale-lemon.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "nike-air-max-goadome-low-sp-black-pale-lemon",
       "sku": "IR2173-001",
       "brand": "Nike",
@@ -605,7 +709,15 @@
       "date": "2026-06-18",
       "price": "500EUR",
       "image_url": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro_evo3_white_KH7678.webp",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo",
       "sku": "KH7678",
       "brand": "Adidas",
@@ -618,7 +730,15 @@
       "date": "2026-06-18",
       "price": "220EUR",
       "image_url": "https://sneakerdropfr.fr/images/nike_vomero_premium_black_violet_IR2168-002.webp",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/nike-vomero-premium-black-rush-violet-volt-glow-ir2168-002.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "nike-vomero-premium-black-rush-violet-volt-glow-ir2168-002",
       "sku": "IR2168-002",
       "brand": "Nike",
@@ -631,7 +751,15 @@
       "date": "2026-06-18",
       "price": "120EUR",
       "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_grey_KH8334.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/adidas-adistar-mld-grey-three-grey-grey-two.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "adidas-adistar-mld-grey-three-grey-grey-two",
       "sku": "KH8334",
       "brand": "Adidas",
@@ -644,7 +772,15 @@
       "date": "2026-06-18",
       "price": "120EUR",
       "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_earth_strata_KH6407.webp",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/adidas-adistar-mld-earth-strata-kh6407.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "adidas-adistar-mld-earth-strata-kh6407",
       "sku": "KH6407",
       "brand": "Adidas",
@@ -657,7 +793,15 @@
       "date": "2026-06-18",
       "price": "190EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-95-paisley-ir0802-100-1.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/nike-air-max-95-light-graphite-paisley.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "nike-air-max-95-light-graphite-paisley",
       "sku": "IR0802-100",
       "brand": "Nike",
@@ -719,7 +863,15 @@
       "date": "2026-06-19",
       "price": "150EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/nike-total-90-shox-magia-wmns-shy-pink-university-red.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "nike-total-90-shox-magia-wmns-shy-pink-university-red",
       "sku": "IQ5683-601",
       "brand": "Nike",
@@ -732,7 +884,15 @@
       "date": "2026-06-19",
       "price": "150EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia-green.jpg",
-      "retailers": [],
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Voir la fiche",
+          "url": "https://sneakerdropfr.fr/sorties/forget-me-nots-x-nike-total-90-shox-magia-wmns-green-gusto-black.html",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      ],
       "id": "forget-me-nots-x-nike-total-90-shox-magia-wmns-green-gusto-black",
       "sku": "IQ5683-300",
       "brand": "Nike",
