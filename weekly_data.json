@@ -1,7 +1,7 @@
 {
   "week_start": "15/06/2026",
   "week_end": "21/06/2026",
-  "generated_at": "2026-06-16T22:21:48.575374+00:00",
+  "generated_at": "2026-06-16T22:40:34.287714+00:00",
   "releases": [
     {
       "type": "release",
@@ -12,9 +12,9 @@
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/adidas-adizero-adios-pro-4-footwear-white-fucid-red-shock-purple.html",
-          "price": 0,
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/adidas-adizero-adios-pro-4",
+          "price": 211,
           "priceCurrency": "EUR"
         }
       ],
@@ -33,9 +33,16 @@
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/nike-air-force-1-low-retro-heat-map-ib6834-001.html",
-          "price": 0,
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": 130,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/nike-air-force-1-low-retro-heat-map-ib6834-001",
+          "price": 176,
           "priceCurrency": "EUR"
         }
       ],
@@ -54,9 +61,16 @@
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400.html",
-          "price": 0,
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": 120,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
+          "price": 123,
           "priceCurrency": "EUR"
         }
       ],
@@ -75,9 +89,9 @@
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/converse-x-collina-strada-chuck-70-xxhi-black-black-black.html",
-          "price": 0,
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/collina-strada-converse-chuck-70-xxhi-black-a19050c",
+          "price": 693,
           "priceCurrency": "EUR"
         }
       ],
@@ -134,13 +148,13 @@
       "title": "Slawn x Nike Cryoshot Striker 1976 Natural White Black",
       "date": "2026-06-15",
       "price": "200EUR",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/jacquemus-nike-cryoshot-tiempo-r10-IO0619-100-2.jpg",
+      "image_url": "https://sneakerdropfr.fr/images/nike_cryoshot_slawn_striker_1976_II9933-100.webp",
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/slawn-x-nike-cryoshot-striker-1976-natural-white-black-ii9933-100.html",
-          "price": 0,
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/slawn-nike-cryoshot-striker-1976-ii9933-100",
+          "price": 489,
           "priceCurrency": "EUR"
         }
       ],
@@ -159,9 +173,16 @@
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/nocta-x-nike-cryoshot-tiempo-university-gold-black.html",
-          "price": 0,
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/nocta-nike-cryoshot-tiempo-im0703-700",
+          "price": 302,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Klekt",
+          "url": "https://www.klekt.com/product/new/nocta-nike-cryoshot-tiempo-university-gold-black",
+          "price": 500,
           "priceCurrency": "EUR"
         }
       ],
@@ -180,9 +201,16 @@
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/off-white-nike-cryoshot-virgil-abloh-archives-2026.html",
-          "price": 0,
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/off-white-nike-cryoshot-im3886-100",
+          "price": 287,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "GOAT",
+          "url": "https://www.goat.com/sneakers/off-white-nike-cryoshot-im3886-100",
+          "price": 333,
           "priceCurrency": "EUR"
         }
       ],
@@ -509,27 +537,6 @@
     },
     {
       "type": "release",
-      "title": "Nike KD19 Field Purple",
-      "date": "2026-06-16",
-      "price": "160EUR",
-      "image_url": "https://sneakerdropfr.fr/images/nike_kd19_field_purple_IH1117-500.webp",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/nike-kd19-field-purple-ih1117-500.html",
-          "price": 0,
-          "priceCurrency": "EUR"
-        }
-      ],
-      "id": "nike-kd19-field-purple-ih1117-500",
-      "sku": "IH1117-500",
-      "brand": "Nike",
-      "source": "releases.json",
-      "link": "https://sneakerdropfr.fr/sorties/nike-kd19-field-purple-ih1117-500.html"
-    },
-    {
-      "type": "release",
       "title": "Converse x Collina Strada Chuck 70 Hi \"Black\"",
       "date": "2026-06-17",
       "price": "160EUR",
@@ -551,66 +558,52 @@
     },
     {
       "type": "release",
-      "title": "Collina Strada x Converse Chuck 70 MELLOW YELLOW",
+      "title": "Nike KD19 Field Purple",
       "date": "2026-06-17",
       "price": "160EUR",
-      "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_mellow_yellow_A22205C.webp",
+      "image_url": "https://sneakerdropfr.fr/images/nike_kd19_field_purple_IH1117-500.webp",
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/collina-strada-x-converse-chuck-70-mellow-yellow-a22205c.html",
-          "price": 0,
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": 160,
           "priceCurrency": "EUR"
-        }
-      ],
-      "id": "collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
-      "sku": "A22205C",
-      "brand": "Converse",
-      "source": "releases.json",
-      "link": "https://sneakerdropfr.fr/sorties/collina-strada-x-converse-chuck-70-mellow-yellow-a22205c.html"
-    },
-    {
-      "type": "release",
-      "title": "Collina Strada Converse Chuck 70 High Mellow Rose A19047c",
-      "date": "2026-06-17",
-      "price": "170EUR",
-      "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_mellow_rose_A19047C.webp",
-      "retailers": [
+        },
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/collina-strada-converse-chuck-70-high-mellow-rose-a19047c.html",
-          "price": 0,
+          "name": "FootDistrict",
+          "url": "https://footdistrict.com/fr/",
+          "price": 160,
           "priceCurrency": "EUR"
-        }
-      ],
-      "id": "collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
-      "sku": "A19047C",
-      "brand": "Converse",
-      "source": "releases.json",
-      "link": "https://sneakerdropfr.fr/sorties/collina-strada-converse-chuck-70-high-mellow-rose-a19047c.html"
-    },
-    {
-      "type": "release",
-      "title": "adidas Harden Vol.10 CLEAR CYAN",
-      "date": "2026-06-17",
-      "price": "160EUR",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-harden-vol-10-gold-black-KH9153-1.jpg",
-      "retailers": [
+        },
         {
           "@type": "Offer",
-          "name": "Voir la fiche",
-          "url": "https://sneakerdropfr.fr/sorties/adidas-harden-vol10-clear-cyan.html",
-          "price": 0,
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fnike-kd19-field-purple-ih1117-500",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Kickz",
+          "url": "https://www.kickz.com/fr/nike-kd19-field-purple-ih1117-500",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/nike-kd19-field-purple-ih1117-500",
+          "price": 199,
           "priceCurrency": "EUR"
         }
       ],
-      "id": "adidas-harden-vol10-clear-cyan",
-      "sku": "KI1605",
-      "brand": "Adidas",
+      "id": "nike-kd19-field-purple-ih1117-500",
+      "sku": "IH1117-500",
+      "brand": "Nike",
       "source": "releases.json",
-      "link": "https://sneakerdropfr.fr/sorties/adidas-harden-vol10-clear-cyan.html"
+      "link": "https://sneakerdropfr.fr/sorties/nike-kd19-field-purple-ih1117-500.html"
     },
     {
       "type": "release",
@@ -702,6 +695,111 @@
       "brand": "Nike",
       "source": "releases.json",
       "link": "https://sneakerdropfr.fr/sorties/nike-air-max-goadome-low-sp-black-pale-lemon.html"
+    },
+    {
+      "type": "release",
+      "title": "Collina Strada x Converse Chuck 70 MELLOW YELLOW",
+      "date": "2026-06-18",
+      "price": "160EUR",
+      "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_mellow_yellow_A22205C.webp",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Size?",
+          "url": "https://www.size.co.uk/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Footpatrol",
+          "url": "https://www.footpatrol.com/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/collina-strada-converse-chuck-70-mellow-yellow-a22205c",
+          "price": 260,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
+      "sku": "A22205C",
+      "brand": "Converse",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/collina-strada-x-converse-chuck-70-mellow-yellow-a22205c.html"
+    },
+    {
+      "type": "release",
+      "title": "Collina Strada Converse Chuck 70 High Mellow Rose A19047c",
+      "date": "2026-06-18",
+      "price": "170EUR",
+      "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_mellow_rose_A19047C.webp",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Size?",
+          "url": "https://www.size.co.uk/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Footpatrol",
+          "url": "https://www.footpatrol.com/",
+          "price": 170,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
+          "price": 247,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
+      "sku": "A19047C",
+      "brand": "Converse",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/collina-strada-converse-chuck-70-high-mellow-rose-a19047c.html"
+    },
+    {
+      "type": "release",
+      "title": "adidas Harden Vol.10 CLEAR CYAN",
+      "date": "2026-06-18",
+      "price": "160EUR",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-harden-vol-10-gold-black-KH9153-1.jpg",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "FootDistrict",
+          "url": "https://footdistrict.com/fr/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Asphaltgold",
+          "url": "https://www.asphaltgold.com/",
+          "price": 160,
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/adidas-harden-vol-10-clear-cyan-ki1605",
+          "price": 313,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "id": "adidas-harden-vol10-clear-cyan",
+      "sku": "KI1605",
+      "brand": "Adidas",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/adidas-harden-vol10-clear-cyan.html"
     },
     {
       "type": "release",
