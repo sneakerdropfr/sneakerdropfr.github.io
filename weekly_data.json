@@ -1,419 +1,49 @@
 {
   "week_start": "15/06/2026",
   "week_end": "21/06/2026",
-  "generated_at": "2026-06-14T23:02:28Z",
   "releases": [
     {
-      "name": "Nike Air Force 1 Low Paisley Hydrogen Blue",
-      "date": "2026-06-15",
-      "price": 120,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-paisley-suede.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Air Force 1 Low Retro Heat Map",
-      "date": "2026-06-15",
-      "price": 130,
-      "image": "https://sneakernews.com/wp-content/uploads/2015/03/0319_MM_sneakers.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-heat-map-black-racer-blue-ib6834-001",
-      "brand": "Nike"
-    },
-    {
-      "name": "Paul Rodriguez X Nike Sb Air Zoom Low Dodgers",
-      "date": "2026-06-15",
-      "price": 120,
-      "image": "https://sneakernews.com/wp-content/uploads/2011/06/weekly-rewind-summary-6-10.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/paul-rodriguez-nike-sb-air-zoom-low-dodgers-iu7835-001",
-      "brand": "Nike SB"
-    },
-    {
-      "name": "New Balance 9060 \"Beige Grey\"",
-      "sku": "U9060152",
-      "brand": "New Balance",
-      "date": "2026-06-15",
-      "price": 190,
-      "image": "",
+      "name": "Patta x Nike Cryoshot Mercurial Vapor R9",
+      "brand": "Sneaker Files",
+      "date": "16/06/2026",
+      "price": "200 €",
+      "image": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/patta-cryoshot-metallic-silver.webp",
+      "id": "patta-x-nike-cryoshot-mercurial-vapor-r9-releases-june-2026",
+      "buy_url": null,
       "wtc_url": "",
       "retailers": [
         {
           "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 190,
+          "name": "END.",
+          "url": "https://www.endclothing.com/ie/nike-x-patta-netherlands-cryo-shot-sneaker-im0589-001.html",
+          "price": 215,
           "priceCurrency": "EUR"
         },
         {
           "@type": "Offer",
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
-          "price": 190,
-          "priceCurrency": "EUR"
-        }
-      ]
-    },
-    {
-      "name": "New Balance 1906 WMNS \"Steel Grey Silver\"",
-      "sku": "U19066AT",
-      "brand": "New Balance",
-      "date": "2026-06-15",
-      "price": 160,
-      "image": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 160,
+          "name": "StockX",
+          "url": "https://stockx.com/fr-fr/nike-cryoshot-mercurial-vapor-r9-patta?country=FR&currencyCode=EUR&size=3.5",
+          "price": 247,
           "priceCurrency": "EUR"
         },
         {
           "@type": "Offer",
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
-          "price": 160,
-          "priceCurrency": "EUR"
-        }
-      ]
-    },
-    {
-      "name": "New Balance 2010 \"Black\"",
-      "sku": "U20107B1",
-      "brand": "New Balance",
-      "date": "2026-06-15",
-      "price": 170,
-      "image": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 170,
+          "name": "Klekt",
+          "url": "https://www.klekt.com/product/new/nike-x-patta-cryoshot-mercurial-vapor-r9-world-cup-pack-2026?destination=datafeed",
+          "price": 295,
           "priceCurrency": "EUR"
         },
         {
           "@type": "Offer",
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
-          "price": 170,
+          "name": "GOAT",
+          "url": "https://www.goat.com/sneakers/patta-x-nike-cryoshot-mercurial-metallic-silver-im0589-001",
+          "price": 298,
           "priceCurrency": "EUR"
         }
-      ]
-    },
-    {
-      "name": "New Balance 2010 \"Sea Salt\"",
-      "sku": "U20106OK",
-      "brand": "New Balance",
-      "date": "2026-06-15",
-      "price": 170,
-      "image": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 170,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
-          "price": 170,
-          "priceCurrency": "EUR"
-        }
-      ]
-    },
-    {
-      "name": "New Balance 2010 \"Neptune Grey\"",
-      "sku": "U20107SQ",
-      "brand": "New Balance",
-      "date": "2026-06-15",
-      "price": 170,
-      "image": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 170,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
-          "price": 170,
-          "priceCurrency": "EUR"
-        }
-      ]
-    },
-    {
-      "name": "New Balance 2010 \"Harbor Grey\"",
-      "sku": "U20103EJ",
-      "brand": "New Balance",
-      "date": "2026-06-15",
-      "price": 170,
-      "image": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 170,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
-          "price": 170,
-          "priceCurrency": "EUR"
-        }
-      ]
-    },
-    {
-      "name": "New Balance T500 WMNS \"Bisque Gum\"",
-      "sku": "U50075U",
-      "brand": "New Balance",
-      "date": "2026-06-15",
-      "price": 130,
-      "image": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 130,
-          "priceCurrency": "EUR"
-        }
-      ]
-    },
-    {
-      "name": "New Balance 2010 \"Pink Chalk Sea Salt\"",
-      "sku": "U20106PT",
-      "brand": "New Balance",
-      "date": "2026-06-15",
-      "price": 170,
-      "image": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 170,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
-          "price": 170,
-          "priceCurrency": "EUR"
-        }
-      ]
-    },
-    {
-      "name": "New Balance 1906R \"Pink Chalk\"",
-      "sku": "U19063FT",
-      "brand": "New Balance",
-      "date": "2026-06-15",
-      "price": 160,
-      "image": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 160,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
-          "price": 160,
-          "priceCurrency": "EUR"
-        }
-      ]
-    },
-    {
-      "name": "New Balance 1906R \"Grey White\"",
-      "sku": "U190671F",
-      "brand": "New Balance",
-      "date": "2026-06-15",
-      "price": 160,
-      "image": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 160,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
-          "price": 160,
-          "priceCurrency": "EUR"
-        }
-      ]
-    },
-    {
-      "name": "New Balance 1906R \"White Arid Stone\"",
-      "sku": "U1906980",
-      "brand": "New Balance",
-      "date": "2026-06-15",
-      "price": 160,
-      "image": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/fr/",
-          "price": 160,
-          "priceCurrency": "EUR"
-        },
-        {
-          "@type": "Offer",
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
-          "price": 160,
-          "priceCurrency": "EUR"
-        }
-      ]
-    },
-    {
-      "name": "Off-White X Nike Cryoshot Virgil Abloh Archives",
-      "date": "2026-06-16",
-      "price": 200,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/02/adidas-f50-adiframe-shock-pink-JQ9556-5.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/off-white-nike-cryoshot-virgil-abloh-archives-im3886-100",
-      "brand": "Nike"
-    },
-    {
-      "name": "New Balance Allerdale Vaporous Grey",
-      "date": "2026-06-17",
-      "price": 250,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-allerdale-Vaporous-Grey-chipmunk-UADWLWO-3.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-allerdale-vaporous-grey-uadwlwo",
-      "brand": "New Balance"
-    },
-    {
-      "name": "New Balance 991v2 Mahogany Rose",
-      "date": "2026-06-18",
-      "price": 250,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-mahogany-rose-U991RB2-2.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-mahogany-rose-u991rb2",
-      "brand": "New Balance"
-    },
-    {
-      "name": "Nike Air Max Goadome Low Black",
-      "date": "2026-06-18",
-      "price": 185,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-goadome-low-sp-black-ir2173-001-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-goadome-low-black-ir2173-001",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Pegasus Premium Sp Black Sail Sail",
-      "date": "2026-06-18",
-      "price": 210,
-      "image": "https://sneakernews.com/wp-content/uploads/2025/06/nike-pegasus-premium-run-platinum-tint-ih2288-001-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-pegasus-premium-sp-black-sail-sail-ir2166-001",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Pegasus Premium Sp White Black",
-      "date": "2026-06-18",
-      "price": 210,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/nike-pegasus-premium-sp-black-phantom.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-pegasus-premium-sp-white-black-ir2166-102",
-      "brand": "Nike"
-    },
-    {
-      "name": "New Balance 991v2 Sea Grass",
-      "date": "2026-06-18",
-      "price": 250,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-sea-grass-u991bb2-2.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-sea-grass-u991bb2",
-      "brand": "New Balance"
-    },
-    {
-      "name": "Adidas Adistar Mld Earth Strata",
-      "date": "2026-06-19",
-      "price": 120,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-adistar-mld-summer-2026.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-earth-strata-kh6407",
-      "brand": "Adidas"
-    },
-    {
-      "name": "Adidas Adistar Mld Grey",
-      "date": "2026-06-19",
-      "price": 120,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-adistar-mld-summer-2026.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-grey-kh8334",
-      "brand": "Adidas"
-    },
-    {
-      "name": "Nike Air Max 95 Light Graphite Paisley",
-      "date": "2026-06-19",
-      "price": 190,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-95-paisley-ir0802-100-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-light-graphite-paisley-ir0802-100",
-      "brand": "Nike"
-    },
-    {
-      "name": "Nike Vomero Premium Black Rush Violet",
-      "date": "2026-06-19",
-      "price": 220,
-      "image": "https://sneakernews.com/wp-content/uploads/2025/11/dsg-november-2025-holiday-guide-banner.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-vomero-premium-black-rush-violet-ir2168-002",
-      "brand": "Nike"
-    },
-    {
-      "name": "Air Jordan 5 Retro Black University Blue",
-      "date": "2026-06-20",
-      "price": 220,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-5-black-university-blue-release-date-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-5-retro-black-university-blue-dd0587-008",
-      "brand": "Jordan Brand"
-    },
-    {
-      "name": "Nike Air Force 1 Low Glam Rock Bold Berry",
-      "date": "2026-06-20",
-      "price": 120,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-glam-rock-pack.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
-      "brand": "Nike"
-    },
-    {
-      "name": "Forget-Me-Nots X Nike Total 90 Shox Magia Wmns Green Gusto Black",
-      "date": "2026-06-20",
-      "price": 150,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-green-gusto-black-iq5683-300",
-      "brand": "Nike"
-    },
-    {
-      "name": "Forget-Me-Nots X Nike Total 90 Shox Magia Wmns Shy Pink",
-      "date": "2026-06-20",
-      "price": 150,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-shy-pink-iq5683-601",
-      "brand": "Nike"
+      ],
+      "resell": "",
+      "stock": ""
     }
-  ]
+  ],
+  "promos": []
 }
