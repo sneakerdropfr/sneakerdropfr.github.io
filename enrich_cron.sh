@@ -67,7 +67,7 @@ manual = _load_manual_retailers()
 count = 0
 for r in releases + past:
     try:
-        render_page(r, manual)
+        render_page(r, releases + past)
         count += 1
     except Exception as e:
         print(f'  ERR {r.get(\"id\")}: {e}')
