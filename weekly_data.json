@@ -23,6 +23,9 @@
       "id": "nike-mind-002-flyknit-qs-pure-platinum",
       "buy_url": "",
       "wtc_url": "",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "retailers": [
         {
@@ -33,6 +36,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "id": "adidas-adizero-adios-pro-4-footwear-white-fucid-red-shock-purple",
       "sku": "KZ9020",
@@ -47,6 +51,8 @@
       "price": "130EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-air-force-1-low-heat-map-IB6834-001-1.jpg",
 =======
+=======
+>>>>>>> Stashed changes
       "resell": "",
       "stock": ""
     },
@@ -59,6 +65,9 @@
       "id": "palace-nike-cryoshot-air-speed-m-black-crimson-white",
       "buy_url": "",
       "wtc_url": "",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "retailers": [
         {
@@ -1077,6 +1086,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
       "id": "nike-air-max-goadome-low-sp-black-pale-lemon",
       "sku": "IR2173-001",
       "brand": "Nike",
@@ -1224,6 +1234,8 @@
       "price": "120EUR",
       "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_earth_strata_KH6407.webp",
 =======
+=======
+>>>>>>> Stashed changes
       "resell": "",
       "stock": ""
     },
@@ -1236,6 +1248,9 @@
       "id": "joe-freshgoods-nb-1890-finger-waves",
       "buy_url": "",
       "wtc_url": "",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "retailers": [
         {
@@ -1275,6 +1290,7 @@
         }
       ],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "id": "adidas-adistar-mld-earth-strata-kh6407",
       "sku": "KH6407",
       "brand": "Adidas",
@@ -1288,6 +1304,8 @@
       "price": "190EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-95-paisley-ir0802-100-1.jpg",
 =======
+=======
+>>>>>>> Stashed changes
       "resell": "",
       "stock": ""
     },
@@ -1300,6 +1318,9 @@
       "id": "nike-mind-001-mineral-slate",
       "buy_url": "",
       "wtc_url": "",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "retailers": [
         {
@@ -1324,6 +1345,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "id": "nike-air-max-95-light-graphite-paisley",
       "sku": "IR0802-100",
@@ -1367,6 +1389,8 @@
           "priceCurrency": "EUR"
         },
 =======
+=======
+>>>>>>> Stashed changes
       "resell": "",
       "stock": ""
     },
@@ -1474,6 +1498,7 @@
         }
       ],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "id": "air-jordan-1-retro-high-og-wmns-workwear",
       "sku": "FD2596-201",
       "brand": "Jordan Brand",
@@ -1487,6 +1512,8 @@
       "price": "150EUR",
       "image_url": "https://sneakerdropfr.fr/images/nike_t90_shox_magia_shy_pink_IQ5683-601.webp",
 =======
+=======
+>>>>>>> Stashed changes
       "resell": "",
       "stock": ""
     },
@@ -1525,6 +1552,9 @@
       "id": "air-jordan-3-bin-23-2026",
       "buy_url": "",
       "wtc_url": "",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "retailers": [
         {
@@ -1543,6 +1573,7 @@
         }
       ],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "id": "nike-total-90-shox-magia-wmns-shy-pink-university-red",
       "sku": "IQ5683-601",
       "brand": "Nike",
@@ -1560,6 +1591,8 @@
           "@type": "Offer",
           "name": "Nike SNKRS",
 =======
+=======
+>>>>>>> Stashed changes
       "resell": "",
       "stock": ""
     },
@@ -1665,6 +1698,7 @@
         }
       ],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "id": "forget-me-nots-x-nike-total-90-shox-magia-wmns-green-gusto-black",
       "sku": "IQ5683-300",
       "brand": "Nike",
@@ -1681,6 +1715,8 @@
         {
           "@type": "Offer",
 =======
+=======
+>>>>>>> Stashed changes
       "resell": "",
       "stock": ""
     },
@@ -1757,6 +1793,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "id": "air-jordan-5-retro-black-university-blue-dd0587-008",
       "sku": "DD0587-008",
@@ -1966,5 +2003,11 @@
 >>>>>>> Stashed changes
     }
   ],
+=======
+      "resell": "",
+      "stock": ""
+    }
+  ],
+>>>>>>> Stashed changes
   "promos": []
 }
