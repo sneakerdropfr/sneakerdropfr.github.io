@@ -1,35 +1,5 @@
 [
   {
-    "nom": "Nike KD19",
-    "marque": "Nike",
-    "prix": "159,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JSDExMTctNTAwL0lIMTExNy01MDAtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/nike-kd19-ih1117-500-0350446",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-kd19-ih1117-500-0350446",
-    "date": "2026-06-17",
-    "couleur": ""
-  },
-  {
-    "nom": "New Balance 991",
-    "marque": "New Balance",
-    "prix": "249,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VOTkxUkIyL1U5OTFSQjItMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-991-u991rb2-0342572",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-991-u991rb2-0342572",
-    "date": "2026-06-18",
-    "couleur": ""
-  },
-  {
-    "nom": "Nike PEGASUS PREMIUM SP",
-    "marque": "Nike",
-    "prix": "209,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JUjIxNjYtMDAxL0lSMjE2Ni0wMDEtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/nike-pegasus-premium-sp-ir2166-001-0350294",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-pegasus-premium-sp-ir2166-001-0350294",
-    "date": "2026-06-18",
-    "couleur": ""
-  },
-  {
     "nom": "Adidas ADISTAR MLD",
     "marque": "Adidas",
     "prix": "119,99 €",
@@ -40,6 +10,36 @@
     "couleur": ""
   },
   {
+    "nom": "Adidas X PHARRELL WILLIAMS VARIO FLAT EARTHER",
+    "marque": "Adidas",
+    "prix": "139,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LSjA5NTMvS0owOTUzLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "lien_produit": "https://www.bstn.com/eu_fr/r/adidas-x-pharrell-williams-vario-flat-earther-kj0953-0354464",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fadidas-x-pharrell-williams-vario-flat-earther-kj0953-0354464",
+    "date": "2026-06-20",
+    "couleur": ""
+  },
+  {
+    "nom": "New Balance 990",
+    "marque": "New Balance",
+    "prix": "249,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VOTkwNzZCL1U5OTA3NkItMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-990-u99076b-0344360",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-990-u99076b-0344360",
+    "date": "2026-06-25",
+    "couleur": ""
+  },
+  {
+    "nom": "New Balance 1890",
+    "marque": "New Balance",
+    "prix": "189,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VMTg5MDUySi9VMTg5MDUySi0wMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo1ODAsImhlaWdodCI6NzI1LCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-1890-u189052j-0348430",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890-u189052j-0348430",
+    "date": "2026-06-25",
+    "couleur": ""
+  },
+  {
     "nom": "WMNS AIR JORDAN 1 RETRO HI OG",
     "marque": "Jordan",
     "prix": "179,99 €",
@@ -47,6 +47,16 @@
     "lien_produit": "https://www.bstn.com/eu_fr/p/jordan-wmns-air-jordan-1-retro-hi-og-fd2596-201-0350353",
     "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-wmns-air-jordan-1-retro-hi-og-fd2596-201-0350353",
     "date": "2026-06-27",
+    "couleur": ""
+  },
+  {
+    "nom": "New Balance 950",
+    "marque": "New Balance",
+    "prix": "129,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VOTUwMzg0L1U5NTAzODQtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-950-u950384-0353285",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-950-u950384-0353285",
+    "date": "2026-07-01",
     "couleur": ""
   },
   {
@@ -66,6 +76,16 @@
     "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VMjA0TFNDL1UyMDRMU0MtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
     "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-204l-u204lsc-0353087",
     "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-204l-u204lsc-0353087",
+    "date": "2026-07-01",
+    "couleur": ""
+  },
+  {
+    "nom": "Nike WMNS MOON SHOE OG",
+    "marque": "Nike",
+    "prix": "99,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9JVzA5NTUtMjAxL0lXMDk1NS0yMDEtMDMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/nike-wmns-moon-shoe-og-iw0955-201-0353718",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-wmns-moon-shoe-og-iw0955-201-0353718",
     "date": "2026-07-01",
     "couleur": ""
   },
