@@ -191,8 +191,8 @@
   },
   {
     "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
-    "date": "2026-06-01",
-    "price": 200
+    "date": "2026-05-31",
+    "price": 263
   },
   {
     "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
@@ -247,7 +247,7 @@
   {
     "id": "adidas-sc-premiere-cloud-white-power-green",
     "date": "2026-06-05",
-    "price": 129
+    "price": 127
   },
   {
     "id": "nike-sb-paul-rodriguez-air-zoom-low-dodgers-iu7835-001",
@@ -257,7 +257,7 @@
   {
     "id": "adidas-originals-x-liberty-london-wmns-samba-og-maroon-warm-vanilla",
     "date": "2026-06-14",
-    "price": 130
+    "price": 123
   },
   {
     "id": "adidas-adizero-adios-pro-4-footwear-white-fucid-red-shock-purple",
@@ -276,22 +276,22 @@
   },
   {
     "id": "converse-x-collina-strada-chuck-70-black-black-black-a19049c",
-    "date": "2026-06-15",
+    "date": "2026-06-17",
     "price": 160
   },
   {
     "id": "converse-x-collina-strada-chuck-70-xxhi-black-black-black",
     "date": "2026-06-15",
-    "price": 200
+    "price": 260
   },
   {
     "id": "collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
-    "date": "2026-06-16",
+    "date": "2026-06-17",
     "price": 160
   },
   {
     "id": "collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
-    "date": "2026-06-15",
+    "date": "2026-06-17",
     "price": 170
   },
   {
@@ -341,7 +341,7 @@
   },
   {
     "id": "adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo",
-    "date": "2026-06-18",
+    "date": "2026-06-17",
     "price": 500
   },
   {
@@ -386,7 +386,7 @@
   },
   {
     "id": "nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
-    "date": "2026-06-19",
+    "date": "2026-06-01",
     "price": 120
   },
   {
@@ -416,12 +416,67 @@
   },
   {
     "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
-    "date": "2026-07-01",
+    "date": "2026-07-02",
     "price": 180
   },
   {
     "id": "nike-air-max-95-big-bubble-7-eleven",
     "date": "2026-07-10",
     "price": 190
+  },
+  {
+    "id": "new-balance-9060-beige-grey",
+    "date": "2026-06-15",
+    "price": 190
+  },
+  {
+    "id": "new-balance-1906-wmns-steel-grey-silver",
+    "date": "2026-06-15",
+    "price": 160
+  },
+  {
+    "id": "new-balance-2010-black",
+    "date": "2026-06-15",
+    "price": 170
+  },
+  {
+    "id": "new-balance-2010-sea-salt",
+    "date": "2026-06-15",
+    "price": 170
+  },
+  {
+    "id": "new-balance-2010-neptune-grey",
+    "date": "2026-06-15",
+    "price": 170
+  },
+  {
+    "id": "new-balance-2010-harbor-grey",
+    "date": "2026-06-15",
+    "price": 170
+  },
+  {
+    "id": "new-balance-t500-wmns-bisque-gum",
+    "date": "2026-06-15",
+    "price": 130
+  },
+  {
+    "id": "new-balance-2010-pink-chalk-sea-salt",
+    "date": "2026-06-15",
+    "price": 170
+  },
+  {
+    "id": "new-balance-1906r-pink-chalk",
+    "date": "2026-06-15",
+    "price": 160
+  },
+  {
+    "id": "new-balance-1906r-grey-white",
+    "date": "2026-06-15",
+    "price": 160
+  },
+  {
+    "id": "new-balance-1906r-white-arid-stone",
+    "date": "2026-06-15",
+    "price": 160
   }
 ]
