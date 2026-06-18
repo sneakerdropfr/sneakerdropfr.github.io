@@ -1736,7 +1736,8 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "adidas-originals-x-liberty-london-wmns-samba-og-maroon-warm-vanilla",
@@ -1798,7 +1799,10 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Adidas Samba",
+    "colorway": "MAROON",
+    "year": 2026
   },
   {
     "id": "adidas-adizero-adios-pro-4-footwear-white-fucid-red-shock-purple",
@@ -1825,7 +1829,10 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Adidas Adizero",
+    "colorway": "White/Red/Purple",
+    "year": 2026
   },
   {
     "id": "nike-air-force-1-low-retro-heat-map-ib6834-001",
@@ -1845,7 +1852,9 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
@@ -1865,7 +1874,10 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1",
+    "colorway": "Blue",
+    "year": 2026
   },
   {
     "id": "converse-x-collina-strada-chuck-70-black-black-black-a19049c",
@@ -1892,7 +1904,10 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Converse X",
+    "colorway": "BLACK",
+    "year": 2026
   },
   {
     "id": "converse-x-collina-strada-chuck-70-xxhi-black-black-black",
@@ -1919,7 +1934,10 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Converse X",
+    "colorway": "BLACK",
+    "year": 2026
   },
   {
     "id": "collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
@@ -1946,7 +1964,10 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Converse Chuck",
+    "colorway": "YELLOW",
+    "year": 2026
   },
   {
     "id": "collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
@@ -1973,7 +1994,10 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Converse Chuck",
+    "colorway": "Rose",
+    "year": 2026
   },
   {
     "id": "peaceminusone-x-nike-cryoshot-ctr360-team-south-korea",
@@ -2014,7 +2038,9 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": true
+    "featured": true,
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "slawn-x-nike-cryoshot-striker-1976-natural-white-black-ii9933-100",
@@ -2055,7 +2081,10 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Cryoshot",
+    "colorway": "Natural/White/Black",
+    "year": 2026
   },
   {
     "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
@@ -2103,7 +2132,10 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Cryoshot",
+    "colorway": "University Gold/Black",
+    "year": 2026
   },
   {
     "id": "off-white-nike-cryoshot-virgil-abloh-archives-2026",
@@ -2144,7 +2176,10 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Cryoshot",
+    "colorway": "White",
+    "year": 2026
   },
   {
     "id": "nike-kd19-field-purple-ih1117-500",
@@ -2171,7 +2206,9 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Field Purple",
+    "year": 2026
   },
   {
     "id": "adidas-harden-vol10-clear-cyan",
@@ -2205,7 +2242,9 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "CYAN",
+    "year": 2026
   },
   {
     "id": "new-balance-991v2-mahogany-rose-u991rb2",
@@ -2246,7 +2285,9 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Rose",
+    "year": 2026
   },
   {
     "id": "new-balance-991v2-sea-grass-u991bb2",
@@ -2273,7 +2314,8 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "nike-air-max-goadome-low-sp-black-pale-lemon",
@@ -2293,7 +2335,9 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black",
+    "year": 2026
   },
   {
     "id": "adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo",
@@ -2305,7 +2349,10 @@
     "image_url": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro_evo3_white_KH7678.webp",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo-kh7678",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "silhouette": "Adidas Adizero",
+    "colorway": "White/Black",
+    "year": 2026
   },
   {
     "id": "nike-vomero-premium-black-rush-violet-volt-glow-ir2168-002",
@@ -2317,7 +2364,9 @@
     "image_url": "https://sneakerdropfr.fr/images/nike_vomero_premium_black_violet_IR2168-002.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-vomero-premium-black-rush-violet-ir2168-002",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Violet/Volt",
+    "year": 2026
   },
   {
     "id": "adidas-adistar-mld-grey-three-grey-grey-two",
@@ -2329,7 +2378,9 @@
     "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_grey_KH8334.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-grey-kh8334",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Grey",
+    "year": 2026
   },
   {
     "id": "adidas-adistar-mld-earth-strata-kh6407",
@@ -2341,7 +2392,8 @@
     "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_earth_strata_KH6407.webp",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-earth-strata-kh6407",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-light-graphite-paisley",
@@ -2353,7 +2405,9 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-95-paisley-ir0802-100-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-light-graphite-paisley-ir0802-100",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "air-jordan-1-retro-high-og-wmns-workwear",
@@ -2401,7 +2455,9 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Jordan 1",
+    "year": 2026
   },
   {
     "id": "nike-total-90-shox-magia-wmns-shy-pink-university-red",
@@ -2413,7 +2469,9 @@
     "image_url": "https://sneakerdropfr.fr/images/nike_t90_shox_magia_shy_pink_IQ5683-601.webp",
     "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-shy-pink-iq5683-601",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Pink/University Red",
+    "year": 2026
   },
   {
     "id": "forget-me-nots-x-nike-total-90-shox-magia-wmns-green-gusto-black",
@@ -2425,7 +2483,9 @@
     "image_url": "https://sneakerdropfr.fr/images/nike_t90_shox_magia_green_gusto_IQ5683-300.webp",
     "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-green-gusto-black-iq5683-300",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Green/Black",
+    "year": 2026
   },
   {
     "id": "air-jordan-5-retro-black-university-blue-dd0587-008",
@@ -2452,7 +2512,10 @@
         "priceCurrency": "EUR"
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Jordan 5",
+    "colorway": "Black/University Blue",
+    "year": 2026
   },
   {
     "id": "nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
@@ -2464,7 +2527,9 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-glam-rock-pack.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "new-balance-1890-wmns-linen-punch-yellow",
@@ -2476,7 +2541,9 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890-linen-punch-yellow-U18901IU-7.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-wmns-linen-punch-yellow-u18901iu",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Yellow",
+    "year": 2026
   },
   {
     "id": "new-balance-1890-outerspace",
@@ -2488,7 +2555,8 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-1890-outerspace-u189052j-6.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-outerspace-u189052j",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "cdg-nike-ld-1000-spirit-pink-iu7936-001",
@@ -2500,7 +2568,9 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/comme-des-garcons-black-nike-ld-1000-black-white-spirit-pink-IU7936-001-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/cdg-nike-ld-1000-spirit-pink-iu7936-001",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Pink",
+    "year": 2026
   },
   {
     "id": "new-balance-204l-sea-salt-u204lsc",
@@ -2512,7 +2582,8 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-204l-sea-salt-u204lsc",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "new-balance-2010-sandstone-grey-u201079x",
@@ -2524,7 +2595,9 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-sandstone-grey-u201079x",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Grey",
+    "year": 2026
   },
   {
     "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
@@ -2536,7 +2609,9 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-joga-bonito-r9-ix8646-001",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Metallic Silver/Varsity Royal",
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-big-bubble-7-eleven",
@@ -2548,7 +2623,9 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-7-11-ir1944-100-5.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-7-eleven-ir1944-102",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "new-balance-9060-beige-grey",
