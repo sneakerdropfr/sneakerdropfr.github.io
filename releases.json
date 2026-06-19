@@ -1,5 +1,49 @@
 [
   {
+    "id": "randy-moss-jordan-super-freak-og-returns-spring-2027",
+    "title": "Randy Moss’ Jordan Super Freak “OG”",
+    "brand": "Jordan Brand",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jordan-super-freak-og-white-black-purple-2027-JA7049-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=jordan trainer&amp;vst=jordan trainer",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-08T22:05:07.902187+00:00",
+    "year": 2027,
+    "featured": false
+  },
+  {
+    "id": "jalen-brunson-x-nike-kobe-5-protro-ny-vs-ny-releases-july-20",
+    "title": "Jalen Brunson x Nike Kobe 5 Protro “NY vs NY”",
+    "brand": "Nike",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jalen-brunson-nike-kobe-5-protro-ny-vs-ny-menta-blue-glow-orange-horizon-IX1200-300-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-08T07:53:01.249520+00:00",
+    "silhouette": "Kobe 5",
+    "year": 2026,
+    "featured": false
+  },
+  {
+    "id": "nike-cryoshot-tiempo-legend-r10-white-metallic-gold-releases",
+    "title": "Nike Cryoshot Tiempo Legend R10 “White Metallic Gold”",
+    "brand": "Nike",
+    "colorway": "White/Metallic Gold",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/nike-cryoshot-tiempo-legend-r10-white-metallic-gold-IQ8164-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-08T07:10:51.838692+00:00",
+    "silhouette": "Cryoshot",
+    "year": 2026,
+    "featured": false
+  },
+  {
     "id": "nike-mind-002-flyknit-qs-pure-platinum",
     "title": "Nike Mind 002 Flyknit QS \"Pure Platinum\"",
     "brand": "Nike",
@@ -17,7 +61,9 @@
     ],
     "hype_score": 72,
     "silhouette": "Nike Mind 002",
-    "year": 2026
+    "year": 2026,
+    "image_url": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/IR2176-100_A_PREM.jpg",
+    "featured": false
   },
   {
     "id": "palace-nike-cryoshot-air-speed-m-black-crimson-white",
@@ -38,7 +84,9 @@
     "hype_score": 90,
     "silhouette": "Nike Cryoshot",
     "year": 2026,
-    "colorway": "Black/Crimson/White"
+    "colorway": "Black/Crimson/White",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/palace-skateboards-nike-cryoshot-air-speed-m-IM0702-001-1.jpg",
+    "featured": false
   },
   {
     "id": "adidas-samba-mule-woven-crew-white",
@@ -59,7 +107,9 @@
     "hype_score": 68,
     "silhouette": "adidas Samba",
     "year": 2026,
-    "colorway": "White"
+    "colorway": "White",
+    "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/adidas-samba-mule-woven-crew-white-kh7719.png",
+    "featured": false
   },
   {
     "id": "jacquemus-nike-cryoshot-tiempo-r10-white-sport-royal",
@@ -80,7 +130,9 @@
     "hype_score": 88,
     "silhouette": "Nike Cryoshot",
     "year": 2026,
-    "colorway": "White/Royal"
+    "colorway": "White/Royal",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/jacquemus-nike-cryoshot-tiempo-r10-IO0619-100-2.jpg",
+    "featured": false
   },
   {
     "id": "new-balance-1300-made-in-usa-slate-grey",
@@ -108,7 +160,9 @@
     "hype_score": 70,
     "silhouette": "New Balance 1300",
     "year": 2026,
-    "colorway": "Grey"
+    "colorway": "Grey",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-1300-made-in-usa-slate-grey-U13007PT-2.jpg",
+    "featured": false
   },
   {
     "id": "new-balance-992-made-in-usa-shadow-grey",
@@ -136,7 +190,9 @@
     "hype_score": 75,
     "silhouette": "New Balance 992",
     "year": 2026,
-    "colorway": "Grey"
+    "colorway": "Grey",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-992-made-in-usa-shadow-grey-turtle-dove-black-top-U9927WX-1.jpg",
+    "featured": false
   },
   {
     "id": "nike-air-max-95-big-bubble-woven-multi",
@@ -157,7 +213,9 @@
     "hype_score": 78,
     "silhouette": "Air Max 95",
     "year": 2026,
-    "colorway": "Multi"
+    "colorway": "Multi",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-air-max-95-woven-multi-color-IB3695-100-1.jpg",
+    "featured": false
   },
   {
     "id": "willy-chavarria-adidas-megaride-ag-xl-black-red",
@@ -178,7 +236,9 @@
     "hype_score": 70,
     "silhouette": "adidas Megaride",
     "year": 2026,
-    "colorway": "Black/Red"
+    "colorway": "Black/Red",
+    "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/chavarria-ag-xl-black-red.webp",
+    "featured": false
   },
   {
     "id": "willy-chavarria-adidas-megaride-copa-mundial-core-black",
@@ -206,7 +266,9 @@
     "hype_score": 75,
     "silhouette": "adidas Megaride",
     "year": 2026,
-    "colorway": "Black"
+    "colorway": "Black",
+    "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/chavarria-copa-mundial-core-black.webp",
+    "featured": false
   },
   {
     "id": "willy-chavarria-adidas-megaride-low-bones-cream-white",
@@ -227,7 +289,9 @@
     "hype_score": 72,
     "silhouette": "adidas Megaride",
     "year": 2026,
-    "colorway": "Cream/White"
+    "colorway": "Cream/White",
+    "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/chavarria-low-bones-cream-white.webp",
+    "featured": false
   },
   {
     "id": "joe-freshgoods-nb-1890-naughty-things",
@@ -254,7 +318,9 @@
     ],
     "hype_score": 80,
     "silhouette": "New Balance 1890",
-    "year": 2026
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/joe-freshgoods-new-balance-1890-release-date.jpg",
+    "featured": false
   },
   {
     "id": "joe-freshgoods-nb-1890-finger-waves",
@@ -274,7 +340,9 @@
     ],
     "hype_score": 82,
     "silhouette": "New Balance 1890",
-    "year": 2026
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/joe-freshgoods-new-balance-1890-release-date.jpg",
+    "featured": false
   },
   {
     "id": "nike-mind-001-mineral-slate",
@@ -294,7 +362,9 @@
     ],
     "hype_score": 60,
     "silhouette": "Nike Mind 001",
-    "year": 2026
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/nike-mind-001-mineral-slate-hq4307-300-1.jpg",
+    "featured": false
   },
   {
     "id": "nike-mind-001-backened-blue",
@@ -315,7 +385,9 @@
     "hype_score": 58,
     "silhouette": "Nike Mind 001",
     "year": 2026,
-    "colorway": "Blue"
+    "colorway": "Blue",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-mind-001-blackened-blue-HQ4307-400.jpg",
+    "featured": false
   },
   {
     "id": "nike-mind-001-wmns-barely-green",
@@ -336,7 +408,9 @@
     "hype_score": 65,
     "silhouette": "Nike Mind 001",
     "year": 2026,
-    "colorway": "Green"
+    "colorway": "Green",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-mind-001-barely-green-hq4309-300.jpg",
+    "featured": false
   },
   {
     "id": "nike-mind-002-wmns-light-violet-ore",
@@ -357,7 +431,9 @@
     "hype_score": 55,
     "silhouette": "Nike Mind 002",
     "year": 2026,
-    "colorway": "Violet"
+    "colorway": "Violet",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2025/12/nike-mind-002-light-violet-ore-hq4310-200-5.jpg",
+    "featured": false
   },
   {
     "id": "nike-mind-002-thunder-blue",
@@ -378,7 +454,9 @@
     "hype_score": 60,
     "silhouette": "Nike Mind 002",
     "year": 2026,
-    "colorway": "Blue"
+    "colorway": "Blue",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-mind-002-thunder-blue-hq4308-400-10.jpg",
+    "featured": false
   },
   {
     "id": "nike-mind-002-wmns-football-grey",
@@ -399,7 +477,9 @@
     "hype_score": 55,
     "silhouette": "Nike Mind 002",
     "year": 2026,
-    "colorway": "Grey"
+    "colorway": "Grey",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-mind-002-football-grey-hydrogen-blue-hyper-crimson-hq4310-002.jpg",
+    "featured": false
   },
   {
     "id": "jordan-x-nigel-sylvester-jordan-4-retro-sp-hf4099-100",
@@ -411,7 +491,7 @@
     "price": 200,
     "currency": "EUR",
     "release_type": "online",
-    "image_url": "",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-4-spotlight-HV0823-002-1.jpg",
     "retailers": [
       {
         "name": "Solebox",
@@ -423,7 +503,8 @@
     ],
     "hype_score": 82,
     "silhouette": "Air Jordan 4",
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "air-jordan-12-retro-bloodline-130690-001",
@@ -435,7 +516,7 @@
     "price": 210,
     "currency": "EUR",
     "release_type": "online",
-    "image_url": "",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2021/06/Air-Jordan-12-Playoffs-2022.jpg",
     "retailers": [
       {
         "name": "Solebox",
@@ -447,7 +528,8 @@
     ],
     "hype_score": 78,
     "silhouette": "Air Jordan 12",
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "nike-air-max-90-og-infrared-ct1039-100",
@@ -459,7 +541,7 @@
     "price": 150,
     "currency": "EUR",
     "release_type": "online",
-    "image_url": "",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2020/07/Nike-Air-Force-1-Worldwide-Pack-DA1343-117-6.jpg",
     "retailers": [
       {
         "name": "Solebox",
@@ -471,7 +553,8 @@
     ],
     "hype_score": 75,
     "silhouette": "Air Max 90",
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "nike-air-max-90-wave-pack-cz4222-001",
@@ -495,7 +578,9 @@
     ],
     "hype_score": 65,
     "silhouette": "Air Max 90",
-    "year": 2026
+    "year": 2026,
+    "article_url": "https://sneakerdropfr.fr/sorties/nike-air-max-90-wave-pack-dm0029-022.html",
+    "featured": false
   },
   {
     "id": "air-jordan-5-retro-og-white-metallic-136027-130",
@@ -507,7 +592,7 @@
     "price": 200,
     "currency": "EUR",
     "release_type": "online",
-    "image_url": "",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2015/04/releasing-this-weekend-april-4th-2015.jpg",
     "retailers": [
       {
         "name": "Solebox",
@@ -519,7 +604,8 @@
     ],
     "hype_score": 80,
     "silhouette": "Air Jordan 5",
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "air-jordan-4-retro-iced-carmine-dv7028-116",
@@ -531,7 +617,7 @@
     "price": 210,
     "currency": "EUR",
     "release_type": "online",
-    "image_url": "",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-3-neo-pink-IX6149-100-2.jpg",
     "retailers": [
       {
         "name": "Snipes",
@@ -550,7 +636,8 @@
     ],
     "hype_score": 72,
     "silhouette": "Air Jordan 4",
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "air-jordan-3-retro-og-worlds-best-dad-dv7028-101",
@@ -581,7 +668,8 @@
     ],
     "hype_score": 70,
     "silhouette": "Air Jordan 3",
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "air-jordan-4-retro-toro-bravo-fq8138-600",
@@ -593,7 +681,7 @@
     "price": 210,
     "currency": "EUR",
     "release_type": "raffle",
-    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/air-jordan-4-toro-bravo-release-date-2026.png",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-4-toro-bravo-release-date-1.jpg",
     "retailers": [
       {
         "name": "Solebox",
@@ -612,64 +700,106 @@
     ],
     "hype_score": 85,
     "silhouette": "Air Jordan 4",
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
-    "title": "Air Jordan 6 Low GS “China Rose” Releases Fall 2026",
-    "brand": "Sneaker Files",
+    "title": "Air Jordan 6 Low GS “China Rose”",
+    "brand": "Jordan Brand",
     "colorway": "Rose",
-    "date": "TBD",
-    "price": null,
+    "date": "2026-09-30",
+    "price": 145,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/air-jordan-6-low-white-china-rose-pink-foam-IQ5976-100-1024x725.jpg",
     "buy_url": "https://www.nike.com/w?q=air jordan 6&amp;vst=air jordan 6",
     "source": "Sneaker Files",
     "added_at": "2026-06-07T06:35:18.797561+00:00",
     "silhouette": "Air Jordan 6",
-    "year": 2026
+    "year": 2026,
+    "sku": "IQ5976-100",
+    "name": "Air Jordan 6 Low GS China Rose",
+    "featured": false
   },
   {
     "id": "nike-cryoshot-mercurial-vapor-r9-varsity-royal-releases-summ",
-    "title": "Nike Cryoshot Mercurial Vapor R9 “Varsity Royal” Releases Summer 2026",
-    "brand": "Sneaker Files",
+    "title": "Nike Cryoshot Mercurial Vapor R9 “Varsity Royal”",
+    "brand": "Nike",
     "colorway": "Varsity Royal",
-    "date": "TBD",
-    "price": "$210",
+    "date": "2026-06-30",
+    "price": 210,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/nike-cryoshot-mercurial-vapor-r9-IQ8160-400-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch/upcoming",
     "source": "Sneaker Files",
     "added_at": "2026-06-04T08:01:49.307035+00:00",
     "silhouette": "Cryoshot",
-    "year": 2026
+    "year": 2026,
+    "sku": "IQ8160-400",
+    "name": "Nike Cryoshot Mercurial Vapor R9 Varsity Royal",
+    "featured": false
   },
   {
     "id": "air-jordan-3-white-cement-returns-summer-2027",
-    "title": "Air Jordan 3 “White Cement” Returns Summer 2027",
-    "brand": "Sneaker Files",
+    "title": "Air Jordan 3 “White Cement”",
+    "brand": "Jordan Brand",
     "colorway": "White",
-    "date": "TBD",
+    "date": "2027-06-01",
     "price": null,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/03/air-jordan-3-white-cement-2027-1024x725.jpg",
     "buy_url": "https://www.nike.com/w?q=air jordan 3&amp;vst=air jordan 3",
     "source": "Sneaker Files",
     "added_at": "2026-06-02T23:04:45.339657+00:00",
     "silhouette": "Air Jordan 3",
-    "year": 2027
+    "year": 2027,
+    "name": "Air Jordan 3 OG White Cement 2027",
+    "featured": false
   },
   {
     "id": "patta-x-nike-cryoshot-mercurial-vapor-r9-releases-june-2026",
     "title": "Patta x Nike Cryoshot Mercurial Vapor R9",
-    "brand": "Sneaker Files",
+    "brand": "Nike",
     "colorway": "Metallic Silver/Black/Anthracite/Hyper Crimson",
-    "date": "TBD",
-    "price": "$210",
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/patta-nike-cryoshot-mercurial-vapor-r9-IM0589-001-1024x725.jpg",
+    "date": "2026-06-16",
+    "price": 200,
+    "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/patta-cryoshot-metallic-silver.webp",
     "buy_url": null,
     "source": "Sneaker Files",
     "added_at": "2026-06-01T21:45:43.779948+00:00",
     "silhouette": "Cryoshot",
     "year": 2026,
-    "restocks": []
+    "restocks": [],
+    "sku": "IM0589-001",
+    "name": "Patta x Nike Cryoshot Mercurial Vapor R9",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "END.",
+        "url": "https://www.endclothing.com/ie/nike-x-patta-netherlands-cryo-shot-sneaker-im0589-001.html",
+        "price": 215,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-cryoshot-mercurial-vapor-r9-patta?country=FR&currencyCode=EUR&size=3.5",
+        "price": 247,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-x-patta-cryoshot-mercurial-vapor-r9-world-cup-pack-2026?destination=datafeed",
+        "price": 295,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/patta-x-nike-cryoshot-mercurial-metallic-silver-im0589-001",
+        "price": 298,
+        "priceCurrency": "EUR"
+      }
+    ]
   },
   {
     "id": "new-balance-5030-black-silver",
@@ -723,7 +853,8 @@
     "restocks": [],
     "colorway": "Black Silver",
     "year": 2026,
-    "silhouette": "New Balance 5030"
+    "silhouette": "New Balance 5030",
+    "featured": false
   },
   {
     "id": "nike-pegasus-premium-sp-black-sail",
@@ -732,7 +863,6 @@
     "date": "2026-06-01",
     "price": 210,
     "currency": "EUR",
-    "image": "https://statics.whentocop.fr/drops/20689/picture/000000_Nike-Pegasus-Premium-SP_Black-Sail-Sail_IR2166-001_img0-1000x1000.webp?width=1920&quality=75&format=auto",
     "retailers": [
       {
         "name": "Nike",
@@ -749,7 +879,7 @@
         "raffle": false
       }
     ],
-    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/nike-pegasus-premium-sp-black-sail-ir2166-001-1.jpg",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-pegasus-premium-sp-black-phantom.jpg",
     "sku": "IR2166-001",
     "sku_source": "manual",
     "sku_confidence": 100,
@@ -763,7 +893,8 @@
     "restocks": [],
     "colorway": "Black and Sail",
     "year": 2026,
-    "silhouette": "Pegasus"
+    "silhouette": "Pegasus",
+    "featured": false
   },
   {
     "id": "adidas-a-e-2-coral-red",
@@ -808,7 +939,8 @@
     "buy_url": "https://www.adidas.fr/chaussures-anthony-edwards-2/KJ1886.html",
     "colorway": "Coral Red",
     "year": 2026,
-    "silhouette": "A.E."
+    "silhouette": "A.E.",
+    "featured": false
   },
   {
     "id": "nike-pegasus-premium-sp-white-black",
@@ -817,7 +949,6 @@
     "date": "2026-06-01",
     "price": 210,
     "currency": "EUR",
-    "image": "https://statics.whentocop.fr/drops/20690/picture/000000_Nike-Pegasus-Premium-SP_White-Black_IR2166-102_img0-1000x1000.webp?width=1920&quality=75&format=auto",
     "retailers": [
       {
         "name": "Nike",
@@ -834,7 +965,7 @@
         "raffle": false
       }
     ],
-    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/nike-pegasus-premium-sp-white-black-ir2166-102-3.jpg",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-pegasus-premium-sp-black-phantom.jpg",
     "sku": "IR2166-102",
     "sku_source": "manual",
     "sku_confidence": 100,
@@ -848,7 +979,8 @@
     "restocks": [],
     "colorway": "White and Black",
     "year": 2026,
-    "silhouette": "Pegasus"
+    "silhouette": "Pegasus",
+    "featured": false
   },
   {
     "id": "adidas-adizero-evo-sl-exo-cloud-white-black-grey",
@@ -895,14 +1027,15 @@
     "restocks": [],
     "colorway": "Core White / Utility Black / Grey Two",
     "year": 2026,
-    "silhouette": "Adizero"
+    "silhouette": "Adizero",
+    "featured": false
   },
   {
     "id": "bape-x-adidas-adizero-evo-sl-white-gold-pink-blue",
     "title": "Bape x Adidas Adizero Evo SL White Gold Pink Blue",
     "brand": "Adidas",
     "date": "2026-06-01",
-    "price": 200,
+    "price": 263,
     "currency": "EUR",
     "image": "https://statics.whentocop.fr/media/DIeKK1RWZvK8/tmpbape-adidas-adizero-evo-sl-kj5751-06-1100x770-medium-1000x1000.webp?width=750&quality=75&format=auto",
     "retailers": [
@@ -929,7 +1062,8 @@
     "restocks": [],
     "colorway": "White Gold Pink Blue",
     "year": 2026,
-    "silhouette": "Adizero"
+    "silhouette": "Adizero",
+    "featured": false
   },
   {
     "id": "mcdonald-s-x-nike-book-2-sedona-releases-june-2026",
@@ -974,7 +1108,8 @@
       }
     ],
     "year": 2026,
-    "silhouette": "Book"
+    "silhouette": "Book",
+    "featured": false
   },
   {
     "id": "nike-rift-2-kenya",
@@ -1049,7 +1184,8 @@
     "restocks": [],
     "colorway": "Black and Tm Dark Green",
     "year": 2026,
-    "silhouette": "Air Rift"
+    "silhouette": "Air Rift",
+    "featured": false
   },
   {
     "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
@@ -1104,7 +1240,8 @@
     ],
     "restocks": [],
     "year": 2026,
-    "silhouette": "Air Trainer"
+    "silhouette": "Air Trainer",
+    "featured": false
   },
   {
     "id": "nike-air-max-95-og-fresh-mint",
@@ -1165,7 +1302,8 @@
     "restocks": [],
     "colorway": "Black/White/Medium Grey/Fresh Mint",
     "year": 2026,
-    "silhouette": "Air Max 95"
+    "silhouette": "Air Max 95",
+    "featured": false
   },
   {
     "id": "renegade-x-nike-vomero-premium-brown-basalt",
@@ -1205,7 +1343,8 @@
     "restocks": [],
     "colorway": "Brown Basalt / Total Orange / Bronze Eclipse / Hyper Crimson",
     "year": 2026,
-    "silhouette": "Vomero"
+    "silhouette": "Vomero",
+    "featured": false
   },
   {
     "id": "renegade-x-nike-vaporfly-4-brown-basalt",
@@ -1245,7 +1384,8 @@
     "restocks": [],
     "colorway": "Brown Basalt / Bronze Eclipse / Burgundy Ash / Hyper Crimson",
     "year": 2026,
-    "silhouette": "Vaporfly"
+    "silhouette": "Vaporfly",
+    "featured": false
   },
   {
     "id": "nike-air-max-90-cool-grey",
@@ -1254,7 +1394,6 @@
     "date": "2026-06-04",
     "price": 160,
     "currency": "EUR",
-    "image": "https://statics.whentocop.fr/drops/20609/picture/000000_Nike-Air-Max-III_Cool-Grey-Infrared-23_IU7543-065_img0-1000x1000.webp?width=1920&quality=75&format=auto",
     "retailers": [
       {
         "name": "BSTN",
@@ -1287,7 +1426,7 @@
         "type": "resell"
       }
     ],
-    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nike-air-max-90-cool-grey-infrared-23-iu7543-065-1.jpg",
+    "image_url": "https://cdn.lesitedelasneaker.com/wp-content/images/2026/03/preview-nike-air-max-90-cool-grey-iu7543-065-2-1100x770.jpg",
     "sku": "IU7543-065",
     "sku_source": "manual",
     "sku_confidence": 100,
@@ -1302,7 +1441,8 @@
     "buy_url": "https://www.nike.com/fr/t/air-max-90-wave-pack-cool-grey-infrared/IU7543-065",
     "colorway": "Cool Grey and Laser Blue",
     "year": 2026,
-    "silhouette": "Air Max 90"
+    "silhouette": "Air Max 90",
+    "featured": false
   },
   {
     "id": "nike-mind-001-flyknit-bronze-eclipse",
@@ -1370,7 +1510,8 @@
     "restocks": [],
     "colorway": "Bronze Eclipse",
     "year": 2026,
-    "silhouette": "Mind"
+    "silhouette": "Mind",
+    "featured": false
   },
   {
     "id": "air-jordan-1-low-og-phantom-pine-green-releases-june-2026",
@@ -1425,14 +1566,15 @@
       }
     ],
     "year": 2026,
-    "silhouette": "Air Jordan 1 Low"
+    "silhouette": "Air Jordan 1 Low",
+    "featured": false
   },
   {
     "id": "adidas-tangum-white-power-green",
     "title": "Adidas Tangum White Power Green",
     "brand": "Adidas",
-    "date": "2026-06-05",
-    "price": 120,
+    "date": "2026-06-06",
+    "price": 115,
     "currency": "EUR",
     "image": "https://statics.whentocop.fr/drops/20706/picture/000000_adidas-Tangum_White-Power-Green_LA6570_img0-1000x1000.webp?width=750&quality=75&format=auto",
     "retailers": [
@@ -1495,14 +1637,15 @@
     "buy_url": "https://www.adidas.fr/chaussures-tangum/LA6570.html",
     "colorway": "Cloud White / Power Green / Off White",
     "year": 2026,
-    "silhouette": "Adidas Tangum"
+    "silhouette": "Adidas Tangum",
+    "featured": false
   },
   {
     "id": "adidas-sc-premiere-cloud-white-power-green",
     "title": "Adidas SC Premiere Cloud White Power Green",
     "brand": "Adidas",
-    "date": "2026-06-05",
-    "price": 140,
+    "date": "2026-06-06",
+    "price": 127,
     "currency": "EUR",
     "image": "https://statics.whentocop.fr/drops/20328/picture/000000_adidas-SC-Premiere_Cloud-White-Power-Green_KZ7196_img0-1000x1000.webp?width=750&quality=75&format=auto",
     "retailers": [
@@ -1565,7 +1708,1159 @@
     "buy_url": "https://www.adidas.fr/chaussures-sc-premiere/KZ7196.html",
     "colorway": "Cloud White / Power Green / Off White",
     "year": 2026,
-    "silhouette": "Adidas SC Premiere"
+    "silhouette": "Adidas SC Premiere",
+    "featured": false
+  },
+  {
+    "id": "nike-sb-paul-rodriguez-air-zoom-low-dodgers-iu7835-001",
+    "title": "Nike SB Paul Rodriguez Air Zoom Low Dodgers IU7835-001",
+    "brand": "Nike SB",
+    "date": "2026-06-15",
+    "price": 120,
+    "sku": "IU7835-001",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-sb-p-rod-1-flint-grey-deep-royal-blue-IU7835-001-2.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/paul-rodriguez-nike-sb-air-zoom-low-dodgers-iu7835-001",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-sb-zoom-air-paul-rodriguez-1-flint-grey?country=FR&currencyCode=EUR&size=4",
+        "price": 134,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/paul-rodriguez-x-nike-sb-air-zoom-low-dodgers-iu7835-001",
+        "price": 154,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "adidas-originals-x-liberty-london-wmns-samba-og-maroon-warm-vanilla",
+    "title": "adidas Originals x Liberty London WMNS Samba OG MAROON WARM VANILLA",
+    "brand": "Adidas",
+    "date": "2026-06-15",
+    "price": 123,
+    "sku": "KH9802",
+    "image_url": "https://cdn.lesitedelasneaker.com/wp-content/images/2026/06/liberty-london-adidas-samba-og-maroon-warm-vanilla-1.jpg.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/liberty-london-adidas-samba-og-wmns-maroon-warm-vanilla-kh9802",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/adidas-wmns-samba-liberty-kh9802",
+        "price": 106,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-samba-og-liberty-london-maroon-warm-vanilla-womens?country=FR&currencyCode=EUR",
+        "price": 122,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Schrittmacher",
+        "url": "https://schrittmacher-shop.com/products/adidas-samba-og-w-x-liberty-london-weinrot-kh9802",
+        "price": 129,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Footshop",
+        "url": "https://www.footshop.eu/en/womens-shoes/504409-adidas-x-liberty-london-samba-og-maroon-warm-vanilla-olive-strata.html",
+        "price": 130,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Afew",
+        "url": "https://de.afew-store.com/products/adidas-originals-samba-og-w-maroon-warvan-olistr",
+        "price": 130,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "FOOTDISTRICT",
+        "url": "https://footdistrict.com/fr/products/adidas-originals-x-liberty-london-womens-samba-og-kh9802",
+        "price": 130,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2F",
+        "price": 130,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "adidas-adizero-adios-pro-4-footwear-white-fucid-red-shock-purple",
+    "title": "Adidas Adizero Adios Pro 4 Footwear White Fucid Red Shock Purple",
+    "brand": "Adidas",
+    "date": "2026-06-15",
+    "price": 250,
+    "sku": "KZ9020",
+    "image_url": "",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-4-white-fucid-red-shock-purple-kz9020",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-adizero-adios-pro-4-white-lucid-red-shock-purple?country=FR&currencyCode=EUR",
+        "price": 211,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Foot Store",
+        "url": "https://www.awin1.com/pclick.php?p=45039254452&a=737541&m=55619",
+        "price": 250,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "nike-air-force-1-low-retro-heat-map-ib6834-001",
+    "title": "Nike Air Force 1 Low Retro HEAT MAP IB6834-001",
+    "brand": "Nike",
+    "date": "2026-06-30",
+    "price": 130,
+    "sku": "IB6834-001",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-air-force-1-low-heat-map-IB6834-001-1.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-heat-map-black-racer-blue-ib6834-001",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-retro-heat-map-black-racer-blue?country=FR&currencyCode=EUR",
+        "price": 141,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
+    "title": "Nike Air Force 1 Low Paisley Hydrogen Blue Io1259 400",
+    "brand": "Nike",
+    "date": "2026-06-30",
+    "price": 120,
+    "sku": "IO1259-400",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-paisley-suede.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-prm-paisley-hydrogen-blue-womens?country=FR&currencyCode=EUR",
+        "price": 123,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "converse-x-collina-strada-chuck-70-black-black-black-a19049c",
+    "title": "Converse x Collina Strada Chuck 70 BLACK BLACK BLACK A19049C",
+    "brand": "Converse",
+    "date": "2026-06-18",
+    "price": 160,
+    "sku": "A19049C",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-black-a19049c",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/converse-chuck-taylor-all-star-70-ox-collina-strada-black",
+        "price": 148,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/collina-strada-x-converse-chuck-70-black-a19049c",
+        "price": 343,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "converse-x-collina-strada-chuck-70-xxhi-black-black-black",
+    "title": "Converse x Collina Strada Chuck 70 XXHi BLACK BLACK BLACK",
+    "brand": "Converse",
+    "date": "2026-06-16",
+    "price": 260,
+    "sku": "A19050C",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-xxhi-black-a19050c",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/converse-chuck-taylor-all-star-70-xxhi-collina-strada-black?country=FR&currencyCode=EUR",
+        "price": 260,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/collina-strada-x-converse-chuck-70-xxhi-black-a19050c",
+        "price": 1083,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
+    "title": "Collina Strada x Converse Chuck 70 MELLOW YELLOW A22205C",
+    "brand": "Converse",
+    "date": "2026-06-18",
+    "price": 160,
+    "sku": "A22205C",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-mellow-yellow-a22205c",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/converse-chuck-taylor-all-star-70-ox-collina-strada-mellow-yellow",
+        "price": 159,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
+        "price": 454,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
+    "title": "Collina Strada Converse Chuck 70 High Mellow Rose A19047c",
+    "brand": "Converse",
+    "date": "2026-06-18",
+    "price": 170,
+    "sku": "A19047C",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/converse-chuck-taylor-all-star-70-hi-collina-strada-mellow-rose",
+        "price": 208,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/collina-strada-x-converse-chuck-70-high-mellow-rose-a19047c",
+        "price": 342,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "peaceminusone-x-nike-cryoshot-ctr360-team-south-korea",
+    "title": "Peaceminusone X Nike Cryoshot CTR360 Team South Korea",
+    "brand": "Nike",
+    "date": "2026-06-16",
+    "price": 200,
+    "sku": "HQ1460-100",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/peaceminusone-nike-cryoshot-ctr-360-korea-HQ1460-100.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/peaceminusone-nike-cryoshot-ctr360-team-south-korea-hq1460-100",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "END.",
+        "url": "https://www.endclothing.com/ie/nike-x-g-dragon-korea-cryo-shot-sneaker-hq1460-100.html",
+        "price": 215,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-x-peaceminusone-cryoshot-ctr360-maestri-ii-world-cup-pack-2026?destination=datafeed",
+        "price": 400,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-cryoshot-ctr360-maestri-ii-g-dragon-peaceminusone-natural-university-red?country=FR&currencyCode=EUR&size=4",
+        "price": 487,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/peaceminusone-x-nike-cryoshot-ctr360-maestri-ii-natural-university-red-hq1460-100",
+        "price": 1766,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "slawn-x-nike-cryoshot-striker-1976-natural-white-black-ii9933-100",
+    "title": "Slawn x Nike Cryoshot Striker 1976 Natural White Black II9933-100",
+    "brand": "Nike",
+    "date": "2026-06-16",
+    "price": 200,
+    "sku": "II9933-100",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/jacquemus-nike-cryoshot-tiempo-r10-IO0619-100-2.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/slawn-x-nike-cryoshot-striker-1976-natural-white-black-ii9933-100",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 200,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-cryoshot-striker-1976-slawn?country=FR&currencyCode=EUR",
+        "price": 366,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-x-slawn-x-nigeria-cryoshot-striker-1976-natural-and-white-world-cup-pack-2026",
+        "price": 550,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/slawn-x-nike-cryoshot-nigeria-ii9933-100",
+        "price": 1769,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
+    "title": "Nocta X Nike Cryoshot Tiempo University Gold Black",
+    "brand": "Nike",
+    "date": "2026-06-16",
+    "price": 200,
+    "sku": "IM0703-700",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/jacquemus-nike-cryoshot-tiempo-r10-IO0619-100-2.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nocta-nike-cryoshot-tiempo-university-gold-black-im0703-700",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com",
+        "price": 200,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "END.",
+        "url": "https://www.endclothing.com/ie/nike-x-nocta-canada-cryo-shot-sneaker-im0703-700.html",
+        "price": 215,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/nocta-x-nike-cryoshot-tiempo-94-university-gold-im0703-700",
+        "price": 232,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-cryoshot-tiempo-94-nocta?country=FR&currencyCode=EUR",
+        "price": 253,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-x-nocta-x-canada-cryoshot-tiempo-94-university-gold-world-cup-pack-2026",
+        "price": 300,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "off-white-nike-cryoshot-virgil-abloh-archives-2026",
+    "title": "Off White Nike Cryoshot Virgil Abloh Archives 2026",
+    "brand": "Nike",
+    "date": "2026-06-16",
+    "price": 200,
+    "sku": "IM3886-100",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/vaa-nike-cryoshot-zoom-m9-IM3886-100-1.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/off-white-nike-cryoshot-virgil-abloh-archives-im3886-100",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "END.",
+        "url": "https://www.endclothing.com/ie/nike-x-arch-usa-cryo-shot-sneaker-im3886-100.html",
+        "price": 215,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-cryoshot-zoom-m9-virgil-abloh-archives?country=FR&currencyCode=EUR",
+        "price": 236,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/nike-x-virgil-abloh-x-usa-archives-cryoshot-tiempo-94-white-and-university-red-world-cup-pack-2026",
+        "price": 326,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/virgil-abloh-archive-x-nike-cryoshot-zoom-m9-white-im3886-100",
+        "price": 333,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "nike-kd19-field-purple-ih1117-500",
+    "title": "Nike KD19 Field Purple IH1117-500",
+    "brand": "Nike",
+    "date": "2026-06-17",
+    "price": 160,
+    "sku": "IH1117-500",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/drake-kevin-durant-nike-kd-19-yes-man-7.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-kd19-field-purple-ih1117-500",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-kd-19-field-purple?country=FR&currencyCode=EUR",
+        "price": 135,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/nike-kd-19-field-purple-ih1117-500",
+        "price": 181,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "adidas-harden-vol10-clear-cyan",
+    "title": "adidas Harden Vol.10 CLEAR CYAN",
+    "brand": "Adidas",
+    "date": "2026-06-18",
+    "price": 160,
+    "sku": "KI1605",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-harden-vol-10-gold-black-KH9153-1.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-harden-vol10-clear-cyan-ki1605",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "FootDistrict",
+        "url": "https://footdistrict.com/fr/products/adidas-performance-harden-vol-10-clear-cyan-ki1605",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/adidas-harden-vol-10-clear-cyan-ki1605",
+        "price": 154,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/adidas-harden-vol-10-clear-cyan",
+        "price": 262,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "new-balance-991v2-mahogany-rose-u991rb2",
+    "title": "New Balance 991v2 Mahogany Rose U991RB2",
+    "brand": "New Balance",
+    "date": "2026-06-18",
+    "price": 250,
+    "sku": "U991RB2",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-mahogany-rose-U991RB2-2.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-mahogany-rose-u991rb2",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Slam Jam",
+        "url": "https://slamjam.com/en-fr/products/new-balance-footwear-u991rb2-pink-j353206",
+        "price": 250,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Calicoclubstore",
+        "url": "https://calicoclubstore.com/shop/products/new-balance-u991-rb2?source=webgains",
+        "price": 250,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/new-balance-991v2-mahogany-rose-u991rb2",
+        "price": 273,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-mahogany-rose?country=FR&currencyCode=EUR&size=4",
+        "price": 286,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "new-balance-991v2-sea-grass-u991bb2",
+    "title": "New Balance 991v2 Sea Grass U991BB2",
+    "brand": "New Balance",
+    "date": "2026-06-18",
+    "price": 250,
+    "sku": "U991BB2",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-sea-grass-u991bb2-2.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-sea-grass-u991bb2",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-sea-grass?country=FR&currencyCode=EUR&size=7",
+        "price": 428,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/new-balance-991v2-made-in-uk-seaglass-u991bb2",
+        "price": 566,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "nike-air-max-goadome-low-sp-black-pale-lemon",
+    "title": "Nike Air Max Goadome Low SP - Black Pale Lemon",
+    "brand": "Nike",
+    "date": "2026-06-18",
+    "price": 185,
+    "sku": "IR2173-001",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-goadome-low-sp-black-ir2173-001-1.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-goadome-low-black-ir2173-001",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-max-goadome-low-sp-black-metallic-silver-pale-citron",
+        "price": 251,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo",
+    "title": "Adidas Adizero Adios Pro Evo 3 Cloud White Core Black Solar Turbo",
+    "brand": "Adidas",
+    "date": "2026-06-18",
+    "price": 500,
+    "sku": "KH7678",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/adidas-adios-evo-pro-3-london-marathon-3.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo-kh7678",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "nike-vomero-premium-black-rush-violet-volt-glow-ir2168-002",
+    "title": "Nike Vomero Premium Black Rush Violet Volt Glow IR2168-002",
+    "brand": "Nike",
+    "date": "2026-06-19",
+    "price": 220,
+    "sku": "IR2168-002",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-vomero-premium-IR2168-002-2.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-vomero-premium-black-rush-violet-ir2168-002",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "adidas-adistar-mld-grey-three-grey-grey-two",
+    "title": "Adidas Adistar Mld Grey Three Grey Grey Two",
+    "brand": "Adidas",
+    "date": "2026-06-19",
+    "price": 120,
+    "sku": "KH8334",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-adistar-mld-summer-2026.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-grey-kh8334",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "adidas-adistar-mld-earth-strata-kh6407",
+    "title": "adidas Adistar MLD Earth Strata KH6407",
+    "brand": "Adidas",
+    "date": "2026-06-19",
+    "price": 120,
+    "sku": "KH6407",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-adistar-mld-summer-2026.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-earth-strata-kh6407",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "nike-air-max-95-light-graphite-paisley",
+    "title": "Nike Air Max 95 Light Graphite Paisley",
+    "brand": "Nike",
+    "date": "2026-06-19",
+    "price": 190,
+    "sku": "IR0802-100",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-95-paisley-ir0802-100-1.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-light-graphite-paisley-ir0802-100",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "air-jordan-1-retro-high-og-wmns-workwear",
+    "title": "Air Jordan 1 Retro High Og Wmns Workwear",
+    "brand": "Jordan Brand",
+    "date": "2026-06-19",
+    "price": 180,
+    "sku": "FD2596-201",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-1-workwear-FD2596-201.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-retro-high-og-wmns-workwear-fd2596-201",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/air-jordan-wmns-1-retro-high-og-khaki-fd2596-201",
+        "price": 99,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-high-og-khaki-womens?country=FR&currencyCode=EUR&size=5W",
+        "price": 111,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Slam Jam",
+        "url": "https://slamjam.com/en-fr/products/nike-jordan-footwear-air-jordan-1-retro-high-og-womens-shoes-multicolor-j356657",
+        "price": 180,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "FOOTDISTRICT",
+        "url": "https://footdistrict.com/fr/products/air-jordan-womens-1-retro-hi-og-khaki-fd2596-201?utm_source=webgains",
+        "price": 180,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/product/new/air-jordan-1-high-og-khaki-sail-2026?destination=datafeed",
+        "price": 266,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "nike-total-90-shox-magia-wmns-shy-pink-university-red",
+    "title": "Nike Total 90 Shox Magia Wmns Shy Pink University Red",
+    "brand": "Nike",
+    "date": "2026-06-20",
+    "price": 150,
+    "sku": "IQ5683-601",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-shy-pink-iq5683-601",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "forget-me-nots-x-nike-total-90-shox-magia-wmns-green-gusto-black",
+    "title": "Forget Me Nots X Nike Total 90 Shox Magia Wmns Green Gusto Black",
+    "brand": "Nike",
+    "date": "2026-06-20",
+    "price": 150,
+    "sku": "IQ5683-300",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-green-gusto-black-iq5683-300",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "air-jordan-5-retro-black-university-blue-dd0587-008",
+    "title": "Air Jordan 5 Retro Black University Blue DD0587-008",
+    "brand": "Jordan Brand",
+    "date": "2026-06-20",
+    "price": 220,
+    "sku": "DD0587-008",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-5-black-university-blue-release-date-1.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-5-retro-black-university-blue-dd0587-008",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/air-jordan-5-retro-black-university-blue-2026-dd0587-008",
+        "price": 250,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/air-jordan-5-retro-black-university-blue-2026?country=FR&currencyCode=EUR&size=7",
+        "price": 254,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
+    "title": "Nike Air Force 1 Low Glam Rock Bold Berry Ib6843 002",
+    "brand": "Nike",
+    "date": "2026-06-01",
+    "price": 120,
+    "sku": "IB6843-002",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-glam-rock-pack.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "new-balance-1890-wmns-linen-punch-yellow",
+    "title": "New Balance 1890 Wmns Linen Punch Yellow",
+    "brand": "New Balance",
+    "date": "2026-06-25",
+    "price": 190,
+    "sku": "U18901IU",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890-linen-punch-yellow-U18901IU-7.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-wmns-linen-punch-yellow-u18901iu",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "new-balance-1890-outerspace",
+    "title": "New Balance 1890 Outerspace",
+    "brand": "New Balance",
+    "date": "2026-06-25",
+    "price": 190,
+    "sku": "U189052J",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-1890-outerspace-u189052j-6.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-outerspace-u189052j",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "cdg-nike-ld-1000-spirit-pink-iu7936-001",
+    "title": "Cdg Nike Ld 1000 Spirit Pink Iu7936 001",
+    "brand": "Nike",
+    "date": "2026-06-30",
+    "price": 110,
+    "sku": "IU7936-001",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/comme-des-garcons-black-nike-ld-1000-black-white-spirit-pink-IU7936-001-1.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/cdg-nike-ld-1000-spirit-pink-iu7936-001",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "new-balance-204l-sea-salt-u204lsc",
+    "title": "New Balance 204L Sea Salt U204LSC",
+    "brand": "New Balance",
+    "date": "2026-07-01",
+    "price": 130,
+    "sku": "U204LSC",
+    "image_url": "",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-204l-sea-salt-u204lsc",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "new-balance-2010-sandstone-grey-u201079x",
+    "title": "New Balance 2010 Sandstone Grey U201079X",
+    "brand": "New Balance",
+    "date": "2026-07-01",
+    "price": 170,
+    "sku": "U201079X",
+    "image_url": "",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-sandstone-grey-u201079x",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
+    "title": "Nike Air Max Joga Bonito R9 Metallic Silver Varsity Royal",
+    "brand": "Nike",
+    "date": "2026-07-02",
+    "price": 180,
+    "sku": "IX8646-001",
+    "image_url": "https://cdn.lesitedelasneaker.com/wp-content/images/2026/06/nike-air-max-joga-bonito-r9-release-date-2026-1100x1101.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-joga-bonito-r9-ix8646-001",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "nike-air-max-95-big-bubble-7-eleven",
+    "title": "Nike Air Max 95 Big Bubble 7-ELEVEN",
+    "brand": "Nike",
+    "date": "2026-07-11",
+    "price": 190,
+    "sku": "IR1944-102",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-7-11-ir1944-100-5.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-7-eleven-ir1944-102",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "new-balance-9060-beige-grey",
+    "title": "New Balance 9060 \"Beige Grey\"",
+    "brand": "New Balance",
+    "sku": "U9060152",
+    "date": "2026-06-15",
+    "price": 190,
+    "silhouette": "New Balance 9060",
+    "year": 2026,
+    "colorway": "Beige Grey",
+    "image_url": "",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 190,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 190,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-1906-wmns-steel-grey-silver",
+    "title": "New Balance 1906 WMNS \"Steel Grey Silver\"",
+    "brand": "New Balance",
+    "sku": "U19066AT",
+    "date": "2026-06-15",
+    "price": 160,
+    "silhouette": "New Balance 1906",
+    "year": 2026,
+    "colorway": "Steel Grey Silver",
+    "image_url": "",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 160,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-2010-black",
+    "title": "New Balance 2010 \"Black\"",
+    "brand": "New Balance",
+    "sku": "U20107B1",
+    "date": "2026-06-15",
+    "price": 170,
+    "silhouette": "New Balance 2010",
+    "year": 2026,
+    "colorway": "Black",
+    "image_url": "",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 170,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-2010-sea-salt",
+    "title": "New Balance 2010 \"Sea Salt\"",
+    "brand": "New Balance",
+    "sku": "U20106OK",
+    "date": "2026-06-15",
+    "price": 170,
+    "silhouette": "New Balance 2010",
+    "year": 2026,
+    "colorway": "Sea Salt",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-2010-sea-salt-black-cement-u20106ok-2.jpg",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 170,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-2010-neptune-grey",
+    "title": "New Balance 2010 \"Neptune Grey\"",
+    "brand": "New Balance",
+    "sku": "U20107SQ",
+    "date": "2026-06-15",
+    "price": 170,
+    "silhouette": "New Balance 2010",
+    "year": 2026,
+    "colorway": "Neptune Grey",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-2010-neptune-grey-U20107SQ-2.jpg",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 170,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-2010-harbor-grey",
+    "title": "New Balance 2010 \"Harbor Grey\"",
+    "brand": "New Balance",
+    "sku": "U20103EJ",
+    "date": "2026-06-15",
+    "price": 170,
+    "silhouette": "New Balance 2010",
+    "year": 2026,
+    "colorway": "Harbor Grey",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-2010-harbor-grey-U20103EJ-2.jpg",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 170,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-t500-wmns-bisque-gum",
+    "title": "New Balance T500 WMNS \"Bisque Gum\"",
+    "brand": "New Balance",
+    "sku": "U50075U",
+    "date": "2026-06-15",
+    "price": 130,
+    "silhouette": "New Balance T500",
+    "year": 2026,
+    "colorway": "Bisque Gum",
+    "image_url": "",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 130,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-2010-pink-chalk-sea-salt",
+    "title": "New Balance 2010 \"Pink Chalk Sea Salt\"",
+    "brand": "New Balance",
+    "sku": "U20106PT",
+    "date": "2026-06-15",
+    "price": 170,
+    "silhouette": "New Balance 2010",
+    "year": 2026,
+    "colorway": "Pink Chalk Sea Salt",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-2010-pink-chalk-sea-salt-u20106pt-2.jpg",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 170,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 170,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-1906r-pink-chalk",
+    "title": "New Balance 1906R \"Pink Chalk\"",
+    "brand": "New Balance",
+    "sku": "U19063FT",
+    "date": "2026-06-15",
+    "price": 160,
+    "silhouette": "New Balance 1906",
+    "year": 2026,
+    "colorway": "Pink Chalk",
+    "image_url": "",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 160,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-1906r-grey-white",
+    "title": "New Balance 1906R \"Grey White\"",
+    "brand": "New Balance",
+    "sku": "U190671F",
+    "date": "2026-06-15",
+    "price": 160,
+    "silhouette": "New Balance 1906",
+    "year": 2026,
+    "colorway": "Grey White",
+    "image_url": "",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 160,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "new-balance-1906r-white-arid-stone",
+    "title": "New Balance 1906R \"White Arid Stone\"",
+    "brand": "New Balance",
+    "sku": "U1906980",
+    "date": "2026-06-15",
+    "price": 160,
+    "silhouette": "New Balance 1906",
+    "year": 2026,
+    "colorway": "White Arid Stone",
+    "image_url": "",
+    "status": "available",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/fr/",
+        "price": 160,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2F",
+        "price": 160,
+        "priceCurrency": "EUR"
+      }
+    ]
   },
   {
     "id": "adidas-powerphase-cloud-white-power-green",
