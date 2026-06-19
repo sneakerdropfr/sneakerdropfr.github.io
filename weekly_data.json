@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "week_start": "15/06/2026",
   "week_end": "21/06/2026",
   "generated_at": "2026-06-19T22:38:19.664535+00:00",
@@ -9,6 +10,20 @@
       "date": "2026-06-15",
       "price": "120EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-sb-p-rod-1-flint-grey-deep-royal-blue-IU7835-001-2.jpg",
+=======
+  "week_start": "08/06/2026",
+  "week_end": "14/06/2026",
+  "releases": [
+    {
+      "name": "Nike Mind 002 Flyknit QS \"Pure Platinum\"",
+      "brand": "Nike",
+      "date": "12/06/2026",
+      "price": "140 €",
+      "image": "",
+      "id": "nike-mind-002-flyknit-qs-pure-platinum",
+      "buy_url": "",
+      "wtc_url": "",
+>>>>>>> Stashed changes
       "retailers": [
         {
           "@type": "Offer",
@@ -25,6 +40,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
       "id": "nike-sb-paul-rodriguez-air-zoom-low-dodgers-iu7835-001",
       "sku": "IU7835-001",
       "brand": "Nike SB",
@@ -37,6 +53,20 @@
       "date": "2026-06-15",
       "price": "123EUR",
       "image_url": "https://cdn.lesitedelasneaker.com/wp-content/images/2026/06/liberty-london-adidas-samba-og-maroon-warm-vanilla-1.jpg.webp",
+=======
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Palace x Nike Cryoshot Air Speed M \"Black Crimson White\"",
+      "brand": "Nike",
+      "date": "12/06/2026",
+      "price": "200 €",
+      "image": "",
+      "id": "palace-nike-cryoshot-air-speed-m-black-crimson-white",
+      "buy_url": "",
+      "wtc_url": "",
+>>>>>>> Stashed changes
       "retailers": [
         {
           "@type": "Offer",
@@ -538,6 +568,7 @@
         {
           "@type": "Offer",
           "name": "Nike SNKRS",
+<<<<<<< Updated upstream
           "url": "https://www.nike.com/fr/launch",
           "price": 200,
           "priceCurrency": "EUR"
@@ -555,6 +586,173 @@
           "url": "https://www.klekt.com/product/new/nike-x-slawn-x-nigeria-cryoshot-striker-1976-natural-and-white-world-cup-pack-2026",
           "price": 550,
           "priceCurrency": "EUR"
+=======
+          "url": "https://www.nike.com/fr/launch/",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "adidas Samba Mule Woven \"Crew White\"",
+      "brand": "Adidas",
+      "date": "12/06/2026",
+      "price": "110 €",
+      "image": "",
+      "id": "adidas-samba-mule-woven-crew-white",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.adidas.fr/",
+          "price": "110€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Jacquemus x Nike Cryoshot Tiempo R10 \"White Sport Royal\"",
+      "brand": "Nike",
+      "date": "11/06/2026",
+      "price": "200 €",
+      "image": "",
+      "id": "jacquemus-nike-cryoshot-tiempo-r10-white-sport-royal",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch/",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "New Balance 1300 Made in USA \"Slate Grey\"",
+      "brand": "New Balance",
+      "date": "11/06/2026",
+      "price": "210 €",
+      "image": "",
+      "id": "new-balance-1300-made-in-usa-slate-grey",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "210€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.bstn.com/fr/",
+          "price": "210€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "New Balance 992 Made in USA \"Shadow Grey\"",
+      "brand": "New Balance",
+      "date": "11/06/2026",
+      "price": "230 €",
+      "image": "",
+      "id": "new-balance-992-made-in-usa-shadow-grey",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "230€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.bstn.com/fr/",
+          "price": "230€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Air Max 95 Big Bubble \"Woven Multi\"",
+      "brand": "Nike",
+      "date": "11/06/2026",
+      "price": "200 €",
+      "image": "",
+      "id": "nike-air-max-95-big-bubble-woven-multi",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Willy Chavarria x adidas Megaride AG XL \"Black Red\"",
+      "brand": "Adidas",
+      "date": "10/06/2026",
+      "price": "220 €",
+      "image": "",
+      "id": "willy-chavarria-adidas-megaride-ag-xl-black-red",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.adidas.fr/",
+          "price": "220€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Willy Chavarria x adidas Megaride Copa Mundial \"Core Black\"",
+      "brand": "Adidas",
+      "date": "10/06/2026",
+      "price": "220 €",
+      "image": "",
+      "id": "willy-chavarria-adidas-megaride-copa-mundial-core-black",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.adidas.fr/",
+          "price": "220€",
+          "resell": false,
+          "raffle": false
+>>>>>>> Stashed changes
         },
         {
           "@type": "Offer",
@@ -580,9 +778,58 @@
         {
           "@type": "Offer",
           "name": "BSTN",
+<<<<<<< Updated upstream
           "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com",
           "price": 200,
           "priceCurrency": "EUR"
+=======
+          "url": "https://www.bstn.com/fr/",
+          "price": "220€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Willy Chavarria x adidas Megaride Low Bones \"Cream White\"",
+      "brand": "Adidas",
+      "date": "10/06/2026",
+      "price": "220 €",
+      "image": "",
+      "id": "willy-chavarria-adidas-megaride-low-bones-cream-white",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.adidas.fr/",
+          "price": "220€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Joe Freshgoods x New Balance 1890 \"Naughty Things\"",
+      "brand": "New Balance",
+      "date": "09/06/2026",
+      "price": "210 €",
+      "image": "",
+      "id": "joe-freshgoods-nb-1890-naughty-things",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "210€",
+          "resell": false,
+          "raffle": false
+>>>>>>> Stashed changes
         },
         {
           "@type": "Offer",
@@ -613,11 +860,16 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
       "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
       "sku": "IM0703-700",
       "brand": "Nike",
       "source": "releases.json",
       "link": "https://sneakerdropfr.fr/sorties/nocta-x-nike-cryoshot-tiempo-university-gold-black.html"
+=======
+      "resell": "",
+      "stock": ""
+>>>>>>> Stashed changes
     },
     {
       "type": "release",
@@ -847,6 +1099,7 @@
       "id": "new-balance-991v2-mahogany-rose-u991rb2",
       "sku": "U991RB2",
       "brand": "New Balance",
+<<<<<<< Updated upstream
       "source": "releases.json",
       "link": "https://sneakerdropfr.fr/sorties/new-balance-991v2-mahogany-rose-u991rb2.html"
     },
@@ -856,6 +1109,14 @@
       "date": "2026-06-18",
       "price": "250EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-991v2-sea-grass-u991bb2-2.jpg",
+=======
+      "date": "09/06/2026",
+      "price": "210 €",
+      "image": "",
+      "id": "joe-freshgoods-nb-1890-finger-waves",
+      "buy_url": "",
+      "wtc_url": "",
+>>>>>>> Stashed changes
       "retailers": [
         {
           "@type": "Offer",
@@ -872,6 +1133,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
       "id": "new-balance-991v2-sea-grass-u991bb2",
       "sku": "U991BB2",
       "brand": "New Balance",
@@ -884,6 +1146,20 @@
       "date": "2026-06-18",
       "price": "185EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-goadome-low-sp-black-ir2173-001-1.jpg",
+=======
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 001 \"Mineral Slate\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "90 €",
+      "image": "",
+      "id": "nike-mind-001-mineral-slate",
+      "buy_url": "",
+      "wtc_url": "",
+>>>>>>> Stashed changes
       "retailers": [
         {
           "@type": "Offer",
@@ -893,6 +1169,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
       "id": "nike-air-max-goadome-low-sp-black-pale-lemon",
       "sku": "IR2173-001",
       "brand": "Nike",
@@ -905,6 +1182,20 @@
       "date": "2026-06-18",
       "price": "500EUR",
       "image_url": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro_evo3_white_KH7678.webp",
+=======
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 001 \"Backened Blue\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "90 €",
+      "image": "",
+      "id": "nike-mind-001-backened-blue",
+      "buy_url": "",
+      "wtc_url": "",
+>>>>>>> Stashed changes
       "retailers": [
         {
           "@type": "Offer",
@@ -914,6 +1205,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
       "id": "adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo",
       "sku": "KH7678",
       "brand": "Adidas",
@@ -926,6 +1218,20 @@
       "date": "2026-06-19",
       "price": "220EUR",
       "image_url": "https://sneakerdropfr.fr/images/nike_vomero_premium_black_violet_IR2168-002.webp",
+=======
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 001 WMNS \"Barely Green\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "90 €",
+      "image": "",
+      "id": "nike-mind-001-wmns-barely-green",
+      "buy_url": "",
+      "wtc_url": "",
+>>>>>>> Stashed changes
       "retailers": [
         {
           "@type": "Offer",
@@ -935,6 +1241,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
       "id": "nike-vomero-premium-black-rush-violet-volt-glow-ir2168-002",
       "sku": "IR2168-002",
       "brand": "Nike",
@@ -947,6 +1254,20 @@
       "date": "2026-06-19",
       "price": "120EUR",
       "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_grey_KH8334.jpg",
+=======
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 002 WMNS \"Light Violet Ore\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140 €",
+      "image": "",
+      "id": "nike-mind-002-wmns-light-violet-ore",
+      "buy_url": "",
+      "wtc_url": "",
+>>>>>>> Stashed changes
       "retailers": [
         {
           "@type": "Offer",
@@ -956,6 +1277,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
       "id": "adidas-adistar-mld-grey-three-grey-grey-two",
       "sku": "KH8334",
       "brand": "Adidas",
@@ -968,6 +1290,20 @@
       "date": "2026-06-19",
       "price": "120EUR",
       "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_earth_strata_KH6407.webp",
+=======
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 002 \"Thunder Blue\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140 €",
+      "image": "",
+      "id": "nike-mind-002-thunder-blue",
+      "buy_url": "",
+      "wtc_url": "",
+>>>>>>> Stashed changes
       "retailers": [
         {
           "@type": "Offer",
@@ -977,6 +1313,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
       "id": "adidas-adistar-mld-earth-strata-kh6407",
       "sku": "KH6407",
       "brand": "Adidas",
@@ -989,6 +1326,20 @@
       "date": "2026-06-19",
       "price": "190EUR",
       "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-air-max-95-paisley-ir0802-100-1.jpg",
+=======
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 002 WMNS \"Football Grey\"",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140 €",
+      "image": "",
+      "id": "nike-mind-002-wmns-football-grey",
+      "buy_url": "",
+      "wtc_url": "",
+>>>>>>> Stashed changes
       "retailers": [
         {
           "@type": "Offer",
@@ -998,6 +1349,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
       "id": "nike-air-max-95-light-graphite-paisley",
       "sku": "IR0802-100",
       "brand": "Nike",
@@ -1059,6 +1411,46 @@
       "date": "2026-06-20",
       "price": "150EUR",
       "image_url": "https://sneakerdropfr.fr/images/nike_t90_shox_magia_shy_pink_IQ5683-601.webp",
+=======
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Air Max 1 City Connect “Baltimore Orioles”",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140 €",
+      "image": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-baltimore-orioles-IQ2894-100-1024x725.jpg",
+      "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
+      "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-baltimore-orioles/",
+      "wtc_url": "",
+      "retailers": [],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Air Max 1 City Connect “Kansas City Royals”",
+      "brand": "Nike",
+      "date": "09/06/2026",
+      "price": "140 €",
+      "image": "https://www.sneakerfiles.com/wp-content/uploads/2026/05/nike-air-max-1-city-connect-kansas-city-royal-IQ2916-100-1024x725.jpg",
+      "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
+      "buy_url": "https://www.sneakerfiles.com/nike-air-max-1-city-connect-kansas-city-royals/",
+      "wtc_url": "",
+      "retailers": [],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Air Jordan 3 \"Bin 23\"",
+      "brand": "Jordan Brand",
+      "date": "13/06/2026",
+      "price": "355 €",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/01/air-jordan-3-bin-23-io7744-600.webp",
+      "id": "air-jordan-3-bin-23-2026",
+      "buy_url": "",
+      "wtc_url": "",
+>>>>>>> Stashed changes
       "retailers": [
         {
           "@type": "Offer",
@@ -1105,9 +1497,114 @@
         {
           "@type": "Offer",
           "name": "GOAT",
+<<<<<<< Updated upstream
           "url": "https://www.goat.com/sneakers/air-jordan-5-retro-black-university-blue-2026-dd0587-008",
           "price": 250,
           "priceCurrency": "EUR"
+=======
+          "url": "https://www.goat.com/sneakers/air-jordan-3-retro-og-bin-23-io7744-600",
+          "price": "1349€"
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 001 White Speed Red",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "90 €",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nike-mind-001-white-speed-red-hq4307-101.webp",
+      "id": "nike-mind-001-white-speed-red",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "90€"
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 001 Light Smoke Grey",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "90 €",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2025/09/nike-mind-001-light-smoke-grey-hq4307-003-2.jpg",
+      "id": "nike-mind-001-light-smoke-grey",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "90€"
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike KD19 Orange Crush",
+      "brand": "Nike",
+      "date": "13/06/2026",
+      "price": "160 €",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/nike-kd-19-orange-crush-bright-ceramic-ih1117-800-release-date.webp",
+      "id": "nike-kd19-orange-crush",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "160€"
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 002 WMNS Sail Hyper Crimson",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140 €",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/03/nike-mind-002-sail-chalk-hq4310-100-4.webp",
+      "id": "nike-mind-002-wmns-sail-hyper-crimson",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "140€"
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 002 Light Smoke Grey",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140 €",
+      "image": "https://sneakernews.com/wp-content/uploads/2025/10/nike-mind-002-HQ4308-003-release-date-1.jpg",
+      "id": "nike-mind-002-light-smoke-grey",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/launch",
+          "price": "140€"
+        },
+        {
+          "name": "GOAT",
+          "url": "https://www.goat.com/sneakers/mind-002-light-smoke-grey-hq4308-003",
+          "price": "146€"
+>>>>>>> Stashed changes
         },
         {
           "@type": "Offer",
@@ -1117,6 +1614,7 @@
           "priceCurrency": "EUR"
         }
       ],
+<<<<<<< Updated upstream
       "id": "air-jordan-5-retro-black-university-blue-dd0587-008",
       "sku": "DD0587-008",
       "brand": "Jordan Brand",
@@ -1319,6 +1817,83 @@
       "discount": "-29%",
       "date": null,
       "summary": "En promo sur BSTN — -29%"
+=======
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 002 WMNS Light Smoke Grey",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140 €",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2025/10/nike-mind-002-light-smoke-grey-hq4308-003-4.jpg",
+      "id": "nike-mind-002-wmns-light-smoke-grey",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "140€"
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 002 Black Hyper Crimson",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "140 €",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2025/11/nike-mind-002-black-hyper-crimson-hq4308-001-3.jpg",
+      "id": "nike-mind-002-black-hyper-crimson",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/",
+          "price": "140€"
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Mind 001 WMNS Black Hyper Crimson",
+      "brand": "Nike",
+      "date": "08/06/2026",
+      "price": "90 €",
+      "image": "https://sneakernews.com/wp-content/uploads/2025/10/nike-mind-001-black-hyper-crimson-chrome-hq4307-001-1.jpg",
+      "id": "nike-mind-001-wmns-black-hyper-crimson",
+      "buy_url": "",
+      "wtc_url": "",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/launch",
+          "price": "90€"
+        },
+        {
+          "name": "StockX",
+          "url": "https://stockx.com/nike-mind-001-wmns-black-hyper-crimson",
+          "price": "138€"
+        },
+        {
+          "name": "GOAT",
+          "url": "https://www.goat.com/sneakers/mind-001-wmns-black-hyper-crimson-hq4309-001",
+          "price": "155€"
+        },
+        {
+          "name": "Klekt",
+          "url": "https://www.klekt.com/nike-mind-001",
+          "price": "160€"
+        }
+      ],
+      "resell": "",
+      "stock": ""
+>>>>>>> Stashed changes
     }
-  ]
+  ],
+  "promos": []
 }
