@@ -5874,7 +5874,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/19/adidas-don-issue-8-yin-yang-ki9284/",
     "added_at": "2026-06-19T23:37:10.174371+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI9284",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fki9284%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "jordan-luka-5-ignites-laser-fuchsia-hv8082-600",
@@ -5887,7 +5910,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/19/jordan-luka-5-laser-fuchsia-bleached-turquoise-fiberglass-hv8082-600/",
     "added_at": "2026-06-19T23:37:10.174795+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHV8082-600",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhv8082-600%2F",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "vans-charmed-life-continues-with-these-cardigan-slip-ons-vn000d9wrpk",
@@ -5900,7 +5946,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/19/vans-slip-on-cardigan-vn000d9wrpk-vn000d9wy28/",
     "added_at": "2026-06-19T23:37:10.177707+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000D9WRPK",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000d9wrpk%2F",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "vans-charmed-life-continues-with-these-cardigan-slip-ons-vn000d9wy28",
@@ -5913,7 +5982,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/19/vans-slip-on-cardigan-vn000d9wrpk-vn000d9wy28/",
     "added_at": "2026-06-19T23:37:10.177874+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000D9WY28",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000d9wy28%2F",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "soothing-vast-grey-covers-the-nike-mind-002-hq4308-100",
@@ -5926,7 +6018,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/19/nike-mind-002-white-vast-grey-anthracite-metallic-silver-hq4308-100/",
     "added_at": "2026-06-19T23:37:10.178033+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4308-100",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4308-100%2F",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "patent-leather-stays-in-play-on-the-nike-air-max-95-iv4680-010",
@@ -5939,7 +6054,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/19/nike-air-max-95-black-grey-fog-anthracite-football-blue-iv4680-010/",
     "added_at": "2026-06-19T23:37:10.178199+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV4680-010",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv4680-010%2F",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "adidas-harden-vol-10-wears-candy-paint-finishes-in-red-and-black-ki1604",
@@ -5952,6 +6090,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/19/adidas-harden-vol-10-red-black-pink-ki1604/",
     "added_at": "2026-06-19T23:37:10.178351+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI1604",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fki1604%2F",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
