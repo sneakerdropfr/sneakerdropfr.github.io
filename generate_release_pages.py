@@ -921,7 +921,13 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
         prefix = title
     max_base = 60 - len(suffix)
     if len(prefix) > max_base:
-        prefix = prefix[:max_base].rsplit(" ", 1)[0]
+        # Priorite 1 : retirer "Date de sortie " plutot que couper le nom du produit
+        if prefix.startswith("Date de sortie ") and len(title) <= max_base:
+            prefix = title
+        elif len(title) > max_base:
+            # Le titre seul est trop long : on le garde entier (Google tronquera proprement avec ...)
+            prefix = title
+        # sinon : prefix reste tel quel (legerement > 60 chars, accepte)
     meta_title = escape(prefix + suffix)
 
     jsonld_obj = {

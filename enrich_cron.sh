@@ -76,6 +76,48 @@ print(f'  {count} pages régénérées')
 " 2>&1 | while IFS= read -r line; do log "  $line"; done
 fi
 
+# ── 3.5. Nettoyage des pages orphelines (sans entrée dans releases.json/releases_past.json) ──
+log "Nettoyage des pages orphelines..."
+ORPHAN_OUTPUT=$(python3 -c "
+import json, os, glob, re
+
+repo = '${REPO_DIR}'
+releases = json.load(open(f'{repo}/releases.json'))
+try:
+    past = json.load(open(f'{repo}/releases_past.json'))
+except FileNotFoundError:
+    past = []
+
+valid_ids = {r['id'] for r in releases} | {r['id'] for r in past}
+
+html_files = glob.glob(f'{repo}/sorties/*.html')
+orphans = []
+for f in html_files:
+    file_id = os.path.basename(f).replace('.html', '')
+    if file_id not in valid_ids:
+        orphans.append(f)
+
+if orphans:
+    sitemap_path = f'{repo}/sitemap.xml'
+    sitemap = open(sitemap_path, encoding='utf-8').read()
+    for f in orphans:
+        os.remove(f)
+        file_id = os.path.basename(f).replace('.html', '')
+        pattern = rf'<url>\\s*<loc>https://sneakerdropfr\\.fr/sorties/{re.escape(file_id)}\\.html</loc>.*?</url>\\s*'
+        sitemap = re.sub(pattern, '', sitemap, flags=re.DOTALL)
+    open(sitemap_path, 'w', encoding='utf-8').write(sitemap)
+    print(f'{len(orphans)} pages orphelines supprimées + sitemap nettoyé')
+    CHANGED_MARKER = 1
+else:
+    print('Aucune page orpheline')
+    CHANGED_MARKER = 0
+print(f'__CHANGED__{CHANGED_MARKER}')
+" 2>&1)
+echo "$ORPHAN_OUTPUT" | grep -v "__CHANGED__" | while IFS= read -r line; do log "  $line"; done
+if echo "$ORPHAN_OUTPUT" | grep -q "__CHANGED__1"; then
+    CHANGED=1
+fi
+
 # ── 4. git add + commit + push si changements ───────────────────────────────
 if git diff --quiet && git diff --cached --quiet; then
     log "✓ Aucun changement à commiter"
