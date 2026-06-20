@@ -414,13 +414,13 @@ PAGE_TMPL = """<!DOCTYPE html>
   <title>{meta_title}</title>
   <meta name="description" content="{meta_desc}" />
   <link rel="canonical" href="{canonical}" />
-  <meta property="og:title" content="{title_html} — SneakerDrop FR" />
+  <meta property="og:title" content="{title_attr} — SneakerDrop FR" />
   <meta property="og:description" content="{og_desc}" />
   <meta property="og:image" content="{og_image}" />
   <meta property="og:url" content="{canonical}" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{title_html} — SneakerDrop FR" />
+  <meta name="twitter:title" content="{title_attr} — SneakerDrop FR" />
   <meta name="twitter:description" content="{og_desc}" />
   <meta name="twitter:image" content="{og_image}" />
   <script type="application/ld+json">{jsonld}</script>
@@ -876,7 +876,8 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
     image_url = (r.get("image_url") or "").strip()
     canonical = f"{SITE_BASE}/sorties/{rid}.html"
 
-    title_html = escape(title)
+    title_html = escape(title, quote=False)
+    title_attr = escape(title, quote=True)
     brand_html = escape(brand) if brand else "Sneakers"
     price_html = escape(price)
     meta_desc = escape(short_meta_desc(r), quote=True)
@@ -906,7 +907,7 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
     if image_url:
         img_tag = (
             '<img src="' + escape(image_url, quote=True) + '" '
-            f'alt="{title_html}" class="article__img" loading="lazy" '
+            f'alt="{title_attr}" class="article__img" loading="lazy" '
             'onerror="this.src=\'/assets/images/placeholder.svg\';this.style.opacity=\'0.5\'">'
         )
     else:
@@ -928,7 +929,7 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
             # Le titre seul est trop long : on le garde entier (Google tronquera proprement avec ...)
             prefix = title
         # sinon : prefix reste tel quel (legerement > 60 chars, accepte)
-    meta_title = escape(prefix + suffix)
+    meta_title = escape(prefix + suffix, quote=False)
 
     jsonld_obj = {
         "@context": "https://schema.org",
@@ -1001,6 +1002,7 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
     return PAGE_TMPL.format(
         meta_title=meta_title,
         title_html=title_html,
+        title_attr=title_attr,
         meta_desc=meta_desc,
         canonical=escape(canonical, quote=True),
         og_desc=og_desc,
