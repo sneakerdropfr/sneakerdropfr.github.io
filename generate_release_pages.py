@@ -965,6 +965,32 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
             offer_list.append(offer)
         if offer_list:
             offers = offer_list
+    elif r.get("restocks"):
+        # Fallback : utiliser les retailers du restock le plus recent
+        sorted_restocks = sorted(r["restocks"], key=lambda rs: rs.get("date","") or "0000", reverse=True)
+        if sorted_restocks:
+            latest_rets = sorted_restocks[0].get("retailers") or []
+            offer_list = []
+            for ret in latest_rets:
+                url = ret.get("url")
+                if not url:
+                    continue
+                offer = {
+                    "@type": "Offer",
+                    "url": url,
+                    "seller": {"@type": "Organization", "name": ret.get("name", "Retailer")},
+                    "availability": "https://schema.org/InStock",
+                }
+                p = ret.get("price")
+                if isinstance(p, str) and p:
+                    offer["price"] = re.sub(r"[^\d.,]", "", p).replace(",", ".") or None
+                    offer["priceCurrency"] = "EUR" if "€" in p else ("USD" if "$" in p else "EUR")
+                    if not offer["price"]:
+                        offer.pop("price", None)
+                        offer.pop("priceCurrency", None)
+                offer_list.append(offer)
+            if offer_list:
+                offers = offer_list
     elif r.get("buy_url"):
         offers = [{"@type": "Offer", "url": r["buy_url"]}]
     if offers:
