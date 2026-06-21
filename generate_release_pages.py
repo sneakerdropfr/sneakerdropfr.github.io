@@ -629,7 +629,7 @@ PAGE_TMPL = """<!DOCTYPE html>
           </div>
           <div style="padding:1.25rem 1.5rem">
             <h3 style="font-size:1rem;font-weight:700;margin-bottom:.5rem">Quel est le SKU de la {title_html} ?</h3>
-            <p style="color:var(--muted);font-size:.9rem">Le code produit officiel (SKU) de cette paire est {sku_html}. Ce code permet de l'identifier précisément chez tous les retailers.</p>
+            <p style="color:var(--muted);font-size:.9rem">Le code produit officiel (SKU) de cette paire est <strong>{sku_value}</strong>. Ce code permet de l'identifier précisément chez tous les retailers.</p>
           </div>
         </div>
       </section>
@@ -1029,6 +1029,7 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
         brand_html=brand_html,
         colorway_html=colorway_html,
         sku_html=sku_html,
+        sku_value=escape(sku) if sku else 'N/A',
         date_value=escape(release_window if date_fr == "TBD" and release_window else date_fr),
         silhouette_row=(
             f'<div class="article__info-row">'
