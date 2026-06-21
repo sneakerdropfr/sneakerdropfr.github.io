@@ -359,8 +359,12 @@
     }
 
     function renderData(data) {
-      var list = (data || []).filter(function(r){ return (r.retailers || []).some(function(rt){ return rt.raffle; }); })
-        .sort(function(a,b){ var da=a.date||'9999', db=b.date||'9999'; return da<db?-1:da>db?1:0; });
+      var today = new Date().toISOString().slice(0,10);
+      var list = (data || []).filter(function(r){
+        var hasRaffle = (r.retailers || []).some(function(rt){ return rt.raffle; });
+        var notPast = !r.date || r.date === 'TBD' || r.date >= today;
+        return hasRaffle && notPast;
+      }).sort(function(a,b){ var da=a.date||'9999', db=b.date||'9999'; return da<db?-1:da>db?1:0; });
       if (loading) loading.style.display = 'none';
       if (!list.length) { if (empty) empty.style.display = 'block'; return; }
       grid.innerHTML = list.map(renderRaffle).join('');
