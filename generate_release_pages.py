@@ -611,6 +611,7 @@ PAGE_TMPL = """<!DOCTYPE html>
       </div>
 
       {retailers_block}
+      {past_banner}
     {restocks_block}
 
       {related_block}
@@ -798,6 +799,22 @@ def restocks_html(r: dict) -> str:
         f'<div class="restocks-list">{"".join(items)}</div>'
         f'</section>'
     )
+
+def past_banner_html(r: dict) -> str:
+    """Bandeau 'epuisee' pour les paires de releases_past.json."""
+    if not r.get("past"):
+        return ""
+    title = escape(r.get("title", "").strip())
+    silhouette = escape((r.get("silhouette") or r.get("brand") or "").strip())
+    return (
+        f'<div style="background:#1a1a1a;border:1px solid var(--border);border-radius:12px;'
+        f'padding:1.25rem 1.5rem;margin-bottom:1.5rem;display:flex;align-items:center;gap:.75rem">'
+        f'<span style="font-size:1.3rem">\U0001F6AB</span>'
+        f'<div><strong style="color:#fff">Cette paire est epuisee.</strong> '
+        f'<span style="color:var(--muted)">Decouvrez les prochaines sorties {silhouette} ci-dessous.</span></div>'
+        f'</div>'
+    )
+
 
 def related_html(r: dict, all_releases: list) -> str:
     """Section Voir aussi — utilise similar_products en priorite, sinon meme marque."""
@@ -1030,6 +1047,7 @@ def render_page(r: dict, all_releases: list | None = None) -> str:
         editorial=editorial_text(r),
         retailers_block=retailers_html(r),
         restocks_block=restocks_html(r),
+        past_banner=past_banner_html(r),
         related_block=related_html(r, all_releases or []),
         release_id=escape(rid),
     )
