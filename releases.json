@@ -1,5 +1,76 @@
 [
   {
+    "id": "randy-moss-jordan-super-freak-og-returns-spring-2027",
+    "title": "Randy Moss’ Jordan Super Freak “OG”",
+    "brand": "Jordan Brand",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jordan-super-freak-og-white-black-purple-2027-JA7049-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=jordan trainer&amp;vst=jordan trainer",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-08T22:05:07.902187+00:00",
+    "year": 2027,
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "jalen-brunson-x-nike-kobe-5-protro-ny-vs-ny-releases-july-20",
+    "title": "Jalen Brunson x Nike Kobe 5 Protro “NY vs NY”",
+    "brand": "Nike",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jalen-brunson-nike-kobe-5-protro-ny-vs-ny-menta-blue-glow-orange-horizon-IX1200-300-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-08T07:53:01.249520+00:00",
+    "silhouette": "Kobe 5",
+    "year": 2026,
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "nike-cryoshot-tiempo-legend-r10-white-metallic-gold-releases",
+    "title": "Nike Cryoshot Tiempo Legend R10 “White Metallic Gold”",
+    "brand": "Nike",
+    "colorway": "White/Metallic Gold",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/nike-cryoshot-tiempo-legend-r10-white-metallic-gold-IQ8164-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-08T07:10:51.838692+00:00",
+    "silhouette": "Cryoshot",
+    "year": 2026,
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
     "id": "nike-mind-002-flyknit-qs-pure-platinum",
     "title": "Nike Mind 002 Flyknit QS \"Pure Platinum\"",
     "brand": "Nike",
@@ -1126,6 +1197,31 @@
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
         "price": "210€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-3-white-cement-returns-summer-2027",
+    "title": "Air Jordan 3 “White Cement”",
+    "brand": "Jordan Brand",
+    "colorway": "White",
+    "date": "2027-06-01",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/03/air-jordan-3-white-cement-2027-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=air jordan 3&amp;vst=air jordan 3",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-02T23:04:45.339657+00:00",
+    "silhouette": "Air Jordan 3",
+    "year": 2027,
+    "name": "Air Jordan 3 OG White Cement 2027",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
         "resell": false,
         "raffle": false
       }
@@ -2448,7 +2544,7 @@
   },
   {
     "id": "nike-sb-paul-rodriguez-air-zoom-low-dodgers-iu7835-001",
-    "title": "Nike SB Paul Rodriguez Air Zoom Low Dodgers",
+    "title": "Nike SB Paul Rodriguez Air Zoom Low Dodgers IU7835-001",
     "brand": "Nike SB",
     "date": "2026-06-15",
     "price": 120,
@@ -2570,7 +2666,7 @@
     "date": "2026-06-15",
     "price": 250,
     "sku": "KZ9020",
-    "image_url": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro4_white_red_KZ9020.webp",
+    "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-4-white-fucid-red-shock-purple-kz9020",
     "retailers": [
       {
@@ -2613,7 +2709,7 @@
   },
   {
     "id": "nike-air-force-1-low-retro-heat-map-ib6834-001",
-    "title": "Nike Air Force 1 Low Retro HEAT MAP",
+    "title": "Nike Air Force 1 Low Retro HEAT MAP IB6834-001",
     "brand": "Nike",
     "date": "2026-06-30",
     "price": 130,
@@ -2653,55 +2749,33 @@
     "featured": false
   },
   {
-    "id": "nike-air-force-1-low-paisley-hydrogen-blue",
-    "title": "Nike Air Force 1 Low Paisley Hydrogen Blue",
+    "id": "nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
+    "title": "Nike Air Force 1 Low Paisley Hydrogen Blue Io1259 400",
     "brand": "Nike",
     "date": "2026-06-30",
     "price": 120,
-    "colorway": "Hydrogen Blue",
-    "image_url": "https://sneakerdropfr.fr/images/nike_af1_low_paisley_hydrogen_blue_IO1259-400.webp",
     "sku": "IO1259-400",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-paisley-suede.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
     "retailers": [
       {
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/",
-        "price": "120€"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO1259-400",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio1259-400%2F",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-prm-paisley-hydrogen-blue-womens?country=FR&currencyCode=EUR",
+        "price": 123,
+        "priceCurrency": "EUR"
       }
     ],
-    "buy_url": "",
-    "hype_score": 60,
-    "silhouette": "Air Force 1",
-    "year": 2026
+    "featured": false
   },
   {
     "id": "converse-x-collina-strada-chuck-70-black-black-black-a19049c",
-    "title": "Converse x Collina Strada Chuck 70 BLACK BLACK BLACK",
+    "title": "Converse x Collina Strada Chuck 70 BLACK BLACK BLACK A19049C",
     "brand": "Converse",
     "date": "2026-06-18",
     "price": 160,
     "sku": "A19049C",
-    "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_black_A19049C.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-black-a19049c",
     "retailers": [
       {
@@ -2749,7 +2823,7 @@
     "date": "2026-06-16",
     "price": 260,
     "sku": "A19050C",
-    "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_xxhi_black_A19050C.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-xxhi-black-a19050c",
     "retailers": [
       {
@@ -2792,12 +2866,12 @@
   },
   {
     "id": "collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
-    "title": "Collina Strada x Converse Chuck 70 MELLOW YELLOW",
+    "title": "Collina Strada x Converse Chuck 70 MELLOW YELLOW A22205C",
     "brand": "Converse",
     "date": "2026-06-18",
     "price": 160,
     "sku": "A22205C",
-    "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_mellow_yellow_A22205C.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-mellow-yellow-a22205c",
     "retailers": [
       {
@@ -2840,12 +2914,12 @@
   },
   {
     "id": "collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
-    "title": "Collina Strada Converse Chuck 70 High Mellow Rose",
+    "title": "Collina Strada Converse Chuck 70 High Mellow Rose A19047c",
     "brand": "Converse",
     "date": "2026-06-18",
     "price": 170,
     "sku": "A19047C",
-    "image_url": "https://sneakerdropfr.fr/images/converse_collina_strada_chuck70_mellow_rose_A19047C.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/collina-strada-converse-chuck-70-release-date-9.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
     "retailers": [
       {
@@ -2950,7 +3024,7 @@
   },
   {
     "id": "slawn-x-nike-cryoshot-striker-1976-natural-white-black-ii9933-100",
-    "title": "Slawn x Nike Cryoshot Striker 1976 Natural White Black",
+    "title": "Slawn x Nike Cryoshot Striker 1976 Natural White Black II9933-100",
     "brand": "Nike",
     "date": "2026-06-16",
     "price": 200,
@@ -3010,7 +3084,7 @@
     "date": "2026-06-16",
     "price": 200,
     "sku": "IM0703-700",
-    "image_url": "https://sneakerdropfr.fr/images/nocta_nike_cryoshot_tiempo_gold_IM0703-700.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/jacquemus-nike-cryoshot-tiempo-r10-IO0619-100-2.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nocta-nike-cryoshot-tiempo-university-gold-black-im0703-700",
     "retailers": [
       {
@@ -3079,7 +3153,7 @@
     "date": "2026-06-16",
     "price": 200,
     "sku": "IM3886-100",
-    "image_url": "https://sneakerdropfr.fr/images/nike_cryoshot_offwhite_virgil_abloh_IM3886-100.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/vaa-nike-cryoshot-zoom-m9-IM3886-100-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/off-white-nike-cryoshot-virgil-abloh-archives-im3886-100",
     "retailers": [
       {
@@ -3135,70 +3209,31 @@
     "featured": false
   },
   {
-    "id": "nike-kd-19-field-purple-releases-june-2026",
-    "title": "Nike KD 19 “Field Purple”",
+    "id": "nike-kd19-field-purple-ih1117-500",
+    "title": "Nike KD19 Field Purple IH1117-500",
     "brand": "Nike",
-    "colorway": "Field Purple / Stadium Green / University Gold",
     "date": "2026-06-17",
-    "price": 145,
-    "image_url": "https://sneakerdropfr.fr/images/nike_kd19_field_purple_IH1117-500.webp",
-    "buy_url": null,
-    "source": "Sneaker Files",
-    "added_at": "2026-05-16T22:02:39.779561+00:00",
+    "price": 160,
     "sku": "IH1117-500",
-    "sku_source": "sneakerbardetroit",
-    "sku_confidence": "confirmed",
-    "hype_score": 10,
-    "similar_products": [
-      "virgil-abloh-x-nike-air-force-1-low-sesame",
-      "renegade-x-nike-vomero-premium-brown-basalt",
-      "renegade-x-nike-vaporfly-4-brown-basalt",
-      "nike-rift-2-kenya"
-    ],
-    "restocks": [
-      {
-        "date": "2026-06-19",
-        "retailers": [
-          {
-            "name": "BSTN",
-            "url": "https://www.awin1.com/pclick.php?p=45062331999&a=2855487&m=104979",
-            "price": "159,99€"
-          }
-        ]
-      }
-    ],
-    "year": 2026,
-    "silhouette": "KD",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/drake-kevin-durant-nike-kd-19-yes-man-7.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-kd19-field-purple-ih1117-500",
     "retailers": [
       {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-kd19-ih1117-500-0350446",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-kd-19-field-purple?country=FR&currencyCode=EUR",
+        "price": 135,
+        "priceCurrency": "EUR"
       },
       {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIH1117-500",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fih1117-500%2F",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/nike-kd-19-field-purple-ih1117-500",
+        "price": 181,
+        "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "adidas-harden-vol10-clear-cyan",
@@ -3257,7 +3292,7 @@
   },
   {
     "id": "new-balance-991v2-mahogany-rose-u991rb2",
-    "title": "New Balance 991v2 Mahogany Rose",
+    "title": "New Balance 991v2 Mahogany Rose U991RB2",
     "brand": "New Balance",
     "date": "2026-06-18",
     "price": 250,
@@ -3326,7 +3361,7 @@
   },
   {
     "id": "new-balance-991v2-sea-grass-u991bb2",
-    "title": "New Balance 991v2 Sea Grass",
+    "title": "New Balance 991v2 Sea Grass U991BB2",
     "brand": "New Balance",
     "date": "2026-06-18",
     "price": 250,
@@ -3420,7 +3455,7 @@
     "date": "2026-06-18",
     "price": 500,
     "sku": "KH7678",
-    "image_url": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro_evo3_white_KH7678.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/adidas-adios-evo-pro-3-london-marathon-3.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo-kh7678",
     "retailers": [
       {
@@ -3449,12 +3484,12 @@
   },
   {
     "id": "nike-vomero-premium-black-rush-violet-volt-glow-ir2168-002",
-    "title": "Nike Vomero Premium Black Rush Violet Volt Glow",
+    "title": "Nike Vomero Premium Black Rush Violet Volt Glow IR2168-002",
     "brand": "Nike",
     "date": "2026-06-19",
     "price": 220,
     "sku": "IR2168-002",
-    "image_url": "https://sneakerdropfr.fr/images/nike_vomero_premium_black_violet_IR2168-002.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-vomero-premium-IR2168-002-2.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-vomero-premium-black-rush-violet-ir2168-002",
     "retailers": [
       {
@@ -3488,7 +3523,7 @@
     "date": "2026-06-19",
     "price": 120,
     "sku": "KH8334",
-    "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_grey_KH8334.jpg",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-adistar-mld-summer-2026.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-grey-kh8334",
     "retailers": [
       {
@@ -3524,12 +3559,12 @@
   },
   {
     "id": "adidas-adistar-mld-earth-strata-kh6407",
-    "title": "adidas Adistar MLD Earth Strata",
+    "title": "adidas Adistar MLD Earth Strata KH6407",
     "brand": "Adidas",
     "date": "2026-06-19",
     "price": 120,
     "sku": "KH6407",
-    "image_url": "https://sneakerdropfr.fr/images/adidas_adistar_mld_earth_strata_KH6407.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-adistar-mld-summer-2026.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-mld-earth-strata-kh6407",
     "retailers": [
       {
@@ -3673,7 +3708,7 @@
     "date": "2026-06-20",
     "price": 150,
     "sku": "IQ5683-601",
-    "image_url": "https://sneakerdropfr.fr/images/nike_t90_shox_magia_shy_pink_IQ5683-601.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-shy-pink-iq5683-601",
     "retailers": [
       {
@@ -3707,7 +3742,7 @@
     "date": "2026-06-20",
     "price": 150,
     "sku": "IQ5683-300",
-    "image_url": "https://sneakerdropfr.fr/images/nike_t90_shox_magia_green_gusto_IQ5683-300.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/forget-me-nots-nike-t90-shox-magia.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/forget-me-nots-nike-total-90-shox-magia-wmns-green-gusto-black-iq5683-300",
     "retailers": [
       {
@@ -3736,12 +3771,12 @@
   },
   {
     "id": "air-jordan-5-retro-black-university-blue-dd0587-008",
-    "title": "Air Jordan 5 Retro Black University Blue",
+    "title": "Air Jordan 5 Retro Black University Blue DD0587-008",
     "brand": "Jordan Brand",
     "date": "2026-06-20",
     "price": 220,
     "sku": "DD0587-008",
-    "image_url": "https://sneakerdropfr.fr/images/air_jordan_5_black_university_blue_DD0587-008.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-5-black-university-blue-release-date-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-5-retro-black-university-blue-dd0587-008",
     "retailers": [
       {
@@ -3920,7 +3955,7 @@
   },
   {
     "id": "new-balance-204l-sea-salt-u204lsc",
-    "title": "New Balance 204L Sea Salt",
+    "title": "New Balance 204L Sea Salt U204LSC",
     "brand": "New Balance",
     "date": "2026-07-01",
     "price": 130,
@@ -3954,7 +3989,7 @@
   },
   {
     "id": "new-balance-2010-sandstone-grey-u201079x",
-    "title": "New Balance 2010 Sandstone Grey",
+    "title": "New Balance 2010 Sandstone Grey U201079X",
     "brand": "New Balance",
     "date": "2026-07-01",
     "price": 170,
@@ -4064,7 +4099,7 @@
     "silhouette": "New Balance 9060",
     "year": 2026,
     "colorway": "Beige Grey",
-    "image_url": "https://sneakerdropfr.fr/images/nb_9060_beige_grey_U9060152.webp",
+    "image_url": "",
     "status": "available",
     "retailers": [
       {
@@ -4107,7 +4142,7 @@
     "silhouette": "New Balance 1906",
     "year": 2026,
     "colorway": "Steel Grey Silver",
-    "image_url": "https://sneakerdropfr.fr/images/nb_1906r_steel_grey_U19066AT.webp",
+    "image_url": "",
     "status": "available",
     "retailers": [
       {
@@ -4150,7 +4185,7 @@
     "silhouette": "New Balance 2010",
     "year": 2026,
     "colorway": "Black",
-    "image_url": "https://sneakerdropfr.fr/images/nb_2010_black_U20107B1.webp",
+    "image_url": "",
     "status": "available",
     "retailers": [
       {
@@ -4193,7 +4228,7 @@
     "silhouette": "New Balance 2010",
     "year": 2026,
     "colorway": "Sea Salt",
-    "image_url": "https://sneakerdropfr.fr/images/nb_2010_sea_salt_U20106OK.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-2010-sea-salt-black-cement-u20106ok-2.jpg",
     "status": "available",
     "retailers": [
       {
@@ -4236,7 +4271,7 @@
     "silhouette": "New Balance 2010",
     "year": 2026,
     "colorway": "Neptune Grey",
-    "image_url": "https://sneakerdropfr.fr/images/nb_2010_neptune_grey_U20107SQ.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-2010-neptune-grey-U20107SQ-2.jpg",
     "status": "available",
     "retailers": [
       {
@@ -4279,7 +4314,7 @@
     "silhouette": "New Balance 2010",
     "year": 2026,
     "colorway": "Harbor Grey",
-    "image_url": "https://sneakerdropfr.fr/images/nb_2010_harbor_grey_U20103EJ.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-2010-harbor-grey-U20103EJ-2.jpg",
     "status": "available",
     "retailers": [
       {
@@ -4322,7 +4357,7 @@
     "silhouette": "New Balance T500",
     "year": 2026,
     "colorway": "Bisque Gum",
-    "image_url": "https://sneakerdropfr.fr/images/nb_t500_bisque_gum_U50075U.webp",
+    "image_url": "",
     "status": "available",
     "retailers": [
       {
@@ -4365,7 +4400,7 @@
     "silhouette": "New Balance 2010",
     "year": 2026,
     "colorway": "Pink Chalk Sea Salt",
-    "image_url": "https://sneakerdropfr.fr/images/nb_2010_pink_chalk_sea_salt_U20106PT.webp",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-2010-pink-chalk-sea-salt-u20106pt-2.jpg",
     "status": "available",
     "retailers": [
       {
@@ -4408,7 +4443,7 @@
     "silhouette": "New Balance 1906",
     "year": 2026,
     "colorway": "Pink Chalk",
-    "image_url": "https://sneakerdropfr.fr/images/nb_1906r_pink_chalk_U19063FT.webp",
+    "image_url": "",
     "status": "available",
     "retailers": [
       {
@@ -4451,7 +4486,7 @@
     "silhouette": "New Balance 1906",
     "year": 2026,
     "colorway": "Grey White",
-    "image_url": "https://sneakerdropfr.fr/images/nb_1906r_grey_white_U190671F.webp",
+    "image_url": "",
     "status": "available",
     "retailers": [
       {
@@ -4494,7 +4529,7 @@
     "silhouette": "New Balance 1906",
     "year": 2026,
     "colorway": "White Arid Stone",
-    "image_url": "https://sneakerdropfr.fr/images/nb_1906r_white_arid_U1906980.webp",
+    "image_url": "",
     "status": "available",
     "retailers": [
       {
@@ -4522,6 +4557,114 @@
         "name": "Solebox",
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu1906980%2F",
         "price": "160€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "nike-air-force-1-low-paisley-hydrogen-blue",
+    "title": "Nike Air Force 1 Low Paisley Hydrogen Blue",
+    "brand": "Nike",
+    "date": "2026-06-30",
+    "price": 120,
+    "colorway": "Hydrogen Blue",
+    "image_url": "https://sneakerdropfr.fr/images/nike_af1_low_paisley_hydrogen_blue_IO1259-400.webp",
+    "sku": "IO1259-400",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/",
+        "price": "120€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO1259-400",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio1259-400%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "buy_url": "",
+    "hype_score": 60,
+    "silhouette": "Air Force 1",
+    "year": 2026
+  },
+  {
+    "id": "nike-kd-19-field-purple-releases-june-2026",
+    "title": "Nike KD 19 “Field Purple”",
+    "brand": "Nike",
+    "colorway": "Field Purple / Stadium Green / University Gold",
+    "date": "2026-06-17",
+    "price": 145,
+    "image_url": "https://sneakerdropfr.fr/images/nike_kd19_field_purple_IH1117-500.webp",
+    "buy_url": null,
+    "source": "Sneaker Files",
+    "added_at": "2026-05-16T22:02:39.779561+00:00",
+    "sku": "IH1117-500",
+    "sku_source": "sneakerbardetroit",
+    "sku_confidence": "confirmed",
+    "hype_score": 10,
+    "similar_products": [
+      "virgil-abloh-x-nike-air-force-1-low-sesame",
+      "renegade-x-nike-vomero-premium-brown-basalt",
+      "renegade-x-nike-vaporfly-4-brown-basalt",
+      "nike-rift-2-kenya"
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-19",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45062331999&a=2855487&m=104979",
+            "price": "159,99€"
+          }
+        ]
+      }
+    ],
+    "year": 2026,
+    "silhouette": "KD",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-kd19-ih1117-500-0350446",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIH1117-500",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fih1117-500%2F",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€",
         "resell": false,
         "raffle": false
       }
@@ -6028,101 +6171,5 @@
     ],
     "colorway": "Red/Black",
     "year": 2026
-  },
-  {
-    "id": "randy-moss-jordan-super-freak-og-returns-spring-2027",
-    "title": "Randy Moss’ Jordan Super Freak “OG”",
-    "brand": "Jordan Brand",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jordan-super-freak-og-white-black-purple-2027-JA7049-100-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w?q=jordan trainer&amp;vst=jordan trainer",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-08T22:05:07.902187+00:00",
-    "year": 2027,
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "jalen-brunson-x-nike-kobe-5-protro-ny-vs-ny-releases-july-20",
-    "title": "Jalen Brunson x Nike Kobe 5 Protro “NY vs NY”",
-    "brand": "Nike",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jalen-brunson-nike-kobe-5-protro-ny-vs-ny-menta-blue-glow-orange-horizon-IX1200-300-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-08T07:53:01.249520+00:00",
-    "silhouette": "Kobe 5",
-    "year": 2026,
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-cryoshot-tiempo-legend-r10-white-metallic-gold-releases",
-    "title": "Nike Cryoshot Tiempo Legend R10 “White Metallic Gold”",
-    "brand": "Nike",
-    "colorway": "White/Metallic Gold",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/nike-cryoshot-tiempo-legend-r10-white-metallic-gold-IQ8164-100-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-08T07:10:51.838692+00:00",
-    "silhouette": "Cryoshot",
-    "year": 2026,
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "air-jordan-3-white-cement-returns-summer-2027",
-    "title": "Air Jordan 3 “White Cement”",
-    "brand": "Jordan Brand",
-    "colorway": "White",
-    "date": "2027-06-01",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/03/air-jordan-3-white-cement-2027-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w?q=air jordan 3&amp;vst=air jordan 3",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-02T23:04:45.339657+00:00",
-    "silhouette": "Air Jordan 3",
-    "year": 2027,
-    "name": "Air Jordan 3 OG White Cement 2027",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
   }
 ]
