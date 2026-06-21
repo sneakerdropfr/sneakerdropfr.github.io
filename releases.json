@@ -1021,7 +1021,7 @@
     "date": "2026-05-30",
     "price": 210,
     "currency": "EUR",
-    "release_type": "raffle",
+    "release_type": "retail",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-4-toro-bravo-release-date-1.jpg",
     "retailers": [
       {
@@ -1029,7 +1029,7 @@
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-4-retro-toro-bravo-rouge-98024",
         "price": "188,99€",
         "resell": false,
-        "raffle": true
+        "raffle": false
       },
       {
         "name": "Snipes",
