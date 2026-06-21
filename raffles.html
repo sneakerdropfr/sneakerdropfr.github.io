@@ -277,6 +277,7 @@
     function renderRaffle(r) {
       var RESELL_NAMES = ['stockx','goat','klekt','limited resell','flight club','stadium goods','kicks crew'];
       var RAFFLE_NAMES = ['nike snkrs','snkrs','size?','footpatrol','footdistrict','sevenstore','kickz','the broken arm','maha','naked','offspring','asphaltgold','43einhalb','afew','solebox','slam jam','end.','urban outfitters','urbanstar'];
+      // Utiliser le champ rt.raffle reel quand il est present, sinon fallback sur RAFFLE_NAMES
 
       var retailers = (r.retailers || []).filter(function(rt){
         if (!rt.name || !rt.url) return false;
@@ -287,10 +288,12 @@
 
       // Séparer retail et raffle
       var retailList = retailers.filter(function(rt){
+        if (typeof rt.raffle === 'boolean') return !rt.raffle;
         var n = rt.name.toLowerCase();
         return !RAFFLE_NAMES.some(function(x){ return n.indexOf(x) !== -1; });
       });
       var raffleList = retailers.filter(function(rt){
+        if (typeof rt.raffle === 'boolean') return rt.raffle;
         var n = rt.name.toLowerCase();
         return RAFFLE_NAMES.some(function(x){ return n.indexOf(x) !== -1; });
       });
