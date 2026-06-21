@@ -1358,7 +1358,7 @@
         "url": "https://www.adidas.fr",
         "price": "130€",
         "resell": false,
-        "raffle": true
+        "raffle": false
       },
       {
         "name": "BSTN",
@@ -2318,7 +2318,7 @@
         "url": "https://www.adidas.fr",
         "price": "120€",
         "resell": false,
-        "raffle": true
+        "raffle": false
       },
       {
         "name": "StockX",
@@ -2403,7 +2403,7 @@
         "url": "https://www.adidas.fr",
         "price": "140€",
         "resell": false,
-        "raffle": true
+        "raffle": false
       },
       {
         "name": "StockX",
@@ -4562,7 +4562,7 @@
         "url": "https://www.adidas.fr",
         "price": "120€",
         "resell": false,
-        "raffle": true
+        "raffle": false
       },
       {
         "name": "StockX",
