@@ -8,7 +8,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SneakerDrop FR — Drops Sneakers Nike, Jordan, Adidas 2026</title>
-  <meta name="description" content="Tous les drops sneakers en France : Nike, Air Jordan, Adidas, New Balance. Dates de sortie, prix retail et alertes Telegram en temps réel. Ne rate plus aucune paire." />
+  <meta name="description" content="Calendrier des drops sneakers en France : dates, prix et alertes Telegram en temps réel pour Nike, Jordan, Adidas et New Balance." />
   <link rel="canonical" href="https://sneakerdropfr.fr" />
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
@@ -43,7 +43,7 @@
       --bg:#FFFFFF;
       --bg-alt:#F5F5F5;
       --text:#0A0A0A;
-      --muted:#777;
+      --muted:#5C5C5C;
       --border:#E5E5E5;
       --shadow:0 2px 12px rgba(0,0,0,0.07);
       --shadow-hover:0 8px 28px rgba(0,0,0,0.11);
@@ -516,7 +516,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         <span>SneakerDrop<span class="logo__fr">FR</span></span>
       </a>
       <div class="header__spacer"></div>
-      <nav class="header__nav">
+      <nav class="header__nav" aria-hidden="true">
         <a href="/deals.html" class="hbtn hbtn--solid hbtn--keep">BSTN Deals</a>
         <a href="/raffles.html" class="hbtn hbtn--solid hbtn--keep">Raffles</a>
         <a href="/hype-picks.html" class="hbtn hbtn--solid hbtn--keep">Hype Picks</a>
@@ -556,7 +556,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   <!-- Search bar hero -->
   <div class="hero-search">
     <div class="hero-search__inner">
-      <input class="hero-search__input" type="text" placeholder="Rechercher une paire, une collab, un SKU..." autocomplete="off"
+      <input class="hero-search__input" type="text" placeholder="Rechercher une paire, une collab, un SKU..." aria-label="Rechercher une paire, une collab, ou un SKU" autocomplete="off"
         oninput="filterBySearch(this.value);var cb=document.getElementById('hero-clear-btn');if(cb){cb.style.display=this.value.length>0?'block':'none'}"
         onfocus="if(this.value)filterBySearch(this.value)"
         id="hero-search-input" />
