@@ -6228,5 +6228,120 @@
         "raffle": false
       }
     ]
+  },
+  {
+    "id": "new-balance-tf100-new-spruce-black",
+    "title": "New Balance TF100 \"New Spruce Black\"",
+    "brand": "New Balance",
+    "date": "2026-06-24",
+    "price": 150,
+    "sku": "UTF0A1PG",
+    "silhouette": "New Balance TF100",
+    "year": 2026,
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Afew",
+        "url": "https://www.afew-store.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "image_url": "",
+    "added_at": "2026-06-21T08:19:25.632871+00:00",
+    "featured": false
+  },
+  {
+    "id": "new-balance-990v4-made-in-usa-bart-simpson",
+    "title": "New Balance 990v4 Made in USA \"Bart Simpson\"",
+    "brand": "New Balance",
+    "date": "2026-06-25",
+    "price": 250,
+    "sku": "U990076B",
+    "silhouette": "New Balance 990v4",
+    "year": 2026,
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://www.footdistrict.com",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.bstn.com/",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Offspring",
+        "url": "https://www.offspring.co.uk",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://www.asphaltgold.com",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Naked",
+        "url": "https://www.nakedcph.com",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "image_url": "",
+    "added_at": "2026-06-21T08:19:25.632914+00:00",
+    "featured": false
+  },
+  {
+    "id": "a-ma-maniere-x-nike-pegasus-premium-sp-black-burgundy-crush",
+    "title": "A Ma Maniére x Nike Pegasus Premium SP \"Black Burgundy Crush\"",
+    "brand": "Nike",
+    "date": "2026-06-25",
+    "price": 210,
+    "sku": "IM0701-001",
+    "silhouette": "Nike Pegasus Premium",
+    "year": 2026,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "image_url": "",
+    "added_at": "2026-06-21T08:19:25.632918+00:00",
+    "featured": false
   }
 ]
