@@ -6435,7 +6435,7 @@
     "date": "TBD",
     "price": 110.0,
     "sku": "VN000D9WRPK",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/vans-slip-on-cardigan-red-VN000D9WRPK-1.jpg",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/vans-slip-on-cardigan-red-VN000D9WRPK-5.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/19/vans-slip-on-cardigan-vn000d9wrpk-vn000d9wy28/",
     "added_at": "2026-06-19T23:37:10.177707+00:00",
@@ -6463,7 +6463,8 @@
         "raffle": false
       }
     ],
-    "year": 2026
+    "year": 2026,
+    "colorway": "Red"
   },
   {
     "id": "vans-charmed-life-continues-with-these-cardigan-slip-ons-vn000d9wy28",
@@ -6472,7 +6473,7 @@
     "date": "TBD",
     "price": 110.0,
     "sku": "VN000D9WY28",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/vans-slip-on-cardigan-red-VN000D9WRPK-1.jpg",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/vans-slip-on-cardigan-white-VN000D9WY28-6.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/19/vans-slip-on-cardigan-vn000d9wrpk-vn000d9wy28/",
     "added_at": "2026-06-19T23:37:10.177874+00:00",
@@ -6500,7 +6501,8 @@
         "raffle": false
       }
     ],
-    "year": 2026
+    "year": 2026,
+    "colorway": "White"
   },
   {
     "id": "soothing-vast-grey-covers-the-nike-mind-002-hq4308-100",
@@ -6843,7 +6845,8 @@
       }
     ],
     "silhouette": "Air Force 1",
-    "year": 2026
+    "year": 2026,
+    "colorway": "Pink"
   },
   {
     "id": "nike-s-air-force-1-low-floral-pack-gives-big-cecilie-bahnsen-vibes-ir8637-100",
@@ -6881,7 +6884,8 @@
       }
     ],
     "silhouette": "Air Force 1",
-    "year": 2026
+    "year": 2026,
+    "colorway": "White"
   },
   {
     "id": "nike-s-air-force-1-low-floral-pack-gives-big-cecilie-bahnsen-vibes-ir8637-001",
@@ -6919,7 +6923,8 @@
       }
     ],
     "silhouette": "Air Force 1",
-    "year": 2026
+    "year": 2026,
+    "colorway": "Black"
   },
   {
     "id": "new-balance-tf100-new-spruce-black",
