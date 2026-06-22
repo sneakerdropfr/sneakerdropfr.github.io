@@ -386,7 +386,7 @@ document.addEventListener('DOMContentLoaded', function(){
     if (_bstnCache[skuKey] !== undefined) { if (_bstnCache[skuKey]) cb(_bstnCache[skuKey]); return; }
     var skuNorm = skuKey.replace(/-/g, '');
     var q = skuKey.replace(/-/g, ' ');
-    var url = BSTN_API_URL + '?q=' + encodeURIComponent(q) + '&query_by=name&per_page=5&filter_by=price%3A%3E0';
+    var url = BSTN_API_URL + '?q=' + encodeURIComponent(q) + '&query_by=name&per_page=5&filter_by=price_default%3A%3E0';
     fetch(url, { headers: { 'X-TYPESENSE-API-KEY': BSTN_API_KEY } })
       .then(function(r) { return r.json(); })
       .then(function(data) {
