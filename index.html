@@ -1045,8 +1045,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>'
         : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
       var titleWrap = articleUrl
-        ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
-        : '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
+        ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + (r.colorway ? ' <span style="opacity:.55;font-weight:700">(' + escapeHtml(r.colorway) + ')</span>' : '') + '</h3></a>'
+        : '<h3 class="drop-card__title">' + escapeHtml(r.title) + (r.colorway ? ' <span style="opacity:.55;font-weight:700">(' + escapeHtml(r.colorway) + ')</span>' : '') + '</h3>';
       // Badge hype_score
       var hypeScoreHtml = '';
       if (r.hype_score && r.hype_score >= 40) {

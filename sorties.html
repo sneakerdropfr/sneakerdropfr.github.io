@@ -584,8 +584,8 @@ document.addEventListener('DOMContentLoaded', function(){
         ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>'
         : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
       var titleWrap = articleUrl
-        ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
-        : '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
+        ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + (r.colorway ? ' <span style="opacity:.55;font-weight:700">(' + escapeHtml(r.colorway) + ')</span>' : '') + '</h3></a>'
+        : '<h3 class="drop-card__title">' + escapeHtml(r.title) + (r.colorway ? ' <span style="opacity:.55;font-weight:700">(' + escapeHtml(r.colorway) + ')</span>' : '') + '</h3>';
       // Badge hype_score
       var hypeScoreHtml = '';
       if (r.hype_score && r.hype_score >= 40) {
@@ -1035,8 +1035,8 @@ document.addEventListener('DOMContentLoaded', function(){
           ?'<a href="'+articleUrl+'" class="drop-card__img-wrap" style="display:block">'+img+'</a>'
           :'<div class="drop-card__img-wrap">'+img+'</div>';
         var titleWrap=articleUrl
-          ?'<a href="'+articleUrl+'" style="color:inherit"><h3 class="drop-card__title">'+escapeHtml(r.title)+'</h3></a>'
-          :'<h3 class="drop-card__title">'+escapeHtml(r.title)+'</h3>';
+          ?'<a href="'+articleUrl+'" style="color:inherit"><h3 class="drop-card__title">'+escapeHtml(r.title)+(r.colorway?' <span style="opacity:.55;font-weight:700">('+escapeHtml(r.colorway)+')</span>':'')+'</h3></a>'
+          :'<h3 class="drop-card__title">'+escapeHtml(r.title)+(r.colorway?' <span style="opacity:.55;font-weight:700">('+escapeHtml(r.colorway)+')</span>':'')+'</h3>';
         var ctaHref=r.link||articleUrl||'#';
         var ctaTarget=(articleUrl&&!r.link)?'':' target="_blank" rel="noopener"';
         html+='<article class="drop-card">'+imgWrap+'<div class="drop-card__body"><div class="drop-card__brand">'+(r.brand||r.source||'')+'</div>'+titleWrap+'<div class="drop-card__meta"><span>'+(r.date||'TBD')+'</span><span class="drop-card__price">'+(r.price||'')+'</span></div><a href="'+ctaHref+'"'+ctaTarget+' class="drop-card__cta btn-cop">Voir la paire</a></div></article>';
