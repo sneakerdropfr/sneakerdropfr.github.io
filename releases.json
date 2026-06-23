@@ -7856,7 +7856,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/23/nike-air-max-95-big-bubble-infrared-iv6425-060/",
     "added_at": "2026-06-23T16:00:01.642361+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV6425-060",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv6425-060%2F",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "first-look-at-the-nike-goadome-low-foamposite-iv7693-500",
@@ -7869,7 +7892,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/23/nike-air-max-goadome-foamposite-low/",
     "added_at": "2026-06-23T16:00:01.642722+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV7693-500",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv7693-500%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-turned-the-total-90-iii-into-a-literal-soccer-shoe-io2388-100",
@@ -7882,7 +7928,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/23/nike-total-90-iii-soccer-ball-io2388-100/",
     "added_at": "2026-06-23T20:00:02.934470+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO2388-100",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio2388-100%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-zoom-hyperflight-checks-off-varsity-red-ir0962-601",
@@ -7895,7 +7964,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/23/nike-zoom-hyperflight-varsity-red-black-ir0962-601/",
     "added_at": "2026-06-23T20:00:02.934835+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR0962-601",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir0962-601%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "vans-and-undercover-reconvene-with-original-art-and-gridded-sk8-his-vn000z0zblk",
@@ -7908,7 +8000,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/23/undercover-vans-otw-slip-on-sk8-hi/",
     "added_at": "2026-06-23T20:00:02.935157+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000Z0ZBLK",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000z0zblk%2F",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "up-close-with-bad-bunny-x-adidas-f50-ghost-sprint-ki7711",
@@ -7921,6 +8036,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/23/bad-bunny-adidas-f50-ghost-sprint-ki7711/",
     "added_at": "2026-06-23T20:00:02.935334+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI7711",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fki7711%2F",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
