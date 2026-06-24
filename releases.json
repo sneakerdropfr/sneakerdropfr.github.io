@@ -98,7 +98,19 @@
     "year": 2026,
     "colorway": "Black/Crimson/White",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/palace-skateboards-nike-cryoshot-air-speed-m-IM0702-001-1.jpg",
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45050891355&a=2855487&m=104979",
+            "price": "199,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "adidas-samba-mule-woven-crew-white",
@@ -216,7 +228,19 @@
     "year": 2026,
     "colorway": "Grey",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-1300-made-in-usa-slate-grey-U13007PT-2.jpg",
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44991608714&a=2855487&m=104979",
+            "price": "209,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "new-balance-992-made-in-usa-shadow-grey",
@@ -260,7 +284,19 @@
     "year": 2026,
     "colorway": "Grey",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/new-balance-992-made-in-usa-shadow-grey-turtle-dove-black-top-U9927WX-1.jpg",
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44989115210&a=2855487&m=104979",
+            "price": "239,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "nike-air-max-95-big-bubble-woven-multi",
@@ -311,7 +347,19 @@
     "year": 2026,
     "colorway": "Multi",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-air-max-95-woven-multi-color-IB3695-100-1.jpg",
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45114898114&a=2855487&m=104979",
+            "price": "199,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "willy-chavarria-adidas-megaride-ag-xl-black-red",
@@ -355,7 +403,19 @@
     "year": 2026,
     "colorway": "Black/Red",
     "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/chavarria-ag-xl-black-red.webp",
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44979409484&a=2855487&m=104979",
+            "price": "219,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "willy-chavarria-adidas-megaride-copa-mundial-core-black",
@@ -399,7 +459,19 @@
     "year": 2026,
     "colorway": "Black",
     "image_url": "https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/images/chavarria-copa-mundial-core-black.webp",
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44979409646&a=2855487&m=104979",
+            "price": "219,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "willy-chavarria-adidas-megaride-low-bones-cream-white",
@@ -479,7 +551,19 @@
     "silhouette": "New Balance 1890",
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/joe-freshgoods-new-balance-1890-release-date.jpg",
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44969712348&a=2855487&m=104979",
+            "price": "209,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "joe-freshgoods-nb-1890-finger-waves",
@@ -1056,7 +1140,19 @@
     "hype_score": 85,
     "silhouette": "Air Jordan 4",
     "year": 2026,
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44652211465&a=2855487&m=104979",
+            "price": "209,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
@@ -1151,7 +1247,18 @@
     "added_at": "2026-06-01T21:45:43.779948+00:00",
     "silhouette": "Cryoshot",
     "year": 2026,
-    "restocks": [],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45047403992&a=2855487&m=104979",
+            "price": "199,99€"
+          }
+        ]
+      }
+    ],
     "sku": "IM0589-001",
     "name": "Patta x Nike Cryoshot Mercurial Vapor R9",
     "featured": false,
@@ -1345,7 +1452,18 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": [],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45075955559&a=2855487&m=104979",
+            "price": "209,99€"
+          }
+        ]
+      }
+    ],
     "colorway": "Black and Sail",
     "year": 2026,
     "silhouette": "Pegasus",
@@ -1403,6 +1521,16 @@
     "restocks": [
       {
         "date": "2026-06-02",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44894862967&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-24",
         "retailers": [
           {
             "name": "BSTN",
@@ -1480,7 +1608,18 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": [],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45082456056&a=2855487&m=104979",
+            "price": "209,99€"
+          }
+        ]
+      }
+    ],
     "colorway": "White and Black",
     "year": 2026,
     "silhouette": "Pegasus",
@@ -1665,6 +1804,16 @@
             "price": "159,99€"
           }
         ]
+      },
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44907969596&a=2855487&m=104979",
+            "price": "159,99€"
+          }
+        ]
       }
     ],
     "year": 2026,
@@ -1840,7 +1989,18 @@
       "renegade-x-nike-vaporfly-4-brown-basalt",
       "nike-rift-2-kenya"
     ],
-    "restocks": [],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44919372933&a=2855487&m=104979",
+            "price": "139,99€"
+          }
+        ]
+      }
+    ],
     "year": 2026,
     "silhouette": "Air Trainer",
     "featured": false
@@ -1922,7 +2082,18 @@
       "nike-rift-2-kenya",
       "nike-mind-002-flyknit-qs-pure-platinum"
     ],
-    "restocks": [],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44928646546&a=2855487&m=104979",
+            "price": "189,99€"
+          }
+        ]
+      }
+    ],
     "colorway": "Black/White/Medium Grey/Fresh Mint",
     "year": 2026,
     "silhouette": "Air Max 95",
@@ -2123,7 +2294,18 @@
       "virgil-abloh-x-nike-air-force-1-low-sesame",
       "renegade-x-nike-vomero-premium-brown-basalt"
     ],
-    "restocks": [],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44854480694&a=2855487&m=104979",
+            "price": "159,99€"
+          }
+        ]
+      }
+    ],
     "buy_url": "https://www.nike.com/fr/t/air-max-90-wave-pack-cool-grey-infrared/IU7543-065",
     "colorway": "Cool Grey and Laser Blue",
     "year": 2026,
@@ -2361,7 +2543,18 @@
       "adidas-believe-that-1-core-black",
       "adidas-believe-that-1-cloud-white"
     ],
-    "restocks": [],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44947246786&a=2855487&m=104979",
+            "price": "119,99€"
+          }
+        ]
+      }
+    ],
     "buy_url": "https://www.adidas.fr/chaussures-tangum/LA6570.html",
     "colorway": "Cloud White / Power Green / Off White",
     "year": 2026,
@@ -2446,7 +2639,18 @@
       "adidas-believe-that-1-core-black",
       "adidas-believe-that-1-cloud-white"
     ],
-    "restocks": [],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44942472948&a=2855487&m=104979",
+            "price": "139,99€"
+          }
+        ]
+      }
+    ],
     "buy_url": "https://www.adidas.fr/chaussures-sc-premiere/KZ7196.html",
     "colorway": "Cloud White / Power Green / Off White",
     "year": 2026,
@@ -2575,7 +2779,19 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45114898246&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "adidas-adizero-adios-pro-4-footwear-white-fucid-red-shock-purple",
@@ -3084,7 +3300,19 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45050891370&a=2855487&m=104979",
+            "price": "199,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "off-white-nike-cryoshot-virgil-abloh-archives-2026",
@@ -3202,6 +3430,16 @@
       },
       {
         "date": "2026-06-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45062332000&a=2855487&m=104979",
+            "price": "159,99€"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-24",
         "retailers": [
           {
             "name": "BSTN",
@@ -3366,7 +3604,19 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45073545826&a=2855487&m=104979",
+            "price": "249,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "new-balance-991v2-sea-grass-u991bb2",
@@ -3564,7 +3814,19 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45082456607&a=2855487&m=104979",
+            "price": "119,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "adidas-adistar-mld-earth-strata-kh6407",
@@ -3605,7 +3867,19 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45083828726&a=2855487&m=104979",
+            "price": "119,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "nike-air-max-95-light-graphite-paisley",
@@ -3831,7 +4105,19 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45092041303&a=2855487&m=104979",
+            "price": "209,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
@@ -4146,6 +4432,18 @@
         "resell": false,
         "raffle": false
       }
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44916078673&a=2855487&m=104979",
+            "price": "189,99€"
+          }
+        ]
+      }
     ]
   },
   {
@@ -4188,6 +4486,18 @@
         "price": "160€",
         "resell": false,
         "raffle": false
+      }
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44916078563&a=2855487&m=104979",
+            "price": "159,99€"
+          }
+        ]
       }
     ]
   },
@@ -4232,6 +4542,18 @@
         "resell": false,
         "raffle": false
       }
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44916078629&a=2855487&m=104979",
+            "price": "169,99€"
+          }
+        ]
+      }
     ]
   },
   {
@@ -4274,6 +4596,18 @@
         "price": "170€",
         "resell": false,
         "raffle": false
+      }
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44916078603&a=2855487&m=104979",
+            "price": "169,99€"
+          }
+        ]
       }
     ]
   },
@@ -4318,6 +4652,18 @@
         "resell": false,
         "raffle": false
       }
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44916078642&a=2855487&m=104979",
+            "price": "169,99€"
+          }
+        ]
+      }
     ]
   },
   {
@@ -4360,6 +4706,18 @@
         "price": "170€",
         "resell": false,
         "raffle": false
+      }
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44916078594&a=2855487&m=104979",
+            "price": "169,99€"
+          }
+        ]
       }
     ]
   },
@@ -4404,6 +4762,18 @@
         "resell": false,
         "raffle": false
       }
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44916078649&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      }
     ]
   },
   {
@@ -4446,6 +4816,18 @@
         "price": "170€",
         "resell": false,
         "raffle": false
+      }
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44916078613&a=2855487&m=104979",
+            "price": "169,99€"
+          }
+        ]
       }
     ]
   },
@@ -4490,6 +4872,18 @@
         "resell": false,
         "raffle": false
       }
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44972004443&a=2855487&m=104979",
+            "price": "159,99€"
+          }
+        ]
+      }
     ]
   },
   {
@@ -4533,6 +4927,18 @@
         "resell": false,
         "raffle": false
       }
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44972004460&a=2855487&m=104979",
+            "price": "159,99€"
+          }
+        ]
+      }
     ]
   },
   {
@@ -4575,6 +4981,18 @@
         "price": "160€",
         "resell": false,
         "raffle": false
+      }
+    ],
+    "restocks": [
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44916078572&a=2855487&m=104979",
+            "price": "159,99€"
+          }
+        ]
       }
     ]
   },
@@ -4682,6 +5100,16 @@
       },
       {
         "date": "2026-06-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44947246771&a=2855487&m=104979",
+            "price": "119,99€"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-24",
         "retailers": [
           {
             "name": "BSTN",
@@ -5118,6 +5546,16 @@
       },
       {
         "date": "2026-06-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=43779852655&a=2855487&m=104979",
+            "price": "149,99€"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-24",
         "retailers": [
           {
             "name": "BSTN",
@@ -5797,6 +6235,16 @@
             "price": "139,99€"
           }
         ]
+      },
+      {
+        "date": "2026-06-24",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44928647055&a=2855487&m=104979",
+            "price": "139,99€"
+          }
+        ]
       }
     ]
   },
@@ -5887,6 +6335,16 @@
       },
       {
         "date": "2026-06-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44928646794&a=2855487&m=104979",
+            "price": "149,99€"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-24",
         "retailers": [
           {
             "name": "BSTN",
@@ -6326,6 +6784,16 @@
     "restocks": [
       {
         "date": "2026-06-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45114898061&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-24",
         "retailers": [
           {
             "name": "BSTN",
