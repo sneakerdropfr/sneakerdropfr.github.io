@@ -943,6 +943,16 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 
       // Officiels — max 3 sur la card, bouton "Voir tout" si plus
       if (official.length) {
+        var PRIORITY_ORDER = ['bstn', 'snipes', 'solebox'];
+        official.sort(function(a, b) {
+          var an = (a.name || '').toLowerCase();
+          var bn = (b.name || '').toLowerCase();
+          var ai = PRIORITY_ORDER.findIndex(function(p) { return an.indexOf(p) !== -1; });
+          var bi = PRIORITY_ORDER.findIndex(function(p) { return bn.indexOf(p) !== -1; });
+          if (ai === -1) ai = 99;
+          if (bi === -1) bi = 99;
+          return ai - bi;
+        });
         var officialShown = official.slice(0, 3);
         var hasMore = official.length > 3;
         var sortiePage = r.id ? 'sorties/' + r.id + '.html' : null;
