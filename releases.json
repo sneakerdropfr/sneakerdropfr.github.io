@@ -2979,47 +2979,6 @@
     "featured": false
   },
   {
-    "id": "nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
-    "title": "Nike Air Force 1 Low Paisley Hydrogen Blue Io1259 400",
-    "brand": "Nike",
-    "date": "2026-06-30",
-    "price": 120,
-    "sku": "IO1259-400",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-paisley-suede.jpg",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
-    "retailers": [
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-prm-paisley-hydrogen-blue-womens?country=FR&currencyCode=EUR",
-        "price": 123,
-        "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO1259-400",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio1259-400%2F",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "featured": false
-  },
-  {
     "id": "converse-x-collina-strada-chuck-70-black-black-black-a19049c",
     "title": "Converse x Collina Strada Chuck 70 BLACK BLACK BLACK A19049C",
     "brand": "Converse",
@@ -3470,73 +3429,6 @@
       }
     ],
     "featured": false
-  },
-  {
-    "id": "nike-kd19-field-purple-ih1117-500",
-    "title": "Nike KD19 Field Purple IH1117-500",
-    "brand": "Nike",
-    "date": "2026-06-17",
-    "price": 160,
-    "sku": "IH1117-500",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/drake-kevin-durant-nike-kd-19-yes-man-7.jpg",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-kd19-field-purple-ih1117-500",
-    "retailers": [
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-kd-19-field-purple?country=FR&currencyCode=EUR",
-        "price": 135,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/nike-kd-19-field-purple-ih1117-500",
-        "price": 181,
-        "priceCurrency": "EUR"
-      },
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-kd19-ih1117-500-0350446",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIH1117-500",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fih1117-500%2F",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "featured": false,
-    "restocks": [
-      {
-        "date": "2026-06-25",
-        "retailers": [
-          {
-            "name": "BSTN",
-            "url": "https://www.awin1.com/pclick.php?p=45062332000&a=2855487&m=104979",
-            "price": "159,99€"
-          }
-        ]
-      }
-    ]
   },
   {
     "id": "adidas-harden-vol10-clear-cyan",
@@ -4349,7 +4241,7 @@
     "date": "2026-07-01",
     "price": 130,
     "sku": "U204LSC",
-    "image_url": "",
+    "image_url": "https://sneakerdropfr.fr/assets/images/releases/nb-204l-sea-salt-u204lsc.webp",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-204l-sea-salt-u204lsc",
     "retailers": [
       {
@@ -4383,7 +4275,7 @@
     "date": "2026-07-01",
     "price": 170,
     "sku": "U201079X",
-    "image_url": "",
+    "image_url": "https://sneakerdropfr.fr/assets/images/releases/nb-2010-sandstone-grey-u201079x.webp",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-sandstone-grey-u201079x",
     "retailers": [
       {
