@@ -1002,22 +1002,39 @@ document.addEventListener('DOMContentLoaded', function(){
     container.appendChild(btn);
   }
   (function(){
-    var observer=new MutationObserver(function(mutations){
+    var checked = new WeakSet();
+    var intersectionObs = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (!entry.isIntersecting) return;
+        var card = entry.target;
+        if (checked.has(card)) return;
+        checked.add(card);
+        intersectionObs.unobserve(card);
+        var sku = card.getAttribute("data-sku");
+        if (!sku) return;
+        var ctaDiv = card.querySelector(".drop-card__cta");
+        bstnCheckSku(sku, function(url){ bstnInjectBtn(ctaDiv, url, "Acheter sur BSTN"); });
+      });
+    }, { rootMargin: "200px" });
+    var mutationObs = new MutationObserver(function(mutations){
       mutations.forEach(function(m){
         m.addedNodes.forEach(function(node){
-          if (node.nodeType!==1) return;
-          var cards=node.matches&&node.matches('.drop-card')?[node]:Array.from(node.querySelectorAll('.drop-card[data-sku]'));
+          if (node.nodeType !== 1) return;
+          var cards = node.matches && node.matches(".drop-card") ? [node] : Array.from(node.querySelectorAll(".drop-card[data-sku]"));
           cards.forEach(function(card){
-            var sku=card.getAttribute('data-sku');
-            if (!sku) return;
-            var ctaDiv=card.querySelector('.drop-card__cta');
-            bstnCheckSku(sku,function(url){ bstnInjectBtn(ctaDiv,url,'Acheter sur BSTN'); });
+            if (card.getAttribute("data-sku")) intersectionObs.observe(card);
           });
         });
       });
     });
-    var grids=['releases-grid-week','releases-grid-today','releases-grid-upcoming'];
-    grids.forEach(function(id){ var el=document.getElementById(id); if (el) observer.observe(el,{childList:true,subtree:true}); });
+    var grids=["releases-grid-week","releases-grid-today","releases-grid-upcoming"];
+    grids.forEach(function(id){
+      var el = document.getElementById(id);
+      if (el) {
+        mutationObs.observe(el, {childList:true, subtree:true});
+        el.querySelectorAll(".drop-card[data-sku]").forEach(function(card){ intersectionObs.observe(card); });
+      }
+    });
   })();
   </script>
 
