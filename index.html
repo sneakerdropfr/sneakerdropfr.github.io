@@ -627,6 +627,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       { code: 'SUMMER15', label: '-15% chez BSTN', start: '2026-05-29', end: '2026-05-31', icon: '⏰', prefix: 'Expire ce soir :' },
       { code: 'SPORT25',  label: '-25% Sportswear', start: '2026-06-02', end: '2026-06-03', icon: '⚽', prefix: '2–3 juin :' },
       { code: null,       label: '-30% Summer Sale →', start: '2026-05-25', end: '2026-06-07', icon: '🔥', prefix: "Jusqu'au 7 juin :" },
+      { code: null, label: "Jusqu'à -60% chez BSTN", start: '2026-06-25', end: '2026-07-06', icon: '☀️', prefix: 'BSTN Summer Sale :' },
     ];
     var active = promos.filter(function(p){ return today >= p.start && today <= p.end; });
     if (active.length > 0) {
