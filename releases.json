@@ -8648,5 +8648,52 @@
     "buy_url": "https://sneakernews.com/2026/06/25/nike-air-force-1-low-luxe-ja3822-010/",
     "added_at": "2026-06-26T02:00:02.861751+00:00",
     "featured": false
+  },
+  {
+    "id": "nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
+    "title": "Nike Air Force 1 Low Paisley Hydrogen Blue Io1259 400",
+    "brand": "Nike",
+    "date": "2026-06-30",
+    "price": 120,
+    "sku": "IO1259-400",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/nike-air-force-1-low-paisley-suede.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-paisley-hydrogen-blue-io1259-400",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-prm-paisley-hydrogen-blue-womens?country=FR&currencyCode=EUR",
+        "price": 123,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "nike-kd19-field-purple-ih1117-500",
+    "title": "Nike KD19 Field Purple IH1117-500",
+    "brand": "Nike",
+    "date": "2026-06-17",
+    "price": 160,
+    "sku": "IH1117-500",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/drake-kevin-durant-nike-kd-19-yes-man-7.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-kd19-field-purple-ih1117-500",
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/fr-fr/nike-kd-19-field-purple?country=FR&currencyCode=EUR",
+        "price": 135,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "GOAT",
+        "url": "https://www.goat.com/sneakers/nike-kd-19-field-purple-ih1117-500",
+        "price": 181,
+        "priceCurrency": "EUR"
+      }
+    ],
+    "featured": false
   }
 ]
