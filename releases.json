@@ -2792,7 +2792,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "adidas-originals-x-liberty-london-wmns-samba-og-maroon-warm-vanilla",
@@ -2887,7 +2888,10 @@
           }
         ]
       }
-    ]
+    ],
+    "silhouette": "Adidas Samba",
+    "colorway": "MAROON",
+    "year": 2026
   },
   {
     "id": "adidas-adizero-adios-pro-4-footwear-white-fucid-red-shock-purple",
@@ -2935,7 +2939,10 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Adidas Adizero",
+    "colorway": "White/Red/Purple",
+    "year": 2026
   },
   {
     "id": "nike-air-force-1-low-retro-heat-map-ib6834-001",
@@ -2976,7 +2983,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "converse-x-collina-strada-chuck-70-black-black-black-a19049c",
@@ -3024,7 +3033,10 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Converse X",
+    "colorway": "BLACK",
+    "year": 2026
   },
   {
     "id": "converse-x-collina-strada-chuck-70-xxhi-black-black-black",
@@ -3072,7 +3084,10 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Converse X",
+    "colorway": "BLACK",
+    "year": 2026
   },
   {
     "id": "collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
@@ -3120,7 +3135,10 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Converse Chuck",
+    "colorway": "YELLOW",
+    "year": 2026
   },
   {
     "id": "collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
@@ -3168,7 +3186,10 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Converse Chuck",
+    "colorway": "Rose",
+    "year": 2026
   },
   {
     "id": "peaceminusone-x-nike-cryoshot-ctr360-team-south-korea",
@@ -3230,7 +3251,9 @@
         "raffle": false
       }
     ],
-    "featured": true
+    "featured": true,
+    "silhouette": "Cryoshot",
+    "year": 2026
   },
   {
     "id": "slawn-x-nike-cryoshot-striker-1976-natural-white-black-ii9933-100",
@@ -3285,7 +3308,10 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Cryoshot",
+    "colorway": "Natural/White/Black",
+    "year": 2026
   },
   {
     "id": "nocta-x-nike-cryoshot-tiempo-university-gold-black",
@@ -3366,7 +3392,10 @@
           }
         ]
       }
-    ]
+    ],
+    "silhouette": "Cryoshot",
+    "colorway": "University Gold/Black",
+    "year": 2026
   },
   {
     "id": "off-white-nike-cryoshot-virgil-abloh-archives-2026",
@@ -3428,7 +3457,10 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Cryoshot",
+    "colorway": "White",
+    "year": 2026
   },
   {
     "id": "adidas-harden-vol10-clear-cyan",
@@ -3483,7 +3515,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "CYAN",
+    "year": 2026
   },
   {
     "id": "new-balance-991v2-mahogany-rose-u991rb2",
@@ -3564,7 +3598,9 @@
           }
         ]
       }
-    ]
+    ],
+    "colorway": "Rose",
+    "year": 2026
   },
   {
     "id": "new-balance-991v2-sea-grass-u991bb2",
@@ -3612,7 +3648,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "nike-air-max-goadome-low-sp-black-pale-lemon",
@@ -3653,7 +3690,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black",
+    "year": 2026
   },
   {
     "id": "adidas-adizero-adios-pro-evo-3-cloud-white-core-black-solar-turbo",
@@ -3687,7 +3726,10 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Adidas Adizero",
+    "colorway": "White/Black",
+    "year": 2026
   },
   {
     "id": "nike-vomero-premium-black-rush-violet-volt-glow-ir2168-002",
@@ -3721,7 +3763,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Violet/Volt",
+    "year": 2026
   },
   {
     "id": "adidas-adistar-mld-grey-three-grey-grey-two",
@@ -3774,7 +3818,9 @@
           }
         ]
       }
-    ]
+    ],
+    "colorway": "Grey",
+    "year": 2026
   },
   {
     "id": "adidas-adistar-mld-earth-strata-kh6407",
@@ -3827,7 +3873,8 @@
           }
         ]
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-light-graphite-paisley",
@@ -3861,7 +3908,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "air-jordan-1-retro-high-og-wmns-workwear",
@@ -3930,7 +3979,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Jordan 1",
+    "year": 2026
   },
   {
     "id": "nike-total-90-shox-magia-wmns-shy-pink-university-red",
@@ -3964,7 +4015,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Pink/University Red",
+    "year": 2026
   },
   {
     "id": "forget-me-nots-x-nike-total-90-shox-magia-wmns-green-gusto-black",
@@ -3998,7 +4051,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Green/Black",
+    "year": 2026
   },
   {
     "id": "air-jordan-5-retro-black-university-blue-dd0587-008",
@@ -4065,7 +4120,10 @@
           }
         ]
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 5",
+    "colorway": "Black/University Blue",
+    "year": 2026
   },
   {
     "id": "nike-air-force-1-low-glam-rock-bold-berry-ib6843-002",
@@ -4099,7 +4157,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "new-balance-1890-wmns-linen-punch-yellow",
@@ -4152,7 +4212,9 @@
           }
         ]
       }
-    ]
+    ],
+    "colorway": "Yellow",
+    "year": 2026
   },
   {
     "id": "new-balance-1890-outerspace",
@@ -4205,7 +4267,8 @@
           }
         ]
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "cdg-nike-ld-1000-spirit-pink-iu7936-001",
@@ -4239,7 +4302,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Pink",
+    "year": 2026
   },
   {
     "id": "new-balance-204l-sea-salt-u204lsc",
@@ -4273,7 +4338,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "new-balance-2010-sandstone-grey-u201079x",
@@ -4307,7 +4373,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Grey",
+    "year": 2026
   },
   {
     "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
@@ -4341,7 +4409,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Metallic Silver/Varsity Royal",
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-big-bubble-7-eleven",
@@ -4375,7 +4445,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "new-balance-9060-beige-grey",
@@ -8320,7 +8392,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Crimson",
+    "year": 2026
   },
   {
     "id": "adidas-teams-with-brain-dead-and-disney-on-predator-collaboration-for-world-cup-kj4289",
@@ -8356,7 +8430,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "first-look-at-the-nike-air-zoom-flight-98-the-glove-iv6206-010",
@@ -8392,7 +8467,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "new-balance-1890-issues-a-multicolor-streamsong-u18904do",
@@ -8428,7 +8504,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "jordan-heir-series-2-plucks-a-desert-berry-hv4417-104",
@@ -8464,7 +8541,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Desert",
+    "year": 2026
   },
   {
     "id": "nike-is-releasing-a-what-the-air-force-1-with-safari-elephant-and-more-iv4451-010",
@@ -8500,7 +8579,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "nike-air-force-1-goes-cabana-mode-with-woven-uppers-iw2347-002",
@@ -8536,7 +8617,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "nike-air-liquid-max-stays-wavy-in-triple-black-iq7635-003",
@@ -8549,6 +8632,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/25/nike-air-liquid-max-black-anthracite-iq7635-003/",
     "added_at": "2026-06-25T22:00:02.658973+00:00",
-    "featured": false
+    "featured": false,
+    "colorway": "Black",
+    "year": 2026
   }
 ]
