@@ -1,14 +1,14 @@
 {
   "week_start": "22/06/2026",
   "week_end": "28/06/2026",
-  "generated_at": "2026-06-22T07:15:13.856152+00:00",
+  "generated_at": "2026-06-26T21:16:42.083542+00:00",
   "releases": [
     {
       "type": "release",
       "title": "New Balance TF100 \"New Spruce Black\"",
       "date": "2026-06-24",
       "price": "150EUR",
-      "image_url": "",
+      "image_url": "https://sneakerdropfr.fr/assets/images/releases/nb-tf100-new-spruce-black-utfoa1pg.webp",
       "retailers": [
         {
           "name": "New Balance",
@@ -47,10 +47,115 @@
         }
       ],
       "id": "new-balance-tf100-new-spruce-black",
-      "sku": "UTF0A1PG",
+      "sku": "UTFOA1PG",
       "brand": "New Balance",
       "source": "releases.json",
       "link": "https://sneakerdropfr.fr/sorties/new-balance-tf100-new-spruce-black.html"
+    },
+    {
+      "type": "release",
+      "title": "JJJJound x New Balance 1890 \"Silver White\"",
+      "date": "2026-06-24",
+      "price": "200EUR",
+      "image_url": "",
+      "retailers": [
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU1890GREY",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu1890grey%2F",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "id": "jjjjound-x-new-balance-1890-silver-white",
+      "sku": "U1890GREY",
+      "brand": "New Balance",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/jjjjound-x-new-balance-1890-silver-white.html"
+    },
+    {
+      "type": "release",
+      "title": "Vans LX Old Skool 36 \"Souvenir\"",
+      "date": "2026-06-24",
+      "price": "219EUR",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/better-with-age-vans-release-date-20.jpg",
+      "retailers": [
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000E8VE4A1",
+          "price": "219€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8ve4a1%2F",
+          "price": "219€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Vans",
+          "url": "https://www.vans.fr/",
+          "price": "219€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "id": "vans-lx-old-skool-36-souvenir",
+      "sku": "VN000E8VE4A1",
+      "brand": "Vans",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/vans-lx-old-skool-36-souvenir.html"
+    },
+    {
+      "type": "release",
+      "title": "JJJJound x New Balance 1890 \"Black White\"",
+      "date": "2026-06-24",
+      "price": "200EUR",
+      "image_url": "",
+      "retailers": [
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU18907DN",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu18907dn%2F",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "id": "jjjjound-x-new-balance-1890-black-white",
+      "sku": "U18907DN",
+      "brand": "New Balance",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/jjjjound-x-new-balance-1890-black-white.html"
     },
     {
       "type": "release",
@@ -76,6 +181,13 @@
         {
           "name": "New Balance",
           "url": "https://www.newbalance.fr/",
+          "price": "190€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890-u18901iu-0348445",
           "price": "190€",
           "resell": false,
           "raffle": false
@@ -111,6 +223,13 @@
         {
           "name": "New Balance",
           "url": "https://www.newbalance.fr/",
+          "price": "190€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890-u189052j-0348430",
           "price": "190€",
           "resell": false,
           "raffle": false
@@ -226,6 +345,224 @@
       "brand": "Nike",
       "source": "releases.json",
       "link": "https://sneakerdropfr.fr/sorties/a-ma-maniere-x-nike-pegasus-premium-sp-black-burgundy-crush.html"
+    },
+    {
+      "type": "release",
+      "title": "Tokyo Design Studio x New Balance MSNB1 \"Zinc Blue\"",
+      "date": "2026-06-25",
+      "price": "300EUR",
+      "image_url": "",
+      "retailers": [
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DMSNB17UQ",
+          "price": "300€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fmsnb17uq%2F",
+          "price": "300€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "300€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "id": "tokyo-design-studio-x-new-balance-msnb1-zinc-blue",
+      "sku": "MSNB17UQ",
+      "brand": "New Balance",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/tokyo-design-studio-x-new-balance-msnb1-zinc-blue.html"
+    },
+    {
+      "type": "release",
+      "title": "FTSHP x Adidas Terrex Stargazer TT \"Core Black\"",
+      "date": "2026-06-25",
+      "price": "180EUR",
+      "image_url": "",
+      "retailers": [
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKK2641",
+          "price": "180€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk2641%2F",
+          "price": "180€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Adidas",
+          "url": "https://www.adidas.fr/",
+          "price": "180€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "id": "ftshp-x-adidas-terrex-stargazer-tt-core-black",
+      "sku": "KK2641",
+      "brand": "Adidas",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/ftshp-x-adidas-terrex-stargazer-tt-core-black.html"
+    },
+    {
+      "type": "release",
+      "title": "Tokyo Design Studio x New Balance MSNB1 \"Morel\"",
+      "date": "2026-06-25",
+      "price": "300EUR",
+      "image_url": "",
+      "retailers": [
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DMSNB18XB",
+          "price": "300€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fmsnb18xb%2F",
+          "price": "300€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "300€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "id": "tokyo-design-studio-x-new-balance-msnb1-morel",
+      "sku": "MSNB18XB",
+      "brand": "New Balance",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/tokyo-design-studio-x-new-balance-msnb1-morel.html"
+    },
+    {
+      "type": "release",
+      "title": "Saucony Pro Grid Ride 1 \"White Buttercup\"",
+      "date": "2026-06-25",
+      "price": "150EUR",
+      "image_url": "",
+      "retailers": [
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fsaucony-progrid-ride-1-s101807-1010-0353333",
+          "price": "150€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DS101807-1010",
+          "price": "150€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fs101807-1010%2F",
+          "price": "150€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "id": "saucony-pro-grid-ride-1-white-buttercup",
+      "sku": "S101807-1010",
+      "brand": "Saucony",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/saucony-pro-grid-ride-1-white-buttercup.html"
+    },
+    {
+      "type": "release",
+      "title": "Slam Jam x New Balance Abzorb 5030 \"Silver\"",
+      "date": "2026-06-25",
+      "price": "150EUR",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/new-balance-5030-release-date.jpg",
+      "retailers": [
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU50301XR",
+          "price": "150€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu50301xr%2F",
+          "price": "150€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr/",
+          "price": "150€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "id": "slam-jam-x-new-balance-abzorb-5030-silver",
+      "sku": "U50301XR",
+      "brand": "New Balance",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/slam-jam-x-new-balance-abzorb-5030-silver.html"
+    },
+    {
+      "type": "release",
+      "title": "Air Jordan 3 \"Bin 23\"",
+      "date": "2026-06-27",
+      "price": "355EUR",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/air-jordan-3-bin23-io7744-600-release-date.jpg",
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch",
+          "price": "350€"
+        },
+        {
+          "name": "StockX",
+          "url": "https://stockx.com/air-jordan-3-retro-og-bin-23",
+          "price": "759€"
+        },
+        {
+          "name": "GOAT",
+          "url": "https://www.goat.com/sneakers/air-jordan-3-retro-og-bin-23-io7744-600",
+          "price": "1349€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO7744-600",
+          "price": "355€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio7744-600%2F",
+          "price": "355€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "id": "air-jordan-3-bin-23-2026",
+      "sku": "IO7744-600",
+      "brand": "Jordan Brand",
+      "source": "releases.json",
+      "link": "https://sneakerdropfr.fr/sorties/air-jordan-3-bin-23-2026.html"
     }
   ],
   "promos": [
@@ -241,19 +578,6 @@
       "discount": "-60%",
       "date": null,
       "summary": "En promo sur BSTN — -60%"
-    },
-    {
-      "type": "promo",
-      "title": "Jordan PHOENIX SUNS SWINGMAN JERSEY Devin Booker",
-      "source": "BSTN",
-      "emoji": "🏪",
-      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fjordan-phoenix-suns-swingman-jersey-devin-booker-do9540-012-256748",
-      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ETzk1NDAtMDEyL0RPOTU0MC0wMTItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NTgwLCJoZWlnaHQiOjcyNSwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-      "price": "$64.99",
-      "old_price": "$104.99",
-      "discount": "-38%",
-      "date": null,
-      "summary": "En promo sur BSTN — -38%"
     },
     {
       "type": "promo",
@@ -345,6 +669,19 @@
       "discount": "-30%",
       "date": null,
       "summary": "En promo sur BSTN — -30%"
+    },
+    {
+      "type": "promo",
+      "title": "DICKIES 873 WORK PANT REC",
+      "source": "BSTN",
+      "emoji": "🏪",
+      "link": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Fus_en%2Fp%2Fdickies-873-work-pant-rec-dk0a4xk9khk1-165589",
+      "image": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ESzBBNFhLOUtISzEvREswQTRYSzlLSEsxLTMyWDMyLTAxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "price": "$57.99",
+      "old_price": "$81.99",
+      "discount": "-29%",
+      "date": null,
+      "summary": "En promo sur BSTN — -29%"
     },
     {
       "type": "promo",
