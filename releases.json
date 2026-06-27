@@ -4111,6 +4111,13 @@
         "price": "180€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-wmns-air-jordan-1-retro-hi-og-fd2596-201-0350353",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false,
@@ -10430,7 +10437,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/27/nike-kobe-6-protro-coals-io6261-001/",
     "added_at": "2026-06-27T14:00:03.228623+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO6261-001",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio6261-001%2F",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "women-s-nike-vomero-5-aluminum-doubles-up-on-swooshes-iv4311-100",
@@ -10443,7 +10473,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/27/nike-zoom-vomero-5-white-aluminum-football-grey-metallic-silver-iv4311-100/",
     "added_at": "2026-06-27T16:00:02.943070+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV4311-100",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv4311-100%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "bright-crimson-animates-the-nike-vomero-premium-hq2050-002",
@@ -10456,7 +10509,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/27/nike-vomero-premium-black-bright-crimson-hq2050-002/",
     "added_at": "2026-06-27T18:00:03.092957+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2050-002",
+        "price": "230€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2050-002%2F",
+        "price": "230€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "230€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "jordan-spizike-low-heads-to-unc-for-a-round-of-golf-hq4365-102",
@@ -10469,6 +10545,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/27/jordan-spizike-golf-white-wolf-grey-university-blue-hq4365-102/",
     "added_at": "2026-06-27T20:00:03.225532+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4365-102",
+        "price": "195€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4365-102%2F",
+        "price": "195€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "195€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
