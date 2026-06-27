@@ -9960,7 +9960,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Brown",
+    "year": 2026
   },
   {
     "id": "official-images-of-travis-scott-s-nike-phantom-6-cactus-jack-collection-iv2037-900",
@@ -9996,7 +9998,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Phantom/Cactus",
+    "year": 2026
   },
   {
     "id": "official-images-of-travis-scott-s-nike-phantom-6-cactus-jack-collection-iq8140-900",
@@ -10032,7 +10036,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Phantom/Cactus",
+    "year": 2026
   },
   {
     "id": "nike-book-2-detroit-stompers-releases-on-july-8th-im4667-400",
@@ -10068,7 +10074,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "air-jordan-1-td-captures-electric-green-with-high-and-low-cleats-fj6805-300",
@@ -10104,7 +10111,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1",
+    "colorway": "Electric Green",
+    "year": 2026
   },
   {
     "id": "air-jordan-1-td-captures-electric-green-with-high-and-low-cleats-fj6245-300",
@@ -10140,7 +10150,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1",
+    "colorway": "Electric Green",
+    "year": 2026
   },
   {
     "id": "air-jordan-1-mid-goes-all-in-on-elephant-print-ix3527-010",
@@ -10176,7 +10189,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1",
+    "year": 2026
   },
   {
     "id": "a-cold-wall-debuts-salomon-acs-pro-collaboration-ld0178800",
@@ -10212,7 +10227,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "official-retailer-images-of-the-yuto-horigome-x-nike-sb-air-force-1-low-io8439-100",
@@ -10248,7 +10264,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "jae-tips-savior-x-nike-air-bakin-low-releasing-spring-2027-iv6795-001",
@@ -10284,7 +10302,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2027
   },
   {
     "id": "jae-tips-savior-x-nike-air-bakin-low-releasing-spring-2027-iv6795-400",
@@ -10320,7 +10339,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2027
   },
   {
     "id": "nike-air-max-95-golf-sports-bright-crimson-accents-hv4696-003",
@@ -10333,7 +10353,10 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/26/nike-air-max-95-golf-light-silver-light-smoke-grey-bright-crimson-black-hv4696-003/",
     "added_at": "2026-06-26T22:00:01.845099+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "colorway": "Crimson",
+    "year": 2026
   },
   {
     "id": "nike-plays-with-depth-on-these-two-classic-air-force-1-low-colorways-io3124-001",
@@ -10346,6 +10369,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/26/nike-air-force-1-low-io3124-100-io3124-001/",
     "added_at": "2026-06-26T22:00:01.845472+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1",
+    "year": 2026
   }
 ]
