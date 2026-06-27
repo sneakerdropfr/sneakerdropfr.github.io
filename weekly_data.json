@@ -1,151 +1,359 @@
 {
   "week_start": "29/06/2026",
   "week_end": "05/07/2026",
-  "generated_at": "2026-06-26T10:14:23Z",
+  "generated_at": "2026-06-27T05:31:25.469241Z",
   "releases": [
     {
-      "name": "Rassvet x Nike SB Zoom Tennis Classic \"Blue Void Sail\"",
-      "date": "2026-06-29",
+      "name": "Rassvet x Nike SB Zoom Tennis Classic Blue Void Sail",
+      "date": "2026-06-30",
       "price": 110,
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/rassvet-nike-sb-tennis-classic-io9846-400-14.jpg",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/rassvet-nike-sb-tennis-classic-io9846-400-14.jpg",
       "wtc_url": "https://www.whentocop.fr/drops/rassvet-nike-sb-zoom-tennis-classic-blue-void-sail-io9846-400",
-      "brand": "Nike",
-      "sku": "IO9846-400"
+      "brand": "Nike"
     },
     {
-      "name": "CDG x Nike LD-1000 \"Spirit Pink\"",
-      "date": "2026-06-29",
-      "price": 110,
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/comme-des-garcons-black-nike-ld-1000-black-white-spirit-pink-IU7936-001-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/cdg-nike-ld-1000-spirit-pink-iu7936-001",
-      "brand": "Nike",
-      "sku": "IU7936-001"
-    },
-    {
-      "name": "Nike Moon Shoe \"Sail Black\"",
-      "date": "2026-06-30",
-      "price": 100,
-      "image_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-sail-black-ix3952-100",
-      "brand": "Nike",
-      "sku": "IX3952-100"
-    },
-    {
-      "name": "Nike Moon Shoe Wmns \"Sail Gum\"",
-      "date": "2026-06-30",
-      "price": 100,
-      "image_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-wmns-sail-gum-iw0955-101",
-      "brand": "Nike",
-      "sku": "IW0955-101"
-    },
-    {
-      "name": "Nike Moon Shoe \"Cacao Wow\"",
-      "date": "2026-06-30",
-      "price": 100,
-      "image_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-cacao-wow-ix3952-200",
-      "brand": "Nike",
-      "sku": "IX3952-200"
-    },
-    {
-      "name": "Nike Moon Shoe OG \"Midnight Navy\"",
-      "date": "2026-06-30",
-      "price": 100,
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-moon-shoe-may-2026.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-midnight-navy-ix3952-400",
-      "brand": "Nike",
-      "sku": "IX3952-400"
-    },
-    {
-      "name": "New Balance Abzorb 2000 \"Silver Moss Bayberry\"",
+      "name": "JJJJound x New Balance 1890 Black White",
       "date": "2026-06-30",
       "price": 200,
-      "image_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-abzorb-2000-silver-moss-bayberry-u20002uu",
-      "brand": "New Balance",
-      "sku": "U20002UU"
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/jjjjound-new-balance-1890-release-date.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/jjjjound-new-balance-1890-black-white-u18907dn",
+      "brand": "New Balance"
     },
     {
-      "name": "New Balance 740 \"Linen Silver Metallic\"",
+      "name": "CDG x Nike LD-1000 SPIRIT PINK",
       "date": "2026-06-30",
+      "price": 110,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/01/comme-des-garcons-black-nike-ld-1000-black-white-spirit-pink-IU7936-001-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/cdg-nike-ld-1000-spirit-pink-iu7936-001",
+      "brand": "Nike"
+    },
+    {
+      "name": "adidas Tobacco Super Blanch Brown Dust Cargo",
+      "date": "2026-07-01",
       "price": 120,
-      "image_url": "",
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-tobacco-super-blanch-brown-dust-cargo-kj4590",
+      "brand": "Adidas"
+    },
+    {
+      "name": "New Balance Abzorb 2000 Boysenberry Smoked Violet",
+      "date": "2026-07-01",
+      "price": 200,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-abzorb-2000-purple-white-silver-7.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-abzorb-2000-boysenberry-smoked-violet-u20009ba",
+      "brand": "New Balance"
+    },
+    {
+      "name": "Nike Moon Shoe Sail Black",
+      "date": "2026-07-01",
+      "price": 100,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-sail-black-ix3952-100",
+      "brand": "Nike"
+    },
+    {
+      "name": "Nike Moon Shoe WMNS Sail Gum",
+      "date": "2026-07-01",
+      "price": 100,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-wmns-sail-gum-iw0955-101",
+      "brand": "Nike"
+    },
+    {
+      "name": "Nike Moon Shoe Cacao Wow",
+      "date": "2026-07-01",
+      "price": 100,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-cacao-wow-ix3952-200",
+      "brand": "Nike"
+    },
+    {
+      "name": "Nike Moon Shoe OG Midnight Navy",
+      "date": "2026-07-01",
+      "price": 100,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/04/nike-moon-shoe-may-2026.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-midnight-navy-ix3952-400",
+      "brand": "Nike"
+    },
+    {
+      "name": "New Balance Abzorb 2000 Silver Moss Bayberry",
+      "date": "2026-07-01",
+      "price": 200,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-2000-silver-moss-bayberry-u20002uu",
+      "brand": "New Balance"
+    },
+    {
+      "name": "New Balance 740 Linen Silver Metallic",
+      "date": "2026-07-01",
+      "price": 120,
+      "image": "",
       "wtc_url": "https://www.whentocop.fr/drops/new-balance-740-linen-silver-metallic-u7409di",
-      "brand": "New Balance",
-      "sku": "U7409DI"
+      "brand": "New Balance"
     },
     {
-      "name": "Adidas Handball Spezial \"Ambient Sky Almost Yellow\"",
-      "date": "2026-06-30",
+      "name": "adidas Handball Spezial Ambient Sky Almost Yellow",
+      "date": "2026-07-01",
       "price": 130,
-      "image_url": "",
+      "image": "",
       "wtc_url": "https://www.whentocop.fr/drops/adidas-handball-spezial-ambient-sky-almost-yellow-kk4877",
-      "brand": "Adidas",
-      "sku": "KK4877"
+      "brand": "Adidas"
     },
     {
-      "name": "Adidas Superstar Vintage \"Core Black\"",
-      "date": "2026-06-30",
+      "name": "adidas Superstar Vintage Core Black",
+      "date": "2026-07-01",
       "price": 150,
-      "image_url": "https://sneakernews.com/wp-content/uploads/2021/11/adidas-november-black-friday-2021-banner.jpg",
+      "image": "",
       "wtc_url": "https://www.whentocop.fr/drops/adidas-superstar-vintage-core-black-kj7473",
-      "brand": "Adidas",
-      "sku": "KJ7473"
+      "brand": "Adidas"
     },
     {
-      "name": "Care Bears x Adidas Handball Spezial Wmns \"Yellow White\"",
-      "date": "2026-06-30",
+      "name": "Vans LX Authentic 44 MOHAIR Port Multi",
+      "date": "2026-07-01",
+      "price": 115,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/vans-lx-authentic-44-mohair-wmns-port-multi-vn000db8bj21",
+      "brand": "Vans"
+    },
+    {
+      "name": "Care Bears x adidas Handball Spezial WMNS Brown White",
+      "date": "2026-07-01",
       "price": 130,
-      "image_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-handball-spezial-wmns-yellow-white-ki5034",
-      "brand": "Adidas",
-      "sku": "KI5034"
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-handball-spezial-wmns-brown-white-kk4932",
+      "brand": "Adidas"
     },
     {
-      "name": "Nike Zoom Streak 3 \"White Volt Flat Pewter\"",
+      "name": "Care Bears x adidas Handball Spezial Turquoise Gum",
       "date": "2026-07-01",
-      "price": 120,
-      "image_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-streak-3-white-volt-flat-pewter-iq8012-100",
-      "brand": "Nike",
-      "sku": "IQ8012-100"
+      "price": 130,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-handball-spezial-turquoise-gum-kk4933",
+      "brand": "Adidas"
     },
     {
-      "name": "Nike Zoom Streak 3 \"Black Volt Summit White\"",
-      "date": "2026-07-01",
-      "price": 120,
-      "image_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-streak-3-black-volt-summit-white-iq8012-001",
-      "brand": "Nike",
-      "sku": "IQ8012-001"
-    },
-    {
-      "name": "Jordan Triangle \"Black Barely Volt\"",
+      "name": "Care Bears x adidas Superstar II WMNS Clear Sky Bluebird",
       "date": "2026-07-01",
       "price": 140,
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/jordan-triangle-black-barely-volt-infrared-23-IB1154-001-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/jordan-triangle-black-barely-volt-ib1154-001",
-      "brand": "Jordan Brand",
-      "sku": "IB1154-001"
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-superstar-ii-wmns-clear-sky-bluebird-kk4865",
+      "brand": "Adidas"
     },
     {
-      "name": "Nike Air Max Joga Bonito \"R9\"",
+      "name": "Care Bears x adidas Samba Jane WMNS Almost Yellow",
+      "date": "2026-07-01",
+      "price": 110,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-samba-jane-wmns-almost-yellow-cloud-white-gum-kk2600",
+      "brand": "Adidas"
+    },
+    {
+      "name": "Care Bears x adidas Samba Jane WMNS Pink",
+      "date": "2026-07-01",
+      "price": 110,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-samba-jane-wmns-pink-white-gum-kk2599",
+      "brand": "Adidas"
+    },
+    {
+      "name": "Care Bears x adidas Adistar Control 5 WMNS Clear Pink",
+      "date": "2026-07-01",
+      "price": 130,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-adistar-control-5-wmns-clear-pink-kk2605",
+      "brand": "Adidas"
+    },
+    {
+      "name": "New Balance 1906E Altitude Black",
+      "date": "2026-07-01",
+      "price": 170,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1906e-altitude-black-u19064z7",
+      "brand": "New Balance"
+    },
+    {
+      "name": "adidas Adizero Evo SL WMNS White Core Black",
+      "date": "2026-07-01",
+      "price": 170,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-wmns-white-core-black-ki4796",
+      "brand": "Adidas"
+    },
+    {
+      "name": "adidas Adizero Evo SL Zip Black White",
+      "date": "2026-07-01",
+      "price": 170,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-zip-black-white-kh9623",
+      "brand": "Adidas"
+    },
+    {
+      "name": "adidas Adizero Evo SL Zip WMNS Cream White",
+      "date": "2026-07-01",
+      "price": 170,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-zip-wmns-cream-white-ki0477",
+      "brand": "Adidas"
+    },
+    {
+      "name": "Air Jordan 1 Low Palomino",
+      "date": "2026-07-01",
+      "price": 130,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-low-palomino-553558-200",
+      "brand": "Jordan Brand"
+    },
+    {
+      "name": "Care Bears x adidas Handball Spezial WMNS Yellow White",
+      "date": "2026-07-01",
+      "price": 130,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-handball-spezial-wmns-yellow-white-ki5034",
+      "brand": "Adidas"
+    },
+    {
+      "name": "Air Jordan 1 High OG Love The Game",
       "date": "2026-07-01",
       "price": 180,
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-joga-bonito-r9-ix8646-001-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-joga-bonito-r9-ix8646-001",
-      "brand": "Nike",
-      "sku": "IX8646-001"
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-high-og-love-the-game-dz5485-201",
+      "brand": "Jordan Brand"
     },
     {
-      "name": "New Balance 1890 \"Morel\"",
-      "date": "2026-07-02",
+      "name": "adidas Japan WMNS Maroon Quiet Crimson",
+      "date": "2026-07-01",
+      "price": 120,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-japan-wmns-maroon-quiet-crimson-kj2419",
+      "brand": "Adidas"
+    },
+    {
+      "name": "Care Bears x adidas Adistar Control 5 WMNS Clear Sky",
+      "date": "2026-07-01",
+      "price": 130,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/care-bears-adidas-adistar-control-5-KK2606-14.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-adistar-control-5-wmns-clear-sky-kk2606",
+      "brand": "Adidas"
+    },
+    {
+      "name": "New Balance 991v2 Made in UK Green Banana",
+      "date": "2026-07-01",
+      "price": 250,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-991v2-summer-brights-u991wb2-u991wg2.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-made-in-uk-green-banana-u991wg2",
+      "brand": "New Balance"
+    },
+    {
+      "name": "New Balance 950 Off White Beige",
+      "date": "2026-07-01",
+      "price": 130,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-950-off-white-beige-u950384-6.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-950-off-white-beige-u950384",
+      "brand": "New Balance"
+    },
+    {
+      "name": "Nike Moon Shoe OG WMNS Malachite",
+      "date": "2026-07-01",
+      "price": 100,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/nike-moon-shoe-summer-2026-IW0955-201-IW0995-300.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-wmns-malachite-iw0955-300",
+      "brand": "Nike"
+    },
+    {
+      "name": "New Balance 991v2 Made in UK Summer Brights",
+      "date": "2026-07-01",
+      "price": 250,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-991v2-summer-brights-u991wb2-u991wg2.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-made-in-uk-summer-brights-u991wb2",
+      "brand": "New Balance"
+    },
+    {
+      "name": "New Balance Allerdale Made in UK White Pepper",
+      "date": "2026-07-01",
+      "price": 250,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-allerdale-white-apper-UADWCRM-3.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-allerdale-made-in-uk-white-pepper-uadwcrm",
+      "brand": "New Balance"
+    },
+    {
+      "name": "New Balance 1954R Triple Black",
+      "date": "2026-07-01",
+      "price": 190,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1954r-black-2.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1954r-triple-black",
+      "brand": "New Balance"
+    },
+    {
+      "name": "Sp5der x adidas F50 Formotion Silver Metallic",
+      "date": "2026-07-01",
+      "price": 190,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/sp5der-adidas-adizero-f50-formotion-KZ6575-7.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/sp5der-adidas-f50-formotion-silver-metallic-kz6575",
+      "brand": "Adidas"
+    },
+    {
+      "name": "Air Jordan 5 Retro Black University Blue",
+      "date": "2026-07-01",
+      "price": 220,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-5-black-university-blue-release-date-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-5-retro-black-university-blue-dd0587-008",
+      "brand": "Jordan Brand"
+    },
+    {
+      "name": "New Balance 204L Sea Salt",
+      "date": "2026-07-01",
+      "price": 130,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/01/new-balance-204L-sea-salt-red-rock-U204L1ZH-6.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-204l-sea-salt-u204lsc",
+      "brand": "New Balance"
+    },
+    {
+      "name": "New Balance 2010 Sandstone Grey",
+      "date": "2026-07-01",
       "price": 170,
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890A-moc-morel-U18907P8-6.jpg",
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-sandstone-grey-u201079x",
+      "brand": "New Balance"
+    },
+    {
+      "name": "Nike Zoom Streak 3 White Volt Flat Pewter",
+      "date": "2026-07-02",
+      "price": 120,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-streak-3-white-volt-flat-pewter-iq8012-100",
+      "brand": "Nike"
+    },
+    {
+      "name": "Nike Zoom Streak 3 Black Volt Summit White",
+      "date": "2026-07-02",
+      "price": 120,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-streak-3-black-volt-summit-white-iq8012-001",
+      "brand": "Nike"
+    },
+    {
+      "name": "Jordan Triangle Black Barely Volt",
+      "date": "2026-07-02",
+      "price": 140,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/jordan-triangle-black-barely-volt-infrared-23-IB1154-001-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/jordan-triangle-black-barely-volt-ib1154-001",
+      "brand": "Jordan Brand"
+    },
+    {
+      "name": "Nike Air Max Joga Bonito R9",
+      "date": "2026-07-02",
+      "price": 180,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-joga-bonito-r9-ix8646-001-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-joga-bonito-r9-ix8646-001",
+      "brand": "Nike"
+    },
+    {
+      "name": "New Balance 1890 Morel",
+      "date": "2026-07-03",
+      "price": 170,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890A-moc-morel-U18907P8-6.jpg",
       "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-morel-u18907p8",
-      "brand": "New Balance",
-      "sku": "U18907P8"
+      "brand": "New Balance"
     }
   ]
 }
