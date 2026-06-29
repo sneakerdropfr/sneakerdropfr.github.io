@@ -3345,7 +3345,7 @@
         "raffle": false
       }
     ],
-    "featured": true,
+    "featured": false,
     "silhouette": "Cryoshot",
     "year": 2026
   },
@@ -4676,7 +4676,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "new-balance-1906-wmns-steel-grey-silver",
@@ -4741,7 +4742,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "new-balance-2010-black",
@@ -4806,7 +4808,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "new-balance-2010-sea-salt",
@@ -4871,7 +4874,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "new-balance-2010-neptune-grey",
@@ -4936,7 +4940,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "new-balance-2010-harbor-grey",
@@ -5001,7 +5006,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "new-balance-t500-wmns-bisque-gum",
@@ -5066,7 +5072,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "new-balance-2010-pink-chalk-sea-salt",
@@ -5131,7 +5138,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "new-balance-1906r-pink-chalk",
@@ -5196,7 +5204,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "new-balance-1906r-grey-white",
@@ -5261,7 +5270,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "new-balance-1906r-white-arid-stone",
@@ -5326,7 +5336,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "nike-air-force-1-low-paisley-hydrogen-blue",
@@ -5368,7 +5379,8 @@
     "buy_url": "",
     "hype_score": 60,
     "silhouette": "Air Force 1",
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "nike-kd-19-field-purple-releases-june-2026",
@@ -5494,7 +5506,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "adidas-powerphase-cloud-white-power-green",
@@ -5642,7 +5655,8 @@
     "buy_url": "https://www.adidas.fr/chaussures-powerphase/LA4359.html",
     "colorway": "Cloud White / Power Green / Off White",
     "year": 2026,
-    "silhouette": "Adidas Powerphase"
+    "silhouette": "Adidas Powerphase",
+    "featured": false
   },
   {
     "id": "nike-air-max-1-city-connect-baltimore-orioles-releases-june-",
@@ -5690,7 +5704,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "nike-air-max-1-city-connect-kansas-city-royals-releases-june",
@@ -5738,7 +5753,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "nike-mind-001-flyknit-hyper-royal",
@@ -5824,7 +5840,8 @@
     "restocks": [],
     "colorway": "Bronze Eclipse",
     "year": 2026,
-    "silhouette": "Mind"
+    "silhouette": "Mind",
+    "featured": false
   },
   {
     "id": "air-jordan-17-low-black-patent-releases-august-2026",
@@ -5880,7 +5897,8 @@
     ],
     "year": 2026,
     "silhouette": "Air Jordan 17",
-    "restocks": []
+    "restocks": [],
+    "featured": true
   },
   {
     "id": "nike-air-more-uptempo-og-black-white-returns-september-2026",
@@ -5943,7 +5961,8 @@
     ],
     "year": 2026,
     "silhouette": "Air More Uptempo",
-    "restocks": []
+    "restocks": [],
+    "featured": false
   },
   {
     "id": "air-jordan-3-bin-23-2026",
@@ -5988,7 +6007,8 @@
     "buy_url": "",
     "hype_score": 85,
     "silhouette": "Air Jordan 3",
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "air-max-90",
@@ -6104,7 +6124,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "nike-mind-001-white-speed-red",
@@ -6145,7 +6166,8 @@
     ],
     "buy_url": "",
     "hype_score": 60,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "lego-x-nike-dunk-low-gs-bright-concord",
@@ -6197,7 +6219,8 @@
     "buy_url": "",
     "hype_score": 0,
     "silhouette": "Dunk Low",
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "nike-mind-001-light-smoke-grey",
@@ -6238,7 +6261,8 @@
     ],
     "buy_url": "",
     "hype_score": 60,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "nike-kd19-orange-crush",
@@ -6279,7 +6303,8 @@
     ],
     "buy_url": "",
     "hype_score": 60,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "lego-x-nike-air-max-95-gs-brick-pixel",
@@ -6331,7 +6356,8 @@
     "buy_url": "",
     "hype_score": 0,
     "silhouette": "Air Max 95",
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "nike-mind-002-wmns-sail-hyper-crimson",
@@ -6372,7 +6398,8 @@
     ],
     "buy_url": "",
     "hype_score": 55,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "nike-mind-002-light-smoke-grey",
@@ -6428,7 +6455,8 @@
     ],
     "buy_url": "",
     "hype_score": 0,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "nike-mind-002-wmns-light-smoke-grey",
@@ -6469,7 +6497,8 @@
     ],
     "buy_url": "",
     "hype_score": 50,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "nike-mind-002-black-hyper-crimson",
@@ -6510,7 +6539,8 @@
     ],
     "buy_url": "",
     "hype_score": 60,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "nike-mind-001-wmns-black-hyper-crimson",
@@ -6566,7 +6596,8 @@
     ],
     "buy_url": "",
     "hype_score": 0,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "nike-air-foamposite-one-mummy-releases-holiday-2026",
@@ -6602,7 +6633,8 @@
     ],
     "buy_url": "",
     "hype_score": 0,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "stone-island-x-new-balance-abzorb-dark-green",
@@ -6641,7 +6673,8 @@
     ],
     "buy_url": "",
     "hype_score": 80,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "stone-island-x-new-balance-abzorb-grey-olive",
@@ -6680,7 +6713,8 @@
     ],
     "buy_url": "",
     "hype_score": 80,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "adidas-adistar-xlg-2-grey",
@@ -6806,7 +6840,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "nike-acg-pegasus-trail-summit-white-safety-orange",
@@ -6933,7 +6968,8 @@
           }
         ]
       }
-    ]
+    ],
+    "featured": false
   },
   {
     "id": "coca-cola-x-adidas-superstar-ii-white-core-black-red",
@@ -6974,7 +7010,8 @@
     ],
     "buy_url": "",
     "hype_score": 70,
-    "year": 2026
+    "year": 2026,
+    "featured": false
   },
   {
     "id": "adidas-d-o-n-issue-8-gets-a-mismatched-yin-and-yang-ki9284",
@@ -9135,7 +9172,8 @@
     "source": "Sneaker Files",
     "added_at": "2026-06-24T21:10:32.412363+00:00",
     "year": 2026,
-    "retailers": []
+    "retailers": [],
+    "featured": false
   },
   {
     "id": "jjjjound-x-new-balance-1890-silver-white",
@@ -9744,5 +9782,309 @@
     "wtc_url": "https://www.whentocop.fr/drops/sp5der-adidas-f50-formotion-silver-metallic-kz6575",
     "featured": false,
     "retailers": []
+  },
+  {
+    "id": "new-balance-1890-nordic-green",
+    "title": "New Balance 1890 Nordic Green",
+    "brand": "New Balance",
+    "sku": "U18907BP",
+    "date": "2026-07-09",
+    "price": 190,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890-nordic-green-U18907BP-2.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-nordic-green-u18907bp",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr",
+        "price": 190,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-7-miro",
+    "title": "Air Jordan 7 Miro",
+    "brand": "Jordan Brand",
+    "sku": "IQ6573-100",
+    "date": "2026-07-10",
+    "price": 210,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-7-miro-olympic-iq6573-100-release-date-5.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-7-miro-iq6573-100",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 210,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-4-retro-wmns-birds-of-paradise",
+    "title": "Air Jordan 4 Retro WMNS Birds Of Paradise",
+    "brand": "Jordan Brand",
+    "sku": "HV0823-101",
+    "date": "2026-07-10",
+    "price": 220,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-air-force-1-low-wnba-all-star-weekend-IV5831-001-IV5686-001.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-wmns-birds-of-paradise-hv0823-101",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 220,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "super-mario-x-crocs-classic-clog-yoshi",
+    "title": "Super Mario x Crocs Classic Clog Yoshi",
+    "brand": "Crocs",
+    "sku": "212136-90H",
+    "date": "2026-07-15",
+    "price": 70,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-yoshi-212136-90h",
+    "featured": false,
+    "retailers": []
+  },
+  {
+    "id": "super-mario-x-crocs-classic-clog-mario",
+    "title": "Super Mario x Crocs Classic Clog Mario",
+    "brand": "Crocs",
+    "sku": "212134-90H",
+    "date": "2026-07-15",
+    "price": 70,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-mario-212134-90h",
+    "featured": false,
+    "retailers": []
+  },
+  {
+    "id": "super-mario-x-crocs-classic-platform-clog-wmns-princess-peach",
+    "title": "Super Mario x Crocs Classic Platform Clog WMNS Princess Peach",
+    "brand": "Crocs",
+    "sku": "212137-90H",
+    "date": "2026-07-15",
+    "price": 80,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-platform-clog-wmns-princess-peach-212137-90h",
+    "featured": false,
+    "retailers": []
+  },
+  {
+    "id": "super-mario-x-crocs-classic-clog-bowser",
+    "title": "Super Mario x Crocs Classic Clog Bowser",
+    "brand": "Crocs",
+    "sku": "212135-90H",
+    "date": "2026-07-15",
+    "price": 70,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-bowser-classic-clog-multi-212135-90h",
+    "featured": false,
+    "retailers": []
+  },
+  {
+    "id": "new-balance-abzorb-2000s-yellow",
+    "title": "New Balance Abzorb 2000S Yellow",
+    "brand": "New Balance",
+    "sku": "U2000460",
+    "date": "2026-07-16",
+    "price": 200,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2022/11/New-Balance-2002R-M2002RHT-01.jpeg",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-abzorb-2000s-yellow-u2000460",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr",
+        "price": 200,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-3-og-true-blue",
+    "title": "Air Jordan 3 OG True Blue",
+    "brand": "Jordan Brand",
+    "sku": "IF4396-102",
+    "date": "2026-07-18",
+    "price": 230,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/adidas-anthony-edwards-2-ae2-philippines-3.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-og-true-blue-if4396-102",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 230,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-amp-indigo-burst",
+    "title": "Nike Mind 001 AMP Indigo Burst",
+    "brand": "Nike",
+    "sku": "IZ6659-400",
+    "date": "2026-07-19",
+    "price": 90,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-mind-001-indigo-burst-hyper-punch-iz6659-400-1.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-amp-indigo-burst-iz6659-400",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 90,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-triple-black",
+    "title": "Nike Mind 001 Triple Black",
+    "brand": "Nike",
+    "sku": "HQ4307-005",
+    "date": "2026-07-28",
+    "price": 90,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-mind-001-black-anthracite-hq4307-005-1.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-triple-black-hq4307-005",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 90,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-wmns-old-royal",
+    "title": "Nike Mind 001 WMNS Old Royal",
+    "brand": "Nike",
+    "sku": "HQ4309-400",
+    "date": "2026-07-28",
+    "price": 90,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-mind-001-old-royal-midnight-navy-hq4309-400-1.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-old-royal",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 90,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-wmns-pink-smoke",
+    "title": "Nike Mind 001 WMNS Pink Smoke",
+    "brand": "Nike",
+    "sku": "HQ4309-601",
+    "date": "2026-07-28",
+    "price": 90,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-mind-001-pink-smoke-metallic-silver-HQ4309-601.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-pink-smoke",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 90,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-cucumber-calm",
+    "title": "Nike Mind 001 Cucumber Calm",
+    "brand": "Nike",
+    "sku": "HQ4307-302",
+    "date": "2026-08-20",
+    "price": 90,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-vomero-premium-cucumber-calm-HM5973-302-4.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-cucumber-calm-hq4307-302",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 90,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-black-hyper-crimson",
+    "title": "Nike Mind 001 Black Hyper Crimson",
+    "brand": "Nike",
+    "sku": "HQ4307-001",
+    "date": "2026-08-20",
+    "price": 90,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-mind-001-restock-april-2026.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-black-hyper-crimson-hq4307-001",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 90,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-6-oreo",
+    "title": "Air Jordan 6 OREO",
+    "brand": "Jordan Brand",
+    "sku": "CT8529-108",
+    "date": "2026-08-22",
+    "price": 210,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/oreo-jordan-6s-release-date-1.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-6-oreo-ct8529-108",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 210,
+        "priceCurrency": "EUR"
+      }
+    ]
   }
 ]
