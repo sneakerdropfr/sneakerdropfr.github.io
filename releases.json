@@ -177,6 +177,16 @@
             "price": "119,99€"
           }
         ]
+      },
+      {
+        "date": "2026-06-30",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=44947246786&a=2855487&m=104979",
+            "price": "119,99€"
+          }
+        ]
       }
     ],
     "buy_url": "https://www.adidas.fr/chaussures-tangum/LA6570.html",
@@ -280,6 +290,16 @@
       },
       {
         "date": "2026-06-26",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45114898246&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-30",
         "retailers": [
           {
             "name": "BSTN",
@@ -756,6 +776,16 @@
             "price": "149,99€"
           }
         ]
+      },
+      {
+        "date": "2026-06-30",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=43779852655&a=2855487&m=104979",
+            "price": "149,99€"
+          }
+        ]
       }
     ],
     "featured": false
@@ -1177,6 +1207,16 @@
       },
       {
         "date": "2026-06-26",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45114898061&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-30",
         "retailers": [
           {
             "name": "BSTN",
@@ -4416,6 +4456,16 @@
             "price": "209,99€"
           }
         ]
+      },
+      {
+        "date": "2026-06-30",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45092041303&a=2855487&m=104979",
+            "price": "209,99€"
+          }
+        ]
       }
     ],
     "silhouette": "Air Jordan 5",
@@ -4482,6 +4532,16 @@
             "price": "189,99€"
           }
         ]
+      },
+      {
+        "date": "2026-06-30",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45129560172&a=2855487&m=104979",
+            "price": "189,99€"
+          }
+        ]
       }
     ],
     "colorway": "Yellow",
@@ -4540,6 +4600,16 @@
       },
       {
         "date": "2026-06-26",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45131964237&a=2855487&m=104979",
+            "price": "189,99€"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-30",
         "retailers": [
           {
             "name": "BSTN",
@@ -4774,6 +4844,16 @@
             "price": "249,99€"
           }
         ]
+      },
+      {
+        "date": "2026-06-30",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45130530229&a=2855487&m=104979",
+            "price": "249,99€"
+          }
+        ]
       }
     ]
   },
@@ -4903,7 +4983,19 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/saucony-pro-grid-ride-1-white-buttercup-s101807-1010",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-06-30",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45136274574&a=2855487&m=104979",
+            "price": "149,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "slam-jam-x-new-balance-abzorb-5030-silver",
