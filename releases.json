@@ -2219,7 +2219,7 @@
     "id": "adidas-teams-with-brain-dead-and-disney-on-predator-collaboration-for-world-cup-kj4289",
     "title": "adidas Teams With Brain Dead And Disney On Predator Collaboration For World Cup",
     "brand": "adidas",
-    "date": "TBD",
+    "date": "2026-06-29",
     "price": 200.0,
     "sku": "KJ4289",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/brain-dead-adidas-disney-world-cup-collection-12.jpg",
@@ -3184,7 +3184,7 @@
     "id": "a-cold-wall-debuts-salomon-acs-pro-collaboration-ld0178800",
     "title": "A-COLD-WALL* Debuts Salomon ACS Pro Collaboration",
     "brand": "Salomon",
-    "date": "TBD",
+    "date": "2026-07-01",
     "price": null,
     "sku": "LD0178800",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/a-cold-wall-salomon-acs-pro-4.jpg",
@@ -3211,6 +3211,13 @@
         "name": "Salomon",
         "url": "https://www.salomon.com/fr-fr/",
         "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fp%2FLD0178800%2F",
+        "price": "TBD",
         "resell": false,
         "raffle": false
       }
@@ -5963,117 +5970,6 @@
     "colorway": "Blue/Sail"
   },
   {
-    "id": "randy-moss-jordan-super-freak-og-returns-spring-2027",
-    "title": "Randy Moss’ Jordan Super Freak “OG”",
-    "brand": "Jordan Brand",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jordan-super-freak-og-white-black-purple-2027-JA7049-100-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w?q=jordan trainer&amp;vst=jordan trainer",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-08T22:05:07.902187+00:00",
-    "year": 2027,
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "jalen-brunson-x-nike-kobe-5-protro-ny-vs-ny-releases-july-20",
-    "title": "Jalen Brunson x Nike Kobe 5 Protro “NY vs NY”",
-    "brand": "Nike",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jalen-brunson-nike-kobe-5-protro-ny-vs-ny-menta-blue-glow-orange-horizon-IX1200-300-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-08T07:53:01.249520+00:00",
-    "silhouette": "Kobe 5",
-    "year": 2026,
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-cryoshot-tiempo-legend-r10-white-metallic-gold-releases",
-    "title": "Nike Cryoshot Tiempo Legend R10 “White Metallic Gold”",
-    "brand": "Nike",
-    "colorway": "White/Metallic Gold",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/nike-cryoshot-tiempo-legend-r10-white-metallic-gold-IQ8164-100-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-08T07:10:51.838692+00:00",
-    "silhouette": "Cryoshot",
-    "year": 2026,
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "air-jordan-3-white-cement-returns-summer-2027",
-    "title": "Air Jordan 3 “White Cement”",
-    "brand": "Jordan Brand",
-    "colorway": "White",
-    "date": "2027-06-01",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/03/air-jordan-3-white-cement-2027-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w?q=air jordan 3&amp;vst=air jordan 3",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-02T23:04:45.339657+00:00",
-    "silhouette": "Air Jordan 3",
-    "year": 2027,
-    "name": "Air Jordan 3 OG White Cement 2027",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-air-diamond-turf-2-49ers-returns-fall-2026",
-    "title": "Nike Air Diamond Turf 2 “49ers” Returns Fall 2026",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2012/02/nike-air-diamond-turf-2-black-white-metallic-gold-now-available-1.jpeg",
-    "buy_url": "https://www.nike.com/w?q=diamond turf&amp;vst=diamond turf",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-24T21:10:32.412363+00:00",
-    "year": 2026,
-    "retailers": [],
-    "featured": false
-  },
-  {
     "id": "patent-leather-nike-air-force-1-movement-continues-with-new-women-s-pack-iv5103-001",
     "title": "Patent Leather Nike Air Force 1 \"Black Metallic Silver Anthracite\"",
     "brand": "Nike",
@@ -6087,271 +5983,52 @@
     "featured": false,
     "silhouette": "Air Force 1",
     "colorway": "Black/Metallic Silver/Anthracite",
-    "year": 2026,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV5103-001",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv5103-001%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
+    "year": 2026
   },
   {
-    "id": "air-jordan-7-miro-air-jordan-3-true-blue-and-more-july-2026-jordan-releases-if4396-104",
-    "title": "Air Jordan 7 “Miro,” Air Jordan 3 “True Blue,” And More July 2026 Jordan Releases",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": 230.0,
-    "sku": "IF4396-104",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/jordan-release-dates-july-2026-7.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/06/30/jordan-release-dates-july-2026/",
-    "added_at": "2026-06-30T16:00:02.371115+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIF4396-104",
-        "price": "230€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fif4396-104%2F",
-        "price": "230€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "230€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "air-jordan-7-miro-air-jordan-3-true-blue-and-more-july-2026-jordan-releases-iv7638-001",
-    "title": "Air Jordan 7 “Miro,” Air Jordan 3 “True Blue,” And More July 2026 Jordan Releases",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": 255.0,
-    "sku": "IV7638-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/jordan-release-dates-july-2026-7.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/06/30/jordan-release-dates-july-2026/",
-    "added_at": "2026-06-30T16:00:02.371337+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV7638-001",
-        "price": "255€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv7638-001%2F",
-        "price": "255€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "255€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "first-look-at-the-women-s-air-jordan-5-sunset-iv5678-102",
-    "title": "First Look At The Women’s Air Jordan 5 “Sunset”",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": null,
+    "id": "air-jordan-5-wmns-sunset-iv5678-102",
+    "title": "Air Jordan 5 WMNS \"Sunset\"",
+    "brand": "Jordan",
     "sku": "IV5678-102",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-5-sunset-iv5678-102-1.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/06/30/air-jordan-5-sunset-iv5678-102/",
-    "added_at": "2026-06-30T16:00:02.371559+00:00",
-    "featured": false,
+    "colorway": "White/Sunset-Fire Red-Black",
+    "date": "2026-07-01",
+    "price": 215,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2025/10/air-jordan-5-sunset-2006-stadiumgoods-1.jpg",
+    "wtc_url": "",
+    "featured": true,
     "retailers": [
       {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV5678-102",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv5678-102%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fp%2FIV5678-102%2F",
+        "price": "215€",
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "source": "Sneaker News"
   },
   {
-    "id": "first-look-at-the-jordan-dimension-95-an-air-jordan-11-spin-off-hv4928-001",
-    "title": "First Look At The Jordan Dimension 95, An Air Jordan 11 Spin-off",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": 135.0,
-    "sku": "HV4928-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/jordan-dimension-95-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/06/30/jordan-dimension-95/",
-    "added_at": "2026-06-30T18:00:02.583002+00:00",
+    "id": "new-balance-992-made-in-usa-tan-grey-u992ta",
+    "title": "New Balance 992 Made in USA \"Tan Grey\"",
+    "brand": "New Balance",
+    "sku": "U992TA",
+    "colorway": "Tan/Grey",
+    "date": "2026-07-01",
+    "price": 200,
+    "year": 2026,
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-992-core-tan-grey-u992ta-1.jpg",
+    "wtc_url": "",
     "featured": false,
     "retailers": [
       {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHV4928-001",
-        "price": "135€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhv4928-001%2F",
-        "price": "135€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "135€",
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fp%2FU992TA%2F",
+        "price": "200€",
         "resell": false,
         "raffle": false
       }
-    ]
-  },
-  {
-    "id": "adidas-don-issue-8-preps-for-a-new-era-in-lucid-lime-ki9286",
-    "title": "adidas DON Issue #8 Preps For A New Era In “Lucid Lime”",
-    "brand": "adidas",
-    "date": "TBD",
-    "price": 120.0,
-    "sku": "KI9286",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/adidas-don-issue-8-silver-metallic-lucid-lemon-dash-grey-KI9286-8.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/06/30/adidas-don-issue-8-silver-metallic-lucid-lemon-dash-grey-ki9286/",
-    "added_at": "2026-06-30T20:00:02.838069+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI9286",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fki9286%2F",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr/",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-mind-002-takes-in-pink-smoke-hq4310-600",
-    "title": "Nike Mind 002 Takes In “Pink Smoke”",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 145.0,
-    "sku": "HQ4310-600",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-mind-002-pink-smoke-mystic-dates-light-magenta-hq4310-600-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/06/30/nike-mind-002-pink-smoke-mystic-dates-light-magenta-hq4310-600/",
-    "added_at": "2026-06-30T20:00:02.838449+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4310-600",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4310-600%2F",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "official-images-of-the-nike-sb-tennis-classic-club-58-iq8394-600",
-    "title": "Official Images Of The Nike SB Tennis Classic “Club 58”",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 105.0,
-    "sku": "IQ8394-600",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-sb-tennis-classic-world-cup-la-mas-fina-iq8394-600-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/06/30/nike-sb-tennis-classic-world-cup-la-mas-fina-iq8394-600/",
-    "added_at": "2026-06-30T22:00:02.724704+00:00",
-    "featured": false
-  },
-  {
-    "id": "official-images-of-the-jordan-triangle-quai-54-io3375-500",
-    "title": "Official Images Of The Jordan Triangle “Quai 54”",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": null,
-    "sku": "IO3375-500",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/jordan-triangle-quai-54-io3375-500-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/06/30/jordan-triangle-quai-54-io3375-500/",
-    "added_at": "2026-06-30T22:00:02.725027+00:00",
-    "featured": false
+    ],
+    "source": "Sneaker News"
   }
 ]
