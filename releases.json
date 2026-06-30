@@ -3706,7 +3706,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Cactus",
+    "year": 2026
   },
   {
     "id": "patent-leather-nike-air-force-1-movement-continues-with-new-women-s-pack-iv5103-600",
@@ -3742,7 +3744,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "colorway": "University Red/Metallic Silver",
+    "year": 2026
   },
   {
     "id": "nike-floods-the-air-force-1-low-with-fire-pink-iv4685-647",
@@ -3755,7 +3760,10 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/29/nike-air-force-1-low-fire-pink-fireberry-metallic-silver-fire-pink-iv4685-647/",
     "added_at": "2026-06-29T22:00:02.101073+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1",
+    "colorway": "Pink",
+    "year": 2026
   },
   {
     "id": "nike-extends-the-laces-on-this-se-air-max-95-im9637-001",
@@ -3768,13 +3776,15 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/29/nike-air-max-95-big-bubble-se-black-light-smoke-grey-im9637-001/",
     "added_at": "2026-06-30T00:00:02.843617+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "adidas-tobacco-super-blanch-brown-dust-cargo",
     "title": "Adidas Tobacco Super Blanch Brown Dust Cargo",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Brown",
     "sku": "KJ4590",
     "date": "2026-07-01",
     "price": 120,
@@ -3788,7 +3798,7 @@
     "id": "new-balance-abzorb-2000-boysenberry-smoked-violet",
     "title": "New Balance Abzorb 2000 Boysenberry Smoked Violet",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "Violet",
     "sku": "U20009BA",
     "date": "2026-07-01",
     "price": 200,
@@ -3802,7 +3812,7 @@
     "id": "vans-lx-authentic-44-mohair-port-multi",
     "title": "Vans LX Authentic 44 MOHAIR Port Multi",
     "brand": "Vans",
-    "colorway": "",
+    "colorway": "Multi",
     "sku": "VN000DB8BJ21",
     "date": "2026-07-01",
     "price": 115,
@@ -3816,7 +3826,7 @@
     "id": "care-bears-x-adidas-handball-spezial-wmns-brown-white",
     "title": "Care Bears x adidas Handball Spezial WMNS Brown White",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Brown/White",
     "sku": "KK4932",
     "date": "2026-07-01",
     "price": 130,
@@ -3830,7 +3840,7 @@
     "id": "care-bears-x-adidas-superstar-ii-wmns-clear-sky-bluebird",
     "title": "Care Bears x adidas Superstar II WMNS Clear Sky Bluebird",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Sky",
     "sku": "KK4865",
     "date": "2026-07-01",
     "price": 140,
@@ -3844,7 +3854,7 @@
     "id": "care-bears-x-adidas-adistar-control-5-wmns-clear-pink",
     "title": "Care Bears x adidas Adistar Control 5 WMNS Clear Pink",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Pink",
     "sku": "KK2605",
     "date": "2026-07-01",
     "price": 130,
@@ -3858,7 +3868,7 @@
     "id": "new-balance-1906e-altitude-black",
     "title": "New Balance 1906E Altitude Black",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "Black",
     "sku": "U19064Z7",
     "date": "2026-07-01",
     "price": 170,
@@ -3872,7 +3882,7 @@
     "id": "adidas-adizero-evo-sl-wmns-white-core-black",
     "title": "Adidas Adizero Evo SL Zip WMNS \"White Black\"",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "White/Black",
     "sku": "KI4796",
     "date": "2026-07-06",
     "price": 170,
@@ -3880,13 +3890,14 @@
     "image_url": "https://cdn.sanity.io/images/pu5wtzfc/production/8b914868b0c3d07a9e86cc1def0e8061a8a99795-2000x1250.png",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-wmns-white-core-black-ki4796",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Adidas Adizero"
   },
   {
     "id": "adidas-adizero-evo-sl-zip-black-white",
     "title": "Adidas Adizero Evo SL Zip Black White",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Black/White",
     "sku": "KH9623",
     "date": "2026-07-01",
     "price": 170,
@@ -3894,13 +3905,14 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2011/12/2011-top-30-sneakers-summary1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-zip-black-white-kh9623",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Adidas Adizero"
   },
   {
     "id": "adidas-adizero-evo-sl-zip-wmns-cream-white",
     "title": "Adidas Adizero Evo SL Zip WMNS Cream White",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Cream/White",
     "sku": "KI0477",
     "date": "2026-07-01",
     "price": 170,
@@ -3908,7 +3920,8 @@
     "image_url": "https://www.snkrempire.com/wp-content/uploads/2026/06/adidas-adizero-ki0477.png",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-zip-wmns-cream-white-ki0477",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Adidas Adizero"
   },
   {
     "id": "air-jordan-1-low-palomino",
@@ -3922,7 +3935,8 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-1-mid-black-palomino-university-red-dq8426-007-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-low-palomino-553558-200",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Air Jordan 1"
   },
   {
     "id": "air-jordan-1-high-og-love-the-game",
@@ -3936,13 +3950,14 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-1-love-letter-dz5485-201-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-high-og-love-the-game-dz5485-201",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Air Jordan 1"
   },
   {
     "id": "new-balance-991v2-made-in-uk-green-banana",
     "title": "New Balance 991v2 Made in UK Green Banana",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "Green",
     "sku": "U991WG2",
     "date": "2026-07-01",
     "price": 250,
@@ -3956,7 +3971,7 @@
     "id": "new-balance-950-off-white-beige",
     "title": "New Balance 950 Off White Beige",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "White/Beige",
     "sku": "U950384",
     "date": "2026-07-01",
     "price": 130,
@@ -3998,7 +4013,7 @@
     "id": "new-balance-allerdale-made-in-uk-white-pepper",
     "title": "New Balance Allerdale Made in UK White Pepper",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "White",
     "sku": "UADWCRM",
     "date": "2026-07-01",
     "price": 250,
@@ -4012,7 +4027,7 @@
     "id": "new-balance-1954r-triple-black",
     "title": "New Balance 1954R Triple Black",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "Black",
     "sku": "U19543VU",
     "date": "2026-07-01",
     "price": 190,
@@ -4026,7 +4041,7 @@
     "id": "sp5der-x-adidas-f50-formotion-silver-metallic",
     "title": "Sp5der x adidas F50 Formotion Silver Metallic",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Silver",
     "sku": "KZ6575",
     "date": "2026-07-01",
     "price": 190,
@@ -4055,7 +4070,8 @@
         "price": 190,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "colorway": "Green"
   },
   {
     "id": "air-jordan-7-miro",
@@ -4076,7 +4092,8 @@
         "price": 210,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 7"
   },
   {
     "id": "air-jordan-4-retro-wmns-birds-of-paradise",
@@ -4097,7 +4114,8 @@
         "price": 220,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "super-mario-x-crocs-classic-clog-yoshi",
@@ -4136,7 +4154,8 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-platform-clog-wmns-princess-peach-212137-90h",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "colorway": "Peach"
   },
   {
     "id": "super-mario-x-crocs-classic-clog-bowser",
@@ -4170,7 +4189,8 @@
         "price": 200,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "colorway": "Yellow"
   },
   {
     "id": "air-jordan-3-og-true-blue",
@@ -4191,7 +4211,9 @@
         "price": 230,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 3",
+    "colorway": "Blue"
   },
   {
     "id": "nike-mind-001-amp-indigo-burst",
@@ -4212,7 +4234,8 @@
         "price": 90,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "colorway": "Indigo"
   },
   {
     "id": "nike-mind-001-triple-black",
@@ -4233,7 +4256,8 @@
         "price": 90,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "nike-mind-001-wmns-old-royal",
@@ -4254,7 +4278,8 @@
         "price": 90,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "colorway": "Royal"
   },
   {
     "id": "nike-mind-001-wmns-pink-smoke",
@@ -4275,7 +4300,8 @@
         "price": 90,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-001-cucumber-calm",
@@ -4317,7 +4343,8 @@
         "price": 90,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "colorway": "Black/Crimson"
   },
   {
     "id": "air-jordan-6-oreo",
@@ -4338,7 +4365,8 @@
         "price": 210,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "air-jordan-5-retro-black-university-blue-dd0587-008",
@@ -4863,7 +4891,8 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/jjjjound-new-balance-1890-5.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/jjjjound-new-balance-1890-silver-white-u1890grey",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver/White"
   },
   {
     "id": "vans-lx-old-skool-36-souvenir",
@@ -4889,7 +4918,8 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/jjjjound-new-balance-1890-release-date.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/jjjjound-new-balance-1890-black-white-u18907dn",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/White"
   },
   {
     "id": "tokyo-design-studio-x-new-balance-msnb1-zinc-blue",
@@ -4902,7 +4932,8 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/tokyo-design-studio-new-balance-msnb1-zinc-blue-msnb17uq",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Blue"
   },
   {
     "id": "ftshp-x-adidas-terrex-stargazer-tt-core-black",
@@ -4915,7 +4946,8 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/ftshp-adidas-terrex-stargazer-tt-core-black-kk2641",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "tokyo-design-studio-x-new-balance-msnb1-morel",
@@ -4953,7 +4985,8 @@
           }
         ]
       }
-    ]
+    ],
+    "colorway": "White"
   },
   {
     "id": "slam-jam-x-new-balance-abzorb-5030-silver",
@@ -4966,7 +4999,8 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/new-balance-5030-release-date.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/slam-jam-new-balance-abzorb-5030-silver-u50301xr",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver"
   },
   {
     "id": "rassvet-x-nike-sb-zoom-tennis-classic-blue-void-sail",
@@ -4979,7 +5013,8 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/rassvet-nike-sb-tennis-classic-io9846-400-14.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/rassvet-nike-sb-zoom-tennis-classic-blue-void-sail-io9846-400",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Blue/Sail"
   },
   {
     "id": "randy-moss-jordan-super-freak-og-returns-spring-2027",
@@ -5103,6 +5138,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/29/nike-air-force-1-low-se-suede-and-patent-leather/",
     "added_at": "2026-06-30T08:00:02.563050+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1",
+    "colorway": "Black/Metallic Silver/Anthracite",
+    "year": 2026
   }
 ]
