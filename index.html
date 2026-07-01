@@ -354,6 +354,10 @@
     .btn-retailer:hover{transform:translateY(-1px)}
     .btn-retailer--bstn{background:var(--black);color:#fff;border:1px solid rgba(255,255,255,.15)}
     .btn-retailer--bstn:hover{background:var(--accent);color:var(--black);border-color:var(--accent)}
+    .btn-retailer--snipes{background:#E30613;color:#fff;border:1px solid rgba(255,255,255,.15)}
+    .btn-retailer--snipes:hover{background:#fff;color:#E30613;border-color:#E30613}
+    .btn-retailer--solebox{background:#4A5D4F;color:#fff;border:1px solid rgba(255,255,255,.15)}
+    .btn-retailer--solebox:hover{background:#fff;color:#4A5D4F;border-color:#4A5D4F}
     .btn-retailer--nike{background:#111;color:#fff;border:1px solid rgba(255,255,255,.1)}
     .btn-retailer--nike:hover{background:var(--accent);color:var(--black)}
     .btn-retailer--official{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.18)}
@@ -964,6 +968,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         officialShown.forEach(function(rt) {
           var cls = isRetailerSnipes(rt.name) ? 'btn-retailer btn-retailer--snipes'
                   : isRetailerBSTN(rt.name) ? 'btn-retailer btn-retailer--bstn'
+                  : isRetailerSolebox(rt.name) ? 'btn-retailer btn-retailer--solebox'
                   : isRetailerNike(rt.name) ? 'btn-retailer btn-retailer--nike'
                   : 'btn-retailer btn-retailer--official';
           var icon = isRetailerBSTN(rt.name) ? '🛒 '
