@@ -421,6 +421,13 @@
         "price": "170€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-2010-u201079x-0353083",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false,
@@ -1603,6 +1610,13 @@
         "name": "Adidas",
         "url": "https://www.adidas.fr/",
         "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-wmns-x-care-bears-adistar-control-5-kk2606-0354872",
+        "price": "130€",
         "resell": false,
         "raffle": false
       }
@@ -5983,7 +5997,30 @@
     "featured": false,
     "silhouette": "Air Force 1",
     "colorway": "Black/Metallic Silver/Anthracite",
-    "year": 2026
+    "year": 2026,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV5103-001",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv5103-001%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-5-wmns-sunset-iv5678-102",
@@ -6001,6 +6038,20 @@
       {
         "name": "BSTN",
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fp%2FIV5678-102%2F",
+        "price": "215€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV5678-102",
+        "price": "215€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv5678-102%2F",
         "price": "215€",
         "resell": false,
         "raffle": false
@@ -6028,6 +6079,27 @@
         "price": "200€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU992TA",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu992ta%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "source": "Sneaker News",
@@ -6044,7 +6116,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/30/nike-sb-tennis-classic-world-cup-la-mas-fina-iq8394-600/",
     "added_at": "2026-07-01T02:00:02.382188+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8394-600",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8394-600%2F",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "official-images-of-the-jordan-triangle-quai-54-io3375-500",
@@ -6057,7 +6152,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/30/jordan-triangle-quai-54-io3375-500/",
     "added_at": "2026-07-01T02:00:02.382582+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO3375-500",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio3375-500%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "adidas-don-issue-8-preps-for-a-new-era-in-lucid-lime-ki9286",
@@ -6070,7 +6188,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/30/adidas-don-issue-8-silver-metallic-lucid-lemon-dash-grey-ki9286/",
     "added_at": "2026-07-01T02:00:02.382907+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI9286",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fki9286%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-mind-002-takes-in-pink-smoke-hq4310-600",
@@ -6083,7 +6224,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/30/nike-mind-002-pink-smoke-mystic-dates-light-magenta-hq4310-600/",
     "added_at": "2026-07-01T02:00:02.383157+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4310-600",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4310-600%2F",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "care-bears-x-adidas-samba-jane-wmns-almost-yellow",
@@ -6097,7 +6261,29 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-samba-jane-wmns-almost-yellow-cloud-white-gum-kk2600",
     "featured": false,
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKK2600",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk2600%2F",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "care-bears-x-adidas-samba-jane-wmns-pink",
@@ -6111,7 +6297,29 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-samba-jane-wmns-pink-white-gum-kk2599",
     "featured": false,
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKK2599",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk2599%2F",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "adidas-japan-wmns-maroon-quiet-crimson",
@@ -6125,7 +6333,29 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-japan-wmns-maroon-quiet-crimson-kj2419",
     "featured": false,
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKJ2419",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkj2419%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "randy-moss-jordan-super-freak-og-returns-spring-2027",
@@ -6235,7 +6465,15 @@
     "source": "Sneaker Files",
     "added_at": "2026-06-24T21:10:32.412363+00:00",
     "year": 2026,
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ],
     "featured": false
   }
 ]
