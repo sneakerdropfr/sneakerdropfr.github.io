@@ -1586,7 +1586,7 @@
     "date": "TBD",
     "price": 140.0,
     "sku": "KK2606",
-    "image_url": "",
+    "image_url": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Aimg.bstn.com%2FeyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LSzI2MDYvS0syNjA2LTAxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjE2MDAsImhlaWdodCI6MjAwMCwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0%3D&feedId=99343&k=0e9ece22badbdffec85853b86ac9d801bf966269",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/06/22/care-bears-adidas-adistar-control-5-kk2606/",
     "added_at": "2026-06-22T18:00:02.174285+00:00",
@@ -5138,96 +5138,6 @@
     "silhouette": "Air Jordan 6"
   },
   {
-    "id": "air-jordan-5-retro-black-university-blue-dd0587-008",
-    "title": "Air Jordan 5 Retro Black University Blue",
-    "brand": "Jordan Brand",
-    "date": "2026-06-30",
-    "price": 220,
-    "sku": "DD0587-008",
-    "image_url": "https://sneakerdropfr.fr/images/air_jordan_5_black_university_blue_DD0587-008.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-5-retro-black-university-blue-dd0587-008",
-    "retailers": [
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/air-jordan-5-retro-black-university-blue-2026-dd0587-008",
-        "price": 250,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-5-retro-black-university-blue-2026?country=FR&currencyCode=EUR&size=7",
-        "price": 254,
-        "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DDD0587-008",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fdd0587-008%2F",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "220€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-air-jordan-5-retro-dd0587-008-0353982",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "featured": false,
-    "restocks": [
-      {
-        "date": "2026-06-25",
-        "retailers": [
-          {
-            "name": "BSTN",
-            "url": "https://www.awin1.com/pclick.php?p=45092041303&a=2855487&m=104979",
-            "price": "209,99€"
-          }
-        ]
-      },
-      {
-        "date": "2026-06-26",
-        "retailers": [
-          {
-            "name": "BSTN",
-            "url": "https://www.awin1.com/pclick.php?p=45092041303&a=2855487&m=104979",
-            "price": "209,99€"
-          }
-        ]
-      },
-      {
-        "date": "2026-06-30",
-        "retailers": [
-          {
-            "name": "BSTN",
-            "url": "https://www.awin1.com/pclick.php?p=45092041303&a=2855487&m=104979",
-            "price": "209,99€"
-          }
-        ]
-      }
-    ],
-    "silhouette": "Air Jordan 5",
-    "colorway": "Black/University Blue",
-    "year": 2026
-  },
-  {
     "id": "new-balance-1890-wmns-linen-punch-yellow",
     "title": "New Balance 1890 Wmns Linen Punch Yellow",
     "brand": "New Balance",
@@ -5757,113 +5667,6 @@
     "colorway": "Black/White"
   },
   {
-    "id": "tokyo-design-studio-x-new-balance-msnb1-zinc-blue",
-    "title": "Tokyo Design Studio x New Balance MSNB1 \"Zinc Blue\"",
-    "brand": "New Balance",
-    "sku": "MSNB17UQ",
-    "date": "2026-06-25",
-    "price": 300,
-    "year": 2026,
-    "image_url": "",
-    "wtc_url": "https://www.whentocop.fr/drops/tokyo-design-studio-new-balance-msnb1-zinc-blue-msnb17uq",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DMSNB17UQ",
-        "price": "300€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fmsnb17uq%2F",
-        "price": "300€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "300€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "featured": false,
-    "colorway": "Blue"
-  },
-  {
-    "id": "ftshp-x-adidas-terrex-stargazer-tt-core-black",
-    "title": "FTSHP x Adidas Terrex Stargazer TT \"Core Black\"",
-    "brand": "Adidas",
-    "sku": "KK2641",
-    "date": "2026-06-25",
-    "price": 180,
-    "year": 2026,
-    "image_url": "",
-    "wtc_url": "https://www.whentocop.fr/drops/ftshp-adidas-terrex-stargazer-tt-core-black-kk2641",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKK2641",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk2641%2F",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr/",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "featured": false,
-    "colorway": "Black"
-  },
-  {
-    "id": "tokyo-design-studio-x-new-balance-msnb1-morel",
-    "title": "Tokyo Design Studio x New Balance MSNB1 \"Morel\"",
-    "brand": "New Balance",
-    "sku": "MSNB18XB",
-    "date": "2026-06-25",
-    "price": 300,
-    "year": 2026,
-    "image_url": "",
-    "wtc_url": "https://www.whentocop.fr/drops/tokyo-design-studio-x-new-balance-msnb1-morel-msnb18xb",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DMSNB18XB",
-        "price": "300€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fmsnb18xb%2F",
-        "price": "300€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "300€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "featured": false
-  },
-  {
     "id": "saucony-pro-grid-ride-1-white-buttercup",
     "title": "Saucony Pro Grid Ride 1 \"White Buttercup\"",
     "brand": "Saucony",
@@ -5871,7 +5674,7 @@
     "date": "2026-06-25",
     "price": 150,
     "year": 2026,
-    "image_url": "",
+    "image_url": "https://images2.productserve.com/?w=200&h=200&bg=white&trim=5&t=letterbox&url=ssl%3Aimg.bstn.com%2FeyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9TMTAxODA3LTEwMTAvUzEwMTgwNy0xMDEwLTAxLW4uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ%3D%3D&feedId=99343&k=e3970d3d1c9eefbbd12273a4b0eae26531c67b98",
     "wtc_url": "https://www.whentocop.fr/drops/saucony-pro-grid-ride-1-white-buttercup-s101807-1010",
     "retailers": [
       {
@@ -6244,114 +6047,6 @@
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
         "price": "145€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "care-bears-x-adidas-samba-jane-wmns-almost-yellow",
-    "title": "Care Bears x adidas Samba Jane WMNS Almost Yellow",
-    "brand": "Adidas",
-    "colorway": "",
-    "sku": "KK2600",
-    "date": "2026-06-30",
-    "price": 110,
-    "year": 2026,
-    "image_url": "",
-    "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-samba-jane-wmns-almost-yellow-cloud-white-gum-kk2600",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKK2600",
-        "price": "110€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk2600%2F",
-        "price": "110€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr/",
-        "price": "110€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "care-bears-x-adidas-samba-jane-wmns-pink",
-    "title": "Care Bears x adidas Samba Jane WMNS Pink",
-    "brand": "Adidas",
-    "colorway": "",
-    "sku": "KK2599",
-    "date": "2026-06-30",
-    "price": 110,
-    "year": 2026,
-    "image_url": "",
-    "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-samba-jane-wmns-pink-white-gum-kk2599",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKK2599",
-        "price": "110€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk2599%2F",
-        "price": "110€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr/",
-        "price": "110€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "adidas-japan-wmns-maroon-quiet-crimson",
-    "title": "Adidas Japan WMNS Maroon Quiet Crimson",
-    "brand": "Adidas",
-    "colorway": "",
-    "sku": "KJ2419",
-    "date": "2026-06-30",
-    "price": 120,
-    "year": 2026,
-    "image_url": "",
-    "wtc_url": "https://www.whentocop.fr/drops/adidas-japan-wmns-maroon-quiet-crimson-kj2419",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKJ2419",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkj2419%2F",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr/",
-        "price": "120€",
         "resell": false,
         "raffle": false
       }
