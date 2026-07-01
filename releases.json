@@ -8767,34 +8767,42 @@
     "id": "adidas-teams-with-brain-dead-and-disney-on-predator-collaboration-for-world-cup-kj4289",
     "title": "adidas Teams With Brain Dead And Disney On Predator Collaboration For World Cup",
     "brand": "Adidas",
-    "date": "2026-06-29",
-    "price": 200,
+    "date": "TBD",
+    "price": 210,
     "sku": "KJ4289",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/brain-dead-disney-adidas-predator-KJ4289-5.jpg",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/brain-dead-adidas-disney-world-cup-collection-12.jpg",
     "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/06/24/brain-dead-disney-adidas-predator-kj4289/",
     "added_at": "2026-06-25T12:00:02.197962+00:00",
     "featured": false,
     "retailers": [
       {
+        "@type": "Offer",
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKJ4289",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
+        "price": 210,
+        "priceCurrency": "EUR"
       },
       {
+        "@type": "Offer",
         "name": "Solebox",
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkj4289%2F",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
+        "price": 210,
+        "priceCurrency": "EUR"
       },
       {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr/",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
+        "@type": "Offer",
+        "name": "StockX",
+        "url": "https://stockx.com/search?s=KJ4289",
+        "price": 241,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Klekt",
+        "url": "https://www.klekt.com/search?query=KJ4289",
+        "price": 350,
+        "priceCurrency": "EUR"
       }
     ],
     "year": 2026
