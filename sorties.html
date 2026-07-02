@@ -745,7 +745,7 @@ document.addEventListener('DOMContentLoaded', function(){
           renderWeeklyDrops();
           return;
         }
-        fetch('https://cdn.jsdelivr.net/gh/sneakerdropfr/sneakerdropfr.github.io@main/weekly_data.json?t=' + Date.now())
+        fetch('/weekly_data.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .then(function(wd) {
             // Vérifier que weekly_data.json correspond bien à la semaine en cours ou future
@@ -892,7 +892,7 @@ document.addEventListener('DOMContentLoaded', function(){
         window._releases = allReleases.slice();
         window.allReleases = allReleases;
         // Enrichir la recherche avec releases_past.json
-        fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t=' + Date.now())
+        fetch('/releases_past.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .catch(function() { return []; })
           .then(function(past) {
@@ -1084,7 +1084,7 @@ document.addEventListener('DOMContentLoaded', function(){
     var pastGrid=document.getElementById('past-grid');
     if (pastGrid.style.display==='block'){ pastGrid.style.display='none'; btn.textContent='🕐 Voir les anciennes sorties'; return; }
     btn.textContent='Chargement...';
-    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t='+Date.now())
+    fetch('/releases_past.json?t='+Date.now())
       .then(function(r){ return r.json(); })
       .then(function(data){ renderPastGrid(data); })
       .catch(function(){ renderPastGrid([]); btn.textContent='🕐 Voir les anciennes sorties'; });
