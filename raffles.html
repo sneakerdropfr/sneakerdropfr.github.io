@@ -384,7 +384,7 @@
       }
     }, 5000);
 
-    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?cb=' + cb)
+    fetch('/releases.json?cb=' + cb)
       .then(function(res){ if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
       .then(function(data){ clearTimeout(_raffleTimeout); renderData(data); })
       .catch(function(){ /* données statiques déjà affichées */ });

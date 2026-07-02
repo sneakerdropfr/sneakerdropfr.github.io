@@ -295,7 +295,7 @@
   _curYear = now.getFullYear();
   _curMonth = now.getMonth();
 
-  fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t=' + Date.now())
+  fetch('/releases.json?t=' + Date.now())
     .then(function(r){ return r.json(); })
     .then(function(data){
       document.getElementById('cal-loading').style.display = 'none';
