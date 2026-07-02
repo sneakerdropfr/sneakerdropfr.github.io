@@ -1,5 +1,17 @@
 [
   {
+    "id": "jae-tips-x-nike-air-bakin-low-releases-spring-2027",
+    "title": "Jae Tips x Nike Air Bakin Low Releases Spring 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2023/02/supreme-nike-air-bakin-release.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-02T06:15:26.041285+00:00"
+  },
+  {
     "id": "nike-air-max-lost-samples-pack-releases-spring-2027",
     "title": "Nike Air Max “Lost Samples” Pack Releases Spring 2027",
     "brand": "Sneaker Files",
@@ -2998,134 +3010,5 @@
     "silhouette": "Adidas Samba",
     "colorway": "MAROON",
     "year": 2026
-  },
-  {
-    "id": "adidas-adizero-adios-pro-4-footwear-white-fucid-red-shock-purple",
-    "title": "Adidas Adizero Adios Pro 4 Footwear White Fucid Red Shock Purple",
-    "brand": "Adidas",
-    "date": "2026-06-14",
-    "price": 250,
-    "sku": "KZ9020",
-    "image_url": "https://sneakerdropfr.fr/images/adidas_adizero_adios_pro4_white_red_KZ9020.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-adios-pro-4-white-fucid-red-shock-purple-kz9020",
-    "retailers": [
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/adidas-adizero-adios-pro-4-white-lucid-red-shock-purple?country=FR&currencyCode=EUR",
-        "price": 211,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "Foot Store",
-        "url": "https://www.awin1.com/pclick.php?p=45039254452&a=737541&m=55619",
-        "price": 250,
-        "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKZ9020",
-        "price": "250€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkz9020%2F",
-        "price": "250€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr/",
-        "price": "250€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "featured": false,
-    "silhouette": "Adidas Adizero",
-    "colorway": "White/Red/Purple",
-    "year": 2026
-  },
-  {
-    "id": "ja-morant-closes-a-chapter-with-the-nike-ja-3-wolf-grey-iv4426-100",
-    "title": "Ja Morant Closes A Chapter With The Nike Ja 3 “Wolf Grey”",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 125.0,
-    "sku": "IV4426-100",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-ja-3-tb-white-wolf-grey-black-iv4426-100-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-ja-3-tb-white-wolf-grey-black-iv4426-100/",
-    "added_at": "2026-07-02T06:00:02.905928+00:00",
-    "featured": false
-  },
-  {
-    "id": "this-nike-ja-3-is-practically-made-for-mikal-bridges-iv4426-106",
-    "title": "This Nike Ja 3 Is Practically Made For Mikal Bridges",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 125.0,
-    "sku": "IV4426-106",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-ja-3-tb-white-game-royal-IV4426-106-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-ja-3-tb-white-game-royal-iv4426-106/",
-    "added_at": "2026-07-02T06:00:02.906234+00:00",
-    "featured": false
-  },
-  {
-    "id": "nike-gives-the-shox-tl-a-luxury-leather-makeover-ir2097-001",
-    "title": "Nike Gives The Shox TL A Luxury Leather Makeover",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": null,
-    "sku": "IR2097-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-shox-tl-black-leather-ir2097-001-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-shox-tl-black-leather-ir2097-001/",
-    "added_at": "2026-07-02T06:00:02.906360+00:00",
-    "featured": false
-  },
-  {
-    "id": "nike-book-2-enters-white-on-white-territory-iz2372-105",
-    "title": "Nike Book 2 Enters White-On-White Territory",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 145.0,
-    "sku": "IZ2372-105",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-book-2-tb-white-iz2372-105-8.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-book-2-tb-white-iz2372-105/",
-    "added_at": "2026-07-02T06:00:02.906459+00:00",
-    "featured": false
-  },
-  {
-    "id": "cooper-flagg-approved-new-balance-950-is-here-u9509mt",
-    "title": "Cooper Flagg-Approved New Balance 950 Is Here",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 120.0,
-    "sku": "U9509MT",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/new-balance-950-angora-silver-moss-u9509mt-7.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/new-balance-950-angora-silver-moss-u9509mt/",
-    "added_at": "2026-07-02T06:00:02.908967+00:00",
-    "featured": false
-  },
-  {
-    "id": "cooper-flagg-approved-new-balance-950-is-here-u950384",
-    "title": "Cooper Flagg-Approved New Balance 950 Is Here",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 120.0,
-    "sku": "U950384",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/new-balance-950-angora-silver-moss-u9509mt-7.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/new-balance-950-angora-silver-moss-u9509mt/",
-    "added_at": "2026-07-02T06:00:02.909153+00:00",
-    "featured": false
   }
 ]
