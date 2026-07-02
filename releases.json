@@ -9,7 +9,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2023/02/supreme-nike-air-bakin-release.jpg",
     "buy_url": "https://www.nike.com/launch/upcoming",
     "source": "Sneaker Files",
-    "added_at": "2026-07-02T06:15:26.041285+00:00"
+    "added_at": "2026-07-02T06:15:26.041285+00:00",
+    "retailers": []
   },
   {
     "id": "nike-air-max-lost-samples-pack-releases-spring-2027",
@@ -21,7 +22,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-max-lost-samples-pack-2027-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch/upcoming",
     "source": "Sneaker Files",
-    "added_at": "2026-07-02T05:59:33.160455+00:00"
+    "added_at": "2026-07-02T05:59:33.160455+00:00",
+    "retailers": []
   },
   {
     "id": "nike-mind-002-flyknit-qs-pure-platinum",
@@ -1053,6 +1055,13 @@
         "price": "200€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "hype_score": 82,
@@ -1082,6 +1091,13 @@
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D130690-001",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
         "price": "210€",
         "resell": false,
         "raffle": false
@@ -1196,6 +1212,13 @@
         "price": "200€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "hype_score": 80,
@@ -1228,6 +1251,13 @@
         "price": "188,99€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "hype_score": 72,
@@ -1258,6 +1288,13 @@
         "name": "Solebox",
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-3-retro-og-worlds-best-dad-blanc-98030",
         "price": "209,99€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
         "resell": false,
         "raffle": false
       }
@@ -1296,6 +1333,13 @@
       {
         "name": "BSTN",
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fjordan-air-jordan-4-retro-toro-bravo-fq8138-600-0350344",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
         "price": "210€",
         "resell": false,
         "raffle": false
@@ -3212,7 +3256,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/01/nike-ja-3-tb-white-wolf-grey-black-iv4426-100/",
     "added_at": "2026-07-02T10:00:02.531329+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV4426-100",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv4426-100%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "this-nike-ja-3-is-practically-made-for-mikal-bridges-iv4426-106",
@@ -3225,7 +3292,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/01/nike-ja-3-tb-white-game-royal-iv4426-106/",
     "added_at": "2026-07-02T10:00:02.531745+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV4426-106",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv4426-106%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-gives-the-shox-tl-a-luxury-leather-makeover-ir2097-001",
@@ -3238,7 +3328,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/01/nike-shox-tl-black-leather-ir2097-001/",
     "added_at": "2026-07-02T10:00:02.531968+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR2097-001",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir2097-001%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-book-2-enters-white-on-white-territory-iz2372-105",
@@ -3251,7 +3364,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/01/nike-book-2-tb-white-iz2372-105/",
     "added_at": "2026-07-02T10:00:02.532185+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ2372-105",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz2372-105%2F",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "cooper-flagg-approved-new-balance-950-is-here-u9509mt",
@@ -3264,7 +3400,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/01/new-balance-950-angora-silver-moss-u9509mt/",
     "added_at": "2026-07-02T10:00:02.534857+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU9509MT",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu9509mt%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "cooper-flagg-approved-new-balance-950-is-here-u950384",
@@ -3277,6 +3436,36 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/01/new-balance-950-angora-silver-moss-u9509mt/",
     "added_at": "2026-07-02T10:00:02.535046+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-950-u950384-0353285",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU950384",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu950384%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
