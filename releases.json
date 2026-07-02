@@ -5955,7 +5955,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "official-images-of-the-jordan-triangle-quai-54-io3375-500",
@@ -5991,7 +5992,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "adidas-don-issue-8-preps-for-a-new-era-in-lucid-lime-ki9286",
@@ -6027,7 +6029,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Lime",
+    "year": 2026
   },
   {
     "id": "nike-mind-002-takes-in-pink-smoke-hq4310-600",
@@ -6063,7 +6067,387 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink/Smoke",
+    "year": 2026
+  },
+  {
+    "id": "nike-pg-1-ivory-snakeskin-returning-soon-iv2869-110",
+    "title": "Nike PG 1 “Ivory Snakeskin” Returning Soon",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": null,
+    "sku": "IV2869-110",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-pg-1-ep-ivory-iv2869-110-6.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/nike-pg-1-ep-ivory-iv2869-110/",
+    "added_at": "2026-07-01T16:00:02.222026+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV2869-110",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv2869-110%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "colorway": "Ivory",
+    "year": 2026
+  },
+  {
+    "id": "original-nike-tiempo-gets-the-cryoshot-treatment-iq8158-001",
+    "title": "Original Nike Tiempo Gets The Cryoshot Treatment",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 200.0,
+    "sku": "IQ8158-001",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-cryoshot-tiempo-94-og-iq8158-001-6.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/nike-cryoshot-tiempo-94-og-iq8158-001/",
+    "added_at": "2026-07-01T16:00:02.222399+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8158-001",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8158-001%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "silhouette": "Cryoshot",
+    "year": 2026
+  },
+  {
+    "id": "gradient-detailing-lands-on-the-nike-mind-002-iz6658-001",
+    "title": "Gradient Detailing Lands On The Nike Mind 002",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 145.0,
+    "sku": "IZ6658-001",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-mind-002-black-indigo-burst-hyper-punch-metallic-platinum-iz6658-001-5.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/nike-mind-002-black-indigo-burst-hyper-punch-metallic-platinum-iz6658-001/",
+    "added_at": "2026-07-01T18:00:02.564039+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ6658-001",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz6658-001%2F",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "year": 2026
+  },
+  {
+    "id": "nike-diamond-turf-2-49ers-is-dropping-as-a-cleat-if4807-002",
+    "title": "Nike Diamond Turf 2 “49ers” Is Dropping As A Cleat",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 210.0,
+    "sku": "IF4807-002",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-diamond-turf-2-football-cleats-if4807-002-6.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/nike-diamond-turf-2-football-cleats-if4807-002/",
+    "added_at": "2026-07-01T18:00:02.567234+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIF4807-002",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fif4807-002%2F",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "year": 2026
+  },
+  {
+    "id": "sue-bird-s-nike-zoom-huarache-2k4-lands-on-july-24th-iw1884-100",
+    "title": "Sue Bird’s Nike Zoom Huarache 2k4 Lands On July 24th",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 200.0,
+    "sku": "IW1884-100",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-zoom-huarache-2k4-sue-bird-iw1884-100-6.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/nike-zoom-huarache-2k4-sue-bird-iw1884-100/",
+    "added_at": "2026-07-01T18:00:02.567615+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIW1884-100",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiw1884-100%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "silhouette": "Huarache 2K4",
+    "year": 2026
+  },
+  {
+    "id": "new-balance-to-debut-the-laceless-204v-u204vcmv",
+    "title": "New Balance To Debut The Laceless 204V",
+    "brand": "New Balance",
+    "date": "TBD",
+    "price": null,
+    "sku": "U204VCMV",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/new-balance-204v-fan-blue-u204vcmv-6.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/new-balance-204v-release-date/",
+    "added_at": "2026-07-01T18:00:02.567791+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU204VCMV",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu204vcmv%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "year": 2026
+  },
+  {
+    "id": "nike-ja-3-team-bank-opens-with-white-and-black-iv4426-101",
+    "title": "Nike Ja 3 “Team Bank” Opens With White And Black",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 125.0,
+    "sku": "IV4426-101",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-ja-3-white-black-metallic-silver-iv4426-101-6.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/nike-ja-3-white-black-metallic-silver-iv4426-101/",
+    "added_at": "2026-07-01T20:00:02.043901+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV4426-101",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv4426-101%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "colorway": "White/Black",
+    "year": 2026
+  },
+  {
+    "id": "nike-book-2-enters-white-on-white-territory-iz2372-105",
+    "title": "Nike Book 2 Enters White-On-White Territory",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 145.0,
+    "sku": "IZ2372-105",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-book-2-tb-white-iz2372-105-8.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/nike-book-2-tb-white-iz2372-105/",
+    "added_at": "2026-07-01T22:00:02.357831+00:00",
+    "featured": false,
+    "colorway": "White",
+    "year": 2026
+  },
+  {
+    "id": "cooper-flagg-approved-new-balance-950-is-here-u9509mt",
+    "title": "Cooper Flagg-Approved New Balance 950 Is Here",
+    "brand": "New Balance",
+    "date": "TBD",
+    "price": 120.0,
+    "sku": "U9509MT",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/new-balance-950-angora-silver-moss-u9509mt-7.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/new-balance-950-angora-silver-moss-u9509mt/",
+    "added_at": "2026-07-01T22:00:02.361094+00:00",
+    "featured": false,
+    "year": 2026
+  },
+  {
+    "id": "nike-ja-3-cleanses-the-palate-with-triple-white-iv4426-104",
+    "title": "Nike Ja 3 Cleanses The Palate With Triple White",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 125.0,
+    "sku": "IV4426-104",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-ja-3-tb-white-IV4426-104-5.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/nike-ja-3-tb-white-iv4426-104/",
+    "added_at": "2026-07-01T22:00:02.361467+00:00",
+    "featured": false,
+    "colorway": "White",
+    "year": 2026
+  },
+  {
+    "id": "jordan-s-budget-friendly-all-game-is-releasing-in-the-us-iq6576-400",
+    "title": "Jordan’s Budget-Friendly All Game Is Releasing In The US",
+    "brand": "Jordan Brand",
+    "date": "TBD",
+    "price": 85.0,
+    "sku": "IQ6576-400",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/jordan-all-game-blue-beyond-action-green-iq6576-400-7.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/jordan-all-game-blue-beyond-action-green-iq6576-400/",
+    "added_at": "2026-07-01T22:00:02.361666+00:00",
+    "featured": false,
+    "year": 2026
+  },
+  {
+    "id": "adidas-hyperboost-euphoria-releases-july-23rd-la5974",
+    "title": "adidas Hyperboost Euphoria Releases July 23rd",
+    "brand": "adidas",
+    "date": "TBD",
+    "price": 170.0,
+    "sku": "LA5974",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/adidas-hyperboost-euphoria-LA5974-9.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/adidas-hyperboost-euphoria-release-date/",
+    "added_at": "2026-07-01T22:00:02.361870+00:00",
+    "featured": false,
+    "year": 2026
+  },
+  {
+    "id": "adidas-hyperboost-euphoria-releases-july-23rd-la6215",
+    "title": "adidas Hyperboost Euphoria Releases July 23rd",
+    "brand": "adidas",
+    "date": "TBD",
+    "price": 170.0,
+    "sku": "LA6215",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/adidas-hyperboost-euphoria-LA5974-9.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/adidas-hyperboost-euphoria-release-date/",
+    "added_at": "2026-07-01T22:00:02.361942+00:00",
+    "featured": false,
+    "year": 2026
+  },
+  {
+    "id": "adidas-hyperboost-euphoria-releases-july-23rd-la6211",
+    "title": "adidas Hyperboost Euphoria Releases July 23rd",
+    "brand": "adidas",
+    "date": "TBD",
+    "price": 170.0,
+    "sku": "LA6211",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/adidas-hyperboost-euphoria-LA5974-9.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/adidas-hyperboost-euphoria-release-date/",
+    "added_at": "2026-07-01T22:00:02.361987+00:00",
+    "featured": false,
+    "year": 2026
+  },
+  {
+    "id": "nike-is-approaching-beef-and-broccoli-with-this-patent-leather-air-force-1-ix4088-352",
+    "title": "Nike Is Approaching “Beef And Broccoli” With This Patent Leather Air Force 1",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 125.0,
+    "sku": "IX4088-352",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-air-force-1-low-patent-leather-beef-and-broccoli-ix4088-352-5.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/07/01/nike-air-force-1-low-patent-leather-beef-and-broccoli-ix4088-352/",
+    "added_at": "2026-07-01T22:00:02.362097+00:00",
+    "featured": false,
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "randy-moss-jordan-super-freak-og-returns-spring-2027",
@@ -6182,388 +6566,6 @@
         "raffle": false
       }
     ],
-    "featured": false
-  },
-  {
-    "id": "nike-pg-1-ivory-snakeskin-returning-soon-iv2869-110",
-    "title": "Nike PG 1 “Ivory Snakeskin” Returning Soon",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": null,
-    "sku": "IV2869-110",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-pg-1-ep-ivory-iv2869-110-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-pg-1-ep-ivory-iv2869-110/",
-    "added_at": "2026-07-01T16:00:02.222026+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV2869-110",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv2869-110%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "original-nike-tiempo-gets-the-cryoshot-treatment-iq8158-001",
-    "title": "Original Nike Tiempo Gets The Cryoshot Treatment",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 200.0,
-    "sku": "IQ8158-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-cryoshot-tiempo-94-og-iq8158-001-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-cryoshot-tiempo-94-og-iq8158-001/",
-    "added_at": "2026-07-01T16:00:02.222399+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8158-001",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8158-001%2F",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "gradient-detailing-lands-on-the-nike-mind-002-iz6658-001",
-    "title": "Gradient Detailing Lands On The Nike Mind 002",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 145.0,
-    "sku": "IZ6658-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-mind-002-black-indigo-burst-hyper-punch-metallic-platinum-iz6658-001-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-mind-002-black-indigo-burst-hyper-punch-metallic-platinum-iz6658-001/",
-    "added_at": "2026-07-01T18:00:02.564039+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ6658-001",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz6658-001%2F",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-diamond-turf-2-49ers-is-dropping-as-a-cleat-if4807-002",
-    "title": "Nike Diamond Turf 2 “49ers” Is Dropping As A Cleat",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 210.0,
-    "sku": "IF4807-002",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-diamond-turf-2-football-cleats-if4807-002-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-diamond-turf-2-football-cleats-if4807-002/",
-    "added_at": "2026-07-01T18:00:02.567234+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIF4807-002",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fif4807-002%2F",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "sue-bird-s-nike-zoom-huarache-2k4-lands-on-july-24th-iw1884-100",
-    "title": "Sue Bird’s Nike Zoom Huarache 2k4 Lands On July 24th",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 200.0,
-    "sku": "IW1884-100",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-zoom-huarache-2k4-sue-bird-iw1884-100-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-zoom-huarache-2k4-sue-bird-iw1884-100/",
-    "added_at": "2026-07-01T18:00:02.567615+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIW1884-100",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiw1884-100%2F",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "new-balance-to-debut-the-laceless-204v-u204vcmv",
-    "title": "New Balance To Debut The Laceless 204V",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": null,
-    "sku": "U204VCMV",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/new-balance-204v-fan-blue-u204vcmv-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/new-balance-204v-release-date/",
-    "added_at": "2026-07-01T18:00:02.567791+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU204VCMV",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu204vcmv%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-ja-3-team-bank-opens-with-white-and-black-iv4426-101",
-    "title": "Nike Ja 3 “Team Bank” Opens With White And Black",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 125.0,
-    "sku": "IV4426-101",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-ja-3-white-black-metallic-silver-iv4426-101-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-ja-3-white-black-metallic-silver-iv4426-101/",
-    "added_at": "2026-07-01T20:00:02.043901+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV4426-101",
-        "price": "125€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv4426-101%2F",
-        "price": "125€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "125€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-book-2-enters-white-on-white-territory-iz2372-105",
-    "title": "Nike Book 2 Enters White-On-White Territory",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 145.0,
-    "sku": "IZ2372-105",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-book-2-tb-white-iz2372-105-8.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-book-2-tb-white-iz2372-105/",
-    "added_at": "2026-07-01T22:00:02.357831+00:00",
-    "featured": false
-  },
-  {
-    "id": "cooper-flagg-approved-new-balance-950-is-here-u9509mt",
-    "title": "Cooper Flagg-Approved New Balance 950 Is Here",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 120.0,
-    "sku": "U9509MT",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/new-balance-950-angora-silver-moss-u9509mt-7.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/new-balance-950-angora-silver-moss-u9509mt/",
-    "added_at": "2026-07-01T22:00:02.361094+00:00",
-    "featured": false
-  },
-  {
-    "id": "nike-ja-3-cleanses-the-palate-with-triple-white-iv4426-104",
-    "title": "Nike Ja 3 Cleanses The Palate With Triple White",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 125.0,
-    "sku": "IV4426-104",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-ja-3-tb-white-IV4426-104-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-ja-3-tb-white-iv4426-104/",
-    "added_at": "2026-07-01T22:00:02.361467+00:00",
-    "featured": false
-  },
-  {
-    "id": "jordan-s-budget-friendly-all-game-is-releasing-in-the-us-iq6576-400",
-    "title": "Jordan’s Budget-Friendly All Game Is Releasing In The US",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": 85.0,
-    "sku": "IQ6576-400",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/jordan-all-game-blue-beyond-action-green-iq6576-400-7.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/jordan-all-game-blue-beyond-action-green-iq6576-400/",
-    "added_at": "2026-07-01T22:00:02.361666+00:00",
-    "featured": false
-  },
-  {
-    "id": "adidas-hyperboost-euphoria-releases-july-23rd-la5974",
-    "title": "adidas Hyperboost Euphoria Releases July 23rd",
-    "brand": "adidas",
-    "date": "TBD",
-    "price": 170.0,
-    "sku": "LA5974",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/adidas-hyperboost-euphoria-LA5974-9.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/adidas-hyperboost-euphoria-release-date/",
-    "added_at": "2026-07-01T22:00:02.361870+00:00",
-    "featured": false
-  },
-  {
-    "id": "adidas-hyperboost-euphoria-releases-july-23rd-la6215",
-    "title": "adidas Hyperboost Euphoria Releases July 23rd",
-    "brand": "adidas",
-    "date": "TBD",
-    "price": 170.0,
-    "sku": "LA6215",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/adidas-hyperboost-euphoria-LA5974-9.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/adidas-hyperboost-euphoria-release-date/",
-    "added_at": "2026-07-01T22:00:02.361942+00:00",
-    "featured": false
-  },
-  {
-    "id": "adidas-hyperboost-euphoria-releases-july-23rd-la6211",
-    "title": "adidas Hyperboost Euphoria Releases July 23rd",
-    "brand": "adidas",
-    "date": "TBD",
-    "price": 170.0,
-    "sku": "LA6211",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/adidas-hyperboost-euphoria-LA5974-9.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/adidas-hyperboost-euphoria-release-date/",
-    "added_at": "2026-07-01T22:00:02.361987+00:00",
-    "featured": false
-  },
-  {
-    "id": "nike-is-approaching-beef-and-broccoli-with-this-patent-leather-air-force-1-ix4088-352",
-    "title": "Nike Is Approaching “Beef And Broccoli” With This Patent Leather Air Force 1",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 125.0,
-    "sku": "IX4088-352",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-air-force-1-low-patent-leather-beef-and-broccoli-ix4088-352-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-air-force-1-low-patent-leather-beef-and-broccoli-ix4088-352/",
-    "added_at": "2026-07-01T22:00:02.362097+00:00",
-    "featured": false
-  },
-  {
-    "id": "this-nike-ja-3-is-practically-made-for-mikal-bridges-iv4426-106",
-    "title": "This Nike Ja 3 Is Practically Made For Mikal Bridges",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 125.0,
-    "sku": "IV4426-106",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-ja-3-tb-white-game-royal-IV4426-106-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-ja-3-tb-white-game-royal-iv4426-106/",
-    "added_at": "2026-07-02T00:00:03.176594+00:00",
-    "featured": false
-  },
-  {
-    "id": "nike-gives-the-shox-tl-a-luxury-leather-makeover-ir2097-001",
-    "title": "Nike Gives The Shox TL A Luxury Leather Makeover",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": null,
-    "sku": "IR2097-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-shox-tl-black-leather-ir2097-001-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/01/nike-shox-tl-black-leather-ir2097-001/",
-    "added_at": "2026-07-02T00:00:03.176894+00:00",
     "featured": false
   }
 ]
