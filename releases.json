@@ -3491,7 +3491,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/02/nike-giannis-freak-8-tb/",
     "added_at": "2026-07-02T16:00:02.676228+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM5152-001",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim5152-001%2F",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-giannis-freak-8-to-debut-in-miami-im5152-002",
@@ -3504,7 +3527,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/02/nike-giannis-freak-8-tb/",
     "added_at": "2026-07-02T16:00:02.676448+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM5152-002",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim5152-002%2F",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-book-2-adds-game-royal-to-the-team-bank-iz2372-108",
@@ -3517,7 +3563,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/02/nike-book-2-tb-white-metallic-silver-game-royal-iz2372-108/",
     "added_at": "2026-07-02T16:00:02.676619+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ2372-108",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz2372-108%2F",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "france-s-distance-is-dropping-a-nike-running-collection-iq7318-100",
@@ -3530,7 +3599,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/02/distance-nike-vomero-plus-vaporfly-4-iq7318-100-iq7316-800/",
     "added_at": "2026-07-02T18:00:02.531341+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ7318-100",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq7318-100%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "france-s-distance-is-dropping-a-nike-running-collection-iq7316-800",
@@ -3543,7 +3635,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/02/distance-nike-vomero-plus-vaporfly-4-iq7318-100-iq7316-800/",
     "added_at": "2026-07-02T18:00:02.531571+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ7316-800",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq7316-800%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "cream-canvas-makes-for-a-st-ssy-vibe-on-this-nike-air-max-95-im9605-200",
@@ -3556,7 +3671,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/02/nike-air-max-95-cream-ii-light-orewood-brown-newsprint-moon-fossil-im9605-200/",
     "added_at": "2026-07-02T18:00:02.531748+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM9605-200",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim9605-200%2F",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "naked-copenhagen-uses-a-delicate-touch-on-the-adidas-evo-sl-zip-lc1125",
@@ -3569,7 +3707,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/02/naked-adidas-evo-sl-zip-lc1125/",
     "added_at": "2026-07-02T18:00:02.531898+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DLC1125",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Flc1125%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "cher-horowitz-would-approve-this-yellow-plaid-nike-air-max-90-ir5598-001",
@@ -3582,7 +3743,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/02/nike-air-max-90-black-yellow-ochre-plaid-ir5598-001/",
     "added_at": "2026-07-02T18:00:02.532113+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR5598-001",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir5598-001%2F",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-book-2-lines-up-a-black-white-team-bank-colorway-iz2372-109",
@@ -3595,7 +3779,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/02/nike-book-2-tb-white-black-metallic-silver-iz2372-109/",
     "added_at": "2026-07-02T20:00:03.054650+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ2372-109",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz2372-109%2F",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-goes-color-crazy-with-this-kids-dunk-low-iv6203-410",
@@ -3608,6 +3815,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/02/nike-dunk-low-gs-midnight-navy-green-noise-linen-speed-red-iv6203-410/",
     "added_at": "2026-07-02T20:00:03.055203+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV6203-410",
+        "price": "102€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv6203-410%2F",
+        "price": "102€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "102€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
