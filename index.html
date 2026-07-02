@@ -1799,32 +1799,7 @@ var BSTN_AWIN_MID = '104979';
   <!-- Theme toggle dark/light -->
   <script>
   (function(){
-    var PREF_KEY = 'theme-pref';
-    var btn = null;
-    function applyTheme(dark){
-      document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
-      if(btn) btn.textContent = dark ? '☀️' : '🌙';
-    }
-    function init(){
-      btn = document.getElementById('theme-toggle');
-      // Lire préférence stockée, sinon préférence système
-      var stored = localStorage.getItem(PREF_KEY);
-      var prefersDark = stored !== null ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
-      applyTheme(prefersDark);
-      if(btn){
-        btn.addEventListener('click', function(){
-          var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-          var next = !isDark;
-          applyTheme(next);
-          localStorage.setItem(PREF_KEY, next ? 'dark' : 'light');
-        });
-      }
-    }
-    if(document.readyState === 'loading'){
-      document.addEventListener('DOMContentLoaded', init);
-    } else {
-      init();
-    }
+    // Dark mode géré par common.js
     // Anti-flash : appliquer immédiatement avant le premier paint
     var stored = localStorage.getItem(PREF_KEY);
     if(stored === 'dark' || (stored === null && window.matchMedia('(prefers-color-scheme: dark)').matches)){
