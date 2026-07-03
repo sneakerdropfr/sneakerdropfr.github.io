@@ -1,33 +1,5 @@
 [
   {
-    "id": "jae-tips-x-nike-air-bakin-low-releases-spring-2027",
-    "title": "Jae Tips x Nike Air Bakin Low Releases Spring 2027",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2023/02/supreme-nike-air-bakin-release.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-02T06:15:26.041285+00:00",
-    "retailers": [],
-    "year": 2027
-  },
-  {
-    "id": "nike-air-max-lost-samples-pack-releases-spring-2027",
-    "title": "Nike Air Max “Lost Samples” Pack Releases Spring 2027",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-max-lost-samples-pack-2027-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-02T05:59:33.160455+00:00",
-    "retailers": [],
-    "year": 2027
-  },
-  {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
     "title": "Air Jordan 6 Low GS “China Rose”",
     "brand": "Jordan Brand",
@@ -589,19 +561,25 @@
     "year": 2026
   },
   {
-    "id": "air-jordan-4-retro-wmns-birds-of-paradise-hv0823-101",
-    "title": "Air Jordan 4 Retro WMNS \"Birds of Paradise\"",
-    "brand": "Jordan",
+    "id": "air-jordan-4-retro-wmns-birds-of-paradise",
+    "title": "Air Jordan 4 Retro WMNS Birds Of Paradise",
+    "brand": "Jordan Brand",
     "sku": "HV0823-101",
-    "colorway": "Coconut Milk/Metallic Gold/Muslin/Bright Mango",
-    "date": "2026-07-23",
-    "price": 220,
+    "date": "2026-07-09",
+    "price": 210,
     "year": 2026,
-    "image_url": "",
-    "featured": true,
-    "retailers": [],
-    "source": "Sneaker News",
-    "silhouette": "Air Jordan 4"
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-air-force-1-low-wnba-all-star-weekend-IV5831-001-IV5686-001.jpg",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-wmns-birds-of-paradise-hv0823-101",
+    "featured": false,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 220,
+        "priceCurrency": "EUR"
+      }
+    ]
   },
   {
     "id": "super-mario-x-crocs-classic-clog-mario-212134-90h",
@@ -9720,117 +9698,6 @@
     "year": 2026
   },
   {
-    "id": "randy-moss-jordan-super-freak-og-returns-spring-2027",
-    "title": "Randy Moss’ Jordan Super Freak “OG”",
-    "brand": "Jordan Brand",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jordan-super-freak-og-white-black-purple-2027-JA7049-100-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w?q=jordan trainer&amp;vst=jordan trainer",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-08T22:05:07.902187+00:00",
-    "year": 2027,
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "jalen-brunson-x-nike-kobe-5-protro-ny-vs-ny-releases-july-20",
-    "title": "Jalen Brunson x Nike Kobe 5 Protro “NY vs NY”",
-    "brand": "Nike",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jalen-brunson-nike-kobe-5-protro-ny-vs-ny-menta-blue-glow-orange-horizon-IX1200-300-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-08T07:53:01.249520+00:00",
-    "silhouette": "Kobe 5",
-    "year": 2026,
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-cryoshot-tiempo-legend-r10-white-metallic-gold-releases",
-    "title": "Nike Cryoshot Tiempo Legend R10 “White Metallic Gold”",
-    "brand": "Nike",
-    "colorway": "White/Metallic Gold",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/nike-cryoshot-tiempo-legend-r10-white-metallic-gold-IQ8164-100-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-08T07:10:51.838692+00:00",
-    "silhouette": "Cryoshot",
-    "year": 2026,
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "air-jordan-3-white-cement-returns-summer-2027",
-    "title": "Air Jordan 3 “White Cement”",
-    "brand": "Jordan Brand",
-    "colorway": "White",
-    "date": "2027-06-01",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/03/air-jordan-3-white-cement-2027-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w?q=air jordan 3&amp;vst=air jordan 3",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-02T23:04:45.339657+00:00",
-    "silhouette": "Air Jordan 3",
-    "year": 2027,
-    "name": "Air Jordan 3 OG White Cement 2027",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-air-diamond-turf-2-49ers-returns-fall-2026",
-    "title": "Nike Air Diamond Turf 2 “49ers”",
-    "brand": "Nike",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2012/02/nike-air-diamond-turf-2-black-white-metallic-gold-now-available-1.jpeg",
-    "buy_url": "https://www.nike.com/w?q=diamond turf&amp;vst=diamond turf",
-    "source": "Sneaker Files",
-    "added_at": "2026-06-24T21:10:32.412363+00:00",
-    "year": 2026,
-    "retailers": [],
-    "featured": false
-  },
-  {
     "id": "jjjjound-x-new-balance-1890-silver-white",
     "title": "JJJJound x New Balance 1890 \"Silver White\"",
     "brand": "New Balance",
@@ -10481,79 +10348,6 @@
     ]
   },
   {
-    "id": "air-jordan-4-retro-wmns-birds-of-paradise",
-    "title": "Air Jordan 4 Retro WMNS Birds Of Paradise",
-    "brand": "Jordan Brand",
-    "sku": "HV0823-101",
-    "date": "2026-07-09",
-    "price": 210,
-    "year": 2026,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-air-force-1-low-wnba-all-star-weekend-IV5831-001-IV5686-001.jpg",
-    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-wmns-birds-of-paradise-hv0823-101",
-    "featured": false,
-    "retailers": [
-      {
-        "@type": "Offer",
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": 220,
-        "priceCurrency": "EUR"
-      }
-    ]
-  },
-  {
-    "id": "super-mario-x-crocs-classic-clog-yoshi",
-    "title": "Super Mario x Crocs Classic Clog Yoshi",
-    "brand": "Crocs",
-    "sku": "212136-90H",
-    "date": "2026-07-14",
-    "price": 70,
-    "year": 2026,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
-    "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-yoshi-212136-90h",
-    "featured": false,
-    "retailers": []
-  },
-  {
-    "id": "super-mario-x-crocs-classic-clog-mario",
-    "title": "Super Mario x Crocs Classic Clog Mario",
-    "brand": "Crocs",
-    "sku": "212134-90H",
-    "date": "2026-07-14",
-    "price": 70,
-    "year": 2026,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
-    "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-mario-212134-90h",
-    "featured": false,
-    "retailers": []
-  },
-  {
-    "id": "super-mario-x-crocs-classic-platform-clog-wmns-princess-peach",
-    "title": "Super Mario x Crocs Classic Platform Clog WMNS Princess Peach",
-    "brand": "Crocs",
-    "sku": "212137-90H",
-    "date": "2026-07-14",
-    "price": 80,
-    "year": 2026,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
-    "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-platform-clog-wmns-princess-peach-212137-90h",
-    "featured": false,
-    "retailers": []
-  },
-  {
-    "id": "super-mario-x-crocs-classic-clog-bowser",
-    "title": "Super Mario x Crocs Classic Clog Bowser",
-    "brand": "Crocs",
-    "sku": "212135-90H",
-    "date": "2026-07-14",
-    "price": 70,
-    "year": 2026,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
-    "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-bowser-classic-clog-multi-212135-90h",
-    "featured": false,
-    "retailers": []
-  },
-  {
     "id": "new-balance-abzorb-2000s-yellow",
     "title": "New Balance Abzorb 2000S Yellow",
     "brand": "New Balance",
@@ -10722,24 +10516,142 @@
     ]
   },
   {
-    "id": "air-jordan-6-oreo",
-    "title": "Air Jordan 6 OREO",
+    "id": "jae-tips-x-nike-air-bakin-low-releases-spring-2027",
+    "title": "Jae Tips x Nike Air Bakin Low Releases Spring 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2023/02/supreme-nike-air-bakin-release.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-02T06:15:26.041285+00:00",
+    "retailers": [],
+    "year": 2027
+  },
+  {
+    "id": "nike-air-max-lost-samples-pack-releases-spring-2027",
+    "title": "Nike Air Max “Lost Samples” Pack Releases Spring 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-max-lost-samples-pack-2027-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-02T05:59:33.160455+00:00",
+    "retailers": [],
+    "year": 2027
+  },
+  {
+    "id": "randy-moss-jordan-super-freak-og-returns-spring-2027",
+    "title": "Randy Moss’ Jordan Super Freak “OG”",
     "brand": "Jordan Brand",
-    "sku": "CT8529-108",
-    "date": "2026-08-21",
-    "price": 210,
-    "year": 2026,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/oreo-jordan-6s-release-date-1.jpg",
-    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-6-oreo-ct8529-108",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jordan-super-freak-og-white-black-purple-2027-JA7049-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=jordan trainer&amp;vst=jordan trainer",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-08T22:05:07.902187+00:00",
+    "year": 2027,
     "featured": false,
     "retailers": [
       {
-        "@type": "Offer",
-        "name": "Nike",
+        "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
-        "price": 210,
-        "priceCurrency": "EUR"
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ]
+  },
+  {
+    "id": "jalen-brunson-x-nike-kobe-5-protro-ny-vs-ny-releases-july-20",
+    "title": "Jalen Brunson x Nike Kobe 5 Protro “NY vs NY”",
+    "brand": "Nike",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/jalen-brunson-nike-kobe-5-protro-ny-vs-ny-menta-blue-glow-orange-horizon-IX1200-300-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-08T07:53:01.249520+00:00",
+    "silhouette": "Kobe 5",
+    "year": 2026,
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "nike-cryoshot-tiempo-legend-r10-white-metallic-gold-releases",
+    "title": "Nike Cryoshot Tiempo Legend R10 “White Metallic Gold”",
+    "brand": "Nike",
+    "colorway": "White/Metallic Gold",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/06/nike-cryoshot-tiempo-legend-r10-white-metallic-gold-IQ8164-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-08T07:10:51.838692+00:00",
+    "silhouette": "Cryoshot",
+    "year": 2026,
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-3-white-cement-returns-summer-2027",
+    "title": "Air Jordan 3 “White Cement”",
+    "brand": "Jordan Brand",
+    "colorway": "White",
+    "date": "2027-06-01",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/03/air-jordan-3-white-cement-2027-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=air jordan 3&amp;vst=air jordan 3",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-02T23:04:45.339657+00:00",
+    "silhouette": "Air Jordan 3",
+    "year": 2027,
+    "name": "Air Jordan 3 OG White Cement 2027",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
+  },
+  {
+    "id": "nike-air-diamond-turf-2-49ers-returns-fall-2026",
+    "title": "Nike Air Diamond Turf 2 “49ers”",
+    "brand": "Nike",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2012/02/nike-air-diamond-turf-2-black-white-metallic-gold-now-available-1.jpeg",
+    "buy_url": "https://www.nike.com/w?q=diamond turf&amp;vst=diamond turf",
+    "source": "Sneaker Files",
+    "added_at": "2026-06-24T21:10:32.412363+00:00",
+    "year": 2026,
+    "retailers": [],
+    "featured": false
   }
 ]
