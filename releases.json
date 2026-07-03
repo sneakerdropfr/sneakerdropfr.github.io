@@ -2175,6 +2175,7 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-1-love-letter-dz5485-201-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-high-og-love-the-game-dz5485-201",
     "featured": false,
+<<<<<<< HEAD
     "retailers": [
       {
         "name": "Snipes",
@@ -2191,6 +2192,10 @@
         "raffle": false
       }
     ]
+=======
+    "retailers": [],
+    "silhouette": "Air Jordan 1"
+>>>>>>> 42fa4270 (auto: enrichissement colorway/silhouette/year — 2026-07-03 18:00)
   },
   {
     "id": "new-balance-1890-nordic-green",
@@ -2225,7 +2230,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Green"
   },
   {
     "id": "air-jordan-7-miro",
@@ -2267,7 +2273,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 7"
   },
   {
     "id": "air-jordan-4-retro-wmns-birds-of-paradise",
@@ -2309,7 +2316,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "super-mario-x-crocs-classic-clog-yoshi",
@@ -2378,6 +2386,7 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-platform-clog-wmns-princess-peach-212137-90h",
     "featured": false,
+<<<<<<< HEAD
     "retailers": [
       {
         "name": "Snipes",
@@ -2394,6 +2403,10 @@
         "raffle": false
       }
     ]
+=======
+    "retailers": [],
+    "colorway": "Peach"
+>>>>>>> 42fa4270 (auto: enrichissement colorway/silhouette/year — 2026-07-03 18:00)
   },
   {
     "id": "super-mario-x-crocs-classic-clog-bowser",
@@ -2456,7 +2469,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Yellow"
   },
   {
     "id": "air-jordan-3-og-true-blue",
@@ -2498,7 +2512,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 3",
+    "colorway": "Blue"
   },
   {
     "id": "nike-mind-001-amp-indigo-burst",
@@ -2540,7 +2556,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Indigo"
   },
   {
     "id": "nike-mind-001-triple-black",
@@ -2582,7 +2599,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "nike-mind-001-wmns-old-royal",
@@ -2624,7 +2642,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Royal"
   },
   {
     "id": "nike-mind-001-wmns-pink-smoke",
@@ -2666,7 +2685,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-001-cucumber-calm",
@@ -2750,7 +2770,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Crimson"
   },
   {
     "id": "air-jordan-6-oreo",
@@ -3044,6 +3065,7 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 6"
   }
 ]
