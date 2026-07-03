@@ -2175,27 +2175,8 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-1-love-letter-dz5485-201-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-high-og-love-the-game-dz5485-201",
     "featured": false,
-<<<<<<< HEAD
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DDZ5485-201",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fdz5485-201%2F",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-=======
     "retailers": [],
     "silhouette": "Air Jordan 1"
->>>>>>> 42fa4270 (auto: enrichissement colorway/silhouette/year — 2026-07-03 18:00)
   },
   {
     "id": "new-balance-1890-nordic-green",
@@ -2281,12 +2262,12 @@
     "title": "Air Jordan 4 Retro WMNS Birds Of Paradise",
     "brand": "Jordan Brand",
     "sku": "HV0823-101",
-    "date": "2026-07-10",
-    "price": 210,
+    "date": "2026-07-23",
+    "price": 220,
     "year": 2026,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-air-force-1-low-wnba-all-star-weekend-IV5831-001-IV5686-001.jpg",
+    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/air-jordan-4-birds-of-paradise-hv0823-101.webp",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-wmns-birds-of-paradise-hv0823-101",
-    "featured": false,
+    "featured": true,
     "retailers": [
       {
         "@type": "Offer",
@@ -2386,27 +2367,8 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-platform-clog-wmns-princess-peach-212137-90h",
     "featured": false,
-<<<<<<< HEAD
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D212137-90H",
-        "price": "80€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F212137-90h%2F",
-        "price": "80€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-=======
     "retailers": [],
     "colorway": "Peach"
->>>>>>> 42fa4270 (auto: enrichissement colorway/silhouette/year — 2026-07-03 18:00)
   },
   {
     "id": "super-mario-x-crocs-classic-clog-bowser",
