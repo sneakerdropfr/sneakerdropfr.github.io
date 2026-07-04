@@ -1,796 +1,119 @@
 {
-  "week_start": "29/06/2026",
-  "week_end": "05/07/2026",
+  "week_start": "07/07/2026",
+  "week_end": "13/07/2026",
+  "generated_at": "2026-07-04T05:10:08.273210+00:00",
   "releases": [
     {
-      "name": "Nike Cryoshot Mercurial Vapor R9 “Varsity Royal”",
-      "brand": "Nike",
-      "date": "30/06/2026",
-      "price": "210 €",
-      "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2025/11/nike-cryoshot-mercurial-vapor-r9-IQ8160-400-1024x725.jpg",
-      "id": "nike-cryoshot-mercurial-vapor-r9-varsity-royal-releases-summ",
-      "buy_url": "https://www.nike.com/launch/upcoming",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8160-400",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8160-400%2F",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "Nike Air Force 1 Low Retro HEAT MAP",
-      "brand": "Nike",
-      "date": "30/06/2026",
-      "price": "130 €",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-air-force-1-low-heat-map-IB6834-001-1.jpg",
-      "id": "nike-air-force-1-low-retro-heat-map-ib6834-001",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-heat-map-black-racer-blue-ib6834-001",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "StockX",
-          "url": "https://stockx.com/fr-fr/nike-air-force-1-low-retro-heat-map-black-racer-blue?country=FR&currencyCode=EUR",
-          "price": 141,
-          "priceCurrency": "EUR"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIB6834-001",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fib6834-001%2F",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "Cdg Nike Ld 1000 Spirit Pink Iu7936 001",
-      "brand": "Nike",
-      "date": "30/06/2026",
-      "price": "110 €",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/01/comme-des-garcons-black-nike-ld-1000-black-white-spirit-pink-IU7936-001-1.jpg",
-      "id": "cdg-nike-ld-1000-spirit-pink-iu7936-001",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/cdg-nike-ld-1000-spirit-pink-iu7936-001",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU7936-001",
-          "price": "110€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu7936-001%2F",
-          "price": "110€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "110€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "New Balance 204L Sea Salt",
+      "title": "New Balance 1890 Linen Pumpernickel Basil Oil",
       "brand": "New Balance",
-      "date": "01/07/2026",
-      "price": "130 €",
-      "image_url": "https://sneakerdropfr.fr/assets/images/releases/nb-204l-sea-salt-u204lsc.webp",
-      "id": "new-balance-204l-sea-salt-u204lsc",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-204l-sea-salt-u204lsc",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU204LSC",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu204lsc%2F",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "date": "2026-07-08",
+      "price": 190,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890-linen-green-u18904as-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-linen-pumpernickel-basil-oil-u18904as"
     },
     {
-      "name": "New Balance 2010 Sandstone Grey",
+      "title": "New Balance 1890 Streamsong",
       "brand": "New Balance",
-      "date": "01/07/2026",
-      "price": "170 €",
-      "image_url": "https://sneakerdropfr.fr/assets/images/releases/nb-2010-sandstone-grey-u201079x.webp",
-      "id": "new-balance-2010-sandstone-grey-u201079x",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-sandstone-grey-u201079x",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU201079X",
-          "price": "170€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu201079x%2F",
-          "price": "170€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/",
-          "price": "170€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "date": "2026-07-08",
+      "price": 190,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890-streamsong-alkaline-green-U18904DO-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-streamsong-u18904do"
     },
     {
-      "name": "Nike Air Max Joga Bonito R9 Metallic Silver Varsity Royal",
-      "brand": "Nike",
-      "date": "02/07/2026",
-      "price": "180 €",
-      "image_url": "https://cdn.lesitedelasneaker.com/wp-content/images/2026/06/nike-air-max-joga-bonito-r9-release-date-2026-1100x1101.jpg",
-      "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-joga-bonito-r9-ix8646-001",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8646-001",
-          "price": "180€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8646-001%2F",
-          "price": "180€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "180€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "Nike Air Force 1 Low Paisley Hydrogen Blue",
-      "brand": "Nike",
-      "date": "30/06/2026",
-      "price": "120 €",
-      "image_url": "https://sneakerdropfr.fr/images/nike_af1_low_paisley_hydrogen_blue_IO1259-400.webp",
-      "id": "nike-air-force-1-low-paisley-hydrogen-blue",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/",
-          "price": "120€"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO1259-400",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio1259-400%2F",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "AIR MAX 90",
-      "brand": "Nike",
-      "date": "01/07/2026",
-      "price": "149 €",
-      "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9ETTAwMjktMDIyL0RNMDAyOS0wMjItMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6MTYwMCwiaGVpZ2h0IjoyMDAwLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-      "id": "air-max-90",
-      "buy_url": "",
-      "wtc_url": "",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-90-dm0029-022-0344982",
-          "price": "150€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DDM0029-022",
-          "price": "149€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fdm0029-022%2F",
-          "price": "149€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "149€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "Rassvet x Nike SB Zoom Tennis Classic \"Blue Void Sail\"",
-      "brand": "Nike",
-      "date": "29/06/2026",
-      "price": "110 €",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/rassvet-nike-sb-tennis-classic-io9846-400-14.jpg",
-      "id": "rassvet-x-nike-sb-zoom-tennis-classic-blue-void-sail",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/rassvet-nike-sb-zoom-tennis-classic-blue-void-sail-io9846-400",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO9846-400",
-          "price": "110€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio9846-400%2F",
-          "price": "110€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "110€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "Nike Moon Shoe \"Sail Black\"",
-      "brand": "Nike",
-      "date": "30/06/2026",
-      "price": "100 €",
-      "image_url": "https://images.soleretriever.com/sb/products/nike_moon_shoe_og_sail_w_IX3952-100-1779904247611.webp",
-      "id": "nike-moon-shoe-sail-black",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-sail-black-ix3952-100",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX3952-100",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix3952-100%2F",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "Nike Moon Shoe Wmns \"Sail Gum\"",
-      "brand": "Nike",
-      "date": "30/06/2026",
-      "price": "100 €",
-      "image_url": "https://images.soleretriever.com/sb/products/nike_moon_shoe_og_sail_gum_w_IW0955-101-1779904370058.webp",
-      "id": "nike-moon-shoe-wmns-sail-gum",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-wmns-sail-gum-iw0955-101",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIW0955-101",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiw0955-101%2F",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "Nike Moon Shoe \"Baroque Brown\"",
-      "brand": "Nike",
-      "date": "30/06/2026",
-      "price": "100 €",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-moon-shoe-baroque-brown-cashmere-black-iw0955-201-4.jpg",
-      "id": "nike-moon-shoe-cacao-wow",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-cacao-wow-ix3952-200",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX3952-200",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix3952-200%2F",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "Nike Moon Shoe OG \"Midnight Navy\"",
-      "brand": "Nike",
-      "date": "30/06/2026",
-      "price": "100 €",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-moon-shoe-may-2026.jpg",
-      "id": "nike-moon-shoe-og-midnight-navy",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-midnight-navy-ix3952-400",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX3952-400",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix3952-400%2F",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "100€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "New Balance Abzorb 2000 \"Silver Moss Bayberry\"",
+      "title": "New Balance 1890 Nordic Green",
       "brand": "New Balance",
-      "date": "30/06/2026",
-      "price": "200 €",
-      "image_url": "https://slamjam.com/cdn/shop/files/NewBalance-Footwear-Low-U20002uuGrey-U20002UU-20260622135856_1.jpg",
-      "id": "new-balance-abzorb-2000-silver-moss-bayberry",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-abzorb-2000-silver-moss-bayberry-u20002uu",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU20002UU",
-          "price": "200€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu20002uu%2F",
-          "price": "200€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/",
-          "price": "200€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "date": "2026-07-08",
+      "price": 190,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890-nordic-green-U18907BP-2.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-nordic-green-u18907bp"
     },
     {
-      "name": "New Balance 740 \"Linen Silver Metallic\"",
-      "brand": "New Balance",
-      "date": "30/06/2026",
-      "price": "119 €",
-      "image_url": "https://www.asphaltgold.com/cdn/shop/files/lu13bsqnds-U7409DI_New-Balance_740-Linen-Silver-Metallic_os-1.jpg",
-      "id": "new-balance-740-linen-silver-metallic",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-740-linen-silver-metallic-u7409di",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU7409DI",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu7409di%2F",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
-    },
-    {
-      "name": "Adidas Handball Spezial \"Ambient Sky Almost Yellow\"",
+      "title": "Adidas ZX 8000 Utility Black",
       "brand": "Adidas",
-      "date": "30/06/2026",
-      "price": "130 €",
-      "image_url": "https://sneakerdropfr.fr/assets/images/releases/adidas-handball-spezial-ambient-sky-almost-yellow-kk4877.webp",
-      "id": "adidas-handball-spezial-ambient-sky-almost-yellow",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-handball-spezial-ambient-sky-almost-yellow-kk4877",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKK4877",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk4877%2F",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr/",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "date": "2026-07-09",
+      "price": 130,
+      "image": "https://sneakernews.com/wp-content/uploads/2021/04/adidas-ZX-8000-S42593-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-zx-8000-utility-black-ki2293"
     },
     {
-      "name": "Adidas Superstar Vintage \"Core Black\"",
+      "title": "Adidas ZX 8000 Dust Sand",
       "brand": "Adidas",
-      "date": "30/06/2026",
-      "price": "150 €",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2021/11/adidas-november-black-friday-2021-banner.jpg",
-      "id": "adidas-superstar-vintage-core-black",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-superstar-vintage-core-black-kj7473",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKJ7473",
-          "price": "150€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkj7473%2F",
-          "price": "150€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr/",
-          "price": "150€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "date": "2026-07-09",
+      "price": 130,
+      "image": "",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-zx-8000-dust-sand-ki2294"
     },
     {
-      "name": "Care Bears x Adidas Spezial \"Bliss Blue\"",
-      "brand": "Adidas",
-      "date": "30/06/2026",
-      "price": "130 €",
-      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/care-bears-adidas-spezial-bliss-blue-kk4933.jpg",
-      "id": "care-bears-x-adidas-handball-spezial-wmns-yellow-white",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-handball-spezial-wmns-yellow-white-ki5034",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI5034",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fki5034%2F",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr/",
-          "price": "130€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "title": "Asics Hypersync Graphite Grey Black",
+      "brand": "Asics",
+      "date": "2026-07-09",
+      "price": 120,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/02/asics-hypersync-release-date.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/asics-hypersync-graphite-grey-black-1203a879-021"
     },
     {
-      "name": "Nike Zoom Streak 3 \"White Volt Flat Pewter\"",
+      "title": "Nike Total 90 Shox Magia WMNS White Metallic Silver",
       "brand": "Nike",
-      "date": "01/07/2026",
-      "price": "119 €",
-      "image_url": "https://sneaker-releases.de/wp-content/uploads/2026/06/nike-zoom-streak-3-white-volt-flat-pewter-black-iq8012-100.jpg",
-      "id": "nike-zoom-streak-3-white-volt-flat-pewter",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-streak-3-white-volt-flat-pewter-iq8012-100",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8012-100",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8012-100%2F",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "date": "2026-07-09",
+      "price": 150,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/nike-t90-shox-magia-ir8176-002-ir8176-100.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-total-90-shox-magia-wmns-white-metallic-silver-ir8176-100"
     },
     {
-      "name": "Nike Zoom Streak 3 \"Black Volt Summit White\"",
+      "title": "Nike Total 90 Shox Magia WMNS Black Yellow Diamond",
       "brand": "Nike",
-      "date": "01/07/2026",
-      "price": "119 €",
-      "image_url": "https://sneaker-releases.de/wp-content/uploads/2026/06/nike-zoom-streak-3-black-volt-summit-white-iq8012-001.jpg",
-      "id": "nike-zoom-streak-3-black-volt-summit-white",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-streak-3-black-volt-summit-white-iq8012-001",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8012-001",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8012-001%2F",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "120€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "date": "2026-07-09",
+      "price": 150,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/nike-t90-shox-magia-ir8176-002-ir8176-100.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-total-90-shox-magia-wmns-black-yellow-diamond-ir8176-002"
     },
     {
-      "name": "Jordan Triangle \"Black Barely Volt\"",
+      "title": "Air Jordan 7 Miro",
       "brand": "Jordan Brand",
-      "date": "01/07/2026",
-      "price": "140 €",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/jordan-triangle-black-barely-volt-infrared-23-IB1154-001-1.jpg",
-      "id": "jordan-triangle-black-barely-volt",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/jordan-triangle-black-barely-volt-ib1154-001",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIB1154-001",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fb%2Fjordan-353924",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "date": "2026-07-09",
+      "price": 210,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-7-miro-olympic-iq6573-100-release-date-5.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-7-miro-iq6573-100"
     },
     {
-      "name": "New Balance 1890 \"Morel\"",
-      "brand": "New Balance",
-      "date": "02/07/2026",
-      "price": "170 €",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890A-moc-morel-U18907P8-6.jpg",
-      "id": "new-balance-1890-morel",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-morel-u18907p8",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU18907P8",
-          "price": "170€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu18907p8%2F",
-          "price": "170€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/",
-          "price": "170€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "title": "Air Jordan 4 Retro WMNS Birds Of Paradise",
+      "brand": "Jordan Brand",
+      "date": "2026-07-23",
+      "price": 220,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-air-force-1-low-wnba-all-star-weekend-IV5831-001-IV5686-001.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-wmns-birds-of-paradise-hv0823-101"
+    },
+    {
+      "title": "Adidas Harden Vol. 10 Clear Pink",
+      "brand": "Adidas",
+      "date": "2026-07-10",
+      "price": 160,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-harden-vol-10-pink-lemonade-KI1608-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-harden-volume-10-clear-pink--ki1608"
+    },
+    {
+      "title": "Soulgoods x Nike Homescape Woven Medium Orewood Brown",
+      "brand": "Nike",
+      "date": "2026-07-10",
+      "price": 170,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/soulgoods-nike-homescape-woven-sp-medium-orewood-brown-hm6961-001-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/soulgoods-nike-homescape-woven-medium-orewood-brown-hm6961-001"
+    },
+    {
+      "title": "Nike Air Max 95 Big Bubble 7-Eleven",
+      "brand": "Nike",
+      "date": "2026-07-10",
+      "price": 190,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/07/7-11-nike-air-max-95-lawsuit-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-7-eleven-ir1944-102"
+    },
+    {
+      "title": "Air Jordan 8 Black Chrome",
+      "brand": "Jordan Brand",
+      "date": "2026-07-12",
+      "price": 210,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/black-chrome-jordan-8s-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-8-black-chrome-305381-007"
     }
-  ],
-  "promos": []
+  ]
 }
