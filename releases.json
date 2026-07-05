@@ -11567,7 +11567,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/05/air-jordan-1-mid-white-volt-tint-bq6472-123/",
     "added_at": "2026-07-05T16:00:02.344784+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DBQ6472-123",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fbq6472-123%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-dunk-low-gives-beef-broccoli-vibes-im4414-300",
@@ -11580,6 +11603,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/05/nike-dunk-low-fir-light-british-tan-sesame-black-im4414-300/",
     "added_at": "2026-07-05T20:00:02.960422+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM4414-300",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim4414-300%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
