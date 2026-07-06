@@ -12319,7 +12319,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/nike-air-max-joga-bonito-r9-neon-io1753-003/",
     "added_at": "2026-07-06T16:00:02.364730+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO1753-003",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio1753-003%2F",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "adidas-basketball-takes-3d-technology-to-the-court-with-the-250-bb-01-lc4118",
@@ -12332,7 +12355,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/adidas-basketball-bb-01-3d-printed-additive-shoes-lc4118/",
     "added_at": "2026-07-06T18:00:02.995236+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DLC4118",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Flc4118%2F",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "pharrell-chooses-timber-brown-and-yellow-for-the-adidas-jellyfish-kk2889",
@@ -12345,7 +12391,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/pharrell-adidas-jellyfish-timber-brown-yellow-kk2889/",
     "added_at": "2026-07-06T18:00:02.995478+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKK2889",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk2889%2F",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-gt-cut-4-checks-off-a-team-bank-pack-im4126-102",
@@ -12358,7 +12427,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/nike-gt-cut-4-team-bank/",
     "added_at": "2026-07-06T20:00:02.529984+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM4126-102",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim4126-102%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-gt-cut-4-checks-off-a-team-bank-pack-im4126-100",
@@ -12371,7 +12463,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/nike-gt-cut-4-team-bank/",
     "added_at": "2026-07-06T20:00:02.530258+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM4126-100",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim4126-100%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-gt-cut-4-checks-off-a-team-bank-pack-im4126-101",
@@ -12384,7 +12499,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/nike-gt-cut-4-team-bank/",
     "added_at": "2026-07-06T20:00:02.530353+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM4126-101",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim4126-101%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-gt-cut-4-checks-off-a-team-bank-pack-im4126-103",
@@ -12397,7 +12535,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/nike-gt-cut-4-team-bank/",
     "added_at": "2026-07-06T20:00:02.530420+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM4126-103",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim4126-103%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "jordan-brand-slapped-all-of-their-logos-on-this-air-jordan-1-mid-ix3522-101",
@@ -12410,7 +12571,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/air-jordan-1-mid-what-the-logo-ix3522-101/",
     "added_at": "2026-07-06T20:00:02.530580+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX3522-101",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix3522-101%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "vans-reimagines-three-of-its-staple-silhouettes-with-the-military-inspired-field-pack-vn000d9rwvd",
@@ -12423,7 +12607,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/vans-old-skool-authentic-half-cab-field-pack/",
     "added_at": "2026-07-06T20:00:02.530876+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000D9RWVD",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000d9rwvd%2F",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "vans-reimagines-three-of-its-staple-silhouettes-with-the-military-inspired-field-pack-vn000d9rbm8",
@@ -12436,7 +12643,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/vans-old-skool-authentic-half-cab-field-pack/",
     "added_at": "2026-07-06T20:00:02.530988+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000D9RBM8",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000d9rbm8%2F",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "official-images-of-the-nike-sabrina-4-green-glow-ii0402-300",
@@ -12449,6 +12679,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/nike-sabrina-4-green-glow-ii0402-300/",
     "added_at": "2026-07-06T20:00:02.531167+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DII0402-300",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fii0402-300%2F",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
