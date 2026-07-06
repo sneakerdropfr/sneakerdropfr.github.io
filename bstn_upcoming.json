@@ -1,25 +1,5 @@
 [
   {
-    "nom": "Adidas ZX 8000",
-    "marque": "Adidas",
-    "prix": "199,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LSTQ3MjYvS0k0NzI2LTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-zx-8000-ki4726-0355137",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-zx-8000-ki4726-0355137",
-    "date": "2026-07-03",
-    "couleur": ""
-  },
-  {
-    "nom": "New Balance 1890A",
-    "marque": "New Balance",
-    "prix": "189,99 €",
-    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9VMTg5MDdQOC9VMTg5MDdQOC0wMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo1ODAsImhlaWdodCI6NzI1LCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-1890-u18907p8-0353107",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890-u18907p8-0353107",
-    "date": "2026-07-03",
-    "couleur": ""
-  },
-  {
     "nom": "New Balance 1890",
     "marque": "New Balance",
     "prix": "189,99 €",
@@ -50,6 +30,16 @@
     "couleur": ""
   },
   {
+    "nom": "Adidas HARDEN VOLUME 10",
+    "marque": "Adidas",
+    "prix": "159,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LSTE2MDgvS0kxNjA4LTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-harden-volume-10-ki1608-0354828",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-harden-volume-10-ki1608-0354828",
+    "date": "2026-07-11",
+    "couleur": ""
+  },
+  {
     "nom": "AIR JORDAN 8 RETRO 'CHROME'",
     "marque": "Jordan",
     "prix": "209,99 €",
@@ -57,6 +47,16 @@
     "lien_produit": "https://www.bstn.com/eu_fr/r/jordan-air-jordan-8-retro-chrome-305381-007-0354013",
     "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fjordan-air-jordan-8-retro-chrome-305381-007-0354013",
     "date": "2026-07-13",
+    "couleur": ""
+  },
+  {
+    "nom": "Adidas HOLO PEAK",
+    "marque": "Adidas",
+    "prix": "149,99 €",
+    "image_url": "https://img.bstn.com/eyJidWNrZXQiOiJic3RuLWltYWdlLXNlcnZlciIsImtleSI6ImNhdGFsb2cvcHJvZHVjdC9LSzIyNDAvS0syMjQwLTAzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjU4MCwiaGVpZ2h0Ijo3MjUsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-holo-peak-kk2240-0355134",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-holo-peak-kk2240-0355134",
+    "date": "2026-07-15",
     "couleur": ""
   },
   {
