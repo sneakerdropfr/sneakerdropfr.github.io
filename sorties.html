@@ -867,7 +867,9 @@ document.addEventListener('DOMContentLoaded', function(){
         document.querySelectorAll('#filters .filter-btn').forEach(function(b) { b.classList.remove('active'); });
         btn.classList.add('active');
         activeFilter = btn.dataset.brand;
+        weeklyActiveFilter = btn.dataset.brand;
         render();
+        if (typeof renderWeeklyDrops === 'function') renderWeeklyDrops();
       });
     });
 
