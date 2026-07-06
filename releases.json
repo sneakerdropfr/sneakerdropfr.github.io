@@ -11713,5 +11713,26 @@
         "raffle": false
       }
     ]
+  },
+  {
+    "id": "adidas-holo-peak-kk2240",
+    "title": "Adidas Holo Peak",
+    "brand": "Adidas",
+    "sku": "KK2240",
+    "date": "2026-07-15",
+    "price": 150,
+    "year": 2026,
+    "image_url": "https://www.orangejungle.de/cdn/shop/files/adidas-originals-holo-peak-cblack-ironmt-ftwwht-casual-kk22401-2456250.jpg?v=1782718441",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-holo-peak-kk2240-0355134",
+        "price": "149,99€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "source": "BSTN"
   }
 ]
