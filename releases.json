@@ -6712,6 +6712,13 @@
         "price": "105€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-x-lego-collection-dunk-low-gs-if2117-102-0358550",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "buy_url": "",
@@ -12715,7 +12722,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/edglrd-converse-chuck-70/",
     "added_at": "2026-07-06T22:00:02.788531+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DA20013C",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fa20013c%2F",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Converse",
+        "url": "https://www.converse.com/fr/",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "edglrd-brings-surreal-animals-to-the-converse-chuck-70-a20011c",
@@ -12728,7 +12758,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/edglrd-converse-chuck-70/",
     "added_at": "2026-07-06T22:00:02.788754+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DA20011C",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fa20011c%2F",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Converse",
+        "url": "https://www.converse.com/fr/",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-delivers-pop-art-vibes-with-air-force-1-low-polka-dot-ir8647-600",
@@ -12741,7 +12794,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/nike-air-force-1-polka-dot-university-red-light-magenta-ir8647-600/",
     "added_at": "2026-07-06T22:00:02.788957+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR8647-600",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir8647-600%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-air-liquid-max-steps-in-aurora-green-iq7635-001",
@@ -12754,7 +12830,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/nike-air-liquid-max-black-radiant-blue-aurora-green-iq7635-001/",
     "added_at": "2026-07-06T22:00:02.789115+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ7635-001",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq7635-001%2F",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-mind-001-ponders-its-own-triple-white-hq4307-105",
@@ -12767,7 +12866,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/nike-mind-001-white-metallic-silver-hq4307-105/",
     "added_at": "2026-07-06T22:00:02.789290+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4307-105",
+        "price": "95€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4307-105%2F",
+        "price": "95€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "95€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "summit-white-coats-a-crispy-nike-mind-002-hq4310-101",
@@ -12780,6 +12902,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/06/nike-mind-002-summit-white-phantom-light-orewood-brown-hq4310-101/",
     "added_at": "2026-07-07T00:00:02.643063+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4310-101",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4310-101%2F",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
