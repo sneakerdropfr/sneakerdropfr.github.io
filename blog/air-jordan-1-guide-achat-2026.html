@@ -283,5 +283,6 @@
   <p>© 2026 <a href="https://sneakerdropfr.fr">SneakerDropFR</a> — Tracking de drops sneakers en France</p>
 </footer>
 
+<button id="theme-toggle" onclick="(function(){var d=document.documentElement,i=d.getAttribute('data-theme')=='dark';d.setAttribute('data-theme',i?'light':'dark');localStorage.setItem('theme-pref',i?'light':'dark');this.textContent=i?'🌙':'☀️';}).call(this)" style="position:fixed;top:1rem;right:1rem;z-index:999;border:1px solid #ccc;background:none;border-radius:8px;padding:.3rem .6rem;cursor:pointer;font-size:1rem">🌙</button>
 </body>
 </html>

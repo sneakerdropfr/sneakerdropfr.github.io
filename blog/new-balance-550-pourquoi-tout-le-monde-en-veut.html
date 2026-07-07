@@ -65,5 +65,6 @@ footer{text-align:center;padding:2rem;color:rgba(0,0,0,.4);font-size:.8rem;borde
 <footer>© 2026 SneakerDropFR · <a href="/privacy.html" style="color:inherit">Mentions légales</a></footer>
 <button class="scroll-top" id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Retour en haut">&#8679;</button>
 <script>(function(){ var btn=document.getElementById('scroll-top'); if(!btn) return; window.addEventListener('scroll',function(){ btn.classList.toggle('visible',window.scrollY>300); },{passive:true}); })();</script>
+<button id="theme-toggle" onclick="(function(){var d=document.documentElement,i=d.getAttribute('data-theme')=='dark';d.setAttribute('data-theme',i?'light':'dark');localStorage.setItem('theme-pref',i?'light':'dark');this.textContent=i?'🌙':'☀️';}).call(this)" style="position:fixed;top:1rem;right:1rem;z-index:999;border:1px solid #ccc;background:none;border-radius:8px;padding:.3rem .6rem;cursor:pointer;font-size:1rem">🌙</button>
 </body>
 </html>
