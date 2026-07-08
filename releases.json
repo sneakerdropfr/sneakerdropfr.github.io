@@ -1,18 +1,5 @@
 [
   {
-    "id": "nike-air-bakin-black-white-releases-holiday-2026",
-    "title": "Nike Air Bakin “Black White” Releases Holiday 2026",
-    "brand": "Sneaker Files",
-    "colorway": "Black/White",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2023/02/supreme-nike-air-bakin-release.jpg",
-    "buy_url": "https://www.nike.com/w?q=Nike Air Bakin&amp;vst=Nike Air Bakin",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-07T23:39:26.476340+00:00",
-    "year": 2026
-  },
-  {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
     "title": "Air Jordan 6 Low GS “China Rose”",
     "brand": "Jordan Brand",
@@ -9238,19 +9225,6 @@
     "featured": false
   },
   {
-    "id": "saucony-pro-grid-ride-1-white-buttercup",
-    "title": "Saucony Pro Grid Ride 1 \"White Buttercup\"",
-    "brand": "Saucony",
-    "sku": "S101807-1010",
-    "date": "2026-06-25",
-    "price": 149,
-    "year": 2026,
-    "image_url": "",
-    "wtc_url": "https://www.whentocop.fr/drops/saucony-pro-grid-ride-1-white-buttercup-s101807-1010",
-    "retailers": [],
-    "featured": false
-  },
-  {
     "id": "slam-jam-x-new-balance-abzorb-5030-silver",
     "title": "Slam Jam x New Balance Abzorb 5030 \"Silver\"",
     "brand": "New Balance",
@@ -10196,5 +10170,18 @@
         "type": "retail"
       }
     ]
+  },
+  {
+    "id": "nike-air-bakin-black-white-releases-holiday-2026",
+    "title": "Nike Air Bakin “Black White” Releases Holiday 2026",
+    "brand": "Sneaker Files",
+    "colorway": "Black/White",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2023/02/supreme-nike-air-bakin-release.jpg",
+    "buy_url": "https://www.nike.com/w?q=Nike Air Bakin&amp;vst=Nike Air Bakin",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-07T23:39:26.476340+00:00",
+    "year": 2026
   }
 ]
