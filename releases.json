@@ -1809,7 +1809,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "mismatched-patent-leather-holds-down-a-playful-air-jordan-1-low-ix3521-010",
@@ -1845,7 +1846,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1",
+    "year": 2026
   },
   {
     "id": "nike-flirts-with-og-color-blocking-on-the-air-max-90-tough-red-dm0029-026",
@@ -1881,7 +1884,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max 90",
+    "colorway": "Red",
+    "year": 2026
   },
   {
     "id": "air-jordan-1-low-gussies-up-with-tumbled-leather-ix3959-100",
@@ -1917,7 +1923,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1",
+    "year": 2026
   },
   {
     "id": "this-nike-air-max-90-stays-frosty-with-tumbled-leather-iz2746-100",
@@ -1953,7 +1961,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max 90",
+    "year": 2026
   },
   {
     "id": "nike-ja-3-unleashes-its-gorge-green-team-bank-colorway-iv4426-103",
@@ -1989,7 +1999,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Green",
+    "year": 2026
   },
   {
     "id": "nike-ja-3-university-red-is-perfect-for-his-new-start-in-portland-iv4426-105",
@@ -2025,7 +2037,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "University Red",
+    "year": 2026
   },
   {
     "id": "leather-nike-moon-shoe-colorways-are-en-route-for-fall-iu3162-600",
@@ -2061,7 +2075,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "whitaker-group-s-adidas-evo-sl-fourth-of-july-pack-is-back-again-kh6094",
@@ -2097,7 +2112,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "adidas-dame-x-fall-2026-preview-ki1623",
@@ -2133,7 +2149,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-is-releasing-a-what-the-air-force-1-with-safari-elephant-and-more-iv4451-010",
@@ -2320,7 +2337,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver/White"
   },
   {
     "id": "vans-lx-old-skool-36-souvenir",
@@ -2390,7 +2408,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver"
   },
   {
     "id": "adidas-handball-spezial-ambient-sky-almost-yellow",
@@ -2425,7 +2444,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Sky/Yellow"
   },
   {
     "id": "air-jordan-1-high-og-love-the-game",
@@ -2454,7 +2474,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1"
   },
   {
     "id": "new-balance-1890-nordic-green",
@@ -2489,7 +2510,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Green"
   },
   {
     "id": "air-jordan-7-miro",
@@ -2531,7 +2553,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 7"
   },
   {
     "id": "air-jordan-4-retro-wmns-birds-of-paradise",
@@ -2573,7 +2596,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "super-mario-x-crocs-classic-clog-yoshi",
@@ -2657,7 +2681,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Peach"
   },
   {
     "id": "super-mario-x-crocs-classic-clog-bowser",
@@ -2720,7 +2745,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Yellow"
   },
   {
     "id": "air-jordan-3-og-true-blue",
@@ -2762,7 +2788,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 3",
+    "colorway": "Blue"
   },
   {
     "id": "nike-mind-001-amp-indigo-burst",
@@ -2804,7 +2832,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Indigo"
   },
   {
     "id": "nike-mind-001-triple-black",
@@ -2846,7 +2875,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "nike-mind-001-wmns-old-royal",
@@ -2888,7 +2918,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Royal"
   },
   {
     "id": "nike-mind-001-wmns-pink-smoke",
@@ -2930,7 +2961,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-001-cucumber-calm",
@@ -3014,7 +3046,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Crimson"
   },
   {
     "id": "air-jordan-6-oreo",
@@ -3056,7 +3089,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "adidas-zx-8000-utility-black",
@@ -3094,7 +3128,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "adidas-zx-8000-dust-sand",
@@ -3132,7 +3167,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Sand"
   },
   {
     "id": "asics-hypersync-graphite-grey-black",
@@ -3172,7 +3208,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Grey/Black"
   },
   {
     "id": "nike-total-90-shox-magia-wmns-white-metallic-silver",
@@ -3210,7 +3247,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "White/Metallic Silver"
   },
   {
     "id": "nike-total-90-shox-magia-wmns-black-yellow-diamond",
@@ -3248,7 +3286,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Yellow"
   },
   {
     "id": "adidas-harden-vol10-clear-pink",
@@ -3286,7 +3325,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink"
   },
   {
     "id": "soulgoods-x-nike-homescape-woven-medium-orewood-brown",
@@ -3322,7 +3362,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Brown"
   },
   {
     "id": "project-r-a-p-is-only-releasing-169-pairs-of-the-adidas-bb-0",
@@ -3335,7 +3376,8 @@
     "buy_url": "https://www.nicekicks.com/adidas-bb-01-orange-dusk-lc4118/",
     "source": "Nice Kicks Releases",
     "added_at": "2026-07-08T15:18:32.455771+00:00",
-    "retailers": []
+    "retailers": [],
+    "year": 2026
   },
   {
     "id": "adidas-dame-x-fall-2026-preview-ki1625",
@@ -3371,7 +3413,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "adidas-dame-x-fall-2026-preview-ki1624",
@@ -3407,7 +3450,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "adidas-dame-x-fall-2026-preview-ki1621",
@@ -3443,7 +3487,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-s-foamposite-inspired-tennis-shoe-the-vapor-x-posite-returns-this-fall-ao8760-900",
@@ -3479,7 +3524,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-s-foamposite-inspired-tennis-shoe-the-vapor-x-posite-returns-this-fall-ao8760-600",
@@ -3515,7 +3561,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "whitaker-group-s-adidas-evo-sl-fourth-of-july-pack-is-back-again-kh6095",
@@ -3551,7 +3598,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "whitaker-group-s-adidas-evo-sl-fourth-of-july-pack-is-back-again-kh6218",
@@ -3587,6 +3635,7 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   }
 ]
