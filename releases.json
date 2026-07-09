@@ -1,5 +1,17 @@
 [
   {
+    "id": "air-jordan-9-gym-red-returns-summer-2027",
+    "title": "Air Jordan 9 “Gym Red” Returns Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/air-jordan-9-gym-red-2027-302370-160-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-09T22:34:10.016608+00:00"
+  },
+  {
     "id": "air-jordan-11-low-cherry-returns-summer-2027",
     "title": "Air Jordan 11 Low “Cherry” Returns Summer 2027",
     "brand": "Sneaker Files",
@@ -1926,44 +1938,6 @@
     ],
     "silhouette": "Air Max 90",
     "colorway": "Red",
-    "year": 2026
-  },
-  {
-    "id": "air-jordan-1-low-gussies-up-with-tumbled-leather-ix3959-100",
-    "title": "Air Jordan 1 Low Gussies Up With Tumbled Leather",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": 135.0,
-    "sku": "IX3959-100",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/air-jordan-1-low-white-iron-grey-wolf-grey-IX3959-100-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/07/air-jordan-1-low-white-iron-grey-wolf-grey-ix3959-100/",
-    "added_at": "2026-07-08T00:00:03.231984+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX3959-100",
-        "price": "135€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix3959-100%2F",
-        "price": "135€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "135€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "silhouette": "Air Jordan 1",
     "year": 2026
   }
 ]
