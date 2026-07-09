@@ -1,18 +1,5 @@
 [
   {
-    "id": "project-r-a-p-is-only-releasing-169-pairs-of-the-adidas-bb-0",
-    "title": "Project: R.A.P. Is Only Releasing 169 Pairs of the adidas BB.01",
-    "brand": "Nice Kicks Releases",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.nicekicks.com/files/2026/07/IMG_1622.png",
-    "buy_url": "https://www.nicekicks.com/adidas-bb-01-orange-dusk-lc4118/",
-    "source": "Nice Kicks Releases",
-    "added_at": "2026-07-08T15:18:32.455771+00:00",
-    "retailers": []
-  },
-  {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
     "title": "Air Jordan 6 Low GS “China Rose”",
     "brand": "Jordan Brand",
@@ -9595,19 +9582,6 @@
     "featured": false
   },
   {
-    "id": "saucony-pro-grid-ride-1-white-buttercup",
-    "title": "Saucony Pro Grid Ride 1 \"White Buttercup\"",
-    "brand": "Saucony",
-    "sku": "S101807-1010",
-    "date": "2026-06-25",
-    "price": 149,
-    "year": 2026,
-    "image_url": "",
-    "wtc_url": "https://www.whentocop.fr/drops/saucony-pro-grid-ride-1-white-buttercup-s101807-1010",
-    "retailers": [],
-    "featured": false
-  },
-  {
     "id": "slam-jam-x-new-balance-abzorb-5030-silver",
     "title": "Slam Jam x New Balance Abzorb 5030 \"Silver\"",
     "brand": "New Balance",
@@ -10553,5 +10527,18 @@
         "type": "retail"
       }
     ]
+  },
+  {
+    "id": "project-r-a-p-is-only-releasing-169-pairs-of-the-adidas-bb-0",
+    "title": "Project: R.A.P. Is Only Releasing 169 Pairs of the adidas BB.01",
+    "brand": "Nice Kicks Releases",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.nicekicks.com/files/2026/07/IMG_1622.png",
+    "buy_url": "https://www.nicekicks.com/adidas-bb-01-orange-dusk-lc4118/",
+    "source": "Nice Kicks Releases",
+    "added_at": "2026-07-08T15:18:32.455771+00:00",
+    "retailers": []
   }
 ]
