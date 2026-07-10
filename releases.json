@@ -1,5 +1,17 @@
 [
   {
+    "id": "nike-sb-air-foamposite-one-team-red-releases-spring-2027",
+    "title": "Nike SB Air Foamposite One “Team Red” Releases Spring 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-sb-air-foampositeone-black-white-team-red-JA0109-001-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-10T09:31:27.376583+00:00"
+  },
+  {
     "id": "nike-air-foamposite-one-30th-anniversary-releases-summer-202",
     "title": "Nike Air Foamposite One “30th Anniversary” Releases Summer 2027",
     "brand": "Sneaker Files",
@@ -1951,44 +1963,6 @@
       }
     ],
     "silhouette": "Air Max 90",
-    "year": 2026
-  },
-  {
-    "id": "nike-vomero-premium-stacks-up-green-spark-hq2050-102",
-    "title": "Nike Vomero Premium Stacks Up “Green Spark”",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 230.0,
-    "sku": "HQ2050-102",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-vomero-premium-white-green-spark-midnight-navy-HQ2050-102-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/09/nike-vomero-premium-white-green-spark-midnight-navy-hq2050-102/",
-    "added_at": "2026-07-10T00:00:02.812128+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2050-102",
-        "price": "230€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2050-102%2F",
-        "price": "230€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "230€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "colorway": "Green",
     "year": 2026
   }
 ]
