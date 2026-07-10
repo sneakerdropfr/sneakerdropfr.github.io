@@ -9,7 +9,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-sb-air-foampositeone-black-white-team-red-JA0109-001-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
-    "added_at": "2026-07-10T09:31:27.376583+00:00"
+    "added_at": "2026-07-10T09:31:27.376583+00:00",
+    "retailers": []
   },
   {
     "id": "nike-air-foamposite-one-30th-anniversary-releases-summer-202",
@@ -21,7 +22,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-foamposite-one-30th-anniversary-IW8543-100-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
-    "added_at": "2026-07-10T09:20:48.891208+00:00"
+    "added_at": "2026-07-10T09:20:48.891208+00:00",
+    "retailers": []
   },
   {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
@@ -1976,7 +1978,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/09/nike-vomero-premium-white-green-spark-midnight-navy-hq2050-102/",
     "added_at": "2026-07-10T10:00:02.308105+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2050-102",
+        "price": "230€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2050-102%2F",
+        "price": "230€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "230€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-1-mid-goes-loafer-mode-io0760-001",
@@ -1989,7 +2014,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/09/air-jordan-1-mid-off-noir-chalk-pearl-white-io0760-001/",
     "added_at": "2026-07-10T10:00:02.308526+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO0760-001",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio0760-001%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "catch-a-breeze-with-this-paper-fan-inspired-air-jordan-1-low-se-iw0771-338",
@@ -2002,6 +2050,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/09/air-jordan-1-low-se-vintage-green-iw0771-338/",
     "added_at": "2026-07-10T10:00:02.308709+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIW0771-338",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiw0771-338%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
