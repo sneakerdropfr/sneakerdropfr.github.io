@@ -1,5 +1,17 @@
 [
   {
+    "id": "nike-zoom-flight-5-white-midnight-navy-returns-summer-2027",
+    "title": "Nike Zoom Flight 5 “White Midnight Navy” Returns Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-zoom-flight-5-white-midnight-navy-2027-JJ3694-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-10T22:30:35.012168+00:00"
+  },
+  {
     "id": "air-jordan-16-ginger-returns-summer-2027",
     "title": "Air Jordan 16 “Ginger” Returns Summer 2027",
     "brand": "Sneaker Files",
@@ -1875,69 +1887,5 @@
       }
     ],
     "year": 2026
-  },
-  {
-    "id": "mismatched-patent-leather-holds-down-a-playful-air-jordan-1-low-ix3521-010",
-    "title": "Mismatched Patent Leather Holds Down A Playful Air Jordan 1 Low",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": 140.0,
-    "sku": "IX3521-010",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/air-jordan-1-low-se-white-black-pink-spell-ix3521-010-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/07/air-jordan-1-low-se-white-black-pink-spell-ix3521-010/",
-    "added_at": "2026-07-08T00:00:03.231449+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX3521-010",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix3521-010%2F",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "silhouette": "Air Jordan 1",
-    "year": 2026
-  },
-  {
-    "id": "breaking-carmelo-anthony-s-jordan-melo-5-5-returning-in-2027-ja9035-001",
-    "title": "BREAKING:  Carmelo Anthony’s Jordan Melo 5.5 Returning in 2027",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": 155.0,
-    "sku": "JA9035-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/carmelo-anthony-jordan-melo-5-5-3.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/10/jordan-melo-5-5-retro-2027/",
-    "added_at": "2026-07-10T22:00:02.343567+00:00",
-    "featured": false
-  },
-  {
-    "id": "new-balance-2010-goes-greyscale-with-blue-accents-u2010424",
-    "title": "New Balance 2010 Goes Greyscale With Blue Accents",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 145.0,
-    "sku": "U2010424",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/new-balance-2010-u2010424-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/10/new-balance-2010-u2010424/",
-    "added_at": "2026-07-10T22:00:02.344037+00:00",
-    "featured": false
   }
 ]
