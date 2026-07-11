@@ -1,67 +1,5 @@
 [
   {
-    "id": "nike-zoom-flight-5-white-midnight-navy-returns-summer-2027",
-    "title": "Nike Zoom Flight 5 “White Midnight Navy” Returns Summer 2027",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-zoom-flight-5-white-midnight-navy-2027-JJ3694-100-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-10T22:30:35.012168+00:00"
-  },
-  {
-    "id": "air-jordan-16-ginger-returns-summer-2027",
-    "title": "Air Jordan 16 “Ginger” Returns Summer 2027",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2020/09/air-jordan-16-xvi-why-not-cz6597-001-release-date-info.jpg",
-    "buy_url": "https://www.nike.com/launch",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-10T21:33:00.583745+00:00"
-  },
-  {
-    "id": "air-jordan-11-monstars-releases-holiday-2026",
-    "title": "Air Jordan 11 “Monstars” Releases Holiday 2026",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/air-jordan-11-monstars-green-screen-2026-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-10T20:09:15.348784+00:00"
-  },
-  {
-    "id": "nike-sb-air-foamposite-one-team-red-releases-spring-2027",
-    "title": "Nike SB Air Foamposite One “Team Red” Releases Spring 2027",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-sb-air-foampositeone-black-white-team-red-JA0109-001-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-10T09:31:27.376583+00:00",
-    "retailers": []
-  },
-  {
-    "id": "nike-air-foamposite-one-30th-anniversary-releases-summer-202",
-    "title": "Nike Air Foamposite One “30th Anniversary” Releases Summer 2027",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-foamposite-one-30th-anniversary-IW8543-100-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-10T09:20:48.891208+00:00",
-    "retailers": []
-  },
-  {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
     "title": "Air Jordan 6 Low GS “China Rose”",
     "brand": "Jordan Brand",
@@ -9306,19 +9244,6 @@
     "featured": false
   },
   {
-    "id": "saucony-pro-grid-ride-1-white-buttercup",
-    "title": "Saucony Pro Grid Ride 1 \"White Buttercup\"",
-    "brand": "Saucony",
-    "sku": "S101807-1010",
-    "date": "2026-06-25",
-    "price": 149,
-    "year": 2026,
-    "image_url": "",
-    "wtc_url": "https://www.whentocop.fr/drops/saucony-pro-grid-ride-1-white-buttercup-s101807-1010",
-    "retailers": [],
-    "featured": false
-  },
-  {
     "id": "slam-jam-x-new-balance-abzorb-5030-silver",
     "title": "Slam Jam x New Balance Abzorb 5030 \"Silver\"",
     "brand": "New Balance",
@@ -10264,5 +10189,67 @@
         "type": "retail"
       }
     ]
+  },
+  {
+    "id": "nike-zoom-flight-5-white-midnight-navy-returns-summer-2027",
+    "title": "Nike Zoom Flight 5 “White Midnight Navy” Returns Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-zoom-flight-5-white-midnight-navy-2027-JJ3694-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-10T22:30:35.012168+00:00"
+  },
+  {
+    "id": "air-jordan-16-ginger-returns-summer-2027",
+    "title": "Air Jordan 16 “Ginger” Returns Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2020/09/air-jordan-16-xvi-why-not-cz6597-001-release-date-info.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-10T21:33:00.583745+00:00"
+  },
+  {
+    "id": "air-jordan-11-monstars-releases-holiday-2026",
+    "title": "Air Jordan 11 “Monstars” Releases Holiday 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/air-jordan-11-monstars-green-screen-2026-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-10T20:09:15.348784+00:00"
+  },
+  {
+    "id": "nike-sb-air-foamposite-one-team-red-releases-spring-2027",
+    "title": "Nike SB Air Foamposite One “Team Red” Releases Spring 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-sb-air-foampositeone-black-white-team-red-JA0109-001-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-10T09:31:27.376583+00:00",
+    "retailers": []
+  },
+  {
+    "id": "nike-air-foamposite-one-30th-anniversary-releases-summer-202",
+    "title": "Nike Air Foamposite One “30th Anniversary” Releases Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-foamposite-one-30th-anniversary-IW8543-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-10T09:20:48.891208+00:00",
+    "retailers": []
   }
 ]
