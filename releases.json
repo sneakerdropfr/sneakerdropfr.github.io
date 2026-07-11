@@ -1860,7 +1860,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2027
   },
   {
     "id": "new-balance-2010-goes-greyscale-with-blue-accents-u2010424",
@@ -1896,7 +1897,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Blue",
+    "year": 2026
   },
   {
     "id": "nike-is-releasing-a-what-the-air-force-1-with-safari-elephant-and-more-iv4451-010",
@@ -2083,7 +2086,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver/White"
   },
   {
     "id": "vans-lx-old-skool-36-souvenir",
@@ -2153,7 +2157,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver"
   },
   {
     "id": "adidas-handball-spezial-ambient-sky-almost-yellow",
@@ -2188,7 +2193,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Sky/Yellow"
   },
   {
     "id": "air-jordan-1-high-og-love-the-game",
@@ -2217,7 +2223,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1"
   },
   {
     "id": "air-jordan-4-retro-wmns-birds-of-paradise",
@@ -2266,7 +2273,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "super-mario-x-crocs-classic-clog-yoshi",
@@ -2350,7 +2358,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Peach"
   },
   {
     "id": "super-mario-x-crocs-classic-clog-bowser",
@@ -2413,7 +2422,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Yellow"
   },
   {
     "id": "air-jordan-3-og-true-blue",
@@ -2455,7 +2465,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 3",
+    "colorway": "Blue"
   },
   {
     "id": "nike-mind-001-amp-indigo-burst",
@@ -2497,7 +2509,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Indigo"
   },
   {
     "id": "nike-mind-001-triple-black",
@@ -2539,7 +2552,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "nike-mind-001-wmns-old-royal",
@@ -2581,7 +2595,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Royal"
   },
   {
     "id": "nike-mind-001-wmns-pink-smoke",
@@ -2623,7 +2638,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-001-cucumber-calm",
@@ -2707,7 +2723,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Crimson"
   },
   {
     "id": "air-jordan-6-oreo",
@@ -2749,7 +2766,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "adidas-harden-vol10-clear-pink",
@@ -2787,7 +2805,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink"
   },
   {
     "id": "soulgoods-x-nike-homescape-woven-medium-orewood-brown",
@@ -2823,20 +2842,22 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Brown"
   },
   {
     "id": "nike-zoom-flight-5-white-midnight-navy-returns-summer-2027",
     "title": "Nike Zoom Flight 5 “White Midnight Navy” Returns Summer 2027",
     "brand": "Sneaker Files",
-    "colorway": "",
+    "colorway": "White/Midnight Navy",
     "date": "TBD",
     "price": null,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-zoom-flight-5-white-midnight-navy-2027-JJ3694-100-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
     "added_at": "2026-07-10T22:30:35.012168+00:00",
-    "retailers": []
+    "retailers": [],
+    "year": 2027
   },
   {
     "id": "air-jordan-16-ginger-returns-summer-2027",
@@ -2849,7 +2870,8 @@
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
     "added_at": "2026-07-10T21:33:00.583745+00:00",
-    "retailers": []
+    "retailers": [],
+    "year": 2027
   },
   {
     "id": "air-jordan-11-monstars-releases-holiday-2026",
@@ -2862,20 +2884,23 @@
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
     "added_at": "2026-07-10T20:09:15.348784+00:00",
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Air Jordan 11",
+    "year": 2026
   },
   {
     "id": "nike-sb-air-foamposite-one-team-red-releases-spring-2027",
     "title": "Nike SB Air Foamposite One “Team Red” Releases Spring 2027",
     "brand": "Sneaker Files",
-    "colorway": "",
+    "colorway": "Red",
     "date": "TBD",
     "price": null,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-sb-air-foampositeone-black-white-team-red-JA0109-001-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
     "added_at": "2026-07-10T09:31:27.376583+00:00",
-    "retailers": []
+    "retailers": [],
+    "year": 2027
   },
   {
     "id": "nike-air-foamposite-one-30th-anniversary-releases-summer-202",
@@ -2888,6 +2913,7 @@
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
     "added_at": "2026-07-10T09:20:48.891208+00:00",
-    "retailers": []
+    "retailers": [],
+    "year": 2027
   }
 ]
