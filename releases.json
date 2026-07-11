@@ -1,5 +1,17 @@
 [
   {
+    "id": "nike-air-max-90-mr-fantastic-returns-summer-2027",
+    "title": "Nike Air Max 90 “Mr. Fantastic” Returns Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-max-90-mr-fantastic-2027-IW2268-400-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-11T23:34:49.726554+00:00"
+  },
+  {
     "id": "nike-air-max-95-human-torch-returns-summer-2027",
     "title": "Nike Air Max 95 “Human Torch” Returns Summer 2027",
     "brand": "Sneaker Files",
@@ -1899,43 +1911,5 @@
       }
     ],
     "year": 2027
-  },
-  {
-    "id": "new-balance-2010-goes-greyscale-with-blue-accents-u2010424",
-    "title": "New Balance 2010 Goes Greyscale With Blue Accents",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 145.0,
-    "sku": "U2010424",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/new-balance-2010-u2010424-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/10/new-balance-2010-u2010424/",
-    "added_at": "2026-07-11T00:00:02.659592+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU2010424",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu2010424%2F",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "145€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "colorway": "Blue",
-    "year": 2026
   }
 ]
