@@ -1,54 +1,5 @@
 [
   {
-    "id": "nike-air-max-90-mr-fantastic-returns-summer-2027",
-    "title": "Nike Air Max 90 “Mr. Fantastic” Returns Summer 2027",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-max-90-mr-fantastic-2027-IW2268-400-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-11T23:34:49.726554+00:00"
-  },
-  {
-    "id": "nike-air-max-95-human-torch-returns-summer-2027",
-    "title": "Nike Air Max 95 “Human Torch” Returns Summer 2027",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-max-95-human-torch-2027-IW2275-600-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch/upcoming",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-11T23:29:29.616819+00:00"
-  },
-  {
-    "id": "air-jordan-4-mcs-jackie-robinson-releases-summer-2027",
-    "title": "Air Jordan 4 MCS “Jackie Robinson” Releases Summer 2027",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/air-jordan-4-mcs-jackie-robinson-cleats-JA2073-400-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w?q=air jordan 4&amp;vst=air jordan 4",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-11T22:32:04.310259+00:00"
-  },
-  {
-    "id": "carmelo-anthony-s-jordan-melo-5-5-black-university-blue-retu",
-    "title": "Carmelo Anthony’s Jordan Melo 5.5 “Black University Blue” Returns Summer 2027",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/carmelo-anthony-jordan-melo-5-5-black-university-blue-2027-1024x725.jpg",
-    "buy_url": "https://www.nike.com/w?q=jordan melo&amp;vst=jordan melo",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-11T08:32:16.477774+00:00",
-    "retailers": []
-  },
-  {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
     "title": "Air Jordan 6 Low GS “China Rose”",
     "brand": "Jordan Brand",
@@ -9395,19 +9346,6 @@
     "featured": false
   },
   {
-    "id": "saucony-pro-grid-ride-1-white-buttercup",
-    "title": "Saucony Pro Grid Ride 1 \"White Buttercup\"",
-    "brand": "Saucony",
-    "sku": "S101807-1010",
-    "date": "2026-06-25",
-    "price": 149,
-    "year": 2026,
-    "image_url": "",
-    "wtc_url": "https://www.whentocop.fr/drops/saucony-pro-grid-ride-1-white-buttercup-s101807-1010",
-    "retailers": [],
-    "featured": false
-  },
-  {
     "id": "slam-jam-x-new-balance-abzorb-5030-silver",
     "title": "Slam Jam x New Balance Abzorb 5030 \"Silver\"",
     "brand": "New Balance",
@@ -10353,5 +10291,54 @@
         "type": "retail"
       }
     ]
+  },
+  {
+    "id": "nike-air-max-90-mr-fantastic-returns-summer-2027",
+    "title": "Nike Air Max 90 “Mr. Fantastic” Returns Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-max-90-mr-fantastic-2027-IW2268-400-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-11T23:34:49.726554+00:00"
+  },
+  {
+    "id": "nike-air-max-95-human-torch-returns-summer-2027",
+    "title": "Nike Air Max 95 “Human Torch” Returns Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-max-95-human-torch-2027-IW2275-600-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-11T23:29:29.616819+00:00"
+  },
+  {
+    "id": "air-jordan-4-mcs-jackie-robinson-releases-summer-2027",
+    "title": "Air Jordan 4 MCS “Jackie Robinson” Releases Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/air-jordan-4-mcs-jackie-robinson-cleats-JA2073-400-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=air jordan 4&amp;vst=air jordan 4",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-11T22:32:04.310259+00:00"
+  },
+  {
+    "id": "carmelo-anthony-s-jordan-melo-5-5-black-university-blue-retu",
+    "title": "Carmelo Anthony’s Jordan Melo 5.5 “Black University Blue” Returns Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/carmelo-anthony-jordan-melo-5-5-black-university-blue-2027-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=jordan melo&amp;vst=jordan melo",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-11T08:32:16.477774+00:00",
+    "retailers": []
   }
 ]
