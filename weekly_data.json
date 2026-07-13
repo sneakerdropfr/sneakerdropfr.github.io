@@ -1,120 +1,122 @@
 {
-  "week_start": "07/07/2026",
-  "week_end": "13/07/2026",
-  "generated_at": "2026-07-04T05:10:08.273210+00:00",
+  "week_start": "13/07/2026",
+  "week_end": "19/07/2026",
   "releases": [
     {
-      "title": "New Balance 1890 Linen Pumpernickel Basil Oil",
+      "name": "Super Mario x Crocs Classic Clog Yoshi",
+      "brand": "Crocs",
+      "date": "15/07/2026",
+      "price": "70 €",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "id": "super-mario-x-crocs-classic-clog-yoshi",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-yoshi-212136-90h",
+      "retailers": [],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Super Mario x Crocs Classic Clog Mario",
+      "brand": "Crocs",
+      "date": "14/07/2026",
+      "price": "70 €",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "id": "super-mario-x-crocs-classic-clog-mario",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-mario-212134-90h",
+      "retailers": [],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Super Mario x Crocs Classic Platform Clog WMNS Princess Peach",
+      "brand": "Crocs",
+      "date": "14/07/2026",
+      "price": "80 €",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "id": "super-mario-x-crocs-classic-platform-clog-wmns-princess-peach",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-platform-clog-wmns-princess-peach-212137-90h",
+      "retailers": [],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Super Mario x Crocs Classic Clog Bowser",
+      "brand": "Crocs",
+      "date": "14/07/2026",
+      "price": "70 €",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "id": "super-mario-x-crocs-classic-clog-bowser",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-bowser-classic-clog-multi-212135-90h",
+      "retailers": [],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "New Balance Abzorb 2000S Yellow",
       "brand": "New Balance",
-      "date": "2026-07-08",
-      "price": 190,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890-linen-green-u18904as-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-linen-pumpernickel-basil-oil-u18904as"
+      "date": "15/07/2026",
+      "price": "200 €",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2022/11/New-Balance-2002R-M2002RHT-01.jpeg",
+      "id": "new-balance-abzorb-2000s-yellow",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-abzorb-2000s-yellow-u2000460",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr",
+          "price": 200,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "title": "New Balance 1890 Streamsong",
-      "brand": "New Balance",
-      "date": "2026-07-08",
-      "price": 190,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890-streamsong-alkaline-green-U18904DO-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-streamsong-u18904do"
-    },
-    {
-      "title": "New Balance 1890 Nordic Green",
-      "brand": "New Balance",
-      "date": "2026-07-08",
-      "price": 190,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890-nordic-green-U18907BP-2.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-nordic-green-u18907bp"
-    },
-    {
-      "title": "Adidas ZX 8000 Utility Black",
-      "brand": "Adidas",
-      "date": "2026-07-09",
-      "price": 130,
-      "image": "https://sneakernews.com/wp-content/uploads/2021/04/adidas-ZX-8000-S42593-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-zx-8000-utility-black-ki2293"
-    },
-    {
-      "title": "Adidas ZX 8000 Dust Sand",
-      "brand": "Adidas",
-      "date": "2026-07-09",
-      "price": 130,
-      "image": "",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-zx-8000-dust-sand-ki2294",
-      "image_url": "https://footdistrict.com/cdn/shop/files/sneakers-adidas-originals-zx-8000-ki2294-0.jpg?crop=center&height=1250&v=1782902062&width=1000"
-    },
-    {
-      "title": "Asics Hypersync Graphite Grey Black",
-      "brand": "Asics",
-      "date": "2026-07-09",
-      "price": 120,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/02/asics-hypersync-release-date.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/asics-hypersync-graphite-grey-black-1203a879-021"
-    },
-    {
-      "title": "Nike Total 90 Shox Magia WMNS White Metallic Silver",
-      "brand": "Nike",
-      "date": "2026-07-09",
-      "price": 150,
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/nike-total-90-shox-magia-white-black-ir8176-100.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-total-90-shox-magia-wmns-white-metallic-silver-ir8176-100"
-    },
-    {
-      "title": "Nike Total 90 Shox Magia WMNS Black Yellow Diamond",
-      "brand": "Nike",
-      "date": "2026-07-09",
-      "price": 150,
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/06/nike-total-90-shox-magia-yellow-diamond-green-6.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-total-90-shox-magia-wmns-black-yellow-diamond-ir8176-002"
-    },
-    {
-      "title": "Air Jordan 7 Miro",
+      "name": "Air Jordan 3 OG True Blue",
       "brand": "Jordan Brand",
-      "date": "2026-07-09",
-      "price": 210,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-7-miro-olympic-iq6573-100-release-date-5.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-7-miro-iq6573-100"
+      "date": "18/07/2026",
+      "price": "230 €",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/adidas-anthony-edwards-2-ae2-philippines-3.jpg",
+      "id": "air-jordan-3-og-true-blue",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-og-true-blue-if4396-102",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/launch",
+          "price": 230,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "title": "Air Jordan 4 Retro WMNS Birds Of Paradise",
-      "brand": "Jordan Brand",
-      "date": "2026-07-23",
-      "price": 220,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-air-force-1-low-wnba-all-star-weekend-IV5831-001-IV5686-001.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-wmns-birds-of-paradise-hv0823-101"
-    },
-    {
-      "title": "Adidas Harden Vol. 10 Clear Pink",
-      "brand": "Adidas",
-      "date": "2026-07-10",
-      "price": 160,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/adidas-harden-vol-10-pink-lemonade-KI1608-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-harden-volume-10-clear-pink--ki1608"
-    },
-    {
-      "title": "Soulgoods x Nike Homescape Woven Medium Orewood Brown",
+      "name": "Nike Mind 001 AMP Indigo Burst",
       "brand": "Nike",
-      "date": "2026-07-10",
-      "price": 170,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/soulgoods-nike-homescape-woven-sp-medium-orewood-brown-hm6961-001-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/soulgoods-nike-homescape-woven-medium-orewood-brown-hm6961-001"
-    },
-    {
-      "title": "Nike Air Max 95 Big Bubble 7-Eleven",
-      "brand": "Nike",
-      "date": "2026-07-10",
-      "price": 190,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/07/7-11-nike-air-max-95-lawsuit-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-7-eleven-ir1944-102"
-    },
-    {
-      "title": "Air Jordan 8 Black Chrome",
-      "brand": "Jordan Brand",
-      "date": "2026-07-12",
-      "price": 210,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/black-chrome-jordan-8s-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-8-black-chrome-305381-007"
+      "date": "18/07/2026",
+      "price": "90 €",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-mind-001-indigo-burst-hyper-punch-iz6659-400-1.jpg",
+      "id": "nike-mind-001-amp-indigo-burst",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-amp-indigo-burst-iz6659-400",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/launch",
+          "price": 90,
+          "priceCurrency": "EUR"
+        }
+      ],
+      "resell": "",
+      "stock": ""
     }
-  ]
+  ],
+  "promos": []
 }
