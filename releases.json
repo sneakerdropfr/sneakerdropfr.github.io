@@ -1,17 +1,5 @@
 [
   {
-    "id": "nike-caitlin-1-yellow-zest-releases-holiday-2026",
-    "title": "Nike Caitlin 1 “Yellow Zest” Releases Holiday 2026",
-    "brand": "Sneaker Files",
-    "colorway": "",
-    "date": "TBD",
-    "price": null,
-    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-caitlin-1-yellow-zest-blue-IH7423-700-1024x725.jpg",
-    "buy_url": "https://www.nike.com/launch",
-    "source": "Sneaker Files",
-    "added_at": "2026-07-12T20:46:38.052484+00:00"
-  },
-  {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
     "title": "Air Jordan 6 Low GS “China Rose”",
     "brand": "Jordan Brand",
@@ -9499,19 +9487,6 @@
     "featured": false
   },
   {
-    "id": "saucony-pro-grid-ride-1-white-buttercup",
-    "title": "Saucony Pro Grid Ride 1 \"White Buttercup\"",
-    "brand": "Saucony",
-    "sku": "S101807-1010",
-    "date": "2026-06-25",
-    "price": 149,
-    "year": 2026,
-    "image_url": "",
-    "wtc_url": "https://www.whentocop.fr/drops/saucony-pro-grid-ride-1-white-buttercup-s101807-1010",
-    "retailers": [],
-    "featured": false
-  },
-  {
     "id": "slam-jam-x-new-balance-abzorb-5030-silver",
     "title": "Slam Jam x New Balance Abzorb 5030 \"Silver\"",
     "brand": "New Balance",
@@ -10457,5 +10432,17 @@
         "type": "retail"
       }
     ]
+  },
+  {
+    "id": "nike-caitlin-1-yellow-zest-releases-holiday-2026",
+    "title": "Nike Caitlin 1 “Yellow Zest” Releases Holiday 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-caitlin-1-yellow-zest-blue-IH7423-700-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-12T20:46:38.052484+00:00"
   }
 ]
