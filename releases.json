@@ -1406,9 +1406,9 @@
   },
   {
     "id": "up-close-with-bad-bunny-x-adidas-f50-ghost-sprint-ki7711",
-    "title": "Bad Bunny x Adidas F50 Ghost Sprint",
+    "title": "Bad Bunny x Adidas F50 Ghost Sprint \"Solar Slime\"",
     "brand": "Adidas",
-    "date": "TBD",
+    "date": "2026-07-18",
     "price": 160.0,
     "sku": "KI7711",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/bad-bunny-adidas-f50-ghost-sprint-ki7711-6.jpg",
@@ -1439,7 +1439,8 @@
         "raffle": false
       }
     ],
-    "year": 2026
+    "year": 2026,
+    "colorway": "Solar Slime"
   },
   {
     "id": "wavy-lines-wrap-the-nike-air-liquid-max-black-metallic-iq7635-002",
@@ -3191,29 +3192,15 @@
     "source": "House of Heat"
   },
   {
-    "id": "bad-bunny-x-adidas-f50-ghost-sprint-solar-slime",
-    "title": "Bad Bunny x Adidas F50 Ghost Sprint \"Solar Slime\"",
-    "brand": "Adidas",
-    "sku": "TBD-BADBUNNY-F50-SLIME",
-    "colorway": "Solar Slime",
-    "date": "2026-07-18",
-    "price": 160,
-    "year": 2026,
-    "image_url": "",
-    "featured": false,
-    "retailers": [],
-    "source": "WhenToCop"
-  },
-  {
     "id": "bad-bunny-x-adidas-f50-ghost-sprint-dark-marine",
     "title": "Bad Bunny x Adidas F50 Ghost Sprint \"Dark Marine\"",
     "brand": "Adidas",
-    "sku": "TBD-BADBUNNY-F50-MARINE",
+    "sku": "KI9450",
     "colorway": "Dark Marine",
     "date": "2026-07-18",
     "price": 160,
     "year": 2026,
-    "image_url": "",
+    "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/05/bad-bunny-adidas-f50-ghost-sprint-dark-marine-ki9450.webp",
     "featured": false,
     "retailers": [],
     "source": "WhenToCop"
@@ -3287,20 +3274,6 @@
     "featured": false,
     "retailers": [],
     "source": "Sole Retriever"
-  },
-  {
-    "id": "nike-moon-shoe-og-sp-wmns-sail-chlorophyll",
-    "title": "Nike Moon Shoe OG SP WMNS \"Sail Chlorophyll\"",
-    "brand": "Nike",
-    "sku": "TBD-MOONSHOE-CHLOROPHYLL",
-    "colorway": "Sail/Chlorophyll",
-    "date": "2026-07-17",
-    "price": 100,
-    "year": 2026,
-    "image_url": "",
-    "featured": false,
-    "retailers": [],
-    "source": "WhenToCop"
   },
   {
     "id": "adidas-terra-mono-lightstrike-white-black-kh8048",
