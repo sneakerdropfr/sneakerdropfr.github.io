@@ -3646,7 +3646,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "nike-gt-flight-aj-dybantsa-s-viral-shoe-is-dropping-february-2027-io7926-002",
@@ -3682,7 +3684,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2027
   },
   {
     "id": "nike-pours-a-lava-lamp-on-this-air-max-plus-ih7960-001",
@@ -3718,6 +3721,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max Plus",
+    "year": 2026
   }
 ]
