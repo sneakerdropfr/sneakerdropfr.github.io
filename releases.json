@@ -3736,7 +3736,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/15/dylan-harper-titan-nike-gt-cut-1-release-date/",
     "added_at": "2026-07-15T18:00:01.988959+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU0779-001",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu0779-001%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "dylan-harper-and-titan-close-out-nike-gt-cut-1-series-iu0779-100",
@@ -3749,7 +3772,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/15/dylan-harper-titan-nike-gt-cut-1-release-date/",
     "added_at": "2026-07-15T18:00:01.989293+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU0779-100",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu0779-100%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "first-look-at-the-kobe-bryant-x-nike-air-force-1-purple-stardust-ib0018-007",
@@ -3762,7 +3808,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/15/kobe-bryant-nike-air-force-1-black-purple-stardust-ib0018-007/",
     "added_at": "2026-07-15T18:00:01.989588+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIB0018-007",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fib0018-007%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "chrome-swoosh-shines-on-the-nike-air-force-1-low-iv6039-001",
@@ -3775,6 +3844,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/15/ike-air-force-1-low-black-wolf-grey-metallic-silver-iv6039-001/",
     "added_at": "2026-07-15T18:00:01.989812+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV6039-001",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv6039-001%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
