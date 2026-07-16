@@ -3566,7 +3566,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "first-look-at-the-kobe-bryant-x-nike-air-force-1-purple-stardust-ib0018-007",
@@ -3602,7 +3603,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "colorway": "Purple",
+    "year": 2026
   },
   {
     "id": "chrome-swoosh-shines-on-the-nike-air-force-1-low-iv6039-001",
@@ -3638,7 +3642,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "colorway": "Chrome",
+    "year": 2026
   },
   {
     "id": "nike-combines-footwear-trends-with-an-air-rift-pony-hair-pack-io4884-001",
@@ -3674,7 +3681,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Rift",
+    "year": 2026
   },
   {
     "id": "vince-carter-s-nike-shox-bb4-metallic-silver-lapis-returns-fall-2026-ir1984-010",
@@ -3710,7 +3719,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Metallic Silver",
+    "year": 2026
   },
   {
     "id": "nike-combines-footwear-trends-with-an-air-rift-pony-hair-pack-io4884-200",
@@ -3746,7 +3757,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Rift",
+    "year": 2026
   },
   {
     "id": "nike-combines-footwear-trends-with-an-air-rift-pony-hair-pack-io4884-400",
@@ -3782,6 +3795,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Rift",
+    "year": 2026
   }
 ]
