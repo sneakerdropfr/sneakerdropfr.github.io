@@ -881,7 +881,30 @@
     "colorway": "MUMMY",
     "year": 2026,
     "silhouette": "Air Foamposite One",
-    "restocks": []
+    "restocks": [],
+    "retailers": [
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/pclick.php?p=40777876167&a=2855487&m=20964",
+        "price": "91.99€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ1476-001",
+        "price": "206€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "206€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-3-retro-og",
@@ -22264,7 +22287,29 @@
     "date": "16/07/2026",
     "price": "280 €",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/new-balance-991-luxe-suede-dijon-castle-wall-m991cm1-4.jpg",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DM991CM1",
+        "price": "280€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fm991cm1%2F",
+        "price": "280€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "280€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
     "sku": ""
   },
   {
@@ -22384,7 +22429,29 @@
     "date": "18/07/2026",
     "price": "160 €",
     "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/05/bad-bunny-adidas-f50-ghost-sprint-dark-marine-ki9450.webp",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI9450",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fki9450%2F",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
     "sku": ""
   }
 ]
