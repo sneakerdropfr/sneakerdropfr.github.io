@@ -3382,7 +3382,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/16/the-whitaker-group-adidas-bw-mundial/",
     "added_at": "2026-07-16T22:00:02.485558+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKH8099",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkh8099%2F",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "optical-illusion-art-covers-the-nike-shox-r4-ir5804-901",
@@ -3395,7 +3418,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/16/nike-shox-r4-black-white-multi-color-ir5804-901/",
     "added_at": "2026-07-16T22:00:02.486167+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR5804-901",
+        "price": "155€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir5804-901%2F",
+        "price": "155€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "155€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-air-liquid-max-lets-loose-a-venomous-radiant-blue-iq7634-004",
@@ -3408,7 +3454,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/16/nike-air-liquid-max-black-radiant-blue-sapphire-iq7634-004/",
     "added_at": "2026-07-16T22:00:02.486371+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ7634-004",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq7634-004%2F",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-air-max-plus-flips-its-lava-lamp-colorway-in-grey-ih7960-002",
@@ -3421,7 +3490,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/16/nike-air-max-plus-smoke-grey-multi-color-black-ih7960-002/",
     "added_at": "2026-07-16T22:00:02.486537+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIH7960-002",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fih7960-002%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-kd-19-candies-goes-all-green-in-september-ih1117-300",
@@ -3434,7 +3526,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/16/nike-kd-19-gorge-green-ih1117-300/",
     "added_at": "2026-07-17T00:00:02.776649+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIH1117-300",
+        "price": "155€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fih1117-300%2F",
+        "price": "155€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "155€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "whitaker-group-mashes-up-two-adidas-icons-with-the-bw-mundial-kh8100",
@@ -3447,7 +3562,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/16/the-whitaker-group-adidas-bw-mundial/",
     "added_at": "2026-07-17T04:00:02.773792+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKH8100",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkh8100%2F",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "whitaker-group-mashes-up-two-adidas-icons-with-the-bw-mundial-kh8101",
@@ -3460,6 +3598,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/16/the-whitaker-group-adidas-bw-mundial/",
     "added_at": "2026-07-17T04:00:02.773935+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKH8101",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkh8101%2F",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
