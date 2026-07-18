@@ -2433,7 +2433,7 @@
         "raffle": false
       }
     ],
-    "image_url": "https://cdn.lesitedelasneaker.com/wp-content/images/2026/03/preview-nike-air-max-90-cool-grey-iu7543-065-2-1100x770.jpg",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/03/nike-air-max-90-mesh-mudguard-IM5759-100-9.jpg",
     "sku": "IU7543-065",
     "sku_source": "manual",
     "sku_confidence": 100,
@@ -2886,7 +2886,7 @@
     "date": "2026-06-14",
     "price": 118,
     "sku": "KH9802",
-    "image_url": "https://cdn.lesitedelasneaker.com/wp-content/images/2026/06/liberty-london-adidas-samba-og-maroon-warm-vanilla-1.jpg.webp",
+    "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/liberty-london-adidas-samba-og-wmns-maroon-warm-vanilla-kh9802",
     "retailers": [
       {
@@ -4548,7 +4548,7 @@
     "date": "2026-09-09",
     "price": 170,
     "sku": "IX8646-001",
-    "image_url": "https://cdn.lesitedelasneaker.com/wp-content/images/2026/06/nike-air-max-joga-bonito-r9-release-date-2026-1100x1101.jpg",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-air-max-joga-bonito-r9-neon-IO1753-003-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-joga-bonito-r9-ix8646-001",
     "retailers": [
       {
@@ -9081,7 +9081,16 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/jjjjound-new-balance-1890-5.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/jjjjound-new-balance-1890-silver-white-u1890grey",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fnew-balance"
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Fen%2Fnew-balance"
+      }
+    ],
     "featured": false
   },
   {
@@ -9094,7 +9103,16 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/better-with-age-vans-release-date-20.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-souvenir-asphalt-multi-vn000e8ve4a1",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fvans"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fvans"
+      }
+    ],
     "featured": false
   },
   {
@@ -9263,7 +9281,16 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-740-linen-silver-metallic-u7409di",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fnew-balance"
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Fen%2Fnew-balance"
+      }
+    ],
     "featured": false
   },
   {
@@ -9276,7 +9303,16 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-handball-spezial-ambient-sky-almost-yellow-kk4877",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fadidas"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fadidas"
+      }
+    ],
     "featured": false
   },
   {
@@ -9537,7 +9573,20 @@
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/air-jordan-1-love-letter-dz5485-201-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-high-og-love-the-game-dz5485-201",
     "featured": false,
-    "retailers": []
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fjordan"
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Fen%2Fjordan"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fjordan"
+      }
+    ]
   },
   {
     "id": "new-balance-991v2-made-in-uk-green-banana",
@@ -10119,7 +10168,20 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-comic-ja1135-100",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fjordan"
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Fen%2Fjordan"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fjordan"
+      }
+    ],
     "featured": true
   },
   {
@@ -10158,7 +10220,16 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-lawson-ir1944-400.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-blue-lawson-ir1944-400",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fnike"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fnike"
+      }
+    ],
     "featured": false
   },
   {
@@ -10171,7 +10242,16 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-air-max-95-big-bubble-tech-medium-ash-wolf-grey-metallic-silver-steam-ih7853-200-3.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey-ih7853-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fnike"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fnike"
+      }
+    ],
     "featured": false
   },
   {
@@ -10379,7 +10459,16 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-euphoria-metallic-silver-la5997",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fadidas"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fadidas"
+      }
+    ],
     "featured": false
   },
   {
@@ -10392,7 +10481,16 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/adidas-july-2026-hyperboost-edge-main-banner1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-euphoria-core-black-kz8506",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fadidas"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fadidas"
+      }
+    ],
     "featured": false
   },
   {
@@ -10405,7 +10503,16 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/vans-old-skool-souvenir-black-VN000E8VEMV-6.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-souvenir-oatmeal-vn000e8v2n1",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fvans"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fvans"
+      }
+    ],
     "featured": false
   },
   {
