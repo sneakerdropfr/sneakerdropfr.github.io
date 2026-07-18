@@ -1190,7 +1190,28 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
               if (we.length===3) {
                 var weDate = new Date(+we[2],+we[1]-1,+we[0]);
                 weDate.setHours(23,59,59,999);
-                if (false) { /* fallback désactivé — weekly_data.json toujours prioritaire */
+                // Fallback : si weekly_data.json est périmé (week_end < lundi en cours) → releases.json
+                var nowMs = new Date(); nowMs.setHours(0,0,0,0);
+                // Calculer le lundi de la semaine en cours
+                var dayOfWeek = nowMs.getDay(); // 0=dim,1=lun...6=sam
+                var daysToMon = (dayOfWeek === 0) ? 6 : dayOfWeek - 1;
+                var thisMonday = new Date(nowMs); thisMonday.setDate(nowMs.getDate() - daysToMon);
+                // Si week_end est avant ce lundi → données périmées → fallback releases.json
+                if (weDate < thisMonday) {
+                  allWdrops = thisWeek;
+                  renderWeeklyDrops();
+                  return;
+                }
+                // Si on est samedi ou dimanche ET que weekly_data.json couvre la semaine suivante
+                // → ne pas encore afficher la semaine suivante, attendre lundi
+                var nextMonday = new Date(thisMonday); nextMonday.setDate(thisMonday.getDate() + 7);
+                var wsDate = null;
+                try {
+                  var ws = (wd.week_start||'').split('/');
+                  if (ws.length===3) wsDate = new Date(+ws[2],+ws[1]-1,+ws[0]);
+                } catch(e2) {}
+                if (wsDate && wsDate >= nextMonday && nowMs < nextMonday) {
+                  // weekly_data.json est pour la semaine prochaine, mais on n'est pas encore lundi
                   allWdrops = thisWeek;
                   renderWeeklyDrops();
                   return;
