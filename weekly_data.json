@@ -1,157 +1,140 @@
 {
-  "week_start": "20/07/2026",
-  "week_end": "26/07/2026",
-  "generated_at": "2026-07-18T19:55:50.054244+00:00",
+  "week_start": "14/07/2026",
+  "week_end": "19/07/2026",
+  "generated_at": "2026-07-18T20:11:26.669114+00:00",
   "releases": [
     {
-      "id": "jjjjound-x-new-balance-1890-silver-white",
-      "name": "JJJJound x New Balance 1890 \"Silver White\"",
+      "id": "super-mario-x-crocs-classic-clog-mario",
+      "name": "Super Mario x Crocs Classic Clog Mario",
+      "brand": "Crocs",
+      "date": "2026-07-14",
+      "price": 70,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-mario-212134-90h",
+      "retailers": []
+    },
+    {
+      "id": "super-mario-x-crocs-classic-platform-clog-wmns-princess-peach",
+      "name": "Super Mario x Crocs Classic Platform Clog WMNS Princess Peach",
+      "brand": "Crocs",
+      "date": "2026-07-14",
+      "price": 80,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-platform-clog-wmns-princess-peach-212137-90h",
+      "retailers": []
+    },
+    {
+      "id": "super-mario-x-crocs-classic-clog-bowser",
+      "name": "Super Mario x Crocs Classic Clog Bowser",
+      "brand": "Crocs",
+      "date": "2026-07-14",
+      "price": 70,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-bowser-classic-clog-multi-212135-90h",
+      "retailers": []
+    },
+    {
+      "id": "super-mario-x-crocs-classic-clog-yoshi",
+      "name": "Super Mario x Crocs Classic Clog Yoshi",
+      "brand": "Crocs",
+      "date": "2026-07-15",
+      "price": 70,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-yoshi-212136-90h",
+      "retailers": []
+    },
+    {
+      "id": "new-balance-abzorb-2000s-yellow",
+      "name": "New Balance Abzorb 2000S Yellow",
       "brand": "New Balance",
-      "date": "2026-07-24",
+      "date": "2026-07-15",
       "price": 200,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/04/jjjjound-new-balance-1890-5.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/jjjjound-new-balance-1890-5.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/jjjjound-new-balance-1890-silver-white-u1890grey",
-      "retailers": []
-    },
-    {
-      "id": "vans-lx-old-skool-36-souvenir",
-      "name": "Vans LX Old Skool 36 \"Souvenir\"",
-      "brand": "Vans",
-      "date": "2026-07-24",
-      "price": 201,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/better-with-age-vans-release-date-20.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/better-with-age-vans-release-date-20.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-souvenir-asphalt-multi-vn000e8ve4a1",
-      "retailers": []
-    },
-    {
-      "id": "air-jordan-4-retro-wmns-birds-of-paradise",
-      "name": "Air Jordan 4 Retro WMNS Birds Of Paradise",
-      "brand": "Jordan Brand",
-      "date": "2026-07-23",
-      "price": 220,
-      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/air-jordan-4-birds-of-paradise-hv0823-101.webp",
-      "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/air-jordan-4-birds-of-paradise-hv0823-101.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-wmns-birds-of-paradise-hv0823-101",
+      "image": "https://sneakernews.com/wp-content/uploads/2022/11/New-Balance-2002R-M2002RHT-01.jpeg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2022/11/New-Balance-2002R-M2002RHT-01.jpeg",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-abzorb-2000s-yellow-u2000460",
       "retailers": [
         {
           "@type": "Offer",
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/launch",
-          "price": 220,
+          "name": "New Balance",
+          "url": "https://www.newbalance.fr",
+          "price": 200,
           "priceCurrency": "EUR"
         }
       ]
     },
     {
-      "id": "air-jordan-4-retro-comic",
-      "name": "Air Jordan 4 Retro Comic",
+      "id": "air-jordan-3-og-true-blue",
+      "name": "Air Jordan 3 OG True Blue",
       "brand": "Jordan Brand",
-      "date": "2026-07-24",
-      "price": 210,
+      "date": "2026-07-18",
+      "price": 230,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/adidas-anthony-edwards-2-ae2-philippines-3.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/adidas-anthony-edwards-2-ae2-philippines-3.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-og-true-blue-if4396-102",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/launch",
+          "price": 230,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "id": "nike-mind-001-amp-indigo-burst",
+      "name": "Nike Mind 001 AMP Indigo Burst",
+      "brand": "Nike",
+      "date": "2026-07-18",
+      "price": 90,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/nike-mind-001-indigo-burst-hyper-punch-iz6659-400-1.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-mind-001-indigo-burst-hyper-punch-iz6659-400-1.jpg",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-amp-indigo-burst-iz6659-400",
+      "retailers": [
+        {
+          "@type": "Offer",
+          "name": "Nike",
+          "url": "https://www.nike.com/fr/launch",
+          "price": 90,
+          "priceCurrency": "EUR"
+        }
+      ]
+    },
+    {
+      "id": "new-balance-numeric-340-white-navy",
+      "name": "New Balance Numeric 340 White Navy",
+      "brand": "New Balance",
+      "date": "2026-07-19",
+      "price": 100,
       "image": "",
       "image_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-comic-ja1135-100",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-340-white-navy-un340wvs",
       "retailers": []
     },
     {
-      "id": "nike-first-sight-shadow-wmns-metallic-silver",
-      "name": "Nike First Sight Shadow Wmns Metallic Silver",
-      "brand": "Nike",
-      "date": "2026-07-23",
-      "price": 0,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/07/nike-air-force-1-low-horse-of-a-different-color.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-air-force-1-low-horse-of-a-different-color.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-shadow-wmns-metallic-silver-hq2410-002",
-      "retailers": []
-    },
-    {
-      "id": "nike-first-sight-shadow-wmns-black",
-      "name": "Nike First Sight Shadow Wmns Black",
-      "brand": "Nike",
-      "date": "2026-07-23",
-      "price": 0,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/04/nike-first-sight-black-HQ2410-001-1.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-first-sight-black-HQ2410-001-1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-shadow-wmns-black-hq2410-001",
-      "retailers": []
-    },
-    {
-      "id": "nike-air-max-95-blue-lawson",
-      "name": "Nike Air Max 95 Blue Lawson",
-      "brand": "Nike",
-      "date": "2026-07-24",
-      "price": 0,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-lawson-ir1944-400.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-max-95-lawson-ir1944-400.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-blue-lawson-ir1944-400",
-      "retailers": []
-    },
-    {
-      "id": "nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey",
-      "name": "Nike Air Max 95 Big Bubble Tech Smoke Grey Wolf Grey",
-      "brand": "Nike",
-      "date": "2026-07-24",
-      "price": 0,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/04/nike-air-max-95-big-bubble-tech-medium-ash-wolf-grey-metallic-silver-steam-ih7853-200-3.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-air-max-95-big-bubble-tech-medium-ash-wolf-grey-metallic-silver-steam-ih7853-200-3.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey-ih7853-001",
-      "retailers": []
-    },
-    {
-      "id": "adidas-hyperboost-euphoria-metallic-silver",
-      "name": "Adidas Hyperboost Euphoria Metallic Silver",
-      "brand": "Adidas",
-      "date": "2026-07-20",
-      "price": 140,
-      "image": "",
-      "image_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-euphoria-metallic-silver-la5997",
-      "retailers": []
-    },
-    {
-      "id": "adidas-hyperboost-euphoria-core-black",
-      "name": "Adidas Hyperboost Euphoria Core Black",
-      "brand": "Adidas",
-      "date": "2026-07-20",
-      "price": 0,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/07/adidas-july-2026-hyperboost-edge-main-banner1.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/adidas-july-2026-hyperboost-edge-main-banner1.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-euphoria-core-black-kz8506",
-      "retailers": []
-    },
-    {
-      "id": "vans-lx-old-skool-36-souvenir-oatmeal",
-      "name": "Vans LX Old Skool 36 Souvenir Oatmeal",
-      "brand": "Vans",
-      "date": "2026-07-22",
-      "price": 0,
-      "image": "https://sneakernews.com/wp-content/uploads/2026/05/vans-old-skool-souvenir-black-VN000E8VEMV-6.jpg",
-      "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/vans-old-skool-souvenir-black-VN000E8VEMV-6.jpg",
-      "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-souvenir-oatmeal-vn000e8v2n1",
-      "retailers": []
-    },
-    {
-      "id": "puma-suede-wmns-pink-lavender",
-      "name": "Puma Suede Wmns Pink Lavender",
-      "brand": "Puma",
-      "date": "2026-07-22",
+      "id": "new-balance-numeric-340-black-white",
+      "name": "New Balance Numeric 340 Black White",
+      "brand": "New Balance",
+      "date": "2026-07-19",
       "price": 0,
       "image": "",
       "image_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/puma-suede-wmns-pink-lavender-408330-05",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-340-black-white-un340yrw",
       "retailers": []
     },
     {
-      "id": "puma-suede-wmns-marshmallow",
-      "name": "Puma Suede Wmns Marshmallow",
-      "brand": "Puma",
-      "date": "2026-07-22",
+      "id": "new-balance-numeric-340-zinc-blue-nb-navy",
+      "name": "New Balance Numeric 340 Zinc Blue Nb Navy",
+      "brand": "New Balance",
+      "date": "2026-07-19",
       "price": 0,
       "image": "",
       "image_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/puma-suede-wmns-marshmallow-408330-01",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-nb-numeric-340-zinc-blue-nb-navy-un340nba",
       "retailers": []
     }
   ]
