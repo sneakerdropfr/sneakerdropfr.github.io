@@ -9,8 +9,8 @@
       "brand": "Crocs",
       "date": "2026-07-14",
       "price": 70,
-      "image": "/images/212134-90H.jpg",
-      "image_url": "/images/212134-90H.jpg",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
       "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-mario-212134-90h",
       "retailers": []
     },
@@ -20,8 +20,8 @@
       "brand": "Crocs",
       "date": "2026-07-14",
       "price": 80,
-      "image": "/images/212137-90H.jpg",
-      "image_url": "/images/212137-90H.jpg",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
       "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-platform-clog-wmns-princess-peach-212137-90h",
       "retailers": []
     },
@@ -31,8 +31,8 @@
       "brand": "Crocs",
       "date": "2026-07-14",
       "price": 70,
-      "image": "/images/212135-90H.jpg",
-      "image_url": "/images/212135-90H.jpg",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
       "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-bowser-classic-clog-multi-212135-90h",
       "retailers": []
     },
@@ -42,8 +42,8 @@
       "brand": "Crocs",
       "date": "2026-07-15",
       "price": 70,
-      "image": "/images/212136-90H.jpg",
-      "image_url": "/images/212136-90H.jpg",
+      "image": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/super-mario-bro-crocs-release-date.jpg",
       "wtc_url": "https://www.whentocop.fr/drops/super-mario-crocs-classic-clog-yoshi-212136-90h",
       "retailers": []
     },
@@ -52,7 +52,7 @@
       "name": "New Balance Abzorb 2000S Yellow",
       "brand": "New Balance",
       "date": "2026-07-15",
-      "price": "180 €",
+      "price": 200,
       "image": "https://sneakernews.com/wp-content/uploads/2022/11/New-Balance-2002R-M2002RHT-01.jpeg",
       "image_url": "https://sneakernews.com/wp-content/uploads/2022/11/New-Balance-2002R-M2002RHT-01.jpeg",
       "wtc_url": "https://www.whentocop.fr/drops/new-balance-abzorb-2000s-yellow-u2000460",
@@ -71,16 +71,16 @@
       "name": "Air Jordan 3 OG True Blue",
       "brand": "Jordan Brand",
       "date": "2026-07-18",
-      "price": "210 €",
-      "image": "/images/IF4396-102.jpg",
-      "image_url": "/images/IF4396-102.jpg",
+      "price": 230,
+      "image": "https://sneakernews.com/wp-content/uploads/2026/07/jordan-true-blue-3s-3.jpg",
+      "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/jordan-true-blue-3s-3.jpg",
       "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-og-true-blue-if4396-102",
       "retailers": [
         {
           "@type": "Offer",
           "name": "Nike",
           "url": "https://www.nike.com/fr/launch",
-          "price": 210,
+          "price": 230,
           "priceCurrency": "EUR"
         }
       ]
