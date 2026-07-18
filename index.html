@@ -8,7 +8,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SneakerDrop FR — Drops Sneakers Nike, Jordan, Adidas 2026</title>
-  <meta name="description" content="Calendrier des drops sneakers en France : dates, prix et alertes Telegram en temps réel pour Nike, Jordan, Adidas et New Balance." />
+  <meta name="description" content="Tous les drops sneakers en France : Nike, Air Jordan, Adidas, New Balance. Dates de sortie, prix retail et alertes Telegram en temps réel. Ne rate plus aucune paire." />
   <link rel="canonical" href="https://sneakerdropfr.fr" />
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
@@ -18,19 +18,19 @@
   <meta property="og:description" content="Tous les drops sneakers en France. Dates, prix retail, alertes Telegram. Ne rate plus aucune paire." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://sneakerdropfr.fr" />
-  <meta property="og:image" id="og-image-meta" content="https://sneakerdropfr.fr/assets/images/og-cover.webp?v=2" />
+  <meta property="og:image" id="og-image-meta" content="https://sneakerdropfr.fr/assets/images/og-cover.jpg?v=2" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:locale" content="fr_FR" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="SneakerDrop FR — Drops Sneakers Nike, Jordan, Adidas 2026" />
   <meta name="twitter:description" content="Tous les drops sneakers en France. Dates, prix retail, alertes Telegram." />
-  <meta name="twitter:image" content="https://sneakerdropfr.fr/assets/images/og-cover.webp?v=2" />
+  <meta name="twitter:image" content="https://sneakerdropfr.fr/assets/images/og-cover.jpg?v=2" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700;900&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TQQ3RSJJV"></script>
-  <script src="/assets/js/common.js"></script>
+  <script src="/assets/js/common.js" defer></script>
   <link rel="stylesheet" href="/assets/css/shared.css" />
   <style>
     /* ── Reset & tokens ── */
@@ -43,7 +43,7 @@
       --bg:#FFFFFF;
       --bg-alt:#F5F5F5;
       --text:#0A0A0A;
-      --muted:#5C5C5C;
+      --muted:#777;
       --border:#E5E5E5;
       --shadow:0 2px 12px rgba(0,0,0,0.07);
       --shadow-hover:0 8px 28px rgba(0,0,0,0.11);
@@ -52,7 +52,6 @@
       --font-body:'Barlow',sans-serif;
       --font-cond:'Barlow Condensed',sans-serif;
       --section-gap:4.5rem;
-    }
     html{scroll-behavior:smooth}
     body{background:var(--bg);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden;padding-bottom:72px}
     a{text-decoration:none;color:inherit}
@@ -109,7 +108,7 @@
 
     /* ── Ticker ── */
     .ticker{overflow:hidden;border-top:1px solid rgba(255,255,255,.07);padding:.55rem 0;background:#0d0d0d}
-    .ticker__track { display: flex; gap: 2.5rem; white-space: nowrap; animation-name: ticker; animation-duration: 45s; animation-timing-function: linear; animation-iteration-count: infinite; }
+    .ticker__track{display:flex;gap:2.5rem;animation:ticker 45s linear infinite;white-space:nowrap}
     .ticker__track span{font-family:var(--font-cond);font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4)}
     .ticker__track span strong{color:#FFFFFF}
     .ticker__track span.sold{color:var(--pink)}
@@ -354,10 +353,6 @@
     .btn-retailer:hover{transform:translateY(-1px)}
     .btn-retailer--bstn{background:var(--black);color:#fff;border:1px solid rgba(255,255,255,.15)}
     .btn-retailer--bstn:hover{background:var(--accent);color:var(--black);border-color:var(--accent)}
-    .btn-retailer--snipes{background:#E30613;color:#fff;border:1px solid rgba(255,255,255,.15)}
-    .btn-retailer--snipes:hover{background:#fff;color:#E30613;border-color:#E30613}
-    .btn-retailer--solebox{background:#4A5D4F;color:#fff;border:1px solid rgba(255,255,255,.15)}
-    .btn-retailer--solebox:hover{background:#fff;color:#4A5D4F;border-color:#4A5D4F}
     .btn-retailer--nike{background:#111;color:#fff;border:1px solid rgba(255,255,255,.1)}
     .btn-retailer--nike:hover{background:var(--accent);color:var(--black)}
     .btn-retailer--official{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.18)}
@@ -481,7 +476,7 @@
   <script id="schema-jsonld" type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Drops Sneakers à venir en France","url":"https://sneakerdropfr.fr","itemListElement":[]}</script>
   <script>
   (function(){
-    fetch('/releases.json?t='+Date.now())
+    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now())
     .then(function(r){return r.json();}).then(function(data){
       var today=new Date().toISOString().split('T')[0];
       var upcoming=(data||[]).filter(function(r){
@@ -521,7 +516,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         <span>SneakerDrop<span class="logo__fr">FR</span></span>
       </a>
       <div class="header__spacer"></div>
-      <nav class="header__nav" aria-hidden="true">
+      <nav class="header__nav">
         <a href="/deals.html" class="hbtn hbtn--solid hbtn--keep">BSTN Deals</a>
         <a href="/raffles.html" class="hbtn hbtn--solid hbtn--keep">Raffles</a>
         <a href="/hype-picks.html" class="hbtn hbtn--solid hbtn--keep">Hype Picks</a>
@@ -561,7 +556,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   <!-- Search bar hero -->
   <div class="hero-search">
     <div class="hero-search__inner">
-      <input class="hero-search__input" type="text" placeholder="Rechercher une paire, une collab, un SKU..." aria-label="Rechercher une paire, une collab, ou un SKU" autocomplete="off"
+      <input class="hero-search__input" type="text" placeholder="Rechercher une paire, une collab, un SKU..." autocomplete="off"
         oninput="filterBySearch(this.value);var cb=document.getElementById('hero-clear-btn');if(cb){cb.style.display=this.value.length>0?'block':'none'}"
         onfocus="if(this.value)filterBySearch(this.value)"
         id="hero-search-input" />
@@ -594,7 +589,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     </div>
     <script>
     (function(){
-      fetch('/releases.json?t='+Date.now())
+      fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now())
         .then(function(r){return r.json();})
         .then(function(data){
           var today=new Date();today.setHours(0,0,0,0);
@@ -631,8 +626,6 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       { code: 'SUMMER15', label: '-15% chez BSTN', start: '2026-05-29', end: '2026-05-31', icon: '⏰', prefix: 'Expire ce soir :' },
       { code: 'SPORT25',  label: '-25% Sportswear', start: '2026-06-02', end: '2026-06-03', icon: '⚽', prefix: '2–3 juin :' },
       { code: null,       label: '-30% Summer Sale →', start: '2026-05-25', end: '2026-06-07', icon: '🔥', prefix: "Jusqu'au 7 juin :" },
-      { code: null, label: "Jusqu'à -60% chez BSTN", start: '2026-06-25', end: '2026-07-06', icon: '☀️', prefix: 'BSTN Summer Sale :' },
-      { code: null, label: "Jusqu'à -70% chez Solebox", start: '2026-06-12', end: '2026-07-31', icon: '🔥', prefix: 'Solebox Summer Sale :', url: 'https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&campaign=&ued=https%3A%2F%2Fwww.solebox.com%2Fde-de%2Fc%2Fsale-2775' },
     ];
     var active = promos.filter(function(p){ return today >= p.start && today <= p.end; });
     if (active.length > 0) {
@@ -643,9 +636,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         if (p.code) {
           return sep + '<a href="/bstn-promos.html" class="promo-bar__item"><span>' + p.icon + ' ' + p.prefix + '</span><span class="promo-bar__code" onclick="copyCode(event,\'' + p.code + '\')">' + p.code + '</span><span>= ' + p.label + '</span></a>';
         } else {
-          var href = p.url ? p.url : '/bstn-promos.html';
-          var target = p.url ? ' target="_blank" rel="noopener"' : '';
-          return sep + '<a href="' + href + '"' + target + ' class="promo-bar__item"><span>' + p.icon + ' ' + p.prefix + ' ' + p.label + '</span></a>';
+          return sep + '<a href="/bstn-promos.html" class="promo-bar__item"><span>' + p.icon + ' ' + p.prefix + ' ' + p.label + '</span></a>';
         }
       });
       inner.innerHTML = parts.join('');
@@ -771,7 +762,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           </a>
         </div>
       </div>
-      <div class="footer__legal"><a href="/a-propos.html">À propos</a> — <a href="privacy.html">Politique de confidentialité</a> — <a href="/mentions-legales.html">Mentions légales</a> — <a href="sitemap.xml">Sitemap</a></div>
+      <div class="footer__legal"><a href="privacy.html">Politique de confidentialité</a> — <a href="/mentions-legales.html">Mentions légales</a> — <a href="sitemap.xml">Sitemap</a></div>
     </div>
   </footer>
 
@@ -820,7 +811,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   <!-- Main releases JS -->
   <script>
 (function(){
-    var RELEASES_URL='/releases.json?t='+Date.now();
+    var RELEASES_URL='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+Date.now();
     var grid=document.getElementById('releases-grid-week');
     var gridUpcoming=document.getElementById('releases-grid-upcoming');
     var weeklyDropsGrid=document.getElementById('weekly-drops-grid');
@@ -951,16 +942,6 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
 
       // Officiels — max 3 sur la card, bouton "Voir tout" si plus
       if (official.length) {
-        var PRIORITY_ORDER = ['bstn', 'snipes', 'solebox'];
-        official.sort(function(a, b) {
-          var an = (a.name || '').toLowerCase();
-          var bn = (b.name || '').toLowerCase();
-          var ai = PRIORITY_ORDER.findIndex(function(p) { return an.indexOf(p) !== -1; });
-          var bi = PRIORITY_ORDER.findIndex(function(p) { return bn.indexOf(p) !== -1; });
-          if (ai === -1) ai = 99;
-          if (bi === -1) bi = 99;
-          return ai - bi;
-        });
         var officialShown = official.slice(0, 3);
         var hasMore = official.length > 3;
         var sortiePage = r.id ? 'sorties/' + r.id + '.html' : null;
@@ -968,7 +949,6 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         officialShown.forEach(function(rt) {
           var cls = isRetailerSnipes(rt.name) ? 'btn-retailer btn-retailer--snipes'
                   : isRetailerBSTN(rt.name) ? 'btn-retailer btn-retailer--bstn'
-                  : isRetailerSolebox(rt.name) ? 'btn-retailer btn-retailer--solebox'
                   : isRetailerNike(rt.name) ? 'btn-retailer btn-retailer--nike'
                   : 'btn-retailer btn-retailer--official';
           var icon = isRetailerBSTN(rt.name) ? '🛒 '
@@ -999,14 +979,10 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         var label = released ? '🔥 Acheter Avant Rupture' : '🛒 Acheter sur BSTN';
         var cls = isBig ? 'btn-cop-big' : 'btn-cop';
         return '<a href="' + r.buy_url + '" target="_blank" rel="noopener" class="' + cls + '" onclick="trackBSTN(\'' + safeTitle(r.title) + '\')">' + label + '</a>';
-      } else if (r.retailers && r.retailers.length) {
-        var rt = r.retailers[0];
-        var cls2 = isBig ? 'btn-cop-big' : 'btn-cop';
-        return '<a href="' + (rt.url || '#') + '" target="_blank" rel="nofollow noopener" class="' + cls2 + '">' + (rt.name || 'Acheter') + '</a>';
       } else {
-        var sortieLnk = '/sorties/' + (r.id || '') + '.html';
-        var cls3 = isBig ? 'btn-cop-big btn-cop-big--alert' : 'btn-cop btn-cop--alert';
-        return '<a href="' + sortieLnk + '" class="' + cls3 + '">Voir la fiche →</a>';
+        var wtcLink = r.wtc_url || ('https://www.whentocop.fr/search?q=' + encodeURIComponent(r.title || ''));
+        var cls2 = isBig ? 'btn-cop-big btn-cop-big--alert' : 'btn-cop btn-cop--alert';
+        return '<a href="' + wtcLink + '" target="_blank" rel="noopener" class="' + cls2 + '">Voir sur WhenToCop</a>';
       }
     }
 
@@ -1065,8 +1041,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>'
         : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
       var titleWrap = articleUrl
-        ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + (r.colorway ? ' <span style="opacity:.55;font-weight:700">(' + escapeHtml(r.colorway) + ')</span>' : '') + '</h3></a>'
-        : '<h3 class="drop-card__title">' + escapeHtml(r.title) + (r.colorway ? ' <span style="opacity:.55;font-weight:700">(' + escapeHtml(r.colorway) + ')</span>' : '') + '</h3>';
+        ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
+        : '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
       // Badge hype_score
       var hypeScoreHtml = '';
       if (r.hype_score && r.hype_score >= 40) {
@@ -1204,7 +1180,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
           });
         });
 
-        fetch('/weekly_data.json?t=' + Date.now())
+        fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/weekly_data.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .then(function(wd) {
             // Vérifier que weekly_data.json correspond bien à la semaine en cours ou future
@@ -1214,7 +1190,28 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
               if (we.length===3) {
                 var weDate = new Date(+we[2],+we[1]-1,+we[0]);
                 weDate.setHours(23,59,59,999);
-                if (false) { /* fallback désactivé — weekly_data.json toujours prioritaire */
+                // Fallback : si weekly_data.json est périmé (week_end < lundi en cours) → releases.json
+                var nowMs = new Date(); nowMs.setHours(0,0,0,0);
+                // Calculer le lundi de la semaine en cours
+                var dayOfWeek = nowMs.getDay(); // 0=dim,1=lun...6=sam
+                var daysToMon = (dayOfWeek === 0) ? 6 : dayOfWeek - 1;
+                var thisMonday = new Date(nowMs); thisMonday.setDate(nowMs.getDate() - daysToMon);
+                // Si week_end est avant ce lundi → données périmées → fallback releases.json
+                if (weDate < thisMonday) {
+                  allWdrops = thisWeek;
+                  renderWeeklyDrops();
+                  return;
+                }
+                // Si on est samedi ou dimanche ET que weekly_data.json couvre la semaine suivante
+                // → ne pas encore afficher la semaine suivante, attendre lundi
+                var nextMonday = new Date(thisMonday); nextMonday.setDate(thisMonday.getDate() + 7);
+                var wsDate = null;
+                try {
+                  var ws = (wd.week_start||'').split('/');
+                  if (ws.length===3) wsDate = new Date(+ws[2],+ws[1]-1,+ws[0]);
+                } catch(e2) {}
+                if (wsDate && wsDate >= nextMonday && nowMs < nextMonday) {
+                  // weekly_data.json est pour la semaine prochaine, mais on n'est pas encore lundi
                   allWdrops = thisWeek;
                   renderWeeklyDrops();
                   return;
@@ -1330,7 +1327,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         window._releases = allReleases.slice();
         window.allReleases = allReleases;
         // Enrichir la recherche avec releases_past.json
-        fetch('/releases_past.json?t=' + Date.now())
+        fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .catch(function() { return []; })
           .then(function(past) {
@@ -1394,7 +1391,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         })();
 
         if (!allReleases.length) { if (empty) empty.style.display = 'block'; return; }
-        var upcoming = allReleases.filter(function(r) { if (!r.date || r.date === "TBD") return false; var diff=(new Date(r.date+"T23:59:59")-new Date())/(1000*60*60*24); return diff>=0 && diff<=30; });
+        var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
         var byScore = sortByScore(upcoming);
         renderTopPick(byScore[0]);
         render();
@@ -1581,7 +1578,7 @@ function renderPastGrid(data) {
       return new Date(+p[0], +p[1]-1, +p[2]) < today;
     });
     // Charger releases_past.json
-    fetch('/releases_past.json?t=' + Date.now())
+    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t=' + Date.now())
       .then(function(res) { return res.json(); })
       .catch(function() { return []; })
       .then(function(pastData) {
@@ -1624,7 +1621,7 @@ var BSTN_AWIN_MID = '104979';
     if (_bstnCache[skuKey] !== undefined) { if (_bstnCache[skuKey]) cb(_bstnCache[skuKey]); return; }
     var skuNorm = skuKey.replace(/-/g, '');
     var q = skuKey.replace(/-/g, ' ');
-    var url = BSTN_API_URL + '?q=' + encodeURIComponent(q) + '&query_by=name&per_page=5&filter_by=price_default%3A%3E0';
+    var url = BSTN_API_URL + '?q=' + encodeURIComponent(q) + '&query_by=name&per_page=5&filter_by=price%3A%3E0';
     fetch(url, { headers: { 'X-TYPESENSE-API-KEY': BSTN_API_KEY } })
       .then(function(r) { return r.json(); })
       .then(function(data) {
@@ -1799,7 +1796,32 @@ var BSTN_AWIN_MID = '104979';
   <!-- Theme toggle dark/light -->
   <script>
   (function(){
-    // Dark mode géré par common.js
+    var PREF_KEY = 'theme-pref';
+    var btn = null;
+    function applyTheme(dark){
+      document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+      if(btn) btn.textContent = dark ? '☀️' : '🌙';
+    }
+    function init(){
+      btn = document.getElementById('theme-toggle');
+      // Lire préférence stockée, sinon préférence système
+      var stored = localStorage.getItem(PREF_KEY);
+      var prefersDark = stored !== null ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(prefersDark);
+      if(btn){
+        btn.addEventListener('click', function(){
+          var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+          var next = !isDark;
+          applyTheme(next);
+          localStorage.setItem(PREF_KEY, next ? 'dark' : 'light');
+        });
+      }
+    }
+    if(document.readyState === 'loading'){
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
     // Anti-flash : appliquer immédiatement avant le premier paint
     var stored = localStorage.getItem(PREF_KEY);
     if(stored === 'dark' || (stored === null && window.matchMedia('(prefers-color-scheme: dark)').matches)){
@@ -1809,3 +1831,5 @@ var BSTN_AWIN_MID = '104979';
   </script>
 </body>
 </html>
+
+Sun Jun  7 11:03:36 PM UTC 2026
