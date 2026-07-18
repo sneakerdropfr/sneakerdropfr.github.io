@@ -26710,5 +26710,44 @@
         "type": "retail"
       }
     ]
+  },
+  {
+    "id": "new-balance-numeric-340-white-navy",
+    "sku": "UN340WVS",
+    "title": "New Balance Numeric 340 White Navy",
+    "brand": "New Balance",
+    "date": "2026-07-19",
+    "price": 100,
+    "year": 2026,
+    "image_url": "",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-340-white-navy-un340wvs",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "new-balance-numeric-340-black-white",
+    "sku": "UN340YRW",
+    "title": "New Balance Numeric 340 Black White",
+    "brand": "New Balance",
+    "date": "2026-07-19",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-340-black-white-un340yrw",
+    "retailers": [],
+    "featured": false
+  },
+  {
+    "id": "new-balance-numeric-340-zinc-blue-nb-navy",
+    "sku": "UN340NBA",
+    "title": "New Balance Numeric 340 Zinc Blue Nb Navy",
+    "brand": "New Balance",
+    "date": "2026-07-19",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-nb-numeric-340-zinc-blue-nb-navy-un340nba",
+    "retailers": [],
+    "featured": false
   }
 ]
