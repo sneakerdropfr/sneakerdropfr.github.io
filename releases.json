@@ -303,13 +303,6 @@
         "price": "135€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-luka-5-hv8082-600-0353607",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
       }
     ],
     "year": 2026
@@ -351,6 +344,44 @@
     ],
     "year": 2026,
     "colorway": "Red"
+  },
+  {
+    "id": "vans-charmed-life-continues-with-these-cardigan-slip-ons-vn000d9wy28",
+    "title": "Vans’ Charmed Life Continues With These “Cardigan” Slip-Ons",
+    "brand": "Vans",
+    "date": "TBD",
+    "price": 110.0,
+    "sku": "VN000D9WY28",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/vans-slip-on-cardigan-white-VN000D9WY28-6.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/06/19/vans-slip-on-cardigan-vn000d9wrpk-vn000d9wy28/",
+    "added_at": "2026-06-19T23:37:10.177874+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000D9WY28",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000d9wy28%2F",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "year": 2026,
+    "colorway": "White"
   },
   {
     "id": "soothing-vast-grey-covers-the-nike-mind-002-hq4308-100",
@@ -536,13 +567,6 @@
         "name": "New Balance",
         "url": "https://www.newbalance.fr/",
         "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890-u18904as-0353185",
-        "price": "190€",
         "resell": false,
         "raffle": false
       }
@@ -751,6 +775,84 @@
     "silhouette": "Air Force 1",
     "year": 2026,
     "colorway": "Pink"
+  },
+  {
+    "id": "nike-s-air-force-1-low-floral-pack-gives-big-cecilie-bahnsen-vibes-ir8637-100",
+    "title": "Nike’s Air Force 1 Low “Floral Pack” Gives Big Cecilie Bahnsen Vibes",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 125.0,
+    "sku": "IR8637-100",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-force-1-low-floral-white-IR8637-100.jpg?w=1600",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/06/20/nike-air-force-1-low-floral-ir8637-001-ir8637-100-ir8637-600/",
+    "added_at": "2026-06-21T08:00:01.711577+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR8637-100",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir8637-100%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "silhouette": "Air Force 1",
+    "year": 2026,
+    "colorway": "White"
+  },
+  {
+    "id": "nike-s-air-force-1-low-floral-pack-gives-big-cecilie-bahnsen-vibes-ir8637-001",
+    "title": "Nike’s Air Force 1 Low “Floral Pack” Gives Big Cecilie Bahnsen Vibes",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 125.0,
+    "sku": "IR8637-001",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-force-1-low-floral-black-IR8637-001.jpg?w=1600",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/06/20/nike-air-force-1-low-floral-ir8637-001-ir8637-100-ir8637-600/",
+    "added_at": "2026-06-21T08:00:01.711661+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR8637-001",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir8637-001%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "silhouette": "Air Force 1",
+    "year": 2026,
+    "colorway": "Black"
   },
   {
     "id": "air-jordan-1-low-looks-to-autumn-in-legend-medium-brown-dc0774-205",
@@ -974,13 +1076,6 @@
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
         "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-air-jordan-8-retro-chrome-305381-007-0354013",
-        "price": "210€",
         "resell": false,
         "raffle": false
       }
@@ -1237,6 +1332,82 @@
       {
         "name": "Solebox",
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim5755-100%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "silhouette": "Air Force 1",
+    "year": 2026
+  },
+  {
+    "id": "nike-air-force-1-low-leans-on-woven-panels-for-summer-im5755-101",
+    "title": "Nike Air Force 1 Low Woven Panels",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": null,
+    "sku": "IM5755-101",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-force-1-low-woven-sanddrift-pale-ivory-sail-IM5755-100-5.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/06/22/nike-air-force-1-low-woven-im5755-100-im5755-101-im5755-700/",
+    "added_at": "2026-06-23T02:00:02.340805+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM5755-101",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim5755-101%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "silhouette": "Air Force 1",
+    "year": 2026
+  },
+  {
+    "id": "nike-air-force-1-low-leans-on-woven-panels-for-summer-im5755-700",
+    "title": "Nike Air Force 1 Low Woven Panels",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": null,
+    "sku": "IM5755-700",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-force-1-low-woven-sanddrift-pale-ivory-sail-IM5755-100-5.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/06/22/nike-air-force-1-low-woven-im5755-100-im5755-101-im5755-700/",
+    "added_at": "2026-06-23T02:00:02.340900+00:00",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM5755-700",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim5755-700%2F",
         "price": "",
         "resell": false,
         "raffle": false
@@ -1701,13 +1872,6 @@
         "price": "180€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890-u18904do-0353186",
-        "price": "190€",
-        "resell": false,
-        "raffle": false
       }
     ],
     "year": 2026
@@ -1920,20 +2084,6 @@
       {
         "name": "Solebox",
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Fen%2Fnew-balance"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU1890GREY",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
       }
     ],
     "featured": false
@@ -1956,20 +2106,6 @@
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fvans"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8ve4a1%2F",
-        "price": "201€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Vans",
-        "url": "https://www.vans.fr/",
-        "price": "201€",
-        "resell": false,
-        "raffle": false
       }
     ],
     "featured": false
@@ -1992,20 +2128,6 @@
       {
         "name": "Solebox",
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Fen%2Fnew-balance"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU7409DI",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
       }
     ],
     "featured": false
@@ -2028,20 +2150,6 @@
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fadidas"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk4877%2F",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr/",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
       }
     ],
     "featured": false
@@ -2074,6 +2182,27 @@
     ]
   },
   {
+    "id": "air-jordan-4-retro-wmns-birds-of-paradise",
+    "title": "Air Jordan 4 Retro WMNS Birds Of Paradise",
+    "brand": "Jordan Brand",
+    "sku": "HV0823-101",
+    "date": "2026-07-23",
+    "price": 220,
+    "year": 2026,
+    "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/air-jordan-4-birds-of-paradise-hv0823-101.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-wmns-birds-of-paradise-hv0823-101",
+    "featured": true,
+    "retailers": [
+      {
+        "@type": "Offer",
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/launch",
+        "price": 220,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  {
     "id": "air-jordan-3-og-true-blue",
     "title": "Air Jordan 3 OG True Blue",
     "brand": "Jordan Brand",
@@ -2081,7 +2210,7 @@
     "date": "2026-07-18",
     "price": 230,
     "year": 2026,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/adidas-anthony-edwards-2-ae2-philippines-3.jpg",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/jordan-true-blue-3s-3.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-og-true-blue-if4396-102",
     "featured": false,
     "retailers": [
@@ -2091,27 +2220,6 @@
         "url": "https://www.nike.com/fr/launch",
         "price": 230,
         "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIF4396-102",
-        "price": "230€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fif4396-102%2F",
-        "price": "230€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "230€",
-        "resell": false,
-        "raffle": false
       }
     ]
   },
@@ -2133,27 +2241,6 @@
         "url": "https://www.nike.com/fr/launch",
         "price": 90,
         "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ6659-400",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz6659-400%2F",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
       }
     ]
   },
@@ -2175,27 +2262,6 @@
         "url": "https://www.nike.com/fr/launch",
         "price": 90,
         "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4307-005",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4307-005%2F",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
       }
     ]
   },
@@ -2217,27 +2283,6 @@
         "url": "https://www.nike.com/fr/launch",
         "price": 90,
         "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4309-400",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4309-400%2F",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
       }
     ]
   },
@@ -2259,27 +2304,6 @@
         "url": "https://www.nike.com/fr/launch",
         "price": 90,
         "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4309-601",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4309-601%2F",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
       }
     ]
   },
@@ -2301,27 +2325,6 @@
         "url": "https://www.nike.com/fr/launch",
         "price": 90,
         "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4307-302",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4307-302%2F",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
       }
     ]
   },
@@ -2343,27 +2346,6 @@
         "url": "https://www.nike.com/fr/launch",
         "price": 90,
         "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4307-001",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4307-001%2F",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
       }
     ]
   },
@@ -2385,27 +2367,6 @@
         "url": "https://www.nike.com/fr/launch",
         "price": 210,
         "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DCT8529-108",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fct8529-108%2F",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
       }
     ]
   },
@@ -2431,13 +2392,6 @@
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fjordan"
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
       }
     ],
     "featured": true
@@ -2452,29 +2406,7 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-air-force-1-low-horse-of-a-different-color.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-shadow-wmns-metallic-silver-hq2410-002",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2410-002",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2410-002%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2487,29 +2419,7 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/nike-first-sight-black-HQ2410-001-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-shadow-wmns-black-hq2410-001",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2410-001",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2410-001%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2530,20 +2440,6 @@
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fnike"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir1944-400%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
       }
     ],
     "featured": false
@@ -2566,20 +2462,6 @@
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fnike"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fih7853-001%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
       }
     ],
     "featured": false
@@ -2594,29 +2476,7 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-mind-002-pink-smoke-mystic-dates-light-magenta-hq4310-600-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-wmns-pink-smoke-hq4310-600",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4310-600",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4310-600%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2629,29 +2489,7 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-mind-002-summit-white-phantom-light-orewood-brown-HQ4310-101-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-wmns-summit-white-hq4310-101",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4310-101",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4310-101%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2664,29 +2502,7 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-mind-002-camo-green-newsprint-phantom-hq4308-300-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-camo-green-hq4308-300",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4308-300",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4308-300%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2699,29 +2515,7 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/nike-mind-002-phantom-college-grey-cream-ii-hq4308-004-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-phantom-hq4308-004",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4308-004",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4308-004%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2734,29 +2528,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-sp-wmns-italy-blue-ii0407-402",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DII0407-402",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fii0407-402%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2769,29 +2541,7 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-force-1-IM5757-400-9.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-patent-denim-im5757-400",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM5757-400",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim5757-400%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2804,29 +2554,7 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2025/11/nike-zoom-skylon-11-vintage-1.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-skylon-11-black-black-iu1869-002",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU1869-002",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu1869-002%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2839,29 +2567,7 @@
     "year": 2026,
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-zoom-skylon-11-summit-white-black-IU1869-101-6.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-skylon-11-summit-white-black-iu1869-101",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU1869-101",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu1869-101%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2874,29 +2580,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-skylon-11-wmns-black-anthracite-iu7360-002",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU7360-002",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu7360-002%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2909,29 +2593,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-skylon-11-white-old-royal-iu1869-103",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU1869-103",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu1869-103%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2944,29 +2606,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-skylon-11-wmns-black-light-magenta-iu7360-003",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU7360-003",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu7360-003%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -2979,29 +2619,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-skylon-11-wmns-white-cacao-wow-iu7360-102",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU7360-102",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu7360-102%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -3014,29 +2632,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-340-white-navy-un340wvs",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DUN340WVS",
-        "price": "100€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fun340wvs%2F",
-        "price": "100€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "100€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -3049,29 +2645,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-340-black-white-un340yrw",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DUN340YRW",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fun340yrw%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -3084,29 +2658,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-nb-numeric-340-zinc-blue-nb-navy-un340nba",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DUN340NBA",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fun340nba%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -3127,20 +2679,6 @@
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fadidas"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fla5997%2F",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr/",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
       }
     ],
     "featured": false
@@ -3163,20 +2701,6 @@
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fadidas"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkz8506%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr/",
-        "price": "",
-        "resell": false,
-        "raffle": false
       }
     ],
     "featured": false
@@ -3199,20 +2723,6 @@
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fvans"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8v2n1%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Vans",
-        "url": "https://www.vans.fr/",
-        "price": "",
-        "resell": false,
-        "raffle": false
       }
     ],
     "featured": false
@@ -3227,29 +2737,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/puma-suede-wmns-black-steel-gray-408330-03",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D408330-03",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F408330-03%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Puma",
-        "url": "https://eu.puma.com/fr/fr/",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -3262,29 +2750,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/puma-suede-wmns-pink-lavender-408330-05",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D408330-05",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F408330-05%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Puma",
-        "url": "https://eu.puma.com/fr/fr/",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -3297,29 +2763,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/puma-suede-wmns-marshmallow-408330-01",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D408330-01",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F408330-01%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Puma",
-        "url": "https://eu.puma.com/fr/fr/",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
   },
   {
@@ -3332,180 +2776,7 @@
     "year": 2026,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/afew-brooks-adrenaline-gts-10-fig-bridal-rose-fiery-coral-1000681d670",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D1000681D670",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1000681d670%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "featured": false
-  },
-  {
-    "id": "asics-gel-nimbus-10-1-cools-off-in-slate-blue-1203a599-401",
-    "title": "ASICS GEL-Nimbus 10.1 Cools Off In “Slate Blue”",
-    "brand": "Asics",
-    "date": "TBD",
-    "price": 160.0,
-    "sku": "1203A599-401",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/asics-gel-nimbus-10-1-slate-blue-1203A599-401-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/18/asics-gel-nimbus-10-1-slate-blue-1203a599-401/",
-    "added_at": "2026-07-18T22:00:02.027989+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D1203A599-401",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1203a599-401%2F",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asics",
-        "url": "https://www.asics.com/fr/fr-fr/",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "detachable-kilties-dress-up-this-air-jordan-1-low-iw2020-110",
-    "title": "Detachable Kilties Dress Up This Air Jordan 1 Low",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": 130.0,
-    "sku": "IW2020-110",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/air-jordan-1-low-golf-shroud-iw2020-110-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/17/air-jordan-1-low-golf-shroud-iw2020-110/",
-    "added_at": "2026-07-18T22:00:02.028377+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIW2020-110",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiw2020-110%2F",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-puffs-up-with-a-dunk-low-bubble-swoosh-pack-im4411-100",
-    "title": "Nike Puffs Up With A Dunk Low “Bubble Swoosh” Pack",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 130.0,
-    "sku": "IM4411-100",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-dunk-low-sail-coconut-milk-light-silver-light-bone-IM4411-100-2.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/18/nike-dunk-low-bubble-swoosh-im4411-100-im4411-200/",
-    "added_at": "2026-07-19T02:00:02.549158+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-dunk-low-retro-prm-im4411-100-0353748",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM4411-100",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim4411-100%2F",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-puffs-up-with-a-dunk-low-bubble-swoosh-pack-im4411-200",
-    "title": "Nike Puffs Up With A Dunk Low “Bubble Swoosh” Pack",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 130.0,
-    "sku": "IM4411-200",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-dunk-low-sail-coconut-milk-light-silver-light-bone-IM4411-100-2.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/07/18/nike-dunk-low-bubble-swoosh-im4411-100-im4411-200/",
-    "added_at": "2026-07-19T04:00:01.788182+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-dunk-low-retro-prm-im4411-200-0353749",
-        "price": "120€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM4411-200",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim4411-200%2F",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
   }
 ]
