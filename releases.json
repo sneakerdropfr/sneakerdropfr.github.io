@@ -9,7 +9,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-sabrina-4-light-work-II0402-101-1024x725.jpg",
     "buy_url": "https://www.nike.com/w?q=nike sabrina 4&amp;vst=nike sabrina 4",
     "source": "Sneaker Files",
-    "added_at": "2026-07-21T09:27:43.985423+00:00"
+    "added_at": "2026-07-21T09:27:43.985423+00:00",
+    "retailers": []
   },
   {
     "id": "nike-caitlin-1-snow-white-releases-holiday-2026",
@@ -21,7 +22,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-caitlin-1-snow-white-IH7423-100-1024x725.jpg",
     "buy_url": "https://www.nike.com/t/caitlin-1-basketball-shoes-pCfNcrHv/IH7423-400",
     "source": "Sneaker Files",
-    "added_at": "2026-07-21T06:46:16.046473+00:00"
+    "added_at": "2026-07-21T06:46:16.046473+00:00",
+    "retailers": []
   },
   {
     "id": "nike-kd-5-dmv-returns-summer-2027",
@@ -33,7 +35,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2012/12/nike-kd-5-v-dmv-video-review.jpg",
     "buy_url": "https://www.nike.com/w?q=nike kd&amp;vst=nike kd",
     "source": "Sneaker Files",
-    "added_at": "2026-07-21T06:35:42.084044+00:00"
+    "added_at": "2026-07-21T06:35:42.084044+00:00",
+    "retailers": []
   },
   {
     "id": "instant-skateboards-x-nike-sb-air-force-1-releases-holiday-2",
@@ -45,7 +48,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/instant-skateboards-nike-sb-air-force-1-black-game-royal-IV5289-002-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
-    "added_at": "2026-07-21T06:25:11.042084+00:00"
+    "added_at": "2026-07-21T06:25:11.042084+00:00",
+    "retailers": []
   },
   {
     "id": "nike-air-force-1-01-shoe-dog-releases-spring-2027",
@@ -57,7 +61,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-air-force-1-01-shoe-dog-2027-IX8503-100-1024x725.jpg",
     "buy_url": "https://www.nike.com/w?q=nike air force 1&amp;vst=nike air force 1",
     "source": "Sneaker Files",
-    "added_at": "2026-07-21T06:14:37.419698+00:00"
+    "added_at": "2026-07-21T06:14:37.419698+00:00",
+    "retailers": []
   },
   {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
@@ -1897,7 +1902,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/20/nike-sb-dunk-low-filbert-light-chocolate-black-burgundy-ash-hq1625-201/",
     "added_at": "2026-07-21T10:00:01.677806+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ1625-201",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq1625-201%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "resurgent-nike-air-max-dolce-checks-off-metallic-silver-ib4527-001",
@@ -1910,7 +1938,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/20/nike-air-max-dolce-metallic-silver-black-ib4527-001/",
     "added_at": "2026-07-21T10:00:01.678183+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIB4527-001",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fib4527-001%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "she-s-all-about-his-rod-west-nyc-s-next-adidas-release-draws-from-raunchy-2000s-ads-kz6225",
@@ -1923,6 +1974,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/20/west-nyc-adidas-rod-laver-white-pink-kz6225/",
     "added_at": "2026-07-21T10:00:01.680411+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKZ6225",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkz6225%2F",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
