@@ -22073,7 +22073,8 @@
         "raffle": false
       }
     ],
-    "sku": ""
+    "sku": "",
+    "year": 2026
   },
   {
     "id": "super-mario-x-crocs-classic-platform-clog-wmns-princess-peach",
@@ -22098,7 +22099,9 @@
         "raffle": false
       }
     ],
-    "sku": ""
+    "sku": "",
+    "colorway": "Peach",
+    "year": 2026
   },
   {
     "id": "super-mario-x-crocs-classic-clog-bowser",
@@ -22123,7 +22126,8 @@
         "raffle": false
       }
     ],
-    "sku": ""
+    "sku": "",
+    "year": 2026
   },
   {
     "id": "nike-zoom-skylon-11-volt-iu1869-700",
@@ -22133,7 +22137,9 @@
     "price": "135 €",
     "image_url": "https://sneakerbardetroit.com/wp-content/uploads/2026/05/nike-zoom-skylon-11-volt-iu1869-700-3.jpg",
     "retailers": [],
-    "sku": ""
+    "sku": "",
+    "colorway": "Volt",
+    "year": 2026
   },
   {
     "id": "nike-zoom-skylon-11-wmns-university-red-iu7360-600",
@@ -22143,7 +22149,9 @@
     "price": "135 €",
     "image_url": "https://www.dtlr.com/cdn/shop/files/nike_IU7360_20600_W020.jpg?v=1783631934",
     "retailers": [],
-    "sku": ""
+    "sku": "",
+    "colorway": "University Red",
+    "year": 2026
   },
   {
     "id": "super-mario-x-crocs-classic-clog-yoshi",
@@ -22168,7 +22176,8 @@
         "raffle": false
       }
     ],
-    "sku": ""
+    "sku": "",
+    "year": 2026
   },
   {
     "id": "new-balance-abzorb-2000s-yellow",
@@ -22200,7 +22209,9 @@
         "raffle": false
       }
     ],
-    "sku": ""
+    "sku": "",
+    "colorway": "Yellow",
+    "year": 2026
   },
   {
     "id": "nike-kd-19-candy-apple-ih1117-600",
@@ -22210,7 +22221,8 @@
     "price": "160 €",
     "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/kd-19-red.jpg",
     "retailers": [],
-    "sku": ""
+    "sku": "",
+    "year": 2026
   },
   {
     "id": "adidas-holo-peak-white-grey-silver-ki1521",
@@ -22220,7 +22232,9 @@
     "price": "150 €",
     "image_url": "https://www.overkillshop.com/cdn/shop/files/KI1521_1.jpg?v=1783338235&width=5000",
     "retailers": [],
-    "sku": ""
+    "sku": "",
+    "colorway": "White/Grey/Silver",
+    "year": 2026
   },
   {
     "id": "adidas-holo-peak-black-iron-metallic-kk2240",
@@ -22230,7 +22244,9 @@
     "price": "150 €",
     "image_url": "https://www.overkillshop.com/cdn/shop/files/KK2240_1.jpg?v=1783338539&width=5000",
     "retailers": [],
-    "sku": ""
+    "sku": "",
+    "colorway": "Black",
+    "year": 2026
   },
   {
     "id": "new-balance-204v-fan-blue-u204vcmv",
@@ -22240,7 +22256,9 @@
     "price": "120 €",
     "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/07/new-balance-204v-fan-blue-u204vcmv-1.webp",
     "retailers": [],
-    "sku": ""
+    "sku": "",
+    "colorway": "Blue",
+    "year": 2026
   },
   {
     "id": "new-balance-204v-neo-flame-u204vmcv",
@@ -22250,7 +22268,8 @@
     "price": "120 €",
     "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/07/new-balance-204v-neo-flame-u204vmcv-1.webp",
     "retailers": [],
-    "sku": ""
+    "sku": "",
+    "year": 2026
   },
   {
     "id": "adidas-terra-mono-lightstrike-white-black-kh8048",
@@ -22268,7 +22287,9 @@
         "raffle": false
       }
     ],
-    "sku": ""
+    "sku": "",
+    "colorway": "White/Black",
+    "year": 2026
   },
   {
     "id": "naked-copenhagen-adidas-adizero-evo-sl-zip-pink-silver-lc1125",
@@ -22278,7 +22299,10 @@
     "price": "180 €",
     "image_url": "https://justfreshkicks.com/wp-content/uploads/2026/07/naked-adidas-evo-sl-zip-lc1125-1.webp",
     "retailers": [],
-    "sku": ""
+    "sku": "",
+    "silhouette": "Adidas Adizero",
+    "colorway": "Pink/Silver",
+    "year": 2026
   },
   {
     "id": "new-balance-991v1-made-in-uk-luxe-suede-m991cm1",
@@ -22310,7 +22334,9 @@
         "raffle": false
       }
     ],
-    "sku": ""
+    "sku": "",
+    "silhouette": "Puma Suede",
+    "year": 2026
   },
   {
     "id": "up-close-with-bad-bunny-x-adidas-f50-ghost-sprint-ki7711",
@@ -22342,7 +22368,8 @@
         "raffle": false
       }
     ],
-    "sku": ""
+    "sku": "",
+    "year": 2026
   },
   {
     "id": "air-jordan-3-og-true-blue",
@@ -22381,7 +22408,10 @@
         "raffle": false
       }
     ],
-    "sku": "IF4396-102"
+    "sku": "IF4396-102",
+    "silhouette": "Air Jordan 3",
+    "colorway": "Blue",
+    "year": 2026
   },
   {
     "id": "nike-mind-001-amp-indigo-burst",
@@ -22420,7 +22450,9 @@
         "raffle": false
       }
     ],
-    "sku": ""
+    "sku": "",
+    "colorway": "Indigo",
+    "year": 2026
   },
   {
     "id": "bad-bunny-x-adidas-f50-ghost-sprint-dark-marine",
@@ -22452,7 +22484,8 @@
         "raffle": false
       }
     ],
-    "sku": ""
+    "sku": "",
+    "year": 2026
   },
   {
     "id": "air-jordan-12-retro-bloodline-130690-001",
@@ -26004,7 +26037,8 @@
     "image_url": "/images/U18907DN.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/jjjjound-new-balance-1890-black-white-u18907dn",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/White"
   },
   {
     "id": "tokyo-design-studio-x-new-balance-msnb1-zinc-blue",
@@ -26017,7 +26051,8 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/tokyo-design-studio-new-balance-msnb1-zinc-blue-msnb17uq",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Blue"
   },
   {
     "id": "ftshp-x-adidas-terrex-stargazer-tt-core-black",
@@ -26030,7 +26065,8 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/ftshp-adidas-terrex-stargazer-tt-core-black-kk2641",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "tokyo-design-studio-x-new-balance-msnb1-morel",
@@ -26056,7 +26092,8 @@
     "image_url": "/images/U50301XR.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/slam-jam-new-balance-abzorb-5030-silver-u50301xr",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver"
   },
   {
     "id": "rassvet-x-nike-sb-zoom-tennis-classic-blue-void-sail",
@@ -26069,7 +26106,8 @@
     "image_url": "/images/IO9846-400.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/rassvet-nike-sb-zoom-tennis-classic-blue-void-sail-io9846-400",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Blue/Sail"
   },
   {
     "id": "nike-moon-shoe-sail-black",
@@ -26082,7 +26120,8 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-sail-black-ix3952-100",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Sail/Black"
   },
   {
     "id": "nike-moon-shoe-wmns-sail-gum",
@@ -26095,7 +26134,8 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-wmns-sail-gum-iw0955-101",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Sail"
   },
   {
     "id": "nike-moon-shoe-cacao-wow",
@@ -26108,7 +26148,8 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-cacao-wow-ix3952-200",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Cacao Wow"
   },
   {
     "id": "nike-moon-shoe-og-midnight-navy",
@@ -26121,7 +26162,8 @@
     "image_url": "/images/IX3952-400.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-midnight-navy-ix3952-400",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Midnight Navy"
   },
   {
     "id": "new-balance-abzorb-2000-silver-moss-bayberry",
@@ -26134,7 +26176,8 @@
     "image_url": "/images/U20002UU.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-abzorb-2000-silver-moss-bayberry-u20002uu",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver"
   },
   {
     "id": "adidas-superstar-vintage-core-black",
@@ -26147,7 +26190,8 @@
     "image_url": "/images/KJ7473.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-superstar-vintage-core-black-kj7473",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "care-bears-x-adidas-handball-spezial-wmns-yellow-white",
@@ -26160,7 +26204,8 @@
     "image_url": "/images/KI5034.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-handball-spezial-wmns-yellow-white-ki5034",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Yellow/White"
   },
   {
     "id": "nike-zoom-streak-3-white-volt-flat-pewter",
@@ -26173,7 +26218,8 @@
     "image_url": "/images/IQ8012-100.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-streak-3-white-volt-flat-pewter-iq8012-100",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Volt"
   },
   {
     "id": "nike-zoom-streak-3-black-volt-summit-white",
@@ -26186,7 +26232,8 @@
     "image_url": "/images/IQ8012-001.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-streak-3-black-volt-summit-white-iq8012-001",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Volt/Summit White"
   },
   {
     "id": "jordan-triangle-black-barely-volt",
@@ -26199,7 +26246,8 @@
     "image_url": "/images/IB1154-001.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/jordan-triangle-black-barely-volt-ib1154-001",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Volt"
   },
   {
     "id": "new-balance-1890-morel",
@@ -26218,7 +26266,7 @@
     "id": "adidas-tobacco-super-blanch-brown-dust-cargo",
     "title": "Adidas Tobacco Super Blanch Brown Dust Cargo",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Brown",
     "sku": "KJ4590",
     "date": "2026-06-30",
     "price": 115,
@@ -26232,7 +26280,7 @@
     "id": "new-balance-abzorb-2000-boysenberry-smoked-violet",
     "title": "New Balance Abzorb 2000 Boysenberry Smoked Violet",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "Violet",
     "sku": "U20009BA",
     "date": "2026-06-30",
     "price": 180,
@@ -26246,7 +26294,7 @@
     "id": "vans-lx-authentic-44-mohair-port-multi",
     "title": "Vans LX Authentic 44 MOHAIR Port Multi",
     "brand": "Vans",
-    "colorway": "",
+    "colorway": "Multi",
     "sku": "VN000DB8BJ21",
     "date": "2026-06-30",
     "price": 115,
@@ -26260,7 +26308,7 @@
     "id": "care-bears-x-adidas-handball-spezial-wmns-brown-white",
     "title": "Care Bears x adidas Handball Spezial WMNS Brown White",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Brown/White",
     "sku": "KK4932",
     "date": "2026-06-30",
     "price": 127,
@@ -26274,7 +26322,7 @@
     "id": "care-bears-x-adidas-handball-spezial-turquoise-gum",
     "title": "Care Bears x adidas Handball Spezial Turquoise Gum",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Turquoise",
     "sku": "KK4933",
     "date": "2026-06-30",
     "price": 130,
@@ -26288,7 +26336,7 @@
     "id": "care-bears-x-adidas-superstar-ii-wmns-clear-sky-bluebird",
     "title": "Care Bears x adidas Superstar II WMNS Clear Sky Bluebird",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Sky",
     "sku": "KK4865",
     "date": "2026-06-30",
     "price": 140,
@@ -26302,7 +26350,7 @@
     "id": "care-bears-x-adidas-adistar-control-5-wmns-clear-pink",
     "title": "Care Bears x adidas Adistar Control 5 WMNS Clear Pink",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Pink",
     "sku": "KK2605",
     "date": "2026-06-30",
     "price": 129,
@@ -26316,7 +26364,7 @@
     "id": "new-balance-1906e-altitude-black",
     "title": "New Balance 1906E Altitude Black",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "Black",
     "sku": "U19064Z7",
     "date": "2026-06-30",
     "price": 169,
@@ -26330,7 +26378,7 @@
     "id": "adidas-adizero-evo-sl-wmns-white-core-black",
     "title": "Adidas Adizero Evo SL WMNS White Core Black",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "White/Black",
     "sku": "KI4796",
     "date": "2026-06-30",
     "price": 170,
@@ -26338,13 +26386,14 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-wmns-white-core-black-ki4796",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Adidas Adizero"
   },
   {
     "id": "adidas-adizero-evo-sl-zip-black-white",
     "title": "Adidas Adizero Evo SL Zip Black White",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Black/White",
     "sku": "KH9623",
     "date": "2026-06-30",
     "price": 170,
@@ -26352,13 +26401,14 @@
     "image_url": "/images/KH9623.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-zip-black-white-kh9623",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Adidas Adizero"
   },
   {
     "id": "adidas-adizero-evo-sl-zip-wmns-cream-white",
     "title": "Adidas Adizero Evo SL Zip WMNS Cream White",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Cream/White",
     "sku": "KI0477",
     "date": "2026-06-30",
     "price": 170,
@@ -26366,7 +26416,8 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-zip-wmns-cream-white-ki0477",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Adidas Adizero"
   },
   {
     "id": "air-jordan-1-low-palomino",
@@ -26380,13 +26431,14 @@
     "image_url": "/images/553558-200.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-low-palomino-553558-200",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Air Jordan 1"
   },
   {
     "id": "new-balance-991v2-made-in-uk-green-banana",
     "title": "New Balance 991v2 Made in UK Green Banana",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "Green",
     "sku": "U991WG2",
     "date": "2026-06-30",
     "price": 210,
@@ -26400,7 +26452,7 @@
     "id": "new-balance-950-off-white-beige",
     "title": "New Balance 950 Off White Beige",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "White/Beige",
     "sku": "U950384",
     "date": "2026-06-30",
     "price": 130,
@@ -26442,7 +26494,7 @@
     "id": "new-balance-allerdale-made-in-uk-white-pepper",
     "title": "New Balance Allerdale Made in UK White Pepper",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "White",
     "sku": "UADWCRM",
     "date": "2026-06-30",
     "price": 250,
@@ -26456,7 +26508,7 @@
     "id": "new-balance-1954r-triple-black",
     "title": "New Balance 1954R Triple Black",
     "brand": "New Balance",
-    "colorway": "",
+    "colorway": "Black",
     "sku": "U19543VU",
     "date": "2026-06-30",
     "price": 185,
@@ -26470,7 +26522,7 @@
     "id": "sp5der-x-adidas-f50-formotion-silver-metallic",
     "title": "Sp5der x adidas F50 Formotion Silver Metallic",
     "brand": "Adidas",
-    "colorway": "",
+    "colorway": "Silver",
     "sku": "KZ6575",
     "date": "2026-06-30",
     "price": 189,
@@ -26499,7 +26551,8 @@
         "price": 190,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "colorway": "Green"
   },
   {
     "id": "air-jordan-7-miro",
@@ -26520,7 +26573,8 @@
         "price": 210,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 7"
   },
   {
     "id": "air-jordan-4-retro-wmns-birds-of-paradise",
@@ -26541,7 +26595,8 @@
         "price": 220,
         "priceCurrency": "EUR"
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "adidas-zx-8000-utility-black",
@@ -26565,7 +26620,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr",
         "type": "retail"
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "adidas-zx-8000-dust-sand",
@@ -26589,7 +26645,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr",
         "type": "retail"
       }
-    ]
+    ],
+    "colorway": "Sand"
   },
   {
     "id": "asics-hypersync-graphite-grey-black",
@@ -26608,7 +26665,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr",
         "type": "retail"
       }
-    ]
+    ],
+    "colorway": "Grey/Black"
   },
   {
     "id": "nike-total-90-shox-magia-wmns-white-metallic-silver",
@@ -26632,7 +26690,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr",
         "type": "retail"
       }
-    ]
+    ],
+    "colorway": "White/Metallic Silver"
   },
   {
     "id": "nike-total-90-shox-magia-wmns-black-yellow-diamond",
@@ -26656,7 +26715,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr",
         "type": "retail"
       }
-    ]
+    ],
+    "colorway": "Black/Yellow"
   },
   {
     "id": "adidas-harden-vol10-clear-pink",
@@ -26680,7 +26740,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr",
         "type": "retail"
       }
-    ]
+    ],
+    "colorway": "Pink"
   },
   {
     "id": "soulgoods-x-nike-homescape-woven-medium-orewood-brown",
@@ -26709,7 +26770,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr",
         "type": "retail"
       }
-    ]
+    ],
+    "colorway": "Brown"
   },
   {
     "id": "new-balance-numeric-340-white-navy",
@@ -26722,7 +26784,8 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-340-white-navy-un340wvs",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Navy"
   },
   {
     "id": "new-balance-numeric-340-black-white",
@@ -26735,7 +26798,8 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-340-black-white-un340yrw",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/White"
   },
   {
     "id": "new-balance-numeric-340-zinc-blue-nb-navy",
@@ -26748,6 +26812,7 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-nb-numeric-340-zinc-blue-nb-navy-un340nba",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Blue/Navy"
   }
 ]

@@ -1936,7 +1936,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver/White"
   },
   {
     "id": "vans-lx-old-skool-36-souvenir",
@@ -2008,7 +2009,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver"
   },
   {
     "id": "adidas-handball-spezial-ambient-sky-almost-yellow",
@@ -2044,7 +2046,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Sky/Yellow"
   },
   {
     "id": "air-jordan-1-high-og-love-the-game",
@@ -2071,7 +2074,8 @@
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fjordan"
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1"
   },
   {
     "id": "air-jordan-4-retro-wmns-birds-of-paradise",
@@ -2120,7 +2124,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "nike-mind-001-triple-black",
@@ -2162,7 +2167,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "nike-mind-001-wmns-old-royal",
@@ -2204,7 +2210,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Royal"
   },
   {
     "id": "nike-mind-001-wmns-pink-smoke",
@@ -2246,7 +2253,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-001-cucumber-calm",
@@ -2330,7 +2338,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Crimson"
   },
   {
     "id": "air-jordan-6-oreo",
@@ -2372,7 +2381,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "air-jordan-4-retro-comic",
@@ -2405,7 +2415,8 @@
         "raffle": false
       }
     ],
-    "featured": true
+    "featured": true,
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "nike-first-sight-shadow-wmns-metallic-silver",
@@ -2440,7 +2451,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Metallic Silver"
   },
   {
     "id": "nike-first-sight-shadow-wmns-black",
@@ -2475,7 +2487,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "nike-air-max-95-blue-lawson",
@@ -2511,7 +2524,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "colorway": "Blue"
   },
   {
     "id": "nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey",
@@ -2547,7 +2562,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "colorway": "Smoke/Grey/Wolf Grey"
   },
   {
     "id": "nike-mind-002-wmns-pink-smoke",
@@ -2582,7 +2599,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-002-wmns-summit-white",
@@ -2617,7 +2635,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Summit White"
   },
   {
     "id": "nike-mind-002-camo-green",
@@ -2652,7 +2671,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Camo/Green"
   },
   {
     "id": "nike-mind-002-phantom",
@@ -2687,7 +2707,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Phantom"
   },
   {
     "id": "nike-moon-shoe-og-sp-wmns-italy-blue",
@@ -2722,7 +2743,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Blue"
   },
   {
     "id": "nike-air-force-1-low-retro-patent-denim",
@@ -2757,7 +2779,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1"
   },
   {
     "id": "nike-zoom-skylon-11-black",
@@ -2792,7 +2815,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "nike-zoom-skylon-11-summit-white-black",
@@ -2827,7 +2851,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Summit White/Black"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-black-anthracite",
@@ -2862,7 +2887,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Anthracite"
   },
   {
     "id": "nike-zoom-skylon-11-white-old-royal",
@@ -2897,7 +2923,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Royal"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-black-light-magenta",
@@ -2932,7 +2959,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Magenta"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-white-cacao-wow",
@@ -2967,7 +2995,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Cacao Wow"
   },
   {
     "id": "adidas-hyperboost-euphoria-metallic-silver",
@@ -3003,7 +3032,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Metallic Silver"
   },
   {
     "id": "adidas-hyperboost-euphoria-core-black",
@@ -3039,7 +3069,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "vans-lx-old-skool-36-souvenir-oatmeal",
@@ -3110,7 +3141,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede",
+    "colorway": "Black/Gray"
   },
   {
     "id": "puma-suede-wmns-pink-lavender",
@@ -3145,7 +3178,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede",
+    "colorway": "Pink/Lavender"
   },
   {
     "id": "puma-suede-wmns-marshmallow",
@@ -3180,7 +3215,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede"
   },
   {
     "id": "afew-x-brooks-adrenaline-gts-10",
@@ -3237,7 +3273,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink",
+    "year": 2026
   },
   {
     "id": "nike-air-force-1-low-aurora-blue-sticks-to-classic-summer-vibes-fj4146-135",
@@ -3273,7 +3311,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "colorway": "Blue",
+    "year": 2026
   },
   {
     "id": "lively-bluebird-coloring-floods-the-adidas-megaride-ag-hq7657",
@@ -3309,7 +3350,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "asics-gel-nimbus-10-1-is-prepping-for-fall-early-1203a599-200",
@@ -3352,7 +3394,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Asics Gel-Nimbus",
+    "year": 2026
   },
   {
     "id": "nike-puffs-up-with-a-dunk-low-bubble-swoosh-pack-im4411-100",
@@ -3395,7 +3439,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Dunk Low",
+    "year": 2026
   },
   {
     "id": "nike-sb-dunk-low-dices-up-a-hatch-chile-io0427-300",
@@ -3431,7 +3477,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Dunk Low",
+    "year": 2026
   },
   {
     "id": "official-images-of-the-nike-giannis-freak-8-hyper-pink-im5150-600",
@@ -3467,7 +3515,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink",
+    "year": 2026
   },
   {
     "id": "nike-s-air-max-goadome-low-dot-pack-is-swiss-cheese-for-your-feet-ir2174-100",
@@ -3503,7 +3553,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-st-charge-steps-into-pink-foam-io8063-600",
@@ -3539,7 +3590,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink",
+    "year": 2026
   },
   {
     "id": "resurgent-nike-air-max-dolce-checks-off-metallic-silver-ib4527-001",
@@ -3552,7 +3605,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/20/nike-air-max-dolce-metallic-silver-black-ib4527-001/",
     "added_at": "2026-07-20T22:00:01.765343+00:00",
-    "featured": false
+    "featured": false,
+    "colorway": "Metallic Silver",
+    "year": 2026
   },
   {
     "id": "she-s-all-about-his-rod-west-nyc-s-next-adidas-release-draws-from-raunchy-2000s-ads-kz6225",
@@ -3565,7 +3620,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/20/west-nyc-adidas-rod-laver-white-pink-kz6225/",
     "added_at": "2026-07-20T22:00:01.767834+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "nike-sb-dunk-low-unwraps-light-chocolate-hq1625-201",
@@ -3578,7 +3634,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/20/nike-sb-dunk-low-filbert-light-chocolate-black-burgundy-ash-hq1625-201/",
     "added_at": "2026-07-21T00:00:02.307341+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Dunk Low",
+    "year": 2026
   },
   {
     "id": "air-jordan-13-retro-bstn",
@@ -3597,7 +3655,8 @@
         "price": "199,99€"
       }
     ],
-    "source": "BSTN"
+    "source": "BSTN",
+    "silhouette": "Air Jordan 13"
   },
   {
     "id": "new-balance-1890a-bstn",
