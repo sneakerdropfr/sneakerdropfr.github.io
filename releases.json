@@ -1,5 +1,17 @@
 [
   {
+    "id": "nike-kd-5-dmv-returns-summer-2027",
+    "title": "Nike KD 5 “DMV” Returns Summer 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2012/12/nike-kd-5-v-dmv-video-review.jpg",
+    "buy_url": "https://www.nike.com/w?q=nike kd&amp;vst=nike kd",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-21T06:35:42.084044+00:00"
+  },
+  {
     "id": "instant-skateboards-x-nike-sb-air-force-1-releases-holiday-2",
     "title": "Instant Skateboards x Nike SB Air Force 1 Releases Holiday 2026",
     "brand": "Sneaker Files",
@@ -1925,42 +1937,5 @@
     ],
     "silhouette": "Air Force 1",
     "year": 2026
-  },
-  {
-    "id": "jjjjound-x-new-balance-1890-silver-white",
-    "title": "JJJJound x New Balance 1890 \"Silver White\"",
-    "brand": "New Balance",
-    "sku": "U1890GREY",
-    "date": "2026-07-24",
-    "price": 200,
-    "year": 2026,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/04/jjjjound-new-balance-1890-5.jpg",
-    "wtc_url": "https://www.whentocop.fr/drops/jjjjound-new-balance-1890-silver-white-u1890grey",
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fnew-balance"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Fen%2Fnew-balance"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU1890GREY",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "featured": false,
-    "colorway": "Silver/White"
   }
 ]
