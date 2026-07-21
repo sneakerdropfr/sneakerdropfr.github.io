@@ -9,7 +9,8 @@
     "image_url": "https://www.nicekicks.com/files/2026/07/io7666-100-5-e1784300797621.jpg",
     "buy_url": "https://www.nicekicks.com/nike-ja-3-lx-white-label-io7666-100/",
     "source": "Nice Kicks Releases",
-    "added_at": "2026-07-21T14:08:58.651386+00:00"
+    "added_at": "2026-07-21T14:08:58.651386+00:00",
+    "retailers": []
   },
   {
     "id": "nike-sabrina-4-light-work-releases-fall-2026",
@@ -1876,7 +1877,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/20/nike-sb-dunk-low-filbert-light-chocolate-black-burgundy-ash-hq1625-201/",
     "added_at": "2026-07-21T16:00:02.319428+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ1625-201",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq1625-201%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "resurgent-nike-air-max-dolce-checks-off-metallic-silver-ib4527-001",
@@ -1889,7 +1913,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/20/nike-air-max-dolce-metallic-silver-black-ib4527-001/",
     "added_at": "2026-07-21T16:00:02.319853+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIB4527-001",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fib4527-001%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "she-s-all-about-his-rod-west-nyc-s-next-adidas-release-draws-from-raunchy-2000s-ads-kz6225",
@@ -1902,7 +1949,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/20/west-nyc-adidas-rod-laver-white-pink-kz6225/",
     "added_at": "2026-07-21T16:00:02.322714+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKZ6225",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkz6225%2F",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "billie-jean-king-s-signature-adidas-shoe-is-coming-back-kh9857",
@@ -1915,7 +1985,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/21/adidas-billie-jean-king-kh9857/",
     "added_at": "2026-07-21T18:00:02.791985+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKH9857",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkh9857%2F",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-sb-dunk-low-dark-hazel-purple-dynasty-releasing-in-2027-hq1625-202",
@@ -1928,7 +2021,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/21/nike-sb-dunk-low-dark-hazel-purple-dynasty-night-purple-hq1625-202/",
     "added_at": "2026-07-21T18:00:02.792645+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ1625-202",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq1625-202%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-gt-future-unwraps-varsity-red-fz5590-603",
@@ -1941,7 +2057,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/21/nike-gt-future-varsity-red-black-fz5590-603/",
     "added_at": "2026-07-21T20:00:02.970098+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DFZ5590-603",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Ffz5590-603%2F",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "first-look-at-the-air-jordan-1-retro-high-og-royal-2026-iq5495-005",
@@ -1954,6 +2093,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/21/air-jordan-1-retro-high-og-royal-iq5495-005/",
     "added_at": "2026-07-21T20:00:02.972848+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ5495-005",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq5495-005%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
