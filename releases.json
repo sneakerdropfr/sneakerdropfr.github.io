@@ -3579,5 +3579,43 @@
     "buy_url": "https://sneakernews.com/2026/07/20/nike-sb-dunk-low-filbert-light-chocolate-black-burgundy-ash-hq1625-201/",
     "added_at": "2026-07-21T00:00:02.307341+00:00",
     "featured": false
+  },
+  {
+    "id": "air-jordan-13-retro-bstn",
+    "title": "Air Jordan 13 Retro \"Flint\"",
+    "brand": "Jordan",
+    "sku": "TBD-AJ13-FLINT",
+    "date": "2026-08-01",
+    "price": 215,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": "199,99€"
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "new-balance-1890a-bstn",
+    "title": "New Balance 1890A",
+    "brand": "New Balance",
+    "sku": "TBD-NB1890A-BSTN",
+    "date": "2026-08-06",
+    "price": 190,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": "189,99€"
+      }
+    ],
+    "source": "BSTN"
   }
 ]
