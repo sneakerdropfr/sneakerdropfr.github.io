@@ -1,5 +1,17 @@
 [
   {
+    "id": "nike-caitlin-1-snow-white-releases-holiday-2026",
+    "title": "Nike Caitlin 1 “Snow White” Releases Holiday 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-caitlin-1-snow-white-IH7423-100-1024x725.jpg",
+    "buy_url": "https://www.nike.com/t/caitlin-1-basketball-shoes-pCfNcrHv/IH7423-400",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-21T06:46:16.046473+00:00"
+  },
+  {
     "id": "nike-kd-5-dmv-returns-summer-2027",
     "title": "Nike KD 5 “DMV” Returns Summer 2027",
     "brand": "Sneaker Files",
@@ -1899,43 +1911,5 @@
         "raffle": false
       }
     ]
-  },
-  {
-    "id": "heavy-metal-nike-gives-the-air-force-1-a-grunge-luxe-glow-up-ja3822-010",
-    "title": "Nike Air Force 1 Heavy Metal",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": null,
-    "sku": "JA3822-010",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-air-force-1-low-luxe-ja3822-010-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/06/25/nike-air-force-1-low-luxe-ja3822-010/",
-    "added_at": "2026-06-26T02:00:02.861751+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DJA3822-010",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fja3822-010%2F",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "silhouette": "Air Force 1",
-    "year": 2026
   }
 ]
