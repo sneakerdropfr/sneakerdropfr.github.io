@@ -1,5 +1,17 @@
 [
   {
+    "id": "instant-skateboards-x-nike-sb-air-force-1-releases-holiday-2",
+    "title": "Instant Skateboards x Nike SB Air Force 1 Releases Holiday 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/instant-skateboards-nike-sb-air-force-1-black-game-royal-IV5289-002-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-21T06:25:11.042084+00:00"
+  },
+  {
     "id": "nike-air-force-1-01-shoe-dog-releases-spring-2027",
     "title": "Nike Air Force 1 ’01 “Shoe Dog” Releases Spring 2027",
     "brand": "Sneaker Files",
@@ -1950,41 +1962,5 @@
     ],
     "featured": false,
     "colorway": "Silver/White"
-  },
-  {
-    "id": "vans-lx-old-skool-36-souvenir",
-    "title": "Vans LX Old Skool 36 \"Souvenir\"",
-    "brand": "Vans",
-    "sku": "VN000E8VE4A1",
-    "date": "2026-07-24",
-    "price": 140,
-    "year": 2026,
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/05/better-with-age-vans-release-date-20.jpg",
-    "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-souvenir-asphalt-multi-vn000e8ve4a1",
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fvans"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fvans"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8ve4a1%2F",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Vans",
-        "url": "https://www.vans.fr/",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "featured": false
   }
 ]
