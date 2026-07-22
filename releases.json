@@ -1,5 +1,17 @@
 [
   {
+    "id": "travis-scott-x-nike-zoom-vapor-12-releases-fall-2026",
+    "title": "Travis Scott x Nike Zoom Vapor 12 Releases Fall 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": "118.99€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/travis-scott-nike-vapor-12-2026-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-22T07:29:09.123031+00:00"
+  },
+  {
     "id": "nike-kobe-10-protro-blackout-returns-february-2027",
     "title": "Nike Kobe 10 Protro “Blackout” Returns February 2027",
     "brand": "Sneaker Files",
@@ -1967,65 +1979,5 @@
     ],
     "featured": false,
     "colorway": "Silver/White"
-  },
-  {
-    "id": "vans-lx-old-skool-36-souvenir",
-    "title": "Vans LX Old Skool 36 \"Souvenir\"",
-    "brand": "Vans",
-    "sku": "VN000E8VE4A1",
-    "date": "2026-07-24",
-    "price": 140,
-    "year": 2026,
-    "image_url": "/images/VN000E8VE4A1.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-souvenir-asphalt-multi-vn000e8ve4a1",
-    "retailers": [
-      {
-        "name": "Afew",
-        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=retailer-monitoring&wgtarget=https://en.afew-store.com/products/vans-lx-old-skool-36-souvenir-asphalt-multi",
-        "price": "139€"
-      },
-      {
-        "name": "Asphaltgold",
-        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=retailer-monitoring&wgtarget=https://www.asphaltgold.com/fr/products/vans-otw-old-skool-36-lx-souvenir-asphalt",
-        "price": "139€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
-        "price": ""
-      },
-      {
-        "name": "Limited Resell",
-        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
-        "price": ""
-      },
-      {
-        "name": "GOAT",
-        "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
-        "price": ""
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000E8VE4A1",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8ve4a1%2F",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Vans",
-        "url": "https://www.vans.fr/",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "featured": false
   }
 ]
