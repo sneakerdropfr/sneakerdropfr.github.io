@@ -1,5 +1,17 @@
 [
   {
+    "id": "travis-scott-x-nike-air-force-1-low-blue-ostrich-releases-fa",
+    "title": "Travis Scott x Nike Air Force 1 Low “Blue Ostrich” Releases Fall 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/travis-scott-nike-air-force-1-low-ice-blue-ostrich-JF7727-400-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-22T07:39:41.745334+00:00"
+  },
+  {
     "id": "travis-scott-x-nike-zoom-vapor-12-releases-fall-2026",
     "title": "Travis Scott x Nike Zoom Vapor 12 Releases Fall 2026",
     "brand": "Sneaker Files",
@@ -1925,59 +1937,5 @@
     ],
     "silhouette": "Air Force 1",
     "year": 2026
-  },
-  {
-    "id": "jjjjound-x-new-balance-1890-silver-white",
-    "title": "JJJJound x New Balance 1890 \"Silver White\"",
-    "brand": "New Balance",
-    "sku": "U1890GREY",
-    "date": "2026-07-24",
-    "price": 200,
-    "year": 2026,
-    "image_url": "/images/U1890GREY.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/jjjjound-new-balance-1890-silver-white-u1890grey",
-    "retailers": [
-      {
-        "name": "New Balance",
-        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
-        "price": ""
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.pvxt.net/e6GoO",
-        "price": ""
-      },
-      {
-        "name": "Limited Resell",
-        "url": "https://tinyurl.com/2av9rzat",
-        "price": ""
-      },
-      {
-        "name": "GOAT",
-        "url": "https://goat.sjv.io/WD9g3G",
-        "price": ""
-      },
-      {
-        "name": "Jjjjound",
-        "url": "https://www.jjjjound.com/blogs/projects",
-        "price": ""
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU1890GREY",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu1890grey%2F",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "featured": false,
-    "colorway": "Silver/White"
   }
 ]
