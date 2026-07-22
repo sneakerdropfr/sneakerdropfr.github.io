@@ -2103,7 +2103,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver/White"
   },
   {
     "id": "vans-lx-old-skool-36-souvenir",
@@ -2181,7 +2182,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver"
   },
   {
     "id": "adidas-handball-spezial-ambient-sky-almost-yellow",
@@ -2220,7 +2222,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Sky/Yellow"
   },
   {
     "id": "air-jordan-1-high-og-love-the-game",
@@ -2290,7 +2293,8 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1"
   },
   {
     "id": "air-jordan-4-retro-wmns-birds-of-paradise",
@@ -2369,7 +2373,8 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "nike-mind-001-triple-black",
@@ -2403,7 +2408,8 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "nike-mind-001-wmns-old-royal",
@@ -2437,7 +2443,8 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
-    ]
+    ],
+    "colorway": "Royal"
   },
   {
     "id": "nike-mind-001-wmns-pink-smoke",
@@ -2471,7 +2478,8 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
-    ]
+    ],
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-001-cucumber-calm",
@@ -2539,7 +2547,8 @@
         "url": "https://goat.sjv.io/WD9g3G",
         "price": ""
       }
-    ]
+    ],
+    "colorway": "Black/Crimson"
   },
   {
     "id": "air-jordan-6-oreo",
@@ -2573,7 +2582,8 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "air-jordan-4-retro-comic",
@@ -2667,7 +2677,8 @@
         "price": ""
       }
     ],
-    "featured": true
+    "featured": true,
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "nike-first-sight-shadow-wmns-metallic-silver",
@@ -2721,7 +2732,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Metallic Silver"
   },
   {
     "id": "nike-first-sight-shadow-wmns-black",
@@ -2775,7 +2787,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "nike-air-max-95-blue-lawson",
@@ -2819,7 +2832,9 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "colorway": "Blue"
   },
   {
     "id": "nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey",
@@ -2853,7 +2868,9 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "colorway": "Smoke/Grey/Wolf Grey"
   },
   {
     "id": "nike-mind-002-wmns-pink-smoke",
@@ -2887,7 +2904,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-002-wmns-summit-white",
@@ -2921,7 +2939,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Summit White"
   },
   {
     "id": "nike-mind-002-camo-green",
@@ -2955,7 +2974,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Camo/Green"
   },
   {
     "id": "nike-mind-002-phantom",
@@ -2989,7 +3009,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Phantom"
   },
   {
     "id": "nike-moon-shoe-og-sp-wmns-italy-blue",
@@ -3028,7 +3049,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Blue"
   },
   {
     "id": "nike-air-force-1-low-retro-patent-denim",
@@ -3067,7 +3089,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1"
   },
   {
     "id": "nike-zoom-skylon-11-black",
@@ -3106,7 +3129,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "nike-zoom-skylon-11-summit-white-black",
@@ -3140,7 +3164,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Summit White/Black"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-black-anthracite",
@@ -3174,7 +3199,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Anthracite"
   },
   {
     "id": "nike-zoom-skylon-11-white-old-royal",
@@ -3208,7 +3234,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Royal"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-black-light-magenta",
@@ -3242,7 +3269,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Magenta"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-white-cacao-wow",
@@ -3276,7 +3304,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Cacao Wow"
   },
   {
     "id": "new-balance-numeric-340-white-navy",
@@ -3289,7 +3318,8 @@
     "image_url": "https://statics.whentocop.fr/media/sjuijnhdnnPj/tmpnew-balance-numeric-340-white-navy-un340wvs-2000x2000.webp",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-340-white-navy-un340wvs",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Navy"
   },
   {
     "id": "new-balance-numeric-340-black-white",
@@ -3302,7 +3332,8 @@
     "image_url": "https://statics.whentocop.fr/media/XEjuzhCDhFTM/tmpnew-balance-numeric-340-black-white-un340v1-2000x2000.webp",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-340-black-white-un340yrw",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/White"
   },
   {
     "id": "new-balance-numeric-340-zinc-blue-nb-navy",
@@ -3315,7 +3346,8 @@
     "image_url": "https://statics.whentocop.fr/media/KHfmssceAhYg/tmpnew-balance-nb-numeric-340-zinc-blue-nb-navy-un340nba-2000x2000.webp",
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-nb-numeric-340-zinc-blue-nb-navy-un340nba",
     "retailers": [],
-    "featured": false
+    "featured": false,
+    "colorway": "Blue/Navy"
   },
   {
     "id": "adidas-hyperboost-euphoria-metallic-silver",
@@ -3337,7 +3369,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fadidas"
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Metallic Silver"
   },
   {
     "id": "adidas-hyperboost-euphoria-core-black",
@@ -3359,7 +3392,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fadidas"
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "vans-lx-old-skool-36-souvenir-oatmeal",
@@ -3457,7 +3491,9 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede",
+    "colorway": "Black/Gray"
   },
   {
     "id": "puma-suede-wmns-pink-lavender",
@@ -3496,7 +3532,9 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede",
+    "colorway": "Pink/Lavender"
   },
   {
     "id": "puma-suede-wmns-marshmallow",
@@ -3535,7 +3573,8 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede"
   },
   {
     "id": "afew-x-brooks-adrenaline-gts-10",
