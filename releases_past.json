@@ -24540,7 +24540,19 @@
     "featured": false,
     "silhouette": "Cryoshot",
     "colorway": "White",
-    "year": 2026
+    "year": 2026,
+    "restocks": [
+      {
+        "date": "2026-07-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45337590458&a=2855487&m=104979",
+            "price": "219,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "adidas-harden-vol10-clear-cyan",
@@ -27789,7 +27801,19 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/care-bears-adidas-handball-spezial-turquoise-gum-kk4933",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "restocks": [
+      {
+        "date": "2026-07-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45364002257&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "care-bears-x-adidas-superstar-ii-wmns-clear-sky-bluebird",
