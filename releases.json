@@ -356,7 +356,19 @@
         "raffle": false
       }
     ],
-    "year": 2026
+    "year": 2026,
+    "restocks": [
+      {
+        "date": "2026-07-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45285952906&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "vans-charmed-life-continues-with-these-cardigan-slip-ons-vn000d9wrpk",
@@ -592,7 +604,19 @@
       }
     ],
     "colorway": "Green",
-    "year": 2026
+    "year": 2026,
+    "restocks": [
+      {
+        "date": "2026-07-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45242146363&a=2855487&m=104979",
+            "price": "189,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "puma-hali-1-is-seeing-green-for-summer-314098-03",
@@ -671,6 +695,16 @@
       },
       {
         "date": "2026-06-26",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45114898061&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-23",
         "retailers": [
           {
             "name": "BSTN",
@@ -1031,7 +1065,19 @@
     ],
     "silhouette": "Air Jordan 8",
     "colorway": "Black/Chrome",
-    "year": 2026
+    "year": 2026,
+    "restocks": [
+      {
+        "date": "2026-07-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45237558335&a=2855487&m=104979",
+            "price": "209,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "care-bears-x-adidas-adistar-control-5-is-feeling-grumpy-kk2606",
@@ -1301,7 +1347,19 @@
       }
     ],
     "silhouette": "Air Force 1",
-    "year": 2026
+    "year": 2026,
+    "restocks": [
+      {
+        "date": "2026-07-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45356160386&a=2855487&m=104979",
+            "price": "139,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "nike-air-max-95-big-bubble-unleashes-infrared-iv6425-060",
@@ -1761,7 +1819,19 @@
         "raffle": false
       }
     ],
-    "year": 2026
+    "year": 2026,
+    "restocks": [
+      {
+        "date": "2026-07-23",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45092041103&a=2855487&m=104979",
+            "price": "189,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "jordan-heir-series-2-plucks-a-desert-berry-hv4417-104",
