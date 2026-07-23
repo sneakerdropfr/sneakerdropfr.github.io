@@ -2457,7 +2457,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver/White"
   },
   {
     "id": "vans-lx-old-skool-36-souvenir",
@@ -2570,7 +2571,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver"
   },
   {
     "id": "adidas-handball-spezial-ambient-sky-almost-yellow",
@@ -2623,7 +2625,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Sky/Yellow"
   },
   {
     "id": "air-jordan-1-high-og-love-the-game",
@@ -2693,7 +2696,8 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1"
   },
   {
     "id": "nike-mind-001-triple-black",
@@ -2748,7 +2752,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "nike-mind-001-wmns-old-royal",
@@ -2803,7 +2808,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Royal"
   },
   {
     "id": "nike-mind-001-wmns-pink-smoke",
@@ -2858,7 +2864,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-001-cucumber-calm",
@@ -2968,7 +2975,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Crimson"
   },
   {
     "id": "air-jordan-6-oreo",
@@ -3023,7 +3031,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "air-jordan-4-retro-comic",
@@ -3131,7 +3140,8 @@
         "raffle": false
       }
     ],
-    "featured": true
+    "featured": true,
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "nike-first-sight-shadow-wmns-metallic-silver",
@@ -3199,7 +3209,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Metallic Silver"
   },
   {
     "id": "nike-first-sight-shadow-wmns-black",
@@ -3267,7 +3278,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "nike-air-max-95-blue-lawson",
@@ -3325,7 +3337,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "colorway": "Blue"
   },
   {
     "id": "nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey",
@@ -3380,7 +3394,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "colorway": "Smoke/Grey/Wolf Grey"
   },
   {
     "id": "nike-mind-002-wmns-pink-smoke",
@@ -3435,7 +3451,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-002-wmns-summit-white",
@@ -3490,7 +3507,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Summit White"
   },
   {
     "id": "nike-mind-002-camo-green",
@@ -3545,7 +3563,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Camo/Green"
   },
   {
     "id": "nike-mind-002-phantom",
@@ -3600,7 +3619,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Phantom"
   },
   {
     "id": "nike-moon-shoe-og-sp-wmns-italy-blue",
@@ -3653,7 +3673,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Blue"
   },
   {
     "id": "nike-air-force-1-low-retro-patent-denim",
@@ -3713,7 +3734,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1"
   },
   {
     "id": "nike-zoom-skylon-11-black",
@@ -3766,7 +3788,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "nike-zoom-skylon-11-summit-white-black",
@@ -3821,7 +3844,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Summit White/Black"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-black-anthracite",
@@ -3876,7 +3900,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Anthracite"
   },
   {
     "id": "nike-zoom-skylon-11-white-old-royal",
@@ -3931,7 +3956,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Royal"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-black-light-magenta",
@@ -3986,7 +4012,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Magenta"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-white-cacao-wow",
@@ -4041,7 +4068,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Cacao Wow"
   },
   {
     "id": "vans-lx-old-skool-36-souvenir-oatmeal",
@@ -4174,7 +4202,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede",
+    "colorway": "Black/Gray"
   },
   {
     "id": "puma-suede-wmns-pink-lavender",
@@ -4227,7 +4257,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede",
+    "colorway": "Pink/Lavender"
   },
   {
     "id": "puma-suede-wmns-marshmallow",
@@ -4280,7 +4312,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede"
   },
   {
     "id": "afew-x-brooks-adrenaline-gts-10",
@@ -4364,6 +4397,7 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   }
 ]
