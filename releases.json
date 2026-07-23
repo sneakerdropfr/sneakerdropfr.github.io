@@ -3,14 +3,16 @@
     "id": "travis-scott-x-nike-air-force-1-low-blue-ostrich-releases-fa",
     "title": "Travis Scott x Nike Air Force 1 Low “Blue Ostrich” Releases Fall 2026",
     "brand": "Sneaker Files",
-    "colorway": "",
+    "colorway": "Blue",
     "date": "TBD",
     "price": null,
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/travis-scott-nike-air-force-1-low-ice-blue-ostrich-JF7727-400-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
     "added_at": "2026-07-22T07:39:41.745334+00:00",
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "travis-scott-x-nike-zoom-vapor-12-releases-fall-2026",
@@ -23,7 +25,8 @@
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
     "added_at": "2026-07-22T07:29:09.123031+00:00",
-    "retailers": []
+    "retailers": [],
+    "year": 2026
   },
   {
     "id": "nike-kobe-10-protro-blackout-returns-february-2027",
@@ -36,7 +39,9 @@
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
     "added_at": "2026-07-22T07:18:34.047281+00:00",
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Kobe 10",
+    "year": 2027
   },
   {
     "id": "air-jordan-6-low-gs-china-rose-releases-fall-2026",
@@ -1982,7 +1987,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Orange",
+    "year": 2026
   },
   {
     "id": "new-balance-ushers-in-dark-night-with-the-1890a-moc-u18905jk",
@@ -2018,7 +2025,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "confetti-covered-soles-appear-on-the-kobe-bryant-nike-air-force-1-low-ib0018-014",
@@ -2054,7 +2062,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "nike-air-tech-challenge-2-mag-goes-back-to-the-future-ix4084-025",
@@ -2090,7 +2100,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-air-liquid-max-explores-earth-tones-in-sequoia-iv6097-300",
@@ -2126,7 +2137,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-dunk-low-gets-coiled-in-snakeskin-io1616-002",
@@ -2162,7 +2174,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Dunk Low",
+    "year": 2026
   },
   {
     "id": "new-balance-991v2-sets-off-a-wind-chime-u991ac2",
@@ -2198,7 +2212,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-dunk-low-captures-black-snakeskin-io1616-001",
@@ -2234,7 +2249,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Dunk Low",
+    "colorway": "Black",
+    "year": 2026
   },
   {
     "id": "we-all-scream-for-these-ice-cream-themed-nike-air-force-1s-iv6209-133",
@@ -2270,7 +2288,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Cream",
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-big-bubble-pours-out-black-smoke-grey-hm4740-015",
@@ -2306,7 +2326,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max 95",
+    "colorway": "Black/Smoke/Grey",
+    "year": 2026
   },
   {
     "id": "kiko-kostadinov-looks-to-an-archival-minimalist-shoe-for-the-asics-us-8-sj33-1203b116-201",
@@ -2319,7 +2342,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/22/asics-us8-sj33/",
     "added_at": "2026-07-22T22:00:02.492624+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "kiko-kostadinov-looks-to-an-archival-minimalist-shoe-for-the-asics-us-8-sj33-1203b116-200",
@@ -2332,7 +2356,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/22/asics-us8-sj33/",
     "added_at": "2026-07-22T22:00:02.492843+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "jordan-dimension-95-cleans-up-in-phantom-hv4928-005",
@@ -2345,6 +2370,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/22/jordan-dimension-95-phantom-university-red-swan-hv4928-005/",
     "added_at": "2026-07-22T22:00:02.495469+00:00",
-    "featured": false
+    "featured": false,
+    "colorway": "Phantom",
+    "year": 2026
   }
 ]
