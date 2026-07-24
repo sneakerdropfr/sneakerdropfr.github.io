@@ -9,7 +9,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nigo-j-hope-bts-nike-air-force-1-IO8766-800-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch/upcoming",
     "source": "Sneaker Files",
-    "added_at": "2026-07-23T23:55:29.920459+00:00"
+    "added_at": "2026-07-23T23:55:29.920459+00:00",
+    "retailers": []
   },
   {
     "id": "travis-scott-x-nike-air-force-1-low-blue-ostrich-releases-fa",
@@ -2008,7 +2009,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/nike-air-max-1-97-doernbecher/",
     "added_at": "2026-07-24T00:00:02.251352+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8189-922",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8189-922%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-1-low-golf-spike-skews-preppy-in-dark-team-red-iq3417-601",
@@ -2021,7 +2045,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/air-jordan-1-low-golf-spike-dark-team-red-khaki-iq3417-601/",
     "added_at": "2026-07-24T00:00:02.251910+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ3417-601",
+        "price": "175€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq3417-601%2F",
+        "price": "175€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "175€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "new-balance-2000-pours-out-black-cement-u20001vd",
@@ -2034,7 +2081,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/new-balance-abzorb-2000-black-cement-podium-red-u20001vd/",
     "added_at": "2026-07-24T00:00:02.252178+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU20001VD",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu20001vd%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "heavy-metal-nike-gives-the-air-force-1-a-grunge-luxe-glow-up-ja3822-010",
@@ -2109,6 +2179,20 @@
         "name": "Jjjjound",
         "url": "https://www.jjjjound.com/blogs/projects",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU1890GREY",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu1890grey%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2148,6 +2232,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000E8VE4A1",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8ve4a1%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2187,6 +2292,20 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU7409DI",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu7409di%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2226,6 +2345,20 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKK4877",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk4877%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2331,6 +2464,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4307-005",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4307-005%2F",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -2365,6 +2519,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4309-400",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4309-400%2F",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -2399,6 +2574,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4309-601",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4309-601%2F",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -2433,6 +2629,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4307-302",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4307-302%2F",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -2467,6 +2684,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/WD9g3G",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4307-001",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4307-001%2F",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -2501,6 +2739,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DCT8529-108",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fct8529-108%2F",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -2594,6 +2853,20 @@
         "name": "Slam Jam",
         "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=JA1135-100&url=https://slamjam.com/en-fr/products/nike-jordan-footwear-air-jordan-4-retro-white-j367521",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DJA1135-100",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": true
@@ -2648,6 +2921,20 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2410-002",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2410-002%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2702,6 +2989,20 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2410-001",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2410-001%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2746,6 +3047,20 @@
         "name": "Size?",
         "url": "https://www.awin1.com/cread.php?awinmid=7723&awinaffid=737541&clickref=Nike-Air-Max-95-BLUE-LAWSON-IR1944-400&ued=https%3A%2F%2Fwww.sizeofficial.fr%2Fhomme%2Fchaussures%2Fmarque%2Fnike%2Flatest%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR1944-400",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir1944-400%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2780,6 +3095,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIH7853-001",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fih7853-001%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2814,6 +3150,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4310-600",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4310-600%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2848,6 +3205,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4310-101",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4310-101%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2882,6 +3260,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4308-300",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4308-300%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2916,6 +3315,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4308-004",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4308-004%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2955,6 +3375,20 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/WD9g3G",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DII0407-402",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fii0407-402%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -2994,6 +3428,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM5757-400",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim5757-400%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -3033,6 +3488,20 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU1869-002",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -3067,6 +3536,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU1869-101",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu1869-101%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -3101,6 +3591,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU7360-002",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu7360-002%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -3135,6 +3646,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU1869-103",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu1869-103%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -3169,6 +3701,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU7360-003",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu7360-003%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -3203,6 +3756,27 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU7360-102",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu7360-102%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -3237,6 +3811,20 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D1000681D670",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1000681d670%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "featured": false
@@ -3252,7 +3840,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/nike-air-max-1-97-doernbecher/",
     "added_at": "2026-07-24T04:00:02.739555+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8191-922",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8191-922%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "breaking-nike-air-max-1-97-will-return-as-part-of-doernbecher-freestyle-2027-collection-ix8187-922",
@@ -3265,7 +3876,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/nike-air-max-1-97-doernbecher/",
     "added_at": "2026-07-24T04:00:02.739787+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8187-922",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8187-922%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "breaking-nike-air-max-1-97-will-return-as-part-of-doernbecher-freestyle-2027-collection-ix8197-922",
@@ -3278,7 +3912,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/nike-air-max-1-97-doernbecher/",
     "added_at": "2026-07-24T04:00:02.739870+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8197-922",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8197-922%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "breaking-nike-air-max-1-97-will-return-as-part-of-doernbecher-freestyle-2027-collection-ix8192-922",
@@ -3291,6 +3948,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/nike-air-max-1-97-doernbecher/",
     "added_at": "2026-07-24T04:00:02.739945+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8192-922",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8192-922%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
