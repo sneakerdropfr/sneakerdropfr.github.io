@@ -9,7 +9,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/kobe-bryant-nike-air-force-1-low-protro-lord-of-the-rings-white-safety-oranage-IQ3921-100-1024x725.jpg",
     "buy_url": "https://www.nike.com/w?q=nike air force 1&amp;vst=nike air force 1",
     "source": "Sneaker Files",
-    "added_at": "2026-07-24T06:40:58.755088+00:00"
+    "added_at": "2026-07-24T06:40:58.755088+00:00",
+    "retailers": []
   },
   {
     "id": "nike-gt-future-varsity-red-releases-fall-2026",
@@ -21,7 +22,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/nike-gt-future-varsity-red-black-FZ5590-603-1024x725.jpg",
     "buy_url": "https://www.nike.com/w?q=nike gt future&amp;vst=nike gt future",
     "source": "Sneaker Files",
-    "added_at": "2026-07-24T05:54:04.325630+00:00"
+    "added_at": "2026-07-24T05:54:04.325630+00:00",
+    "retailers": []
   },
   {
     "id": "nigo-x-j-hope-x-nike-air-force-1-01-releases-holiday-2026",
@@ -1957,7 +1959,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/nike-air-max-1-97-doernbecher/",
     "added_at": "2026-07-24T08:00:02.000595+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8189-922",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8189-922%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "breaking-nike-air-max-1-97-will-return-as-part-of-doernbecher-freestyle-2027-collection-ix8191-922",
@@ -1970,7 +1995,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/nike-air-max-1-97-doernbecher/",
     "added_at": "2026-07-24T08:00:02.000953+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8191-922",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8191-922%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "breaking-nike-air-max-1-97-will-return-as-part-of-doernbecher-freestyle-2027-collection-ix8187-922",
@@ -1983,7 +2031,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/nike-air-max-1-97-doernbecher/",
     "added_at": "2026-07-24T08:00:02.001084+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8187-922",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8187-922%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "breaking-nike-air-max-1-97-will-return-as-part-of-doernbecher-freestyle-2027-collection-ix8197-922",
@@ -1996,7 +2067,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/nike-air-max-1-97-doernbecher/",
     "added_at": "2026-07-24T08:00:02.001271+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8197-922",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8197-922%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "breaking-nike-air-max-1-97-will-return-as-part-of-doernbecher-freestyle-2027-collection-ix8192-922",
@@ -2009,7 +2103,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/nike-air-max-1-97-doernbecher/",
     "added_at": "2026-07-24T08:00:02.001375+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8192-922",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8192-922%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-1-low-golf-spike-skews-preppy-in-dark-team-red-iq3417-601",
@@ -2022,7 +2139,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/air-jordan-1-low-golf-spike-dark-team-red-khaki-iq3417-601/",
     "added_at": "2026-07-24T08:00:02.001719+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ3417-601",
+        "price": "175€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq3417-601%2F",
+        "price": "175€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "175€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "new-balance-2000-pours-out-black-cement-u20001vd",
@@ -2035,6 +2175,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/23/new-balance-abzorb-2000-black-cement-podium-red-u20001vd/",
     "added_at": "2026-07-24T08:00:02.002048+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU20001VD",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu20001vd%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
