@@ -2211,7 +2211,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/24/barbie-reebok-angel-reese-1-100278889/",
     "added_at": "2026-07-24T16:00:02.637636+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D100278889",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F100278889%2F",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Reebok",
+        "url": "https://www.reebok.fr/",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-gt-cut-4-cleans-up-in-summit-white-im4128-100",
@@ -2224,7 +2247,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/24/nike-zoom-gt-cut-4-se-summit-white-metallic-silver-im4128-100/",
     "added_at": "2026-07-24T18:00:01.902661+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM4128-100",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim4128-100%2F",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-moon-shoe-issues-two-colorful-pairs-for-august-ii0407-402",
@@ -2237,7 +2283,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/24/nike-moon-shoe-august-2026/",
     "added_at": "2026-07-24T18:00:01.905632+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DII0407-402",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fii0407-402%2F",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-moon-shoe-issues-two-colorful-pairs-for-august-ii0407-102",
@@ -2250,6 +2319,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/24/nike-moon-shoe-august-2026/",
     "added_at": "2026-07-24T18:00:01.905843+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DII0407-102",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fii0407-102%2F",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "105€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
