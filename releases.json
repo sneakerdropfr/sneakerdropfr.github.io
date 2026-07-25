@@ -1,5 +1,17 @@
 [
   {
+    "id": "victor-victor-x-nike-air-force-1-01-court-purple-releases-fa",
+    "title": "Victor Victor x Nike Air Force 1 ’01 “Court Purple” Releases Fall 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/07/victor-victor-nike-air-force-1-01-court-purple-IV3238-500-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-07-25T08:40:06.017906+00:00"
+  },
+  {
     "id": "victor-victor-x-nike-air-force-1-01-university-red-releases-",
     "title": "Victor Victor x Nike Air Force 1 ’01 “University Red” Releases Fall 2026",
     "brand": "Sneaker Files",
@@ -1840,61 +1852,5 @@
       }
     ],
     "year": 2026
-  },
-  {
-    "id": "new-balance-1890-issues-a-multicolor-streamsong-u18904do",
-    "title": "New Balance 1890 Issues A Multicolor “Streamsong”",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 180.0,
-    "sku": "U18904DO",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/new-balance-1890-streamsong-alkaline-green-U18904DO-4.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/06/24/new-balance-1890-streamsong-alkaline-green-u18904do/",
-    "added_at": "2026-06-25T12:00:02.198560+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU18904DO",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu18904do%2F",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890-u18904do-0353186",
-        "price": "190€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "year": 2026,
-    "restocks": [
-      {
-        "date": "2026-07-23",
-        "retailers": [
-          {
-            "name": "BSTN",
-            "url": "https://www.awin1.com/pclick.php?p=45092041103&a=2855487&m=104979",
-            "price": "189,99€"
-          }
-        ]
-      }
-    ]
   }
 ]
