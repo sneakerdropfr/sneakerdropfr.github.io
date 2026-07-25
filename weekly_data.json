@@ -1,530 +1,227 @@
 {
-  "week_start": "20/07/2026",
-  "week_end": "26/07/2026",
+  "week_start": "27/07/2026",
+  "week_end": "02/08/2026",
+  "generated_at": "2026-07-25T05:06:17.764717Z",
   "releases": [
     {
-      "name": "JJJJound x New Balance 1890 \"Silver White\"",
-      "brand": "New Balance",
-      "date": "24/07/2026",
-      "price": "200 €",
-      "image_url": "/images/U1890GREY.webp",
-      "image": "/images/U1890GREY.webp",
-      "id": "jjjjound-x-new-balance-1890-silver-white",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/jjjjound-new-balance-1890-silver-white-u1890grey",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fnew-balance"
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Fen%2Fnew-balance"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU1890GREY",
-          "price": "200€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "New Balance",
-          "url": "https://www.newbalance.fr/",
-          "price": "200€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-001-backened-blue",
+      "name": "Nike Mind 001 Backened Blue",
+      "brand": "Nike Mind 001",
+      "date": "2026-07-28",
+      "price": 90,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-backened-blue",
+      "retailers": [],
+      "image": "/images/HQ4307-400.webp",
+      "image_url": "/images/HQ4307-400.webp"
     },
     {
-      "name": "Vans LX Old Skool 36 \"Souvenir\"",
-      "brand": "Vans",
-      "date": "24/07/2026",
-      "price": "140 €",
-      "image_url": "/images/VN000E8VE4A1.webp",
-      "image": "/images/VN000E8VE4A1.webp",
-      "id": "vans-lx-old-skool-36-souvenir",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-souvenir-asphalt-multi-vn000e8ve4a1",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fvans"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fvans"
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8ve4a1%2F",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Vans",
-          "url": "https://www.vans.fr/",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-001-black-hyper-crimson-hq4307-001",
+      "name": "Nike Mind 001 Black Hyper Crimson",
+      "brand": "Nike Mind 001",
+      "date": "2026-07-28",
+      "price": 90,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-black-hyper-crimson-hq4307-001",
+      "retailers": [],
+      "image": "/images/HQ4307-001.webp",
+      "image_url": "/images/HQ4307-001.webp"
     },
     {
-      "name": "Air Jordan 4 Retro WMNS Birds Of Paradise",
-      "brand": "Jordan Brand",
-      "date": "23/07/2026",
-      "price": "220 €",
-      "image_url": "/images/HV0823-101.webp",
-      "image": "/images/HV0823-101.webp",
-      "id": "air-jordan-4-retro-wmns-birds-of-paradise",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-wmns-birds-of-paradise-hv0823-101",
-      "retailers": [
-        {
-          "@type": "Offer",
-          "name": "Nike",
-          "url": "https://www.nike.com/fr/launch",
-          "price": 220,
-          "priceCurrency": "EUR"
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-wmns-air-jordan-4-retro-hv0823-101-0354020",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHV0823-101",
-          "price": "220€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhv0823-101%2F",
-          "price": "220€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "220€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-001-light-smoke-grey-chrome-hq4307-003",
+      "name": "Nike Mind 001 Light Smoke Grey",
+      "brand": "Nike Mind 001",
+      "date": "2026-07-28",
+      "price": 90,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-light-smoke-grey-chrome-hq4307-003",
+      "retailers": [],
+      "image": "/images/HQ4307-003.webp",
+      "image_url": "/images/HQ4307-003.webp"
     },
     {
-      "name": "Air Jordan 4 Retro Comic",
-      "brand": "Jordan Brand",
-      "date": "24/07/2026",
-      "price": "210 €",
-      "image_url": "/images/JA1135-100.webp",
-      "image": "/images/JA1135-100.webp",
-      "id": "air-jordan-4-retro-comic",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-comic-ja1135-100",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fjordan"
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Fen%2Fjordan"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fjordan"
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "210€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-001-mineral-slate",
+      "name": "Nike Mind 001 Mineral Slate",
+      "brand": "Nike Mind 001",
+      "date": "2026-07-28",
+      "price": 90,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-mineral-slate",
+      "retailers": [],
+      "image": "/images/HQ4307-300.webp",
+      "image_url": "/images/HQ4307-300.webp"
     },
     {
-      "name": "Nike First Sight Shadow Wmns Metallic Silver",
-      "brand": "Nike",
-      "date": "23/07/2026",
-      "price": "",
-      "image_url": "/images/HQ2410-002.webp",
-      "image": "/images/HQ2410-002.webp",
-      "id": "nike-first-sight-shadow-wmns-metallic-silver",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-shadow-wmns-metallic-silver-hq2410-002",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2410-002",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2410-002%2F",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-001-triple-black-hq4307-005",
+      "name": "Nike Mind 001 Triple Black",
+      "brand": "Nike Mind 001",
+      "date": "2026-07-28",
+      "price": 90,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-triple-black-hq4307-005",
+      "retailers": [],
+      "image": "/images/HQ4307-005.webp",
+      "image_url": "/images/HQ4307-005.webp"
     },
     {
-      "name": "Nike First Sight Shadow Wmns Black",
-      "brand": "Nike",
-      "date": "23/07/2026",
-      "price": "",
-      "image_url": "/images/HQ2410-001.webp",
-      "image": "/images/HQ2410-001.webp",
-      "id": "nike-first-sight-shadow-wmns-black",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-shadow-wmns-black-hq2410-001",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2410-001",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2410-001%2F",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-001-old-royal",
+      "name": "Nike Mind 001 WMNS Old Royal",
+      "brand": "Nike Mind 001 WMNS",
+      "date": "2026-07-28",
+      "price": 90,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-old-royal",
+      "retailers": [],
+      "image": "/images/HQ4309-400.webp",
+      "image_url": "/images/HQ4309-400.webp"
     },
     {
-      "name": "Nike Air Max 95 Blue Lawson",
-      "brand": "Nike",
-      "date": "24/07/2026",
-      "price": "",
-      "image_url": "/images/IR1944-400.webp",
-      "image": "/images/IR1944-400.webp",
-      "id": "nike-air-max-95-blue-lawson",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-blue-lawson-ir1944-400",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fnike"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fnike"
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir1944-400%2F",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-001-pink-smoke",
+      "name": "Nike Mind 001 WMNS Pink Smoke",
+      "brand": "Nike Mind 001 WMNS",
+      "date": "2026-07-28",
+      "price": 90,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-pink-smoke",
+      "retailers": [],
+      "image": "/images/HQ4309-601.webp",
+      "image_url": "/images/HQ4309-601.webp"
     },
     {
-      "name": "Nike Air Max 95 Big Bubble Tech Smoke Grey Wolf Grey",
-      "brand": "Nike",
-      "date": "24/07/2026",
-      "price": "",
-      "image_url": "/images/IH7853-001.webp",
-      "image": "/images/IH7853-001.webp",
-      "id": "nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey-ih7853-001",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fnike"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fnike"
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fih7853-001%2F",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-002-camo-green-hq4308-300",
+      "name": "Nike Mind 002 Camo Green",
+      "brand": "Nike Mind 002",
+      "date": "2026-07-28",
+      "price": 140,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-camo-green-hq4308-300",
+      "retailers": [],
+      "image": "/images/HQ4308-300.webp",
+      "image_url": "/images/HQ4308-300.webp"
     },
     {
-      "name": "Adidas Hyperboost Euphoria Metallic Silver",
-      "brand": "Adidas",
-      "date": "20/07/2026",
-      "price": "140 €",
-      "image_url": "/images/LA5997.webp",
-      "image": "/images/LA5997.webp",
-      "id": "adidas-hyperboost-euphoria-metallic-silver",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-euphoria-metallic-silver-la5997",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fadidas"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fadidas"
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fla5997%2F",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr/",
-          "price": "140€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-002-phantom-hq4308-004",
+      "name": "Nike Mind 002 Phantom",
+      "brand": "Nike Mind 002",
+      "date": "2026-07-28",
+      "price": 140,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-phantom-hq4308-004",
+      "retailers": [],
+      "image": "/images/HQ4308-004.webp",
+      "image_url": "/images/HQ4308-004.webp"
     },
     {
-      "name": "Adidas Hyperboost Euphoria Core Black",
-      "brand": "Adidas",
-      "date": "20/07/2026",
-      "price": "",
-      "image_url": "/images/KZ8506.webp",
-      "image": "/images/KZ8506.webp",
-      "id": "adidas-hyperboost-euphoria-core-black",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-euphoria-core-black-kz8506",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fadidas"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fadidas"
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkz8506%2F",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.adidas.fr/",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-002-wmns-light-smoke-grey-hq4310-003",
+      "name": "Nike Mind 002 WMNS Light Smoke Grey",
+      "brand": "Nike Mind 002 WMNS",
+      "date": "2026-07-28",
+      "price": 140,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-wmns-light-smoke-grey-hq4310-003",
+      "retailers": [],
+      "image": "/images/HQ4310-003.webp",
+      "image_url": "/images/HQ4310-003.webp"
     },
     {
-      "name": "Vans LX Old Skool 36 Souvenir Oatmeal",
-      "brand": "Vans",
-      "date": "22/07/2026",
-      "price": "",
-      "image_url": "/images/VN000E8V2N1.webp",
-      "image": "/images/VN000E8V2N1.webp",
-      "id": "vans-lx-old-skool-36-souvenir-oatmeal",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-souvenir-oatmeal-vn000e8v2n1",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fbstn.com%2Fen%2Fvans"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fvans"
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8v2n1%2F",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Vans",
-          "url": "https://www.vans.fr/",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-002-wmns-light-violet-ore-hq4310-200",
+      "name": "Nike Mind 002 WMNS Light Violet Ore",
+      "brand": "Nike Mind 002 WMNS",
+      "date": "2026-07-28",
+      "price": 140,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-wmns-light-violet-ore-hq4310-200",
+      "retailers": [],
+      "image": "",
+      "image_url": ""
     },
     {
-      "name": "Puma Suede Wmns Black Steel Gray",
-      "brand": "Puma",
-      "date": "22/07/2026",
-      "price": "",
-      "image_url": "/images/408330-03.webp",
-      "image": "/images/408330-03.webp",
-      "id": "puma-suede-wmns-black-steel-gray",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/puma-suede-wmns-black-steel-gray-408330-03",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D408330-03",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F408330-03%2F",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Puma",
-          "url": "https://eu.puma.com/fr/fr/",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-002-wmns-pink-smoke-hq4310-600",
+      "name": "Nike Mind 002 WMNS Pink Smoke",
+      "brand": "Nike Mind 002 WMNS",
+      "date": "2026-07-28",
+      "price": 140,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-wmns-pink-smoke-hq4310-600",
+      "retailers": [],
+      "image": "/images/HQ4310-600.webp",
+      "image_url": "/images/HQ4310-600.webp"
     },
     {
-      "name": "Puma Suede Wmns Pink Lavender",
-      "brand": "Puma",
-      "date": "22/07/2026",
-      "price": "",
-      "image_url": "/images/408330-05.webp",
-      "image": "/images/408330-05.webp",
-      "id": "puma-suede-wmns-pink-lavender",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/puma-suede-wmns-pink-lavender-408330-05",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D408330-05",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F408330-05%2F",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Puma",
-          "url": "https://eu.puma.com/fr/fr/",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-mind-002-wmns-summit-white-hq4310-101",
+      "name": "Nike Mind 002 WMNS Summit White",
+      "brand": "Nike Mind 002 WMNS",
+      "date": "2026-07-28",
+      "price": 140,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-wmns-summit-white-hq4310-101",
+      "retailers": [],
+      "image": "/images/HQ4310-101.webp",
+      "image_url": "/images/HQ4310-101.webp"
     },
     {
-      "name": "Puma Suede Wmns Marshmallow",
-      "brand": "Puma",
-      "date": "22/07/2026",
-      "price": "",
-      "image_url": "/images/408330-01.webp",
-      "image": "/images/408330-01.webp",
-      "id": "puma-suede-wmns-marshmallow",
-      "buy_url": "",
-      "wtc_url": "https://www.whentocop.fr/drops/puma-suede-wmns-marshmallow-408330-01",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D408330-01",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F408330-01%2F",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Puma",
-          "url": "https://eu.puma.com/fr/fr/",
-          "price": "",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "resell": "",
-      "stock": ""
+      "id": "nike-kd19-blueberry-blast-ih1117-400",
+      "name": "Nike KD 19 Blueberry Blast",
+      "brand": "Nike KD 19",
+      "date": "2026-07-29",
+      "price": 160,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-kd19-blueberry-blast-ih1117-400",
+      "retailers": [],
+      "image": "/images/IH1117-400.webp",
+      "image_url": "/images/IH1117-400.webp"
+    },
+    {
+      "id": "jjjjound-new-balance-740n-mushroom-m740jjj",
+      "name": "JJJJound x New Balance 740 Mushroom",
+      "brand": "JJJJound x New Balance 740",
+      "date": "2026-07-30",
+      "price": 130,
+      "wtc_url": "https://www.whentocop.fr/drops/jjjjound-new-balance-740n-mushroom-m740jjj",
+      "retailers": [],
+      "image": "/images/M740JJJ.webp",
+      "image_url": "/images/M740JJJ.webp"
+    },
+    {
+      "id": "nike-moon-shoe-og-sp-wmns-italy-blue-ii0407-402",
+      "name": "Nike Moon Shoe OG SP WMNS Italy Blue",
+      "brand": "Nike Moon Shoe OG SP WMNS",
+      "date": "2026-07-30",
+      "price": 100,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-sp-wmns-italy-blue-ii0407-402",
+      "retailers": [],
+      "image": "/images/II0407-402.webp",
+      "image_url": "/images/II0407-402.webp"
+    },
+    {
+      "id": "air-jordan-7-miro-iq6573-100",
+      "name": "Air Jordan 7 Miro",
+      "brand": "Air Jordan 7",
+      "date": "2026-07-31",
+      "price": 210,
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-7-miro-iq6573-100",
+      "retailers": [],
+      "image": "/images/IQ6573-100.webp",
+      "image_url": "/images/IQ6573-100.webp"
+    },
+    {
+      "id": "brain-dead-crocs-echo-2-astro-blue-213557-5ep",
+      "name": "Brain Dead x Crocs Echo II Astro Blue",
+      "brand": "Brain Dead x Crocs Echo II",
+      "date": "2026-07-31",
+      "price": 90,
+      "wtc_url": "https://www.whentocop.fr/drops/brain-dead-crocs-echo-2-astro-blue-213557-5ep",
+      "retailers": [],
+      "image": "/images/213557-5EP.webp",
+      "image_url": "/images/213557-5EP.webp"
+    },
+    {
+      "id": "nike-air-force-1-low-retro-patent-denim-im5757-400",
+      "name": "Nike Air Force 1 Low Retro Patent Denim",
+      "brand": "Nike Air Force 1 Low Retro",
+      "date": "2026-07-31",
+      "price": 130,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-patent-denim-im5757-400",
+      "retailers": [],
+      "image": "/images/IM5757-400.webp",
+      "image_url": "/images/IM5757-400.webp"
+    },
+    {
+      "id": "nike-mind-001-amp-indigo-burst-iz6659-400",
+      "name": "Nike Mind 001 AMP Indigo Burst",
+      "brand": "Nike Mind 001 AMP",
+      "date": "2026-07-31",
+      "price": 90,
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-amp-indigo-burst-iz6659-400",
+      "retailers": [],
+      "image": "/images/IZ6659-400.webp",
+      "image_url": "/images/IZ6659-400.webp"
     }
-  ],
-  "promos": []
+  ]
 }
