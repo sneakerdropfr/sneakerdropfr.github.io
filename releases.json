@@ -3641,7 +3641,30 @@
     "buy_url": "https://sneakernews.com/2026/07/29/reebok-g-unit-g6-100289469/",
     "added_at": "2026-07-29T22:00:02.606175+00:00",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D100289469",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F100289469%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Reebok",
+        "url": "https://www.reebok.fr/",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "sandal-like-new-balance-204v-continues-its-rollout-with-pastel-tones-u204v2pt",
@@ -3655,7 +3678,30 @@
     "buy_url": "https://sneakernews.com/2026/07/29/new-balance-204v-august-2026/",
     "added_at": "2026-07-29T22:00:02.606506+00:00",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU204V2PT",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu204v2pt%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "sandal-like-new-balance-204v-continues-its-rollout-with-pastel-tones-u204v2w0",
@@ -3669,7 +3715,30 @@
     "buy_url": "https://sneakernews.com/2026/07/29/new-balance-204v-august-2026/",
     "added_at": "2026-07-29T22:00:02.606610+00:00",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU204V2W0",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu204v2w0%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "sandal-like-new-balance-204v-continues-its-rollout-with-pastel-tones-u204v7r8",
@@ -3683,6 +3752,29 @@
     "buy_url": "https://sneakernews.com/2026/07/29/new-balance-204v-august-2026/",
     "added_at": "2026-07-29T22:00:02.606694+00:00",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU204V7R8",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu204v7r8%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
