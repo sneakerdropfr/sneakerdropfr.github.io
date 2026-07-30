@@ -32,7 +32,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Navy"
   },
   {
     "id": "new-balance-numeric-340-black-white",
@@ -67,7 +68,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/White"
   },
   {
     "id": "new-balance-numeric-340-zinc-blue-nb-navy",
@@ -102,7 +104,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Blue/Navy"
   },
   {
     "id": "adidas-hyperboost-euphoria-metallic-silver",
@@ -138,7 +141,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Metallic Silver"
   },
   {
     "id": "adidas-hyperboost-euphoria-core-black",
@@ -174,7 +178,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "vans-lx-old-skool-36-souvenir-oatmeal",
@@ -307,7 +312,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede",
+    "colorway": "Black/Gray"
   },
   {
     "id": "puma-suede-wmns-pink-lavender",
@@ -360,7 +367,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede",
+    "colorway": "Pink/Lavender"
   },
   {
     "id": "puma-suede-wmns-marshmallow",
@@ -413,7 +422,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede"
   },
   {
     "id": "air-jordan-4-retro-wmns-birds-of-paradise",
@@ -499,7 +509,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "nike-first-sight-shadow-wmns-metallic-silver",
@@ -574,7 +585,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Metallic Silver"
   },
   {
     "id": "nike-first-sight-shadow-wmns-black",
@@ -649,7 +661,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "jjjjound-x-new-balance-1890-silver-white",
@@ -702,7 +715,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver/White"
   },
   {
     "id": "vans-lx-old-skool-36-souvenir",
@@ -870,7 +884,8 @@
         "raffle": false
       }
     ],
-    "featured": true
+    "featured": true,
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "nike-air-max-95-blue-lawson",
@@ -928,7 +943,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "colorway": "Blue"
   },
   {
     "id": "nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey",
@@ -983,7 +1000,9 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "colorway": "Smoke/Grey/Wolf Grey"
   },
   {
     "id": "nike-mind-001-triple-black",
@@ -1038,7 +1057,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "nike-mind-001-wmns-old-royal",
@@ -1093,7 +1113,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Royal"
   },
   {
     "id": "nike-mind-001-wmns-pink-smoke",
@@ -1148,7 +1169,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-002-wmns-pink-smoke",
@@ -1203,7 +1225,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-002-wmns-summit-white",
@@ -1258,7 +1281,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Summit White"
   },
   {
     "id": "nike-mind-002-camo-green",
@@ -1313,7 +1337,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Camo/Green"
   },
   {
     "id": "nike-mind-002-phantom",
@@ -1368,7 +1393,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Phantom"
   },
   {
     "id": "nike-mind-001-backened-blue",
@@ -1402,7 +1428,8 @@
         "url": "https://goat.sjv.io/WD9g3G",
         "price": ""
       }
-    ]
+    ],
+    "colorway": "Blue"
   },
   {
     "id": "nike-mind-001-mineral-slate",
@@ -1470,7 +1497,8 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
-    ]
+    ],
+    "colorway": "Royal"
   },
   {
     "id": "nike-mind-001-pink-smoke",
@@ -1504,7 +1532,8 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
-    ]
+    ],
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-001-light-smoke-grey-chrome-hq4307-003",
@@ -1552,7 +1581,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Light Smoke/Grey"
   },
   {
     "id": "nike-mind-002-wmns-light-smoke-grey-hq4310-003",
@@ -1605,7 +1635,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Light Smoke/Grey"
   },
   {
     "id": "nike-mind-002-wmns-light-violet-ore-hq4310-200",
@@ -1658,7 +1689,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Violet"
   },
   {
     "id": "nike-mind-001-black-hyper-crimson-hq4307-001",
@@ -1706,7 +1738,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Crimson"
   },
   {
     "id": "nike-moon-shoe-og-sp-wmns-italy-blue",
@@ -1759,7 +1792,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Blue"
   },
   {
     "id": "nike-kd19-blueberry-blast-ih1117-400",
@@ -1894,7 +1928,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Silver"
   },
   {
     "id": "adidas-handball-spezial-ambient-sky-almost-yellow",
@@ -1947,7 +1982,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Sky/Yellow"
   },
   {
     "id": "nike-air-force-1-low-retro-patent-denim",
@@ -2007,7 +2043,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Force 1"
   },
   {
     "id": "brain-dead-crocs-echo-2-astro-blue-213557-5ep",
@@ -2041,7 +2078,8 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
-    ]
+    ],
+    "colorway": "Blue"
   },
   {
     "id": "air-jordan-1-high-og-love-the-game",
@@ -2111,7 +2149,8 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1"
   },
   {
     "id": "nike-zoom-skylon-11-black",
@@ -2164,7 +2203,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black"
   },
   {
     "id": "nike-zoom-skylon-11-summit-white-black",
@@ -2219,7 +2259,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Summit White/Black"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-black-anthracite",
@@ -2274,7 +2315,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Anthracite"
   },
   {
     "id": "nike-zoom-skylon-11-white-old-royal",
@@ -2329,7 +2371,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Royal"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-black-light-magenta",
@@ -2384,7 +2427,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "Black/Magenta"
   },
   {
     "id": "nike-zoom-skylon-11-wmns-white-cacao-wow",
@@ -2439,7 +2483,8 @@
         "raffle": false
       }
     ],
-    "featured": false
+    "featured": false,
+    "colorway": "White/Cacao Wow"
   },
   {
     "id": "afew-x-brooks-adrenaline-gts-10",
@@ -2535,7 +2580,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 7"
   },
   {
     "id": "nike-mind-001-amp-indigo-burst-iz6659-400",
@@ -2583,7 +2629,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Indigo"
   },
   {
     "id": "nike-mind-001-cucumber-calm",
@@ -2693,7 +2740,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
@@ -2765,7 +2813,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "kids-air-jordan-3-chalk-drops-on-august-8th-io2076-100",
@@ -2801,7 +2850,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 3",
+    "year": 2026
   },
   {
     "id": "first-look-at-the-nike-air-bakin-og-varsity-royal-iq5365-400",
@@ -2837,7 +2888,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Varsity Royal",
+    "year": 2026
   },
   {
     "id": "nike-and-a-ja-wilson-partner-with-women-s-sportswear-brand-playa-society-ix6704-200",
@@ -2873,7 +2926,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-and-a-ja-wilson-partner-with-women-s-sportswear-brand-playa-society-ix6704-400",
@@ -2909,7 +2963,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "noah-and-converse-enter-the-skate-realm-with-the-louie-lopez-2-pro-a22358c",
@@ -2945,7 +3000,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Converse Enter",
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-tech-gazes-into-tough-red-ih7853-005",
@@ -2981,7 +3038,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max 95",
+    "colorway": "Red",
+    "year": 2026
   },
   {
     "id": "brain-dead-and-adidas-go-bowling-with-two-dressy-animal-print-sambas-kh8143",
@@ -3017,7 +3077,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "brain-dead-and-adidas-go-bowling-with-two-dressy-animal-print-sambas-kj0662",
@@ -3053,7 +3114,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "new-balance-adds-armor-plating-on-the-1890-u18902uh",
@@ -3089,7 +3151,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "new-balance-adds-armor-plating-on-the-1890-u1890787",
@@ -3125,7 +3188,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "paige-bueckers-pours-up-a-cherry-pe-on-the-nike-gt-cut-4-ix2111-600",
@@ -3161,7 +3225,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nikeskims-rift-mesh-stays-on-trend-in-night-silver-iq7158-002",
@@ -3197,7 +3262,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Silver",
+    "year": 2026
   },
   {
     "id": "air-jordan-1-low-borrows-a-tour-yellow-colorway-ix3529-010",
@@ -3233,7 +3300,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1",
+    "colorway": "Yellow",
+    "year": 2026
   },
   {
     "id": "nike-air-max-plus-skews-ominous-in-tough-red-dm0032-601",
@@ -3269,7 +3339,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max Plus",
+    "colorway": "Red",
+    "year": 2026
   },
   {
     "id": "ornamental-broguing-lands-on-the-air-jordan-mule-iv5070-001",
@@ -3305,7 +3378,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "bad-bunny-adidas-bad-bo-stone-slide-releasing-spring-summer-2027-lb7194",
@@ -3341,7 +3415,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Stone",
+    "year": 2027
   },
   {
     "id": "bad-bunny-adidas-bad-bo-stone-slide-releasing-spring-summer-2027-lb7191",
@@ -3377,7 +3453,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Stone",
+    "year": 2027
   },
   {
     "id": "saucony-gets-in-on-the-dress-hybrid-trend-with-the-progrid-v2-mule-s101074-1002",
@@ -3406,7 +3484,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "saucony-gets-in-on-the-dress-hybrid-trend-with-the-progrid-v2-mule-s101074-1004",
@@ -3435,7 +3514,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "bad-bunny-s-adidas-f50-ghost-sprint-pack-closes-with-charcoal-hp4218",
@@ -3471,7 +3551,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "overkill-revives-an-adidas-grail-with-the-zx8000-france-la0820",
@@ -3507,7 +3588,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nikeskims-rift-mesh-marches-on-in-obsidian-iq7158-400",
@@ -3543,7 +3625,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Obsidian",
+    "year": 2026
   },
   {
     "id": "official-images-of-the-reebok-g-unit-g6-retro-100289469",
@@ -3556,7 +3640,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/29/reebok-g-unit-g6-100289469/",
     "added_at": "2026-07-29T22:00:02.606175+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "sandal-like-new-balance-204v-continues-its-rollout-with-pastel-tones-u204v2pt",
@@ -3569,7 +3654,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/29/new-balance-204v-august-2026/",
     "added_at": "2026-07-29T22:00:02.606506+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "sandal-like-new-balance-204v-continues-its-rollout-with-pastel-tones-u204v2w0",
@@ -3582,7 +3668,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/29/new-balance-204v-august-2026/",
     "added_at": "2026-07-29T22:00:02.606610+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "sandal-like-new-balance-204v-continues-its-rollout-with-pastel-tones-u204v7r8",
@@ -3595,6 +3682,7 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/07/29/new-balance-204v-august-2026/",
     "added_at": "2026-07-29T22:00:02.606694+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   }
 ]

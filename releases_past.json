@@ -28589,7 +28589,9 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede",
+    "colorway": "Black/Gray"
   },
   {
     "id": "puma-suede-wmns-pink-lavender",
@@ -28628,7 +28630,9 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede",
+    "colorway": "Pink/Lavender"
   },
   {
     "id": "puma-suede-wmns-marshmallow",
@@ -28667,6 +28671,7 @@
         "price": ""
       }
     ],
-    "featured": false
+    "featured": false,
+    "silhouette": "Puma Suede"
   }
 ]
