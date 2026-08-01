@@ -3998,6 +3998,13 @@
         "price": "215€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-air-jordan-13-retro-iw3808-400-0350267",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -4012,6 +4019,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/01/nike-air-max-90-light-smoke-grey-football-blue-iv4681-077/",
     "added_at": "2026-08-01T18:00:01.923206+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV4681-077",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv4681-077%2F",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
