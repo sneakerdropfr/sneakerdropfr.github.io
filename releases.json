@@ -4220,6 +4220,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/02/vans-old-skool-roses-vn000e8w458/",
     "added_at": "2026-08-02T20:00:03.034152+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000E8W458",
+        "price": "80€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8w458%2F",
+        "price": "80€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "80€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
