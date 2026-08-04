@@ -9,7 +9,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2019/12/pokemon-adidas-advantage-pikachu-release-date-info.jpg",
     "buy_url": "https://www.adidas.com/us/search?q=pokemon&amp;sitePath=us",
     "source": "Sneaker Files",
-    "added_at": "2026-08-04T09:36:38.271104+00:00"
+    "added_at": "2026-08-04T09:36:38.271104+00:00",
+    "retailers": []
   },
   {
     "id": "nike-air-bakin-varsity-royal-returns-holiday-2026",
@@ -21,7 +22,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2023/02/supreme-nike-air-bakin-release.jpg",
     "buy_url": "https://www.nike.com/launch",
     "source": "Sneaker Files",
-    "added_at": "2026-08-04T07:32:35.017569+00:00"
+    "added_at": "2026-08-04T07:32:35.017569+00:00",
+    "retailers": []
   },
   {
     "id": "new-balance-numeric-340-white-navy",
@@ -2653,7 +2655,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/03/nike-air-rift-2-metallic-silver-vast-grey-iq8006-003/",
     "added_at": "2026-08-04T10:00:02.697000+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8006-003",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8006-003%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "eastside-golf-tees-up-a-nike-next-tour-3-collab-io4663-001",
@@ -2666,6 +2691,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/03/eastside-golf-nike-next-percent-tour-3-io4663-001/",
     "added_at": "2026-08-04T10:00:02.697289+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO4663-001",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio4663-001%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
