@@ -1,18 +1,17 @@
 {
   "week_start": "03/08/2026",
   "week_end": "09/08/2026",
-  "generated_at": "2026-08-05T07:00:00Z",
   "releases": [
     {
-      "id": "adidas-zx-8000-grey-two-purple-kh6245",
-      "sku": "KH6245",
       "name": "adidas ZX 8000 Grey Two Purple",
       "brand": "adidas ZX 8000",
-      "date": "2026-08-03",
-      "price": 130,
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-zx-8000-grey-two-purple-kh6245",
-      "image": "/images/KH6245.webp",
+      "date": "03/08/2026",
+      "price": "130 €",
       "image_url": "/images/KH6245.webp",
+      "image": "/images/KH6245.webp",
+      "id": "adidas-zx-8000-grey-two-purple-kh6245",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-zx-8000-grey-two-purple-kh6245",
       "retailers": [
         {
           "name": "Afew",
@@ -59,18 +58,20 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "adidas-zx-8000-purple-fropur-pulmin-kh6244",
-      "sku": "KH6244",
       "name": "adidas ZX 8000 Purple Fropur Pulmin",
       "brand": "adidas ZX 8000",
-      "date": "2026-08-03",
-      "price": 130,
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-zx-8000-purple-fropur-pulmin-kh6244",
-      "image": "/images/KH6244.webp",
+      "date": "03/08/2026",
+      "price": "130 €",
       "image_url": "/images/KH6244.webp",
+      "image": "/images/KH6244.webp",
+      "id": "adidas-zx-8000-purple-fropur-pulmin-kh6244",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-zx-8000-purple-fropur-pulmin-kh6244",
       "retailers": [
         {
           "name": "43einhalb",
@@ -117,18 +118,20 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "beyond-nike-sb-dunk-high-pro-white-sand-dune-iu4491-100",
-      "sku": "IU4491-100",
       "name": "Beyond x Nike SB Dunk High Pro White Sand Dune",
       "brand": "Beyond x Nike SB Dunk High Pro",
-      "date": "2026-08-03",
-      "price": 130,
-      "wtc_url": "https://www.whentocop.fr/drops/beyond-nike-sb-dunk-high-pro-white-sand-dune-iu4491-100",
-      "image": "/images/IU4491-100.webp",
+      "date": "03/08/2026",
+      "price": "130 €",
       "image_url": "/images/IU4491-100.webp",
+      "image": "/images/IU4491-100.webp",
+      "id": "beyond-nike-sb-dunk-high-pro-white-sand-dune-iu4491-100",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/beyond-nike-sb-dunk-high-pro-white-sand-dune-iu4491-100",
       "retailers": [
         {
           "name": "StockX",
@@ -150,74 +153,20 @@
           "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IU4491100&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fnike-sb-dunk-high-pro-beyond-white-and-sand-dune",
           "price": "129€"
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "nike-p-6000-wmns-sand-drift-ir1215-100",
-      "sku": "IR1215-100",
-      "name": "Nike P-6000 WMNS Sand Drift",
-      "brand": "Nike",
-      "date": "2026-08-03",
-      "price": 130,
-      "wtc_url": "https://www.whentocop.fr/drops/nike-p-6000-wmns-sand-drift-ir1215-100",
-      "image": "/images/IR1215-100.webp",
-      "image_url": "/images/IR1215-100.webp",
-      "retailers": [
-        {
-          "name": "StockX",
-          "url": "https://stockx.pvxt.net/e6GoO",
-          "price": ""
-        },
-        {
-          "name": "Limited Resell",
-          "url": "https://tinyurl.com/2av9rzat",
-          "price": ""
-        },
-        {
-          "name": "GOAT",
-          "url": "https://goat.sjv.io/WD9g3G",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "nike-air-force-1-low-07-wmns-pure-platinum-metallic-swoosh-iv6039-002",
-      "sku": "IV6039-002",
-      "name": "Nike Air Force 1 Low Pure Platinum Metallic Swoosh",
-      "brand": "Nike",
-      "date": "2026-08-03",
-      "price": 120,
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-07-wmns-pure-platinum-metallic-swoosh-iv6039-002",
-      "image": "/images/IV6039-002.webp",
-      "image_url": "/images/IV6039-002.webp",
-      "retailers": [
-        {
-          "name": "StockX",
-          "url": "https://stockx.pvxt.net/e6GoO",
-          "price": ""
-        },
-        {
-          "name": "Limited Resell",
-          "url": "https://tinyurl.com/2av9rzat",
-          "price": ""
-        },
-        {
-          "name": "GOAT",
-          "url": "https://goat.sjv.io/WD9g3G",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "nike-air-max-95-big-bubble-canvas-cream-im9605-200",
-      "sku": "IM9605-200",
       "name": "Nike Air Max 95 Big Bubble Canvas Cream",
       "brand": "Nike",
-      "date": "2026-08-03",
-      "price": 200,
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-canvas-cream-im9605-200",
-      "image": "/images/IM9605-200.webp",
+      "date": "03/08/2026",
+      "price": "200 €",
       "image_url": "/images/IM9605-200.webp",
+      "image": "/images/IM9605-200.webp",
+      "id": "nike-air-max-95-big-bubble-canvas-cream-im9605-200",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-canvas-cream-im9605-200",
       "retailers": [
         {
           "name": "Nike",
@@ -239,18 +188,80 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "arte-antwerp-adidas-f50-core-black-kk3246",
-      "sku": "KK3246",
+      "name": "Nike P-6000 WMNS Sand Drift",
+      "brand": "Nike",
+      "date": "03/08/2026",
+      "price": "130 €",
+      "image_url": "/images/IR1215-100.webp",
+      "image": "/images/IR1215-100.webp",
+      "id": "nike-p-6000-wmns-sand-drift-ir1215-100",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-p-6000-wmns-sand-drift-ir1215-100",
+      "retailers": [
+        {
+          "name": "StockX",
+          "url": "https://stockx.pvxt.net/e6GoO",
+          "price": ""
+        },
+        {
+          "name": "Limited Resell",
+          "url": "https://tinyurl.com/2av9rzat",
+          "price": ""
+        },
+        {
+          "name": "GOAT",
+          "url": "https://goat.sjv.io/WD9g3G",
+          "price": ""
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Nike Air Force 1 Low Pure Platinum Metallic Swoosh",
+      "brand": "Nike",
+      "date": "03/08/2026",
+      "price": "120 €",
+      "image_url": "/images/IV6039-002.webp",
+      "image": "/images/IV6039-002.webp",
+      "id": "nike-air-force-1-low-07-wmns-pure-platinum-metallic-swoosh-iv6039-002",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-07-wmns-pure-platinum-metallic-swoosh-iv6039-002",
+      "retailers": [
+        {
+          "name": "StockX",
+          "url": "https://stockx.pvxt.net/e6GoO",
+          "price": ""
+        },
+        {
+          "name": "Limited Resell",
+          "url": "https://tinyurl.com/2av9rzat",
+          "price": ""
+        },
+        {
+          "name": "GOAT",
+          "url": "https://goat.sjv.io/WD9g3G",
+          "price": ""
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
       "name": "Arte Antwerp x adidas F50 Core Black",
       "brand": "Arte Antwerp x adidas F50",
-      "date": "2026-08-04",
-      "price": 180,
-      "wtc_url": "https://www.whentocop.fr/drops/arte-antwerp-adidas-f50-core-black-kk3246",
-      "image": "/images/KK3246.webp",
+      "date": "04/08/2026",
+      "price": "180 €",
       "image_url": "/images/KK3246.webp",
+      "image": "/images/KK3246.webp",
+      "id": "arte-antwerp-adidas-f50-core-black-kk3246",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/arte-antwerp-adidas-f50-core-black-kk3246",
       "retailers": [
         {
           "name": "Adidas",
@@ -282,18 +293,20 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "arte-antwerp-adidas-f50-white-kk3245",
-      "sku": "KK3245",
       "name": "Arte Antwerp x adidas F50 White",
       "brand": "Arte Antwerp x adidas F50",
-      "date": "2026-08-04",
-      "price": 180,
-      "wtc_url": "https://www.whentocop.fr/drops/arte-antwerp-adidas-f50-white-kk3245",
-      "image": "/images/KK3245.webp",
+      "date": "04/08/2026",
+      "price": "180 €",
       "image_url": "/images/KK3245.webp",
+      "image": "/images/KK3245.webp",
+      "id": "arte-antwerp-adidas-f50-white-kk3245",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/arte-antwerp-adidas-f50-white-kk3245",
       "retailers": [
         {
           "name": "FootDistrict",
@@ -325,99 +338,20 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "new-balance-1890a-dark-night-u18905jk",
-      "sku": "U18905JK",
-      "name": "New Balance 1890A Dark Night",
-      "brand": "New Balance 1890A",
-      "date": "2026-08-06",
-      "price": 190,
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890a-dark-night-u18905jk",
-      "image": "/images/U18905JK.webp",
-      "image_url": "/images/U18905JK.webp",
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=U18905JK&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2F1890a%2FU1890AV1_LI-FTW-844376.html",
-          "price": "190€"
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U18905JK&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890a-u18905jk-0353105",
-          "price": "189€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
-          "price": ""
-        },
-        {
-          "name": "Limited Resell",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
-          "price": ""
-        },
-        {
-          "name": "GOAT",
-          "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "nike-book-2-se-detroit-tigers-im4667-400",
-      "sku": "IM4667-400",
-      "name": "Nike Book 2 SE Detroit Tigers",
-      "brand": "Nike Book 2 SE",
-      "date": "2026-08-06",
-      "price": 160,
-      "wtc_url": "https://www.whentocop.fr/drops/nike-book-2-se-detroit-tigers-im4667-400",
-      "image": "/images/IM4667-400.webp",
-      "image_url": "/images/IM4667-400.webp",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IM4667-400&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-book-2-se-im4667-400-0353609",
-          "price": "159€"
-        },
-        {
-          "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IM4667-400&wgtarget=https://en.afew-store.com/products/nike-book-2-midnight-navy-midnight-navy-white",
-          "price": "159€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
-          "price": ""
-        },
-        {
-          "name": "Limited Resell",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
-          "price": ""
-        },
-        {
-          "name": "GOAT",
-          "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "nike-zoom-streak-3-wmns-cream-sail-iq8020-200",
-      "sku": "IQ8020-200",
       "name": "Nike Zoom Streak 3 WMNS Cream Sail",
       "brand": "Nike Zoom Streak 3 WMNS",
-      "date": "2026-08-06",
-      "price": 120,
-      "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-streak-3-wmns-cream-sail-iq8020-200",
-      "image": "/images/IQ8020-200.webp",
+      "date": "06/08/2026",
+      "price": "120 €",
       "image_url": "/images/IQ8020-200.webp",
+      "image": "/images/IQ8020-200.webp",
+      "id": "nike-zoom-streak-3-wmns-cream-sail-iq8020-200",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-streak-3-wmns-cream-sail-iq8020-200",
       "retailers": [
         {
           "name": "Nike SNKRS",
@@ -459,18 +393,105 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "air-jordan-13-wings-black-ix1872-001",
-      "sku": "IX1872-001",
+      "name": "Nike Book 2 SE Detroit Tigers",
+      "brand": "Nike Book 2 SE",
+      "date": "06/08/2026",
+      "price": "160 €",
+      "image_url": "/images/IM4667-400.webp",
+      "image": "/images/IM4667-400.webp",
+      "id": "nike-book-2-se-detroit-tigers-im4667-400",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-book-2-se-detroit-tigers-im4667-400",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+          "price": ""
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IM4667-400&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-book-2-se-im4667-400-0353609",
+          "price": "159€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IM4667-400&wgtarget=https://en.afew-store.com/products/nike-book-2-midnight-navy-midnight-navy-white",
+          "price": "159€"
+        },
+        {
+          "name": "StockX",
+          "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
+          "price": ""
+        },
+        {
+          "name": "Limited Resell",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
+          "price": ""
+        },
+        {
+          "name": "GOAT",
+          "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
+          "price": ""
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "New Balance 1890A Dark Night",
+      "brand": "New Balance 1890A",
+      "date": "06/08/2026",
+      "price": "190 €",
+      "image_url": "/images/U18905JK.webp",
+      "image": "/images/U18905JK.webp",
+      "id": "new-balance-1890a-dark-night-u18905jk",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890a-dark-night-u18905jk",
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=U18905JK&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2F1890a%2FU1890AV1_LI-FTW-844376.html",
+          "price": "190€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U18905JK&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890a-u18905jk-0353105",
+          "price": "189€"
+        },
+        {
+          "name": "StockX",
+          "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
+          "price": ""
+        },
+        {
+          "name": "Limited Resell",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
+          "price": ""
+        },
+        {
+          "name": "GOAT",
+          "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
+          "price": ""
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
       "name": "Air Jordan 13 Wings Black",
       "brand": "Air Jordan 13 Wings",
-      "date": "2026-08-06",
-      "price": 210,
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-13-wings-black-ix1872-001",
-      "image": "/images/IX1872-001.webp",
+      "date": "06/08/2026",
+      "price": "210 €",
       "image_url": "/images/IX1872-001.webp",
+      "image": "/images/IX1872-001.webp",
+      "id": "air-jordan-13-wings-black-ix1872-001",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-13-wings-black-ix1872-001",
       "retailers": [
         {
           "name": "Nike",
@@ -492,18 +513,20 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "new-balance-fuelcell-supercomp-elite-v6-wmns-fresh-air-alkaline-green-wrcel91c",
-      "sku": "WRCEL91C",
       "name": "New Balance FuelCell SuperComp Elite V6 Fresh Air Alkaline Green",
       "brand": "New Balance FuelCell SuperComp Elite V6",
-      "date": "2026-08-06",
-      "price": 280,
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-fuelcell-supercomp-elite-v6-wmns-fresh-air-alkaline-green-wrcel91c",
-      "image": "/images/WRCEL91C.webp",
+      "date": "06/08/2026",
+      "price": "280 €",
       "image_url": "/images/WRCEL91C.webp",
+      "image": "/images/WRCEL91C.webp",
+      "id": "new-balance-fuelcell-supercomp-elite-v6-wmns-fresh-air-alkaline-green-wrcel91c",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-fuelcell-supercomp-elite-v6-wmns-fresh-air-alkaline-green-wrcel91c",
       "retailers": [
         {
           "name": "New Balance",
@@ -525,18 +548,20 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "new-balance-fuelcell-supercomp-elite-v6-wmns-satsuma-orange-wrcel2ru",
-      "sku": "WRCEL2RU",
       "name": "New Balance FuelCell SuperComp Elite v6 Satsuma Orange",
       "brand": "New Balance FuelCell SuperComp Elite v6",
-      "date": "2026-08-06",
-      "price": 280,
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-fuelcell-supercomp-elite-v6-wmns-satsuma-orange-wrcel2ru",
-      "image": "/images/WRCEL2RU.webp",
+      "date": "06/08/2026",
+      "price": "280 €",
       "image_url": "/images/WRCEL2RU.webp",
+      "image": "/images/WRCEL2RU.webp",
+      "id": "new-balance-fuelcell-supercomp-elite-v6-wmns-satsuma-orange-wrcel2ru",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-fuelcell-supercomp-elite-v6-wmns-satsuma-orange-wrcel2ru",
       "retailers": [
         {
           "name": "StockX",
@@ -558,132 +583,20 @@
           "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=WRCEL2RU&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Fsupercomp-elite-v6-femme%2FWRCELV6_RU-FTW-826131.html%3Fdwvar_WRCELV6__RU-FTW-826131_style%3DWRCEL2RU",
           "price": "280€"
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "nike-lebron-23-hardwood-classics-im5125-400",
-      "sku": "IM5125-400",
-      "name": "Nike LeBron XXIII Hardwood Classics",
-      "brand": "Nike LeBron XXIII",
-      "date": "2026-08-07",
-      "price": 200,
-      "wtc_url": "https://www.whentocop.fr/drops/nike-lebron-23-hardwood-classics-im5125-400",
-      "image": "/images/IM5125-400.webp",
-      "image_url": "/images/IM5125-400.webp",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
-        },
-        {
-          "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IM5125-400&wgtarget=https://en.afew-store.com/products/nike-lebron-xxiii-per-game-royal-white-safety-orange",
-          "price": "199€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
-          "price": ""
-        },
-        {
-          "name": "Limited Resell",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
-          "price": ""
-        },
-        {
-          "name": "GOAT",
-          "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "asics-gel-nyc-2-0-graphite-grey-loden-green-1203b080-021",
-      "sku": "1203B080-021",
-      "name": "Asics GEL-NYC 2.0 Graphite Grey Loden Green",
-      "brand": "Asics GEL-NYC 2.0",
-      "date": "2026-08-07",
-      "price": 160,
-      "wtc_url": "https://www.whentocop.fr/drops/asics-gel-nyc-2-0-graphite-grey-loden-green-1203b080-021",
-      "image": "/images/1203B080-021.webp",
-      "image_url": "/images/1203B080-021.webp",
-      "retailers": [
-        {
-          "name": "Asics",
-          "url": "https://prf.hn/click/camref:1101lBWP9/pubref:defaultDropCreation/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2F",
-          "price": ""
-        },
-        {
-          "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B080-021&wgtarget=https://en.afew-store.com/products/asics-gel-nyc-2-0-graphite-grey-loden-green",
-          "price": "159€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
-          "price": ""
-        },
-        {
-          "name": "Limited Resell",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
-          "price": ""
-        },
-        {
-          "name": "GOAT",
-          "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "asics-gel-nyc-2-0-slate-blue-graphite-grey-1203b080-400",
-      "sku": "1203B080-400",
-      "name": "Asics Gel-NYC 2.0 Slate Blue Graphite Grey",
-      "brand": "Asics Gel-NYC 2.0",
-      "date": "2026-08-07",
-      "price": 160,
-      "wtc_url": "https://www.whentocop.fr/drops/asics-gel-nyc-2-0-slate-blue-graphite-grey-1203b080-400",
-      "image": "/images/1203B080-400.webp",
-      "image_url": "/images/1203B080-400.webp",
-      "retailers": [
-        {
-          "name": "Asics",
-          "url": "https://prf.hn/click/camref:1101lBWP9/pubref:defaultDropCreation/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2F",
-          "price": ""
-        },
-        {
-          "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B080-400&wgtarget=https://en.afew-store.com/products/asics-gel-nyc-2-0-slate-blue-graphite-grey",
-          "price": "159€"
-        },
-        {
-          "name": "StockX",
-          "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
-          "price": ""
-        },
-        {
-          "name": "Limited Resell",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
-          "price": ""
-        },
-        {
-          "name": "GOAT",
-          "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "willy-chavarria-adidas-megaride-ag-powder-red-ki7006",
-      "sku": "KI7006",
       "name": "Willy Chavarria x adidas Megaride AG Powder Red",
       "brand": "Willy Chavarria x adidas Megaride AG",
-      "date": "2026-08-07",
-      "price": 200,
-      "wtc_url": "https://www.whentocop.fr/drops/willy-chavarria-adidas-megaride-ag-powder-red-ki7006",
-      "image": "/images/KI7006.webp",
+      "date": "07/08/2026",
+      "price": "200 €",
       "image_url": "/images/KI7006.webp",
+      "image": "/images/KI7006.webp",
+      "id": "willy-chavarria-adidas-megaride-ag-powder-red-ki7006",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/willy-chavarria-adidas-megaride-ag-powder-red-ki7006",
       "retailers": [
         {
           "name": "Adidas Confirmed",
@@ -720,18 +633,20 @@
           "url": "https://goat.sjv.io/WD9g3G",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "air-jordan-17-low-sp-black-patent-iv7640-001",
-      "sku": "IV7640-001",
-      "name": "Air Jordan 17 Low SP Black Patent",
-      "brand": "Air Jordan 17 Low SP",
-      "date": "2026-08-08",
-      "price": 240,
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-17-low-sp-black-patent-iv7640-001",
-      "image": "/images/IV7640-001.webp",
-      "image_url": "/images/IV7640-001.webp",
+      "name": "Nike LeBron XXIII Hardwood Classics",
+      "brand": "Nike LeBron XXIII",
+      "date": "07/08/2026",
+      "price": "200 €",
+      "image_url": "/images/IM5125-400.webp",
+      "image": "/images/IM5125-400.webp",
+      "id": "nike-lebron-23-hardwood-classics-im5125-400",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-lebron-23-hardwood-classics-im5125-400",
       "retailers": [
         {
           "name": "Nike",
@@ -739,19 +654,9 @@
           "price": ""
         },
         {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IV7640-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-air-jordan-17-low-sp-iv7640-001-0359151",
-          "price": "239€"
-        },
-        {
-          "name": "FootDistrict",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=IV7640-001&wgtarget=https://footdistrict.com/fr/products/air-jordan-17-low-sp-black-patent-iv7640-001",
-          "price": "240€"
-        },
-        {
           "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IV7640-001&wgtarget=https://en.afew-store.com/products/air-jordan-17-low-sp-black-black-metallic-silver",
-          "price": "239€"
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IM5125-400&wgtarget=https://en.afew-store.com/products/nike-lebron-xxiii-per-game-royal-white-safety-orange",
+          "price": "199€"
         },
         {
           "name": "StockX",
@@ -768,18 +673,100 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "hellstar-adidas-megaride-s2-off-white-core-black-kh8086",
-      "sku": "KH8086",
+      "name": "Asics GEL-NYC 2.0 Graphite Grey Loden Green",
+      "brand": "Asics GEL-NYC 2.0",
+      "date": "07/08/2026",
+      "price": "160 €",
+      "image_url": "/images/1203B080-021.webp",
+      "image": "/images/1203B080-021.webp",
+      "id": "asics-gel-nyc-2-0-graphite-grey-loden-green-1203b080-021",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/asics-gel-nyc-2-0-graphite-grey-loden-green-1203b080-021",
+      "retailers": [
+        {
+          "name": "Asics",
+          "url": "https://prf.hn/click/camref:1101lBWP9/pubref:defaultDropCreation/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2F",
+          "price": ""
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B080-021&wgtarget=https://en.afew-store.com/products/asics-gel-nyc-2-0-graphite-grey-loden-green",
+          "price": "159€"
+        },
+        {
+          "name": "StockX",
+          "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
+          "price": ""
+        },
+        {
+          "name": "Limited Resell",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
+          "price": ""
+        },
+        {
+          "name": "GOAT",
+          "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
+          "price": ""
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
+      "name": "Asics Gel-NYC 2.0 Slate Blue Graphite Grey",
+      "brand": "Asics Gel-NYC 2.0",
+      "date": "07/08/2026",
+      "price": "160 €",
+      "image_url": "/images/1203B080-400.webp",
+      "image": "/images/1203B080-400.webp",
+      "id": "asics-gel-nyc-2-0-slate-blue-graphite-grey-1203b080-400",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/asics-gel-nyc-2-0-slate-blue-graphite-grey-1203b080-400",
+      "retailers": [
+        {
+          "name": "Asics",
+          "url": "https://prf.hn/click/camref:1101lBWP9/pubref:defaultDropCreation/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2F",
+          "price": ""
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B080-400&wgtarget=https://en.afew-store.com/products/asics-gel-nyc-2-0-slate-blue-graphite-grey",
+          "price": "159€"
+        },
+        {
+          "name": "StockX",
+          "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
+          "price": ""
+        },
+        {
+          "name": "Limited Resell",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
+          "price": ""
+        },
+        {
+          "name": "GOAT",
+          "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
+          "price": ""
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
       "name": "Hellstar x adidas Megaride S2 Off White Core Black",
       "brand": "Hellstar x adidas Megaride S2",
-      "date": "2026-08-08",
-      "price": 200,
-      "wtc_url": "https://www.whentocop.fr/drops/hellstar-adidas-megaride-s2-off-white-core-black-kh8086",
-      "image": "/images/KH8086.webp",
+      "date": "08/08/2026",
+      "price": "200 €",
       "image_url": "/images/KH8086.webp",
+      "image": "/images/KH8086.webp",
+      "id": "hellstar-adidas-megaride-s2-off-white-core-black-kh8086",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/hellstar-adidas-megaride-s2-off-white-core-black-kh8086",
       "retailers": [
         {
           "name": "Solebox",
@@ -821,18 +808,70 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "vandythepink-asics-gel-kayano-12-1-vanilla-1203b302-100",
-      "sku": "1203B302-100",
+      "name": "Air Jordan 17 Low SP Black Patent",
+      "brand": "Air Jordan 17 Low SP",
+      "date": "08/08/2026",
+      "price": "240 €",
+      "image_url": "/images/IV7640-001.webp",
+      "image": "/images/IV7640-001.webp",
+      "id": "air-jordan-17-low-sp-black-patent-iv7640-001",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-17-low-sp-black-patent-iv7640-001",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+          "price": ""
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IV7640-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-air-jordan-17-low-sp-iv7640-001-0359151",
+          "price": "239€"
+        },
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=IV7640-001&wgtarget=https://footdistrict.com/fr/products/air-jordan-17-low-sp-black-patent-iv7640-001",
+          "price": "240€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IV7640-001&wgtarget=https://en.afew-store.com/products/air-jordan-17-low-sp-black-black-metallic-silver",
+          "price": "239€"
+        },
+        {
+          "name": "StockX",
+          "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
+          "price": ""
+        },
+        {
+          "name": "Limited Resell",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
+          "price": ""
+        },
+        {
+          "name": "GOAT",
+          "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
+          "price": ""
+        }
+      ],
+      "resell": "",
+      "stock": ""
+    },
+    {
       "name": "VANDYTHEPINK x Asics Gel-Kayano 12.1 Vanilla",
       "brand": "VANDYTHEPINK x Asics Gel-Kayano 12.1",
-      "date": "2026-08-08",
-      "price": 195,
-      "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-12-1-vanilla-1203b302-100",
-      "image": "/images/1203B302-100.webp",
+      "date": "08/08/2026",
+      "price": "195 €",
       "image_url": "/images/1203B302-100.webp",
+      "image": "/images/1203B302-100.webp",
+      "id": "vandythepink-asics-gel-kayano-12-1-vanilla-1203b302-100",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-12-1-vanilla-1203b302-100",
       "retailers": [
         {
           "name": "Asics",
@@ -854,18 +893,20 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     },
     {
-      "id": "vandythepink-asics-gel-kayano-121-chocolate",
-      "sku": "CHOCOLATE",
       "name": "VANDYTHEPINK x Asics Gel-Kayano 12.1 Chocolate",
       "brand": "VANDYTHEPINK x Asics Gel-Kayano 12.1",
-      "date": "2026-08-08",
-      "price": 195,
-      "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-121-chocolate",
-      "image": "/images/VANDYPINK-CHOC.webp",
+      "date": "08/08/2026",
+      "price": "195 €",
       "image_url": "/images/VANDYPINK-CHOC.webp",
+      "image": "/images/VANDYPINK-CHOC.webp",
+      "id": "vandythepink-asics-gel-kayano-121-chocolate",
+      "buy_url": "",
+      "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-121-chocolate",
       "retailers": [
         {
           "name": "Asics",
@@ -887,7 +928,10 @@
           "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
           "price": ""
         }
-      ]
+      ],
+      "resell": "",
+      "stock": ""
     }
-  ]
+  ],
+  "promos": []
 }
