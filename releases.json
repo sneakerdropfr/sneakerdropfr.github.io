@@ -68,6 +68,18 @@
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
       }
+    ],
+    "restocks": [
+      {
+        "date": "2026-08-05",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45425569742&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      }
     ]
   },
   {
@@ -126,6 +138,18 @@
         "name": "GOAT",
         "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
         "price": ""
+      }
+    ],
+    "restocks": [
+      {
+        "date": "2026-08-05",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45425569733&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
       }
     ]
   },
@@ -1731,6 +1755,18 @@
         "url": "https://goat.sjv.io/WD9g3G",
         "price": ""
       }
+    ],
+    "restocks": [
+      {
+        "date": "2026-08-05",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45092041123&a=2855487&m=104979",
+            "price": "179,99€"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1880,7 +1916,19 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/04/new-balance-991-essential-m991pk1-m991pn1/",
     "added_at": "2026-08-05T08:00:02.353820+00:00",
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-08-05",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45242147671&a=2855487&m=104979",
+            "price": "269,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "new-balance-991-rolls-out-two-luxe-essential-looks-m991pk1",
@@ -1893,7 +1941,19 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/04/new-balance-991-essential-m991pk1-m991pn1/",
     "added_at": "2026-08-05T08:00:02.354233+00:00",
-    "featured": false
+    "featured": false,
+    "restocks": [
+      {
+        "date": "2026-08-05",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45242147666&a=2855487&m=104979",
+            "price": "269,99€"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "dtlr-goes-stealth-mode-with-the-new-balance-2010-carbon-u20104ar",
