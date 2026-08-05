@@ -1,5 +1,17 @@
 [
   {
+    "id": "nike-lebron-23-hyper-pink-releases-fall-2026",
+    "title": "Nike LeBron 23 “Hyper Pink” Releases Fall 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/08/nike-lebron-23-hyper-pink-JF4656-600-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w?q=nike lebron 23&amp;vst=nike lebron 23",
+    "source": "Sneaker Files",
+    "added_at": "2026-08-05T09:48:59.798861+00:00"
+  },
+  {
     "id": "adidas-jellyfish-crystal-sand-releases-august-2026",
     "title": "adidas Jellyfish “Crystal Sand” Releases August 2026",
     "brand": "Sneaker Files",
@@ -1870,102 +1882,5 @@
         "price": ""
       }
     ]
-  },
-  {
-    "id": "nike-air-max-dolce-light-magenta-black-ib4527-500",
-    "sku": "IB4527-500",
-    "brand": "Nike Air Max Dolce",
-    "title": "Nike Air Max Dolce Light Magenta Black",
-    "date": "2026-09-30",
-    "price": 170,
-    "year": 2026,
-    "image_url": "/images/IB4527-500.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-dolce-light-magenta-black-ib4527-500",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-        "price": ""
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
-        "price": ""
-      },
-      {
-        "name": "Limited Resell",
-        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
-        "price": ""
-      },
-      {
-        "name": "GOAT",
-        "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
-        "price": ""
-      }
-    ]
-  },
-  {
-    "id": "new-balance-991-rolls-out-two-luxe-essential-looks-m991pn1",
-    "title": "New Balance 991 Rolls Out Two Luxe “Essential” Looks",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": null,
-    "sku": "M991PN1",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/new-balance-991-essential-navy-m991pn1-4.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/04/new-balance-991-essential-m991pk1-m991pn1/",
-    "added_at": "2026-08-05T08:00:02.353820+00:00",
-    "featured": false,
-    "restocks": [
-      {
-        "date": "2026-08-05",
-        "retailers": [
-          {
-            "name": "BSTN",
-            "url": "https://www.awin1.com/pclick.php?p=45242147671&a=2855487&m=104979",
-            "price": "269,99€"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "new-balance-991-rolls-out-two-luxe-essential-looks-m991pk1",
-    "title": "New Balance 991 Rolls Out Two Luxe “Essential” Looks",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": null,
-    "sku": "M991PK1",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/new-balance-991-essential-navy-m991pn1-4.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/04/new-balance-991-essential-m991pk1-m991pn1/",
-    "added_at": "2026-08-05T08:00:02.354233+00:00",
-    "featured": false,
-    "restocks": [
-      {
-        "date": "2026-08-05",
-        "retailers": [
-          {
-            "name": "BSTN",
-            "url": "https://www.awin1.com/pclick.php?p=45242147666&a=2855487&m=104979",
-            "price": "269,99€"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "dtlr-goes-stealth-mode-with-the-new-balance-2010-carbon-u20104ar",
-    "title": "DTLR Goes Stealth Mode With The New Balance 2010 “Carbon”",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 145.0,
-    "sku": "U20104AR",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/dtlr-new-balance-2010-carbon-10.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/04/dtlr-new-balance-2010-carbon/",
-    "added_at": "2026-08-05T08:00:02.358201+00:00",
-    "featured": false
   }
 ]
