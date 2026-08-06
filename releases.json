@@ -136,7 +136,13 @@
     "featured": false,
     "wtc_url": "https://www.whentocop.fr/drops/nike-p-6000-wmns-sand-drift-ir1215-100",
     "image_url": "/images/IR1215-100.webp",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/t/-/IR1215-100",
+        "price": "120€"
+      }
+    ]
   },
   {
     "id": "nike-air-force-1-low-07-wmns-pure-platinum-metallic-swoosh-iv6039-002",
@@ -149,7 +155,13 @@
     "featured": false,
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-07-wmns-pure-platinum-metallic-swoosh-iv6039-002",
     "image_url": "/images/IV6039-002.webp",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/t/-/IV6039-002",
+        "price": "130€"
+      }
+    ]
   },
   {
     "id": "arte-antwerp-adidas-f50-white-kk3245",
@@ -1363,6 +1375,12 @@
     "image_url": "/images/II6236-500.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-vomero-5-wmns-tattoo-particle-rose-ii6236-500",
     "featured": false,
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.nike.com/fr/search?q=II6236-500",
+        "price": "120€"
+      }
+    ]
   }
 ]
