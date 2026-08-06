@@ -120,6 +120,16 @@
             "price": "129,99€"
           }
         ]
+      },
+      {
+        "date": "2026-08-06",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45425569742&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
       }
     ]
   },
@@ -198,6 +208,16 @@
     "restocks": [
       {
         "date": "2026-08-05",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45425569733&a=2855487&m=104979",
+            "price": "129,99€"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-06",
         "retailers": [
           {
             "name": "BSTN",
@@ -2437,6 +2457,16 @@
             "price": "179,99€"
           }
         ]
+      },
+      {
+        "date": "2026-08-06",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45092041123&a=2855487&m=104979",
+            "price": "179,99€"
+          }
+        ]
       }
     ]
   },
@@ -2576,6 +2606,18 @@
         "price": "",
         "resell": false,
         "raffle": false
+      }
+    ],
+    "restocks": [
+      {
+        "date": "2026-08-06",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45242147671&a=2855487&m=104979",
+            "price": "269,99€"
+          }
+        ]
       }
     ]
   },
@@ -2763,6 +2805,18 @@
         "price": "160€",
         "resell": false,
         "raffle": false
+      }
+    ],
+    "restocks": [
+      {
+        "date": "2026-08-06",
+        "retailers": [
+          {
+            "name": "BSTN",
+            "url": "https://www.awin1.com/pclick.php?p=45417528070&a=2855487&m=104979",
+            "price": "169,99€"
+          }
+        ]
       }
     ]
   },
