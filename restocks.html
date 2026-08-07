@@ -23,21 +23,27 @@
       --font-body:'Barlow',sans-serif;
       --font-cond:'Barlow Condensed',sans-serif;
     }
+    [data-theme="dark"]{
+      --bg:#111;--bg-alt:#1a1a1a;--text:#f0f0f0;--muted:#888;--border:#2a2a2a;
+    }
     html{scroll-behavior:smooth}
-    body{background:var(--bg);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden;margin:0}
+    body{background:var(--bg);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden;margin:0;transition:background .2s,color .2s}
     a{text-decoration:none;color:inherit}
     img{max-width:100%;display:block}
     .container{max-width:1100px;margin:0 auto;padding:0 1.5rem}
     /* Header */
     .header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    [data-theme="dark"] .header{background:rgba(17,17,17,.97)}
     .header__inner{display:flex;align-items:center;gap:.75rem;height:56px}
     .logo{display:flex;align-items:center;gap:.45rem;font-family:var(--font-cond);font-size:1.15rem;font-weight:900;letter-spacing:.04em;color:var(--black);flex-shrink:0}
+    [data-theme="dark"] .logo{color:var(--text)}
     .logo__icon{width:30px;height:30px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
     .logo__fr{opacity:.45}
     .header__spacer{flex:1}
     .header__nav{display:flex;align-items:center;gap:.5rem}
     .hbtn{font-family:var(--font-cond);font-weight:900;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:.42rem .9rem;border-radius:6px;white-space:nowrap;transition:background .15s,color .15s;cursor:pointer;display:inline-flex;align-items:center;gap:.3rem}
     .hbtn--solid{background:var(--black);color:#fff;border:1px solid var(--black)}
+    [data-theme="dark"] .hbtn--solid{background:var(--bg-alt);color:var(--text);border-color:var(--border)}
     .hbtn--solid:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
     .hbtn--tg{background:var(--accent);color:#fff;border:1px solid var(--accent)}
     .hbtn--tg:hover{background:#cc2222;border-color:#cc2222}
@@ -48,34 +54,45 @@
     .page-hero{margin-bottom:2.5rem}
     .page-hero__label{font-family:var(--font-cond);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.4rem}
     .page-hero__title{font-family:var(--font-display);font-size:clamp(2.4rem,6vw,4rem);text-transform:uppercase;line-height:1;color:var(--black);margin-bottom:.6rem}
+    [data-theme="dark"] .page-hero__title{color:var(--text)}
     .page-hero__title span{color:var(--accent)}
     .page-hero__sub{color:var(--muted);font-size:.95rem;max-width:500px}
     .page-hero__count{display:inline-block;margin-top:.75rem;font-family:var(--font-cond);font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:var(--bg-alt);border:1px solid var(--border);border-radius:999px;padding:.25rem .8rem;color:var(--muted)}
+    /* Filtres */
+    .filters{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.5rem}
+    .filter-btn{font-family:var(--font-cond);font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.35rem .8rem;border-radius:999px;border:1px solid var(--border);background:var(--bg-alt);color:var(--muted);cursor:pointer;transition:all .15s}
+    .filter-btn:hover,.filter-btn.active{background:var(--black);color:#fff;border-color:var(--black)}
+    [data-theme="dark"] .filter-btn:hover,[data-theme="dark"] .filter-btn.active{background:var(--text);color:var(--bg)}
     /* Grid */
     .restocks-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem}
     @media(max-width:600px){.restocks-grid{grid-template-columns:1fr}}
-    .restock-card{background:#fff;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;transition:border-color .15s,box-shadow .15s,transform .15s;display:flex;flex-direction:column}
+    .restock-card{background:var(--bg);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;transition:border-color .15s,box-shadow .15s,transform .15s;display:flex;flex-direction:column}
     .restock-card:hover{border-color:#ccc;box-shadow:var(--shadow-hover);transform:translateY(-2px)}
-    .restock-card__img{display:block;background:#F5F5F5;aspect-ratio:1;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:1rem}
+    [data-theme="dark"] .restock-card:hover{border-color:#444}
+    .restock-card__img{display:flex;background:var(--bg-alt);aspect-ratio:1;overflow:hidden;align-items:center;justify-content:center;padding:1rem}
     .restock-card__img img{width:100%;height:100%;object-fit:contain;transition:transform .2s}
     .restock-card:hover .restock-card__img img{transform:scale(1.04)}
     .restock-card__no-img{width:60px;height:60px;background:var(--border);border-radius:8px}
     .restock-card__body{padding:1rem 1.1rem;display:flex;flex-direction:column;gap:.5rem;flex:1}
     .restock-card__date{font-family:var(--font-cond);font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
-    .restock-card__title{font-family:var(--font-cond);font-size:1rem;font-weight:900;text-transform:uppercase;letter-spacing:.03em;color:var(--black);line-height:1.2}
-    .restock-card__title:hover{color:var(--accent)}
+    .restock-card__title{font-family:var(--font-cond);font-size:1rem;font-weight:900;text-transform:uppercase;letter-spacing:.03em;color:var(--text);line-height:1.2}
+    .restock-card__title a{color:inherit;transition:color .15s}
+    .restock-card__title a:hover{color:var(--accent)}
+    .restock-card__price{font-family:var(--font-cond);font-size:.85rem;font-weight:700;color:var(--muted)}
     .restock-card__retailers{display:flex;flex-direction:column;gap:.3rem;margin-top:.25rem}
-    .rc__link{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-cond);font-size:.82rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--black);background:var(--bg-alt);border:1px solid var(--border);border-radius:6px;padding:.3rem .7rem;transition:border-color .15s,background .15s}
+    .rc__link{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-cond);font-size:.82rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text);background:var(--bg-alt);border:1px solid var(--border);border-radius:6px;padding:.3rem .7rem;transition:border-color .15s,background .15s}
     .rc__link:hover{background:var(--black);color:#fff;border-color:var(--black)}
-    .rc__link--nourl{cursor:default}
-    .rc__link--nourl:hover{background:var(--bg-alt);color:var(--black);border-color:var(--border)}
+    [data-theme="dark"] .rc__link:hover{background:var(--text);color:var(--bg)}
     .rc__price{color:var(--accent);margin-left:.2rem}
     .rc__no-retailer{font-family:var(--font-cond);font-size:.8rem;color:var(--muted)}
+    /* Badge "Aujourd'hui" / "Demain" */
+    .restock-card__badge{font-family:var(--font-cond);font-size:.65rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;background:var(--accent);color:#fff;border-radius:4px;padding:.15rem .45rem;display:inline-block;margin-left:.4rem}
     /* Empty */
     .restock-empty{text-align:center;padding:4rem 2rem;background:var(--bg-alt);border:1px solid var(--border);border-radius:var(--r)}
     .restock-empty p{color:var(--muted);font-size:.95rem;line-height:1.7;margin:.3rem 0}
     /* CTA */
     .page-cta{background:var(--black);border-radius:16px;padding:2.5rem;text-align:center;color:#fff;margin-top:3rem}
+    [data-theme="dark"] .page-cta{background:#1a1a1a;border:1px solid var(--border)}
     .page-cta h3{font-family:var(--font-display);font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:.6rem}
     .page-cta p{color:rgba(255,255,255,.6);font-size:.9rem;margin-bottom:1.5rem}
     .btn-tg{display:inline-flex;align-items:center;gap:.5rem;background:var(--accent);color:#fff;font-family:var(--font-cond);font-weight:900;font-size:.95rem;letter-spacing:.07em;text-transform:uppercase;padding:.8rem 1.8rem;border-radius:8px;transition:background .15s,transform .15s}
@@ -84,10 +101,15 @@
     .footer{background:var(--bg-alt);border-top:1px solid var(--border);padding:2rem 0}
     .footer__inner{display:flex;align-items:center;flex-wrap:wrap;gap:1rem;justify-content:space-between}
     .footer__copy{font-size:.82rem;color:var(--muted);flex:1;min-width:200px}
-    .footer__links{display:flex;gap:1rem}
+    .footer__links{display:flex;gap:1rem;align-items:center}
     .footer__links a{font-family:var(--font-cond);font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);transition:color .15s}
-    .footer__links a:hover{color:var(--black)}
+    .footer__links a:hover{color:var(--text)}
+    /* Skeleton loader */
+    .skeleton{background:linear-gradient(90deg,var(--bg-alt) 25%,var(--border) 50%,var(--bg-alt) 75%);background-size:200% 100%;animation:shimmer 1.4s infinite;border-radius:8px}
+    @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
   </style>
+  <script>(function(){var s=localStorage.getItem('theme-pref');if(s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+  <script src="/assets/js/common.js"></script>
 </head>
 <body>
   <header class="header">
@@ -102,6 +124,7 @@
         <a href="/sorties.html" class="hbtn hbtn--solid hbtn--hide-sm">Sorties</a>
         <a href="/restocks.html" class="hbtn hbtn--active hbtn--hide-sm">Restocks</a>
         <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener" class="hbtn hbtn--tg">Telegram</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Mode sombre" style="border:1px solid var(--border);background:none;border-radius:8px;padding:.3rem .6rem;cursor:pointer;font-size:1rem;margin-left:.5rem">🌙</button>
       </nav>
     </div>
   </header>
@@ -112,11 +135,21 @@
         <div class="page-hero__label">Sneakers</div>
         <h1 class="page-hero__title">Restocks <span>confirmés</span></h1>
         <p class="page-hero__sub">Toutes les paires disponibles de nouveau — Nike, Jordan, Adidas, New Balance et plus.</p>
-        <span class="page-hero__count">0 restock</span>
+        <span class="page-hero__count" id="restock-count">Chargement…</span>
       </div>
 
-      <div class="restocks-grid">
-<div class="restock-empty"><p>Aucun restock enregistré pour l'instant.</p><p>Les restocks confirmés apparaîtront ici dès qu'ils seront ajoutés.</p></div>
+      <div class="filters" id="brand-filters">
+        <button class="filter-btn active" data-brand="all">Toutes les marques</button>
+      </div>
+
+      <div class="restocks-grid" id="restocks-grid">
+        <!-- Skeleton loaders -->
+        <div style="aspect-ratio:1;border-radius:12px" class="skeleton"></div>
+        <div style="aspect-ratio:1;border-radius:12px" class="skeleton"></div>
+        <div style="aspect-ratio:1;border-radius:12px" class="skeleton"></div>
+        <div style="aspect-ratio:1;border-radius:12px" class="skeleton"></div>
+        <div style="aspect-ratio:1;border-radius:12px" class="skeleton"></div>
+        <div style="aspect-ratio:1;border-radius:12px" class="skeleton"></div>
       </div>
 
       <div class="page-cta">
@@ -143,9 +176,142 @@
           <a href="/restocks.html">Restocks</a>
           <a href="/deals.html">Deals</a>
           <a href="https://t.me/SneakersDropsFR" target="_blank" rel="noopener">Telegram</a>
+          <button id="theme-toggle-footer" class="theme-toggle" aria-label="Mode sombre" style="border:1px solid var(--border);background:none;border-radius:8px;padding:.3rem .6rem;cursor:pointer;font-size:1rem;margin-left:.5rem">🌙</button>
         </div>
       </div>
     </div>
   </footer>
+
+  <script>
+  (function() {
+    // ── Date helpers ──────────────────────────────────────────────────────
+    const MONTHS_FR = ['Jan','Fév','Mar','Avr','Mai','Jun','Jul','Aoû','Sep','Oct','Nov','Déc'];
+    const MONTHS_LONG = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+
+    function formatDate(isoDate) {
+      if (!isoDate || isoDate === '2026-12-31') return 'Date à confirmer';
+      try {
+        const [y, m, d] = isoDate.split('-').map(Number);
+        return `${d} ${MONTHS_LONG[m - 1]} ${y}`;
+      } catch { return isoDate; }
+    }
+
+    function badgeFor(isoDate) {
+      if (!isoDate || isoDate === '2026-12-31') return '';
+      const today = new Date(); today.setHours(0,0,0,0);
+      const drop = new Date(isoDate); drop.setHours(0,0,0,0);
+      const diff = Math.round((drop - today) / 86400000);
+      if (diff === 0) return '<span class="restock-card__badge">Aujourd\'hui</span>';
+      if (diff === 1) return '<span class="restock-card__badge">Demain</span>';
+      if (diff <= 7) return `<span class="restock-card__badge">J-${diff}</span>`;
+      return '';
+    }
+
+    // ── Render ────────────────────────────────────────────────────────────
+    function renderCard(item) {
+      const imgHtml = item.image_url
+        ? `<img src="${item.image_url}" alt="${item.title}" loading="lazy" width="300" height="300">`
+        : `<div class="restock-card__no-img"></div>`;
+
+      const titleHtml = item.wtc_url
+        ? `<a href="${item.wtc_url}" target="_blank" rel="noopener">${item.title}</a>`
+        : item.title;
+
+      const priceHtml = item.price ? `<div class="restock-card__price">${item.price}€</div>` : '';
+
+      let retailersHtml = '';
+      if (item.retailers && item.retailers.length > 0) {
+        retailersHtml = '<div class="restock-card__retailers">';
+        item.retailers.forEach(r => {
+          const priceSpan = r.price ? `<span class="rc__price">${r.price}</span>` : '';
+          retailersHtml += `<a href="${r.url}" target="_blank" rel="noopener sponsored" class="rc__link">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            ${r.name}${priceSpan}
+          </a>`;
+        });
+        retailersHtml += '</div>';
+      } else {
+        retailersHtml = '<p class="rc__no-retailer">Retailers bientôt disponibles</p>';
+      }
+
+      return `<article class="restock-card" data-brand="${item.brand}">
+        <div class="restock-card__img">${imgHtml}</div>
+        <div class="restock-card__body">
+          <div class="restock-card__date">${formatDate(item.date)}${badgeFor(item.date)}</div>
+          <div class="restock-card__title">${titleHtml}</div>
+          ${priceHtml}
+          ${retailersHtml}
+        </div>
+      </article>`;
+    }
+
+    function renderGrid(items) {
+      const grid = document.getElementById('restocks-grid');
+      const count = document.getElementById('restock-count');
+      const filters = document.getElementById('brand-filters');
+
+      if (!items || items.length === 0) {
+        grid.innerHTML = '<div class="restock-empty"><p>Aucun restock enregistré pour l\'instant.</p><p>Les restocks confirmés apparaîtront ici dès qu\'ils seront ajoutés.</p></div>';
+        count.textContent = '0 restock';
+        return;
+      }
+
+      // Construire filtres par marque
+      const brands = [...new Set(items.map(i => i.brand).filter(Boolean))].sort();
+      const PRIORITY = ['Nike','Air Jordan','Jordan','Adidas','New Balance','Vans','Converse','Puma','Reebok','Asics','Saucony'];
+      brands.sort((a, b) => {
+        const ia = PRIORITY.indexOf(a), ib = PRIORITY.indexOf(b);
+        if (ia !== -1 && ib !== -1) return ia - ib;
+        if (ia !== -1) return -1;
+        if (ib !== -1) return 1;
+        return a.localeCompare(b);
+      });
+      const existingBtns = filters.querySelectorAll('[data-brand]');
+      existingBtns.forEach(b => { if (b.dataset.brand !== 'all') b.remove(); });
+      brands.forEach(brand => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.dataset.brand = brand;
+        btn.textContent = brand;
+        filters.appendChild(btn);
+      });
+
+      // Trier: dates connues d'abord, puis TBD
+      const dated = items.filter(i => i.date && i.date !== '2026-12-31').sort((a, b) => a.date.localeCompare(b.date));
+      const tbd = items.filter(i => !i.date || i.date === '2026-12-31');
+      const sorted = [...dated, ...tbd];
+
+      // Rendu initial (toutes marques)
+      let activeBrand = 'all';
+      function renderFiltered() {
+        const filtered = activeBrand === 'all' ? sorted : sorted.filter(i => i.brand === activeBrand);
+        grid.innerHTML = filtered.map(renderCard).join('');
+        count.textContent = `${filtered.length} restock${filtered.length > 1 ? 's' : ''}`;
+      }
+      renderFiltered();
+
+      // Événements filtres
+      filters.addEventListener('click', e => {
+        const btn = e.target.closest('[data-brand]');
+        if (!btn) return;
+        filters.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeBrand = btn.dataset.brand;
+        renderFiltered();
+      });
+    }
+
+    // ── Fetch restocks.json ───────────────────────────────────────────────
+    fetch('/restocks.json?t=' + Date.now())
+      .then(r => r.json())
+      .then(data => renderGrid(data))
+      .catch(err => {
+        console.error('Erreur chargement restocks:', err);
+        document.getElementById('restocks-grid').innerHTML =
+          '<div class="restock-empty"><p>Impossible de charger les restocks.</p><p>Réessaie dans quelques instants.</p></div>';
+        document.getElementById('restock-count').textContent = '—';
+      });
+  })();
+  </script>
 </body>
 </html>
