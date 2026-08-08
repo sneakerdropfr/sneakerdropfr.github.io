@@ -2849,6 +2849,29 @@
     "buy_url": "https://sneakernews.com/2026/08/07/pharrell-adidas-jellyfish-golden-ticket/",
     "added_at": "2026-08-07T22:00:02.049602+00:00",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKH6729",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkh6729%2F",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
