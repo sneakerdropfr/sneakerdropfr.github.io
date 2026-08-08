@@ -55,7 +55,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Grey/Purple"
   },
   {
     "id": "adidas-zx-8000-purple-fropur-pulmin-kh6244",
@@ -113,7 +114,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Purple"
   },
   {
     "id": "beyond-nike-sb-dunk-high-pro-white-sand-dune-iu4491-100",
@@ -146,7 +148,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Dunk High",
+    "colorway": "White/Sand/Dune"
   },
   {
     "id": "nike-air-max-95-big-bubble-canvas-cream-im9605-200",
@@ -186,7 +190,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max 95",
+    "colorway": "Cream"
   },
   {
     "id": "nike-p-6000-wmns-sand-drift-ir1215-100",
@@ -226,7 +232,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Sand"
   },
   {
     "id": "nike-air-force-1-low-07-wmns-pure-platinum-metallic-swoosh-iv6039-002",
@@ -266,7 +273,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1"
   },
   {
     "id": "arte-antwerp-adidas-f50-white-kk3245",
@@ -314,7 +322,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "White"
   },
   {
     "id": "arte-antwerp-adidas-f50-core-black-kk3246",
@@ -357,7 +366,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "nike-zoom-streak-3-wmns-cream-sail-iq8020-200",
@@ -413,7 +423,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Cream/Sail"
   },
   {
     "id": "new-balance-1890a-dark-night-u18905jk",
@@ -554,7 +565,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 13",
+    "colorway": "Black"
   },
   {
     "id": "new-balance-fuelcell-supercomp-elite-v6-wmns-fresh-air-alkaline-green-wrcel91c",
@@ -587,7 +600,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Green"
   },
   {
     "id": "new-balance-fuelcell-supercomp-elite-v6-wmns-satsuma-orange-wrcel2ru",
@@ -620,7 +634,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Orange"
   },
   {
     "id": "willy-chavarria-adidas-megaride-ag-powder-red-ki7006",
@@ -676,7 +691,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Red"
   },
   {
     "id": "nike-lebron-23-hardwood-classics-im5125-400",
@@ -771,7 +787,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Blue/Grey"
   },
   {
     "id": "asics-gel-nyc-2-0-graphite-grey-loden-green-1203b080-021",
@@ -811,7 +828,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Grey/Green"
   },
   {
     "id": "hellstar-adidas-megaride-s2-off-white-core-black-kh8086",
@@ -862,7 +880,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "White/Black"
   },
   {
     "id": "air-jordan-17-low-sp-black-patent-iv7640-001",
@@ -915,7 +934,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 17",
+    "colorway": "Black"
   },
   {
     "id": "vandythepink-asics-gel-kayano-12-1-vanilla-1203b302-100",
@@ -953,7 +974,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Asics Gel-Kayano"
   },
   {
     "id": "vandythepink-asics-gel-kayano-121-chocolate",
@@ -986,7 +1008,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Asics Gel-Kayano"
   },
   {
     "id": "nike-air-rift-2-wmns-black-metallic-silver-iq8006-003",
@@ -1024,7 +1047,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Rift",
+    "colorway": "Black/Metallic Silver"
   },
   {
     "id": "nike-air-force-1-low-horse-of-a-different-color-ir1940-800",
@@ -1057,7 +1082,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1"
   },
   {
     "id": "nike-air-foamposite-pro-green-camo-im5204-001",
@@ -1097,7 +1123,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Green/Camo"
   },
   {
     "id": "nike-vomero-plus-cheat-day-iv4522-200",
@@ -1173,7 +1200,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 8"
   },
   {
     "id": "nike-air-max-90-sp-shadow-brown-ir1953-200",
@@ -1218,7 +1246,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max 90",
+    "colorway": "Brown"
   },
   {
     "id": "new-balance-1890p-team-red-pink-u18902uh",
@@ -1256,7 +1286,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Red/Pink"
   },
   {
     "id": "nike-mind-001-cucumber-calm",
@@ -1336,7 +1367,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Green"
   },
   {
     "id": "nike-mind-001-slide-white",
@@ -1376,7 +1408,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "White/Red"
   },
   {
     "id": "nike-mind-001-wmns-black-hyper-crimson-hq4309-001",
@@ -1416,7 +1449,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Crimson"
   },
   {
     "id": "air-jordan-6-oreo",
@@ -1449,7 +1483,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 6"
   },
   {
     "id": "adidas-hyperboost-ephr-night-brown-utility-black-la5973",
@@ -1482,7 +1517,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Brown/Black"
   },
   {
     "id": "adidas-hyperboost-ephr-core-black-solar-red-la6206",
@@ -1515,7 +1551,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Red"
   },
   {
     "id": "adidas-hyperboost-euphoria-triple-black-la6211",
@@ -1548,7 +1585,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "new-balance-992-made-in-usa-tan-grey-u992ta",
@@ -1581,7 +1619,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "New Balance 992",
+    "colorway": "Tan/Grey"
   },
   {
     "id": "air-jordan-cryoshot-mercurial-vapor-1-university-red-io8209-600",
@@ -1614,7 +1654,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Cryoshot",
+    "colorway": "University Red"
   },
   {
     "id": "nike-air-max-95-korea-ir5901-010",
@@ -1654,7 +1696,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max 95"
   },
   {
     "id": "nike-mind-001-hyper-royal-volt",
@@ -1694,7 +1737,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Hyper Royal/Volt"
   },
   {
     "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
@@ -1763,7 +1807,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "mowalola-air-jordan-14-burnt-red-iq5708-001",
@@ -1796,7 +1841,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 14",
+    "colorway": "Red"
   },
   {
     "id": "new-balance-2000s-grey-u20008da",
@@ -1841,7 +1888,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Grey"
   },
   {
     "id": "j-balvin-air-jordan-4-lemonade-iw2872-700",
@@ -1874,7 +1922,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "travis-scott-nike-air-force-1-low-07-ice-blue-ostrich-jf7727-400",
@@ -1907,7 +1956,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "colorway": "Blue"
   },
   {
     "id": "nike-air-max-dolce-wmns-metallic-silver-black-ib4527-001",
@@ -1947,7 +1998,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Metallic Silver/Black"
   },
   {
     "id": "nike-air-max-dolce-light-magenta-black-ib4527-500",
@@ -1987,7 +2039,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Magenta/Black"
   },
   {
     "id": "nike-air-max-95-tech-smoke-grey-football-blue-ih7853-003",
@@ -2027,7 +2080,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max 95",
+    "colorway": "Smoke/Grey/Blue"
   },
   {
     "id": "nike-air-max-plus-dark-raisin-liquid-lime-ir5898-573",
@@ -2067,7 +2122,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max Plus",
+    "colorway": "Lime"
   },
   {
     "id": "awake-ny-air-jordan-6-retro-midnight-navy-iq5706-400",
@@ -2100,7 +2157,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 6",
+    "colorway": "MIDNIGHT NAVY"
   },
   {
     "id": "awake-ny-air-jordan-6-retro-playful-pink-iq5706-600",
@@ -2133,7 +2192,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 6",
+    "colorway": "PINK"
   },
   {
     "id": "corteiz-nike-shox-r419-game-royal-iq9951-400",
@@ -2166,7 +2227,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "GAME ROYAL"
   },
   {
     "id": "corteiz-nike-shox-r419-black-iq9951-002",
@@ -2199,7 +2261,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "BLACK"
   },
   {
     "id": "corteiz-nike-shox-r419-metallic-silver-iq9951-001",
@@ -2232,7 +2295,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "METALLIC SILVER"
   },
   {
     "id": "nike-zoom-vomero-5-pink-flamingo",
@@ -2272,7 +2336,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink"
   },
   {
     "id": "nike-zoom-vomero-5-wmns-tattoo-particle-rose-ii6236-500",
@@ -2319,7 +2384,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "ROSE"
   },
   {
     "id": "a-ma-mani-re-x-nike-air-force-1-white-on-white-returns-august-7th-hf4084-100",
@@ -2355,7 +2421,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "colorway": "White",
+    "year": 2026
   },
   {
     "id": "nike-turned-its-popular-tech-runners-into-jelly-shoes-iv5738-133",
@@ -2391,7 +2460,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "new-balance-cracks-a-grandpa-approved-991v2-walnut-u991wl2",
@@ -2427,7 +2497,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "hellstar-takes-on-the-gridiron-with-the-adidas-electric-2-football-cleats-la4317",
@@ -2463,7 +2534,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-mind-002-plugs-ahead-in-work-blue-hq4308-401",
@@ -2499,7 +2571,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Blue",
+    "year": 2026
   },
   {
     "id": "nike-kd-19-candy-in-black-releases-on-august-19th-ih1117-002",
@@ -2535,7 +2609,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black",
+    "year": 2026
   },
   {
     "id": "nike-mind-001-goes-pastel-in-palest-purple-hq4309-500",
@@ -2571,7 +2647,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Purple",
+    "year": 2026
   },
   {
     "id": "nike-put-shedeur-sanders-in-a-custom-lamborghini-for-the-air-dt-max-96-low-io4223-100",
@@ -2607,7 +2685,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "aim-leon-dore-s-new-balance-running-pack-drops-august-14th-mrcel3hx",
@@ -2643,7 +2722,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-caitlin-1-lights-up-in-hot-punch-ih7423-600",
@@ -2679,7 +2759,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "camo-nike-foams-are-dropping-in-little-posite-sizes-iv7555-001",
@@ -2715,7 +2796,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Camo",
+    "year": 2026
   },
   {
     "id": "song-for-the-mute-goes-the-distance-with-an-adidas-evo-sl-collab-kj0774",
@@ -2751,7 +2834,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "win-a-golden-ticket-and-get-guaranteed-access-to-pharrell-s-next-adidas-jellyfish-kh6729",
@@ -2764,6 +2848,7 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/07/pharrell-adidas-jellyfish-golden-ticket/",
     "added_at": "2026-08-07T22:00:02.049602+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   }
 ]
