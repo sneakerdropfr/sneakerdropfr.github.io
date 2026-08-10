@@ -1,17 +1,18 @@
 {
-  "week_start": "10/08/2026",
-  "week_end": "16/08/2026",
-  "generated_at": "2026-08-08T05:06:49.224814Z",
-  "releases": [
+  "week_start": "2026-08-10",
+  "week_end": "2026-08-16",
+  "label": "Semaine du 10 au 16 août 2026",
+  "drops": [
     {
       "id": "nike-air-rift-2-wmns-black-metallic-silver-iq8006-003",
       "sku": "IQ8006-003",
-      "name": "Nike Air Rift 2 WMNS Black Metallic Silver",
+      "title": "Nike Air Rift 2 WMNS Black Metallic Silver",
       "brand": "Nike",
       "date": "2026-08-13",
       "price": 130,
+      "year": 2026,
+      "featured": false,
       "wtc_url": "https://www.whentocop.fr/drops/nike-air-rift-2-wmns-black-metallic-silver-iq8006-003",
-      "image": "/images/IQ8006-003.webp",
       "image_url": "/images/IQ8006-003.webp",
       "retailers": [
         {
@@ -23,55 +24,155 @@
           "name": "Naked",
           "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=IQ8006-003&url=https://nakedcph.com/fr/products/nike-nike-rift-2-metallic-silver-black-vast-grey-iq8006-003",
           "price": ""
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8006-003",
+          "price": "130€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8006-003%2F",
+          "price": "130€",
+          "resell": false,
+          "raffle": false
         }
       ]
     },
     {
       "id": "nike-air-force-1-low-horse-of-a-different-color-ir1940-800",
       "sku": "IR1940-800",
-      "name": "Nike Air Force 1 Low Horse Different Color",
       "brand": "Nike",
+      "title": "Nike Air Force 1 Low Horse Different Color",
       "date": "2026-08-13",
       "price": 140,
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-horse-of-a-different-color-ir1940-800",
-      "image": "/images/IR1940-800.webp",
+      "year": 2026,
       "image_url": "/images/IR1940-800.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-horse-of-a-different-color-ir1940-800",
+      "featured": false,
       "retailers": [
         {
           "name": "Nike SNKRS",
           "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IR1940-800&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fair-force-1-low-multi-color-and-sunset",
           "price": "139€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR1940-800",
+          "price": "140€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir1940-800%2F",
+          "price": "140€",
+          "resell": false,
+          "raffle": false
         }
       ]
     },
     {
       "id": "nike-air-foamposite-pro-green-camo-im5204-001",
       "sku": "IM5204-001",
-      "name": "Nike Air Foamposite Pro Green Camo",
+      "title": "Nike Air Foamposite Pro Green Camo",
       "brand": "Nike",
       "date": "2026-08-14",
       "price": 240,
+      "year": 2026,
+      "featured": false,
       "wtc_url": "https://www.whentocop.fr/drops/nike-air-foamposite-pro-green-camo-im5204-001",
-      "image": "/images/IM5204-001.webp",
       "image_url": "/images/IM5204-001.webp",
       "retailers": [
         {
           "name": "Nike",
           "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
           "price": ""
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM5204-001",
+          "price": "240€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim5204-001%2F",
+          "price": "240€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch",
+          "price": "240€",
+          "resell": false,
+          "raffle": false
+        }
+      ]
+    },
+    {
+      "id": "naked-copenhagen-adidas-performance-adizero-evo-sl-zip-wmns-pink-silver-lc1125",
+      "title": "Naked Copenhagen x adidas Adizero Evo SL Zip WMNS Pink Silver",
+      "brand": "Naked Copenhagen x adidas Adizero Evo SL Zip WMNS",
+      "sku": "LC1125",
+      "date": "2026-08-14",
+      "price": 160,
+      "year": 2026,
+      "image_url": "/images/LC1125.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/naked-copenhagen-adidas-performance-adizero-evo-sl-zip-wmns-pink-silver-lc1125",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=LC1125&wgtarget=https://footdistrict.com/fr/products/adidas-performance-x-naked-copenhagen-womens-adizero-evo-sl-zip-lc1125",
+          "price": "160€"
+        },
+        {
+          "name": "Naked",
+          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=LC1125&url=https://nakedcph.com/fr/products/adidas-ori-adidas-running-x-naked-copenhagen-adizero-evo-sl-zip-pink-lc1125",
+          "price": ""
+        },
+        {
+          "name": "Adidas Confirmed",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=LC1125&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-adizero-evo-sl-zip-naked-cph-w%2FLC1125.html",
+          "price": "160€"
+        },
+        {
+          "name": "Asphaltgold",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=LC1125&wgtarget=https://www.asphaltgold.com/fr/products/adidas-x-naked-adizero-evo-sl-zip-w-sandy-pink-silver-metallic-off-white",
+          "price": "159€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DLC1125",
+          "price": "160€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Flc1125%2F",
+          "price": "160€",
+          "resell": false,
+          "raffle": false
         }
       ]
     },
     {
       "id": "nike-vomero-plus-cheat-day-iv4522-200",
       "sku": "IV4522-200",
-      "name": "Nike Vomero Plus Cheat Day",
       "brand": "Nike",
+      "title": "Nike Vomero Plus Cheat Day",
       "date": "2026-08-15",
       "price": 180,
-      "wtc_url": "https://www.whentocop.fr/drops/nike-vomero-plus-cheat-day-iv4522-200",
-      "image": "/images/IV4522-200.webp",
+      "year": 2026,
       "image_url": "/images/IV4522-200.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-vomero-plus-cheat-day-iv4522-200",
+      "featured": false,
       "retailers": [
         {
           "name": "Nike SNKRS",
@@ -82,19 +183,34 @@
           "name": "Offspring",
           "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,21/5537650000&u1=IV4522-200",
           "price": "165€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV4522-200",
+          "price": "180€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv4522-200%2F",
+          "price": "180€",
+          "resell": false,
+          "raffle": false
         }
       ]
     },
     {
       "id": "air-jordan-8-retro-premium-legion-pine-red-io2053-300",
       "sku": "IO2053-300",
-      "name": "Air Jordan 8 Retro Premium Bin 23",
       "brand": "Air Jordan",
+      "title": "Air Jordan 8 Retro Premium Bin",
       "date": "2026-08-15",
       "price": 350,
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-8-retro-premium-legion-pine-red-io2053-300",
-      "image": "/images/IO2053-300.webp",
+      "year": 2026,
       "image_url": "/images/IO2053-300.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-8-retro-premium-legion-pine-red-io2053-300",
+      "featured": false,
       "retailers": [
         {
           "name": "Nike",
@@ -105,18 +221,33 @@
           "name": "Sevenstore",
           "url": "https://sevenstore.prf.hn/click/camref:1011l3Ndsh/pubref:IO2053-300/destination:https%3A%2F%2Fwww.sevenstore.com%2Flaunches%2Fjordan-legion-pinemulticolour-air-jordan-8-bin-23-sneaker%2F",
           "price": "395€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO2053-300",
+          "price": "350€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio2053-300%2F",
+          "price": "350€",
+          "resell": false,
+          "raffle": false
         }
       ]
     },
     {
       "id": "nike-air-max-90-sp-shadow-brown-ir1953-200",
       "sku": "IR1953-200",
-      "name": "Nike Air Max 90 SP Shadow Brown",
+      "title": "Nike Air Max 90 SP Shadow Brown",
       "brand": "Nike",
       "date": "2026-08-15",
       "price": 160,
+      "year": 2026,
+      "featured": false,
       "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-sp-shadow-brown-ir1953-200",
-      "image": "/images/IR1953-200.webp",
       "image_url": "/images/IR1953-200.webp",
       "retailers": [
         {
@@ -128,8 +259,136 @@
           "name": "Offspring",
           "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/4143153809&u1=IR1953-200",
           "price": "150€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR1953-200",
+          "price": "160€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir1953-200%2F",
+          "price": "160€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch",
+          "price": "160€",
+          "resell": false,
+          "raffle": false
+        }
+      ]
+    },
+    {
+      "id": "air-jordan-3-retro-wmns-obsidian-chalk-track-red-ck9246-400",
+      "title": "Air Jordan 3 Retro Sports Renaissance",
+      "brand": "Air Jordan 3 Retro",
+      "sku": "CK9246-400",
+      "date": "2026-08-15",
+      "price": 210,
+      "year": 2026,
+      "image_url": "/images/CK9246-400.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-wmns-obsidian-chalk-track-red-ck9246-400",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "43einhalb",
+          "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=CK9246400&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fjordan-air-jordan-3-retro-sport-renaissance-1495484",
+          "price": "209€"
+        },
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=CK9246400&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-air-jordan-3-retro-sport-renaissance-pour-femme-vmasTxMX%2FCK9246-400",
+          "price": "210€"
+        },
+        {
+          "name": "Asphaltgold",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=CK9246400&wgtarget=https://www.asphaltgold.com/fr/products/nike-wmns-air-jordan-3-retro-obsidian-chalk-track-red",
+          "price": "209€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=CK9246-400&wgtarget=https://en.afew-store.com/products/air-jordan-wmns-3-retro-obsidian-chalk-track-red",
+          "price": "209€"
+        },
+        {
+          "name": "Footshop",
+          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=CK9246-400&url=https://releases.footshop.com/air-jordan-3-retro-sports-renaissance-a7dgx58BQJ2hAzD9VwIP",
+          "price": "209€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DCK9246-400",
+          "price": "210€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fck9246-400%2F",
+          "price": "210€",
+          "resell": false,
+          "raffle": false
+        }
+      ]
+    },
+    {
+      "id": "nike-air-max-95-blue-lawson-ir1944-400",
+      "title": "Nike Air Max 95 Blue Lawson",
+      "brand": "Nike Air Max 95",
+      "sku": "IR1944-400",
+      "date": "2026-08-15",
+      "price": 190,
+      "year": 2026,
+      "image_url": "/images/IR1944-400.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-blue-lawson-ir1944-400",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IR1944-400&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fair-max-95-big-bubble-blue-sapphire-and-action-red-emea",
+          "price": "189€"
+        },
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=IR1944-400&wgtarget=https://footdistrict.com/fr/products/nike-air-max-95-big-bubble-blue-lawson-ir1944-400",
+          "price": "190€"
+        },
+        {
+          "name": "43einhalb",
+          "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=IR1944-400&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fnike-air-max-95-big-bubble-lawson-1514493",
+          "price": "189€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IR1944-400&wgtarget=https://en.afew-store.com/products/nike-air-max-95-big-bubble-lawson-blue-sapphire-metallic-silver-white",
+          "price": "189€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IR1944-400&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-95-big-bubble-qs-2-ir1944-400-0360402",
+          "price": "189€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR1944-400",
+          "price": "190€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir1944-400%2F",
+          "price": "190€",
+          "resell": false,
+          "raffle": false
         }
       ]
     }
-  ]
+  ],
+  "generated_at": "2026-08-10"
 }
