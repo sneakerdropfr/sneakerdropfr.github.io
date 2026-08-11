@@ -627,7 +627,7 @@
     "sku": "KI7006",
     "title": "Willy Chavarria x adidas Megaride AG Powder Red",
     "brand": "Willy Chavarria X Adidas Megaride Ag",
-    "date": "2026-08-07",
+    "date": "TBD",
     "price": 200,
     "year": 2026,
     "featured": false,
@@ -825,7 +825,7 @@
     "sku": "KH8086",
     "title": "Hellstar x adidas Megaride S2 Off White Core Black",
     "brand": "Hellstar X Adidas Megaride S2",
-    "date": "2026-08-08",
+    "date": "TBD",
     "price": 200,
     "year": 2026,
     "featured": false,
@@ -3541,5 +3541,62 @@
     "buy_url": "https://sneakernews.com/2026/08/11/slam-nike-basketball-2026/",
     "added_at": "2026-08-11T18:00:03.040837+00:00",
     "featured": false
+  },
+  {
+    "id": "hoka-x-beams-bondi-7",
+    "title": "Hoka x Beams Bondi 7",
+    "brand": "Hoka",
+    "sku": "TBD-HOKA-BEAMS-BONDI7",
+    "date": "2026-08-14",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "converse-shai-001-lace-up-berry",
+    "title": "Converse Shai 001 Lace Up Berry",
+    "brand": "Converse",
+    "sku": "TBD-CONVERSE-SHAI-BERRY",
+    "date": "2026-08-14",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "jordan-x-fty",
+    "title": "Jordan x FTY",
+    "brand": "Jordan",
+    "sku": "TBD-JORDAN-FTY",
+    "date": "2026-08-14",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
   }
 ]
