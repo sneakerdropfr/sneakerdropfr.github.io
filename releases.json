@@ -696,6 +696,42 @@
     ]
   },
   {
+    "title": "New Balance 1890A Dark Night",
+    "brand": "New Balance",
+    "sku": "U18905JK",
+    "date": "2026-08-13",
+    "price": 190,
+    "image_url": "/images/U18905JK.webp",
+    "retailers": [
+      {
+        "name": "END",
+        "url": "https://endclothing.sjv.io/c/2379306/1938001/23391?subId1=U18905JK&u=https%3A%2F%2Fwww.endclothing.com%2Fen-fr%2Fnew-balance-1890a-sneaker-u18905jk.html",
+        "price": "185€"
+      },
+      {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=U18905JK&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2F1890a%2FU1890AV1_LI-FTW-844376.html%3Fim_ref%3DU1uRFV0jpxycRHYUFD0IiXuGUkuSM8W9ATpJxE0%26sharedid%3D%26irpid%3D2379306%26utm_source%3Dimpact%26utm_medium%3Daffiliate%26utm_campaign%3DWhenToCop%253F%26irgwc%3D1%26afsrc%3D1",
+        "price": "190€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U18905JK&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890a-u18905jk-0353105%3Futm_source%3Dawin%26utm_medium%3Daffiliate%26utm_id%3D737541_U18905JK%26utm_campaign%3D737541%26sv1%3Daffiliate%26sv_campaign_id%3D737541%26awc%3D104979_1785998285_182b444a831dd9024d722f25675bf8f1",
+        "price": "189€"
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=U18905JK&url=https://slamjam.com/en-fr/products/new-balance-footwear-u18905jk-blue-j359270",
+        "price": "190€"
+      },
+      {
+        "name": "Naked",
+        "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=U18905JK&url=https://nakedcph.com/fr/products/new-balance-abzorb-1890a-dark-night-u18905jk?cjdata=MXxZfDB8WXww&cjevent=af1b5f57916111f1805500540a18ba74&utm_source=CJ&utm_medium=affiliate&utm_campaign=WHENTOCOP&utm_content=100169928",
+        "price": "200€"
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890a-dark-night-u18905jk"
+  },
+  {
     "id": "nike-air-foamposite-pro-green-camo-im5204-001",
     "sku": "IM5204-001",
     "title": "Nike Air Foamposite Pro Green Camo",
@@ -747,6 +783,43 @@
         "price": "159€"
       }
     ]
+  },
+  {
+    "title": "VANDYTHEPINK x Asics Gel-Kayano Vanilla",
+    "brand": "Asics",
+    "sku": "1203B302-100",
+    "date": "2026-08-14",
+    "price": 200,
+    "image_url": "/images/1203B302-100.webp",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://link.whentocop.fr/v9664d",
+        "price": "200€"
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=VANDYTHEPINK-x-Asics-Gel-Kayano-12.1-VANILLA-1203B302-100&url=https://www.footshop.fr/fr/chaussures-et-baskets-homme/509674-asics-x-vandythepink-gel-kayano-121-antique-white-antique-white.html",
+        "price": "200€"
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-12-1-vanilla-1203b302-100"
+  },
+  {
+    "title": "VANDYTHEPINK x Asics Gel-Kayano Chocolate",
+    "brand": "Asics",
+    "sku": "À définir",
+    "date": "2026-08-14",
+    "price": 200,
+    "image_url": "/images/--d-finir.webp",
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://prf.hn/click/camref:1101lBWP9/pubref:defaultDropCreation/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2F",
+        "price": "200€"
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-121-chocolate"
   },
   {
     "id": "nike-vomero-plus-cheat-day-iv4522-200",
@@ -1937,57 +2010,5 @@
         "price": "120€"
       }
     ]
-  },
-  {
-    "id": "new-balance-991v2-polishes-off-insignia-blue-u991na2",
-    "title": "New Balance 991v2 Polishes Off “Insignia Blue”",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 270.0,
-    "sku": "U991NA2",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/new-balance-991v2-insignia-blue-U991NA2-4.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/10/new-balance-991v2-insignia-blue-u991na2/",
-    "added_at": "2026-08-11T00:00:02.993641+00:00",
-    "featured": false
-  },
-  {
-    "id": "new-balance-1890-embraces-calm-white-and-black-u189032l",
-    "title": "New Balance 1890 Embraces Calm White And Black",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 180.0,
-    "sku": "U189032L",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/new-balance-1890-white-black-U189032L-3.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/10/new-balance-1890-white-black-u189032l/",
-    "added_at": "2026-08-11T00:00:02.994005+00:00",
-    "featured": false
-  },
-  {
-    "id": "pastel-rose-taupe-covers-the-new-balance-991v2-u991ma2",
-    "title": "Pastel “Rose Taupe” Covers The New Balance 991v2",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 270.0,
-    "sku": "U991MA2",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/new-balance-991v2-rose-taupe-U991MA2-2.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/10/new-balance-991v2-rose-taupe-u991ma2/",
-    "added_at": "2026-08-11T00:00:02.994289+00:00",
-    "featured": false
-  },
-  {
-    "id": "pok-mon-s-continues-30th-anniversary-collabs-with-a-crocs-classic-clog-pok-ball-212064-90h",
-    "title": "Pokémon’s Continues 30th Anniversary Collabs With A Crocs Classic Clog “Poké Ball”",
-    "brand": "Unknown",
-    "date": "TBD",
-    "price": null,
-    "sku": "212064-90H",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/pokemon-crocs-classic-clog-212064-90H-3.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/10/pokemon-crocs-classic-clog-212064-90h/",
-    "added_at": "2026-08-11T00:00:02.996998+00:00",
-    "featured": false
   }
 ]
