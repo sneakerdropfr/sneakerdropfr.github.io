@@ -3533,7 +3533,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/11/aya-brown-nike-air-max-95-atomic-green-iq6687-300/",
     "added_at": "2026-08-11T18:00:03.038463+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ6687-300",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq6687-300%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-revisits-the-fuzzy-air-force-1-low-in-atomic-violet-ir1940-500",
@@ -3546,7 +3569,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/11/nike-air-force-1-low-atomic-violet-voltage-purple-ir1940-500/",
     "added_at": "2026-08-11T18:00:03.040096+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR1940-500",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir1940-500%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "slam-magazine-has-a-nike-ja-4-collaboration-and-more-coming-this-fall-ix5222-001",
@@ -3559,7 +3605,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/11/slam-nike-basketball-2026/",
     "added_at": "2026-08-11T18:00:03.040522+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX5222-001",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix5222-001%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "slam-magazine-has-a-nike-ja-4-collaboration-and-more-coming-this-fall-iv6130-800",
@@ -3572,7 +3641,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/11/slam-nike-basketball-2026/",
     "added_at": "2026-08-11T18:00:03.040653+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV6130-800",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv6130-800%2F",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "slam-magazine-has-a-nike-ja-4-collaboration-and-more-coming-this-fall-ix4699-800",
@@ -3585,7 +3677,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/11/slam-nike-basketball-2026/",
     "added_at": "2026-08-11T18:00:03.040751+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX4699-800",
+        "price": "195€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix4699-800%2F",
+        "price": "195€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "195€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "slam-magazine-has-a-nike-ja-4-collaboration-and-more-coming-this-fall-iz2539-001",
@@ -3598,7 +3713,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/11/slam-nike-basketball-2026/",
     "added_at": "2026-08-11T18:00:03.040837+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ2539-001",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz2539-001%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "hoka-x-beams-bondi-7",
@@ -3615,6 +3753,20 @@
         "name": "BSTN",
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DTBD-HOKA-BEAMS-BONDI7",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Ftbd-hoka-beams-bondi7%2F",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "source": "BSTN",
@@ -3635,6 +3787,27 @@
         "name": "BSTN",
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DTBD-CONVERSE-SHAI-BERRY",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Ftbd-converse-shai-berry%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Converse",
+        "url": "https://www.converse.com/fr/",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "source": "BSTN"
@@ -3654,6 +3827,20 @@
         "name": "BSTN",
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
         "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DTBD-JORDAN-FTY",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Ftbd-jordan-fty%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
       }
     ],
     "source": "BSTN"
@@ -3669,7 +3856,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/11/nike-zoom-vomero-5-se-wheat-gold-gold-suede-light-orewood-brown-light-olive-iv6857-700/",
     "added_at": "2026-08-11T20:00:02.711358+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV6857-700",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv6857-700%2F",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "up-there-looks-to-the-asics-gel-kayano-20-for-fifth-chapter-in-partnership-1203b288-750",
@@ -3682,6 +3892,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/11/up-there-asics-gel-kayano-20-1203b288-750/",
     "added_at": "2026-08-11T20:00:02.713991+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D1203B288-750",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1203b288-750%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr/fr-fr/",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
