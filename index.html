@@ -1241,19 +1241,20 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
               if (key) relIdx[key] = rel;
             });
 
-            allWdrops = (wd.releases || []).map(function(r) {
-              var dparts = (r.date||'').split('/');
-              var isoDate = dparts.length===3 ? (dparts[2]+'-'+dparts[1]+'-'+dparts[0]) : r.date;
-              var wTitle = r.name || r.title || '';
-              // Chercher la paire correspondante dans releases.json (par titre exact ou partiel)
+            allWdrops = (wd.drops || wd.releases || []).map(function(r) {
+              // drops dans weekly_data.json sont déjà au format ISO YYYY-MM-DD et enrichis
+              var isoDate = r.date || '';
+              if (isoDate.indexOf('/') !== -1) {
+                var dparts = isoDate.split('/');
+                if (dparts.length===3) isoDate = dparts[2]+'-'+dparts[1]+'-'+dparts[0];
+              }
+              var wTitle = r.title || r.name || '';
+              // Enrichissement depuis releases.json si des champs manquent
               var rel = relIdx[normTitle(wTitle)];
               if (!rel) {
-                // Fallback : chercher si le titre releases contient le titre weekly ou vice-versa
                 var wNorm = normTitle(wTitle);
                 Object.keys(relIdx).forEach(function(k) {
-                  if (!rel && (k.indexOf(wNorm) !== -1 || wNorm.indexOf(k) !== -1)) {
-                    rel = relIdx[k];
-                  }
+                  if (!rel && (k.indexOf(wNorm) !== -1 || wNorm.indexOf(k) !== -1)) rel = relIdx[k];
                 });
               }
               return {
@@ -1261,22 +1262,23 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
                 brand: r.brand || (rel && rel.brand) || '',
                 date: isoDate,
                 price: r.price || (rel && rel.price) || '',
-                image_url: r.image || r.image_url || (rel && rel.image_url) || '',
+                image_url: r.image_url || r.image || (rel && rel.image_url) || '',
                 wtc_url: r.wtc_url || r.link || (rel && rel.wtc_url) || '',
                 buy_url: r.buy_url || r.buy_link || (rel && rel.buy_url) || '',
-                id: r.id || (rel && rel.id) || '',
-                resell: r.resell || (rel && rel.resell) || '',
-                stock: r.stock || (rel && rel.stock) || '',
-                retailers: (rel && rel.retailers) || r.retailers || null
+                sku: r.sku || (rel && rel.sku) || '',
+                retailers: r.retailers || (rel && rel.retailers) || null
               };
             });
             // Badge : si on est lundi ou après, afficher la semaine de weekly_data.json
             if (weeklyDropsBadge) {
               try {
-                var ws = (wd.week_start||'').split('/');
-                var we = (wd.week_end||'').split('/');
-                var ds = ws.length===3 ? new Date(+ws[2],+ws[1]-1,+ws[0]) : null;
-                var de = we.length===3 ? new Date(+we[2],+we[1]-1,+we[0]) : null;
+                function parseFlexDate(s) {
+                  if (!s) return null;
+                  if (s.indexOf('-') !== -1) { var p=s.split('-'); return new Date(+p[0],+p[1]-1,+p[2]); }
+                  var p=s.split('/'); return p.length===3 ? new Date(+p[2],+p[1]-1,+p[0]) : null;
+                }
+                var ds = parseFlexDate(wd.week_start);
+                var de = parseFlexDate(wd.week_end);
                 if (ds && de) weeklyDropsBadge.textContent = ds.toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) + ' → ' + de.toLocaleDateString('fr-FR',{day:'numeric',month:'short'});
               } catch(e){}
             }
