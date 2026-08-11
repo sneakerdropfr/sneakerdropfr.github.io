@@ -1186,9 +1186,18 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             // Vérifier que weekly_data.json correspond bien à la semaine en cours ou future
             // Si week_end est dans le passé → fallback releases.json
             try {
-              var we = (wd.week_end||'').split('/');
-              if (we.length===3) {
-                var weDate = new Date(+we[2],+we[1]-1,+we[0]);
+              var weRaw = (wd.week_end||'');
+              var weDate = null;
+              if (weRaw.indexOf('-') !== -1) {
+                // Format ISO YYYY-MM-DD
+                var weParts = weRaw.split('-');
+                weDate = new Date(+weParts[0], +weParts[1]-1, +weParts[2]);
+              } else {
+                // Format DD/MM/YYYY
+                var we = weRaw.split('/');
+                if (we.length===3) weDate = new Date(+we[2],+we[1]-1,+we[0]);
+              }
+              if (weDate) {
                 weDate.setHours(23,59,59,999);
                 // Fallback : si weekly_data.json est périmé (week_end < lundi en cours) → releases.json
                 var nowMs = new Date(); nowMs.setHours(0,0,0,0);
@@ -1207,8 +1216,14 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
                 var nextMonday = new Date(thisMonday); nextMonday.setDate(thisMonday.getDate() + 7);
                 var wsDate = null;
                 try {
-                  var ws = (wd.week_start||'').split('/');
-                  if (ws.length===3) wsDate = new Date(+ws[2],+ws[1]-1,+ws[0]);
+                  var wsRaw = (wd.week_start||'');
+                  if (wsRaw.indexOf('-') !== -1) {
+                    var wsp = wsRaw.split('-');
+                    wsDate = new Date(+wsp[0],+wsp[1]-1,+wsp[2]);
+                  } else {
+                    var ws = wsRaw.split('/');
+                    if (ws.length===3) wsDate = new Date(+ws[2],+ws[1]-1,+ws[0]);
+                  }
                 } catch(e2) {}
                 if (wsDate && wsDate >= nextMonday && nowMs < nextMonday) {
                   // weekly_data.json est pour la semaine prochaine, mais on n'est pas encore lundi
