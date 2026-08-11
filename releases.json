@@ -1186,7 +1186,8 @@
         "raffle": false
       }
     ],
-    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890a-dark-night-u18905jk"
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890a-dark-night-u18905jk",
+    "id": "new-balance-1890a-dark-night-u18905jk"
   },
   {
     "id": "nike-air-foamposite-pro-green-camo-im5204-001",
@@ -1309,12 +1310,13 @@
         "raffle": false
       }
     ],
-    "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-12-1-vanilla-1203b302-100"
+    "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-12-1-vanilla-1203b302-100",
+    "id": "vandythepink-x-asics-gel-kayano-vanilla-1203b302-100"
   },
   {
     "title": "VANDYTHEPINK x Asics Gel-Kayano Chocolate",
     "brand": "Asics",
-    "sku": "À définir",
+    "sku": "TBD-VANDYTHEPI",
     "date": "2026-08-14",
     "price": 200,
     "image_url": "/images/--d-finir.webp",
@@ -1339,7 +1341,8 @@
         "raffle": false
       }
     ],
-    "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-121-chocolate"
+    "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-121-chocolate",
+    "id": "vandythepink-x-asics-gel-kayano-chocolate-à définir"
   },
   {
     "id": "nike-vomero-plus-cheat-day-iv4522-200",
@@ -1601,7 +1604,8 @@
         "raffle": false
       }
     ],
-    "wtc_url": "https://www.whentocop.fr/drops/pharrell-williams-adidas-adistar-jellyfish-crystal-sand-kh6729"
+    "wtc_url": "https://www.whentocop.fr/drops/pharrell-williams-adidas-adistar-jellyfish-crystal-sand-kh6729",
+    "id": "pharrell-williams-x-adidas-adistar-jellyfish-crystal-sand-kh6729"
   },
   {
     "title": "Liberty London x adidas Handball Spezial Pink Cream",
@@ -1636,7 +1640,8 @@
         "raffle": false
       }
     ],
-    "wtc_url": "https://www.whentocop.fr/drops/liberty-london-adidas-handball-spezial-j-pink-cream-kh9841"
+    "wtc_url": "https://www.whentocop.fr/drops/liberty-london-adidas-handball-spezial-j-pink-cream-kh9841",
+    "id": "liberty-london-x-adidas-handball-spezial-pink-cream-kh9841"
   },
   {
     "title": "Free The Youth x Air Jordan 16 Wolf Grey Apricot Black",
@@ -1676,7 +1681,8 @@
         "raffle": false
       }
     ],
-    "wtc_url": "https://www.whentocop.fr/drops/free-the-youth-air-jordan-16-wolf-grey-apricot-black-iv7638-001"
+    "wtc_url": "https://www.whentocop.fr/drops/free-the-youth-air-jordan-16-wolf-grey-apricot-black-iv7638-001",
+    "id": "free-the-youth-x-air-jordan-16-wolf-grey-apricot-black-iv7638-001"
   },
   {
     "title": "adidas Originals x Liberty London WMNS Japan Aurora Coffee Magic Mauve Khaki Three",
@@ -1721,7 +1727,8 @@
         "raffle": false
       }
     ],
-    "wtc_url": "https://www.whentocop.fr/drops/adidas-originals-x-liberty-london-wmns-japan-aurora-coffee-magic-mauve-khaki-three-ki4806"
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-originals-x-liberty-london-wmns-japan-aurora-coffee-magic-mauve-khaki-three-ki4806",
+    "id": "adidas-originals-x-liberty-london-wmns-japan-aurora-coffee-magic-mauve-khaki-three-ki4806"
   },
   {
     "id": "new-balance-1890p-team-red-pink-u18902uh",
@@ -2595,7 +2602,7 @@
   },
   {
     "id": "nike-mind-001-hyper-royal-volt",
-    "sku": "À définir",
+    "sku": "TBD-NIKE-MIND-",
     "brand": "Nike",
     "title": "Nike Mind 001 Hyper Royal Volt",
     "date": "2026-08-31",
@@ -3317,7 +3324,7 @@
   },
   {
     "id": "nike-zoom-vomero-5-pink-flamingo",
-    "sku": "À venir",
+    "sku": "TBD-NIKE-ZOOM-",
     "brand": "Nike",
     "title": "Nike Zoom Vomero 5 Pink Flamingo",
     "date": "2026-09-30",
@@ -3586,7 +3593,7 @@
   },
   {
     "id": "aya-brown-teases-nike-air-max-95-collaboration-after-revealing-friends-family-pair-iq6687-300",
-    "title": "Aya Brown Teases Nike Air Max 95 Collaboration After Revealing Friends & Family Pair",
+    "title": "Nike Air Max 95 x Aya Brown",
     "brand": "Nike",
     "date": "TBD",
     "price": null,
