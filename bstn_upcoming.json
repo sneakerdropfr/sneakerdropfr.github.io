@@ -1,16 +1,66 @@
 [
   {
-    "nom": "New Balance 1890A",
-    "marque": "New Balance",
-    "prix": "189,99 €",
-    "image_url": "https://img.bstn.com/card-default/new-balance/new-balance-1890a-u18905jk-0353105/U18905JK/U18905JK-03.jpg",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/new-balance-1890a-u18905jk-0353105",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890a-u18905jk-0353105",
-    "date": "2026-08-13",
+    "nom": "Hoka One One x BEAMS U BONDI 7",
+    "marque": "Hoka One One",
+    "prix": "174,99 €",
+    "image_url": "https://img.bstn.com/card-default/hoka-one-one/hoka-one-one-x-beams-u-bondi-7-1183211-tlf-0359507/1183211-TLF/1183211-TLF-03.jpg",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/hoka-one-one-x-beams-u-bondi-7-1183211-tlf-0359507",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fhoka-one-one-x-beams-u-bondi-7-1183211-tlf-0359507",
+    "date": "2026-08-14",
     "couleur": ""
   },
   {
-    "nom": "AIR JORDAN 16 FTY SP",
+    "nom": "asics x VANDYTHEPINK GEL-KAYANO 12.1",
+    "marque": "asics",
+    "prix": "199,99 €",
+    "image_url": "https://img.bstn.com/card-default/asics/asics-x-vandythepink-gel-kayano-12-1-1203b302-100-0356494/1203B302-100/1203B302-100-03.jpg",
+    "lien_produit": "https://www.bstn.com/eu_fr/r/asics-x-vandythepink-gel-kayano-12-1-1203b302-100-0356494",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fasics-x-vandythepink-gel-kayano-12-1-1203b302-100-0356494",
+    "date": "2026-08-14",
+    "couleur": ""
+  },
+  {
+    "nom": "Converse SHAI 001 LACE UP",
+    "marque": "Converse",
+    "prix": "109,99 €",
+    "image_url": "https://img.bstn.com/card-default/converse/converse-shai-001-lace-up-a24322c-0360210/A24322C/A24322C-03.jpg",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/converse-shai-001-lace-up-a24322c-0360210",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fconverse-shai-001-lace-up-a24322c-0360210",
+    "date": "2026-08-14",
+    "couleur": ""
+  },
+  {
+    "nom": "WMNS AIR JORDAN 3 RETRO 'Sports Renaissance'",
+    "marque": "Jordan",
+    "prix": "209,99 €",
+    "image_url": "https://img.bstn.com/card-default/jordan/jordan-wmns-air-jordan-3-retro-sports-renaissance-ck9246-400-0353980/CK9246-400/CK9246-400-03.jpg",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/jordan-wmns-air-jordan-3-retro-sports-renaissance-ck9246-400-0353980",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-wmns-air-jordan-3-retro-sports-renaissance-ck9246-400-0353980",
+    "date": "2026-08-15",
+    "couleur": ""
+  },
+  {
+    "nom": "Nike VOMERO PLUS SP",
+    "marque": "Nike",
+    "prix": "164,99 €",
+    "image_url": "https://img.bstn.com/card-default/nike/nike-vomero-plus-sp-iv4522-200-0361931/IV4522-200/IV4522-200-03.jpg",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/nike-vomero-plus-sp-iv4522-200-0361931",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-vomero-plus-sp-iv4522-200-0361931",
+    "date": "2026-08-15",
+    "couleur": ""
+  },
+  {
+    "nom": "Nike AIR MAX 90 SP",
+    "marque": "Nike",
+    "prix": "149,99 €",
+    "image_url": "https://img.bstn.com/card-default/nike/nike-air-max-90-sp-ir1953-200-0360397/IR1953-200/IR1953-200-03.jpg",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/nike-air-max-90-sp-ir1953-200-0360397",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-90-sp-ir1953-200-0360397",
+    "date": "2026-08-15",
+    "couleur": ""
+  },
+  {
+    "nom": "X Free The Youth AIR JORDAN 16 SP",
     "marque": "Jordan",
     "prix": "249,99 €",
     "image_url": "https://img.bstn.com/card-default/jordan/jordan-air-jordan-16-fty-sp-iv7638-001-0359158/IV7638-001/IV7638-001-03.jpg",
@@ -40,6 +90,16 @@
     "couleur": ""
   },
   {
+    "nom": "Adidas ADIZERO EVO SL",
+    "marque": "Adidas",
+    "prix": "149,99 €",
+    "image_url": "https://img.bstn.com/card-default/adidas/adidas-adizero-evo-sl-kj0774-0355075/KJ0774/KJ0774-03.jpg",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-adizero-evo-sl-kj0774-0355075",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-adizero-evo-sl-kj0774-0355075",
+    "date": "2026-08-20",
+    "couleur": ""
+  },
+  {
     "nom": "New Balance 740",
     "marque": "New Balance",
     "prix": "119,99 €",
@@ -50,23 +110,13 @@
     "couleur": ""
   },
   {
-    "nom": "asics GEL-KINETIC FR",
-    "marque": "asics",
-    "prix": "149,99 €",
-    "image_url": "https://img.bstn.com/card-default/asics/asics-gel-kinetic-fr-1203b051-001-0356460/1203B051-001/1203B051-001-03.jpg",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/asics-gel-kinetic-fr-1203b051-001-0356460",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fasics-gel-kinetic-fr-1203b051-001-0356460",
-    "date": "2026-08-21",
-    "couleur": ""
-  },
-  {
-    "nom": "AIR JORDAN 17 LOW SP",
+    "nom": "AIR JORDAN 3 RETRO LASER",
     "marque": "Jordan",
-    "prix": "239,99 €",
-    "image_url": "https://img.bstn.com/card-default/jordan/jordan-air-jordan-17-low-sp-iv7640-001-0359151/IV7640-001/IV7640-001-03.jpg",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/jordan-air-jordan-17-low-sp-iv7640-001-0359151",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-air-jordan-17-low-sp-iv7640-001-0359151",
-    "date": "2026-09-04",
+    "prix": "229,99 €",
+    "image_url": "https://img.bstn.com/card-default/jordan/jordan-air-jordan-3-retro-laser-ja1369-001-0354000/JA1369-001/JA1369-001-03.jpg",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/jordan-air-jordan-3-retro-laser-ja1369-001-0354000",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-air-jordan-3-retro-laser-ja1369-001-0354000",
+    "date": "2026-08-22",
     "couleur": ""
   },
   {
