@@ -3410,6 +3410,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/14/new-balance-750-tennis-shoes/",
     "added_at": "2026-08-14T16:00:02.571952+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU7507JH",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu7507jh%2F",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
