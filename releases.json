@@ -3503,7 +3503,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/15/nike-st-charge-detroit-tough-cade-cunningham-iz6735-100/",
     "added_at": "2026-08-15T16:00:01.898824+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ6735-100",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz6735-100%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "manors-and-reebok-deliver-the-club-c-revenge-in-new-colorways-100284838",
@@ -3516,7 +3539,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/15/manors-reebok-club-c-revenge-golf-shoes/",
     "added_at": "2026-08-15T20:00:02.264582+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D100284838",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F100284838%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Reebok",
+        "url": "https://www.reebok.fr/",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "manors-and-reebok-deliver-the-club-c-revenge-in-new-colorways-100284837",
@@ -3529,6 +3575,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/15/manors-reebok-club-c-revenge-golf-shoes/",
     "added_at": "2026-08-15T20:00:02.264807+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D100284837",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F100284837%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Reebok",
+        "url": "https://www.reebok.fr/",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
