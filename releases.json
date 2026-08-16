@@ -3611,7 +3611,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/15/foot-locker-asics-gel-cumulus-16-gel-1130/",
     "added_at": "2026-08-15T22:00:02.744852+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D1203B294-300",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1203b294-300%2F",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr/fr-fr/",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "asics-home-and-away-pack-leans-on-silver-and-teal-1203b298-001",
@@ -3624,6 +3647,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/15/foot-locker-asics-gel-cumulus-16-gel-1130/",
     "added_at": "2026-08-15T22:00:02.745087+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D1203B298-001",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1203b298-001%2F",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr/fr-fr/",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
