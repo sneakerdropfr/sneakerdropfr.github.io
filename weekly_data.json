@@ -1,98 +1,67 @@
 {
-  "week_start": "2026-08-10",
-  "week_end": "2026-08-16",
-  "label": "Semaine du 10 au 16 août 2026",
+  "week_start": "2026-08-17",
+  "week_end": "2026-08-23",
+  "label": "Semaine du 17 au 23 août 2026",
   "drops": [
     {
-      "id": "nike-air-rift-2-wmns-black-metallic-silver-iq8006-003",
-      "sku": "IQ8006-003",
-      "title": "Nike Air Rift 2 WMNS Black Metallic Silver",
-      "brand": "Nike",
-      "date": "2026-08-13",
-      "price": 130,
-      "year": 2026,
-      "featured": false,
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-rift-2-wmns-black-metallic-silver-iq8006-003",
-      "image_url": "/images/IQ8006-003.webp",
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IQ8006-003&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fwomens-rift-2-black-and-metallic-silver",
-          "price": "129€"
-        },
-        {
-          "name": "Naked",
-          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=IQ8006-003&url=https://nakedcph.com/fr/products/nike-nike-rift-2-metallic-silver-black-vast-grey-iq8006-003",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "nike-air-force-1-low-horse-of-a-different-color-ir1940-800",
-      "sku": "IR1940-800",
-      "brand": "Nike",
-      "title": "Nike Air Force 1 Low Horse Different Color",
-      "date": "2026-08-13",
-      "price": 140,
-      "year": 2026,
-      "image_url": "/images/IR1940-800.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-horse-of-a-different-color-ir1940-800",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IR1940-800&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fair-force-1-low-multi-color-and-sunset",
-          "price": "139€"
-        }
-      ]
-    },
-    {
-      "title": "New Balance 1890A Dark Night",
+      "id": "new-balance-1890p-team-red-pink-u18902uh",
+      "sku": "U18902UH",
       "brand": "New Balance",
-      "sku": "U18905JK",
-      "date": "2026-08-13",
-      "price": 190,
-      "image_url": "/images/U18905JK.webp",
+      "title": "New Balance 1890P Team Red Pink",
+      "date": "2026-08-19",
+      "price": 170,
+      "year": 2026,
+      "image_url": "/images/U18902UH.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890p-team-red-pink-u18902uh",
+      "featured": false,
       "retailers": [
-        {
-          "name": "END",
-          "url": "https://endclothing.sjv.io/c/2379306/1938001/23391?subId1=U18905JK&u=https%3A%2F%2Fwww.endclothing.com%2Fen-fr%2Fnew-balance-1890a-sneaker-u18905jk.html",
-          "price": "185€"
-        },
         {
           "name": "New Balance",
-          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=U18905JK&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2F1890a%2FU1890AV1_LI-FTW-844376.html%3Fim_ref%3DU1uRFV0jpxycRHYUFD0IiXuGUkuSM8W9ATpJxE0%26sharedid%3D%26irpid%3D2379306%26utm_source%3Dimpact%26utm_medium%3Daffiliate%26utm_campaign%3DWhenToCop%253F%26irgwc%3D1%26afsrc%3D1",
-          "price": "190€"
+          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
+          "price": ""
         },
         {
           "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U18905JK&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890a-u18905jk-0353105%3Futm_source%3Dawin%26utm_medium%3Daffiliate%26utm_id%3D737541_U18905JK%26utm_campaign%3D737541%26sv1%3Daffiliate%26sv_campaign_id%3D737541%26awc%3D104979_1785998285_182b444a831dd9024d722f25675bf8f1",
-          "price": "189€"
-        },
-        {
-          "name": "Slam Jam",
-          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=U18905JK&url=https://slamjam.com/en-fr/products/new-balance-footwear-u18905jk-blue-j359270",
-          "price": "190€"
-        },
-        {
-          "name": "Naked",
-          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=U18905JK&url=https://nakedcph.com/fr/products/new-balance-abzorb-1890a-dark-night-u18905jk?cjdata=MXxZfDB8WXww&cjevent=af1b5f57916111f1805500540a18ba74&utm_source=CJ&utm_medium=affiliate&utm_campaign=WHENTOCOP&utm_content=100169928",
-          "price": "200€"
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U18902UH&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890p-u18902uh-0353171",
+          "price": "169€"
         }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890a-dark-night-u18905jk"
+      ]
     },
     {
-      "id": "nike-air-foamposite-pro-green-camo-im5204-001",
-      "sku": "IM5204-001",
-      "title": "Nike Air Foamposite Pro Green Camo",
-      "brand": "Nike",
-      "date": "2026-08-14",
-      "price": 240,
+      "id": "new-balance-1890p-fairweather-blue-u1890787",
+      "sku": "U1890787",
+      "brand": "New Balance 1890P",
+      "title": "New Balance 1890P Fairweather Blue",
+      "date": "2026-08-19",
+      "price": 170,
       "year": 2026,
+      "image_url": "/images/U1890787.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890p-fairweather-blue-u1890787",
       "featured": false,
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-foamposite-pro-green-camo-im5204-001",
-      "image_url": "/images/IM5204-001.webp",
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
+          "price": ""
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U1890787&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890p-u1890787-0353172",
+          "price": "169€"
+        }
+      ]
+    },
+    {
+      "id": "nike-mind-001-cucumber-calm",
+      "title": "Nike Mind 001 Cucumber Calm",
+      "brand": "Nike",
+      "sku": "HQ4307-302",
+      "date": "2026-08-20",
+      "price": 90,
+      "year": 2026,
+      "image_url": "/images/HQ4307-302.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-cucumber-calm-hq4307-302",
+      "featured": false,
       "retailers": [
         {
           "name": "Nike",
@@ -102,325 +71,363 @@
       ]
     },
     {
-      "id": "naked-copenhagen-adidas-performance-adizero-evo-sl-zip-wmns-pink-silver-lc1125",
-      "title": "Naked Copenhagen x adidas Adizero Evo SL Zip WMNS Pink Silver",
-      "brand": "Naked Copenhagen x adidas Adizero Evo SL Zip WMNS",
-      "sku": "LC1125",
-      "date": "2026-08-14",
-      "price": 160,
+      "id": "nike-mind-001-wmns-barely-green-hq4309-300",
+      "sku": "HQ4309-300",
+      "brand": "Nike",
+      "title": "Nike Mind 001 WMNS Barely Green",
+      "date": "2026-08-20",
+      "price": 90,
       "year": 2026,
-      "image_url": "/images/LC1125.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/naked-copenhagen-adidas-performance-adizero-evo-sl-zip-wmns-pink-silver-lc1125",
+      "image_url": "/images/HQ4309-300.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-wmns-barely-green-hq4309-300",
       "featured": false,
       "retailers": [
         {
-          "name": "FootDistrict",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=LC1125&wgtarget=https://footdistrict.com/fr/products/adidas-performance-x-naked-copenhagen-womens-adizero-evo-sl-zip-lc1125",
-          "price": "160€"
-        },
-        {
-          "name": "Naked",
-          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=LC1125&url=https://nakedcph.com/fr/products/adidas-ori-adidas-running-x-naked-copenhagen-adizero-evo-sl-zip-pink-lc1125",
-          "price": ""
-        },
-        {
-          "name": "Adidas Confirmed",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=LC1125&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-adizero-evo-sl-zip-naked-cph-w%2FLC1125.html",
-          "price": "160€"
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=LC1125&wgtarget=https://www.asphaltgold.com/fr/products/adidas-x-naked-adizero-evo-sl-zip-w-sandy-pink-silver-metallic-off-white",
-          "price": "159€"
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4309300&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-mind-001-pour-wHNfmE8I%2FHQ4309-300",
+          "price": "90€"
         }
       ]
     },
     {
-      "title": "VANDYTHEPINK x Asics Gel-Kayano Vanilla",
-      "brand": "Asics",
-      "sku": "1203B302-100",
-      "date": "2026-08-14",
-      "price": 200,
-      "image_url": "/images/1203B302-100.webp",
+      "id": "nike-mind-001-slide-white",
+      "sku": "HQ4307-101",
+      "brand": "Nike",
+      "title": "Nike Mind 001 White Speed Red",
+      "date": "2026-08-20",
+      "price": 90,
+      "year": 2026,
+      "image_url": "/images/HQ4307-101.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-slide-white",
+      "featured": false,
       "retailers": [
         {
-          "name": "Asics",
-          "url": "https://link.whentocop.fr/v9664d",
-          "price": "200€"
-        },
-        {
-          "name": "Footshop",
-          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=VANDYTHEPINK-x-Asics-Gel-Kayano-12.1-VANILLA-1203B302-100&url=https://www.footshop.fr/fr/chaussures-et-baskets-homme/509674-asics-x-vandythepink-gel-kayano-121-antique-white-antique-white.html",
-          "price": "200€"
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4307101&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-mind-001-pour-hKbGLVPJ%2FHQ4307-101",
+          "price": "90€"
         }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-12-1-vanilla-1203b302-100"
+      ]
     },
     {
-      "title": "VANDYTHEPINK x Asics Gel-Kayano Chocolate",
-      "brand": "Asics",
-      "sku": "À définir",
-      "date": "2026-08-14",
-      "price": 200,
-      "image_url": "/images/--d-finir.webp",
+      "id": "nike-mind-001-wmns-black-hyper-crimson-hq4309-001",
+      "sku": "HQ4309-001",
+      "brand": "Nike",
+      "title": "Nike Mind 001 WMNS Black Hyper Crimson",
+      "date": "2026-08-20",
+      "price": 90,
+      "year": 2026,
+      "image_url": "/images/HQ4309-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-wmns-black-hyper-crimson-hq4309-001",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4309001&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-mind-001-pour-wHNfmE8I%2FHQ4309-001",
+          "price": "90€"
+        }
+      ]
+    },
+    {
+      "id": "vans-lx-old-skool-36-souvenir-navy-vn000e8vnvy1",
+      "sku": "VN000E8VNVY1",
+      "brand": "Vans LX Old Skool 36",
+      "title": "Vans LX Old Skool 36 Souvenir Navy",
+      "date": "2026-08-20",
+      "price": 140,
+      "year": 2026,
+      "image_url": "/images/VN000E8VNVY1.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-souvenir-navy-vn000e8vnvy1",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "Footshop",
+          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=VN000E8VNVY1&url=https://releases.footshop.com/vans-lx-old-skool-36-t3FC0p8B855nFHXGuPfw",
+          "price": "150€"
+        },
+        {
+          "name": "Offspring",
+          "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/2,20/5180136374&u1=VN000E8VNVY",
+          "price": "125€"
+        }
+      ]
+    },
+    {
+      "id": "nike-blazy-black-sail-im2523-001",
+      "sku": "IM2523-001",
+      "brand": "Nike Blazy",
+      "title": "Nike Blazy Black Sail",
+      "date": "2026-08-20",
+      "price": 90,
+      "year": 2026,
+      "image_url": "/images/IM2523-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-blazy-black-sail-im2523-001",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IM2523-001&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fblazy-black-and-sail",
+          "price": "89€"
+        }
+      ]
+    },
+    {
+      "id": "nike-blazy-triple-white-im2523-100",
+      "sku": "IM2523-100",
+      "brand": "Nike Blazy",
+      "title": "Nike Blazy Triple White",
+      "date": "2026-08-20",
+      "price": 90,
+      "year": 2026,
+      "image_url": "/images/IM2523-100.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-blazy-triple-white-im2523-100",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IM2523100&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fblazy-white-and-sail",
+          "price": "89€"
+        }
+      ]
+    },
+    {
+      "id": "new-balance-supercomp-rebel-v1-sea-salt-grey-mrebx9s5",
+      "sku": "MREBX9S5",
+      "brand": "New Balance SuperComp Rebel v1",
+      "title": "New Balance SuperComp Rebel v1 Sea Salt Grey",
+      "date": "2026-08-20",
+      "price": 210,
+      "year": 2026,
+      "image_url": "/images/MREBX9S5.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-supercomp-rebel-v1-sea-salt-grey-mrebx9s5",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=MREBX9S5&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Fsupercomp-rebel-homme%2FMREBXV1_RU-FTW-814193.html",
+          "price": "210€"
+        }
+      ]
+    },
+    {
+      "id": "new-balance-supercomp-rebel-wmns-digital-mist-grey-matter-wrebx4lo",
+      "sku": "WREBX4LO",
+      "brand": "New Balance SuperComp Rebel",
+      "title": "New Balance SuperComp Rebel Digital Mist Grey Matter",
+      "date": "2026-08-20",
+      "price": 210,
+      "year": 2026,
+      "image_url": "/images/WREBX4LO.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-supercomp-rebel-wmns-digital-mist-grey-matter-wrebx4lo",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=WREBX4LO&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Fsupercomp-rebel-femme%2FWREBXV1_RU-FTW-838104.html",
+          "price": "210€"
+        }
+      ]
+    },
+    {
+      "id": "new-balance-supercomp-rebel-pistachio-butter-morel-mrebx4a2",
+      "sku": "MREBX4A2",
+      "brand": "New Balance SuperComp Rebel",
+      "title": "New Balance SuperComp Rebel Pistachio Butter Morel",
+      "date": "2026-08-20",
+      "price": 210,
+      "year": 2026,
+      "image_url": "/images/MREBX4A2.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-supercomp-rebel-pistachio-butter-morel-mrebx4a2",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=MREBX4A2&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Fsupercomp-rebel-homme%2FMREBXV1_RU-FTW-844507.html",
+          "price": "210€"
+        }
+      ]
+    },
+    {
+      "id": "new-balance-supercomp-rebel-wmns-sea-salt-neo-flame-wrebx42z",
+      "sku": "WREBX42Z",
+      "brand": "New Balance SuperComp Rebel",
+      "title": "New Balance SuperComp Rebel Sea Salt Neo Flame",
+      "date": "2026-08-20",
+      "price": 210,
+      "year": 2026,
+      "image_url": "/images/WREBX42Z.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-supercomp-rebel-wmns-sea-salt-neo-flame-wrebx42z",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=WREBX42Z&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Fsupercomp-rebel-femme%2FWREBXV1_RU-FTW-814192.html",
+          "price": "210€"
+        }
+      ]
+    },
+    {
+      "id": "air-jordan-6-oreo",
+      "title": "Air Jordan 6 OREO",
+      "brand": "Jordan",
+      "sku": "CT8529-108",
+      "date": "2026-08-21",
+      "price": 210,
+      "year": 2026,
+      "image_url": "/images/CT8529-108.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-6-oreo-ct8529-108",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "id": "asics-gel-kinetic-fr-black-pure-silver-1203b051-001",
+      "sku": "1203B051-001",
+      "brand": "ASICS Gel-Kinetic FR",
+      "title": "ASICS Gel-Kinetic FR Black Pure Silver",
+      "date": "2026-08-21",
+      "price": 150,
+      "year": 2026,
+      "image_url": "/images/1203B051-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/asics-gel-kinetic-fr-black-pure-silver-1203b051-001",
+      "featured": false,
       "retailers": [
         {
           "name": "Asics",
           "url": "https://prf.hn/click/camref:1101lBWP9/pubref:defaultDropCreation/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2F",
-          "price": "200€"
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-121-chocolate"
-    },
-    {
-      "id": "nike-vomero-plus-cheat-day-iv4522-200",
-      "sku": "IV4522-200",
-      "brand": "Nike",
-      "title": "Nike Vomero Plus Cheat Day",
-      "date": "2026-08-15",
-      "price": 180,
-      "year": 2026,
-      "image_url": "/images/IV4522-200.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-vomero-plus-cheat-day-iv4522-200",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IV4522-200&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fvomero-plus-desert-camo-and-ceramic",
-          "price": "179€"
+          "price": ""
         },
         {
-          "name": "Offspring",
-          "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,21/5537650000&u1=IV4522-200",
-          "price": "165€"
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=1203B051-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fasics-gel-kinetic-fr-1203b051-001-0356460",
+          "price": "149€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B051-001&wgtarget=https://en.afew-store.com/products/asics-gel-kinetic-fr-black-pure-silver",
+          "price": "149€"
+        },
+        {
+          "name": "Asphaltgold",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=1203B051-001&wgtarget=https://www.asphaltgold.com/fr/products/asics-gelkinetic-fr-black-pure-silver",
+          "price": "149€"
         }
       ]
     },
     {
-      "id": "air-jordan-8-retro-premium-legion-pine-red-io2053-300",
-      "sku": "IO2053-300",
-      "brand": "Air Jordan",
-      "title": "Air Jordan 8 Retro Premium Bin",
-      "date": "2026-08-15",
-      "price": 350,
+      "id": "asics-gel-kinetic-fr-cocoa-powder-champagne-1203b051-200",
+      "sku": "1203B051-200",
+      "brand": "Asics GEL-Kinetic FR",
+      "title": "Asics GEL-Kinetic FR Cocoa Powder Champagne",
+      "date": "2026-08-21",
+      "price": 150,
       "year": 2026,
-      "image_url": "/images/IO2053-300.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-8-retro-premium-legion-pine-red-io2053-300",
+      "image_url": "/images/1203B051-200.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/asics-gel-kinetic-fr-cocoa-powder-champagne-1203b051-200",
       "featured": false,
       "retailers": [
         {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+          "name": "Asics",
+          "url": "https://prf.hn/click/camref:1101lBWP9/pubref:defaultDropCreation/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2F",
           "price": ""
         },
         {
-          "name": "Sevenstore",
-          "url": "https://sevenstore.prf.hn/click/camref:1011l3Ndsh/pubref:IO2053-300/destination:https%3A%2F%2Fwww.sevenstore.com%2Flaunches%2Fjordan-legion-pinemulticolour-air-jordan-8-bin-23-sneaker%2F",
-          "price": "395€"
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B051-200&wgtarget=https://en.afew-store.com/products/asics-gel-kinetic-fr-cocoa-powder-champagne",
+          "price": "149€"
+        },
+        {
+          "name": "Asphaltgold",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=1203B051-200&wgtarget=https://www.asphaltgold.com/fr/products/asics-gelkinetic-fr-cocoa-powder-champagne",
+          "price": "149€"
         }
       ]
     },
     {
-      "id": "nike-air-max-90-sp-shadow-brown-ir1953-200",
-      "sku": "IR1953-200",
-      "title": "Nike Air Max 90 SP Shadow Brown",
-      "brand": "Nike",
-      "date": "2026-08-15",
-      "price": 160,
+      "id": "adidas-hyperboost-ephr-night-brown-utility-black-la5973",
+      "sku": "LA5973",
+      "brand": "Adidas",
+      "title": "adidas Hyperboost EPHR Night Brown Utility Black",
+      "date": "2026-08-22",
+      "price": 150,
       "year": 2026,
+      "image_url": "/images/LA5973.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-ephr-night-brown-utility-black-la5973",
       "featured": false,
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-sp-shadow-brown-ir1953-200",
-      "image_url": "/images/IR1953-200.webp",
       "retailers": [
         {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
-        },
-        {
-          "name": "Offspring",
-          "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/4143153809&u1=IR1953-200",
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=LA5973&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-hyperboost-ephr%2FLA5973.html",
           "price": "150€"
         }
       ]
     },
     {
-      "id": "air-jordan-3-retro-wmns-obsidian-chalk-track-red-ck9246-400",
-      "title": "Air Jordan 3 Retro Sports Renaissance",
-      "brand": "Air Jordan 3 Retro",
-      "sku": "CK9246-400",
-      "date": "2026-08-15",
-      "price": 210,
+      "id": "adidas-hyperboost-ephr-core-black-solar-red-la6206",
+      "sku": "LA6206",
+      "brand": "Adidas",
+      "title": "adidas Hyperboost EPHR Core Black Solar Red",
+      "date": "2026-08-22",
+      "price": 150,
       "year": 2026,
-      "image_url": "/images/CK9246-400.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-wmns-obsidian-chalk-track-red-ck9246-400",
+      "image_url": "/images/LA6206.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-ephr-core-black-solar-red-la6206",
       "featured": false,
       "retailers": [
         {
-          "name": "43einhalb",
-          "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=CK9246400&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fjordan-air-jordan-3-retro-sport-renaissance-1495484",
-          "price": "209€"
-        },
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=CK9246400&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-air-jordan-3-retro-sport-renaissance-pour-femme-vmasTxMX%2FCK9246-400",
-          "price": "210€"
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=CK9246400&wgtarget=https://www.asphaltgold.com/fr/products/nike-wmns-air-jordan-3-retro-obsidian-chalk-track-red",
-          "price": "209€"
-        },
-        {
-          "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=CK9246-400&wgtarget=https://en.afew-store.com/products/air-jordan-wmns-3-retro-obsidian-chalk-track-red",
-          "price": "209€"
-        },
-        {
-          "name": "Footshop",
-          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=CK9246-400&url=https://releases.footshop.com/air-jordan-3-retro-sports-renaissance-a7dgx58BQJ2hAzD9VwIP",
-          "price": "209€"
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=LA6206&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-hyperboost-ephr%2FLA6206.html",
+          "price": "150€"
         }
       ]
     },
     {
-      "id": "nike-air-max-95-blue-lawson-ir1944-400",
-      "title": "Nike Air Max 95 Blue Lawson",
-      "brand": "Nike Air Max 95",
-      "sku": "IR1944-400",
-      "date": "2026-08-15",
-      "price": 190,
+      "id": "adidas-hyperboost-euphoria-triple-black-la6211",
+      "sku": "LA6211",
+      "brand": "Adidas",
+      "title": "adidas Hyperboost Euphoria Triple Black",
+      "date": "2026-08-22",
+      "price": 150,
       "year": 2026,
-      "image_url": "/images/IR1944-400.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-blue-lawson-ir1944-400",
+      "image_url": "/images/LA6211.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-euphoria-triple-black-la6211",
       "featured": false,
       "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=LA6211&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-hyperboost-ephr%2FLA6211.html",
+          "price": "150€"
+        }
+      ]
+    },
+    {
+      "id": "air-jordan-3-retro-laser-phantom-and-palomino-ja1369-001",
+      "sku": "JA1369-001",
+      "brand": "Air Jordan 3 Retro",
+      "title": "Air Jordan 3 Retro Laser",
+      "date": "2026-08-22",
+      "price": 230,
+      "year": 2026,
+      "image_url": "/images/JA1369-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-laser-phantom-and-palomino-ja1369-001",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "43einhalb",
+          "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=JA1369001&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fnike--1516134",
+          "price": "229€"
+        },
         {
           "name": "Nike SNKRS",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IR1944-400&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fair-max-95-big-bubble-blue-sapphire-and-action-red-emea",
-          "price": "189€"
-        },
-        {
-          "name": "FootDistrict",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=IR1944-400&wgtarget=https://footdistrict.com/fr/products/nike-air-max-95-big-bubble-blue-lawson-ir1944-400",
-          "price": "190€"
-        },
-        {
-          "name": "43einhalb",
-          "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=IR1944-400&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fnike-air-max-95-big-bubble-lawson-1514493",
-          "price": "189€"
-        },
-        {
-          "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IR1944-400&wgtarget=https://en.afew-store.com/products/nike-air-max-95-big-bubble-lawson-blue-sapphire-metallic-silver-white",
-          "price": "189€"
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IR1944-400&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-95-big-bubble-qs-2-ir1944-400-0360402",
-          "price": "189€"
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=JA1369-001&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fair-jordan-3-laser-phantom-and-palomino",
+          "price": "229€"
         }
       ]
-    },
-    {
-      "title": "Pharrell Williams x adidas Adistar Jellyfish Crystal Sand",
-      "brand": "Adidas",
-      "sku": "KH6729",
-      "date": "2026-08-15",
-      "price": 300,
-      "image_url": "/images/KH6729.webp",
-      "retailers": [
-        {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": "300€"
-        },
-        {
-          "name": "Footshop",
-          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=KH6729&url=https://releases.footshop.com/adidas-x-pharrell-williams-adistar-jellyfish-CcNu658BhkDru117DxO-",
-          "price": "300€"
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/pharrell-williams-adidas-adistar-jellyfish-crystal-sand-kh6729"
-    },
-    {
-      "title": "Liberty London x adidas Handball Spezial Pink Cream",
-      "brand": "Adidas",
-      "sku": "KH9841",
-      "date": "2026-08-15",
-      "price": 100,
-      "image_url": "/images/KH9841.webp",
-      "retailers": [
-        {
-          "name": "Asphaltgold",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=KH9841&wgtarget=https://www.asphaltgold.com/fr/products/adidas-x-liberty-london-handball-spezial-j-eqt-red-cream-white-gum-3",
-          "price": "99€"
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": "100€"
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/liberty-london-adidas-handball-spezial-j-pink-cream-kh9841"
-    },
-    {
-      "title": "Free The Youth x Air Jordan 16 Wolf Grey Apricot Black",
-      "brand": "Air Jordan",
-      "sku": "IV7638-001",
-      "date": "2026-08-15",
-      "price": 250,
-      "image_url": "/images/IV7638-001.webp",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": "250€"
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IV7638-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-air-jordan-16-fty-sp-iv7638-001-0359158",
-          "price": "249€"
-        },
-        {
-          "name": "FootDistrict",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=IV7638-001&wgtarget=https://footdistrict.com/fr/products/air-jordan-16-x-free-the-youth-og-iv7638-001",
-          "price": "250€"
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/free-the-youth-air-jordan-16-wolf-grey-apricot-black-iv7638-001"
-    },
-    {
-      "title": "adidas Originals x Liberty London WMNS Japan Aurora Coffee Magic Mauve Khaki Three",
-      "brand": "Adidas",
-      "sku": "KI4806",
-      "date": "2026-08-15",
-      "price": 130,
-      "image_url": "/images/KI4806.webp",
-      "retailers": [
-        {
-          "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=KI4806&wgtarget=https://en.afew-store.com/products/adidas-originals-wmns-japan-auco-magmau-khathr",
-          "price": "129€"
-        },
-        {
-          "name": "Offspring",
-          "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/2,20/4037453611&u1=KI4806",
-          "price": "94€"
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=KI4806&wgtarget=https://www.asphaltgold.com/fr/products/adidas-x-liberty-london-japan-w-aurora-coffee-magic-mauve-khaki-three",
-          "price": "129€"
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": "130€"
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-originals-x-liberty-london-wmns-japan-aurora-coffee-magic-mauve-khaki-three-ki4806"
     }
   ],
-  "generated_at": "2026-08-11"
+  "generated_at": "2026-08-17"
 }
