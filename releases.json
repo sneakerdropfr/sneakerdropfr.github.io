@@ -3762,7 +3762,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/17/undefeated-air-jordan-5-2027/",
     "added_at": "2026-08-17T18:00:03.628986+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DJF3394-001",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjf3394-001%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "undefeated-x-air-jordan-5-releasing-february-2027-jf3394-200",
@@ -3775,7 +3798,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/17/undefeated-air-jordan-5-2027/",
     "added_at": "2026-08-17T18:00:03.629252+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DJF3394-200",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjf3394-200%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "devin-booker-revs-up-a-red-stardust-nike-book-2-in-ongoing-chevy-collab-io9841-600",
@@ -3788,7 +3834,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/17/nike-book-2-chevy-red-stardust-io9841-600/",
     "added_at": "2026-08-17T20:00:02.624058+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO9841-600",
+        "price": "155€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio9841-600%2F",
+        "price": "155€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "155€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-3-khaki-sample-from-2012-is-dropping-next-year-ct8532-203",
@@ -3801,6 +3870,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/17/air-jordan-3-khaki-ct8532-203/",
     "added_at": "2026-08-17T20:00:02.627714+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DCT8532-203",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fct8532-203%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
