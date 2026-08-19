@@ -3668,7 +3668,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/19/nike-sb-p-rod-1-light-british-tan-iq6827-200/",
     "added_at": "2026-08-19T16:00:02.543684+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ6827-200",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq6827-200%2F",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "brain-dead-and-crocs-christen-the-trailbreak-2-and-echo-clog-ii-213557-5ep",
@@ -3681,7 +3704,23 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/19/brain-dead-crocs-trailbreak-2-echo-clog-ii-release-date/",
     "added_at": "2026-08-19T20:00:02.095501+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D213557-5EP",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F213557-5ep%2F",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "brain-dead-and-crocs-christen-the-trailbreak-2-and-echo-clog-ii-212689-5ep",
@@ -3694,7 +3733,23 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/19/brain-dead-crocs-trailbreak-2-echo-clog-ii-release-date/",
     "added_at": "2026-08-19T20:00:02.095738+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D212689-5EP",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F212689-5ep%2F",
+        "price": "120€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "reebok-g-unit-g6-retro-100289469",
@@ -3707,6 +3762,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/19/reebok-g-unit-g6-store-list/",
     "added_at": "2026-08-19T20:00:02.096605+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D100289469",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F100289469%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Reebok",
+        "url": "https://www.reebok.fr/",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
