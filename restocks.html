@@ -277,7 +277,8 @@
       });
 
       // Trier: dates connues d'abord, puis TBD
-      const dated = items.filter(i => i.date && i.date !== '2026-12-31').sort((a, b) => a.date.localeCompare(b.date));
+      const todayStr = new Date().toISOString().slice(0,10);
+      const dated = items.filter(i => i.date && i.date !== '2026-12-31' && i.date >= todayStr).sort((a, b) => a.date.localeCompare(b.date));
       const tbd = items.filter(i => !i.date || i.date === '2026-12-31');
       const sorted = [...dated, ...tbd];
 
