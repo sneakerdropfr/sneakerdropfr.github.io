@@ -3798,7 +3798,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/19/moma-air-jordan-1-2027/",
     "added_at": "2026-08-19T22:00:02.525163+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DJF3014-001",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjf3014-001%2F",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "breaking-moma-x-air-jordan-1-releasing-spring-2027-jf3014-002",
@@ -3811,7 +3834,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/19/moma-air-jordan-1-2027/",
     "added_at": "2026-08-19T22:00:02.525437+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DJF3014-002",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjf3014-002%2F",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "breaking-moma-x-air-jordan-1-releasing-spring-2027-jf3014-003",
@@ -3824,7 +3870,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/19/moma-air-jordan-1-2027/",
     "added_at": "2026-08-19T22:00:02.525510+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DJF3014-003",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjf3014-003%2F",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-17-low-metallic-silver-dropping-april-2027-ja0788-001",
@@ -3837,7 +3906,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/19/air-jordan-17-low-sp-metallic-silver-black-coconut-milk-ja0788-001/",
     "added_at": "2026-08-19T22:00:02.525766+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DJA0788-001",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fja0788-001%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-kobe-3-low-lets-loose-a-mismatched-kids-pair-iz7934-900",
@@ -3850,7 +3942,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/19/nike-kobe-3-low-protro-mismatch-blue-green-iz7934-900/",
     "added_at": "2026-08-19T22:00:02.528998+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ7934-900",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz7934-900%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-41-hv6474-601",
@@ -3863,6 +3978,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/19/air-jordan-41-university-red-infrared-23-hv6474-601/",
     "added_at": "2026-08-20T04:00:02.752960+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHV6474-601",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhv6474-601%2F",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
