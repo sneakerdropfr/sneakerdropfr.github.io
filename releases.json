@@ -1825,5 +1825,31 @@
         "raffle": false
       }
     ]
+  },
+  {
+    "id": "air-jordan-4-pink-thunder-hv0823-001",
+    "title": "Air Jordan 4 “Pink Thunder”",
+    "brand": "Jordan Brand",
+    "date": "TBD",
+    "price": 215.0,
+    "sku": "HV0823-001",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/air-jordan-4-pink-thunder-hv0823-001-6.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/08/21/air-jordan-4-pink-thunder-hv0823-001/",
+    "added_at": "2026-08-21T16:00:02.490562+00:00",
+    "featured": false
+  },
+  {
+    "id": "air-jordan-14-forest-green-487471-300",
+    "title": "Air Jordan 14 “Forest Green”",
+    "brand": "Jordan Brand",
+    "date": "TBD",
+    "price": null,
+    "sku": "487471-300",
+    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/air-jordan-14-forest-green-487471-300-2.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/08/21/air-jordan-14-forest-green-487471-300/",
+    "added_at": "2026-08-21T16:00:02.490994+00:00",
+    "featured": false
   }
 ]
