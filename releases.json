@@ -1,5 +1,17 @@
 [
   {
+    "id": "moma-x-air-jordan-1-high-og-releases-spring-2027",
+    "title": "MoMA x Air Jordan 1 High OG Releases Spring 2027",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": null,
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/08/moma-air-jordan-1-high-og-2027-1024x725.jpg",
+    "buy_url": "https://www.nike.com/launch/upcoming",
+    "source": "Sneaker Files",
+    "added_at": "2026-08-21T19:12:39.375202+00:00"
+  },
+  {
     "id": "new-balance-1890p-team-red-pink-u18902uh",
     "sku": "U18902UH",
     "brand": "New Balance",
@@ -1789,93 +1801,5 @@
         "raffle": false
       }
     ]
-  },
-  {
-    "id": "nike-air-force-01-checks-off-triple-black-iv4501-001",
-    "title": "Nike Air Force ’01 Checks Off “Triple Black”",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 130.0,
-    "sku": "IV4501-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/nike-air-force-1-01-black-iv4501-001-2.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/20/nike-air-force-1-01-black-iv4501-001/",
-    "added_at": "2026-08-21T06:00:01.971120+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV4501-001",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv4501-001%2F",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "130€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "air-jordan-4-pink-thunder-hv0823-001",
-    "title": "Air Jordan 4 “Pink Thunder”",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": 215.0,
-    "sku": "HV0823-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/air-jordan-4-pink-thunder-hv0823-001-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/21/air-jordan-4-pink-thunder-hv0823-001/",
-    "added_at": "2026-08-21T16:00:02.490562+00:00",
-    "featured": false
-  },
-  {
-    "id": "air-jordan-14-forest-green-487471-300",
-    "title": "Air Jordan 14 “Forest Green”",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": null,
-    "sku": "487471-300",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/air-jordan-14-forest-green-487471-300-2.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/21/air-jordan-14-forest-green-487471-300/",
-    "added_at": "2026-08-21T16:00:02.490994+00:00",
-    "featured": false
-  },
-  {
-    "id": "nike-air-force-1-low-01-adds-a-dark-team-red-option-iv4501-600",
-    "title": "Nike Air Force 1 Low ’01 Adds A “Dark Team Red” Option",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 130.0,
-    "sku": "IV4501-600",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/nike-air-force-1-01-dark-team-red-white-IV4501-600-5.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/21/nike-air-force-1-01-dark-team-red-white-iv4501-600/",
-    "added_at": "2026-08-21T18:00:02.505803+00:00",
-    "featured": false
-  },
-  {
-    "id": "air-jordan-4-light-army-ja5911-320",
-    "title": "Air Jordan 4 “Light Army”",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": 215.0,
-    "sku": "JA5911-320",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/air-jordan-4-light-army-JA5911-320-1.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/21/air-jordan-4-light-army-ja5911-320/",
-    "added_at": "2026-08-21T18:00:02.506510+00:00",
-    "featured": false
   }
 ]
