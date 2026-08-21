@@ -1,5 +1,17 @@
 [
   {
+    "id": "nike-kobe-3-low-protro-gs-mismatch-releases-fall-2026",
+    "title": "Nike Kobe 3 Low Protro GS “Mismatch” Releases Fall 2026",
+    "brand": "Sneaker Files",
+    "colorway": "",
+    "date": "TBD",
+    "price": "101.99€",
+    "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/08/nike-kobe-3-low-protro-gs-mismatch-IZ7934-900-1024x725.jpg",
+    "buy_url": "https://www.nike.com/w/kobe-pgd6",
+    "source": "Sneaker Files",
+    "added_at": "2026-08-21T19:13:03.890487+00:00"
+  },
+  {
     "id": "air-jordan-41-university-red-releases-holiday-2026",
     "title": "Air Jordan 41 “University Red” Releases Holiday 2026",
     "brand": "Sneaker Files",
@@ -1713,42 +1725,6 @@
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
         "price": "160€",
-        "resell": false,
-        "raffle": false
-      }
-    ]
-  },
-  {
-    "id": "nike-brings-sheer-fabrics-to-the-hybrid-air-max-joga-bonito-io1753-001",
-    "title": "Nike Brings Sheer Fabrics To The Hybrid Air Max Joga Bonito",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 180.0,
-    "sku": "IO1753-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/08/nike-air-max-joga-bonito-black-university-red-io1753-001-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/08/20/nike-air-max-joga-bonito-black-university-red-io1753-001/",
-    "added_at": "2026-08-21T06:00:01.967044+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO1753-001",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio1753-001%2F",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "180€",
         "resell": false,
         "raffle": false
       }
