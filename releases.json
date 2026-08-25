@@ -2270,7 +2270,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/25/air-jordan-7-tennis-day/",
     "added_at": "2026-08-25T16:00:02.785799+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV6508-030",
+        "price": "215€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv6508-030%2F",
+        "price": "215€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "215€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-4-london-iv6048-001",
@@ -2283,7 +2306,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/25/air-jordan-4-london-iv6048-001/",
     "added_at": "2026-08-25T16:00:02.786268+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV6048-001",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv6048-001%2F",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "cecilie-bahnsen-brings-trademark-florals-to-the-asics-gel-kinetic-fr-1203b171-020",
@@ -2296,7 +2342,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/25/cecilie-bahnsen-asics-gel-kinetic-fr/",
     "added_at": "2026-08-25T18:00:02.852946+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D1203B171-020",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1203b171-020%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr/fr-fr/",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "cecilie-bahnsen-brings-trademark-florals-to-the-asics-gel-kinetic-fr-1203b171-001",
@@ -2309,7 +2378,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/25/cecilie-bahnsen-asics-gel-kinetic-fr/",
     "added_at": "2026-08-25T18:00:02.853196+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D1203B171-001",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1203b171-001%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr/fr-fr/",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "adidas-jellyfish-in-dark-brown-frozen-green-kk2888",
@@ -2322,7 +2414,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/25/adidas-jellyfish-dark-brown-frozen-green-kk2888/",
     "added_at": "2026-08-25T18:00:02.853584+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKK2888",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk2888%2F",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "sp5der-s-adidas-f50-formotion-gets-louder-with-two-new-colorways-kz6578",
@@ -2335,7 +2450,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/25/sp5der-adidas-f50-formotion-kz6578-kz6581/",
     "added_at": "2026-08-25T18:00:02.853871+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKZ6578",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkz6578%2F",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "sp5der-s-adidas-f50-formotion-gets-louder-with-two-new-colorways-kz6581",
@@ -2348,7 +2486,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/25/sp5der-adidas-f50-formotion-kz6578-kz6581/",
     "added_at": "2026-08-25T18:00:02.853977+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKZ6581",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkz6581%2F",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "kpop-demon-hunters-gets-its-biggest-vans-collection-yet-in-september-vn000v93blk",
@@ -2361,7 +2522,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/25/kpop-demon-hunters-vans-rumi-mira-zoey-derpy/",
     "added_at": "2026-08-25T18:00:02.854368+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000V93BLK",
+        "price": "75€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000v93blk%2F",
+        "price": "75€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "75€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "kpop-demon-hunters-gets-its-biggest-vans-collection-yet-in-september-vn000ecuylw",
@@ -2374,7 +2558,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/25/kpop-demon-hunters-vans-rumi-mira-zoey-derpy/",
     "added_at": "2026-08-25T18:00:02.854479+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000ECUYLW",
+        "price": "75€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000ecuylw%2F",
+        "price": "75€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "75€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "kpop-demon-hunters-gets-its-biggest-vans-collection-yet-in-september-vn000ec3cje",
@@ -2387,7 +2594,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/25/kpop-demon-hunters-vans-rumi-mira-zoey-derpy/",
     "added_at": "2026-08-25T18:00:02.854559+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000EC3CJE",
+        "price": "65€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000ec3cje%2F",
+        "price": "65€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "65€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "kpop-demon-hunters-gets-its-biggest-vans-collection-yet-in-september-vn000ed2cjf",
@@ -2400,6 +2630,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/25/kpop-demon-hunters-vans-rumi-mira-zoey-derpy/",
     "added_at": "2026-08-25T18:00:02.854641+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000ED2CJF",
+        "price": "75€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000ed2cjf%2F",
+        "price": "75€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "75€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
