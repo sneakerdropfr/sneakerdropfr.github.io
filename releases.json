@@ -738,6 +738,13 @@
         "price": "200€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-x-jordan-cryo-shot-io8209-600-0361936",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -2306,7 +2313,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/26/pharrell-adidas-jellyfish-auburn-timber-yellow-kk2889/",
     "added_at": "2026-08-26T18:00:01.903615+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKK2889",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkk2889%2F",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "300€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-book-2-university-red-recalls-a-timeless-air-max-1-iz2372-106",
@@ -2319,7 +2349,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/26/nike-book-2-tb-white-university-red-metallic-silver-iz2372-106/",
     "added_at": "2026-08-26T18:00:01.905715+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ2372-106",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz2372-106%2F",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "145€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "fka-twigs-reinvents-the-on-cloudmonster-3-as-a-mule-3mg30346025",
@@ -2332,7 +2385,23 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/26/fka-twigs-on-cloudmonster-3-mule-release-date/",
     "added_at": "2026-08-26T20:00:02.025572+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D3MG30346025",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F3mg30346025%2F",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "fka-twigs-reinvents-the-on-cloudmonster-3-as-a-mule-3mg30343132",
@@ -2345,7 +2414,23 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/26/fka-twigs-on-cloudmonster-3-mule-release-date/",
     "added_at": "2026-08-26T20:00:02.025750+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D3MG30343132",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F3mg30343132%2F",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "chromed-out-nike-zoom-vomero-5s-continue-with-gridiron-iv4311-003",
@@ -2358,6 +2443,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/26/nike-zoom-vomero-5-gridiron-wolf-grey-metallic-silver-iv4311-003/",
     "added_at": "2026-08-26T20:00:02.026338+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV4311-003",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv4311-003%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
