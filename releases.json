@@ -2371,7 +2371,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/27/air-jordan-3-td-football-cleats-metallic-silver-fz8626-002/",
     "added_at": "2026-08-27T18:00:02.536765+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DFZ8626-002",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Ffz8626-002%2F",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "reebok-angel-reese-metal-green-and-aqua-drop-on-august-31st-100276235",
@@ -2384,6 +2407,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/27/reebok-angel-reese-1-metal-green-aqua/",
     "added_at": "2026-08-27T20:00:02.458475+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D100276235",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F100276235%2F",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Reebok",
+        "url": "https://www.reebok.fr/",
+        "price": "135€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
