@@ -2479,7 +2479,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/26/new-balance-990v4-made-in-usa-nb-navy-meteorite-kombu-u990bg4/",
     "added_at": "2026-08-26T22:00:02.020679+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU990BG4",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu990bg4%2F",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-vomero-premium-adds-oreo-soles-iu2827-001",
@@ -2492,7 +2515,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/26/nike-vomero-premium-oreo-iu2827-001/",
     "added_at": "2026-08-26T22:00:02.021057+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU2827-001",
+        "price": "230€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu2827-001%2F",
+        "price": "230€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "230€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "fat-joe-and-his-daughter-present-the-next-terror-squad-x-nike-air-force-1-release-ii4391-100",
@@ -2505,6 +2551,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/26/fat-joe-terror-squad-nike-air-force-1-university-red-ii4391-100/",
     "added_at": "2026-08-27T00:00:02.095800+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DII4391-100",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fii4391-100%2F",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
