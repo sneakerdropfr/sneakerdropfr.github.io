@@ -2584,7 +2584,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/31/nike-air-foamposite-one-phantom-barely-volt-sequoia-iz1476-001/",
     "added_at": "2026-08-31T16:00:02.853019+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ1476-001",
+        "price": "240€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz1476-001%2F",
+        "price": "240€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "240€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "apb-x-air-jordan-11-low-releases-on-september-18th-iu8266-400",
@@ -2597,7 +2620,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/31/apb-air-jordan-11-low-iu8266-400-release-date/",
     "added_at": "2026-08-31T16:00:02.853488+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU8266-400",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu8266-400%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "carlos-alcaraz-debuts-the-travis-scott-x-nike-zoom-vapor-12-tennis-shoe-jj2180-100",
@@ -2610,7 +2656,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/31/travis-scott-nike-zoom-vapor-12-jj2180-100/",
     "added_at": "2026-08-31T18:00:02.476340+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DJJ2180-100",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fjj2180-100%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "yuto-horigome-s-nike-sb-air-force-1-laser-is-limited-to-1-000-pairs-iu3766-100",
@@ -2623,7 +2692,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/31/yuto-horigome-nike-sb-air-force-1-white-red-iu3766-100/",
     "added_at": "2026-08-31T18:00:02.476807+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU3766-100",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu3766-100%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "melitta-baumeister-teases-the-nike-rift-rocker-iq8101-001",
@@ -2636,7 +2728,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/31/melitta-baumeister-nike-rift-rocker/",
     "added_at": "2026-08-31T18:00:02.477088+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8101-001",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8101-001%2F",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "melitta-baumeister-teases-the-nike-rift-rocker-iq8101-200",
@@ -2649,7 +2764,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/31/melitta-baumeister-nike-rift-rocker/",
     "added_at": "2026-08-31T18:00:02.477240+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8101-200",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8101-200%2F",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "following-batman-colorway-the-joker-gets-his-own-nike-air-max-95-iq0229-002",
@@ -2662,6 +2800,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/31/nike-air-max-95-big-bubble-joker-iq0229-002/",
     "added_at": "2026-08-31T20:00:01.759691+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ0229-002",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq0229-002%2F",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
