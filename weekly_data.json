@@ -82,7 +82,7 @@
     {
       "id": "kobe-bryant-x-nike-air-force-1-protro-low-lord-of-the-rings-iq3921-100",
       "sku": "IQ3921-100",
-      "brand": "Kobe Bryant x Nike Air Force 1 Protro Low",
+      "brand": "Nike",
       "title": "Nike Air Force 1 Kobe Bryant Protro Low Lord Rings",
       "date": "2026-08-31",
       "price": 150,
@@ -101,7 +101,7 @@
     {
       "id": "nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey-ih7853-001",
       "sku": "IH7853-001",
-      "brand": "Nike Air Max 95 Big Bubble Tech",
+      "brand": "Nike",
       "title": "Nike Air Max 95 Big Bubble Smoke Grey Wolf Grey",
       "date": "2026-08-31",
       "price": 200,
@@ -120,7 +120,7 @@
     {
       "id": "air-jordan-8-retro-premium-legion-pine-red-io2053-300",
       "sku": "IO2053-300",
-      "brand": "Air Jordan 8 Retro Premium",
+      "brand": "Air Jordan",
       "title": "Air Jordan 2 Retro Premium Bin",
       "date": "2026-08-31",
       "price": 350,
@@ -144,7 +144,7 @@
     {
       "id": "adidas-adistar-xlg-2-0-white-green-black-kz9160",
       "sku": "KZ9160",
-      "brand": "adidas Adistar XLG 2.0",
+      "brand": "Adidas",
       "title": "adidas Adistar XLG 2.0 White Green Black",
       "date": "2026-09-01",
       "price": 140,
@@ -168,7 +168,7 @@
     {
       "id": "jennie-adidas-superstar-square-toe-ballet-core-black-lb3787",
       "sku": "LB3787",
-      "brand": "Jennie x adidas Superstar Square Toe Ballet",
+      "brand": "Adidas",
       "title": "Adidas Superstar Jennie Square Toe Ballet Core Black",
       "date": "2026-09-01",
       "price": 130,
@@ -187,7 +187,7 @@
     {
       "id": "jennie-adidas-superstar-square-toe-ballet-white-lb3786",
       "sku": "LB3786",
-      "brand": "Jennie x adidas Superstar Square Toe Ballet",
+      "brand": "Adidas",
       "title": "Adidas Superstar Jennie Square Toe Ballet White",
       "date": "2026-09-01",
       "price": 130,
@@ -206,7 +206,7 @@
     {
       "id": "new-balance-991v2-made-in-uk-rose-taupe-u991ma2",
       "sku": "U991MA2",
-      "brand": "New Balance 991v2 Made in UK",
+      "brand": "New Balance",
       "title": "New Balance 991v2 UK Rose Taupe",
       "date": "2026-09-01",
       "price": 250,
@@ -240,7 +240,7 @@
     {
       "id": "new-balance-1890-slate-grey-u189045a",
       "sku": "U189045A",
-      "brand": "New Balance 1890",
+      "brand": "New Balance",
       "title": "New Balance 1890 Slate Grey",
       "date": "2026-09-01",
       "price": 200,
@@ -259,7 +259,7 @@
     {
       "id": "new-balance-made-in-uk-allerdale-yellow-suede-uadwyel",
       "sku": "UADWYEL",
-      "brand": "New Balance Made in UK Allerdale",
+      "brand": "New Balance",
       "title": "New Balance Made in UK Allerdale Yellow Suede",
       "date": "2026-09-01",
       "price": 250,
@@ -283,7 +283,7 @@
     {
       "id": "new-balance-991v2-made-in-uk-insignia-blue-u991na2",
       "sku": "U991NA2",
-      "brand": "New Balance 991v2 Made in UK",
+      "brand": "New Balance",
       "title": "New Balance 991v2 UK Insignia Blue",
       "date": "2026-09-01",
       "price": 250,
@@ -317,7 +317,7 @@
     {
       "id": "nike-acg-radical-airflow-nxt-white-anthracite-iq5848-100",
       "sku": "IQ5848-100",
-      "brand": "Nike ACG Radical AirFlow NXT",
+      "brand": "Nike",
       "title": "Nike ACG Radical AirFlow NXT White Anthracite",
       "date": "2026-09-01",
       "price": 150,
@@ -598,7 +598,7 @@
     {
       "id": "air-jordan-4-retro-tour-yellow-io2463-102",
       "sku": "IO2463-102",
-      "brand": "Air Jordan 4 Retro",
+      "brand": "Air Jordan",
       "title": "Air Jordan 4 Retro Tour Yellow",
       "date": "2026-09-05",
       "price": 210,
@@ -615,5 +615,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-31T03:44:30Z"
+  "generated_at": "2026-08-31T03:47:00Z"
 }
