@@ -58,13 +58,13 @@
   },
   {
     "id": "nike-mind-001-hyper-royal-volt",
-    "sku": "À définir",
+    "sku": "HQ4307-400",
     "brand": "Nike",
     "title": "Nike Mind 001 Hyper Royal Volt",
     "date": "2026-08-31",
     "price": 90,
     "year": 2026,
-    "image_url": "",
+    "image_url": "/images/HQ4307-400.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-hyper-royal-volt",
     "featured": false,
     "retailers": [
@@ -73,7 +73,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
         "price": ""
       }
-    ]
+    ],
+    "slug": "nike-mind-001-hyper-royal-volt"
   },
   {
     "id": "kobe-bryant-x-nike-air-force-1-protro-low-lord-of-the-rings-iq3921-100",
@@ -376,18 +377,6 @@
     "updated_at": "2026-08-31"
   },
   {
-    "slug": "nike-vomero-premium-university-red-metallic-silver",
-    "sku": "",
-    "title": "Nike Zoom Vomero Premium University Red Metallic Silver",
-    "brand": "Nike",
-    "date": "2026-09-01",
-    "price": 0,
-    "image_url": "",
-    "retailers": [],
-    "wtc_url": "https://www.whentocop.fr/drops/nike-vomero-premium-university-red-metallic-silver",
-    "updated_at": "2026-08-31"
-  },
-  {
     "slug": "new-balance-1954r-tropical-white-u19549xd",
     "sku": "U19549XD",
     "title": "New Balance 1954R Tropical White",
@@ -431,18 +420,6 @@
       }
     ],
     "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-atr-orange-ki1700",
-    "updated_at": "2026-08-31"
-  },
-  {
-    "slug": "adidas-adizero-evo-sl-zip-wmns-cardboard-turquoise",
-    "sku": "",
-    "title": "Adidas Adizero Evo SL Zip WMNS Cardboard Turquoise",
-    "brand": "Adidas",
-    "date": "2026-09-01",
-    "price": 0,
-    "image_url": "",
-    "retailers": [],
-    "wtc_url": "https://www.whentocop.fr/drops/adidas-adizero-evo-sl-zip-wmns-cardboard-turquoise",
     "updated_at": "2026-08-31"
   },
   {
@@ -519,18 +496,6 @@
       }
     ],
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-rift-wmns-dark-driftwood-black-io4884-200",
-    "updated_at": "2026-08-31"
-  },
-  {
-    "slug": "adidas-handball-spezial-khaki-three-brown-desert-k",
-    "sku": "",
-    "title": "Adidas Handball Spezial Khaki Three Brown Desert Khaki",
-    "brand": "Adidas",
-    "date": "2026-09-01",
-    "price": 100,
-    "image_url": "",
-    "retailers": [],
-    "wtc_url": "https://www.whentocop.fr/drops/adidas-handball-spezial-khaki-three-brown-desert-k",
     "updated_at": "2026-08-31"
   },
   {
