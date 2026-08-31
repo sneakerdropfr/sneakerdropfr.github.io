@@ -340,7 +340,7 @@
       "brand": "Adidas",
       "date": "2026-09-01",
       "price": 280,
-      "image_url": "",
+      "image_url": "/images/KZ6578.webp",
       "retailers": [
         {
           "name": "Naked",
@@ -363,7 +363,7 @@
       "brand": "Adidas",
       "date": "2026-09-01",
       "price": 280,
-      "image_url": "",
+      "image_url": "/images/KZ6581.webp",
       "retailers": [
         {
           "name": "Naked",
@@ -382,7 +382,7 @@
     {
       "slug": "nike-vomero-premium-university-red-metallic-silver",
       "sku": "",
-      "title": "Nike Zoom Vomero 5 Premium University Red Metallic Silver",
+      "title": "Nike Zoom Vomero Premium University Red Metallic Silver",
       "brand": "Nike",
       "date": "2026-09-01",
       "price": 0,
@@ -398,7 +398,7 @@
       "brand": "New Balance",
       "date": "2026-09-01",
       "price": 0,
-      "image_url": "",
+      "image_url": "/images/U19549XD.webp",
       "retailers": [
         {
           "name": "New Balance",
@@ -421,7 +421,7 @@
       "brand": "Adidas",
       "date": "2026-09-01",
       "price": 130,
-      "image_url": "",
+      "image_url": "/images/KI1700.webp",
       "retailers": [
         {
           "name": "FootDistrict",
@@ -452,11 +452,11 @@
     {
       "slug": "nike-wmns-air-rift-pony-hair-black-io4884-001",
       "sku": "IO4884-001",
-      "title": "Nike WMNS Air Rift Pony Hair Black",
+      "title": "Nike Air Rift WMNS Pony Hair Black",
       "brand": "Nike",
       "date": "2026-09-01",
-      "price": 0,
-      "image_url": "",
+      "price": 130,
+      "image_url": "/images/IO4884-001.webp",
       "retailers": [
         {
           "name": "Nike",
@@ -495,11 +495,11 @@
     {
       "slug": "nike-air-rift-wmns-dark-driftwood-black-io4884-200",
       "sku": "IO4884-200",
-      "title": "Nike Air Rift WMNS Dark Driftwood Black",
+      "title": "Nike Air Rift WMNS Pony Hair Dark Driftwood",
       "brand": "Nike",
       "date": "2026-09-01",
-      "price": 0,
-      "image_url": "",
+      "price": 130,
+      "image_url": "/images/IO4884-200.webp",
       "retailers": [
         {
           "name": "Nike",
@@ -543,8 +543,8 @@
       "title": "Adidas Climacool Wonder Taupe Iron Metallic",
       "brand": "Adidas",
       "date": "2026-09-01",
-      "price": 0,
-      "image_url": "",
+      "price": 150,
+      "image_url": "/images/KJ0651.webp",
       "retailers": [
         {
           "name": "BSTN",
@@ -578,8 +578,8 @@
       "title": "Adidas Climacool Grey Four Iron Metal",
       "brand": "Adidas",
       "date": "2026-09-01",
-      "price": 0,
-      "image_url": "",
+      "price": 150,
+      "image_url": "/images/KJ2597.webp",
       "retailers": [
         {
           "name": "BSTN",
@@ -615,5 +615,5 @@
       ]
     }
   ],
-  "generated_at": "2026-08-31T03:47:00Z"
+  "generated_at": "2026-08-31T06:06:13Z"
 }
