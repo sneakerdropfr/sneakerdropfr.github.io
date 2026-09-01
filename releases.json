@@ -881,6 +881,13 @@
         "price": "130€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-climacool-laced-ki2682-0354991",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "wtc_url": "https://www.whentocop.fr/drops/adidas-climacool-laced-night-cargo-legend-ivy-ki26",
@@ -2476,7 +2483,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/jaide-air-jordan-11-low-iw1883-300-release-date/",
     "added_at": "2026-09-01T16:00:02.210101+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIW1883-300",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiw1883-300%2F",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-kobe-3-low-protro-dynamic-yellow-releasing-holiday-2026-iv7127-700",
@@ -2489,7 +2519,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/nike-kobe-3-low-protro-dynamic-yellow-iv7127-700/",
     "added_at": "2026-09-01T16:00:02.210389+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV7127-700",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv7127-700%2F",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "moma-x-nike-air-rift-2-pack-dropping-september-2026-ir8669-300",
@@ -2502,7 +2555,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/moma-nike-air-rift-2-release-date/",
     "added_at": "2026-09-01T16:00:02.210535+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR8669-300",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir8669-300%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "moma-x-nike-air-rift-2-pack-dropping-september-2026-ir8669-001",
@@ -2515,7 +2591,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/moma-nike-air-rift-2-release-date/",
     "added_at": "2026-09-01T16:00:02.210587+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR8669-001",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir8669-001%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "ahead-of-us-open-coco-gauff-debuts-the-new-balance-983-u9835du",
@@ -2528,7 +2627,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/new-balance-983-u9835du-release-date/",
     "added_at": "2026-09-01T16:00:02.212316+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU9835DU",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu9835du%2F",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "jordan-brand-s-newest-lifestyle-skate-shoe-remixes-the-air-jordan-1-ir2571-200",
@@ -2541,7 +2663,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/jordan-strada-baroque-brown-sail-gum-medium-brown-rust-pink-ir2571-200/",
     "added_at": "2026-09-01T18:00:03.084615+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR2571-200",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir2571-200%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "jordan-releases-a-derby-shoe-based-on-the-air-jordan-1-iq4927-100",
@@ -2554,7 +2699,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/air-jordan-1-brooklyn-low-2026/",
     "added_at": "2026-09-01T18:00:03.085113+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ4927-100",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq4927-100%2F",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "jordan-releases-a-derby-shoe-based-on-the-air-jordan-1-iq4927-001",
@@ -2567,7 +2735,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/air-jordan-1-brooklyn-low-2026/",
     "added_at": "2026-09-01T18:00:03.085254+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ4927-001",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq4927-001%2F",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-11-mcs-baseball-cleat-is-ready-for-october-in-black-metallic-gold-hm7326-001",
@@ -2580,7 +2771,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/air-jordan-11-mcs-baseball-cleats-black-anthracite-metallic-gold-hm7326-001/",
     "added_at": "2026-09-01T18:00:03.085488+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHM7326-001",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhm7326-001%2F",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "pharrell-s-adidas-water-moc-might-be-the-perfect-vacation-shoe-lb2841",
@@ -2593,7 +2807,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/pharrell-adidas-water-moc/",
     "added_at": "2026-09-01T20:00:02.385520+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DLB2841",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Flb2841%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "pharrell-s-adidas-water-moc-might-be-the-perfect-vacation-shoe-lb2842",
@@ -2606,7 +2843,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/pharrell-adidas-water-moc/",
     "added_at": "2026-09-01T20:00:02.385734+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DLB2842",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Flb2842%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "pharrell-s-adidas-water-moc-might-be-the-perfect-vacation-shoe-lb2845",
@@ -2619,7 +2879,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/pharrell-adidas-water-moc/",
     "added_at": "2026-09-01T20:00:02.385819+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DLB2845",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Flb2845%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "gore-tex-uppers-return-on-the-nike-air-force-1-low-hv5953-200",
@@ -2632,7 +2915,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/nike-air-force-1-low-gtx-baroque-brown-speed-yellow-university-red-hv5953-200/",
     "added_at": "2026-09-01T20:00:02.386212+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHV5953-200",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhv5953-200%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-1-low-element-gtx-returns-for-holiday-2026-fv4227-004",
@@ -2645,6 +2951,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/01/air-jordan-1-low-element-gore-tex-black-dark-concord-purple-dynasty-celery-fv4227-004/",
     "added_at": "2026-09-01T20:00:02.386448+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DFV4227-004",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Ffv4227-004%2F",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "205€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
