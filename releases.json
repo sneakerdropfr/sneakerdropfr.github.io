@@ -1713,7 +1713,7 @@
     "sku": "IZ6659-400",
     "brand": "Nike",
     "title": "Nike Mind 001 AMP Indigo Burst",
-    "date": "2026-09-30",
+    "date": "TBD",
     "price": 90,
     "year": 2026,
     "image_url": "/images/IZ6659-400.webp",
@@ -1833,7 +1833,7 @@
     "sku": "HQ4309-301",
     "brand": "Nike",
     "title": "Nike Mind 001 WMNS Tarp Green",
-    "date": "2026-10-15",
+    "date": "TBD",
     "price": 90,
     "year": 2026,
     "image_url": "/images/HQ4309-301.webp",
@@ -1873,7 +1873,7 @@
     "sku": "HQ4309-500",
     "brand": "Nike",
     "title": "Nike Mind 001 WMNS Palest Purple",
-    "date": "2026-10-15",
+    "date": "TBD",
     "price": 90,
     "year": 2026,
     "image_url": "/images/HQ4309-500.webp",
@@ -3001,5 +3001,176 @@
     "buy_url": "https://sneakernews.com/2026/09/01/nike-dunk-low-double-swoosh-ja4405-161/",
     "added_at": "2026-09-01T22:00:02.784887+00:00",
     "featured": false
+  },
+  {
+    "id": "new-balance-made-in-uk-991v2-sept",
+    "title": "New Balance Made in UK 991v2",
+    "brand": "New Balance",
+    "sku": "TBD-NB991V2-SEP",
+    "date": "2026-09-01",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "nike-kobe-3-protro-fc-barcelona",
+    "title": "Nike Kobe 3 Protro FC Barcelona",
+    "brand": "Nike",
+    "sku": "TBD-KOBE3-FCB",
+    "date": "2026-09-04",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "nike-air-force-1-low-light-army-black",
+    "title": "Nike Air Force 1 Low Light Army Black",
+    "brand": "Nike",
+    "sku": "TBD-AF1-ARMY",
+    "date": "2026-09-04",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "air-jordan-4-rare-air-turbo-yellow",
+    "title": "Air Jordan 4 Rare Air Turbo Yellow",
+    "brand": "Jordan",
+    "sku": "TBD-AJ4-TURBO",
+    "date": "2026-09-05",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "adidas-pharrell-virginia-watermoc-pack",
+    "title": "Adidas Pharrell Williams Virginia Watermoc Pack",
+    "brand": "Adidas",
+    "sku": "TBD-PW-WATERMOC",
+    "date": "2026-09-05",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "adidas-x-tyrell-2026",
+    "title": "Adidas x Tyrell",
+    "brand": "Adidas",
+    "sku": "TBD-ADIDAS-TYRELL",
+    "date": "2026-09-08",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "havaianas-x-kid-super",
+    "title": "Havaianas x Kid Super",
+    "brand": "Havaianas",
+    "sku": "TBD-HAVA-KIDSUPER",
+    "date": "2026-09-08",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "ugg-x-willy-chavarria",
+    "title": "UGG x Willy Chavarria",
+    "brand": "UGG",
+    "sku": "TBD-UGG-WILLY",
+    "date": "2026-09-10",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "adidas-bstn-munchen-oktoberfest-drop1",
+    "title": "Adidas x BSTN München Oktoberfest Drop 1",
+    "brand": "Adidas",
+    "sku": "TBD-BSTN-OKTOBERFEST",
+    "date": "2026-09-12",
+    "price": 0,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": ""
+      }
+    ],
+    "source": "BSTN"
   }
 ]
