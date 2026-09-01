@@ -1266,7 +1266,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
                 wtc_url: r.wtc_url || r.link || (rel && rel.wtc_url) || '',
                 buy_url: r.buy_url || r.buy_link || (rel && rel.buy_url) || '',
                 sku: r.sku || (rel && rel.sku) || '',
-                retailers: r.retailers || (rel && rel.retailers) || null
+                retailers: r.retailers || (rel && rel.retailers) || null,
+                id: r.id || (rel && rel.id) || ''
               };
             });
             // Badge : si on est lundi ou après, afficher la semaine de weekly_data.json
