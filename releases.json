@@ -9,7 +9,8 @@
     "image_url": "https://www.sneakerfiles.com/wp-content/uploads/2026/08/air-jordan-9-boot-nrg-iridescent-IX8455-060-1024x725.jpg",
     "buy_url": "https://www.nike.com/launch/upcoming",
     "source": "Sneaker Files",
-    "added_at": "2026-08-31T22:21:11.496376+00:00"
+    "added_at": "2026-08-31T22:21:11.496376+00:00",
+    "retailers": []
   },
   {
     "id": "new-balance-992-made-in-usa-tan-grey-u992ta",
@@ -1924,7 +1925,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/31/nike-air-force-1-low-leopard-ix5098-001/",
     "added_at": "2026-09-01T00:00:02.277046+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX5098-001",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix5098-001%2F",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "following-batman-colorway-the-joker-gets-his-own-nike-air-max-95-iq0229-002",
@@ -1937,6 +1961,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/08/31/nike-air-max-95-big-bubble-joker-iq0229-002/",
     "added_at": "2026-09-01T00:00:02.277667+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ0229-002",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq0229-002%2F",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
