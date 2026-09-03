@@ -2985,7 +2985,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/03/vans-old-skool-pearlized-black-marshmallow-white-vn000zb8bpr/",
     "added_at": "2026-09-03T16:00:01.761694+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000ZB8BPR",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000zb8bpr%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "vans-old-skool-pearlized-marshmallow-adds-even-more-pearls-vn000zb8cda",
@@ -2998,7 +3021,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/03/vans-old-skool-marshmallow-white-vn000zb8cda/",
     "added_at": "2026-09-03T18:00:02.191806+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000ZB8CDA",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000zb8cda%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "comme-des-gar-ons-announces-air-jordan-11-collaboration-iv7639-100",
@@ -3011,7 +3057,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/03/comme-des-garcons-air-jordan-11-release-date/",
     "added_at": "2026-09-03T18:00:02.192449+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV7639-100",
+        "price": "358€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv7639-100%2F",
+        "price": "358€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "358€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "comme-des-gar-ons-announces-air-jordan-11-collaboration-iv7639-001",
@@ -3024,7 +3093,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/03/comme-des-garcons-air-jordan-11-release-date/",
     "added_at": "2026-09-03T18:00:02.192599+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV7639-001",
+        "price": "358€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv7639-001%2F",
+        "price": "358€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "358€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-zoom-gt-cut-4-sunset-looks-like-a-piece-of-candy-corn-hv9922-900",
@@ -3037,6 +3129,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/03/nike-zoom-gt-cut-4-sunset-hv9922-900/",
     "added_at": "2026-09-03T20:00:02.215936+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHV9922-900",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhv9922-900%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
