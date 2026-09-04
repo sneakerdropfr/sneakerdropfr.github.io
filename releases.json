@@ -2582,7 +2582,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/04/new-balance-1300-made-in-usa-u1300ss/",
     "added_at": "2026-09-04T18:00:02.119307+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU1300SS",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu1300ss%2F",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "New Balance",
+        "url": "https://www.newbalance.fr/",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "every-vans-old-skool-pearlized-releasing-from-now-til-new-year-s-vn000zb8cda",
@@ -2595,7 +2618,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/04/vans-old-skool-pearlized-release-dates/",
     "added_at": "2026-09-04T18:00:02.120010+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000ZB8CDA",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000zb8cda%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "every-vans-old-skool-pearlized-releasing-from-now-til-new-year-s-vn000e8vhhc",
@@ -2608,7 +2654,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/04/vans-old-skool-pearlized-release-dates/",
     "added_at": "2026-09-04T18:00:02.120233+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000E8VHHC",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8vhhc%2F",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "125€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "every-vans-old-skool-pearlized-releasing-from-now-til-new-year-s-vn000zb8bpr",
@@ -2621,7 +2690,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/04/vans-old-skool-pearlized-release-dates/",
     "added_at": "2026-09-04T18:00:02.120329+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000ZB8BPR",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000zb8bpr%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "how-to-buy-the-one-piece-nike-air-max-plus-iw1283-600",
@@ -2634,7 +2726,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/04/one-piece-air-max-plus/",
     "added_at": "2026-09-04T18:00:02.120632+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIW1283-600",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiw1283-600%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "jordan-spizike-low-crushes-grape-for-holiday-26-fq1759-113",
@@ -2647,7 +2762,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/04/jordan-spizike-low-grape-fq1759-113/",
     "added_at": "2026-09-04T20:00:02.355984+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DFQ1759-113",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Ffq1759-113%2F",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "lamelo-ball-s-puma-mb-06-grows-up-in-black-and-gold-314791-01",
@@ -2660,6 +2798,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/04/puma-mb-06-black-gold/",
     "added_at": "2026-09-04T20:00:02.356361+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D314791-01",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F314791-01%2F",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Puma",
+        "url": "https://eu.puma.com/fr/fr/",
+        "price": "110€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
