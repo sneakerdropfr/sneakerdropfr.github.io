@@ -983,6 +983,13 @@
         "price": "210€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fjordan-air-jordan-4-rare-air-tour-yellow-io2463-102-0353997",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "description": "La Air Jordan 4 Retro Tour Yellow adopte un upper en cuir blanc cassé avec des accents jaune Tour exclusifs et la semelle translucide iconique. Elle sort le vendredi 5 septembre 2026 au prix de 210€."
@@ -2546,6 +2553,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/05/nike-v5-rnr-pencil-point-college-grey-medium-ash-thunder-grey-iu3884-002/",
     "added_at": "2026-09-05T20:00:02.500921+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU3884-002",
+        "price": "95€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiu3884-002%2F",
+        "price": "95€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "95€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
