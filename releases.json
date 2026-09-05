@@ -2834,6 +2834,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/04/asics-gel-kayano-14-carrier-grey-1203a537-026/",
     "added_at": "2026-09-04T22:00:02.849827+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D1203A537-026",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1203a537-026%2F",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Asics",
+        "url": "https://www.asics.com/fr/fr-fr/",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
