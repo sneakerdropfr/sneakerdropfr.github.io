@@ -1,565 +1,415 @@
 {
-  "week_start": "2026-08-31",
-  "week_end": "2026-09-06",
-  "label": "Semaine du 31 août au 6 septembre 2026",
+  "week_start": "2026-09-07",
+  "week_end": "2026-09-13",
+  "label": "Semaine du 7 au 13 septembre 2026",
   "drops": [
     {
-      "id": "new-balance-992-made-in-usa-tan-grey-u992ta",
-      "sku": "U992TA",
-      "brand": "New Balance",
-      "title": "New Balance 992 USA Tan Grey",
-      "date": "2026-08-31",
-      "price": 230,
+      "id": "nike-ja-4-dark-mode-im4135-001",
+      "sku": "IM4135-001",
+      "brand": "Nike Ja 4",
+      "title": "Nike Ja 4 Dark Mode",
+      "date": "2026-09-08",
+      "price": 130,
       "year": 2026,
-      "image_url": "/images/U992TA.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-992-made-in-usa-tan-grey-u992ta",
+      "image_url": "/images/IM4135-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-ja-4-dark-mode-im4135-001",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=Ja 4-\"Dark-Mode\"&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-ja-4-nightmare-XqVUV1MG%2FIM4135-001",
+          "price": "130€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM4135-001",
+          "price": "130€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim4135-001%2F",
+          "price": "130€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "description": "La Nike Ja 4 Dark Mode décline la signature de Ja Morant dans un colorway sombre monochrome très demandé. Elle sort le mardi 8 septembre 2026 au prix de 130€."
+    },
+    {
+      "id": "nike-air-max-95-big-bubble-premium-greedy-im2211-001",
+      "sku": "IM2211-001",
+      "brand": "Nike Air Max 95 Big Bubble Premium",
+      "title": "Nike Air Max 95 Big Bubble Premium Greedy",
+      "date": "2026-09-09",
+      "price": 190,
+      "year": 2026,
+      "image_url": "/images/IM2211-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-premium-greedy-im2211-001",
+      "featured": true,
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IM2211-001&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fair-max-95-big-bubble-greedy-white-and-medium-ash",
+          "price": "189€"
+        },
+        {
+          "name": "Footshop",
+          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=IM2211-001&url=https://releases.footshop.com/nike-air-max-95-big-bubble-greedy-LWZrPaABQJ2hAzD9uq-w",
+          "price": "189€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM2211-001",
+          "price": "190€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim2211-001%2F",
+          "price": "190€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "description": "La Nike Air Max 95 Big Bubble Premium Greedy revisite le colorway Greedy légendaire de la Air Max 1 sur la silhouette Big Bubble Premium. Sortie le mercredi 9 septembre 2026 à 190€."
+    },
+    {
+      "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
+      "title": "Nike Air Max Joga Bonito R9",
+      "brand": "Nike",
+      "date": "2026-09-09",
+      "price": 170,
+      "sku": "IX8646-001",
+      "image_url": "/images/IX8646-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-joga-bonito-r9-ix8646-001",
+      "retailers": [
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8646-001",
+          "price": "180€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8646-001%2F",
+          "price": "180€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.nike.com/fr/launch",
+          "price": "180€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "featured": false,
+      "colorway": "Metallic Silver/Varsity Royal",
+      "year": 2026,
+      "description": "La Nike Air Max Joga Bonito R9 rend hommage à Ronaldo et au Joga Bonito brésilien avec des détails football sur la Air Max. Elle sort le mercredi 9 septembre 2026 au prix de 170€."
+    },
+    {
+      "id": "arte-antwerp-adidas-f50-feather-patent-leather-black-hq3324",
+      "sku": "HQ3324",
+      "brand": "Adidas",
+      "title": "Arte Antwerp x adidas F50 Feather Patent Leather Black",
+      "date": "2026-09-10",
+      "price": 0,
+      "year": 2026,
+      "image_url": "/images/HQ3324.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/arte-antwerp-adidas-f50-feather-patent-leather-black-hq3324",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+          "price": ""
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ3324",
+          "price": "",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq3324%2F",
+          "price": "",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "description": "La Arte Antwerp x adidas F50 Feather Patent Leather Black habille la légendaire chaussure de football adidas en cuir verni noir ultra-brillant, dans l'esprit graphique du label belge. Sortie le jeudi 10 septembre 2026."
+    },
+    {
+      "id": "new-balance-204v-off-line-grey-digital-mist-u204vacv",
+      "sku": "U204VACV",
+      "brand": "New Balance 204V",
+      "title": "New Balance 204V Off-Line Grey Digital Mist",
+      "date": "2026-09-10",
+      "price": 140,
+      "year": 2026,
+      "image_url": "/images/U204VACV.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-204v-off-line-grey-digital-mist-u204vacv",
       "featured": false,
       "retailers": [
         {
           "name": "New Balance",
           "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
           "price": ""
-        }
-      ]
-    },
-    {
-      "id": "air-jordan-cryoshot-mercurial-vapor-1-university-red-io8209-600",
-      "sku": "IO8209-600",
-      "brand": "Air Jordan",
-      "title": "Air Jordan Cryoshot Mercurial Vapor 1 University Red",
-      "date": "2026-08-31",
-      "price": 200,
-      "year": 2026,
-      "image_url": "/images/IO8209-600.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-cryoshot-mercurial-vapor-1-university-red-io8209-600",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "nike-air-max-95-korea-ir5901-010",
-      "sku": "IR5901-010",
-      "brand": "Nike",
-      "title": "Nike Air Max 95 KOREA",
-      "date": "2026-08-31",
-      "price": 190,
-      "year": 2026,
-      "image_url": "/images/IR5901-010.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-korea-ir5901-010",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "nike-mind-001-hyper-royal-volt",
-      "sku": "HQ4307-400",
-      "brand": "Nike",
-      "title": "Nike Mind 001 Hyper Royal Volt",
-      "date": "2026-08-31",
-      "price": 90,
-      "year": 2026,
-      "image_url": "/images/HQ4307-400.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-hyper-royal-volt",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
-        }
-      ],
-      "slug": "nike-mind-001-hyper-royal-volt"
-    },
-    {
-      "id": "kobe-bryant-x-nike-air-force-1-protro-low-lord-of-the-rings-iq3921-100",
-      "sku": "IQ3921-100",
-      "brand": "Nike",
-      "title": "Nike Air Force 1 Kobe Bryant Protro Low Lord Rings",
-      "date": "2026-08-31",
-      "price": 150,
-      "year": 2026,
-      "image_url": "/images/IQ3921-100.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/kobe-bryant-x-nike-air-force-1-protro-low-lord-of-the-rings-iq3921-100",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey-ih7853-001",
-      "sku": "IH7853-001",
-      "brand": "Nike",
-      "title": "Nike Air Max 95 Big Bubble Smoke Grey Wolf Grey",
-      "date": "2026-08-31",
-      "price": 200,
-      "year": 2026,
-      "image_url": "/images/IH7853-001.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-tech-smoke-grey-wolf-grey-ih7853-001",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "air-jordan-8-retro-premium-legion-pine-red-io2053-300",
-      "sku": "IO2053-300",
-      "brand": "Air Jordan",
-      "title": "Air Jordan 2 Retro Premium Bin",
-      "date": "2026-08-31",
-      "price": 350,
-      "year": 2026,
-      "image_url": "/images/IO2053-300.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-8-retro-premium-legion-pine-red-io2053-300",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
         },
         {
-          "name": "Sevenstore",
-          "url": "https://sevenstore.prf.hn/click/camref:1011l3Ndsh/pubref:IO2053-300/destination:https%3A%2F%2Fwww.sevenstore.com%2Flaunches%2Fjordan-legion-pinemulticolour-air-jordan-8-bin-23-sneaker%2F",
-          "price": "395€"
-        }
-      ]
-    },
-    {
-      "id": "adidas-adistar-xlg-2-0-white-green-black-kz9160",
-      "sku": "KZ9160",
-      "brand": "Adidas",
-      "title": "adidas Adistar XLG 2.0 White Green Black",
-      "date": "2026-09-01",
-      "price": 140,
-      "year": 2026,
-      "image_url": "/images/KZ9160.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-adistar-xlg-2-0-white-green-black-kz9160",
-      "featured": false,
-      "retailers": [
-        {
           "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=KZ9160&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-adistar-xlg-2-0-kz9160-0354973",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U204VACV&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-204v-u204vacv-0353203",
           "price": "139€"
         },
         {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": ""
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU204VACV",
+          "price": "140€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu204vacv%2F",
+          "price": "140€",
+          "resell": false,
+          "raffle": false
         }
-      ]
+      ],
+      "description": "La New Balance 204V Off-Line Grey Digital Mist propose une esthétique digitale futuriste en gris numérique sur cette silhouette technique récente. Elle sort le jeudi 10 septembre 2026 au prix de 140€."
     },
     {
-      "id": "jennie-adidas-superstar-square-toe-ballet-core-black-lb3787",
-      "sku": "LB3787",
-      "brand": "Adidas",
-      "title": "Adidas Superstar Jennie Square Toe Ballet Core Black",
-      "date": "2026-09-01",
+      "id": "nike-first-sight-mirage-wmns-light-crimson-clear-hq2412-600",
+      "sku": "HQ2412-600",
+      "brand": "Nike First Sight Mirage WMNS",
+      "title": "Nike First Sight Mirage WMNS Light Crimson Clear",
+      "date": "2026-09-10",
+      "price": 160,
+      "year": 2026,
+      "image_url": "/images/HQ2412-600.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-mirage-wmns-light-crimson-clear-hq2412-600",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ2412-600&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fwomen-s-first-sight-mirage-light-crimson-and-clear-1",
+          "price": "159€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2412-600",
+          "price": "160€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2412-600%2F",
+          "price": "160€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "description": "La Nike First Sight Mirage WMNS Light Crimson Clear intègre des éléments translucides à la silhouette trail-inspired dans des tons rouge et transparent. Elle sort le jeudi 10 septembre 2026 à 160€."
+    },
+    {
+      "id": "nike-first-sight-noir-wmns-black-bright-crimson-hq2409-004",
+      "sku": "HQ2409-004",
+      "brand": "Nike First Sight Noir WMNS",
+      "title": "Nike First Sight Noir WMNS Black Bright Crimson",
+      "date": "2026-09-10",
+      "price": 120,
+      "year": 2026,
+      "image_url": "/images/HQ2409-004.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-noir-wmns-black-bright-crimson-hq2409-004",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ2409-004&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fwomens-first-sight-noir-black-and-light-crimson",
+          "price": "119€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2409-004",
+          "price": "120€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2409-004%2F",
+          "price": "120€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "description": "La Nike First Sight Noir WMNS Black Bright Crimson joue sur le contraste noir/rouge vif sur cette nouvelle silhouette féminine technique. Sortie le jeudi 10 septembre 2026 à 120€."
+    },
+    {
+      "id": "nike-first-sight-shadow-wmns-light-crimson-metallic-silver-hq2410-600",
+      "sku": "HQ2410-600",
+      "brand": "Nike First Sight Shadow WMNS",
+      "title": "Nike First Sight Shadow WMNS Light Crimson Metallic Silver",
+      "date": "2026-09-10",
+      "price": 140,
+      "year": 2026,
+      "image_url": "/images/HQ2410-600.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-shadow-wmns-light-crimson-metallic-silver-hq2410-600",
+      "featured": false,
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ2410-600&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fwomens-first-sight-shadow-light-crimson-and-metallic-silver",
+          "price": "139€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ2410-600",
+          "price": "140€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq2410-600%2F",
+          "price": "140€",
+          "resell": false,
+          "raffle": false
+        }
+      ],
+      "description": "La Nike First Sight Shadow WMNS Light Crimson Metallic Silver est une nouvelle silhouette trail-inspired pour femmes dans un colorway rouge/argent délicat. Elle sort le jeudi 10 septembre 2026 à 140€."
+    },
+    {
+      "id": "nike-ja-4-nightmare-im4135-405",
+      "sku": "IM4135-405",
+      "brand": "Nike Ja 4",
+      "title": "Nike Ja 4 Nightmare",
+      "date": "2026-09-10",
       "price": 130,
       "year": 2026,
-      "image_url": "/images/LB3787.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/jennie-adidas-superstar-square-toe-ballet-core-black-lb3787",
+      "image_url": "/images/IM4135-405.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-ja-4-nightmare-im4135-405",
       "featured": false,
       "retailers": [
         {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "jennie-adidas-superstar-square-toe-ballet-white-lb3786",
-      "sku": "LB3786",
-      "brand": "Adidas",
-      "title": "Adidas Superstar Jennie Square Toe Ballet White",
-      "date": "2026-09-01",
-      "price": 130,
-      "year": 2026,
-      "image_url": "/images/LB3786.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/jennie-adidas-superstar-square-toe-ballet-white-lb3786",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "new-balance-991v2-made-in-uk-rose-taupe-u991ma2",
-      "sku": "U991MA2",
-      "brand": "New Balance",
-      "title": "New Balance 991v2 UK Rose Taupe",
-      "date": "2026-09-01",
-      "price": 250,
-      "year": 2026,
-      "image_url": "/images/U991MA2.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-made-in-uk-rose-taupe-u991ma2",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
-          "price": ""
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IM4135405&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-ja-4-nightmare-XqVUV1MG%2FIM4135-405",
+          "price": "130€"
         },
         {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U991MA2&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-made-in-uk-991v2-u991ma2-0353114",
-          "price": "249€"
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM4135-405",
+          "price": "130€",
+          "resell": false,
+          "raffle": false
         },
         {
-          "name": "43einhalb",
-          "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=U991MA2&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fnew-balance-u991ma2-made-in-england-rose-taupe-1502282",
-          "price": "249€"
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=U991MA2&wgtarget=https://www.asphaltgold.com/fr/products/new-balance-991-v2-made-in-england-rose-taupe",
-          "price": "249€"
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim4135-405%2F",
+          "price": "130€",
+          "resell": false,
+          "raffle": false
         }
-      ]
+      ],
+      "description": "La Nike Ja 4 Nightmare adopte des tons sombres avec un upper orange et noir rappelant l'énergie de Ja Morant sur le terrain. Sortie le jeudi 10 septembre 2026 à 130€."
     },
     {
-      "id": "new-balance-1890-slate-grey-u189045a",
-      "sku": "U189045A",
-      "brand": "New Balance",
-      "title": "New Balance 1890 Slate Grey",
-      "date": "2026-09-01",
+      "id": "cecilie-bahnsen-asics-gel-kinetic-fr-black-coffee-1203b171-001",
+      "sku": "1203B171-001",
+      "brand": "Cecilie Bahnsen x ASICS GEL-Kinetic FR",
+      "title": "Cecilie Bahnsen x ASICS GEL-Kinetic FR Black Coffee",
+      "date": "2026-09-12",
       "price": 200,
       "year": 2026,
-      "image_url": "/images/U189045A.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-slate-grey-u189045a",
+      "image_url": "/images/1203B171-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/cecilie-bahnsen-asics-gel-kinetic-fr-black-coffee-1203b171-001",
       "featured": false,
       "retailers": [
         {
-          "name": "New Balance",
-          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
-          "price": ""
-        }
-      ]
-    },
-    {
-      "id": "new-balance-made-in-uk-allerdale-yellow-suede-uadwyel",
-      "sku": "UADWYEL",
-      "brand": "New Balance",
-      "title": "New Balance Made in UK Allerdale Yellow Suede",
-      "date": "2026-09-01",
-      "price": 250,
-      "year": 2026,
-      "image_url": "/images/UADWYEL.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-made-in-uk-allerdale-yellow-suede-uadwyel",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=UADWYEL&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Fmade-in-uk-allerdale%2FUADWV1_LI-FTW-826842.html",
-          "price": "250€"
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=UADWYEL&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-made-in-uk-allerdale-uadwyel-0353116",
-          "price": "249€"
-        }
-      ]
-    },
-    {
-      "id": "new-balance-991v2-made-in-uk-insignia-blue-u991na2",
-      "sku": "U991NA2",
-      "brand": "New Balance",
-      "title": "New Balance 991v2 UK Insignia Blue",
-      "date": "2026-09-01",
-      "price": 250,
-      "year": 2026,
-      "image_url": "/images/U991NA2.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-made-in-uk-insignia-blue-u991na2",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
-          "price": ""
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U991NA2&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-made-in-uk-991v2-u991na2-0353115",
-          "price": "249€"
+          "name": "Asics",
+          "url": "https://prf.hn/click/camref:1101lBWP9/pubref:1203B171001/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2Fcecilie-bahnsen-x-gel-kinetic-fr%2Fp%2F1203B171-001.html%3Fsize%3D10%26amp%3Bwidth%3DStandard%26clickref%3D1110l4otwVQ7%26utm_source%3Dwtc-admin%26utm_medium%3Daffiliate%26utm_campaign%3Demea_fr_as%26utm_content%3D",
+          "price": "200€"
         },
         {
           "name": "Asphaltgold",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=U991NA2&wgtarget=https://www.asphaltgold.com/fr/products/new-balance-991-v2-made-in-england-insignia-blue",
-          "price": "249€"
-        },
-        {
-          "name": "43einhalb",
-          "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=U991NA2&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fnew-balance-u991na2-made-in-england-insignia-blue-1502309",
-          "price": "249€"
-        }
-      ]
-    },
-    {
-      "slug": "sp5der-adidas-adizero-f50-supplier-colour-kz6578",
-      "sku": "KZ6578",
-      "title": "Sp5der x Adidas Adizero F50 Supplier Colour",
-      "brand": "Adidas",
-      "date": "2026-09-01",
-      "price": 280,
-      "image_url": "/images/KZ6578.webp",
-      "retailers": [
-        {
-          "name": "Naked",
-          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KZ6578&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-sp5der-adizero-f50-supplier-colour-supplier-colour-core-black-kz6578",
-          "price": ""
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": ""
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/sp5der-adidas-adizero-f50-supplier-colour-kz6578",
-      "updated_at": "2026-08-31"
-    },
-    {
-      "slug": "sp5der-adidas-adizero-f50-solar-green-kz6581",
-      "sku": "KZ6581",
-      "title": "Sp5der x Adidas Adizero F50 Solar Green",
-      "brand": "Adidas",
-      "date": "2026-09-01",
-      "price": 280,
-      "image_url": "/images/KZ6581.webp",
-      "retailers": [
-        {
-          "name": "Naked",
-          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KZ6581&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-sp5der-adizero-f50-solar-green-core-black-silver-met-kz6581",
-          "price": ""
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": ""
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/sp5der-adidas-adizero-f50-solar-green-kz6581",
-      "updated_at": "2026-08-31"
-    },
-    {
-      "slug": "new-balance-1954r-tropical-white-u19549xd",
-      "sku": "U19549XD",
-      "title": "New Balance 1954R Tropical White",
-      "brand": "New Balance",
-      "date": "2026-09-01",
-      "price": 0,
-      "image_url": "/images/U19549XD.webp",
-      "retailers": [
-        {
-          "name": "New Balance",
-          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
-          "price": ""
-        },
-        {
-          "name": "FootDistrict",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=U19549XD&wgtarget=https://footdistrict.com/fr/products/new-balance-u1954-9xd-tropical-pack-u19549xd",
-          "price": "190€"
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-1954r-tropical-white-u19549xd",
-      "updated_at": "2026-08-31"
-    },
-    {
-      "slug": "adidas-hyperboost-atr-orange-ki1700",
-      "sku": "KI1700",
-      "title": "Adidas Hyperboost ATR Orange",
-      "brand": "Adidas",
-      "date": "2026-09-01",
-      "price": 130,
-      "image_url": "/images/KI1700.webp",
-      "retailers": [
-        {
-          "name": "FootDistrict",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KI1700&wgtarget=https://footdistrict.com/fr/products/adidas-performance-hyperboost-atr-ki1700",
-          "price": "180€"
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": ""
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-atr-orange-ki1700",
-      "updated_at": "2026-08-31"
-    },
-    {
-      "slug": "nike-wmns-air-rift-pony-hair-black-io4884-001",
-      "sku": "IO4884-001",
-      "title": "Nike Air Rift WMNS Pony Hair Black",
-      "brand": "Nike",
-      "date": "2026-09-01",
-      "price": 130,
-      "image_url": "/images/IO4884-001.webp",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IO4884-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-wmns-air-rift-io4884-001-0353724",
-          "price": "129€"
-        },
-        {
-          "name": "Naked",
-          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=IO4884-001&url=https://nakedcph.com/fr/products/nike-nike-air-rift-black-cool-grey-io4884-001",
-          "price": ""
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=1203B171-001&wgtarget=https://www.asphaltgold.com/fr/products/asics-x-cecilie-bahnsen-gelkinetic-fr-black-black-coffee",
+          "price": "199€"
         },
         {
           "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IO4884-001&wgtarget=https://en.afew-store.com/products/nike-wmns-air-rift-black-cool-grey1",
-          "price": "129€"
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B171-001&wgtarget=https://en.afew-store.com/products/asics-x-cecilie-bahnsen-gel-kinetic-fr-black-black-coffee",
+          "price": "199€"
         },
         {
-          "name": "Offspring",
-          "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,21/2014858864&u1=IO4884-001",
-          "price": "120€"
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D1203B171-001",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
         },
         {
-          "name": "Asphaltgold",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=IO4884-001&wgtarget=https://www.asphaltgold.com/fr/products/nike-wmns-air-rift-black-cool-grey-1",
-          "price": "129€"
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1203b171-001%2F",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
         }
       ],
-      "wtc_url": "https://www.whentocop.fr/drops/nike-wmns-air-rift-pony-hair-black-io4884-001",
-      "updated_at": "2026-08-31"
+      "description": "La Cecilie Bahnsen x ASICS GEL-Kinetic FR Black Coffee transforme la chaussure de performance en pièce de mode, avec des volants signature de la créatrice danoise dans un coloris café. Elle sort le samedi 12 septembre 2026 à 200€."
     },
     {
-      "slug": "nike-air-rift-wmns-dark-driftwood-black-io4884-200",
-      "sku": "IO4884-200",
-      "title": "Nike Air Rift WMNS Pony Hair Dark Driftwood",
-      "brand": "Nike",
-      "date": "2026-09-01",
-      "price": 130,
-      "image_url": "/images/IO4884-200.webp",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
-        },
-        {
-          "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IO4884-200&wgtarget=https://en.afew-store.com/products/nike-wmns-air-rift-dk-driftwood-black",
-          "price": "129€"
-        },
-        {
-          "name": "Offspring",
-          "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/2014846288&u1=IO4884-200",
-          "price": "120€"
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=IO4884-200&wgtarget=https://www.asphaltgold.com/fr/products/nike-wmns-air-rift-dark-driftwood-black",
-          "price": "129€"
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-rift-wmns-dark-driftwood-black-io4884-200",
-      "updated_at": "2026-08-31"
-    },
-    {
-      "slug": "adidas-climacool-wonder-taupe-iron-metallic-kj0651",
-      "sku": "KJ0651",
-      "title": "Adidas Climacool Wonder Taupe Iron Metallic",
-      "brand": "Adidas",
-      "date": "2026-09-01",
-      "price": 150,
-      "image_url": "/images/KJ0651.webp",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=KJ0651&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-climacool-kj0651-0355003",
-          "price": "149€"
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": ""
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-climacool-wonder-taupe-iron-metallic-kj0651",
-      "updated_at": "2026-08-31"
-    },
-    {
-      "slug": "adidas-climacool-laced-night-cargo-legend-ivy-ki26",
-      "sku": "KI2682",
-      "title": "Adidas Climacool Laced Night Cargo Legend Ivy",
-      "brand": "Adidas",
-      "date": "2026-09-01",
-      "price": 130,
-      "image_url": "/images/KI2682.webp",
-      "retailers": [],
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-climacool-laced-night-cargo-legend-ivy-ki26",
-      "updated_at": "2026-08-31"
-    },
-    {
-      "slug": "adidas-climacool-grey-four-iron-metal-kj2597",
-      "sku": "KJ2597",
-      "title": "Adidas Climacool Grey Four Iron Metal",
-      "brand": "Adidas",
-      "date": "2026-09-01",
-      "price": 150,
-      "image_url": "/images/KJ2597.webp",
-      "retailers": [
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=KJ2597&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-climacool-kj2597-0355009",
-          "price": "149€"
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": ""
-        }
-      ],
-      "wtc_url": "https://www.whentocop.fr/drops/adidas-climacool-grey-four-iron-metal-kj2597",
-      "updated_at": "2026-08-31"
-    },
-    {
-      "id": "air-jordan-4-retro-tour-yellow-io2463-102",
-      "sku": "IO2463-102",
-      "brand": "Air Jordan",
-      "title": "Air Jordan 4 Retro Tour Yellow",
-      "date": "2026-09-05",
-      "price": 210,
+      "id": "cecilie-bahnsen-asics-gel-kinetic-fr-piedmont-grey-pure-silver-1203b171-020",
+      "sku": "1203B171-020",
+      "brand": "Cecilie Bahnsen x ASICS GEL-Kinetic FR",
+      "title": "Cecilie Bahnsen x ASICS GEL-Kinetic FR Piedmont Grey Pure Silver",
+      "date": "2026-09-12",
+      "price": 200,
       "year": 2026,
-      "image_url": "/images/IO2463-102.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-retro-tour-yellow-io2463-102",
+      "image_url": "/images/1203B171-020.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/cecilie-bahnsen-asics-gel-kinetic-fr-piedmont-grey-pure-silver-1203b171-020",
       "featured": false,
       "retailers": [
         {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": ""
+          "name": "Asics",
+          "url": "https://prf.hn/click/camref:1101lBWP9/pubref:1203B171020/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2Fcecilie-bahnsen-x-gel-kinetic-fr%2Fp%2F1203B171-020.html%3Fsize%3D10%26amp%3Bwidth%3DStandard%26clickref%3D1011lDutcoQQ%26utm_source%3Dwtc-admin%26utm_medium%3Daffiliate%26utm_campaign%3Demea_fr_as%26utm_content%3D",
+          "price": "200€"
+        },
+        {
+          "name": "Asphaltgold",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=1203B171-020&wgtarget=https://www.asphaltgold.com/fr/products/asics-x-cecilie-bahnsen-gelkinetic-fr-piedmont-grey-pure-silver",
+          "price": "199€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B171-020&wgtarget=https://en.afew-store.com/products/asics-x-cecilie-bahnsen-gel-kinetic-fr-piedmont-grey-pure-silver",
+          "price": "199€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D1203B171-020",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1203b171-020%2F",
+          "price": "200€",
+          "resell": false,
+          "raffle": false
         }
-      ]
+      ],
+      "description": "La Cecilie Bahnsen x ASICS GEL-Kinetic FR Piedmont Grey Purple décline la collab fashion en gris lilas avec les finitions sculptées de la créatrice. Sortie le samedi 12 septembre 2026 à 200€."
     }
   ],
-  "generated_at": "2026-08-31T06:14:18Z"
+  "generated_at": "2026-09-07T00:07:04.066317Z"
 }
