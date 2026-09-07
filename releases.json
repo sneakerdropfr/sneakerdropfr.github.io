@@ -1,40 +1,476 @@
 [
   {
-    "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
-    "title": "Nike Air Max Joga Bonito R9",
-    "brand": "Nike",
-    "date": "2026-09-09",
-    "price": 170,
-    "sku": "IX8646-001",
-    "image_url": "/images/IX8646-001.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-joga-bonito-r9-ix8646-001",
+    "id": "new-balance-992-made-in-usa-tan-grey-u992ta",
+    "sku": "U992TA",
+    "brand": "New Balance",
+    "title": "New Balance 992 USA Tan Grey",
+    "date": "2026-08-31",
+    "price": 230,
+    "year": 2026,
+    "image_url": "/images/U992TA.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-992-made-in-usa-tan-grey-u992ta",
+    "featured": false,
     "retailers": [
       {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
+        "price": ""
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-made-in-usa-992-u992ta-0348490",
+        "price": "230€",
+        "resell": false,
+        "raffle": false
+      },
+      {
         "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8646-001",
-        "price": "180€",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU992TA",
+        "price": "230€",
         "resell": false,
         "raffle": false
       },
       {
         "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8646-001%2F",
-        "price": "180€",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu992ta%2F",
+        "price": "230€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "description": "La New Balance 992 USA Tan Grey arbore un upper en mesh et suède dans des tons beige et gris naturels, typique du style Made in USA. Un classique du comfort sneaker sort le lundi 31 août 2026 au prix de 230€."
+  },
+  {
+    "id": "nike-mind-001-hyper-royal-volt",
+    "sku": "HQ4307-400",
+    "brand": "Nike",
+    "title": "Nike Mind 001 Hyper Royal Volt",
+    "date": "2026-08-31",
+    "price": 90,
+    "year": 2026,
+    "image_url": "/images/HQ4307-400.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-hyper-royal-volt",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4307-400",
+        "price": "90€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhq4307-400%2F",
+        "price": "90€",
         "resell": false,
         "raffle": false
       },
       {
         "name": "Nike SNKRS",
         "url": "https://www.nike.com/fr/launch",
-        "price": "180€",
+        "price": "90€",
         "resell": false,
         "raffle": false
       }
     ],
-    "featured": false,
-    "colorway": "Metallic Silver/Varsity Royal",
-    "year": 2026,
-    "description": "La Nike Air Max Joga Bonito R9 rend hommage à Ronaldo et au Joga Bonito brésilien avec des détails football sur la Air Max. Elle sort le mercredi 9 septembre 2026 au prix de 170€."
+    "slug": "nike-mind-001-hyper-royal-volt",
+    "description": "La Nike Mind 001 Hyper Royal Volt combine un upper en mesh respirant avec un colorway Royal et Volt très visible. Ce modèle lifestyle de Nike pensé pour le quotidien sort le lundi 31 août 2026 à 90€."
+  },
+  {
+    "slug": "sp5der-adidas-adizero-f50-supplier-colour-kz6578",
+    "sku": "KZ6578",
+    "title": "Sp5der x Adidas Adizero F50 Supplier Colour",
+    "brand": "Adidas",
+    "date": "2026-09-01",
+    "price": 280,
+    "image_url": "/images/KZ6578.webp",
+    "retailers": [
+      {
+        "name": "Naked",
+        "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KZ6578&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-sp5der-adizero-f50-supplier-colour-supplier-colour-core-black-kz6578",
+        "price": ""
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKZ6578",
+        "price": "280€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkz6578%2F",
+        "price": "280€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/sp5der-adidas-adizero-f50-supplier-colour-kz6578",
+    "updated_at": "2026-08-31",
+    "description": "La collab Sp5der x adidas Adizero F50 Supplier Colour mêle la culture streetwear du label de Young Thug à la performance de la chaussure de football adidas, dans un colorway très attendu. Sortie le mardi 1er septembre 2026 à 280€."
+  },
+  {
+    "slug": "sp5der-adidas-adizero-f50-solar-green-kz6581",
+    "sku": "KZ6581",
+    "title": "Sp5der x Adidas Adizero F50 Solar Green",
+    "brand": "Adidas",
+    "date": "2026-09-01",
+    "price": 280,
+    "image_url": "/images/KZ6581.webp",
+    "retailers": [
+      {
+        "name": "Naked",
+        "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KZ6581&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-sp5der-adizero-f50-solar-green-core-black-silver-met-kz6581",
+        "price": ""
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKZ6581",
+        "price": "280€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkz6581%2F",
+        "price": "280€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/sp5der-adidas-adizero-f50-solar-green-kz6581",
+    "updated_at": "2026-08-31",
+    "description": "La Sp5der x adidas Adizero F50 Solar Green décline la collab Sp5der en vert fluo Solar, ultra visible. Elle sort le mardi 1er septembre 2026 au prix de 280€."
+  },
+  {
+    "slug": "new-balance-1954r-tropical-white-u19549xd",
+    "sku": "U19549XD",
+    "title": "New Balance 1954R Tropical White",
+    "brand": "New Balance",
+    "date": "2026-09-01",
+    "price": 0,
+    "image_url": "/images/U19549XD.webp",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
+        "price": ""
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=U19549XD&wgtarget=https://footdistrict.com/fr/products/new-balance-u1954-9xd-tropical-pack-u19549xd",
+        "price": "190€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU19549XD",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu19549xd%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1954r-tropical-white-u19549xd",
+    "updated_at": "2026-08-31",
+    "description": "La New Balance 1954R Tropical White est une édition spéciale au colorway blanc tropical sur la silhouette 1954R inspirée des archives New Balance. Date et prix à confirmer."
+  },
+  {
+    "slug": "adidas-hyperboost-atr-orange-ki1700",
+    "sku": "KI1700",
+    "title": "Adidas Hyperboost ATR Orange",
+    "brand": "Adidas",
+    "date": "2026-09-01",
+    "price": 130,
+    "image_url": "/images/KI1700.webp",
+    "retailers": [
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KI1700&wgtarget=https://footdistrict.com/fr/products/adidas-performance-hyperboost-atr-ki1700",
+        "price": "180€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI1700",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fki1700%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-atr-orange-ki1700",
+    "updated_at": "2026-08-31",
+    "description": "L'adidas Hyperboost ATR Orange adopte la technologie de maintien latéral Hyperboost dans un colorway orange vif pour le running lifestyle. Elle sort le mardi 1er septembre 2026 au prix de 130€."
+  },
+  {
+    "slug": "nike-wmns-air-rift-pony-hair-black-io4884-001",
+    "sku": "IO4884-001",
+    "title": "Nike Air Rift WMNS Pony Hair Black",
+    "brand": "Nike",
+    "date": "2026-09-01",
+    "price": 130,
+    "image_url": "/images/IO4884-001.webp",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IO4884-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-wmns-air-rift-io4884-001-0353724",
+        "price": "129€"
+      },
+      {
+        "name": "Naked",
+        "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=IO4884-001&url=https://nakedcph.com/fr/products/nike-nike-air-rift-black-cool-grey-io4884-001",
+        "price": ""
+      },
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IO4884-001&wgtarget=https://en.afew-store.com/products/nike-wmns-air-rift-black-cool-grey1",
+        "price": "129€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,21/2014858864&u1=IO4884-001",
+        "price": "120€"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=IO4884-001&wgtarget=https://www.asphaltgold.com/fr/products/nike-wmns-air-rift-black-cool-grey-1",
+        "price": "129€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO4884-001",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio4884-001%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/nike-wmns-air-rift-pony-hair-black-io4884-001",
+    "updated_at": "2026-08-31",
+    "description": "La Nike Air Rift WMNS Pony Hair Black revisite l'iconique silhouette à bout fendu avec un upper en poil de poney noir ultra-luxueux. Elle sort le mardi 1er septembre 2026 au prix de 130€."
+  },
+  {
+    "slug": "nike-air-rift-wmns-dark-driftwood-black-io4884-200",
+    "sku": "IO4884-200",
+    "title": "Nike Air Rift WMNS Pony Hair Dark Driftwood",
+    "brand": "Nike",
+    "date": "2026-09-01",
+    "price": 130,
+    "image_url": "/images/IO4884-200.webp",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      },
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IO4884-200&wgtarget=https://en.afew-store.com/products/nike-wmns-air-rift-dk-driftwood-black",
+        "price": "129€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/2014846288&u1=IO4884-200",
+        "price": "120€"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=IO4884-200&wgtarget=https://www.asphaltgold.com/fr/products/nike-wmns-air-rift-dark-driftwood-black",
+        "price": "129€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO4884-200",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio4884-200%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-rift-wmns-dark-driftwood-black-io4884-200",
+    "updated_at": "2026-08-31",
+    "description": "La Nike Air Rift WMNS Dark Driftwood reprend le même traitement poil de poney que sa sœur noire, dans des tons bois flotté et terre. Elle sort le mardi 1er septembre 2026 au prix de 130€."
+  },
+  {
+    "slug": "adidas-climacool-wonder-taupe-iron-metallic-kj0651",
+    "sku": "KJ0651",
+    "title": "Adidas Climacool Wonder Taupe Iron Metallic",
+    "brand": "Adidas",
+    "date": "2026-09-01",
+    "price": 150,
+    "image_url": "/images/KJ0651.webp",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=KJ0651&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-climacool-kj0651-0355003",
+        "price": "149€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKJ0651",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkj0651%2F",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-climacool-wonder-taupe-iron-metallic-kj0651",
+    "updated_at": "2026-08-31",
+    "description": "L'adidas Climacool Wonder Taupe Iron Metallic mise sur des accents métallisés et la ventilation 360° du système Climacool pour les journées chaudes. Sortie le mardi 1er septembre 2026 à 150€."
+  },
+  {
+    "slug": "adidas-climacool-laced-night-cargo-legend-ivy-ki26",
+    "sku": "KI2682",
+    "title": "Adidas Climacool Laced Night Cargo Legend Ivy",
+    "brand": "Adidas",
+    "date": "2026-09-01",
+    "price": 130,
+    "image_url": "/images/KI2682.webp",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-climacool-laced-ki2682-0354991",
+        "price": "160€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI2682",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fki2682%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-climacool-laced-night-cargo-legend-ivy-ki26",
+    "updated_at": "2026-08-31",
+    "description": "L'adidas Climacool Laced Night Cargo Legend Ivy adopte des tons kaki naturels militaires sur la plateforme Climacool ventilée. Elle sort le mardi 1er septembre 2026 au prix de 130€."
+  },
+  {
+    "slug": "adidas-climacool-grey-four-iron-metal-kj2597",
+    "sku": "KJ2597",
+    "title": "Adidas Climacool Grey Four Iron Metal",
+    "brand": "Adidas",
+    "date": "2026-09-01",
+    "price": 150,
+    "image_url": "/images/KJ2597.webp",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=KJ2597&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-climacool-kj2597-0355009",
+        "price": "149€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKJ2597",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkj2597%2F",
+        "price": "150€",
+        "resell": false,
+        "raffle": false
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-climacool-grey-four-iron-metal-kj2597",
+    "updated_at": "2026-08-31",
+    "description": "L'adidas Climacool Grey Four Iron Metal joue sur un colorway gris anthracite/métal sobre et polyvalent, avec la ventilation signature Climacool. Sortie le mardi 1er septembre 2026 à 150€."
   },
   {
     "slug": "nike-giannis-freak-8-black-laser-orange-im5150-002",
@@ -135,7 +571,7 @@
       }
     ],
     "updated_at": "2026-09-07",
-    "description": "La Nike Cryoshot Mercurial Vapor R9 OG Varsity Royal Maize transpose le design de la célèbre chaussure de football en silhouette lifestyle, avec un colorway royal et maïs très vibrant. Elle sort le mercredi 10 septembre 2026 au prix de 200€."
+    "description": "La Nike Cryoshot Mercurial Vapor R9 OG Varsity Royal Maize transpose le design de la célèbre chaussure de football en silhouette lifestyle, avec un colorway royal et maïs vibrant. Elle sort le mercredi 10 septembre 2026 au prix de 200€."
   },
   {
     "slug": "simone-rocha-adidas-taekwondo-ballerina-wmns-black-kj5248",
@@ -222,7 +658,7 @@
       }
     ],
     "updated_at": "2026-09-07",
-    "description": "La Simone Rocha x adidas Japan Slip-On WMNS Core Black reprend la même collaboration romantique avec adidas, dans un coloris noir total très polyvalent. Elle sort le mercredi 10 septembre 2026 au prix de 220€."
+    "description": "La Simone Rocha x adidas Japan Slip-On WMNS Core Black reprend la même collaboration romantique avec adidas, dans un coloris noir total polyvalent. Elle sort le mercredi 10 septembre 2026 au prix de 220€."
   },
   {
     "slug": "salomon-xt-4-og-domingo-l45487300",
@@ -241,7 +677,7 @@
       }
     ],
     "updated_at": "2026-09-07",
-    "description": "La Salomon XT-4 OG Domingo décline le modèle trail running de Salomon dans un colorway inspiré par le weekend — des tons solaires et terreux très portables au quotidien. Elle sort le mercredi 10 septembre 2026 au prix de 190€."
+    "description": "La Salomon XT-4 OG Domingo décline le modèle trail running de Salomon dans un colorway inspiré du weekend — des tons solaires et terreux très portables au quotidien. Elle sort le mercredi 10 septembre 2026 au prix de 190€."
   },
   {
     "slug": "vans-lx-old-skool-36-pearlized-pear-green-multi-vn000e8vbgk1",
@@ -294,7 +730,7 @@
       }
     ],
     "updated_at": "2026-09-07",
-    "description": "La Nike Cryoshot Tiempo Legend R10 OG White Metallic Gold transforme la chaussure de football Tiempo Legend en pièce lifestyle avec un colorway blanc/or très luxueux. Elle sort le mercredi 10 septembre 2026 au prix de 200€."
+    "description": "La Nike Cryoshot Tiempo Legend R10 OG White Metallic Gold transforme la chaussure de football Tiempo Legend en pièce lifestyle avec un colorway blanc et or très luxueux. Elle sort le mercredi 10 septembre 2026 au prix de 200€."
   },
   {
     "slug": "nike-air-max-joga-bonito-black-university-red-io1753-001",
