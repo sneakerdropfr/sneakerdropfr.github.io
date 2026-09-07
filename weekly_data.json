@@ -4,49 +4,33 @@
   "label": "Semaine du 7 au 13 septembre 2026",
   "drops": [
     {
-      "id": "nike-ja-4-dark-mode-im4135-001",
-      "sku": "IM4135-001",
-      "brand": "Nike Ja 4",
-      "title": "Nike Ja 4 Dark Mode",
-      "date": "2026-09-08",
-      "price": 130,
-      "year": 2026,
-      "image_url": "/images/IM4135-001.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-ja-4-dark-mode-im4135-001",
-      "featured": false,
+      "slug": "nike-giannis-freak-8-black-laser-orange-im5150-002",
+      "sku": "IM5150-002",
+      "title": "Nike Giannis Freak 8 Black Laser Orange",
+      "brand": "Nike",
+      "date": "2026-09-07",
+      "price": 115,
+      "image_url": "/images/IM5150-002.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-giannis-freak-8-black-laser-orange-im5150-002",
       "retailers": [
         {
           "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=Ja 4-\"Dark-Mode\"&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-ja-4-nightmare-XqVUV1MG%2FIM4135-001",
-          "price": "130€"
-        }
-      ],
-      "description": "La Nike Ja 4 Dark Mode décline la signature de Ja Morant dans un colorway sombre monochrome très demandé. Elle sort le mardi 8 septembre 2026 au prix de 130€."
-    },
-    {
-      "id": "nike-air-max-95-big-bubble-premium-greedy-im2211-001",
-      "sku": "IM2211-001",
-      "brand": "Nike Air Max 95 Big Bubble Premium",
-      "title": "Nike Air Max 95 Big Bubble Premium Greedy",
-      "date": "2026-09-09",
-      "price": 190,
-      "year": 2026,
-      "image_url": "/images/IM2211-001.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-big-bubble-premium-greedy-im2211-001",
-      "featured": true,
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IM2211-001&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fair-max-95-big-bubble-greedy-white-and-medium-ash",
-          "price": "189€"
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IM5150002&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-giannis-freak-8-UnMjh9X7%2FIM5150-002",
+          "price": "120€"
         },
         {
-          "name": "Footshop",
-          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=IM2211-001&url=https://releases.footshop.com/nike-air-max-95-big-bubble-greedy-LWZrPaABQJ2hAzD9uq-w",
-          "price": "189€"
+          "name": "Kickz",
+          "url": "https://www.awin1.com/cread.php?awinmid=23153&awinaffid=737541&clickref=IM5150-002&ued=https%3A%2F%2Fwww.kickz.com%2Ffr-FR%2FNike-GIANNIS-FREAK-8-Noir-C002%2Fp%2FIM5150-002",
+          "price": "114€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IM5150-002&wgtarget=https://en.afew-store.com/products/nike-giannis-freak-8-black-laser-orange-laser-crimson",
+          "price": "114€"
         }
       ],
-      "description": "La Nike Air Max 95 Big Bubble Premium Greedy revisite le colorway Greedy légendaire de la Air Max 1 sur la silhouette Big Bubble Premium. Sortie le mercredi 9 septembre 2026 à 190€."
+      "updated_at": "2026-09-07",
+      "description": "La Nike Giannis Freak 8 Black Laser Orange est la huitième signature shoe d'Antetokounmpo, conçue pour son jeu explosif avec un amorti réactif et un maintien optimisé. Elle sort le dimanche 7 septembre 2026 au prix de 115€. Disponible chez Nike, Kickz et Afew."
     },
     {
       "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
@@ -86,190 +70,343 @@
       "description": "La Nike Air Max Joga Bonito R9 rend hommage à Ronaldo et au Joga Bonito brésilien avec des détails football sur la Air Max. Elle sort le mercredi 9 septembre 2026 au prix de 170€."
     },
     {
-      "id": "arte-antwerp-adidas-f50-feather-patent-leather-black-hq3324",
-      "sku": "HQ3324",
-      "brand": "Adidas",
-      "title": "Arte Antwerp x adidas F50 Feather Patent Leather Black",
+      "slug": "skims-nike-rift-wmns-velvet-brown-iz5353-200",
+      "sku": "IZ5353-200",
+      "title": "SKIMS x Nike Rift WMNS Velvet Brown",
+      "brand": "Nike",
       "date": "2026-09-10",
-      "price": 0,
-      "year": 2026,
-      "image_url": "/images/HQ3324.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/arte-antwerp-adidas-f50-feather-patent-leather-black-hq3324",
-      "featured": false,
+      "price": 170,
+      "image_url": "/images/IZ5353-200.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/skims-nike-rift-wmns-velvet-brown-iz5353-200",
       "retailers": [
         {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": ""
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+          "price": "170€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IZ5353-200&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-wmns-x-skims-rift-2-tone-mesh-iz5353-200-0357638",
+          "price": "169€"
         }
       ],
-      "description": "La Arte Antwerp x adidas F50 Feather Patent Leather Black habille la légendaire chaussure de football adidas en cuir verni noir ultra-brillant, dans l'esprit graphique du label belge. Sortie le jeudi 10 septembre 2026."
+      "updated_at": "2026-09-07",
+      "description": "La SKIMS x Nike Rift WMNS Velvet Brown revisite l'iconique Air Rift en collaboration avec la marque de Kim Kardashian, dans un coloris brun velouté ultra-féminin. Elle sort le mercredi 10 septembre 2026 au prix de 170€. Disponible chez Nike et BSTN."
     },
     {
-      "id": "new-balance-204v-off-line-grey-digital-mist-u204vacv",
-      "sku": "U204VACV",
-      "brand": "New Balance 204V",
-      "title": "New Balance 204V Off-Line Grey Digital Mist",
+      "slug": "skims-nike-rift-wmns-black-iw0831-001",
+      "sku": "IW0831-001",
+      "title": "SKIMS x Nike Rift WMNS Black",
+      "brand": "Nike",
+      "date": "2026-09-10",
+      "price": 170,
+      "image_url": "/images/IW0831-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/skims-nike-rift-wmns-black-iw0831-001",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+          "price": "170€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IW0831-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-wmns-x-skims-rift-1-tone-mesh-iw0831-001-0357637",
+          "price": "169€"
+        }
+      ],
+      "updated_at": "2026-09-07",
+      "description": "La SKIMS x Nike Rift WMNS Black décline la collaboration SKIMS sur l'Air Rift dans un coloris noir monochrome élégant et épuré. Elle sort le mercredi 10 septembre 2026 au prix de 170€. Disponible chez Nike et BSTN."
+    },
+    {
+      "slug": "nike-cryoshot-mercurial-vapor-r9-og-varsity-royal-varsity-maize-iq8160-400",
+      "sku": "IQ8160-400",
+      "title": "Nike Cryoshot Mercurial Vapor R9 OG Varsity Royal Maize",
+      "brand": "Nike",
+      "date": "2026-09-10",
+      "price": 200,
+      "image_url": "/images/IQ8160-400.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-cryoshot-mercurial-vapor-r9-og-varsity-royal-varsity-maize-iq8160-400",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+          "price": "200€"
+        },
+        {
+          "name": "Footshop",
+          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=IQ8160-400&url=https://releases.footshop.com/nike-cryoshot-mercurial-vapor-r9-og-FV1NXKABhkDru117JueH",
+          "price": "199€"
+        }
+      ],
+      "updated_at": "2026-09-07",
+      "description": "La Nike Cryoshot Mercurial Vapor R9 OG Varsity Royal Maize transpose le design de la célèbre chaussure de football en silhouette lifestyle, avec un colorway royal et maïs très vibrant. Elle sort le mercredi 10 septembre 2026 au prix de 200€."
+    },
+    {
+      "slug": "simone-rocha-adidas-taekwondo-ballerina-wmns-black-kj5248",
+      "sku": "KJ5248",
+      "title": "Simone Rocha x adidas Taekwondo Ballerina WMNS Black",
+      "brand": "Adidas",
+      "date": "2026-09-10",
+      "price": 250,
+      "image_url": "/images/KJ5248.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/simone-rocha-adidas-taekwondo-ballerina-wmns-black-kj5248",
+      "retailers": [
+        {
+          "name": "Adidas Confirmed",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KJ5248&ued=https%3A%2F%2Fwww.adidas.fr%2Fballerine-de-taekwondo-simone-rocha%2FKJ5248.html",
+          "price": "250€"
+        },
+        {
+          "name": "Offspring",
+          "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/2,20/5619659003&u1=KJ5248",
+          "price": "220€"
+        },
+        {
+          "name": "Naked",
+          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KJ5248&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-simone-rocha-taekwondo-ballerina-leather-black-kj5248",
+          "price": "250€"
+        }
+      ],
+      "updated_at": "2026-09-07",
+      "description": "La Simone Rocha x adidas Taekwondo Ballerina WMNS Black est une collaboration entre la créatrice irlandaise et adidas, alliant l'esthétique ballerine de Rocha à la chaussure de sport Taekwondo dans un coloris noir sculptural. Elle sort le mercredi 10 septembre 2026 au prix de 250€."
+    },
+    {
+      "slug": "simone-rocha-adidas-japan-slip-on-wmns-beige-kj5251",
+      "sku": "KJ5251",
+      "title": "Simone Rocha x adidas Japan Slip-On WMNS Beige",
+      "brand": "Adidas",
+      "date": "2026-09-10",
+      "price": 220,
+      "image_url": "/images/KJ5251.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/simone-rocha-adidas-japan-slip-on-wmns-beige-kj5251",
+      "retailers": [
+        {
+          "name": "Adidas Confirmed",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KJ5251&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-slip-on-simone-rocha-japon%2FKJ5251.html",
+          "price": "220€"
+        },
+        {
+          "name": "Offspring",
+          "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/2,20/5619789543&u1=KJ5251",
+          "price": "180€"
+        },
+        {
+          "name": "Naked",
+          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KJ5251&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-simone-rocha-japan-slipon-beige-kj5251",
+          "price": "220€"
+        }
+      ],
+      "updated_at": "2026-09-07",
+      "description": "La Simone Rocha x adidas Japan Slip-On WMNS Beige marie la silhouette Japan Slip-On d'adidas aux détails romantiques de Simone Rocha, dans un coloris beige raffiné. Elle sort le mercredi 10 septembre 2026 au prix de 220€."
+    },
+    {
+      "slug": "simone-rocha-adidas-japan-slip-on-wmns-core-black-kh7275",
+      "sku": "KH7275",
+      "title": "Simone Rocha x adidas Japan Slip-On WMNS Core Black",
+      "brand": "Adidas",
+      "date": "2026-09-10",
+      "price": 220,
+      "image_url": "/images/KH7275.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/simone-rocha-adidas-japan-slip-on-wmns-core-black-kh7275",
+      "retailers": [
+        {
+          "name": "Offspring",
+          "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/2,20/5619759002&u1=KH7275",
+          "price": "180€"
+        },
+        {
+          "name": "Adidas Confirmed",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KH7275&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-slip-on-simone-rocha-japon%2FKH7275.html",
+          "price": "220€"
+        },
+        {
+          "name": "Naked",
+          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KH7275&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-simone-rocha-japan-slipon-black-kh7275",
+          "price": "220€"
+        }
+      ],
+      "updated_at": "2026-09-07",
+      "description": "La Simone Rocha x adidas Japan Slip-On WMNS Core Black reprend la même collaboration romantique avec adidas, dans un coloris noir total très polyvalent. Elle sort le mercredi 10 septembre 2026 au prix de 220€."
+    },
+    {
+      "slug": "salomon-xt-4-og-domingo-l45487300",
+      "sku": "L45487300",
+      "title": "Salomon XT-4 OG Domingo",
+      "brand": "Salomon",
+      "date": "2026-09-10",
+      "price": 190,
+      "image_url": "/images/L45487300.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/salomon-xt-4-og-domingo-l45487300",
+      "retailers": [
+        {
+          "name": "Salomon",
+          "url": "https://www.awin1.com/cread.php?awinmid=86255&awinaffid=737541&ued=https%3A%2F%2Fwww.salomon.com%2Ffr-fr%2Fproduct%2Fxt-4-og-domingo-li1838",
+          "price": "176€"
+        }
+      ],
+      "updated_at": "2026-09-07",
+      "description": "La Salomon XT-4 OG Domingo décline le modèle trail running de Salomon dans un colorway inspiré par le weekend — des tons solaires et terreux très portables au quotidien. Elle sort le mercredi 10 septembre 2026 au prix de 190€."
+    },
+    {
+      "slug": "vans-lx-old-skool-36-pearlized-pear-green-multi-vn000e8vbgk1",
+      "sku": "VN000E8VBGK1",
+      "title": "Vans LX Old Skool 36 Pearlized Pear Green Multi",
+      "brand": "Vans",
+      "date": "2026-09-10",
+      "price": 130,
+      "image_url": "/images/VN000E8VBGK1.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-pearlized-pear-green-multi-vn000e8vbgk1",
+      "retailers": [
+        {
+          "name": "43einhalb",
+          "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=VN000E8VBGK1&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fvans-lx-old-skool-36-pear-green-multi-1486406",
+          "price": "129€"
+        },
+        {
+          "name": "Offspring",
+          "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,21/5180168549&u1=VN000E8VBGK1",
+          "price": "115€"
+        },
+        {
+          "name": "Footshop",
+          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=VN000E8VBGK1&url=https://releases.footshop.com/vans-lx-old-skool-36-eUvBbKAB855nFHXGW_VB",
+          "price": "130€"
+        }
+      ],
+      "updated_at": "2026-09-07",
+      "description": "La Vans LX Old Skool 36 Pearlized Pear Green Multi habille la silhouette Old Skool 36 de finitions nacrées en vert poire, sur la ligne premium Vans LX. Elle sort le mercredi 10 septembre 2026 au prix de 130€."
+    },
+    {
+      "slug": "nike-cryoshot-tiempo-legend-r10-og-white-metallic-gold-iq8164-100",
+      "sku": "IQ8164-100",
+      "title": "Nike Cryoshot Tiempo Legend R10 OG White Metallic Gold",
+      "brand": "Nike",
+      "date": "2026-09-10",
+      "price": 200,
+      "image_url": "/images/IQ8164-100.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-cryoshot-tiempo-legend-r10-og-white-metallic-gold-iq8164-100",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+          "price": "200€"
+        },
+        {
+          "name": "Footshop",
+          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=IQ8164-100&url=https://releases.footshop.com/nike-cryoshot-tiempo-legend-r10-og-rpVSXKABQJ2hAzD97BnJ",
+          "price": "199€"
+        }
+      ],
+      "updated_at": "2026-09-07",
+      "description": "La Nike Cryoshot Tiempo Legend R10 OG White Metallic Gold transforme la chaussure de football Tiempo Legend en pièce lifestyle avec un colorway blanc/or très luxueux. Elle sort le mercredi 10 septembre 2026 au prix de 200€."
+    },
+    {
+      "slug": "nike-air-max-joga-bonito-black-university-red-io1753-001",
+      "sku": "IO1753-001",
+      "title": "Nike Air Max Joga Bonito Black University Red",
+      "brand": "Nike",
+      "date": "2026-09-10",
+      "price": 170,
+      "image_url": "/images/IO1753-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-joga-bonito-black-university-red-io1753-001",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+          "price": "170€"
+        },
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=IO1753-001&wgtarget=https://footdistrict.com/fr/products/nike-air-max-joga-bonito-io1753-001",
+          "price": "170€"
+        },
+        {
+          "name": "Naked",
+          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=IO1753-001&url=https://nakedcph.com/fr/products/nike-nike-air-max-joga-bonito-black-white-university-red-dk-smoke-grey-io1753-001",
+          "price": "170€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IO1753-001&wgtarget=https://en.afew-store.com/products/nike-nike-air-max-joga-bonito-black-white-university-red-dk-smoke-grey",
+          "price": "169€"
+        },
+        {
+          "name": "Footshop",
+          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=IO1753-001&url=https://releases.footshop.com/nike-air-max-joga-bonito-YKSxZqABQJ2hAzD9bV6n",
+          "price": "169€"
+        }
+      ],
+      "updated_at": "2026-09-07",
+      "description": "La Nike Air Max Joga Bonito Black University Red rend hommage au football brésilien à travers les codes visuels Nike Football, dans un colorway noir et rouge university. Elle sort le mercredi 10 septembre 2026 au prix de 170€."
+    },
+    {
+      "slug": "new-balance-204v-pistachio-butter-morel-u204vcav",
+      "sku": "U204VCAV",
+      "title": "New Balance 204V Pistachio Butter Morel",
+      "brand": "New Balance",
       "date": "2026-09-10",
       "price": 140,
-      "year": 2026,
-      "image_url": "/images/U204VACV.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/new-balance-204v-off-line-grey-digital-mist-u204vacv",
-      "featured": false,
+      "image_url": "/images/U204VCAV.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-204v-pistachio-butter-morel-u204vcav",
       "retailers": [
         {
           "name": "New Balance",
           "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
-          "price": ""
+          "price": "140€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=U204VCAV&wgtarget=https://en.afew-store.com/products/new-balance-204v-pistachio-butter-morel-black-cement",
+          "price": "139€"
+        },
+        {
+          "name": "SNS",
+          "url": "https://www.dpbolvw.net/click-100169928-17152884?sid=U204VCAV&url=https://sneakersnstuff.com/en-eu/products/new-balance-204v-u204vcav",
+          "price": "140€"
+        }
+      ],
+      "updated_at": "2026-09-07",
+      "description": "La New Balance 204V Pistachio Butter Morel décline ce modèle lifestyle récent dans un coloris pistache, beurre et morel très doux et tendance pour l'automne. Elle sort le mercredi 10 septembre 2026 au prix de 140€."
+    },
+    {
+      "slug": "stan-birch-saucony-progrid-guide-7-stan-birch-s71070-2",
+      "sku": "S71070-2",
+      "title": "Stan Birch x Saucony ProGrid Guide 7",
+      "brand": "Saucony",
+      "date": "2026-09-10",
+      "price": 170,
+      "image_url": "/images/S71070-2.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/stan-birch-saucony-progrid-guide-7-stan-birch-s71070-2",
+      "retailers": [
+        {
+          "name": "Footshop",
+          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=S71070-2&url=https://releases.footshop.com/saucony-x-stan-birch-progrid-guide-7-90v0a6AB855nFHXGwvR8",
+          "price": "160€"
+        },
+        {
+          "name": "Saucony",
+          "url": "https://saucony.prf.hn/click/camref:1011l44rJ6/pubref:Stan-Birch-x-Saucony-ProGrid-Guide-7/destination:https%3A%2F%2Fwww.saucony.com%2FFR%2Ffr_FR%2Fhome%3Fcid%3DPPC-SAUC-FR--saucony_e%26gclsrc%3Daw.ds%26gad_source%3D1%26gad_campaignid%3D23635580772%26gbraid%3D0AAAAADnWE7f3WPIptkp0P_l6EpaJB08Yn%26gclid%3DCj0KCQjwkt_UBhDMARIsALpnOAzPzIM0ChPpfDdpX23nS5GbziYTmH6knFGpSy-cOLtUy1FpG6iqd5EaAnw-EALw_wcB",
+          "price": "170€"
         },
         {
           "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U204VACV&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-204v-u204vacv-0353203",
-          "price": "139€"
-        }
-      ],
-      "description": "La New Balance 204V Off-Line Grey Digital Mist propose une esthétique digitale futuriste en gris numérique sur cette silhouette technique récente. Elle sort le jeudi 10 septembre 2026 au prix de 140€."
-    },
-    {
-      "id": "nike-first-sight-mirage-wmns-light-crimson-clear-hq2412-600",
-      "sku": "HQ2412-600",
-      "brand": "Nike First Sight Mirage WMNS",
-      "title": "Nike First Sight Mirage WMNS Light Crimson Clear",
-      "date": "2026-09-10",
-      "price": 160,
-      "year": 2026,
-      "image_url": "/images/HQ2412-600.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-mirage-wmns-light-crimson-clear-hq2412-600",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ2412-600&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fwomen-s-first-sight-mirage-light-crimson-and-clear-1",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=S71070-2&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fsaucony-x-stan-birch-progrid-guide-7-s71070-2-0362429",
           "price": "159€"
-        }
-      ],
-      "description": "La Nike First Sight Mirage WMNS Light Crimson Clear intègre des éléments translucides à la silhouette trail-inspired dans des tons rouge et transparent. Elle sort le jeudi 10 septembre 2026 à 160€."
-    },
-    {
-      "id": "nike-first-sight-noir-wmns-black-bright-crimson-hq2409-004",
-      "sku": "HQ2409-004",
-      "brand": "Nike First Sight Noir WMNS",
-      "title": "Nike First Sight Noir WMNS Black Bright Crimson",
-      "date": "2026-09-10",
-      "price": 120,
-      "year": 2026,
-      "image_url": "/images/HQ2409-004.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-noir-wmns-black-bright-crimson-hq2409-004",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ2409-004&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fwomens-first-sight-noir-black-and-light-crimson",
-          "price": "119€"
-        }
-      ],
-      "description": "La Nike First Sight Noir WMNS Black Bright Crimson joue sur le contraste noir/rouge vif sur cette nouvelle silhouette féminine technique. Sortie le jeudi 10 septembre 2026 à 120€."
-    },
-    {
-      "id": "nike-first-sight-shadow-wmns-light-crimson-metallic-silver-hq2410-600",
-      "sku": "HQ2410-600",
-      "brand": "Nike First Sight Shadow WMNS",
-      "title": "Nike First Sight Shadow WMNS Light Crimson Metallic Silver",
-      "date": "2026-09-10",
-      "price": 140,
-      "year": 2026,
-      "image_url": "/images/HQ2410-600.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-first-sight-shadow-wmns-light-crimson-metallic-silver-hq2410-600",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ2410-600&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fwomens-first-sight-shadow-light-crimson-and-metallic-silver",
-          "price": "139€"
-        }
-      ],
-      "description": "La Nike First Sight Shadow WMNS Light Crimson Metallic Silver est une nouvelle silhouette trail-inspired pour femmes dans un colorway rouge/argent délicat. Elle sort le jeudi 10 septembre 2026 à 140€."
-    },
-    {
-      "id": "nike-ja-4-nightmare-im4135-405",
-      "sku": "IM4135-405",
-      "brand": "Nike Ja 4",
-      "title": "Nike Ja 4 Nightmare",
-      "date": "2026-09-10",
-      "price": 130,
-      "year": 2026,
-      "image_url": "/images/IM4135-405.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-ja-4-nightmare-im4135-405",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IM4135405&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-ja-4-nightmare-XqVUV1MG%2FIM4135-405",
-          "price": "130€"
-        }
-      ],
-      "description": "La Nike Ja 4 Nightmare adopte des tons sombres avec un upper orange et noir rappelant l'énergie de Ja Morant sur le terrain. Sortie le jeudi 10 septembre 2026 à 130€."
-    },
-    {
-      "id": "cecilie-bahnsen-asics-gel-kinetic-fr-black-coffee-1203b171-001",
-      "sku": "1203B171-001",
-      "brand": "Cecilie Bahnsen x ASICS GEL-Kinetic FR",
-      "title": "Cecilie Bahnsen x ASICS GEL-Kinetic FR Black Coffee",
-      "date": "2026-09-12",
-      "price": 200,
-      "year": 2026,
-      "image_url": "/images/1203B171-001.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/cecilie-bahnsen-asics-gel-kinetic-fr-black-coffee-1203b171-001",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Asics",
-          "url": "https://prf.hn/click/camref:1101lBWP9/pubref:1203B171001/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2Fcecilie-bahnsen-x-gel-kinetic-fr%2Fp%2F1203B171-001.html%3Fsize%3D10%26amp%3Bwidth%3DStandard%26clickref%3D1110l4otwVQ7%26utm_source%3Dwtc-admin%26utm_medium%3Daffiliate%26utm_campaign%3Demea_fr_as%26utm_content%3D",
-          "price": "200€"
         },
         {
           "name": "Asphaltgold",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=1203B171-001&wgtarget=https://www.asphaltgold.com/fr/products/asics-x-cecilie-bahnsen-gelkinetic-fr-black-black-coffee",
-          "price": "199€"
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=S71070-2&wgtarget=https://www.asphaltgold.com/fr/products/saucony-x-stan-birch-pro-grid-guide-7-cream-mint-purple",
+          "price": "159€"
         },
         {
-          "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B171-001&wgtarget=https://en.afew-store.com/products/asics-x-cecilie-bahnsen-gel-kinetic-fr-black-black-coffee",
-          "price": "199€"
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=S71070-2&wgtarget=https://footdistrict.com/fr/products/saucony-x-stan-birch-progrid-guide-7-stand-out-s71070-2",
+          "price": "160€"
         }
       ],
-      "description": "La Cecilie Bahnsen x ASICS GEL-Kinetic FR Black Coffee transforme la chaussure de performance en pièce de mode, avec des volants signature de la créatrice danoise dans un coloris café. Elle sort le samedi 12 septembre 2026 à 200€."
-    },
-    {
-      "id": "cecilie-bahnsen-asics-gel-kinetic-fr-piedmont-grey-pure-silver-1203b171-020",
-      "sku": "1203B171-020",
-      "brand": "Cecilie Bahnsen x ASICS GEL-Kinetic FR",
-      "title": "Cecilie Bahnsen x ASICS GEL-Kinetic FR Piedmont Grey Pure Silver",
-      "date": "2026-09-12",
-      "price": 200,
-      "year": 2026,
-      "image_url": "/images/1203B171-020.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/cecilie-bahnsen-asics-gel-kinetic-fr-piedmont-grey-pure-silver-1203b171-020",
-      "featured": false,
-      "retailers": [
-        {
-          "name": "Asics",
-          "url": "https://prf.hn/click/camref:1101lBWP9/pubref:1203B171020/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2Fcecilie-bahnsen-x-gel-kinetic-fr%2Fp%2F1203B171-020.html%3Fsize%3D10%26amp%3Bwidth%3DStandard%26clickref%3D1011lDutcoQQ%26utm_source%3Dwtc-admin%26utm_medium%3Daffiliate%26utm_campaign%3Demea_fr_as%26utm_content%3D",
-          "price": "200€"
-        },
-        {
-          "name": "Asphaltgold",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=1203B171-020&wgtarget=https://www.asphaltgold.com/fr/products/asics-x-cecilie-bahnsen-gelkinetic-fr-piedmont-grey-pure-silver",
-          "price": "199€"
-        },
-        {
-          "name": "Afew",
-          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B171-020&wgtarget=https://en.afew-store.com/products/asics-x-cecilie-bahnsen-gel-kinetic-fr-piedmont-grey-pure-silver",
-          "price": "199€"
-        }
-      ],
-      "description": "La Cecilie Bahnsen x ASICS GEL-Kinetic FR Piedmont Grey Purple décline la collab fashion en gris lilas avec les finitions sculptées de la créatrice. Sortie le samedi 12 septembre 2026 à 200€."
+      "updated_at": "2026-09-07",
+      "description": "La Stan Birch x Saucony ProGrid Guide 7 est une collaboration du designer Stan Birch sur ce modèle de running Saucony des années 2000, revisité avec une perspective créative contemporaine. Elle sort le mercredi 10 septembre 2026 au prix de 170€."
     }
   ],
-  "generated_at": "2026-09-07T00:07:04.066270Z"
+  "generated_at": "2026-09-07T04:07:27Z"
 }
