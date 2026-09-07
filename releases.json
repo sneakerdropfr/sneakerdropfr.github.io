@@ -1994,6 +1994,13 @@
         "price": "130€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "description": "La Nike Ja 4 Dark Mode décline la signature de Ja Morant dans un colorway sombre monochrome très demandé. Elle sort le mardi 8 septembre 2026 au prix de 130€."
@@ -2169,6 +2176,13 @@
         "price": "130€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "description": "La Nike Ja 4 Nightmare adopte des tons sombres avec un upper orange et noir rappelant l'énergie de Ja Morant sur le terrain. Sortie le jeudi 10 septembre 2026 à 130€."
@@ -2327,6 +2341,13 @@
       {
         "name": "Solebox",
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiw2353-001%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
         "price": "130€",
         "resell": false,
         "raffle": false
@@ -2661,7 +2682,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/06/nike-air-max-95-golf-vast-grey-dark-iris-silver-lilac-hv4696-004/",
     "added_at": "2026-09-07T00:00:02.326709+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHV4696-004",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fhv4696-004%2F",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "slug": "nike-giannis-freak-8-black-laser-orange-im5150-002",
@@ -2687,6 +2731,27 @@
         "name": "Afew",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IM5150-002&wgtarget=https://en.afew-store.com/products/nike-giannis-freak-8-black-laser-orange-laser-crimson",
         "price": "114€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM5150-002",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fim5150-002%2F",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -2711,6 +2776,27 @@
         "name": "BSTN",
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IZ5353-200&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-wmns-x-skims-rift-2-tone-mesh-iz5353-200-0357638",
         "price": "169€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ5353-200",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz5353-200%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -2735,6 +2821,27 @@
         "name": "BSTN",
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IW0831-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-wmns-x-skims-rift-1-tone-mesh-iw0831-001-0357637",
         "price": "169€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIW0831-001",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiw0831-001%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -2759,6 +2866,27 @@
         "name": "Footshop",
         "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=IQ8160-400&url=https://releases.footshop.com/nike-cryoshot-mercurial-vapor-r9-og-FV1NXKABhkDru117JueH",
         "price": "199€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8160-400",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8160-400%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -2788,6 +2916,27 @@
         "name": "Naked",
         "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KJ5248&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-simone-rocha-taekwondo-ballerina-leather-black-kj5248",
         "price": "250€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKJ5248",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkj5248%2F",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "250€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -2817,6 +2966,27 @@
         "name": "Naked",
         "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KJ5251&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-simone-rocha-japan-slipon-beige-kj5251",
         "price": "220€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKJ5251",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkj5251%2F",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -2846,6 +3016,27 @@
         "name": "Naked",
         "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KH7275&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-simone-rocha-japan-slipon-black-kh7275",
         "price": "220€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKH7275",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkh7275%2F",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.adidas.fr/",
+        "price": "220€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -2865,6 +3056,20 @@
         "name": "Salomon",
         "url": "https://www.awin1.com/cread.php?awinmid=86255&awinaffid=737541&ued=https%3A%2F%2Fwww.salomon.com%2Ffr-fr%2Fproduct%2Fxt-4-og-domingo-li1838",
         "price": "176€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DL45487300",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fl45487300%2F",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -2894,6 +3099,27 @@
         "name": "Footshop",
         "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=VN000E8VBGK1&url=https://releases.footshop.com/vans-lx-old-skool-36-eUvBbKAB855nFHXGW_VB",
         "price": "130€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000E8VBGK1",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8vbgk1%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -2918,6 +3144,27 @@
         "name": "Footshop",
         "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=IQ8164-100&url=https://releases.footshop.com/nike-cryoshot-tiempo-legend-r10-og-rpVSXKABQJ2hAzD97BnJ",
         "price": "199€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ8164-100",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq8164-100%2F",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "200€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -2957,6 +3204,27 @@
         "name": "Footshop",
         "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=IO1753-001&url=https://releases.footshop.com/nike-air-max-joga-bonito-YKSxZqABQJ2hAzD9bV6n",
         "price": "169€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO1753-001",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio1753-001%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -2986,6 +3254,20 @@
         "name": "SNS",
         "url": "https://www.dpbolvw.net/click-100169928-17152884?sid=U204VCAV&url=https://sneakersnstuff.com/en-eu/products/new-balance-204v-u204vcav",
         "price": "140€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU204VCAV",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu204vcav%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
@@ -3025,6 +3307,20 @@
         "name": "FootDistrict",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=S71070-2&wgtarget=https://footdistrict.com/fr/products/saucony-x-stan-birch-progrid-guide-7-stand-out-s71070-2",
         "price": "160€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DS71070-2",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fs71070-2%2F",
+        "price": "170€",
+        "resell": false,
+        "raffle": false
       }
     ],
     "updated_at": "2026-09-07",
