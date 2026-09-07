@@ -33,43 +33,6 @@
       "description": "La Nike Giannis Freak 8 Black Laser Orange est la huitième signature shoe d'Antetokounmpo, conçue pour son jeu explosif avec un amorti réactif et un maintien optimisé. Elle sort le dimanche 7 septembre 2026 au prix de 115€. Disponible chez Nike, Kickz et Afew."
     },
     {
-      "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
-      "title": "Nike Air Max Joga Bonito R9",
-      "brand": "Nike",
-      "date": "2026-09-09",
-      "price": 170,
-      "sku": "IX8646-001",
-      "image_url": "/images/IX8646-001.webp",
-      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-joga-bonito-r9-ix8646-001",
-      "retailers": [
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIX8646-001",
-          "price": "180€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fix8646-001%2F",
-          "price": "180€",
-          "resell": false,
-          "raffle": false
-        },
-        {
-          "name": "Nike SNKRS",
-          "url": "https://www.nike.com/fr/launch",
-          "price": "180€",
-          "resell": false,
-          "raffle": false
-        }
-      ],
-      "featured": false,
-      "colorway": "Metallic Silver/Varsity Royal",
-      "year": 2026,
-      "description": "La Nike Air Max Joga Bonito R9 rend hommage à Ronaldo et au Joga Bonito brésilien avec des détails football sur la Air Max. Elle sort le mercredi 9 septembre 2026 au prix de 170€."
-    },
-    {
       "slug": "skims-nike-rift-wmns-velvet-brown-iz5353-200",
       "sku": "IZ5353-200",
       "title": "SKIMS x Nike Rift WMNS Velvet Brown",
@@ -139,7 +102,7 @@
         }
       ],
       "updated_at": "2026-09-07",
-      "description": "La Nike Cryoshot Mercurial Vapor R9 OG Varsity Royal Maize transpose le design de la célèbre chaussure de football en silhouette lifestyle, avec un colorway royal et maïs très vibrant. Elle sort le mercredi 10 septembre 2026 au prix de 200€."
+      "description": "La Nike Cryoshot Mercurial Vapor R9 OG Varsity Royal Maize transpose le design de la célèbre chaussure de football en silhouette lifestyle, avec un colorway royal et maïs vibrant. Elle sort le mercredi 10 septembre 2026 au prix de 200€."
     },
     {
       "slug": "simone-rocha-adidas-taekwondo-ballerina-wmns-black-kj5248",
@@ -226,7 +189,7 @@
         }
       ],
       "updated_at": "2026-09-07",
-      "description": "La Simone Rocha x adidas Japan Slip-On WMNS Core Black reprend la même collaboration romantique avec adidas, dans un coloris noir total très polyvalent. Elle sort le mercredi 10 septembre 2026 au prix de 220€."
+      "description": "La Simone Rocha x adidas Japan Slip-On WMNS Core Black reprend la même collaboration romantique avec adidas, dans un coloris noir total polyvalent. Elle sort le mercredi 10 septembre 2026 au prix de 220€."
     },
     {
       "slug": "salomon-xt-4-og-domingo-l45487300",
@@ -245,7 +208,7 @@
         }
       ],
       "updated_at": "2026-09-07",
-      "description": "La Salomon XT-4 OG Domingo décline le modèle trail running de Salomon dans un colorway inspiré par le weekend — des tons solaires et terreux très portables au quotidien. Elle sort le mercredi 10 septembre 2026 au prix de 190€."
+      "description": "La Salomon XT-4 OG Domingo décline le modèle trail running de Salomon dans un colorway inspiré du weekend — des tons solaires et terreux très portables au quotidien. Elle sort le mercredi 10 septembre 2026 au prix de 190€."
     },
     {
       "slug": "vans-lx-old-skool-36-pearlized-pear-green-multi-vn000e8vbgk1",
@@ -298,7 +261,7 @@
         }
       ],
       "updated_at": "2026-09-07",
-      "description": "La Nike Cryoshot Tiempo Legend R10 OG White Metallic Gold transforme la chaussure de football Tiempo Legend en pièce lifestyle avec un colorway blanc/or très luxueux. Elle sort le mercredi 10 septembre 2026 au prix de 200€."
+      "description": "La Nike Cryoshot Tiempo Legend R10 OG White Metallic Gold transforme la chaussure de football Tiempo Legend en pièce lifestyle avec un colorway blanc et or très luxueux. Elle sort le mercredi 10 septembre 2026 au prix de 200€."
     },
     {
       "slug": "nike-air-max-joga-bonito-black-university-red-io1753-001",
@@ -408,5 +371,5 @@
       "description": "La Stan Birch x Saucony ProGrid Guide 7 est une collaboration du designer Stan Birch sur ce modèle de running Saucony des années 2000, revisité avec une perspective créative contemporaine. Elle sort le mercredi 10 septembre 2026 au prix de 170€."
     }
   ],
-  "generated_at": "2026-09-07T04:07:27Z"
+  "generated_at": "2026-09-07T04:09:17Z"
 }
