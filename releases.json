@@ -3201,7 +3201,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/07/air-jordan-1-mid-se-cacao-wow-rust-pink-iq7607-200/",
     "added_at": "2026-09-07T22:00:02.278511+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIQ7607-200",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq7607-200%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "comfort-and-performance-combine-on-this-air-jordan-1-low-golf-mule-fj1214-201",
@@ -3214,7 +3237,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/07/air-jordan-1-low-golf-mule-medium-olive-khaki-fj1214-201/",
     "added_at": "2026-09-08T00:00:02.526108+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DFJ1214-201",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Ffj1214-201%2F",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "115€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "air-jordan-1-low-pairs-shaggy-suede-and-boot-laces-io2047-600",
@@ -3227,6 +3273,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/07/air-jordan-1-low-dark-team-red-gum-medium-brown-io2047-600/",
     "added_at": "2026-09-08T02:00:01.738663+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO2047-600",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fio2047-600%2F",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
