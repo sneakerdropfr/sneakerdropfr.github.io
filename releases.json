@@ -3336,5 +3336,100 @@
     "buy_url": "https://sneakernews.com/2026/09/08/nike-book-2-desert-night-iridescent-fz7013-003/",
     "added_at": "2026-09-08T20:00:02.082554+00:00",
     "featured": false
+  },
+  {
+    "id": "adidas-hermanos-koumori-hyperboost-edge",
+    "title": "Adidas x Hermanos Koumori Hyperboost Edge",
+    "brand": "Adidas",
+    "sku": "TBD-ADIDAS-HK-HYPER",
+    "date": "2026-09-10",
+    "price": 200,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": "199,99€"
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "adidas-hermanos-koumori-adizero-evo-sl",
+    "title": "Adidas x Hermanos Koumori Adizero Evo SL",
+    "brand": "Adidas",
+    "sku": "TBD-ADIDAS-HK-ADIZERO",
+    "date": "2026-09-10",
+    "price": 150,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": "149,99€"
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "air-jordan-9-retro-sep-2026",
+    "title": "Air Jordan 9 Retro",
+    "brand": "Jordan",
+    "sku": "TBD-AJ9-SEP26",
+    "date": "2026-09-19",
+    "price": 210,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": "209,99€"
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "nike-air-force-1-07-lx-sep-2026",
+    "title": "Nike Air Force 1 07 LX",
+    "brand": "Nike",
+    "sku": "TBD-AF1-07-LX-SEP",
+    "date": "2026-09-19",
+    "price": 130,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": "129,99€"
+      }
+    ],
+    "source": "BSTN"
+  },
+  {
+    "id": "nike-kobe-viii-protro-sep-2026",
+    "title": "Nike Kobe VIII Protro",
+    "brand": "Nike",
+    "sku": "TBD-KOBE8-SEP26",
+    "date": "2026-09-19",
+    "price": 190,
+    "year": 2026,
+    "image_url": "",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
+        "price": "189,99€"
+      }
+    ],
+    "source": "BSTN"
   }
 ]
