@@ -3617,7 +3617,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/08/jordan-son-of-mars-low-fire-red-580603-103/",
     "added_at": "2026-09-08T22:00:02.432785+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3D580603-103",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F580603-103%2F",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "165€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-is-releasing-a-black-cat-gt-future-fz5590-004",
@@ -3630,7 +3653,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/08/nike-gt-future-black-fz5590-004/",
     "added_at": "2026-09-08T22:00:02.433244+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DFZ5590-004",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Ffz5590-004%2F",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "210€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "converse-jack-purcell-is-already-entering-its-collab-phase-a24756c",
@@ -3643,7 +3689,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/08/palmes-converse-jack-purcell/",
     "added_at": "2026-09-08T22:00:02.435679+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DA24756C",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fa24756c%2F",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Converse",
+        "url": "https://www.converse.com/fr/",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "converse-jack-purcell-is-already-entering-its-collab-phase-a24786c",
@@ -3656,7 +3725,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/08/palmes-converse-jack-purcell/",
     "added_at": "2026-09-08T22:00:02.435876+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DA24786C",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fa24786c%2F",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Converse",
+        "url": "https://www.converse.com/fr/",
+        "price": "100€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "nike-is-releasing-an-air-max-95-reverse-blue-spark-ja0980-060",
@@ -3669,6 +3761,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/08/nike-air-max-95-reverse-blue-spark-ja0980-060/",
     "added_at": "2026-09-08T22:00:02.436117+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DJA0980-060",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fja0980-060%2F",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
