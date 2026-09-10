@@ -3539,7 +3539,30 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/09/converse-shai-001-black-white-a23975c-a23976c/",
     "added_at": "2026-09-09T22:00:01.781060+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DA23975C",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fa23975c%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Converse",
+        "url": "https://www.converse.com/fr/",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   },
   {
     "id": "sga-s-converse-era-winds-down-with-huge-shai-001-apparel-collection-a23976c",
@@ -3552,6 +3575,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/09/converse-shai-001-black-white-a23975c-a23976c/",
     "added_at": "2026-09-09T22:00:01.781334+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DA23976C",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fa23976c%2F",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Converse",
+        "url": "https://www.converse.com/fr/",
+        "price": "140€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
