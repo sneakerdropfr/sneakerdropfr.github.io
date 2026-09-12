@@ -3382,6 +3382,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/12/the-nike-air-max-plus-serves-up-the-joker-color-combo/",
     "added_at": "2026-09-12T18:00:02.726104+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DDM0032-046",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fdm0032-046%2F",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.nike.com/fr/launch",
+        "price": "180€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
