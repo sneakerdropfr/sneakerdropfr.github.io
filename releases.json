@@ -1699,7 +1699,7 @@
     "year": 2026,
     "image_url": "/images/IQ7635-004.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-liquid-max-team-grey-iq7635-004",
-    "featured": true,
+    "featured": false,
     "retailers": [
       {
         "name": "Nike",
@@ -3936,5 +3936,775 @@
     "buy_url": "https://sneakernews.com/2026/09/13/air-jordan-1-low-boucle-iz6154-121/",
     "added_at": "2026-09-14T00:00:02.705792+00:00",
     "featured": false
+  },
+  {
+    "id": "pokemon-adidas-handball-spezial-mewtwo-ki8213",
+    "sku": "KI8213",
+    "brand": "Pokémon x adidas Handball Spezial",
+    "title": "Pokémon x adidas Handball Spezial Mewtwo",
+    "date": "2026-09-22",
+    "price": 130,
+    "year": 2026,
+    "image_url": "/images/KI8213.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-handball-spezial-mewtwo-ki8213",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KI8213&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-pokemon-handball-spezial-mewtwo-ki8213",
+        "price": "130€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "pokemon-adidas-adistar-xlg-20-gengar-kj5609",
+    "sku": "KJ5609",
+    "brand": "Pokémon x adidas Adistar XLG 2.0",
+    "title": "Pokémon x adidas Adistar XLG 2.0 Gengar",
+    "date": "2026-09-22",
+    "price": 170,
+    "year": 2026,
+    "image_url": "/images/KJ5609.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-adistar-xlg-20-gengar-kj5609",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KJ5609&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-pokemon-adistar-xlg-2-0-gengar-kj5609",
+        "price": "170€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "pokemon-adidas-superstar-ii-pikachu-yellow-ki2858",
+    "sku": "KI2858",
+    "brand": "Pokémon x adidas Superstar II",
+    "title": "Adidas Superstar Pokémon II Pikachu Yellow",
+    "date": "2026-09-22",
+    "price": 130,
+    "year": 2026,
+    "image_url": "/images/KI2858.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-superstar-ii-pikachu-yellow-ki2858",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KI2858&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-pokemon-superstar-ii-pikachu-ki2858",
+        "price": "130€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "pokemon-adidas-superstar-ii-pikachu-white-ki2857",
+    "sku": "KI2857",
+    "brand": "Pokémon x adidas Superstar II",
+    "title": "Adidas Superstar Pokémon II Pikachu White",
+    "date": "2026-09-22",
+    "price": 120,
+    "year": 2026,
+    "image_url": "/images/KI2857.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-superstar-ii-pikachu-white-ki2857",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KI2857&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-pokemon-superstar-ii-pikachu-ki2857",
+        "price": "120€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "pokemon-adidas-superstar-ii-charmeleon-ki2856",
+    "sku": "KI2856",
+    "brand": "Pokémon x adidas Superstar II",
+    "title": "Pokémon x adidas Superstar II Charmeleon",
+    "date": "2026-09-22",
+    "price": 130,
+    "year": 2026,
+    "image_url": "/images/KI2856.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-superstar-ii-charmeleon-ki2856",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KI2856&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-pokemon-superstar-ii-charmaleon-ki2856",
+        "price": "130€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "pokemon-adidas-superstar-ii-charmander-ki2855",
+    "sku": "KI2855",
+    "brand": "Pokémon x adidas Superstar II",
+    "title": "Pokémon x adidas Superstar II Charmander",
+    "date": "2026-09-22",
+    "price": 120,
+    "year": 2026,
+    "image_url": "/images/KI2855.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-superstar-ii-charmander-ki2855",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KI2855&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-pokemon-superstar-ii-charmander-ki2855",
+        "price": "120€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "pokemon-adidas-superstar-vintage-charizard-ki2861",
+    "sku": "KI2861",
+    "brand": "Pokémon x adidas Superstar Vintage",
+    "title": "Pokémon x adidas Superstar Vintage Charizard",
+    "date": "2026-09-22",
+    "price": 180,
+    "year": 2026,
+    "image_url": "/images/KI2861.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-superstar-vintage-charizard-ki2861",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KI2861&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-pokemon-superstar-vintage-charizard-ki2861",
+        "price": "180€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "pokemon-adidas-samba-og-ice-lavender-ki8220",
+    "sku": "KI8220",
+    "brand": "Pokémon x adidas Samba OG",
+    "title": "Adidas Samba OG Pokémon Ice Lavender",
+    "date": "2026-09-22",
+    "price": 130,
+    "year": 2026,
+    "image_url": "/images/KI8220.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-samba-og-ice-lavender-ki8220",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KI8220&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-pokemon-samba-og-mewtwo-ki8220",
+        "price": "130€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "pokemon-adidas-superstar-ii-mid-pikachu-ki2862",
+    "sku": "KI2862",
+    "brand": "Pokémon x adidas Superstar II Mid",
+    "title": "Adidas Superstar Pokémon II Mid Pikachu",
+    "date": "2026-09-22",
+    "price": 180,
+    "year": 2026,
+    "image_url": "/images/KI2862.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-superstar-ii-mid-pikachu-ki2862",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KI2862&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-pokemon-superstar-ii-mid-pikachu-ki2862",
+        "price": "180€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "pokemon-adidas-zx-8000-mewtwo-ki5326",
+    "sku": "KI5326",
+    "brand": "Pokémon x adidas ZX 8000",
+    "title": "Pokémon x adidas ZX 8000 Mewtwo",
+    "date": "2026-09-22",
+    "price": 160,
+    "year": 2026,
+    "image_url": "/images/KI5326.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-zx-8000-mewtwo-ki5326",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=KI5326&wgtarget=https://en.afew-store.com/products/adidas-originals-zx-8000-icelav-viofus-blilil",
+        "price": "159€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-wmns-summit-white-hq4309-101",
+    "sku": "HQ4309-101",
+    "brand": "Nike Mind 001 WMNS",
+    "title": "Nike Mind 001 WMNS Summit White",
+    "date": "2026-09-22",
+    "price": 90,
+    "year": 2026,
+    "image_url": "/images/HQ4309-101.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-wmns-summit-white-hq4309-101",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4309101&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-femme-YfQa8WrZ%2FHQ4309-101",
+        "price": "90€"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-hemp-hq4307-200",
+    "sku": "HQ4307-200",
+    "brand": "Nike Mind 001",
+    "title": "Nike Mind 001 Hemp",
+    "date": "2026-09-22",
+    "price": 90,
+    "year": 2026,
+    "image_url": "/images/HQ4307-200.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-hemp-hq4307-200",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4307200&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-homme-UD4zRJ3b%2FHQ4307-200",
+        "price": "90€"
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.dpbolvw.net/click-100169928-15786901?sid=HQ4307200&url=https://www.urbanstaroma.com/fr/products/uomo-nike-mind-001-hemp-hq4307-4411381",
+        "price": "90€"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-triple-black-hq4307-005",
+    "sku": "HQ4307-005",
+    "brand": "Nike Mind 001",
+    "title": "Nike Mind 001 Triple Black",
+    "date": "2026-09-22",
+    "price": 90,
+    "year": 2026,
+    "image_url": "/images/HQ4307-005.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-triple-black-hq4307-005",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4307005&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-homme-UD4zRJ3b%2FHQ4307-005",
+        "price": "90€"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-cucumber-calm-hq4307-302",
+    "sku": "HQ4307-302",
+    "brand": "Nike Mind 001",
+    "title": "Nike Mind 001 Cucumber Calm",
+    "date": "2026-09-22",
+    "price": 90,
+    "year": 2026,
+    "image_url": "/images/HQ4307-302.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-cucumber-calm-hq4307-302",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4307302&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-homme-UD4zRJ3b%2FHQ4307-302",
+        "price": "90€"
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.dpbolvw.net/click-100169928-15786901?sid=NIKE-Mind-001-'Cucumber-Calm-'-&url=https://www.urbanstaroma.com/fr/products/uomo-nike-mind-001-cucumber-calm-hq4307-5949307",
+        "price": "90€"
+      },
+      {
+        "name": "Foot Locker",
+        "url": "https://www.awin1.com/cread.php?awinmid=18270&awinaffid=737541&clickref=Nike-Mind-001-CUCUMBER-CALM-HQ4307-302&ued=https%3A%2F%2Fwww.footlocker.fr%2Ffr%2Frelease-calendar%2Fnike%2F314627039804.html",
+        "price": ""
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=HQ4307-302&url=https://slamjam.com/en-fr/products/nike-footwear-nike-mind-001-black-j368358",
+        "price": ""
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=HQ4307-302&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-mind-001-hq4307-302-0353494",
+        "price": "89€"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-old-royal",
+    "sku": "HQ4309-400",
+    "brand": "Nike Mind 001 WMNS",
+    "title": "Nike Mind 001 WMNS Old Royal",
+    "date": "2026-09-22",
+    "price": 90,
+    "year": 2026,
+    "image_url": "/images/HQ4309-400.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-old-royal",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4309400&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-femme-YfQa8WrZ%2FHQ4309-400",
+        "price": "90€"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-pink-smoke",
+    "sku": "HQ4309-601",
+    "brand": "Nike Mind 001 WMNS",
+    "title": "Nike Mind 001 WMNS Pink Smoke",
+    "date": "2026-09-22",
+    "price": 90,
+    "year": 2026,
+    "image_url": "/images/HQ4309-601.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-pink-smoke",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4309601&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-femme-YfQa8WrZ%2FHQ4309-601",
+        "price": "90€"
+      }
+    ]
+  },
+  {
+    "id": "nike-mind-001-wmns-black-hyper-crimson-hq4309-001",
+    "sku": "HQ4309-001",
+    "brand": "Nike Mind 001 WMNS",
+    "title": "Nike Mind 001 WMNS Black Hyper Crimson",
+    "date": "2026-09-22",
+    "price": 90,
+    "year": 2026,
+    "image_url": "/images/HQ4309-001.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-wmns-black-hyper-crimson-hq4309-001",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4309001&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-femme-YfQa8WrZ%2FHQ4309-001",
+        "price": "90€"
+      }
+    ]
+  },
+  {
+    "id": "asics-gel-transcend-fj-ash-green-graphite-grey-1203b050-300",
+    "sku": "1203B050-300",
+    "brand": "Asics Gel-Transcend FJ",
+    "title": "Asics Gel-Transcend FJ Ash Green Graphite Grey",
+    "date": "2026-09-25",
+    "price": 160,
+    "year": 2026,
+    "image_url": "/images/1203B050-300.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/asics-gel-transcend-fj-ash-green-graphite-grey-1203b050-300",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Asics",
+        "url": "https://prf.hn/click/camref:1101lBWP9/pubref:defaultDropCreation/destination:https%3A%2F%2Fwww.asics.com%2Ffr%2Ffr-fr%2F",
+        "price": ""
+      },
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B050-300&wgtarget=https://en.afew-store.com/products/asics-gel-transcend-fj-ash-green-graphite-grey",
+        "price": "159€"
+      }
+    ]
+  },
+  {
+    "id": "billionaire-boys-club-reebok-club-c-85-grey-100285332",
+    "sku": "100285332",
+    "brand": "Billionaire Boys Club x Reebok Club C 85",
+    "title": "Reebok Club C Billionaire Boys Grey",
+    "date": "2026-09-25",
+    "price": 150,
+    "year": 2026,
+    "image_url": "/images/100285332.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/billionaire-boys-club-reebok-club-c-85-grey-100285332",
+    "featured": false,
+    "retailers": []
+  },
+  {
+    "id": "larry-june-adidas-adistar-control-5-watermelon-smoothie-kz7294",
+    "sku": "KZ7294",
+    "brand": "Larry June x adidas Adistar Control 5",
+    "title": "Larry June x adidas Adistar Control 5 Watermelon Smoothie",
+    "date": "2026-09-30",
+    "price": 160,
+    "year": 2026,
+    "image_url": "/images/KZ7294.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/larry-june-adidas-adistar-control-5-watermelon-smoothie-kz7294",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "penny-hardaway-nike-air-zoom-huarache-2k4-knicks-iv0345-001",
+    "sku": "IV0345-001",
+    "brand": "Penny Hardaway x Nike Air Zoom Huarache 2K4",
+    "title": "Penny Hardaway x Nike Air Zoom Huarache 2K4 Knicks",
+    "date": "2026-09-30",
+    "price": 200,
+    "year": 2026,
+    "image_url": "/images/IV0345-001.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/penny-hardaway-nike-air-zoom-huarache-2k4-knicks-iv0345-001",
+    "featured": true,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "sp5der-adidas-adizero-f50-supplier-colour-kz6578",
+    "sku": "KZ6578",
+    "brand": "SP5DER x adidas Adizero F50",
+    "title": "SP5DER x adidas Adizero F50 Supplier Colour",
+    "date": "2026-09-30",
+    "price": 210,
+    "year": 2026,
+    "image_url": "/images/KZ6578.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/sp5der-adidas-adizero-f50-supplier-colour-kz6578",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "sp5der-adidas-adizero-f50-solar-green-kz6581",
+    "sku": "KZ6581",
+    "brand": "SP5DER x adidas Adizero F50",
+    "title": "SP5DER x adidas Adizero F50 Solar Green",
+    "date": "2026-09-30",
+    "price": 210,
+    "year": 2026,
+    "image_url": "/images/KZ6581.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/sp5der-adidas-adizero-f50-solar-green-kz6581",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "new-balance-1890-slate-grey-u189045a",
+    "sku": "U189045A",
+    "brand": "New Balance 1890",
+    "title": "New Balance 1890 Slate Grey",
+    "date": "2026-09-30",
+    "price": 170,
+    "year": 2026,
+    "image_url": "/images/U189045A.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890-slate-grey-u189045a",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "nike-kobe-10-low-protro-5am-flight-iq5339-400",
+    "sku": "IQ5339-400",
+    "brand": "Nike Kobe 10 Low Protro",
+    "title": "Nike Kobe Low Protro 5am Flight",
+    "date": "2026-10-05",
+    "price": 200,
+    "year": 2026,
+    "image_url": "/images/IQ5339-400.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-kobe-10-low-protro-5am-flight-iq5339-400",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "nike-air-griffey-max-1-cincinnati-reds-ja1091-100",
+    "sku": "JA1091-100",
+    "brand": "Nike Air Griffey Max 1",
+    "title": "Nike Air Griffey Max 1 Cincinnati Reds",
+    "date": "2026-10-09",
+    "price": 170,
+    "year": 2026,
+    "image_url": "/images/JA1091-100.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-griffey-max-1-cincinnati-reds-ja1091-100",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "nike-air-foamposite-one-phantom-barely-volt-iz1476-001",
+    "sku": "IZ1476-001",
+    "brand": "Nike Air Foamposite One",
+    "title": "Nike Air Foamposite One Phantom Barely Volt",
+    "date": "2026-10-16",
+    "price": 240,
+    "year": 2026,
+    "image_url": "/images/IZ1476-001.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-foamposite-one-phantom-barely-volt-iz1476-001",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "sza-vans-authentic-knockdown-white-fish-print-vn00115awht",
+    "sku": "VN00115AWHT",
+    "brand": "SZA x Vans Authentic Knockdown",
+    "title": "Vans Authentic SZA Knockdown White Fish Print",
+    "date": "2026-10-22",
+    "price": 110,
+    "year": 2026,
+    "image_url": "/images/VN00115AWHT.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/sza-vans-authentic-knockdown-white-fish-print-vn00115awht",
+    "featured": false,
+    "retailers": []
+  },
+  {
+    "id": "new-balance-750-wmns-black-angora-u7507pm",
+    "sku": "U7507PM",
+    "brand": "New Balance 750 WMNS",
+    "title": "New Balance 750 WMNS Black Angora",
+    "date": "2026-10-24",
+    "price": 100,
+    "year": 2026,
+    "image_url": "/images/U7507PM.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-750-wmns-black-angora-u7507pm",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=U7507PM&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2F750%2FU750V1_LI-FTW-844359.html",
+        "price": "100€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=U7507PM&wgtarget=https://en.afew-store.com/products/new-balance-750-black-angora",
+        "price": "99€"
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-41-ruby-hv6474-601",
+    "sku": "HV6474-601",
+    "brand": "Air Jordan 41",
+    "title": "Air Jordan 41 Ruby",
+    "date": "2026-10-25",
+    "price": 205,
+    "year": 2026,
+    "image_url": "/images/HV6474-601.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-41-ruby-hv6474-601",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "nike-book-2-oogie-boogie-io7942-001",
+    "sku": "IO7942-001",
+    "brand": "Nike Book 2",
+    "title": "Nike Book 2 Oogie Boogie",
+    "date": "2026-10-30",
+    "price": 155,
+    "year": 2026,
+    "image_url": "/images/IO7942-001.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-book-2-oogie-boogie-io7942-001",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "nike-ja-4-halloween-io7939-300",
+    "sku": "IO7939-300",
+    "brand": "Nike Ja 4",
+    "title": "Nike Ja 4 Halloween",
+    "date": "2026-10-31",
+    "price": 145,
+    "year": 2026,
+    "image_url": "/images/IO7939-300.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-ja-4-halloween-io7939-300",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "nike-ja-4-radar-ja9745-400",
+    "sku": "JA9745-400",
+    "brand": "Nike Ja 4",
+    "title": "Nike Ja 4 Radar",
+    "date": "2026-10-31",
+    "price": 140,
+    "year": 2026,
+    "image_url": "/images/JA9745-400.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-ja-4-radar-ja9745-400",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "victor-wembanyama-nike-gt-cut-4-statue-of-liberty-iw0737-300",
+    "sku": "IW0737-300",
+    "brand": "Victor Wembanyama x Nike GT Cut 4",
+    "title": "Victor Wembanyama x Nike GT Cut 4 Statue Of Liberty",
+    "date": "2026-11-05",
+    "price": 210,
+    "year": 2026,
+    "image_url": "/images/IW0737-300.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/victor-wembanyama-nike-gt-cut-4-statue-of-liberty-iw0737-300",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "nike-book-2-desert-night-fz7013-003",
+    "sku": "FZ7013-003",
+    "brand": "Nike Book 2",
+    "title": "Nike Book 2 Desert Night",
+    "date": "2026-11-06",
+    "price": 145,
+    "year": 2026,
+    "image_url": "/images/FZ7013-003.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-book-2-desert-night-fz7013-003",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "air-jordan-11-wmns-lapis-iz1800-400",
+    "sku": "IZ1800-400",
+    "brand": "Air Jordan 11 WMNS",
+    "title": "Air Jordan 11 WMNS LAPIS",
+    "date": "2026-11-11",
+    "price": 230,
+    "year": 2026,
+    "image_url": "/images/IZ1800-400.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-11-wmns-lapis-iz1800-400",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "vans-lx-old-skool-36-pearlized-pearlized-black-fluro-lime-vn000e8vhhc",
+    "sku": "VN000E8VHHC",
+    "brand": "Vans LX Old Skool 36 Pearlized",
+    "title": "Vans LX Old Skool 36 Pearlized Pearlized Black Fluro Lime",
+    "date": "2026-11-12",
+    "price": 130,
+    "year": 2026,
+    "image_url": "/images/VN000E8VHHC.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-pearlized-pearlized-black-fluro-lime-vn000e8vhhc",
+    "featured": false,
+    "retailers": []
   }
 ]
