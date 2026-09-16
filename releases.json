@@ -588,6 +588,13 @@
         "price": "190€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnew-balance-1890a-u18906m2-0353106",
+        "price": "190€",
+        "resell": false,
+        "raffle": false
       }
     ]
   },
@@ -4502,6 +4509,29 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/16/vans-old-skool-36-pearlized-pink-vn000e8vhle/",
     "added_at": "2026-09-16T18:00:02.570393+00:00",
-    "featured": false
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DVN000E8VHLE",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fvn000e8vhle%2F",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      },
+      {
+        "name": "Vans",
+        "url": "https://www.vans.fr/",
+        "price": "130€",
+        "resell": false,
+        "raffle": false
+      }
+    ]
   }
 ]
