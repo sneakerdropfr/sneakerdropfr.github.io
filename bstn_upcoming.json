@@ -1,25 +1,5 @@
 [
   {
-    "nom": "Y-3 Predator Precision",
-    "marque": "Y-3",
-    "prix": "249,99 €",
-    "image_url": "https://img.bstn.com/card-default/y-3/y-3-predator-precision-hp4653-0352143/HP4653/HP4653-03.jpg",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/y-3-predator-precision-hp4653-0352143",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fy-3-predator-precision-hp4653-0352143",
-    "date": "2026-09-15",
-    "couleur": ""
-  },
-  {
-    "nom": "Adidas HOLO PEAK",
-    "marque": "Adidas",
-    "prix": "149,99 €",
-    "image_url": "https://img.bstn.com/card-default/adidas/adidas-holo-peak-ki1520-0355131/KI1520/KI1520-03.jpg",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/adidas-holo-peak-ki1520-0355131",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-holo-peak-ki1520-0355131",
-    "date": "2026-09-15",
-    "couleur": ""
-  },
-  {
     "nom": "New Balance 2010",
     "marque": "New Balance",
     "prix": "169,99 €",
@@ -30,12 +10,22 @@
     "couleur": ""
   },
   {
+    "nom": "Puma Indoor x Rothaus 2",
+    "marque": "Puma",
+    "prix": "109,99 €",
+    "image_url": "https://img.bstn.com/card-default/puma/puma-indoor-x-rothaus-2-409175-01-0348910/409175-01/409175-01-03.jpg",
+    "lien_produit": "https://www.bstn.com/eu_fr/p/puma-indoor-x-rothaus-2-409175-01-0348910",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fpuma-indoor-x-rothaus-2-409175-01-0348910",
+    "date": "2026-09-19",
+    "couleur": ""
+  },
+  {
     "nom": "Saucony x Stan Birch PROGRID GUIDE 7",
     "marque": "Saucony",
     "prix": "159,99 €",
     "image_url": "https://img.bstn.com/card-default/saucony/saucony-x-stan-birch-progrid-guide-7-s71070-2-0362429/S71070-2/S71070-2-03.jpg",
-    "lien_produit": "https://www.bstn.com/eu_fr/p/saucony-x-stan-birch-progrid-guide-7-s71070-2-0362429",
-    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fsaucony-x-stan-birch-progrid-guide-7-s71070-2-0362429",
+    "lien_produit": "https://www.bstn.com/eu_fr/r/saucony-x-stan-birch-progrid-guide-7-s71070-2-0362429",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fsaucony-x-stan-birch-progrid-guide-7-s71070-2-0362429",
     "date": "2026-09-19",
     "couleur": ""
   },
@@ -67,6 +57,16 @@
     "lien_produit": "https://www.bstn.com/eu_fr/r/nike-kobe-viii-protro-io6253-500-0353888",
     "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-kobe-viii-protro-io6253-500-0353888",
     "date": "2026-09-19",
+    "couleur": ""
+  },
+  {
+    "nom": "Nike GENERAL PURPOSE SHOE",
+    "marque": "Nike",
+    "prix": "119,99 €",
+    "image_url": "https://img.bstn.com/card-default/nike/nike-general-purpose-shoe-fz1363-002-0348071/FZ1363-002/FZ1363-002-03.jpg",
+    "lien_produit": "https://www.bstn.com/eu_fr/r/nike-general-purpose-shoe-fz1363-002-0348071",
+    "lien_affilie": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-general-purpose-shoe-fz1363-002-0348071",
+    "date": "2026-09-30",
     "couleur": ""
   }
 ]
