@@ -2421,8 +2421,8 @@
     "sku": "IV6048-001",
     "brand": "Air Jordan",
     "title": "Air Jordan 4 LONDON",
-    "date": "2026-10-30",
-    "price": 230,
+    "date": "2026-09-17",
+    "price": 229.99,
     "year": 2026,
     "image_url": "/images/IV6048-001.webp",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-london-iv6048-001",
@@ -2436,20 +2436,21 @@
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIV6048-001",
-        "price": "210€",
+        "price": "229,99€",
         "resell": false,
         "raffle": false
       },
       {
         "name": "Solebox",
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiv6048-001%2F",
-        "price": "210€",
+        "price": "229,99€",
         "resell": false,
         "raffle": false
       }
     ],
     "description": "La Air Jordan 4 LONDON est une édition exclusive dédiée à la capitale britannique avec des détails inspirés de la culture londonienne. Elle sort le vendredi 30 octobre 2026 au prix de 210€.",
-    "slug": "air-jordan-4-london-iv6048-001"
+    "slug": "air-jordan-4-london-iv6048-001",
+    "date_display": "17 sept. 2026"
   },
   {
     "id": "nike-air-max-plus-vii-cultivates-raspberry-red-hq2197-601",
