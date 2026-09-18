@@ -40,7 +40,9 @@
       }
     ],
     "description": "La Palmes x Converse Jack Purcell Mountain View est le fruit d'une collaboration entre Palmes et Converse. Elle se décline dans un colorway Palmes x  Jack Purcell Mountain View. Elle est disponible le 14 sept. 2026 au prix de 100€.",
-    "date_display": "14 sept. 2026"
+    "date_display": "14 sept. 2026",
+    "silhouette": "Converse Jack",
+    "year": 2026
   },
   {
     "slug": "palmes-converse-jack-purcell-parisian-night-a24786c",
@@ -83,7 +85,9 @@
       }
     ],
     "description": "La Palmes x Converse Jack Purcell Parisian Night est le fruit d'une collaboration entre Palmes et Converse. Elle se décline dans un colorway Palmes x  Jack Purcell Parisian Night. Elle est disponible le 14 sept. 2026 au prix de 100€.",
-    "date_display": "14 sept. 2026"
+    "date_display": "14 sept. 2026",
+    "silhouette": "Converse Jack",
+    "year": 2026
   },
   {
     "id": "simone-rocha-adidas-climacool-black-kh7452",
@@ -121,7 +125,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "adidas-holo-peak-trace-brown-aurora-ruby-ki1522",
@@ -167,7 +172,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Brown"
   },
   {
     "id": "adidas-holo-peak-core-black-iron-metallic-ki1520",
@@ -213,7 +219,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "adidas-y-3-predator-precision-black-hp4653",
@@ -244,7 +251,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "y-3-predator-precision-off-white-hp4657",
@@ -277,7 +285,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "White"
   },
   {
     "slug": "adidas-ae-3-cold-blooded-kh8537",
@@ -303,7 +312,8 @@
       }
     ],
     "description": "La adidas A.E. 3 Cold Blooded propose un colorway A.E. 3 Cold Blooded. Cette paire sort le 15 sept. 2026 au prix de 130€.",
-    "date_display": "15 sept. 2026"
+    "date_display": "15 sept. 2026",
+    "year": 2026
   },
   {
     "slug": "adidas-megaride-ag-aero-pink-st-tropic-bloom-kh7614",
@@ -344,7 +354,9 @@
       }
     ],
     "description": "La adidas Megaride AG Aero Pink St Tropic Bloom propose un colorway Megaride AG Aero Pink St Tropic Bloom. Cette paire sort le 15 sept. 2026 au prix de 190€.",
-    "date_display": "15 sept. 2026"
+    "date_display": "15 sept. 2026",
+    "colorway": "Pink",
+    "year": 2026
   },
   {
     "slug": "jennie-adidas-superstar-square-toe-ballet-core-black-lb3787",
@@ -385,7 +397,9 @@
       }
     ],
     "description": "La Jennie x adidas Superstar Square Toe Ballet Core Black est le fruit d'une collaboration entre Jennie et Adidas. Elle se décline dans un colorway Jennie x  Superstar Square Toe Ballet Core Black. Elle est disponible le 15 sept. 2026 au prix de 130€.",
-    "date_display": "15 sept. 2026"
+    "date_display": "15 sept. 2026",
+    "colorway": "Black",
+    "year": 2026
   },
   {
     "slug": "jennie-adidas-superstar-square-toe-ballet-white-lb3786",
@@ -426,7 +440,9 @@
       }
     ],
     "description": "La Jennie x adidas Superstar Square Toe Ballet White est le fruit d'une collaboration entre Jennie et Adidas. Elle se décline dans un colorway Jennie x  Superstar Square Toe Ballet White. Elle est disponible le 15 sept. 2026 au prix de 130€.",
-    "date_display": "15 sept. 2026"
+    "date_display": "15 sept. 2026",
+    "colorway": "White",
+    "year": 2026
   },
   {
     "slug": "yuto-nike-sb-air-force-1-light-bone-iron-grey-io8439-100",
@@ -452,7 +468,10 @@
       }
     ],
     "description": "La Yuto x Nike SB Air Force 1 Light Bone Iron Grey est le fruit d'une collaboration entre Yuto et Nike. Elle se décline dans un colorway Yuto x  SB Air Force 1 Light Bone Iron Grey. Elle est disponible le 15 sept. 2026 au prix de 120€.",
-    "date_display": "15 sept. 2026"
+    "date_display": "15 sept. 2026",
+    "silhouette": "Air Force 1",
+    "colorway": "Light Bone/Grey",
+    "year": 2026
   },
   {
     "id": "new-balance-1890a-cowprint-u18906m2",
@@ -548,7 +567,9 @@
       }
     ],
     "description": "La Air Jordan WMNS 6 Retro Low Black Desert Berry propose un colorway WMNS 6 Retro Low Black Desert Berry. Cette paire sort le 16 sept. 2026 au prix de 200€.",
-    "date_display": "16 sept. 2026"
+    "date_display": "16 sept. 2026",
+    "colorway": "Black/Desert",
+    "year": 2026
   },
   {
     "id": "nike-pegasus-plus-2-flash-crimson-im2541-600",
@@ -581,7 +602,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Pegasus",
+    "colorway": "Crimson"
   },
   {
     "id": "nike-pegasus-plus-2-wmns-flash-crimson-black-im2543-600",
@@ -614,7 +637,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Pegasus",
+    "colorway": "Crimson/Black"
   },
   {
     "id": "nike-air-liquid-max-team-grey-iq7635-004",
@@ -647,7 +672,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Grey"
   },
   {
     "id": "nike-air-liquid-max-black-anthracite-iq7635-003",
@@ -680,7 +706,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Anthracite"
   },
   {
     "id": "nike-air-liquid-max-black-radiant-blue-aurora-green-iq7635-001",
@@ -723,7 +750,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Blue/Green"
   },
   {
     "id": "nike-air-liquid-max-black-metallic-silver-iq7635-002",
@@ -766,7 +794,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Metallic Silver"
   },
   {
     "slug": "nike-air-liquid-max-grey-fog-iq7634-005",
@@ -816,7 +845,9 @@
       }
     ],
     "description": "La Nike Air Liquid Max Grey Fog propose un colorway Air Liquid Max Grey Fog. Cette paire sort le 17 sept. 2026 au prix de 219€.",
-    "date_display": "17 sept. 2026"
+    "date_display": "17 sept. 2026",
+    "colorway": "Grey/Fog",
+    "year": 2026
   },
   {
     "id": "mowalola-air-jordan-14-burnt-red-iq5708-001",
@@ -843,7 +874,9 @@
         "raffle": false
       }
     ],
-    "description": "La Air Jordan 14 Mowalola Burnt Red s'inscrit dans la collaboration avec la designer Mowalola Ogunlesi, connue pour son esthétique provocante, dans un colorway rouge brûlé intense. Elle sort le jeudi 18 septembre 2026 à 250€."
+    "description": "La Air Jordan 14 Mowalola Burnt Red s'inscrit dans la collaboration avec la designer Mowalola Ogunlesi, connue pour son esthétique provocante, dans un colorway rouge brûlé intense. Elle sort le jeudi 18 septembre 2026 à 250€.",
+    "silhouette": "Air Jordan 14",
+    "colorway": "Red"
   },
   {
     "id": "nike-air-foamposite-pro-green-camo-im5204-001",
@@ -877,7 +910,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Air Foamposite Pro Green Camo revisite la coque futuriste d'origine avec un imprimé camouflage vert sur la tige Foamposite moulée. Elle sort le jeudi 18 septembre 2026 au prix de 240€."
+    "description": "La Nike Air Foamposite Pro Green Camo revisite la coque futuriste d'origine avec un imprimé camouflage vert sur la tige Foamposite moulée. Elle sort le jeudi 18 septembre 2026 au prix de 240€.",
+    "colorway": "Green/Camo"
   },
   {
     "id": "new-balance-2010-black-green-u20104cj",
@@ -908,7 +942,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Green"
   },
   {
     "slug": "mowalola-air-jordan-14-mule-black-metallic-silver-ir0908-001",
@@ -934,7 +969,10 @@
       }
     ],
     "description": "La Mowalola x Air Jordan 14 Mule Black Metallic Silver est le fruit d'une collaboration entre Mowalola et Air Jordan. Elle se décline dans un colorway Mowalola x  14 Mule Black Metallic Silver. Elle est disponible le 18 sept. 2026 au prix de 180€.",
-    "date_display": "18 sept. 2026"
+    "date_display": "18 sept. 2026",
+    "silhouette": "Air Jordan 14",
+    "colorway": "Black/Metallic Silver",
+    "year": 2026
   },
   {
     "slug": "nike-air-foamposite-pro-glow-in-the-dark-iv6246-100",
@@ -967,7 +1005,8 @@
       }
     ],
     "description": "La Nike Air Foamposite Pro Glow In The Dark propose un colorway Air Foamposite Pro Glow In The Dark. Cette paire sort le 18 sept. 2026 au prix de 240€.",
-    "date_display": "18 sept. 2026"
+    "date_display": "18 sept. 2026",
+    "year": 2026
   },
   {
     "slug": "nike-ja-4-jaws-ja9742-400",
@@ -1000,7 +1039,8 @@
       }
     ],
     "description": "La Nike Ja 4 Jaws propose un colorway Ja 4 Jaws. Cette paire sort le 18 sept. 2026 au prix de 140€.",
-    "date_display": "18 sept. 2026"
+    "date_display": "18 sept. 2026",
+    "year": 2026
   },
   {
     "slug": "nike-lebron-xxiii-per-laser-im5125-100",
@@ -1038,7 +1078,8 @@
       }
     ],
     "description": "La Nike LeBron XXIII PER Laser propose un colorway LeBron XXIII PER Laser. Cette paire sort le 18 sept. 2026 au prix de 200€.",
-    "date_display": "18 sept. 2026"
+    "date_display": "18 sept. 2026",
+    "year": 2026
   },
   {
     "slug": "psg-nike-kd-6-metallic-silver-iu0593-001",
@@ -1071,7 +1112,9 @@
       }
     ],
     "description": "La PSG x Nike KD 6 Metallic Silver est le fruit d'une collaboration entre PSG et Nike. Elle se décline dans un colorway PSG x  KD 6 Metallic Silver. Elle est disponible le 18 sept. 2026 au prix de 135€.",
-    "date_display": "18 sept. 2026"
+    "date_display": "18 sept. 2026",
+    "colorway": "Metallic Silver",
+    "year": 2026
   },
   {
     "id": "nike-air-force-1-low-lx-icon-green-apple-iv6822-399",
@@ -1129,7 +1172,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "colorway": "Green"
   },
   {
     "slug": "air-jordan-9-retro-space-jam-ix6179-100",
@@ -1195,7 +1240,9 @@
       }
     ],
     "description": "La Air Jordan 9 Retro Space Jam propose un colorway 9 Retro Space Jam. Cette paire sort le 19 sept. 2026 au prix de 210€.",
-    "date_display": "19 sept. 2026"
+    "date_display": "19 sept. 2026",
+    "silhouette": "Air Jordan 9",
+    "year": 2026
   },
   {
     "slug": "nike-kobe-8-protro-mambacurial-io6253-500",
@@ -1236,7 +1283,9 @@
       }
     ],
     "description": "La Nike Kobe 8 Protro Mambacurial propose un colorway Kobe 8 Protro Mambacurial. Cette paire sort le 19 sept. 2026 au prix de 190€.",
-    "date_display": "19 sept. 2026"
+    "date_display": "19 sept. 2026",
+    "silhouette": "Kobe 8",
+    "year": 2026
   },
   {
     "slug": "pharrell-adidas-adistar-jellyfish-dark-brown-frozen-green-kk2888",
@@ -1262,7 +1311,9 @@
       }
     ],
     "description": "La Pharrell x adidas Adistar Jellyfish Dark Brown Frozen Green est le fruit d'une collaboration entre Pharrell et Adidas. Elle se décline dans un colorway Pharrell x  Adistar Jellyfish Dark Brown Frozen Green. Elle est disponible le 19 sept. 2026 au prix de 300€.",
-    "date_display": "19 sept. 2026"
+    "date_display": "19 sept. 2026",
+    "colorway": "Brown/Green",
+    "year": 2026
   },
   {
     "id": "one-piece-nike-air-max-plus-ope-ope-no-mi-iw1282-600",
@@ -1289,7 +1340,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Air Max Plus One Piece Ope Ope No Mi s'inspire du fruit du démon de Law dans ce colorway blanc et jaune exclusif issuu de la collab manga. Elle sort le jeudi 25 septembre 2026 à 200€."
+    "description": "La Nike Air Max Plus One Piece Ope Ope No Mi s'inspire du fruit du démon de Law dans ce colorway blanc et jaune exclusif issuu de la collab manga. Elle sort le jeudi 25 septembre 2026 à 200€.",
+    "silhouette": "Air Max Plus"
   },
   {
     "id": "one-piece-nike-air-max-plus-mera-mera-no-mi-iw1283-800",
@@ -1316,7 +1368,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Air Max Plus One Piece Mera Mera No Mi rend hommage à Ace avec des flammes orange iconiques sur la Air Max Plus. Sortie le jeudi 25 septembre 2026 à 200€."
+    "description": "La Nike Air Max Plus One Piece Mera Mera No Mi rend hommage à Ace avec des flammes orange iconiques sur la Air Max Plus. Sortie le jeudi 25 septembre 2026 à 200€.",
+    "silhouette": "Air Max Plus"
   },
   {
     "id": "one-piece-nike-air-max-plus-gomu-gomu-no-mi-ir0968-500",
@@ -1343,7 +1396,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Air Max Plus One Piece Gomu Gomu No Mi est inspirée de Luffy avec ses accents rouges et noirs signature. Elle sort le jeudi 25 septembre 2026 à 200€."
+    "description": "La Nike Air Max Plus One Piece Gomu Gomu No Mi est inspirée de Luffy avec ses accents rouges et noirs signature. Elle sort le jeudi 25 septembre 2026 à 200€.",
+    "silhouette": "Air Max Plus"
   },
   {
     "id": "air-jordan-1-low-og-last-dance-at-the-garden-ir0088-001",
@@ -1369,7 +1423,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 1"
   },
   {
     "id": "new-balance-2000s-grey-u20008da",
@@ -1408,7 +1463,8 @@
         "raffle": false
       }
     ],
-    "description": "La New Balance 2000S Grey revisite la silhouette chunky 2000S dans un colorway gris neutre et polyvalent, avec un amorti généreux. Elle sort le mercredi 30 septembre 2026 au prix de 200€."
+    "description": "La New Balance 2000S Grey revisite la silhouette chunky 2000S dans un colorway gris neutre et polyvalent, avec un amorti généreux. Elle sort le mercredi 30 septembre 2026 au prix de 200€.",
+    "colorway": "Grey"
   },
   {
     "id": "j-balvin-air-jordan-4-lemonade-iw2872-700",
@@ -1435,7 +1491,8 @@
         "raffle": false
       }
     ],
-    "description": "La Air Jordan 4 J Balvin LEMONADE reprend le thème jaune citronné du musicien colombien J Balvin sur la silhouette Jordan 4, avec des empiècements translucides. Sortie le mercredi 30 septembre 2026 à 220€."
+    "description": "La Air Jordan 4 J Balvin LEMONADE reprend le thème jaune citronné du musicien colombien J Balvin sur la silhouette Jordan 4, avec des empiècements translucides. Sortie le mercredi 30 septembre 2026 à 220€.",
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "travis-scott-nike-air-force-1-low-07-ice-blue-ostrich-jf7727-400",
@@ -1469,7 +1526,9 @@
         "raffle": false
       }
     ],
-    "description": "La Travis Scott x Nike Air Force 1 Low Ice Blue Ostrich marie la texture autruche bleu glacé au swoosh inversé signature de Travis Scott. Elle sort le mercredi 30 septembre 2026 au prix de 120€."
+    "description": "La Travis Scott x Nike Air Force 1 Low Ice Blue Ostrich marie la texture autruche bleu glacé au swoosh inversé signature de Travis Scott. Elle sort le mercredi 30 septembre 2026 au prix de 120€.",
+    "silhouette": "Air Force 1",
+    "colorway": "Blue"
   },
   {
     "id": "nike-air-max-dolce-wmns-metallic-silver-black-ib4527-001",
@@ -1503,7 +1562,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Air Max Dolce WMNS Metallic Silver Black propose une silhouette lifestyle féminine avec des reflets argentés métalliques sur la tige. Sortie le mercredi 30 septembre 2026 à 160€."
+    "description": "La Nike Air Max Dolce WMNS Metallic Silver Black propose une silhouette lifestyle féminine avec des reflets argentés métalliques sur la tige. Sortie le mercredi 30 septembre 2026 à 160€.",
+    "colorway": "Metallic Silver/Black"
   },
   {
     "id": "nike-air-max-dolce-light-magenta-black-ib4527-500",
@@ -1537,7 +1597,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Air Max Dolce Light Magenta Black décline la silhouette Dolce en magenata pastel et noir, pour une allure lifestyle féminine douce. Elle sort le mercredi 30 septembre 2026 à 170€."
+    "description": "La Nike Air Max Dolce Light Magenta Black décline la silhouette Dolce en magenata pastel et noir, pour une allure lifestyle féminine douce. Elle sort le mercredi 30 septembre 2026 à 170€.",
+    "colorway": "Magenta/Black"
   },
   {
     "id": "nike-air-max-95-tech-smoke-grey-football-blue-ih7853-003",
@@ -1571,7 +1632,9 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Air Max 95 Smoke Grey Football Blue reprend la construction Engineered Mesh en dégradé de gris fumé avec des accents bleu football. Sortie le mercredi 30 septembre 2026 à 200€."
+    "description": "La Nike Air Max 95 Smoke Grey Football Blue reprend la construction Engineered Mesh en dégradé de gris fumé avec des accents bleu football. Sortie le mercredi 30 septembre 2026 à 200€.",
+    "silhouette": "Air Max 95",
+    "colorway": "Smoke/Grey/Blue"
   },
   {
     "id": "nike-air-max-plus-dark-raisin-liquid-lime-ir5898-573",
@@ -1605,7 +1668,9 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Air Max Plus Dark Raisin Liquid Lime joue sur le contraste violet foncé/vert lime sur la Air Max Plus (TN) iconique. Elle sort le mercredi 30 septembre 2026 au prix de 190€."
+    "description": "La Nike Air Max Plus Dark Raisin Liquid Lime joue sur le contraste violet foncé/vert lime sur la Air Max Plus (TN) iconique. Elle sort le mercredi 30 septembre 2026 au prix de 190€.",
+    "silhouette": "Air Max Plus",
+    "colorway": "Lime"
   },
   {
     "id": "awake-ny-air-jordan-6-retro-midnight-navy-iq5706-400",
@@ -1632,7 +1697,9 @@
         "raffle": false
       }
     ],
-    "description": "Awake NY apporte son esthétique new-yorkaise à la Air Jordan 6 dans un colorway bleu marine Midnight premium. Elle sort le mercredi 30 septembre 2026 au prix de 225€."
+    "description": "Awake NY apporte son esthétique new-yorkaise à la Air Jordan 6 dans un colorway bleu marine Midnight premium. Elle sort le mercredi 30 septembre 2026 au prix de 225€.",
+    "silhouette": "Air Jordan 6",
+    "colorway": "Midnight Navy"
   },
   {
     "id": "awake-ny-air-jordan-6-retro-playful-pink-iq5706-600",
@@ -1659,7 +1726,9 @@
         "raffle": false
       }
     ],
-    "description": "La Awake NY x Air Jordan 6 Playful Pink décline la silhouette 1991 dans un rose vif inattendu signé par le label new-yorkais. Sortie le mercredi 30 septembre 2026 à 230€."
+    "description": "La Awake NY x Air Jordan 6 Playful Pink décline la silhouette 1991 dans un rose vif inattendu signé par le label new-yorkais. Sortie le mercredi 30 septembre 2026 à 230€.",
+    "silhouette": "Air Jordan 6",
+    "colorway": "PINK"
   },
   {
     "id": "corteiz-nike-shox-r419-game-royal-iq9951-400",
@@ -1693,7 +1762,8 @@
         "raffle": false
       }
     ],
-    "description": "La Corteiz x Nike Shox R419 Game Royal affiche les colonnes amorties Shox avec le branding CRTZ exclusif en colorway bleu royal. Sortie le mercredi 30 septembre 2026 à 180€."
+    "description": "La Corteiz x Nike Shox R419 Game Royal affiche les colonnes amorties Shox avec le branding CRTZ exclusif en colorway bleu royal. Sortie le mercredi 30 septembre 2026 à 180€.",
+    "colorway": "GAME ROYAL"
   },
   {
     "id": "corteiz-nike-shox-r419-black-iq9951-002",
@@ -1727,7 +1797,8 @@
         "raffle": false
       }
     ],
-    "description": "La Corteiz x Nike Shox R419 Black décline la collab CRTZ dans un colorway noir monochrome très sobre. Elle sort le mercredi 30 septembre 2026 au prix de 180€."
+    "description": "La Corteiz x Nike Shox R419 Black décline la collab CRTZ dans un colorway noir monochrome très sobre. Elle sort le mercredi 30 septembre 2026 au prix de 180€.",
+    "colorway": "BLACK"
   },
   {
     "id": "corteiz-nike-shox-r419-metallic-silver-iq9951-001",
@@ -1761,7 +1832,8 @@
         "raffle": false
       }
     ],
-    "description": "La Corteiz x Nike Shox R419 Metallic Silver propose des colonnes chromées argentées avec le logo CRTZ, très recherchée. Sortie le mercredi 30 septembre 2026 à 180€."
+    "description": "La Corteiz x Nike Shox R419 Metallic Silver propose des colonnes chromées argentées avec le logo CRTZ, très recherchée. Sortie le mercredi 30 septembre 2026 à 180€.",
+    "colorway": "METALLIC SILVER"
   },
   {
     "id": "nike-zoom-vomero-5-pink-flamingo",
@@ -1795,7 +1867,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Zoom Vomero 5 Pink Flamingo revisite le modèle technical runner des années 2000 dans un colorway rose flamant délicat. Elle sort le mercredi 30 septembre 2026 au prix de 160€."
+    "description": "La Nike Zoom Vomero 5 Pink Flamingo revisite le modèle technical runner des années 2000 dans un colorway rose flamant délicat. Elle sort le mercredi 30 septembre 2026 au prix de 160€.",
+    "colorway": "Pink"
   },
   {
     "id": "nike-mind-001-amp-indigo-burst-iz6659-400",
@@ -1829,7 +1902,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Mind 001 AMP Indigo Burst combine la technologie AMP à un colorway bleu indigo éclatant sur ce modèle lifestyle de nouvelle génération. Sortie le mercredi 30 septembre 2026 à 90€."
+    "description": "La Nike Mind 001 AMP Indigo Burst combine la technologie AMP à un colorway bleu indigo éclatant sur ce modèle lifestyle de nouvelle génération. Sortie le mercredi 30 septembre 2026 à 90€.",
+    "colorway": "Indigo"
   },
   {
     "id": "converse-chuck-taylor-throwback-black-vintage-white-a24067mp",
@@ -1856,7 +1930,9 @@
         "raffle": false
       }
     ],
-    "description": "La Converse Chuck Taylor Throwback Black Vintage White revisite la silhouette All Star avec des finitions vintage et des matières premium. Elle sort le mercredi 30 septembre 2026 au prix de 80€."
+    "description": "La Converse Chuck Taylor Throwback Black Vintage White revisite la silhouette All Star avec des finitions vintage et des matières premium. Elle sort le mercredi 30 septembre 2026 au prix de 80€.",
+    "silhouette": "Chuck Taylor",
+    "colorway": "Black/White"
   },
   {
     "id": "nike-air-force-1-low-07-family-reunion-air-soul-iw2353-001",
@@ -1890,7 +1966,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Air Force 1 Low Family Reunion Soul revisite le modèle emblématique dans un colorway chaleureux avec des détails brodés Family Reunion. Elle sort le mercredi 30 septembre 2026 à 130€."
+    "description": "La Nike Air Force 1 Low Family Reunion Soul revisite le modèle emblématique dans un colorway chaleureux avec des détails brodés Family Reunion. Elle sort le mercredi 30 septembre 2026 à 130€.",
+    "silhouette": "Air Force 1"
   },
   {
     "id": "simone-rocha-adidas-taekwondo-ballerina-wmns-pink-red-kj5249",
@@ -1928,7 +2005,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink/Red"
   },
   {
     "id": "nike-air-max-1000-2-glacier-blue-jf3484-006",
@@ -1954,7 +2032,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Glacier Blue"
   },
   {
     "id": "new-balance-993-made-in-usa-morel-u993mo",
@@ -1980,7 +2059,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "New Balance 993"
   },
   {
     "id": "new-balance-1890-black-silver-u189093h",
@@ -2018,7 +2098,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Silver"
   },
   {
     "id": "action-bronson-new-balance-1890-planet-frog",
@@ -2080,7 +2161,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Zoom Vomero 5 WMNS TATTOO PARTICLE ROSE est un modèle très attendu par les amateurs de sneakers. Elle sort le vendredi 2 octobre 2026 au prix de 160€. Disponible chez Nike."
+    "description": "La Nike Zoom Vomero 5 WMNS TATTOO PARTICLE ROSE est un modèle très attendu par les amateurs de sneakers. Elle sort le vendredi 2 octobre 2026 au prix de 160€. Disponible chez Nike.",
+    "colorway": "ROSE"
   },
   {
     "id": "adidas-hyperboost-ephr-night-brown-utility-black-la5973",
@@ -2107,7 +2189,8 @@
         "raffle": false
       }
     ],
-    "description": "L'adidas Hyperboost EPHR Night Brown Utility Black adopte des tons brown militaire pour la version haute de l'Hyperboost à maintien renforcé. Elle sort le vendredi 2 octobre 2026 à 150€."
+    "description": "L'adidas Hyperboost EPHR Night Brown Utility Black adopte des tons brown militaire pour la version haute de l'Hyperboost à maintien renforcé. Elle sort le vendredi 2 octobre 2026 à 150€.",
+    "colorway": "Brown/Black"
   },
   {
     "id": "adidas-hyperboost-ephr-core-black-solar-red-la6206",
@@ -2134,7 +2217,8 @@
         "raffle": false
       }
     ],
-    "description": "L'adidas Hyperboost EPHR Core Black Solar Red joue sur le contraste noir/rouge solaire pour la silhouette haute Hyperboost à maintien latéral. Sortie le vendredi 2 octobre 2026 à 150€."
+    "description": "L'adidas Hyperboost EPHR Core Black Solar Red joue sur le contraste noir/rouge solaire pour la silhouette haute Hyperboost à maintien latéral. Sortie le vendredi 2 octobre 2026 à 150€.",
+    "colorway": "Black/Red"
   },
   {
     "id": "adidas-hyperboost-euphoria-triple-black-la6211",
@@ -2161,7 +2245,8 @@
         "raffle": false
       }
     ],
-    "description": "L'adidas Hyperboost Euphoria Triple Black adopte un colorway monochrome noir total sur la silhouette Hyperboost lifestyle. Elle sort le vendredi 2 octobre 2026 au prix de 150€."
+    "description": "L'adidas Hyperboost Euphoria Triple Black adopte un colorway monochrome noir total sur la silhouette Hyperboost lifestyle. Elle sort le vendredi 2 octobre 2026 au prix de 150€.",
+    "colorway": "Black"
   },
   {
     "id": "nike-mind-001-wmns-tarp-green-hq4309-301",
@@ -2195,7 +2280,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Mind 001 WMNS Tarp Green décline le modèle lifestyle féminin dans un colorway vert bâche sobre et tendance. Elle sort le jeudi 15 octobre 2026 au prix de 90€."
+    "description": "La Nike Mind 001 WMNS Tarp Green décline le modèle lifestyle féminin dans un colorway vert bâche sobre et tendance. Elle sort le jeudi 15 octobre 2026 au prix de 90€.",
+    "colorway": "Green"
   },
   {
     "id": "nike-mind-001-wmns-palest-purple-hq4309-500",
@@ -2229,7 +2315,8 @@
         "raffle": false
       }
     ],
-    "description": "La Nike Mind 001 WMNS Palest Purple adopte un colorway violet très pale et délicat sur la silhouette lifestyle féminine. Sortie le jeudi 15 octobre 2026 à 90€."
+    "description": "La Nike Mind 001 WMNS Palest Purple adopte un colorway violet très pale et délicat sur la silhouette lifestyle féminine. Sortie le jeudi 15 octobre 2026 à 90€.",
+    "colorway": "Purple"
   },
   {
     "id": "travis-scott-x-nike-zoom-vapor-12-hc-pale-ivory-jj2180-100",
@@ -2262,7 +2349,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Ivory"
   },
   {
     "id": "air-jordan-4-london-iv6048-001",
@@ -2294,7 +2382,8 @@
     ],
     "description": "La Air Jordan 4 LONDON est une édition exclusive dédiée à la capitale britannique avec des détails inspirés de la culture londonienne. Elle sort le vendredi 30 octobre 2026 au prix de 210€.",
     "slug": "air-jordan-4-london-iv6048-001",
-    "date_display": "17 sept. 2026"
+    "date_display": "17 sept. 2026",
+    "silhouette": "Air Jordan 4"
   },
   {
     "id": "nike-air-max-plus-vii-cultivates-raspberry-red-hq2197-601",
@@ -2323,7 +2412,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max Plus",
+    "colorway": "Red",
+    "year": 2026
   },
   {
     "id": "asics-gel-kayano-14-docks-carrier-grey-1203a537-026",
@@ -2352,7 +2444,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Asics Gel-Kayano",
+    "colorway": "Grey",
+    "year": 2026
   },
   {
     "id": "hit-the-links-with-the-nike-air-max-95-golf-dark-iris-hv4696-004",
@@ -2381,7 +2476,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "nike-air-liquid-max-looks-to-clear-soles-in-this-black-variation-iq7634-007",
@@ -2410,7 +2507,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black",
+    "year": 2026
   },
   {
     "id": "nike-v5-rnr-sharpens-pencil-point-and-college-grey-iu3884-002",
@@ -2439,7 +2538,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Grey",
+    "year": 2026
   },
   {
     "id": "pink-foam-contrast-stitching-distinguishes-this-nike-zoom-vomero-5-fj2028-005",
@@ -2468,7 +2569,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink",
+    "year": 2026
   },
   {
     "id": "nike-dunk-low-scribbles-out-a-collegiate-shadow-brown-im4415-201",
@@ -2497,7 +2600,10 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Dunk Low",
+    "colorway": "Brown",
+    "year": 2026
   },
   {
     "id": "nike-air-max-plus-serves-up-the-joker-color-combo-dm0032-046",
@@ -2526,7 +2632,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max Plus",
+    "year": 2026
   },
   {
     "id": "this-nike-air-force-1-pack-reminds-you-to-be-mindful-iq0136-200",
@@ -2555,7 +2663,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Force 1",
+    "year": 2026
   },
   {
     "id": "jordan-spiz-ike-low-softens-up-in-swan-ir1836-105",
@@ -2584,7 +2694,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "pokemon-adidas-handball-spezial-mewtwo-ki8213",
@@ -2677,7 +2788,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Yellow"
   },
   {
     "id": "pokemon-adidas-superstar-ii-pikachu-white-ki2857",
@@ -2708,7 +2820,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "White"
   },
   {
     "id": "pokemon-adidas-superstar-ii-charmeleon-ki2856",
@@ -2832,7 +2945,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Adidas Samba",
+    "colorway": "Lavender"
   },
   {
     "id": "pokemon-adidas-superstar-ii-mid-pikachu-ki2862",
@@ -2920,7 +3035,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Summit White"
   },
   {
     "id": "nike-mind-001-hemp-hq4307-200",
@@ -2951,7 +3067,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Hemp"
   },
   {
     "id": "nike-mind-001-triple-black-hq4307-005",
@@ -2977,7 +3094,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "nike-mind-001-cucumber-calm-hq4307-302",
@@ -3049,7 +3167,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Royal"
   },
   {
     "id": "nike-mind-001-pink-smoke",
@@ -3075,7 +3194,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Pink/Smoke"
   },
   {
     "id": "nike-mind-001-wmns-black-hyper-crimson-hq4309-001",
@@ -3101,7 +3221,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black/Crimson"
   },
   {
     "id": "asics-gel-transcend-fj-ash-green-graphite-grey-1203b050-300",
@@ -3132,7 +3253,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Green/Grey"
   },
   {
     "id": "billionaire-boys-club-reebok-club-c-85-grey-100285332",
@@ -3153,7 +3275,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Grey"
   },
   {
     "id": "sp5der-adidas-adizero-f50-supplier-colour-kz6578",
@@ -3179,7 +3302,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Adidas Adizero"
   },
   {
     "id": "sp5der-adidas-adizero-f50-solar-green-kz6581",
@@ -3205,7 +3329,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Adidas Adizero",
+    "colorway": "Green"
   },
   {
     "id": "new-balance-1890-slate-grey-u189045a",
@@ -3238,7 +3364,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Grey"
   },
   {
     "id": "nike-kobe-10-low-protro-5am-flight-iq5339-400",
@@ -3316,7 +3443,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Phantom/Volt"
   },
   {
     "id": "sza-vans-authentic-knockdown-white-fish-print-vn00115awht",
@@ -3337,7 +3465,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "White"
   },
   {
     "id": "new-balance-750-wmns-black-angora-u7507pm",
@@ -3375,7 +3504,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "air-jordan-41-ruby-hv6474-601",
@@ -3505,7 +3635,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Desert"
   },
   {
     "id": "air-jordan-11-wmns-lapis-iz1800-400",
@@ -3531,7 +3662,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 11"
   },
   {
     "id": "one-piece-x-nike-air-max-plus-ope-ope-iw1283-600",
@@ -3560,7 +3692,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Air Max Plus",
+    "year": 2026
   },
   {
     "id": "new-balance-preps-the-991v2-in-karanda-red-u991rs2",
@@ -3589,7 +3723,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "colorway": "Red",
+    "year": 2026
   },
   {
     "id": "tom-sachs-nike-general-purpose-shoe-returns-on-september-30th-fz1363-002",
@@ -3618,7 +3754,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   },
   {
     "id": "nike-zoom-huarache-2k4-takes-on-ucla-colors-iv3782-101",
@@ -3647,7 +3784,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "silhouette": "Huarache 2K4",
+    "year": 2026
   },
   {
     "id": "nike-shai-002-expected-to-release-in-february-2027-ju1175-800",
@@ -3676,7 +3815,8 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2027
   },
   {
     "id": "nike-zoom-vomero-5-roam-returns-this-winter-hj4646-301",
@@ -3705,6 +3845,7 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "year": 2026
   }
 ]
