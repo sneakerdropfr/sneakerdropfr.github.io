@@ -233,13 +233,11 @@ def regenerate_and_push_html(all_releases, releases_past, releases_active):
     sorties_dir = os.path.join(REPO_LOCAL_PATH, "sorties")
     os.makedirs(sorties_dir, exist_ok=True)
 
-    # Écrire les JSON mis à jour dans le repo local
-    past_path   = os.path.join(REPO_LOCAL_PATH, "releases_past.json")
-    active_path = os.path.join(REPO_LOCAL_PATH, "releases.json")
+    # Écrire releases_past.json en local (pour HTML) — releases.json géré via API GitHub uniquement
+    past_path = os.path.join(REPO_LOCAL_PATH, "releases_past.json")
     with open(past_path, 'w', encoding='utf-8') as f:
         json.dump(releases_past, f, ensure_ascii=False, indent=2)
-    with open(active_path, 'w', encoding='utf-8') as f:
-        json.dump(releases_active, f, ensure_ascii=False, indent=2)
+    # NE PAS écrire releases.json localement — géré exclusivement via API GitHub
 
     regenerated = 0
     for r in all_releases:
@@ -273,9 +271,9 @@ def regenerate_and_push_html(all_releases, releases_past, releases_active):
 
     run(["git", "config", "user.email", "melakh@hotmail.com"])
     run(["git", "config", "user.name", "SneakerDropFR Bot"])
-    run(["git", "add", "releases_past.json", "releases.json", "sorties/"])
+    run(["git", "add", "sorties/"])  # releases.json géré via API GitHub — jamais via git local
     result = run(["git", "commit", "-m",
-                  f"restock: régénération HTML BSTN — {regenerated} pages le {TODAY}"])
+                  f"[skip ci] restock: régénération HTML BSTN — {regenerated} pages le {TODAY}"])
     if "nothing to commit" in result.stdout + result.stderr:
         log("Git : rien à committer pour les HTML.")
         return
