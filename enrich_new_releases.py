@@ -5,15 +5,15 @@ enrich_new_releases.py — Enrichissement automatique des nouvelles releases
 Détecte les entrées dans releases.json (et releases_past.json) qui manquent
 de colorway, silhouette ou year, et les renseigne automatiquement via :
   1. Extraction heuristique depuis le titre / l'id
-  2. Fallback : recherche web via Perplexity (si --web flag)
+
+releases.json : lu/écrit via API GitHub (gh_get/gh_put) — JAMAIS de fichier local
+releases_past.json : fichier local uniquement (pas pushé par les crons Perplexity)
 
 Usage :
     python3 enrich_new_releases.py              # dry-run : affiche ce qui manque
     python3 enrich_new_releases.py --apply      # applique les enrichissements
-    python3 enrich_new_releases.py --apply --web  # avec fallback web
-    python3 enrich_new_releases.py --apply --file releases_past.json
 
-Cron recommandé (VPS, après chaque git pull) :
+Cron recommandé (VPS, après chaque pipeline) :
     python3 /var/www/sneakerdropfr/enrich_new_releases.py --apply
 """
 
@@ -22,14 +22,63 @@ import json
 import os
 import re
 import sys
+import base64
+import time
+import urllib.request
+import urllib.error
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 LOG_PREFIX = "[enrich]"
 
+# ── Credentials GitHub ────────────────────────────────────────────────────────
+GH_TOKEN = os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN', '')
+if not GH_TOKEN:
+    raise RuntimeError('GH_TOKEN non défini — exporter GH_TOKEN avant de lancer ce script')
+REPO = 'sneakerdropfr/sneakerdropfr.github.io'
+
 
 def log(msg):
     print(f"{LOG_PREFIX} {datetime.now().strftime('%H:%M:%S')} {msg}", flush=True)
+
+
+# ── API GitHub ────────────────────────────────────────────────────────────────
+
+def gh_get(file, branch='perplexity'):
+    req = urllib.request.Request(
+        f'https://api.github.com/repos/{REPO}/contents/{file}?ref={branch}',
+        headers={'Authorization': f'token {GH_TOKEN}', 'Accept': 'application/vnd.github.v3+json'}
+    )
+    with urllib.request.urlopen(req, timeout=15) as r:
+        meta = json.loads(r.read())
+    return json.loads(base64.b64decode(meta['content']).decode()), meta['sha']
+
+
+def gh_put(file, data, sha, message, branch):
+    content_b64 = base64.b64encode(json.dumps(data, ensure_ascii=False, indent=2).encode()).decode()
+    body = json.dumps({'message': message, 'content': content_b64, 'sha': sha, 'branch': branch}).encode()
+    req = urllib.request.Request(
+        f'https://api.github.com/repos/{REPO}/contents/{file}',
+        data=body, method='PUT',
+        headers={'Authorization': f'token {GH_TOKEN}', 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json'}
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            return json.loads(r.read())['content']['sha'][:8]
+    except urllib.error.HTTPError as e:
+        if e.code in (409, 422):
+            time.sleep(3)
+            _, sha2 = gh_get(file, branch)
+            content_b64 = base64.b64encode(json.dumps(data, ensure_ascii=False, indent=2).encode()).decode()
+            body2 = json.dumps({'message': message, 'content': content_b64, 'sha': sha2, 'branch': branch}).encode()
+            req2 = urllib.request.Request(
+                f'https://api.github.com/repos/{REPO}/contents/{file}',
+                data=body2, method='PUT',
+                headers={'Authorization': f'token {GH_TOKEN}', 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json'}
+            )
+            with urllib.request.urlopen(req2, timeout=15) as r2:
+                return json.loads(r2.read())['content']['sha'][:8]
+        raise
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -130,7 +179,6 @@ SILHOUETTE_PATTERNS = [
 
 
 def infer_silhouette(title: str, rid: str) -> str | None:
-    """Extrait la silhouette depuis le titre ou l'id."""
     text = (title + " " + rid).lower()
     for pattern, result in SILHOUETTE_PATTERNS:
         m = re.search(pattern, text, re.IGNORECASE)
@@ -145,7 +193,6 @@ def infer_silhouette(title: str, rid: str) -> str | None:
 # PATTERNS COLORWAY
 # ─────────────────────────────────────────────────────────────────────────────
 
-# Couleurs de base pour extraction heuristique
 BASE_COLORS = [
     "White", "Black", "Red", "Blue", "Navy", "Green", "Yellow", "Orange",
     "Purple", "Pink", "Brown", "Grey", "Gray", "Beige", "Cream", "Olive",
@@ -181,35 +228,22 @@ COLOR_PATTERN = re.compile(
     re.IGNORECASE
 )
 
-# Certains titres contiennent le colorway après un tiret ou "in"
-COLORWAY_SUFFIX = re.compile(
-    r'(?:[-–]\s*|"\s*|\bin\s+)([A-Z][a-z]+(?:[/ ][A-Z][a-z]+){1,4})\s*(?:$|")',
-    re.IGNORECASE
-)
-
 
 def infer_colorway(title: str, rid: str) -> str | None:
-    """Extrait le colorway depuis le titre."""
-    # 1. Cherche les couleurs connues dans le titre
     matches = COLOR_PATTERN.findall(title)
     if matches:
-        # Déduplique en conservant l'ordre
         seen = set()
         unique = []
         for m in matches:
             key = m.lower()
             if key not in seen:
                 seen.add(key)
-                # Normalise la casse : première lettre majuscule
                 unique.append(m.title() if m.islower() else m)
         if unique:
-            return "/".join(unique[:4])  # max 4 couleurs
-
-    # 2. Cherche un pattern "X/Y/Z" déjà formaté dans le titre
+            return "/".join(unique[:4])
     slash_match = re.search(r'\b([A-Z][a-z]+(?:/[A-Z][a-z]+){1,3})\b', title)
     if slash_match:
         return slash_match.group(1)
-
     return None
 
 
@@ -218,95 +252,39 @@ def infer_colorway(title: str, rid: str) -> str | None:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def infer_year(title: str, rid: str, date: str) -> int | None:
-    """Détermine l'année de sortie."""
-    # 1. Depuis la date
     if date and date != "TBD":
         try:
             return int(date[:4])
         except Exception:
             pass
-
-    # 2. Année explicite dans le titre (ex: "2025", "2026")
     year_match = re.search(r'\b(202[0-9]|2030)\b', title + " " + rid)
     if year_match:
         return int(year_match.group(1))
-
-    # 3. Année courante par défaut (releases actives)
     return datetime.now().year
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# ENRICHISSEMENT WEB (Perplexity / fallback)
-# ─────────────────────────────────────────────────────────────────────────────
-
-def enrich_via_web(r: dict) -> dict:
-    """
-    Tente d'enrichir via une recherche web (nécessite pplx-tool ou requests+API).
-    Retourne un dict avec les champs trouvés.
-    """
-    try:
-        import subprocess, json as _json
-        sku = r.get("sku") or ""
-        title = r.get("title") or ""
-        query = sku if sku else title
-        query += " sneaker colorway release date"
-
-        payload = _json.dumps({"query": query, "focus": "internet"})
-        result = subprocess.run(
-            ["pplx-tool", "search"],
-            input=payload, capture_output=True, text=True, timeout=20
-        )
-        if result.returncode == 0:
-            data = _json.loads(result.stdout)
-            text = data.get("answer", "") + " " + " ".join(
-                s.get("snippet", "") for s in data.get("sources", [])[:3]
-            )
-            enriched = {}
-            # Colorway dans la réponse
-            if not r.get("colorway"):
-                cw_match = re.search(r'colorway[:\s]+([A-Z][a-z]+(?:/[A-Z][a-z]+)+)', text)
-                if cw_match:
-                    enriched["colorway"] = cw_match.group(1)
-            return enriched
-    except Exception as e:
-        log(f"  ⚠ fallback web échoué : {e}")
-    return {}
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 # ENRICHISSEMENT D'UNE RELEASE
 # ─────────────────────────────────────────────────────────────────────────────
 
-def enrich_release(r: dict, use_web: bool = False) -> tuple[dict, list]:
-    """
-    Tente d'enrichir les champs manquants d'une release.
-    Retourne (release_enrichie, liste_des_champs_modifiés).
-    """
+def enrich_release(r: dict) -> tuple[dict, list]:
     changes = []
     title = r.get("title") or ""
     rid = r.get("id") or ""
     date = r.get("date") or "TBD"
 
-    # --- Silhouette ---
     if not r.get("silhouette"):
         s = infer_silhouette(title, rid)
         if s:
             r["silhouette"] = s
             changes.append(f"silhouette={s}")
 
-    # --- Colorway ---
     if not r.get("colorway"):
         cw = infer_colorway(title, rid)
         if cw:
             r["colorway"] = cw
             changes.append(f"colorway={cw}")
-        elif use_web:
-            extra = enrich_via_web(r)
-            if extra.get("colorway"):
-                r["colorway"] = extra["colorway"]
-                changes.append(f"colorway={extra['colorway']} (web)")
 
-    # --- Year ---
     if not r.get("year"):
         y = infer_year(title, rid, date)
         if y:
@@ -323,69 +301,82 @@ def enrich_release(r: dict, use_web: bool = False) -> tuple[dict, list]:
 def main():
     parser = argparse.ArgumentParser(description="Enrichissement automatique releases")
     parser.add_argument("--apply", action="store_true", help="Applique les modifications (sans : dry-run)")
-    parser.add_argument("--web", action="store_true", help="Active le fallback web pour le colorway")
-    parser.add_argument("--file", default=None, help="Fichier JSON cible (défaut : les deux)")
     parser.add_argument("--verbose", action="store_true", help="Log détaillé")
     args = parser.parse_args()
 
-    files = []
-    if args.file:
-        files = [os.path.join(ROOT, args.file)]
-    else:
-        files = [
-            os.path.join(ROOT, "releases.json"),
-            os.path.join(ROOT, "releases_past.json"),
-        ]
-
     total_enriched = 0
 
-    for fpath in files:
-        fname = os.path.basename(fpath)
-        if not os.path.exists(fpath):
-            log(f"⚠ {fname} introuvable — ignoré")
-            continue
+    # ── releases.json : via API GitHub (perplexity + main) ──────────────────
+    log("Lecture releases.json via API GitHub (branch perplexity)...")
+    try:
+        releases, sha_p = gh_get('releases.json', 'perplexity')
+        log(f"  {len(releases)} entrées chargées")
+    except Exception as e:
+        log(f"  ✗ Impossible de lire releases.json : {e}")
+        releases = []
+        sha_p = None
 
-        with open(fpath, encoding="utf-8") as f:
-            data = json.load(f)
+    needs_enrich = [r for r in releases if not r.get("colorway") or not r.get("silhouette") or not r.get("year")]
+    log(f"  {len(needs_enrich)}/{len(releases)} entrées à enrichir")
 
-        needs_enrich = [
-            r for r in data
-            if not r.get("colorway") or not r.get("silhouette") or not r.get("year")
-        ]
+    enriched_count = 0
+    for r in releases:
+        if not r.get("colorway") or not r.get("silhouette") or not r.get("year"):
+            r, changes = enrich_release(r)
+            if changes:
+                enriched_count += 1
+                total_enriched += 1
+                if args.verbose or not args.apply:
+                    log(f"  [{r.get('id')}] → {', '.join(changes)}")
 
-        if not needs_enrich:
-            log(f"✓ {fname} : tous les champs déjà remplis ({len(data)} entrées)")
-            continue
+    log(f"  → {enriched_count} entrées enrichies")
 
-        log(f"\n{fname} : {len(needs_enrich)}/{len(data)} entrées à enrichir")
+    if args.apply and enriched_count > 0 and sha_p:
+        log("  Push releases.json → perplexity...")
+        try:
+            new_sha = gh_put('releases.json', releases, sha_p,
+                             f'[skip ci] enrich: colorway/silhouette/year — {datetime.utcnow().strftime("%Y-%m-%d %H:%M")}',
+                             'perplexity')
+            log(f"  ✓ perplexity SHA={new_sha}")
+        except Exception as e:
+            log(f"  ✗ Erreur push perplexity : {e}")
+            new_sha = None
 
-        enriched_count = 0
-        for r in data:
+        log("  Push releases.json → main...")
+        try:
+            _, sha_m = gh_get('releases.json', 'main')
+            gh_put('releases.json', releases, sha_m,
+                   f'[skip ci] enrich: colorway/silhouette/year — {datetime.utcnow().strftime("%Y-%m-%d %H:%M")}',
+                   'main')
+            log("  ✓ main")
+        except Exception as e:
+            log(f"  ✗ Erreur push main : {e}")
+
+    # ── releases_past.json : fichier local uniquement ─────────────────────────
+    past_path = os.path.join(ROOT, "releases_past.json")
+    if os.path.exists(past_path):
+        with open(past_path, encoding="utf-8") as f:
+            past = json.load(f)
+
+        needs_past = [r for r in past if not r.get("colorway") or not r.get("silhouette") or not r.get("year")]
+        log(f"\nreleases_past.json : {len(needs_past)}/{len(past)} entrées à enrichir")
+
+        enriched_past = 0
+        for r in past:
             if not r.get("colorway") or not r.get("silhouette") or not r.get("year"):
-                before = {
-                    "colorway": r.get("colorway"),
-                    "silhouette": r.get("silhouette"),
-                    "year": r.get("year"),
-                }
-                r, changes = enrich_release(r, use_web=args.web)
+                r, changes = enrich_release(r)
                 if changes:
-                    enriched_count += 1
+                    enriched_past += 1
                     total_enriched += 1
                     if args.verbose or not args.apply:
-                        log(f"  [{r['id']}] → {', '.join(changes)}")
-                elif args.verbose:
-                    still_missing = [
-                        k for k in ["colorway", "silhouette", "year"] if not r.get(k)
-                    ]
-                    if still_missing:
-                        log(f"  [{r['id']}] ✗ manque encore : {', '.join(still_missing)}")
+                        log(f"  [{r.get('id')}] → {', '.join(changes)}")
 
-        log(f"  → {enriched_count} entrées enrichies sur {len(needs_enrich)}")
+        log(f"  → {enriched_past} entrées enrichies")
 
-        if args.apply and enriched_count > 0:
-            with open(fpath, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-            log(f"  ✓ {fname} sauvegardé")
+        if args.apply and enriched_past > 0:
+            with open(past_path, "w", encoding="utf-8") as f:
+                json.dump(past, f, ensure_ascii=False, indent=2)
+            log("  ✓ releases_past.json sauvegardé localement")
 
     if not args.apply:
         log(f"\nDry-run terminé — {total_enriched} enrichissements possibles. Relancer avec --apply pour appliquer.")
