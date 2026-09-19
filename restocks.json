@@ -190,30 +190,6 @@
     "updated_at": "2026-09-19"
   },
   {
-    "slug": "one-piece-nike-nrg-vest-safety-orange-ix8506-819",
-    "sku": "IX8506-819",
-    "title": "One Piece x Nike NRG Vest Safety Orange",
-    "brand": "One Piece x Nike NRG Vest",
-    "date": "2026-09-19",
-    "date_display": "2026-09-19",
-    "price": 300,
-    "image_url": "/images/restocks/IX8506-819.webp",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=2855487&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-        "price": ""
-      },
-      {
-        "name": "Afew",
-        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IX8506819&wgtarget=https://en.afew-store.com/products/nike-nrg-vest-safety-orange",
-        "price": "299€"
-      }
-    ],
-    "wtc_url": "https://www.whentocop.fr/drops/one-piece-nike-nrg-vest-safety-orange-ix8506-819",
-    "updated_at": "2026-09-19"
-  },
-  {
     "slug": "vans-old-skool-36-pearlized-marshmallow-white-vn000zb8cda",
     "sku": "VN000ZB8CDA",
     "title": "Vans Old Skool 36 Pearlized Marshmallow White",
@@ -952,6 +928,40 @@
       }
     ],
     "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-superstar-ii-charmander-ki2855",
+    "updated_at": "2026-09-19"
+  },
+  {
+    "slug": "pokemon-adidas-adistar-xlg-20-gengar-kj5609",
+    "sku": "KJ5609",
+    "title": "Pokémon x adidas Adistar XLG 2.0 Gengar",
+    "brand": "Pokémon x adidas Adistar XLG 2.0",
+    "date": "2026-09-22",
+    "date_display": "2026-09-22",
+    "price": 170,
+    "image_url": "/images/restocks/KJ5609.webp",
+    "retailers": [
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KJ5609&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-pokemon-adistar-xlg-2-0-gengar-kj5609",
+        "price": "170€"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=2855487&clickref=KJ5609&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fadidas-adistar-xlg-20-purple-shavio-maglil-1490183",
+        "price": "169€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=KJ5609&wgtarget=https://en.afew-store.com/products/adidas-originals-x-pokemon-adistar-xlg-2-0-gengarviolet",
+        "price": "169€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=2855487&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": ""
+      }
+    ],
+    "wtc_url": "https://www.whentocop.fr/drops/pokemon-adidas-adistar-xlg-20-gengar-kj5609",
     "updated_at": "2026-09-19"
   },
   {
