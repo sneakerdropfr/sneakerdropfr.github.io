@@ -883,64 +883,6 @@
     "colorway": "Crimson/Black"
   },
   {
-    "id": "mowalola-air-jordan-14-burnt-red-iq5708-001",
-    "sku": "IQ5708-001",
-    "brand": "Air Jordan",
-    "title": "Air Jordan 14 Mowalola Burnt Red",
-    "date": "2026-09-18",
-    "price": 250,
-    "year": 2026,
-    "image_url": "/images/IQ5708-001.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/mowalola-air-jordan-14-burnt-red-iq5708-001",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-        "price": ""
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiq5708-001%2F",
-        "price": "250€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "description": "La Air Jordan 14 Mowalola Burnt Red s'inscrit dans la collaboration avec la designer Mowalola Ogunlesi, connue pour son esthétique provocante, dans un colorway rouge brûlé intense. Elle sort le jeudi 18 septembre 2026 à 250€.",
-    "silhouette": "Air Jordan 14",
-    "colorway": "Red"
-  },
-  {
-    "slug": "mowalola-air-jordan-14-mule-black-metallic-silver-ir0908-001",
-    "sku": "IR0908-001",
-    "title": "Air Jordan 14 Mowalola Mule Black Metallic Silver",
-    "brand": "Air Jordan",
-    "date": "2026-09-18",
-    "price": 180,
-    "image_url": "/images/IR0908-001.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/mowalola-air-jordan-14-mule-black-metallic-silver-ir0908-001",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-        "price": "180€"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fir0908-001%2F",
-        "price": "180€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "description": "La Mowalola x Air Jordan 14 Mule Black Metallic Silver est le fruit d'une collaboration entre Mowalola et Air Jordan. Elle se décline dans un colorway Mowalola x  14 Mule Black Metallic Silver. Elle est disponible le 18 sept. 2026 au prix de 180€.",
-    "date_display": "18 sept. 2026",
-    "silhouette": "Air Jordan 14",
-    "colorway": "Black/Metallic Silver",
-    "year": 2026
-  },
-  {
     "id": "new-balance-2010-black-green-u20104cj",
     "sku": "U20104CJ",
     "brand": "New Balance",
@@ -1040,40 +982,6 @@
     ],
     "description": "La Nike Air Foamposite Pro Green Camo revisite la coque futuriste d'origine avec un imprimé camouflage vert sur la tige Foamposite moulée. Elle sort le jeudi 18 septembre 2026 au prix de 240€.",
     "colorway": "Green/Camo"
-  },
-  {
-    "slug": "nike-ja-4-jaws-ja9742-400",
-    "sku": "JA9742-400",
-    "title": "Nike Ja 4 Jaws",
-    "brand": "Nike",
-    "date": "2026-09-18",
-    "price": 140,
-    "image_url": "/images/JA9742-400.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-ja-4-jaws-ja9742-400",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-        "price": "140€"
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fja9742-400%2F",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "140€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "description": "La Nike Ja 4 Jaws propose un colorway Ja 4 Jaws. Cette paire sort le 18 sept. 2026 au prix de 140€.",
-    "date_display": "18 sept. 2026",
-    "year": 2026
   },
   {
     "slug": "psg-nike-kd-6-metallic-silver-iu0593-001",
@@ -2425,6 +2333,32 @@
     "silhouette": "Air Max Plus"
   },
   {
+    "slug": "nike-ja-4-jaws-ja9742-400",
+    "sku": "JA9742-400",
+    "title": "Nike Ja 4 Jaws",
+    "brand": "Nike",
+    "date": "2026-09-25",
+    "price": 140,
+    "image_url": "/images/JA9742-400.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-ja-4-jaws-ja9742-400",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=JA9742400&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-ja-4-deep-water-QCWCGlU0%2FJA9742-400",
+        "price": "140€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=JA9742-400&wgtarget=https://footdistrict.com/fr/products/nike-ja-4-jaws-deep-water-ja9742-400",
+        "price": "135€"
+      }
+    ],
+    "description": "La Nike Ja 4 Jaws propose un colorway Ja 4 Jaws. Cette paire sort le 18 sept. 2026 au prix de 140€.",
+    "date_display": "25 septembre 2026",
+    "year": 2026,
+    "featured": false
+  },
+  {
     "id": "billionaire-boys-club-reebok-club-c-85-grey-100285332",
     "sku": "100285332",
     "brand": "Billionaire Boys Club x Reebok Club C 85",
@@ -2542,6 +2476,63 @@
     "wtc_url": "https://www.whentocop.fr/drops/bad-bunny-adidas-badbo-1-1-low-chalk-white-grey-lc5466",
     "featured": false,
     "year": 2026
+  },
+  {
+    "id": "mowalola-air-jordan-14-burnt-red-iq5708-001",
+    "sku": "IQ5708-001",
+    "brand": "Air Jordan",
+    "title": "Mowalola x Air Jordan 14 Burnt Red",
+    "date": "2026-09-26",
+    "price": 250,
+    "year": 2026,
+    "image_url": "/images/IQ5708-001.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/mowalola-air-jordan-14-burnt-red-iq5708-001",
+    "featured": false,
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": "250€"
+      },
+      {
+        "name": "Naked",
+        "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=IQ5708-001&url=https://nakedcph.com/fr/products/jordan-brand-jordan-brand-x-mowalola-air-jordan-14-retro-black-burnt-red-iq5708-001",
+        "price": "250€"
+      }
+    ],
+    "description": "La Air Jordan 14 Mowalola Burnt Red s'inscrit dans la collaboration avec la designer Mowalola Ogunlesi, connue pour son esthétique provocante, dans un colorway rouge brûlé intense. Elle sort le jeudi 18 septembre 2026 à 250€.",
+    "silhouette": "Air Jordan 14",
+    "colorway": "Red",
+    "slug": "mowalola-air-jordan-14-burnt-red-iq5708-001",
+    "date_display": "26 septembre 2026"
+  },
+  {
+    "slug": "mowalola-air-jordan-14-mule-black-metallic-silver-ir0908-001",
+    "sku": "IR0908-001",
+    "title": "Mowalola x Air Jordan 14 Mule Black Metallic Silver",
+    "brand": "Air Jordan",
+    "date": "2026-09-26",
+    "price": 180,
+    "image_url": "/images/IR0908-001.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/mowalola-air-jordan-14-mule-black-metallic-silver-ir0908-001",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": "180€"
+      },
+      {
+        "name": "Naked",
+        "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=IR0908-001&url=https://nakedcph.com/fr/products/jordan-brand-jordan-brand-x-mowalola-air-jordan-14-retro-mule-black-mtlc-silver-burnt-red-ir0908-001",
+        "price": "180€"
+      }
+    ],
+    "description": "La Mowalola x Air Jordan 14 Mule Black Metallic Silver est le fruit d'une collaboration entre Mowalola et Air Jordan. Elle se décline dans un colorway Mowalola x  14 Mule Black Metallic Silver. Elle est disponible le 18 sept. 2026 au prix de 180€.",
+    "date_display": "26 septembre 2026",
+    "silhouette": "Air Jordan 14",
+    "colorway": "Black/Metallic Silver",
+    "year": 2026,
+    "featured": false
   },
   {
     "slug": "nike-kobe-3-protro-orca-iq5340-001",
