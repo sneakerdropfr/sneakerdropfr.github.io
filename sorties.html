@@ -824,7 +824,6 @@ document.addEventListener('DOMContentLoaded', function(){
       // Fusionner thisWeek + laterOn dans gridUpcoming (sans doublons)
       var seenIds = {};
       var allVisible = [];
-      thisWeek.forEach(function(r) { if (!seenIds[r.id||r.title]) { seenIds[r.id||r.title]=1; allVisible.push(r); } });
       laterOn.forEach(function(r) { if (!seenIds[r.id||r.title]) { seenIds[r.id||r.title]=1; allVisible.push(r); } });
       var allVisibleSorted = sortByDate(allVisible);
       if (allVisibleSorted.length) {
