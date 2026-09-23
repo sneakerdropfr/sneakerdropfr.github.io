@@ -1317,13 +1317,13 @@
   },
   {
     "id": "action-bronson-new-balance-1890-planet-frog",
-    "sku": "TBD-NB1890-PLANET-FROG",
+    "sku": "À définir",
     "brand": "New Balance",
     "title": "Action Bronson x New Balance 1890 Planet Frog",
     "date": "2026-09-30",
     "price": 160,
     "year": 2026,
-    "image_url": "/images/TBD-NB1890-PLANET-FROG.webp",
+    "image_url": "/images/--d-finir.webp",
     "wtc_url": "https://www.whentocop.fr/drops/action-bronson-new-balance-1890-planet-frog",
     "featured": false,
     "retailers": [
@@ -1942,13 +1942,13 @@
   },
   {
     "id": "nike-zoom-vomero-5-pink-flamingo",
-    "sku": "TBD-VOMERO5-PINK-FLAMINGO",
+    "sku": "À venir",
     "brand": "Nike",
     "title": "Nike Zoom Vomero 5 Pink Flamingo",
     "date": "2026-09-30",
     "price": 160,
     "year": 2026,
-    "image_url": "/images/TBD-VOMERO5-PINK-FLAMINGO.webp",
+    "image_url": "/images/--venir.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-zoom-vomero-5-pink-flamingo",
     "featured": false,
     "retailers": [
@@ -3319,7 +3319,10 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/22/nike-air-max-95-light-bone-anthracite-dark-loden-safety-orange-iq7128-003/",
     "added_at": "2026-09-23T06:00:02.420863+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "colorway": "Light Bone",
+    "year": 2026
   },
   {
     "id": "nike-odes-to-korea-on-the-air-max-95-golf-iq3467-100",
@@ -3332,7 +3335,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/22/nike-air-max-95-golf-korea-iq3467-100/",
     "added_at": "2026-09-23T06:00:02.421332+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-gives-acg-energy-for-fall-ix6347-200",
@@ -3345,7 +3350,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/22/nike-air-max-95-cacao-wow-black-infinite-sable-tropical-teal-ix6347-200/",
     "added_at": "2026-09-23T06:00:02.421646+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "willy-chavarria-s-adidas-megaride-releasing-as-a-high-top-boot-kj2034",
@@ -3358,7 +3365,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/22/willy-chavarria-adidas-megaride-high-black-kj2033-kj2034/",
     "added_at": "2026-09-23T06:00:02.425567+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "cactus-plant-flea-market-s-nike-flea-1-returns-holiday-2026-iu5238-700",
@@ -3371,32 +3379,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/22/cpfm-nike-flea-1-cactus-plant-flea-market-iu5238-700/",
     "added_at": "2026-09-23T06:00:02.426088+00:00",
-    "featured": false
-  },
-  {
-    "id": "nike-st-charge-arrives-flooded-in-punch-red-io8062-601",
-    "title": "Nike ST Charge Arrives Flooded In “Punch Red”",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 140.0,
-    "sku": "IO8062-601",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/09/nike-st-charge-ep-punch-red-bright-crimson-black-io8062-601-6.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/09/23/nike-st-charge-ep-punch-red-bright-crimson-black-io8062-601/",
-    "added_at": "2026-09-23T18:00:02.107561+00:00",
-    "featured": false
-  },
-  {
-    "id": "nike-zoom-hyperflight-green-apple-lands-this-holiday-iz1481-300",
-    "title": "Nike Zoom Hyperflight “Green Apple” Lands This Holiday",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 170.0,
-    "sku": "IZ1481-300",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/09/nike-zoom-hyperflight-green-apple-black-volt-IZ1481-300-8.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/09/23/nike-zoom-hyperflight-green-apple-black-volt-iz1481-300/",
-    "added_at": "2026-09-23T18:00:02.108004+00:00",
-    "featured": false
+    "featured": false,
+    "colorway": "Cactus",
+    "year": 2026
   }
 ]
