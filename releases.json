@@ -3319,7 +3319,10 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/22/nike-air-max-95-light-bone-anthracite-dark-loden-safety-orange-iq7128-003/",
     "added_at": "2026-09-23T06:00:02.420863+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "colorway": "Light Bone",
+    "year": 2026
   },
   {
     "id": "nike-odes-to-korea-on-the-air-max-95-golf-iq3467-100",
@@ -3332,7 +3335,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/22/nike-air-max-95-golf-korea-iq3467-100/",
     "added_at": "2026-09-23T06:00:02.421332+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "nike-air-max-95-gives-acg-energy-for-fall-ix6347-200",
@@ -3345,7 +3350,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/22/nike-air-max-95-cacao-wow-black-infinite-sable-tropical-teal-ix6347-200/",
     "added_at": "2026-09-23T06:00:02.421646+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max 95",
+    "year": 2026
   },
   {
     "id": "willy-chavarria-s-adidas-megaride-releasing-as-a-high-top-boot-kj2034",
@@ -3358,7 +3365,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/22/willy-chavarria-adidas-megaride-high-black-kj2033-kj2034/",
     "added_at": "2026-09-23T06:00:02.425567+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "cactus-plant-flea-market-s-nike-flea-1-returns-holiday-2026-iu5238-700",
@@ -3371,6 +3379,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/22/cpfm-nike-flea-1-cactus-plant-flea-market-iu5238-700/",
     "added_at": "2026-09-23T06:00:02.426088+00:00",
-    "featured": false
+    "featured": false,
+    "colorway": "Cactus",
+    "year": 2026
   }
 ]
