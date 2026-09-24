@@ -3380,7 +3380,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/23/nike-air-max-goadome-low-croc-skin-leather-release-date/",
     "added_at": "2026-09-24T06:00:02.267293+00:00",
-    "featured": false
+    "featured": false,
+    "colorway": "Navy",
+    "year": 2026
   },
   {
     "id": "nike-air-max-goadome-low-croc-skin-pack-drops-in-october-iv4517-001",
@@ -3393,7 +3395,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/23/nike-air-max-goadome-low-croc-skin-leather-release-date/",
     "added_at": "2026-09-24T06:00:02.267571+00:00",
-    "featured": false
+    "featured": false,
+    "colorway": "Black",
+    "year": 2026
   },
   {
     "id": "nike-air-max-goadome-low-croc-skin-pack-drops-in-october-iv4517-600",
@@ -3406,7 +3410,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/23/nike-air-max-goadome-low-croc-skin-leather-release-date/",
     "added_at": "2026-09-24T06:00:02.267717+00:00",
-    "featured": false
+    "featured": false,
+    "colorway": "Pink",
+    "year": 2026
   },
   {
     "id": "solefly-s-air-jordan-5-collaboration-is-revealed-iu0734-001",
@@ -3419,7 +3425,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/23/solely-air-jordan-5-iu0734-001-release-date/",
     "added_at": "2026-09-24T06:00:02.268080+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Jordan 5",
+    "year": 2026
   },
   {
     "id": "asics-and-above-the-clouds-weave-together-the-gel-sd-lyte-1203b090-001",
@@ -3432,6 +3440,7 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/23/above-the-clouds-asics-gel-sd-lyte-1203b090-001/",
     "added_at": "2026-09-24T06:00:02.268520+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   }
 ]
