@@ -3440,7 +3440,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/24/jordan-spizike-low-utility-spruce-fog-black-iu8042-300/",
     "added_at": "2026-09-25T06:00:01.935521+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "nike-first-sight-shadow-pens-an-ink-like-gridiron-colorway-hq2410-003",
@@ -3453,7 +3454,8 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/24/nike-first-sight-shadow-gridiron-black-metallic-silver-hq2410-003/",
     "added_at": "2026-09-25T06:00:01.936190+00:00",
-    "featured": false
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "nike-air-max-plus-metallic-silver-pink-isn-t-done-with-summer-yet-iv2840-600",
@@ -3466,6 +3468,9 @@
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/24/nike-air-max-plus-metallic-silver-pink-iv2840-600/",
     "added_at": "2026-09-25T06:00:01.937228+00:00",
-    "featured": false
+    "featured": false,
+    "silhouette": "Air Max Plus",
+    "colorway": "Metallic Silver/Pink",
+    "year": 2026
   }
 ]
