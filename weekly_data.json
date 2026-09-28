@@ -69,6 +69,36 @@
       "year": 2026
     },
     {
+      "slug": "entire-studios-adidas-feroza-core-black-footwear-white-kk0898",
+      "sku": "KK0898",
+      "title": "Entire Studios x adidas Feroza Core Black",
+      "brand": "Adidas",
+      "date": "2026-09-29",
+      "date_display": "29 septembre 2026",
+      "price": 200,
+      "image_url": "/images/KK0898.webp",
+      "retailers": [
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&clickref=adidas-Originals-x-Entire-Studios-Feroza-Low-core-black-x-Entire-Studios-Feroza-Low-core-black&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fadidas-originals-x-entire-studios-feroza-low-core-black-x-entire-studios-feroza-low-core-black-undefined-color-103579",
+          "price": "199€"
+        },
+        {
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KK0898&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-basse-adidas-x-entire-studios-feroza%2FKK0898.html",
+          "price": "200€"
+        },
+        {
+          "name": "Urbanstar",
+          "url": "https://www.dpbolvw.net/click-100169928-15786901?sid=KK0898&url=https://www.urbanstaroma.com/fr/products/unisex-adidas-originals-adidas-x-entire-studios-feroza-low-kk0898-4954194",
+          "price": "267€"
+        }
+      ],
+      "wtc_url": "https://www.whentocop.fr/drops/entire-studios-adidas-feroza-core-black-footwear-white-kk0898",
+      "featured": false,
+      "year": 2026
+    },
+    {
       "id": "hyperice-nike-air-zoom-hyperslide-black-iz6715-001",
       "sku": "IZ6715-001",
       "brand": "Nike",
@@ -373,6 +403,41 @@
         }
       ],
       "wtc_url": "https://www.whentocop.fr/drops/new-balance-983-shadow-blue-zinc-blue-u9833m7",
+      "featured": false,
+      "year": 2026
+    },
+    {
+      "slug": "new-balance-983-shadow-blue-zinc-blue-u9835du",
+      "sku": "U9835DU",
+      "title": "New Balance 983 Shadow Blue Zinc Blue",
+      "brand": "New Balance",
+      "date": "2026-10-01",
+      "date_display": "1 octobre 2026",
+      "price": 190,
+      "image_url": "/images/U9835DU.webp",
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=U9835DU&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2F983%2FU983V1_LI-FTW-829569.html",
+          "price": "190€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=U9835DU&wgtarget=https://en.afew-store.com/products/new-balance-983-shadow-blue-zinc-blue1",
+          "price": "189€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U9835DU&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-983-u9835du-0353209",
+          "price": "189€"
+        },
+        {
+          "name": "SNS",
+          "url": "https://www.dpbolvw.net/click-100169928-17152884?sid=U9835DU&url=https://sneakersnstuff.com/en-eu/products/new-balance-983-u9835du",
+          "price": "190€"
+        }
+      ],
+      "wtc_url": "https://www.whentocop.fr/drops/new-balance-983-shadow-blue-zinc-blue-u9835du",
       "featured": false,
       "year": 2026
     },
@@ -1116,5 +1181,5 @@
       "year": 2026
     }
   ],
-  "generated_at": "2026-09-28T00:15:58.005532Z"
+  "generated_at": "2026-09-28T00:21:24.095497Z"
 }
