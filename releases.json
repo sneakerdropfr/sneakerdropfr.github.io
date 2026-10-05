@@ -2156,7 +2156,9 @@
         "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=Ja 4-\"Dark-Mode\"&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-ja-4-nightmare-XqVUV1MG%2FIM4135-001",
         "price": "130€"
       }
-    ]
+    ],
+    "slug": "nike-ja-4-dark-mode-im4135-001",
+    "date_display": "8 octobre 2026"
   },
   {
     "slug": "nike-moon-shoe-og-leather-wmns-black-iu3162-001",
@@ -2187,26 +2189,33 @@
     "id": "amine-new-balance-992-chocolate-amber-u992ne",
     "sku": "U992NE",
     "brand": "New Balance",
-    "title": "New Balance 992 Amine Chocolate Amber",
+    "title": "Amine x New Balance 992 Chocolate Amber",
     "date": "2026-10-09",
     "price": 250,
     "year": 2026,
-    "image_url": "",
+    "image_url": "/images/U992NE.webp",
     "wtc_url": "https://www.whentocop.fr/drops/amine-new-balance-992-chocolate-amber-u992ne",
     "featured": false,
     "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
+        "price": "250€"
+      },
       {
         "name": "BSTN",
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U992NE&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-x-amine-made-in-usa-992-u992ne-0356312",
         "price": "249€"
       }
     ],
-    "silhouette": "New Balance 992"
+    "silhouette": "New Balance 992",
+    "slug": "amine-new-balance-992-chocolate-amber-u992ne",
+    "date_display": "9 octobre 2026"
   },
   {
     "id": "nike-air-griffey-max-1-cincinnati-reds-ja1091-100",
     "sku": "JA1091-100",
-    "brand": "Nike Air Griffey Max 1",
+    "brand": "Nike",
     "title": "Nike Air Griffey Max 1 Cincinnati Reds",
     "date": "2026-10-09",
     "price": 170,
@@ -2218,16 +2227,11 @@
       {
         "name": "Nike",
         "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-        "price": ""
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fja1091-100%2F",
-        "price": "170€",
-        "resell": false,
-        "raffle": false
+        "price": "170€"
       }
-    ]
+    ],
+    "slug": "nike-air-griffey-max-1-cincinnati-reds-ja1091-100",
+    "date_display": "9 octobre 2026"
   },
   {
     "slug": "air-jordan-1-high-og-royal-2026-iq5495-005",
