@@ -273,7 +273,7 @@ def regenerate_and_push_html(all_releases, releases_past, releases_active):
     run(["git", "config", "user.name", "SneakerDropFR Bot"])
     run(["git", "add", "sorties/"])  # releases.json géré via API GitHub — jamais via git local
     result = run(["git", "commit", "-m",
-                  f"[skip ci] restock: régénération HTML BSTN — {regenerated} pages le {TODAY}"])
+                  f"restock: régénération HTML BSTN — {regenerated} pages le {TODAY}"])
     if "nothing to commit" in result.stdout + result.stderr:
         log("Git : rien à committer pour les HTML.")
         return
@@ -340,7 +340,7 @@ def main():
                 "releases_past.json",
                 json.dumps(releases_past, ensure_ascii=False, indent=2),
                 sha_past,
-                f"restock: {n_past} restock(s) BSTN injecté(s) dans releases_past — {TODAY}"
+                f"[skip ci] restock: {n_past} restock(s) BSTN injecté(s) dans releases_past — {TODAY}"
             )
             log("releases_past.json pushé.")
         except Exception as e:
@@ -357,7 +357,7 @@ def main():
                 "releases.json",
                 json.dumps(releases_active, ensure_ascii=False, indent=2),
                 sha_active_fresh,
-                f"restock: {n_active} restock(s) BSTN injecté(s) dans releases — {TODAY}"
+                f"[skip ci] restock: {n_active} restock(s) BSTN injecté(s) dans releases — {TODAY}"
             )
             log("releases.json pushé.")
         except Exception as e:
