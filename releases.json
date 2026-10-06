@@ -1089,7 +1089,7 @@
     "date": "TBD",
     "price": 140.0,
     "sku": "IQ5491-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/09/air-jordan-1-mid-black-gum-medium-brown-team-red-iq5491-001-6.jpg",
+    "image_url": "/images/IQ5491-001.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/27/air-jordan-1-mid-black-gum-medium-brown-team-red-iq5491-001/",
     "added_at": "2026-09-27T22:00:03.110640+00:00",
@@ -1104,7 +1104,7 @@
     "date": "TBD",
     "price": 130.0,
     "sku": "BQ6472-124",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/09/air-jordan-1-mid-sail-pistachio-frost-BQ6472-124-5.jpg",
+    "image_url": "/images/BQ6472-124.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/26/air-jordan-1-mid-sail-pistachio-frost-bq6472-124/",
     "added_at": "2026-09-27T06:00:01.953260+00:00",
@@ -1150,7 +1150,7 @@
     "date": "TBD",
     "price": 95.0,
     "sku": "IM2523-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/nike-blazy-heel-drag-shoe-im2523-001-6.jpg",
+    "image_url": "/images/IM2523-001.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/27/jalen-brunson-katseye-saturday-night-live-snl-premiere/",
     "added_at": "2026-09-27T22:00:03.110213+00:00",
@@ -1272,7 +1272,7 @@
     "date": "TBD",
     "price": 140.0,
     "sku": "HQ3817-002",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/09/nike-air-max-90-black-light-smoke-grey-platinum-tint-HQ3817-002-6.jpg",
+    "image_url": "/images/HQ3817-002.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/26/nike-air-max-90-black-light-smoke-grey-platinum-tint-hq3817-002/",
     "added_at": "2026-09-27T06:00:01.953565+00:00",
@@ -1550,7 +1550,7 @@
     "date": "TBD",
     "price": null,
     "sku": "IZ6169-122",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/09/nike-moon-shoe-og-floral-mesh-IZ6169-122-6.jpg",
+    "image_url": "/images/IZ6169-122.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/26/nike-moon-shoe-og-floral-mesh-iz6169-122/",
     "added_at": "2026-09-27T06:00:01.952754+00:00",
@@ -1564,7 +1564,7 @@
     "date": "TBD",
     "price": 230.0,
     "sku": "HQ2050-003",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/09/nike-vomero-premium-grey-mist-smokey-blue-barely-green-racer-blue-HQ2050-003-1.jpg",
+    "image_url": "/images/HQ2050-003.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/26/nike-vomero-premium-gradient-fade-october-2026/",
     "added_at": "2026-09-27T06:00:01.953819+00:00",
@@ -1731,7 +1731,7 @@
     "date": "TBD",
     "price": 240.0,
     "sku": "IQ6943-001",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/09/nike-vomero-premium-gridiron-black-multi-color-IQ6943-001-6.jpg",
+    "image_url": "/images/IQ6943-001.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/27/nike-vomero-premium-gridiron-black-multi-color-iq6943-001/",
     "added_at": "2026-09-27T20:00:02.226117+00:00",
@@ -1837,143 +1837,10 @@
     "date": "TBD",
     "price": 115.0,
     "sku": "HV4417-600",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/09/jordan-heir-series-2-pink-pow-swan-smoke-grey-plum-fog-HV4417-600-7.jpg",
+    "image_url": "/images/HV4417-600.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/10/05/jordan-heir-series-2-pink-pow-swan-smoke-grey-plum-fog-hv4417-600/",
     "added_at": "2026-10-06T06:00:01.938925+00:00",
     "featured": false
-  },
-  {
-    "id": "adidas-crazy-energy-030-wagner-brothers",
-    "title": "Adidas Crazy Energy 030 Wagner Brothers",
-    "brand": "Adidas",
-    "sku": "TBD-ADIDAS-CRAZY-ENERGY",
-    "date": "TBD",
-    "price": 0,
-    "year": 2026,
-    "image_url": "",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
-        "price": ""
-      }
-    ],
-    "source": "BSTN"
-  },
-  {
-    "id": "salomon-winter-story-2026",
-    "title": "Salomon Winter Story",
-    "brand": "Salomon",
-    "sku": "TBD-SALOMON-WINTER",
-    "date": "2026-10-07",
-    "price": 0,
-    "year": 2026,
-    "image_url": "",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
-        "price": ""
-      }
-    ],
-    "source": "BSTN"
-  },
-  {
-    "id": "adidas-x-brain-dead-bowling",
-    "title": "Adidas x Brain Dead Bowling",
-    "brand": "Adidas",
-    "sku": "TBD-ADIDAS-BRAIN-DEAD",
-    "date": "2026-10-08",
-    "price": 0,
-    "year": 2026,
-    "image_url": "",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
-        "price": ""
-      }
-    ],
-    "source": "BSTN"
-  },
-  {
-    "id": "new-balance-amine-made-in-usa-992",
-    "title": "New Balance x Amine Made in USA 992",
-    "brand": "New Balance",
-    "sku": "TBD-NB992-AMINE",
-    "date": "2026-10-09",
-    "price": 0,
-    "year": 2026,
-    "image_url": "",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
-        "price": ""
-      }
-    ],
-    "source": "BSTN"
-  },
-  {
-    "id": "air-jordan-1-high-royal-oct-2026",
-    "title": "Air Jordan 1 High Royal",
-    "brand": "Jordan",
-    "sku": "TBD-AJ1-ROYAL-OCT26",
-    "date": "2026-10-10",
-    "price": 0,
-    "year": 2026,
-    "image_url": "",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
-        "price": ""
-      }
-    ],
-    "source": "BSTN"
-  },
-  {
-    "id": "adidas-hellstar-megaride",
-    "title": "Adidas Hellstar Megaride",
-    "brand": "Adidas",
-    "sku": "TBD-ADIDAS-HELLSTAR",
-    "date": "2026-10-10",
-    "price": 0,
-    "year": 2026,
-    "image_url": "",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
-        "price": ""
-      }
-    ],
-    "source": "BSTN"
-  },
-  {
-    "id": "bstn-salomon-xt6-2026",
-    "title": "BSTN x Salomon XT 6",
-    "brand": "Salomon",
-    "sku": "TBD-BSTN-SALOMON-XT6",
-    "date": "2026-10-10",
-    "price": 0,
-    "year": 2026,
-    "image_url": "",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Ffr-fr%2Fmen%2Fall-products",
-        "price": ""
-      }
-    ],
-    "source": "BSTN"
   }
 ]
