@@ -78,7 +78,7 @@ def main():
 
     past.sort(key=lambda r: r.get("date","") or "0000-00-00", reverse=True)
 
-    msg = f"auto: migration {len(to_move)} paires passees -> releases_past ({today})"
+    msg = f"[skip ci] auto: migration {len(to_move)} paires passees -> releases_past ({today})"
     sha1 = gh_put("releases.json",      to_keep, rel_sha,  msg)
     sha2 = gh_put("releases_past.json", past,    past_sha, msg)
 
