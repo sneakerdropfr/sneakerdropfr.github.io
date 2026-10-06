@@ -1,5 +1,69 @@
 [
   {
+    "id": "nike-air-force-1-wheat-s-are-back-fall-winter",
+    "slug": "nike-air-force-1-wheat-s-are-back-fall-winter",
+    "title": "Nike Air Force 1 Wheat s Are Back Fall/Winter",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 0,
+    "sku": "",
+    "image_url": "",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/10/06/wheat-nike-air-force-1s-are-back-for-fall-winter-2026/",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-wheat-s-are-back-fall-winter",
+    "retailers": [],
+    "featured": false,
+    "added_at": "2026-10-06T22:00:01.916820+00:00"
+  },
+  {
+    "id": "the-nike-air-max-ecstasy-plus-treks-into-desert-khaki",
+    "slug": "the-nike-air-max-ecstasy-plus-treks-into-desert-khaki",
+    "title": "The Nike Air Max Ecstasy Plus Treks Into “Desert Khaki”",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 0,
+    "sku": "",
+    "image_url": "",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/10/06/nike-air-max-ecstasy-plus-desert-khaki-metallic-gold-geode-teal-iv7022-200/",
+    "wtc_url": "https://www.whentocop.fr/drops/the-nike-air-max-ecstasy-plus-treks-into-desert-khaki",
+    "retailers": [],
+    "featured": false,
+    "added_at": "2026-10-06T22:00:01.916820+00:00"
+  },
+  {
+    "id": "jayson-tatum-and-cncpts-join-up-once-again-for-the-jordan-tatum-5-laser",
+    "slug": "jayson-tatum-and-cncpts-join-up-once-again-for-the-jordan-tatum-5-laser",
+    "title": "Jayson Tatum And CNCPTS Join Up Once Again For The Jordan Tatum 5 “Laser”",
+    "brand": "Jordan",
+    "date": "TBD",
+    "price": 0,
+    "sku": "",
+    "image_url": "",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/10/06/jordan-tatum-5-laser/",
+    "wtc_url": "https://www.whentocop.fr/drops/jayson-tatum-and-cncpts-join-up-once-again-for-the-jordan-tatum-5-laser",
+    "retailers": [],
+    "featured": false,
+    "added_at": "2026-10-06T22:00:01.916820+00:00"
+  },
+  {
+    "id": "nike-air-max-95-enchanting-illusion-green",
+    "slug": "nike-air-max-95-enchanting-illusion-green",
+    "title": "Nike Air Max 95 Enchanting “Illusion Green”",
+    "brand": "Nike",
+    "date": "TBD",
+    "price": 0,
+    "sku": "",
+    "image_url": "",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/10/06/nike-air-max-95-white-black-metallic-silver-illusion-green-ir5591-100/",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-enchanting-illusion-green",
+    "retailers": [],
+    "featured": false,
+    "added_at": "2026-10-06T22:00:01.916820+00:00"
+  },
+  {
     "id": "the-adidas-anthony-edwards-3-omen-is-ready-for-halloween",
     "slug": "the-adidas-anthony-edwards-3-omen-is-ready-for-halloween",
     "title": "The adidas Anthony Edwards 3 “Omen” Is Ready For Halloween",
@@ -287,7 +351,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/salomon-xt-6-protective-castlerock-black-paloma-l45404900",
     "featured": false,
     "year": 2026,
-    "colorway": "Black"
+    "colorway": "Black",
+    "id": "salomon-xt-6-protective-castlerock-black-paloma-l45404900"
   },
   {
     "slug": "salomon-xt-6-protective-shadow-gray-iron-lilac-ash-l45405100",
@@ -328,7 +393,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/salomon-xt-6-protective-shadow-gray-iron-lilac-ash-l45405100",
     "featured": false,
     "year": 2026,
-    "colorway": "Gray"
+    "colorway": "Gray",
+    "id": "salomon-xt-6-protective-shadow-gray-iron-lilac-ash-l45405100"
   },
   {
     "slug": "salomon-xt-whisper-gtx-grey-violet-black-ftw-silver-l49192300",
@@ -364,7 +430,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/salomon-xt-whisper-gtx-grey-violet-black-ftw-silver-l49192300",
     "featured": false,
     "year": 2026,
-    "colorway": "Grey/Violet/Black/Silver"
+    "colorway": "Grey/Violet/Black/Silver",
+    "id": "salomon-xt-whisper-gtx-grey-violet-black-ftw-silver-l49192300"
   },
   {
     "slug": "salomon-xt-whisper-gtx-iron-shadow-gray-black-olive-l45397400",
@@ -390,7 +457,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/salomon-xt-whisper-gtx-iron-shadow-gray-black-olive-l45397400",
     "featured": false,
     "year": 2026,
-    "colorway": "Gray/Black/Olive"
+    "colorway": "Gray/Black/Olive",
+    "id": "salomon-xt-whisper-gtx-iron-shadow-gray-black-olive-l45397400"
   },
   {
     "slug": "brain-dead-adidas-bowling-cheetah-kh8143",
@@ -430,7 +498,8 @@
     ],
     "wtc_url": "https://www.whentocop.fr/drops/brain-dead-adidas-bowling-cheetah-kh8143",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "id": "brain-dead-x-adidas-bowling-cheetah-kh8143"
   },
   {
     "slug": "new-balance-1890a-pink-granite-u18901t0",
@@ -451,7 +520,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890a-pink-granite-u18901t0",
     "featured": false,
     "year": 2026,
-    "colorway": "Pink"
+    "colorway": "Pink",
+    "id": "new-balance-1890a-pink-granite-u18901t0"
   },
   {
     "id": "nike-ja-4-dark-mode-im4135-001",
@@ -498,7 +568,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-leather-wmns-black-iu3162-001",
     "featured": false,
     "year": 2026,
-    "colorway": "Black"
+    "colorway": "Black",
+    "id": "nike-moon-shoe-og-leather-wmns-black-iu3162-001"
   },
   {
     "id": "amine-new-balance-992-chocolate-amber-u992ne",
@@ -598,7 +669,8 @@
     "featured": false,
     "year": 2026,
     "silhouette": "Air Jordan 1",
-    "colorway": "Royal"
+    "colorway": "Royal",
+    "id": "air-jordan-1-high-og-royal-iq5495-005"
   },
   {
     "id": "nike-kobe-10-low-protro-5am-flight-iq5339-400",
