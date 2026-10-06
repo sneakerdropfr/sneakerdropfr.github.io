@@ -594,7 +594,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         .then(function(data){
           var today=new Date();today.setHours(0,0,0,0);
           var upcoming=data.filter(function(r){
-            if(!r.date||r.date==='TBD')return false;
+            if(!r.date||r.date==='TBD'||!/^\d{4}-\d{2}-\d{2}$/.test(r.date))return false;
             var p=r.date.split('-');
             return new Date(+p[0],+p[1]-1,+p[2])>today;
           });
