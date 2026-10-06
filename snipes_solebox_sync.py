@@ -359,7 +359,7 @@ def main():
         return
     
     paires_str = ", ".join(set(c.split(" → ")[0] for c in changes))
-    commit_msg = f"feat: retailers Snipes/Solebox — {paires_str}"
+    commit_msg = f"[skip ci] feat: retailers Snipes/Solebox — {paires_str}"
     
     try:
         result = gh_put(GH_API, GH_TOKEN, content_b64, fresh_sha, commit_msg)
