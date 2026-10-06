@@ -1,0 +1,54 @@
+name: Deploy GitHub Pages
+
+# Déploiement du site sneakerdropfr.fr
+# - push sur main : déployé SAUF si le commit contient [skip ci] (ignoré automatiquement par GitHub Actions)
+#   → seul le commit de régénération des pages (sans [skip ci]) déclenche le déploiement
+# - schedule : déploiement de rattrapage toutes les 6 h pour publier les mises à jour faites en [skip ci]
+# - workflow_dispatch : déploiement manuel
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '30 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # Même moteur que l'ancien build "legacy" (Jekyll) → rendu identique
+      - name: Build
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
