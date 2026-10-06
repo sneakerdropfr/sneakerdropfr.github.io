@@ -141,7 +141,13 @@ else
     log "Commit + push (sorties/, sitemap.xml, releases_past.json uniquement)..."
     git add sorties/ sitemap.xml releases_past.json 2>/dev/null || true
     git reset HEAD releases.json 2>/dev/null || true  # sécurité supplémentaire
-    git commit -m "[skip ci] enrich: colorway/silhouette/year — $(date '+%Y-%m-%d %H:%M')" 2>&1 | \
+    # [skip ci] sauf si des pages statiques (sorties/) ont été régénérées → ce commit doit déclencher le déploiement
+    if git diff --cached --quiet -- sorties/; then
+        COMMIT_MSG="[skip ci] enrich: colorway/silhouette/year — $(date '+%Y-%m-%d %H:%M')"
+    else
+        COMMIT_MSG="pages: régénération pages statiques — $(date '+%Y-%m-%d %H:%M')"
+    fi
+    git commit -m "$COMMIT_MSG" 2>&1 | \
         while IFS= read -r line; do log "  git: $line"; done
     git push 2>&1 | while IFS= read -r line; do log "  git: $line"; done
     log "✅ Push effectué (releases.json exclu)"
