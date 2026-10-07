@@ -976,11 +976,12 @@ document.addEventListener('DOMContentLoaded', function(){
   var BSTN_AWIN_MID='104979';
   var BSTN_AWIN_AFF='2855487';
   var BSTN_API_URL='https://searcht.bstn.com/collections/magento2_eu_products/documents/search';
-  var BSTN_API_KEY='NCZstZEMLnMy4MSLPh9NKNrtMLsEF1Zy';
+  var BSTN_API_KEY='';
   var BSTN_SITE='https://www.bstn.com/';
   var _bstnCache={};
   function bstnAwinUrl(productPath){ return 'https://www.awin1.com/cread.php?awinmid='+BSTN_AWIN_MID+'&awinaffid='+BSTN_AWIN_AFF+'&p='+encodeURIComponent(BSTN_SITE+productPath); }
   function bstnCheckSku(sku,cb){
+    return; // désactivé : la recherche BSTN bloque les appels depuis le site (CORS)
     if (!sku) return;
     var skuKey=sku.toLowerCase();
     if (_bstnCache[skuKey]!==undefined){ if (_bstnCache[skuKey]) cb(_bstnCache[skuKey]); return; }
