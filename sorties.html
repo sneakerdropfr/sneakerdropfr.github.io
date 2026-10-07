@@ -6,8 +6,8 @@
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prochaines Sorties Sneakers — SneakerDrop FR</title>
-  <meta name="description" content="Toutes les prochaines sorties sneakers en France : Nike, Air Jordan, Adidas, New Balance. Dates, prix retail, filtres par marque." />
+  <title>Sorties Sneakers 2026 — Dates de Sortie, Prix Retail &amp; Où Acheter | SneakerDropFR</title>
+  <meta name="description" content="Prochaines sorties sneakers 2026 en France — dates de sortie, prix retail, où acheter Jordan, Nike, Adidas, New Balance. Ne rate plus aucun drop." />
   <link rel="canonical" href="https://sneakerdropfr.fr/sorties.html" />
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
   <link rel="stylesheet" href="/assets/css/shared.css" />
@@ -35,6 +35,7 @@
       --font-body:'Barlow',sans-serif;
       --font-cond:'Barlow Condensed',sans-serif;
       --section-gap:4.5rem;
+    }
     html{scroll-behavior:smooth}
     body{background:var(--bg);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden;padding-bottom:72px}
     a{text-decoration:none;color:inherit}
@@ -114,6 +115,10 @@
     .btn-retailer:hover{transform:translateY(-1px)}
     .btn-retailer--bstn{background:#0A0A0A;color:#fff;border:1px solid rgba(255,255,255,.15)}
     .btn-retailer--bstn:hover{background:#E8FF00;color:#0A0A0A;border-color:#E8FF00}
+    .btn-retailer--snipes{background:#E30613;color:#fff;border:1px solid rgba(255,255,255,.15)}
+    .btn-retailer--snipes:hover{background:#fff;color:#E30613;border-color:#E30613}
+    .btn-retailer--solebox{background:#4A5D4F;color:#fff;border:1px solid rgba(255,255,255,.15)}
+    .btn-retailer--solebox:hover{background:#fff;color:#4A5D4F;border-color:#4A5D4F}
     .btn-retailer--nike{background:#111;color:#fff;border:1px solid rgba(255,255,255,.1)}
     .btn-retailer--nike:hover{background:#E8FF00;color:#0A0A0A}
     .btn-retailer--official{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.18)}
@@ -293,6 +298,7 @@ document.addEventListener('DOMContentLoaded', function(){
         <a href="/" class="hbtn hbtn--back">← Accueil</a>
       </nav>
     </div>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Mode sombre" style="border:1px solid var(--border);background:none;border-radius:8px;padding:.3rem .6rem;cursor:pointer;font-size:1rem;margin-left:.5rem">🌙</button>
   </header>
 
   <!-- IDs cachés pour compat JS raffle -->
@@ -353,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function(){
   <script>
 (function(){
     var _ts=Date.now();
-    var RELEASES_URL='https://cdn.jsdelivr.net/gh/sneakerdropfr/sneakerdropfr.github.io@main/releases.json?t='+_ts;
+    var RELEASES_URL='/releases.json?t='+_ts;
     var RELEASES_URL_FALLBACK='https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json?t='+_ts;
     var grid=document.getElementById('releases-grid-week');
     var gridUpcoming=document.getElementById('releases-grid-upcoming');
@@ -485,6 +491,16 @@ document.addEventListener('DOMContentLoaded', function(){
 
       // Officiels — max 3 sur la card, bouton "Voir tout" si plus
       if (official.length) {
+        var PRIORITY_ORDER = ['bstn', 'snipes', 'solebox'];
+        official.sort(function(a, b) {
+          var an = (a.name || '').toLowerCase();
+          var bn = (b.name || '').toLowerCase();
+          var ai = PRIORITY_ORDER.findIndex(function(p) { return an.indexOf(p) !== -1; });
+          var bi = PRIORITY_ORDER.findIndex(function(p) { return bn.indexOf(p) !== -1; });
+          if (ai === -1) ai = 99;
+          if (bi === -1) bi = 99;
+          return ai - bi;
+        });
         var officialShown = official.slice(0, 3);
         var hasMore = official.length > 3;
         var sortiePage = r.id ? 'sorties/' + r.id + '.html' : null;
@@ -584,8 +600,8 @@ document.addEventListener('DOMContentLoaded', function(){
         ? '<a href="' + articleUrl + '" class="drop-card__img-wrap" style="display:block">' + badgeTop + img + '</a>'
         : '<div class="drop-card__img-wrap">' + badgeTop + img + '</div>';
       var titleWrap = articleUrl
-        ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3></a>'
-        : '<h3 class="drop-card__title">' + escapeHtml(r.title) + '</h3>';
+        ? '<a href="' + articleUrl + '" style="color:inherit"><h3 class="drop-card__title">' + escapeHtml(r.title) + (r.colorway ? ' <span style="opacity:.55;font-weight:700">(' + escapeHtml(r.colorway) + ')</span>' : '') + '</h3></a>'
+        : '<h3 class="drop-card__title">' + escapeHtml(r.title) + (r.colorway ? ' <span style="opacity:.55;font-weight:700">(' + escapeHtml(r.colorway) + ')</span>' : '') + '</h3>';
       // Badge hype_score
       var hypeScoreHtml = '';
       if (r.hype_score && r.hype_score >= 40) {
@@ -730,7 +746,7 @@ document.addEventListener('DOMContentLoaded', function(){
           renderWeeklyDrops();
           return;
         }
-        fetch('https://cdn.jsdelivr.net/gh/sneakerdropfr/sneakerdropfr.github.io@main/weekly_data.json?t=' + Date.now())
+        fetch('/weekly_data.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .then(function(wd) {
             // Vérifier que weekly_data.json correspond bien à la semaine en cours ou future
@@ -808,7 +824,6 @@ document.addEventListener('DOMContentLoaded', function(){
       // Fusionner thisWeek + laterOn dans gridUpcoming (sans doublons)
       var seenIds = {};
       var allVisible = [];
-      thisWeek.forEach(function(r) { if (!seenIds[r.id||r.title]) { seenIds[r.id||r.title]=1; allVisible.push(r); } });
       laterOn.forEach(function(r) { if (!seenIds[r.id||r.title]) { seenIds[r.id||r.title]=1; allVisible.push(r); } });
       var allVisibleSorted = sortByDate(allVisible);
       if (allVisibleSorted.length) {
@@ -846,12 +861,14 @@ document.addEventListener('DOMContentLoaded', function(){
     tickCountdowns();
 
     window._render = render;
-    document.querySelectorAll('.filter-btn').forEach(function(btn) {
+    document.querySelectorAll('#filters .filter-btn').forEach(function(btn) {
       btn.addEventListener('click', function() {
-        document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+        document.querySelectorAll('#filters .filter-btn').forEach(function(b) { b.classList.remove('active'); });
         btn.classList.add('active');
         activeFilter = btn.dataset.brand;
+        weeklyActiveFilter = btn.dataset.brand;
         render();
+        if (typeof renderWeeklyDrops === 'function') renderWeeklyDrops();
       });
     });
 
@@ -877,7 +894,7 @@ document.addEventListener('DOMContentLoaded', function(){
         window._releases = allReleases.slice();
         window.allReleases = allReleases;
         // Enrichir la recherche avec releases_past.json
-        fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t=' + Date.now())
+        fetch('/releases_past.json?t=' + Date.now())
           .then(function(res) { return res.json(); })
           .catch(function() { return []; })
           .then(function(past) {
@@ -959,17 +976,18 @@ document.addEventListener('DOMContentLoaded', function(){
   var BSTN_AWIN_MID='104979';
   var BSTN_AWIN_AFF='2855487';
   var BSTN_API_URL='https://searcht.bstn.com/collections/magento2_eu_products/documents/search';
-  var BSTN_API_KEY='NCZstZEMLnMy4MSLPh9NKNrtMLsEF1Zy';
+  var BSTN_API_KEY='';
   var BSTN_SITE='https://www.bstn.com/';
   var _bstnCache={};
   function bstnAwinUrl(productPath){ return 'https://www.awin1.com/cread.php?awinmid='+BSTN_AWIN_MID+'&awinaffid='+BSTN_AWIN_AFF+'&p='+encodeURIComponent(BSTN_SITE+productPath); }
   function bstnCheckSku(sku,cb){
+    return; // désactivé : la recherche BSTN bloque les appels depuis le site (CORS)
     if (!sku) return;
     var skuKey=sku.toLowerCase();
     if (_bstnCache[skuKey]!==undefined){ if (_bstnCache[skuKey]) cb(_bstnCache[skuKey]); return; }
     var skuNorm=skuKey.replace(/-/g,'');
     var q=skuKey.replace(/-/g,' ');
-    var url=BSTN_API_URL+'?q='+encodeURIComponent(q)+'&query_by=name&per_page=5&filter_by=price%3A%3E0';
+    var url=BSTN_API_URL+'?q='+encodeURIComponent(q)+'&query_by=name&per_page=5&filter_by=price_default%3A%3E0';
     fetch(url,{headers:{'X-TYPESENSE-API-KEY':BSTN_API_KEY}})
       .then(function(r){ return r.json(); })
       .then(function(data){
@@ -991,22 +1009,39 @@ document.addEventListener('DOMContentLoaded', function(){
     container.appendChild(btn);
   }
   (function(){
-    var observer=new MutationObserver(function(mutations){
+    var checked = new WeakSet();
+    var intersectionObs = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (!entry.isIntersecting) return;
+        var card = entry.target;
+        if (checked.has(card)) return;
+        checked.add(card);
+        intersectionObs.unobserve(card);
+        var sku = card.getAttribute("data-sku");
+        if (!sku) return;
+        var ctaDiv = card.querySelector(".drop-card__cta");
+        bstnCheckSku(sku, function(url){ bstnInjectBtn(ctaDiv, url, "Acheter sur BSTN"); });
+      });
+    }, { rootMargin: "200px" });
+    var mutationObs = new MutationObserver(function(mutations){
       mutations.forEach(function(m){
         m.addedNodes.forEach(function(node){
-          if (node.nodeType!==1) return;
-          var cards=node.matches&&node.matches('.drop-card')?[node]:Array.from(node.querySelectorAll('.drop-card[data-sku]'));
+          if (node.nodeType !== 1) return;
+          var cards = node.matches && node.matches(".drop-card") ? [node] : Array.from(node.querySelectorAll(".drop-card[data-sku]"));
           cards.forEach(function(card){
-            var sku=card.getAttribute('data-sku');
-            if (!sku) return;
-            var ctaDiv=card.querySelector('.drop-card__cta');
-            bstnCheckSku(sku,function(url){ bstnInjectBtn(ctaDiv,url,'Acheter sur BSTN'); });
+            if (card.getAttribute("data-sku")) intersectionObs.observe(card);
           });
         });
       });
     });
-    var grids=['releases-grid-week','releases-grid-today','releases-grid-upcoming'];
-    grids.forEach(function(id){ var el=document.getElementById(id); if (el) observer.observe(el,{childList:true,subtree:true}); });
+    var grids=["releases-grid-week","releases-grid-today","releases-grid-upcoming"];
+    grids.forEach(function(id){
+      var el = document.getElementById(id);
+      if (el) {
+        mutationObs.observe(el, {childList:true, subtree:true});
+        el.querySelectorAll(".drop-card[data-sku]").forEach(function(card){ intersectionObs.observe(card); });
+      }
+    });
   })();
   </script>
 
@@ -1035,8 +1070,8 @@ document.addEventListener('DOMContentLoaded', function(){
           ?'<a href="'+articleUrl+'" class="drop-card__img-wrap" style="display:block">'+img+'</a>'
           :'<div class="drop-card__img-wrap">'+img+'</div>';
         var titleWrap=articleUrl
-          ?'<a href="'+articleUrl+'" style="color:inherit"><h3 class="drop-card__title">'+escapeHtml(r.title)+'</h3></a>'
-          :'<h3 class="drop-card__title">'+escapeHtml(r.title)+'</h3>';
+          ?'<a href="'+articleUrl+'" style="color:inherit"><h3 class="drop-card__title">'+escapeHtml(r.title)+(r.colorway?' <span style="opacity:.55;font-weight:700">('+escapeHtml(r.colorway)+')</span>':'')+'</h3></a>'
+          :'<h3 class="drop-card__title">'+escapeHtml(r.title)+(r.colorway?' <span style="opacity:.55;font-weight:700">('+escapeHtml(r.colorway)+')</span>':'')+'</h3>';
         var ctaHref=r.link||articleUrl||'#';
         var ctaTarget=(articleUrl&&!r.link)?'':' target="_blank" rel="noopener"';
         html+='<article class="drop-card">'+imgWrap+'<div class="drop-card__body"><div class="drop-card__brand">'+(r.brand||r.source||'')+'</div>'+titleWrap+'<div class="drop-card__meta"><span>'+(r.date||'TBD')+'</span><span class="drop-card__price">'+(r.price||'')+'</span></div><a href="'+ctaHref+'"'+ctaTarget+' class="drop-card__cta btn-cop">Voir la paire</a></div></article>';
@@ -1052,7 +1087,7 @@ document.addEventListener('DOMContentLoaded', function(){
     var pastGrid=document.getElementById('past-grid');
     if (pastGrid.style.display==='block'){ pastGrid.style.display='none'; btn.textContent='🕐 Voir les anciennes sorties'; return; }
     btn.textContent='Chargement...';
-    fetch('https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases_past.json?t='+Date.now())
+    fetch('/releases_past.json?t='+Date.now())
       .then(function(r){ return r.json(); })
       .then(function(data){ renderPastGrid(data); })
       .catch(function(){ renderPastGrid([]); btn.textContent='🕐 Voir les anciennes sorties'; });
