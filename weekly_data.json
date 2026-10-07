@@ -8,7 +8,7 @@
       "title": "Nike Air Max Goadome Low Croc-Skin Black",
       "brand": "Nike",
       "date": "2026-10-06",
-      "price": 175.0,
+      "price": 175,
       "sku": "IV4517-001",
       "image_url": "/images/IV4517-001.jpg",
       "source": "Sneaker News",
@@ -33,14 +33,16 @@
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=299060&clickref=Nike-ACG-Air-Max-Goadome-Low-SP-Black-IV4517-001&wgtarget=https://fr.patta.nl/products/nike-air-max-goadome-low-black",
           "price": "175.0€"
         }
-      ]
+      ],
+      "slug": "nike-air-max-goadome-low-croc-skin-pack-drops-in-october-iv4517-001",
+      "date_display": "6 octobre 2026"
     },
     {
       "id": "nike-air-max-goadome-low-croc-skin-pack-drops-in-october-iv4517-400",
       "title": "Nike Air Max Goadome Low Croc-Skin Navy",
       "brand": "Nike",
       "date": "2026-10-06",
-      "price": 175.0,
+      "price": 175,
       "sku": "IV4517-400",
       "image_url": "/images/IV4517-400.jpg",
       "source": "Sneaker News",
@@ -48,7 +50,10 @@
       "added_at": "2026-09-24T06:00:02.267293+00:00",
       "featured": false,
       "colorway": "Navy",
-      "year": 2026
+      "year": 2026,
+      "slug": "nike-air-max-goadome-low-croc-skin-pack-drops-in-october-iv4517-400",
+      "retailers": [],
+      "date_display": "6 octobre 2026"
     },
     {
       "slug": "salomon-xt-6-protective-castlerock-black-paloma-l45404900",
@@ -219,7 +224,10 @@
           "price": "209€"
         }
       ],
-      "image_url": "/images/L49210800.webp"
+      "image_url": "/images/L49210800.webp",
+      "id": "salomon-xt-4-og-gore-tex-paloma-cloudburst-silver-l49210800",
+      "featured": false,
+      "year": 2026
     },
     {
       "slug": "brain-dead-adidas-bowling-cheetah-kh8143",
@@ -383,7 +391,10 @@
           "price": "250€"
         }
       ],
-      "image_url": "/images/KK3730.webp"
+      "image_url": "/images/KK3730.webp",
+      "id": "arte-antwerp-adidas-gsg9-off-white-kk3730",
+      "featured": false,
+      "year": 2026
     },
     {
       "slug": "rose-puma-speedcat-vtg-wmns-espresso-410661-01",
@@ -416,7 +427,10 @@
           "price": "130€"
         }
       ],
-      "image_url": "/images/410661-01.webp"
+      "image_url": "/images/410661-01.webp",
+      "id": "rose-puma-speedcat-vtg-wmns-espresso-410661-01",
+      "featured": false,
+      "year": 2026
     },
     {
       "slug": "asics-gel-nyc-2-0-gore-tex-graphite-grey-black-1203b162-021",
@@ -444,7 +458,10 @@
           "price": "179€"
         }
       ],
-      "image_url": "/images/1203B162-021.webp"
+      "image_url": "/images/1203B162-021.webp",
+      "id": "asics-gel-nyc-2-0-gore-tex-graphite-grey-black-1203b162-021",
+      "featured": false,
+      "year": 2026
     },
     {
       "slug": "brain-dead-adidas-bowling-snakeskin-kj0662",
@@ -492,7 +509,10 @@
           "price": "249€"
         }
       ],
-      "image_url": "/images/KJ0662.webp"
+      "image_url": "/images/KJ0662.webp",
+      "id": "brain-dead-adidas-bowling-snakeskin-kj0662",
+      "featured": false,
+      "year": 2026
     },
     {
       "slug": "arte-antwerp-adidas-gsg9-triple-black-ki9308",
@@ -520,7 +540,10 @@
           "price": "250€"
         }
       ],
-      "image_url": "/images/KI9308.webp"
+      "image_url": "/images/KI9308.webp",
+      "id": "arte-antwerp-adidas-gsg9-triple-black-ki9308",
+      "featured": false,
+      "year": 2026
     },
     {
       "slug": "brain-dead-adidas-barricade-mystery-ink-silver-metallic-kz9472",
@@ -548,7 +571,10 @@
           "price": "199€"
         }
       ],
-      "image_url": "/images/KZ9472.webp"
+      "image_url": "/images/KZ9472.webp",
+      "id": "brain-dead-adidas-barricade-mystery-ink-silver-metallic-kz9472",
+      "featured": false,
+      "year": 2026
     },
     {
       "slug": "brain-dead-adidas-barricade-dark-green-silver-metallic-kz9471",
@@ -576,7 +602,10 @@
           "price": "199€"
         }
       ],
-      "image_url": "/images/KZ9471.webp"
+      "image_url": "/images/KZ9471.webp",
+      "id": "brain-dead-adidas-barricade-dark-green-silver-metallic-kz9471",
+      "featured": false,
+      "year": 2026
     },
     {
       "slug": "new-balance-204l-black-cement-u204l5yb",
@@ -594,7 +623,10 @@
           "price": "140€"
         }
       ],
-      "image_url": "/images/U204L5YB.webp"
+      "image_url": "/images/U204L5YB.webp",
+      "id": "new-balance-204l-black-cement-u204l5yb",
+      "featured": false,
+      "year": 2026
     },
     {
       "id": "amine-new-balance-992-chocolate-amber-u992ne",
@@ -759,7 +791,10 @@
           "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
           "price": "140€"
         }
-      ]
+      ],
+      "id": "nike-air-force-1-low-pony-hair-team-red-ir1940-600",
+      "featured": false,
+      "year": 2026
     },
     {
       "slug": "bstn-salomon-xt-6-black-iridescent-l45567700",
@@ -777,7 +812,10 @@
           "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=L45567700&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fsalomon-x-bstn-xt-6-iridescent-l45567700-0357012",
           "price": "179€"
         }
-      ]
+      ],
+      "id": "bstn-salomon-xt-6-black-iridescent-l45567700",
+      "featured": false,
+      "year": 2026
     },
     {
       "slug": "feid-salomon-acs-nexxt-the-green-star-l45506800",
@@ -795,7 +833,10 @@
           "url": "https://www.awin1.com/cread.php?awinmid=86255&awinaffid=737541&clickref=Feid-x-Salomon-ACS-NEXXT-The-Green-Star&ued=https%3A%2F%2Fwww.salomon.com%2Ffr-fr%2Fproduct%2Facs-nexxt-the-green-star-by-feid-li1911%2FL45506800",
           "price": "150€"
         }
-      ]
+      ],
+      "id": "feid-salomon-acs-nexxt-the-green-star-l45506800",
+      "featured": false,
+      "year": 2026
     }
   ],
   "generated_at": "2026-10-07T21:08:56.280444Z"
