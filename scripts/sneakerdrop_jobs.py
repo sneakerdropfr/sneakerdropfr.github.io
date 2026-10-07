@@ -29,7 +29,7 @@ UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 CANON = {'air jordan': 'Air Jordan', 'new balance': 'New Balance', 'nike': 'Nike', 'adidas': 'Adidas', 'jordan': 'Jordan',
          'puma': 'Puma', 'vans': 'Vans', 'converse': 'Converse', 'reebok': 'Reebok', 'asics': 'ASICS', 'saucony': 'Saucony',
          'brooks': 'Brooks', 'salomon': 'Salomon'}
-CLOTHING = re.compile(r'\b(hoodie|shirt|t-shirt|pants?|tee|jacket|cap|hat|socks?|shorts|jersey|sweater|fleece|vest|crewneck|bag|beanie|sweatpants|joggers?|sweatshirt|trousers|tracksuit|hoodies)\b', re.I)
+CLOTHING = re.compile(r'\b(hoodie|shirt|t-shirt|pants?|tee|jacket|cap|hat|socks?|shorts|jersey|sweater|fleece|vest|crewneck|bag|beanie|sweatpants|joggers?|sweatshirt|trousers|tracksuit|hoodies|long-sleeve)\b', re.I)
 BANNED_SKUS = {'KK2600', 'KK2599', 'KJ2419'}
 LOCKED_SKUS = {'HV0823-101', 'KJ4289'}
 BANNED_RETAILERS = {'stockx', 'goat', 'limited resell', 'klekt', 'restocks', 'laced', 'stadium goods', 'flight club', 'alias', 'bump'}
@@ -151,7 +151,7 @@ def best_image(o):
 
 def new_entry(o, brand):
     d = str(o['dropDate'])[:10]; y, m, dd = d.split('-')
-    return {'slug': o['slug'], 'sku': (o.get('styleCode') or '').upper(),
+    return {'id': o['slug'], 'slug': o['slug'], 'featured': False, 'year': int(str(o['dropDate'])[:4]), 'sku': (o.get('styleCode') or '').upper(),
             'title': f"{o.get('brandName') or ''} {o.get('modelName') or ''}".strip(), 'brand': brand, 'date': d,
             'date_display': f'{int(dd)} {MOIS[int(m) - 1]} {y}', 'price': int(float(o.get('retailPrice') or 0)),
             'image_url': '', '_img': best_image(o), 'wtc_url': 'https://www.whentocop.fr/drops/' + o['slug'], 'retailers': []}
@@ -189,9 +189,7 @@ class Retailers:
             if not name or name.lower() in BANNED_RETAILERS or name.lower() in seen: continue
             link = ((r.get('regionalLinks') or {}).get('FR') or r.get('link') or '').strip()
             if not link: continue
-            m = re.search(r'[?&](?:ued|u|p|murl|url|wgtarget)=([^&]+)', link)
-            dest = unquote(m.group(1)) if m else link
-            if GENERIC_URL.search(dest): continue
+            if is_generic(link): continue
             if 'awin1.com' in link:
                 for k, mid in AWIN_MIDS.items():
                     if k in link.lower() or k in name.lower():
@@ -202,6 +200,17 @@ class Retailers:
             seen.add(name.lower())
         time.sleep(1)
         return out
+
+
+def is_generic(link):
+    """Lien générique : page catégorie/recherche, page d'accueil ou placeholder WTC."""
+    from urllib.parse import urlparse
+    if 'defaultdropcreation' in link.lower(): return True
+    m = re.search(r'[?&](?:ued|u|p|murl|url|wgtarget)=([^&]+)', link)
+    dest = unquote(m.group(1)) if m else link
+    if GENERIC_URL.search(dest): return True
+    path = urlparse(dest).path.strip('/').lower()
+    return path in ('', 'fr', 'fr-fr', 'fr_fr', 'eu_fr', 'en', 'fr/fr', 'fr/launch', 'launch')
 
 
 def merge_retailers(entry, found):
