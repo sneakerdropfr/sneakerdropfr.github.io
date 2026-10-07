@@ -4,7 +4,7 @@
     "title": "Nike Air Max Goadome Low Croc-Skin Black",
     "brand": "Nike",
     "date": "2026-10-06",
-    "price": 175.0,
+    "price": 175,
     "sku": "IV4517-001",
     "image_url": "/images/IV4517-001.jpg",
     "source": "Sneaker News",
@@ -29,14 +29,16 @@
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=299060&clickref=Nike-ACG-Air-Max-Goadome-Low-SP-Black-IV4517-001&wgtarget=https://fr.patta.nl/products/nike-air-max-goadome-low-black",
         "price": "175.0€"
       }
-    ]
+    ],
+    "slug": "nike-air-max-goadome-low-croc-skin-pack-drops-in-october-iv4517-001",
+    "date_display": "6 octobre 2026"
   },
   {
     "id": "nike-air-max-goadome-low-croc-skin-pack-drops-in-october-iv4517-400",
     "title": "Nike Air Max Goadome Low Croc-Skin Navy",
     "brand": "Nike",
     "date": "2026-10-06",
-    "price": 175.0,
+    "price": 175,
     "sku": "IV4517-400",
     "image_url": "/images/IV4517-400.jpg",
     "source": "Sneaker News",
@@ -44,7 +46,10 @@
     "added_at": "2026-09-24T06:00:02.267293+00:00",
     "featured": false,
     "colorway": "Navy",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-air-max-goadome-low-croc-skin-pack-drops-in-october-iv4517-400",
+    "retailers": [],
+    "date_display": "6 octobre 2026"
   },
   {
     "slug": "salomon-xt-6-protective-castlerock-black-paloma-l45404900",
@@ -215,7 +220,10 @@
         "price": "209€"
       }
     ],
-    "image_url": "/images/L49210800.webp"
+    "image_url": "/images/L49210800.webp",
+    "id": "salomon-xt-4-og-gore-tex-paloma-cloudburst-silver-l49210800",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "brain-dead-adidas-bowling-cheetah-kh8143",
@@ -379,7 +387,10 @@
         "price": "250€"
       }
     ],
-    "image_url": "/images/KK3730.webp"
+    "image_url": "/images/KK3730.webp",
+    "id": "arte-antwerp-adidas-gsg9-off-white-kk3730",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "rose-puma-speedcat-vtg-wmns-espresso-410661-01",
@@ -412,7 +423,10 @@
         "price": "130€"
       }
     ],
-    "image_url": "/images/410661-01.webp"
+    "image_url": "/images/410661-01.webp",
+    "id": "rose-puma-speedcat-vtg-wmns-espresso-410661-01",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "asics-gel-nyc-2-0-gore-tex-graphite-grey-black-1203b162-021",
@@ -440,7 +454,10 @@
         "price": "179€"
       }
     ],
-    "image_url": "/images/1203B162-021.webp"
+    "image_url": "/images/1203B162-021.webp",
+    "id": "asics-gel-nyc-2-0-gore-tex-graphite-grey-black-1203b162-021",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "brain-dead-adidas-bowling-snakeskin-kj0662",
@@ -488,7 +505,10 @@
         "price": "249€"
       }
     ],
-    "image_url": "/images/KJ0662.webp"
+    "image_url": "/images/KJ0662.webp",
+    "id": "brain-dead-adidas-bowling-snakeskin-kj0662",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "arte-antwerp-adidas-gsg9-triple-black-ki9308",
@@ -516,7 +536,10 @@
         "price": "250€"
       }
     ],
-    "image_url": "/images/KI9308.webp"
+    "image_url": "/images/KI9308.webp",
+    "id": "arte-antwerp-adidas-gsg9-triple-black-ki9308",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "brain-dead-adidas-barricade-mystery-ink-silver-metallic-kz9472",
@@ -544,7 +567,10 @@
         "price": "199€"
       }
     ],
-    "image_url": "/images/KZ9472.webp"
+    "image_url": "/images/KZ9472.webp",
+    "id": "brain-dead-adidas-barricade-mystery-ink-silver-metallic-kz9472",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "brain-dead-adidas-barricade-dark-green-silver-metallic-kz9471",
@@ -572,7 +598,10 @@
         "price": "199€"
       }
     ],
-    "image_url": "/images/KZ9471.webp"
+    "image_url": "/images/KZ9471.webp",
+    "id": "brain-dead-adidas-barricade-dark-green-silver-metallic-kz9471",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "new-balance-204l-black-cement-u204l5yb",
@@ -590,7 +619,10 @@
         "price": "140€"
       }
     ],
-    "image_url": "/images/U204L5YB.webp"
+    "image_url": "/images/U204L5YB.webp",
+    "id": "new-balance-204l-black-cement-u204l5yb",
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "amine-new-balance-992-chocolate-amber-u992ne",
@@ -755,7 +787,10 @@
         "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
         "price": "140€"
       }
-    ]
+    ],
+    "id": "nike-air-force-1-low-pony-hair-team-red-ir1940-600",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "bstn-salomon-xt-6-black-iridescent-l45567700",
@@ -773,7 +808,10 @@
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=L45567700&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fsalomon-x-bstn-xt-6-iridescent-l45567700-0357012",
         "price": "179€"
       }
-    ]
+    ],
+    "id": "bstn-salomon-xt-6-black-iridescent-l45567700",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "feid-salomon-acs-nexxt-the-green-star-l45506800",
@@ -791,7 +829,10 @@
         "url": "https://www.awin1.com/cread.php?awinmid=86255&awinaffid=737541&clickref=Feid-x-Salomon-ACS-NEXXT-The-Green-Star&ued=https%3A%2F%2Fwww.salomon.com%2Ffr-fr%2Fproduct%2Facs-nexxt-the-green-star-by-feid-li1911%2FL45506800",
         "price": "150€"
       }
-    ]
+    ],
+    "id": "feid-salomon-acs-nexxt-the-green-star-l45506800",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "new-balance-numeric-480-black-charcoal-gray-nm480gtx",
@@ -809,7 +850,10 @@
         "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=NM480GTX&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Fnb-numeric-480%2FNM480V1-52906.html",
         "price": "140€"
       }
-    ]
+    ],
+    "id": "new-balance-numeric-480-black-charcoal-gray-nm480gtx",
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "new-balance-tl900-sport-green-utl903t1",
@@ -829,7 +873,9 @@
         "price": "159€"
       }
     ],
-    "colorway": "Green"
+    "colorway": "Green",
+    "slug": "new-balance-tl900-sport-green-utl903t1",
+    "date_display": "14 octobre 2026"
   },
   {
     "id": "nike-mind-001-wmns-palest-purple-hq4309-500",
@@ -864,7 +910,9 @@
       }
     ],
     "description": "La Nike Mind 001 WMNS Palest Purple adopte un colorway violet très pale et délicat sur la silhouette lifestyle féminine. Sortie le jeudi 15 octobre 2026 à 90€.",
-    "colorway": "Purple"
+    "colorway": "Purple",
+    "slug": "nike-mind-001-wmns-palest-purple-hq4309-500",
+    "date_display": "15 octobre 2026"
   },
   {
     "id": "nike-mind-001-wmns-tarp-green-hq4309-301",
@@ -899,7 +947,9 @@
       }
     ],
     "description": "La Nike Mind 001 WMNS Tarp Green décline le modèle lifestyle féminin dans un colorway vert bâche sobre et tendance. Elle sort le jeudi 15 octobre 2026 au prix de 90€.",
-    "colorway": "Green"
+    "colorway": "Green",
+    "slug": "nike-mind-001-wmns-tarp-green-hq4309-301",
+    "date_display": "15 octobre 2026"
   },
   {
     "slug": "hellstar-adidas-megaride-s2-black-red-lb5626",
@@ -927,7 +977,10 @@
         "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/5155258973&u1=LB5626",
         "price": "170€"
       }
-    ]
+    ],
+    "id": "hellstar-adidas-megaride-s2-black-red-lb5626",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "new-balance-allerdale-bison-military-olive-uadwgrb",
@@ -950,7 +1003,10 @@
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=UADWGRB&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-made-in-uk-allerdale-moorland-uadwgrb-0353225",
         "price": "249€"
       }
-    ]
+    ],
+    "id": "new-balance-allerdale-bison-military-olive-uadwgrb",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "nike-ja-4-jaws-ja9742-400",
@@ -973,7 +1029,10 @@
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=JA9742-400&wgtarget=https://footdistrict.com/fr/products/nike-ja-4-jaws-deep-water-ja9742-400",
         "price": "135€"
       }
-    ]
+    ],
+    "id": "nike-ja-4-jaws-ja9742-400",
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "song-for-the-mute-adidas-samba-og-base-green-hp8257",
@@ -999,7 +1058,9 @@
       }
     ],
     "silhouette": "Adidas Samba",
-    "colorway": "Green"
+    "colorway": "Green",
+    "slug": "song-for-the-mute-adidas-samba-og-base-green-hp8257",
+    "date_display": "16 octobre 2026"
   },
   {
     "id": "song-for-the-mute-adidas-samba-og-core-black-hq7600",
@@ -1025,7 +1086,9 @@
       }
     ],
     "silhouette": "Adidas Samba",
-    "colorway": "Black"
+    "colorway": "Black",
+    "slug": "song-for-the-mute-adidas-samba-og-core-black-hq7600",
+    "date_display": "16 octobre 2026"
   },
   {
     "id": "song-for-the-mute-adidas-samba-og-supplier-colour-hp8256",
@@ -1050,12 +1113,14 @@
         "price": "174€"
       }
     ],
-    "silhouette": "Adidas Samba"
+    "silhouette": "Adidas Samba",
+    "slug": "song-for-the-mute-adidas-samba-og-supplier-colour-hp8256",
+    "date_display": "16 octobre 2026"
   },
   {
     "id": "nike-air-foamposite-one-phantom-barely-volt-iz1476-001",
     "sku": "IZ1476-001",
-    "brand": "Nike Air Foamposite One",
+    "brand": "Nike",
     "title": "Nike Air Foamposite One Phantom Barely Volt",
     "date": "2026-10-16",
     "price": 240,
@@ -1077,7 +1142,9 @@
         "raffle": false
       }
     ],
-    "colorway": "Phantom/Volt"
+    "colorway": "Phantom/Volt",
+    "slug": "nike-air-foamposite-one-phantom-barely-volt-iz1476-001",
+    "date_display": "16 octobre 2026"
   },
   {
     "id": "travis-scott-x-nike-zoom-vapor-12-hc-pale-ivory-jj2180-100",
@@ -1111,7 +1178,9 @@
         "raffle": false
       }
     ],
-    "colorway": "Ivory"
+    "colorway": "Ivory",
+    "slug": "travis-scott-x-nike-zoom-vapor-12-hc-pale-ivory-jj2180-100",
+    "date_display": "17 octobre 2026"
   },
   {
     "slug": "air-jordan-5-halloween-hq7978-001",
@@ -1139,7 +1208,10 @@
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=HQ7978001&wgtarget=https://www.asphaltgold.com/fr/products/nike-air-jordan-5-retro-og-halloween-black-picante-red-green-glow-in-the-dark",
         "price": "209€"
       }
-    ]
+    ],
+    "id": "air-jordan-5-halloween-hq7978-001",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "nike-air-max-90-iron-grey-photon-dust-iu7543-077",
@@ -1177,7 +1249,10 @@
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10949&wgtarget=https://www.opiumparis.com/fr/prochainement/4791-42632-air-max-90-iron-grey.html#/26-tailles-40",
         "price": "100€"
       }
-    ]
+    ],
+    "id": "nike-air-max-90-iron-grey-photon-dust-iu7543-077",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "travis-scott-nike-air-force-1-low-07-ice-blue-ostrich-jf7727-400",
@@ -1195,12 +1270,15 @@
         "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
         "price": "120€"
       }
-    ]
+    ],
+    "id": "travis-scott-nike-air-force-1-low-07-ice-blue-ostrich-jf7727-400",
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "sza-vans-authentic-knockdown-white-fish-print-vn00115awht",
     "sku": "VN00115AWHT",
-    "brand": "SZA x Vans Authentic Knockdown",
+    "brand": "Vans",
     "title": "Vans Authentic SZA Knockdown White Fish Print",
     "date": "2026-10-22",
     "price": 110,
@@ -1217,7 +1295,9 @@
         "raffle": false
       }
     ],
-    "colorway": "White"
+    "colorway": "White",
+    "slug": "sza-vans-authentic-knockdown-white-fish-print-vn00115awht",
+    "date_display": "22 octobre 2026"
   },
   {
     "slug": "new-balance-1890a-truffle-salt-silver-metallic-u18909vf",
@@ -1250,7 +1330,10 @@
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnew-balance-1890a-moc-toe-silver-u18909vf-argent-100883",
         "price": "199€"
       }
-    ]
+    ],
+    "id": "new-balance-1890a-truffle-salt-silver-metallic-u18909vf",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "hyperice-nike-air-zoom-hyperslide-light-orewood-brown-sail-iz6715-100",
@@ -1268,7 +1351,10 @@
         "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=Nike x-Hyperice&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fair-zoom-hyperslide-nike-x-hyperice-ZEl115MY%2FIZ6715-100",
         "price": "260€"
       }
-    ]
+    ],
+    "id": "hyperice-nike-air-zoom-hyperslide-light-orewood-brown-sail-iz6715-100",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "hyperice-nike-air-zoom-hyperslide-black-iz6715-001",
@@ -1286,7 +1372,10 @@
         "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=Nike x-Hyperice&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fair-zoom-hyperslide-nike-x-hyperice-ZEl115MY%2FIZ6715-001",
         "price": "260€"
       }
-    ]
+    ],
+    "id": "hyperice-nike-air-zoom-hyperslide-black-iz6715-001",
+    "featured": false,
+    "year": 2026
   },
   {
     "slug": "sza-vans-knu-skool-mule-black-white-vn00119wba2",
@@ -1298,12 +1387,15 @@
     "price": 85,
     "image_url": "/images/VN00119WBA2.webp",
     "wtc_url": "https://www.whentocop.fr/drops/sza-vans-knu-skool-mule-black-white-vn00119wba2",
-    "retailers": []
+    "retailers": [],
+    "id": "sza-vans-knu-skool-mule-black-white-vn00119wba2",
+    "featured": false,
+    "year": 2026
   },
   {
     "id": "new-balance-750-wmns-black-angora-u7507pm",
     "sku": "U7507PM",
-    "brand": "New Balance 750 WMNS",
+    "brand": "New Balance",
     "title": "New Balance 750 WMNS Black Angora",
     "date": "2026-10-24",
     "price": 100,
@@ -1337,12 +1429,14 @@
         "raffle": false
       }
     ],
-    "colorway": "Black"
+    "colorway": "Black",
+    "slug": "new-balance-750-wmns-black-angora-u7507pm",
+    "date_display": "24 octobre 2026"
   },
   {
     "id": "air-jordan-41-ruby-hv6474-601",
     "sku": "HV6474-601",
-    "brand": "Air Jordan 41",
+    "brand": "Air Jordan",
     "title": "Air Jordan 41 Ruby",
     "date": "2026-10-25",
     "price": 205,
@@ -1363,7 +1457,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "slug": "air-jordan-41-ruby-hv6474-601",
+    "date_display": "25 octobre 2026"
   },
   {
     "id": "nike-alphafly-4-sea-glass-laser-crimson-iu4686-002",
@@ -1383,7 +1479,9 @@
         "price": "280€"
       }
     ],
-    "colorway": "Crimson"
+    "colorway": "Crimson",
+    "slug": "nike-alphafly-4-sea-glass-laser-crimson-iu4686-002",
+    "date_display": "29 octobre 2026"
   },
   {
     "id": "nike-alphafly-4-wmns-sea-glass-laser-crimson-iz9609-002",
@@ -1403,12 +1501,14 @@
         "price": "280€"
       }
     ],
-    "colorway": "Crimson"
+    "colorway": "Crimson",
+    "slug": "nike-alphafly-4-wmns-sea-glass-laser-crimson-iz9609-002",
+    "date_display": "29 octobre 2026"
   },
   {
     "id": "nike-book-2-oogie-boogie-io7942-001",
     "sku": "IO7942-001",
-    "brand": "Nike Book 2",
+    "brand": "Nike",
     "title": "Nike Book 2 Oogie Boogie",
     "date": "2026-10-30",
     "price": 155,
@@ -1429,12 +1529,14 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "slug": "nike-book-2-oogie-boogie-io7942-001",
+    "date_display": "30 octobre 2026"
   },
   {
     "id": "nike-ja-4-halloween-io7939-300",
     "sku": "IO7939-300",
-    "brand": "Nike Ja 4",
+    "brand": "Nike",
     "title": "Nike Ja 4 Halloween",
     "date": "2026-10-31",
     "price": 145,
@@ -1455,12 +1557,14 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "slug": "nike-ja-4-halloween-io7939-300",
+    "date_display": "31 octobre 2026"
   },
   {
     "id": "nike-ja-4-radar-ja9745-400",
     "sku": "JA9745-400",
-    "brand": "Nike Ja 4",
+    "brand": "Nike",
     "title": "Nike Ja 4 Radar",
     "date": "2026-10-31",
     "price": 140,
@@ -1481,7 +1585,9 @@
         "resell": false,
         "raffle": false
       }
-    ]
+    ],
+    "slug": "nike-ja-4-radar-ja9745-400",
+    "date_display": "31 octobre 2026"
   },
   {
     "id": "air-jordan-4-light-army-ja5911-320",
@@ -1495,7 +1601,9 @@
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-light-army-ja5911-320",
     "featured": false,
     "retailers": [],
-    "silhouette": "Air Jordan 4"
+    "silhouette": "Air Jordan 4",
+    "slug": "air-jordan-4-light-army-ja5911-320",
+    "date_display": "31 octobre 2026"
   },
   {
     "id": "victor-wembanyama-nike-gt-cut-4-statue-of-liberty-iw0737-300",
@@ -1508,12 +1616,14 @@
     "image_url": "/images/IW0737-300.webp",
     "wtc_url": "https://www.whentocop.fr/drops/victor-wembanyama-nike-gt-cut-4-statue-of-liberty-iw0737-300",
     "featured": false,
-    "retailers": []
+    "retailers": [],
+    "slug": "victor-wembanyama-nike-gt-cut-4-statue-of-liberty-iw0737-300",
+    "date_display": "5 novembre 2026"
   },
   {
     "id": "nike-book-2-desert-night-fz7013-003",
     "sku": "FZ7013-003",
-    "brand": "Nike Book 2",
+    "brand": "Nike",
     "title": "Nike Book 2 Desert Night",
     "date": "2026-11-06",
     "price": 145,
@@ -1535,12 +1645,14 @@
         "raffle": false
       }
     ],
-    "colorway": "Desert"
+    "colorway": "Desert",
+    "slug": "nike-book-2-desert-night-fz7013-003",
+    "date_display": "6 novembre 2026"
   },
   {
     "id": "air-jordan-11-wmns-lapis-iz1800-400",
     "sku": "IZ1800-400",
-    "brand": "Air Jordan 11 WMNS",
+    "brand": "Air Jordan",
     "title": "Air Jordan 11 WMNS LAPIS",
     "date": "2026-11-11",
     "price": 230,
@@ -1562,7 +1674,9 @@
         "raffle": false
       }
     ],
-    "silhouette": "Air Jordan 11"
+    "silhouette": "Air Jordan 11",
+    "slug": "air-jordan-11-wmns-lapis-iz1800-400",
+    "date_display": "11 novembre 2026"
   },
   {
     "id": "vans-lx-old-skool-36-pearlized-pearlized-black-fluro-lime-vn000e8vhhc",
@@ -1576,7 +1690,9 @@
     "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-pearlized-pearlized-black-fluro-lime-vn000e8vhhc",
     "featured": false,
     "retailers": [],
-    "colorway": "Black/Lime"
+    "colorway": "Black/Lime",
+    "slug": "vans-lx-old-skool-36-pearlized-pearlized-black-fluro-lime-vn000e8vhhc",
+    "date_display": "12 novembre 2026"
   },
   {
     "id": "vans-lx-old-skool-36-pearlized-navy-black-vn000e8vya61",
@@ -1606,7 +1722,9 @@
         "price": "135€"
       }
     ],
-    "colorway": "Navy/Black"
+    "colorway": "Navy/Black",
+    "slug": "vans-lx-old-skool-36-pearlized-navy-black-vn000e8vya61",
+    "date_display": "19 novembre 2026"
   },
   {
     "id": "adidas-ae-3-lucid-pink-kh8545",
@@ -1620,7 +1738,9 @@
     "wtc_url": "https://www.whentocop.fr/drops/adidas-ae-3-lucid-pink-kh8545",
     "featured": false,
     "retailers": [],
-    "colorway": "Pink"
+    "colorway": "Pink",
+    "slug": "adidas-ae-3-lucid-pink-kh8545",
+    "date_display": "20 novembre 2026"
   },
   {
     "id": "vans-old-skool-36-pearlized-black-marshmallow-white-vn000zb8bpr",
@@ -1634,7 +1754,9 @@
     "wtc_url": "https://www.whentocop.fr/drops/vans-old-skool-36-pearlized-black-marshmallow-white-vn000zb8bpr",
     "featured": false,
     "retailers": [],
-    "colorway": "Black/White"
+    "colorway": "Black/White",
+    "slug": "vans-old-skool-36-pearlized-black-marshmallow-white-vn000zb8bpr",
+    "date_display": "27 novembre 2026"
   },
   {
     "id": "taller-de-rafa-nike-air-max-goadome-low-mosswood-brown-phantom-iu4876-200",
@@ -1648,7 +1770,9 @@
     "wtc_url": "https://www.whentocop.fr/drops/taller-de-rafa-nike-air-max-goadome-low-mosswood-brown-phantom-iu4876-200",
     "featured": false,
     "retailers": [],
-    "colorway": "Brown/Phantom"
+    "colorway": "Brown/Phantom",
+    "slug": "taller-de-rafa-nike-air-max-goadome-low-mosswood-brown-phantom-iu4876-200",
+    "date_display": "30 novembre 2026"
   },
   {
     "id": "nike-mind-001-work-blue-hq4307-401",
@@ -1662,7 +1786,9 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-work-blue-hq4307-401",
     "featured": false,
     "retailers": [],
-    "colorway": "Blue"
+    "colorway": "Blue",
+    "slug": "nike-mind-001-work-blue-hq4307-401",
+    "date_display": "30 novembre 2026"
   },
   {
     "slug": "adidas-dame-x-all-star-jq9467",
@@ -1685,477 +1811,9 @@
         "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
         "price": "90€"
       }
-    ]
-  },
-  {
-    "id": "the-jordan-spiz-ike-low-realtree-camo-is-ready-for-fall",
-    "slug": "the-jordan-spiz-ike-low-realtree-camo-is-ready-for-fall",
-    "title": "The Jordan Spiz’ike Low “Realtree Camo” Is Ready For Fall",
-    "brand": "Jordan",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/07/jordan-spizike-low-realtree-camo-iv4403-200/",
-    "wtc_url": "https://www.whentocop.fr/drops/the-jordan-spiz-ike-low-realtree-camo-is-ready-for-fall",
-    "retailers": [],
+    ],
+    "id": "adidas-dame-x-all-star-jq9467",
     "featured": false,
-    "added_at": "2026-10-07T20:00:01.730957+00:00"
-  },
-  {
-    "id": "nike-s-glow-in-the-dark-foams-are-releasing-in-little-posite-sizes",
-    "slug": "nike-s-glow-in-the-dark-foams-are-releasing-in-little-posite-sizes",
-    "title": "Nike’s “Glow In The Dark” Foams Are Releasing In Little Posite Sizes",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/07/nike-little-posite-pro-glow-in-the-dark-iv7559-100/",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-s-glow-in-the-dark-foams-are-releasing-in-little-posite-sizes",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-07T20:00:01.730957+00:00"
-  },
-  {
-    "id": "kith-unites-giorgio-armani-and-asics-on-the-gel-mai-0-1",
-    "slug": "kith-unites-giorgio-armani-and-asics-on-the-gel-mai-0-1",
-    "title": "KITH Unites Giorgio Armani And ASICS On The GEL-Mai 0.1",
-    "brand": "ASICS",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/07/kith-giorgio-armani-asics-gel-mai/",
-    "wtc_url": "https://www.whentocop.fr/drops/kith-unites-giorgio-armani-and-asics-on-the-gel-mai-0-1",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-07T18:00:01.524782+00:00",
-    "year": 2026
-  },
-  {
-    "id": "vans-old-skool-grabs-gore-tex-fabrics-fall-winter",
-    "slug": "vans-old-skool-grabs-gore-tex-fabrics-fall-winter",
-    "title": "Vans Old Skool Grabs GORE-Tex Fabrics Fall/Winter",
-    "brand": "Vans",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/07/vans-old-skool-gore-tex/",
-    "wtc_url": "https://www.whentocop.fr/drops/vans-old-skool-grabs-gore-tex-fabrics-fall-winter",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-07T18:00:01.524782+00:00",
-    "colorway": "Fall/Winter",
-    "year": 2026
-  },
-  {
-    "id": "air-jordan-12-first-obsidian-retro",
-    "slug": "air-jordan-12-first-obsidian-retro",
-    "title": "Air Jordan 12 First “Obsidian” Retro",
-    "brand": "Air Jordan",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/07/air-jordan-12-obsidian-ct8013-401/",
-    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-12-first-obsidian-retro",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-07T18:00:01.524782+00:00",
-    "silhouette": "Air Jordan 12",
-    "colorway": "Obsidian",
-    "year": 2026
-  },
-  {
-    "id": "new-balance-2010-is-still-going-patent-leather-crazy-halloween-pair",
-    "slug": "new-balance-2010-is-still-going-patent-leather-crazy-halloween-pair",
-    "title": "New Balance 2010 Is Still Going Patent Leather Crazy “Halloween” Pair",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/07/new-balance-2010-black-team-orange-sea-salt-u20104ns/",
-    "wtc_url": "https://www.whentocop.fr/drops/new-balance-2010-is-still-going-patent-leather-crazy-halloween-pair",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-07T18:00:01.524782+00:00",
-    "year": 2026
-  },
-  {
-    "id": "the-nike-air-diamond-turf-ii-cleat-revisits-the-lifestyle-playbook",
-    "slug": "the-nike-air-diamond-turf-ii-cleat-revisits-the-lifestyle-playbook",
-    "title": "The Nike Air Diamond Turf II Cleat Revisits The Lifestyle Playbook",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/07/nike-air-diamond-turf-2-cleats-white-black-if4807-101/",
-    "wtc_url": "https://www.whentocop.fr/drops/the-nike-air-diamond-turf-ii-cleat-revisits-the-lifestyle-playbook",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-07T18:00:01.524782+00:00",
-    "year": 2026
-  },
-  {
-    "id": "nike-air-force-1-kentucky-oregon-texas-georgia-line-up-ncaa",
-    "slug": "nike-air-force-1-kentucky-oregon-texas-georgia-line-up-ncaa",
-    "title": "Nike Air Force 1 Kentucky, Oregon, Texas, Georgia Line Up “NCAA”",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/07/nike-air-force-1-low-ncaa-college-pack/",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-kentucky-oregon-texas-georgia-line-up-ncaa",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-07T16:00:01.151362+00:00",
-    "silhouette": "Air Force 1",
-    "year": 2026
-  },
-  {
-    "id": "salomon-xt-6-bstn-unleashes-first-ever-collaboration",
-    "slug": "salomon-xt-6-bstn-unleashes-first-ever-collaboration",
-    "title": "Salomon XT-6 BSTN Unleashes First-Ever Collaboration",
-    "brand": "Salomon",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/bstn-salomon-xt-6-5am/",
-    "wtc_url": "https://www.whentocop.fr/drops/salomon-xt-6-bstn-unleashes-first-ever-collaboration",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-07T02:00:01.756602+00:00",
-    "year": 2026
-  },
-  {
-    "id": "anthony-edwards-takes-shots-at-drake-and-kevin-durant-s-nike-ad",
-    "slug": "anthony-edwards-takes-shots-at-drake-and-kevin-durant-s-nike-ad",
-    "title": "Anthony Edwards Takes Shots At Drake And Kevin Durant’s Nike Ad",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/anthony-edwards-prizepicks-ad/",
-    "wtc_url": "https://www.whentocop.fr/drops/anthony-edwards-takes-shots-at-drake-and-kevin-durant-s-nike-ad",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-07T00:00:02.118419+00:00",
-    "year": 2026
-  },
-  {
-    "id": "nike-air-force-1-wheat-s-are-back-fall-winter",
-    "slug": "nike-air-force-1-wheat-s-are-back-fall-winter",
-    "title": "Nike Air Force 1 Wheat s Are Back Fall/Winter",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/wheat-nike-air-force-1s-are-back-for-fall-winter-2026/",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-wheat-s-are-back-fall-winter",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T22:00:01.916820+00:00",
-    "silhouette": "Air Force 1",
-    "colorway": "Wheat",
-    "year": 2026
-  },
-  {
-    "id": "the-nike-air-max-ecstasy-plus-treks-into-desert-khaki",
-    "slug": "the-nike-air-max-ecstasy-plus-treks-into-desert-khaki",
-    "title": "The Nike Air Max Ecstasy Plus Treks Into “Desert Khaki”",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/nike-air-max-ecstasy-plus-desert-khaki-metallic-gold-geode-teal-iv7022-200/",
-    "wtc_url": "https://www.whentocop.fr/drops/the-nike-air-max-ecstasy-plus-treks-into-desert-khaki",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T22:00:01.916820+00:00",
-    "colorway": "Desert/Khaki",
-    "year": 2026
-  },
-  {
-    "id": "jayson-tatum-and-cncpts-join-up-once-again-for-the-jordan-tatum-5-laser",
-    "slug": "jayson-tatum-and-cncpts-join-up-once-again-for-the-jordan-tatum-5-laser",
-    "title": "Jayson Tatum And CNCPTS Join Up Once Again For The Jordan Tatum 5 “Laser”",
-    "brand": "Jordan",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/jordan-tatum-5-laser/",
-    "wtc_url": "https://www.whentocop.fr/drops/jayson-tatum-and-cncpts-join-up-once-again-for-the-jordan-tatum-5-laser",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T22:00:01.916820+00:00",
-    "year": 2026
-  },
-  {
-    "id": "nike-air-max-95-enchanting-illusion-green",
-    "slug": "nike-air-max-95-enchanting-illusion-green",
-    "title": "Nike Air Max 95 Enchanting “Illusion Green”",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/nike-air-max-95-white-black-metallic-silver-illusion-green-ir5591-100/",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-95-enchanting-illusion-green",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T22:00:01.916820+00:00",
-    "silhouette": "Air Max 95",
-    "colorway": "Green",
-    "year": 2026
-  },
-  {
-    "id": "the-adidas-anthony-edwards-3-omen-is-ready-for-halloween",
-    "slug": "the-adidas-anthony-edwards-3-omen-is-ready-for-halloween",
-    "title": "The adidas Anthony Edwards 3 “Omen” Is Ready For Halloween",
-    "brand": "Adidas",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/adidas-anthony-edwards-3-ae3-halloween-kj3021/",
-    "wtc_url": "https://www.whentocop.fr/drops/the-adidas-anthony-edwards-3-omen-is-ready-for-halloween",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T20:00:01.583081+00:00",
-    "year": 2026
-  },
-  {
-    "id": "the-nike-giannis-freak-8-goes-zombie-green-for-halloween",
-    "slug": "the-nike-giannis-freak-8-goes-zombie-green-for-halloween",
-    "title": "The Nike Giannis Freak 8 Goes Zombie Green For Halloween",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/nike-giannis-freak-8-halloween/",
-    "wtc_url": "https://www.whentocop.fr/drops/the-nike-giannis-freak-8-goes-zombie-green-for-halloween",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T20:00:01.583081+00:00",
-    "colorway": "Green",
-    "year": 2026
-  },
-  {
-    "id": "the-nike-hyperflight-fuses-eras-with-safari-orange",
-    "slug": "the-nike-hyperflight-fuses-eras-with-safari-orange",
-    "title": "The Nike Hyperflight Fuses Eras With “Safari” Orange",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/nike-zoom-hyperflight-safari-iz2573-010/",
-    "wtc_url": "https://www.whentocop.fr/drops/the-nike-hyperflight-fuses-eras-with-safari-orange",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T20:00:01.583081+00:00",
-    "colorway": "Orange",
-    "year": 2026
-  },
-  {
-    "id": "trail-and-lifestyle-collide-on-the-new-balance-tl900",
-    "slug": "trail-and-lifestyle-collide-on-the-new-balance-tl900",
-    "title": "Trail And Lifestyle Collide On The New Balance TL900",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/new-balance-tl900-sport-green-black-utl903ti/",
-    "wtc_url": "https://www.whentocop.fr/drops/trail-and-lifestyle-collide-on-the-new-balance-tl900",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T20:00:01.583081+00:00",
-    "year": 2026
-  },
-  {
-    "id": "nike-hides-a-skeleton-foot-on-the-vomero-premium",
-    "slug": "nike-hides-a-skeleton-foot-on-the-vomero-premium",
-    "title": "Nike Hides A Skeleton Foot On The Vomero Premium",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/nike-vomero-premium-skeleton-iv7509-001/",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-hides-a-skeleton-foot-on-the-vomero-premium",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T20:00:01.583081+00:00",
-    "year": 2026
-  },
-  {
-    "id": "nike-air-force-1-snkrs-previews-upcoming-holiday",
-    "slug": "nike-air-force-1-snkrs-previews-upcoming-holiday",
-    "title": "Nike Air Force 1 SNKRS Previews Upcoming Holiday",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/nike-air-force-1-snkrs-verified-holiday-2026-preview/",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-snkrs-previews-upcoming-holiday",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T16:00:01.739059+00:00",
-    "silhouette": "Air Force 1",
-    "year": 2026
-  },
-  {
-    "id": "nike-air-force-1-summons-pinhead-hellraiser-inspired-nightmare",
-    "slug": "nike-air-force-1-summons-pinhead-hellraiser-inspired-nightmare",
-    "title": "Nike Air Force 1 Summons Pinhead Hellraiser-Inspired ‘ “Nightmare”",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/06/nike-air-force-1-01-nightmare-hellraiser-pinhead-ix0104-001/",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-summons-pinhead-hellraiser-inspired-nightmare",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T16:00:01.739059+00:00",
-    "silhouette": "Air Force 1",
-    "year": 2026
-  },
-  {
-    "id": "nike-lebron-james-older-his-shoes-lighter",
-    "slug": "nike-lebron-james-older-his-shoes-lighter",
-    "title": "Nike LeBron James Older, His Shoes Lighter",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/05/nike-lebron-24-stars-io8204-400/",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-lebron-james-older-his-shoes-lighter",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T08:00:01.191321+00:00",
-    "year": 2026
-  },
-  {
-    "id": "miu-miu-revives-the-new-balance-rc150-for-spring-summer-2027",
-    "slug": "miu-miu-revives-the-new-balance-rc150-for-spring-summer-2027",
-    "title": "Miu Miu Revives The New Balance RC150 For Spring/Summer 2027",
-    "brand": "New Balance",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/05/miu-miu-new-balance-rc150/",
-    "wtc_url": "https://www.whentocop.fr/drops/miu-miu-revives-the-new-balance-rc150-for-spring-summer-2027",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T08:00:01.191321+00:00",
-    "colorway": "Spring/Summer",
-    "year": 2027
-  },
-  {
-    "id": "nike-lebron-first-weartest-sample",
-    "slug": "nike-lebron-first-weartest-sample",
-    "title": "Nike LeBron First Weartest Sample",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/05/nike-lebron-24-black-weartest/",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-lebron-first-weartest-sample",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T08:00:01.191321+00:00",
-    "year": 2026
-  },
-  {
-    "id": "the-jordan-heir-series-2-is-ready-for-breast-cancer-awareness-month",
-    "slug": "the-jordan-heir-series-2-is-ready-for-breast-cancer-awareness-month",
-    "title": "The Jordan Heir Series 2 Is Ready For Breast Cancer Awareness Month",
-    "brand": "Jordan",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/05/jordan-heir-series-2-pink-pow-swan-smoke-grey-plum-fog-hv4417-600/",
-    "wtc_url": "https://www.whentocop.fr/drops/the-jordan-heir-series-2-is-ready-for-breast-cancer-awareness-month",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T08:00:01.191321+00:00",
-    "year": 2026
-  },
-  {
-    "id": "nike-kd-kevin-durant-wants-cleats",
-    "slug": "nike-kd-kevin-durant-wants-cleats",
-    "title": "Nike KD Kevin Durant Wants Cleats",
-    "brand": "Nike",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/05/kevin-durant-nike-kd-4-custom-cleats/",
-    "wtc_url": "https://www.whentocop.fr/drops/nike-kd-kevin-durant-wants-cleats",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T08:00:01.191321+00:00",
-    "year": 2026
-  },
-  {
-    "id": "clicks-brings-the-animal-kingdom-to-the-adidas-xlg-2-0-wild-rivals-pack",
-    "slug": "clicks-brings-the-animal-kingdom-to-the-adidas-xlg-2-0-wild-rivals-pack",
-    "title": "Clicks Brings The Animal Kingdom To The adidas XLG 2.0 “Wild Rivals” Pack",
-    "brand": "Adidas",
-    "date": "TBD",
-    "price": 0,
-    "sku": "",
-    "image_url": "",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/05/clicks-adidas-adistar-xlg-2-0-wild-rivals-pack/",
-    "wtc_url": "https://www.whentocop.fr/drops/clicks-brings-the-animal-kingdom-to-the-adidas-xlg-2-0-wild-rivals-pack",
-    "retailers": [],
-    "featured": false,
-    "added_at": "2026-10-06T08:00:01.191321+00:00",
     "year": 2026
   },
   {
@@ -2163,7 +1821,7 @@
     "title": "ASICS GEL-Kayano 14 Docks “Carrier Grey”",
     "brand": "ASICS",
     "date": "TBD",
-    "price": 165.0,
+    "price": 165,
     "sku": "1203A537-026",
     "image_url": "/images/1203A537-026.jpg",
     "source": "Sneaker News",
@@ -2188,14 +1846,15 @@
     ],
     "silhouette": "Asics Gel-Kayano",
     "colorway": "Grey",
-    "year": 2026
+    "year": 2026,
+    "slug": "asics-gel-kayano-14-docks-carrier-grey-1203a537-026"
   },
   {
     "id": "air-jordan-1-mid-approaches-sneakerboot-territory-iq5491-001",
     "title": "Air Jordan 1 Mid Approaches Sneakerboot Territory",
-    "brand": "Jordan Brand",
+    "brand": "Jordan",
     "date": "TBD",
-    "price": 140.0,
+    "price": 140,
     "sku": "IQ5491-001",
     "image_url": "/images/IQ5491-001.jpg",
     "source": "Sneaker News",
@@ -2203,14 +1862,16 @@
     "added_at": "2026-09-27T22:00:03.110640+00:00",
     "featured": false,
     "silhouette": "Air Jordan 1",
-    "year": 2026
+    "year": 2026,
+    "slug": "air-jordan-1-mid-approaches-sneakerboot-territory-iq5491-001",
+    "retailers": []
   },
   {
     "id": "air-jordan-1-mid-steps-in-pistachio-frost-bq6472-124",
     "title": "Air Jordan 1 Mid Steps “Pistachio Frost”",
-    "brand": "Jordan Brand",
+    "brand": "Jordan",
     "date": "TBD",
-    "price": 130.0,
+    "price": 130,
     "sku": "BQ6472-124",
     "image_url": "/images/BQ6472-124.jpg",
     "source": "Sneaker News",
@@ -2219,12 +1880,14 @@
     "featured": false,
     "silhouette": "Air Jordan 1",
     "colorway": "Pistachio",
-    "year": 2026
+    "year": 2026,
+    "slug": "air-jordan-1-mid-steps-in-pistachio-frost-bq6472-124",
+    "retailers": []
   },
   {
     "id": "solefly-s-air-jordan-5-collaboration-is-revealed-iu0734-001",
     "title": "Air Jordan 5 SoleFly’s Collaboration Is",
-    "brand": "Jordan Brand",
+    "brand": "Jordan",
     "date": "TBD",
     "price": null,
     "sku": "IU0734-001",
@@ -2234,14 +1897,16 @@
     "added_at": "2026-09-24T06:00:02.268080+00:00",
     "featured": false,
     "silhouette": "Air Jordan 5",
-    "year": 2026
+    "year": 2026,
+    "slug": "solefly-s-air-jordan-5-collaboration-is-revealed-iu0734-001",
+    "retailers": []
   },
   {
     "id": "cactus-plant-flea-market-s-nike-flea-1-returns-holiday-2026-iu5238-700",
     "title": "Cactus Plant Flea Market’s Nike Flea 1 Returns Holiday 2026",
     "brand": "Nike",
     "date": "TBD",
-    "price": 180.0,
+    "price": 180,
     "sku": "IU5238-700",
     "image_url": "/images/IU5238-700.jpg",
     "source": "Sneaker News",
@@ -2249,28 +1914,32 @@
     "added_at": "2026-09-23T06:00:02.426088+00:00",
     "featured": false,
     "colorway": "Cactus",
-    "year": 2026
+    "year": 2026,
+    "slug": "cactus-plant-flea-market-s-nike-flea-1-returns-holiday-2026-iu5238-700",
+    "retailers": []
   },
   {
     "id": "jalen-brunson-wears-the-nike-blazy-alongside-katseye-for-snl-season-premiere-im2523-001",
     "title": "Jalen Brunson Wears The Nike Blazy Alongside KATSEYE For SNL Season Premiere",
     "brand": "Nike",
     "date": "TBD",
-    "price": 95.0,
+    "price": 95,
     "sku": "IM2523-001",
     "image_url": "/images/IM2523-001.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/27/jalen-brunson-katseye-saturday-night-live-snl-premiere/",
     "added_at": "2026-09-27T22:00:03.110213+00:00",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "slug": "jalen-brunson-wears-the-nike-blazy-alongside-katseye-for-snl-season-premiere-im2523-001",
+    "retailers": []
   },
   {
     "id": "jordan-spiz-ike-low-softens-up-in-swan-ir1836-105",
     "title": "Jordan Spiz’ike Low Softens Up In “Swan”",
-    "brand": "Jordan Brand",
+    "brand": "Jordan",
     "date": "TBD",
-    "price": 165.0,
+    "price": 165,
     "sku": "IR1836-105",
     "image_url": "/images/IR1836-105.jpg",
     "source": "Sneaker News",
@@ -2293,14 +1962,15 @@
         "raffle": false
       }
     ],
-    "year": 2026
+    "year": 2026,
+    "slug": "jordan-spiz-ike-low-softens-up-in-swan-ir1836-105"
   },
   {
     "id": "nike-air-force-1-low-continues-its-strong-fall-push-in-cargo-khaki-fj4146-304",
     "title": "Nike Air Force 1 Low Continues Strong Fall Push “Cargo Khaki”",
     "brand": "Nike",
     "date": "TBD",
-    "price": 115.0,
+    "price": 115,
     "sku": "FJ4146-304",
     "image_url": "/images/FJ4146-304.jpg",
     "source": "Sneaker News",
@@ -2309,7 +1979,9 @@
     "featured": false,
     "silhouette": "Air Force 1",
     "colorway": "Khaki",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-air-force-1-low-continues-its-strong-fall-push-in-cargo-khaki-fj4146-304",
+    "retailers": []
   },
   {
     "id": "this-nike-air-force-1-pack-reminds-you-to-be-mindful-iq0136-200",
@@ -2340,14 +2012,15 @@
       }
     ],
     "silhouette": "Air Force 1",
-    "year": 2026
+    "year": 2026,
+    "slug": "this-nike-air-force-1-pack-reminds-you-to-be-mindful-iq0136-200"
   },
   {
     "id": "nike-air-liquid-max-looks-to-clear-soles-in-this-black-variation-iq7634-007",
     "title": "Nike Air Liquid Max Looks To “Clear” Soles In This Black Variation",
     "brand": "Nike",
     "date": "TBD",
-    "price": 220.0,
+    "price": 220,
     "sku": "IQ7634-007",
     "image_url": "/images/IQ7634-007.jpg",
     "source": "Sneaker News",
@@ -2371,14 +2044,15 @@
       }
     ],
     "colorway": "Black",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-air-liquid-max-looks-to-clear-soles-in-this-black-variation-iq7634-007"
   },
   {
     "id": "nike-air-max-90-reaches-for-a-grid-tongue-in-grey-and-navy-hq3817-002",
     "title": "Nike Air Max 90 Reaches “Grid Tongue” Grey Navy",
     "brand": "Nike",
     "date": "TBD",
-    "price": 140.0,
+    "price": 140,
     "sku": "HQ3817-002",
     "image_url": "/images/HQ3817-002.jpg",
     "source": "Sneaker News",
@@ -2387,14 +2061,16 @@
     "featured": false,
     "silhouette": "Air Max 90",
     "colorway": "Grey/Navy",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-air-max-90-reaches-for-a-grid-tongue-in-grey-and-navy-hq3817-002",
+    "retailers": []
   },
   {
     "id": "nike-air-max-95-goes-fabric-for-this-light-bone-look-iq7128-003",
     "title": "Nike Air Max 95 Fabric “Light Bone”",
     "brand": "Nike",
     "date": "TBD",
-    "price": 190.0,
+    "price": 190,
     "sku": "IQ7128-003",
     "image_url": "/images/IQ7128-003.jpg",
     "source": "Sneaker News",
@@ -2403,14 +2079,16 @@
     "featured": false,
     "silhouette": "Air Max 95",
     "colorway": "Light Bone",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-air-max-95-goes-fabric-for-this-light-bone-look-iq7128-003",
+    "retailers": []
   },
   {
     "id": "hit-the-links-with-the-nike-air-max-95-golf-dark-iris-hv4696-004",
     "title": "Nike Air Max 95 Golf “Dark Iris”",
     "brand": "Nike",
     "date": "TBD",
-    "price": 210.0,
+    "price": 210,
     "sku": "HV4696-004",
     "image_url": "/images/HV4696-004.jpg",
     "source": "Sneaker News",
@@ -2434,7 +2112,8 @@
       }
     ],
     "silhouette": "Air Max 95",
-    "year": 2026
+    "year": 2026,
+    "slug": "hit-the-links-with-the-nike-air-max-95-golf-dark-iris-hv4696-004"
   },
   {
     "id": "nike-odes-to-korea-on-the-air-max-95-golf-iq3467-100",
@@ -2449,14 +2128,16 @@
     "added_at": "2026-09-23T06:00:02.421332+00:00",
     "featured": false,
     "silhouette": "Air Max 95",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-odes-to-korea-on-the-air-max-95-golf-iq3467-100",
+    "retailers": []
   },
   {
     "id": "nike-air-max-95-gives-acg-energy-for-fall-ix6347-200",
     "title": "Nike Air Max 95 “ACG” Energy Fall",
     "brand": "Nike",
     "date": "TBD",
-    "price": 190.0,
+    "price": 190,
     "sku": "IX6347-200",
     "image_url": "/images/IX6347-200.jpg",
     "source": "Sneaker News",
@@ -2464,14 +2145,16 @@
     "added_at": "2026-09-23T06:00:02.421646+00:00",
     "featured": false,
     "silhouette": "Air Max 95",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-air-max-95-gives-acg-energy-for-fall-ix6347-200",
+    "retailers": []
   },
   {
     "id": "nike-air-max-goadome-low-croc-skin-pack-drops-in-october-iv4517-600",
     "title": "Nike Air Max Goadome Low Croc-Skin Pink",
     "brand": "Nike",
     "date": "TBD",
-    "price": 175.0,
+    "price": 175,
     "sku": "IV4517-600",
     "image_url": "/images/IV4517-600.jpg",
     "source": "Sneaker News",
@@ -2479,14 +2162,16 @@
     "added_at": "2026-09-24T06:00:02.267717+00:00",
     "featured": false,
     "colorway": "Pink",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-air-max-goadome-low-croc-skin-pack-drops-in-october-iv4517-600",
+    "retailers": []
   },
   {
     "id": "one-piece-x-nike-air-max-plus-ope-ope-iw1283-600",
     "title": "Nike Air Max Plus One Piece “Ope Ope”",
     "brand": "Nike",
     "date": "TBD",
-    "price": 210.0,
+    "price": 210,
     "sku": "IW1283-600",
     "image_url": "/images/IW1283-600.jpg",
     "source": "Sneaker News",
@@ -2510,14 +2195,15 @@
       }
     ],
     "silhouette": "Air Max Plus",
-    "year": 2026
+    "year": 2026,
+    "slug": "one-piece-x-nike-air-max-plus-ope-ope-iw1283-600"
   },
   {
     "id": "nike-air-max-plus-serves-up-the-joker-color-combo-dm0032-046",
     "title": "Nike Air Max Plus Up “Joker” Color Combo",
     "brand": "Nike",
     "date": "TBD",
-    "price": 180.0,
+    "price": 180,
     "sku": "DM0032-046",
     "image_url": "/images/DM0032-046.jpg",
     "source": "Sneaker News",
@@ -2541,14 +2227,15 @@
       }
     ],
     "silhouette": "Air Max Plus",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-air-max-plus-serves-up-the-joker-color-combo-dm0032-046"
   },
   {
     "id": "nike-air-max-plus-vii-cultivates-raspberry-red-hq2197-601",
     "title": "Nike Air Max Plus VII Cultivates “Raspberry Red”",
     "brand": "Nike",
     "date": "TBD",
-    "price": 180.0,
+    "price": 180,
     "sku": "HQ2197-601",
     "image_url": "/images/HQ2197-601.jpg",
     "source": "Sneaker News",
@@ -2573,14 +2260,15 @@
     ],
     "silhouette": "Air Max Plus",
     "colorway": "Red",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-air-max-plus-vii-cultivates-raspberry-red-hq2197-601"
   },
   {
     "id": "nike-air-max-plus-metallic-silver-pink-isn-t-done-with-summer-yet-iv2840-600",
     "title": "Nike Air Max Plus “Metallic Silver/Pink” Isn’t Done Summer Yet",
     "brand": "Nike",
     "date": "TBD",
-    "price": 190.0,
+    "price": 190,
     "sku": "IV2840-600",
     "image_url": "/images/IV2840-600.jpg",
     "source": "Sneaker News",
@@ -2589,28 +2277,32 @@
     "featured": false,
     "silhouette": "Air Max Plus",
     "colorway": "Metallic Silver/Pink",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-air-max-plus-metallic-silver-pink-isn-t-done-with-summer-yet-iv2840-600",
+    "retailers": []
   },
   {
     "id": "nike-caitlin-1-snacks-down-a-cotton-candy-colorway-jf3474-400",
     "title": "Nike Caitlin 1 Snacks Down A “Cotton Candy” Colorway",
     "brand": "Nike",
     "date": "TBD",
-    "price": 140.0,
+    "price": 140,
     "sku": "JF3474-400",
     "image_url": "/images/JF3474-400.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/25/nike-caitlin-1-racer-blue-melon-tint-jf3474-400/",
     "added_at": "2026-09-26T06:00:02.853725+00:00",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-caitlin-1-snacks-down-a-cotton-candy-colorway-jf3474-400",
+    "retailers": []
   },
   {
     "id": "nike-dunk-low-scribbles-out-a-collegiate-shadow-brown-im4415-201",
     "title": "Nike Dunk Low Scribbles Out Collegiate “Shadow Brown”",
     "brand": "Nike",
     "date": "TBD",
-    "price": 120.0,
+    "price": 120,
     "sku": "IM4415-201",
     "image_url": "/images/IM4415-201.jpg",
     "source": "Sneaker News",
@@ -2635,21 +2327,24 @@
     ],
     "silhouette": "Dunk Low",
     "colorway": "Brown",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-dunk-low-scribbles-out-a-collegiate-shadow-brown-im4415-201"
   },
   {
     "id": "nike-first-sight-shadow-pens-an-ink-like-gridiron-colorway-hq2410-003",
     "title": "Nike First Sight Shadow Pens An Ink-Like “Gridiron” Colorway",
     "brand": "Nike",
     "date": "TBD",
-    "price": 145.0,
+    "price": 145,
     "sku": "HQ2410-003",
     "image_url": "/images/HQ2410-003.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/24/nike-first-sight-shadow-gridiron-black-metallic-silver-hq2410-003/",
     "added_at": "2026-09-25T06:00:01.936190+00:00",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-first-sight-shadow-pens-an-ink-like-gridiron-colorway-hq2410-003",
+    "retailers": []
   },
   {
     "id": "nike-moon-shoe-is-in-full-bloom-with-floral-mesh-iz6169-122",
@@ -2663,28 +2358,32 @@
     "buy_url": "https://sneakernews.com/2026/09/26/nike-moon-shoe-og-floral-mesh-iz6169-122/",
     "added_at": "2026-09-27T06:00:01.952754+00:00",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-moon-shoe-is-in-full-bloom-with-floral-mesh-iz6169-122",
+    "retailers": []
   },
   {
     "id": "nike-runs-more-fades-with-the-vomero-premium-hq2050-003",
     "title": "Nike Runs More Fades With The Vomero Premium",
     "brand": "Nike",
     "date": "TBD",
-    "price": 230.0,
+    "price": 230,
     "sku": "HQ2050-003",
     "image_url": "/images/HQ2050-003.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/26/nike-vomero-premium-gradient-fade-october-2026/",
     "added_at": "2026-09-27T06:00:01.953819+00:00",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-runs-more-fades-with-the-vomero-premium-hq2050-003",
+    "retailers": []
   },
   {
     "id": "nike-shai-002-expected-to-release-in-february-2027-ju1175-800",
     "title": "Nike SHAI 002 Expected To Release In February 2027",
     "brand": "Nike",
     "date": "TBD",
-    "price": 145.0,
+    "price": 145,
     "sku": "JU1175-800",
     "image_url": "/images/JU1175-800.jpg",
     "source": "Sneaker News",
@@ -2707,14 +2406,15 @@
         "raffle": false
       }
     ],
-    "year": 2027
+    "year": 2027,
+    "slug": "nike-shai-002-expected-to-release-in-february-2027-ju1175-800"
   },
   {
     "id": "nike-v5-rnr-sharpens-pencil-point-and-college-grey-iu3884-002",
     "title": "Nike V5 RNR Sharpens “Pencil Point” And “College Grey”",
     "brand": "Nike",
     "date": "TBD",
-    "price": 95.0,
+    "price": 95,
     "sku": "IU3884-002",
     "image_url": "/images/IU3884-002.jpg",
     "source": "Sneaker News",
@@ -2738,14 +2438,15 @@
       }
     ],
     "colorway": "Grey",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-v5-rnr-sharpens-pencil-point-and-college-grey-iu3884-002"
   },
   {
     "id": "nike-zoom-huarache-2k4-takes-on-ucla-colors-iv3782-101",
     "title": "Nike Zoom Huarache 2K4 Takes On “UCLA” Colors",
     "brand": "Nike",
     "date": "TBD",
-    "price": 200.0,
+    "price": 200,
     "sku": "IV3782-101",
     "image_url": "/images/IV3782-101.jpg",
     "source": "Sneaker News",
@@ -2769,14 +2470,15 @@
       }
     ],
     "silhouette": "Huarache 2K4",
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-zoom-huarache-2k4-takes-on-ucla-colors-iv3782-101"
   },
   {
     "id": "nike-zoom-vomero-5-roam-returns-this-winter-hj4646-301",
     "title": "Nike Zoom Vomero Roam Winter",
     "brand": "Nike",
     "date": "TBD",
-    "price": 190.0,
+    "price": 190,
     "sku": "HJ4646-301",
     "image_url": "/images/HJ4646-301.jpg",
     "source": "Sneaker News",
@@ -2799,14 +2501,15 @@
         "raffle": false
       }
     ],
-    "year": 2026
+    "year": 2026,
+    "slug": "nike-zoom-vomero-5-roam-returns-this-winter-hj4646-301"
   },
   {
     "id": "pink-foam-contrast-stitching-distinguishes-this-nike-zoom-vomero-5-fj2028-005",
     "title": "Nike Zoom Vomero “Pink Foam” Contrast Stitching Distinguishes",
     "brand": "Nike",
     "date": "TBD",
-    "price": 170.0,
+    "price": 170,
     "sku": "FJ2028-005",
     "image_url": "/images/FJ2028-005.jpg",
     "source": "Sneaker News",
@@ -2830,21 +2533,24 @@
       }
     ],
     "colorway": "Pink",
-    "year": 2026
+    "year": 2026,
+    "slug": "pink-foam-contrast-stitching-distinguishes-this-nike-zoom-vomero-5-fj2028-005"
   },
   {
     "id": "no-this-nike-vomero-premium-isn-t-a-melitta-baumeister-collab-iq6943-001",
     "title": "No, This Nike Vomero Premium Isn’t A Melitta Baumeister Collab",
     "brand": "Nike",
     "date": "TBD",
-    "price": 240.0,
+    "price": 240,
     "sku": "IQ6943-001",
     "image_url": "/images/IQ6943-001.jpg",
     "source": "Sneaker News",
     "buy_url": "https://sneakernews.com/2026/09/27/nike-vomero-premium-gridiron-black-multi-color-iq6943-001/",
     "added_at": "2026-09-27T20:00:02.226117+00:00",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "slug": "no-this-nike-vomero-premium-isn-t-a-melitta-baumeister-collab-iq6943-001",
+    "retailers": []
   },
   {
     "id": "tom-sachs-nike-general-purpose-shoe-returns-on-september-30th-fz1363-002",
@@ -2874,6 +2580,7 @@
         "raffle": false
       }
     ],
-    "year": 2026
+    "year": 2026,
+    "slug": "tom-sachs-nike-general-purpose-shoe-returns-on-september-30th-fz1363-002"
   }
 ]
