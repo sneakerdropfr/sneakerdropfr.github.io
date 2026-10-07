@@ -260,11 +260,6 @@
           "price": "249€"
         },
         {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": "250€"
-        },
-        {
           "name": "Slam Jam",
           "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=KH8143&url=https://slamjam.com/en-fr/products/adidas-footwear-bowling-brain-dead-multicolor-j362349",
           "price": "250€"
@@ -383,11 +378,6 @@
         {
           "name": "Naked",
           "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KK3730&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-arte-gsg9-off-white-off-white-off-white-kk3730",
-          "price": "250€"
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
           "price": "250€"
         }
       ],
@@ -533,11 +523,6 @@
           "name": "Naked",
           "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KI9308&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-arte-gsg9-core-black-core-black-iron-met-ki9308",
           "price": "250€"
-        },
-        {
-          "name": "Adidas",
-          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
-          "price": "250€"
         }
       ],
       "image_url": "/images/KI9308.webp",
@@ -641,11 +626,6 @@
       "featured": false,
       "retailers": [
         {
-          "name": "New Balance",
-          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
-          "price": "250€"
-        },
-        {
           "name": "BSTN",
           "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U992NE&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-x-amine-made-in-usa-992-u992ne-0356312",
           "price": "249€"
@@ -666,13 +646,7 @@
       "image_url": "/images/JA1091-100.webp",
       "wtc_url": "https://www.whentocop.fr/drops/nike-air-griffey-max-1-cincinnati-reds-ja1091-100",
       "featured": false,
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": "170€"
-        }
-      ],
+      "retailers": [],
       "slug": "nike-air-griffey-max-1-cincinnati-reds-ja1091-100",
       "date_display": "9 octobre 2026"
     },
@@ -690,11 +664,6 @@
           "name": "43einhalb",
           "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=Jordan-Air-Jordan-1-High-OG-\"Royal\"-(black-/-game-royal-/-white)&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fjordan-air-jordan-1-high-og-royal-black-game-royal-white-1518534",
           "price": "179€"
-        },
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": "180€"
         },
         {
           "name": "FootDistrict",
@@ -785,13 +754,7 @@
       "price": 140,
       "image_url": "/images/IR1940-600.webp",
       "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-pony-hair-team-red-ir1940-600",
-      "retailers": [
-        {
-          "name": "Nike",
-          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-          "price": "140€"
-        }
-      ],
+      "retailers": [],
       "id": "nike-air-force-1-low-pony-hair-team-red-ir1940-600",
       "featured": false,
       "year": 2026
