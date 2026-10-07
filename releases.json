@@ -489,7 +489,7 @@
     "brand": "Salomon",
     "date": "2026-10-07",
     "date_display": "7 octobre 2026",
-    "price": 169,
+    "price": 170,
     "image_url": "/images/L45397400.webp",
     "retailers": [
       {
@@ -2073,19 +2073,5 @@
     "featured": false,
     "retailers": [],
     "colorway": "Blue"
-  },
-  {
-    "id": "jordan-heir-series-2-is-ready-for-breast-cancer-awareness-month-hv4417-600",
-    "title": "Jordan Heir Series 2 Is Ready For Breast Cancer Awareness Month",
-    "brand": "Jordan Brand",
-    "date": "TBD",
-    "price": 115.0,
-    "sku": "HV4417-600",
-    "image_url": "/images/HV4417-600.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/10/05/jordan-heir-series-2-pink-pow-swan-smoke-grey-plum-fog-hv4417-600/",
-    "added_at": "2026-10-06T06:00:01.938925+00:00",
-    "featured": false,
-    "year": 2026
   }
 ]
