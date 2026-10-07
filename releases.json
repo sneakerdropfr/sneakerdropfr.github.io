@@ -519,6 +519,78 @@
     "date_display": "10 octobre 2026"
   },
   {
+    "slug": "nike-air-force-1-low-pony-hair-team-red-ir1940-600",
+    "sku": "IR1940-600",
+    "title": "Nike Air Force 1 Low Pony Hair Team Red",
+    "brand": "Nike",
+    "date": "2026-10-10",
+    "date_display": "10 octobre 2026",
+    "price": 140,
+    "image_url": "/images/IR1940-600.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-pony-hair-team-red-ir1940-600",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": "140€"
+      }
+    ]
+  },
+  {
+    "slug": "bstn-salomon-xt-6-black-iridescent-l45567700",
+    "sku": "L45567700",
+    "title": "BSTN x Salomon XT-6 5 AM",
+    "brand": "Salomon",
+    "date": "2026-10-10",
+    "date_display": "10 octobre 2026",
+    "price": 180,
+    "image_url": "/images/L45567700.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/bstn-salomon-xt-6-black-iridescent-l45567700",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=L45567700&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fsalomon-x-bstn-xt-6-iridescent-l45567700-0357012",
+        "price": "179€"
+      }
+    ]
+  },
+  {
+    "slug": "feid-salomon-acs-nexxt-the-green-star-l45506800",
+    "sku": "L45506800",
+    "title": "Feid x Salomon ACS NEXXT The Green Star",
+    "brand": "Salomon",
+    "date": "2026-10-10",
+    "date_display": "10 octobre 2026",
+    "price": 150,
+    "image_url": "/images/L45506800.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/feid-salomon-acs-nexxt-the-green-star-l45506800",
+    "retailers": [
+      {
+        "name": "Salomon",
+        "url": "https://www.awin1.com/cread.php?awinmid=86255&awinaffid=737541&clickref=Feid-x-Salomon-ACS-NEXXT-The-Green-Star&ued=https%3A%2F%2Fwww.salomon.com%2Ffr-fr%2Fproduct%2Facs-nexxt-the-green-star-by-feid-li1911%2FL45506800",
+        "price": "150€"
+      }
+    ]
+  },
+  {
+    "slug": "new-balance-numeric-480-black-charcoal-gray-nm480gtx",
+    "sku": "NM480GTX",
+    "title": "New Balance Numeric 480 Black Charcoal Gray",
+    "brand": "New Balance",
+    "date": "2026-10-12",
+    "date_display": "12 octobre 2026",
+    "price": 140,
+    "image_url": "/images/NM480GTX.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-numeric-480-black-charcoal-gray-nm480gtx",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=NM480GTX&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Fnb-numeric-480%2FNM480V1-52906.html",
+        "price": "140€"
+      }
+    ]
+  },
+  {
     "id": "new-balance-tl900-sport-green-utl903t1",
     "sku": "UTL903T1",
     "brand": "New Balance",
@@ -607,6 +679,80 @@
     ],
     "description": "La Nike Mind 001 WMNS Tarp Green décline le modèle lifestyle féminin dans un colorway vert bâche sobre et tendance. Elle sort le jeudi 15 octobre 2026 au prix de 90€.",
     "colorway": "Green"
+  },
+  {
+    "slug": "hellstar-adidas-megaride-s2-black-red-lb5626",
+    "sku": "LB5626",
+    "title": "Hellstar x adidas Megaride S2 Black Red",
+    "brand": "Adidas",
+    "date": "2026-10-15",
+    "date_display": "15 octobre 2026",
+    "price": 200,
+    "image_url": "/images/LB5626.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/hellstar-adidas-megaride-s2-black-red-lb5626",
+    "retailers": [
+      {
+        "name": "Adidas Confirmed",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-hellstar-megaride-s2%2FLB5626.html",
+        "price": "200€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=adidas-Originals-x-Hellstar-Megaride-S2&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-hellstar-megaride-s2-lb5626",
+        "price": "200€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/5155258973&u1=LB5626",
+        "price": "170€"
+      }
+    ]
+  },
+  {
+    "slug": "new-balance-allerdale-bison-military-olive-uadwgrb",
+    "sku": "UADWGRB",
+    "title": "New Balance Allerdale Bison Military Olive",
+    "brand": "New Balance",
+    "date": "2026-10-15",
+    "date_display": "15 octobre 2026",
+    "price": 250,
+    "image_url": "/images/UADWGRB.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-allerdale-bison-military-olive-uadwgrb",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=UADWGRB&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Fmade-in-uk-allerdale-moorland-textures%2FUADWV1_LI-FTW-826844.html",
+        "price": "250€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=UADWGRB&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-made-in-uk-allerdale-moorland-uadwgrb-0353225",
+        "price": "249€"
+      }
+    ]
+  },
+  {
+    "slug": "nike-ja-4-jaws-ja9742-400",
+    "sku": "JA9742-400",
+    "title": "Nike Ja 4 Jaws",
+    "brand": "Nike",
+    "date": "2026-10-15",
+    "date_display": "15 octobre 2026",
+    "price": 135,
+    "image_url": "/images/JA9742-400.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-ja-4-jaws-ja9742-400",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=JA9742400&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-ja-4-deep-water-O1MlsSTs%2FJA9742-400",
+        "price": "135€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=JA9742-400&wgtarget=https://footdistrict.com/fr/products/nike-ja-4-jaws-deep-water-ja9742-400",
+        "price": "135€"
+      }
+    ]
   },
   {
     "id": "song-for-the-mute-adidas-samba-og-base-green-hp8257",
@@ -747,6 +893,90 @@
     "colorway": "Ivory"
   },
   {
+    "slug": "air-jordan-5-halloween-hq7978-001",
+    "sku": "HQ7978-001",
+    "title": "Air Jordan 5 Halloween",
+    "brand": "Air Jordan",
+    "date": "2026-10-17",
+    "date_display": "17 octobre 2026",
+    "price": 220,
+    "image_url": "/images/HQ7978-001.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-5-halloween-hq7978-001",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": "220€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/4175159056&u1=HQ7978001",
+        "price": "190€"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=HQ7978001&wgtarget=https://www.asphaltgold.com/fr/products/nike-air-jordan-5-retro-og-halloween-black-picante-red-green-glow-in-the-dark",
+        "price": "209€"
+      }
+    ]
+  },
+  {
+    "slug": "nike-air-max-90-iron-grey-photon-dust-iu7543-077",
+    "sku": "IU7543-077",
+    "title": "Nike Air Max 90 Iron Grey Photon Dust",
+    "brand": "Nike",
+    "date": "2026-10-17",
+    "date_display": "17 octobre 2026",
+    "price": 160,
+    "image_url": "/images/IU7543-077.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-iron-grey-photon-dust-iu7543-077",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": "160€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IU7543077&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-max-iii-iu7543-077-0361196",
+        "price": "159€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IU7543-077&wgtarget=https://en.afew-store.com/products/nike-air-max-iii-lt-smoke-grey-sail-iron-grey-photon-dust",
+        "price": "159€"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=IU7543-077&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fnike-air-max-90-light-smoke-grey-sail-iron-grey-photon-dust-1517793",
+        "price": "159€"
+      },
+      {
+        "name": "Opium",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10949&wgtarget=https://www.opiumparis.com/fr/prochainement/4791-42632-air-max-90-iron-grey.html#/26-tailles-40",
+        "price": "100€"
+      }
+    ]
+  },
+  {
+    "slug": "travis-scott-nike-air-force-1-low-07-ice-blue-ostrich-jf7727-400",
+    "sku": "JF7727-400",
+    "title": "Travis Scott x Nike Air Force 1 Low '07 Ice Blue Ostrich",
+    "brand": "Nike",
+    "date": "2026-10-17",
+    "date_display": "17 octobre 2026",
+    "price": 120,
+    "image_url": "/images/JF7727-400.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/travis-scott-nike-air-force-1-low-07-ice-blue-ostrich-jf7727-400",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
+        "price": "120€"
+      }
+    ]
+  },
+  {
     "id": "sza-vans-authentic-knockdown-white-fish-print-vn00115awht",
     "sku": "VN00115AWHT",
     "brand": "SZA x Vans Authentic Knockdown",
@@ -767,6 +997,87 @@
       }
     ],
     "colorway": "White"
+  },
+  {
+    "slug": "new-balance-1890a-truffle-salt-silver-metallic-u18909vf",
+    "sku": "U18909VF",
+    "title": "New Balance 1890A Truffle Salt Silver Metallic",
+    "brand": "New Balance",
+    "date": "2026-10-22",
+    "date_display": "22 octobre 2026",
+    "price": 190,
+    "image_url": "/images/U18909VF.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890a-truffle-salt-silver-metallic-u18909vf",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2F",
+        "price": "190€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=U18909VF&wgtarget=https://en.afew-store.com/products/new-balance-1890a-truffle-salt-silver-metallic",
+        "price": "189€"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=U18909VF&wgtarget=https://www.asphaltgold.com/fr/products/new-balance-abzorb-1890-moc-toe-truffle-salt-silver-metallic",
+        "price": "189€"
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnew-balance-1890a-moc-toe-silver-u18909vf-argent-100883",
+        "price": "199€"
+      }
+    ]
+  },
+  {
+    "slug": "hyperice-nike-air-zoom-hyperslide-light-orewood-brown-sail-iz6715-100",
+    "sku": "IZ6715-100",
+    "title": "Hyperice x Nike Air Zoom Hyperslide Light Orewood Brown Sail",
+    "brand": "Nike",
+    "date": "2026-10-22",
+    "date_display": "22 octobre 2026",
+    "price": 260,
+    "image_url": "/images/IZ6715-100.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/hyperice-nike-air-zoom-hyperslide-light-orewood-brown-sail-iz6715-100",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=Nike x-Hyperice&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fair-zoom-hyperslide-nike-x-hyperice-ZEl115MY%2FIZ6715-100",
+        "price": "260€"
+      }
+    ]
+  },
+  {
+    "slug": "hyperice-nike-air-zoom-hyperslide-black-iz6715-001",
+    "sku": "IZ6715-001",
+    "title": "Hyperice x Nike Air Zoom Hyperslide Black",
+    "brand": "Nike",
+    "date": "2026-10-22",
+    "date_display": "22 octobre 2026",
+    "price": 260,
+    "image_url": "/images/IZ6715-001.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/hyperice-nike-air-zoom-hyperslide-black-iz6715-001",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=Nike x-Hyperice&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fair-zoom-hyperslide-nike-x-hyperice-ZEl115MY%2FIZ6715-001",
+        "price": "260€"
+      }
+    ]
+  },
+  {
+    "slug": "sza-vans-knu-skool-mule-black-white-vn00119wba2",
+    "sku": "VN00119WBA2",
+    "title": "SZA x Vans Knu Skool Mule Black White",
+    "brand": "Vans",
+    "date": "2026-10-22",
+    "date_display": "22 octobre 2026",
+    "price": 85,
+    "image_url": "/images/VN00119WBA2.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/sza-vans-knu-skool-mule-black-white-vn00119wba2",
+    "retailers": []
   },
   {
     "id": "new-balance-750-wmns-black-angora-u7507pm",
@@ -1131,6 +1442,29 @@
     "featured": false,
     "retailers": [],
     "colorway": "Blue"
+  },
+  {
+    "slug": "adidas-dame-x-all-star-jq9467",
+    "sku": "JQ9467",
+    "title": "Adidas Dame X ALL STAR",
+    "brand": "Adidas",
+    "date": "2026-12-02",
+    "date_display": "2 décembre 2026",
+    "price": 90,
+    "image_url": "/images/JQ9467.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-dame-x-all-star-jq9467",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=retailer-monitoring&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-dame-x-jq9467-0347183",
+        "price": "89€"
+      },
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.adidas.fr/",
+        "price": "90€"
+      }
+    ]
   },
   {
     "id": "the-jordan-spiz-ike-low-realtree-camo-is-ready-for-fall",
