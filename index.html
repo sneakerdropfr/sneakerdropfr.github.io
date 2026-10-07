@@ -7,7 +7,7 @@
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SneakerDrop FR — Drops Sneakers Nike, Jordan, Adidas 2026</title>
+  <title>Drops Sneakers 2026 France — Dates de Sortie Nike, Jordan, Adidas | SneakerDropFR</title>
   <meta name="description" content="Tous les drops sneakers en France : Nike, Air Jordan, Adidas, New Balance. Dates de sortie, prix retail et alertes Telegram en temps réel. Ne rate plus aucune paire." />
   <link rel="canonical" href="https://sneakerdropfr.fr" />
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
@@ -518,7 +518,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       <div class="header__spacer"></div>
       <nav class="header__nav">
         <a href="/deals.html" class="hbtn hbtn--solid hbtn--keep">BSTN Deals</a>
-        <a href="/raffles.html" class="hbtn hbtn--solid hbtn--keep">Raffles</a>
+        <!-- <a href="/raffles.html" class="hbtn hbtn--solid hbtn--keep">Raffles</a> -->
         <a href="/hype-picks.html" class="hbtn hbtn--solid hbtn--keep">Hype Picks</a>
         <a href="/sorties.html" class="hbtn hbtn--solid hbtn--keep">Prochaines Sorties</a>
         <a href="/restocks.html" class="hbtn hbtn--solid hbtn--keep">Restocks</a>
@@ -534,7 +534,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
   </header>
 <div class="header__nav-bar">
   <a href="/deals.html" class="hbtn hbtn--solid hbtn--keep">BSTN Deals</a>
-  <a href="/raffles.html" class="hbtn hbtn--solid hbtn--keep">Raffles</a>
+  <!-- <a href="/raffles.html" class="hbtn hbtn--solid hbtn--keep">Raffles</a> -->
   <a href="/hype-picks.html" class="hbtn hbtn--solid hbtn--keep">Hype Picks</a>
   <a href="/sorties.html" class="hbtn hbtn--solid hbtn--keep">Prochaines Sorties</a>
   <a href="/restocks.html" class="hbtn hbtn--solid hbtn--keep">Restocks</a>
@@ -594,7 +594,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         .then(function(data){
           var today=new Date();today.setHours(0,0,0,0);
           var upcoming=data.filter(function(r){
-            if(!r.date||r.date==='TBD')return false;
+            if(!r.date||r.date==='TBD'||!/^\d{4}-\d{2}-\d{2}$/.test(r.date))return false;
             var p=r.date.split('-');
             return new Date(+p[0],+p[1]-1,+p[2])>today;
           });
@@ -1266,7 +1266,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
                 wtc_url: r.wtc_url || r.link || (rel && rel.wtc_url) || '',
                 buy_url: r.buy_url || r.buy_link || (rel && rel.buy_url) || '',
                 sku: r.sku || (rel && rel.sku) || '',
-                retailers: r.retailers || (rel && rel.retailers) || null
+                retailers: r.retailers || (rel && rel.retailers) || null,
+                id: r.id || (rel && rel.id) || ''
               };
             });
             // Badge : si on est lundi ou après, afficher la semaine de weekly_data.json
@@ -1623,7 +1624,7 @@ var BSTN_AWIN_MID = '104979';
   var SNIPES_AWIN_AFF = '2855487';
   var SNIPES_SITE = 'https://www.snipes.com';
   var BSTN_API_URL  = 'https://searcht.bstn.com/collections/magento2_eu_products/documents/search';
-  var BSTN_API_KEY  = 'NCZstZEMLnMy4MSLPh9NKNrtMLsEF1Zy';
+  var BSTN_API_KEY  = '';
   var BSTN_SITE     = 'https://www.bstn.com/';
   var _bstnCache    = {};
   function snipesAwinUrl(productPath) {
@@ -1633,6 +1634,7 @@ var BSTN_AWIN_MID = '104979';
     return 'https://www.awin1.com/cread.php?awinmid=' + BSTN_AWIN_MID + '&awinaffid=' + BSTN_AWIN_AFF + '&p=' + encodeURIComponent(BSTN_SITE + productPath);
   }
   function bstnCheckSku(sku, cb) {
+    return; // désactivé : la recherche BSTN bloque les appels depuis le site (CORS)
     if (!sku) return;
     var skuKey = sku.toLowerCase();
     if (_bstnCache[skuKey] !== undefined) { if (_bstnCache[skuKey]) cb(_bstnCache[skuKey]); return; }
@@ -1849,4 +1851,3 @@ var BSTN_AWIN_MID = '104979';
 </body>
 </html>
 
-Sun Jun  7 11:03:36 PM UTC 2026
