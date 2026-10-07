@@ -332,6 +332,10 @@ def main():
         link      = item['link']
         img_url   = item['img']
 
+        # Pas de SKU = article RSS sans paire identifiable → ignoré
+        if not re.fullmatch(r'[A-Z0-9][A-Z0-9-]{3,}', sku or ''):
+            continue
+
         # Filtre SKU banni
         if sku and sku in BANNED_SKUS:
             continue
