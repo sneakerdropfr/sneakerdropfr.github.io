@@ -223,7 +223,8 @@
     "image_url": "/images/L49210800.webp",
     "id": "salomon-xt-4-og-gore-tex-paloma-cloudburst-silver-l49210800",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Silver"
   },
   {
     "slug": "brain-dead-adidas-bowling-cheetah-kh8143",
@@ -380,7 +381,8 @@
     "image_url": "/images/KK3730.webp",
     "id": "arte-antwerp-adidas-gsg9-off-white-kk3730",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "White"
   },
   {
     "slug": "rose-puma-speedcat-vtg-wmns-espresso-410661-01",
@@ -416,7 +418,8 @@
     "image_url": "/images/410661-01.webp",
     "id": "rose-puma-speedcat-vtg-wmns-espresso-410661-01",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "silhouette": "Puma Speedcat"
   },
   {
     "slug": "asics-gel-nyc-2-0-gore-tex-graphite-grey-black-1203b162-021",
@@ -447,7 +450,8 @@
     "image_url": "/images/1203B162-021.webp",
     "id": "asics-gel-nyc-2-0-gore-tex-graphite-grey-black-1203b162-021",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Grey/Black"
   },
   {
     "slug": "brain-dead-adidas-bowling-snakeskin-kj0662",
@@ -524,7 +528,8 @@
     "image_url": "/images/KI9308.webp",
     "id": "arte-antwerp-adidas-gsg9-triple-black-ki9308",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Black"
   },
   {
     "slug": "brain-dead-adidas-barricade-mystery-ink-silver-metallic-kz9472",
@@ -555,7 +560,8 @@
     "image_url": "/images/KZ9472.webp",
     "id": "brain-dead-adidas-barricade-mystery-ink-silver-metallic-kz9472",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Silver"
   },
   {
     "slug": "brain-dead-adidas-barricade-dark-green-silver-metallic-kz9471",
@@ -586,7 +592,8 @@
     "image_url": "/images/KZ9471.webp",
     "id": "brain-dead-adidas-barricade-dark-green-silver-metallic-kz9471",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Green/Silver"
   },
   {
     "slug": "new-balance-204l-black-cement-u204l5yb",
@@ -607,7 +614,8 @@
     "image_url": "/images/U204L5YB.webp",
     "id": "new-balance-204l-black-cement-u204l5yb",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Black"
   },
   {
     "id": "amine-new-balance-992-chocolate-amber-u992ne",
@@ -753,7 +761,9 @@
     "retailers": [],
     "id": "nike-air-force-1-low-pony-hair-team-red-ir1940-600",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "silhouette": "Air Force 1",
+    "colorway": "Red"
   },
   {
     "slug": "bstn-salomon-xt-6-black-iridescent-l45567700",
@@ -795,7 +805,8 @@
     ],
     "id": "feid-salomon-acs-nexxt-the-green-star-l45506800",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Green"
   },
   {
     "slug": "new-balance-numeric-480-black-charcoal-gray-nm480gtx",
@@ -816,7 +827,8 @@
     ],
     "id": "new-balance-numeric-480-black-charcoal-gray-nm480gtx",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Black/Gray"
   },
   {
     "id": "new-balance-tl900-sport-green-utl903t1",
@@ -919,7 +931,8 @@
     ],
     "id": "hellstar-adidas-megaride-s2-black-red-lb5626",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Black/Red"
   },
   {
     "slug": "new-balance-allerdale-bison-military-olive-uadwgrb",
@@ -945,7 +958,8 @@
     ],
     "id": "new-balance-allerdale-bison-military-olive-uadwgrb",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Olive"
   },
   {
     "slug": "nike-ja-4-jaws-ja9742-400",
@@ -1128,7 +1142,8 @@
     ],
     "id": "air-jordan-5-halloween-hq7978-001",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "silhouette": "Air Jordan 5"
   },
   {
     "slug": "nike-air-max-90-iron-grey-photon-dust-iu7543-077",
@@ -1164,7 +1179,9 @@
     ],
     "id": "nike-air-max-90-iron-grey-photon-dust-iu7543-077",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "silhouette": "Air Max 90",
+    "colorway": "Grey"
   },
   {
     "slug": "travis-scott-nike-air-force-1-low-07-ice-blue-ostrich-jf7727-400",
@@ -1179,7 +1196,9 @@
     "retailers": [],
     "id": "travis-scott-nike-air-force-1-low-07-ice-blue-ostrich-jf7727-400",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "silhouette": "Air Force 1",
+    "colorway": "Blue"
   },
   {
     "id": "sza-vans-authentic-knockdown-white-fish-print-vn00115awht",
@@ -1234,7 +1253,8 @@
     ],
     "id": "new-balance-1890a-truffle-salt-silver-metallic-u18909vf",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Silver"
   },
   {
     "slug": "hyperice-nike-air-zoom-hyperslide-light-orewood-brown-sail-iz6715-100",
@@ -1255,7 +1275,8 @@
     ],
     "id": "hyperice-nike-air-zoom-hyperslide-light-orewood-brown-sail-iz6715-100",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Brown/Sail"
   },
   {
     "slug": "hyperice-nike-air-zoom-hyperslide-black-iz6715-001",
@@ -1276,7 +1297,8 @@
     ],
     "id": "hyperice-nike-air-zoom-hyperslide-black-iz6715-001",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Black"
   },
   {
     "slug": "sza-vans-knu-skool-mule-black-white-vn00119wba2",
@@ -1291,7 +1313,8 @@
     "retailers": [],
     "id": "sza-vans-knu-skool-mule-black-white-vn00119wba2",
     "featured": false,
-    "year": 2026
+    "year": 2026,
+    "colorway": "Black/White"
   },
   {
     "id": "new-balance-750-wmns-black-angora-u7507pm",
