@@ -1281,6 +1281,16 @@
         "name": "Solebox",
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnew-balance-1890a-moc-toe-silver-u18909vf-argent-100883",
         "price": "199€"
+      },
+      {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=U18909VF&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2F1890a%2FU1890AV1_LI-FTW-825968.html",
+        "price": "152€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U18909VF&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-1890a-u18909vf-0353267",
+        "price": "189€"
       }
     ],
     "id": "new-balance-1890a-truffle-salt-silver-metallic-u18909vf",
@@ -1383,6 +1393,11 @@
         "price": "100€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "END",
+        "url": "https://endclothing.sjv.io/c/2379306/1938001/23391?subId1=U7507PM&u=https%3A%2F%2Fwww.endclothing.com%2Fen-fr%2Fnew-balance-750-sneaker-u7507pm.html",
+        "price": "105€"
       }
     ],
     "colorway": "Black",
