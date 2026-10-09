@@ -625,6 +625,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     var promos = [
       { code: 'SUMMER15', label: '-15% chez BSTN', start: '2026-05-29', end: '2026-05-31', icon: '⏰', prefix: 'Expire ce soir :' },
       { code: 'SPORT25',  label: '-25% Sportswear', start: '2026-06-02', end: '2026-06-03', icon: '⚽', prefix: '2–3 juin :' },
+      { code: 'SALE25', label: '-25% sur tout Solebox', start: '2026-10-10', end: '2026-10-19', icon: '🔥', prefix: 'Flash Sale :' },
       { code: null,       label: '-30% Summer Sale →', start: '2026-05-25', end: '2026-06-07', icon: '🔥', prefix: "Jusqu'au 7 juin :" },
     ];
     var active = promos.filter(function(p){ return today >= p.start && today <= p.end; });
