@@ -609,7 +609,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
             return '<span'+cls+'>'+lbl+' — <strong>'+escapeHtml(r.title)+'</strong> — '+ds+pr+'</span>';
           });
           var track=document.getElementById('ticker-track');
-          if(track){var h=items.join('');track.innerHTML=h+h;}
+          if(track){var h=items.join("");var rep=Math.max(1,Math.ceil(8/items.length));var full="";for(var i=0;i<rep;i++)full+=h;track.innerHTML=full+full;}
         }).catch(function(){});
     })();
     </script>
