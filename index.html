@@ -625,7 +625,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     var promos = [
       { code: 'SUMMER15', label: '-15% chez BSTN', start: '2026-05-29', end: '2026-05-31', icon: '⏰', prefix: 'Expire ce soir :' },
       { code: 'SPORT25',  label: '-25% Sportswear', start: '2026-06-02', end: '2026-06-03', icon: '⚽', prefix: '2–3 juin :' },
-      { code: 'SALE25', label: '-25% sur tout Solebox', start: '2026-10-10', end: '2026-10-19', icon: '🔥', prefix: 'Flash Sale :' },
+      { code: 'SALE25', label: '-25% sur tout Solebox', start: '2026-10-10', end: '2026-10-19', icon: '🔥', prefix: 'Flash Sale :', url: 'https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Fc%2F4171' },
       { code: null,       label: '-30% Summer Sale →', start: '2026-05-25', end: '2026-06-07', icon: '🔥', prefix: "Jusqu'au 7 juin :" },
     ];
     var active = promos.filter(function(p){ return today >= p.start && today <= p.end; });
@@ -634,10 +634,11 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
       var inner = document.getElementById('promo-bar-inner');
       var parts = active.map(function(p, i) {
         var sep = i > 0 ? '<span class="promo-bar__sep">|</span>' : '';
+        var lk = p.url ? '<a href="' + p.url + '" target="_blank" rel="nofollow sponsored noopener" class="promo-bar__item">' : '<a href="/bstn-promos.html" class="promo-bar__item">';
         if (p.code) {
-          return sep + '<a href="/bstn-promos.html" class="promo-bar__item"><span>' + p.icon + ' ' + p.prefix + '</span><span class="promo-bar__code" onclick="copyCode(event,\'' + p.code + '\')">' + p.code + '</span><span>= ' + p.label + '</span></a>';
+          return sep + lk + '<span>' + p.icon + ' ' + p.prefix + '</span><span class="promo-bar__code" onclick="copyCode(event,\'' + p.code + '\')">' + p.code + '</span><span>= ' + p.label + '</span></a>';
         } else {
-          return sep + '<a href="/bstn-promos.html" class="promo-bar__item"><span>' + p.icon + ' ' + p.prefix + ' ' + p.label + '</span></a>';
+          return sep + lk + '<span>' + p.icon + ' ' + p.prefix + ' ' + p.label + '</span></a>';
         }
       });
       inner.innerHTML = parts.join('');
