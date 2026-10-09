@@ -52,6 +52,7 @@
       --font-body:'Barlow',sans-serif;
       --font-cond:'Barlow Condensed',sans-serif;
       --section-gap:4.5rem;
+    }
     html{scroll-behavior:smooth}
     body{background:var(--bg);color:var(--text);font-family:var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden;padding-bottom:72px}
     a{text-decoration:none;color:inherit}
@@ -383,7 +384,6 @@
     .promo-bar__code{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);border-radius:4px;padding:.1rem .4rem;font-size:.8rem;letter-spacing:.08em;cursor:pointer;transition:background .15s}
     .promo-bar__code:hover{background:rgba(255,255,255,.35)}
     .promo-bar__sep{opacity:.4}
-    }
 
     
     /* ══ DARK MODE ══ */
@@ -625,7 +625,6 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
     var promos = [
       { code: 'SUMMER15', label: '-15% chez BSTN', start: '2026-05-29', end: '2026-05-31', icon: '⏰', prefix: 'Expire ce soir :' },
       { code: 'SPORT25',  label: '-25% Sportswear', start: '2026-06-02', end: '2026-06-03', icon: '⚽', prefix: '2–3 juin :' },
-      { code: 'SALE25', label: '-25% sur tout Solebox', start: '2026-10-10', end: '2026-10-19', icon: '🔥', prefix: 'Flash Sale :' },
       { code: null,       label: '-30% Summer Sale →', start: '2026-05-25', end: '2026-06-07', icon: '🔥', prefix: "Jusqu'au 7 juin :" },
     ];
     var active = promos.filter(function(p){ return today >= p.start && today <= p.end; });
