@@ -84,9 +84,6 @@
     #cookie-refuse{background:transparent;color:var(--muted);border:1px solid var(--border);border-radius:6px;padding:.46rem 1rem;font-weight:700;font-size:.8rem;font-family:var(--font-cond);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}
     #cookie-refuse:hover{background:var(--bg-alt);color:var(--black)}
   
-    @media(max-width:768px){
-    @media(max-width:900px){
-    @media(max-width:600px) {
     /* ── Scroll to top ── */
     .scroll-top{position:fixed;bottom:24px;right:20px;background:#fff;border:1px solid #e0e0e0;color:#0A0A0A;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.12);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:100;transform:translateY(8px)}
     .scroll-top.visible{opacity:1;pointer-events:all;transform:translateY(0)}
@@ -99,6 +96,7 @@
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "SneakerDrop FR", "url": "https://sneakerdropfr.fr", "publisher": {"@type": "Organization", "name": "SneakerDrop FR", "url": "https://sneakerdropfr.fr", "logo": {"@type": "ImageObject", "url": "https://sneakerdropfr.fr/assets/favicon-32.png"}, "sameAs": ["https://t.me/SneakersDropsFR", "https://www.tiktok.com/@sneakerdropfr"]}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Hype Picks — Drops Sneakers les plus attendus", "description": "Les drops sneakers les plus attendus — Jordan, Nike collabs, Travis Scott, Bad Bunny et plus.", "url": "https://sneakerdropfr.fr/hype-picks.html", "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "SneakerDrop FR", "item": "https://sneakerdropfr.fr"}, {"@type": "ListItem", "position": 2, "name": "Hype Picks", "item": "https://sneakerdropfr.fr/hype-picks.html"}]}}</script>
+  <script>(function(){var s=localStorage.getItem('theme-pref');if(s==='dark'||(s===null&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}})();</script>
 </head>
 <body>
 
@@ -111,6 +109,7 @@
       </a>
       <div class="header__spacer"></div>
       <a href="/" class="hbtn">&larr; Accueil</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Mode sombre" style="border:1px solid var(--border);background:none;border-radius:8px;padding:.3rem .6rem;cursor:pointer;font-size:1rem;margin-left:.5rem">🌙</button>
     </div>
   </header>
 
@@ -205,7 +204,7 @@
     setTimeout(sdfSweepBrokenImages, 4000);
   });
   (function(){
-    var RELEASES_URL = 'https://raw.githubusercontent.com/sneakerdropfr/sneakerdropfr.github.io/main/releases.json';
+    var RELEASES_URL = '/releases.json';
     var BRAND_MAP = {'jordan':['jordan brand','jordan'],'nike':['nike'],'adidas':['adidas'],'new balance':['new balance']};
     var allData = [];
     var activeFilter = 'all';
@@ -346,7 +345,10 @@
     }
 
     function render() {
+      var today = new Date().toISOString().slice(0,10);
       var filtered = allData.filter(function(r) { return matchBrand(r, activeFilter); });
+      // Exclure les sorties deja passees (sauf TBD)
+      filtered = filtered.filter(function(r) { return !r.date || r.date === 'TBD' || r.date >= today; });
       // Exclure les cards sans image utilisable du listing public.
       filtered = filtered.filter(function(r) { return r.image_url && String(r.image_url).trim() !== ''; });
       var grid = document.getElementById('hype-grid');
