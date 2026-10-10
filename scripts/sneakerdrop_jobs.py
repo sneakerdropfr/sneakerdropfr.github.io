@@ -62,9 +62,24 @@ def gh_get(fn, branch):
     b = gh([f"repos/{REPO}/git/blobs/{m['sha']}"])
     return base64.b64decode(json.loads(b.stdout)['content']), m['sha']
 
+_BASE = {}  # contenu lu par le job, par fichier (garde-fou de synchronisation)
+
 def gh_json(fn, branch='main'):
     raw, _ = gh_get(fn, branch)
+    if fn not in _BASE: _BASE[fn] = raw
     return json.loads(raw) if raw else None
+
+def branches_ok(fn):
+    """Avant toute écriture : main et perplexity doivent être identiques entre elles
+    ET identiques à la version lue par le job. Sinon on n'écrase rien."""
+    cur = {b: gh_get(fn, b)[0] for b in BRANCHES}
+    if cur['main'] != cur['perplexity']:
+        print(f'  ERREUR SYNC {fn} : main et perplexity diffèrent — écriture annulée, vérifier quelle version est la plus récente')
+        return False
+    if fn in _BASE and _BASE[fn] is not None and cur['main'] != _BASE[fn]:
+        print(f'  ERREUR SYNC {fn} : modifié par un autre outil pendant le job — écriture annulée')
+        return False
+    return True
 
 def gh_put(fn, raw, msg, branch):
     if not msg.startswith('[skip ci]'): msg = '[skip ci] ' + msg
@@ -81,7 +96,10 @@ def gh_put(fn, raw, msg, branch):
 def push_json(fn, data, msg):
     raw = json.dumps(data, ensure_ascii=False, indent=2).encode()
     if DRY: print(f'  [dry-run] {fn} non poussé ({msg})'); return True
-    return all(gh_put(fn, raw, msg, b) for b in BRANCHES)
+    if not branches_ok(fn): return False
+    ok = all(gh_put(fn, raw, msg, b) for b in BRANCHES)
+    if ok: _BASE[fn] = raw
+    return ok
 
 
 # ───────── WhenToCop (pages publiques) ─────────
