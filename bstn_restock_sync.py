@@ -271,6 +271,11 @@ def regenerate_and_push_html(all_releases, releases_past, releases_active):
 
     run(["git", "config", "user.email", "melakh@hotmail.com"])
     run(["git", "config", "user.name", "SneakerDropFR Bot"])
+    # Se mettre à jour depuis GitHub avant de committer (évite de pousser une copie obsolète)
+    pull = run(["git", "pull", "--rebase", "--autostash", "origin", "main"])
+    if pull.returncode != 0:
+        log(f"ERREUR git pull --rebase : {(pull.stdout + pull.stderr).strip()[:300]} — commit annulé")
+        return
     run(["git", "add", "sorties/"])  # releases.json géré via API GitHub — jamais via git local
     result = run(["git", "commit", "-m",
                   f"restock: régénération HTML BSTN — {regenerated} pages le {TODAY}"])
