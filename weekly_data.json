@@ -733,6 +733,11 @@
           "name": "BSTN",
           "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IQ5495-005&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fjordan-air-jordan-1-high-og-royal-iq5495-005-0361210",
           "price": "179€"
+        },
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IQ5495005&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-air-jordan-1-high-og-royal-pour-homme-PSkosBF2%2FIQ5495-005",
+          "price": "180€"
         }
       ],
       "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-high-og-royal-2026-iq5495-005",
@@ -783,6 +788,11 @@
           "name": "Urbanstar",
           "url": "https://www.dpbolvw.net/click-100169928-15786901?sid=IR1940600&url=https://www.urbanstaroma.com/fr/products/uomo-nike-air-force-1-qs-ponyhair-ir1940-7501024",
           "price": "140€"
+        },
+        {
+          "name": "Asphaltgold",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=Nike-Air-Force-1-Low-QS-*Fuzzy*&wgtarget=https://www.asphaltgold.com/fr/products/nike-air-force-1-low-qs-fuzzy-team-red-team-red-team-red",
+          "price": "139€"
         }
       ],
       "id": "nike-air-force-1-low-pony-hair-team-red-ir1940-600",
@@ -833,7 +843,33 @@
       "featured": false,
       "year": 2026,
       "colorway": "Green"
+    },
+    {
+      "id": "puma-x-le-pere-suede-chocolate-brown-409463-01",
+      "slug": "puma-x-le-pere-suede-chocolate-brown-409463-01",
+      "featured": false,
+      "year": 2026,
+      "sku": "409463-01",
+      "title": "le PÈRE x Puma Suede Chocolate Brown",
+      "brand": "Puma",
+      "date": "2026-10-10",
+      "date_display": "10 octobre 2026",
+      "price": 120,
+      "image_url": "/images/409463-01.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/puma-x-le-pere-suede-chocolate-brown-409463-01",
+      "retailers": [
+        {
+          "name": "END",
+          "url": "https://endclothing.sjv.io/c/2379306/1938001/23391?subId1=Puma-x-Le-P%C3%A8re-Suede-Sneaker&u=https%3A%2F%2Fwww.endclothing.com%2Fen-fr%2Fpuma-x-le-pere-suede-sneaker-409463-01.html%3Fsrsltid%3DAU7gw4W5_boep6Ii94Ell__Hvsyl5farPn4NzGQkGn-CtYBupb7WCauQ",
+          "price": "120€"
+        },
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=409463-01&wgtarget=https://footdistrict.com/fr/products/puma-x-le-pere-suede-chocolat-brown-409463-01",
+          "price": "120€"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-09T00:09:29.819985Z"
+  "generated_at": "2026-10-10T00:07:56.562478Z"
 }
