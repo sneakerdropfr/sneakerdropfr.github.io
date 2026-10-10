@@ -3,8 +3,19 @@
 import re, sys, shutil
 P = sys.argv[1] if len(sys.argv) > 1 else "/root/deals_affilies.py"
 s = open(P, encoding="utf-8").read()
+orig = s
+done = []
+# Correctif 1 : prix BSTN (le champ s'appelle "price" dans releases.json)
+old_price = "'price':rel.get('retail_price','')"
+if old_price in s:
+    s = s.replace(old_price, "'price':(rel.get('price') or rel.get('retail_price',''))"); done.append("prix BSTN")
+# Correctif 2 : graphie officielle ASICS
+if "'Asics')" in s:
+    s = s.replace("'Asics')", "'ASICS')"); done.append("ASICS")
 if "PROMOS = [" in s:
-    print("Déjà patché."); sys.exit(0)
+    if s != orig:
+        shutil.copy(P, P + ".bak"); open(P, "w", encoding="utf-8").write(s)
+    print("Bannières déjà présentes. Correctifs appliqués : " + (", ".join(done) or "aucun (déjà faits)")); sys.exit(0)
 
 promo_code = '''
 # ── Bannières promo (affichées entre start et end, heure de Paris) ──
@@ -41,4 +52,4 @@ assert s.count(tpl) == 1, "ancre </header> introuvable"
 s = s.replace(tpl, '</header>\n{promo_html()}\n<div class="tabs">', 1)
 shutil.copy(P, P + ".bak")
 open(P, "w", encoding="utf-8").write(s)
-print("OK — patché (sauvegarde : %s.bak)" % P)
+print("OK — bannières promo ajoutées" + (", correctifs : " + ", ".join(done) if done else "") + " (sauvegarde : %s.bak)" % P)
