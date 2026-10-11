@@ -1605,6 +1605,22 @@
     "date_display": "31 octobre 2026"
   },
   {
+    "id": "nike-caitlin-1-snacks-down-a-cotton-candy-colorway-jf3474-400",
+    "title": "Nike Caitlin 1 Snacks Down A “Cotton Candy” Colorway",
+    "brand": "Nike",
+    "date": "2026-11-01",
+    "price": 140,
+    "sku": "JF3474-400",
+    "image_url": "/images/JF3474-400.jpg",
+    "source": "Sneaker News",
+    "buy_url": "https://sneakernews.com/2026/09/25/nike-caitlin-1-racer-blue-melon-tint-jf3474-400/",
+    "added_at": "2026-09-26T06:00:02.853725+00:00",
+    "featured": false,
+    "year": 2026,
+    "slug": "nike-caitlin-1-snacks-down-a-cotton-candy-colorway-jf3474-400",
+    "retailers": []
+  },
+  {
     "id": "victor-wembanyama-nike-gt-cut-4-statue-of-liberty-iw0737-300",
     "sku": "IW0737-300",
     "brand": "Nike",
@@ -1799,39 +1815,6 @@
     "id": "adidas-dame-x-all-star-jq9467",
     "featured": false,
     "year": 2026
-  },
-  {
-    "id": "asics-gel-kayano-14-docks-carrier-grey-1203a537-026",
-    "title": "ASICS GEL-Kayano 14 Docks “Carrier Grey”",
-    "brand": "ASICS",
-    "date": "2026-09-04",
-    "price": 165,
-    "sku": "1203A537-026",
-    "image_url": "/images/1203A537-026.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/09/04/asics-gel-kayano-14-carrier-grey-1203a537-026/",
-    "added_at": "2026-09-06T06:00:02.436213+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2F1203a537-026%2F",
-        "price": "165€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Asics",
-        "url": "https://www.asics.com/fr/fr-fr/",
-        "price": "165€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "silhouette": "Asics Gel-Kayano",
-    "colorway": "Grey",
-    "year": 2026,
-    "slug": "asics-gel-kayano-14-docks-carrier-grey-1203a537-026"
   },
   {
     "id": "air-jordan-1-mid-approaches-sneakerboot-territory-iq5491-001",
@@ -2123,31 +2106,6 @@
     "retailers": []
   },
   {
-    "id": "one-piece-x-nike-air-max-plus-ope-ope-iw1283-600",
-    "title": "Nike Air Max Plus One Piece “Ope Ope”",
-    "brand": "Nike",
-    "date": "2026-09-19",
-    "price": 210,
-    "sku": "IW1283-600",
-    "image_url": "/images/IW1283-600.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/09/16/one-piece-nike-air-max-plus-ope-ope-iw1283-600/",
-    "added_at": "2026-09-17T06:00:02.578012+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiw1283-600%2F",
-        "price": "210€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "silhouette": "Air Max Plus",
-    "year": 2026,
-    "slug": "one-piece-x-nike-air-max-plus-ope-ope-iw1283-600"
-  },
-  {
     "id": "nike-air-max-plus-serves-up-the-joker-color-combo-dm0032-046",
     "title": "Nike Air Max Plus Up “Joker” Color Combo",
     "brand": "Nike",
@@ -2214,22 +2172,6 @@
     "colorway": "Metallic Silver/Pink",
     "year": 2026,
     "slug": "nike-air-max-plus-metallic-silver-pink-isn-t-done-with-summer-yet-iv2840-600",
-    "retailers": []
-  },
-  {
-    "id": "nike-caitlin-1-snacks-down-a-cotton-candy-colorway-jf3474-400",
-    "title": "Nike Caitlin 1 Snacks Down A “Cotton Candy” Colorway",
-    "brand": "Nike",
-    "date": "2026-11-01",
-    "price": 140,
-    "sku": "JF3474-400",
-    "image_url": "/images/JF3474-400.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/09/25/nike-caitlin-1-racer-blue-melon-tint-jf3474-400/",
-    "added_at": "2026-09-26T06:00:02.853725+00:00",
-    "featured": false,
-    "year": 2026,
-    "slug": "nike-caitlin-1-snacks-down-a-cotton-candy-colorway-jf3474-400",
     "retailers": []
   },
   {
@@ -2444,29 +2386,5 @@
     "year": 2026,
     "slug": "no-this-nike-vomero-premium-isn-t-a-melitta-baumeister-collab-iq6943-001",
     "retailers": []
-  },
-  {
-    "id": "tom-sachs-nike-general-purpose-shoe-returns-on-september-30th-fz1363-002",
-    "title": "Tom Sachs’ Nike General Purpose Shoe Returns On September 30th",
-    "brand": "Nike",
-    "date": "2026-09-30",
-    "price": 109.99,
-    "sku": "FZ1363-002",
-    "image_url": "/images/FZ1363-002.jpg",
-    "source": "Sneaker News",
-    "buy_url": "https://sneakernews.com/2026/09/17/nike-tom-sachs-general-purpose-shoe-black-team-royal-fz1363-002/",
-    "added_at": "2026-09-17T16:00:02.970867+00:00",
-    "featured": false,
-    "retailers": [
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Ffz1363-002%2F",
-        "price": "109€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "year": 2026,
-    "slug": "tom-sachs-nike-general-purpose-shoe-returns-on-september-30th-fz1363-002"
   }
 ]
