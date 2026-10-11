@@ -33,14 +33,15 @@ log "git pull (fichiers locaux)..."
 git fetch origin 2>&1 | while IFS= read -r line; do log "  git: $line"; done
 git checkout origin/main -- sitemap.xml sorties/ 2>/dev/null || true
 # git pull uniquement pour les autres fichiers (pas releases.json)
-git stash -- releases.json 2>/dev/null || true
+# releases.json local n'est jamais une source de vérité : on jette toute modif locale (pas de stash)
+git checkout -- releases.json 2>/dev/null || true
 git pull --ff-only 2>&1 | while IFS= read -r line; do log "  git: $line"; done || {
     log "  ⚠ ff-only impossible, reset hard sur origin/main (hors releases.json)"
     git fetch origin
     git reset --hard origin/main
 }
-# Restaurer releases.json local depuis stash si besoin (mais on ne l'utilisera pas)
-git stash pop 2>/dev/null || true
+# Aligner releases.json local sur GitHub (jamais de stash pop : il réinjectait une copie obsolète)
+git checkout origin/main -- releases.json 2>/dev/null || true
 
 # ── 2. Enrichissement automatique via API GitHub ─────────────────────────────
 log "Enrichissement releases.json via API GitHub..."
