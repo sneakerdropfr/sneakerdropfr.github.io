@@ -4,14 +4,18 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Deals Sneakers — SneakerDropFR</title>
 <meta name="description" content="Sneakers disponibles chez BSTN, Snipes, Solebox et Reebok.">
-<style>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700;900&family=Barlow+Condensed:wght@400;700;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/css/shared.css" />
+<style>  /* _site_header */
+.dhead{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding:18px 20px 6px}
+.dtitle{font-family:var(--font-cond,sans-serif);font-size:30px;font-weight:900;letter-spacing:.02em;text-transform:uppercase;color:var(--tx)}
+.dhead .ts{font-size:11px;color:var(--mu)}
+body{padding-bottom:0}
 :root{--bg:#fff;--c2:#f5f5f5;--bor:#e5e5e5;--acc:#FF2D2D;--tx:#0a0a0a;--mu:#777}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
 a{color:inherit;text-decoration:none}
-header{background:#111;border-bottom:1px solid var(--bor);padding:14px 20px;display:flex;align-items:center;gap:12px}
 .back{color:var(--mu);font-size:13px}.back:hover{color:var(--tx)}
-header h1{font-size:18px;font-weight:700;flex:1}
 .ts{font-size:11px;color:var(--mu)}
 .tabs{display:flex;background:#fff;border-bottom:1px solid var(--bor);padding:0 20px}
 .tb{padding:13px 20px;border:none;background:none;color:var(--mu);font-size:14px;font-weight:600;border-bottom:3px solid transparent;cursor:pointer;transition:.2s}
@@ -41,12 +45,15 @@ footer a{color:var(--mu)}
 </style>
 </head>
 <body>
-<header>
-  <a class="back" href="/">← Accueil</a>
-  <h1>Sneakers Deals</h1>
-  <span class="ts">Màj 12/10/2026 00:00</span>
+<header class="header">
+  <div class="container header__inner">
+    <a href="/" class="logo"><div class="logo__icon"><img src="/assets/images/sneakerdropfr-logo.svg" alt="SneakerDropFR" width="30" height="30" style="display:block"></div><span>SneakerDrop<span class="logo__fr">FR</span></span></a>
+    <div class="header__spacer"></div>
+    <a href="/" class="hbtn hbtn--back">← Accueil</a>
+  </div>
 </header>
 <div class="promo-banner" data-start="2026-10-10" data-end="2026-10-19" style="background:linear-gradient(90deg,#FF2D2D,#cc0000);color:#fff;text-align:center;padding:.55rem 1rem;font-size:.85rem;font-weight:700;letter-spacing:.05em">🔥 FLASH SALE SOLEBOX — <span style="background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);border-radius:4px;padding:.1rem .45rem;cursor:pointer" onclick="navigator.clipboard&&navigator.clipboard.writeText('SALE25');this.textContent='✅ Copié!'">SALE25</span> = -25% jusqu'au 19/10 &nbsp;<a href="https://www.awin1.com/cread.php?awinmid=20964&amp;awinaffid=2855487&amp;ued=https%3A%2F%2Fwww.solebox.com%2Fc%2F4171" target="_blank" rel="nofollow sponsored noopener" style="color:#fff;text-decoration:underline">Voir les offres →</a></div><script>(function(){var t=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Paris'});document.querySelectorAll('.promo-banner').forEach(function(d){if(t<d.dataset.start||t>d.dataset.end)d.style.display='none';});})();</script>
+<div class="dhead"><h1 class="dtitle">Sneakers Deals</h1><span class="ts">Màj 12/10/2026 00:03</span></div>
 <div class="tabs">
   <button class="tb on" onclick="stab('bstn',this)">BSTN</button>
   <button class="tb" onclick="stab('snipes',this)">Snipes</button>
