@@ -233,7 +233,9 @@
     "price": 130,
     "image_url": "/images/JA1868-001.webp",
     "wtc_url": "https://www.whentocop.fr/drops/supreme-martine-rose-nike-dunk-low-mike-tyson-ja1868-001",
-    "retailers": []
+    "retailers": [],
+    "silhouette": "Dunk Low",
+    "colorway": "Rose"
   },
   {
     "id": "arte-antwerp-adidas-gsg9-off-white-kk3730",
@@ -264,7 +266,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-x-arte-antwerp-gsg9-kk3730-0357069",
         "price": "249€"
       }
-    ]
+    ],
+    "colorway": "White"
   },
   {
     "id": "arte-antwerp-adidas-gsg9-triple-black-ki9308",
@@ -310,7 +313,8 @@
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=KI9308&wgtarget=https://www.asphaltgold.com/fr/products/adidasx-arte-antwerp-gsg9-low-core-black-core-black-iron-metallic",
         "price": "249€"
       }
-    ]
+    ],
+    "colorway": "Black"
   },
   {
     "id": "nike-air-foamposite-pro-green-camo-im5204-001",
@@ -331,7 +335,8 @@
         "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=Nike-Air-Foamposite-Pro-Black-and-Multi-Color&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fair-foamposite-pro-black-and-multi-color-snkrs",
         "price": "249€"
       }
-    ]
+    ],
+    "colorway": "Green/Camo"
   },
   {
     "id": "song-for-the-mute-adidas-samba-og-base-green-hp8257",
