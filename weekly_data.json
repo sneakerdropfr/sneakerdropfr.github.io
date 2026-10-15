@@ -237,7 +237,9 @@
       "price": 130,
       "image_url": "/images/JA1868-001.webp",
       "wtc_url": "https://www.whentocop.fr/drops/supreme-martine-rose-nike-dunk-low-mike-tyson-ja1868-001",
-      "retailers": []
+      "retailers": [],
+      "silhouette": "Dunk Low",
+      "colorway": "Rose"
     },
     {
       "id": "arte-antwerp-adidas-gsg9-off-white-kk3730",
@@ -268,7 +270,8 @@
           "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-x-arte-antwerp-gsg9-kk3730-0357069",
           "price": "249€"
         }
-      ]
+      ],
+      "colorway": "White"
     },
     {
       "id": "arte-antwerp-adidas-gsg9-triple-black-ki9308",
@@ -314,7 +317,8 @@
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=KI9308&wgtarget=https://www.asphaltgold.com/fr/products/adidasx-arte-antwerp-gsg9-low-core-black-core-black-iron-metallic",
           "price": "249€"
         }
-      ]
+      ],
+      "colorway": "Black"
     },
     {
       "id": "nike-air-foamposite-pro-green-camo-im5204-001",
@@ -335,7 +339,56 @@
           "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=Nike-Air-Foamposite-Pro-Black-and-Multi-Color&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fair-foamposite-pro-black-and-multi-color-snkrs",
           "price": "249€"
         }
-      ]
+      ],
+      "colorway": "Green/Camo"
+    },
+    {
+      "slug": "keen-jasper-collina-strada-wmns-rocks-strada-plaid-seashell-pink-1032983",
+      "sku": "1032983",
+      "title": "KEEN Jasper x Collina Strada WMNS Rocks Strada Plaid Seashell Pink",
+      "brand": "KEEN",
+      "date": "2026-10-15",
+      "date_display": "15 octobre 2026",
+      "price": 200,
+      "image_url": "/images/1032983.webp",
+      "retailers": [
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkeen-x-collina-strada-w-jasper-rocks-multicolore-110360",
+          "price": "199,99€"
+        }
+      ],
+      "id": "keen-jasper-collina-strada-wmns-rocks-strada-plaid-seashell-pink-1032983",
+      "featured": false,
+      "year": 2026,
+      "colorway": "Strada Plaid/Seashell Pink",
+      "silhouette": "KEEN Jasper",
+      "source": "Awin (mail Solebox)",
+      "added_at": "2026-10-14T08:14:28"
+    },
+    {
+      "slug": "keen-jasper-collina-strada-wmns-rocks-black-1032981",
+      "sku": "1032981",
+      "title": "KEEN Jasper x Collina Strada WMNS Rocks Black",
+      "brand": "KEEN",
+      "date": "2026-10-15",
+      "date_display": "15 octobre 2026",
+      "price": 200,
+      "image_url": "/images/1032981.webp",
+      "retailers": [
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkeen-x-collina-strada-w-jasper-rocks-noir-110236",
+          "price": "199,99€"
+        }
+      ],
+      "id": "keen-jasper-collina-strada-wmns-rocks-black-1032981",
+      "featured": false,
+      "year": 2026,
+      "colorway": "Black/Black",
+      "silhouette": "KEEN Jasper",
+      "source": "Awin (mail Solebox)",
+      "added_at": "2026-10-14T08:14:28"
     },
     {
       "id": "song-for-the-mute-adidas-samba-og-base-green-hp8257",
@@ -378,6 +431,11 @@
           "name": "Asphaltgold",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=HP8257&wgtarget=https://www.asphaltgold.com/fr/products/adidasx-song-for-the-mute-samba-og-base-green-core-black-gold-metallic",
           "price": "129€"
+        },
+        {
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=HP8257&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-samba-og-sftm%2FHP8257.html",
+          "price": "130€"
         }
       ],
       "silhouette": "Adidas Samba",
@@ -421,6 +479,16 @@
           "name": "Asphaltgold",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=HQ7600&wgtarget=https://www.asphaltgold.com/fr/products/adidasx-song-for-the-mute-samba-og-core-black-cream-white-gold-metallic",
           "price": "129€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=HQ7600&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-samba-og-song-for-the-mute-hq7600-0355243",
+          "price": "129€"
+        },
+        {
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=HQ7600&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-samba-og-sftm%2FHQ7600.html",
+          "price": "130€"
         }
       ],
       "silhouette": "Adidas Samba",
@@ -469,6 +537,11 @@
           "name": "BSTN",
           "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=HP8256&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-samba-og-song-for-the-mute-hp8256-0355241",
           "price": "129€"
+        },
+        {
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=HP8256&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-samba-og-sftm%2FHP8256.html",
+          "price": "130€"
         }
       ],
       "silhouette": "Adidas Samba",
@@ -520,6 +593,53 @@
         }
       ],
       "colorway": "Silver/Black"
+    },
+    {
+      "id": "satoshi-nakamoto-vans-otw-era-95-lucky-charms-blue-vn00114esn0",
+      "slug": "satoshi-nakamoto-vans-otw-era-95-lucky-charms-blue-vn00114esn0",
+      "featured": false,
+      "year": 2026,
+      "sku": "VN00114ESN0",
+      "title": "Satoshi Nakamoto x Vans Era 95 Lucky Charms Blue",
+      "brand": "Vans",
+      "date": "2026-10-16",
+      "date_display": "16 octobre 2026",
+      "price": 195,
+      "image_url": "/images/VN00114ESN0.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/satoshi-nakamoto-vans-otw-era-95-lucky-charms-blue-vn00114esn0",
+      "retailers": [
+        {
+          "name": "Vans",
+          "url": "https://www.vans.com/fr-fr/p/chaussures-otw-by-vans-x-satoshi-nakamoto-era-95-VN00114ESN0",
+          "price": "195€"
+        }
+      ]
+    },
+    {
+      "id": "amine-new-balance-992-chocolate-amber-u992ne",
+      "slug": "amine-new-balance-992-chocolate-amber-u992ne",
+      "featured": false,
+      "year": 2026,
+      "sku": "U992NE",
+      "title": "Amine x New Balance 992 Chocolate Amber",
+      "brand": "New Balance",
+      "date": "2026-10-16",
+      "date_display": "16 octobre 2026",
+      "price": 250,
+      "image_url": "/images/U992NE.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/amine-new-balance-992-chocolate-amber-u992ne",
+      "retailers": [
+        {
+          "name": "New Balance",
+          "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=U992NE&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Famine-x-nb-made-in-usa-992%2FU992V1-52477.html%3Fdwvar_U992V1-52477_style%3DU992NE",
+          "price": "250€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U992NE&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-x-amine-made-in-usa-992-u992ne-0356312",
+          "price": "249€"
+        }
+      ]
     },
     {
       "id": "travis-scott-x-nike-zoom-vapor-12-hc-pale-ivory-jj2180-100",
@@ -661,7 +781,96 @@
       "year": 2026,
       "silhouette": "Air Force 1",
       "colorway": "Blue"
+    },
+    {
+      "slug": "bad-bunny-adidas-gazelle-indoor-solar-gold-ki2592",
+      "sku": "KI2592",
+      "title": "Bad Bunny x Adidas Gazelle Indoor Solar Gold",
+      "brand": "Adidas",
+      "date": "2026-10-17",
+      "date_display": "17 octobre 2026",
+      "price": 140,
+      "image_url": "/images/KI2592.webp",
+      "retailers": [
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fadidas-originals-x-bad-bunny-gazelle-jaune-103823",
+          "price": "139,99€"
+        },
+        {
+          "name": "Offspring",
+          "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,21/5150397792&u1=KI2592",
+          "price": "120€"
+        },
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KI2592&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-bad-bunny-gazelle-indoor-solar-gold-ki2592",
+          "price": "140€"
+        },
+        {
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KI2592&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-gazelle-indoor-bad-bunny%2FKI2592.html",
+          "price": "140€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=KI2592&wgtarget=https://en.afew-store.com/products/adidas-originals-x-bad-bunny-gazelle-i-blue",
+          "price": "139€"
+        },
+        {
+          "name": "43einhalb",
+          "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=KI2592&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fadidas-x-bad-bunny-gazelle-indoor-solar-gold-1488248",
+          "price": "139€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=KI2592&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fadidas-bad-bunny-gazelle-indoor-ki2592-0357178",
+          "price": "139€"
+        },
+        {
+          "name": "Asphaltgold",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=KI2592&wgtarget=https://www.asphaltgold.com/fr/products/adidasx-bad-bunny-gazelle-indoor-solar-gold-core-black-gum-3",
+          "price": "139€"
+        },
+        {
+          "name": "Naked",
+          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KI2592&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-bad-bunny-gazelle-indoor-solar-gold-core-black-gum-3-ki2592",
+          "price": "140€"
+        },
+        {
+          "name": "END",
+          "url": "https://endclothing.sjv.io/c/2379306/1938001/23391?subId1=KI2592&u=https%3A%2F%2Fwww.endclothing.com%2Fen-fr%2Fadidas-x-bad-bunny-gazelle-indoor-sneaker-ki2592.html",
+          "price": "139€"
+        },
+        {
+          "name": "SNS",
+          "url": "https://www.dpbolvw.net/click-100169928-17152884?sid=KI2592&url=https://sneakersnstuff.com/en-eu/products/adidas-gazelle-indoor-x-bad-bunny-solar-gold-ki2592",
+          "price": "140€"
+        },
+        {
+          "name": "Sevenstore",
+          "url": "https://sevenstore.prf.hn/click/camref:1011l3Ndsh/pubref:KI2592/destination:https%3A%2F%2Fwww.sevenstore.com%2Flaunches%2Fadidas-tbc-x-bad-bunny-gazelle-indoor-sneaker%2F",
+          "price": "150€"
+        },
+        {
+          "name": "Foot Locker",
+          "url": "https://www.awin1.com/cread.php?awinmid=18270&awinaffid=737541&clickref=Bad-Bunny-x-adidas-Gazelle-Indoor-SOLAR-GOLD-KI2592&ued=https%3A%2F%2Fwww.footlocker.fr%2Ffr%2Frelease-calendar%2Fadidas%2F314312744304.html",
+          "price": "140€"
+        },
+        {
+          "name": "Patta",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=299060&clickref=Bad-Bunny-x-adidas-Gazelle-Indoor-Solar-Gold-KI2592&wgtarget=https://fr.patta.nl/products/adidas-x-bad-bunny-gazelle-i-solar-gold-core-black-gum3",
+          "price": "140€"
+        }
+      ],
+      "id": "bad-bunny-adidas-gazelle-indoor-solar-gold-ki2592",
+      "featured": false,
+      "year": 2026,
+      "colorway": "Solar Gold/Core Black/Gum",
+      "silhouette": "Adidas Gazelle Indoor",
+      "source": "Awin (mail Solebox)",
+      "added_at": "2026-10-14T08:14:28"
     }
   ],
-  "generated_at": "2026-10-14T00:09:48.451217Z"
+  "generated_at": "2026-10-15T00:09:28.716097Z"
 }
