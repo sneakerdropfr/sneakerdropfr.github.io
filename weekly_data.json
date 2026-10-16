@@ -590,6 +590,16 @@
           "name": "FootDistrict",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=1203B084-020&wgtarget=https://footdistrict.com/fr/products/asics-gel-kinetic-fr-pure-silver-1203b084-020",
           "price": "150€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=1203B084-020&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fasics-gel-kinetic-fr-1203b084-020-0356474",
+          "price": "149€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=1203B084-020&wgtarget=https://en.afew-store.com/products/asics-gel-kinetic-fr-pure-silver-black-coffee",
+          "price": "149€"
         }
       ],
       "colorway": "Silver/Black"
@@ -613,7 +623,8 @@
           "url": "https://www.vans.com/fr-fr/p/chaussures-otw-by-vans-x-satoshi-nakamoto-era-95-VN00114ESN0",
           "price": "195€"
         }
-      ]
+      ],
+      "colorway": "Blue"
     },
     {
       "id": "amine-new-balance-992-chocolate-amber-u992ne",
@@ -638,6 +649,64 @@
           "name": "BSTN",
           "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=U992NE&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnew-balance-x-amine-made-in-usa-992-u992ne-0356312",
           "price": "249€"
+        }
+      ],
+      "silhouette": "New Balance 992"
+    },
+    {
+      "id": "clot-adidas-sawtooth-mule-cardboard-wonder-white-kj0275",
+      "slug": "clot-adidas-sawtooth-mule-cardboard-wonder-white-kj0275",
+      "featured": false,
+      "year": 2026,
+      "sku": "KJ0275",
+      "title": "CLOT x adidas Sawtooth Mule Cardboard Wonder White",
+      "brand": "Adidas",
+      "date": "2026-10-16",
+      "date_display": "16 octobre 2026",
+      "price": 180,
+      "image_url": "/images/KJ0275.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/clot-adidas-sawtooth-mule-cardboard-wonder-white-kj0275",
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KJ0275&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-clot-sawtooth-mule-by-edison-chen%2FKJ0275.html",
+          "price": "180€"
+        }
+      ]
+    },
+    {
+      "id": "clot-adidas-superstar-dark-blue-kj0283",
+      "slug": "clot-adidas-superstar-dark-blue-kj0283",
+      "featured": false,
+      "year": 2026,
+      "sku": "KJ0283",
+      "title": "CLOT x adidas Superstar Dark Blue",
+      "brand": "Adidas",
+      "date": "2026-10-16",
+      "date_display": "16 octobre 2026",
+      "price": 200,
+      "image_url": "/images/KJ0283.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/clot-adidas-superstar-dark-blue-kj0283",
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KJ0283&ued=https%3A%2F%2Fwww.adidas.fr%2Fsuperstar-clot-by-edison-chen%2FKJ0283.html",
+          "price": "200€"
+        },
+        {
+          "name": "Asphaltgold",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=KJ0283&wgtarget=https://www.asphaltgold.com/fr/products/adidas-x-clot-by-edison-chen-superstar-sawtooth-dark-blue-cardboard-tech-indigo",
+          "price": "199€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=KJ0283&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-clot-superstar-by-edison-chen-kj0283-0355237",
+          "price": "199€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=KJ0283&url=https://slamjam.com/en-fr/products/adidas-footwear-clot-superstar-by-e-blue-j362359",
+          "price": "200€"
         }
       ]
     },
@@ -715,6 +784,11 @@
           "name": "Opium",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10949&wgtarget=https://www.opiumparis.com/fr/accueil/4804-42754-jordan-air-jordan-5-retro-halloween.html#/27-tailles-41",
           "price": "210€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=HQ7978-001&url=https://slamjam.com/en-fr/products/nike-jordan-footwear-air-jordan-5-retro-halloween-black-j371441",
+          "price": "220€"
         }
       ],
       "id": "air-jordan-5-halloween-hq7978-001",
@@ -756,6 +830,11 @@
         {
           "name": "FootDistrict",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=IU7543-077&wgtarget=https://footdistrict.com/fr/products/nike-air-max-iii-iron-grey-iu7543-077",
+          "price": "160€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=IU7543-077&url=https://slamjam.com/en-fr/products/nike-footwear-nike-air-max-90-grey-j370592",
           "price": "160€"
         }
       ],
@@ -861,6 +940,11 @@
           "name": "Patta",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=299060&clickref=Bad-Bunny-x-adidas-Gazelle-Indoor-Solar-Gold-KI2592&wgtarget=https://fr.patta.nl/products/adidas-x-bad-bunny-gazelle-i-solar-gold-core-black-gum3",
           "price": "140€"
+        },
+        {
+          "name": "Footshop",
+          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=KI2592&url=https://releases.footshop.com/adidas-x-bad-bunny-gazelle-indoor-mtyWPqEBQJ2hAzD9f_TK",
+          "price": "140€"
         }
       ],
       "id": "bad-bunny-adidas-gazelle-indoor-solar-gold-ki2592",
@@ -872,5 +956,5 @@
       "added_at": "2026-10-14T08:14:28"
     }
   ],
-  "generated_at": "2026-10-15T00:09:28.716097Z"
+  "generated_at": "2026-10-16T00:09:30.147180Z"
 }
