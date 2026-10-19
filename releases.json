@@ -1,5 +1,65 @@
 [
   {
+    "id": "new-balance-990v4-made-in-usa-navy-silver-u990nv4",
+    "slug": "new-balance-990v4-made-in-usa-navy-silver-u990nv4",
+    "featured": false,
+    "year": 2026,
+    "sku": "U990NV4",
+    "title": "New Balance 990V4 Made In USA Navy Silver",
+    "brand": "New Balance",
+    "date": "2026-10-19",
+    "date_display": "19 octobre 2026",
+    "price": 240,
+    "image_url": "/images/U990NV4.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-990v4-made-in-usa-navy-silver-u990nv4",
+    "retailers": []
+  },
+  {
+    "id": "saucony-progrid-omni-9-gore-tex-fatigue-s101176-1002",
+    "slug": "saucony-progrid-omni-9-gore-tex-fatigue-s101176-1002",
+    "featured": false,
+    "year": 2026,
+    "sku": "S101176-1002",
+    "title": "Saucony ProGrid Omni 9 Gore-Tex Fatigue",
+    "brand": "Saucony",
+    "date": "2026-10-19",
+    "date_display": "19 octobre 2026",
+    "price": 200,
+    "image_url": "/images/S101176-1002.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/saucony-progrid-omni-9-gore-tex-fatigue-s101176-1002",
+    "retailers": []
+  },
+  {
+    "id": "nike-moon-shoe-og-vintage-green-gum-ix3952-300",
+    "slug": "nike-moon-shoe-og-vintage-green-gum-ix3952-300",
+    "featured": false,
+    "year": 2026,
+    "sku": "IX3952-300",
+    "title": "Nike Moon Shoe OG Vintage Green Gum",
+    "brand": "Nike",
+    "date": "2026-10-19",
+    "date_display": "19 octobre 2026",
+    "price": 100,
+    "image_url": "/images/IX3952-300.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-vintage-green-gum-ix3952-300",
+    "retailers": []
+  },
+  {
+    "id": "nike-vomero-premium-sp-skeleton-iv7509-001",
+    "slug": "nike-vomero-premium-sp-skeleton-iv7509-001",
+    "featured": false,
+    "year": 2026,
+    "sku": "IV7509-001",
+    "title": "Nike Vomero Premium SP Skeleton",
+    "brand": "Nike",
+    "date": "2026-10-19",
+    "date_display": "19 octobre 2026",
+    "price": 230,
+    "image_url": "/images/IV7509-001.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-vomero-premium-sp-skeleton-iv7509-001",
+    "retailers": []
+  },
+  {
     "id": "sza-vans-authentic-knockdown-white-fish-print-vn00115awht",
     "sku": "VN00115AWHT",
     "brand": "Vans",
@@ -432,6 +492,27 @@
       }
     ],
     "silhouette": "Kobe 10"
+  },
+  {
+    "id": "pharrell-adidas-adistar-jellyfish-red",
+    "slug": "pharrell-adidas-adistar-jellyfish-red",
+    "featured": false,
+    "year": 2026,
+    "sku": "KK0633",
+    "title": "Pharrell x adidas Adistar Jellyfish RED",
+    "brand": "Adidas",
+    "date": "2026-10-24",
+    "date_display": "24 octobre 2026",
+    "price": 300,
+    "image_url": "/images/KK0633.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/pharrell-adidas-adistar-jellyfish-red",
+    "retailers": [
+      {
+        "name": "Footshop",
+        "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=ProductcodeKK0633&url=https://releases.footshop.com/adidas-x-pharrell-williams-adistar-jellyfish-0KYOP6EBhkDru117nnCK",
+        "price": "300€"
+      }
+    ]
   },
   {
     "id": "air-jordan-41-ruby-hv6474-601",
