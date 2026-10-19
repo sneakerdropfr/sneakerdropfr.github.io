@@ -187,7 +187,8 @@ def wtc_detail(slug):
     d = ac.get('releaseDate') or next((_fr_date(o.get('dropDate')) for o in offers if _fr_date(o.get('dropDate'))), None)
     out = {'slug': dr.get('slug') or slug, 'styleCode': dr.get('styleCode') or '', 'brandName': dr.get('brandName') or '',
            'modelName': dr.get('modelName') or '', 'retailPrice': dr.get('retailPrice') or ac.get('retailPrice') or 0,
-           'dropDate': d or '', 'isDropDateKnown': bool(d), '_offers': offers}
+           'dropDate': d or '', 'isDropDateKnown': bool(d), '_offers': offers,
+           '_shops': (po.get('comparator') or {}).get('catalogs') or []}
     _DETAIL[slug] = out
     time.sleep(1)
     return out
@@ -240,21 +241,39 @@ class Retailers:
         d = wtc_detail(slug)
         if not d or '_offers' not in d:
             print(f'    retailers indisponibles pour {slug} ({"page absente" if d is None else "page illisible"})'); return None
-        out, seen = [], set()
-        for r in d['_offers']:
-            o = r.get('offer') or {}
-            name = (o.get('retailerName') or '').strip()
-            if not name or name.lower() in BANNED_RETAILERS or name.lower() in seen: continue
-            link = (o.get('link') or (r.get('cta') or {}).get('url') or '').strip()
-            if not link: continue
-            if is_generic(link): continue
+        def clean(name, link):
+            if not name or not link or name.lower() in BANNED_RETAILERS or is_generic(link): return None
             if 'awin1.com' in link:
                 for k, mid in AWIN_MIDS.items():
                     if k in link.lower() or k in name.lower():
                         link = re.sub(r'awinaffid=\d+', f'awinaffid={AWIN_AFFID}', link)
                         link = re.sub(r'awinmid=\d+', f'awinmid={mid}', link); break
-            out.append({'name': name, 'url': link, 'price': f'{price}€' if price else ''})
-            seen.add(name.lower())
+            return link
+        # Section « Shops » : lien produit et prix propres à chaque magasin
+        shops = {}
+        for c in d.get('_shops') or []:
+            it = c.get('items') or []; lo = c.get('lowestPrice') or (it[0] if it else {})
+            name = ((c.get('infoReseller') or {}).get('name') or c.get('partner') or '').strip()
+            pe = lo.get('salePriceEUR') or lo.get('priceEUR') or lo.get('price')
+            if name and it: shops[name.lower()] = (name, (lo.get('url') or '').strip(), int(round(float(pe))) if pe else 0)
+        out, seen = [], set()
+        # 1) offres de sortie (FCFS / raffle)
+        for r in d['_offers']:
+            o = r.get('offer') or {}
+            name = (o.get('retailerName') or '').strip()
+            if name.lower() in seen: continue
+            link = clean(name, (o.get('link') or (r.get('cta') or {}).get('url') or '').strip())
+            if not link: continue
+            sp = shops.get(name.lower())
+            pr = sp[2] if sp and sp[2] else price
+            out.append({'name': name, 'url': link, 'price': f'{pr}€' if pr else ''}); seen.add(name.lower())
+        # 2) magasins de la section « Shops » absents des offres
+        for key, (name, url, pr) in shops.items():
+            if key in seen: continue
+            link = clean(name, url)
+            if not link: continue
+            pr = pr or price
+            out.append({'name': name, 'url': link, 'price': f'{pr}€' if pr else ''}); seen.add(key)
         return out
 
 
