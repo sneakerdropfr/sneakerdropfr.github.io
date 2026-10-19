@@ -108,42 +108,89 @@ def http(url):
     except urllib.error.HTTPError as e: return None if e.code == 404 else b''
     except Exception: return b''
 
-def next_data(url):
-    h = http(url)
-    if not h: return None
-    m = re.search(rb'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', h, re.S)
-    return json.loads(m.group(1)) if m else None
+# WhenToCop est passé sous Astro (oct. 2026) : les données sont dans les props des <astro-island>
+# (format sérialisé [type, valeur] : 0 = valeur, 1 = tableau).
+_MOIS_FR = {m: i + 1 for i, m in enumerate(['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'])}
 
-def walk_products(nd):
-    out = {}
-    def w(o):
-        if isinstance(o, dict):
-            if o.get('slug') and o.get('styleCode') and 'mainImages' in o and o.get('dropDate'): out.setdefault(o['slug'], o)
-            for v in o.values(): w(v)
-        elif isinstance(o, list):
-            for v in o: w(v)
-    if nd: w(nd)
+def _astro_dec(v):
+    if isinstance(v, list) and len(v) == 2 and isinstance(v[0], int):
+        t, x = v
+        if t == 0: return {k: _astro_dec(y) for k, y in x.items()} if isinstance(x, dict) else x
+        if t == 1: return [_astro_dec(y) for y in x]
+        return x
+    if isinstance(v, dict): return {k: _astro_dec(y) for k, y in v.items()}
+    return v
+
+def astro_islands(url):
+    """Liste (composant, props) de la page ; None si 404, [] si échec réseau."""
+    import html as _html
+    h = http(url)
+    if h is None: return None
+    if not h: return []
+    out = []
+    for m in re.finditer(r'<astro-island\b([^>]*)>', h.decode('utf-8', 'ignore')):
+        at = m.group(1)
+        ce = re.search(r'component-export="([^"]*)"', at); pr = re.search(r'\sprops="([^"]*)"', at)
+        if not pr: continue
+        try: out.append((ce.group(1) if ce else '', {k: _astro_dec(v) for k, v in json.loads(_html.unescape(pr.group(1))).items()}))
+        except Exception: pass
     return out
+
+def _fr_date(txt):
+    """« Jeudi 22 octobre 2026 » ou « 22/10/2026 » → '2026-10-22' (None si inconnue)."""
+    txt = (txt or '').strip().lower()
+    m = re.search(r'(\d{1,2})/(\d{1,2})/(\d{4})', txt)
+    if m: return f'{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}'
+    m = re.search(r'(\d{1,2})\s+([a-zéû]+)\s+(\d{4})', txt)
+    if m and m.group(2) in _MOIS_FR: return f'{m.group(3)}-{_MOIS_FR[m.group(2)]:02d}-{int(m.group(1)):02d}'
+    return None
+
+def _card_obj(prod):
+    """Carte du calendrier → dict au format utilisé par le reste du script."""
+    c = prod.get('card') or {}; tr = c.get('track') or {}; dr = c.get('drop') or {}
+    slug = (c.get('href') or '').split('/drops/')[-1].strip('/')
+    d = _fr_date(prod.get('day'))
+    img = (c.get('image') or {}).get('url') or ''
+    if not slug or not d: return None
+    return {'slug': slug, 'styleCode': tr.get('sku') or '', 'brandName': tr.get('brandName') or dr.get('brandName') or '',
+            'modelName': tr.get('modelName') or dr.get('modelName') or '', 'dropDate': d, 'isDropDateKnown': True,
+            'retailPrice': dr.get('retailPrice') or 0, 'mainImages': [{'url': img}] if img else [],
+            'productCategoryId': 2 if (dr.get('productCategory') in (None, 'sneakers') and dr.get('isSneaker', True)) else 99}
 
 def wtc_list(max_date, max_pages=15):
     """Drops publics à partir d'aujourd'hui, triés par date (pagination /drops?page=N)."""
     found = {}
     for p in range(1, max_pages + 1):
-        items = walk_products(next_data(f'https://www.whentocop.fr/drops?page={p}'))
+        isl = astro_islands(f'https://www.whentocop.fr/drops?page={p}') or []
+        cat = next((pr for n, pr in isl if n == 'ProductCatalogue' and 'initialPage' in pr), None)
+        if not cat: break
+        items = [o for o in (_card_obj(x) for x in cat['initialPage'].get('products') or []) if o]
         if not items: break
-        found.update(items)
-        if max(str(o['dropDate'])[:10] for o in items.values()) > str(max_date): break
+        for o in items: found.setdefault(o['slug'], o)
+        ip = cat['initialPage']
+        if max(o['dropDate'] for o in items) > str(max_date): break
+        if (ip.get('offset') or 0) + len(ip.get('products') or []) >= (ip.get('total') or 0): break
         time.sleep(1)
     return found
 
+_DETAIL = {}
 def wtc_detail(slug):
-    """Fiche publique d'une paire (None si la page n'existe pas)."""
-    nd = next_data(f'https://www.whentocop.fr/drops/{slug}')
-    if nd is None: return None
-    for q in nd.get('props', {}).get('pageProps', {}).get('dehydratedState', {}).get('queries', []):
-        body = ((q.get('state') or {}).get('data') or {}).get('body')
-        if isinstance(body, dict) and body.get('slug') == slug: return body
-    return {}
+    """Fiche publique d'une paire (None si la page n'existe pas, {} si illisible). '_offers' = retailers chargés par la page."""
+    if slug in _DETAIL: return _DETAIL[slug]
+    isl = astro_islands(f'https://www.whentocop.fr/drops/{slug}')
+    if isl is None: _DETAIL[slug] = None; return None
+    po = next((pr for n, pr in isl if n == 'ProductOffers'), None)
+    ac = next((pr.get('drop') for n, pr in isl if n == 'AddToCollectionButton' and isinstance(pr.get('drop'), dict)), None) or {}
+    if not po: return {}
+    dr = po.get('drop') or {}
+    offers = po.get('retailerOffers') or []
+    d = ac.get('releaseDate') or next((_fr_date(o.get('dropDate')) for o in offers if _fr_date(o.get('dropDate'))), None)
+    out = {'slug': dr.get('slug') or slug, 'styleCode': dr.get('styleCode') or '', 'brandName': dr.get('brandName') or '',
+           'modelName': dr.get('modelName') or '', 'retailPrice': dr.get('retailPrice') or ac.get('retailPrice') or 0,
+           'dropDate': d or '', 'isDropDateKnown': bool(d), '_offers': offers}
+    _DETAIL[slug] = out
+    time.sleep(1)
+    return out
 
 def detect_brand(name):
     low = (name or '').lower()
@@ -186,26 +233,19 @@ def localize_image(e, folder='images'):
 
 
 class Retailers:
-    """Ouvre la page publique WTC dans un navigateur headless et lit les retailers que la page charge elle-même."""
-    def __enter__(self):
-        from playwright.sync_api import sync_playwright
-        self.pw = sync_playwright().start(); self.b = self.pw.chromium.launch()
-        self.pg = self.b.new_page(locale='fr-FR', user_agent=UA['User-Agent']); return self
-    def __exit__(self, *a):
-        try: self.b.close(); self.pw.stop()
-        except Exception: pass
+    """Retailers chargés par la page publique WTC de la paire (lus dans la page, sans navigateur)."""
+    def __enter__(self): return self
+    def __exit__(self, *a): pass
     def get(self, slug, price=0):
-        try:
-            with self.pg.expect_response(lambda r: 'drops-retailer-info/' in r.url, timeout=30000) as ri:
-                self.pg.goto(f'https://www.whentocop.fr/drops/{slug}', wait_until='domcontentloaded', timeout=45000)
-            raw = ri.value.json()
-        except Exception as ex:
-            print(f'    retailers indisponibles pour {slug} ({type(ex).__name__})'); return None
+        d = wtc_detail(slug)
+        if not d or '_offers' not in d:
+            print(f'    retailers indisponibles pour {slug} ({"page absente" if d is None else "page illisible"})'); return None
         out, seen = [], set()
-        for r in raw if isinstance(raw, list) else []:
-            name = ((r.get('retailer') or {}).get('retailerName') or '').strip()
+        for r in d['_offers']:
+            o = r.get('offer') or {}
+            name = (o.get('retailerName') or '').strip()
             if not name or name.lower() in BANNED_RETAILERS or name.lower() in seen: continue
-            link = ((r.get('regionalLinks') or {}).get('FR') or r.get('link') or '').strip()
+            link = (o.get('link') or (r.get('cta') or {}).get('url') or '').strip()
             if not link: continue
             if is_generic(link): continue
             if 'awin1.com' in link:
@@ -213,10 +253,8 @@ class Retailers:
                     if k in link.lower() or k in name.lower():
                         link = re.sub(r'awinaffid=\d+', f'awinaffid={AWIN_AFFID}', link)
                         link = re.sub(r'awinmid=\d+', f'awinmid={mid}', link); break
-            p = r.get('price')
-            out.append({'name': name, 'url': link, 'price': f'{int(float(p))}€' if p else (f'{price}€' if price else '')})
+            out.append({'name': name, 'url': link, 'price': f'{price}€' if price else ''})
             seen.add(name.lower())
-        time.sleep(1)
         return out
 
 
