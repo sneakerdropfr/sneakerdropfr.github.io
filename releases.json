@@ -876,6 +876,27 @@
     ]
   },
   {
+    "id": "asics-us8-s-gel-sj33-deep-plum-fresh-grass-1203b116-500",
+    "slug": "asics-us8-s-gel-sj33-deep-plum-fresh-grass-1203b116-500",
+    "featured": false,
+    "year": 2026,
+    "sku": "1203B116-500",
+    "title": "ASICS US8-S Gel-SJ33 Deep Plum Fresh Grass",
+    "brand": "ASICS",
+    "date": "2026-10-23",
+    "date_display": "23 octobre 2026",
+    "price": 180,
+    "image_url": "/images/1203B116-500.webp",
+    "source": "Awin (mail Solebox)",
+    "retailers": [
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fasics-sportstyle-us8-s-gel-sj33-pourpre-106102",
+        "price": "180€"
+      }
+    ]
+  },
+  {
     "id": "new-balance-750-wmns-black-angora-u7507pm",
     "sku": "U7507PM",
     "brand": "New Balance",
@@ -1426,6 +1447,27 @@
     "colorway": "Desert",
     "slug": "nike-book-2-desert-night-fz7013-003",
     "date_display": "6 novembre 2026"
+  },
+  {
+    "id": "nike-wmns-air-force-1-sqt-square-toe-black-jf7766-001",
+    "slug": "nike-wmns-air-force-1-sqt-square-toe-black-jf7766-001",
+    "featured": false,
+    "year": 2026,
+    "sku": "JF7766-001",
+    "title": "Nike WMNS Air Force 1 SQT Square Toe Black",
+    "brand": "Nike",
+    "date": "2026-11-06",
+    "date_display": "6 novembre 2026",
+    "price": 130,
+    "image_url": "/images/JF7766-001.webp",
+    "source": "Awin (mail Solebox)",
+    "retailers": [
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnike-wmns-air-force-1-sqt-square-toe-noir-140052",
+        "price": "130€"
+      }
+    ]
   },
   {
     "id": "air-jordan-11-wmns-lapis-iz1800-400",
