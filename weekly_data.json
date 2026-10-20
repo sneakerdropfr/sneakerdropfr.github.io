@@ -47,7 +47,8 @@
           "url": "https://www.awin1.com/pclick.php?p=46295089153&a=737541&m=125690&clickref=U990NV4",
           "price": "240€"
         }
-      ]
+      ],
+      "colorway": "Navy/Silver"
     },
     {
       "id": "saucony-progrid-omni-9-gore-tex-fatigue-s101176-1002",
@@ -98,7 +99,8 @@
       "price": 100,
       "image_url": "/images/IX3952-300.webp",
       "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-vintage-green-gum-ix3952-300",
-      "retailers": []
+      "retailers": [],
+      "colorway": "Green"
     },
     {
       "id": "nike-vomero-premium-sp-skeleton-iv7509-001",
@@ -128,6 +130,32 @@
           "name": "FOOTDISTRICT",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&product=1&wglinkid=4527808&productid=55487868010874&productname=Nike+Vomero+Premium+SP+%22Skeleton%22&wgtarget=https://footdistrict.com/fr/products/nike-vomero-premium-sp-skeleton-iv7509-001?utm_source=webgains&siteid=1455575",
           "price": "230€"
+        }
+      ]
+    },
+    {
+      "id": "asap-rocky-puma-suede-94-blue-408735-04",
+      "slug": "asap-rocky-puma-suede-94-blue-408735-04",
+      "featured": false,
+      "year": 2026,
+      "sku": "408735-04",
+      "title": "A$AP Rocky x Puma Suede 94 Blue",
+      "brand": "Puma",
+      "date": "2026-10-20",
+      "date_display": "20 octobre 2026",
+      "price": 120,
+      "image_url": "/images/408735-04.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/asap-rocky-puma-suede-94-blue-408735-04",
+      "retailers": [
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=408735-04&wgtarget=https://en.afew-store.com/products/puma-x-a-ap-rocky-suede-94-blue",
+          "price": "120€"
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&clickref=PUMA-x-Asap-Rocky-Suede&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fpuma-x-asap-rocky-suede-bleu-106798",
+          "price": "120€"
         }
       ]
     },
@@ -270,6 +298,11 @@
         {
           "name": "Offspring",
           "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,21/5641659092&u1=VN00119WBA21",
+          "price": "85€"
+        },
+        {
+          "name": "Foot Locker",
+          "url": "https://www.awin1.com/cread.php?awinmid=18270&awinaffid=737541&clickref=SZA-x-Vans-Knu-Skool-Mule-BLACK-WHITE-VN00119WBA2&ued=https%3A%2F%2Fwww.footlocker.fr%2Ffr%2Frelease-calendar%2Fvans%2F315553085002.html%3F_gl%3D1*rjroxb*_up*MQ..*_ga*MTk1OTE3NDA1Mi4xNzkyNDIzMDkz*_ga_2XB37BGV6G*czE3OTI0MjMwOTIkbzEkZzAkdDE3OTI0MjMwOTIkajYwJGwwJGgw",
           "price": "85€"
         }
       ],
@@ -475,6 +508,69 @@
       "colorway": "Red"
     },
     {
+      "id": "mm6-maison-margiela-salomon-xt-mm6-asparagus-green-gull-blue-caracao-l45448000",
+      "slug": "mm6-maison-margiela-salomon-xt-mm6-asparagus-green-gull-blue-caracao-l45448000",
+      "featured": false,
+      "year": 2026,
+      "sku": "L45448000",
+      "title": "MM6 Maison Margiela x Salomon XT-MM6 Asparagus Green Gull Blue",
+      "brand": "Salomon",
+      "date": "2026-10-22",
+      "date_display": "22 octobre 2026",
+      "price": 390,
+      "image_url": "/images/L45448000.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/mm6-maison-margiela-salomon-xt-mm6-asparagus-green-gull-blue-caracao-l45448000",
+      "retailers": [
+        {
+          "name": "Salomon",
+          "url": "https://www.awin1.com/cread.php?awinmid=86255&awinaffid=737541&ued=https%3A%2F%2Fwww.salomon.com%2Ffr-fr%2Fproduct%2Fxt-mm6-maison-margiela-li8660%2FL45448000",
+          "price": "390€"
+        }
+      ]
+    },
+    {
+      "id": "mm6-maison-margiela-salomon-xt-mm6-vanilla-ice-lemon-l45447800",
+      "slug": "mm6-maison-margiela-salomon-xt-mm6-vanilla-ice-lemon-l45447800",
+      "featured": false,
+      "year": 2026,
+      "sku": "L45447800",
+      "title": "MM6 Maison Margiela x Salomon XT-MM6 Vanilla Ice Lemon",
+      "brand": "Salomon",
+      "date": "2026-10-22",
+      "date_display": "22 octobre 2026",
+      "price": 390,
+      "image_url": "/images/L45447800.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/mm6-maison-margiela-salomon-xt-mm6-vanilla-ice-lemon-l45447800",
+      "retailers": [
+        {
+          "name": "Salomon",
+          "url": "https://www.awin1.com/cread.php?awinmid=86255&awinaffid=737541&ued=https%3A%2F%2Fwww.salomon.com%2Ffr-fr%2Fproduct%2Fxt-mm6-maison-margiela-li8660%2FL45447800",
+          "price": "390€"
+        }
+      ]
+    },
+    {
+      "id": "mm6-maison-margiela-salomon-xt-mm6-tapioca-sea-foam-violet-tulip-l45447900",
+      "slug": "mm6-maison-margiela-salomon-xt-mm6-tapioca-sea-foam-violet-tulip-l45447900",
+      "featured": false,
+      "year": 2026,
+      "sku": "L45447900",
+      "title": "MM6 Maison Margiela x Salomon XT-MM6 Tapioca Sea Foam Violet",
+      "brand": "Salomon",
+      "date": "2026-10-22",
+      "date_display": "22 octobre 2026",
+      "price": 390,
+      "image_url": "/images/L45447900.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/mm6-maison-margiela-salomon-xt-mm6-tapioca-sea-foam-violet-tulip-l45447900",
+      "retailers": [
+        {
+          "name": "Salomon",
+          "url": "https://www.awin1.com/cread.php?awinmid=86255&awinaffid=737541&ued=https%3A%2F%2Fwww.salomon.com%2Ffr-fr%2Fproduct%2Fxt-mm6-maison-margiela-li8660%2FL45447900",
+          "price": "390€"
+        }
+      ]
+    },
+    {
       "id": "nike-air-force-1-low-black-rat-iv4884-200",
       "slug": "nike-air-force-1-low-black-rat-iv4884-200",
       "featured": false,
@@ -623,6 +719,53 @@
           "name": "Footshop",
           "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=ProductcodeKK0633&url=https://releases.footshop.com/adidas-x-pharrell-williams-adistar-jellyfish-0KYOP6EBhkDru117nnCK",
           "price": "300€"
+        },
+        {
+          "name": "Adidas Confirmed",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KK0633&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-pw-adistar-jellyfish%2FKK0633.html",
+          "price": "300€"
+        },
+        {
+          "name": "Naked",
+          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KK0633&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-pharrell-williams-adistar-jellyfish-red-core-black-team-victory-red-kk0633",
+          "price": "300€"
+        }
+      ],
+      "colorway": "RED"
+    },
+    {
+      "id": "pharrell-williams-adidas-adistar-jellyfish-onix-aurora-core-black-kh6728",
+      "slug": "pharrell-williams-adidas-adistar-jellyfish-onix-aurora-core-black-kh6728",
+      "featured": false,
+      "year": 2026,
+      "sku": "KH6728",
+      "title": "Pharrell Williams x adidas Adistar Jellyfish Onix Aurora Core Black",
+      "brand": "Adidas",
+      "date": "2026-10-24",
+      "date_display": "24 octobre 2026",
+      "price": 300,
+      "image_url": "/images/KH6728.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/pharrell-williams-adidas-adistar-jellyfish-onix-aurora-core-black-kh6728",
+      "retailers": [
+        {
+          "name": "Adidas Confirmed",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KH6728&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-pw-adistar-jellyfish%2FKH6728.html",
+          "price": "300€"
+        },
+        {
+          "name": "Footshop",
+          "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=KH6728&url=https://releases.footshop.com/adidas-x-pharrell-williams-adistar-jellyfish-X4pMP6EB855nFHXGeQL0",
+          "price": "300€"
+        },
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=KH6728&wgtarget=https://footdistrict.com/fr/products/adidas-originals-x-pharrell-williams-virginia-adistar-jellyfish-onix-aurora-kh6728",
+          "price": "300€"
+        },
+        {
+          "name": "Naked",
+          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=KH6728&url=https://nakedcph.com/fr/products/adidas-ori-adidas-originals-x-pharrell-williams-adistar-jellyfish-onix-aurora-onix-core-black-kh6728",
+          "price": "300€"
         }
       ]
     },
@@ -650,5 +793,5 @@
       "date_display": "25 octobre 2026"
     }
   ],
-  "generated_at": "2026-10-19T13:35:05.453042Z"
+  "generated_at": "2026-10-20T00:08:59.548129Z"
 }
