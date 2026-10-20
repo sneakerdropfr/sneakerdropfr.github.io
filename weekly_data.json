@@ -180,7 +180,13 @@
       "price": 140,
       "image_url": "/images/IQ5498-200.webp",
       "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-low-se-wmns-cacao-wow-iq5498-200",
-      "retailers": []
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/pclick.php?p=46386840482&a=737541&m=16328&clickref=IQ5498-200",
+          "price": "140€"
+        }
+      ]
     },
     {
       "id": "air-jordan-1-mid-se-halloween-iq5492-001",
@@ -195,7 +201,13 @@
       "price": 150,
       "image_url": "/images/IQ5492-001.webp",
       "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-mid-se-halloween-iq5492-001",
-      "retailers": []
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/pclick.php?p=46386841104&a=737541&m=16328&clickref=IQ5492-001",
+          "price": "150€"
+        }
+      ]
     },
     {
       "id": "air-jordan-1-mid-se-wmns-rust-pink-ja5803-632",
@@ -210,7 +222,13 @@
       "price": 150,
       "image_url": "/images/JA5803-632.webp",
       "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-mid-se-wmns-rust-pink-ja5803-632",
-      "retailers": []
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/pclick.php?p=46386842358&a=737541&m=16328&clickref=JA5803-632",
+          "price": "150€"
+        }
+      ]
     },
     {
       "id": "nike-dunk-low-gore-tex-oil-grey-hq2053-003",
@@ -229,6 +247,11 @@
         {
           "name": "Foot Locker",
           "url": "https://www.awin1.com/pclick.php?p=46345842533&a=737541&m=18270&clickref=HQ2053-003",
+          "price": "140€"
+        },
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/pclick.php?p=46386840103&a=737541&m=16328&clickref=HQ2053-003",
           "price": "140€"
         }
       ]
@@ -880,6 +903,27 @@
       ]
     },
     {
+      "id": "asics-us8-s-gel-sj33-deep-plum-fresh-grass-1203b116-500",
+      "slug": "asics-us8-s-gel-sj33-deep-plum-fresh-grass-1203b116-500",
+      "featured": false,
+      "year": 2026,
+      "sku": "1203B116-500",
+      "title": "ASICS US8-S Gel-SJ33 Deep Plum Fresh Grass",
+      "brand": "ASICS",
+      "date": "2026-10-23",
+      "date_display": "23 octobre 2026",
+      "price": 180,
+      "image_url": "/images/1203B116-500.webp",
+      "source": "Awin (mail Solebox)",
+      "retailers": [
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fasics-sportstyle-us8-s-gel-sj33-pourpre-106102",
+          "price": "180€"
+        }
+      ]
+    },
+    {
       "id": "new-balance-750-wmns-black-angora-u7507pm",
       "sku": "U7507PM",
       "brand": "New Balance",
@@ -1075,5 +1119,5 @@
       "date_display": "25 octobre 2026"
     }
   ],
-  "generated_at": "2026-10-20T15:10:35.456568Z"
+  "generated_at": "2026-10-20T15:13:10.631295Z"
 }
