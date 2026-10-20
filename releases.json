@@ -95,7 +95,13 @@
     "price": 100,
     "image_url": "/images/IX3952-300.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-moon-shoe-og-vintage-green-gum-ix3952-300",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/pclick.php?p=46369331526&a=737541&m=16328&clickref=IX3952-300",
+        "price": "100€"
+      }
+    ],
     "colorway": "Green"
   },
   {
