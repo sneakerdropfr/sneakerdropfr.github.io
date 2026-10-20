@@ -176,7 +176,13 @@
     "price": 140,
     "image_url": "/images/IQ5498-200.webp",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-low-se-wmns-cacao-wow-iq5498-200",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/pclick.php?p=46386840482&a=737541&m=16328&clickref=IQ5498-200",
+        "price": "140€"
+      }
+    ]
   },
   {
     "id": "air-jordan-1-mid-se-halloween-iq5492-001",
@@ -191,7 +197,13 @@
     "price": 150,
     "image_url": "/images/IQ5492-001.webp",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-mid-se-halloween-iq5492-001",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/pclick.php?p=46386841104&a=737541&m=16328&clickref=IQ5492-001",
+        "price": "150€"
+      }
+    ]
   },
   {
     "id": "air-jordan-1-mid-se-wmns-rust-pink-ja5803-632",
@@ -206,7 +218,13 @@
     "price": 150,
     "image_url": "/images/JA5803-632.webp",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-mid-se-wmns-rust-pink-ja5803-632",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/pclick.php?p=46386842358&a=737541&m=16328&clickref=JA5803-632",
+        "price": "150€"
+      }
+    ]
   },
   {
     "id": "nike-dunk-low-gore-tex-oil-grey-hq2053-003",
@@ -225,6 +243,11 @@
       {
         "name": "Foot Locker",
         "url": "https://www.awin1.com/pclick.php?p=46345842533&a=737541&m=18270&clickref=HQ2053-003",
+        "price": "140€"
+      },
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/pclick.php?p=46386840103&a=737541&m=16328&clickref=HQ2053-003",
         "price": "140€"
       }
     ]
