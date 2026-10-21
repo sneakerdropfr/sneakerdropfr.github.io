@@ -339,12 +339,29 @@ def job_week():
     print(f'RÉSUMÉ week : {len(added)} paire(s) ajoutée(s) {[e["sku"] for e in added]}, {ret_added} retailer(s) ajouté(s), weekly={len(drops)} drops')
 
 
+def archive_past(entries):
+    """Copie les paires sorties dans releases_past.json (recherche de l'accueil), sans doublon."""
+    past = gh_json('releases_past.json', 'perplexity') or []
+    ids = {x.get('id') for x in past}; skus = {(x.get('sku') or '').upper() for x in past if x.get('sku')}
+    add = []
+    for r in entries:
+        if not r.get('id') or r['id'] in ids or ((r.get('sku') or '').upper() in skus and r.get('sku')): continue
+        x = dict(r); x['past'] = True; add.append(x); ids.add(r['id'])
+        if r.get('sku'): skus.add(r['sku'].upper())
+    if add:
+        push_json('releases_past.json', past + add, f'[skip ci] chore: archive {len(add)} sortie(s) passée(s) dans releases_past')
+    print(f'  archivées dans releases_past : {len(add)}')
+    return len(add)
+
+
 def job_daily():
     print(f'[daily] {TODAY}')
     rel = gh_json('releases.json', 'perplexity')
     cur = gh_json('cursor.json', 'perplexity') or {'offset': 0}
     before = len(rel)
-    rel = [r for r in rel if str(r.get('date', '')) in ('TBD', '?', '') or str(r.get('date', '')) >= str(LUNDI)]
+    keep = lambda r: str(r.get('date', '')) in ('TBD', '?', '') or str(r.get('date', '')) >= str(LUNDI)
+    gone = [r for r in rel if not keep(r)]
+    rel = [r for r in rel if keep(r)]
     seen_s, seen_t, dedup = set(), set(), []
     for r in rel:
         s = (r.get('sku') or '').upper(); t = re.sub(r'\s+', ' ', (r.get('title') or '').lower().strip())
@@ -372,6 +389,7 @@ def job_daily():
             n = merge_retailers(e, R.get(s, e.get('price')))
             if n: ret_added += n; changes.append(f"{e.get('sku')} +{n} retailer(s)")
     rel.sort(key=sort_key)
+    if gone: archive_past(gone)
     if changes or purged:
         push_json('releases.json', rel, f'[skip ci] chore: daily lot {off // 10 + 1} ({len(changes)} changements, {purged} purgées)')
     if not DRY:
