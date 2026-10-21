@@ -1114,7 +1114,10 @@ def main() -> int:
     existing = set(os.listdir(SORTIES_DIR))
 
     created, overwrote, skipped = [], [], []
-    for r in releases:
+    # Pages aussi pour les paires passées (releases_past.json), sinon la recherche de l'accueil mène à un 404
+    _ids = {r.get("id") for r in releases}
+    to_render = releases + [dict(r, past=True) for r in past_releases if r.get("id") and r.get("id") not in _ids]
+    for r in to_render:
         rid = r.get("id", "")
         if not rid:
             skipped.append("(missing id)")
