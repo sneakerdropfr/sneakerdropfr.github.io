@@ -1121,7 +1121,8 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         // Recherche dans tout le catalogue (à venir + passés)
         var allFiltered = (window.allReleases || []).filter(function(r) {
           return ((r.title||'').toLowerCase().indexOf(window._searchQuery) !== -1
-              || (r.brand||'').toLowerCase().indexOf(window._searchQuery) !== -1)
+              || (r.brand||'').toLowerCase().indexOf(window._searchQuery) !== -1
+              || (r.sku||'').toLowerCase().indexOf(window._searchQuery) !== -1)
               && matchBrand(r, activeFilter);
         });
         filtered = allFiltered;
