@@ -12,7 +12,8 @@
     "colorway": "White/Green",
     "silhouette": "Stan Smith",
     "year": 2025,
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "air-jordan-1-retro-low",
@@ -249,7 +250,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-95-g",
@@ -486,7 +488,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "dunk-low-gs-gg",
@@ -722,7 +725,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "dunk-low-bp",
@@ -738,7 +742,8 @@
     "colorway": "White/Hyper Royal",
     "silhouette": "Dunk Low",
     "year": 2026,
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "dunk-low-tde",
@@ -905,7 +910,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "nike-air-rift-2-kenya-returns-summer-2026",
@@ -921,7 +927,8 @@
     "colorway": "KENYA",
     "silhouette": "Air Rift",
     "year": 2026,
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "nike-air-zoom-huarache-2k4-knicks-pe-releases-fall-2026",
@@ -937,7 +944,8 @@
     "colorway": "Knicks",
     "silhouette": "Huarache",
     "year": 2026,
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "nike-mind-001-cucumber-calm-releases-summer-2026",
@@ -964,7 +972,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "nike-dunk-low",
@@ -991,7 +1000,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-jordan-1-mid",
@@ -1217,7 +1227,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-3-utility-releases-spring-2027",
@@ -1232,7 +1243,8 @@
     "colorway": "UTILITY",
     "year": 2027,
     "silhouette": "Air Jordan 3",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "une-nike-sb-dunk-low-prm-wc-spruce-metallic-gold-d-voil-e",
@@ -1247,7 +1259,8 @@
     "colorway": "Green Patent",
     "year": 2026,
     "silhouette": "Dunk Low",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "nike-air-foamposite-one-mummy-releases-holiday-2026",
@@ -1491,7 +1504,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-90",
@@ -1637,7 +1651,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "nike-air-max-95-scorpion",
@@ -1652,7 +1667,8 @@
     "colorway": "Black/Gamma Blue/Metallic Silver/Chrome",
     "year": 2026,
     "silhouette": "Air Max 95",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "air-jordan-3-bin23",
@@ -1688,7 +1704,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "palace-nike-cryoshot-air-speed-m-black-crimson-white",
@@ -3702,13 +3719,6 @@
         "price": "159.99€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-1-low-og-phantom-pine-green",
-        "price": "194€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "year": 2026,
@@ -3958,7 +3968,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "nike-mind-001-flyknit-bronze-eclipse",
@@ -3996,13 +4007,6 @@
         "price": "90€",
         "resell": false,
         "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "134€",
-        "resell": true,
-        "raffle": false
       },
       {
         "name": "Solebox",
@@ -4071,13 +4075,6 @@
         "price": "120€",
         "resell": false,
         "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "163€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "image_url": "/images/LA6570.jpg",
@@ -4352,13 +4349,6 @@
         "price": "140€",
         "resell": false,
         "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "194€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "image_url": "/images/KZ7196.jpg",
@@ -4626,13 +4616,6 @@
         "price": "120€",
         "resell": false,
         "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "310€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "image_url": "/images/LA4359.jpg",
@@ -4895,13 +4878,6 @@
         "raffle": true
       },
       {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "279€",
-        "resell": true,
-        "raffle": false
-      },
-      {
         "name": "Solebox",
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnike-wmns-air-max-95-og-big-bubble-fresh-mint-gris-98908",
         "price": "189,99€",
@@ -5151,13 +5127,6 @@
         "price": "240€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "433€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "image_url": "/images/IQ7314-200.jpg",
@@ -5190,13 +5159,6 @@
         "url": "https://www.nike.com/fr",
         "price": "270€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "419€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -5236,24 +5198,6 @@
         "url": "https://noirfonce.eu/products/nike-air-max-iii-iu7543-065",
         "price": 160,
         "type": "official"
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/nike-air-max-90-cool-grey-infrared-23-wave-pack-2026",
-        "price": 225,
-        "type": "resell"
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/nike-air-max-3-infrared-23-iu7543-065",
-        "price": 107,
-        "type": "resell"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-max-90-wave-pack-cool-grey-infrared",
-        "price": 135,
-        "type": "resell"
       }
     ],
     "image_url": "/images/IU7543-065.jpg",
@@ -5521,20 +5465,6 @@
         "price": "90€",
         "resell": false,
         "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "162€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "217€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "sku": "IR2175-400",
@@ -5563,16 +5493,6 @@
         "name": "Nike",
         "url": "https://www.nike.com/fr/launch",
         "price": "105€"
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/lego-dunk-low-gs-bright-concord-if2117-102",
-        "price": "164€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/nike-dunk-low-lego-bright-concord-gs",
-        "price": "176€"
       }
     ],
     "buy_url": "",
@@ -5686,16 +5606,6 @@
         "name": "Nike",
         "url": "https://www.nike.com/fr/launch",
         "price": "150€"
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/lego-air-max-95-gs-brick-pixel-io4799-001",
-        "price": "212€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/nike-air-max-95-lego-brick-pixel-gs",
-        "price": "215€"
       }
     ],
     "buy_url": "",
@@ -6509,7 +6419,8 @@
     "colorway": "Timing Is Everything",
     "year": 2026,
     "silhouette": "Pegasus",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "nike-air-trainer-sc-atlanta-olympics-30th-anniversary-releas",
@@ -6543,13 +6454,6 @@
         "price": "140€",
         "resell": false,
         "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "226€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "sku": "IQ5796-500",
@@ -7080,7 +6984,8 @@
     "colorway": "Coconut Milk",
     "year": 2026,
     "silhouette": "Kobe",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "nike-air-max-95-fresh-mint-returns-june-2026",
@@ -7306,7 +7211,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "nike-kobe-9-em-low-protro-draft-day-releases-june-2026",
@@ -7321,7 +7227,8 @@
     "colorway": "Draft Day",
     "year": 2026,
     "silhouette": "Kobe",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "preview-nike-sb-air-force-1-black-gum-",
@@ -7336,7 +7243,8 @@
     "colorway": "Preview: Nike SB Air Force 1 « Black Gum »",
     "year": 2026,
     "silhouette": "Air Force 1 Low",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "new-balance-5030-black-silver",
@@ -7366,13 +7274,6 @@
         "url": "https://www.afew-store.com",
         "price": "130€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "93€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -8171,13 +8072,6 @@
         "price": "150€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "232€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "image_url": "/images/KJ0430.jpg",
@@ -8350,13 +8244,6 @@
         "price": "150€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "186€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "image_url": "/images/IU1055-100.jpg",
@@ -8390,13 +8277,6 @@
         "url": "https://www.adidas.fr",
         "price": "500€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "1013€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -8453,13 +8333,6 @@
         "url": "https://www.queens.de",
         "price": "210€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-pegasus-premium-sp-black-sail",
-        "price": "388€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -8716,13 +8589,6 @@
         "price": "160€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "458€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 0,
@@ -8961,13 +8827,6 @@
         "price": "130€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "140€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 0,
@@ -9014,13 +8873,6 @@
         "price": "160€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "146€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 0,
@@ -9064,13 +8916,6 @@
         "url": "https://www.afew-store.com",
         "price": "100€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "131€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -9320,13 +9165,6 @@
         "price": "180€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "194€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 0,
@@ -9363,13 +9201,6 @@
         "url": "https://www.asphaltgold.com",
         "price": "150€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "138€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -9421,13 +9252,6 @@
         "url": "https://www.slamjam.com",
         "price": "160€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "146€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -9684,13 +9508,6 @@
         "price": "140€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "177€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 15,
@@ -9727,13 +9544,6 @@
         "price": "100€",
         "resell": false,
         "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "151€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 15,
@@ -10005,13 +9815,6 @@
         "price": "150€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "185€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 65,
@@ -10259,13 +10062,6 @@
         "price": "100€",
         "resell": false,
         "raffle": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "156€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 15,
@@ -10529,13 +10325,6 @@
         "url": "https://www.afew-store.com",
         "price": "150€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "233€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -11107,13 +10896,6 @@
         "price": "130€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "93€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 15,
@@ -11372,13 +11154,6 @@
         "price": "180€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "276€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 0,
@@ -11624,13 +11399,6 @@
         "price": "180€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "275€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 0,
@@ -11830,13 +11598,6 @@
         "url": "https://www.hhv.de",
         "price": "140€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "191€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -12095,13 +11856,6 @@
         "price": "150€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "185€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "hype_score": 15,
@@ -12175,22 +11929,6 @@
         "resell": false,
         "raffle": true,
         "type": "raffle"
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/air-jordan-3-retro-worlds-best-dad-if4396-103",
-        "price": "125€",
-        "resell": true,
-        "type": "resell",
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-3-retro-worlds-best-dad",
-        "price": "157€",
-        "resell": true,
-        "type": "resell",
-        "raffle": false
       },
       {
         "name": "FootDistrict",
@@ -12703,34 +12441,10 @@
         "resell": false
       },
       {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/adidas-ballerina-bad-bunny-flamboyan",
-        "price": "183€",
-        "resell": true,
-        "type": "resell",
-        "raffle": false
-      },
-      {
         "name": "Footpatrol",
         "url": "https://www.footpatrol.com",
         "price": "120€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/adidas-x-bad-bunny-ballerina-flamboyan-2026",
-        "price": "190€",
-        "resell": true,
-        "type": "resell",
-        "raffle": false
-      },
-      {
-        "name": "Limited Resell",
-        "url": "https://limitedresell.com/7310-adidas-ballerina-bad-bunny-flamboyan.html",
-        "price": "225€",
-        "resell": true,
-        "type": "resell",
         "raffle": false
       }
     ],
@@ -12757,20 +12471,6 @@
         "url": "https://www.newbalance.fr",
         "price": "160€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "272€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "454€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -13021,20 +12721,6 @@
         "price": "160€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "267€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "454€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "sku": "U204L7YU",
@@ -13094,27 +12780,6 @@
         "name": "Noirfonce",
         "url": "https://www.noirfonce.eu",
         "price": "220€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "268€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "271€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com",
-        "price": "330€",
         "resell": true,
         "raffle": false
       }
@@ -13361,20 +13026,6 @@
         "price": "150€",
         "resell": false,
         "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "164€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "205€",
-        "resell": true,
-        "raffle": false
       }
     ],
     "sku": "UN933GRY",
@@ -13407,20 +13058,6 @@
         "url": "https://www.newbalance.fr",
         "price": "120€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "194€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "202€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -13498,14 +13135,7 @@
     "image_url": "/images/FD6900-200.webp",
     "wtc_url": "https://www.whentocop.fr/drops/off-white-nike-air-force-1-low-desert-tan",
     "buy_url": "",
-    "retailers": [
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/virgil-abloh-nike-air-force-1-low-sesame",
-        "resell": true,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "sku": "FD6900-200",
     "sku_source": "sneakerfiles",
     "sku_confidence": "confirmed",
@@ -13530,21 +13160,7 @@
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
     "buy_url": "https://www.whentocop.fr/drops/nike-mind-002-flyknit-qs-pure-platinum-ir2176-100",
-    "retailers": [
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-mind-002-flyknit-qs-pure-platinum",
-        "price": "355€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "resell": true,
-        "raffle": false
-      }
-    ],
+    "retailers": [],
     "sku": "IR2176-100",
     "sku_source": "sneakerbardetroit",
     "sku_confidence": "confirmed",
@@ -13623,20 +13239,6 @@
         "name": "Noirfonce",
         "url": "https://www.noirfonce.eu",
         "price": "120€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "240€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-max-90-photon-dust-blue-cyber",
-        "price": "316€",
         "resell": true,
         "raffle": false
       }
@@ -13928,18 +13530,6 @@
         "url": "https://www.courir.com",
         "raffle": false,
         "resell": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com",
-        "raffle": false,
-        "resell": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "raffle": false,
-        "resell": false
       }
     ],
     "colorway": "Neptune Grey Shadow Blue",
@@ -13961,12 +13551,6 @@
     "added_at": "2026-05-06T21:05:05.127361+00:00",
     "wtc_url": null,
     "retailers": [
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "",
-        "resell": true
-      },
       {
         "name": "Foot Locker",
         "url": "https://www.footlocker.fr/fr/category/marques/nike/air-force-1.html",
@@ -14016,18 +13600,6 @@
         "name": "Noirfonce",
         "url": "https://noirfonce.eu/products/air-jordan-4-retro-og-sp-bike-air-iq8055-100",
         "price": "230€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-4-retro-og-nigel-sylvester-brick-after-brick",
-        "price": "313€",
-        "resell": true
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/air-jordan-x-nigel-sylvester-4-brick-after-brick-2025",
-        "price": "399€",
-        "resell": true
       }
     ],
     "featured": true,
@@ -14146,18 +13718,6 @@
         "name": "Urbanstar",
         "url": "https://www.urbanstar.fr",
         "price": "150€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-max-90-zest-t90-laser",
-        "price": "157€",
-        "resell": true
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/nike-air-max-90-total-90-laser-hj0624-758",
-        "price": "170€",
-        "resell": true
       }
     ],
     "colorway": "Total 90 Laser",
@@ -14402,18 +13962,6 @@
         "name": "Asphaltgold",
         "url": "https://www.asphaltgold.com",
         "price": "250€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-grey-total-eclipse",
-        "price": "946€",
-        "resell": true
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/new-balance-991v2-made-in-uk-grey-balsam-total-eclipse-u991to2",
-        "price": "329€",
-        "resell": true
       }
     ],
     "sku": "U991TO2",
@@ -14622,20 +14170,7 @@
     "image_url": "/images/IR2009-133.webp",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-6-retro-wmns-sail-neutral-olive-ir2009-133",
     "buy_url": "",
-    "retailers": [
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-6-retro-neutral-olive-womens",
-        "price": "199€",
-        "resell": true
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/wmns-air-jordan-6-retro-low-sail-neutral-olive-ir2009-133",
-        "price": "561€",
-        "resell": true
-      }
-    ],
+    "retailers": [],
     "sku": "IR2009-133",
     "colorway": "Sail Neutral Olive",
     "year": 2026,
@@ -14661,24 +14196,6 @@
         "name": "Noirfonce",
         "url": "https://noirfonce.eu/products/nike-air-max-95-big-bbl-premium-ib7862-100",
         "price": "190€"
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/air-max-95-og-comet-red-2026-ib7862-100",
-        "price": "118€",
-        "resell": true
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-max-95-og-big-bubble-comet-red",
-        "price": "129€",
-        "resell": true
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/nike-air-max-95-og-comet-red-2026",
-        "price": "260€",
-        "resell": true
       }
     ],
     "sku": "IB7862-100",
@@ -14946,18 +14463,6 @@
         "name": "FootDistrict",
         "url": "https://footdistrict.com/fr/products/nike-kobe-3-low-protro-mambacita-iq3916-100",
         "price": "190€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-kobe-3-low-protro-mambacita",
-        "price": "197€",
-        "resell": true
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/nike-kobe-iii-low-protro-mambacita-2026",
-        "price": "225€",
-        "resell": true
       }
     ],
     "sku": "IQ3916-100",
@@ -15421,7 +14926,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "cade-cunningham-x-nike-st-charge-detroit-tough-releases-may-",
@@ -15437,7 +14943,8 @@
     "sku": "IZ6735-100",
     "year": 2026,
     "silhouette": "Nike ST Charge",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "nike-ja-3-kool-aid-releases-may-2026",
@@ -15496,24 +15003,6 @@
         "name": "Noirfonce",
         "url": "https://noirfonce.eu/products/nike-air-max-90-ir1978-844",
         "price": "150€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-max-90-bright-citrus-hypervenom",
-        "price": "140€",
-        "resell": true
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/nike-air-max-90-bright-citrus-hypervenom-ir1978-844",
-        "price": "114€",
-        "resell": true
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/nike-air-max-90-bright-citrus-hypervenom-mad-90-pack-2026",
-        "price": "210€",
-        "resell": true
       }
     ],
     "sku": "IR1978-844",
@@ -15777,24 +15266,6 @@
         "name": "Noirfonce",
         "url": "https://noirfonce.eu/products/nike-air-max-90-se-ir5903-010",
         "price": "150€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-max-90-dark-cinder-mercurial-vapor-1",
-        "price": "161€",
-        "resell": true
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/nike-air-max-90-korea-family-reunion-ir5903-010",
-        "price": "170€",
-        "resell": true
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/nike-air-max-90-mercurial-mad-90-pack-2026",
-        "price": "215€",
-        "resell": true
       }
     ],
     "sku": "IR5903-010",
@@ -16047,18 +15518,6 @@
         "name": "Noirfonce",
         "url": "https://noirfonce.eu",
         "price": "150€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-max-90-tiempo-2005",
-        "price": "178€",
-        "resell": true
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/nike-air-max-90-tiempo-iu0523-010",
-        "price": "161€",
-        "resell": true
       }
     ],
     "sku": "IU0523-010",
@@ -16096,24 +15555,6 @@
         "name": "Noirfonce",
         "url": "https://noirfonce.eu/products/air-jordan-11-retro-low-w-ah7860-102",
         "price": "190€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-11-retro-low-mothers-day-womens",
-        "price": "147€",
-        "resell": true
-      },
-      {
-        "name": "Limited Resell",
-        "url": "https://limitedresell.com/7307-air-jordan-11-retro-low-mothers-day.html",
-        "price": "240€",
-        "resell": true
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/air-jordan-11-retro-low-mother-s-day-2026-1",
-        "price": "279€",
-        "resell": true
       }
     ],
     "sku": "AH7860-102",
@@ -16370,11 +15811,6 @@
         "name": "Noirfonce",
         "url": "https://noirfonce.eu/products/air-jordan-3-retro-og-brazil-iv4871-400",
         "price": "230€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-3-retro-brazil",
-        "price": "302€"
       }
     ],
     "sku": "IV4871-400",
@@ -16672,16 +16108,6 @@
         "name": "Noirfonce",
         "url": "https://noirfonce.eu/products/air-jordan-1-retro-low-og-iw6276-001",
         "price": "160€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-low-og-banned",
-        "price": "127€"
-      },
-      {
-        "name": "Limited Resell",
-        "url": "https://limitedresell.com/7308-air-jordan-1-retro-low-og-banned.html",
-        "price": "195€"
       }
     ],
     "sku": "IW6276-001",
@@ -17145,7 +16571,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "star-wars-the-mandalorian-x-adidas-adizero-evo-sl-atr",
@@ -17160,7 +16587,8 @@
     "colorway": "ATR",
     "year": 2026,
     "silhouette": "Adizero",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "title": "Adidas Bw Army Chalk White Power Green",
@@ -17386,7 +16814,8 @@
         ]
       }
     ],
-    "sku": "HQ9265"
+    "sku": "HQ9265",
+    "retailers": null
   },
   {
     "title": "Adidas Adistar Moulded Wmns Linen Green True Green",
@@ -17622,7 +17051,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "title": "Adidas Adistar Moulded Wmns Aurora Coffee Silver Metallic",
@@ -17857,7 +17287,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "title": "New Balance Abzorb 5030 Grey Days",
@@ -18093,7 +17524,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "title": "New Balance Abzorb 2000 Grey Days",
@@ -18319,7 +17751,8 @@
         ]
       }
     ],
-    "sku": "U20008LR"
+    "sku": "U20008LR",
+    "retailers": null
   },
   {
     "id": "converse-shai-001-premium-ink",
@@ -18332,18 +17765,7 @@
     "buy_url": null,
     "score": 10,
     "added_at": "2026-05-15T20:44:20.414588+00:00",
-    "retailers": [
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com",
-        "price": "158€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr",
-        "price": "191€"
-      }
-    ],
+    "retailers": [],
     "sku": "A23978C",
     "colorway": "Ink",
     "year": 2026,
@@ -18805,7 +18227,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "title": "New Balance Gator Run Dry Lime",
@@ -19041,7 +18464,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "bluetile-nike-sb-dunk-low",
@@ -19074,11 +18498,6 @@
         "name": "FootDistrict",
         "url": "https://footdistrict.com/fr",
         "price": "135€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-sb-dunk-low-pro-bluetile-skateboards",
-        "price": "170€"
       }
     ],
     "sku": "IQ1323-001",
@@ -19097,13 +18516,7 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-ja-3-let-me-be-ja-hf2793-702",
     "buy_url": "https://www.nike.com/fr/launch",
     "score": 40,
-    "retailers": [
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-ja-3-let-me-be-ja",
-        "price": "120€"
-      }
-    ],
+    "retailers": [],
     "sku": "HF2793-702",
     "year": 2026,
     "silhouette": "Ja",
@@ -19343,7 +18756,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-11-retro-low",
@@ -19579,7 +18993,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-jordan-11-retro-low-mothers-day",
@@ -19594,7 +19009,8 @@
     "colorway": "MOTHERS DAY",
     "year": 2026,
     "silhouette": "Air Jordan 1 Low",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "action-bronson-x-new-balance-1890-planet-frog",
@@ -19609,7 +19025,8 @@
     "colorway": "1890 Planet Frog",
     "year": 2026,
     "silhouette": "New Balance 1890",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "nike-lebron-23-old-glory-releases-may-2026",
@@ -19765,7 +19182,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "adidas-anthony-edwards-believe-that-1-cloud-white-",
@@ -19780,7 +19198,8 @@
     "colorway": "CLOUD WHITE",
     "year": 2026,
     "silhouette": "Believe That",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "adidas-anthony-edwards-believe-that-1-carbon-",
@@ -19795,7 +19214,8 @@
     "colorway": "CARBON",
     "year": 2026,
     "silhouette": "Believe That",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "adidas-anthony-edwards-believe-that-1-with-love-",
@@ -20031,7 +19451,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "adidas-anthony-edwards-believe-that-1-lucid-blue-",
@@ -20046,7 +19467,8 @@
     "colorway": "Lucid Blue",
     "year": 2026,
     "silhouette": "Believe That",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "the-adidas-anthony-edwards-believe-that-1-clay-red-will-be-a",
@@ -20061,7 +19483,8 @@
     "colorway": "CLAY RED",
     "year": 2026,
     "silhouette": "Believe That",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "this-stealth-anthony-edwards-believe-that-1-will-only-be-100",
@@ -20076,7 +19499,8 @@
     "colorway": "Stealth/Black",
     "year": 2026,
     "silhouette": "Believe That",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "nike-sb-dunk-low-bluetile-2026",
@@ -20091,7 +19515,8 @@
     "colorway": "Dunk Low",
     "year": 2026,
     "silhouette": "Dunk Low",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "air-jordan-4-retro-toro-bravo-2026",
@@ -20107,20 +19532,6 @@
         "url": "https://www.snipes.com/c/sneakers",
         "price": "220€",
         "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-4-retro-toro-bravo-2026",
-        "price": "220€",
-        "resell": true,
-        "raffle": false
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/air-jordan-4-retro-toro-bravo-2026",
-        "price": "220€",
-        "resell": true,
         "raffle": false
       }
     ],
@@ -20139,15 +19550,8 @@
     "price": 138.0,
     "image_url": "/images/KJ0274.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/clot-adidas-samba-espadrille-white-black-kj0274",
-    "buy_url": "https://stockx.com/fr-fr/adidas-samba-clot-espadrille-white-black",
-    "retailers": [
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/adidas-samba-clot-espadrille-white-black",
-        "resell": true,
-        "raffle": false
-      }
-    ],
+    "buy_url": "",
+    "retailers": [],
     "sku": "KJ0274",
     "sku_source": "wtc",
     "sku_confidence": "confirmed",
@@ -20496,7 +19900,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "clot-by-edison-chen-x-adidas-samba-cloud-white-",
@@ -20612,7 +20017,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "jordan-luka-5-familia-",
@@ -20627,7 +20033,8 @@
     "colorway": "FAMILIA",
     "year": 2026,
     "silhouette": "Jordan Luka 5",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "jordan-luka-5-luka-lifestyle-",
@@ -20642,7 +20049,8 @@
     "colorway": "LUKA LIFESTYLE",
     "year": 2026,
     "silhouette": "Jordan Luka 5",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "jordan-tatum-4-black-ice-blue-",
@@ -20657,7 +20065,8 @@
     "colorway": "Black/Ice Blue",
     "year": 2026,
     "silhouette": "Jordan Tatum 4",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "nike-dunk-low-clover-2026",
@@ -20672,7 +20081,8 @@
     "colorway": "Clover",
     "year": 2026,
     "silhouette": "Dunk Low",
-    "restocks": []
+    "restocks": [],
+    "retailers": null
   },
   {
     "id": "air-max-95-big-bbl-premium",
@@ -20908,7 +20318,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-5-retro-og",
@@ -21134,7 +20545,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-4-retro-iced-carmine-dv7028-116",
@@ -21401,7 +20813,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-90-qs",
@@ -21507,7 +20920,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-jordan-3-retro-orange-citrus",
@@ -21743,7 +21157,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-95-big-bubble-volt-and-university-red",
@@ -21979,7 +21394,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-95-big-bubble-prm",
@@ -22115,7 +21531,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-max-95-pink-foam",
@@ -22161,7 +21578,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-1-retro-low-og",
@@ -22297,7 +21715,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-13-retro",
@@ -22463,7 +21882,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-jordan-3-retro-og-sp",
@@ -22699,7 +22119,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-jordan-1-retro-hi-og",
@@ -22835,7 +22256,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-max-95-big-bubble",
@@ -23031,7 +22453,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-95-og",
@@ -23177,7 +22600,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-6-retro-psg",
@@ -23223,7 +22647,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "x-levis-air-jordan-3-black-and-white",
@@ -23259,7 +22684,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-jordan-6-low-blackout",
@@ -23405,7 +22831,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-6-retro-infrared",
@@ -23541,7 +22968,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-1-retro-high-og",
@@ -23567,7 +22995,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-jordan-4-retro-love-letter",
@@ -23713,7 +23142,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-9-retro",
@@ -23949,7 +23379,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "dunk-low-retro-prm-qs",
@@ -24185,7 +23616,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-4-retro-flight-club",
@@ -24331,7 +23763,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-1-element-low-a-t",
@@ -24457,7 +23890,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-90-g",
@@ -24693,7 +24127,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-95-big-bubble-zip-sp",
@@ -24929,7 +24364,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "dunk-low-gtx",
@@ -25105,7 +24541,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "dunk-low-retro",
@@ -25301,7 +24738,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-95-big-bbl-ltr-qs",
@@ -25327,7 +24765,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "x-paris-saint-germain-air-jordan-5-retro",
@@ -25473,7 +24912,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-95-og-black-border",
@@ -25659,7 +25099,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-10-retro-shadow",
@@ -25775,7 +25216,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-1-retro-low-og-chicago",
@@ -25991,7 +25433,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-jordan-11-retro-grand-finale",
@@ -26177,7 +25620,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-95-qs",
@@ -26413,7 +25857,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-12-retro-taxi",
@@ -26439,7 +25884,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-11-retro-rare-air",
@@ -26595,7 +26041,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-90-prm",
@@ -26781,7 +26228,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-95-prm",
@@ -27017,7 +26465,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-5-retro-og-medium-soft-pink",
@@ -27043,7 +26492,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-95-big-bubble",
@@ -27279,7 +26729,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-max-90",
@@ -27435,7 +26886,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "dunk-low-gs",
@@ -27621,7 +27073,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "dunk-low-retro-prm",
@@ -27857,7 +27310,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "x-lego-col-gs-dunk-low",
@@ -28093,7 +27547,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-1-retro-high-og-shattered-backboard",
@@ -28119,7 +27574,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-max-95-big-bubble-blue-tint",
@@ -28325,7 +27781,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-95-big-bubble-blue-spark",
@@ -28561,7 +28018,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "x-harris-tweed-wmns-dunk-low",
@@ -28757,7 +28215,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-xxxix",
@@ -28903,7 +28362,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-3-retro-starfish",
@@ -28929,7 +28389,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-air-jordan-1-mm-low-v3",
@@ -29085,7 +28546,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-dunk-low",
@@ -29321,7 +28783,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-3-retro-pure-money-ps",
@@ -29557,7 +29020,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-3-og-rare-air-td",
@@ -29583,7 +29047,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "x-travis-scott-zoom-field-jaxx",
@@ -29819,7 +29284,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-rev",
@@ -29995,7 +29461,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-dunk-low-nn-se",
@@ -30041,7 +29508,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "dunk-low-retro-se",
@@ -30277,7 +29745,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-max-90-gtx",
@@ -30303,7 +29772,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "air-jordan-1-low",
@@ -30329,7 +29799,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "x-stash-air-max-95-sp",
@@ -30565,7 +30036,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-dunk-low-se",
@@ -30591,7 +30063,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-dunk-low-cacao-wow-and-pink-foam",
@@ -30617,7 +30090,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "caroline-hu-clot-adidas-samba-lace-blue",
@@ -30627,15 +30101,8 @@
     "price": 137.0,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/caroline-hu-clot-adidas-samba-lace-blue-js2777",
-    "buy_url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-blue",
-    "retailers": [
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-blue",
-        "resell": true,
-        "raffle": false
-      }
-    ],
+    "buy_url": "",
+    "retailers": [],
     "sku": "JS2777",
     "sku_source": "wtc",
     "sku_confidence": "confirmed",
@@ -30653,15 +30120,8 @@
     "price": 136.0,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/caroline-hu-clot-adidas-samba-black-jq4749",
-    "buy_url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-black",
-    "retailers": [
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-black",
-        "resell": true,
-        "raffle": false
-      }
-    ],
+    "buy_url": "",
+    "retailers": [],
     "sku": "JQ4749",
     "sku_source": "wtc",
     "sku_confidence": "confirmed",
@@ -30679,15 +30139,8 @@
     "price": 104.0,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/caroline-hu-clot-adidas-samba-pink-jq4747",
-    "buy_url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-pink",
-    "retailers": [
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-pink",
-        "resell": true,
-        "raffle": false
-      }
-    ],
+    "buy_url": "",
+    "retailers": [],
     "sku": "JQ4747",
     "sku_source": "wtc",
     "sku_confidence": "confirmed",
@@ -30705,15 +30158,8 @@
     "price": 147.0,
     "image_url": "",
     "wtc_url": "https://www.whentocop.fr/drops/caroline-hu-clot-adidas-samba-off-white-jq4748",
-    "buy_url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-off-white",
-    "retailers": [
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/adidas-samba-reverie-by-caroline-hu-clot-off-white",
-        "resell": true,
-        "raffle": false
-      }
-    ],
+    "buy_url": "",
+    "retailers": [],
     "sku": "JQ4748",
     "sku_source": "wtc",
     "sku_confidence": "confirmed",
@@ -30907,7 +30353,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "wmns-dunk-low-panda",
@@ -31143,7 +30590,8 @@
           }
         ]
       }
-    ]
+    ],
+    "retailers": null
   },
   {
     "id": "super-mario-x-crocs-classic-clog-mario",
@@ -31275,51 +30723,6 @@
     "year": 2026
   },
   {
-    "id": "new-balance-abzorb-2000s-yellow",
-    "title": "New Balance Abzorb 2000S Yellow",
-    "brand": "New Balance",
-    "date": "15/07/2026",
-    "price": "200 €",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2022/11/New-Balance-2002R-M2002RHT-01.jpeg",
-    "retailers": [
-      {
-        "@type": "Offer",
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr",
-        "price": 200,
-        "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU2000460",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fu2000460%2F",
-        "price": "200€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "sku": "",
-    "colorway": "Yellow",
-    "year": 2026
-  },
-  {
-    "id": "nike-kd-19-candy-apple-ih1117-600",
-    "title": "Nike KD 19 \"Candy Apple\"",
-    "brand": "Nike",
-    "date": "15/07/2026",
-    "price": "160 €",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/kd-19-red.jpg",
-    "retailers": [],
-    "sku": "",
-    "year": 2026
-  },
-  {
     "id": "adidas-holo-peak-white-grey-silver-ki1521",
     "title": "Adidas Holo Peak \"White Grey Silver\"",
     "brand": "Adidas",
@@ -31400,73 +30803,6 @@
     "year": 2026
   },
   {
-    "id": "new-balance-991v1-made-in-uk-luxe-suede-m991cm1",
-    "title": "New Balance 991v1 Made in UK \"Luxe Suede\"",
-    "brand": "New Balance",
-    "date": "16/07/2026",
-    "price": "280 €",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/07/new-balance-991-luxe-suede-dijon-castle-wall-m991cm1-4.jpg",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DM991CM1",
-        "price": "280€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fm991cm1%2F",
-        "price": "280€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "New Balance",
-        "url": "https://www.newbalance.fr/",
-        "price": "280€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "sku": "",
-    "silhouette": "Puma Suede",
-    "year": 2026
-  },
-  {
-    "id": "up-close-with-bad-bunny-x-adidas-f50-ghost-sprint-ki7711",
-    "title": "Bad Bunny x Adidas F50 Ghost Sprint \"Solar Slime\"",
-    "brand": "Adidas",
-    "date": "18/07/2026",
-    "price": "160 €",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/bad-bunny-adidas-f50-ghost-sprint-ki7711-6.jpg",
-    "retailers": [
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI7711",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fki7711%2F",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Adidas",
-        "url": "https://www.adidas.fr/",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "sku": "",
-    "year": 2026
-  },
-  {
     "id": "air-jordan-3-og-true-blue",
     "title": "Air Jordan 3 OG True Blue",
     "brand": "Jordan Brand",
@@ -31506,47 +30842,6 @@
     "sku": "IF4396-102",
     "silhouette": "Air Jordan 3",
     "colorway": "Blue",
-    "year": 2026
-  },
-  {
-    "id": "nike-mind-001-amp-indigo-burst",
-    "title": "Nike Mind 001 AMP Indigo Burst",
-    "brand": "Nike",
-    "date": "18/07/2026",
-    "price": "90 €",
-    "image_url": "https://sneakernews.com/wp-content/uploads/2026/06/nike-mind-001-indigo-burst-hyper-punch-iz6659-400-1.jpg",
-    "retailers": [
-      {
-        "@type": "Offer",
-        "name": "Nike",
-        "url": "https://www.nike.com/fr/launch",
-        "price": 90,
-        "priceCurrency": "EUR"
-      },
-      {
-        "name": "Snipes",
-        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIZ6659-400",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Solebox",
-        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fiz6659-400%2F",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      },
-      {
-        "name": "Nike SNKRS",
-        "url": "https://www.nike.com/fr/launch",
-        "price": "90€",
-        "resell": false,
-        "raffle": false
-      }
-    ],
-    "sku": "",
-    "colorway": "Indigo",
     "year": 2026
   },
   {
@@ -31791,27 +31086,6 @@
         "priceCurrency": "EUR"
       },
       {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-cryoshot-mercurial-vapor-r9-patta?country=FR&currencyCode=EUR&size=3.5",
-        "price": 247,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/nike-x-patta-cryoshot-mercurial-vapor-r9-world-cup-pack-2026?destination=datafeed",
-        "price": 295,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/patta-x-nike-cryoshot-mercurial-metallic-silver-im0589-001",
-        "price": 298,
-        "priceCurrency": "EUR"
-      },
-      {
         "name": "BSTN",
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-x-patta-cryo-shot-im0589-001-0358312",
         "price": "200€",
@@ -31852,20 +31126,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/paul-rodriguez-nike-sb-air-zoom-low-dodgers-iu7835-001",
     "retailers": [
       {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-sb-zoom-air-paul-rodriguez-1-flint-grey?country=FR&currencyCode=EUR&size=4",
-        "price": 134,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/paul-rodriguez-x-nike-sb-air-zoom-low-dodgers-iu7835-001",
-        "price": 154,
-        "priceCurrency": "EUR"
-      },
-      {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIU7835-001",
         "price": "120€",
@@ -31893,20 +31153,6 @@
     "image_url": "/images/KH9802.webp",
     "wtc_url": "https://www.whentocop.fr/drops/liberty-london-adidas-samba-og-wmns-maroon-warm-vanilla-kh9802",
     "retailers": [
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/adidas-wmns-samba-liberty-kh9802",
-        "price": 106,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/adidas-samba-og-liberty-london-maroon-warm-vanilla-womens?country=FR&currencyCode=EUR",
-        "price": 122,
-        "priceCurrency": "EUR"
-      },
       {
         "@type": "Offer",
         "name": "Schrittmacher",
@@ -32093,13 +31339,6 @@
     "retailers": [
       {
         "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/adidas-adizero-adios-pro-4-white-lucid-red-shock-purple?country=FR&currencyCode=EUR",
-        "price": 211,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
         "name": "Foot Store",
         "url": "https://www.awin1.com/pclick.php?p=45039254452&a=737541&m=55619",
         "price": 250,
@@ -32143,13 +31382,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-heat-map-black-racer-blue-ib6834-001",
     "retailers": [
       {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-force-1-low-retro-heat-map-black-racer-blue?country=FR&currencyCode=EUR",
-        "price": 141,
-        "priceCurrency": "EUR"
-      },
-      {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIB6834-001",
         "price": "130€",
@@ -32185,20 +31417,6 @@
     "image_url": "/images/A19049C.webp",
     "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-black-a19049c",
     "retailers": [
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/converse-chuck-taylor-all-star-70-ox-collina-strada-black",
-        "price": 148,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/collina-strada-x-converse-chuck-70-black-a19049c",
-        "price": 343,
-        "priceCurrency": "EUR"
-      },
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DA19049C",
@@ -32237,20 +31455,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-xxhi-black-a19050c",
     "retailers": [
       {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/converse-chuck-taylor-all-star-70-xxhi-collina-strada-black?country=FR&currencyCode=EUR",
-        "price": 260,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/collina-strada-x-converse-chuck-70-xxhi-black-a19050c",
-        "price": 1083,
-        "priceCurrency": "EUR"
-      },
-      {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DA19050C",
         "price": "260€",
@@ -32288,20 +31492,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-mellow-yellow-a22205c",
     "retailers": [
       {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/converse-chuck-taylor-all-star-70-ox-collina-strada-mellow-yellow",
-        "price": 159,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/collina-strada-x-converse-chuck-70-mellow-yellow-a22205c",
-        "price": 454,
-        "priceCurrency": "EUR"
-      },
-      {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DA22205C",
         "price": "160€",
@@ -32338,20 +31528,6 @@
     "image_url": "/images/A19047C.webp",
     "wtc_url": "https://www.whentocop.fr/drops/collina-strada-converse-chuck-70-high-mellow-rose-a19047c",
     "retailers": [
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/converse-chuck-taylor-all-star-70-hi-collina-strada-mellow-rose",
-        "price": 208,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/collina-strada-x-converse-chuck-70-high-mellow-rose-a19047c",
-        "price": 342,
-        "priceCurrency": "EUR"
-      },
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DA19047C",
@@ -32394,27 +31570,6 @@
         "name": "END.",
         "url": "https://www.endclothing.com/ie/nike-x-g-dragon-korea-cryo-shot-sneaker-hq1460-100.html",
         "price": 215,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/nike-x-peaceminusone-cryoshot-ctr360-maestri-ii-world-cup-pack-2026?destination=datafeed",
-        "price": 400,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-cryoshot-ctr360-maestri-ii-g-dragon-peaceminusone-natural-university-red?country=FR&currencyCode=EUR&size=4",
-        "price": 487,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/peaceminusone-x-nike-cryoshot-ctr360-maestri-ii-natural-university-red-hq1460-100",
-        "price": 1766,
         "priceCurrency": "EUR"
       },
       {
@@ -32473,27 +31628,6 @@
         "priceCurrency": "EUR"
       },
       {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-cryoshot-striker-1976-slawn?country=FR&currencyCode=EUR",
-        "price": 366,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/nike-x-slawn-x-nigeria-cryoshot-striker-1976-natural-and-white-world-cup-pack-2026",
-        "price": 550,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/slawn-x-nike-cryoshot-nigeria-ii9933-100",
-        "price": 1769,
-        "priceCurrency": "EUR"
-      },
-      {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DII9933-100",
         "price": "200€",
@@ -32535,27 +31669,6 @@
         "name": "END.",
         "url": "https://www.endclothing.com/ie/nike-x-nocta-canada-cryo-shot-sneaker-im0703-700.html",
         "price": 215,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/nocta-x-nike-cryoshot-tiempo-94-university-gold-im0703-700",
-        "price": 232,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-cryoshot-tiempo-94-nocta?country=FR&currencyCode=EUR",
-        "price": 253,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/nike-x-nocta-x-canada-cryoshot-tiempo-94-university-gold-world-cup-pack-2026",
-        "price": 300,
         "priceCurrency": "EUR"
       },
       {
@@ -32715,27 +31828,6 @@
         "priceCurrency": "EUR"
       },
       {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-cryoshot-zoom-m9-virgil-abloh-archives?country=FR&currencyCode=EUR",
-        "price": 236,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/nike-x-virgil-abloh-x-usa-archives-cryoshot-tiempo-94-white-and-university-red-world-cup-pack-2026",
-        "price": 326,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/virgil-abloh-archive-x-nike-cryoshot-zoom-m9-white-im3886-100",
-        "price": 333,
-        "priceCurrency": "EUR"
-      },
-      {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIM3886-100",
         "price": "200€",
@@ -32872,20 +31964,6 @@
         "priceCurrency": "EUR"
       },
       {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/adidas-harden-vol-10-clear-cyan-ki1605",
-        "price": 154,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/adidas-harden-vol-10-clear-cyan",
-        "price": 262,
-        "priceCurrency": "EUR"
-      },
-      {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI1605",
         "price": "160€",
@@ -32933,20 +32011,6 @@
         "name": "Calicoclubstore",
         "url": "https://calicoclubstore.com/shop/products/new-balance-u991-rb2?source=webgains",
         "price": 250,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/new-balance-991v2-mahogany-rose-u991rb2",
-        "price": 273,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-mahogany-rose?country=FR&currencyCode=EUR&size=4",
-        "price": 286,
         "priceCurrency": "EUR"
       },
       {
@@ -33105,20 +32169,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-sea-grass-u991bb2",
     "retailers": [
       {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/new-balance-991v2-miuk-sea-grass?country=FR&currencyCode=EUR&size=7",
-        "price": 428,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/new-balance-991v2-made-in-uk-seaglass-u991bb2",
-        "price": 566,
-        "priceCurrency": "EUR"
-      },
-      {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DU991BB2",
         "price": "250€",
@@ -33153,13 +32203,6 @@
     "image_url": "/images/IR2173-001.jpg",
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-goadome-low-black-ir2173-001",
     "retailers": [
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/nike-air-max-goadome-low-sp-black-metallic-silver-pale-citron",
-        "price": 251,
-        "priceCurrency": "EUR"
-      },
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIR2173-001",
@@ -33800,20 +32843,6 @@
     "retailers": [
       {
         "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/air-jordan-wmns-1-retro-high-og-khaki-fd2596-201",
-        "price": 99,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-1-retro-high-og-khaki-womens?country=FR&currencyCode=EUR&size=5W",
-        "price": 111,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
         "name": "Slam Jam",
         "url": "https://slamjam.com/en-fr/products/nike-jordan-footwear-air-jordan-1-retro-high-og-womens-shoes-multicolor-j356657",
         "price": 180,
@@ -33824,13 +32853,6 @@
         "name": "FOOTDISTRICT",
         "url": "https://footdistrict.com/fr/products/air-jordan-womens-1-retro-hi-og-khaki-fd2596-201?utm_source=webgains",
         "price": 180,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "Klekt",
-        "url": "https://www.klekt.com/product/new/air-jordan-1-high-og-khaki-sail-2026?destination=datafeed",
-        "price": 266,
         "priceCurrency": "EUR"
       },
       {
@@ -34033,20 +33055,6 @@
     "image_url": "/images/DD0587-008.webp",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-5-retro-black-university-blue-dd0587-008",
     "retailers": [
-      {
-        "@type": "Offer",
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/air-jordan-5-retro-black-university-blue-2026-dd0587-008",
-        "price": 250,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/fr-fr/air-jordan-5-retro-black-university-blue-2026?country=FR&currencyCode=EUR&size=7",
-        "price": 254,
-        "priceCurrency": "EUR"
-      },
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DDD0587-008",
@@ -36825,16 +35833,6 @@
         "price": "350€"
       },
       {
-        "name": "StockX",
-        "url": "https://stockx.com/air-jordan-3-retro-og-bin-23",
-        "price": "759€"
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/air-jordan-3-retro-og-bin-23-io7744-600",
-        "price": "1349€"
-      },
-      {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DIO7744-600",
         "price": "355€",
@@ -37061,21 +36059,6 @@
         "price": "140€"
       },
       {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/mind-002-light-smoke-grey-hq4308-003",
-        "price": "146€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/nike-mind-002-light-smoke-grey",
-        "price": "170€"
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/nike-mind-002",
-        "price": "212€"
-      },
-      {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DHQ4308-003",
         "price": "140€",
@@ -37200,21 +36183,6 @@
         "name": "Nike",
         "url": "https://www.nike.com/fr/launch",
         "price": "90€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.com/nike-mind-001-wmns-black-hyper-crimson",
-        "price": "138€"
-      },
-      {
-        "name": "GOAT",
-        "url": "https://www.goat.com/sneakers/mind-001-wmns-black-hyper-crimson-hq4309-001",
-        "price": "155€"
-      },
-      {
-        "name": "Klekt",
-        "url": "https://www.klekt.com/nike-mind-001",
-        "price": "160€"
       },
       {
         "name": "Snipes",
@@ -37538,20 +36506,6 @@
         "name": "Solebox",
         "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&p=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fkj4289%2F",
         "price": 210,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "StockX",
-        "url": "https://stockx.com/search?s=KJ4289",
-        "price": 241,
-        "priceCurrency": "EUR"
-      },
-      {
-        "@type": "Offer",
-        "name": "Klekt",
-        "url": "https://www.klekt.com/search?query=KJ4289",
-        "price": 350,
         "priceCurrency": "EUR"
       }
     ],
@@ -40238,11 +39192,6 @@
     "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-souvenir-oatmeal-vn000e8v2n1",
     "retailers": [
       {
-        "name": "StockX",
-        "url": "https://stockx.pvxt.net/e6GoO",
-        "price": ""
-      },
-      {
         "name": "Slam Jam",
         "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=VN000E8V2N11&url=https://slamjam.com/en-fr/products/vans-footwear-lx-old-skool-36-beige-j361939",
         "price": "140€"
@@ -40256,16 +39205,6 @@
         "name": "Footshop",
         "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=Vans-LX-Old-Skool-36-Oatmeal&url=https://releases.footshop.com/vans-lx-old-skool-36-vtYBap8B855nFHXG78rA",
         "price": "140€"
-      },
-      {
-        "name": "Limited Resell",
-        "url": "https://tinyurl.com/2av9rzat",
-        "price": ""
-      },
-      {
-        "name": "GOAT",
-        "url": "https://goat.sjv.io/WD9g3G",
-        "price": ""
       },
       {
         "name": "Size?",
@@ -40305,21 +39244,6 @@
         "name": "FootDistrict",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=40833003&wgtarget=https://footdistrict.com/fr/products/puma-womens-suede-bloom-pack-408330-03",
         "price": "90€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
-        "price": ""
-      },
-      {
-        "name": "Limited Resell",
-        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
-        "price": ""
-      },
-      {
-        "name": "GOAT",
-        "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
-        "price": ""
       }
     ],
     "featured": false,
@@ -40346,21 +39270,6 @@
         "name": "FootDistrict",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=408330-05&wgtarget=https://footdistrict.com/fr/products/puma-womens-suede-bloom-pack-408330-05",
         "price": "90€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
-        "price": ""
-      },
-      {
-        "name": "Limited Resell",
-        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
-        "price": ""
-      },
-      {
-        "name": "GOAT",
-        "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
-        "price": ""
       }
     ],
     "featured": false,
@@ -40387,21 +39296,6 @@
         "name": "FootDistrict",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=408330-01&wgtarget=https://footdistrict.com/fr/products/puma-womens-suede-bloom-pack-408330-01",
         "price": "90€"
-      },
-      {
-        "name": "StockX",
-        "url": "https://stockx.pvxt.net/c/2379306/530344/9060?subId1=defaultDropCreation&u=https%3A%2F%2Fstockx.com%2Ffr-fr%2F",
-        "price": ""
-      },
-      {
-        "name": "Limited Resell",
-        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=286575&clickref=defaultDropCreation&wgtarget=https://limitedresell.com/",
-        "price": ""
-      },
-      {
-        "name": "GOAT",
-        "url": "https://goat.sjv.io/c/2379306/916402/12522?subId1=defaultDropCreation&u=https%3A%2F%2Fwww.goat.com%2Ffr-fr%2F",
-        "price": ""
       }
     ],
     "featured": false,
@@ -42521,7 +41415,8 @@
       }
     ],
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-1890a-dark-night-u18905jk",
-    "past": true
+    "past": true,
+    "id": "new-balance-1890a-dark-night-u18905jk"
   },
   {
     "id": "nike-air-rift-2-wmns-black-metallic-silver-iq8006-003",
@@ -42686,7 +41581,8 @@
       }
     ],
     "wtc_url": "https://www.whentocop.fr/drops/vandythepink-asics-gel-kayano-12-1-vanilla-1203b302-100",
-    "past": true
+    "past": true,
+    "id": "vandythepink-x-asics-gel-kayano-vanilla-1203b302-100"
   },
   {
     "id": "nike-air-max-95-blue-lawson-ir1944-400",
@@ -42834,7 +41730,8 @@
       }
     ],
     "wtc_url": "https://www.whentocop.fr/drops/free-the-youth-air-jordan-16-wolf-grey-apricot-black-iv7638-001",
-    "past": true
+    "past": true,
+    "id": "free-the-youth-x-air-jordan-16-wolf-grey-apricot-black-iv7638-001"
   },
   {
     "title": "Pharrell Williams x adidas Adistar Jellyfish Crystal Sand",
@@ -42870,7 +41767,8 @@
       }
     ],
     "wtc_url": "https://www.whentocop.fr/drops/pharrell-williams-adidas-adistar-jellyfish-crystal-sand-kh6729",
-    "past": true
+    "past": true,
+    "id": "pharrell-williams-x-adidas-adistar-jellyfish-crystal-sand-kh6729"
   },
   {
     "id": "nike-vomero-plus-cheat-day-iv4522-200",
@@ -43013,7 +41911,8 @@
       }
     ],
     "wtc_url": "https://www.whentocop.fr/drops/liberty-london-adidas-handball-spezial-j-pink-cream-kh9841",
-    "past": true
+    "past": true,
+    "id": "adidas-handball-spezial-liberty-london-pink-cream-kh9841"
   },
   {
     "title": "adidas Originals x Liberty London WMNS Japan Aurora Coffee Magic Mauve Khaki Three",
@@ -43059,7 +41958,8 @@
       }
     ],
     "wtc_url": "https://www.whentocop.fr/drops/adidas-originals-x-liberty-london-wmns-japan-aurora-coffee-magic-mauve-khaki-three-ki4806",
-    "past": true
+    "past": true,
+    "id": "adidas-originals-x-liberty-london-wmns-japan-aurora-coffee-magic-mauve-khaki-three-ki4806"
   },
   {
     "id": "new-balance-1890p-team-red-pink-u18902uh",
@@ -43573,7 +42473,8 @@
     ],
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-retro-premium-woven-sanddrift-pale-ivory-im5755-100",
     "updated_at": "2026-08-24",
-    "past": true
+    "past": true,
+    "id": "nike-air-force-1-low-retro-premium-woven-sanddrift-pale-ivory-im5755-100"
   },
   {
     "slug": "asap-rocky-puma-straycat-black-formula-red-408509-01",
@@ -43621,7 +42522,8 @@
     ],
     "wtc_url": "https://www.whentocop.fr/drops/asap-rocky-puma-straycat-black-formula-red-408509-01",
     "updated_at": "2026-08-24",
-    "past": true
+    "past": true,
+    "id": "asap-rocky-puma-straycat-black-formula-red-408509-01"
   },
   {
     "id": "nike-book-2-tiger-camo-im4669-001",
@@ -43847,7 +42749,8 @@
     ],
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-low-07-lv8-family-reunion-laser-iv5754-100",
     "updated_at": "2026-08-24",
-    "past": true
+    "past": true,
+    "id": "nike-air-force-1-low-07-lv8-family-reunion-laser-iv5754-100"
   },
   {
     "id": "nike-air-max-goadome-low-sp-polka-dot-light-orewood-brown-ir2174-100",
@@ -44273,7 +43176,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-wmns-air-rift-pony-hair-black-io4884-001",
     "updated_at": "2026-08-31",
     "description": "La Nike Air Rift WMNS Pony Hair Black revisite l'iconique silhouette à bout fendu avec un upper en poil de poney noir ultra-luxueux. Elle sort le mardi 1er septembre 2026 au prix de 130€.",
-    "past": true
+    "past": true,
+    "id": "nike-wmns-air-rift-pony-hair-black-io4884-001"
   },
   {
     "slug": "nike-air-rift-wmns-dark-driftwood-black-io4884-200",
@@ -44329,7 +43233,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-air-rift-wmns-dark-driftwood-black-io4884-200",
     "updated_at": "2026-08-31",
     "description": "La Nike Air Rift WMNS Dark Driftwood reprend le même traitement poil de poney que sa sœur noire, dans des tons bois flotté et terre. Elle sort le mardi 1er septembre 2026 au prix de 130€.",
-    "past": true
+    "past": true,
+    "id": "nike-air-rift-wmns-dark-driftwood-black-io4884-200"
   },
   {
     "id": "new-balance-991v2-made-in-uk-insignia-blue-u991na2",
@@ -44508,7 +43413,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/adidas-climacool-wonder-taupe-iron-metallic-kj0651",
     "updated_at": "2026-08-31",
     "description": "L'adidas Climacool Wonder Taupe Iron Metallic mise sur des accents métallisés et la ventilation 360° du système Climacool pour les journées chaudes. Sortie le mardi 1er septembre 2026 à 150€.",
-    "past": true
+    "past": true,
+    "id": "adidas-climacool-wonder-taupe-iron-metallic-kj0651"
   },
   {
     "id": "adidas-adistar-xlg-2-0-white-green-black-kz9160",
@@ -44587,7 +43493,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-1954r-tropical-white-u19549xd",
     "updated_at": "2026-08-31",
     "description": "La New Balance 1954R Tropical White est une édition spéciale au colorway blanc tropical sur la silhouette 1954R inspirée des archives New Balance. Date et prix à confirmer.",
-    "past": true
+    "past": true,
+    "id": "new-balance-1954r-tropical-white-u19549xd"
   },
   {
     "slug": "adidas-hyperboost-atr-orange-ki1700",
@@ -44626,7 +43533,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/adidas-hyperboost-atr-orange-ki1700",
     "updated_at": "2026-08-31",
     "description": "L'adidas Hyperboost ATR Orange adopte la technologie de maintien latéral Hyperboost dans un colorway orange vif pour le running lifestyle. Elle sort le mardi 1er septembre 2026 au prix de 130€.",
-    "past": true
+    "past": true,
+    "id": "adidas-hyperboost-atr-orange-ki1700"
   },
   {
     "slug": "adidas-climacool-laced-night-cargo-legend-ivy-ki26",
@@ -44637,13 +43545,6 @@
     "price": 130,
     "image_url": "/images/KI2682.webp",
     "retailers": [
-      {
-        "name": "BSTN",
-        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&p=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-climacool-laced-ki2682-0354991",
-        "price": "160€",
-        "resell": false,
-        "raffle": false
-      },
       {
         "name": "Snipes",
         "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&p=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fc%2Fsneakers%3Fprefn1%3DcolorVariationSku%26prefv1%3DKI2682",
@@ -44669,7 +43570,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/adidas-climacool-laced-night-cargo-legend-ivy-ki26",
     "updated_at": "2026-08-31",
     "description": "L'adidas Climacool Laced Night Cargo Legend Ivy adopte des tons kaki naturels militaires sur la plateforme Climacool ventilée. Elle sort le mardi 1er septembre 2026 au prix de 130€.",
-    "past": true
+    "past": true,
+    "id": "adidas-climacool-laced-night-cargo-legend-ivy-ki26"
   },
   {
     "slug": "adidas-climacool-grey-four-iron-metal-kj2597",
@@ -44708,7 +43610,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/adidas-climacool-grey-four-iron-metal-kj2597",
     "updated_at": "2026-08-31",
     "description": "L'adidas Climacool Grey Four Iron Metal joue sur un colorway gris anthracite/métal sobre et polyvalent, avec la ventilation signature Climacool. Sortie le mardi 1er septembre 2026 à 150€.",
-    "past": true
+    "past": true,
+    "id": "adidas-climacool-grey-four-iron-metal-kj2597"
   },
   {
     "id": "asics-gel-kayano-14-docks-carrier-grey-1203a537-026",
@@ -44835,7 +43738,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La Nike Giannis Freak 8 Black Laser Orange est la huitième signature shoe d'Antetokounmpo, conçue pour son jeu explosif avec un amorti réactif et un maintien optimisé. Elle sort le dimanche 7 septembre 2026 au prix de 115€. Disponible chez Nike, Kickz et Afew.",
-    "past": true
+    "past": true,
+    "id": "nike-giannis-freak-8-black-laser-orange-im5150-002"
   },
   {
     "id": "nike-air-max-joga-bonito-r9-metallic-silver-varsity-royal",
@@ -45030,7 +43934,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La Nike Air Max Joga Bonito Black University Red rend hommage au football brésilien à travers les codes visuels Nike Football, dans un colorway noir et rouge university. Elle sort le mercredi 10 septembre 2026 au prix de 170€.",
-    "past": true
+    "past": true,
+    "id": "nike-air-max-joga-bonito-black-university-red-io1753-001"
   },
   {
     "id": "nike-first-sight-noir-wmns-black-bright-crimson-hq2409-004",
@@ -45233,7 +44138,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La Simone Rocha x adidas Taekwondo Ballerina WMNS Black est une collaboration entre la créatrice irlandaise et adidas, alliant l'esthétique ballerine à la chaussure de sport Taekwondo dans un coloris noir sculptural. Elle sort le mercredi 10 septembre 2026 au prix de 250€.",
-    "past": true
+    "past": true,
+    "id": "simone-rocha-adidas-taekwondo-ballerina-wmns-black-kj5248"
   },
   {
     "slug": "simone-rocha-adidas-japan-slip-on-wmns-beige-kj5251",
@@ -45284,7 +44190,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La Simone Rocha x adidas Japan Slip-On WMNS Beige marie la silhouette Japan Slip-On d'adidas aux détails romantiques de Simone Rocha, dans un coloris beige raffiné. Elle sort le mercredi 10 septembre 2026 au prix de 220€.",
-    "past": true
+    "past": true,
+    "id": "simone-rocha-adidas-japan-slip-on-wmns-beige-kj5251"
   },
   {
     "slug": "simone-rocha-adidas-japan-slip-on-wmns-core-black-kh7275",
@@ -45335,7 +44242,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La Simone Rocha x adidas Japan Slip-On WMNS Core Black reprend la collaboration romantique adidas dans un coloris noir total polyvalent. Elle sort le mercredi 10 septembre 2026 au prix de 220€.",
-    "past": true
+    "past": true,
+    "id": "simone-rocha-adidas-japan-slip-on-wmns-core-black-kh7275"
   },
   {
     "slug": "skims-nike-rift-wmns-velvet-brown-iz5353-200",
@@ -45381,7 +44289,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La SKIMS x Nike Rift WMNS Velvet Brown revisite l'iconique Air Rift en collaboration avec la marque de Kim Kardashian, dans un coloris brun velouté ultra-féminin. Elle sort le mercredi 10 septembre 2026 au prix de 170€. Disponible chez Nike et BSTN.",
-    "past": true
+    "past": true,
+    "id": "skims-nike-rift-wmns-velvet-brown-iz5353-200"
   },
   {
     "slug": "skims-nike-rift-wmns-black-iw0831-001",
@@ -45427,7 +44336,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La SKIMS x Nike Rift WMNS Black décline la collaboration SKIMS sur l'Air Rift dans un coloris noir monochrome élégant et épuré. Elle sort le mercredi 10 septembre 2026 au prix de 170€. Disponible chez Nike et BSTN.",
-    "past": true
+    "past": true,
+    "id": "skims-nike-rift-wmns-black-iw0831-001"
   },
   {
     "slug": "salomon-xt-4-og-domingo-l45487300",
@@ -45461,7 +44371,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La Salomon XT-4 OG Domingo décline le modèle trail running de Salomon dans un colorway inspiré du weekend, avec des tons solaires et terreux très portables. Elle sort le mercredi 10 septembre 2026 au prix de 190€.",
-    "past": true
+    "past": true,
+    "id": "salomon-xt-4-og-domingo-l45487300"
   },
   {
     "slug": "vans-lx-old-skool-36-pearlized-pear-green-multi-vn000e8vbgk1",
@@ -45512,7 +44423,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La Vans LX Old Skool 36 Pearlized Pear Green Multi habille la silhouette Old Skool 36 de finitions nacrées en vert poire sur la ligne premium Vans LX. Elle sort le mercredi 10 septembre 2026 au prix de 130€.",
-    "past": true
+    "past": true,
+    "id": "vans-lx-old-skool-36-pearlized-pear-green-multi-vn000e8vbgk1"
   },
   {
     "slug": "nike-cryoshot-tiempo-legend-r10-og-white-metallic-gold-iq8164-100",
@@ -45558,7 +44470,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La Nike Cryoshot Tiempo Legend R10 OG White Metallic Gold transforme la chaussure de football Tiempo Legend en pièce lifestyle avec un colorway blanc et or luxueux. Elle sort le mercredi 10 septembre 2026 au prix de 200€.",
-    "past": true
+    "past": true,
+    "id": "nike-cryoshot-tiempo-legend-r10-og-white-metallic-gold-iq8164-100"
   },
   {
     "slug": "new-balance-204v-pistachio-butter-morel-u204vcav",
@@ -45602,7 +44515,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La New Balance 204V Pistachio Butter Morel décline ce modèle lifestyle récent dans un coloris pistache, beurre et morel doux et tendance pour l'automne. Elle sort le mercredi 10 septembre 2026 au prix de 140€.",
-    "past": true
+    "past": true,
+    "id": "new-balance-204v-pistachio-butter-morel-u204vcav"
   },
   {
     "slug": "stan-birch-saucony-progrid-guide-7-stan-birch-s71070-2",
@@ -45656,7 +44570,8 @@
     ],
     "updated_at": "2026-09-07",
     "description": "La Stan Birch x Saucony ProGrid Guide 7 est une collaboration du designer Stan Birch sur ce modèle de running Saucony des années 2000, revisité avec une perspective créative contemporaine. Elle sort le mercredi 10 septembre 2026 au prix de 170€.",
-    "past": true
+    "past": true,
+    "id": "stan-birch-saucony-progrid-guide-7-stan-birch-s71070-2"
   },
   {
     "id": "cecilie-bahnsen-asics-gel-kinetic-fr-piedmont-grey-pure-silver-1203b171-020",
@@ -45792,7 +44707,8 @@
     "date_display": "14 sept. 2026",
     "silhouette": "Converse Jack",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "palmes-converse-jack-purcell-mountain-view-a24756c"
   },
   {
     "slug": "palmes-converse-jack-purcell-parisian-night-a24786c",
@@ -45838,7 +44754,8 @@
     "date_display": "14 sept. 2026",
     "silhouette": "Converse Jack",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "palmes-converse-jack-purcell-parisian-night-a24786c"
   },
   {
     "slug": "yuto-nike-sb-air-force-1-light-bone-iron-grey-io8439-100",
@@ -45868,7 +44785,8 @@
     "silhouette": "Air Force 1",
     "colorway": "Light Bone/Grey",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "yuto-nike-sb-air-force-1-light-bone-iron-grey-io8439-100"
   },
   {
     "slug": "jennie-adidas-superstar-square-toe-ballet-core-black-lb3787",
@@ -45912,7 +44830,8 @@
     "date_display": "15 sept. 2026",
     "colorway": "Black",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "jennie-adidas-superstar-square-toe-ballet-core-black-lb3787"
   },
   {
     "slug": "jennie-adidas-superstar-square-toe-ballet-white-lb3786",
@@ -45956,7 +44875,8 @@
     "date_display": "15 sept. 2026",
     "colorway": "White",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "jennie-adidas-superstar-square-toe-ballet-white-lb3786"
   },
   {
     "id": "simone-rocha-adidas-climacool-black-kh7452",
@@ -46188,7 +45108,8 @@
     "description": "La adidas A.E. 3 Cold Blooded propose un colorway A.E. 3 Cold Blooded. Cette paire sort le 15 sept. 2026 au prix de 130€.",
     "date_display": "15 sept. 2026",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "adidas-ae-3-cold-blooded-kh8537"
   },
   {
     "slug": "adidas-megaride-ag-aero-pink-st-tropic-bloom-kh7614",
@@ -46232,7 +45153,8 @@
     "date_display": "15 sept. 2026",
     "colorway": "Pink",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "adidas-megaride-ag-aero-pink-st-tropic-bloom-kh7614"
   },
   {
     "slug": "air-jordan-wmns-6-retro-low-black-desert-berry-ix5195-001",
@@ -46278,7 +45200,8 @@
     "date_display": "16 sept. 2026",
     "colorway": "Black/Desert",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "air-jordan-wmns-6-retro-low-black-desert-berry-ix5195-001"
   },
   {
     "id": "new-balance-1890a-cowprint-u18906m2",
@@ -46510,7 +45433,8 @@
     "date_display": "17 sept. 2026",
     "colorway": "Grey/Fog",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "nike-air-liquid-max-grey-fog-iq7634-005"
   },
   {
     "id": "air-jordan-4-london-iv6048-001",
@@ -46687,7 +45611,8 @@
     "date_display": "18 sept. 2026",
     "colorway": "Metallic Silver",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "psg-nike-kd-6-metallic-silver-iu0593-001"
   },
   {
     "id": "new-balance-2010-black-green-u20104cj",
@@ -46760,7 +45685,8 @@
     "description": "La Nike LeBron XXIII PER Laser propose un colorway LeBron XXIII PER Laser. Cette paire sort le 18 sept. 2026 au prix de 200€.",
     "date_display": "18 sept. 2026",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "nike-lebron-xxiii-per-laser-im5125-100"
   },
   {
     "slug": "nike-air-foamposite-pro-glow-in-the-dark-iv6246-100",
@@ -46795,7 +45721,8 @@
     "description": "La Nike Air Foamposite Pro Glow In The Dark propose un colorway Air Foamposite Pro Glow In The Dark. Cette paire sort le 18 sept. 2026 au prix de 240€.",
     "date_display": "18 sept. 2026",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "nike-air-foamposite-pro-glow-in-the-dark-iv6246-100"
   },
   {
     "slug": "pharrell-adidas-adistar-jellyfish-dark-brown-frozen-green-kk2888",
@@ -46824,7 +45751,8 @@
     "date_display": "19 sept. 2026",
     "colorway": "Brown/Green",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "pharrell-adidas-adistar-jellyfish-dark-brown-frozen-green-kk2888"
   },
   {
     "id": "one-piece-x-nike-air-max-plus-ope-ope-iw1283-600",
@@ -46980,7 +45908,8 @@
     "date_display": "19 sept. 2026",
     "silhouette": "Air Jordan 9",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "air-jordan-9-retro-space-jam-ix6179-100"
   },
   {
     "slug": "nike-kobe-8-protro-mambacurial-io6253-500",
@@ -47024,7 +45953,8 @@
     "date_display": "19 sept. 2026",
     "silhouette": "Kobe 8",
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "nike-kobe-8-protro-mambacurial-io6253-500"
   },
   {
     "slug": "kiko-kostadinov-asics-lyasa-ff-ii-wmns-clay-grey-jasper-green-1202a544-020",
@@ -47051,7 +45981,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Clay/Grey/Green",
-    "past": true
+    "past": true,
+    "id": "kiko-kostadinov-asics-lyasa-ff-ii-wmns-clay-grey-jasper-green-1202a544-020"
   },
   {
     "slug": "kiko-kostadinov-asics-lyasa-ff-ii-wmns-reddish-brown-blue-1202a544-200",
@@ -47078,7 +46009,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Brown/Blue",
-    "past": true
+    "past": true,
+    "id": "kiko-kostadinov-asics-lyasa-ff-ii-wmns-reddish-brown-blue-1202a544-200"
   },
   {
     "slug": "adidas-bw-army-shadow-navy-charcoal-kk5028",
@@ -47105,7 +46037,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Navy",
-    "past": true
+    "past": true,
+    "id": "adidas-bw-army-shadow-navy-charcoal-kk5028"
   },
   {
     "slug": "adidas-handball-spezial-snakeskin-olive-strata-kk4868",
@@ -47132,7 +46065,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Olive",
-    "past": true
+    "past": true,
+    "id": "adidas-handball-spezial-snakeskin-olive-strata-kk4868"
   },
   {
     "slug": "adidas-samba-og-houndstooth-kj2396",
@@ -47159,7 +46093,8 @@
     "featured": false,
     "year": 2026,
     "silhouette": "Adidas Samba",
-    "past": true
+    "past": true,
+    "id": "adidas-samba-og-houndstooth-kj2396"
   },
   {
     "slug": "adidas-tobacco-brown-kj4905",
@@ -47186,7 +46121,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Brown",
-    "past": true
+    "past": true,
+    "id": "adidas-tobacco-brown-kj4905"
   },
   {
     "slug": "adidas-tobacco-super-fox-brown-gum-kj4894",
@@ -47213,7 +46149,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Brown",
-    "past": true
+    "past": true,
+    "id": "adidas-tobacco-super-fox-brown-gum-kj4894"
   },
   {
     "slug": "adidas-zx-8000-lucky-pink-ki4725",
@@ -47255,7 +46192,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Pink",
-    "past": true
+    "past": true,
+    "id": "adidas-zx-8000-lucky-pink-ki4725"
   },
   {
     "slug": "adidas-zx-8000-st-fade-ocean-ki4724",
@@ -47296,7 +46234,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/adidas-zx-8000-st-fade-ocean-ki4724",
     "featured": false,
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "adidas-zx-8000-st-fade-ocean-ki4724"
   },
   {
     "id": "nike-mind-001-triple-black-hq4307-005",
@@ -47723,7 +46662,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Grey/Black",
-    "past": true
+    "past": true,
+    "id": "asics-gel-cumulus-16-graphite-grey-black-1203b071-020"
   },
   {
     "slug": "asics-gel-cumulus-16-white-cream-1203b071-100",
@@ -47750,7 +46690,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "White/Cream",
-    "past": true
+    "past": true,
+    "id": "asics-gel-cumulus-16-white-cream-1203b071-100"
   },
   {
     "slug": "arte-antwerp-adidas-f50-feather-patent-leather-black-hq3324",
@@ -47772,7 +46713,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Black",
-    "past": true
+    "past": true,
+    "id": "arte-antwerp-adidas-f50-feather-patent-leather-black-hq3324"
   },
   {
     "slug": "converse-shai-001-cheetah-a24961c",
@@ -47788,7 +46730,8 @@
     "featured": false,
     "year": 2026,
     "silhouette": "Converse Shai",
-    "past": true
+    "past": true,
+    "id": "converse-shai-001-cheetah-a24961c"
   },
   {
     "slug": "converse-shai-001-shock-a23975c-004",
@@ -47810,7 +46753,8 @@
     "featured": false,
     "year": 2026,
     "silhouette": "Converse Shai",
-    "past": true
+    "past": true,
+    "id": "converse-shai-001-shock-a23975c-004"
   },
   {
     "slug": "converse-shai-001-spark-a23976c-084",
@@ -47826,7 +46770,8 @@
     "featured": false,
     "year": 2026,
     "silhouette": "Converse Shai",
-    "past": true
+    "past": true,
+    "id": "converse-shai-001-spark-a23976c-084"
   },
   {
     "slug": "new-balance-750-meteorite-angora-u7507sp",
@@ -47852,7 +46797,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-750-meteorite-angora-u7507sp",
     "featured": false,
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "new-balance-750-meteorite-angora-u7507sp"
   },
   {
     "id": "one-piece-nike-air-max-plus-ope-ope-no-mi-iw1282-600",
@@ -48031,7 +46977,8 @@
     "colorway": "Black/Metallic Silver",
     "year": 2026,
     "featured": false,
-    "past": true
+    "past": true,
+    "id": "mowalola-air-jordan-14-mule-black-metallic-silver-ir0908-001"
   },
   {
     "slug": "bad-bunny-adidas-badbo-1-1-low-chalk-white-grey-lc5466",
@@ -48063,7 +47010,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "White/Grey",
-    "past": true
+    "past": true,
+    "id": "bad-bunny-adidas-badbo-1-1-low-chalk-white-grey-lc5466"
   },
   {
     "id": "air-jordan-1-low-og-last-dance-at-the-garden-ir0088-001",
@@ -48113,7 +47061,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Navy",
-    "past": true
+    "past": true,
+    "id": "bad-bunny-adidas-badbo-1-0-night-navy-lb5996"
   },
   {
     "slug": "nike-kobe-3-protro-orca-iq5340-001",
@@ -48135,7 +47084,8 @@
     "featured": false,
     "year": 2026,
     "silhouette": "Kobe 3",
-    "past": true
+    "past": true,
+    "id": "nike-kobe-3-protro-orca-iq5340-001"
   },
   {
     "slug": "entire-studios-adidas-adizero-adios-9-mist-stone-core-black-kj2303",
@@ -48163,7 +47113,8 @@
     "year": 2026,
     "silhouette": "Adidas Adizero",
     "colorway": "Stone/Black",
-    "past": true
+    "past": true,
+    "id": "entire-studios-adidas-adizero-adios-9-mist-stone-core-black-kj2303"
   },
   {
     "slug": "entire-studios-adidas-dropset-4-triple-black-kj3221",
@@ -48185,7 +47136,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Black",
-    "past": true
+    "past": true,
+    "id": "entire-studios-adidas-dropset-4-triple-black-kj3221"
   },
   {
     "slug": "entire-studios-adidas-feroza-core-black-kj4686",
@@ -48207,7 +47159,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Black",
-    "past": true
+    "past": true,
+    "id": "entire-studios-adidas-feroza-core-black-kj4686"
   },
   {
     "id": "awake-ny-air-jordan-6-retro-midnight-navy-iq5706-400",
@@ -48969,7 +47922,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-gt-future-unseen-hours-ix5229-700",
     "featured": false,
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "nike-gt-future-unseen-hours-ix5229-700"
   },
   {
     "slug": "nike-moon-shoe-og-wmns-flax-iu3162-200",
@@ -49001,7 +47955,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Flax",
-    "past": true
+    "past": true,
+    "id": "nike-moon-shoe-og-wmns-flax-iu3162-200"
   },
   {
     "slug": "nike-caitlin-1-wmns-caitlin-blue-ih7423-400",
@@ -49023,7 +47978,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Blue",
-    "past": true
+    "past": true,
+    "id": "nike-caitlin-1-wmns-caitlin-blue-ih7423-400"
   },
   {
     "id": "new-balance-preps-the-991v2-in-karanda-red-u991rs2",
@@ -49091,7 +48047,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Blue",
-    "past": true
+    "past": true,
+    "id": "new-balance-983-shadow-blue-zinc-blue-u9833m7"
   },
   {
     "slug": "new-balance-991v2-poseidon-u991ws2",
@@ -49122,7 +48079,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-991v2-poseidon-u991ws2",
     "featured": false,
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "new-balance-991v2-poseidon-u991ws2"
   },
   {
     "slug": "new-balance-abzorb-2000l-thunder-brown-u20004ey",
@@ -49149,7 +48107,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Brown",
-    "past": true
+    "past": true,
+    "id": "new-balance-abzorb-2000l-thunder-brown-u20004ey"
   },
   {
     "slug": "nike-acg-ldv-monarch-purple-if2857-500",
@@ -49181,7 +48140,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Purple",
-    "past": true
+    "past": true,
+    "id": "nike-acg-ldv-monarch-purple-if2857-500"
   },
   {
     "slug": "asics-gel-1130-cream-cocoa-powder-1203b077-102",
@@ -49208,7 +48168,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Cream",
-    "past": true
+    "past": true,
+    "id": "asics-gel-1130-cream-cocoa-powder-1203b077-102"
   },
   {
     "slug": "asics-gel-kayano-20-birch-iron-grey-1203b076-021",
@@ -49231,7 +48192,8 @@
     "year": 2026,
     "silhouette": "Asics Gel-Kayano",
     "colorway": "Grey",
-    "past": true
+    "past": true,
+    "id": "asics-gel-kayano-20-birch-iron-grey-1203b076-021"
   },
   {
     "slug": "asics-gel-kayano-20-black-silver-1203b076-001",
@@ -49254,7 +48216,8 @@
     "year": 2026,
     "silhouette": "Asics Gel-Kayano",
     "colorway": "Black/Silver",
-    "past": true
+    "past": true,
+    "id": "asics-gel-kayano-20-black-silver-1203b076-001"
   },
   {
     "slug": "asics-gel-kayano-20-grey-silver-1203b076-020",
@@ -49277,7 +48240,8 @@
     "year": 2026,
     "silhouette": "Asics Gel-Kayano",
     "colorway": "Grey/Silver",
-    "past": true
+    "past": true,
+    "id": "asics-gel-kayano-20-grey-silver-1203b076-020"
   },
   {
     "slug": "kobe-bryant-nike-air-force-1-low-sail-multi-ib0018-104",
@@ -49305,7 +48269,8 @@
     "year": 2026,
     "silhouette": "Air Force 1",
     "colorway": "Sail/Multi",
-    "past": true
+    "past": true,
+    "id": "kobe-bryant-nike-air-force-1-low-sail-multi-ib0018-104"
   },
   {
     "slug": "new-balance-2000s-meteorite-neptune-grey-u200085j",
@@ -49332,7 +48297,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Grey",
-    "past": true
+    "past": true,
+    "id": "new-balance-2000s-meteorite-neptune-grey-u200085j"
   },
   {
     "slug": "new-balance-9060-pistachio-butter-angora-u906072n",
@@ -49360,7 +48326,8 @@
     "year": 2026,
     "silhouette": "New Balance 9060",
     "colorway": "Pistachio",
-    "past": true
+    "past": true,
+    "id": "new-balance-9060-pistachio-butter-angora-u906072n"
   },
   {
     "slug": "new-balance-9060-timberwolf-black-cement-u90606h1",
@@ -49388,7 +48355,8 @@
     "year": 2026,
     "silhouette": "New Balance 9060",
     "colorway": "Black",
-    "past": true
+    "past": true,
+    "id": "new-balance-9060-timberwolf-black-cement-u90606h1"
   },
   {
     "slug": "new-balance-abzorb-2000s-black-u2000335",
@@ -49420,7 +48388,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Black",
-    "past": true
+    "past": true,
+    "id": "new-balance-abzorb-2000s-black-u2000335"
   },
   {
     "slug": "new-balance-p350-clementine-uhsl9kz",
@@ -49446,7 +48415,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/new-balance-p350-clementine-uhsl9kz",
     "featured": false,
     "year": 2026,
-    "past": true
+    "past": true,
+    "id": "new-balance-p350-clementine-uhsl9kz"
   },
   {
     "slug": "nike-acg-ldv-hyper-royal-lemon-venom-if2857-401",
@@ -49478,7 +48448,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Hyper Royal",
-    "past": true
+    "past": true,
+    "id": "nike-acg-ldv-hyper-royal-lemon-venom-if2857-401"
   },
   {
     "slug": "nike-air-force-1-low-ghostface-iv6350-121",
@@ -49500,7 +48471,8 @@
     "featured": false,
     "year": 2026,
     "silhouette": "Air Force 1",
-    "past": true
+    "past": true,
+    "id": "nike-air-force-1-low-ghostface-iv6350-121"
   },
   {
     "slug": "nike-caitlin-1-warning-code-ih7423-700",
@@ -49521,51 +48493,8 @@
     "wtc_url": "https://www.whentocop.fr/drops/nike-caitlin-1-warning-code-ih7423-700",
     "featured": false,
     "year": 2026,
-    "past": true
-  },
-  {
-    "slug": "nike-radical-airflow-long-sleeve-top-wmns-black-cool-grey-ix3515-010",
-    "sku": "IX3515-010",
-    "title": "Nike Radical AirFlow Long-Sleeve Top WMNS Black Cool Grey",
-    "brand": "Nike",
-    "date": "2026-10-01",
-    "date_display": "1 octobre 2026",
-    "price": 150,
-    "image_url": "/images/IX3515-010.webp",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IX3515010&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fhaut-de-running-court-a-manches-longues-aero-fit-nike-radical-airflow-after-dark-tour-pour-femme-aeD82cx1%2FIX3515-010",
-        "price": "150€"
-      }
-    ],
-    "wtc_url": "https://www.whentocop.fr/drops/nike-radical-airflow-long-sleeve-top-wmns-black-cool-grey-ix3515-010",
-    "featured": false,
-    "year": 2026,
-    "colorway": "Black/Cool Grey",
-    "past": true
-  },
-  {
-    "slug": "nike-radical-airflow-long-sleeve-top-wmns-hyper-pink-noir-ix3515-645",
-    "sku": "IX3515-645",
-    "title": "Nike Radical AirFlow Long-Sleeve Top WMNS Hyper Pink Noir",
-    "brand": "Nike",
-    "date": "2026-10-01",
-    "date_display": "1 octobre 2026",
-    "price": 150,
-    "image_url": "/images/IX3515-645.webp",
-    "retailers": [
-      {
-        "name": "Nike",
-        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=defaultDropCreation&ued=https://www.nike.com/fr/",
-        "price": "150€"
-      }
-    ],
-    "wtc_url": "https://www.whentocop.fr/drops/nike-radical-airflow-long-sleeve-top-wmns-hyper-pink-noir-ix3515-645",
-    "featured": false,
-    "year": 2026,
-    "colorway": "Pink",
-    "past": true
+    "past": true,
+    "id": "nike-caitlin-1-warning-code-ih7423-700"
   },
   {
     "slug": "salomon-x-alp-expedition-black-bitter-chocolate-concord-grape-l49177500",
@@ -49587,7 +48516,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Black/Concord",
-    "past": true
+    "past": true,
+    "id": "salomon-x-alp-expedition-black-bitter-chocolate-concord-grape-l49177500"
   },
   {
     "slug": "salomon-xt-quest-expedition-black-bitter-chocolate-concord-grape-l49177400",
@@ -49609,7 +48539,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Black/Concord",
-    "past": true
+    "past": true,
+    "id": "salomon-xt-quest-expedition-black-bitter-chocolate-concord-grape-l49177400"
   },
   {
     "slug": "salomon-xt-whisper-expedition-black-bitter-chocolate-concord-grape-l49193100",
@@ -49631,7 +48562,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Black/Concord",
-    "past": true
+    "past": true,
+    "id": "salomon-xt-whisper-expedition-black-bitter-chocolate-concord-grape-l49193100"
   },
   {
     "slug": "adidas-ae-3-mule-bliss-blue-kz9165",
@@ -49653,7 +48585,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Blue",
-    "past": true
+    "past": true,
+    "id": "adidas-ae-3-mule-bliss-blue-kz9165"
   },
   {
     "slug": "adidas-handball-spezial-blanch-brown-gum-kj9852",
@@ -49680,7 +48613,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Brown",
-    "past": true
+    "past": true,
+    "id": "adidas-handball-spezial-blanch-brown-gum-kj9852"
   },
   {
     "slug": "adidas-samba-og-wmns-cream-white-cream-white-maroon-ki7234",
@@ -49708,7 +48642,8 @@
     "year": 2026,
     "silhouette": "Adidas Samba",
     "colorway": "Cream/White/Maroon",
-    "past": true
+    "past": true,
+    "id": "adidas-samba-og-wmns-cream-white-cream-white-maroon-ki7234"
   },
   {
     "id": "adidas-hyperboost-euphoria-triple-black-la6211",
@@ -49914,7 +48849,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Royal/Black",
-    "past": true
+    "past": true,
+    "id": "nike-air-max-dolce-wmns-old-royal-black-ib4527-400"
   },
   {
     "slug": "nike-air-max-dolce-wmns-black-sport-red-ib4527-002",
@@ -49946,7 +48882,8 @@
     "featured": false,
     "year": 2026,
     "colorway": "Black/Red",
-    "past": true
+    "past": true,
+    "id": "nike-air-max-dolce-wmns-black-sport-red-ib4527-002"
   },
   {
     "slug": "air-jordan-3-retro-wmns-fireside-ck9246-200",
@@ -49993,7 +48930,8 @@
     "featured": false,
     "year": 2026,
     "silhouette": "Air Jordan 3",
-    "past": true
+    "past": true,
+    "id": "air-jordan-3-retro-wmns-fireside-ck9246-200"
   },
   {
     "id": "nike-air-max-goadome-low-croc-skin-pack-drops-in-october-iv4517-400",
