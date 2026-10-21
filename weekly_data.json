@@ -186,7 +186,9 @@
           "url": "https://www.awin1.com/pclick.php?p=46386840482&a=737541&m=16328&clickref=IQ5498-200",
           "price": "140€"
         }
-      ]
+      ],
+      "silhouette": "Air Jordan 1",
+      "colorway": "Cacao Wow"
     },
     {
       "id": "air-jordan-1-mid-se-halloween-iq5492-001",
@@ -207,7 +209,8 @@
           "url": "https://www.awin1.com/pclick.php?p=46386841104&a=737541&m=16328&clickref=IQ5492-001",
           "price": "150€"
         }
-      ]
+      ],
+      "silhouette": "Air Jordan 1"
     },
     {
       "id": "air-jordan-1-mid-se-wmns-rust-pink-ja5803-632",
@@ -228,7 +231,9 @@
           "url": "https://www.awin1.com/pclick.php?p=46386842358&a=737541&m=16328&clickref=JA5803-632",
           "price": "150€"
         }
-      ]
+      ],
+      "silhouette": "Air Jordan 1",
+      "colorway": "Rust/Pink"
     },
     {
       "id": "nike-dunk-low-gore-tex-oil-grey-hq2053-003",
@@ -254,7 +259,9 @@
           "url": "https://www.awin1.com/pclick.php?p=46386840103&a=737541&m=16328&clickref=HQ2053-003",
           "price": "140€"
         }
-      ]
+      ],
+      "silhouette": "Dunk Low",
+      "colorway": "Grey"
     },
     {
       "id": "sza-vans-authentic-knockdown-white-fish-print-vn00115awht",
@@ -339,6 +346,11 @@
         {
           "name": "END",
           "url": "https://endclothing.sjv.io/c/2379306/1938001/23391?subId1=U18909VF&u=https%3A%2F%2Fwww.endclothing.com%2Fen-fr%2Fnew-balance-1890a-sneaker-u18909vf.html",
+          "price": "190€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=U18909VF&url=https://slamjam.com/en-fr/products/new-balance-footwear-u18909vf-grey-j359350",
           "price": "190€"
         }
       ],
@@ -440,6 +452,11 @@
         {
           "name": "END",
           "url": "https://endclothing.sjv.io/c/2379306/1938001/23391?subId1=IO8766-800&u=https%3A%2F%2Fwww.endclothing.com%2Fen-fr%2Fnike-x-nigo-x-j-hope-air-force-1-01-sneaker-io8766-800.html",
+          "price": "150€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=IO8766-800&url=https://slamjam.com/en-fr/products/nike-footwear-air-force-1-01-jh-multicolor-j373339",
           "price": "150€"
         }
       ],
@@ -733,7 +750,8 @@
           "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=SH1WS0032P7852T8013&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fmaison-margiela-mm6-x-salomon-crossderby-sh1ws0032-p7852-t8013-0352056",
           "price": "440€"
         }
-      ]
+      ],
+      "colorway": "Black"
     },
     {
       "id": "nike-kobe-ad-protro-purple-stardust-io8233-500",
@@ -754,7 +772,8 @@
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=IO8233-500&wgtarget=https://footdistrict.com/fr/products/nike-kobe-a-d-protro-purple-stardust-io8233-500",
           "price": "150€"
         }
-      ]
+      ],
+      "colorway": "Purple"
     },
     {
       "id": "nike-air-force-1-low-black-rat-iv4884-200",
@@ -848,7 +867,8 @@
           "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=1203B116-250&url=https://nakedcph.com/fr/products/us8-s-gel-sj33",
           "price": "180€"
         }
-      ]
+      ],
+      "colorway": "Green"
     },
     {
       "id": "nike-air-force-1-01-nightmare-ix0104-001",
@@ -879,7 +899,8 @@
           "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/5704059268&u1=IX0104-001",
           "price": "150€"
         }
-      ]
+      ],
+      "silhouette": "Air Force 1"
     },
     {
       "id": "nike-sabrina-4-wmns-halloween-vampire-ix7058-001",
@@ -1119,5 +1140,5 @@
       "date_display": "25 octobre 2026"
     }
   ],
-  "generated_at": "2026-10-20T15:13:10.631295Z"
+  "generated_at": "2026-10-21T00:08:59.565275Z"
 }
