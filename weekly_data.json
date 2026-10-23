@@ -367,6 +367,11 @@
           "name": "Calicoclubstore",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300390&product=1&wglinkid=4893564&productid=14336-86991&productname=New+Balance+U1890+U1890+9VF+Truffle+Salt%2FSilver+Metall&wgtarget=https://calicoclubstore.com/shop/products/new-balance-u1890-9vf-truffle-salt-silver-metall?source=webgains&siteid=1455575&utm_source=webgains",
           "price": "190€"
+        },
+        {
+          "name": "HHV",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10949&product=1&wglinkid=4720904&productid=1375430v16&productname=U1890A&wgtarget=https://www.hhv.de/clothing/artikel/new-balance-u1890a-truffle-salt-1375430?cid=1655283590&utm_source=webgains&utm_medium=af&utm_campaign=1254505&utm_content=1455575&utm_term=WhenToCop%3F",
+          "price": "190€"
         }
       ],
       "id": "new-balance-1890a-truffle-salt-silver-metallic-u18909vf",
@@ -645,6 +650,11 @@
           "name": "Afew",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&product=1&wglinkid=6137744&productid=49271-10&productname=Nike+WMNS+Mind%C2%A0001&wgtarget=https://en.afew-store.com/products/nike-wmns-mind-001-black-chrome-hyper-crimson-white?variant=53842035704074&utm_source=webgains.com&utm_medium=affiliate&utm_content=1455575&wgpub=1455575&utm_campaign=Webgains%201254505",
           "price": "90€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/pclick.php?p=46202204972&a=737541&m=104979&clickref=HQ4309-001",
+          "price": "90€"
         }
       ],
       "colorway": "Black/Crimson"
@@ -829,7 +839,9 @@
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IV4504-001&wgtarget=https://en.afew-store.com/products/nike-air-max-90-sp-black-black-black",
           "price": "160€"
         }
-      ]
+      ],
+      "silhouette": "Air Max 90",
+      "colorway": "Black"
     },
     {
       "id": "nike-air-force-1-low-black-rat-iv4884-200",
@@ -991,6 +1003,11 @@
           "name": "FootDistrict",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=IX7058-001&wgtarget=https://footdistrict.com/fr/products/nike-sabrina-4-halloween-vampire-ix7058-001",
           "price": "140€"
+        },
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IX7058001&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-sabrina-4-count-ionescu-092GdSJA%2FIX7058-001",
+          "price": "140€"
         }
       ]
     },
@@ -1012,6 +1029,110 @@
           "name": "Solebox",
           "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fasics-sportstyle-us8-s-gel-sj33-pourpre-106102",
           "price": "180€"
+        }
+      ]
+    },
+    {
+      "id": "molly-mae-adidas-samba-slate-grey-la9033",
+      "slug": "molly-mae-adidas-samba-slate-grey-la9033",
+      "featured": false,
+      "year": 2026,
+      "sku": "LA9033",
+      "title": "Molly-Mae x adidas Samba Slate Grey",
+      "brand": "Adidas",
+      "date": "2026-10-23",
+      "date_display": "23 octobre 2026",
+      "price": 130,
+      "image_url": "/images/LA9033.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/molly-mae-adidas-samba-slate-grey-la9033",
+      "retailers": [
+        {
+          "name": "Adidas",
+          "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&ued=https%3A%2F%2Fwww.adidas.fr%2Fmolly-mae-samba-slate%2FLA9033.html",
+          "price": "130€"
+        },
+        {
+          "name": "Foot Locker",
+          "url": "https://www.awin1.com/cread.php?awinmid=18270&awinaffid=737541&clickref=Molly-Mae-Adidas-Samba-Slate-Grey-La9033&ued=https%3A%2F%2Fwww.footlocker.fr%2Ffr%2Frelease-calendar%2Fadidas%2F315350554002.html",
+          "price": "130€"
+        }
+      ]
+    },
+    {
+      "id": "nike-air-max-90-batman-im9616-002",
+      "slug": "nike-air-max-90-batman-im9616-002",
+      "featured": false,
+      "year": 2026,
+      "sku": "IM9616-002",
+      "title": "Nike Air Max 90 Batman",
+      "brand": "Nike",
+      "date": "2026-10-23",
+      "date_display": "23 octobre 2026",
+      "price": 150,
+      "image_url": "/images/IM9616-002.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-90-batman-im9616-002",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IM9616002&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-nike-air-max-90-pour-homme-Q5C5KDfv%2FIM9616-002",
+          "price": "150€"
+        },
+        {
+          "name": "Foot Locker",
+          "url": "https://www.awin1.com/pclick.php?p=46342209734&a=737541&m=18270&clickref=IM9616-002",
+          "price": "150€"
+        }
+      ]
+    },
+    {
+      "id": "nike-air-max-plus-batman-dm0032-045",
+      "slug": "nike-air-max-plus-batman-dm0032-045",
+      "featured": false,
+      "year": 2026,
+      "sku": "DM0032-045",
+      "title": "Nike Air Max Plus Batman",
+      "brand": "Nike",
+      "date": "2026-10-23",
+      "date_display": "23 octobre 2026",
+      "price": 190,
+      "image_url": "/images/DM0032-045.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-air-max-plus-batman-dm0032-045",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=Nike-Air-Max-Plus&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-nike-air-max-plus-pour-homme-XrRCF9wm%2FDM0032-045",
+          "price": "190€"
+        },
+        {
+          "name": "Foot Locker",
+          "url": "https://www.awin1.com/cread.php?awinmid=18270&awinaffid=737541&clickref=Nike-Air-Max-Plus-BATMAN-DM0032-045&ued=https%3A%2F%2Fwww.footlocker.fr%2Ffr%2Frelease-calendar%2Fnike%2F314219147304.html%3F_gl%3D1*mzw65y*_up*MQ..*_ga*NTIwMTYxNjEzLjE3OTI2ODQwOTc.*_ga_2XB37BGV6G*czE3OTI2ODQwOTYkbzEkZzAkdDE3OTI2ODQwOTYkajYwJGwwJGgw",
+          "price": "190€"
+        }
+      ]
+    },
+    {
+      "id": "nike-giannis-freak-8-trick-question-io7945-300",
+      "slug": "nike-giannis-freak-8-trick-question-io7945-300",
+      "featured": false,
+      "year": 2026,
+      "sku": "IO7945-300",
+      "title": "Nike Giannis Freak 8 Trick Question",
+      "brand": "Nike",
+      "date": "2026-10-23",
+      "date_display": "23 octobre 2026",
+      "price": 120,
+      "image_url": "/images/IO7945-300.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-giannis-freak-8-trick-question-io7945-300",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IO7945300&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-giannis-freak-8-trick-question-zOkxhk8O%2FIO7945-300",
+          "price": "120€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IO7945-300&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-giannis-freak-8-halloween-io7945-300-0360878",
+          "price": "120€"
         }
       ]
     },
@@ -1226,5 +1347,5 @@
       "date_display": "25 octobre 2026"
     }
   ],
-  "generated_at": "2026-10-22T00:08:13.636308Z"
+  "generated_at": "2026-10-23T00:09:10.048475Z"
 }
