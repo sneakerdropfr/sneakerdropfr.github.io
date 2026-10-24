@@ -1389,6 +1389,11 @@
         "name": "Nike SNKRS",
         "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=JA0248-300&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fair-force-1-low-black-and-white",
         "price": "150€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/4143259155&u1=Air-Force-1-'Cracked-leather'",
+        "price": "150€"
       }
     ],
     "silhouette": "Air Force 1",
@@ -1479,6 +1484,11 @@
         "price": "145€",
         "resell": false,
         "raffle": false
+      },
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IO7939300&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-ja-4-zombie-DKu7feQG%2FIO7939-300",
+        "price": "140€"
       }
     ],
     "slug": "nike-ja-4-halloween-io7939-300",
@@ -1513,12 +1523,48 @@
     "brand": "Air Jordan",
     "title": "Air Jordan 4 Light Army",
     "date": "2026-10-31",
-    "price": 220,
+    "price": 210,
     "year": 2026,
     "image_url": "/images/JA5911-320.webp",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-light-army-ja5911-320",
     "featured": false,
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Footshop",
+        "url": "https://www.dpbolvw.net/click-100169928-13502434?sid=JA5911-320&url=https://releases.footshop.com/air-jordan-4-retro-light-army-ZYpWP6EB855nFHXGhwI4",
+        "price": "210€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=JA5911-320&wgtarget=https://footdistrict.com/fr/products/air-jordan-4-retro-light-army-ja5911-320",
+        "price": "210€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=JA5911320&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fjordan-air-jordan-4-retro-ja5911-320-0361216",
+        "price": "210€"
+      },
+      {
+        "name": "43einhalb",
+        "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=JA5911-320&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fjordan-air-jordan-4-retro-light-army-1518642",
+        "price": "210€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,21/5150268557&u1=JA5911-320",
+        "price": "210€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&clickref=Jordan-Air-Jordan-4-Retro&ued=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-4-retro-vert-105312",
+        "price": "210€"
+      },
+      {
+        "name": "Asphaltgold",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=JA5911-320&wgtarget=https://www.asphaltgold.com/fr/products/nike-air-jordan-4-retro-light-army-light-army-light-silver-cargo-khaki-phantom",
+        "price": "210€"
+      }
+    ],
     "silhouette": "Air Jordan 4",
     "slug": "air-jordan-4-light-army-ja5911-320",
     "date_display": "31 octobre 2026"
