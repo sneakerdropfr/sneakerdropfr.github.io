@@ -1056,7 +1056,9 @@
           "url": "https://www.awin1.com/cread.php?awinmid=18270&awinaffid=737541&clickref=Molly-Mae-Adidas-Samba-Slate-Grey-La9033&ued=https%3A%2F%2Fwww.footlocker.fr%2Ffr%2Frelease-calendar%2Fadidas%2F315350554002.html",
           "price": "130€"
         }
-      ]
+      ],
+      "silhouette": "Adidas Samba",
+      "colorway": "Grey"
     },
     {
       "id": "nike-air-max-90-batman-im9616-002",
@@ -1082,7 +1084,8 @@
           "url": "https://www.awin1.com/pclick.php?p=46342209734&a=737541&m=18270&clickref=IM9616-002",
           "price": "150€"
         }
-      ]
+      ],
+      "silhouette": "Air Max 90"
     },
     {
       "id": "nike-air-max-plus-batman-dm0032-045",
@@ -1108,7 +1111,8 @@
           "url": "https://www.awin1.com/cread.php?awinmid=18270&awinaffid=737541&clickref=Nike-Air-Max-Plus-BATMAN-DM0032-045&ued=https%3A%2F%2Fwww.footlocker.fr%2Ffr%2Frelease-calendar%2Fnike%2F314219147304.html%3F_gl%3D1*mzw65y*_up*MQ..*_ga*NTIwMTYxNjEzLjE3OTI2ODQwOTc.*_ga_2XB37BGV6G*czE3OTI2ODQwOTYkbzEkZzAkdDE3OTI2ODQwOTYkajYwJGwwJGgw",
           "price": "190€"
         }
-      ]
+      ],
+      "silhouette": "Air Max Plus"
     },
     {
       "id": "nike-giannis-freak-8-trick-question-io7945-300",
@@ -1225,6 +1229,16 @@
           "name": "Afew",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IQ5339-400&wgtarget=https://en.afew-store.com/products/nike-kobe-10-protro-low-blue-lagoon-black",
           "price": "180€"
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnike-kobe-10-protro-bleu-105948",
+          "price": "180€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IQ5339-400&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-kobe-x-em-protro-iq5339-400-0361021",
+          "price": "180€"
         }
       ],
       "silhouette": "Kobe 10"
@@ -1271,6 +1285,11 @@
         {
           "name": "Asphaltgold",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=KK0633&wgtarget=https://www.asphaltgold.com/fr/products/adidas-x-pharrell-williams-adistar-jellyfish-red-core-black-team-victory-red",
+          "price": "300€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=KK0633&url=https://slamjam.com/en-fr/products/adidas-footwear-pw-adistar-jellyfis-red-j362370",
           "price": "300€"
         }
       ],
@@ -1319,6 +1338,11 @@
           "name": "Asphaltgold",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=KH6728&wgtarget=https://www.asphaltgold.com/fr/products/adidas-x-pharrell-williams-adistar-jellyfish-onix-aurora-onix-core-black",
           "price": "300€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=KH6728&url=https://slamjam.com/en-fr/products/adidas-footwear-pw-adistar-jellyfis-black-j362345",
+          "price": "300€"
         }
       ],
       "colorway": "Black"
@@ -1341,11 +1365,16 @@
           "price": "205€",
           "resell": false,
           "raffle": false
+        },
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HV6474601&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-air-jordan-41-ruby-7tNpGhRr%2FHV6474-601",
+          "price": "205€"
         }
       ],
       "slug": "air-jordan-41-ruby-hv6474-601",
       "date_display": "25 octobre 2026"
     }
   ],
-  "generated_at": "2026-10-23T00:09:10.048475Z"
+  "generated_at": "2026-10-24T00:07:52.810478Z"
 }
