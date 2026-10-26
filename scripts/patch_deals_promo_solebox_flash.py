@@ -3,7 +3,7 @@
 import sys, shutil
 P = sys.argv[1] if len(sys.argv) > 1 else "/root/deals_affilies.py"
 s = open(P, encoding="utf-8").read()
-if "FLASH SALE SOLEBOX" in s:
+if "du 26/10 au 02/11" in s:
     print("Déjà patché."); sys.exit(0)
 ENTRY = '''PROMOS = [
     {"code": "", "text": "FLASH SALE SOLEBOX", "label": "-25% sur une sélection, du 26/10 au 02/11",
