@@ -825,6 +825,47 @@
     ]
   },
   {
+    "id": "air-jordan-41-space-jam-hv6474-003",
+    "slug": "air-jordan-41-space-jam-hv6474-003",
+    "featured": false,
+    "year": 2026,
+    "sku": "HV6474-003",
+    "title": "Air Jordan 41 Space Jam",
+    "brand": "Air Jordan",
+    "date": "2026-11-05",
+    "date_display": "5 novembre 2026",
+    "price": 200,
+    "image_url": "/images/HV6474-003.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-41-space-jam-hv6474-003",
+    "retailers": []
+  },
+  {
+    "id": "air-jordan-3-retro-gs-lola-bunny-iz1694-600",
+    "slug": "air-jordan-3-retro-gs-lola-bunny-iz1694-600",
+    "featured": false,
+    "year": 2026,
+    "sku": "IZ1694-600",
+    "title": "Air Jordan 3 Retro GS Lola Bunny",
+    "brand": "Air Jordan",
+    "date": "2026-11-05",
+    "date_display": "5 novembre 2026",
+    "price": 150,
+    "image_url": "/images/IZ1694-600.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-3-retro-gs-lola-bunny-iz1694-600",
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IZ1694600&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-air-jordan-3-retro-space-jam-pour-pre-ado-gYuLloTz%2FIZ1694-600",
+        "price": "150€"
+      },
+      {
+        "name": "Snipes",
+        "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&ued=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-3-retro-se-gs-multicolore-105363",
+        "price": "150€"
+      }
+    ]
+  },
+  {
     "id": "nike-book-2-desert-night-fz7013-003",
     "sku": "FZ7013-003",
     "brand": "Nike",
@@ -864,6 +905,58 @@
     "colorway": "Black"
   },
   {
+    "id": "new-balance-990v7-made-in-usa-kool-grey-u990gr7",
+    "slug": "new-balance-990v7-made-in-usa-kool-grey-u990gr7",
+    "featured": false,
+    "year": 2026,
+    "sku": "U990GR7",
+    "title": "New Balance 990V7 Made In USA Kool Grey",
+    "brand": "New Balance",
+    "date": "2026-11-06",
+    "date_display": "6 novembre 2026",
+    "price": 250,
+    "image_url": "/images/U990GR7.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-990v7-made-in-usa-kool-grey-u990gr7",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=U990GR7&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Fmade-in-usa-990v7%2FU990V7-53070.html",
+        "price": "250€"
+      },
+      {
+        "name": "SNS",
+        "url": "https://www.dpbolvw.net/click-100169928-17152884?sid=U990GR7&url=https://sneakersnstuff.com/en-eu/products/new-balance-made-in-usa-990v7-u990gr7",
+        "price": "250€"
+      },
+      {
+        "name": "Naked",
+        "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=U990GR7&url=https://nakedcph.com/fr/products/new-balance-made-in-usa-990-v7-kool-gray-u990gr7",
+        "price": "250€"
+      }
+    ]
+  },
+  {
+    "id": "saucony-afew-progrid-omni-9-tara-hawk-s71049-1",
+    "slug": "saucony-afew-progrid-omni-9-tara-hawk-s71049-1",
+    "featured": false,
+    "year": 2026,
+    "sku": "S71049-1",
+    "title": "Saucony x AFEW ProGrid Omni 9 Tara Hawk",
+    "brand": "Saucony",
+    "date": "2026-11-07",
+    "date_display": "7 novembre 2026",
+    "price": 190,
+    "image_url": "/images/S71049-1.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/saucony-afew-progrid-omni-9-tara-hawk-s71049-1",
+    "retailers": [
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=S71049-1&wgtarget=https://en.afew-store.com/products/saucony-x-afew-progrid-omni-9-multi",
+        "price": "190€"
+      }
+    ]
+  },
+  {
     "id": "air-jordan-11-wmns-lapis-iz1800-400",
     "sku": "IZ1800-400",
     "brand": "Air Jordan",
@@ -880,6 +973,21 @@
     "date_display": "11 novembre 2026"
   },
   {
+    "id": "air-jordan-11-retro-wmns-magic-ball-iz1800-200",
+    "slug": "air-jordan-11-retro-wmns-magic-ball-iz1800-200",
+    "featured": false,
+    "year": 2026,
+    "sku": "IZ1800-200",
+    "title": "Air Jordan 11 Retro WMNS Magic Ball",
+    "brand": "Air Jordan",
+    "date": "2026-11-11",
+    "date_display": "11 novembre 2026",
+    "price": 220,
+    "image_url": "/images/IZ1800-200.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-11-retro-wmns-magic-ball-iz1800-200",
+    "retailers": []
+  },
+  {
     "id": "vans-lx-old-skool-36-pearlized-pearlized-black-fluro-lime-vn000e8vhhc",
     "sku": "VN000E8VHHC",
     "brand": "Vans",
@@ -894,6 +1002,21 @@
     "colorway": "Black/Lime",
     "slug": "vans-lx-old-skool-36-pearlized-pearlized-black-fluro-lime-vn000e8vhhc",
     "date_display": "12 novembre 2026"
+  },
+  {
+    "id": "nike-dunk-low-premium-shibuya-halloween-ix5169-300",
+    "slug": "nike-dunk-low-premium-shibuya-halloween-ix5169-300",
+    "featured": false,
+    "year": 2026,
+    "sku": "IX5169-300",
+    "title": "Nike Dunk Low Premium Shibuya Halloween",
+    "brand": "Nike",
+    "date": "2026-11-13",
+    "date_display": "13 novembre 2026",
+    "price": 130,
+    "image_url": "/images/IX5169-300.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-dunk-low-premium-shibuya-halloween-ix5169-300",
+    "retailers": []
   },
   {
     "id": "vans-lx-old-skool-36-pearlized-navy-black-vn000e8vya61",
@@ -926,6 +1049,32 @@
     "colorway": "Navy/Black",
     "slug": "vans-lx-old-skool-36-pearlized-navy-black-vn000e8vya61",
     "date_display": "19 novembre 2026"
+  },
+  {
+    "id": "new-balance-992-miusa-medusa-green-cortado-u992bb",
+    "slug": "new-balance-992-miusa-medusa-green-cortado-u992bb",
+    "featured": false,
+    "year": 2026,
+    "sku": "U992BB",
+    "title": "New Balance 992 Medusa Green Cortado",
+    "brand": "New Balance",
+    "date": "2026-11-19",
+    "date_display": "19 novembre 2026",
+    "price": 230,
+    "image_url": "/images/U992BB.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/new-balance-992-miusa-medusa-green-cortado-u992bb",
+    "retailers": [
+      {
+        "name": "New Balance",
+        "url": "https://newbalanceemea.pxf.io/c/2379306/2378056/29803?subId1=U992BB&u=https%3A%2F%2Fwww.newbalance.fr%2Ffr%2Fpd%2Fmade-in-usa-992%2FU992V1-52807.html",
+        "price": "230€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/3890768471&u1=U992BB",
+        "price": "230€"
+      }
+    ]
   },
   {
     "id": "adidas-ae-3-lucid-pink-kh8545",
@@ -1027,6 +1176,21 @@
     "wtc_url": "https://www.whentocop.fr/drops/vans-old-skool-36-pearlized-racing-red-vn000e8vizq",
     "retailers": [],
     "colorway": "Red"
+  },
+  {
+    "id": "air-jordan-1-mid-se-team-red-io7449-600",
+    "slug": "air-jordan-1-mid-se-team-red-io7449-600",
+    "featured": false,
+    "year": 2026,
+    "sku": "IO7449-600",
+    "title": "Air Jordan 1 Mid SE TEAM RED",
+    "brand": "Air Jordan",
+    "date": "2026-12-19",
+    "date_display": "19 décembre 2026",
+    "price": 150,
+    "image_url": "/images/IO7449-600.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/air-jordan-1-mid-se-team-red-io7449-600",
+    "retailers": []
   },
   {
     "id": "air-jordan-1-mid-approaches-sneakerboot-territory-iq5491-001",
