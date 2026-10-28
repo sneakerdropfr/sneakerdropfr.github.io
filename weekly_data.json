@@ -26,6 +26,11 @@
           "name": "Offspring",
           "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/4143259155&u1=Air-Force-1-'Cracked-leather'",
           "price": "150€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=JA0248-300&wgtarget=https://en.afew-store.com/products/nike-air-force-1-cracked-leather-menta-menta-white",
+          "price": "150€"
         }
       ],
       "silhouette": "Air Force 1",
@@ -53,6 +58,11 @@
         {
           "name": "43einhalb",
           "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=JA0248-001&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fnike-air-force-1-turquoise-white-1522336",
+          "price": "150€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=JA0248-001&wgtarget=https://en.afew-store.com/products/nike-air-force-1-cracked-leather-black-black-white",
           "price": "150€"
         }
       ],
@@ -397,6 +407,16 @@
           "name": "Naked",
           "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=1203B257-200&url=https://nakedcph.com/fr/products/asics-gel-stratus-mc-brown-storm-brown-storm-1203b257-200",
           "price": "150€"
+        },
+        {
+          "name": "43einhalb",
+          "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=1203B257-200&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fasics-sportstyle-x-emmi-gel-stratus-mc-brown-storm-brown-storm-1520603",
+          "price": "150€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=1203B257-200&url=https://slamjam.com/en-fr/products/asics-footwear-gel-stratus-mc-brown-j359707",
+          "price": "150€"
         }
       ],
       "colorway": "Brown"
@@ -440,7 +460,8 @@
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=KH6682&wgtarget=https://www.asphaltgold.com/fr/products/adidas-x-satisfy-adizero-adios-earth-pearl-metallic-charcoal",
           "price": "160€"
         }
-      ]
+      ],
+      "silhouette": "Adidas Adizero"
     },
     {
       "id": "nike-ja-4-halloween-io7939-300",
@@ -574,6 +595,11 @@
           "name": "Footshop",
           "url": "https://www.kqzyfj.com/click-100169928-13502434?url=https%3A%2F%2Fwww.footshop.eu%2Fen%2Fmen-s-sneakers%2F562084-nike-air-force-1-01-black-black-black.html%3Fsize%3D38",
           "price": "140€"
+        },
+        {
+          "name": "Naked",
+          "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=IV4501-001&url=https://nakedcph.com/fr/products/nike-air-force-1-01-black-black-black-iv4501-001",
+          "price": "140€"
         }
       ],
       "silhouette": "Air Force 1",
@@ -633,6 +659,11 @@
         {
           "name": "Asphaltgold",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=487471-300&wgtarget=https://www.asphaltgold.com/fr/products/nike-air-jordan-14-retro-forest-green-gorge-green-light-graphite-white",
+          "price": "220€"
+        },
+        {
+          "name": "Size?",
+          "url": "https://www.awin1.com/pclick.php?p=46435158728&a=737541&m=7723&clickref=487471-300",
           "price": "220€"
         }
       ],
@@ -761,8 +792,15 @@
           "name": "Afew",
           "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IV7127-002&wgtarget=https://en.afew-store.com/products/nike-kobe-iii-low-protro-black-mtlc-cool-grey",
           "price": "190€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IV7127-002&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-kobe-iii-low-protro-iv7127-002-0361023",
+          "price": "190€"
         }
-      ]
+      ],
+      "silhouette": "Kobe 3",
+      "colorway": "Black"
     },
     {
       "id": "nike-air-force-1-07-low-wmns-light-orewood-brown-tattoo-ix7363-104",
@@ -783,8 +821,46 @@
           "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=IX7363-104&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fnike-wmns-air-force-1-07-lt-orewood-brn-tattoo-pale-ivory-1518684",
           "price": "120€"
         }
+      ],
+      "silhouette": "Air Force 1",
+      "colorway": "Brown"
+    },
+    {
+      "id": "nike-247-boot-black-anthracite-ir0450-001",
+      "slug": "nike-247-boot-black-anthracite-ir0450-001",
+      "featured": false,
+      "year": 2026,
+      "sku": "IR0450-001",
+      "title": "Nike 24.7 Boot Black Anthracite",
+      "brand": "Nike",
+      "date": "2026-11-01",
+      "date_display": "1 novembre 2026",
+      "price": 160,
+      "image_url": "/images/IR0450-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-247-boot-black-anthracite-ir0450-001",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/pclick.php?p=46450819282&a=737541&m=16328&clickref=IR0450-001",
+          "price": "160€"
+        }
       ]
+    },
+    {
+      "id": "nike-247-boot-dark-driftwood-ir0450-200",
+      "slug": "nike-247-boot-dark-driftwood-ir0450-200",
+      "featured": false,
+      "year": 2026,
+      "sku": "IR0450-200",
+      "title": "Nike 24.7 Boot Dark Driftwood",
+      "brand": "Nike",
+      "date": "2026-11-01",
+      "date_display": "1 novembre 2026",
+      "price": 160,
+      "image_url": "/images/IR0450-200.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-247-boot-dark-driftwood-ir0450-200",
+      "retailers": []
     }
   ],
-  "generated_at": "2026-10-27T01:08:47.923641Z"
+  "generated_at": "2026-10-28T01:09:14.421835Z"
 }
