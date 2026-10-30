@@ -296,7 +296,13 @@
     "image_url": "/images/IO7942-001.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-book-2-oogie-boogie-io7942-001",
     "featured": false,
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IO7942001&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-book-2-scary-chapter-fSIeNI4s%2FIO7942-001",
+        "price": "155€"
+      }
+    ],
     "slug": "nike-book-2-oogie-boogie-io7942-001",
     "date_display": "30 octobre 2026"
   },
@@ -317,6 +323,11 @@
       {
         "name": "FootDistrict",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=IO8233-800&wgtarget=https://footdistrict.com/fr/products/nike-kobe-a-d-protro-laser-orange-io8233-800",
+        "price": "155€"
+      },
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IO8233800&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-kobe-ad-protro-N0qKeqfm%2FIO8233-800",
         "price": "155€"
       }
     ],
@@ -440,6 +451,11 @@
         "name": "Slam Jam",
         "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=1203B257-200&url=https://slamjam.com/en-fr/products/asics-footwear-gel-stratus-mc-brown-j359707",
         "price": "150€"
+      },
+      {
+        "name": "FOOTDISTRICT",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&product=1&wglinkid=4527808&productid=55618339144058&productname=ASICS+x+emmi+Gel+Stratus+MC+%22Brown%22&wgtarget=https://footdistrict.com/fr/products/asics-x-emmi-gel-stratus-mc-brown-1203b257-200?utm_source=webgains&siteid=1455575",
+        "price": "150€"
       }
     ],
     "colorway": "Brown"
@@ -490,6 +506,116 @@
       }
     ],
     "silhouette": "Adidas Adizero"
+  },
+  {
+    "id": "satisfy-x-adidas-adizero-adios-pro-evo-2-silver-metallic-grey-two-kh6636",
+    "slug": "satisfy-x-adidas-adizero-adios-pro-evo-2-silver-metallic-grey-two-kh6636",
+    "featured": false,
+    "year": 2026,
+    "sku": "KH6636",
+    "title": "Satisfy x adidas Adizero Adios Pro EVO 2 Silver Metallic Grey Two",
+    "brand": "Adidas",
+    "date": "2026-10-30",
+    "date_display": "30 octobre 2026",
+    "price": 600,
+    "image_url": "/images/KH6636.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/satisfy-x-adidas-adizero-adios-pro-evo-2-silver-metallic-grey-two-kh6636",
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KH6636&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-adizero-adios-pro-evo-2-satisfy%2FKH6636.html",
+        "price": "600€"
+      }
+    ]
+  },
+  {
+    "id": "satisfy-x-adidas-adizero-adios-satisfy-wonder-blue-kh6679",
+    "slug": "satisfy-x-adidas-adizero-adios-satisfy-wonder-blue-kh6679",
+    "featured": false,
+    "year": 2026,
+    "sku": "KH6679",
+    "title": "Satisfy x adidas Adizero Adios Satisfy Wonder Blue",
+    "brand": "Adidas",
+    "date": "2026-10-30",
+    "date_display": "30 octobre 2026",
+    "price": 160,
+    "image_url": "/images/KH6679.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/satisfy-x-adidas-adizero-adios-satisfy-wonder-blue-kh6679",
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KH6679&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-adizero-adios-satisfy-m%2FKH6679.html",
+        "price": "160€"
+      }
+    ]
+  },
+  {
+    "id": "satisfy-x-adidas-adizero-adios-satisfy-wmns-tech-earth-kh6681",
+    "slug": "satisfy-x-adidas-adizero-adios-satisfy-wmns-tech-earth-kh6681",
+    "featured": false,
+    "year": 2026,
+    "sku": "KH6681",
+    "title": "Satisfy x adidas Adizero Adios Satisfy WMNS Tech Earth",
+    "brand": "Adidas",
+    "date": "2026-10-30",
+    "date_display": "30 octobre 2026",
+    "price": 160,
+    "image_url": "/images/KH6681.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/satisfy-x-adidas-adizero-adios-satisfy-wmns-tech-earth-kh6681",
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KH6681&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-adizero-adios-satisfy-w%2FKH6681.html",
+        "price": "160€"
+      }
+    ]
+  },
+  {
+    "id": "satisfy-x-adidas-adizero-adios-satisfy-wmns-wonder-blue-kh6678",
+    "slug": "satisfy-x-adidas-adizero-adios-satisfy-wmns-wonder-blue-kh6678",
+    "featured": false,
+    "year": 2026,
+    "sku": "KH6678",
+    "title": "Satisfy x adidas Adizero Adios Satisfy WMNS Wonder Blue",
+    "brand": "Adidas",
+    "date": "2026-10-30",
+    "date_display": "30 octobre 2026",
+    "price": 160,
+    "image_url": "/images/KH6678.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/satisfy-x-adidas-adizero-adios-satisfy-wmns-wonder-blue-kh6678",
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=KH6678&ued=https%3A%2F%2Fwww.adidas.fr%2Fchaussure-adizero-adios-satisfy-w%2FKH6678.html",
+        "price": "160€"
+      }
+    ]
+  },
+  {
+    "id": "nike-kobe-dunk-low-protro-mamba-eterno-iq3922-001",
+    "slug": "nike-kobe-dunk-low-protro-mamba-eterno-iq3922-001",
+    "featured": false,
+    "year": 2026,
+    "sku": "IQ3922-001",
+    "title": "Nike Kobe Dunk Low Protro Mamba Eterno",
+    "brand": "Nike",
+    "date": "2026-10-30",
+    "date_display": "30 octobre 2026",
+    "price": 130,
+    "image_url": "/images/IQ3922-001.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-kobe-dunk-low-protro-mamba-eterno-iq3922-001",
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IQ3922-001&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fkobe-dunk-low-protro-anthracite-and-sundial",
+        "price": "130€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IQ3922-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fnike-kobe-dunk-low-protro-iq3922-001-0361123",
+        "price": "130€"
+      }
+    ]
   },
   {
     "id": "nike-ja-4-halloween-io7939-300",
@@ -589,6 +715,11 @@
         "name": "Slam Jam",
         "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=JA5911-320&url=https://slamjam.com/en-fr/products/nike-jordan-footwear-air-jordan-4-retro-light-army-grey-j371443",
         "price": "210€"
+      },
+      {
+        "name": "Opium",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10949&wgtarget=https://www.opiumparis.com/fr/accueil/4830-42932-jordan-air-jordan-4-retro-light-army.html#/26-tailles-40",
+        "price": "210€"
       }
     ],
     "silhouette": "Air Jordan 4",
@@ -632,6 +763,11 @@
       {
         "name": "Naked",
         "url": "https://www.dpbolvw.net/click-100169928-15318766?sid=IV4501-001&url=https://nakedcph.com/fr/products/nike-air-force-1-01-black-black-black-iv4501-001",
+        "price": "140€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IV4501-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-force-1-01-iv4501-001-0360947",
         "price": "140€"
       }
     ],
@@ -708,10 +844,66 @@
         "name": "Slam Jam",
         "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=487471-300&url=https://slamjam.com/en-fr/products/nike-jordan-footwear-air-jordan-14-retro-green-j371442",
         "price": "220€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=487471-300&wgtarget=https://en.afew-store.com/products/air-jordan-14-retro-gorge-green-lt-graphite-white",
+        "price": "220€"
+      },
+      {
+        "name": "Opium",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10949&wgtarget=https://www.opiumparis.com/fr/accueil/4862-43189-jordan-air-jordan-14-forest-green.html#/26-tailles-40",
+        "price": "220€"
       }
     ],
     "silhouette": "Air Jordan 14",
     "colorway": "Forest/Green"
+  },
+  {
+    "id": "nike-air-force-1-01-dark-team-red-white-iv4501-600",
+    "slug": "nike-air-force-1-01-dark-team-red-white-iv4501-600",
+    "featured": false,
+    "year": 2026,
+    "sku": "IV4501-600",
+    "title": "Nike Air Force 1 '01 Dark Team Red White",
+    "brand": "Nike",
+    "date": "2026-10-31",
+    "date_display": "31 octobre 2026",
+    "price": 140,
+    "image_url": "/images/IV4501-600.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/nike-air-force-1-01-dark-team-red-white-iv4501-600",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IV4501-600&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-air-force-1-01-iv4501-600-0361198",
+        "price": "140€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IV4501-600&wgtarget=https://en.afew-store.com/products/nike-air-force-1-01-dark-team-red-white",
+        "price": "140€"
+      },
+      {
+        "name": "Offspring",
+        "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,22/5704062448&u1=IV4501-600",
+        "price": "140€"
+      },
+      {
+        "name": "Queens",
+        "url": "https://www.dpbolvw.net/click-100169928-15846844?url=https%3A%2F%2Fwww.iqueens.fr%2Ffr%2Fbaskets-homme%2F592222-nike-air-force-1-01-dark-team-red-white.html%3Fsize%3D38",
+        "price": "133€"
+      },
+      {
+        "name": "Footshop",
+        "url": "https://www.kqzyfj.com/click-100169928-13502434?url=https%3A%2F%2Fwww.footshop.eu%2Fen%2Fmen-s-sneakers%2F557230-nike-air-force-1-01-dark-team-red-white.html%3Fsize%3D38",
+        "price": "133€"
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.dpbolvw.net/click-100169928-15439353?url=https%3A%2F%2Fslamjam.com%2Fen-fr%2Fproducts%2Fnike-footwear-nike-air-force-1-01-red-j370567",
+        "price": "140€"
+      }
+    ]
   },
   {
     "id": "nike-caitlin-1-snacks-down-a-cotton-candy-colorway-jf3474-400",
@@ -762,6 +954,16 @@
         "name": "Suppa",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=13499&product=1&wglinkid=4899094&productid=204604.11&productname=991EY+V2+%E2%80%93+Made+in+UK+-+46.5&wgtarget=https://www.suppastore.com/de/product/new-balance-991ey-v2-made-in-uk-u991ey2?source=webgains&siteid=1455575&utm_source=webgains",
         "price": "250€"
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnew-balance-991v2-made-in-uk-elevated-neutrals-u991ey2-beige-99216",
+        "price": "250€"
+      },
+      {
+        "name": "FOOTDISTRICT",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&product=1&wglinkid=4527808&productid=55617653506426&productname=New+Balance+U991v2+EY2+Elevated+Neutrals+%22Made+in+UK%22&wgtarget=https://footdistrict.com/fr/products/new-balance-u991v2-ey2-elevated-neutrals-made-in-uk-u991ey2?utm_source=webgains&siteid=1455575",
+        "price": "250€"
       }
     ]
   },
@@ -797,6 +999,11 @@
       {
         "name": "FootDistrict",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=U991EC2&wgtarget=https://footdistrict.com/fr/products/new-balance-u991v2-ec2-elevated-neutrals-made-in-uk-u991ec2",
+        "price": "250€"
+      },
+      {
+        "name": "Slam Jam",
+        "url": "https://www.kqzyfj.com/click-100169928-15439353?url=https%3A%2F%2Fslamjam.com%2Fen-fr%2Fproducts%2Fnew-balance-footwear-u991ec2-grey-j359379",
         "price": "250€"
       }
     ]
@@ -867,6 +1074,11 @@
       {
         "name": "43einhalb",
         "url": "https://www.awin1.com/cread.php?awinmid=125690&awinaffid=737541&clickref=IX7363-104&ued=https%3A%2F%2Fwww.43einhalb.com%2Ffr%2Fp%2Fnike-wmns-air-force-1-07-lt-orewood-brn-tattoo-pale-ivory-1518684",
+        "price": "120€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IX7363-104&wgtarget=https://en.afew-store.com/products/nike-wmns-air-force-1-07-lt-orewood-brn-tattoo-pale-ivory",
         "price": "120€"
       }
     ],
