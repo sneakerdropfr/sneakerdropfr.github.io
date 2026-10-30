@@ -1406,6 +1406,11 @@
         "name": "Offspring",
         "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,21/5712026331&u1=U990GR7",
         "price": "250€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=USAU990GR7&wgtarget=https://footdistrict.com/fr/products/new-balance-u990v7-gr7-made-in-usa-u990gr7",
+        "price": "250€"
       }
     ],
     "colorway": "Grey"
@@ -1478,12 +1483,18 @@
     "sku": "IZ1800-200",
     "title": "Air Jordan 11 Retro WMNS Magic Ball",
     "brand": "Air Jordan",
-    "date": "2026-11-11",
-    "date_display": "11 novembre 2026",
+    "date": "2026-11-12",
+    "date_display": "12 novembre 2026",
     "price": 220,
     "image_url": "/images/IZ1800-200.webp",
     "wtc_url": "https://www.whentocop.fr/drops/air-jordan-11-retro-wmns-magic-ball-iz1800-200",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IZ1800-200&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fwomens-air-jordan-11-magic-ball-emea",
+        "price": "220€"
+      }
+    ],
     "silhouette": "Air Jordan 11"
   },
   {
@@ -1497,7 +1508,13 @@
     "image_url": "/images/VN000E8VHHC.webp",
     "wtc_url": "https://www.whentocop.fr/drops/vans-lx-old-skool-36-pearlized-pearlized-black-fluro-lime-vn000e8vhhc",
     "featured": false,
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Asphaltgold",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=VN000E8VHHC&wgtarget=https://www.asphaltgold.com/fr/products/vans-premium-old-skool-36-pearlized-black-fluro-lime",
+        "price": "130€"
+      }
+    ],
     "colorway": "Black/Lime",
     "slug": "vans-lx-old-skool-36-pearlized-pearlized-black-fluro-lime-vn000e8vhhc",
     "date_display": "12 novembre 2026"
