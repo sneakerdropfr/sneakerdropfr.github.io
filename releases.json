@@ -1577,7 +1577,13 @@
     "price": 130,
     "image_url": "/images/IX5169-300.webp",
     "wtc_url": "https://www.whentocop.fr/drops/nike-dunk-low-premium-shibuya-halloween-ix5169-300",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike",
+        "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IX5169300&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-nike-dunk-low-premium-halloween-pour-homme-yrSxPJnq%2FIX5169-300",
+        "price": "130€"
+      }
+    ],
     "silhouette": "Dunk Low"
   },
   {
@@ -1719,6 +1725,11 @@
         "name": "BSTN",
         "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=retailer-monitoring&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-dame-x-jq9467-0347183",
         "price": "89€"
+      },
+      {
+        "name": "The Streets",
+        "url": "https://www.jdoqocy.com/click-100169928-15369409?url=https%3A%2F%2Fwww.thestreets.fr%2Ftenisky-adidas-dame-x-all-star",
+        "price": "68€"
       }
     ],
     "id": "adidas-dame-x-all-star-jq9467",
