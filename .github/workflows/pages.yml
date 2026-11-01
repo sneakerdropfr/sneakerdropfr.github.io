@@ -40,6 +40,10 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      # Liens HTML internes vers les fiches /sorties/ (référencement) — dossier de travail seulement, rien n'est commité
+      - name: SEO links
+        run: python3 scripts/seo_links.py . || echo "seo_links a échoué, déploiement sans les liens"
+
       # Même moteur que l'ancien build "legacy" (Jekyll) → rendu identique
       - name: Build
         uses: actions/jekyll-build-pages@v1
