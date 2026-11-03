@@ -920,6 +920,38 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         return da - db;
       });
     }
+    // Top Pick : une paire datée de la semaine en cours (lundi→dimanche, à partir d'aujourd'hui),
+    // jamais une date à confirmer ; priorité aux collabs, modèles iconiques et sorties à peu de retailers.
+    function topPickScore(r) {
+      var t = ' ' + (r.title || '').toLowerCase().replace(/\u00a0/g, ' ') + ' ';
+      var b = (r.brand || '').toLowerCase();
+      var s = r.featured ? 1000 : 0;
+      var collabs = ['travis scott','off-white','sacai','fragment','union','patta','nocta','bad bunny','a ma maniere','a ma maniére','kaws','stussy','stüssy','corteiz','supreme','clot','j balvin','nigel sylvester','mowalola','wales bonner','salehe','aime leon dore','joe freshgoods','concepts','kith','bodega','solefly','awake','bape','jjjjound','action bronson','cactus plant','levi'];
+      if (collabs.some(function(c){ return t.indexOf(c) !== -1; })) s += 60;
+      else if (/\sx\s/.test(t)) s += 30;
+      if (/\ssp\s/.test(t)) s += 15;
+      if (/jordan (1 (retro )?high|3|4|5|6|11|12)\s|sb dunk|dunk low sb|yeezy|99[0-3]|2002r|1906|air max 1\s|kobe/.test(t)) s += 30;
+      if (b.indexOf('jordan') !== -1 || t.indexOf(' air jordan') === 0) s += 15;
+      else if (b.indexOf('nike') !== -1) s += 8;
+      var n = (r.retailers || []).filter(function(rt){ return !rt.resell && !rt.raffle; }).length;
+      if (n >= 1 && n <= 3) s += 20; else if (n >= 8) s -= 10;
+      if (/\s(gs|ps|td)\s/.test(t)) s -= 25; else if (t.indexOf(' wmns ') !== -1) s -= 5;
+      var pr = parseFloat(String(r.price || '').replace(/[^0-9.,]/g, '').replace(',', '.'));
+      if (!isNaN(pr)) s += Math.min(pr / 10, 25);
+      if (!r.image_url) s -= 500;
+      try { var clicks = JSON.parse(localStorage.getItem('sdf_clicks') || '{}'); if (clicks[r.title]) s += Math.min(clicks[r.title], 10); } catch(e) {}
+      return s;
+    }
+    function topPickOf(list) {
+      var iso = function(d){ return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0'); };
+      var now = new Date(); now.setHours(0,0,0,0);
+      var today = iso(now);
+      var sun = new Date(now); sun.setDate(now.getDate() + ((7 - now.getDay()) % 7));
+      var in7 = new Date(now); in7.setDate(now.getDate() + 7);
+      var dated = (list || []).filter(function(r){ return /^\d{4}-\d{2}-\d{2}$/.test(r.date || '') && r.date >= today; });
+      var pick = function(max){ return dated.filter(function(r){ return r.date <= max; }).sort(function(a, b){ return topPickScore(b) - topPickScore(a); })[0]; };
+      return pick(iso(sun)) || pick(iso(in7)) || null;
+    }
     function sortByScore(arr) {
       return arr.slice().sort(function(a, b) { return getScore(b) - getScore(a); });
     }
@@ -1419,9 +1451,7 @@ function escapeHtml(t) { return (t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;
         })();
 
         if (!allReleases.length) { if (empty) empty.style.display = 'block'; return; }
-        var upcoming = allReleases.filter(function(r) { return isFutureOrToday(r.date); });
-        var byScore = sortByScore(upcoming);
-        renderTopPick(byScore[0]);
+        renderTopPick(topPickOf(allReleases));
         render();
       })
       .catch(function(err) {
