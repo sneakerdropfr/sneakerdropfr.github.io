@@ -270,7 +270,12 @@ def retailers_html(r: dict) -> str:
             return True
         b2 = build_awin_url(u)
         return bool(b2 and b2 != u and ("awinaffid=" + AWIN_AFFID) in b2)
-    retail.sort(key=lambda rt: 0 if _is_ours(rt) else 1)
+    _ORDER = {"bstn": 0, "solebox": 1, "snipes": 2}
+    def _aff_key(rt):
+        if not _is_ours(rt):
+            return 9
+        return _ORDER.get((rt.get("name") or "").strip().lower(), 3)
+    retail.sort(key=_aff_key)
 
     # ── Comparateur de prix ──────────────────────────────────────────────
     def parse_price_val(p) -> float | None:
