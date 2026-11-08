@@ -149,6 +149,28 @@
       "colorway": "Black/Olive"
     },
     {
+      "id": "nike-ja-4-code-red-im4135-603",
+      "slug": "nike-ja-4-code-red-im4135-603",
+      "featured": false,
+      "year": 2026,
+      "sku": "IM4135-603",
+      "title": "Nike Ja 4 Code Red",
+      "brand": "Nike",
+      "date": "2026-11-04",
+      "date_display": "4 novembre 2026",
+      "price": 130,
+      "image_url": "/images/IM4135-603.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-ja-4-code-red-im4135-603",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=Nike-Ja-4-Code-Red-IM4135-603&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fchaussure-de-basket-ja-4-deep-water-O1MlsSTs%2FIM4135-603",
+          "price": "130€"
+        }
+      ],
+      "colorway": "Red"
+    },
+    {
       "id": "victor-wembanyama-nike-gt-cut-4-statue-of-liberty-iw0737-300",
       "sku": "IW0737-300",
       "brand": "Nike",
@@ -1663,5 +1685,5 @@
       "colorway": "Black"
     }
   ],
-  "generated_at": "2026-11-07T01:07:33.385501Z"
+  "generated_at": "2026-11-08T01:08:09.413355Z"
 }
