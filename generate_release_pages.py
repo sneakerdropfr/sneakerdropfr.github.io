@@ -263,6 +263,14 @@ def retailers_html(r: dict) -> str:
     retail  = [rt for rt in rets if not (rt.get("resell") or rt.get("type")=="resell") and not (rt.get("raffle") or rt.get("type")=="raffle" or rt.get("status")=="raffle")]
     raffles = [rt for rt in rets if rt.get("raffle") or rt.get("type")=="raffle" or rt.get("status")=="raffle"]
     resell  = [rt for rt in rets if rt.get("resell") or rt.get("type")=="resell"]
+    # Nos liens affiliés (Awin SneakerDropFR) en premier, ordre conservé sinon
+    def _is_ours(rt):
+        u = rt.get("url") or ""
+        if ("awinaffid=" + AWIN_AFFID) in u:
+            return True
+        b2 = build_awin_url(u)
+        return bool(b2 and b2 != u and ("awinaffid=" + AWIN_AFFID) in b2)
+    retail.sort(key=lambda rt: 0 if _is_ours(rt) else 1)
 
     # ── Comparateur de prix ──────────────────────────────────────────────
     def parse_price_val(p) -> float | None:
@@ -804,7 +812,7 @@ def restocks_html(r: dict) -> str:
 
 def past_banner_html(r: dict) -> str:
     """Bandeau 'epuisee' pour les paires de releases_past.json."""
-    if not r.get("past"):
+    if not r.get("past") or r.get("still_available"):
         return ""
     title = escape(r.get("title", "").strip())
     silhouette = escape((r.get("silhouette") or r.get("brand") or "").strip())
