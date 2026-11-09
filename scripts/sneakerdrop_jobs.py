@@ -81,6 +81,8 @@ def branches_ok(fn):
         return False
     return True
 
+_PUSHED = set()  # fichiers écrits sur main pendant ce run
+
 def gh_put(fn, raw, msg, branch):
     if not msg.startswith('[skip ci]'): msg = '[skip ci] ' + msg
     for attempt in range(2):
@@ -88,7 +90,9 @@ def gh_put(fn, raw, msg, branch):
         body = {'message': msg, 'content': base64.b64encode(raw).decode(), 'branch': branch}
         if sha: body['sha'] = sha
         o = gh(['-X', 'PUT', API + fn], body)
-        if '"commit"' in o.stdout: return True
+        if '"commit"' in o.stdout:
+            if branch == 'main' and fn != 'cursor.json': _PUSHED.add(fn)
+            return True
         if attempt == 0 and re.search(r'409|422', o.stdout + o.stderr): time.sleep(3); continue
         print(f'  ERREUR PUT {fn}@{branch}: {(o.stdout + o.stderr)[:200]}'); return False
     return False
@@ -450,3 +454,8 @@ if __name__ == '__main__':
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
     if not args or args[0] not in jobs: print(__doc__); sys.exit(2)
     for a in args: jobs[a]()
+    # Mise en ligne une seule fois en fin de run si quelque chose a changé sur main
+    # (les commits sont en [skip ci] : sans ça, il faudrait attendre le rattrapage toutes les 6 h)
+    if _PUSHED and not DRY:
+        o = gh(['-X', 'POST', f'repos/{REPO}/actions/workflows/pages.yml/dispatches', '-f', 'ref=main'])
+        print('Déploiement lancé' if o.returncode == 0 else f'ERREUR déploiement : {(o.stdout + o.stderr)[:200]}')
