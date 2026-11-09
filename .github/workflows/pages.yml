@@ -40,6 +40,10 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      # Fiches /sorties/ des nouvelles paires (sans --force : les fiches existantes ne sont pas touchées) — dossier de travail seulement
+      - name: Release pages
+        run: python3 generate_release_pages.py || echo "generate_release_pages a échoué, déploiement sans les nouvelles fiches"
+
       # Liens HTML internes vers les fiches /sorties/ (référencement) — dossier de travail seulement, rien n'est commité
       - name: SEO links
         run: python3 scripts/seo_links.py . || echo "seo_links a échoué, déploiement sans les liens"
