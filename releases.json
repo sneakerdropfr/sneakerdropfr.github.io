@@ -1871,7 +1871,13 @@
     "price": 250,
     "image_url": "/images/JS1115.webp",
     "wtc_url": "https://www.whentocop.fr/drops/adidas-y-3-regu-mary-jane-black-scarlet-js1115",
-    "retailers": []
+    "retailers": [
+      {
+        "name": "Adidas",
+        "url": "https://www.awin1.com/cread.php?awinmid=77010&awinaffid=737541&clickref=JS1115&ued=https%3A%2F%2Fwww.adidas.fr%2Fy-3-regu-mary-jane%2FJS1115.html",
+        "price": "250€"
+      }
+    ]
   },
   {
     "id": "air-jordan-11-green-screen-iq5700-900",
