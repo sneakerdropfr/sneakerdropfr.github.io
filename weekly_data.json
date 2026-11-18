@@ -212,6 +212,32 @@
       "colorway": "Black"
     },
     {
+      "id": "nocta-nike-air-modmax-pink-spell-iq6711-600",
+      "slug": "nocta-nike-air-modmax-pink-spell-iq6711-600",
+      "featured": false,
+      "year": 2026,
+      "sku": "IQ6711-600",
+      "title": "Nocta x Nike Air Modmax Pink Spell",
+      "brand": "Nike",
+      "date": "2026-11-18",
+      "date_display": "18 novembre 2026",
+      "price": 180,
+      "image_url": "/images/IQ6711-600.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nocta-nike-air-modmax-pink-spell-iq6711-600",
+      "retailers": [
+        {
+          "name": "Nocta",
+          "url": "https://www.nocta.com/products/nocta-air-mod-max-pink-spell",
+          "price": "180€"
+        },
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IQ6711-600&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fnocta-air-modmax-pink-spell-and-amarillo",
+          "price": "180€"
+        }
+      ]
+    },
+    {
       "id": "vans-lx-old-skool-36-pearlized-navy-black-vn000e8vya61",
       "sku": "VN000E8VYA61",
       "brand": "Vans",
@@ -241,6 +267,11 @@
         {
           "name": "Foot Locker",
           "url": "https://www.awin1.com/cread.php?awinmid=18270&awinaffid=737541&clickref=VN000E8VYA61&ued=https%3A%2F%2Fwww.footlocker.fr%2Ffr%2Frelease-calendar%2Fvans%2F314521254004.html",
+          "price": "130€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=VN000E8VYA61&url=https://slamjam.com/en-fr/products/vans-footwear-lx-old-skool-36-pearlized-black-j358885",
           "price": "130€"
         }
       ],
@@ -281,6 +312,11 @@
           "name": "Geturbrick",
           "url": "https://geturbrick.com/products/new-balance-992-miusa-medusa-green-cortado?variant=55395902456145&utm_source=whentocop&utm_medium=geturbrick-U992BB-wtc-tech",
           "price": "420€"
+        },
+        {
+          "name": "Asphaltgold",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=300900&clickref=U992BB&wgtarget=https://www.asphaltgold.com/fr/products/new-balance-992-made-in-usa-medusa-green-thunder-brown-cortado",
+          "price": "230€"
         }
       ],
       "silhouette": "New Balance 992",
@@ -480,6 +516,69 @@
       "silhouette": "Air Force 1"
     },
     {
+      "id": "needles-vans-mountain-edition-vibram-black-purple-vn000v8fbla1",
+      "slug": "needles-vans-mountain-edition-vibram-black-purple-vn000v8fbla1",
+      "featured": false,
+      "year": 2026,
+      "sku": "VN000V8FBLA1",
+      "title": "Needles x Vans Mountain Edition Vibram Black Purple",
+      "brand": "Vans",
+      "date": "2026-11-19",
+      "date_display": "19 novembre 2026",
+      "price": 155,
+      "image_url": "/images/VN000V8FBLA1.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/needles-vans-mountain-edition-vibram-black-purple-vn000v8fbla1",
+      "retailers": [
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=VN000V8FBLA1&wgtarget=https://footdistrict.com/fr/products/vans-otw-x-needles-mountain-edition-vibram-vn000v8fbla1",
+          "price": "155€"
+        }
+      ]
+    },
+    {
+      "id": "needles-vans-otw-mountain-edition-vibram-brown-black-vn000v8f3n11",
+      "slug": "needles-vans-otw-mountain-edition-vibram-brown-black-vn000v8f3n11",
+      "featured": false,
+      "year": 2026,
+      "sku": "VN000V8F3N11",
+      "title": "Needles x Vans Mountain Edition Vibram Brown Black",
+      "brand": "Vans",
+      "date": "2026-11-19",
+      "date_display": "19 novembre 2026",
+      "price": 155,
+      "image_url": "/images/VN000V8F3N11.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/needles-vans-otw-mountain-edition-vibram-brown-black-vn000v8f3n11",
+      "retailers": [
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=VN000V8F3N11&wgtarget=https://footdistrict.com/fr/products/vans-otw-x-needles-mountain-edition-vibram-vn000v8f3n11",
+          "price": "155€"
+        }
+      ]
+    },
+    {
+      "id": "kids-of-immigrants-nike-tiempo-maestro-elite-sundial-iv3429-700",
+      "slug": "kids-of-immigrants-nike-tiempo-maestro-elite-sundial-iv3429-700",
+      "featured": false,
+      "year": 2026,
+      "sku": "IV3429-700",
+      "title": "Kids of Immigrants x Nike Tiempo Maestro Elite Sundial",
+      "brand": "Nike",
+      "date": "2026-11-19",
+      "date_display": "19 novembre 2026",
+      "price": 270,
+      "image_url": "/images/IV3429-700.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/kids-of-immigrants-nike-tiempo-maestro-elite-sundial-iv3429-700",
+      "retailers": [
+        {
+          "name": "Nike SNKRS",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=IV3429-700&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Flaunch%2Ft%2Fnike-tiempo-maestro-elite-kids-of-immigrants-metallic-pewter-and-amarillo",
+          "price": "270€"
+        }
+      ]
+    },
+    {
       "id": "adidas-ae-3-lucid-pink-kh8545",
       "sku": "KH8545",
       "brand": "Adidas",
@@ -663,6 +762,11 @@
           "name": "Geturbrick",
           "url": "https://geturbrick.com/products/asics-gel-transcend-fj-story-mfg-dark-brown-gingham?variant=55710846419281&utm_source=whentocop&utm_medium=geturbrick-1203B194-200-wtc-tech",
           "price": "445€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=1203B194-200&url=https://slamjam.com/en-fr/products/asics-footwear-gel-transcend-fj-brown-j365007",
+          "price": "180€"
         }
       ],
       "colorway": "Brown"
@@ -1040,6 +1144,11 @@
           "name": "Geturbrick",
           "url": "https://geturbrick.com/products/nike-mind-001-slide-black-chrome?variant=55203035742545&utm_source=whentocop&utm_medium=geturbrick-HQ4307-001-wtc-tech",
           "price": "130€"
+        },
+        {
+          "name": "11TeamSports",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=274615&product=1&wglinkid=5420773&productid=10362253_0000000080&productname=Nike+Mind+001+Slide+Sandalen+Schwarz+F001&wgtarget=https://www.11teamsports.com/de-de/p/nike-mind-001-slide-sandalen-schwarz-f001?variant=aeb736173d4c47a18483f080e0f9269e&utm_source=webgains&utm_medium=affiliate&wg_id=1254505",
+          "price": "90€"
         }
       ],
       "colorway": "Black/Crimson"
@@ -1134,6 +1243,16 @@
           "name": "Offspring",
           "url": "https://click.linksynergy.com/deeplink?id=Nt67yr1xdJU&mid=50689&murl=https://www.offspring.co.uk/view/product/offspring_catalog/5,21/5599159285&u1=IW6306-001",
           "price": "190€"
+        },
+        {
+          "name": "Patta",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=299060&clickref=Carhartt-Wip-Nike-Air-Max-Goadome-Low-Black-Iw6306-001&wgtarget=https://fr.patta.nl/products/nike-air-max-goadome-low-sp-black-twilight-marsh",
+          "price": "190€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=IW6306-001&url=https://slamjam.com/en-fr/products/nike-footwear-air-max-goadome-low-x-carhartt-wip-black-j376218",
+          "price": "190€"
         }
       ],
       "colorway": "Black"
@@ -1206,8 +1325,19 @@
           "name": "Urbanstaroma",
           "url": "https://www.anrdoezrs.net/click-100169928-15786901?url=https%3A%2F%2Fwww.urbanstaroma.com%2Ffr%2Fproducts%2Fuomo-nike-air-max-goadome-low-x-carhartt-wip-iw6306-6949503%3Fvariant%3D59847064453452%26utm_source%3DCJ%26utm_medium%3Dcpc%26utm_campaign%3DreferralsCJ%2520-%2520FR%2520%2520%26utm_content%3DAir%2520Max%2520Goadome%2520Low%2520x%2520Carhartt%2520WIP%2520marroni",
           "price": "190€"
+        },
+        {
+          "name": "Patta",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=299060&clickref=Carhartt-Wip-Nike-Air-Goadome-Low-Light-British-Tan-IW6306-200&wgtarget=https://fr.patta.nl/products/nike-air-max-goadome-low-sp-lt-british-tan-metallic-ochre",
+          "price": "190€"
+        },
+        {
+          "name": "Slam Jam",
+          "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=IW6306-200&url=https://slamjam.com/en-fr/products/nike-footwear-air-max-goadome-low-x-carhartt-wip-brown-j376217",
+          "price": "190€"
         }
-      ]
+      ],
+      "colorway": "Tan"
     },
     {
       "id": "corteiz-nike-shox-r419-metallic-silver-iq9951-001",
@@ -1232,6 +1362,203 @@
           "name": "Geturbrick",
           "url": "https://geturbrick.com/products/nike-shox-r419-corteiz-metallic-silver?variant=55752645574993&utm_source=whentocop&utm_medium=geturbrick-IQ9951-001-wtc-tech",
           "price": "550€"
+        }
+      ],
+      "colorway": "METALLIC SILVER"
+    },
+    {
+      "id": "nike-mind-001-wmns-summit-white-hq4309-101",
+      "slug": "nike-mind-001-wmns-summit-white-hq4309-101",
+      "featured": false,
+      "year": 2026,
+      "sku": "HQ4309-101",
+      "title": "Nike Mind 001 WMNS Summit White",
+      "brand": "Nike",
+      "date": "2026-11-20",
+      "date_display": "20 novembre 2026",
+      "price": 90,
+      "image_url": "/images/HQ4309-101.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-wmns-summit-white-hq4309-101",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4309101&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-femme-7jvGnsec%2FHQ4309-101",
+          "price": "90€"
+        },
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=HQ4309-101&wgtarget=https://footdistrict.com/fr/products/nike-womens-mind-001-summit-white-hq4309-101",
+          "price": "90€"
+        },
+        {
+          "name": "Geturbrick",
+          "url": "https://geturbrick.com/products/nike-mind-001-slide-summit-white-womens?variant=54113907114321&utm_source=whentocop&utm_medium=geturbrick-HQ4309-101-wtc-tech",
+          "price": "145€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/pclick.php?p=46456760425&a=737541&m=104979&clickref=HQ4309-101",
+          "price": "90€"
+        }
+      ]
+    },
+    {
+      "id": "nike-mind-001-hemp-hq4307-200",
+      "slug": "nike-mind-001-hemp-hq4307-200",
+      "featured": false,
+      "year": 2026,
+      "sku": "HQ4307-200",
+      "title": "Nike Mind 001 Hemp",
+      "brand": "Nike",
+      "date": "2026-11-20",
+      "date_display": "20 novembre 2026",
+      "price": 90,
+      "image_url": "/images/HQ4307-200.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-hemp-hq4307-200",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4307200&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-homme-QpFjgww7%2FHQ4307-200",
+          "price": "90€"
+        },
+        {
+          "name": "Urbanstar",
+          "url": "https://www.dpbolvw.net/click-100169928-15786901?sid=NIKE-Mind-001-'Hemp'-&url=https://www.urbanstaroma.com/fr/products/uomo-nike-mind-001-hemp-hq4307-4411381",
+          "price": "90€"
+        },
+        {
+          "name": "Geturbrick",
+          "url": "https://geturbrick.com/products/nike-mind-001-slide-rattan?variant=54113906295121&utm_source=whentocop&utm_medium=geturbrick-HQ4307-200-wtc-tech",
+          "price": "150€"
+        },
+        {
+          "name": "11TeamSports",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=274615&product=1&wglinkid=5420773&productid=10398933_0000000090&productname=Nike+Mind+001+Slide+Sandalen+Braun+F200&wgtarget=https://www.11teamsports.com/de-de/p/nike-mind-001-slide-sandalen-braun-f200?variant=c02556497cae460a9fcc1bbc63176993&utm_source=webgains&utm_medium=affiliate&wg_id=1254505",
+          "price": "90€"
+        }
+      ]
+    },
+    {
+      "id": "nike-mind-001-wmns-pearl-pink-hq4309-610",
+      "slug": "nike-mind-001-wmns-pearl-pink-hq4309-610",
+      "featured": false,
+      "year": 2026,
+      "sku": "HQ4309-610",
+      "title": "Nike Mind 001 WMNS Pearl Pink",
+      "brand": "Nike",
+      "date": "2026-11-20",
+      "date_display": "20 novembre 2026",
+      "price": 90,
+      "image_url": "/images/HQ4309-610.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-wmns-pearl-pink-hq4309-610",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4309610&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-femme-7jvGnsec%2FHQ4309-610",
+          "price": "90€"
+        },
+        {
+          "name": "Geturbrick",
+          "url": "https://geturbrick.com/products/nike-mind-001-slide-pearl-pink?variant=53267441975633&utm_source=whentocop&utm_medium=geturbrick-HQ4309-610-wtc-tech",
+          "price": "200€"
+        },
+        {
+          "name": "11TeamSports",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=274615&product=1&wglinkid=5420773&productid=10398960_0000001298&productname=Nike+Mind+001+Slide+Sandalen+Damen+Rosa+F610&wgtarget=https://www.11teamsports.com/de-de/p/nike-mind-001-slide-sandalen-damen-rosa-f610?variant=4df608a994864d0fb4f5aca165b8247a&utm_source=webgains&utm_medium=affiliate&wg_id=1254505",
+          "price": "90€"
+        }
+      ]
+    },
+    {
+      "id": "nike-mind-001-wmns-solar-red-hq4309-600",
+      "slug": "nike-mind-001-wmns-solar-red-hq4309-600",
+      "featured": false,
+      "year": 2026,
+      "sku": "HQ4309-600",
+      "title": "Nike Mind 001 WMNS Solar Red",
+      "brand": "Nike",
+      "date": "2026-11-20",
+      "date_display": "20 novembre 2026",
+      "price": 90,
+      "image_url": "/images/HQ4309-600.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-wmns-solar-red-hq4309-600",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4309600&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-femme-7jvGnsec%2FHQ4309-600",
+          "price": "90€"
+        },
+        {
+          "name": "Geturbrick",
+          "url": "https://geturbrick.com/products/nike-mind-001-slide-solar-red-femme?variant=55203439509841&utm_source=whentocop&utm_medium=geturbrick-HQ4309-600-wtc-tech",
+          "price": "135€"
+        }
+      ]
+    },
+    {
+      "id": "nike-mind-001-wmns-black-hyper-crimson-hq4309-001",
+      "slug": "nike-mind-001-wmns-black-hyper-crimson-hq4309-001",
+      "featured": false,
+      "year": 2026,
+      "sku": "HQ4309-001",
+      "title": "Nike Mind 001 WMNS Black Hyper Crimson",
+      "brand": "Nike",
+      "date": "2026-11-20",
+      "date_display": "20 novembre 2026",
+      "price": 90,
+      "image_url": "/images/HQ4309-001.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-wmns-black-hyper-crimson-hq4309-001",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4309001&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-femme-7jvGnsec%2FHQ4309-001",
+          "price": "90€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&product=1&wglinkid=6137744&productid=49271-9&productname=Nike+WMNS+Mind%C2%A0001&wgtarget=https://en.afew-store.com/products/nike-wmns-mind-001-black-chrome-hyper-crimson-white?variant=53842035638538&utm_source=webgains.com&utm_medium=affiliate&utm_content=1455575&wgpub=1455575&utm_campaign=Webgains%201254505",
+          "price": "90€"
+        },
+        {
+          "name": "Geturbrick",
+          "url": "https://geturbrick.com/products/nike-mind-001-slide-black-chrome-femme?variant=52845317128529&utm_source=whentocop&utm_medium=geturbrick-HQ4309-001-wtc-tech",
+          "price": "165€"
+        }
+      ]
+    },
+    {
+      "id": "nike-mind-001-solar-red-hq4307-600",
+      "slug": "nike-mind-001-solar-red-hq4307-600",
+      "featured": false,
+      "year": 2026,
+      "sku": "HQ4307-600",
+      "title": "Nike Mind 001 Solar Red",
+      "brand": "Nike",
+      "date": "2026-11-20",
+      "date_display": "20 novembre 2026",
+      "price": 90,
+      "image_url": "/images/HQ4307-600.webp",
+      "wtc_url": "https://www.whentocop.fr/drops/nike-mind-001-solar-red-hq4307-600",
+      "retailers": [
+        {
+          "name": "Nike",
+          "url": "https://www.awin1.com/cread.php?awinmid=16328&awinaffid=737541&clickref=HQ4307600&ued=https%3A%2F%2Fwww.nike.com%2Ffr%2Ft%2Fmules-davant-match-nike-mind-001-pour-homme-QpFjgww7%2FHQ4307-600",
+          "price": "90€"
+        },
+        {
+          "name": "Afew",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&product=1&wglinkid=6137744&productid=46366-15&productname=Nike+Mind+001&wgtarget=https://en.afew-store.com/products/nike-mind-001-solar-red-chrome-hyper-crimson-black?variant=54052608540938&utm_source=webgains.com&utm_medium=affiliate&utm_content=1455575&wgpub=1455575&utm_campaign=Webgains%201254505",
+          "price": "90€"
+        },
+        {
+          "name": "Geturbrick",
+          "url": "https://geturbrick.com/products/nike-mind-001-slide-solar-red?variant=55201620754769&utm_source=whentocop&utm_medium=geturbrick-HQ4307-600-wtc-tech",
+          "price": "140€"
+        },
+        {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/pclick.php?p=46695411739&a=737541&m=104979&clickref=HQ4307-600",
+          "price": "90€"
         }
       ]
     },
@@ -1336,8 +1663,9 @@
           "url": "https://geturbrick.com/products/jordan-3-retro-se-space-jam-lola-bunny-gs?variant=55710882758993&utm_source=whentocop&utm_medium=geturbrick-IZ1694-600-wtc-tech",
           "price": "220€"
         }
-      ]
+      ],
+      "silhouette": "Air Jordan 3"
     }
   ],
-  "generated_at": "2026-11-17T01:09:14.978697Z"
+  "generated_at": "2026-11-18T01:10:11.792476Z"
 }
