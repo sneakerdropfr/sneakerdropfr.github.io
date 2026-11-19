@@ -418,7 +418,13 @@
     "price": 130,
     "image_url": "/images/JJ7604-001.webp",
     "wtc_url": "https://www.whentocop.fr/drops/travis-scott-rockstar-nike-air-force-1-low-07-gta-6-jj7604-001",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://tidd.ly/32Hxuvd",
+        "price": "130€"
+      }
+    ],
     "silhouette": "Air Force 1"
   },
   {
@@ -492,7 +498,13 @@
     "price": 130,
     "image_url": "/images/JJ7602-100.webp",
     "wtc_url": "https://www.whentocop.fr/drops/travis-scott-rockstar-nike-air-force-1-low-07-gta-6-white-jj7602-100",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Nike SNKRS",
+        "url": "https://tidd.ly/32Hxuvd",
+        "price": "130€"
+      }
+    ],
     "silhouette": "Air Force 1",
     "colorway": "White"
   },
@@ -530,6 +542,11 @@
         "name": "FootDistrict",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=VN000V8FBLA1&wgtarget=https://footdistrict.com/fr/products/vans-otw-x-needles-mountain-edition-vibram-vn000v8fbla1",
         "price": "155€"
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.dpbolvw.net/click-100169928-15786901?sid=VN000V8FBLA1BLACK&url=https://www.urbanstaroma.com/fr/products/unisex-vans-otw-x-needles-mountain-edition-vibram-nere-vn000v8fbla1-4988442",
+        "price": "155€"
       }
     ],
     "colorway": "Black/Purple"
@@ -551,6 +568,11 @@
       {
         "name": "FootDistrict",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=VN000V8F3N11&wgtarget=https://footdistrict.com/fr/products/vans-otw-x-needles-mountain-edition-vibram-vn000v8f3n11",
+        "price": "155€"
+      },
+      {
+        "name": "Urbanstar",
+        "url": "https://www.dpbolvw.net/click-100169928-15786901?sid=VN000V8F3N11demitasse&url=https://www.urbanstaroma.com/fr/products/unisex-vans-otw-x-needles-mountain-edition-vibram-marrone-vn000v8f3n11-2370720",
         "price": "155€"
       }
     ],
@@ -724,6 +746,11 @@
         "name": "Slam Jam",
         "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=1203B194-001&url=https://slamjam.com/en-fr/products/asics-footwear-gel-transcend-fj-black-j365006",
         "price": "180€"
+      },
+      {
+        "name": "END",
+        "url": "https://www.endclothing.com/en-eu/products/asics-x-story-mfg-gel-transcend-fj-sneaker-1203b194-001",
+        "price": "180€"
       }
     ],
     "colorway": "Black"
@@ -775,6 +802,11 @@
       {
         "name": "Slam Jam",
         "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=1203B194-200&url=https://slamjam.com/en-fr/products/asics-footwear-gel-transcend-fj-brown-j365007",
+        "price": "180€"
+      },
+      {
+        "name": "END",
+        "url": "https://www.endclothing.com/en-eu/products/asics-x-story-mfg-gel-transcend-fj-sneaker-1203b194-200",
         "price": "180€"
       }
     ],
@@ -834,6 +866,11 @@
       {
         "name": "Afew",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&clickref=IO8233-001&wgtarget=https://en.afew-store.com/products/nike-kobe-ad-protro-cool-grey-white-black",
+        "price": "150€"
+      },
+      {
+        "name": "FootDistrict",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=IO8233-001&wgtarget=https://footdistrict.com/fr/products/nike-kobe-a-d-protro-cool-grey-io8233-001",
         "price": "150€"
       }
     ]
@@ -1344,6 +1381,11 @@
         "name": "Slam Jam",
         "url": "https://www.dpbolvw.net/click-100169928-15439353?sid=IW6306-200&url=https://slamjam.com/en-fr/products/nike-footwear-air-max-goadome-low-x-carhartt-wip-brown-j376217",
         "price": "190€"
+      },
+      {
+        "name": "Solebox",
+        "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnike-x-carhartt-goadome-low-brun-141674",
+        "price": "190€"
       }
     ],
     "colorway": "Tan"
@@ -1408,6 +1450,11 @@
         "name": "BSTN",
         "url": "https://www.awin1.com/pclick.php?p=46456760425&a=737541&m=104979&clickref=HQ4309-101",
         "price": "90€"
+      },
+      {
+        "name": "Afew",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=10319&product=1&wglinkid=6137744&productid=49417-11&productname=Nike+WMNS+Mind%C2%A0001&wgtarget=https://en.afew-store.com/products/nike-wmns-mind-001-summit-white-metallic-silver-phantom?variant=54005249147146&utm_source=webgains.com&utm_medium=affiliate&utm_content=1455575&wgpub=1455575&utm_campaign=Webgains%201254505",
+        "price": "90€"
       }
     ],
     "colorway": "Summit White"
@@ -1444,6 +1491,11 @@
       {
         "name": "11TeamSports",
         "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=274615&product=1&wglinkid=5420773&productid=10398933_0000000090&productname=Nike+Mind+001+Slide+Sandalen+Braun+F200&wgtarget=https://www.11teamsports.com/de-de/p/nike-mind-001-slide-sandalen-braun-f200?variant=c02556497cae460a9fcc1bbc63176993&utm_source=webgains&utm_medium=affiliate&wg_id=1254505",
+        "price": "90€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/pclick.php?p=46103702985&a=737541&m=104979&clickref=HQ4307-200",
         "price": "90€"
       }
     ],
@@ -1536,6 +1588,11 @@
         "name": "Geturbrick",
         "url": "https://geturbrick.com/products/nike-mind-001-slide-black-chrome-femme?variant=52845317128529&utm_source=whentocop&utm_medium=geturbrick-HQ4309-001-wtc-tech",
         "price": "165€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/pclick.php?p=46202204972&a=737541&m=104979&clickref=HQ4309-001",
+        "price": "90€"
       }
     ],
     "colorway": "Black/Crimson"
@@ -1630,6 +1687,11 @@
         "name": "Geturbrick",
         "url": "https://geturbrick.com/products/jordan-3-retro-not-nice?variant=55793581949265&utm_source=whentocop&utm_medium=geturbrick-IF4396-001-wtc-tech",
         "price": "260€"
+      },
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IF4396-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fjordan-air-jordan-3-retro-og-if4396-001-0361223",
+        "price": "210€"
       }
     ],
     "silhouette": "Air Jordan 3"
@@ -1677,6 +1739,11 @@
         "name": "Geturbrick",
         "url": "https://geturbrick.com/products/jordan-3-retro-se-space-jam-lola-bunny-gs?variant=55710882758993&utm_source=whentocop&utm_medium=geturbrick-IZ1694-600-wtc-tech",
         "price": "220€"
+      },
+      {
+        "name": "The Streets",
+        "url": "https://www.kqzyfj.com/click-100169928-15369409?url=https%3A%2F%2Fwww.thestreets.fr%2Fair-jordan-3-retro-space-jam-big-kids-shoes-light-soft-pink-iz1694-600",
+        "price": "150€"
       }
     ],
     "silhouette": "Air Jordan 3"
