@@ -1964,7 +1964,18 @@
     "price": 130,
     "image_url": "/images/VN000E8VIZQ.webp",
     "wtc_url": "https://www.whentocop.fr/drops/vans-old-skool-36-pearlized-racing-red-vn000e8vizq",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "Geturbrick",
+        "url": "https://geturbrick.com/products/vans-lx-old-skool-36-pearlized-pack-red?variant=54837168243025&utm_source=whentocop&utm_medium=geturbrick-VN000E8VIZQ-wtc-tech",
+        "price": "260€"
+      },
+      {
+        "name": "Suppa",
+        "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=13499&product=1&wglinkid=4899094&productid=204661.14&productname=Premium+Old+Skool+LX+36+%27PEARLIZED%27+-+47&wgtarget=https://www.suppastore.com/de/product/vans-premium-old-skool-lx-36-pearlized-vn000e8vizq?source=webgains&siteid=1455575&utm_source=webgains",
+        "price": "130€"
+      }
+    ],
     "colorway": "Red"
   },
   {
