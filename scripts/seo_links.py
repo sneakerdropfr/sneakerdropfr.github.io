@@ -316,9 +316,21 @@ def fix_product_offers():
         if not new:
             noprice += 1
             continue
-        if new == obj.get("offers"):
-            continue
+        sku = (e.get("sku") or "").strip()
+        if not sku:
+            sm = re.search(r'<span class="article__sku-label">SKU</span> ([^<]+)</p>', s)
+            sku = sm.group(1).strip() if sm else ""
+        sku = sku.replace("&#x27;", "'").replace("&amp;", "&")
+        before = json.dumps(obj, sort_keys=True)
+        if sku and "," not in sku and len(sku) <= 40:
+            obj.setdefault("sku", sku)
+            obj.setdefault("mpn", sku)
+        img = obj.get("image")
+        if isinstance(img, str) and img.startswith("/"):
+            obj["image"] = "https://sneakerdropfr.fr" + img
         obj["offers"] = new
+        if json.dumps(obj, sort_keys=True) == before:
+            continue
         js = json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
         s = s[:m.start(2)] + js + s[m.end(2):]
         open(path, "w", encoding="utf-8").write(s)
