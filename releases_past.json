@@ -56044,5 +56044,34 @@
     ],
     "silhouette": "Air Jordan 3",
     "past": true
+  },
+  {
+    "slug": "adidas-dame-x-all-star-jq9467",
+    "sku": "JQ9467",
+    "title": "Adidas Dame X ALL STAR",
+    "brand": "Adidas",
+    "date": "2026-02-12",
+    "date_display": "12 février 2026",
+    "price": 90,
+    "image_url": "/images/JQ9467.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/adidas-dame-x-all-star-jq9467",
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=retailer-monitoring&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fadidas-dame-x-jq9467-0347183",
+        "price": "89€"
+      },
+      {
+        "name": "The Streets",
+        "url": "https://www.jdoqocy.com/click-100169928-15369409?url=https%3A%2F%2Fwww.thestreets.fr%2Ftenisky-adidas-dame-x-all-star",
+        "price": "68€"
+      }
+    ],
+    "id": "adidas-dame-x-all-star-jq9467",
+    "featured": false,
+    "year": 2026,
+    "editorial": "La Dame X est le dixième modèle signature de Damian Lillard chez Adidas. Cette version All-Star en Lucid Orange, Ice Tangerine et Icey Blue associe une tige en textile et synthétique à un amorti Lightstrike léger et réactif. Prends ta pointure habituelle de basket.",
+    "past": true,
+    "still_available": true
   }
 ]
