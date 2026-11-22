@@ -237,6 +237,95 @@ def add_nav_links():
     print(f"  lien Toutes les sorties : menu {nav_n} page(s), pied de page {foot_n} page(s)")
 
 
+def _num(v):
+    """Prix numérique en texte (150, 91.99), ou None."""
+    if isinstance(v, (int, float)) and v > 0:
+        return ("%.2f" % v).rstrip("0").rstrip(".")
+    if isinstance(v, str):
+        t = re.sub(r"[^\d.,]", "", v).replace(",", ".")
+        try:
+            return _num(float(t)) if t else None
+        except ValueError:
+            return None
+    return None
+
+
+def fix_product_offers():
+    """JSON-LD Product des fiches : champ offers toujours présent, avec prix retail et disponibilité.
+    Dossier de travail seulement, au déploiement : rien n'est commité, les fiches ne sont pas régénérées."""
+    idx = {}
+    for fn_, is_past in (("releases_past.json", True), ("releases.json", False)):
+        d = load(fn_)
+        d = d if isinstance(d, list) else (d.get("releases") or [])
+        for e in d:
+            if e.get("id"):
+                idx[e["id"]] = (is_past, e)
+    d_ = os.path.join(ROOT, "sorties")
+    if not os.path.isdir(d_):
+        return
+    fixed = added = noprice = 0
+    for f in os.listdir(d_):
+        if not f.endswith(".html"):
+            continue
+        path = os.path.join(d_, f)
+        try:
+            s = open(path, encoding="utf-8").read()
+        except Exception:
+            continue
+        m = re.search(r'(<script type="application/ld\+json">)(.*?)(</script>)', s, re.S)
+        if not m:
+            continue
+        try:
+            obj = json.loads(m.group(2))
+        except Exception:
+            continue
+        if obj.get("@type") != "Product":
+            continue
+        is_past, e = idx.get(f[:-5], (None, {}))
+        if is_past is None:
+            is_past = bool(re.search(r"Cette paire est epuisee", s))
+        if not is_past:
+            avail = "https://schema.org/PreOrder"
+        elif e.get("still_available") or "Cette paire est epuisee" not in s:
+            avail = "https://schema.org/InStock"
+        else:
+            avail = "https://schema.org/OutOfStock"
+        base = _num(e.get("price"))
+        if not base:
+            pm = re.search(r"au prix retail a (\d+(?:[.,]\d+)?) €", obj.get("description") or "")
+            base = _num(pm.group(1)) if pm else None
+        offers = obj.get("offers")
+        if isinstance(offers, dict):
+            offers = [offers]
+        new = []
+        for o in offers or []:
+            o = dict(o)
+            pr = _num(o.get("price")) or base
+            if not pr:
+                continue
+            o["price"] = pr
+            o["priceCurrency"] = o.get("priceCurrency") or "EUR"
+            o["availability"] = avail
+            o.setdefault("itemCondition", "https://schema.org/NewCondition")
+            new.append(o)
+        if not new and base:
+            new = [{"@type": "Offer", "url": obj.get("url") or f"https://sneakerdropfr.fr/sorties/{f}",
+                    "price": base, "priceCurrency": "EUR", "availability": avail,
+                    "itemCondition": "https://schema.org/NewCondition"}]
+            added += 1
+        if not new:
+            noprice += 1
+            continue
+        if new == obj.get("offers"):
+            continue
+        obj["offers"] = new
+        js = json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
+        s = s[:m.start(2)] + js + s[m.end(2):]
+        open(path, "w", encoding="utf-8").write(s)
+        fixed += 1
+    print(f"  JSON-LD offers : {fixed} fiche(s) corrigée(s), dont {added} sans retailer ; {noprice} sans prix connu")
+
+
 def main():
     up, past = collect()
     print(f"SEO links : {len(up)} à venir, {len(past)} passées (fiches existantes)")
@@ -261,6 +350,7 @@ def main():
                    block(f"Sorties <span>{CAT_NAMES[slug]}</span>", body), ["<footer", "</body>"])
     add_to_sitemap()
     add_nav_links()
+    fix_product_offers()
 
 
 if __name__ == "__main__":
