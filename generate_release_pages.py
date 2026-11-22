@@ -187,6 +187,10 @@ def editorial_text(r: dict) -> str:
     elif resell_names:
         parts.append("Aucun retailer officiel confirmé pour l'instant — des liens resell sont disponibles ci-dessous.")
 
+    # Texte rédactionnel propre à la paire (histoire du modèle, matières, conseil de taille), s'il existe
+    extra = (r.get("editorial") or "").strip()
+    if extra:
+        return " ".join(parts) + f'<p style="margin-top:.9rem">{escape(extra)}</p>'
     return " ".join(parts)
 
 
