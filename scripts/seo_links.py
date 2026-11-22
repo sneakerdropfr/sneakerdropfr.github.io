@@ -165,7 +165,7 @@ footer a{{color:var(--muted)}}
 <a href="/categories/nike.html">Nike</a><a href="/categories/jordan.html">Jordan</a><a href="/categories/adidas.html">Adidas</a><a href="/categories/new-balance.html">New Balance</a>
 </div></header>
 <h1>Toutes les <span>sorties</span> sneakers</h1>
-<p class="intro">{n} paires : les {len(up)} prochaines sorties, puis les {len(past)} sorties passées, mois par mois.</p>
+<p class="intro">Le calendrier complet des sorties sneakers en France : Nike, Air Jordan, Adidas, New Balance, ASICS, Vans, Puma et bien d'autres. Chaque fiche donne la date de sortie, le prix retail et les liens vers les magasins officiels qui proposent la paire, sans revendeurs. On y retrouve {n} paires : les {len(up)} prochaines sorties, puis les {len(past)} sorties passées, mois par mois.</p>
 {CSS}
 <section class="seo-links"><h2>Sorties <span>à venir</span></h2>{grouped(up)}</section>
 <section class="seo-links"><h2>Sorties <span>passées</span></h2>{grouped(past)}</section>
@@ -187,6 +187,51 @@ def add_to_sitemap():
              f"    <changefreq>daily</changefreq>\n    <priority>0.8</priority>\n  </url>\n")
     open(p, "w", encoding="utf-8").write(s.replace("</urlset>", entry + "</urlset>", 1))
     print("  sitemap.xml : toutes-les-sorties.html ajoutée")
+
+
+SKIP_DIRS = {".git", "_site", "tests", "node_modules", "assets", "__pycache__", "scripts", ".github"}
+
+
+def add_nav_links():
+    """Lien « Toutes les sorties » dans le menu (header__nav) et le pied de page de chaque page HTML.
+    Dossier de travail seulement, au déploiement : rien n'est commité, les fiches ne sont pas régénérées."""
+    nav_n = foot_n = 0
+    for dp, dns, fns in os.walk(ROOT):
+        dns[:] = [d for d in dns if d not in SKIP_DIRS]
+        for f in fns:
+            if not f.endswith(".html") or f == ARCHIVE:
+                continue
+            path = os.path.join(dp, f)
+            try:
+                s = open(path, encoding="utf-8").read()
+            except Exception:
+                continue
+            o = s
+            m = re.search(r'<nav class="header__nav">(.*?)</nav>', s, re.S)
+            if m and ARCHIVE not in m.group(1):
+                a = re.search(r'<a href="/?sorties\.html"([^>]*)>[^<]*</a>', m.group(1))
+                if a:
+                    attrs = a.group(1)
+                    if "hbtn--keep" in attrs and ".hbtn--desktop" in s and "hbtn--desktop" not in attrs:
+                        attrs = attrs.replace("hbtn--keep", "hbtn--keep hbtn--desktop", 1)
+                    link = f'\n        <a href="/{ARCHIVE}"{attrs}>Toutes les sorties</a>'
+                    pos = m.start(1) + a.end()
+                    s = s[:pos] + link + s[pos:]
+                    nav_n += 1
+            fm = re.search(r'<footer\b.*?</footer>', s, re.S)
+            if fm and ARCHIVE not in fm.group(0):
+                sm = re.search(r'<a href="/?sitemap\.xml"([^>]*)>Sitemap</a>', fm.group(0))
+                if sm:
+                    pos = fm.start() + sm.end()
+                    s = s[:pos] + f' — <a href="/{ARCHIVE}"{sm.group(1)}>Toutes les sorties</a>' + s[pos:]
+                else:
+                    pos = fm.end() - len("</footer>")
+                    s = s[:pos] + (f'<div style="text-align:center;font-size:.75rem;margin:.5rem 0">'
+                                   f'<a href="/{ARCHIVE}" style="color:inherit">Toutes les sorties</a></div>\n  ') + s[pos:]
+                foot_n += 1
+            if s != o:
+                open(path, "w", encoding="utf-8").write(s)
+    print(f"  lien Toutes les sorties : menu {nav_n} page(s), pied de page {foot_n} page(s)")
 
 
 def main():
@@ -212,6 +257,7 @@ def main():
             inject(f"categories/{slug}.html",
                    block(f"Sorties <span>{CAT_NAMES[slug]}</span>", body), ["<footer", "</body>"])
     add_to_sitemap()
+    add_nav_links()
 
 
 if __name__ == "__main__":
