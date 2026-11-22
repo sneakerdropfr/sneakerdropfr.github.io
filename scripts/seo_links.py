@@ -208,6 +208,9 @@ def add_nav_links():
                 continue
             o = s
             m = re.search(r'<nav class="header__nav">(.*?)</nav>', s, re.S)
+            if m and ">BSTN Deals</a>" in m.group(1):
+                s = s[:m.start(1)] + m.group(1).replace(">BSTN Deals</a>", ">Sneakers Deals</a>") + s[m.end(1):]
+                m = re.search(r'<nav class="header__nav">(.*?)</nav>', s, re.S)
             if m and ARCHIVE not in m.group(1):
                 a = re.search(r'<a href="/?sorties\.html"([^>]*)>[^<]*</a>', m.group(1))
                 if a:
