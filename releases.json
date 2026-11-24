@@ -1,21 +1,5 @@
 [
   {
-    "id": "travis-scott-rockstar-nike-air-force-1-low-07-gta-6-ff-jj7603-900",
-    "slug": "travis-scott-rockstar-nike-air-force-1-low-07-gta-6-ff-jj7603-900",
-    "featured": false,
-    "year": 2026,
-    "sku": "JJ7603-900",
-    "title": "Travis Scott x Rockstar x Nike Air Force 1 Low ’07 - F&F GTA 6",
-    "brand": "Nike",
-    "date": "2026-11-23",
-    "date_display": "23 novembre 2026",
-    "price": 130,
-    "image_url": "/images/JJ7603-900.webp",
-    "wtc_url": "https://www.whentocop.fr/drops/travis-scott-rockstar-nike-air-force-1-low-07-gta-6-ff-jj7603-900",
-    "retailers": [],
-    "silhouette": "Air Force 1"
-  },
-  {
     "id": "nike-ja-4-blur-im4135-501",
     "slug": "nike-ja-4-blur-im4135-501",
     "featured": false,
@@ -427,6 +411,28 @@
     ],
     "silhouette": "Air Jordan 4",
     "colorway": "BRED"
+  },
+  {
+    "id": "travis-scott-rockstar-nike-air-force-1-low-07-gta-6-ff-jj7603-900",
+    "slug": "travis-scott-rockstar-nike-air-force-1-low-07-gta-6-ff-jj7603-900",
+    "featured": false,
+    "year": 2026,
+    "sku": "JJ7603-900",
+    "title": "Travis Scott x Rockstar x Nike Air Force 1 Low ’07 - F&F GTA 6",
+    "brand": "Nike",
+    "date": "2026-11-30",
+    "date_display": "30 novembre 2026",
+    "price": 130,
+    "image_url": "/images/JJ7603-900.webp",
+    "wtc_url": "https://www.whentocop.fr/drops/travis-scott-rockstar-nike-air-force-1-low-07-gta-6-ff-jj7603-900",
+    "retailers": [
+      {
+        "name": "Geturbrick",
+        "url": "https://geturbrick.com/products/nike-air-force-1-low-travis-scott-x-rockstar-games-gta-6-multi-color?variant=55919860842833&utm_source=whentocop&utm_medium=geturbrick-JJ7603-900-wtc-tech",
+        "price": "7285€"
+      }
+    ],
+    "silhouette": "Air Force 1"
   },
   {
     "id": "taller-de-rafa-nike-air-max-goadome-low-mosswood-brown-phantom-iu4876-200",
