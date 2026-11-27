@@ -902,7 +902,23 @@ def related_html(r: dict, all_releases: list) -> str:
     )
 
 
+AFFILIATE_FIRST = ("bstn", "solebox", "snipes")
+
+
+def affiliates_first(rets: list) -> list:
+    """Retailers affiliés en tête (BSTN, Solebox, Snipes), les autres gardent leur ordre."""
+    def rank(ret):
+        n = (ret.get("name") or "").strip().lower()
+        for i, a in enumerate(AFFILIATE_FIRST):
+            if n.startswith(a):
+                return i
+        return len(AFFILIATE_FIRST)
+    return sorted(rets, key=rank)
+
+
 def render_page(r: dict, all_releases: list | None = None) -> str:
+    if r.get("retailers"):
+        r = dict(r, retailers=affiliates_first(r["retailers"]))
     rid = r.get("id", "")
     title = r.get("title", "").strip() or rid
     brand = (r.get("brand") or "").strip()
