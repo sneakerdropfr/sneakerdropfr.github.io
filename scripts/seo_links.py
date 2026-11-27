@@ -338,12 +338,157 @@ def fix_product_offers():
     print(f"  JSON-LD offers : {fixed} fiche(s) corrigée(s), dont {added} sans retailer ; {noprice} sans prix connu")
 
 
+# --- Liens affiliés : uniquement les tiens (Awin 2855487) ou des liens directs vers le magasin ---
+MY_AWIN = "2855487"
+# Programmes Awin acceptés : awinmid -> domaine du magasin. Ajouter ici chaque nouvelle acceptation.
+AWIN_OK = {"104979": "bstn.com", "20964": "solebox.com", "122628": "snipes.com", "121522": "reebok"}
+_TRACK = re.compile(r"^(utm_.*|cp|cjevent|cjdata|im_ref|irclickid|irgwc|awc|sv1|sv_.*|ranmid|raneaid|ransiteid|siteid|"
+                    r"clickref|wgu|wgexpiry|sid|fbclid|gclid|_ga|mc_.*|irpid|sharedid|afsrc)$", re.I)
+try:
+    _MAP = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "direct_links.json"), encoding="utf-8"))
+except Exception:
+    _MAP = {}
+
+
+def _strip(u):
+    from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+    p = urlsplit(u)
+    q = [(k, v) for k, v in parse_qsl(p.query, keep_blank_values=True)
+         if not _TRACK.match(k) and not re.search(r"737541|whentocop", v, re.I) and not k.lower().startswith("ns_")]
+    return urlunsplit((p.scheme, p.netloc, p.path, urlencode(q, safe=":/,"), p.fragment))
+
+
+def _wrap(u):
+    """Lien direct vers un magasin dont le programme Awin est accepté -> lien affilié à ton compte."""
+    from urllib.parse import urlsplit, quote
+    h = urlsplit(u).netloc.lower()
+    for mid, dom in AWIN_OK.items():
+        if dom in h:
+            return f"https://www.awin1.com/cread.php?awinaffid={MY_AWIN}&awinmid={mid}&ued={quote(u, safe='')}"
+    return u
+
+
+def direct_url(u):
+    if not isinstance(u, str) or not u.startswith("http"):
+        return u
+    from urllib.parse import urlsplit, parse_qs, unquote
+    p = urlsplit(u); h = p.netloc.lower(); q = parse_qs(p.query)
+    g = lambda k: (q.get(k) or [""])[0]
+    t = None
+    if "awin1.com" in h:
+        if "cread.php" in p.path:
+            aff, mid = g("awinaffid"), g("awinmid")
+            if aff == MY_AWIN or mid in AWIN_OK:
+                from urllib.parse import quote
+                ued = g("ued")
+                ued2 = _strip(ued) if ued and re.search(r"737541|whentocop", ued, re.I) else ued
+                if aff == MY_AWIN and ued2 == ued:
+                    return u
+                t = f"https://www.awin1.com/cread.php?awinaffid={MY_AWIN}&awinmid={mid}"
+                return t + (f"&ued={quote(ued2, safe='')}" if ued2 else "")
+            t = g("ued") or g("p")
+        elif "pclick.php" in p.path:
+            if g("a") == MY_AWIN:
+                return u
+            t = _MAP.get(u)
+            if not t:
+                return u
+    elif "link.whentocop.fr" in h:
+        t = _MAP.get(u)
+        if not t:
+            return u
+    elif re.search(r"(dpbolvw\.net|tkqlhce\.com|kqzyfj\.com|jdoqocy\.com|anrdoezrs\.net)$", h):
+        t = g("url")
+    elif "linksynergy.com" in h:
+        t = g("murl")
+    elif h.endswith("pxf.io") or h.endswith("sjv.io"):
+        t = g("u")
+    elif h == "prf.hn" or h.endswith(".prf.hn"):
+        m = re.search(r"/destination:([^/?#]+)", p.path + ("?" + p.query if p.query else ""))
+        t = unquote(m.group(1)) if m else None
+    elif "ikhnaie" in h:
+        t = g("wgtarget")
+    if t:
+        t = unquote(t) if t.startswith("http%3A") or t.startswith("https%3A") else t
+        if not t.startswith("http"):
+            return u
+        return _wrap(_strip(t))
+    if re.search(r"whentocop|wtc-tech|irpid=2379306|737541", u, re.I) and "whentocop" not in h:
+        return _strip(u)
+    return u
+
+
+_URL_RE = re.compile(r"""(["'])(https?://(?:\\.|(?!\1)[^\\])*?)\1""")
+
+
+def _fix_text(s):
+    from html import unescape
+    def rep(m):
+        raw, tail = m.group(2), ""
+        if len(raw) > 3000:
+            return m.group(0)
+        if "\n" in raw:
+            raw, tail = raw.split("\n", 1)
+            tail = "\n" + tail
+        bs = "\\" in raw
+        v = raw.replace('\\"', '"').replace("\\/", "/") if bs else raw
+        v = unescape(v) if "&" in v else v
+        w = direct_url(v)
+        if w == v:
+            return m.group(0)
+        w = w.strip()
+        if "&amp;" in raw or "&quot;" in raw or "&#" in raw:
+            w = w.replace("&", "&amp;")
+        if bs:
+            w = w.replace('"', '\\"')
+        return m.group(1) + w + tail + m.group(1)
+    return _URL_RE.sub(rep, s)
+
+
+def _fix_json(x):
+    if isinstance(x, list):
+        return [_fix_json(v) for v in x]
+    if isinstance(x, dict):
+        return {k: _fix_json(v) for k, v in x.items()}
+    if isinstance(x, str) and x.startswith("http"):
+        return direct_url(x)
+    return x
+
+
+def fix_affiliate_links():
+    """Au déploiement : remplace les liens affiliés d'autres éditeurs (WhenToCop…) dans les JSON et les pages."""
+    nj = nh = 0
+    for dp, dns, fns in os.walk(ROOT):
+        dns[:] = [d for d in dns if d not in SKIP_DIRS]
+        for f in fns:
+            path = os.path.join(dp, f)
+            if f.endswith(".json") and dp == ROOT:
+                try:
+                    data = json.load(open(path, encoding="utf-8"))
+                except Exception:
+                    continue
+                new = _fix_json(data)
+                if new != data:
+                    json.dump(new, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2); nj += 1
+            elif f.endswith(".html"):
+                try:
+                    s = open(path, encoding="utf-8").read()
+                except Exception:
+                    continue
+                s2 = _fix_text(s)
+                if s2 != s:
+                    open(path, "w", encoding="utf-8").write(s2); nh += 1
+    print(f"  liens affiliés convertis : {nj} JSON, {nh} page(s)")
+
+
+DU_JS = 'var OK={"104979":1,"20964":1,"122628":1,"121522":1},ME="2855487";function du(u){try{var p=new URL(u),h=p.hostname,q=p.searchParams,t=null;if(/awin1\\.com$/.test(h)&&/cread/.test(p.pathname)){var a=q.get("awinaffid");if(a===ME)return u;if(OK[q.get("awinmid")]){q.set("awinaffid",ME);return p.toString()}t=q.get("ued")}else if(/(dpbolvw\\.net|tkqlhce\\.com|kqzyfj\\.com|jdoqocy\\.com|anrdoezrs\\.net)$/.test(h))t=q.get("url");else if(/linksynergy\\.com$/.test(h))t=q.get("murl");else if(/(pxf|sjv)\\.io$/.test(h))t=q.get("u");else if(/ikhnaie/.test(h))t=q.get("wgtarget");else if(/prf\\.hn$/.test(h)){var m=u.match(/destination:([^/?#]+)/);t=m?decodeURIComponent(m[1]):null}if(t&&t.indexOf("http")===0)u=t;else if(/awin1\\.com$/.test(h))return u;var r=new URL(u),ch=false;Array.from(r.searchParams.keys()).forEach(function(k){var v=r.searchParams.get(k)||"";if(/^(utm_|cjevent|cjdata|im_ref|irclickid|irpid|awc|sv1|sv_|ns_|clickref|sharedid|afsrc|wgu|wgexpiry)/i.test(k)||/737541|whentocop/i.test(v)){r.searchParams.delete(k);ch=true}});return ch?r.toString():u}catch(e){return u}}'
+
 AFF_JS = ('<script id="aff-first">(function(){var A=["bstn","solebox","snipes"];'
           'function rk(r){var n=((r&&r.name)||"").toLowerCase().trim();for(var i=0;i<A.length;i++){if(n.indexOf(A[i])===0)return i}return 9}'
           'function fix(x,d){if(!x||typeof x!=="object"||d>6)return x;if(Array.isArray(x)){for(var i=0;i<x.length;i++)fix(x[i],d+1);return x}'
           'if(Array.isArray(x.retailers)&&x.retailers.length>1){x.retailers=x.retailers.map(function(r,i){return[r,i]})'
           '.sort(function(a,b){return rk(a[0])-rk(b[0])||a[1]-b[1]}).map(function(p){return p[0]})}'
-          'for(var k in x){if(x[k]&&typeof x[k]==="object")fix(x[k],d+1)}return x}'
+          'for(var k in x){if(typeof x[k]==="string"&&x[k].indexOf("http")===0)x[k]=du(x[k]);else if(x[k]&&typeof x[k]==="object")fix(x[k],d+1)}return x}' + DU_JS +
           'var j=Response.prototype.json;Response.prototype.json=function(){return j.call(this).then(function(v){try{return fix(v,0)}catch(e){return v}})}})();</script>')
 
 
@@ -431,6 +576,7 @@ def hide_incomplete():
 
 def main():
     hide_incomplete()
+    fix_affiliate_links()
     up, past = collect()
     print(f"SEO links : {len(up)} à venir, {len(past)} passées (fiches existantes)")
     if not up and not past:
