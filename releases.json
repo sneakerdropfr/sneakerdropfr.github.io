@@ -1171,7 +1171,8 @@
         "url": "http://asphaltgold.com/products/adidas-stan-smith-freizeit-strewo-strewo-dark-brown",
         "price": "139€"
       }
-    ]
+    ],
+    "silhouette": "Stan Smith"
   },
   {
     "id": "nike-sb-dunk-low-pro-champagne-iq0431-300",
@@ -1244,7 +1245,8 @@
         "url": "https://geturbrick.com/products/nike-air-max-goadome-low-foam-sp-black-dark-smoke-grey?variant=55894352626001",
         "price": "490€"
       }
-    ]
+    ],
+    "colorway": "Black/Smoke/Grey"
   },
   {
     "id": "solefly-air-jordan-5-retro-og-black-aurora-green-iu0734-001",
@@ -1290,7 +1292,9 @@
         "url": "https://geturbrick.com/products/jordan-5-retro-solefly-black-aurora-green?variant=55894346072401",
         "price": "470€"
       }
-    ]
+    ],
+    "silhouette": "Air Jordan 5",
+    "colorway": "Black/Green"
   },
   {
     "id": "vans-old-skool-36-pearlized-racing-red-vn000e8vizq",
