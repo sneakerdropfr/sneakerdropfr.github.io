@@ -369,7 +369,68 @@ def add_affiliate_sort():
     print(f"  tri affiliés en tête : {n} page(s)")
 
 
+def _incomplete(e):
+    """Paire sans aucun magasin et sans date confirmée (ou à venir sans prix) : fiche vide, jamais affichée."""
+    if not isinstance(e, dict) or not e.get("id") or e.get("retailers"):
+        return False
+    d = str(e.get("date") or "").strip()
+    m = re.match(r"(\d{2})/(\d{2})/(\d{4})$", d)
+    if m:
+        d = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+    if not re.match(r"\d{4}-\d{2}-\d{2}$", d):
+        return True
+    return d >= date.today().isoformat() and not _num(e.get("price"))
+
+
+def hide_incomplete():
+    """Au déploiement (dossier de travail, sans commit) : retire des flux JSON, des fiches et du sitemap
+    les paires vides (ex. anciennes entrées Sneaker News sans magasin ni date)."""
+    blocked = set()
+    try:
+        blocked |= set(json.load(open(os.path.join(ROOT, "scripts", "fiches_masquees.json"), encoding="utf-8")))
+    except Exception:
+        pass
+
+    def clean(x):
+        if isinstance(x, list):
+            out = []
+            for v in x:
+                if isinstance(v, dict) and v.get("id") and (_incomplete(v) or v["id"] in blocked):
+                    blocked.add(v["id"]); continue
+                out.append(clean(v))
+            return out
+        if isinstance(x, dict):
+            return {k: clean(v) for k, v in x.items()}
+        return x
+
+    for fn in ("releases.json", "releases_past.json", "weekly_data.json", "bstn_upcoming.json"):
+        p = os.path.join(ROOT, fn)
+        if not os.path.exists(p):
+            continue
+        try:
+            data = json.load(open(p, encoding="utf-8"))
+        except Exception:
+            continue
+        new = clean(data)
+        if new != data:
+            json.dump(new, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    n = 0
+    for i in blocked:
+        f = os.path.join(ROOT, "sorties", i + ".html")
+        if os.path.exists(f):
+            os.remove(f); n += 1
+    sm = os.path.join(ROOT, "sitemap.xml")
+    if os.path.exists(sm) and blocked:
+        s = open(sm, encoding="utf-8").read()
+        s2 = re.sub(r"\s*<url>\s*<loc>[^<]*/sorties/([^<]+)\.html</loc>.*?</url>",
+                    lambda m: "" if m.group(1) in blocked else m.group(0), s, flags=re.S)
+        if s2 != s:
+            open(sm, "w", encoding="utf-8").write(s2)
+    print(f"  paires incomplètes masquées : {len(blocked)} ({n} fiche(s) retirée(s))")
+
+
 def main():
+    hide_incomplete()
     up, past = collect()
     print(f"SEO links : {len(up)} à venir, {len(past)} passées (fiches existantes)")
     if not up and not past:
