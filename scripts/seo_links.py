@@ -338,6 +338,37 @@ def fix_product_offers():
     print(f"  JSON-LD offers : {fixed} fiche(s) corrigée(s), dont {added} sans retailer ; {noprice} sans prix connu")
 
 
+AFF_JS = ('<script id="aff-first">(function(){var A=["bstn","solebox","snipes"];'
+          'function rk(r){var n=((r&&r.name)||"").toLowerCase().trim();for(var i=0;i<A.length;i++){if(n.indexOf(A[i])===0)return i}return 9}'
+          'function fix(x,d){if(!x||typeof x!=="object"||d>6)return x;if(Array.isArray(x)){for(var i=0;i<x.length;i++)fix(x[i],d+1);return x}'
+          'if(Array.isArray(x.retailers)&&x.retailers.length>1){x.retailers=x.retailers.map(function(r,i){return[r,i]})'
+          '.sort(function(a,b){return rk(a[0])-rk(b[0])||a[1]-b[1]}).map(function(p){return p[0]})}'
+          'for(var k in x){if(x[k]&&typeof x[k]==="object")fix(x[k],d+1)}return x}'
+          'var j=Response.prototype.json;Response.prototype.json=function(){return j.call(this).then(function(v){try{return fix(v,0)}catch(e){return v}})}})();</script>')
+
+
+def add_affiliate_sort():
+    """Pages qui affichent les sorties depuis les JSON : retailers affiliés (BSTN, Solebox, Snipes) en tête,
+    quel que soit l'ordre des données. Dossier de travail seulement, au déploiement."""
+    n = 0
+    for dp, dns, fns in os.walk(ROOT):
+        dns[:] = [d for d in dns if d not in SKIP_DIRS and d != "sorties"]
+        for f in fns:
+            if not f.endswith(".html"):
+                continue
+            path = os.path.join(dp, f)
+            try:
+                s = open(path, encoding="utf-8").read()
+            except Exception:
+                continue
+            if 'id="aff-first"' in s or ".json()" not in s or "<head>" not in s:
+                continue
+            s = s.replace("<head>", "<head>\n" + AFF_JS, 1)
+            open(path, "w", encoding="utf-8").write(s)
+            n += 1
+    print(f"  tri affiliés en tête : {n} page(s)")
+
+
 def main():
     up, past = collect()
     print(f"SEO links : {len(up)} à venir, {len(past)} passées (fiches existantes)")
@@ -363,6 +394,7 @@ def main():
     add_to_sitemap()
     add_nav_links()
     fix_product_offers()
+    add_affiliate_sort()
 
 
 if __name__ == "__main__":
