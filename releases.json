@@ -746,7 +746,13 @@
     "price": 312,
     "image_url": "/images/HRK102W26.webp",
     "wtc_url": "https://www.whentocop.fr/drops/comme-des-garcons-homme-new-balance-1890a-beige-orange-hrk102w26",
-    "retailers": [],
+    "retailers": [
+      {
+        "name": "BSTN",
+        "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fcomme-des-garcons-homme-x-new-balance-hr-k102-w26-1-0360074",
+        "price": "312€"
+      }
+    ],
     "colorway": "Beige/Orange"
   },
   {
