@@ -86,6 +86,16 @@
       "wtc_url": "https://www.whentocop.fr/drops/pharrell-adidas-adistar-jellyfish-triple-black-kj3841",
       "retailers": [
         {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fs%2Freleases",
+          "price": "300€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&clickref=adidas-Originals-Adistar-Jellyfish&ued=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fp%2Fadidas-originals-adistar-jellyfish-noir-141425",
+          "price": "300€"
+        },
+        {
           "name": "Adidas Confirmed",
           "url": "https://www.adidas.fr/chaussure-virginia-adistar-jellyfish-by-pharrell/KJ3841.html",
           "price": "300€"
@@ -121,11 +131,6 @@
           "price": "300€"
         },
         {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fs%2Freleases",
-          "price": "300€"
-        },
-        {
           "name": "Asphaltgold",
           "url": "https://www.asphaltgold.com/fr/products/adidas-x-pharrell-williams-adistar-jellyfish-royal-blue-core-black-focus-olive",
           "price": "300€"
@@ -141,8 +146,8 @@
           "price": "340€"
         },
         {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&clickref=adidas-Originals-Adistar-Jellyfish&ued=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fp%2Fadidas-originals-adistar-jellyfish-noir-141425",
+          "name": "JD Sports",
+          "url": "https://www.jdsports.fr/product/noir-adidas-originals-x-pharrell-adistar-jellyfish/19786774_jdsportsfr/",
           "price": "300€"
         }
       ],
@@ -163,6 +168,21 @@
       "wtc_url": "https://www.whentocop.fr/drops/pharrell-williams-adidas-adistar-jellyfish-triple-white-kh6730",
       "retailers": [
         {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=KH6730&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fadidas-x-pharrell-williams-adistar-jellyfish-kh6730-0355130",
+          "price": "300€"
+        },
+        {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fadidas-originals-x-pharrell-adistar-jellyfish-beige-99822",
+          "price": "300€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&ued=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-4-retro-og-bred-toddler-noir-140831",
+          "price": "300€"
+        },
+        {
           "name": "Adidas Confirmed",
           "url": "https://www.adidas.fr/chaussure-pw-adistar-jellyfish/KH6730.html",
           "price": "300€"
@@ -170,11 +190,6 @@
         {
           "name": "Footshop",
           "url": "https://releases.footshop.com/adidas-x-pharrell-williams-adistar-jellyfish-lmrJrJ8BhkDru117QSYP",
-          "price": "300€"
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=KH6730&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fadidas-x-pharrell-williams-adistar-jellyfish-kh6730-0355130",
           "price": "300€"
         },
         {
@@ -203,18 +218,8 @@
           "price": "300€"
         },
         {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fadidas-originals-x-pharrell-adistar-jellyfish-beige-99822",
-          "price": "300€"
-        },
-        {
           "name": "Asphaltgold",
           "url": "https://www.asphaltgold.com/fr/products/adidas-x-pharrell-williams-adistar-jellyfish-chalk-white-off-white-clear-brown",
-          "price": "300€"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&ued=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-4-retro-og-bred-toddler-noir-140831",
           "price": "300€"
         },
         {
@@ -236,6 +241,11 @@
           "name": "Geturbrick",
           "url": "https://geturbrick.com/products/adidas-adistar-jellyfish-pharrell-williams-white?variant=55878749749585",
           "price": "310€"
+        },
+        {
+          "name": "JD Sports",
+          "url": "https://www.jdsports.fr/product/blanc-adidas-originals-x-pharrell-williams-adistar-jellyfish/19764672_jdsportsfr/",
+          "price": "300€"
         }
       ],
       "colorway": "White"
@@ -325,6 +335,11 @@
       "wtc_url": "https://www.whentocop.fr/drops/nike-kobe-9-em-low-protro-philippines-io6262-600",
       "retailers": [
         {
+          "name": "Solebox",
+          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnike-kobe-elite-9-em-protro-philippines-multicolore-105946",
+          "price": "190€"
+        },
+        {
           "name": "Nike SNKRS",
           "url": "https://www.nike.com/fr/launch/t/kobe-9-em-low-protro-laser-crimson-and-obsidian",
           "price": "190€"
@@ -332,11 +347,6 @@
         {
           "name": "Foot Locker",
           "url": "https://www.footlocker.fr/fr/release-calendar/nike/314110113504.html",
-          "price": "190€"
-        },
-        {
-          "name": "Solebox",
-          "url": "https://www.awin1.com/cread.php?awinmid=20964&awinaffid=2855487&ued=https%3A%2F%2Fwww.solebox.com%2Ffr-fr%2Fp%2Fnike-kobe-elite-9-em-protro-philippines-multicolore-105946",
           "price": "190€"
         }
       ],
@@ -357,6 +367,11 @@
       "wtc_url": "https://www.whentocop.fr/drops/nike-rejuven8-run-4x4-wmns-linen-natural-iu3143-200",
       "retailers": [
         {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IU3143-200&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-rejuven8-run-4x4-sp-iu3143-200-0368314",
+          "price": "140€"
+        },
+        {
           "name": "Nike SNKRS",
           "url": "https://www.nike.com/fr/launch/t/women-s-rejuven8-run-44-linen-and-natural",
           "price": "140€"
@@ -364,11 +379,6 @@
         {
           "name": "FootDistrict",
           "url": "https://footdistrict.com/fr/products/nike-womens-rejuven8-run-4x4-sp-linen-iu3143-200",
-          "price": "140€"
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IU3143-200&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fp%2Fnike-rejuven8-run-4x4-sp-iu3143-200-0368314",
           "price": "140€"
         },
         {
@@ -461,6 +471,16 @@
       "wtc_url": "https://www.whentocop.fr/drops/air-jordan-4-bred-2026-fv5029-001",
       "retailers": [
         {
+          "name": "BSTN",
+          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IX8180-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fjordan-air-jordan-4-retro-og-ix8180-001-0361225",
+          "price": "210€"
+        },
+        {
+          "name": "Snipes",
+          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&ued=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-4-retro-noir-105813",
+          "price": "210€"
+        },
+        {
           "name": "Nike SNKRS",
           "url": "https://www.nike.com/fr/launch/t/air-jordan-4-bred",
           "price": "210€"
@@ -473,11 +493,6 @@
         {
           "name": "FootDistrict",
           "url": "https://footdistrict.com/fr/products/air-jordan-4-retro-og-bred-ix8180-001",
-          "price": "210€"
-        },
-        {
-          "name": "BSTN",
-          "url": "https://www.awin1.com/cread.php?awinmid=104979&awinaffid=2855487&clickref=IX8180-001&ued=https%3A%2F%2Fwww.bstn.com%2Feu_fr%2Fr%2Fjordan-air-jordan-4-retro-og-ix8180-001-0361225",
           "price": "210€"
         },
         {
@@ -508,11 +523,6 @@
         {
           "name": "Offspring",
           "url": "https://www.offspring.co.uk/view/product/offspring_catalog/5,22/5150258009",
-          "price": "210€"
-        },
-        {
-          "name": "Snipes",
-          "url": "https://www.awin1.com/cread.php?awinmid=122628&awinaffid=2855487&ued=https%3A%2F%2Fwww.snipes.com%2Ffr-fr%2Fp%2Fjordan-air-jordan-4-retro-noir-105813",
           "price": "210€"
         },
         {
@@ -740,7 +750,8 @@
       "price": 312,
       "image_url": "/images/HRK102W26.webp",
       "wtc_url": "https://www.whentocop.fr/drops/comme-des-garcons-homme-new-balance-1890a-beige-orange-hrk102w26",
-      "retailers": []
+      "retailers": [],
+      "colorway": "Beige/Orange"
     },
     {
       "id": "hyperice-nike-air-zoom-hyperslide-light-orewood-brown-sail-iz6715-100",
@@ -761,7 +772,8 @@
           "url": "https://www.nike.com/fr/t/air-zoom-hyperslide-nike-x-hyperice-ZEl115MY/IZ6715-100",
           "price": "260€"
         }
-      ]
+      ],
+      "colorway": "Brown/Sail"
     },
     {
       "id": "hyperice-nike-air-zoom-hyperslide-black-iz6715-001",
@@ -782,7 +794,8 @@
           "url": "https://www.nike.com/fr/t/air-zoom-hyperslide-nike-x-hyperice-ZEl115MY/IZ6715-001",
           "price": "260€"
         }
-      ]
+      ],
+      "colorway": "Black"
     },
     {
       "id": "dime-asics-gel-sd-lyte-glacier-grey-1203b167-020",
@@ -832,6 +845,11 @@
           "name": "Geturbrick",
           "url": "https://geturbrick.com/products/asics-gel-sd-lyte-dime-glacier-grey?variant=55894341288273",
           "price": "450€"
+        },
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=1203B167-020&wgtarget=https://footdistrict.com/fr/products/asics-x-dime-gel-sd-lyte-glacier-grey-1203b167-020",
+          "price": "200€"
         }
       ],
       "colorway": "Grey"
@@ -884,8 +902,14 @@
           "name": "Geturbrick",
           "url": "https://geturbrick.com/products/asics-gel-sd-lyte-dime-black-carbon?variant=55894338797905",
           "price": "450€"
+        },
+        {
+          "name": "FootDistrict",
+          "url": "https://assets.ikhnaie.link/click.html?wgcampaignid=1455575&wgprogramid=11969&clickref=1203B167-001&wgtarget=https://footdistrict.com/fr/products/asics-x-dime-gel-sd-lyte-black-carbon-1203b167-001",
+          "price": "200€"
         }
-      ]
+      ],
+      "colorway": "Black"
     },
     {
       "id": "metalwood-adidas-adipower-climaproof-boa-golf-grey-alumina-kj0451",
@@ -921,8 +945,9 @@
           "url": "https://footdistrict.com/fr/products/adidas-originals-x-metalwood-adipower-climaproof-boa-golf-kj0451",
           "price": "190€"
         }
-      ]
+      ],
+      "colorway": "Grey"
     }
   ],
-  "generated_at": "2026-11-27T01:12:21.719112Z"
+  "generated_at": "2026-11-28T01:11:17.116180Z"
 }
